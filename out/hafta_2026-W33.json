@@ -1,0 +1,133 @@
+{
+ "rows": [],
+ "stats": {
+  "kaynak": 34,
+  "erisilemeyen": 18,
+  "ham": 291,
+  "on_eleme_gecti": 66,
+  "makale_acildi": 65,
+  "tarihsiz_elendi": 40,
+  "pencere_disi": 64,
+  "kapsam_disi": 187,
+  "tekrar": 0,
+  "kabul": 0
+ },
+ "unreachable": [
+  [
+   "Danieli",
+   "HTTP 403"
+  ],
+  [
+   "SMS group",
+   "HTTP 403"
+  ],
+  [
+   "Fives Group",
+   "HTTP 404"
+  ],
+  [
+   "Redex Group",
+   "HTTP 404"
+  ],
+  [
+   "Butech Bliss",
+   "HTTP 404"
+  ],
+  [
+   "Herkules Group",
+   "HTTP 404"
+  ],
+  [
+   "Achenbach Buschhutten",
+   "HTTP 404"
+  ],
+  [
+   "Drever International",
+   "HTTP 403"
+  ],
+  [
+   "ABB Metals",
+   "HTTP 404"
+  ],
+  [
+   "ISRA Vision (Atlas Copco)",
+   "HTTP 404"
+  ],
+  [
+   "Cognex",
+   "HTTP 429"
+  ],
+  [
+   "Sarralle",
+   "URLError: <urlopen error timed out>"
+  ],
+  [
+   "Bronx International",
+   "URLError: <urlopen error timed out>"
+  ],
+  [
+   "Steel Times International",
+   "HTTP 403"
+  ],
+  [
+   "SteelTurk",
+   "URLError: <urlopen error [Errno -2] Name or service not known>"
+  ],
+  [
+   "Steel Radar",
+   "HTTP 404"
+  ],
+  [
+   "Kallanish",
+   "HTTP 404"
+  ],
+  [
+   "Magnetics Magazine",
+   "HTTP 404"
+  ]
+ ],
+ "kinds": {
+  "danieli": "oem",
+  "tenova": "oem",
+  "primetals": "oem",
+  "johncockerill": "oem",
+  "andritz": "oem",
+  "smsgroup": "oem",
+  "fives": "oem",
+  "clecim": "oem",
+  "redex": "oem",
+  "butechbliss": "oem",
+  "herkules": "oem",
+  "achenbach": "oem",
+  "sundwig": "oem",
+  "ebner": "oem",
+  "drever": "oem",
+  "nseng": "oem",
+  "abbmetals": "oem",
+  "isravision": "oem",
+  "cognex": "oem",
+  "sarralle": "oem",
+  "delta": "oem",
+  "bronx": "oem",
+  "steeltimesint": "dergi",
+  "steelturk": "dergi",
+  "steelradar": "dergi",
+  "steelorbis": "dergi",
+  "eurometal": "dergi",
+  "kallanish": "dergi",
+  "gmk": "dergi",
+  "aist": "kurum",
+  "canmaker": "dergi",
+  "magnetics": "dergi",
+  "yieh": "dergi",
+  "worldsteel": "kurum"
+ },
+ "today": "2026-08-11",
+ "window": [
+  "2026-07-21",
+  "2026-08-11"
+ ],
+ "period": "2026-W33",
+ "generated": "2026-08-11 06:09 UTC",
+ "version": "3.0.0"
+}

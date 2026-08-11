@@ -5,6 +5,23 @@
    "satir": 6,
    "stats": {},
    "uretim": "2026-08-11"
+  },
+  {
+   "donem": "2026-W33",
+   "satir": 0,
+   "stats": {
+    "erisilemeyen": 18,
+    "ham": 291,
+    "kabul": 0,
+    "kapsam_disi": 187,
+    "kaynak": 34,
+    "makale_acildi": 65,
+    "on_eleme_gecti": 66,
+    "pencere_disi": 64,
+    "tarihsiz_elendi": 40,
+    "tekrar": 0
+   },
+   "uretim": "2026-08-11 06:09 UTC"
   }
  ],
  "seen": {
