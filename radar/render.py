@@ -331,10 +331,29 @@ def email_html(payload, ozet=None, tech_items=None, sayi=1):
                  'sorununu gösterir.</div>')
     h.append("</td></tr>")
 
+    # Yakin takip: cekirdek kapsam disi ama dikkat cekici yatirim haberleri
+    watch = payload.get("watch", [])
+    if watch:
+        h.append('<tr><td style="padding:20px 28px 0;">'
+                 '<div style="font-size:11px;font-weight:700;color:#5a6270;'
+                 'text-transform:uppercase;letter-spacing:.7px;border-bottom:1px solid '
+                 '#e3e6ea;padding-bottom:6px;margin-bottom:8px;">'
+                 'Radar Kapsamı Dışında Ama Dikkat Çekenler</div>'
+                 '<table role="presentation" width="100%" cellpadding="0" '
+                 'cellspacing="0" style="font-size:12.5px;line-height:1.5;">')
+        for w in watch:
+            h.append('<tr><td style="padding:5px 0;border-bottom:1px solid #eef0f3;">'
+                     '<span style="color:#6b7480;font-size:11px;white-space:nowrap;">%s'
+                     '</span> &nbsp;%s &nbsp;<a href="%s" style="color:#12457a;'
+                     'font-size:11px;">%s →</a></td></tr>'
+                     % (_dmy(w["tarih"]), _e(w["baslik"]), _e(w["url"]),
+                        _e(w["kaynak"])))
+        h.append('</table><div style="font-size:11px;color:#8b93a0;margin-top:6px;">'
+                 'Bu bölümdeki haberler ana kapsam (işlem hatları) dışındadır; genel '
+                 'yatırım hareketini izlemek için verilir.</div></td></tr>')
+
     h.append('<tr><td style="padding:20px 28px 6px;font-size:13.5px;line-height:1.6;'
-             'color:#3d4450;">Detaylı rapor ve veri (CSV) ektedir. Görüş ve '
-             'önerilerinizi memnuniyetle beklerim.<br><br>Saygılarımla,<br>'
-             '<b>Zeynel</b></td></tr>')
+             'color:#3d4450;">Saygılarımla,<br><b>Zeynel</b></td></tr>')
 
     unreach = payload.get("unreachable", [])
     h.append('<tr><td style="background:#f4f6f9;padding:14px 28px;font-size:10.5px;'
@@ -353,6 +372,9 @@ def email_html(payload, ozet=None, tech_items=None, sayi=1):
                 st.get("kapsam_disi", 0), st.get("tekrar", 0), len(unreach),
                 (" (" + ", ".join(a for a, _ in unreach[:8]) + ")") if unreach else ""))
 
+    h.append('<tr><td style="background:#10233c;padding:10px 28px;text-align:center;'
+             'font-size:10.5px;color:#9fb2c8;letter-spacing:.4px;">'
+             'powered by <b style="color:#fff;">Zeynel Abidin Çopur</b></td></tr>')
     h.append("</table></td></tr></table></body></html>")
     return "".join(h)
 

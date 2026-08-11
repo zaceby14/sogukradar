@@ -78,6 +78,7 @@ def cmd_run(a):
     sayi = len(state.load().get("periods", [])) + 1
     tech = payload.get("tech_pool", [])[:3]
     for t in tech:
+        t["konu"] = t["baslik"]
         t["metin"] = compose.tech_blurb(t)
     with open(os.path.join(OUT, "email.html"), "w", encoding="utf-8") as f:
         f.write(render.email_html(payload, None, tech, sayi))

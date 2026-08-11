@@ -149,6 +149,17 @@ def test_compose_ve_mail():
                   "tek tek açılıp", "Lazer kesim"):
         eq(parca in mail, True, "mailde eksik: " + parca)
     eq("Yönetici özeti" in mail, False, "eski baslik kalmamali")
+    eq("powered by" in mail and "Zeynel Abidin Çopur" in mail, True, "powered by")
+    eq("Görüş ve önerilerinizi" in mail, False, "kapanis cumlesi silinmis olmali")
+    payload["watch"] = [{"anahtar": "w1", "tarih": "2026-08-07",
+                         "baslik": "Kocaer Celik ABD'de sirket kuruyor",
+                         "url": "https://x/4", "kaynak": "SteelTurk"}]
+    mail2 = render.email_html(payload, None, [], 5)
+    eq("Dikkat Çekenler" in mail2 and "Kocaer" in mail2, True, "yakin takip bolumu")
+    eq(taxonomy.watch_worthy("Kocaer Çelik ABD'de Üretim İçin Şirket Kuruyor"),
+       True, "watch: TR yatirim")
+    eq(taxonomy.watch_worthy("EREGL Hissesi 42,24 TL'de Kapanış Yaptı"),
+       False, "watch: borsa haberi girmez")
 
 
 def test_line_and_stage():

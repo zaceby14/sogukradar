@@ -105,6 +105,7 @@ def collect(today=None, log=print):
     stats = dict(kaynak=0, erisilemeyen=0, ham=0, on_eleme_gecti=0, makale_acildi=0,
                  tarihsiz_elendi=0, pencere_disi=0, kapsam_disi=0, tekrar=0, kabul=0)
     unreachable, rows, kinds, rejects, tech_pool = [], [], {}, [], []
+    watch, seen_watch, katki = [], set(), {}
     tech_seen = st.get("tech_seen", {})
 
     def maybe_tech(it, date_iso, text, publisher):
@@ -154,12 +155,15 @@ def collect(today=None, log=print):
             if taxonomy.is_junk_title(title):
                 drop("kapsam_disi", it, "haber degil (menu/e-posta/kisa)")
                 continue
-            if taxonomy.HARD_REJECT.search(taxonomy.fold(title)):
+            watchable = taxonomy.watch_worthy(title)
+            if taxonomy.HARD_REJECT.search(taxonomy.fold(title)) and not watchable:
                 drop("kapsam_disi", it, "sert red (baslik)")
                 continue
-            if s["kind"] != "oem" and not taxonomy.SCOPE_GATE.search(taxonomy.fold(blob)):
+            if (s["kind"] != "oem" and not watchable
+                    and not taxonomy.SCOPE_GATE.search(taxonomy.fold(blob))):
                 drop("kapsam_disi", it, "kapsam kapisi (baslik)")
                 continue
+            it["_watch"] = watchable
             # Kaba tarih SADECE maliyet freni icindir: cok eski (arsiv) satirlar
             # icin makale sayfasi hic acilmaz. Esik bilerek genis tutulur -
             # liste sayfasindaki tarih yanlis eslesirse gecerli bir haberi
@@ -197,12 +201,19 @@ def collect(today=None, log=print):
                 continue
             maybe_tech(it, date_iso, text, s["publisher"])
 
+            key = state.norm_key(it["title"], it["url"])
             ok_scope, why = taxonomy.in_scope(it["title"], text[:700])
             if not ok_scope:
+                # Cekirdek kapsama girmiyor ama dikkat cekici yatirim haberi ise
+                # ayri "yakin takip" bolumune alinir - ana tabloyu kirletmez.
+                if it.get("_watch") and key not in seen and len(watch) < 6:
+                    watch.append({"anahtar": key, "tarih": date_iso,
+                                  "baslik": it["title"], "url": it["url"],
+                                  "kaynak": s["publisher"]})
+                    seen_watch.add(key)
                 drop("kapsam_disi", it, why)
                 continue
 
-            key = state.norm_key(it["title"], it["url"])
             if key in seen:
                 drop("tekrar", it)
                 continue
@@ -218,9 +229,11 @@ def collect(today=None, log=print):
                 row["eksik"] = list(row["eksik"]) + ["tarih?"]
             rows.append(row)
             stats["kabul"] += 1
+            katki[s["publisher"]] = katki.get(s["publisher"], 0) + 1
 
     tech_pool.sort(key=lambda t: t["tarih"], reverse=True)
+    watch.sort(key=lambda t: t["tarih"], reverse=True)
     return {"rows": rows, "stats": stats, "unreachable": unreachable,
             "kinds": kinds, "today": today.isoformat(), "rejects": rejects,
-            "tech_pool": tech_pool[:12],
+            "tech_pool": tech_pool[:12], "watch": watch, "kaynak_katki": katki,
             "window": [floor.isoformat(), today.isoformat()]}

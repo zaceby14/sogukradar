@@ -92,10 +92,37 @@ def exec_summary(rows, stats):
     return " ".join(parts)
 
 
+HAT_TR = {
+    "Elektrik celigi hatti": "elektrik çeliği (trafo/motor sacı) üretim hatları",
+    "Tandem soguk hadde (TCM)": "tandem soğuk haddeleme",
+    "Reversing soguk hadde (RCM)": "reversing soğuk haddeleme",
+    "Soguk hadde": "soğuk haddeleme",
+    "Asitleme hatti": "asitleme hatları",
+    "Asit rejenerasyonu (ARP)": "asit geri kazanımı",
+    "Surekli tavlama (CAL)": "sürekli tavlama hatları",
+    "Kutu tavlama (BAF)": "kutu tavlama fırınları",
+    "Galvaniz hatti (CGL)": "sıcak daldırma galvaniz hatları",
+    "Zn-Al-Mg / Galvalume kaplama": "gelişmiş çinko-alüminyum kaplamalar",
+    "Elektro galvaniz (EGL)": "elektro galvaniz hatları",
+    "Teneke hatti (ETL)": "teneke (ambalaj sacı) hatları",
+    "Boyama hatti (CCL)": "boyalı sac hatları",
+    "Temper / skin pass": "temper haddeleme",
+    "Dilme / boy kesme": "dilme ve boy kesme hatları",
+    "Roll shop / merdane": "merdane işleme (roll shop)",
+    "Yuzey muayene (SIS)": "otomatik yüzey muayene sistemleri",
+    "Otomasyon / dijital": "hat otomasyonu ve dijitalleşme",
+    "Serit isleme hatti": "şerit işleme hatları",
+}
+
+
 def tech_blurb(t):
-    """Teknoloji adayi icin kurallı tanitim cumlesi."""
-    hat = t.get("hat") or ""
-    s = t["baslik"]
-    if hat and hat != "Belirsiz":
-        return "%s alaninda: %s (%s, %s)." % (hat, s, t.get("kaynak", ""), t.get("tarih", ""))
-    return "%s (%s, %s)." % (s, t.get("kaynak", ""), t.get("tarih", ""))
+    """Otomatik mail icin KISA TURKCE aciklama. Ozgur ceviri yapilmaz;
+    hangi alana ait oldugu ve kaynagi soylenir - detayi editor oturumu
+    zenginlestirir."""
+    hat = HAT_TR.get(t.get("hat") or "", "")
+    kaynak = t.get("kaynak", "")
+    tarih = t.get("tarih", "")
+    if hat:
+        return ("%s alanında yeni bir geliştirme duyuruldu (%s, %s). "
+                "Ayrıntı kaynak bağlantısında." % (hat.capitalize(), kaynak, tarih))
+    return "Yeni teknoloji duyurusu (%s, %s). Ayrıntı kaynak bağlantısında." % (kaynak, tarih)

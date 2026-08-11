@@ -123,6 +123,8 @@ HARD_REJECT = re.compile(
     r"acquisition|acquires|merger|takeover|"
     # enerji / karbon duyurulari
     r"photovoltaic|solar|wind farm|hydrogen (project|plant)|decarboni|net[- ]zero|"
+    r"green energy deal|green (power|electricity)|power purchase|\bppa\b|"
+    r"renewable (energy|power)|yesil enerji|"
     r"esg report|sustainability report|emission(s)? (target|reduction)|"
     # Turkce
     r"fiyat|ihracat|ithalat|damping|gumruk|kota|bilanco|ciro|kar marj|"
@@ -274,3 +276,40 @@ def in_scope(title, lead=""):
     if not SCOPE_GATE.search(ft + " " + fold(lead)):
         return False, "kapsam_disi"
     return True, ""
+
+
+# ----------------------------------------------------------------------
+# "Radar disi ama dikkat ceken" havuzu: cekirdek kapsama girmeyen fakat
+# Turkiye baglantili somut YATIRIM haberleri. Rapora ayri bolum olarak girer,
+# ana tabloyu kirletmez. (2026-W33 geri bildirimi: "SteelTurk'te bize uygun
+# haber var" - bunlar fiyat/ihracat degil, yatirim eksenli olanlardir.)
+# ----------------------------------------------------------------------
+WATCH_TR = re.compile(
+    r"(turkiye|turk\b|tosyali|erdemir|isdemir|borcelik|kardemir|kocaer|oyak|"
+    r"assan|habas|icdas|colakoglu|mmk|tatmetal|yildiz demir|tezcan|kuzeyboru|"
+    r"hascelik|sidemir)")
+WATCH_INVEST = re.compile(
+    r"(yatirim|tesis|fabrika|kapasite|acilis|temel at|satin ald|sirket kur|"
+    r"uretime basla|uretimi yapti|devreye|modernizasyon|hatti kur|"
+    r"invest|new plant|new facility|capacity expansion|acquisition|"
+    r"establishes|founds|to build)")
+WATCH_BLOCK = re.compile(
+    r"(fiyat|hisse|borsa|bilanco|ciro|kar[ i]|net kar|ihracat|ithalat|damping|"
+    r"gumruk|kota|price|profit|earnings|revenue|share|dividend|tariff|duty|"
+    r"quota|export|import|halka arz|ipo)")
+
+
+# Buyuk tutarli kuresel yatirimlar da dikkat ceker (or. "3,5 milyar dolarlik
+# kapasite yatirimina onay"): para + yatirim + celik baglami.
+WATCH_BIG = re.compile(r"(milyar|milyon|billion|million)")
+WATCH_STEEL = re.compile(r"(celik|steel|sac\b|galvaniz|teneke)")
+
+
+def watch_worthy(title):
+    t = fold(title)
+    if WATCH_BLOCK.search(t) and not (WATCH_BIG.search(t) and WATCH_INVEST.search(t)):
+        return False
+    if WATCH_TR.search(t) and WATCH_INVEST.search(t):
+        return True
+    return bool(WATCH_BIG.search(t) and WATCH_INVEST.search(t)
+                and WATCH_STEEL.search(t))
