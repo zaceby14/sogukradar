@@ -39,9 +39,27 @@
     "tekrar": 0
    },
    "uretim": "2026-08-11 07:37 UTC"
+  },
+  {
+   "donem": "2026-W33",
+   "satir": 2,
+   "stats": {
+    "erisilemeyen": 3,
+    "ham": 669,
+    "kabul": 2,
+    "kapsam_disi": 556,
+    "kaynak": 34,
+    "makale_acildi": 54,
+    "on_eleme_gecti": 56,
+    "pencere_disi": 83,
+    "tarihsiz_elendi": 26,
+    "tekrar": 2
+   },
+   "uretim": "2026-08-11 11:48 UTC"
   }
  ],
  "seen": {
+  "26a882aae8c3cb97": "2026-08-11",
   "27b5ca990931fc28": "2026-08-11",
   "3247e49dd5d632cc": "2026-06-05",
   "40703d5cc18ff78c": "2026-08-07",
@@ -56,6 +74,7 @@
   "cab4aceb13ac9857": "2026-08-10",
   "d60ae51736353e2e": "2026-06-22",
   "d941fe2e2a2b1e7a": "2026-06-22",
+  "ddd3161581c94d65": "2026-08-11",
   "e454b1fdfc7e9de3": "2026-07-14",
   "e7bd8885aa3fe052": "2026-08-07",
   "ef05e89a9a3c5d6d": "2026-08-10",

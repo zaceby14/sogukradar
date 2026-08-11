@@ -211,15 +211,16 @@
   "publisher": "The Canmaker",
   "url": "https://canmaker.com/news/",
   "kind": "dergi",
-  "durum": "erisilemedi",
-  "hata": "URLError: <urlopen error timed out>"
+  "durum": "bos_liste",
+  "baglanti": 0,
+  "besleme_bulundu": []
  },
  "kallanish": {
   "publisher": "Kallanish",
   "url": "https://www.kallanish.com/en/news/steel/live",
   "kind": "dergi",
   "durum": "html",
-  "baglanti": 43,
+  "baglanti": 38,
   "besleme_bulundu": []
  },
  "gmk": {
@@ -227,7 +228,7 @@
   "url": "https://gmk.center/en/news/",
   "kind": "dergi",
   "durum": "html",
-  "baglanti": 46,
+  "baglanti": 47,
   "besleme_bulundu": []
  },
  "meps": {
@@ -244,8 +245,9 @@
   "publisher": "SteelGuru",
   "url": "https://www.steelguru.com/",
   "kind": "dergi",
-  "durum": "erisilemedi",
-  "hata": "URLError: <urlopen error timed out>"
+  "durum": "bos_liste",
+  "baglanti": 0,
+  "besleme_bulundu": []
  },
  "magnetics": {
   "publisher": "Magnetics Magazine",

@@ -2,140 +2,54 @@
  "rows": [
   {
    "tarih": "2026-08-11",
-   "firma": "KG Steel",
-   "ulke": "G. Kore",
+   "firma": "11 Aug Free KG Steel",
+   "ulke": "Turkiye",
    "hat": "Tandem soguk hadde (TCM)",
    "asama": "Modernizasyon",
    "tedarikci": "Primetals",
    "kapasite": "",
    "tutar": "",
-   "baslik": "KG Steel Selects Primetals Technologies for PLTCM Revamp",
-   "kaynak": "Primetals Technologies",
-   "kaynak_id": "primetals",
-   "url": "https://www.primetals.com/en/news/kg-steel-selects-primetals-technologies-for-pltcm-modernization-in-dangjin-korea/",
-   "tarih_kaynagi": "metin",
-   "eksik": [
-    "tarih?"
-   ],
-   "anahtar": "27b5ca990931fc28",
-   "puan": 53.0
+   "baslik": "11 Aug Free KG Steel selects Primetals for Dangjin PLTCM upgrade and capacity expansion",
+   "kaynak": "SteelOrbis",
+   "kaynak_id": "steelorbis",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/kg-steel-selects-primetals-for-dangjin-pltcm-upgrade-and-capacity-expansion-1470187.htm",
+   "tarih_kaynagi": "json-ld",
+   "eksik": [],
+   "anahtar": "ddd3161581c94d65",
+   "puan": 61.0
   },
   {
-   "tarih": "2026-08-07",
-   "firma": "Almost",
-   "ulke": "Almanya",
-   "hat": "Roll shop / merdane",
-   "asama": "Modernizasyon",
-   "tedarikci": "Herkules",
-   "kapasite": "",
-   "tutar": "€25,000",
-   "baslik": "Almost €25,000 for volunteer initiatives!",
-   "kaynak": "Herkules Group",
-   "kaynak_id": "herkules",
-   "url": "https://www.herkulesgroup.com/news/detail/fast-25000-euro-fuer-ehrenamtliches-engagement/",
-   "tarih_kaynagi": "liste",
-   "eksik": [
-    "tarih?"
-   ],
-   "anahtar": "e7bd8885aa3fe052",
-   "puan": 49.4
-  },
-  {
-   "tarih": "2026-08-07",
+   "tarih": "2026-08-11",
    "firma": "",
-   "ulke": "Almanya",
-   "hat": "Roll shop / merdane",
-   "asama": "Modernizasyon",
-   "tedarikci": "Herkules",
+   "ulke": "Turkiye",
+   "hat": "Soguk hadde",
+   "asama": "Ilk urun",
+   "tedarikci": "",
    "kapasite": "",
    "tutar": "",
-   "baslik": "info@remove-this.herkules-machinetools.de",
-   "kaynak": "Herkules Group",
-   "kaynak_id": "herkules",
-   "url": "https://www.herkulesgroup.com/news/",
-   "tarih_kaynagi": "time",
+   "baslik": "11 Aug Free South Korea remains top supplier as Turkey's cold rolled flat steel imports rise slightly in H1 2026",
+   "kaynak": "SteelOrbis",
+   "kaynak_id": "steelorbis",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/south-korea-remains-top-supplier-as-turkeys-cold-rolled-flat-steel-imports-rise-slightly-in-h1-2026-1470164.htm",
+   "tarih_kaynagi": "json-ld",
    "eksik": [
     "firma"
    ],
-   "anahtar": "40703d5cc18ff78c",
-   "puan": 45.4
-  },
-  {
-   "tarih": "2026-07-21",
-   "firma": "Revamp CSP Mill",
-   "ulke": "Cin",
-   "hat": "Belirsiz",
-   "asama": "Modernizasyon",
-   "tedarikci": "Primetals",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "Primetals Technologies to Revamp CSP Mill at WISCO in China",
-   "kaynak": "Primetals Technologies",
-   "kaynak_id": "primetals",
-   "url": "https://www.primetals.com/en/news/primetals-technologies-to-revamp-csp-mill-at-wisco-in-china/",
-   "tarih_kaynagi": "metin",
-   "eksik": [
-    "hat",
-    "tarih?"
-   ],
-   "anahtar": "f2a775dfc7623c58",
-   "puan": 34.6
-  },
-  {
-   "tarih": "2026-08-08",
-   "firma": "",
-   "ulke": "Almanya",
-   "hat": "Teneke hatti (ETL)",
-   "asama": "Belirsiz",
-   "tedarikci": "",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "thyssenkrupp Rasselstein installs 8 MW photovoltaic system to advance decarbonization goals",
-   "kaynak": "EUROMETAL",
-   "kaynak_id": "eurometal",
-   "url": "https://eurometal.net/thyssenkrupp-rasselstein-installs-8-mw-photovoltaic-system-to-advance-decarbonization-goals/?utm_source=rss&utm_medium=rss&utm_campaign=thyssenkrupp-rasselstein-installs-8-mw-photovoltaic-system-to-advance-decarbonization-goals",
-   "tarih_kaynagi": "json-ld",
-   "eksik": [
-    "firma",
-    "asama"
-   ],
-   "anahtar": "4f5cabfe41debb85",
-   "puan": 26.8
-  },
-  {
-   "tarih": "2026-07-29",
-   "firma": "TOSYALI ALGÉRİE",
-   "ulke": "",
-   "hat": "Soguk hadde",
-   "asama": "Belirsiz",
-   "tedarikci": "",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "TOSYALI ALGÉRİE, SOĞUK HADDELEME KOMPLEKSİNDE İLK ÜRETİMİ YAPTI",
-   "kaynak": "SteelTurk",
-   "kaynak_id": "steelturk",
-   "url": "https://www.steelturk.com.tr/tosyali-algérie-soguk-haddeleme-kompleksinde-ilk-uretimi-yapti/",
-   "tarih_kaynagi": "liste",
-   "eksik": [
-    "ulke",
-    "asama",
-    "tarih?"
-   ],
-   "anahtar": "92e4a5a31f19b487",
-   "puan": 22.8
+   "anahtar": "26a882aae8c3cb97",
+   "puan": 60.0
   }
  ],
  "stats": {
   "kaynak": 34,
-  "erisilemeyen": 5,
-  "ham": 673,
-  "on_eleme_gecti": 107,
-  "makale_acildi": 105,
-  "tarihsiz_elendi": 62,
-  "pencere_disi": 108,
-  "kapsam_disi": 497,
-  "tekrar": 0,
-  "kabul": 6
+  "erisilemeyen": 3,
+  "ham": 669,
+  "on_eleme_gecti": 56,
+  "makale_acildi": 54,
+  "tarihsiz_elendi": 26,
+  "pencere_disi": 83,
+  "kapsam_disi": 556,
+  "tekrar": 2,
+  "kabul": 2
  },
  "unreachable": [
   [
@@ -149,14 +63,6 @@
   [
    "Steel Times International",
    "HTTP 403"
-  ],
-  [
-   "The Canmaker",
-   "URLError: <urlopen error timed out>"
-  ],
-  [
-   "SteelGuru",
-   "URLError: <urlopen error timed out>"
   ]
  ],
  "kinds": {
@@ -201,6 +107,6 @@
   "2026-08-11"
  ],
  "period": "2026-W33",
- "generated": "2026-08-11 07:37 UTC",
+ "generated": "2026-08-11 11:48 UTC",
  "version": "3.0.0"
 }
