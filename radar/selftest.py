@@ -95,6 +95,28 @@ def test_scope():
        "turkce asama tespiti")
 
 
+def test_w33_regresyon():
+    """2026-W33 kosusunda rapora sizan 4 cop satirin tekrarini engeller."""
+    eq(taxonomy.is_junk_title("info@remove-this.herkules-machinetools.de"), True,
+       "e-posta adresi haber degil")
+    eq(taxonomy.is_junk_title("Read more"), True, "menu baglantisi haber degil")
+    eq(taxonomy.in_scope("Almost €25,000 for volunteer initiatives!")[0], False,
+       "bagis duyurusu elenmeli")
+    eq(taxonomy.in_scope("Primetals Technologies to Revamp CSP Mill at WISCO in China")[0],
+       False, "CSP/sicak hadde kapsam disi")
+    eq(taxonomy.in_scope("thyssenkrupp Rasselstein installs 8 MW photovoltaic system "
+                         "to advance decarbonization goals")[0], False,
+       "gunes enerjisi duyurusu elenmeli")
+    # Turkce buyuk harf: "İ".lower() sorunu fold() ile cozuldu
+    t = "TOSYALI ALGÉRİE, SOĞUK HADDELEME KOMPLEKSİNDE İLK ÜRETİMİ YAPTI"
+    eq(taxonomy.in_scope(t)[0], True, "turkce buyuk harf baslik kapsam ici")
+    eq(taxonomy.match_line(t), "Soguk hadde", "turkce buyuk harf hat")
+    eq(taxonomy.match_stage(t), "Ilk urun", "turkce buyuk harf asama")
+    eq(taxonomy.match_country(t), "Cezayir", "yatirimin yeri sirketin merkezi degil")
+    eq(classify.detect_firm("Primetals Technologies to Revamp Mill at WISCO in China"),
+       "Primetals Technologies", "fiil musteri adi sanilmamali")
+
+
 def test_line_and_stage():
     eq(taxonomy.match_line(
         "JVML awards electrical steel annealing and pickling lines to John Cockerill"),
@@ -168,7 +190,7 @@ def test_build_row():
 def run():
     for fn in (test_dates, test_article_date_chain, test_firm, test_scope,
                test_line_and_stage, test_listing_parser, test_feed_parser,
-               test_state, test_build_row):
+               test_state, test_build_row, test_w33_regresyon):
         try:
             fn()
         except Exception as e:

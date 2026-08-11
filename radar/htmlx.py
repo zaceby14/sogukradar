@@ -82,6 +82,18 @@ class _Listing(HTMLParser):
         super().close()
 
 
+def _trim_title(txt, cap=190):
+    """Kart metninin tamami baglanti metnine giriyor: "Baslik 2025-12-09 Tata
+    Steel has awarded ...". Baslik ilk tarih damgasinda kesilir, uzunsa
+    kelime sinirindan kirpilir."""
+    m = DATEISH.search(txt)
+    if m and m.start() >= 25:
+        txt = txt[:m.start()].strip(" -–|,:")
+    if len(txt) > cap:
+        txt = txt[:cap].rsplit(" ", 1)[0] + "…"
+    return txt.strip()
+
+
 def parse_listing(page, base_url, min_title=25, max_items=400):
     """Liste sayfasindan aday haberleri cikarir.
 
@@ -130,7 +142,7 @@ def parse_listing(page, base_url, min_title=25, max_items=400):
         if key in seen:
             continue
         seen.add(key)
-        out.append({"url": url, "title": txt, "date_hint": hint_for(i)})
+        out.append({"url": url, "title": _trim_title(txt), "date_hint": hint_for(i)})
         if len(out) >= max_items:
             break
     return out

@@ -13,7 +13,11 @@ VERB = (r"(?:awards?|awarded|orders?|selects?|selected|contracts?|chooses?|picks
         r"began|completes?|completed|produces?|produced|secures?|secured|wins?|won|"
         r"receives?|received|installs?|installed|expands?|expanded|adds?|added|opens?|"
         r"opened|signs?|signed|places?|placed|to build|to install|to supply|to modernize|"
-        r"to modernise|to upgrade|to invest|invests?|plans?|orders)\b")
+        r"to modernise|to upgrade|to invest|invests?|plans?|orders|"
+        # Fiil listesi genis tutulur: "to Revamp CSP Mill" kalibinda fiil,
+        # musteri adi sanilip firma alanina yaziliyordu.
+        r"revamps?|rebuilds?|refurbish(?:es)?|retrofits?|delivers?|provides?|equips?|"
+        r"supplies|supply|moderni[sz]e|upgrade|construct|develop|design|build|install)\b")
 
 TAIL = re.compile(
     r"\s+(Awarded|Awards?|Wins?|Won|Selects?|Orders?|Secures?|Inaugurates?|Commissions?|"
@@ -34,6 +38,8 @@ MONEY = re.compile(
 
 def _clean_firm(name):
     name = TAIL.sub("", (name or "").strip())
+    # "Primetals Technologies to" -> sondaki edat/baglac firma adinin parcasi degil
+    name = re.sub(r"\s+(to|and|for|at|by|with|in|on|of|from)$", "", name, flags=re.I)
     name = re.sub(r"^(The|A|An)\s+", "", name, flags=re.I)
     return name.strip(" -,:;'’")
 
@@ -62,9 +68,13 @@ def detect_firm(title, fallback=""):
             if c and c.lower() not in ("new", "the", "a", "an", "it"):
                 return c
 
-    m = re.search(r"\b(?:for|at|to|by)\s+([A-Z][\w&\.\-']*(?:\s+[A-Z][\w&\.\-']*){0,3})", t)
-    if m:
-        c = _clean_firm(m.group(1))
+    # "for/at/to/by <Ozel Ad>" - ama "to Revamp CSP Mill" gibi FIIL yakalamasin
+    for m in re.finditer(
+            r"\b(?:for|at|to|by)\s+([A-Z][\w&\.\-']*(?:\s+[A-Z][\w&\.\-']*){0,3})", t):
+        cand = m.group(1)
+        if re.match(VERB, cand, re.I):
+            continue
+        c = _clean_firm(cand)
         if c:
             return c
 
@@ -77,7 +87,7 @@ def detect_firm(title, fallback=""):
 
 
 def detect_supplier(text):
-    low = (text or "").lower()
+    low = tx.fold(text)
     hits = [s for s in tx.SUPPLIERS if s in low]
     if not hits:
         return ""
@@ -104,7 +114,9 @@ def build(cand):
     """cand: {title, url, date, publisher, source_id, text}
     Tam siniflandirilmis satir doner."""
     title = cand.get("title", "")
-    body = (cand.get("text") or "")[:1500]
+    # Sadece GIRIS metni kullanilir. Sayfanin tamamina bakinca OEM
+    # sitelerindeki menu/urun metinleri hat tipini yanlis belirliyordu.
+    body = (cand.get("text") or "")[:700]
     blob = title + " . " + body
 
     line = tx.match_line(blob)
@@ -116,9 +128,12 @@ def build(cand):
     firm = detect_firm(title, fallback="")
     if supplier and firm.lower().startswith(supplier.lower()[:6]):
         # ozne tedarikci ise musteriyi aramaya calis
-        m = re.search(r"\b(?:for|to|at)\s+([A-Z][\w&\.\-']*(?:\s+[A-Z][\w&\.\-']*){0,3})", title)
-        if m:
+        for m in re.finditer(
+                r"\b(?:for|to|at)\s+([A-Z][\w&\.\-']*(?:\s+[A-Z][\w&\.\-']*){0,3})", title):
+            if re.match(VERB, m.group(1), re.I):
+                continue
             firm = _clean_firm(m.group(1)) or firm
+            break
 
     row = {
         "tarih": cand.get("date", ""),

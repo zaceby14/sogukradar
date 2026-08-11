@@ -3,9 +3,27 @@
 
 KAPSAM: sicak hadde SONRASI yassi celik islem hatlari ve bunlarin teknolojisi.
 KAPSAM DISI: fiyat/piyasa, finansal sonuc, ticaret davalari, uzun urun,
-sivi celik oncesi (YF/DRI/EAF/sureklidokum), demir disi metaller, ilan/fuar/odul.
+sicak hadde ve oncesi (YF/DRI/EAF/surekli dokum/CSP/sicak serit), demir disi
+metaller, ilan/fuar/odul/bagis, enerji-karbon duyurulari.
+
+TUM eslestirmeler fold() ciktisi uzerinde yapilir: metin ASCII kucuk harfe
+indirgenir, kaliplar duz ASCII yazilir. Bu sayede "SOĞUK HADDELEME" ile
+"soguk haddeleme" ayni sey olur ve Turkce buyuk 'İ' sorunu ortadan kalkar.
 """
 import re
+
+_TRMAP = str.maketrans({
+    "İ": "i", "I": "i", "ı": "i", "Ş": "s", "ş": "s", "Ğ": "g", "ğ": "g",
+    "Ü": "u", "ü": "u", "Ö": "o", "ö": "o", "Ç": "c", "ç": "c", "Â": "a",
+    "â": "a", "É": "e", "é": "e", "È": "e", "è": "e", "Á": "a", "á": "a",
+    "Ó": "o", "ó": "o", "Ú": "u", "ú": "u", "Ñ": "n", "ñ": "n", "ß": "ss",
+    "ä": "a", "Ä": "a", "å": "a", "Å": "a", "ø": "o", "Ø": "o",
+})
+
+
+def fold(s):
+    return (s or "").translate(_TRMAP).lower()
+
 
 # ----------------------------------------------------------------------
 # Hat tipi. SIRA ONEMLIDIR: ilk eslesen kazanir.
@@ -13,123 +31,124 @@ import re
 # haberinin icindeki tavlama/asitleme kelimeleri onu yanlis hatta dusuruyordu.
 # ----------------------------------------------------------------------
 LINE_MAP = [
-    (r"electrical steel|silicon steel|\bcrgo\b|\bcrno\b|\bngo\b|\bgoes\b|grain[- ]oriented"
-     r"|elektrik ..?eli..?i|silisli ..?elik|y..?nlendirilmi..? tane",
-     "Elektrik celigi hatti"),
+    (r"electrical steel|silicon steel|\bcrgo\b|\bcrno\b|\bngo\b|grain[- ]oriented"
+     r"|elektrik celigi|silisli celik|yonlendirilmis tane", "Elektrik celigi hatti"),
     (r"tandem cold mill|\bpltcm\b|\btcm\b|tandem cold rolling|continuous tandem"
-     r"|tandem so..?uk", "Tandem soguk hadde (TCM)"),
+     r"|tandem soguk", "Tandem soguk hadde (TCM)"),
     (r"reversing cold mill|\brcm\b|sendzimir|20[- ]?hi|18[- ]?hi|6[- ]?hi reversing"
      r"|reversing hadde", "Reversing soguk hadde (RCM)"),
     (r"cold roll|cold mill|cold[- ]strip|cold strip|\bdcr\b|double cold reduc"
-     r"|so..?uk hadde|so..?uk haddel|so..?uk sac|so..?uk ..?ekme", "Soguk hadde"),
+     r"|soguk hadde|soguk haddel|soguk sac|soguk cekme", "Soguk hadde"),
     (r"acid regenerat|\barp\b|pickling line regenerat|asit rejenerasyon",
      "Asit rejenerasyonu (ARP)"),
-    (r"pickling|\bcpl\b|\bppl\b|push[- ]pull line|asitleme|as..?t hatt",
-     "Asitleme hatti"),
+    (r"pickling|\bcpl\b|\bppl\b|push[- ]pull line|asitleme|asit hatt", "Asitleme hatti"),
     (r"continuous annealing|annealing line|\bcal\b|\bcapl\b|annealing furnace|radiant tube"
-     r"|s..?rekli tavlama|tavlama hatt|tav f..?r..?n", "Surekli tavlama (CAL)"),
+     r"|surekli tavlama|tavlama hatt|tav firin", "Surekli tavlama (CAL)"),
     (r"batch annealing|\bbaf\b|bell annealing|hood[- ]type furnace|kutu tavlama|"
-     r"..?an tipi tavlama", "Kutu tavlama (BAF)"),
-    (r"zn[- ]?al[- ]?mg|zinc[- ]aluminium[- ]magnesium|magnelis|zam coating|galvalume|aluzinc|"
-     r"alu[- ]?zinc|55% al", "Zn-Al-Mg / Galvalume kaplama"),
+     r"can tipi tavlama", "Kutu tavlama (BAF)"),
+    (r"zn[- ]?al[- ]?mg|zinc[- ]aluminium[- ]magnesium|magnelis|galvalume|aluzinc|"
+     r"alu[- ]?zinc", "Zn-Al-Mg / Galvalume kaplama"),
     (r"electro[- ]?galvaniz|electro[- ]?galvanis|\begl\b", "Elektro galvaniz (EGL)"),
-    (r"tinplate|tin mill|electrolytic tinning|\betl\b|tin[- ]free steel|\btfs\b|teneke",
+    (r"tinplate|tin mill|electrolytic tinning|\betl\b|tin[- ]free steel|teneke",
      "Teneke hatti (ETL)"),
-    (r"coil coating|colou?r coat|\bccl\b|pre[- ]?painted|\bppgi\b|\bppgl\b|painting line"
-     r"|boyama hatt|boyal..? sac|boya hatt", "Boyama hatti (CCL)"),
-    (r"galvaniz|galvanis|hot[- ]dip|\bcgl\b|\bhdg\b|galvanneal|\bga\b coating|zinc coating line"
-     r"|s..?cak dald..?rma|..?inko kaplama", "Galvaniz hatti (CGL)"),
-    (r"skin[- ]?pass|temper mill|temper rolling|\bdcr/temper\b|temper hatt",
-     "Temper / skin pass"),
+    (r"coil coating|colour coat|color coat|\bccl\b|pre[- ]?painted|\bppgi\b|\bppgl\b|"
+     r"painting line|boyama hatt|boyali sac|boya hatt", "Boyama hatti (CCL)"),
+    (r"galvaniz|galvanis|hot[- ]dip|\bcgl\b|\bhdg\b|galvanneal|zinc coating line|"
+     r"sicak daldirma|cinko kaplama", "Galvaniz hatti (CGL)"),
+    (r"skin[- ]?pass|temper mill|temper rolling|temper hatt", "Temper / skin pass"),
     (r"slitting|cut[- ]to[- ]length|\bctl\b|tension level|stretch level|recoiling|"
-     r"service cent(er|re) line|dilme hatt|boy kesme|kesme hatt|servis merkezi",
-     "Dilme / boy kesme"),
+     r"service cent(er|re) line|dilme hatt|boy kesme|kesme hatt", "Dilme / boy kesme"),
     (r"roll shop|roll grind|roll textur|\bedt\b|thermal spray.{0,20}roll|roll coating|"
-     r"work roll|backup roll|merdane ta..?lama|merdane atolyesi|silindir ta..?lama",
+     r"work roll|backup roll|merdane taslama|merdane atolye|silindir taslama",
      "Roll shop / merdane"),
-    (r"surface inspection|defect detection|machine vision|automatic optical inspection|\bsis\b"
-     r"|y..?zey muayene|y..?zey kontrol|kusur tespit", "Yuzey muayene (SIS)"),
+    (r"surface inspection|defect detection|machine vision|automatic optical inspection|"
+     r"yuzey muayene|yuzey kontrol|kusur tespit", "Yuzey muayene (SIS)"),
     (r"digital twin|level 2|level[- ]2|\bl2\b|\bl3\b|process automation|thickness gauge|"
-     r"flatness control|\bagc\b|\bafc\b|shape meter|x[- ]ray gauge|machine learning.{0,20}mill|"
-     r"\bmes\b .{0,10}steel", "Otomasyon / dijital"),
-    (r"strip processing|processing line|finishing line|entry section|exit section|looper|welder",
-     "Serit isleme hatti"),
+     r"flatness control|\bagc\b|shape meter|x[- ]ray gauge|dijital ikiz|otomasyon sistem",
+     "Otomasyon / dijital"),
+    (r"strip processing|processing line|finishing line|serit isleme", "Serit isleme hatti"),
 ]
 
 # ----------------------------------------------------------------------
 # Yatirim asamasi. SIRA ONEMLIDIR.
-# "begins production" / "starts up" = ILK URUN'dur, Seri uretim degildir.
+# "begins production" / "starts up" / "ilk uretim" = ILK URUN'dur.
 # ----------------------------------------------------------------------
 EVENT_WORDS = [
-    (r"full capacity|ramp[- ]?up complet|commercial shipment|full production|nameplate capacity|"
-     r"reaches design capacity|tam kapasite|seri ..?retim", "Seri uretim"),
+    (r"full capacity|ramp[- ]?up complet|commercial shipment|full production|"
+     r"nameplate capacity|reaches design capacity|tam kapasite|seri uretim", "Seri uretim"),
     (r"first coil|produces? first|produced first|begins? production|starts? production|"
      r"start[- ]?up|starts? up|commission(s|ed|ing)\b|inaugurat|officially open|opens\b|"
-     r"rolls? first|first production|goes on stream|hands? over|handover|taken over"
-     r"|ilk bobin|devreye al|devreye gir|..?retime ba..?la|hizmete gir|a..?..?l..?..?..? yap",
-     "Ilk urun"),
+     r"rolls? first|first production|goes on stream|hands? over|handover|"
+     r"ilk bobin|ilk uretim|ilk urun|devreye al|devreye gir|uretime basla|hizmete gir|"
+     r"acilisi yapil|faaliyete gec", "Ilk urun"),
     (r"cold test|hot test|trial run|test run|commissioning phase|under test|"
-     r"first tests|no[- ]load test|deneme ..?retim|test ..?retim", "Test"),
+     r"first tests|deneme uretim|test uretim", "Test"),
     (r"under construction|construction (of|begins|began|started|starts)|breaks? ground|"
      r"ground[- ]?breaking|foundation stone|erection (of|begins|started)|civil works|"
-     r"steel structure erect|temel at|in..?aat..?na ba..?la|yap..?m..?na ba..?la", "Insaat"),
-    (r"revamp|moderniz|modernis|upgrade|retrofit|rebuild|refurbish|overhaul|life extension|"
-     r"capacity expansion of existing|yenileme|revizyon|kapasite art..?r", "Modernizasyon"),
-    (r"contract|order|awarded|awards|wins|won|secures|selects|selected|to supply|signs|signed|"
-     r"letter of intent|\bloi\b|agreement to|places order|book(s|ed) order|will supply|"
-     r"has been chosen|s..?zle..?me|sipari..?|ihale|anla..?ma imzala|imzalad", "Sozlesme"),
+     r"temel at|insaatina basla|yapimina basla", "Insaat"),
+    (r"revamp|moderniz|modernis|upgrade|retrofit|rebuild|refurbish|overhaul|"
+     r"life extension|yenileme|revizyon|kapasite artir", "Modernizasyon"),
+    (r"contract|order|awarded|awards|wins|won|secures|selects|selected|to supply|signs|"
+     r"signed|letter of intent|\bloi\b|agreement to|places order|will supply|"
+     r"has been chosen|sozlesme|siparis|ihale|anlasma imzala|imzaladi", "Sozlesme"),
     (r"unveils|launches|introduc|new technology|patent|licen[cs]e|develops|presents|"
-     r"showcases|debut|world first|innovation|r&d|research (project|partnership)"
-     r"|yeni teknoloji|geli..?tirdi|tan..?tt..?|lisans", "Teknoloji"),
+     r"showcases|debut|world first|innovation|yeni teknoloji|gelistirdi|tanitti|lisans",
+     "Teknoloji"),
 ]
 
 # ----------------------------------------------------------------------
-# Sert red: bu kaliplardan biri eslesirse haber KAPSAM DISI sayilir.
-# (Once pozitif kapsam kapisi calisir; bu ikinci savunma hattidir.)
+# Sert red - YALNIZCA BASLIGA uygulanir (bkz. in_scope aciklamasi).
 # ----------------------------------------------------------------------
 HARD_REJECT = re.compile(
     r"("
     r"price(s|d|ing)?\b|pricing|tariff|anti[- ]dumping|countervail|safeguard|quota|"
-    r"trade case|duty|duties|import|export volume|market (report|outlook|update|share)|"
+    r"trade case|duty|duties|market (report|outlook|update|share)|"
     r"quarterly result|annual result|earnings|revenue|profit|loss|ebitda|dividend|"
-    r"share price|stock|ipo|bond|financ(ing|ial results)|"
-    r"blast furnace|\bbf\b|\bdri\b|\bhbi\b|direct reduc|\beaf\b|electric arc|"
-    r"basic oxygen|\bbof\b|converter|continuous cast|caster|slab caster|billet|bloom|"
-    r"sinter plant|coke oven|pellet plant|scrap yard|ladle furnace|"
-    r"rebar|wire rod|long product|section mill|\bbeam\b|rail mill|seamless|welded pipe|"
+    r"share price|stock|ipo|bond|financial results|"
+    # sicak hadde ve oncesi
+    r"blast furnace|\bdri\b|\bhbi\b|direct reduc|\beaf\b|electric arc|basic oxygen|"
+    r"\bbof\b|converter|continuous cast|caster|slab caster|billet|bloom|csp mill|"
+    r"compact strip|hot strip mill|hot rolling mill|hot mill|sinter plant|coke oven|"
+    r"pellet plant|scrap yard|ladle furnace|"
+    # uzun urun / boru
+    r"rebar|wire rod|long product|section mill|rail mill|seamless|welded pipe|"
     r"pipe mill|tube mill|profile mill|"
-    r"iron ore|coking coal|aluminium|aluminum|copper|zinc price|nickel|stainless melt|"
+    # hammadde / demir disi
+    r"iron ore|coking coal|aluminium|aluminum|copper|nickel|stainless melt|"
+    # kurumsal gurultu
     r"appoint(s|ed|ment)|new ceo|new chief|resign|retire|obituary|passes away|"
-    r"award(s|ed) (to|for) (excellence|safety)|prize|medal|anniversar|celebrat|"
-    r"conference|exhibition|trade fair|webinar|seminar|congress|expo\b|"
-    r"job opening|vacancy|career|recruit|internship|"
-    r"acquisition|acquires|merger|takeover|stake|joint venture agreement to invest|"
-    r"solar|wind farm|defen[cs]e|automotive sales|car production|"
-    r"decarboni[sz]ation target|net[- ]zero pledge|esg report|sustainability report|"
-    # Turkce red kaliplari
-    r"fiyat|ihracat|ithalat|damping|g..?mr..?k|kota|bilan..?o|ciro|kar marj|"
-    r"y..?ksek f..?r..?n|ark oca..?..?|s..?rekli d..?k..?m|in..?aat demiri|"
-    r"filma..?in|profil hadde|atand..?|..?d..?l ald|fuar|kongre|i..? ilan"
-    r")", re.I)
+    r"award(s|ed) (to|for)|prize|medal|anniversar|celebrat|volunteer|donation|"
+    r"charity|sponsor|christmas|conference|exhibition|trade fair|webinar|seminar|"
+    r"congress|\bexpo\b|job opening|vacancy|career|recruit|internship|"
+    r"acquisition|acquires|merger|takeover|"
+    # enerji / karbon duyurulari
+    r"photovoltaic|solar|wind farm|hydrogen (project|plant)|decarboni|net[- ]zero|"
+    r"esg report|sustainability report|emission(s)? (target|reduction)|"
+    # Turkce
+    r"fiyat|ihracat|ithalat|damping|gumruk|kota|bilanco|ciro|kar marj|"
+    r"yuksek firin|ark ocagi|surekli dokum|insaat demiri|filmasin|profil hadde|"
+    r"atandi|odul ald|fuar|kongre|is ilan|bagis|sponsor"
+    r")")
 
 # Pozitif kapsam kapisi: hicbiri eslesmezse haber alinmaz.
 SCOPE_GATE = re.compile(
-    r"(cold roll|cold mill|cold strip|pickl|anneal|galvaniz|galvanis|hot[- ]dip|coating line|"
-    r"coil coating|colou?r coat|pre[- ]?painted|ppgi|ppgl|tinplate|tin mill|electrolytic tin|"
-    r"skin[- ]?pass|temper mill|slitting|cut[- ]to[- ]length|tension level|roll shop|roll grind|"
-    r"roll textur|surface inspection|strip processing|processing line|finishing line|"
-    r"electrical steel|silicon steel|crgo|crno|\bngo\b|grain[- ]oriented|"
-    r"acid regenerat|\bcgl\b|\bcal\b|\bbaf\b|\bcpl\b|\bppl\b|\btcm\b|\bpltcm\b|\brcm\b|"
-    r"\bccl\b|\betl\b|\begl\b|\barp\b|sendzimir|20[- ]?hi|galvalume|aluzinc|zn[- ]?al[- ]?mg|"
-    r"flat steel (line|plant|complex)|strip mill|sheet plant|service cent(er|re)|"
-    # Turkce kapsam kapisi
-    r"so..?uk hadde|so..?uk haddel|so..?uk sac|asitleme|tavlama|galvaniz|..?inko kaplama|"
-    r"boyama hatt|boyal..? sac|teneke|dilme hatt|boy kesme|merdane ta..?lama|"
-    r"y..?zey muayene|elektrik ..?eli..?i|silisli ..?elik|kaplama hatt|"
-    r"s..?cak dald..?rma|yass..? ..?elik)", re.I)
+    r"(cold roll|cold mill|cold strip|pickl|anneal|galvaniz|galvanis|hot[- ]dip|"
+    r"coating line|coil coating|colour coat|color coat|pre[- ]?painted|ppgi|ppgl|"
+    r"tinplate|tin mill|electrolytic tin|skin[- ]?pass|temper mill|slitting|"
+    r"cut[- ]to[- ]length|tension level|roll shop|roll grind|roll textur|"
+    r"surface inspection|strip processing|processing line|finishing line|"
+    r"electrical steel|silicon steel|crgo|crno|grain[- ]oriented|acid regenerat|"
+    r"\bcgl\b|\bcal\b|\bbaf\b|\bcpl\b|\bppl\b|\btcm\b|\bpltcm\b|\brcm\b|\bccl\b|"
+    r"\betl\b|\begl\b|\barp\b|sendzimir|20[- ]?hi|galvalume|aluzinc|zn[- ]?al[- ]?mg|"
+    r"flat steel|strip mill|sheet plant|"
+    # Turkce
+    r"soguk hadde|soguk haddel|soguk sac|asitleme|tavlama|galvaniz|cinko kaplama|"
+    r"boyama hatt|boyali sac|teneke|dilme hatt|boy kesme|merdane taslama|"
+    r"yuzey muayene|elektrik celigi|silisli celik|kaplama hatt|sicak daldirma|"
+    r"yassi celik)")
 
 COUNTRY_MAP = [
-    (r"\bturkey|turkiye|turkish\b", "Turkiye"),
+    (r"turkey|turkiye|turkish", "Turkiye"),
     (r"\bindia|indian\b", "Hindistan"),
     (r"\bchina|chinese\b", "Cin"),
     (r"\bjapan|japanese\b", "Japonya"),
@@ -146,25 +165,25 @@ COUNTRY_MAP = [
     (r"\buae|emirates|abu dhabi|dubai", "BAE"),
     (r"\boman\b", "Umman"),
     (r"\bqatar", "Katar"),
-    (r"\begypt", "Misir"),
-    (r"\bmorocco", "Fas"),
-    (r"\balgeria", "Cezayir"),
-    (r"\bsouth africa", "G. Afrika"),
+    (r"\begypt|misir", "Misir"),
+    (r"\bmorocco|fas\b", "Fas"),
+    (r"\balgeria|algerie|cezayir", "Cezayir"),
+    (r"south africa", "G. Afrika"),
     (r"\bnigeria", "Nijerya"),
     (r"\brussia|russian\b", "Rusya"),
     (r"\bukraine|ukrainian\b", "Ukrayna"),
     (r"\bkazakh", "Kazakistan"),
     (r"\buzbek", "Ozbekistan"),
     (r"\bpoland|polish\b", "Polonya"),
-    (r"\bgermany|german\b", "Almanya"),
-    (r"\bfrance|french\b", "Fransa"),
-    (r"\bitaly|italian\b", "Italya"),
-    (r"\bspain|spanish\b", "Ispanya"),
+    (r"\bgermany|german\b|almanya", "Almanya"),
+    (r"\bfrance|french\b|fransa", "Fransa"),
+    (r"\bitaly|italian\b|italya", "Italya"),
+    (r"\bspain|spanish\b|ispanya", "Ispanya"),
     (r"\bportugal", "Portekiz"),
-    (r"\bbelgium|belgian\b", "Belcika"),
-    (r"\bnetherlands|dutch\b", "Hollanda"),
-    (r"\baustria|austrian\b", "Avusturya"),
-    (r"\bsweden|swedish\b", "Isvec"),
+    (r"\bbelgium|belgian\b|belcika", "Belcika"),
+    (r"netherlands|dutch\b|hollanda", "Hollanda"),
+    (r"\baustria|austrian\b|avusturya", "Avusturya"),
+    (r"\bsweden|swedish\b|isvec", "Isvec"),
     (r"\bfinland|finnish\b", "Finlandiya"),
     (r"\bczech", "Cekya"),
     (r"\bslovak", "Slovakya"),
@@ -176,54 +195,82 @@ COUNTRY_MAP = [
     (r"\busa\b|united states|u\.s\.|american\b", "ABD"),
     (r"\bcanada|canadian\b", "Kanada"),
     (r"\bmexico|mexican\b", "Meksika"),
-    (r"\bbrazil|brazilian\b", "Brezilya"),
+    (r"\bbrazil|brazilian\b|brezilya", "Brezilya"),
     (r"\bargentina", "Arjantin"),
     (r"\bchile", "Sili"),
     (r"\baustralia", "Avustralya"),
+    # EN SONDA: firma adindan ulke tahmini. Ulke adi gecmiyorsa devreye girer.
+    # Basta olsaydi "Tosyali Algerie" haberi Turkiye'ye yazilirdi - yatirimin
+    # yeri sirketin merkezi degildir.
+    (r"colakoglu|borcelik|erdemir|isdemir|yildiz demir|tezcan|assan|"
+     r"tosyali|kardemir|habas|icdas", "Turkiye"),
 ]
 
-# Puanda agirligi olan tedarikci adlari.
 SUPPLIERS = (
-    "danieli", "tenova", "primetals", "sms group", "smsgroup", "john cockerill",
-    "andritz", "fives", "clecim", "redex", "butech", "bliss", "herkules",
-    "achenbach", "sundwig", "pomini", "i2s", "ebner", "drever", "nippon steel engineering",
+    "danieli", "tenova", "primetals", "sms group", "john cockerill", "andritz",
+    "fives", "clecim", "redex", "butech", "bliss", "herkules", "achenbach",
+    "sundwig", "pomini", "i2s", "ebner", "drever", "nippon steel engineering",
     "mitsubishi", "abb", "siemens", "isra vision", "cognex", "sarralle", "loi",
     "thermprocess", "delta steel", "bronx", "herr-voss", "nordson", "chemetall",
 )
 
+# Basligin haber olup olmadigini anlamak icin: e-posta, menu, sayi yigini vb.
+JUNK_TITLE = re.compile(
+    r"(@|\bhttps?://|^\s*[\d\W]+\s*$|cookie|privacy|newsletter|subscribe|"
+    r"contact us|imprint|sitemap|read more|all news|follow us)")
+
+
+def is_junk_title(title):
+    t = fold(title)
+    if JUNK_TITLE.search(t):
+        return True
+    if len(t.split()) < 5:          # 5 kelimeden kisa basliklar haber degil
+        return True
+    if not re.search(r"[a-z]{3}", t):
+        return True
+    return False
+
 
 def match_line(text):
+    t = fold(text)
     for pat, name in LINE_MAP:
-        if re.search(pat, text, re.I):
+        if re.search(pat, t):
             return name
     return "Belirsiz"
 
 
 def match_stage(text):
+    t = fold(text)
     for pat, name in EVENT_WORDS:
-        if re.search(pat, text, re.I):
+        if re.search(pat, t):
             return name
     return "Belirsiz"
 
 
 def match_country(text):
+    t = fold(text)
     for pat, name in COUNTRY_MAP:
-        if re.search(pat, text, re.I):
+        if re.search(pat, t):
             return name
     return ""
 
 
-def in_scope(title, body=""):
+def in_scope(title, lead=""):
     """(alinir_mi, sebep)
 
-    ONEMLI: sert red YALNIZCA BASLIGA bakar. Onceki surumde govde metnine de
-    bakiyordu ve bu, gecerli bir yatirim haberini govdesinde "prices" ya da
-    "ihracat" gectigi icin eliyordu - 2026-W33 kosusunda 187 satirin kapsam
-    disi sayilmasinin ana sebebi buydu. Haberin NE OLDUGUNU baslik soyler;
-    govde sadece konuyu dogrulamak (kapsam kapisi) icin kullanilir.
+    ONEMLI IKI KURAL:
+    1) Sert red YALNIZCA BASLIGA bakar. Govdeye de bakinca, gecerli bir
+       yatirim haberi metninde "prices" ya da "ihracat" gectigi icin
+       eleniyordu - 2026-W33 kosusunda 187 satiri boyle kaybettik.
+    2) Kapsam kapisi baslik + yalnizca GIRIS metnine bakar. Sayfanin
+       tamamina bakinca OEM sitelerindeki menu/urun metinleri her sayfayi
+       "kapsam ici" gosteriyor, bagis duyurusu roll shop haberi sayiliyordu.
     """
-    if HARD_REJECT.search(title or ""):
+    if is_junk_title(title):
+        return False, "haber_degil"
+    ft = fold(title)
+    if HARD_REJECT.search(ft):
         return False, "sert_red"
-    if not SCOPE_GATE.search((title or "") + " " + (body or "")):
+    if not SCOPE_GATE.search(ft + " " + fold(lead)):
         return False, "kapsam_disi"
     return True, ""

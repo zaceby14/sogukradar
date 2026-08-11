@@ -127,10 +127,13 @@ def collect(today=None, log=print):
         for it in items:
             title = it["title"]
             blob = title + " " + (it.get("summary") or "")
-            if taxonomy.HARD_REJECT.search(title):
+            if taxonomy.is_junk_title(title):
+                drop("kapsam_disi", it, "haber degil (menu/e-posta/kisa)")
+                continue
+            if taxonomy.HARD_REJECT.search(taxonomy.fold(title)):
                 drop("kapsam_disi", it, "sert red (baslik)")
                 continue
-            if s["kind"] != "oem" and not taxonomy.SCOPE_GATE.search(blob):
+            if s["kind"] != "oem" and not taxonomy.SCOPE_GATE.search(taxonomy.fold(blob)):
                 drop("kapsam_disi", it, "kapsam kapisi (baslik)")
                 continue
             # Kaba tarih SADECE maliyet freni icindir: cok eski (arsiv) satirlar
@@ -168,7 +171,7 @@ def collect(today=None, log=print):
                 drop("pencere_disi", it, date_iso)
                 continue
 
-            ok_scope, why = taxonomy.in_scope(it["title"], text[:1500])
+            ok_scope, why = taxonomy.in_scope(it["title"], text[:700])
             if not ok_scope:
                 drop("kapsam_disi", it, why)
                 continue
