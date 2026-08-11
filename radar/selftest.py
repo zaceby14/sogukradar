@@ -81,6 +81,18 @@ def test_scope():
     eq(ok3, False, "yuksek firin reddedilmeli")
     ok4, _ = taxonomy.in_scope("Steelmaker appoints new CEO of flat rolling division")
     eq(ok4, False, "atama haberi reddedilmeli")
+    # 2026-W33 kosusunun ana hatasi: govdede 'prices' gecti diye gecerli haber elenmisti
+    ok5, _ = taxonomy.in_scope(
+        "Danieli to supply new pickling line to Acme Steel",
+        "Acme said the investment comes as hot rolled coil prices rise in Europe.")
+    eq(ok5, True, "govdedeki fiyat kelimesi haberi elememeli")
+    # Turkce kaynak testi
+    ok6, _ = taxonomy.in_scope("Tosyalı yeni galvaniz hattını devreye aldı")
+    eq(ok6, True, "turkce baslik kapsam ici")
+    eq(taxonomy.match_line("Yeni sürekli galvaniz hattı"), "Galvaniz hatti (CGL)",
+       "turkce hat tespiti")
+    eq(taxonomy.match_stage("Tosyalı yeni hattı devreye aldı"), "Ilk urun",
+       "turkce asama tespiti")
 
 
 def test_line_and_stage():

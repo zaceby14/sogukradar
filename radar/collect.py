@@ -100,7 +100,15 @@ def collect(today=None, log=print):
 
     stats = dict(kaynak=0, erisilemeyen=0, ham=0, on_eleme_gecti=0, makale_acildi=0,
                  tarihsiz_elendi=0, pencere_disi=0, kapsam_disi=0, tekrar=0, kabul=0)
-    unreachable, rows, kinds = [], [], {}
+    unreachable, rows, kinds, rejects = [], [], {}, []
+
+    def drop(reason, it, extra=""):
+        """Elenen her satir kaydedilir. Ayarlama (kalibrasyon) ancak neyin
+        neden elendigi gorulerek yapilabilir; sessiz eleme korlestirir."""
+        stats[reason] = stats.get(reason, 0) + 1
+        if len(rejects) < 600:
+            rejects.append({"sebep": reason, "baslik": it.get("title", "")[:180],
+                            "url": it.get("url", ""), "ek": extra})
 
     for s in sources.SOURCES:
         stats["kaynak"] += 1
@@ -120,10 +128,10 @@ def collect(today=None, log=print):
             title = it["title"]
             blob = title + " " + (it.get("summary") or "")
             if taxonomy.HARD_REJECT.search(title):
-                stats["kapsam_disi"] += 1
+                drop("kapsam_disi", it, "sert red (baslik)")
                 continue
             if s["kind"] != "oem" and not taxonomy.SCOPE_GATE.search(blob):
-                stats["kapsam_disi"] += 1
+                drop("kapsam_disi", it, "kapsam kapisi (baslik)")
                 continue
             # Kaba tarih SADECE maliyet freni icindir: cok eski (arsiv) satirlar
             # icin makale sayfasi hic acilmaz. Esik bilerek genis tutulur -
@@ -132,7 +140,7 @@ def collect(today=None, log=print):
             rough = dates.parse_date_text(it.get("date_raw", ""), df, today) \
                 or dates.date_from_url(it["url"], today)
             if rough and rough < pre_floor:
-                stats["pencere_disi"] += 1
+                drop("pencere_disi", it, "on eleme: " + rough)
                 continue
             it["_rough"] = rough
             pre.append(it)
@@ -154,21 +162,20 @@ def collect(today=None, log=print):
                 date_iso = it.get("_rough")
                 src = "liste" if date_iso else "yok"
             if not date_iso:
-                stats["tarihsiz_elendi"] += 1
-                continue                      # TARIH YOKSA HABER YOK
+                drop("tarihsiz_elendi", it)   # TARIH YOKSA HABER YOK
+                continue
             if date_iso < floor.isoformat() or date_iso > today.isoformat():
-                stats["pencere_disi"] += 1
+                drop("pencere_disi", it, date_iso)
                 continue
 
-            blob = it["title"] + " . " + text[:1200]
-            ok_scope, why = taxonomy.in_scope(blob)
+            ok_scope, why = taxonomy.in_scope(it["title"], text[:1500])
             if not ok_scope:
-                stats["kapsam_disi"] += 1
+                drop("kapsam_disi", it, why)
                 continue
 
             key = state.norm_key(it["title"], it["url"])
             if key in seen:
-                stats["tekrar"] += 1
+                drop("tekrar", it)
                 continue
 
             row = classify.build({
@@ -184,5 +191,5 @@ def collect(today=None, log=print):
             stats["kabul"] += 1
 
     return {"rows": rows, "stats": stats, "unreachable": unreachable,
-            "kinds": kinds, "today": today.isoformat(),
+            "kinds": kinds, "today": today.isoformat(), "rejects": rejects,
             "window": [floor.isoformat(), today.isoformat()]}

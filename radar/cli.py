@@ -56,6 +56,10 @@ def cmd_run(a):
     payload["version"] = VERSION
 
     base = os.path.join(OUT, "hafta_%s" % per)
+    # Elenenler ayri dosyaya: kaynak/sozluk ayarini ancak bunu okuyarak yapabilirim.
+    rejects = payload.pop("rejects", [])
+    _w(os.path.join(OUT, "reddedilenler.json"),
+       {"donem": per, "adet": len(rejects), "kayitlar": rejects})
     _w(base + ".json", payload)
 
     ask = [{"anahtar": r["anahtar"], "baslik": r["baslik"], "url": r["url"],
