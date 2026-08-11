@@ -100,7 +100,7 @@ jobs:
             out/email_body.md
           retention-days: 90
 
-      # Istege bagli e-posta. Secrets bos ise adim atlanir.
+      # E-posta: MAIL_USER/MAIL_PASS/MAIL_TO secrets girilince otomatik gider.
       - name: E-posta gonder
         if: env.MAIL_USER != ''
         uses: dawidd6/action-send-mail@v3
@@ -110,9 +110,8 @@ jobs:
           secure: true
           username: ${{ secrets.MAIL_USER }}
           password: ${{ secrets.MAIL_PASS }}
-          subject: "SogukRadar haftalik rapor"
+          subject: "Soguk Haddehane ve Nihai Hatlarda Sektor & Teknoloji Takibi — Haftalik Bulten"
           to: ${{ secrets.MAIL_TO }}
-          from: SogukRadar
-          convert_markdown: true
-          html_body: file://out/email_body.md
+          from: SogukRadar Bulten
+          html_body: file://out/email.html
           attachments: out/hafta_*_taslak.html,out/hafta_*.csv
