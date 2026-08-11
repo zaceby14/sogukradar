@@ -1,0 +1,109 @@
+name: SogukRadar haftalik
+
+on:
+  schedule:
+    # Pazartesi 04:05 UTC = 07:05 TSI. Actions kuyrugu gecikebilir, sorun degil.
+    - cron: "5 4 * * 1"
+  workflow_dispatch:
+    inputs:
+      today:
+        description: "Kosuyu bu tarihe gore yap (YYYY-MM-DD, bos = bugun)"
+        required: false
+      check_sources:
+        description: "Once kaynak saglik taramasi yap (true/false)"
+        required: false
+        default: "false"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sogukradar
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      MAIL_USER: ${{ secrets.MAIL_USER }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # Bagimlilik YOK - sadece standart kutuphane. pip adimi bilerek eklenmedi.
+
+      - name: Birim testleri (kirmizi ise kosu baslamaz)
+        run: |
+          python -m radar selftest
+          python tests/e2e_offline.py
+
+      - name: Kaynak saglik taramasi
+        if: ${{ github.event.inputs.check_sources == 'true' }}
+        run: python -m radar check || true
+
+      - name: Haftalik kosu
+        env:
+          RADAR_WINDOW_DAYS: "21"
+          RADAR_MAX_ARTICLES: "220"
+          RADAR_PAUSE: "0.8"
+        run: |
+          if [ -n "${{ github.event.inputs.today }}" ]; then
+            python -m radar run --commit-state --today "${{ github.event.inputs.today }}"
+          else
+            python -m radar run --commit-state
+          fi
+
+      - name: Ozeti is akisina yaz
+        run: |
+          echo '### SogukRadar' >> $GITHUB_STEP_SUMMARY
+          echo '```json' >> $GITHUB_STEP_SUMMARY
+          python - <<'PY' >> $GITHUB_STEP_SUMMARY
+          import glob, json, os
+          f = sorted(glob.glob("out/hafta_*.json"))[-1]
+          d = json.load(open(f, encoding="utf-8"))
+          print(json.dumps({"donem": d["period"], "satir": len(d["rows"]),
+                            "istatistik": d["stats"],
+                            "erisilemeyen": [u[0] for u in d.get("unreachable", [])]},
+                           ensure_ascii=False, indent=1))
+          PY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+
+      - name: Ciktilari repoya isle
+        run: |
+          git config user.name  "sogukradar-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add out state
+          git diff --staged --quiet || git commit -m "haftalik kosu $(date -u +%Y-W%V)"
+          git push
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: sogukradar-hafta
+          path: |
+            out/hafta_*.json
+            out/hafta_*_taslak.html
+            out/hafta_*.csv
+            out/needs_ai.json
+            out/email_body.md
+          retention-days: 90
+
+      # Istege bagli e-posta. Secrets bos ise adim atlanir.
+      - name: E-posta gonder
+        if: env.MAIL_USER != ''
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.MAIL_USER }}
+          password: ${{ secrets.MAIL_PASS }}
+          subject: "SogukRadar haftalik rapor"
+          to: ${{ secrets.MAIL_TO }}
+          from: SogukRadar
+          convert_markdown: true
+          html_body: file://out/email_body.md
+          attachments: out/hafta_*_taslak.html,out/hafta_*.csv
