@@ -1,0 +1,296 @@
+{
+ "danieli": {
+  "publisher": "Danieli",
+  "url": "https://www.danieli.com/en/news.htm",
+  "kind": "oem",
+  "durum": "html",
+  "baglanti": 11,
+  "besleme_bulundu": []
+ },
+ "tenova": {
+  "publisher": "Tenova",
+  "url": "https://www.tenova.com/news",
+  "kind": "oem",
+  "durum": "html",
+  "baglanti": 10,
+  "besleme_bulundu": []
+ },
+ "primetals": {
+  "publisher": "Primetals Technologies",
+  "url": "https://www.primetals.com/press-media/news",
+  "kind": "oem",
+  "durum": "html",
+  "baglanti": 6,
+  "besleme_bulundu": []
+ },
+ "johncockerill": {
+  "publisher": "John Cockerill",
+  "url": "https://johncockerill.com/en/press-and-news/news/",
+  "kind": "oem",
+  "durum": "html",
+  "baglanti": 16,
+  "besleme_bulundu": [
+   "https://johncockerill.com/en/press-and-news/news/feed/"
+  ]
+ },
+ "andritz": {
+  "publisher": "Andritz Metals",
+  "url": "https://www.andritz.com/newsroom-en/metals",
+  "kind": "oem",
+  "durum": "html",
+  "baglanti": 35,
+  "besleme_bulundu": []
+ },
+ "smsgroup": {
+  "publisher": "SMS group",
+  "url": "https://www.sms-group.com/press-and-media/press-releases",
+  "kind": "oem",
+  "durum": "erisilemedi",
+  "hata": "HTTP 403"
+ },
+ "fives": {
+  "publisher": "Fives Group",
+  "url": "https://www.fivesgroup.com/newspress",
+  "kind": "oem",
+  "durum": "html",
+  "baglanti": 21,
+  "besleme_bulundu": []
+ },
+ "clecim": {
+  "publisher": "Clecim",
+  "url": "https://www.clecim.com/news",
+  "kind": "oem",
+  "durum": "html",
+  "baglanti": 3,
+  "besleme_bulundu": [
+   "https://www.clecim.com/feed/",
+   "https://www.clecim.com/comments/feed/"
+  ]
+ },
+ "butechbliss": {
+  "publisher": "Butech Bliss",
+  "url": "https://butechbliss.com/latest-news/",
+  "kind": "oem",
+  "durum": "html",
+  "baglanti": 22,
+  "besleme_bulundu": [
+   "https://butechbliss.com/feed/",
+   "https://butechbliss.com/comments/feed/",
+   "https://butechbliss.com/latest-news/feed/"
+  ]
+ },
+ "herkules": {
+  "publisher": "Herkules Group",
+  "url": "https://www.herkulesgroup.com/news/",
+  "kind": "oem",
+  "durum": "html",
+  "baglanti": 36,
+  "besleme_bulundu": []
+ },
+ "achenbach": {
+  "publisher": "Achenbach Buschhutten",
+  "url": "https://www.achenbach.de/en/company/newsroom/",
+  "kind": "oem",
+  "durum": "html",
+  "baglanti": 2,
+  "besleme_bulundu": []
+ },
+ "ebner": {
+  "publisher": "Ebner Industrieofenbau",
+  "url": "https://www.ebner.cc/en/news/",
+  "kind": "oem",
+  "durum": "html",
+  "baglanti": 4,
+  "besleme_bulundu": [
+   "https://www.ebner.cc/feed",
+   "https://www.ebner.cc/comments/feed"
+  ]
+ },
+ "nseng": {
+  "publisher": "Nippon Steel Engineering",
+  "url": "https://www.eng.nipponsteel.com/english/whatsnew/",
+  "kind": "oem",
+  "durum": "html",
+  "baglanti": 5,
+  "besleme_bulundu": []
+ },
+ "abbmetals": {
+  "publisher": "ABB Metals",
+  "url": "https://www.abb.com/global/en/company/media?filter=Business%3AMetals",
+  "kind": "oem",
+  "durum": "bos_liste",
+  "baglanti": 0,
+  "besleme_bulundu": []
+ },
+ "isravision": {
+  "publisher": "ISRA Vision (Atlas Copco)",
+  "url": "https://www.isravision.com/en-en/company/newsroom",
+  "kind": "oem",
+  "durum": "html",
+  "baglanti": 11,
+  "besleme_bulundu": []
+ },
+ "cognex": {
+  "publisher": "Cognex",
+  "url": "https://www.cognex.com/en/company/press-releases",
+  "kind": "oem",
+  "durum": "erisilemedi",
+  "hata": "HTTP 429"
+ },
+ "bronx": {
+  "publisher": "The Bronx Group",
+  "url": "https://thebronxgroup.com/news/",
+  "kind": "oem",
+  "durum": "html",
+  "baglanti": 16,
+  "besleme_bulundu": [
+   "https://thebronxgroup.com/news/feed/"
+  ]
+ },
+ "delta": {
+  "publisher": "Delta Steel Technologies",
+  "url": "https://www.deltasteeltech.com/news/",
+  "kind": "oem",
+  "durum": "html",
+  "baglanti": 17,
+  "besleme_bulundu": [
+   "https://www.deltasteeltech.com/feed/",
+   "https://www.deltasteeltech.com/comments/feed/"
+  ]
+ },
+ "steeltimesint": {
+  "publisher": "Steel Times International",
+  "url": "https://www.steeltimesint.com/news",
+  "kind": "dergi",
+  "durum": "erisilemedi",
+  "hata": "HTTP 403"
+ },
+ "steelturk": {
+  "publisher": "SteelTurk",
+  "url": "https://www.steelturk.com.tr/global-celik-haberleri/",
+  "kind": "dergi",
+  "durum": "html",
+  "baglanti": 400,
+  "besleme_bulundu": []
+ },
+ "steelradar": {
+  "publisher": "Steel Radar",
+  "url": "https://www.steelradar.com/en/",
+  "kind": "dergi",
+  "durum": "html",
+  "baglanti": 59,
+  "besleme_bulundu": []
+ },
+ "metaldunyasi": {
+  "publisher": "Metal Dunyasi",
+  "url": "https://metaldunyasi.com.tr/tr/sektorel-haberler/20/demir-elik/",
+  "kind": "dergi",
+  "durum": "html",
+  "baglanti": 40,
+  "besleme_bulundu": []
+ },
+ "steelorbis": {
+  "publisher": "SteelOrbis",
+  "url": "https://www.steelorbis.com/steel-news/latest-news/",
+  "kind": "dergi",
+  "durum": "html",
+  "baglanti": 65,
+  "besleme_bulundu": []
+ },
+ "eurometal": {
+  "publisher": "EUROMETAL",
+  "url": "https://eurometal.net/news/",
+  "kind": "dergi",
+  "durum": "html",
+  "baglanti": 18,
+  "besleme_bulundu": [
+   "https://eurometal.net/feed/"
+  ]
+ },
+ "canmaker": {
+  "publisher": "The Canmaker",
+  "url": "https://canmaker.com/news/",
+  "kind": "dergi",
+  "durum": "erisilemedi",
+  "hata": "URLError: <urlopen error timed out>"
+ },
+ "kallanish": {
+  "publisher": "Kallanish",
+  "url": "https://www.kallanish.com/en/news/steel/live",
+  "kind": "dergi",
+  "durum": "html",
+  "baglanti": 43,
+  "besleme_bulundu": []
+ },
+ "gmk": {
+  "publisher": "GMK Center",
+  "url": "https://gmk.center/en/news/",
+  "kind": "dergi",
+  "durum": "html",
+  "baglanti": 46,
+  "besleme_bulundu": []
+ },
+ "meps": {
+  "publisher": "MEPS International",
+  "url": "https://mepsinternational.com/gb/en/news",
+  "kind": "dergi",
+  "durum": "html",
+  "baglanti": 17,
+  "besleme_bulundu": [
+   "https://mepsinternational.com/gb/en/news"
+  ]
+ },
+ "steelguru": {
+  "publisher": "SteelGuru",
+  "url": "https://www.steelguru.com/",
+  "kind": "dergi",
+  "durum": "erisilemedi",
+  "hata": "URLError: <urlopen error timed out>"
+ },
+ "magnetics": {
+  "publisher": "Magnetics Magazine",
+  "url": "https://magneticsmag.com/magnetics-news/",
+  "kind": "dergi",
+  "durum": "html",
+  "baglanti": 6,
+  "besleme_bulundu": [
+   "https://magneticsmag.com/feed/",
+   "https://magneticsmag.com/comments/feed/"
+  ]
+ },
+ "yieh": {
+  "publisher": "Yieh Corp",
+  "url": "https://www.yieh.com/en/News/",
+  "kind": "dergi",
+  "durum": "html",
+  "baglanti": 52,
+  "besleme_bulundu": []
+ },
+ "fastmarkets": {
+  "publisher": "Fastmarkets",
+  "url": "https://www.fastmarkets.com/metals-and-mining/steel-and-steel-raw-materials/",
+  "kind": "dergi",
+  "durum": "html",
+  "baglanti": 14,
+  "besleme_bulundu": [
+   "https://www.fastmarkets.com/feed/",
+   "https://www.fastmarkets.com/comments/feed/"
+  ]
+ },
+ "worldsteel": {
+  "publisher": "worldsteel",
+  "url": "https://worldsteel.org/media/press-releases/",
+  "kind": "kurum",
+  "durum": "bos_liste",
+  "baglanti": 0,
+  "besleme_bulundu": []
+ },
+ "aist": {
+  "publisher": "AIST",
+  "url": "https://www.aist.org/news-events/",
+  "kind": "kurum",
+  "durum": "bos_liste",
+  "baglanti": 0,
+  "besleme_bulundu": []
+ }
+}

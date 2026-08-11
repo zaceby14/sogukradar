@@ -1,5 +1,155 @@
 {
  "donem": "2026-W33",
- "duzelt": [],
- "cumle_yaz": []
+ "duzelt": [
+  {
+   "anahtar": "27b5ca990931fc28",
+   "baslik": "KG Steel Selects Primetals Technologies for PLTCM Revamp",
+   "url": "https://www.primetals.com/en/news/kg-steel-selects-primetals-technologies-for-pltcm-modernization-in-dangjin-korea/",
+   "eksik": [
+    "tarih?"
+   ],
+   "mevcut": {
+    "firma": "KG Steel",
+    "ulke": "G. Kore",
+    "hat": "Tandem soguk hadde (TCM)",
+    "asama": "Modernizasyon"
+   }
+  },
+  {
+   "anahtar": "e7bd8885aa3fe052",
+   "baslik": "Almost €25,000 for volunteer initiatives!",
+   "url": "https://www.herkulesgroup.com/news/detail/fast-25000-euro-fuer-ehrenamtliches-engagement/",
+   "eksik": [
+    "tarih?"
+   ],
+   "mevcut": {
+    "firma": "Almost",
+    "ulke": "Almanya",
+    "hat": "Roll shop / merdane",
+    "asama": "Modernizasyon"
+   }
+  },
+  {
+   "anahtar": "40703d5cc18ff78c",
+   "baslik": "info@remove-this.herkules-machinetools.de",
+   "url": "https://www.herkulesgroup.com/news/",
+   "eksik": [
+    "firma"
+   ],
+   "mevcut": {
+    "firma": "",
+    "ulke": "Almanya",
+    "hat": "Roll shop / merdane",
+    "asama": "Modernizasyon"
+   }
+  },
+  {
+   "anahtar": "f2a775dfc7623c58",
+   "baslik": "Primetals Technologies to Revamp CSP Mill at WISCO in China",
+   "url": "https://www.primetals.com/en/news/primetals-technologies-to-revamp-csp-mill-at-wisco-in-china/",
+   "eksik": [
+    "hat",
+    "tarih?"
+   ],
+   "mevcut": {
+    "firma": "Revamp CSP Mill",
+    "ulke": "Cin",
+    "hat": "Belirsiz",
+    "asama": "Modernizasyon"
+   }
+  },
+  {
+   "anahtar": "4f5cabfe41debb85",
+   "baslik": "thyssenkrupp Rasselstein installs 8 MW photovoltaic system to advance decarbonization goals",
+   "url": "https://eurometal.net/thyssenkrupp-rasselstein-installs-8-mw-photovoltaic-system-to-advance-decarbonization-goals/?utm_source=rss&utm_medium=rss&utm_campaign=thyssenkrupp-rasselstein-installs-8-mw-photovoltaic-system-to-advance-decarbonization-goals",
+   "eksik": [
+    "firma",
+    "asama"
+   ],
+   "mevcut": {
+    "firma": "",
+    "ulke": "Almanya",
+    "hat": "Teneke hatti (ETL)",
+    "asama": "Belirsiz"
+   }
+  },
+  {
+   "anahtar": "92e4a5a31f19b487",
+   "baslik": "TOSYALI ALGÉRİE, SOĞUK HADDELEME KOMPLEKSİNDE İLK ÜRETİMİ YAPTI",
+   "url": "https://www.steelturk.com.tr/tosyali-algérie-soguk-haddeleme-kompleksinde-ilk-uretimi-yapti/",
+   "eksik": [
+    "ulke",
+    "asama",
+    "tarih?"
+   ],
+   "mevcut": {
+    "firma": "TOSYALI ALGÉRİE",
+    "ulke": "",
+    "hat": "Soguk hadde",
+    "asama": "Belirsiz"
+   }
+  }
+ ],
+ "cumle_yaz": [
+  {
+   "anahtar": "27b5ca990931fc28",
+   "tarih": "2026-08-11",
+   "firma": "KG Steel",
+   "ulke": "G. Kore",
+   "hat": "Tandem soguk hadde (TCM)",
+   "asama": "Modernizasyon",
+   "baslik": "KG Steel Selects Primetals Technologies for PLTCM Revamp",
+   "url": "https://www.primetals.com/en/news/kg-steel-selects-primetals-technologies-for-pltcm-modernization-in-dangjin-korea/"
+  },
+  {
+   "anahtar": "e7bd8885aa3fe052",
+   "tarih": "2026-08-07",
+   "firma": "Almost",
+   "ulke": "Almanya",
+   "hat": "Roll shop / merdane",
+   "asama": "Modernizasyon",
+   "baslik": "Almost €25,000 for volunteer initiatives!",
+   "url": "https://www.herkulesgroup.com/news/detail/fast-25000-euro-fuer-ehrenamtliches-engagement/"
+  },
+  {
+   "anahtar": "40703d5cc18ff78c",
+   "tarih": "2026-08-07",
+   "firma": "",
+   "ulke": "Almanya",
+   "hat": "Roll shop / merdane",
+   "asama": "Modernizasyon",
+   "baslik": "info@remove-this.herkules-machinetools.de",
+   "url": "https://www.herkulesgroup.com/news/"
+  },
+  {
+   "anahtar": "f2a775dfc7623c58",
+   "tarih": "2026-07-21",
+   "firma": "Revamp CSP Mill",
+   "ulke": "Cin",
+   "hat": "Belirsiz",
+   "asama": "Modernizasyon",
+   "baslik": "Primetals Technologies to Revamp CSP Mill at WISCO in China",
+   "url": "https://www.primetals.com/en/news/primetals-technologies-to-revamp-csp-mill-at-wisco-in-china/"
+  },
+  {
+   "anahtar": "4f5cabfe41debb85",
+   "tarih": "2026-08-08",
+   "firma": "",
+   "ulke": "Almanya",
+   "hat": "Teneke hatti (ETL)",
+   "asama": "Belirsiz",
+   "baslik": "thyssenkrupp Rasselstein installs 8 MW photovoltaic system to advance decarbonization goals",
+   "url": "https://eurometal.net/thyssenkrupp-rasselstein-installs-8-mw-photovoltaic-system-to-advance-decarbonization-goals/?utm_source=rss&utm_medium=rss&utm_campaign=thyssenkrupp-rasselstein-installs-8-mw-photovoltaic-system-to-advance-decarbonization-goals"
+  },
+  {
+   "anahtar": "92e4a5a31f19b487",
+   "tarih": "2026-07-29",
+   "firma": "TOSYALI ALGÉRİE",
+   "ulke": "",
+   "hat": "Soguk hadde",
+   "asama": "Belirsiz",
+   "baslik": "TOSYALI ALGÉRİE, SOĞUK HADDELEME KOMPLEKSİNDE İLK ÜRETİMİ YAPTI",
+   "url": "https://www.steelturk.com.tr/tosyali-algérie-soguk-haddeleme-kompleksinde-ilk-uretimi-yapti/"
+  }
+ ]
 }

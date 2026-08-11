@@ -1,0 +1,3606 @@
+{
+ "donem": "2026-W33",
+ "adet": 600,
+ "kayitlar": [
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "new orders 2026, 5th August New ENERGIRON ZR direct reduction plant in Europe",
+   "url": "https://www.danieli.com/en/news-media/news/New-Energiron-ZR-direct-reduction-plant-in-Europe_37_1082.htm",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "new orders 2026, 28th July FAC achieved for Danieli caster revamp at JSW Salem",
+   "url": "https://www.danieli.com/en/news-media/news/FAC-achieved-for-Danieli-caster-revamp-at-JSW-Salem_37_1081.htm",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "new orders 2026, 15th July Henan Jiyuan Iron & Steel awards Danieli for new Jumbo Rounds caster in China",
+   "url": "https://www.danieli.com/en/news-media/news/henan-jiyuan-iron-steel-awards-danieli-new-jumbo-rounds-caster-china_37_1078.htm",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "new orders 2026, 6th July GIADEC selects Danieli for new aluminum foil plant in Ghana",
+   "url": "https://www.danieli.com/en/news-media/news/giadec-selects-danieli-new-aluminum-foil-plant-ghana_37_1077.htm",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "new orders 2026, 25th June Zahit Aluminium confirms performance of Danieli Breda extrusion press in Turkey",
+   "url": "https://www.danieli.com/en/news-media/news/zahit-aluminium-confirms-performance-danieli-breda-extrusion-press-turkey_37_1074.htm",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "Manufacturing and Engineering",
+   "url": "https://www.danieli.com/en/worldwide/manufacturing-and-engineering.htm",
+   "ek": ""
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "Plant and equipment solutions",
+   "url": "https://www.danieli.com/en/customer-service/plant-and-equipment-solutions.htm",
+   "ek": ""
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "new orders 2026, 21st July Danieli’s scrap-recycling technology is reaffirmed by Novelis as a trusted solution",
+   "url": "https://www.danieli.com/en/news-media/news/danieli-s-scrap-recycling-technology-reaffirmed-novelis-trusted-solution_37_1080.htm",
+   "ek": ""
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "new orders 2026, 30th June Danieli Seven-Life Side Guides successfully commissioned at Hoa Phat Dung Quat on QSP® line",
+   "url": "https://www.danieli.com/en/news-media/news/Danieli-Seven-Life-Side-Guides-successfully-commissioned-at-Hoa-Phat-Dung-Quat-on-QSP-line_37_1076.htm",
+   "ek": ""
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "top performances 2026, 18th June Danieli’s QSP-DUE® technology sets new industrial milestones at SGJT",
+   "url": "https://www.danieli.com/en/news-media/news/danieli-s-qsp-due-technology-sets-new-industrial-milestones-sgjt_37_1072.htm",
+   "ek": ""
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "Copyright © Danieli & C. S.p.A. – All Right Reserved",
+   "url": "https://www.danieli.com/en/copyright.htm",
+   "ek": ""
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Copper & other base metals",
+   "url": "https://tenova.com/technologies/pyrometallurgy/copper-other-base-metals",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "Tenova Advanced Technologies",
+   "url": "https://tenova.com/about-us/our-brands/tenova-advanced-technologies",
+   "ek": ""
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "Recycling and By-products",
+   "url": "https://tenova.com/technologies/our-green-solutions/recycling-and-products",
+   "ek": ""
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "Lithium Battery Recycling",
+   "url": "https://tenova.com/technologies/our-green-solutions/lithium-battery-recycling",
+   "ek": ""
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "Digital & Process Control",
+   "url": "https://tenova.com/technologies/digital-process-control",
+   "ek": ""
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "Intelligent Process Control",
+   "url": "https://tenova.com/technologies/digital-process-control/intelligent-process-control",
+   "ek": ""
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "Nova Analytical System by Tenova",
+   "url": "https://www.nova-gas.com/",
+   "ek": ""
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "Living and Growing at Tenova",
+   "url": "https://tenova.com/people-careers/living-and-growing-tenova",
+   "ek": ""
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "Iron & Steel Technologies",
+   "url": "https://tenova.com/technologies/iron-steel",
+   "ek": ""
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "Legal Disclaimer & Company Information",
+   "url": "https://tenova.com/legal-disclaimer-company-information",
+   "ek": ""
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Nucor Awards Caster Revamp to Primetals Technologies",
+   "url": "https://www.primetals.com/en/news/nucor-corporation-awards-continuous-caster-revamp-to-primetals-technologies/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Primetals Partners with Lidao for Aluminum Mill Project",
+   "url": "https://www.primetals.com/en/news/2026073667---primetals-technologies-partners-with-lidao-new-energy-for-aluminum-foil-mill-project-in-china/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Primetals Technologies Receives TrimRob FAC at Hyundai Steel",
+   "url": "https://www.primetals.com/en/news/primetals-technologies-receives-fac-from-hyundai-dangjin-for-trimrob-the-first-robotic-coil-trimming-and-sampling-system/",
+   "ek": "2026-07-16"
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "Imprint, Legal Disclaimer, and Privacy Policy",
+   "url": "https://www.primetals.com/en/imprint-privacy-policy/",
+   "ek": ""
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Organisation and Governance",
+   "url": "https://johncockerill.com/en/group/organisation-and-governance/",
+   "ek": "2019-05-13"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "A compliant and ethical Group",
+   "url": "https://johncockerill.com/en/group/a-compliant-and-ethical-group/",
+   "ek": "2020-12-02"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Heat Recovery Steam Generators & Boilers",
+   "url": "https://energy.johncockerill.com/en/boilers-and-heat-recovery-steam-generators/",
+   "ek": "2019-05-13"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Renewable Power & Energy Storage",
+   "url": "https://energy.johncockerill.com/en/power-and-storage/",
+   "ek": "2024-07-16"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Thermal Treatment of Solids & Waste",
+   "url": "https://energy.johncockerill.com/en/thermal-treatment-of-solids-minerals-biomasswaste-sludge/",
+   "ek": "2024-09-18"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Nuclear, Hydraulic & Wind Energy Services",
+   "url": "https://services.johncockerill.com/en/energy/",
+   "ek": "2019-05-13"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "After Sales Services for Boilers & HRSG",
+   "url": "https://energy.johncockerill.com/en/boilers-and-heat-recovery-steam-generators/after-sales-services/",
+   "ek": "2019-05-14"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Hydrogen Refueling Stations",
+   "url": "https://hydrogen.johncockerill.com/en/products/hydrogen-refueling-stations/",
+   "ek": "2023-04-24"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Treatment of Steels & non-ferrous Metals",
+   "url": "https://johncockerill.com/en/industry/metals/",
+   "ek": "2019-05-15"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Air Pollution Control & Odor Treatment",
+   "url": "https://johncockerill.com/en/industry/ayra-air-pollution-control/",
+   "ek": "2019-05-15"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Cockerill® Weapon Systems",
+   "url": "https://defense.johncockerill.com/en/weapons-systems/",
+   "ek": "2019-05-13"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Agueris® Simulation Solutions",
+   "url": "https://defense.johncockerill.com/en/simulation/",
+   "ek": "2019-05-10"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Cockerill® Security Technologies",
+   "url": "https://defense.johncockerill.com/en/site-securization/",
+   "ek": "2020-06-30"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Campus Cockerill Training Center",
+   "url": "https://defense.johncockerill.com/en/campus-john-cockerill/",
+   "ek": "2024-04-19"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Infrastructure Maintenance",
+   "url": "https://services.johncockerill.com/en/infrastructures/",
+   "ek": "2019-05-13"
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "Documents dedicated to suppliers",
+   "url": "https://johncockerill.com/en/documents-dedicated-to-suppliers/",
+   "ek": ""
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "More energy efficiency and output: ANDRITZ Schuler further develops HFA fineblanking presses together with Feintool 2026-01-22 Whether it's the fastener for the seat belt or the se",
+   "url": "https://www.andritz.com/newsroom-en/metals/2026-01-22-hfa-fineblanking-group",
+   "ek": "on eleme: 2026-02-18"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "ANDRITZ acquires induction heating specialist Sanzheng 2026-01-16 International technology group ANDRITZ has acquired a 51% stake in Baoding Sanzheng Electrical Equipment Co., Ltd.",
+   "url": "https://www.andritz.com/newsroom-en/metals/2026-01-16-sanzheng-group",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Battery cell mass formation line for electric cars supplied by ANDRITZ goes into operation 2026-01-14 International technology group ANDRITZ’s subsidiary ANDRITZ Schuler has suppli",
+   "url": "https://www.andritz.com/newsroom-en/metals/2026-01-14-battery-group",
+   "ek": "on eleme: 2026-01-16"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Tata Steel awards ANDRITZ order for acid regeneration plant 2025-12-09 Tata Steel has awarded international technology group ANDRITZ an order to supply an acid regeneration plant f",
+   "url": "https://www.andritz.com/newsroom-en/metals/2025-12-09-tata-steel-group",
+   "ek": "on eleme: 2026-01-14"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Henan Mingtai, China, places two orders with ANDRITZ in the aluminum furnace sector 2025-11-12 Henan Mingtai Aluminum Industrial Co., Ltd. has awarded two orders to international t",
+   "url": "https://www.andritz.com/newsroom-en/metals/2025-11-12-henan-mingtai-group",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "ANDRITZ Schuler shows newly developed ring roller in action at Erfurt site 2025-09-10 ANDRITZ Schuler today presented an innovative ring roller to the professional public for the f",
+   "url": "https://www.andritz.com/newsroom-en/metals/2025-09-10-ringroller-group",
+   "ek": "on eleme: 2025-11-12"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Maxiforja starts production on world’s largest forging press delivered by ANDRITZ Schuler featuring Kinetic Energy Recovering System 2025-07-30 Founded in 1963, Maxiforja located i",
+   "url": "https://www.andritz.com/newsroom-en/metals/2025-07-30-maxiforja-group",
+   "ek": "on eleme: 2025-09-10"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "CERI Technology Company awards annealing furnace contract to ANDRITZ 2025-07-17 CERI Technology Company Limited has awarded a contract to international technology group ANDRITZ to ",
+   "url": "https://www.andritz.com/newsroom-en/metals/2025-07-17-ceri-group",
+   "ek": "on eleme: 2025-07-30"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Metalúrgica Nakayone already operates three ANDRITZ Schuler mechanical transfer press systems with a press force of 1,000, 1,600 and 2,500 metric tons. 2025-07-15 Metalúrgica Nakay",
+   "url": "https://www.andritz.com/newsroom-en/metals/metal%C3%BArgica-nakayone-expands-press-shop-with-fourth-line-from-andritz-schuler",
+   "ek": "on eleme: 2025-07-17"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "ArcelorMittal/China Oriental Group JV orders high-end silicon steel processing plant from ANDRITZ 2025-07-10 The joint venture between ArcelorMittal and China Oriental Group has se",
+   "url": "https://www.andritz.com/newsroom-en/metals/2025-07-10-arcelormittal-group",
+   "ek": "on eleme: 2025-07-15"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "ANDRITZ receives final acceptance for cold rolling mill from Ansteel Group, China 2025-07-08 International technology group ANDRITZ has received final acceptance for the single-sta",
+   "url": "https://www.andritz.com/newsroom-en/metals/2025-07-08-ansteel-group",
+   "ek": "on eleme: 2025-07-10"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Metris Visual Die Protection monitors car body production in the Smart Press Shop 2025-07-03 In the production of body parts, the quality of the dies is of paramount importance.",
+   "url": "https://www.andritz.com/newsroom-en/metals/2025-07-03-metris-vdp-in-sps-group",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "ANDRITZ to acquire Salico Group 2025-06-26 International technology group ANDRITZ has signed an agreement to acquire Salico Group, headquartered in Italy and Spain, including its s",
+   "url": "https://www.andritz.com/newsroom-en/metals/2025-06-26-salico-group",
+   "ek": "on eleme: 2025-07-03"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "ANDRITZ receives final acceptance for pickling line and acid regeneration plant at voestalpine, Austria 2025-06-11 International technology group ANDRITZ has successfully completed",
+   "url": "https://www.andritz.com/newsroom-en/metals/2025-06-11-voestalpine-group",
+   "ek": "on eleme: 2025-06-26"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "ANDRITZ to upgrade continuous galvanizing line for Tangsteel, China 2025-05-21 International technology group ANDRITZ has received an order from Tangsteel High Strength Automotive ",
+   "url": "https://www.andritz.com/newsroom-en/metals/2025-05-21-tangsteel-group",
+   "ek": "on eleme: 2025-06-11"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Metris Visual Die Protection: Intelligent camera technology from ANDRITZ Schuler protects press dies at Alzner Automotive 2025-05-15 The automotive supplier Alzner Automotive repea",
+   "url": "https://www.andritz.com/newsroom-en/metals/2025-05-15-alzney-vdp",
+   "ek": "on eleme: 2025-05-21"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "ANDRITZ Schuler Develops Innovative Laser Technology for Cut-to-Length-Lines 2025-04-28 ANDRITZ Schuler, a leader in single presses and laser solutions, introduces the latest innov",
+   "url": "https://www.andritz.com/newsroom-en/metals/2025-04-28-laser-technology-group",
+   "ek": "on eleme: 2025-05-15"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "ANDRITZ selected by ArcelorMittal as supplier for new electrical steel facility in the USA 2025-03-20 International technology group ANDRITZ has received an order from ArcelorMitta",
+   "url": "https://www.andritz.com/newsroom-en/metals/2025-03-20-arcelor-mittal-group",
+   "ek": "on eleme: 2025-04-28"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Schuler to be renamed ANDRITZ Schuler 2025-03-13 More than a decade after acquiring Schuler, the world's leading manufacturer of presses for the automotive industry, ANDRITZ is tak",
+   "url": "https://www.andritz.com/newsroom-en/metals/2025-03-13-schuler-andritz-group",
+   "ek": "on eleme: 2025-03-20"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "ANDRITZ to supply new cut-to-length line to Olympic Steel, USA 2025-02-11 International technology group ANDRITZ has received an order from Olympic Steel, Inc. to supply an innovat",
+   "url": "https://www.andritz.com/newsroom-en/metals/2025-02-11-olympic-steel-group",
+   "ek": "on eleme: 2025-03-13"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "ANDRITZ to modernize electrical and automation systems at voestalpine steel mill 2024-12-12 International technology group ANDRITZ received an order from voestalpine to modernize t",
+   "url": "https://www.andritz.com/newsroom-en/metals/2024-12-12-voestalpine-group",
+   "ek": "on eleme: 2025-02-11"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "ANDRITZ to supply combi-line furnace to Borçelik, Türkiye 2024-11-08 The Turkish steel manufacturer Borçelik has selected international technology group ANDRITZ to supply a combi-l",
+   "url": "https://www.andritz.com/newsroom-en/metals/2024-11-08-borcelik-group",
+   "ek": "on eleme: 2024-12-12"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Cell Impact partners with ANDRITZ for high-volume production of bipolar flow plates 2024-10-14 Cell Impact has signed a collaboration agreement with international technology group ",
+   "url": "https://www.andritz.com/newsroom-en/metals/2024-10-14-cell-impact-group",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "ANDRITZ starts up new surface treatment line for aluminum strip at AMAG 2024-06-12 International technology group ANDRITZ has successfully completed the delivery, installation, and",
+   "url": "https://www.andritz.com/newsroom-en/metals/2024-06-12-amag",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "ANDRITZ to supply new pickling section for heavy-duty push pickling line to Salzgitter Flachstahl, Germany 2024-03-19 International technology group ANDRITZ has received an order f",
+   "url": "https://www.andritz.com/newsroom-en/metals/2024-03-19-salzgitter-group",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Ionic Mineral Technologies partners with ANDRITZ on nano-silicon mass production for electric vehicles 2023-12-19 Ionic Mineral Technologies, a pioneering US-based producer of nano",
+   "url": "https://www.andritz.com/newsroom-en/automation/2023-12-19-ionic-group",
+   "ek": "on eleme: 2024-03-19"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Salzgitter orders one of Europe’s largest green hydrogen plants from ANDRITZ 2023-09-20 The Salzgitter Group has selected technology group ANDRITZ to supply one of Europe's largest",
+   "url": "https://www.andritz.com/newsroom-en/metals/2023-09-20-salzgitter-group",
+   "ek": "on eleme: 2023-12-19"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "ANDRITZ to supply new 6-high cold rolling mill to ArcelorMittal, France 2023-09-06 International technology group ANDRITZ has received an order from ArcelorMittal, France, to suppl",
+   "url": "https://www.andritz.com/newsroom-en/metals/2023-09-06-arcelormittal-group",
+   "ek": "on eleme: 2023-09-20"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Annual, financial & sustainability reports",
+   "url": "https://www.andritz.com/group-en/investors/investors-downloads/financial-reports",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "Annual Report 2025 published Turning progress into industrial impact. FOR GROWTH THAT MATTERS.",
+   "url": "https://www.andritz.com/group-en/annual-report",
+   "ek": ""
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Saritas selects ANDRITZ to supply key equipment for new stainless steel plant in Türkiye 2026-06-11 Saritas Stainless Steel, one of Türkiye’s leading stainless steel producers, has",
+   "url": "https://www.andritz.com/newsroom-en/metals/2026-06-11-saritas-group",
+   "ek": "2026-06-11"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "ANDRITZ to supply precision cold rolling mill for titanium processing in China 2026-02-18 A leading company in China’s titanium industry has placed an order with international tech",
+   "url": "https://www.andritz.com/newsroom-en/metals/2026-02-18-rolling-mill-group",
+   "ek": "2026-02-18"
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "Suppliers and procurement",
+   "url": "https://www.andritz.com/group-en/about-us/suppliers",
+   "ek": ""
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "Digital Solutions – Metris",
+   "url": "https://www.andritz.com/metris-en",
+   "ek": ""
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "Power-to-X & green hydrogen",
+   "url": "https://www.andritz.com/power-to-x-en",
+   "ek": ""
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Fall Combustion Seminar Hosted by Fives North American Combustion",
+   "url": "https://www.fivesgroup.com/newspress/detail-view/fall-combustion-seminar-hosted-by-fives-north-american-combustion",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Fives at Parcel+Post Expo 2026",
+   "url": "https://www.fivesgroup.com/newspress/detail-view/fives-at-parcel-post-expo-1",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Fives at INTRA-LOG EXPO SOUTH AMERICA 2026",
+   "url": "https://www.fivesgroup.com/newspress/detail-view/fives-at-intra-log-expo-south-america",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Fives to highlight advanced cement solutions at FICEM Technical Congress 2026",
+   "url": "https://www.fivesgroup.com/newspress/detail-view/fives-to-highlight-advanced-cement-solutions-at-ficem-technical-congress-2026",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "Corporate social responsibility",
+   "url": "https://www.fivesgroup.com/about-fives/corporate-social-responsibility",
+   "ek": ""
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Grinding | Ultra Precision",
+   "url": "https://www.fivesgroup.com/high-precision-machines/grinding-ultra-precision",
+   "ek": "kapsam_disi"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Cutting Tools | Abrasives",
+   "url": "https://www.fivesgroup.com/high-precision-machines/cutting-tools-abrasives",
+   "ek": "2026-06-02"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Composites & Automated Solutions",
+   "url": "https://www.fivesgroup.com/high-precision-machines/composites-automated-solutions",
+   "ek": "2026-06-02"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Smart Automation Solutions",
+   "url": "https://www.fivesgroup.com/smart-automation-solutions",
+   "ek": "kapsam_disi"
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "Fives - High Precision Machines at IMTS 2026",
+   "url": "https://www.fivesgroup.com/newspress/detail-view/fives-high-precision-machines-at-imts-2026",
+   "ek": ""
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "Fives to attend CAMX 2026",
+   "url": "https://www.fivesgroup.com/newspress/detail-view/fives-is-back-at-camx",
+   "ek": ""
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "Fives to exhibit at the PHILSUTECH 2026 Annual National Covnention",
+   "url": "https://www.fivesgroup.com/newspress/detail-view/fives-to-exhibit-at-the-philsutech-2026-annual-national-covnention",
+   "ek": ""
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Fives drives Nike Israel fulfillment growth with rapid LUCI-Caja expansion at SELA Logistics",
+   "url": "https://www.fivesgroup.com/newspress/detail-view/fives-drives-nike-israel-fulfillment-growth-with-rapid-luci-caja-expansion-at-sela-logistics-1",
+   "ek": "kapsam_disi"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Award | Fives Landis Won the “Ringier Technology Innovation Award” for Its Advanced CBN Grinding Machine",
+   "url": "https://www.fivesgroup.com/newspress/detail-view/award-fives-landis-won-the-ringier-technology-innovation-award-for-its-advanced-cbn-grinding-machine",
+   "ek": "kapsam_disi"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Fives Officially Joins China Internal Combustion Engine Industry Association (CICEIA)",
+   "url": "https://www.fivesgroup.com/newspress/detail-view/fives-officially-joins-china-internal-combustion-engine-industry-association-ciceia",
+   "ek": "kapsam_disi"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Upgrading reheating furnace control in India",
+   "url": "https://www.fivesgroup.com/newspress/detail-view/upgrading-reheating-furnace-control-in-india",
+   "ek": "kapsam_disi"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Marcegaglia entrusts Fives with a new digital upgrade",
+   "url": "https://www.fivesgroup.com/newspress/detail-view/marcegaglia-entrusts-fives-with-a-new-digital-upgrade",
+   "ek": "2026-07-08"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "A new step in italian retail innovation: Coop entrusts Fives with the automation of their distribution center in Tortona",
+   "url": "https://www.fivesgroup.com/newspress/detail-view/a-new-step-in-italian-retail-innovation-coop-entrusts-fives-with-the-automation-of-their-distribution-center-in-tortona",
+   "ek": "2026-07-07"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Hoval strengthens equipment reliability with a dedicated service agreement from Fives",
+   "url": "https://www.fivesgroup.com/newspress/detail-view/hoval-strengthens-equipment-reliability-with-a-dedicated-service-agreement-from-fives",
+   "ek": "2026-07-01"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Safer and repeatable operations with OTO coil loading systems",
+   "url": "https://www.fivesgroup.com/newspress/detail-view/safer-and-repeatable-operations-with-oto-coil-loading-systems",
+   "ek": "2026-06-24"
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "Payer Transparency Mandate",
+   "url": "https://transparency-in-coverage.uhc.com/",
+   "ek": ""
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Newsletter #5 Francais",
+   "url": "https://www.clecim.com/newsletter-5-francais/",
+   "ek": "on eleme: 2026-05-05"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Newsletter #5 English",
+   "url": "https://www.clecim.com/newsletter-5-english-cloned/",
+   "ek": "on eleme: 2026-05-05"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "SUCCESS STORY | Rénovation d’un groupe hydroélectrique pour EDF Hydro",
+   "url": "https://www.clecim.com/success-story_edf/",
+   "ek": "on eleme: 2026-04-14"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Global Industrie 2026",
+   "url": "https://www.clecim.com/global-industrie-2026/",
+   "ek": "on eleme: 2026-03-30"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "AisTech 2026",
+   "url": "https://www.clecim.com/aistech/",
+   "ek": "on eleme: 2026-03-23"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Business Indastrie",
+   "url": "https://www.clecim.com/business-indastrie/",
+   "ek": "on eleme: 2026-02-05"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Challenge Mobilités – Don association ARSLA",
+   "url": "https://www.clecim.com/challenge-mobilites-don-association-arsla/",
+   "ek": "on eleme: 2025-10-30"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "SIAS DL – Nomade",
+   "url": "https://www.clecim.com/sias-dl-nomade/",
+   "ek": "on eleme: 2025-10-30"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Challenge Mobilités – Don association Les Amis de Rémi",
+   "url": "https://www.clecim.com/challenge-mobilites-don-association-les-amis-de-remi/",
+   "ek": "on eleme: 2025-10-30"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "TATA STEEL Ground Breaking event",
+   "url": "https://www.clecim.com/tata-steel-ground-breaking-event/",
+   "ek": "on eleme: 2025-10-30"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "See How Intelligent Content Syndication Enabled a Tech Giant to Turbocharge Customer Engagement",
+   "url": "https://butechbliss.com/see-how-intelligent-content-syndication-enabled-a-tech-giant-to-turbocharge-customer-engagement/",
+   "ek": "on eleme: 2022-08-09"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "100,000+ Users Migrate to a New Platform Seamlessly & Effectively",
+   "url": "https://butechbliss.com/100000-users-migrate-to-a-new-platform-seamlessly-effectively/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "iTalent’s iAgent for Privacy Protection Saves Billions",
+   "url": "https://butechbliss.com/italents-iagent-for-privacy-protection-saves-billions/",
+   "ek": "on eleme: 2022-08-08"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "HerkulesGroupSiegenGermanyThe Specialists for Heavy-Duty Machine Tools",
+   "url": "https://www.herkulesgroup.com/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "WaldrichSiegenSiegenGermanyThe Specialist for Heavy-Duty Machine Tools",
+   "url": "https://www.waldrichsiegen.com/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Career at the HerkulesGroup",
+   "url": "https://www.herkulesgroup.com/career/career-at-the-herkulesgroup/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Internship at the HerkulesGroup",
+   "url": "https://www.herkulesgroup.com/careers/training-internship/internship-at-the-herkulesgroup/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "HerkulesGroup Heart Project: 50 New Nesting Boxes for the Haiger Bird and Nature Conservation Association",
+   "url": "https://www.herkulesgroup.com/news/detail/herkulesgroup-heart-project-50-new-nesting-boxes-for-the-haiger-bird-and-nature-conservation-association/",
+   "ek": "on eleme: 2025-11-07"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Donation to the “Elterninitiative für krebskranke Kinder e.V.”",
+   "url": "https://www.herkulesgroup.com/news/detail/donation-to-the-elterninitiative-fuer-krebskranke-kinder-ev/",
+   "ek": "on eleme: 2025-10-22"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "HerkulesGroup Heart Project: Renovation of the Clubhouse at the Medenbach Gun Club",
+   "url": "https://www.herkulesgroup.com/news/detail/herkulesgroup-heart-project-renovation-of-the-clubhouse-at-the-medenbach-gun-club/",
+   "ek": "on eleme: 2025-09-10"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Our support for the Judosportverein Rositz e.V.",
+   "url": "https://www.herkulesgroup.com/news/detail/our-support-for-the-judosportverein-rositz-ev/",
+   "ek": "on eleme: 2025-04-03"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Hilchenbach Volunteer Fire Department Sets Up a Children's Fire Department",
+   "url": "https://www.herkulesgroup.com/news/detail/hilchenbach-volunteer-fire-department-sets-up-a-childrens-fire-department/",
+   "ek": "on eleme: 2024-11-21"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "HerkulesGroup Herzensprojekt 2024 Training Jackets for the Youngsters at SuS Niederschelden",
+   "url": "https://www.herkulesgroup.com/news/detail/herkulesgroup-herzensprojekt-2024-training-jackets-for-the-youngsters-at-sus-niederschelden/",
+   "ek": "on eleme: 2024-11-12"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "A Matter of Heart: HerkulesGroup Supports Kinderinsel of the DRK-Kinderklinik in Siegen",
+   "url": "https://www.herkulesgroup.com/news/detail/a-matter-of-heart-herkulesgroup-supports-kinderinsel-of-the-drk-kinderklinik-in-siegen/",
+   "ek": "on eleme: 2024-11-12"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Giving Home, Heart and Hope",
+   "url": "https://www.herkulesgroup.com/news/detail/giving-home-heart-and-hope/",
+   "ek": "on eleme: 2024-08-02"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "WaldrichSiegen Wins the \"Golden Ticket\" on the Steel Market in Japan",
+   "url": "https://www.herkulesgroup.com/news/detail/waldrichsiegen-wins-the-golden-ticket-on-the-steel-market-in-japan/",
+   "ek": "on eleme: 2024-07-25"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Enormous Increase in Efficiency and High Quality Level for the Best End Product Quality",
+   "url": "https://www.herkulesgroup.com/news/detail/enormous-increase-in-efficiency-and-high-quality-level-for-the-best-end-product-quality/",
+   "ek": "on eleme: 2024-07-25"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "IRLE ROLLS Welcomes Delegation from Nucor Steel West Virginia and Herkules",
+   "url": "https://www.herkulesgroup.com/news/detail/irle-rolls-welcomes-delegation-from-nucor-steel-west-virginia-and-herkules/",
+   "ek": "on eleme: 2024-07-25"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Herkules Concludes Two New Orders on the Egyptian Market Within Only One Week",
+   "url": "https://www.herkulesgroup.com/news/detail/herkules-concludes-two-new-orders-on-the-egyptian-market-within-only-one-week-1/",
+   "ek": "on eleme: 2024-07-25"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "CSC orders overhaul of two roll grinding machines",
+   "url": "https://www.herkulesgroup.com/news/detail/csc-orders-overhaul-of-two-roll-grinding-machines/",
+   "ek": "on eleme: 2024-07-23"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Unlimited Expertise Paving the Way to the Future",
+   "url": "https://www.herkulesgroup.com/news/detail/unlimited-expertise-paving-the-way-to-the-future/",
+   "ek": "on eleme: 2024-04-16"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Grant of up to €2,000 for a driving license - More flexibility during training",
+   "url": "https://www.herkulesgroup.com/news/detail/grant-of-up-to-eur2000-for-a-driving-license-more-flexibility-during-training/",
+   "ek": "on eleme: 2025-03-25"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "From Apprentice to After-Sales-Process Manager: Marvin Stötzel on his Career Path, Challenges and Successes",
+   "url": "https://www.herkulesgroup.com/news/detail/from-apprentice-to-after-sales-process-manager-marvin-stoetzel-on-his-career-path-challenges-and-successes/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "\"InnovationCircle digital business models\" at Herkules and WaldrichSiegen",
+   "url": "https://www.herkulesgroup.com/news/detail/innovationcircle-digital-business-models-at-herkules-and-waldrichsiegen-1/",
+   "ek": "on eleme: 2024-11-12"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Project Work of the Apprentices from Siegen a Complete Success",
+   "url": "https://www.herkulesgroup.com/news/detail/project-work-of-the-apprentices-from-siegen-a-complete-success/",
+   "ek": "on eleme: 2024-11-12"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "HerkulesGroup \"Herzensprojekt\"",
+   "url": "https://www.herkulesgroup.com/news/detail/herkulesgroup-herzensprojekt/",
+   "ek": "on eleme: 2024-09-30"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Because Practice is Better Than Theory",
+   "url": "https://www.herkulesgroup.com/news/detail/because-practice-is-better-than-theory/",
+   "ek": "on eleme: 2024-07-09"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Technician Day at Herkules and WaldrichSiegen",
+   "url": "https://www.herkulesgroup.com/news/detail/technician-day-at-herkules-and-waldrichsiegen/",
+   "ek": "on eleme: 2024-04-16"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Factory tour, dragon boat race and Leipzig city festival",
+   "url": "https://www.herkulesgroup.com/news/detail/factory-tour-dragon-boat-race-and-leipzig-city-festival/",
+   "ek": "on eleme: 2024-04-16"
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "HerkulesSiegen, Meuselwitz, Ford CityGermany, USAThe Specialist for Roll Machining",
+   "url": "https://www.herkules-machinetools.com/",
+   "ek": ""
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "RSGetriebeSonthofenGermanyThe Specialist for Customized Drive Solutions",
+   "url": "https://www.rsgetriebe.com/",
+   "ek": ""
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "SBAWeikersdorfÖsterreichThe Specialist for Modernization",
+   "url": "https://www.sba-at.eu/en/",
+   "ek": ""
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "Apprenticeship in Meuselwitz",
+   "url": "https://www.herkulesgroup.com/careers/training-internship/training-in-meuselwitz/",
+   "ek": ""
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "Apprenticeship in Sonthofen",
+   "url": "https://www.herkulesgroup.com/careers/training-internship/training-in-sonthofen/",
+   "ek": ""
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "Jobs Construction & Development",
+   "url": "https://www.herkulesgroup.com/careers/job-construction-development/",
+   "ek": ""
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "Jobs Service & Administration",
+   "url": "https://www.herkulesgroup.com/careers/jobs-service-administration/",
+   "ek": ""
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "Terms and conditions for supply and services",
+   "url": "https://www.herkulesgroup.com/terms-and-conditions-for-supply-and-services/",
+   "ek": ""
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "OPTILINK Digital Solutions",
+   "url": "https://www.achenbach.de/en/future-concepts/optilink-digital-solutions/",
+   "ek": ""
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "OPTIFOIL Foil Slitting Machines",
+   "url": "https://www.achenbach.de/en/machines-equipment/optifoil-foil-slitting-machines/",
+   "ek": ""
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "| Glüh-& Beschichtungslinie (ACL)",
+   "url": "https://www.ebner.cc/glueh-und-beschichtungslinie-acl-stahl-de",
+   "ek": "2020-07-15"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "| Horizontale Kontiglühlinien",
+   "url": "https://www.ebner.cc/horizontale-kontigluehlinien-stahl-de",
+   "ek": "2020-07-14"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "> Vertretungen. Weltweit.",
+   "url": "https://www.ebner.cc/vertretung-de",
+   "ek": "2020-01-15"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Erforderlichen Service akzeptieren und Inhalte entsperren",
+   "url": "https://www.ebner.cc/news-08-05-2025-ebner-staerkt-marktposition-in-asien-mit-rollenherdofen-projekt",
+   "ek": "2025-08-06"
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "2026.08.07 お知らせ 2026年 夏季の働き方キャンペーンについて",
+   "url": "https://www.eng.nipponsteel.com/news/detail/20260807/",
+   "ek": ""
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "2026.08.06 プレスリリース 【受注】エコクリーン松江基幹的設備改良工事および長期包括的運営業務委託",
+   "url": "https://www.eng.nipponsteel.com/news/detail/20260806/",
+   "ek": ""
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "2026.08.04 お知らせ STEAM教育プログラム「情熱・先端Mission-E」がスタート",
+   "url": "https://www.eng.nipponsteel.com/news/detail/20260804/",
+   "ek": ""
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "2026.07.30 プレスリリース 【販売開始】木材を使用した座屈拘束ブレース「木・鋼アンボンドブレース®」",
+   "url": "https://www.eng.nipponsteel.com/news/detail/20260730/",
+   "ek": ""
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "2026.07.23 お知らせ 【受賞】一般財団法人エンジニアリング協会 「エンジニアリング功労者賞・奨励特別賞」",
+   "url": "https://www.eng.nipponsteel.com/news/detail/20260723/",
+   "ek": ""
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Aluminum, Copper and other non-ferrous metals",
+   "url": "https://www.isravision.com/en-en/industries/metals/aluminum-copper-and-other-non-ferrous-metals",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Girls' Day: ISRA VISION gives schoolgirls an insight into technical professions and machine vision",
+   "url": "https://www.isravision.com/en-en/company/newsroom/girls-day-2024-at-isra-vision",
+   "ek": "on eleme: 2024-04-26"
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "Painted / transparent parts",
+   "url": "https://www.isravision.com/en-en/industries/automotive/surface-inspection-painted-and-transparent-parts",
+   "ek": ""
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "Final assembly automation",
+   "url": "https://www.isravision.com/en-en/industries/automotive/final-assembly-solutions",
+   "ek": ""
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "Tissue web inspection solutions",
+   "url": "https://www.isravision.com/en-en/industries/paper-board-tissue-production/tissue-web-inspection-solutions",
+   "ek": ""
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "Paper & board inspection solutions",
+   "url": "https://www.isravision.com/en-en/industries/paper-board-tissue-production/paper-board-web-inspection-solutions",
+   "ek": ""
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "Plastic Film, Foil and Sheets",
+   "url": "https://www.isravision.com/en-en/industries/plastic-film-foil-sheets",
+   "ek": ""
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "Security substrates und printing",
+   "url": "https://www.isravision.com/en-en/industries/security/security-substrates-and-printing",
+   "ek": ""
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "Plastic Film, Foil and Sheets",
+   "url": "https://www.isravision.com/en-en/products/plastic-film-foil-sheets",
+   "ek": ""
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "Safety, Health, Environment and Quality",
+   "url": "https://www.isravision.com/en-en/company/sheq",
+   "ek": ""
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "ISRA VISION Machine Vision Solutions",
+   "url": "https://www.isravision.com/en-en",
+   "ek": "2026-05-07"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "The Bronx Group Strengthens Partnership with Hoa Phat Steel Sheet Co. in Vietnam Through a New High-Speed Colour Coating Line",
+   "url": "https://thebronxgroup.com/bronx-coil-coating-line-for-hoa-phat/",
+   "ek": "on eleme: 2025-11-11"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Turning Waste into Value: Bronx Builds Enval Recycling Module for Greenback",
+   "url": "https://thebronxgroup.com/bronx-for-greenback/",
+   "ek": "on eleme: 2025-09-13"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "We’re Hiring – Technical Sales Engineer",
+   "url": "https://thebronxgroup.com/bronx-is-hiring/",
+   "ek": "on eleme: 2025-06-19"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Decoiling Line 3 for John Tainton",
+   "url": "https://thebronxgroup.com/decoiling-line-3-for-john-tainton/",
+   "ek": "on eleme: 2023-06-18"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "The Latest Bronx Metal Embossing Machine",
+   "url": "https://thebronxgroup.com/the-latest-bronx-metal-embosser/",
+   "ek": "on eleme: 2023-03-05"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Bronx at the ECCA Congress",
+   "url": "https://thebronxgroup.com/bronx-at-the-ecca-congress/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "New technologies as a tool to add value to your coil",
+   "url": "https://thebronxgroup.com/new-technologies-as-a-tool-to-add-value-to-your-coil/",
+   "ek": "on eleme: 2021-11-23"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Take a virtual tour around Metal Profile’s flagship factory",
+   "url": "https://thebronxgroup.com/take-a-virtual-tour-around-metal-profiles-flagship-factory/",
+   "ek": "on eleme: 2021-04-28"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Bronx Coater Installed at TPK Vietnam",
+   "url": "https://thebronxgroup.com/bronx-coater-tpk-vietnam-mar21/",
+   "ek": "on eleme: 2021-03-25"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "The Bronx Group welcomes SpecMetrix® to Russia/CIS region",
+   "url": "https://thebronxgroup.com/the-bronx-group-welcomes-specmetrix-to-russia-cis-region/",
+   "ek": "on eleme: 2020-11-20"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Delta Steel Technologies Showcases Next-Level Temper Pass CTL Line",
+   "url": "https://www.deltasteeltech.com/dst-tmpctl/",
+   "ek": "on eleme: 2025-06-23"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Leveling Podcast",
+   "url": "https://www.deltasteeltech.com/leveling-podcast/",
+   "ek": "on eleme: 2025-04-03"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Choosing the Right Scrap Solution for Your Slitting Line",
+   "url": "https://www.deltasteeltech.com/scrap-chopper/",
+   "ek": "on eleme: 2025-03-17"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Roller Leveler Retrofit",
+   "url": "https://www.deltasteeltech.com/13538-2/",
+   "ek": "on eleme: 2024-12-02"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Rolling in the USA",
+   "url": "https://www.deltasteeltech.com/13488-2/",
+   "ek": "on eleme: 2023-01-26"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Steel and Pipe Supply of Manhattan, KS awards Delta Steel Technologies Contract for a New Stretch Leveler",
+   "url": "https://www.deltasteeltech.com/steel-and-pipe-supply-of-manhattan-ks-awards-delta-steel-technologies-contract-for-a-new-stretch-leveler/",
+   "ek": "on eleme: 2020-10-13"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Olympic Metals Installs DELTA Steel Technologies Cut-To-Length Line",
+   "url": "https://www.deltasteeltech.com/olympic-metals-installs-delta-steel-technologies-179-x-60-00-cut-to-length-line/",
+   "ek": "on eleme: 2020-06-08"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Case Study: Cut-to-Length Line (.179″ x 60.00″)",
+   "url": "https://www.deltasteeltech.com/case-study-cut-to-length-line/",
+   "ek": "on eleme: 2020-04-30"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "DELTA Steel Technologies installs Hot Band Inspection Equipment for Arkansas Mill",
+   "url": "https://www.deltasteeltech.com/delta-steel-technologies-installs-hot-band-inspection-equipment-for-arkansas-mill/",
+   "ek": "on eleme: 2020-04-06"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Delta Line Upgrade",
+   "url": "https://www.deltasteeltech.com/delta-line-upgrade/",
+   "ek": "on eleme: 2016-03-27"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Nervürlü Demir & Çelik Hasır",
+   "url": "https://www.steelturk.com.tr/nervurlu-demir--celik-hasir/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Otomasyon & Robot Teknolojileri",
+   "url": "https://www.steelturk.com.tr/otomasyon--robot-teknolojileri/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Hyundai Steel’in Çelik Satışları İkinci Çeyrekte %3,7 Arttı",
+   "url": "https://www.steelturk.com.tr/hyundai-steelin-celik-satislari-ikinci-ceyrekte-37-artti/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "İngiltere, Çin Ve Rusya’dan İthal Edilen Soğuk Haddelenmiş Çeliğe Yönelik Anti-Damping Vergilerini Kaldırdı",
+   "url": "https://www.steelturk.com.tr/ingiltere-cin-ve-rusyadan-ithal-edilen-soguk-haddelenmis-celige-yonelik-antidamping-vergilerini-kaldirdi/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Abd, 232. Madde Kapsamındaki Çelik Tarifelerini 14 Yeni Ürüne Genişletiyor",
+   "url": "https://www.steelturk.com.tr/abd-232-madde-kapsamindaki-celik-tarifelerini-14-yeni-urune-genisletiyor/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Almanya’da Sanayi Üretimi Ve İhracat Haziran Ayında Yükseldi",
+   "url": "https://www.steelturk.com.tr/almanyada-sanayi-uretimi-ve-ihracat-haziran-ayinda-yukseldi/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Ukrayna’da İnşaat Çeliği Fiyatları Yılın İlk Yarısında Yükseldi",
+   "url": "https://www.steelturk.com.tr/ukraynada-insaat-celigi-fiyatlari-yilin-ilk-yarisinda-yukseldi/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Ford Otosan'dan 364 Milyon Euroluk Yatırım",
+   "url": "https://www.steelturk.com.tr/ford-otosandan-364-milyon-euroluk-yatirim/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "AB, Beş Ülkeden İthal Edilen Soğuk Haddelenmiş Çeliğe Yüzde 5,6-28 Arasında Anti-Damping Vergisi Önerdi",
+   "url": "https://www.steelturk.com.tr/ab-bes-ulkeden-ithal-edilen-soguk-haddelenmis-celige-yuzde-5628-arasinda-antidamping-vergisi-onerdi/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Çin’in Çelik İhracatı, İlk 7 Ayda Yüzde 4,4 Geriledi",
+   "url": "https://www.steelturk.com.tr/cinin-celik-ihracati-ilk-7-ayda-yuzde-44-geriledi/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Bölgesel Hurda Piyasalarında Fiyatlar Temmuzda Geriledi",
+   "url": "https://www.steelturk.com.tr/bolgesel-hurda-piyasalarinda-fiyatlar-temmuzda-geriledi/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Türkiye’nin Demir Çelik İhracatı İlk 7 Ayda Güçlü Seyrini Korudu",
+   "url": "https://www.steelturk.com.tr/turkiyenin-demir-celik-ihracati-ilk-7-ayda-guclu-seyrini-korudu/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Sukha Balka, 56 Bin Ton Cevher Rezervine Sahip İki Yeni Bloğu Üretime Aldı",
+   "url": "https://www.steelturk.com.tr/sukha-balka-56-bin-ton-cevher-rezervine-sahip-iki-yeni-blogu-uretime-aldi/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "İspanya, Hydnum Steel’in Yeşil Çelik Tesisine 150 Milyon Euro Destek Sağlayacak",
+   "url": "https://www.steelturk.com.tr/ispanya-hydnum-steelin-yesil-celik-tesisine-150-milyon-euro-destek-saglayacak/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Voestalpine’nin İlk Çeyrek Geliri 4 Milyar Euroya Yükseldi",
+   "url": "https://www.steelturk.com.tr/voestalpinenin-ilk-ceyrek-geliri-4-milyar-euroya-yukseldi/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "ERDEMİR’DEN İLK YARIDA 9,5 MİLYAR TL NET KÂR",
+   "url": "https://www.steelturk.com.tr/erdemirden-ilk-yarida-95-milyar-tl-net-kr/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Avrupa'da Karbon Fiyatları 80 €/Tonun Üzerinde Kalmayı Sürdürüyor",
+   "url": "https://www.steelturk.com.tr/avrupada-karbon-fiyatlari-80-€tonun-uzerinde-kalmayi-surduruyor/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Türkiye-Ukrayna STA'sı Çelik Ticaretinde Dengeleri Değiştirebilir",
+   "url": "https://www.steelturk.com.tr/turkiyeukrayna-stasi-celik-ticaretinde-dengeleri-degistirebilir/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "ÇELİK ÜRETİYORUZ DA KİME SATACAĞIZ?",
+   "url": "https://www.steelturk.com.tr/celik-uretiyoruz-da-kime-satacagiz/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Dünya Çelik Sektörü İstanbul’da Buluşuyor",
+   "url": "https://www.steelturk.com.tr/dunya-celik-sektoru-istanbulda-bulusuyor/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Metinvest'in 2026 İlk Yarı Çelik Üretimi %13 Arttı",
+   "url": "https://www.steelturk.com.tr/metinvestin-2026-ilk-yari-celik-uretimi-13-artti/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "JFE Steel, Yeşil Hidrojen Kullanarak Japonya'nın İlk DRI Prototipini Üretti",
+   "url": "https://www.steelturk.com.tr/jfe-steel-yesil-hidrojen-kullanarak-japonyanin-ilk-dri-prototipini-uretti/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Tosyalı Holding, Capital 500'de Demir Çelik Sektörünün Cirosunun %21,3'ünü Oluşturdu",
+   "url": "https://www.steelturk.com.tr/tosyali-holding-capital-500de-demir-celik-sektorunun-cirosunun-213unu-olusturdu/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "POSCO, İkinci Çeyrekte Çelik Segmentindeki Kârlılığını Artırdı",
+   "url": "https://www.steelturk.com.tr/posco-ikinci-ceyrekte-celik-segmentindeki-krliligini-artirdi/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Güç Aktarımda Güvenliğin ve Mühendisliğin Küresel Adresi: MAYR",
+   "url": "https://www.steelturk.com.tr/guc-aktarimda-guvenligin-ve-muhendisligin-kuresel-adresi-mayr/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Aperam, Avrupa Pazarına Bağımlılığını Azaltırken İkinci Çeyrekte Gelirini Artırdı",
+   "url": "https://www.steelturk.com.tr/aperam-avrupa-pazarina-bagimliligini-azaltirken-ikinci-ceyrekte-gelirini-artirdi/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Çinli CMOC, Brezilya Ortaklığıyla Demir Cevheri Ticaretine Adım Attı",
+   "url": "https://www.steelturk.com.tr/cinli-cmoc-brezilya-ortakligiyla-demir-cevheri-ticaretine-adim-atti/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Küresel Kütük Piyasasında Temmuz Ayında Fiyatlar Geriledi, Türkiye Yükselişle Ayrıştı",
+   "url": "https://www.steelturk.com.tr/kuresel-kutuk-piyasasinda-temmuz-ayinda-fiyatlar-geriledi-turkiye-yukselisle-ayristi/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Tata Steel'in İlk Çeyrek Geliri %14 Arttı, 3,5 Milyar Dolarlık Kapasite Yatırımına Onay",
+   "url": "https://www.steelturk.com.tr/tata-steelin-ilk-ceyrek-geliri-14-artti-35-milyar-dolarlik-kapasite-yatirimina-onay/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Aperam, Avrupa Pazarına Bağımlılığını Azaltarak Güçlü Finansal Sonuçlar Açıkladı",
+   "url": "https://www.steelturk.com.tr/aperam-avrupa-pazarina-bagimliligini-azaltarak-guclu-finansal-sonuclar-acikladi/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Outokumpu'nun Paslanmaz Çelik Sevkiyatları İlk Yarıda 953 Bin Ton Oldu",
+   "url": "https://www.steelturk.com.tr/outokumpunun-paslanmaz-celik-sevkiyatlari-ilk-yarida-953-bin-ton-oldu/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Eski AB Ticaret Komiseri Lamy: Ukrayna, CBAM'den Muaf Tutulmalı",
+   "url": "https://www.steelturk.com.tr/eski-ab-ticaret-komiseri-lamy-ukrayna-cbamden-muaf-tutulmali/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Avrupa Komisyonu, AB Çelik Yönetmeliği Kapsamındaki Ürün Listesi İçin İstişare Sürecini Başlattı",
+   "url": "https://www.steelturk.com.tr/avrupa-komisyonu-ab-celik-yonetmeligi-kapsamindaki-urun-listesi-icin-istisare-surecini-baslatti/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "ArcelorMittal'in Çelik Üretimi İlk Yarıda %5,5 Geriledi",
+   "url": "https://www.steelturk.com.tr/arcelormittalin-celik-uretimi-ilk-yarida-55-geriledi/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Dünyanın En Büyük Elektrik Ark Fırını ( EAF) Almanya’da Kuruluyor",
+   "url": "https://www.steelturk.com.tr/dunyanin-en-buyuk-elektrik-ark-firini--eaf-almanyada-kuruluyor/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Hindistan'ın Çelik İhracatı İlk Yarıda %27 Arttı",
+   "url": "https://www.steelturk.com.tr/hindistanin-celik-ihracati-ilk-yarida-27-artti/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Hasçelik, SKDM'ye Yönelik Ön Doğrulama Denetimini Tamamladı",
+   "url": "https://www.steelturk.com.tr/hascelik-skdmye-yonelik-on-dogrulama-denetimini-tamamladi/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Çelik Üretiminde Hız, Güvenlik ve Verimlilik Bir Arada",
+   "url": "https://www.steelturk.com.tr/celik-uretiminde-hiz-guvenlik-ve-verimlilik-bir-arada/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Ukrayna'da Demir Ve Çelik Ürünlerinin Demiryolu Taşımacılığı İlk Yarıda %20 Geriledi",
+   "url": "https://www.steelturk.com.tr/ukraynada-demir-ve-celik-urunlerinin-demiryolu-tasimaciligi-ilk-yarida-20-geriledi/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Hindistan, Altı Ülkeden Kok Kömürü İthalatına Anti-Damping Vergisi Getirdi",
+   "url": "https://www.steelturk.com.tr/hindistan-alti-ulkeden-kok-komuru-ithalatina-antidamping-vergisi-getirdi/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Nucor'un Çelik Sevkiyatları Yılın İlk Yarısında %9,3 Arttı",
+   "url": "https://www.steelturk.com.tr/nucorun-celik-sevkiyatlari-yilin-ilk-yarisinda-93-artti/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Türkiye, Dünya Çelik Üretiminde 7. Sıraya Yükseldi",
+   "url": "https://www.steelturk.com.tr/turkiye-dunya-celik-uretiminde-7-siraya-yukseldi/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Avrupa Sanayisi Brüksel'de İmalat Sektörünü Savunmak İçin Harekete Geçiyor",
+   "url": "https://www.steelturk.com.tr/avrupa-sanayisi-brukselde-imalat-sektorunu-savunmak-icin-harekete-geciyor/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Almanya'da Çelik Ürünleri Satışları Haziran'da Güçlü Toparlandı",
+   "url": "https://www.steelturk.com.tr/almanyada-celik-urunleri-satislari-haziranda-guclu-toparlandi/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "ABD, Meksika'yı Çin Çeliğine Ek Gümrük Vergisi Uygulamaya Çağırdı",
+   "url": "https://www.steelturk.com.tr/abd-meksikayi-cin-celigine-ek-gumruk-vergisi-uygulamaya-cagirdi/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "ABD, 60 Ticaret Ortağına Yeni Gümrük Vergileri Getirdi",
+   "url": "https://www.steelturk.com.tr/abd-60-ticaret-ortagina-yeni-gumruk-vergileri-getirdi/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "ÇELİK, KENDİ PAZARININ DIŞINA ÇIKMAYA HAZIR MI?",
+   "url": "https://www.steelturk.com.tr/celik-kendi-pazarinin-disina-cikmaya-hazir-mi/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Kocaer Çelik ABD'de Üretim İçin Şirket Kuruyor",
+   "url": "https://www.steelturk.com.tr/kocaer-celik-abdde-uretim-icin-sirket-kuruyor/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Küresel Ham Çelik Üretimi Haziran'da %1,7 Arttı",
+   "url": "https://www.steelturk.com.tr/kuresel-ham-celik-uretimi-haziranda-17-artti/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "SSAB'nin İlk Yarı Çelik Üretimi %3,3 Arttı",
+   "url": "https://www.steelturk.com.tr/ssabnin-ilk-yari-celik-uretimi-33-artti/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Kazakistan, 2028'de Otomotiv Çeliği Üretimine Başlamayı Hedefliyor",
+   "url": "https://www.steelturk.com.tr/kazakistan-2028de-otomotiv-celigi-uretimine-baslamayi-hedefliyor/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "EREGL Hissesi 42,24 TL'de Kapanış Yaptı: Destek ve Direnç Seviyeleri Takipte",
+   "url": "https://www.steelturk.com.tr/eregl-hissesi-4224-tlde-kapanis-yapti-destek-ve-direnc-seviyeleri-takipte/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "AB ve İngiltere'nin Önlemleri Hindistan'ın Çelik İhracatını Zorluyor",
+   "url": "https://www.steelturk.com.tr/ab-ve-ingilterenin-onlemleri-hindistanin-celik-ihracatini-zorluyor/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Çin'in Demir Cevheri Üretimi İlk Yarıda %7 Geriledi, İthalat Arttı",
+   "url": "https://www.steelturk.com.tr/cinin-demir-cevheri-uretimi-ilk-yarida-7-geriledi-ithalat-artti/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "ÇİB'den Litvanya Hamlesi: Çelik Ticaretini Güçlendirecek Heyet Programı İçin İlk Adım",
+   "url": "https://www.steelturk.com.tr/cibden-litvanya-hamlesi-celik-ticaretini-guclendirecek-heyet-programi-icin-ilk-adim/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "ELEKTRİK ARK OCAKLARINDA YENİ GÜÇ: ÇİFT ELEKTROTLU DC TEKNOLOJİSİ",
+   "url": "https://www.steelturk.com.tr/elektrik-ark-ocaklarinda-yeni-guc-cift-elektrotlu-dc-teknolojisi/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "1 MİLYAR DOLARLIK TÜRK-JAPON ORTAKLIĞINA DİPLOMATİK ZİYARET",
+   "url": "https://www.steelturk.com.tr/1-milyar-dolarlik-turkjapon-ortakligina-diplomatik-ziyaret/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Dünya Çelik Üretimi Gerilerken Türkiye Üretimini Artırdı",
+   "url": "https://www.steelturk.com.tr/dunya-celik-uretimi-gerilerken-turkiye-uretimini-artirdi/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Çin'in Paslanmaz Çelik İhracatı İlk Yarıda %17,6 Geriledi",
+   "url": "https://www.steelturk.com.tr/cinin-paslanmaz-celik-ihracati-ilk-yarida-176-geriledi/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Steel Dynamics'in İkinci Çeyrek Net Kârı 534 Milyon Dolara Yükseldi",
+   "url": "https://www.steelturk.com.tr/steel-dynamicsin-ikinci-ceyrek-net-kri-534-milyon-dolara-yukseldi/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Almanya'nın Çelik Üretimi İlk Yarıda %8,9 Arttı, Sektör Temkinli",
+   "url": "https://www.steelturk.com.tr/almanyanin-celik-uretimi-ilk-yarida-89-artti-sektor-temkinli/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Bir Dönemin Sanayi Devi SİDEMİR, Yeniden Üretim İçin 50 Milyon Dolarlık Yatırım Bekliyor",
+   "url": "https://www.steelturk.com.tr/bir-donemin-sanayi-devi-sidemir-yeniden-uretim-icin-50-milyon-dolarlik-yatirim-bekliyor/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Jingye Steel, British Steel'in Millileştirilmesi İçin Tahkime Gitmeye Hazırlanıyor",
+   "url": "https://www.steelturk.com.tr/jingye-steel-british-steelin-millilestirilmesi-icin-tahkime-gitmeye-hazirlaniyor/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Küresel Otomobil Satışları İlk Yarıda %2,8 Geriledi",
+   "url": "https://www.steelturk.com.tr/kuresel-otomobil-satislari-ilk-yarida-28-geriledi/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "JSW Steel, İlk Çeyrekte Üretimini %3 Artırarak 6,59 Milyon Tona Ulaştırdı",
+   "url": "https://www.steelturk.com.tr/jsw-steel-ilk-ceyrekte-uretimini-3-artirarak-659-milyon-tona-ulastirdi/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "İSO İkinci 500'de Demir Çelik Sektörü Gücünü Korudu",
+   "url": "https://www.steelturk.com.tr/iso-ikinci-500de-demir-celik-sektoru-gucunu-korudu/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Çin’den İngiltere’nin British Steel Kararına Sert Tepki",
+   "url": "https://www.steelturk.com.tr/cinden-ingilterenin-british-steel-kararina-sert-tepki/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Hoberg & Driesch ve ATTEC Holding'den Türkiye'ye Stratejik Çelik Boru Yatırımı",
+   "url": "https://www.steelturk.com.tr/hoberg--driesch-ve-attec-holdingden-turkiyeye-stratejik-celik-boru-yatirimi/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Karsan'ın Yeni CEO'su Utku Ayyarkın Oldu",
+   "url": "https://www.steelturk.com.tr/karsanin-yeni-ceosu-utku-ayyarkin-oldu/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Hindistan, İngiltere'ye 1,1 Milyon Tonluk Gümrüksüz Çelik İhracatı Hakkı Kazandı",
+   "url": "https://www.steelturk.com.tr/hindistan-ingiltereye-11-milyon-tonluk-gumruksuz-celik-ihracati-hakki-kazandi/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Kardemir Çelik'in 128 Milyon Paylık Halka Arzı Onaylandı",
+   "url": "https://www.steelturk.com.tr/kardemir-celikin-128-milyon-paylik-halka-arzi-onaylandi/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Erdemir Madencilik'ten 213,9 Milyon TL'lik Atık Depolama Yatırımı",
+   "url": "https://www.steelturk.com.tr/erdemir-madencilikten-2139-milyon-tllik-atik-depolama-yatirimi/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "ÇELİK SEKTÖRÜNDE ASIL TEHLİKE KRİZ DEĞİL… HÂLÂ KRİZDE OLDUĞUMUZU KABUL ETMEMEK",
+   "url": "https://www.steelturk.com.tr/celik-sektorunde-asil-tehlike-kriz-degil…-hl-krizde-oldugumuzu-kabul-etmemek/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "AB'de Sanayi Üretimi Mayıs Ayında Geriledi",
+   "url": "https://www.steelturk.com.tr/abde-sanayi-uretimi-mayis-ayinda-geriledi/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Ukrayna'nın Demir Cevheri İhracatı İlk Yarıda %25,4 Geriledi",
+   "url": "https://www.steelturk.com.tr/ukraynanin-demir-cevheri-ihracati-ilk-yarida-254-geriledi/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Avrupa'da Karbon Fiyatları 82 Euro/Ton Seviyesine Yükseldi",
+   "url": "https://www.steelturk.com.tr/avrupada-karbon-fiyatlari-82-euroton-seviyesine-yukseldi/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Çelik İthalatçıları, AB'nin Yeni Koruma Önlemlerine İlişkin Netlik Bekliyor",
+   "url": "https://www.steelturk.com.tr/celik-ithalatcilari-abnin-yeni-koruma-onlemlerine-iliskin-netlik-bekliyor/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Ukrayna Parlamentosu, Türkiye ile Serbest Ticaret Anlaşmasını Onayladı",
+   "url": "https://www.steelturk.com.tr/ukrayna-parlamentosu-turkiye-ile-serbest-ticaret-anlasmasini-onayladi/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Kuzeyboru'nun İhracat Atağı Sürüyor: 3,9 Milyon Dolarlık Yeni İş Bağlantıları",
+   "url": "https://www.steelturk.com.tr/kuzeyborunun-ihracat-atagi-suruyor-39-milyon-dolarlik-yeni-is-baglantilari/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Hindistan, Çin Menşeli Dikişsiz Çelik Borulara Anti-Damping Vergisini Uzattı",
+   "url": "https://www.steelturk.com.tr/hindistan-cin-menseli-dikissiz-celik-borulara-antidamping-vergisini-uzatti/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "TRUMPF Türkiye'den Çankırı Sanayisine TruBend 1150 Yatırımı",
+   "url": "https://www.steelturk.com.tr/trumpf-turkiyeden-cankiri-sanayisine-trubend-1150-yatirimi/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Türk Çelik Sektörü İlk Yarıda 8,4 Milyar Dolarlık İhracata Ulaştı",
+   "url": "https://www.steelturk.com.tr/turk-celik-sektoru-ilk-yarida-84-milyar-dolarlik-ihracata-ulasti/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "OYAK Genel Müdürü Murat Yalçıntaş'tan Milangaz Tesislerine Ziyaret",
+   "url": "https://www.steelturk.com.tr/oyak-genel-muduru-murat-yalcintastan-milangaz-tesislerine-ziyaret/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Çin'in Çelik Üretimi 950 Milyon Tona Gerileyebilir",
+   "url": "https://www.steelturk.com.tr/cinin-celik-uretimi-950-milyon-tona-gerileyebilir/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "ArcelorMittal, Avrupa'da Yassı Çelik Fiyatlarına 50 Euro Zam Yaptı",
+   "url": "https://www.steelturk.com.tr/arcelormittal-avrupada-yassi-celik-fiyatlarina-50-euro-zam-yapti/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Küresel Çelik Piyasası Bölgeselleşme Sürecine Giriyor: Gözler Kallanish Global Flat Steel 2026 Konferansı'nda",
+   "url": "https://www.steelturk.com.tr/kuresel-celik-piyasasi-bolgesellesme-surecine-giriyor-gozler-kallanish-global-flat-steel-2026-konferansinda/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Türkiye'nin Ham Çelik Üretimi 3,4 Milyon Tona Ulaştı",
+   "url": "https://www.steelturk.com.tr/turkiyenin-ham-celik-uretimi-34-milyon-tona-ulasti/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "ROKETSAN, Assan Group'u 471 Milyon Dolara Satın Aldı",
+   "url": "https://www.steelturk.com.tr/roketsan-assan-groupu-471-milyon-dolara-satin-aldi/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Çelikten Hidrojene: HABAŞ, Türk Sanayisinin Yeni Dönüşümüne Öncülük Ediyor",
+   "url": "https://www.steelturk.com.tr/celikten-hidrojene-habas-turk-sanayisinin-yeni-donusumune-onculuk-ediyor/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Yeni AB Çelik Kotaları Gümrük Süreçlerini Aksattı",
+   "url": "https://www.steelturk.com.tr/yeni-ab-celik-kotalari-gumruk-sureclerini-aksatti/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Toyota'dan ABD'ye 3,6 Milyar Dolarlık Yeni Üretim Hamlesi",
+   "url": "https://www.steelturk.com.tr/toyotadan-abdye-36-milyar-dolarlik-yeni-uretim-hamlesi/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Tosçelik Spiral Boru, BOTAŞ'ın 224,2 Milyon TL'lik Çelik Boru İhalesini Kazandı",
+   "url": "https://www.steelturk.com.tr/toscelik-spiral-boru-botasin-2242-milyon-tllik-celik-boru-ihalesini-kazandi/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "JSW Steel, Hindistan'da 1,5 Milyar Euroluk Düşük Karbonlu Çelik Tesisi Kuruyor",
+   "url": "https://www.steelturk.com.tr/jsw-steel-hindistanda-15-milyar-euroluk-dusuk-karbonlu-celik-tesisi-kuruyor/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Interpipe: AB'nin Dikişsiz Boru Kotası Ukrayna İçin En Az %30 Eksik Hesaplandı",
+   "url": "https://www.steelturk.com.tr/interpipe-abnin-dikissiz-boru-kotasi-ukrayna-icin-en-az-30-eksik-hesaplandi/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "OYAK'ın Miilux Hamlesi Türkiye'nin Yüksek Mukavemetli Çelik Gücünü NATO'nun Gündemine Taşıyor",
+   "url": "https://www.steelturk.com.tr/oyakin-miilux-hamlesi-turkiyenin-yuksek-mukavemetli-celik-gucunu-natonun-gundemine-tasiyor/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "AB’DEN TÜRK MENŞELİ SICAK HADDELENMİŞ SACLARA NİHAİ GÖZDEN GEÇİRME SORUŞTURMASI",
+   "url": "https://www.steelturk.com.tr/abden-turk-menseli-sicak-haddelenmis-saclara-nihai-gozden-gecirme-sorusturmasi/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Çin'in Paslanmaz Çelik Üretimi Mayısta Yüzde 2 Arttı",
+   "url": "https://www.steelturk.com.tr/cinin-paslanmaz-celik-uretimi-mayista-yuzde-2-artti/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Tata Steel Üretim Kapasitesini 40 Milyon Tona Çıkarmayı Hedefliyor",
+   "url": "https://www.steelturk.com.tr/tata-steel-uretim-kapasitesini-40-milyon-tona-cikarmayi-hedefliyor/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Haziranda Küresel Slab Fiyatları Düzeltmeye Girdi",
+   "url": "https://www.steelturk.com.tr/haziranda-kuresel-slab-fiyatlari-duzeltmeye-girdi/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "AB, Alüminyum Hurdasının İhracatına Yüzde 15 Vergi Getirmeye Hazırlanıyor",
+   "url": "https://www.steelturk.com.tr/ab-aluminyum-hurdasinin-ihracatina-yuzde-15-vergi-getirmeye-hazirlaniyor/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Türkiye'nin Çelik İhracatı, İlk 5 Ayda Yüzde 2,9 Geriledi",
+   "url": "https://www.steelturk.com.tr/turkiyenin-celik-ihracati-ilk-5-ayda-yuzde-29-geriledi/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Tosyalı, Cezayir Yatırımlarıyla Düşük Emisyonlu Çelik Üretimindeki İddiasını Güçlendiriyor",
+   "url": "https://www.steelturk.com.tr/tosyali-cezayir-yatirimlariyla-dusuk-emisyonlu-celik-uretimindeki-iddiasini-guclendiriyor/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Ukrayna'da İnşaat Çeliği Fiyatları Yılın İlk Yarısında Yüzde 5-20 Yükseldi",
+   "url": "https://www.steelturk.com.tr/ukraynada-insaat-celigi-fiyatlari-yilin-ilk-yarisinda-yuzde-520-yukseldi/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "İngiliz Çelik Üreticilerinden AB'ye Çağrı: Çelik Ticaretinde Pazar Erişimi İyileştirilsin",
+   "url": "https://www.steelturk.com.tr/ingiliz-celik-ureticilerinden-abye-cagri-celik-ticaretinde-pazar-erisimi-iyilestirilsin/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Avrupalı Çelik Üreticilerinden AB'ye Ortak Çağrı: CBAM Güçlendirilsin, ETS Zayıflatılmasın",
+   "url": "https://www.steelturk.com.tr/avrupali-celik-ureticilerinden-abye-ortak-cagri-cbam-guclendirilsin-ets-zayiflatilmasin/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Volkswagen’de Tarihi Yeniden Yapılanma Planı: 100 Bin İşçi Riski Ve Fabrika Kapatma Gündemde",
+   "url": "https://www.steelturk.com.tr/volkswagende-tarihi-yeniden-yapilanma-plani-100-bin-isci-riski-ve-fabrika-kapatma-gundemde/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Çelik ihracatında zirve Habaş’ın...",
+   "url": "https://www.steelturk.com.tr/celik-ihracatinda-zirve-habasin/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "SAC İŞLEMEDEN AKILLI FABRİKAYA... TRUMPF Türkiye’nin Dijital Dönüşüm Vizyonu",
+   "url": "https://www.steelturk.com.tr/sac-islemeden-akilli-fabrikaya-trumpf-turkiyenin-dijital-donusum-vizyonu/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "EUROFER: AB’de Görünür Çelik Tüketimi 2026’da Sınırlı Artış Gösterecek",
+   "url": "https://www.steelturk.com.tr/eurofer-abde-gorunur-celik-tuketimi-2026da-sinirli-artis-gosterecek/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "ABD’nin Haddelenmiş Çelik İthalatı İlk Beş Ayda %26,8 Geriledi",
+   "url": "https://www.steelturk.com.tr/abdnin-haddelenmis-celik-ithalati-ilk-bes-ayda-268-geriledi/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Meksika, ABD Menşeli Çelik Borulara Yönelik Anti-Damping Vergilerini 5 Yıl Daha Uzattı",
+   "url": "https://www.steelturk.com.tr/meksika-abd-menseli-celik-borulara-yonelik-antidamping-vergilerini-5-yil-daha-uzatti/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "“Assan Panel’den Dev Yatırım: İngiltere’deki Yeni Üretim Üssü Devreye Alındı”",
+   "url": "https://www.steelturk.com.tr/assan-panelden-dev-yatirim-ingilteredeki-yeni-uretim-ussu-devreye-alindi/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Çin’in Paslanmaz Çelik İhracatı İlk Beş Ayda Yüzde 30,8 Geriledi",
+   "url": "https://www.steelturk.com.tr/cinin-paslanmaz-celik-ihracati-ilk-bes-ayda-yuzde-308-geriledi/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "ABD’nin Çelik İthalatı Geriledi: Haddelenmiş Ürünlerde Düşüş Yüzde 26,8’e Ulaştı",
+   "url": "https://www.steelturk.com.tr/abdnin-celik-ithalati-geriledi-haddelenmis-urunlerde-dusus-yuzde-268e-ulasti/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "EUROFER: AB’de Çelik Tüketiminde Toparlanma Sinyalleri Sürüyor",
+   "url": "https://www.steelturk.com.tr/eurofer-abde-celik-tuketiminde-toparlanma-sinyalleri-suruyor/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "METKO HÜTTENES-ALBERTUS, Bilecik’te Döküm Sektörüne Yönelik Yeni Üretim Üssünü Devreye Aldı",
+   "url": "https://www.steelturk.com.tr/metko-huttenesalbertus-bilecikte-dokum-sektorune-yonelik-yeni-uretim-ussunu-devreye-aldi/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Uluslararası Galvaniz Sektörünün Büyük Buluşması İstanbul'da Gerçekleşti",
+   "url": "https://www.steelturk.com.tr/uluslararasi-galvaniz-sektorunun-buyuk-bulusmasi-istanbulda-gerceklesti/",
+   "ek": "2026-07-13"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Posco ve Hyundai'den Elektrikli Araçlar İçin Yeni Nesil Elektrik Çeliği Hamlesi",
+   "url": "https://www.steelturk.com.tr/posco-ve-hyundaiden-elektrikli-araclar-icin-yeni-nesil-elektrik-celigi-hamlesi/",
+   "ek": "2026-07-13"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Kıraç Galvaniz Bulgaristan’da 10 Milyon Euro’luk Anlaşmaya İmza Attı",
+   "url": "https://www.steelturk.com.tr/kirac-galvaniz-bulgaristanda-10-milyon-euroluk-anlasmaya-imza-atti/",
+   "ek": "2026-07-07"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Turkey Scrap Prices More info",
+   "url": "https://www.steelradar.com/en/scrap",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Canada provides CAD 100 million in support for domestic steel transportation",
+   "url": "https://www.steelradar.com/en/haber/canada-provides-c100-million-in-support-for-domestic-steel-transportation/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "China’s daily crude steel output decreased %7.5 at the end of July",
+   "url": "https://www.steelradar.com/en/haber/chinas-daily-crude-steel-output-decreased-75-at-the-end-of-july/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "BHP’s 48 hour strike at Port Hedland ends",
+   "url": "https://www.steelradar.com/en/haber/bhps-48-hour-strike-at-port-hedland-ends/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "EU ETS revision could slow the rise in CBAM costs for Turkish exporters",
+   "url": "https://www.steelradar.com/en/haber/eu-ets-revision-could-slow-the-rise-in-cbam-costs-for-turkish-exporters/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "South Korea and Bangladesh reach preliminary agreement on CEPA",
+   "url": "https://www.steelradar.com/en/haber/south-korea-and-bangladesh-reach-preliminary-agreement-on-cepa/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "India's CBAM cost could be lower than expected",
+   "url": "https://www.steelradar.com/en/haber/indias-cbam-cost-could-be-lower-than-expected/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Nippon Steel completes a hot rolling line with an annual capacity of 6 million mt in Nagoya",
+   "url": "https://www.steelradar.com/en/haber/nippon-steel-completes-6-million-mtyear-hot-rolling-line-in-nagoya/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Dawit Girma: Steel demand in East Africa will be supported by major infrastructure investments",
+   "url": "https://www.steelradar.com/en/haber/dawit-girma-steel-demand-in-east-africa-will-be-supported-by-major-infrastructure-investments/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Türkiye's rebar exports increased by 63.7% year on year in June",
+   "url": "https://www.steelradar.com/en/haber/turkiyes-rebar-exports-increased-by-637-year-on-year-in-june/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Nakayama Steel partners with Hanwa and Yodoko for new EAF investment",
+   "url": "https://www.steelradar.com/en/haber/nakayama-steel-partners-with-hanwa-and-yodoko-for-new-eaf-investment/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Ford Otosan invests EUR 364 million in next-generation heavy commercial vehicle cabin production",
+   "url": "https://www.steelradar.com/en/haber/ford-otosan-invests-eur-364-million-in-next-generation-heavy-commercial-vehicle-cabin-production/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Canada and US discuss concessions to avoid new tariffs",
+   "url": "https://www.steelradar.com/en/haber/canada-and-us-discuss-concessions-to-avoid-new-tariffs/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Jindal Stainless seeks site for INR 400 billion investment in Maharashtra",
+   "url": "https://www.steelradar.com/en/haber/jindal-stainless-seeks-site-for-inr-400-billion-investment-in-maharashtra/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Iran’s Revolutionary Guards: We will maintain control of the strait of Hormuz until the US accepts all our conditions",
+   "url": "https://www.steelradar.com/en/haber/irans-revolutionary-guards-we-will-maintain-control-of-the-strait-of-hormuz-until-the-us-accepts-all-our-conditions/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Türkiye’s billet and bloom imports rise 28.6% in the first half",
+   "url": "https://www.steelradar.com/en/haber/turkiyes-billet-and-bloom-imports-rise-286-in-the-first-half/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "visnemadencilik.com via Vişne Madencilik 1952'den Beri Madencilik Sektörüne Değer Katıyoruz",
+   "url": "https://visnemadencilik.com/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Turkish long steel market maintains prices as demand remains weak",
+   "url": "https://www.steelradar.com/en/haber/turkish-long-steel-market-maintains-prices-as-demand-remains-weak/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Daily analysis of Turkish long products | August 4, 2026 • Tuesday, August 4, 2026",
+   "url": "https://www.steelradar.com/en/haber/daily-analysis-of-turkish-long-products-august-4-2026/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Daily analysis of Turkish long products | August 3, 2026 • Monday, August 3, 2026",
+   "url": "https://www.steelradar.com/en/haber/daily-analysis-of-turkish-long-products-august-3-2026/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Shanghai Futures – stainless steel",
+   "url": "https://www.steelradar.com/en/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Shanghai Futures – Rebar 1-month term 10.08.2026 0.00 -0.00 (0.00)",
+   "url": "https://www.steelradar.com/en/bolge/global/shanghai-futures-rebar-1-month-term/8/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Shanghai Futures – Rebar 2-month term 10.08.2026 0.00 -0.00 (0.00)",
+   "url": "https://www.steelradar.com/en/bolge/global/shanghai-futures-rebar-2-month-term/8/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Shanghai Futures – Rebar 3-month term 10.08.2026 0.00 -0.00 (0.00)",
+   "url": "https://www.steelradar.com/en/bolge/global/shanghai-futures-rebar-3-month-term/8/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "HRC - 1 Month Future 10.08.2026 0.00 -0.00 (0.00)",
+   "url": "https://www.steelradar.com/en/bolge/global/hrc-1-month-future/8/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "HRC - 2 Month Future 10.08.2026 0.00 -0.00 (0.00)",
+   "url": "https://www.steelradar.com/en/bolge/global/hrc-2-month-future/8/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "HRC - 3 Month Future 10.08.2026 0.00 -0.00 (0.00)",
+   "url": "https://www.steelradar.com/en/bolge/global/hrc-3-month-future/8/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Stainless steel – 1-month term 10.08.2026 0.00 -0.00 (0.00)",
+   "url": "https://www.steelradar.com/en/bolge/global/stainless-steel-1-month-term/8/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Stainless steel – 2-month term 10.08.2026 0.00 -0.00 (0.00)",
+   "url": "https://www.steelradar.com/en/bolge/global/stainless-steel-2-month-term/8/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Stainless steel – 3-month term 10.08.2026 0.00 -0.00 (0.00)",
+   "url": "https://www.steelradar.com/en/bolge/global/stainless-steel-3-month-term/8/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Turkey 1 Month Future - FOB 10.08.2026 0.00 -0.00 (0.00)",
+   "url": "https://www.steelradar.com/en/bolge/global/turkey-1-month-future-fob/8/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Turkey 2 Month Future - FOB 10.08.2026 0.00 -0.00 (0.00)",
+   "url": "https://www.steelradar.com/en/bolge/global/turkey-2-month-future-fob/8/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Turkey 3 Month Future - FOB 10.08.2026 0.00 -0.00 (0.00)",
+   "url": "https://www.steelradar.com/en/bolge/global/turkey-3-month-future-fob/8/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Turkey 1 Month Future - CFR 10.08.2026 0.00 -0.00 (0.00)",
+   "url": "https://www.steelradar.com/en/bolge/global/turkey-1-month-future-cfr/8/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "India 1 Month Future - CFR 10.08.2026 0.00 -0.00 (0.00)",
+   "url": "https://www.steelradar.com/en/bolge/global/india-1-month-future-cfr/8/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Taiwan 1 Month Future - CFR 10.08.2026 0.00 -0.00 (0.00)",
+   "url": "https://www.steelradar.com/en/bolge/global/taiwan-1-month-future-cfr/8/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Turkey 2 Month Future - CFR 10.08.2026 0.00 -0.00 (0.00)",
+   "url": "https://www.steelradar.com/en/bolge/global/turkey-2-month-future-cfr/8/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "India 2 Month Future - CFR 10.08.2026 0.00 -0.00 (0.00)",
+   "url": "https://www.steelradar.com/en/bolge/global/india-2-month-future-cfr/8/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Taiwan 2 Month Future - CFR 10.08.2026 0.00 -0.00 (0.00)",
+   "url": "https://www.steelradar.com/en/bolge/global/taiwan-2-month-future-cfr/8/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Turkey 3 Month Future - CFR 10.08.2026 0.00 -0.00 (0.00)",
+   "url": "https://www.steelradar.com/en/bolge/global/turkey-3-month-future-cfr/8/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "India 3 Month Future - CFR 10.08.2026 0.00 -0.00 (0.00)",
+   "url": "https://www.steelradar.com/en/bolge/global/india-3-month-future-cfr/8/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Taiwan 3 Month Future - CFR 10.08.2026 0.00 -0.00 (0.00)",
+   "url": "https://www.steelradar.com/en/bolge/global/taiwan-3-month-future-cfr/8/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "1 Month Future (China) – FOB 10.08.2026 0.00 -0.00 (0.00)",
+   "url": "https://www.steelradar.com/en/bolge/global/1-month-future-china-fob/8/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Europe 1 Month Future 10.08.2026 0.00 -0.00 (0.00)",
+   "url": "https://www.steelradar.com/en/bolge/global/europe-1-month-future/8/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "North America 1 Month Future 10.08.2026 0.00 -0.00 (0.00)",
+   "url": "https://www.steelradar.com/en/bolge/global/north-america-1-month-future/8/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "2 Month Future (China) – FOB 10.08.2026 0.00 -0.00 (0.00)",
+   "url": "https://www.steelradar.com/en/bolge/global/2-month-future-china-fob/8/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Europe 2 Month Future 10.08.2026 0.00 -0.00 (0.00)",
+   "url": "https://www.steelradar.com/en/bolge/global/europe-2-month-future/8/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "North America 2 Month Future 10.08.2026 0.00 -0.00 (0.00)",
+   "url": "https://www.steelradar.com/en/bolge/global/north-america-2-month-future/8/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "3 Month Future (China) – FOB 10.08.2026 0.00 -0.00 (0.00)",
+   "url": "https://www.steelradar.com/en/bolge/global/3-month-future-china-fob/8/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Europe 3 Month Future 10.08.2026 0.00 -0.00 (0.00)",
+   "url": "https://www.steelradar.com/en/bolge/global/europe-3-month-future/8/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "North America 3 Month Future 10.08.2026 0.00 -0.00 (0.00)",
+   "url": "https://www.steelradar.com/en/bolge/global/north-america-3-month-future/8/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "1 Month Future - LME Wire Mesh 06.03.2025 0.00 -0.00 (0.00)",
+   "url": "https://www.steelradar.com/en/bolge/global/1-month-future-lme-wire-mesh/8/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Latest News more about news",
+   "url": "https://www.steelradar.com/en/haberler/latest-news/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Rebar News more about news",
+   "url": "https://www.steelradar.com/en/haberler/rebar-news/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Scrap News more about news",
+   "url": "https://www.steelradar.com/en/haberler/scrap-news/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Iron and Steel Markets more about news",
+   "url": "https://www.steelradar.com/en/haberler/iron-and-steel-markets/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Edit Notification Preferences",
+   "url": "https://www.steelradar.com/en/hesabim/bildirim-tercihleri/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "E-bulletin subscription Sign up to receive the latest news and daily iron prices by e-mail and sms",
+   "url": "https://forms.gle/4vGPQxvR3JzQx9vR7",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Associations and Organizations",
+   "url": "https://www.steelradar.com/en/haberler/associations-and-organizations/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Türkiye Çelik Üreticileri Derneği Değerlendirme ÇELİK ÜRETİMİ 2026 yılının Haziran ayında Türkiye’nin ham çelik üretimi, geçen yılın aynı ayına göre %14,7 artışla, 3,3 milyon tona ",
+   "url": "https://metaldunyasi.com.tr/tr/sektorel-haberler/20/demir-elik/2269/turkiye-celik-ureticileri-dernegi-degerlendirme.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Tosyalı’nın Döngüsel Üretim Vizyonuyla Geliştirilen Cüruf Bazlı Yüksek Performanslı Asfalt Şimdi De Kocaeli Yollarında Türkiye’nin küresel çelik üreticisi Tosyalı, döngüsel üretim ",
+   "url": "https://metaldunyasi.com.tr/tr/sektorel-haberler/20/demir-elik/2272/tosyali-nin-dongusel-uretim-vizyonuyla-gelistirilen-curuf-bazli-yuksek-performansli-asfalt-simdi-de-kocaeli-yollarinda.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Inductotherm ve Metkom Çelik Döküm’den Osmaniye’de Güçlü İş birliği Ergitme ve döküm teknolojilerinin küresel lideri Inductotherm, Metkom Çelik Döküm’ün Osmaniye Toprakkale’deki ye",
+   "url": "https://metaldunyasi.com.tr/tr/sektorel-haberler/20/demir-elik/2268/inductotherm-ve-metkom-celik-dokum-den-osmaniye-de-guclu-is-birligi.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Borçelik İyilik Festivali ile Gönüllülük Kültürünü Geleceğe Taşıyor Borusan Grup şirketlerinden Borçelik, çalışan gönüllülüğünü kurum kültürünün merkezine taşıyan vizyoner bir adım",
+   "url": "https://metaldunyasi.com.tr/tr/sektorel-haberler/20/demir-elik/2261/borcelik-iyilik-festivali-ile-gonulluluk-kulturunu-gelecege-tasiyor.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "İstanbul Politikalar Merkezi: Çelik Sektörünün Dönüşüm İçin Yıllık Yatırım İhtiyacı 1 İla 2 Milyar Dolar Türkiye, 40’ın üzerinde tesiste gerçekleştirdiği yaklaşık 40 milyon tonluk ",
+   "url": "https://metaldunyasi.com.tr/tr/sektorel-haberler/20/demir-elik/2257/istanbul-politikalar-merkezi-celik-sektorunun-donusum-icin-yillik-yatirim-ihtiyaci-1-ila-2-milyar-dolar.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "ÇİB’den Slovakya Atağı: Türk Çeliği Orta Avrupa’da Yeni İş Birlikleri Peşinde Çelik İhracatçıları Birliği (ÇİB), Türkiye ile Slovakya arasındaki ticari ilişkileri güçlendirmek ve T",
+   "url": "https://metaldunyasi.com.tr/tr/sektorel-haberler/20/demir-elik/2246/cib-den-slovakya-atagi-turk-celigi-orta-avrupa-da-yeni-is-birlikleri-pesinde.html",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Türkiye Çelik Üreticileri Derneği Değerlendirme ÇELİK ÜRETİMİ 2026 yılının Nisan ayında Türkiye’nin ham çelik üretimi, geçen yılın aynı ayına göre %9,4 artışla, 3,3 milyon tona yük",
+   "url": "https://metaldunyasi.com.tr/tr/sektorel-haberler/20/demir-elik/2241/turkiye-celik-ureticileri-dernegi-degerlendirme.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Panda Grubu’nun Sürdürülebilirlik Vizyonuna Inductotherm Gücü: Pancast Alüminyum Tesisinde Yüksek Verimli Geri Dönüşüm Dönemi Başladı Alüminyum sektörünün önemli kuruluşlarından Pa",
+   "url": "https://metaldunyasi.com.tr/tr/sektorel-haberler/20/demir-elik/2237/panda-grubu-nun-surdurulebilirlik-vizyonuna-inductotherm-gucu-pancast-aluminyum-tesisinde-yuksek-verimli-geri-donusum-donemi-basladi.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Tosyalı Avrupa’nın 2. Büyük Çelik Üreticisi ve Dünyanın En Hızlı Büyüyen Çelik Üreticisi Oldu Tosyalı, 2025’te 12,11 milyon tonluk ham çelik üretimiyle önceki yıla göre 14 basamak ",
+   "url": "https://metaldunyasi.com.tr/tr/sektorel-haberler/20/demir-elik/2240/tosyali-avrupa-nin-2-buyuk-celik-ureticisi-ve-dunyanin-en-hizli-buyuyen-celik-ureticisi-oldu.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Türkiye Çelik Üreticileri Derneği Değerlendirme ÇELİK ÜRETİMİ 2026 yılının Mart ayında Türkiye’nin ham çelik üretimi, geçen yılın aynı ayına göre %6,4 artışla, 3,3 milyon tona yüks",
+   "url": "https://metaldunyasi.com.tr/tr/sektorel-haberler/20/demir-elik/2233/turkiye-celik-ureticileri-dernegi-degerlendirme.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Türkiye Çelik Üreticileri Derneği Değerlendirme ÇELİK ÜRETİMİ 2026 yılının Ocak ayında Türkiye’nin ham çelik üretimi, geçen yılın aynı ayına göre %5,8 artışla, 3,4 milyon tona yüks",
+   "url": "https://metaldunyasi.com.tr/tr/sektorel-haberler/20/demir-elik/2219/turkiye-celik-ureticileri-dernegi-degerlendirme.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Tosçelik Yeni Genel Müdürü Ercan Özcan Oldu Tosyalı Holding bünyesinde faaliyet gösteren Tosçelik’te üst düzey bir atama gerçekleşti. Şirket bünyesinde uzun yıllardır görev yapan E",
+   "url": "https://metaldunyasi.com.tr/tr/sektorel-haberler/20/demir-elik/2221/toscelik-yeni-genel-muduru-ercan-ozcan-oldu.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Armaş, Yeni Fabrikasında 2000+250 KW VIP Dual-Trak Plus ile Kapasitesini Güçlendiriyor Armaş, yeni üretim tesisinde devreye aldığı Inductotherm Ergitme sistemleri ile üretim kapasi",
+   "url": "https://metaldunyasi.com.tr/tr/sektorel-haberler/20/demir-elik/2215/armas-yeni-fabrikasinda-2000-250-kw-vip-dual-trak-plus-ile-kapasitesini-guclendiriyor.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Türkiye Çelik Üreticileri Derneği Değerlendirme ÇELİK ÜRETİMİ 2026 yılının Ocak ayında Türkiye’nin ham çelik üretimi, geçen yılın aynı ayına göre %5,8 artışla, 3,4 milyon tona yüks",
+   "url": "https://metaldunyasi.com.tr/tr/sektorel-haberler/20/demir-elik/2202/turkiye-celik-ureticileri-dernegi-degerlendirme.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "ÇEBİD Başkanı Atabey: “Su Tasarrufu Öncelikle İletim Hatlarında Başlamalı” Çelik Boru ve Profil İmalatçıları Derneği (ÇEBİD), 22 Mart Dünya Su Günü kapsamında “Su tasarrufu iletim ",
+   "url": "https://metaldunyasi.com.tr/tr/sektorel-haberler/20/demir-elik/2203/cebid-baskani-atabey-su-tasarrufu-oncelikle-iletim-hatlarinda-baslamali.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Kardemir Çelik’e İZKA’dan Sanayide Yeşil Dönüşüm Desteği Bugün 1350’nin üzerinde çalışanı ve 7 adet üretim tesisiyle 100’den fazla ülkeye ihracat gerçekleştiren Kardemir Çelik, İzm",
+   "url": "https://metaldunyasi.com.tr/tr/sektorel-haberler/20/demir-elik/2206/kardemir-celik-e-izka-dan-sanayide-yesil-donusum-destegi.html",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Inductotherm’in Türkiye’deki İkinci ve En Büyük Kapasiteli Tri-Trak Ergitme Sistemi EKU Fren’de Devreye Alındı Türkiye otomotiv yan sanayisinin önemli kuruluşlarından Eku Fren ve D",
+   "url": "https://metaldunyasi.com.tr/tr/sektorel-haberler/20/demir-elik/2199/inductotherm-in-turkiye-deki-ikinci-ve-en-buyuk-kapasiteli-tri-trak-ergitme-sistemi-eku-fren-de-devreye-alindi.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Paslanmaz Çelik 2026 Yılına Yeni Umutlarla Giriyor Paslanmaz Çelik Sanayi Derneği (PASSAD) Genel Sekreteri Dr. Erdem Şireli, Türkiye’de yaklaşık 5 milyar dolarlık bir büyüklüğe ula",
+   "url": "https://metaldunyasi.com.tr/tr/sektorel-haberler/20/demir-elik/2173/paslanmaz-celik-2026-yilina-yeni-umutlarla-giriyor.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Inductotherm Teknolojileri, Dünya’nın En Büyük Savunma Sanayi Üretim Tesisi Sinerji Savunma’da Devrede Türkiye’nin savunma sanayiindeki büyüme hamlesiyle birlikte üretim yatırımlar",
+   "url": "https://metaldunyasi.com.tr/tr/sektorel-haberler/20/demir-elik/2171/inductotherm-teknolojileri-dunya-nin-en-buyuk-savunma-sanayi-uretim-tesisi-sinerji-savunma-da-devrede.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Inductotherm, Türkiye’nin İlk Büyük Kapasiteli Vakum Ergitme Ocağını TEI Alaşım’da Devreye Aldı TEI Alaşım firması İzmir Aliağa üretim tesisinde kurulu bulunan ve 1 ton kapasiteli ",
+   "url": "https://metaldunyasi.com.tr/tr/sektorel-haberler/20/demir-elik/2168/inductotherm-turkiye-nin-ilk-buyuk-kapasiteli-vakum-ergitme-ocagini-tei-alasim-da-devreye-aldi.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Çelik İhracatçıları Romanya’dan Yeni Bağlantılarla Döndü Çelik İhracatçıları Birliği (ÇİB), Türkiye’nin çelik ihracatında en büyük pazarı olan Romanya’ya düzenlediği sektörel ticar",
+   "url": "https://metaldunyasi.com.tr/tr/sektorel-haberler/20/demir-elik/2160/celik-ihracatcilari-romanya-dan-yeni-baglantilarla-dondu.html",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Türkiye’nin İlk Avrupa’nın Tek Birincil Magnezyum Üretim Tesisi",
+   "url": "https://metaldunyasi.com.tr/tr/sektorel-haberler/0/0/206/turkiye-nin-ilk-avrupa-nin-tek-birincil-magnezyum-uretim-tesisi.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "İstanbul Isıl İşlem A.Ş.’nin i-nit® Markası ile Ürettiği İlk Plazma Nitrürleme Fırını i-nitcold-800 Gönderime Hazır",
+   "url": "https://metaldunyasi.com.tr/tr/sektorel-haberler/0/0/1216/istanbul-isil-islem-a-s-nin-i-nit-markasi-ile-urettigi-ilk-plazma-nitrurleme-firini-i-nitcold-800-gonderime-hazir.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Hypertherm’ den Yeni KSS Ceo’ su ve Başkan Yardımcısı",
+   "url": "https://metaldunyasi.com.tr/tr/sektorel-haberler/0/0/424/hypertherm-den-yeni-kss-ceo-su-ve-baskan-yardimcisi.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Türkiye'de Elektrikli Otobüs Dönemi Başlıyor",
+   "url": "https://metaldunyasi.com.tr/tr/sektorel-haberler/0/0/133/turkiye-de-elektrikli-otobus-donemi-basliyor.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "INDUCTOTHERM SINIRLARI YÜKSELTİYOR",
+   "url": "https://metaldunyasi.com.tr/tr/sektorel-haberler/0/0/923/inductotherm-sinirlari-yukseltiyor.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "TÜDÖKSAD Yeni Yönetim Kurulu Konya’da Üye ve Sektör Mensuplarını Ziyaret Ett",
+   "url": "https://metaldunyasi.com.tr/tr/sektorel-haberler/0/0/118/tudoksad-yeni-yonetim-kurulu-konya-da-uye-ve-sektor-mensuplarini-ziyaret-ett.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "5. ISIL İŞLEM SEMPOZYUMU Isıl İşlem Sektörü Yeniden Biraraya Geldi",
+   "url": "https://metaldunyasi.com.tr/tr/sektorel-haberler/0/0/217/5-isil-islem-sempozyumu-isil-islem-sektoru-yeniden-biraraya-geldi.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "ÇİB Başkanı Namık Ekinci “ABD Adil Bir Tutum Sergilemiyor”",
+   "url": "https://metaldunyasi.com.tr/tr/sektorel-haberler/0/0/132/cib-baskani-namik-ekinci-abd-adil-bir-tutum-sergilemiyor.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Karsan Yeni Nesil Modelleriyle Busworld 2026’nın Yıldızı Oldu!",
+   "url": "https://metaldunyasi.com.tr/tr/sektorel-haberler/0/0/2274/karsan-yeni-nesil-modelleriyle-busworld-2026-nin-yildizi-oldu.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Özel Başbuğ Mesleki Eğitim Merkezi İlk Mezunlarını Verdi!",
+   "url": "https://metaldunyasi.com.tr/tr/sektorel-haberler/0/0/2275/ozel-basbug-mesleki-egitim-merkezi-ilk-mezunlarini-verdi.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Türkiye’yi de Hedef Alan İki Zararlı Yazılıma Küresel Operasyon",
+   "url": "https://metaldunyasi.com.tr/tr/sektorel-haberler/0/0/2276/turkiye-yi-de-hedef-alan-iki-zararli-yazilima-kuresel-operasyon.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Türkiye Çelik Üreticileri Derneği Değerlendirme",
+   "url": "https://metaldunyasi.com.tr/tr/sektorel-haberler/0/0/2269/turkiye-celik-ureticileri-dernegi-degerlendirme.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Yazılım Güncellemesiyle Geldi, Casusluk Yazılımı Çıktı",
+   "url": "https://metaldunyasi.com.tr/tr/sektorel-haberler/0/0/2270/yazilim-guncellemesiyle-geldi-casusluk-yazilimi-cikti.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Dijital Hayatın Anahtarı E-Posta Kutusunda Saklı",
+   "url": "https://metaldunyasi.com.tr/tr/sektorel-haberler/0/0/2271/dijital-hayatin-anahtari-e-posta-kutusunda-sakli.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Tosyalı’nın Döngüsel Üretim Vizyonuyla Geliştirilen Cüruf Bazlı Yüksek Performanslı Asfalt Şimdi De Kocaeli Yollarında",
+   "url": "https://metaldunyasi.com.tr/tr/sektorel-haberler/0/0/2272/tosyali-nin-dongusel-uretim-vizyonuyla-gelistirilen-curuf-bazli-yuksek-performansli-asfalt-simdi-de-kocaeli-yollarinda.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Anadolu Isuzu Fransa’daki Başarısını Güçlendiriyor",
+   "url": "https://metaldunyasi.com.tr/tr/sektorel-haberler/0/0/2273/anadolu-isuzu-fransa-daki-basarisini-guclendiriyor.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Hexagon’dan Üreticilere Yol Gösterecek Yeni Kaynak: CMM Seçim Kılavuzu Yayında",
+   "url": "https://metaldunyasi.com.tr/tr/sektorel-haberler/0/0/2267/hexagon-dan-ureticilere-yol-gosterecek-yeni-kaynak-cmm-secim-kilavuzu-yayinda.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Inductotherm ve Metkom Çelik Döküm’den Osmaniye’de Güçlü İş birliği",
+   "url": "https://metaldunyasi.com.tr/tr/sektorel-haberler/0/0/2268/inductotherm-ve-metkom-celik-dokum-den-osmaniye-de-guclu-is-birligi.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "@metal_dunyasi tarafından gönderilen tweetler",
+   "url": "https://twitter.com/metal_dunyasi",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Global Marketplace Access to the listings of different steel products and bids without intermediaries and commissions.",
+   "url": "https://www.steelorbis.com/marketplace/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Steel Price Analysis Tool",
+   "url": "https://www.steelorbis.com/steel-prices/steel-price-analysis/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Orbis Turkish Scrap Forecaster",
+   "url": "https://www.steelorbis.com/price-forecasters/orbis-turkish-scrap-forecaster/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Turkish Scrap and Steel Products Markets",
+   "url": "https://www.steelorbis.com/steel-market/turkish-steel-scrap-market/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "European Steel Products Markets",
+   "url": "https://www.steelorbis.com/steel-market/european-steel-products-market/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Asian Steel Products Markets",
+   "url": "https://www.steelorbis.com/steel-market/asian-steel-products-market/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Global Ferrous Scrap Five-Year Forecast",
+   "url": "https://www.steelorbis.com/steel-market/global-ferrous-scrap-forecast/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Global Investments Overview and Outlook",
+   "url": "https://www.steelorbis.com/steel-market/global-investments/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Turkish Costs and Margin Databoard",
+   "url": "https://www.steelorbis.com/steel-market/turkish-costs-and-margin/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "European Costs and Margin Databoard",
+   "url": "https://www.steelorbis.com/steel-market/european-costs-and-margin/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Asian Costs and Margin Databoard",
+   "url": "https://www.steelorbis.com/steel-market/asian-costs-and-margin/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "US Costs and Margin Databoard",
+   "url": "https://www.steelorbis.com/steel-market/us-costs-and-margin/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Steel Production by Country",
+   "url": "https://www.steelorbis.com/statistics/production-consumption-data/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Events Our major market-leading conferences and events offer optimum networking opportunities to all participants while adding great value to their business.",
+   "url": "https://www.steelorbis.com/steel-events/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Steel Video SteelOrbis Conferences, webinars and video interviews can be watched on Steel Video.",
+   "url": "https://www.steelorbis.com/steel-tv/conferences/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "11 Aug Free Freight volume on China's Daqin Railway up 6.7 percent in January-July 2026",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/freight-volume-on-chinas-daqin-railway-up-67-percent-in-january-july-2026-1470132.htm",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "11 Aug Free China's excavator sales increase by 24.8 percent in January-July 2027",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/chinas-excavator-sales-increase-by-248-percent-in-january-july-2027-1470128.htm",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "10 Aug Free Canada's iron and steel imports up 10 percent in June 2026",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/canadas-iron-and-steel-imports-up-10-percent-in-june-2026-1470109.htm",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "10 Aug Free US issues final AD determination on rebar from Bulgaria",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/us-issues-final-ad-determination-on-rebar-from-bulgaria-1470106.htm",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "10 Aug Free BHP Port Hedland workers end 48-hour strike as negotiations set to continue",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/bhp-port-hedland-workers-end-48-hour-strike-as-negotiations-set-to-continue-1470021.htm",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "10 Aug Free Nakayama Steel Works secures $55.1 million for new EAF project",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/nakayama-steel-works-secures-551-million-for-new-eaf-project-1470015.htm",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "10 Aug Free Taiwan's iron and steel export value down 5.8 percent in Jan-Jul 2026",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/taiwans-iron-and-steel-export-value-down-58-percent-in-jan-jul-2026-1470008.htm",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "10 Aug Free Turkey's basic metal output down 0.2 percent in June 2026 from May",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/turkeysbasicmetaloutputdown-02-percent-in-june-2026-from-may-1470000.htm",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "10 Aug Free Turkey's Borusan Boru raises 2026 revenue and EBITDA margin guidance after strong H1 results",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/turkeys-borusan-boru-raises-2026-revenue-and-ebitda-margin-guidance-after-strong-h1-results-1469996.htm",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "10 Aug Free Thyssenkrupp Rasselstein to source renewable power from new 8 MWp solar plant",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/thyssenkrupp-rasselstein-to-source-renewable-power-from-new-8-mwp-solar-plant-1469971.htm",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "10 Aug Free Turkey's Çemtaş posts net loss and lower revenues for H1 2026, production declines",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/turkeys-cemtas-posts-net-loss-and-lower-revenues-for-h1-2026-production-declines-1469966.htm",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "10 Aug Free Ukraine urges intensified EU talks over new steel import restrictions",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/ukraine-urges-intensified-eu-talks-over-new-steel-import-restrictions-1469948.htm",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "10 Aug China's steel industry PPI down 0.6 percent in January-July 2026",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/chinas-steel-industry-ppi-down-06-percent-in-january-july-2026-1469955.htm",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "10 Aug Free June slump deepens Turkey's H1 2026 decline in slab imports",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/june-slump-deepens-turkeys-h1-2026-decline-in-slab-imports-1469954.htm",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "10 Aug Free RHI Magnesita considers new refractory production plant in Egypt",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/rhi-magnesita-considers-new-refractory-production-plant-in-egypt-1469934.htm",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "10 Aug Free CISA mills' daily crude steel output down 7.5% in late July 2026, stocks also down",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/cisa-mills-daily-crude-steel-output-down-75-in-late-july-2026-stocks-also-down-1469941.htm",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "10 Aug Free France's steel product import value down 0.2 percent in H1 2026",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/frances-steel-product-import-value-down-02-percent-in-h1-2026-1469916.htm",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "10 Aug Free India's JSL starts scouting for land for proposed $4.20 billion greenfield steel mill in Maharashtra",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/indias-jsl-starts-scouting-for-land-for-proposed-420-billion-greenfield-steel-mill-in-maharashtra-1469915.htm",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "10 Aug Free India's NMDC Limited cuts iron ore fines and lumps prices for Aug 2026 deliveries",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/indias-nmdc-limited-cuts-iron-ore-fines-and-lumps-prices-for-aug-2026-deliveries-1469912.htm",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "10 Aug Free India's SMIOL sees consolidated net profit rise 36% in Q1 FY 2026-27",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/indias-smiol-sees-consolidated-net-profit-rise-36-in-q1-fy-2026-27-1469908.htm",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "10 Aug Free China's iron ore imports increase by 5.9 percent in January-July 2026",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/chinas-iron-ore-imports-increase-by-59-percent-in-january-july-2026-1469905.htm",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "10 Aug Free China's coal imports increase by 4.3 percent in January-July 2026",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/chinas-coal-imports-increase-by-43-percent-in-january-july-2026-1469901.htm",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "07 Aug Free Turkey's OYAK Mining Metallurgy Group's net profit surges in H1 2026 amid higher steel output",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/turkeys-oyak-mining-metallurgy-groups-net-profit-surges-in-h1-2026-amid-higher-steel-output-1469638.htm",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "07 Aug Free Brazilian iron ore exports fall 12 percent as shipments to China drop 20 percent",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/brazilian-iron-ore-exports-fall-12-percent-as-shipments-to-china-drop-20-percent-1469874.htm",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "07 Aug Free Brazil's auto production increases by 3.2 percent in July from June",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/brazils-auto-production-increases-by-32-percent-in-july-from-june-1469890.htm",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "07 Aug Free US rig count unchanged, Canada decreases - week 32, 2026",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/us-rig-count-unchanged-canada-decreases-week-32-2026-1469886.htm",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "07 Aug Free US issues final AD and CVD determinations on rebar from Egypt",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/us-issues-final-ad-and-cvd-determinations-on-rebar-from-egypt-1469870.htm",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "07 Aug Free US issues preliminary results of AD review on CWP from Turkey",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/us-issues-preliminary-results-of-ad-review-on-cwp-from-turkey-1469799.htm",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "07 Aug Free France's steel product export value almost stable in H1 2026",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/frances-steel-product-export-value-almost-stable-in-h1-2026-1469703.htm",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "07 Aug India's automobile retail sales increase by 26 percent in July 2026",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/indias-automobile-retail-sales-increase-by-26-percent-in-july-2026-1469717.htm",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "07 Aug Free IEEFA: Australia needs major investment and policy support to develop green iron industry",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/ieefa-australia-needs-major-investment-and-policy-support-to-develop-green-iron-industry-1469676.htm",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "07 Aug Free Russia's TMK supplies high-strength lightweight drill pipes for Western Siberian wells",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/russias-tmk-supplies-high-strength-lightweight-drill-pipes-for-western-siberian-wells-1469687.htm",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "07 Aug Free UK terminates AD duties on cold rolled steel imports from China and Russia",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/uk-terminates-ad-duties-on-cold-rolled-steel-imports-from-china-and-russia-1469680.htm",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "07 Aug Free Ukrainian steel industry calls for AD duties on Turkish steel amid Russian raw material concerns",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/ukrainian-steel-industry-calls-for-ad-duties-on-turkish-steel-amid-russian-raw-material-concerns-1469673.htm",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "07 Aug Free Nippon Steel completes new hot rolling line at Nagoya Works",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/nippon-steel-completes-new-hot-rolling-line-at-nagoya-works-1469660.htm",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "07 Aug Free 25 US states challenge Trump's Section 301 tariffs",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/25-us-states-challenge-trumps-section-301-tariffs-1469656.htm",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "07 Aug Free Turkey's steel exports rise 1.6% in Jan-July 2026, Romania remains top destination",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/turkeys-steel-exports-rise-16-in-jan-july-2026-romania-remains-top-destination-1469637.htm",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "07 Aug Free Turkey's Kocaer Çelik increases net profit in H1 2026 as value-added product share rises",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/turkeys-kocaer-celik-increases-net-profit-in-h1-2026-as-value-added-product-share-rises-1469632.htm",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "07 Aug Free Turkey's June 2026 billet import growth supported by Russia and alternative suppliers",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/turkeys-june-2026-billet-import-growth-supported-by-russia-and-alternative-suppliers-1469613.htm",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "07 Aug Free MOC: Average rebar price in China edges down in July 27-August 2 2026",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/moc-average-rebar-price-in-china-edges-down-in-july-27-august-2-2026-1469593.htm",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "07 Aug Free Heavy truck sales in China increase by 21 percent in January-July 2026",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/heavy-truck-sales-in-china-increase-by-21-percent-in-january-july-2026-1469588.htm",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "07 Aug Free China's steel exports down 4.4% in Jan-July 2026, down 1.9% in July from June",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/chinas-steel-exports-down-44-in-jan-july-down-19-in-july-from-june-1469584.htm",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "07 Aug Free India's crude steel output sees 1.2 % rise in July 2026, finished steel consumption up 6.5%",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/indias-crude-steel-output-sees-12-rise-in-july-2026-finished-steel-consumption-up-65-1469578.htm",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "07 Aug Free India's Coal India Limited to diversify into iron ore mining",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/indias-coal-india-limited-to-diversify-into-iron-ore-mining-1469574.htm",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "07 Aug Free Crisil: Indian primary steel mills to maintain stable profitability in FY 2026-27 despite rising costs",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/crisil-indian-primary-steel-mills-to-maintain-stable-profitability-in-fy-2026-27-despite-rising-costs-1469571.htm",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "07 Aug Free AMNS supplies 100% of special steel used in India Navy anti-submarine vessel",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/amns-supplies-100-of-special-steel-used-in-india-navy-anti-submarine-vessel-1469568.htm",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "07 Aug Free US issues final CVD determination on rebar from Vietnam",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/us-issues-final-cvd-determination-on-rebar-from-vietnam-1469536.htm",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "06 Aug Free EU announces definitive antidumping duties on CR flat steel from India, Japan, Taiwan, Turkey and Vietnam",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/eu-announces-definitive-antidumping-duties-on-cr-flat-steel-from-india-japan-taiwan-turkey-and-vietnam-1469469.htm",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "06 Aug Free Brazilian slab exports decline by 4.6 percent in July from June",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/brazilian-slab-exports-decline-by-46-percent-in-july-from-june-1469531.htm",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "06 Aug Free US issues final results of CVD review on OCTG from Turkey",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/us-issues-final-results-of-cvd-review-on-octg-from-turkey-1469519.htm",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Rhine’s record low water levels trouble regional industries",
+   "url": "https://eurometal.net/rhines-record-low-water-levels-trouble-regional-industries/?utm_source=rss&utm_medium=rss&utm_campaign=rhines-record-low-water-levels-trouble-regional-industries",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Summer slowdown keeps NW European coil prices constrained",
+   "url": "https://eurometal.net/summer-slowdown-keeps-nw-european-coil-prices-constrained/?utm_source=rss&utm_medium=rss&utm_campaign=summer-slowdown-keeps-nw-european-coil-prices-constrained",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Thyssenkrupp to float renamed materials division",
+   "url": "https://eurometal.net/thyssenkrupp-to-float-renamed-materials-division/?utm_source=rss&utm_medium=rss&utm_campaign=thyssenkrupp-to-float-renamed-materials-division",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Voestalpine’s logistics unaffected by Danube deficit",
+   "url": "https://eurometal.net/voestalpines-logistics-unaffected-by-danube-deficit/?utm_source=rss&utm_medium=rss&utm_campaign=voestalpines-logistics-unaffected-by-danube-deficit",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "European coil and green steel round-up: European market continues holiday pause in bullish mood",
+   "url": "https://eurometal.net/european-coil-and-green-steel-round-up-european-market-continues-holiday-pause-in-bullish-mood/?utm_source=rss&utm_medium=rss&utm_campaign=european-coil-and-green-steel-round-up-european-market-continues-holiday-pause-in-bullish-mood",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "European heavy plate round-up: European heavy plate gains limited by slab cost decline",
+   "url": "https://eurometal.net/european-heavy-plate-round-up-european-heavy-plate-gains-limited-by-slab-cost-decline/?utm_source=rss&utm_medium=rss&utm_campaign=european-heavy-plate-round-up-european-heavy-plate-gains-limited-by-slab-cost-decline",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Thyssenkrupp’s distribution spin-off to propel it beyond traditional warehousing business",
+   "url": "https://eurometal.net/thyssenkrupps-distribution-spin-off-to-propel-it-beyond-traditional-warehousing-business/?utm_source=rss&utm_medium=rss&utm_campaign=thyssenkrupps-distribution-spin-off-to-propel-it-beyond-traditional-warehousing-business",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "German steel industry warns: Low water levels threaten supply security",
+   "url": "https://eurometal.net/german-steel-industry-warns-low-water-levels-threaten-supply-security/?utm_source=rss&utm_medium=rss&utm_campaign=german-steel-industry-warns-low-water-levels-threaten-supply-security",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "EU announces definitive antidumping duties on CR flat steel from India, Japan, Taiwan, Turkey and Vietnam",
+   "url": "https://eurometal.net/eu-announces-definitive-antidumping-duties-on-cr-flat-steel-from-india-japan-taiwan-turkey-and-vietnam/?utm_source=rss&utm_medium=rss&utm_campaign=eu-announces-definitive-antidumping-duties-on-cr-flat-steel-from-india-japan-taiwan-turkey-and-vietnam",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Green Steel Challenge Podcast",
+   "url": "https://greensteelchallenge.com/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Lithium Carbonate 99.5% CNY/t",
+   "url": "https://www.kallanish.com/en/prices/details/lithium/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Manganese Ore 32% (20% FE) CNY/dmtu",
+   "url": "https://www.kallanish.com/en/prices/details/manganese/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Germany Electricity Spot Price (EUR/MWh)",
+   "url": "https://www.kallanish.com/en/prices/details/germany-electricity-spot-price-eurmwh/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "France Electricity Spot Price (EUR/MWh)",
+   "url": "https://www.kallanish.com/en/prices/details/france-electricity-spot-price-eurmwh/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Italy Electricity Spot Price (EUR/MWh)",
+   "url": "https://www.kallanish.com/en/prices/details/italy-electricity-spot-price-eurmwh/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Spain Electricity Spot Price (EUR/MWh)",
+   "url": "https://www.kallanish.com/en/prices/details/spain-electricity-spot-price-eurmwh/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "UK Electricity Spot Price (GBP/MWh)",
+   "url": "https://www.kallanish.com/en/prices/details/uk-electricity-spot-price-gbpmwh/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "South East Asia Steel Markets",
+   "url": "https://www.kallanish.com/en/weekly-south-east-asian-steel/seasm-details/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Iron Ore 62% FE / Australia fob / USD/t",
+   "url": "https://www.kallanish.com/en/prices/details/kore-62percent-fe-australia-fob-usdt/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "KORE 62% Fe / Qingdao CFR USD/t",
+   "url": "https://www.kallanish.com/en/prices/details/62FeIronOre/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Rebar / Saudi Arabia / Delivered Basis / SAR/t",
+   "url": "https://www.kallanish.com/en/prices/details/rebar-saudi-arabia-delivered-basis-sart/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Iron Ore 65% Fe / Brazil fob / USD/t",
+   "url": "https://www.kallanish.com/en/prices/details/kore-65percent-fe-brazil-fob-usdt/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "KORE 65% Fe / Qingdao CFR USD/t",
+   "url": "https://www.kallanish.com/en/prices/details/kallanish-kore-65percent-fe-iron-ore/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Billet / Tangshan Ex-Works CNY/t",
+   "url": "https://www.kallanish.com/en/prices/details/tangshan-billet/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "HMS 80:20 Scrap / Benelux / delivered dock, EUR/t",
+   "url": "https://www.kallanish.com/en/prices/details/benelux-scrap-hms-8020-delivered-dock-eur-t/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Shredded Scrap / Turkey / CFR USD/t",
+   "url": "https://www.kallanish.com/en/prices/details/shredded-scrap-turkey-cfr-usdt/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Rebar / UAE / Ex-Works AED/t",
+   "url": "https://www.kallanish.com/en/prices/details/rebar-uae-ex-works-aedt/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "HMS 1/2 Scrap (80:20) / US East Coast FOB USD/t",
+   "url": "https://www.kallanish.com/en/prices/details/us-east-coast-scrap-hmsiii-8020-fob-ust/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "10 Aug 2026US August scrap trade settles soft",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/us-august-scrap-trade-settles-soft-0826/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "10 Aug 2026US confirms subsidies on Egyptian rebar imports",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/us-confirms-subsidies-on-egyptian-rebar-imports-0826/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "10 Aug 2026US long-product exports fall on weaker Mexico demand",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/us-long-product-exports-fall-on-weaker-mexico-demand-0826/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "10 Aug 2026Canada launches freight rebate programme for steel",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/canada-launches-steel-freight-rebate-0826/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "10 Aug 2026Nucor raises HSS, mechanical, piling prices $80/st",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/nucor-raises-hss-mechanical-piling-prices-dollar80st-0826/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "10 Aug 2026Gerdau lifts merchant steel prices up to $80",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/gerdau-lifts-merchant-steel-prices-up-to-dollar80st-0826/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "10 Aug 2026US sets preliminary Turkish pipe duty on Borusan",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/us-sets-preliminary-turkish-pipe-duty-on-borusan-0826/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "10 Aug 2026Iron ore fluctuates as BHP strike impact fades",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/iron-ore-fluctuates-as-bhp-strike-impact-fades-0826/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "10 Aug 2026Nucor raises HRC offer, extends upward momentum",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/nucor-raises-hrc-offer-extends-upward-momentum-0826/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "10 Aug 2026Russia’s construction sector continues to suffer: Evraz",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/russias-construction-sector-continues-to-suffer-evraz-0826/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "HMS 1&2 80:20 US-origin scrap Turkey CFR USD/t",
+   "url": "https://www.kallanish.com/en/prices/details/scrap-prices-in-turkey-import-price-us-origin/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "HMS 1&2 80:20 EU-origin scrap Turkey CFR USD/t",
+   "url": "https://www.kallanish.com/en/prices/details/scrap-prices-in-turkey-import-price-eu-origin/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "HMS 1&2 80:20 Baltic-origin scrap Turkey CFR USD/t",
+   "url": "https://www.kallanish.com/en/prices/details/scrap-prices-in-turkey-import-price-baltic-origin/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "CRC / Turkey Ex-Works USD/t",
+   "url": "https://www.kallanish.com/en/prices/details/turkey-flats-cold-rolled-coil-stee-ex-works-usdt/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "HMS 1&2 80:20 / Turkey CFR USD/t",
+   "url": "https://www.kallanish.com/en/prices/details/Scrap-price-turkey-cfr/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "A3 (HMS 1&2 80:20) Short-Sea Scrap / Turkey CFR USD/t",
+   "url": "https://www.kallanish.com/en/prices/details/a3-hms1-short-sea-scrap/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Billet / Turkey ex-Works / USD/t",
+   "url": "https://www.kallanish.com/en/prices/details/billet-turkey-ex-works-usdt/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Wire Rod / Turkey FOB USD/t",
+   "url": "https://www.kallanish.com/en/prices/details/turkey-wire-rod-fob-ust/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Angle Bar / Turkey FOB USD/t",
+   "url": "https://www.kallanish.com/en/prices/details/turkey-angles-fob-usdt/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "HDG / Turkey / Ex-Works USD/t",
+   "url": "https://www.kallanish.com/en/prices/details/hdg-turkey-ex-works-usdt/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Rebar / Egypt / FOB USD/t",
+   "url": "https://www.kallanish.com/en/prices/details/egypt-rebar-fob-usdt/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Wire Rod / Egypt / FOB USD/t",
+   "url": "https://www.kallanish.com/en/prices/details/egypt-wire-rod-fob-usdt/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Medium Sections DPD NW Europe EUR/t",
+   "url": "https://www.kallanish.com/en/prices/details/medium-sections-dpd-nw-europe-eurt/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "PPGI Galvanized Coil / Turkey / Ex-Works USD/t",
+   "url": "https://www.kallanish.com/en/prices/details/ppgi-pre-painted-galvanized-coil/",
+   "ek": ""
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "GMK - mining industry analytics",
+   "url": "https://gmk.center/en/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "11 August 2026 Baosteel is raising its prices for flat steel products for September sales",
+   "url": "https://gmk.center/en/news/baosteel-is-raising-its-prices-for-flat-steel-products-for-september-sales/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "11 August 2026 US Steel Kosice reduced steel production by 7% y/y in 1H2026",
+   "url": "https://gmk.center/en/news/us-steel-kosice-reduced-steel-production-by-7-y-y-in-1h2026/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "10 August 2026 Australia increased exports of coking coal by 3% y/y in January–July",
+   "url": "https://gmk.center/en/news/australia-increased-exports-of-coking-coal-by-3-y-y-in-january-july/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "10 August 2026 Metinvest paid 8.5 billion UAH in taxes in 1H2026",
+   "url": "https://gmk.center/en/news/metinvest-paid-8-5-billion-uah-in-taxes-in-1h2026/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "10 August 2026 Hyundai Steel increased its steel sales by 3.7% q/q in Q2",
+   "url": "https://gmk.center/en/news/hyundai-steel-increased-its-steel-sales-by-3-7-q-q-in-q2/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "10 August 2026 Industrial production in Germany rose by 0.2% m/m in June",
+   "url": "https://gmk.center/en/news/industrial-production-in-germany-rose-by-0-2-m-m-in-june/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "10 August 2026 The US plans to extend Section 232 tariffs to additional derivative products",
+   "url": "https://gmk.center/en/news/the-us-plans-to-extend-section-232-tariffs-to-additional-derivative-products/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "10 August 2026 The UK has lifted anti-dumping duties on cold-rolled steel from China and Russia",
+   "url": "https://gmk.center/en/news/the-uk-has-lifted-anti-dumping-duties-on-cold-rolled-steel-from-china-and-russia/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "10 August 2026 Thyssenkrupp shareholders approve spin-off of materials trading division",
+   "url": "https://gmk.center/en/news/thyssenkrupp-shareholders-approve-spin-off-of-materials-trading-division/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "10 August 2026 The National Bank expects prices for Ukrainian billet to rise by 6% in 2026",
+   "url": "https://gmk.center/en/news/the-national-bank-expects-prices-for-ukrainian-billet-to-rise-by-6-in-2026/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "10:46 India saw a 44.1% y/y increase in rolled steel exports in July",
+   "url": "https://gmk.center/en/news/india-saw-a-44-1-y-y-increase-in-rolled-steel-exports-in-july/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "8:00 The Moroccan steel market: comprehensive protection",
+   "url": "https://gmk.center/en/posts/the-moroccan-steel-market-comprehensive-protection/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "11:49 Scrap prices on regional markets fell by $10–30 per tonne in July",
+   "url": "https://gmk.center/en/news/scrap-prices-on-regional-markets-fell-by-10-30-per-tonne-in-july/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "11:33 GravitHy has chosen Danieli to build a DRI plant in Fos-sur-Mer",
+   "url": "https://gmk.center/en/news/gravithy-has-chosen-danieli-to-build-a-dri-plant-in-fos-sur-mer/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "19:48 The FRU calls for negotiations with the EU on Ukrainian steel products to be stepped up",
+   "url": "https://gmk.center/en/news/the-fru-calls-for-negotiations-with-the-eu-on-ukrainian-steel-products-to-be-stepped-up/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "16:30 ANNOUNCEMENT: Mining & Minerals Expo 2026",
+   "url": "https://gmk.center/en/news/announcement-mining-minerals-expo-2026/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "15:44 The Italian Government is considering the possibility of launching a new tender for Acciaierie d’Italia",
+   "url": "https://gmk.center/en/news/the-italian-government-is-considering-the-possibility-of-launching-a-new-tender-for-acciaierie-d-italia/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "15:20 China’s steel exports fell by 4.4% y/y in January–July",
+   "url": "https://gmk.center/en/news/china-s-steel-exports-fell-by-4-4-y-y-in-january-july/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "13:13 Zaporizhcoke reduced output by 15.3% m/m in July",
+   "url": "https://gmk.center/en/news/zaporizhcoke-reduced-output-by-15-3-m-m-in-july/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "12:44 The EU is set to impose anti-dumping duties on hot-rolled steel from five countries",
+   "url": "https://gmk.center/en/news/the-eu-is-set-to-impose-anti-dumping-duties-on-hot-rolled-steel-from-five-countries/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "12:40 Kametstal has implemented an automatic control system at furnace-ladle unit No. 2",
+   "url": "https://gmk.center/en/news/kametstal-has-implemented-an-automatic-control-system-at-furnace-ladle-unit-no-2/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "11:04 China’s CMRG has ordered steelworks to halt negotiations with Rio Tinto",
+   "url": "https://gmk.center/en/news/china-s-cmrg-has-ordered-steelworks-to-halt-negotiations-with-rio-tinto/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "9:26 Ukraine’s trade turnover for the first seven months reached $82.2 billion",
+   "url": "https://gmk.center/en/news/ukraine-s-trade-turnover-for-the-first-seven-months-reached-82-2-billion/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "9:01 Electricity prices in Europe rose in July amid a heatwave and rising gas prices",
+   "url": "https://gmk.center/en/infographic/electricity-prices-in-europe-rose-in-july-amid-a-heatwave-and-rising-gas-prices/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "17:04 Formosa has reduced HRC prices for September sales",
+   "url": "https://gmk.center/en/news/formosa-has-reduced-hrc-prices-for-september-sales/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "16:06 DMZ produced 5.5 thousand tonnes of steel products in July",
+   "url": "https://gmk.center/en/news/dmz-produced-5-5-thousand-tonnes-of-steel-products-in-july/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "15:38 Voestalpine increased revenue by 2.4% y/y in 1H2027",
+   "url": "https://gmk.center/en/news/voestalpine-increased-revenue-by-2-4-y-y-in-1h2027/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "14:33 Malaysia is preparing its steel industry for the impact of the European CBAM",
+   "url": "https://gmk.center/en/news/malaysia-is-preparing-its-steel-industry-for-the-impact-of-the-european-cbam/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "13:50 Spain has allocated €150 million to Hydnum Steel for the construction of a green steel plant",
+   "url": "https://gmk.center/en/news/spain-has-allocated-e150-million-to-hydnum-steel-for-the-construction-of-a-green-steel-plant/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "11:37 Poltava Mining is appealing against a fine of 35.3 billion UAH for breaching foreign exchange control regulations",
+   "url": "https://gmk.center/en/news/poltava-mining-is-appealing-against-a-fine-of-35-3-billion-uah-for-breaching-foreign-exchange-control-regulations/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "11:27 Ukrmetallurgprom calls on the government to reverse the increase in Ukrainian Railways’ freight tariffs",
+   "url": "https://gmk.center/en/news/ukrmetallurgprom-calls-on-the-government-to-reverse-the-increase-in-ukrainian-railways-freight-tariffs/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "9:00 FTA with Turkey: what will change for Ukrainian steel products",
+   "url": "https://gmk.center/en/posts/fta-with-turkey-what-will-change-for-ukrainian-steel-products/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "8:01 Average prices for oil and gas OCTG pipes in the US stabilised at $2,563 per tonne in July",
+   "url": "https://gmk.center/en/news/average-prices-for-oil-and-gas-octg-pipes-in-the-us-stabilised-at-2-563-per-tonne-in-july/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "17:18 Třinecké železárny needs support from the EU and the state to decarbonise",
+   "url": "https://gmk.center/en/news/trinecke-zelezarny-needs-support-from-the-eu-and-the-state-to-decarbonise/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "16:42 European carbon prices exceeded €80/t at the start of August",
+   "url": "https://gmk.center/en/news/european-carbon-prices-exceeded-e80-t-at-the-start-of-august/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "13:31 Salzgitter is selling the equipment manufacturer Klöckner DESMA",
+   "url": "https://gmk.center/en/news/salzgitter-is-selling-the-equipment-manufacturer-klockner-desma/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Domestic prices for steel products for the construction industry have risen by 4–19% since the start of 2026 03.08.2026",
+   "url": "https://gmk.center/en/news/domestic-prices-for-steel-products-for-the-construction-industry-have-risen-by-4-19-since-the-start-of-2026/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Prices for billets rose by $10/t in most regional markets in July 02.08.2026",
+   "url": "https://gmk.center/en/news/in-most-regional-markets-prices-for-raw-materials-fell-by-10-t-in-july/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Prices on regional slab markets fell by $3 per tonne in July 29.07.2026",
+   "url": "https://gmk.center/en/news/prices-on-regional-slab-markets-fell-by-3-per-tonne-in-july/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "The EU scrap market came under pressure in July due to falling prices and weather conditions 29.07.2026",
+   "url": "https://gmk.center/en/news/the-eu-scrap-market-came-under-pressure-in-july-due-to-falling-prices-and-weather-conditions/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Nucor is raising the price of hot-rolled coils by $10/t 28.07.2026",
+   "url": "https://gmk.center/en/news/nucor-is-raising-the-price-of-hot-rolled-coils-by-10-t/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Prices on regional pig iron markets fell in the first half of July 23.07.2026",
+   "url": "https://gmk.center/en/news/prices-on-regional-pig-iron-markets-fell-in-the-first-half-of-july/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "European gas prices rose to levels above €60/MWh in July 22.07.2026",
+   "url": "https://gmk.center/en/news/european-gas-prices-rose-to-levels-above-e60-mwh-in-july/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "The global hot-rolled coil market remained stable in July against a backdrop of a seasonal lull 21.07.2026",
+   "url": "https://gmk.center/en/news/the-global-hot-rolled-coil-market-remained-stable-in-july-against-a-backdrop-of-a-seasonal-lull/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "ArcelorMittal is raising prices for long products in Europe by €25 per tonne 21.07.2026",
+   "url": "https://gmk.center/en/news/arcelormittal-is-raising-prices-for-long-products-in-europe-by-e25-per-tonne/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "International Steel Report",
+   "url": "https://mepsinternational.com/gb/en/products/international-steel-review",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "European Steel Report Supplement",
+   "url": "https://mepsinternational.com/gb/en/products/european-steel-review-supplement",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Developing Markets Steel Report",
+   "url": "https://mepsinternational.com/gb/en/products/developing-markets-steel-review",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Semi-Finished Steel Report",
+   "url": "https://mepsinternational.com/gb/en/products/semi-finished-steel-review",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "MEPS’s global steel production and capacity round-up",
+   "url": "https://mepsinternational.com/gb/en/news/meps-s-global-steel-production-and-capacity-round-up-26",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Faltering demand and nickel market stall EU scrap prices",
+   "url": "https://mepsinternational.com/gb/en/news/faltering-demand-and-nickel-market-stall-eu-scrap-prices",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "South Korea seeks to replace lost EU steel trade",
+   "url": "https://mepsinternational.com/gb/en/news/south-korea-seeks-to-replace-lost-eu-steel-trade",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Webinar: Indian steelmakers adapt to EU trade measures",
+   "url": "https://mepsinternational.com/gb/en/news/webinar-indian-steelmakers-adapt-to-eu-trade-measures",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Turkish imports overwhelm new EU quotas",
+   "url": "https://mepsinternational.com/gb/en/news/turkish-imports-overwhelm-new-eu-quotas",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Podcast: fragile USMCA reduces likelihood of tariff cuts",
+   "url": "https://mepsinternational.com/gb/en/news/podcast-fragile-usmca-reduces-likelihood-of-tariff-cuts",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Podcast: Europe’s steel imports a ‘high stakes gamble’",
+   "url": "https://mepsinternational.com/gb/en/news/podcast-europe-s-steel-imports-a-high-stakes-gamble",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "USMCA uncertainty supports elevated US steel prices",
+   "url": "https://mepsinternational.com/gb/en/news/usmca-uncertainty-supports-elevated-us-steel-prices",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Forge a MEPS steel price partnership at Asia Steel Forum",
+   "url": "https://mepsinternational.com/gb/en/news/forge-a-meps-steel-price-partnership-at-asia-steel-forum",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "MEPS’s global steel production and capacity round-up",
+   "url": "https://mepsinternational.com/gb/en/news/meps-s-global-steel-production-and-capacity-round-up-25",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Rising inflation threatens stainless steel demand recovery",
+   "url": "https://mepsinternational.com/gb/en/news/rising-inflation-threatens-stainless-demand-recovery",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "EU steel quota overhaul adds complexity for importers",
+   "url": "https://mepsinternational.com/gb/en/news/eu-steel-quota-overhaul-adds-complexity-for-importers",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Competition Compliance Policy",
+   "url": "https://mepsinternational.com/gb/en/pages/competition-compliance-policy-statement",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Allstar Magnetics Acquires Coil Specialty Company, Expanding Capacity and Engineering Capabilities",
+   "url": "https://magneticsmag.com/allstar-magnetics-acquires-coil-specialty-company-expanding-capacity-and-engineering-capabilities/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Umbragroup Builds Its Portfolio & Technology in Electrification Markets",
+   "url": "https://magneticsmag.com/umbragroup-builds-its-portfolio-technology-in-electrification-markets/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "MAHLE Accelerates Electrification of Road Transport with Range Extender, Non-Rare Earth Motor & H2/FC Projects",
+   "url": "https://magneticsmag.com/mahle-accelerates-electrification-of-road-transport-with-range-extender-non-rare-earth-motor-h2-fc-projects/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Welders for ITER Tokamak Face Daunting Component Assembly Challenges",
+   "url": "https://magneticsmag.com/welders-for-iter-tokamak-face-daunting-component-assembly-challenges/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "MagnebotiX in Zurich Enables New Frontiers in Micro-Robotics and Biotech",
+   "url": "https://magneticsmag.com/magnebotix-in-zurich-enables-new-frontiers-in-micro-robotics-and-biotech/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "ABB Electrifies Maritime Fleets",
+   "url": "https://magneticsmag.com/abb-brings-array-of-electrification-solutions-to-maritime-fleets/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Tech Tips: The Hidden Role of Vacuum Pumps in Making Magnets",
+   "url": "https://magneticsmag.com/tech-tips-the-hidden-role-of-vacuum-pumps-in-making-magnets/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Stainless Steel Hot Rolled Coil",
+   "url": "https://www.yieh.com/en/Product/stainless-steel/stainless-steel-hot-rolled-coil",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Stainless Steel Checker Plate",
+   "url": "https://www.yieh.com/en/Product/stainless-steel/stainless-steel-checker-plate",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Carbon Steel Hot Rolled Coil / Strip / Plate / Sheet",
+   "url": "https://www.yieh.com/en/Product/carbon-steel/carbon-steel-hot-rolled-coil-strip-plate-sheet",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Carbon Steel Checker Plate",
+   "url": "https://www.yieh.com/en/Product/carbon-steel/carbon-steel-checker-plate",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Organic Coated Steel Products",
+   "url": "https://www.yieh.com/en/Product/coated-steel/organic-coated-steel-products",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Antibacterial Coated Steel Products",
+   "url": "https://www.yieh.com/en/Product/coated-steel/antibacterial-coated-steel-products",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Solar Photovoltaic System Brackets",
+   "url": "https://www.yieh.com/en/Product/coated-steel/solar-photovoltaic-system-brackets",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Color Coated Aluminum Coil / Sheet",
+   "url": "https://www.yieh.com/en/Product/aluminum/coated-aluminum-coil-sheet",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Stainless Steel Welded Pipes / Tubes",
+   "url": "https://www.yieh.com/en/Product/pipe-tube/stainless-steel-welded-pipes-tubes-2",
+   "ek": "sert red (baslik)"
+  }
+ ]
+}

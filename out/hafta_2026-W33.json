@@ -1,89 +1,162 @@
 {
- "rows": [],
+ "rows": [
+  {
+   "tarih": "2026-08-11",
+   "firma": "KG Steel",
+   "ulke": "G. Kore",
+   "hat": "Tandem soguk hadde (TCM)",
+   "asama": "Modernizasyon",
+   "tedarikci": "Primetals",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "KG Steel Selects Primetals Technologies for PLTCM Revamp",
+   "kaynak": "Primetals Technologies",
+   "kaynak_id": "primetals",
+   "url": "https://www.primetals.com/en/news/kg-steel-selects-primetals-technologies-for-pltcm-modernization-in-dangjin-korea/",
+   "tarih_kaynagi": "metin",
+   "eksik": [
+    "tarih?"
+   ],
+   "anahtar": "27b5ca990931fc28",
+   "puan": 53.0
+  },
+  {
+   "tarih": "2026-08-07",
+   "firma": "Almost",
+   "ulke": "Almanya",
+   "hat": "Roll shop / merdane",
+   "asama": "Modernizasyon",
+   "tedarikci": "Herkules",
+   "kapasite": "",
+   "tutar": "€25,000",
+   "baslik": "Almost €25,000 for volunteer initiatives!",
+   "kaynak": "Herkules Group",
+   "kaynak_id": "herkules",
+   "url": "https://www.herkulesgroup.com/news/detail/fast-25000-euro-fuer-ehrenamtliches-engagement/",
+   "tarih_kaynagi": "liste",
+   "eksik": [
+    "tarih?"
+   ],
+   "anahtar": "e7bd8885aa3fe052",
+   "puan": 49.4
+  },
+  {
+   "tarih": "2026-08-07",
+   "firma": "",
+   "ulke": "Almanya",
+   "hat": "Roll shop / merdane",
+   "asama": "Modernizasyon",
+   "tedarikci": "Herkules",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "info@remove-this.herkules-machinetools.de",
+   "kaynak": "Herkules Group",
+   "kaynak_id": "herkules",
+   "url": "https://www.herkulesgroup.com/news/",
+   "tarih_kaynagi": "time",
+   "eksik": [
+    "firma"
+   ],
+   "anahtar": "40703d5cc18ff78c",
+   "puan": 45.4
+  },
+  {
+   "tarih": "2026-07-21",
+   "firma": "Revamp CSP Mill",
+   "ulke": "Cin",
+   "hat": "Belirsiz",
+   "asama": "Modernizasyon",
+   "tedarikci": "Primetals",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "Primetals Technologies to Revamp CSP Mill at WISCO in China",
+   "kaynak": "Primetals Technologies",
+   "kaynak_id": "primetals",
+   "url": "https://www.primetals.com/en/news/primetals-technologies-to-revamp-csp-mill-at-wisco-in-china/",
+   "tarih_kaynagi": "metin",
+   "eksik": [
+    "hat",
+    "tarih?"
+   ],
+   "anahtar": "f2a775dfc7623c58",
+   "puan": 34.6
+  },
+  {
+   "tarih": "2026-08-08",
+   "firma": "",
+   "ulke": "Almanya",
+   "hat": "Teneke hatti (ETL)",
+   "asama": "Belirsiz",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "thyssenkrupp Rasselstein installs 8 MW photovoltaic system to advance decarbonization goals",
+   "kaynak": "EUROMETAL",
+   "kaynak_id": "eurometal",
+   "url": "https://eurometal.net/thyssenkrupp-rasselstein-installs-8-mw-photovoltaic-system-to-advance-decarbonization-goals/?utm_source=rss&utm_medium=rss&utm_campaign=thyssenkrupp-rasselstein-installs-8-mw-photovoltaic-system-to-advance-decarbonization-goals",
+   "tarih_kaynagi": "json-ld",
+   "eksik": [
+    "firma",
+    "asama"
+   ],
+   "anahtar": "4f5cabfe41debb85",
+   "puan": 26.8
+  },
+  {
+   "tarih": "2026-07-29",
+   "firma": "TOSYALI ALGÉRİE",
+   "ulke": "",
+   "hat": "Soguk hadde",
+   "asama": "Belirsiz",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "TOSYALI ALGÉRİE, SOĞUK HADDELEME KOMPLEKSİNDE İLK ÜRETİMİ YAPTI",
+   "kaynak": "SteelTurk",
+   "kaynak_id": "steelturk",
+   "url": "https://www.steelturk.com.tr/tosyali-algérie-soguk-haddeleme-kompleksinde-ilk-uretimi-yapti/",
+   "tarih_kaynagi": "liste",
+   "eksik": [
+    "ulke",
+    "asama",
+    "tarih?"
+   ],
+   "anahtar": "92e4a5a31f19b487",
+   "puan": 22.8
+  }
+ ],
  "stats": {
   "kaynak": 34,
-  "erisilemeyen": 18,
-  "ham": 291,
-  "on_eleme_gecti": 66,
-  "makale_acildi": 65,
-  "tarihsiz_elendi": 40,
-  "pencere_disi": 64,
-  "kapsam_disi": 187,
+  "erisilemeyen": 5,
+  "ham": 673,
+  "on_eleme_gecti": 107,
+  "makale_acildi": 105,
+  "tarihsiz_elendi": 62,
+  "pencere_disi": 108,
+  "kapsam_disi": 497,
   "tekrar": 0,
-  "kabul": 0
+  "kabul": 6
  },
  "unreachable": [
   [
-   "Danieli",
-   "HTTP 403"
-  ],
-  [
    "SMS group",
    "HTTP 403"
-  ],
-  [
-   "Fives Group",
-   "HTTP 404"
-  ],
-  [
-   "Redex Group",
-   "HTTP 404"
-  ],
-  [
-   "Butech Bliss",
-   "HTTP 404"
-  ],
-  [
-   "Herkules Group",
-   "HTTP 404"
-  ],
-  [
-   "Achenbach Buschhutten",
-   "HTTP 404"
-  ],
-  [
-   "Drever International",
-   "HTTP 403"
-  ],
-  [
-   "ABB Metals",
-   "HTTP 404"
-  ],
-  [
-   "ISRA Vision (Atlas Copco)",
-   "HTTP 404"
   ],
   [
    "Cognex",
    "HTTP 429"
   ],
   [
-   "Sarralle",
-   "URLError: <urlopen error timed out>"
-  ],
-  [
-   "Bronx International",
-   "URLError: <urlopen error timed out>"
-  ],
-  [
    "Steel Times International",
    "HTTP 403"
   ],
   [
-   "SteelTurk",
-   "URLError: <urlopen error [Errno -2] Name or service not known>"
+   "The Canmaker",
+   "URLError: <urlopen error timed out>"
   ],
   [
-   "Steel Radar",
-   "HTTP 404"
-  ],
-  [
-   "Kallanish",
-   "HTTP 404"
-  ],
-  [
-   "Magnetics Magazine",
-   "HTTP 404"
+   "SteelGuru",
+   "URLError: <urlopen error timed out>"
   ]
  ],
  "kinds": {
@@ -95,32 +168,32 @@
   "smsgroup": "oem",
   "fives": "oem",
   "clecim": "oem",
-  "redex": "oem",
   "butechbliss": "oem",
   "herkules": "oem",
   "achenbach": "oem",
-  "sundwig": "oem",
   "ebner": "oem",
-  "drever": "oem",
   "nseng": "oem",
   "abbmetals": "oem",
   "isravision": "oem",
   "cognex": "oem",
-  "sarralle": "oem",
-  "delta": "oem",
   "bronx": "oem",
+  "delta": "oem",
   "steeltimesint": "dergi",
   "steelturk": "dergi",
   "steelradar": "dergi",
+  "metaldunyasi": "dergi",
   "steelorbis": "dergi",
   "eurometal": "dergi",
+  "canmaker": "dergi",
   "kallanish": "dergi",
   "gmk": "dergi",
-  "aist": "kurum",
-  "canmaker": "dergi",
+  "meps": "dergi",
+  "steelguru": "dergi",
   "magnetics": "dergi",
   "yieh": "dergi",
-  "worldsteel": "kurum"
+  "fastmarkets": "dergi",
+  "worldsteel": "kurum",
+  "aist": "kurum"
  },
  "today": "2026-08-11",
  "window": [
@@ -128,6 +201,6 @@
   "2026-08-11"
  ],
  "period": "2026-W33",
- "generated": "2026-08-11 06:09 UTC",
+ "generated": "2026-08-11 07:37 UTC",
  "version": "3.0.0"
 }
