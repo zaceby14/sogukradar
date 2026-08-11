@@ -4,6 +4,14 @@ on:
   schedule:
     # Pazartesi 04:05 UTC = 07:05 TSI. Actions kuyrugu gecikebilir, sorun degil.
     - cron: "5 4 * * 1"
+  push:
+    # Kod degisince kosu kendiliginden baslar. Botun kendi commit'i
+    # "[skip ci]" tasidigi icin sonsuz dongu olusmaz.
+    branches: [main]
+    paths:
+      - "radar/**"
+      - "tests/**"
+      - ".github/workflows/weekly.yml"
   workflow_dispatch:
     inputs:
       today:
@@ -42,7 +50,7 @@ jobs:
           python tests/e2e_offline.py
 
       - name: Kaynak saglik taramasi
-        if: ${{ github.event.inputs.check_sources == 'true' }}
+        if: ${{ github.event.inputs.check_sources == 'true' || github.event_name == 'push' }}
         run: python -m radar check || true
 
       - name: Haftalik kosu
@@ -77,7 +85,7 @@ jobs:
           git config user.name  "sogukradar-bot"
           git config user.email "bot@users.noreply.github.com"
           git add out state
-          git diff --staged --quiet || git commit -m "haftalik kosu $(date -u +%Y-W%V)"
+          git diff --staged --quiet || git commit -m "haftalik kosu $(date -u +%Y-W%V) [skip ci]"
           git push
 
       - uses: actions/upload-artifact@v4
@@ -88,6 +96,7 @@ jobs:
             out/hafta_*_taslak.html
             out/hafta_*.csv
             out/needs_ai.json
+            out/reddedilenler.json
             out/email_body.md
           retention-days: 90
 
