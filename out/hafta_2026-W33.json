@@ -1,54 +1,56 @@
 {
  "rows": [
   {
-   "tarih": "2026-08-11",
-   "firma": "11 Aug Free KG Steel",
-   "ulke": "Turkiye",
-   "hat": "Tandem soguk hadde (TCM)",
-   "asama": "Modernizasyon",
-   "tedarikci": "Primetals",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "11 Aug Free KG Steel selects Primetals for Dangjin PLTCM upgrade and capacity expansion",
-   "kaynak": "SteelOrbis",
-   "kaynak_id": "steelorbis",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/kg-steel-selects-primetals-for-dangjin-pltcm-upgrade-and-capacity-expansion-1470187.htm",
-   "tarih_kaynagi": "json-ld",
-   "eksik": [],
-   "anahtar": "ddd3161581c94d65",
-   "puan": 61.0
-  },
-  {
-   "tarih": "2026-08-11",
-   "firma": "",
-   "ulke": "Turkiye",
-   "hat": "Soguk hadde",
-   "asama": "Ilk urun",
+   "tarih": "2026-08-06",
+   "firma": "Thyssenkrupp Rasselstein",
+   "ulke": "",
+   "hat": "Teneke hatti (ETL)",
+   "asama": "Sozlesme",
    "tedarikci": "",
    "kapasite": "",
    "tutar": "",
-   "baslik": "11 Aug Free South Korea remains top supplier as Turkey's cold rolled flat steel imports rise slightly in H1 2026",
-   "kaynak": "SteelOrbis",
-   "kaynak_id": "steelorbis",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/south-korea-remains-top-supplier-as-turkeys-cold-rolled-flat-steel-imports-rise-slightly-in-h1-2026-1470164.htm",
+   "baslik": "Thyssenkrupp Rasselstein signs green energy deal for Andernach tinplate mill",
+   "kaynak": "The Canmaker",
+   "kaynak_id": "canmaker",
+   "url": "https://canmaker.com/thyssenkrupp-signs-green-energy-deal-for-andernach-site/?utm_source=rss&utm_medium=rss&utm_campaign=thyssenkrupp-signs-green-energy-deal-for-andernach-site",
    "tarih_kaynagi": "json-ld",
    "eksik": [
-    "firma"
+    "ulke"
    ],
-   "anahtar": "26a882aae8c3cb97",
-   "puan": 60.0
+   "anahtar": "d406efe050fec804",
+   "puan": 52.0
+  },
+  {
+   "tarih": "2026-08-11",
+   "firma": "Primetals Technologies",
+   "ulke": "G. Kore",
+   "hat": "Soguk hadde",
+   "asama": "Modernizasyon",
+   "tedarikci": "Primetals",
+   "kapasite": "",
+   "tutar": "EUR 47.71",
+   "baslik": "Primetals Technologies to modernize KG Steel’s cold rolling mill in South Korea",
+   "kaynak": "Steel Radar",
+   "kaynak_id": "steelradar",
+   "url": "https://www.steelradar.com/en/haber/primetals-technologies-to-modernize-kg-steels-cold-rolling-mill-in-south-korea/",
+   "tarih_kaynagi": "metin",
+   "eksik": [
+    "tarih?"
+   ],
+   "anahtar": "12ff956ae6e28c09",
+   "puan": 52.0
   }
  ],
  "stats": {
-  "kaynak": 34,
-  "erisilemeyen": 3,
-  "ham": 669,
-  "on_eleme_gecti": 56,
-  "makale_acildi": 54,
-  "tarihsiz_elendi": 26,
-  "pencere_disi": 83,
-  "kapsam_disi": 556,
-  "tekrar": 2,
+  "kaynak": 72,
+  "erisilemeyen": 23,
+  "ham": 1297,
+  "on_eleme_gecti": 126,
+  "makale_acildi": 124,
+  "tarihsiz_elendi": 58,
+  "pencere_disi": 117,
+  "kapsam_disi": 1116,
+  "tekrar": 4,
   "kabul": 2
  },
  "unreachable": [
@@ -61,8 +63,88 @@
    "HTTP 429"
   ],
   [
+   "Heinrich GEORG",
+   "HTTP 403"
+  ],
+  [
+   "BWG Maschinenbau",
+   "HTTP 403"
+  ],
+  [
+   "IMS Messsysteme",
+   "HTTP 404"
+  ],
+  [
+   "Duma-Bandzink",
+   "HTTP 403"
+  ],
+  [
+   "Red Bud Industries",
+   "HTTP 403"
+  ],
+  [
+   "Herr-Voss Stamco",
+   "URLError: <urlopen error [Errno 111] Connection refused>"
+  ],
+  [
+   "Sistem Teknik",
+   "HTTP 404"
+  ],
+  [
+   "ArcelorMittal",
+   "HTTP 403"
+  ],
+  [
+   "JSW Steel",
+   "HTTP 404"
+  ],
+  [
+   "Salzgitter AG",
+   "HTTP 404"
+  ],
+  [
+   "U.S. Steel",
+   "HTTP 404"
+  ],
+  [
+   "Hyundai Steel",
+   "HTTP 404"
+  ],
+  [
+   "Erdemir",
+   "HTTP 404"
+  ],
+  [
+   "Tosyali Holding",
+   "HTTP 404"
+  ],
+  [
+   "Borcelik",
+   "HTTP 404"
+  ],
+  [
+   "MMK Metalurji",
+   "URLError: <urlopen error [Errno -2] Name or service not known>"
+  ],
+  [
    "Steel Times International",
    "HTTP 403"
+  ],
+  [
+   "SMM (Shanghai Metals)",
+   "HTTP 404"
+  ],
+  [
+   "BigMint (SteelMint)",
+   "HTTP 403"
+  ],
+  [
+   "MetalMiner",
+   "HTTP 403"
+  ],
+  [
+   "TCUD",
+   "HTTP 404"
   ]
  ],
  "kinds": {
@@ -84,6 +166,39 @@
   "cognex": "oem",
   "bronx": "oem",
   "delta": "oem",
+  "mino": "oem",
+  "secowarwick": "oem",
+  "georg": "oem",
+  "tmeic": "oem",
+  "bwg": "oem",
+  "ims": "oem",
+  "emg": "oem",
+  "dumabandzink": "oem",
+  "ottojunker": "oem",
+  "braner": "oem",
+  "redbud": "oem",
+  "herrvoss": "oem",
+  "waterbury": "oem",
+  "sistemteknik": "oem",
+  "arcelormittal": "uretici",
+  "tksteel": "uretici",
+  "tatasteel": "uretici",
+  "posco": "uretici",
+  "nipponsteel": "uretici",
+  "jfe": "uretici",
+  "jsw": "uretici",
+  "voestalpine": "uretici",
+  "salzgitter": "uretici",
+  "ssab": "uretici",
+  "ussteel": "uretici",
+  "cliffs": "uretici",
+  "nucor": "uretici",
+  "baowu": "uretici",
+  "hyundaisteel": "uretici",
+  "erdemir": "uretici",
+  "tosyali": "uretici",
+  "borcelik": "uretici",
+  "mmkturkey": "uretici",
   "steeltimesint": "dergi",
   "steelturk": "dergi",
   "steelradar": "dergi",
@@ -98,15 +213,38 @@
   "magnetics": "dergi",
   "yieh": "dergi",
   "fastmarkets": "dergi",
+  "smm": "dergi",
+  "bigmint": "dergi",
+  "metalminer": "dergi",
   "worldsteel": "kurum",
-  "aist": "kurum"
+  "aist": "kurum",
+  "eurofer": "kurum",
+  "tcud": "kurum"
  },
  "today": "2026-08-11",
+ "tech_pool": [
+  {
+   "anahtar": "tech:c1e20af1f2d7d31b",
+   "tarih": "2026-06-15",
+   "baslik": "POSCO Partners with Hyundai Motor and 8 Organizations to Develop Next-Generation High-Efficiency Electrical Steel for EVs",
+   "url": "https://worldsteel.org/media/industry-member-news/2026-member-news/posco-partners-with-hyundai-motor-and-8-organizations-to-develop-next-generation-high-efficiency-electrical-steel-for-evs/",
+   "kaynak": "worldsteel",
+   "hat": "Elektrik celigi hatti"
+  },
+  {
+   "anahtar": "tech:4becdc9506d593e8",
+   "tarih": "2026-03-26",
+   "baslik": "Daily press | 2026-03-26 Import crisis for grain-oriented electrical steel: thyssenkrupp Electrical Steel extends production cuts at its Isbergues site in France",
+   "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/thyssenkrupp-electrical-steel-extends-production-cuts-at-its-isbergues-site-in-france.html",
+   "kaynak": "thyssenkrupp Steel",
+   "hat": "Elektrik celigi hatti"
+  }
+ ],
  "window": [
   "2026-07-21",
   "2026-08-11"
  ],
  "period": "2026-W33",
- "generated": "2026-08-11 11:48 UTC",
+ "generated": "2026-08-11 18:43 UTC",
  "version": "3.0.0"
 }
