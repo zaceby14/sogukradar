@@ -117,6 +117,40 @@ def test_w33_regresyon():
        "Primetals Technologies", "fiil musteri adi sanilmamali")
 
 
+def test_compose_ve_mail():
+    from . import compose, render
+    rows = [
+        {"anahtar": "a1", "tarih": "2026-08-05", "firma": "Tosyali Algerie",
+         "ulke": "Cezayir", "hat": "Soguk hadde", "asama": "Ilk urun",
+         "tedarikci": "", "kapasite": "", "tutar": "", "baslik": "t1",
+         "kaynak": "SteelTurk", "url": "https://x/1", "puan": 70, "eksik": [],
+         "tarih_kaynagi": "json-ld", "kaynak_id": "steelturk"},
+        {"anahtar": "a2", "tarih": "2026-08-03", "firma": "KG Steel",
+         "ulke": "G. Kore", "hat": "Tandem soguk hadde (TCM)",
+         "asama": "Modernizasyon", "tedarikci": "Primetals", "kapasite": "",
+         "tutar": "", "baslik": "t2", "kaynak": "Primetals",
+         "url": "https://x/2", "puan": 60, "eksik": [], "tarih_kaynagi": "meta",
+         "kaynak_id": "primetals"},
+    ]
+    stats = {"kaynak": 72, "ham": 900, "makale_acildi": 120, "tarihsiz_elendi": 40,
+             "pencere_disi": 100, "kapsam_disi": 500, "tekrar": 3, "erisilemeyen": 6}
+    oz = compose.exec_summary(rows, stats)
+    eq("2" in oz and "Cezayir" in oz, True, "ozet sayilari ve ulkeyi anmali")
+    eq("Tosyali" in oz, True, "Turkiye baglantili satir ozette olmali")
+    s = compose.row_sentence(rows[1])
+    eq("Primetals" in s and "yenileme" in s, True, "modernizasyon cumlesi")
+    payload = {"rows": rows, "stats": stats, "unreachable": [("SMS group", "403")],
+               "window": ["2026-07-21", "2026-08-11"], "period": "2026-W33"}
+    mail = render.email_html(payload, None,
+                             [{"konu": "Lazer kesim", "metin": "m",
+                               "url": "https://x/3", "tarih": "2026-06-01"}], 5)
+    for parca in ("Değerli yöneticilerim", "AI Özeti", "Zeynel", "Sayı #5",
+                  "Soğuk Haddehane", "Öne Çıkan Teknolojileri",
+                  "tek tek açılıp", "Lazer kesim"):
+        eq(parca in mail, True, "mailde eksik: " + parca)
+    eq("Yönetici özeti" in mail, False, "eski baslik kalmamali")
+
+
 def test_line_and_stage():
     eq(taxonomy.match_line(
         "JVML awards electrical steel annealing and pickling lines to John Cockerill"),
@@ -190,7 +224,7 @@ def test_build_row():
 def run():
     for fn in (test_dates, test_article_date_chain, test_firm, test_scope,
                test_line_and_stage, test_listing_parser, test_feed_parser,
-               test_state, test_build_row, test_w33_regresyon):
+               test_state, test_build_row, test_w33_regresyon, test_compose_ve_mail):
         try:
             fn()
         except Exception as e:

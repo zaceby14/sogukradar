@@ -70,7 +70,23 @@ def cmd_run(a):
             "ulke": r["ulke"], "hat": r["hat"], "asama": r["asama"],
             "baslik": r["baslik"], "url": r["url"]} for r in payload["rows"]]
     _w(os.path.join(OUT, "needs_ai.json"),
-       {"donem": per, "duzelt": ask, "cumle_yaz": say})
+       {"donem": per, "duzelt": ask, "cumle_yaz": say,
+        "teknoloji_adaylari": payload.get("tech_pool", [])})
+
+    # Otomatik posta govdesi: yapay zeka ozeti yoksa kurallı metin kullanilir.
+    from . import compose
+    sayi = len(state.load().get("periods", [])) + 1
+    tech = payload.get("tech_pool", [])[:3]
+    for t in tech:
+        t["metin"] = compose.tech_blurb(t)
+    with open(os.path.join(OUT, "email.html"), "w", encoding="utf-8") as f:
+        f.write(render.email_html(payload, None, tech, sayi))
+    if a.commit_state and tech:
+        # kosede cikan teknolojiler bir daha cikmasin
+        st2 = state.load()
+        for t in tech:
+            st2["tech_seen"][t["anahtar"]] = t["tarih"]
+        state.save(st2)
 
     html = render.html_report(payload)
     with open(base + "_taslak.html", "w", encoding="utf-8") as f:
@@ -135,9 +151,23 @@ def cmd_finalize(a):
     with open(base + ".html", "w", encoding="utf-8") as f:
         f.write(html)
     render.write_csv(base + ".csv", payload["rows"])
-    render.write_email(os.path.join(OUT, "email_body.md"), payload, doc.get("exec", ""))
+
+    # Posta govdesi: yapay zeka ozetiyle yeniden uretilir.
+    # ozet.json "teknolojiler" alani: [{"anahtar","konu","metin","url","tarih"}]
+    tech = doc.get("teknolojiler", [])
+    sayi = len(state.load().get("periods", [])) or 1
+    with open(os.path.join(OUT, "email.html"), "w", encoding="utf-8") as f:
+        f.write(render.email_html(payload, doc, tech, sayi))
+    if tech:
+        st2 = state.load()
+        for t in tech:
+            if t.get("anahtar"):
+                st2["tech_seen"][t["anahtar"]] = t.get("tarih", "")
+        state.save(st2)
+
     pdf_ok = render.to_pdf(base + ".html", base + ".pdf")
-    print("final: %s.html (%d satir), pdf=%s" % (base, len(payload["rows"]), pdf_ok))
+    print("final: %s.html (%d satir), pdf=%s, email.html yenilendi"
+          % (base, len(payload["rows"]), pdf_ok))
     return 0
 
 

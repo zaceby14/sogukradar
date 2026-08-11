@@ -51,6 +51,9 @@ def load():
     st["seen"] = _migrate_seen(st.get("seen"))
     st.setdefault("periods", [])
     st.setdefault("source_health", {})
+    # Teknoloji kosesinde tanitilmis konular: {slug: tarih}. Bir teknoloji
+    # bir kez tanitilir, bir daha kosede cikmaz.
+    st.setdefault("tech_seen", {})
     st["version"] = VERSION
     return st
 

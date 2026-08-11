@@ -182,6 +182,181 @@ def write_email(path, payload, exec_summary=""):
         f.write("\n".join(L))
 
 
+MAIL_TITLE = "Soğuk Haddehane ve Nihai Hatlarda Sektör & Teknoloji Takibi"
+
+STAGE_COLORS = {"Sozlesme": ("#e3edfb", "#14457e", "SÖZLEŞME"),
+                "Ilk urun": ("#e4f4e6", "#1d6b2a", "İLK ÜRÜN"),
+                "Insaat": ("#fdeee2", "#8a4a12", "İNŞAAT"),
+                "Test": ("#fdeee2", "#8a4a12", "TEST"),
+                "Seri uretim": ("#e4f4e6", "#1d6b2a", "SERİ ÜRETİM"),
+                "Modernizasyon": ("#f3e9fb", "#5b2d82", "MODERNİZASYON"),
+                "Teknoloji": ("#fdeee2", "#8a4a12", "TEKNOLOJİ"),
+                "Belirsiz": ("#eceff3", "#5a6270", "BELİRSİZ")}
+
+
+def _badge(stage):
+    bg, fg, lbl = STAGE_COLORS.get(stage, STAGE_COLORS["Belirsiz"])
+    return ('<span style="background:%s;color:%s;font-size:10px;font-weight:700;'
+            'padding:1px 7px;border-radius:3px;white-space:nowrap;">%s</span>'
+            % (bg, fg, lbl))
+
+
+def _kpi(v, lbl, hi=False):
+    bg = "#fdf3e3" if hi else "#f4f6f9"
+    fg = "#8a6210" if hi else "#6b7480"
+    return ('<td style="background:%s;border-radius:6px;padding:10px 6px;'
+            'text-align:center;"><div style="font-size:20px;font-weight:700;">%s</div>'
+            '<div style="font-size:10px;color:%s;text-transform:uppercase;'
+            'letter-spacing:.4px;">%s</div></td><td style="width:8px;"></td>'
+            % (bg, v, fg, lbl))
+
+
+def _dmy(iso):
+    try:
+        y, m, d = iso.split("-")
+        return "%s.%s.%s" % (d, m, y)
+    except Exception:
+        return iso
+
+
+def email_html(payload, ozet=None, tech_items=None, sayi=1):
+    """Posta govdesi. Tum stiller satir icidir (posta istemcileri harici
+    CSS'i budar). ozet: {'exec':..., 'cumleler':{anahtar:cumle}} - yoksa
+    compose modulunun kurallı metinleri kullanilir."""
+    from . import compose
+    ozet = ozet or {}
+    rows = payload["rows"]
+    st = payload["stats"]
+    cumleler = ozet.get("cumleler", {})
+    execs = ozet.get("exec") or compose.exec_summary(rows, st)
+    tech_items = tech_items or []
+
+    n_tr = sum(1 for r in rows if r.get("ulke") == "Turkiye"
+               or "tosyali" in (r.get("firma") or "").lower())
+    n_ilk = sum(1 for r in rows if r.get("asama") == "Ilk urun")
+    n_soz = sum(1 for r in rows if r.get("asama") == "Sozlesme")
+
+    h = ['<!doctype html><html lang="tr"><head><meta charset="utf-8">',
+         '<meta name="viewport" content="width=device-width"></head>',
+         '<body style="margin:0;padding:0;background:#eef1f4;">',
+         '<table role="presentation" width="100%" cellpadding="0" cellspacing="0" '
+         'style="background:#eef1f4;padding:18px 0;"><tr><td align="center">',
+         '<table role="presentation" width="680" cellpadding="0" cellspacing="0" '
+         'style="max-width:680px;width:100%;background:#fff;border-radius:8px;'
+         'overflow:hidden;font-family:-apple-system,Segoe UI,Roboto,Helvetica,'
+         'Arial,sans-serif;color:#1c2026;">']
+
+    h.append('<tr><td style="background:#10233c;padding:22px 28px 18px;">'
+             '<div style="color:#fff;font-size:19px;font-weight:700;">%s</div>'
+             '<div style="color:#9fb2c8;font-size:12px;margin-top:5px;">'
+             'Hafta %s · %s – %s &nbsp;|&nbsp; Sayı #%d</div></td></tr>'
+             % (MAIL_TITLE, payload.get("period", ""), _dmy(payload["window"][0]),
+                _dmy(payload["window"][1]), sayi))
+
+    h.append('<tr><td style="padding:22px 28px 4px;font-size:14px;line-height:1.6;">'
+             '<p style="margin:0 0 10px;">Değerli yöneticilerim ve çalışma arkadaşlarım,</p>'
+             '<p style="margin:0 0 6px;color:#3d4450;">Bu bülten, Zeynel tarafından '
+             'kurulan yazılım + yapay zekâ destekli otomatik takip sistemiyle '
+             'hazırlanmaktadır. Sistem her hafta %d kaynağı (ekipman üreticileri, çelik '
+             'üreticileri ve sektör yayınları) tarar; yalnızca yayın tarihi doğrulanmış '
+             'gelişmeleri raporlar ve aynı haberi ikinci kez göndermez.</p></td></tr>'
+             % st.get("kaynak", 0))
+
+    h.append('<tr><td style="padding:12px 28px 0;"><table role="presentation" '
+             'cellpadding="0" cellspacing="0" width="100%"><tr>'
+             + _kpi(len(rows), "Gelişme") + _kpi(n_ilk, "İlk ürün")
+             + _kpi(n_soz, "Sözleşme") + _kpi(n_tr, "Türkiye ilgili", hi=True)
+             + "</tr></table></td></tr>")
+
+    h.append('<tr><td style="padding:20px 28px 0;">'
+             '<div style="font-size:11px;font-weight:700;color:#5a6270;'
+             'text-transform:uppercase;letter-spacing:.7px;border-bottom:1px solid '
+             '#e3e6ea;padding-bottom:6px;margin-bottom:10px;">AI Özeti</div>'
+             '<div style="background:#f6f8fa;border-left:4px solid #10233c;'
+             'padding:12px 15px;font-size:13.5px;line-height:1.6;color:#2a303a;">%s'
+             '</div></td></tr>' % _e(execs))
+
+    if tech_items:
+        h.append('<tr><td style="padding:20px 28px 0;">'
+                 '<div style="font-size:11px;font-weight:700;color:#5a6270;'
+                 'text-transform:uppercase;letter-spacing:.7px;border-bottom:1px solid '
+                 '#e3e6ea;padding-bottom:6px;margin-bottom:10px;">'
+                 'Bu Haftanın Öne Çıkan Teknolojileri</div>'
+                 '<table role="presentation" width="100%" cellpadding="0" '
+                 'cellspacing="0" style="font-size:13px;line-height:1.55;">')
+        for t in tech_items:
+            h.append('<tr><td style="padding:0 0 10px;"><b>%s</b><br>'
+                     '<span style="color:#3d4450;">%s</span> '
+                     '<a href="%s" style="color:#12457a;font-size:11px;">kaynak →</a>'
+                     '</td></tr>'
+                     % (_e(t.get("konu") or t.get("baslik", "")),
+                        _e(t.get("metin", "")), _e(t.get("url", ""))))
+        h.append('</table><div style="font-size:11px;color:#8b93a0;margin-top:8px;">'
+                 'Bu bölümde bir teknoloji yalnızca bir kez tanıtılır; son 6 aydan '
+                 'eski duyurular köşeye alınmaz.</div></td></tr>')
+
+    h.append('<tr><td style="padding:20px 28px 0;">'
+             '<div style="font-size:11px;font-weight:700;color:#5a6270;'
+             'text-transform:uppercase;letter-spacing:.7px;border-bottom:1px solid '
+             '#e3e6ea;padding-bottom:6px;margin-bottom:8px;">Haftanın Gelişmeleri</div>')
+    if rows:
+        h.append('<table role="presentation" width="100%" cellpadding="0" '
+                 'cellspacing="0" style="font-size:12.5px;">'
+                 '<tr>' + "".join(
+                     '<th align="left" style="background:#10233c;color:#fff;'
+                     'padding:7px 9px;font-size:10.5px;text-transform:uppercase;'
+                     'letter-spacing:.4px;">%s</th>' % c
+                     for c in ("Tarih", "Firma / Ülke", "Gelişme", "Aşama")) + "</tr>")
+        for r in rows:
+            is_tr = r.get("ulke") == "Turkiye" or "tosyali" in (r.get("firma") or "").lower()
+            bg = "background:#fdf6ec;" if is_tr else ""
+            sub = " · ".join(x for x in (r.get("ulke"), r.get("tedarikci"),
+                                         r.get("tutar")) if x)
+            cum = cumleler.get(r.get("anahtar")) or compose.row_sentence(r)
+            h.append('<tr><td style="padding:9px;border-bottom:1px solid #e8eaee;%s'
+                     'white-space:nowrap;">%s</td>'
+                     '<td style="padding:9px;border-bottom:1px solid #e8eaee;%s">'
+                     '<b>%s</b><br><span style="color:#6b7480;font-size:11px;">%s</span></td>'
+                     '<td style="padding:9px;border-bottom:1px solid #e8eaee;%s">%s '
+                     '<a href="%s" style="color:#12457a;font-size:11px;">%s →</a></td>'
+                     '<td style="padding:9px;border-bottom:1px solid #e8eaee;%s">%s</td></tr>'
+                     % (bg, _dmy(r["tarih"]), bg, _e(r.get("firma") or "-"), _e(sub),
+                        bg, _e(cum), _e(r.get("url")), _e(r.get("kaynak")),
+                        bg, _badge(r.get("asama"))))
+        h.append("</table>")
+    else:
+        h.append('<div style="background:#fdeeee;border-left:4px solid #c0392b;'
+                 'padding:10px 14px;font-size:13px;">Bu hafta tarih doğrulamasından '
+                 'geçen gelişme kaydedilmedi. Alt bilgideki tarama istatistiği erişim '
+                 'sorununu gösterir.</div>')
+    h.append("</td></tr>")
+
+    h.append('<tr><td style="padding:20px 28px 6px;font-size:13.5px;line-height:1.6;'
+             'color:#3d4450;">Detaylı rapor ve veri (CSV) ektedir. Görüş ve '
+             'önerilerinizi memnuniyetle beklerim.<br><br>Saygılarımla,<br>'
+             '<b>Zeynel</b></td></tr>')
+
+    unreach = payload.get("unreachable", [])
+    h.append('<tr><td style="background:#f4f6f9;padding:14px 28px;font-size:10.5px;'
+             'color:#7b8290;line-height:1.6;">'
+             '<b>Bu haftanın tarama özeti:</b> %d kaynak tarandı, %d haber bağlantısı '
+             'görüldü. Tarih doğrulaması için %d haberin kendi sayfası tek tek açılıp '
+             'yayın tarihi sayfanın içinden okundu; tarihi bu şekilde doğrulanamayan '
+             '%d haber güvenilir bulunmadığı için rapora alınmadı. %d haber tarih '
+             'penceresi dışında, %d haber kapsam dışında kaldı; %d haber daha önce '
+             'raporlandığı için tekrarlanmadı. Erişilemeyen kaynak: %d%s.<br>'
+             'Kapsam: asitleme, soğuk hadde, tavlama, galvaniz/kaplama, boyama, teneke, '
+             'dilme/boy kesme, merdane atölyesi, yüzey muayene, hat otomasyonu ve '
+             'elektrik çeliği hatları.</td></tr>'
+             % (st.get("kaynak", 0), st.get("ham", 0), st.get("makale_acildi", 0),
+                st.get("tarihsiz_elendi", 0), st.get("pencere_disi", 0),
+                st.get("kapsam_disi", 0), st.get("tekrar", 0), len(unreach),
+                (" (" + ", ".join(a for a, _ in unreach[:8]) + ")") if unreach else ""))
+
+    h.append("</table></td></tr></table></body></html>")
+    return "".join(h)
+
+
 def to_pdf(html_path, pdf_path):
     for exe in ("/opt/pw-browsers/chromium", "chromium", "chromium-browser",
                 "google-chrome"):

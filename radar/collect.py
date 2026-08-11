@@ -12,7 +12,8 @@ yayincinin kendi beyanidir. Tarih dogrulugu bu adimda kazanilir.
 import datetime as dt
 
 from . import classify, dates, feeds, htmlx, http, sources, state, taxonomy
-from .config import MAX_ARTICLE_FETCH, MAX_LINKS_PER_SOURCE, WINDOW_DAYS
+from .config import (MAX_ARTICLE_FETCH, MAX_LINKS_PER_SOURCE, TECH_WINDOW_DAYS,
+                     WINDOW_DAYS)
 
 US_STYLE = {"cognex", "butechbliss", "delta", "bronx", "aist", "magnetics", "worldsteel"}
 
@@ -94,13 +95,36 @@ def _items_from_source(s, log):
 def collect(today=None, log=print):
     today = today or dt.date.today()
     floor = today - dt.timedelta(days=WINDOW_DAYS)
-    pre_floor = (today - dt.timedelta(days=max(WINDOW_DAYS * 3, 90))).isoformat()
+    tech_floor = (today - dt.timedelta(days=TECH_WINDOW_DAYS)).isoformat()
+    # On eleme esigi teknoloji penceresinden dar olamaz
+    pre_floor = min((today - dt.timedelta(days=max(WINDOW_DAYS * 3, 90))).isoformat(),
+                    tech_floor)
     st = state.load()
     seen = st.get("seen", {})
 
     stats = dict(kaynak=0, erisilemeyen=0, ham=0, on_eleme_gecti=0, makale_acildi=0,
                  tarihsiz_elendi=0, pencere_disi=0, kapsam_disi=0, tekrar=0, kabul=0)
-    unreachable, rows, kinds, rejects = [], [], {}, []
+    unreachable, rows, kinds, rejects, tech_pool = [], [], {}, [], []
+    tech_seen = st.get("tech_seen", {})
+
+    def maybe_tech(it, date_iso, text, publisher):
+        """Teknoloji kosesi adayi mi? Ana pencereden BAGIMSIZ calisir:
+        6 aya kadar eski olabilir, ama daha once kosede cikmis olamaz."""
+        if date_iso < tech_floor:
+            return
+        blob = it["title"] + " . " + (text or "")[:700]
+        if taxonomy.match_stage(it["title"]) != "Teknoloji" \
+                and taxonomy.match_stage(blob) != "Teknoloji":
+            return
+        ok_scope, _ = taxonomy.in_scope(it["title"], (text or "")[:700])
+        if not ok_scope:
+            return
+        key = "tech:" + state.norm_key(it["title"], it["url"])
+        if key in tech_seen:
+            return
+        tech_pool.append({"anahtar": key, "tarih": date_iso, "baslik": it["title"],
+                          "url": it["url"], "kaynak": publisher,
+                          "hat": taxonomy.match_line(blob)})
 
     def drop(reason, it, extra=""):
         """Elenen her satir kaydedilir. Ayarlama (kalibrasyon) ancak neyin
@@ -168,8 +192,10 @@ def collect(today=None, log=print):
                 drop("tarihsiz_elendi", it)   # TARIH YOKSA HABER YOK
                 continue
             if date_iso < floor.isoformat() or date_iso > today.isoformat():
+                maybe_tech(it, date_iso, text, s["publisher"])
                 drop("pencere_disi", it, date_iso)
                 continue
+            maybe_tech(it, date_iso, text, s["publisher"])
 
             ok_scope, why = taxonomy.in_scope(it["title"], text[:700])
             if not ok_scope:
@@ -193,6 +219,8 @@ def collect(today=None, log=print):
             rows.append(row)
             stats["kabul"] += 1
 
+    tech_pool.sort(key=lambda t: t["tarih"], reverse=True)
     return {"rows": rows, "stats": stats, "unreachable": unreachable,
             "kinds": kinds, "today": today.isoformat(), "rejects": rejects,
+            "tech_pool": tech_pool[:12],
             "window": [floor.isoformat(), today.isoformat()]}
