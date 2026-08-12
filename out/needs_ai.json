@@ -2,72 +2,43 @@
  "donem": "2026-W33",
  "duzelt": [
   {
-   "anahtar": "d406efe050fec804",
-   "baslik": "Thyssenkrupp Rasselstein signs green energy deal for Andernach tinplate mill",
-   "url": "https://canmaker.com/thyssenkrupp-signs-green-energy-deal-for-andernach-site/?utm_source=rss&utm_medium=rss&utm_campaign=thyssenkrupp-signs-green-energy-deal-for-andernach-site",
+   "anahtar": "2b4150031b0ef2d5",
+   "baslik": "İspanya, Hydnum Steel’in Yeşil Çelik Tesisine 150 Milyon Euro Destek Sağlayacak",
+   "url": "https://www.steelturk.com.tr/ispanya-hydnum-steelin-yesil-celik-tesisine-150-milyon-euro-destek-saglayacak/",
    "eksik": [
-    "ulke"
-   ],
-   "mevcut": {
-    "firma": "Thyssenkrupp Rasselstein",
-    "ulke": "",
-    "hat": "Teneke hatti (ETL)",
-    "asama": "Sozlesme"
-   }
-  },
-  {
-   "anahtar": "12ff956ae6e28c09",
-   "baslik": "Primetals Technologies to modernize KG Steel’s cold rolling mill in South Korea",
-   "url": "https://www.steelradar.com/en/haber/primetals-technologies-to-modernize-kg-steels-cold-rolling-mill-in-south-korea/",
-   "eksik": [
+    "firma",
+    "hat",
+    "asama",
     "tarih?"
    ],
    "mevcut": {
-    "firma": "Primetals Technologies",
-    "ulke": "G. Kore",
-    "hat": "Soguk hadde",
-    "asama": "Modernizasyon"
+    "firma": "",
+    "ulke": "Ispanya",
+    "hat": "Belirsiz",
+    "asama": "Belirsiz"
    }
   }
  ],
  "cumle_yaz": [
   {
-   "anahtar": "d406efe050fec804",
-   "tarih": "2026-08-06",
-   "firma": "Thyssenkrupp Rasselstein",
-   "ulke": "",
-   "hat": "Teneke hatti (ETL)",
-   "asama": "Sozlesme",
-   "baslik": "Thyssenkrupp Rasselstein signs green energy deal for Andernach tinplate mill",
-   "url": "https://canmaker.com/thyssenkrupp-signs-green-energy-deal-for-andernach-site/?utm_source=rss&utm_medium=rss&utm_campaign=thyssenkrupp-signs-green-energy-deal-for-andernach-site"
-  },
-  {
-   "anahtar": "12ff956ae6e28c09",
-   "tarih": "2026-08-11",
-   "firma": "Primetals Technologies",
-   "ulke": "G. Kore",
-   "hat": "Soguk hadde",
-   "asama": "Modernizasyon",
-   "baslik": "Primetals Technologies to modernize KG Steel’s cold rolling mill in South Korea",
-   "url": "https://www.steelradar.com/en/haber/primetals-technologies-to-modernize-kg-steels-cold-rolling-mill-in-south-korea/"
+   "anahtar": "2b4150031b0ef2d5",
+   "tarih": "2026-08-07",
+   "firma": "",
+   "ulke": "Ispanya",
+   "hat": "Belirsiz",
+   "asama": "Belirsiz",
+   "baslik": "İspanya, Hydnum Steel’in Yeşil Çelik Tesisine 150 Milyon Euro Destek Sağlayacak",
+   "url": "https://www.steelturk.com.tr/ispanya-hydnum-steelin-yesil-celik-tesisine-150-milyon-euro-destek-saglayacak/"
   }
  ],
  "teknoloji_adaylari": [
   {
-   "anahtar": "tech:c1e20af1f2d7d31b",
-   "tarih": "2026-06-15",
-   "baslik": "POSCO Partners with Hyundai Motor and 8 Organizations to Develop Next-Generation High-Efficiency Electrical Steel for EVs",
-   "url": "https://worldsteel.org/media/industry-member-news/2026-member-news/posco-partners-with-hyundai-motor-and-8-organizations-to-develop-next-generation-high-efficiency-electrical-steel-for-evs/",
-   "kaynak": "worldsteel",
-   "hat": "Elektrik celigi hatti"
-  },
-  {
-   "anahtar": "tech:4becdc9506d593e8",
-   "tarih": "2026-03-26",
-   "baslik": "Daily press | 2026-03-26 Import crisis for grain-oriented electrical steel: thyssenkrupp Electrical Steel extends production cuts at its Isbergues site in France",
-   "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/thyssenkrupp-electrical-steel-extends-production-cuts-at-its-isbergues-site-in-france.html",
-   "kaynak": "thyssenkrupp Steel",
-   "hat": "Elektrik celigi hatti"
+   "anahtar": "tech:dbf500463fb21d96",
+   "tarih": "2026-04-16",
+   "baslik": "U. S. Steel Announces Plans to Restart Gary Tin Mill",
+   "url": "https://www.ussteel.com:443/media/newsroom/-/blogs/u-s-steel-announces-plans-to-restart-gary-tin-mill?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fwww.ussteel.com%3A443%2Fmedia%2Fnewsroom%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26_com_liferay_blogs_web_portlet_BlogsPortlet_cur%3D1%26_com_liferay_blogs_web_portlet_BlogsPortlet_delta%3D20",
+   "kaynak": "U.S. Steel",
+   "hat": "Teneke hatti (ETL)"
   }
  ]
 }

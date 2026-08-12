@@ -172,6 +172,12 @@
   },
   {
    "sebep": "kapsam_disi",
+   "baslik": "Renewable Power & Energy Storage",
+   "url": "https://energy.johncockerill.com/en/power-and-storage/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
    "baslik": "Hydrogen Refueling Stations",
    "url": "https://hydrogen.johncockerill.com/en/products/hydrogen-refueling-stations/",
    "ek": "haber degil (menu/e-posta/kisa)"
@@ -223,12 +229,6 @@
    "baslik": "Heat Recovery Steam Generators & Boilers",
    "url": "https://energy.johncockerill.com/en/boilers-and-heat-recovery-steam-generators/",
    "ek": "2019-05-13"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Renewable Power & Energy Storage",
-   "url": "https://energy.johncockerill.com/en/power-and-storage/",
-   "ek": "2024-07-16"
   },
   {
    "sebep": "pencere_disi",
@@ -555,22 +555,22 @@
    "ek": "kapsam_disi"
   },
   {
-   "sebep": "kapsam_disi",
+   "sebep": "pencere_disi",
    "baslik": "Award | Fives Landis Won the “Ringier Technology Innovation Award” for Its Advanced CBN Grinding Machine",
    "url": "https://www.fivesgroup.com/newspress/detail-view/award-fives-landis-won-the-ringier-technology-innovation-award-for-its-advanced-cbn-grinding-machine",
-   "ek": "kapsam_disi"
+   "ek": "2026-08-04"
   },
   {
-   "sebep": "kapsam_disi",
+   "sebep": "pencere_disi",
    "baslik": "Fives Officially Joins China Internal Combustion Engine Industry Association (CICEIA)",
    "url": "https://www.fivesgroup.com/newspress/detail-view/fives-officially-joins-china-internal-combustion-engine-industry-association-ciceia",
-   "ek": "kapsam_disi"
+   "ek": "2026-07-30"
   },
   {
-   "sebep": "kapsam_disi",
+   "sebep": "pencere_disi",
    "baslik": "Upgrading reheating furnace control in India",
    "url": "https://www.fivesgroup.com/newspress/detail-view/upgrading-reheating-furnace-control-in-india",
-   "ek": "kapsam_disi"
+   "ek": "2026-07-24"
   },
   {
    "sebep": "pencere_disi",
@@ -1269,22 +1269,22 @@
    "ek": "kapsam_disi"
   },
   {
-   "sebep": "kapsam_disi",
+   "sebep": "pencere_disi",
    "baslik": "SECO/WARWICK Vacuum Furnace for the Aerospace Business Unit of the Godrej Enterprises Group",
    "url": "https://www.secowarwick.com/en/news/vacuum-furnace-for-the-aerospace-business-unit/",
-   "ek": "kapsam_disi"
+   "ek": "2026-07-29"
   },
   {
-   "sebep": "kapsam_disi",
+   "sebep": "pencere_disi",
    "baslik": "Extraordinary general meeting of shareholders",
    "url": "https://www.secowarwick.com/en/news/extraordinary-general-meeting_of_shareholders/",
-   "ek": "kapsam_disi"
+   "ek": "2026-07-27"
   },
   {
-   "sebep": "kapsam_disi",
+   "sebep": "pencere_disi",
    "baslik": "A new heat treat facility in the Czech Republic powered by SECO/WARWICK solutions",
    "url": "https://www.secowarwick.com/en/news/a-new-heat-treat-facility-in-the-czech-republic/",
-   "ek": "kapsam_disi"
+   "ek": "2026-07-22"
   },
   {
    "sebep": "pencere_disi",
@@ -1387,6 +1387,66 @@
    "baslik": "Manufacturing Capabilities",
    "url": "https://tmeic.com/manufacturing-capabilities/",
    "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Experience Report: How SDI Butler enhances quality control in hot rolling mill through the implementation of surcon’s 2D surface inspection system, reducing customer complaints and",
+   "url": "https://www.ims-gmbh.de/en/2025/08/29/experience-report-how-sdi-butler-enhances-quality-control-in-hot-rolling-mill-through-the-implementation-of-surcons-2d-surface-inspection-system-reducing-customer-complaints-and-boosting-ef/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "IMS Messsysteme GmbH is committed to Germany as a business location",
+   "url": "https://www.ims-gmbh.de/en/2025/08/04/ims-messsysteme-gmbh-is-committed-to-germany-as-a-business-location/",
+   "ek": "on eleme: 2025-08-04"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Measuring strip flatness using electromagnetic deflection: IMS makes new system ready for series production",
+   "url": "https://www.ims-gmbh.de/en/2025/06/23/measuring-strip-flatness-using-electromagnetic-deflection-ims-makes-new-system-ready-for-series-production/",
+   "ek": "on eleme: 2025-06-23"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "XR SMC multichannel thickness profile measuring system with integrated surcon 2D surface inspection system sets new standards in steel hot mills",
+   "url": "https://www.ims-gmbh.de/en/2025/04/14/xr-smc-multichannel-thickness-profile-measuring-system-with-integrated-surcon-2d-surface-inspection-system-sets-new-standards-in-steel-hot-mills/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "First Combined surcon 2D and 3D Surface Inspection System for Pickling Lines",
+   "url": "https://www.ims-gmbh.de/en/2024/11/27/first-combined-surcon-2d-and-3d-surface-inspection-system-for-pickling-lines/",
+   "ek": "on eleme: 2024-11-27"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "IMS Strip Edge Profile Measuring System EDGE DROP",
+   "url": "https://www.ims-gmbh.de/en/2024/11/13/ims-strip-edge-profile-measuring-system-edge-drop/",
+   "ek": "on eleme: 2024-11-13"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Low-maintenance radar width measuring system enables a significant improvement in width performance in hot mills",
+   "url": "https://www.ims-gmbh.de/en/2023/12/12/low-maintenance-radar-width-measuring-system-enables-a-significant-improvement-in-width-performance-in-hot-mills/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Online inspection system IDS for reliable detection of internal inclusions, shell defects and optically undetectable surface defects revolutionises quality assurance of tin plate a",
+   "url": "https://www.ims-gmbh.de/en/2023/06/07/online-inspection-system-ids-for-detection-of-surface-defects/",
+   "ek": "on eleme: 2023-06-07"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "First Combined surcon 2D and 3D Surface Inspection in a Pickling Line Starts Work",
+   "url": "https://www.ims-gmbh.de/en/2023/04/12/first-combined-surcon-2d-and-3d-surface-inspection-in-a-pickling-line-starts-work/",
+   "ek": "on eleme: 2023-04-12"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "IMS Messsysteme GmbH and SECOPTA analytics GmbH combine their expertise",
+   "url": "https://www.ims-gmbh.de/en/2026/07/06/ims-messsysteme-gmbh-andsecopta-analytics-gmbh-combine-their-expertise/",
+   "ek": "2026-07-06"
   },
   {
    "sebep": "kapsam_disi",
@@ -3541,66 +3601,6 @@
    "baslik": "JFE Steel’s Social Contributions",
    "url": "https://www.jfe-steel.co.jp/en/company/csr.html",
    "ek": "haber degil (menu/e-posta/kisa)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "About JFE’s GX Steel “JGreeX™”",
-   "url": "https://www.jfe-steel.co.jp/en/products/jgreex/index.html",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Need help solving a problem?",
-   "url": "https://www.jfe-steel.co.jp/en/products/solution/total-s/index.html",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Search by Technical Problem",
-   "url": "https://www.jfe-steel.co.jp/en/products/solution/cat_index.html",
-   "ek": "haber degil (menu/e-posta/kisa)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Search by Multi-use technologies",
-   "url": "https://www.jfe-steel.co.jp/en/products/solution/general-purpose.html",
-   "ek": "haber degil (menu/e-posta/kisa)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Search by Steel Technology",
-   "url": "https://www.jfe-steel.co.jp/en/products/solution/index.html",
-   "ek": "haber degil (menu/e-posta/kisa)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Privacy Notice for Business partner",
-   "url": "https://www.jfe-steel.co.jp/en/privacy_notice.html",
-   "ek": "haber degil (menu/e-posta/kisa)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Management & Supervisory Board",
-   "url": "https://www.voestalpine.com/group/en/group/overview/management/",
-   "ek": "haber degil (menu/e-posta/kisa)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Organizational chart & divisions",
-   "url": "https://www.voestalpine.com/group/en/group/overview/organizational-chart/",
-   "ek": "haber degil (menu/e-posta/kisa)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Online Sustainability Report",
-   "url": "https://www.voestalpine.com/group/en/group/sustainability/online-sustainability-report",
-   "ek": "haber degil (menu/e-posta/kisa)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Corporate Governance test eyeable translation",
-   "url": "https://www.voestalpine.com/group/en/group/sustainability/test-eye-able-translation/",
-   "ek": "kapsam kapisi (baslik)"
   }
  ]
 }

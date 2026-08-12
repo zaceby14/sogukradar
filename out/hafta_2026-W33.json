@@ -1,138 +1,57 @@
 {
  "rows": [
   {
-   "tarih": "2026-08-06",
-   "firma": "Thyssenkrupp Rasselstein",
-   "ulke": "",
-   "hat": "Teneke hatti (ETL)",
-   "asama": "Sozlesme",
+   "tarih": "2026-08-07",
+   "firma": "",
+   "ulke": "Ispanya",
+   "hat": "Belirsiz",
+   "asama": "Belirsiz",
    "tedarikci": "",
    "kapasite": "",
    "tutar": "",
-   "baslik": "Thyssenkrupp Rasselstein signs green energy deal for Andernach tinplate mill",
-   "kaynak": "The Canmaker",
-   "kaynak_id": "canmaker",
-   "url": "https://canmaker.com/thyssenkrupp-signs-green-energy-deal-for-andernach-site/?utm_source=rss&utm_medium=rss&utm_campaign=thyssenkrupp-signs-green-energy-deal-for-andernach-site",
-   "tarih_kaynagi": "json-ld",
-   "eksik": [
-    "ulke"
-   ],
-   "anahtar": "d406efe050fec804",
-   "puan": 52.0
-  },
-  {
-   "tarih": "2026-08-11",
-   "firma": "Primetals Technologies",
-   "ulke": "G. Kore",
-   "hat": "Soguk hadde",
-   "asama": "Modernizasyon",
-   "tedarikci": "Primetals",
-   "kapasite": "",
-   "tutar": "EUR 47.71",
-   "baslik": "Primetals Technologies to modernize KG Steel’s cold rolling mill in South Korea",
-   "kaynak": "Steel Radar",
-   "kaynak_id": "steelradar",
-   "url": "https://www.steelradar.com/en/haber/primetals-technologies-to-modernize-kg-steels-cold-rolling-mill-in-south-korea/",
+   "baslik": "İspanya, Hydnum Steel’in Yeşil Çelik Tesisine 150 Milyon Euro Destek Sağlayacak",
+   "kaynak": "SteelTurk",
+   "kaynak_id": "steelturk",
+   "url": "https://www.steelturk.com.tr/ispanya-hydnum-steelin-yesil-celik-tesisine-150-milyon-euro-destek-saglayacak/",
    "tarih_kaynagi": "metin",
    "eksik": [
+    "firma",
+    "hat",
+    "asama",
     "tarih?"
    ],
-   "anahtar": "12ff956ae6e28c09",
-   "puan": 52.0
+   "anahtar": "2b4150031b0ef2d5",
+   "puan": 18.0
   }
  ],
  "stats": {
-  "kaynak": 72,
-  "erisilemeyen": 23,
-  "ham": 1297,
-  "on_eleme_gecti": 126,
-  "makale_acildi": 124,
-  "tarihsiz_elendi": 58,
-  "pencere_disi": 117,
-  "kapsam_disi": 1116,
+  "kaynak": 63,
+  "erisilemeyen": 6,
+  "ham": 1432,
+  "on_eleme_gecti": 149,
+  "makale_acildi": 147,
+  "tarihsiz_elendi": 61,
+  "pencere_disi": 150,
+  "kapsam_disi": 1216,
   "tekrar": 4,
-  "kabul": 2
+  "kabul": 1
  },
  "unreachable": [
   [
-   "SMS group",
-   "HTTP 403"
-  ],
-  [
    "Cognex",
    "HTTP 429"
-  ],
-  [
-   "Heinrich GEORG",
-   "HTTP 403"
-  ],
-  [
-   "BWG Maschinenbau",
-   "HTTP 403"
-  ],
-  [
-   "IMS Messsysteme",
-   "HTTP 404"
-  ],
-  [
-   "Duma-Bandzink",
-   "HTTP 403"
-  ],
-  [
-   "Red Bud Industries",
-   "HTTP 403"
-  ],
-  [
-   "Herr-Voss Stamco",
-   "URLError: <urlopen error [Errno 111] Connection refused>"
-  ],
-  [
-   "Sistem Teknik",
-   "HTTP 404"
   ],
   [
    "ArcelorMittal",
    "HTTP 403"
   ],
   [
-   "JSW Steel",
-   "HTTP 404"
-  ],
-  [
-   "Salzgitter AG",
-   "HTTP 404"
-  ],
-  [
-   "U.S. Steel",
-   "HTTP 404"
-  ],
-  [
-   "Hyundai Steel",
-   "HTTP 404"
-  ],
-  [
-   "Erdemir",
-   "HTTP 404"
-  ],
-  [
-   "Tosyali Holding",
-   "HTTP 404"
-  ],
-  [
-   "Borcelik",
-   "HTTP 404"
-  ],
-  [
-   "MMK Metalurji",
-   "URLError: <urlopen error [Errno -2] Name or service not known>"
-  ],
-  [
    "Steel Times International",
    "HTTP 403"
   ],
   [
-   "SMM (Shanghai Metals)",
-   "HTTP 404"
+   "The Canmaker",
+   "URLError: <urlopen error timed out>"
   ],
   [
    "BigMint (SteelMint)",
@@ -141,10 +60,6 @@
   [
    "MetalMiner",
    "HTTP 403"
-  ],
-  [
-   "TCUD",
-   "HTTP 404"
   ]
  ],
  "kinds": {
@@ -168,18 +83,12 @@
   "delta": "oem",
   "mino": "oem",
   "secowarwick": "oem",
-  "georg": "oem",
   "tmeic": "oem",
-  "bwg": "oem",
   "ims": "oem",
   "emg": "oem",
-  "dumabandzink": "oem",
   "ottojunker": "oem",
   "braner": "oem",
-  "redbud": "oem",
-  "herrvoss": "oem",
   "waterbury": "oem",
-  "sistemteknik": "oem",
   "arcelormittal": "uretici",
   "tksteel": "uretici",
   "tatasteel": "uretici",
@@ -194,11 +103,8 @@
   "cliffs": "uretici",
   "nucor": "uretici",
   "baowu": "uretici",
-  "hyundaisteel": "uretici",
   "erdemir": "uretici",
   "tosyali": "uretici",
-  "borcelik": "uretici",
-  "mmkturkey": "uretici",
   "steeltimesint": "dergi",
   "steelturk": "dergi",
   "steelradar": "dergi",
@@ -221,30 +127,26 @@
   "eurofer": "kurum",
   "tcud": "kurum"
  },
- "today": "2026-08-11",
+ "today": "2026-08-12",
  "tech_pool": [
   {
-   "anahtar": "tech:c1e20af1f2d7d31b",
-   "tarih": "2026-06-15",
-   "baslik": "POSCO Partners with Hyundai Motor and 8 Organizations to Develop Next-Generation High-Efficiency Electrical Steel for EVs",
-   "url": "https://worldsteel.org/media/industry-member-news/2026-member-news/posco-partners-with-hyundai-motor-and-8-organizations-to-develop-next-generation-high-efficiency-electrical-steel-for-evs/",
-   "kaynak": "worldsteel",
-   "hat": "Elektrik celigi hatti"
-  },
-  {
-   "anahtar": "tech:4becdc9506d593e8",
-   "tarih": "2026-03-26",
-   "baslik": "Daily press | 2026-03-26 Import crisis for grain-oriented electrical steel: thyssenkrupp Electrical Steel extends production cuts at its Isbergues site in France",
-   "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/thyssenkrupp-electrical-steel-extends-production-cuts-at-its-isbergues-site-in-france.html",
-   "kaynak": "thyssenkrupp Steel",
-   "hat": "Elektrik celigi hatti"
+   "anahtar": "tech:dbf500463fb21d96",
+   "tarih": "2026-04-16",
+   "baslik": "U. S. Steel Announces Plans to Restart Gary Tin Mill",
+   "url": "https://www.ussteel.com:443/media/newsroom/-/blogs/u-s-steel-announces-plans-to-restart-gary-tin-mill?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fwww.ussteel.com%3A443%2Fmedia%2Fnewsroom%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26_com_liferay_blogs_web_portlet_BlogsPortlet_cur%3D1%26_com_liferay_blogs_web_portlet_BlogsPortlet_delta%3D20",
+   "kaynak": "U.S. Steel",
+   "hat": "Teneke hatti (ETL)"
   }
  ],
+ "watch": [],
+ "kaynak_katki": {
+  "SteelTurk": 1
+ },
  "window": [
-  "2026-07-21",
-  "2026-08-11"
+  "2026-08-05",
+  "2026-08-12"
  ],
  "period": "2026-W33",
- "generated": "2026-08-11 18:43 UTC",
+ "generated": "2026-08-12 05:28 UTC",
  "version": "3.0.0"
 }

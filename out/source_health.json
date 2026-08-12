@@ -178,13 +178,6 @@
   "baglanti": 15,
   "besleme_bulundu": []
  },
- "georg": {
-  "publisher": "Heinrich GEORG",
-  "url": "https://georg.com/en/news",
-  "kind": "oem",
-  "durum": "erisilemedi",
-  "hata": "HTTP 403"
- },
  "tmeic": {
   "publisher": "TMEIC",
   "url": "https://www.tmeic.com/news",
@@ -193,19 +186,16 @@
   "baglanti": 16,
   "besleme_bulundu": []
  },
- "bwg": {
-  "publisher": "BWG Maschinenbau",
-  "url": "https://www.bwg-online.de/en/news",
-  "kind": "oem",
-  "durum": "erisilemedi",
-  "hata": "HTTP 403"
- },
  "ims": {
   "publisher": "IMS Messsysteme",
-  "url": "https://www.ims-gmbh.de/en/news",
+  "url": "https://www.ims-gmbh.de/en/press-section/",
   "kind": "oem",
-  "durum": "erisilemedi",
-  "hata": "HTTP 404"
+  "durum": "html",
+  "baglanti": 27,
+  "besleme_bulundu": [
+   "https://www.ims-gmbh.de/en/feed/",
+   "https://www.ims-gmbh.de/en/comments/feed/"
+  ]
  },
  "emg": {
   "publisher": "EMG Automation",
@@ -214,13 +204,6 @@
   "durum": "html",
   "baglanti": 33,
   "besleme_bulundu": []
- },
- "dumabandzink": {
-  "publisher": "Duma-Bandzink",
-  "url": "https://www.duma-bandzink.com/en/news",
-  "kind": "oem",
-  "durum": "erisilemedi",
-  "hata": "HTTP 403"
  },
  "ottojunker": {
   "publisher": "Otto Junker",
@@ -238,20 +221,6 @@
   "baglanti": 13,
   "besleme_bulundu": []
  },
- "redbud": {
-  "publisher": "Red Bud Industries",
-  "url": "https://www.redbudindustries.com/news/",
-  "kind": "oem",
-  "durum": "erisilemedi",
-  "hata": "HTTP 403"
- },
- "herrvoss": {
-  "publisher": "Herr-Voss Stamco",
-  "url": "https://www.herrvoss.com/news/",
-  "kind": "oem",
-  "durum": "erisilemedi",
-  "hata": "URLError: <urlopen error [Errno 111] Connection refused>"
- },
  "waterbury": {
   "publisher": "Waterbury Farrel",
   "url": "https://www.waterburyfarrel.com/news",
@@ -260,16 +229,9 @@
   "baglanti": 13,
   "besleme_bulundu": []
  },
- "sistemteknik": {
-  "publisher": "Sistem Teknik",
-  "url": "https://www.sistemteknik.com/en/news",
-  "kind": "oem",
-  "durum": "erisilemedi",
-  "hata": "HTTP 404"
- },
  "arcelormittal": {
   "publisher": "ArcelorMittal",
-  "url": "https://corporate.arcelormittal.com/media/press-releases",
+  "url": "https://corporate.arcelormittal.com/media/press-releases/",
   "kind": "uretici",
   "durum": "erisilemedi",
   "hata": "HTTP 403"
@@ -316,10 +278,11 @@
  },
  "jsw": {
   "publisher": "JSW Steel",
-  "url": "https://www.jswsteel.in/media/press-releases",
+  "url": "https://www.jswsteel.in/investors/corporate-announcement-and-press-release/",
   "kind": "uretici",
-  "durum": "erisilemedi",
-  "hata": "HTTP 404"
+  "durum": "html",
+  "baglanti": 12,
+  "besleme_bulundu": []
  },
  "voestalpine": {
   "publisher": "voestalpine",
@@ -331,10 +294,11 @@
  },
  "salzgitter": {
   "publisher": "Salzgitter AG",
-  "url": "https://www.salzgitter-ag.com/en/media/press-releases.html",
+  "url": "https://www.salzgitter-ag.com/en/newsroom/press-releases.html",
   "kind": "uretici",
-  "durum": "erisilemedi",
-  "hata": "HTTP 404"
+  "durum": "html",
+  "baglanti": 17,
+  "besleme_bulundu": []
  },
  "ssab": {
   "publisher": "SSAB",
@@ -346,10 +310,11 @@
  },
  "ussteel": {
   "publisher": "U.S. Steel",
-  "url": "https://www.ussteel.com/press-releases",
+  "url": "https://www.ussteel.com/media/newsroom",
   "kind": "uretici",
-  "durum": "erisilemedi",
-  "hata": "HTTP 404"
+  "durum": "html",
+  "baglanti": 31,
+  "besleme_bulundu": []
  },
  "cliffs": {
   "publisher": "Cleveland-Cliffs",
@@ -377,40 +342,21 @@
   "baglanti": 0,
   "besleme_bulundu": []
  },
- "hyundaisteel": {
-  "publisher": "Hyundai Steel",
-  "url": "https://www.hyundai-steel.com/en/pr/news.hds",
-  "kind": "uretici",
-  "durum": "erisilemedi",
-  "hata": "HTTP 404"
- },
  "erdemir": {
   "publisher": "Erdemir",
-  "url": "https://www.erdemir.com.tr/kurumsal-iletisim/haberler/",
+  "url": "https://www.erdemir.com.tr/en/corporate/media/press-release",
   "kind": "uretici",
-  "durum": "erisilemedi",
-  "hata": "HTTP 404"
+  "durum": "html",
+  "baglanti": 23,
+  "besleme_bulundu": []
  },
  "tosyali": {
   "publisher": "Tosyali Holding",
-  "url": "https://www.tosyaliholding.com.tr/tr/medya/haberler",
+  "url": "https://www.tosyaliholding.com.tr/en/media-central/press-releases",
   "kind": "uretici",
-  "durum": "erisilemedi",
-  "hata": "HTTP 404"
- },
- "borcelik": {
-  "publisher": "Borcelik",
-  "url": "https://www.borcelik.com/tr/haberler",
-  "kind": "uretici",
-  "durum": "erisilemedi",
-  "hata": "HTTP 404"
- },
- "mmkturkey": {
-  "publisher": "MMK Metalurji",
-  "url": "https://www.mmkmetalurji.com.tr/haberler",
-  "kind": "uretici",
-  "durum": "erisilemedi",
-  "hata": "URLError: <urlopen error [Errno -2] Name or service not known>"
+  "durum": "html",
+  "baglanti": 14,
+  "besleme_bulundu": []
  },
  "steeltimesint": {
   "publisher": "Steel Times International",
@@ -431,9 +377,8 @@
   "publisher": "Steel Radar",
   "url": "https://www.steelradar.com/en/",
   "kind": "dergi",
-  "durum": "html",
-  "baglanti": 60,
-  "besleme_bulundu": []
+  "durum": "erisilemedi",
+  "hata": "TimeoutError: The read operation timed out"
  },
  "metaldunyasi": {
   "publisher": "Metal Dunyasi",
@@ -465,19 +410,15 @@
   "publisher": "The Canmaker",
   "url": "https://canmaker.com/news/",
   "kind": "dergi",
-  "durum": "html",
-  "baglanti": 13,
-  "besleme_bulundu": [
-   "https://canmaker.com/feed/",
-   "https://canmaker.com/comments/feed/"
-  ]
+  "durum": "erisilemedi",
+  "hata": "URLError: <urlopen error timed out>"
  },
  "kallanish": {
   "publisher": "Kallanish",
   "url": "https://www.kallanish.com/en/news/steel/live",
   "kind": "dergi",
   "durum": "html",
-  "baglanti": 49,
+  "baglanti": 44,
   "besleme_bulundu": []
  },
  "gmk": {
@@ -538,10 +479,11 @@
  },
  "smm": {
   "publisher": "SMM (Shanghai Metals)",
-  "url": "https://news.metal.com/steel",
+  "url": "https://news.metal.com/en/ferrous-metals",
   "kind": "dergi",
-  "durum": "erisilemedi",
-  "hata": "HTTP 404"
+  "durum": "html",
+  "baglanti": 35,
+  "besleme_bulundu": []
  },
  "bigmint": {
   "publisher": "BigMint (SteelMint)",
@@ -552,7 +494,7 @@
  },
  "metalminer": {
   "publisher": "MetalMiner",
-  "url": "https://agmetalminer.com/",
+  "url": "https://agmetalminer.com/articles/",
   "kind": "dergi",
   "durum": "erisilemedi",
   "hata": "HTTP 403"
@@ -583,9 +525,10 @@
  },
  "tcud": {
   "publisher": "TCUD",
-  "url": "https://celik.org.tr/haberler/",
+  "url": "https://celik.org.tr/tr/bilgi-merkezi/basin-bulteni",
   "kind": "kurum",
-  "durum": "erisilemedi",
-  "hata": "HTTP 404"
+  "durum": "html",
+  "baglanti": 8,
+  "besleme_bulundu": []
  }
 }
