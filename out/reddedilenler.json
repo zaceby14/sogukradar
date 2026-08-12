@@ -2332,6 +2332,12 @@
   },
   {
    "sebep": "kapsam_disi",
+   "baslik": "Daily press | 2026-03-26 Import crisis for grain-oriented electrical steel: thyssenkrupp Electrical Steel extends production cuts at its Isbergues site in France",
+   "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/thyssenkrupp-electrical-steel-extends-production-cuts-at-its-isbergues-site-in-france.html",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
    "baslik": "Daily press , Trade press",
    "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/coiltech-augsburg-2026-thyssenkrupp-steel-presents-innovative-applications-and-new-electrical-steel-grades-for-electromobility-and-energy-efficiency.html",
    "ek": "kapsam kapisi (baslik)"
@@ -2385,10 +2391,10 @@
    "ek": "sert red (baslik)"
   },
   {
-   "sebep": "pencere_disi",
+   "sebep": "kapsam_disi",
    "baslik": "Daily press | 2025-12-11 thyssenkrupp Electrical Steel: Temporary plant shutdowns in Germany and France in face of high import pressure and a tense market environment",
    "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/thyssenkrupp-electrical-steel-temporary-plant-shutdowns-in-germany-and-france-in-face-of-high-import-pressure-and-a-tense-market-environment.html",
-   "ek": "on eleme: 2025-12-11"
+   "ek": "sert red (baslik)"
   },
   {
    "sebep": "kapsam_disi",
@@ -2683,12 +2689,6 @@
    "baslik": "Electrical Steel - the employer",
    "url": "https://www.thyssenkrupp-steel.com/en/company/business-units/electrical-steel/electrical-steel-the-employer/electrical-steel-als-arbeitgeber.html",
    "ek": ""
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Daily press | 2026-03-26 Import crisis for grain-oriented electrical steel: thyssenkrupp Electrical Steel extends production cuts at its Isbergues site in France",
-   "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/thyssenkrupp-electrical-steel-extends-production-cuts-at-its-isbergues-site-in-france.html",
-   "ek": "2026-03-26"
   },
   {
    "sebep": "kapsam_disi",

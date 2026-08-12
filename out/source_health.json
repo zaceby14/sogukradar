@@ -507,8 +507,9 @@
   "publisher": "worldsteel",
   "url": "https://worldsteel.org/media/press-releases/",
   "kind": "kurum",
-  "durum": "erisilemedi",
-  "hata": "HTTP 503"
+  "durum": "bos_liste",
+  "baglanti": 0,
+  "besleme_bulundu": []
  },
  "aist": {
   "publisher": "AIST",

@@ -1,4 +1,5 @@
 {
+ "events": {},
  "periods": [
   {
    "donem": "2026-08 (aylik, v2.0)",
@@ -107,6 +108,23 @@
     "tekrar": 7
    },
    "uretim": "2026-08-12 05:52 UTC"
+  },
+  {
+   "donem": "2026-W33",
+   "satir": 0,
+   "stats": {
+    "erisilemeyen": 7,
+    "ham": 1487,
+    "kabul": 0,
+    "kapsam_disi": 1265,
+    "kaynak": 76,
+    "makale_acildi": 146,
+    "on_eleme_gecti": 160,
+    "pencere_disi": 152,
+    "tarihsiz_elendi": 61,
+    "tekrar": 9
+   },
+   "uretim": "2026-08-12 06:32 UTC"
   }
  ],
  "seen": {
