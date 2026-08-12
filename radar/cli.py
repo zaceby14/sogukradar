@@ -48,6 +48,18 @@ def cmd_discover(a):
 def cmd_run(a):
     today = dt.date.fromisoformat(a.today) if a.today else dt.date.today()
     per = _period(today)
+
+    # KALIBRASYON MODU: repo kokunde "KALIBRASYON" adli bir dosya varsa
+    # hafiza (seen/events/tech_seen) o kosu icin sifirlanir - daha once
+    # cikan haber ve teknolojiler yeniden kullanilabilir. Sistem oturunca
+    # dosya silinir, tekrar engeli kendiliginden geri gelir.
+    from .config import ROOT
+    if os.path.exists(os.path.join(ROOT, "KALIBRASYON")):
+        st0 = state.load()
+        st0["seen"], st0["events"], st0["tech_seen"] = {}, {}, {}
+        state.save(st0)
+        print("*** KALIBRASYON MODU: hafiza sifirlandi, tekrar engeli kapali ***")
+
     payload = collect.collect(today=today)
     rows = score.rank(payload["rows"], payload["kinds"], today)
     payload["rows"] = rows[:max(TARGET_ROWS, 0)] if a.limit else rows
