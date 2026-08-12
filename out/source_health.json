@@ -377,8 +377,9 @@
   "publisher": "Steel Radar",
   "url": "https://www.steelradar.com/en/",
   "kind": "dergi",
-  "durum": "erisilemedi",
-  "hata": "TimeoutError: The read operation timed out"
+  "durum": "html",
+  "baglanti": 60,
+  "besleme_bulundu": []
  },
  "metaldunyasi": {
   "publisher": "Metal Dunyasi",
@@ -410,8 +411,12 @@
   "publisher": "The Canmaker",
   "url": "https://canmaker.com/news/",
   "kind": "dergi",
-  "durum": "erisilemedi",
-  "hata": "URLError: <urlopen error timed out>"
+  "durum": "html",
+  "baglanti": 13,
+  "besleme_bulundu": [
+   "https://canmaker.com/feed/",
+   "https://canmaker.com/comments/feed/"
+  ]
  },
  "kallanish": {
   "publisher": "Kallanish",
@@ -443,9 +448,8 @@
   "publisher": "SteelGuru",
   "url": "https://www.steelguru.com/",
   "kind": "dergi",
-  "durum": "bos_liste",
-  "baglanti": 0,
-  "besleme_bulundu": []
+  "durum": "erisilemedi",
+  "hata": "URLError: <urlopen error timed out>"
  },
  "magnetics": {
   "publisher": "Magnetics Magazine",
@@ -503,9 +507,8 @@
   "publisher": "worldsteel",
   "url": "https://worldsteel.org/media/press-releases/",
   "kind": "kurum",
-  "durum": "bos_liste",
-  "baglanti": 0,
-  "besleme_bulundu": []
+  "durum": "erisilemedi",
+  "hata": "HTTP 503"
  },
  "aist": {
   "publisher": "AIST",
@@ -530,5 +533,96 @@
   "durum": "html",
   "baglanti": 8,
   "besleme_bulundu": []
+ },
+ "gnews_en0": {
+  "publisher": "Google News",
+  "url": "https://news.google.com/rss/search?q=%22cold%20rolling%20mill%22%20when%3A14d&hl=en-US&gl=US&ceid=US:en",
+  "kind": "arama",
+  "durum": "besleme",
+  "baglanti": 10
+ },
+ "gnews_en1": {
+  "publisher": "Google News",
+  "url": "https://news.google.com/rss/search?q=%22galvanizing%20line%22%20when%3A14d&hl=en-US&gl=US&ceid=US:en",
+  "kind": "arama",
+  "durum": "besleme",
+  "baglanti": 3
+ },
+ "gnews_en2": {
+  "publisher": "Google News",
+  "url": "https://news.google.com/rss/search?q=%22pickling%20line%22%20when%3A14d&hl=en-US&gl=US&ceid=US:en",
+  "kind": "arama",
+  "durum": "besleme",
+  "baglanti": 4
+ },
+ "gnews_en3": {
+  "publisher": "Google News",
+  "url": "https://news.google.com/rss/search?q=%22annealing%20line%22%20when%3A14d&hl=en-US&gl=US&ceid=US:en",
+  "kind": "arama",
+  "durum": "besleme",
+  "baglanti": 0
+ },
+ "gnews_en4": {
+  "publisher": "Google News",
+  "url": "https://news.google.com/rss/search?q=%22tinplate%22%20mill%20OR%20line%20when%3A14d&hl=en-US&gl=US&ceid=US:en",
+  "kind": "arama",
+  "durum": "besleme",
+  "baglanti": 1
+ },
+ "gnews_en5": {
+  "publisher": "Google News",
+  "url": "https://news.google.com/rss/search?q=%22coil%20coating%22%20line%20when%3A14d&hl=en-US&gl=US&ceid=US:en",
+  "kind": "arama",
+  "durum": "besleme",
+  "baglanti": 0
+ },
+ "gnews_en6": {
+  "publisher": "Google News",
+  "url": "https://news.google.com/rss/search?q=%22electrical%20steel%22%20plant%20OR%20line%20when%3A14d&hl=en-US&gl=US&ceid=US:en",
+  "kind": "arama",
+  "durum": "besleme",
+  "baglanti": 15
+ },
+ "gnews_en7": {
+  "publisher": "Google News",
+  "url": "https://news.google.com/rss/search?q=%22skin%20pass%22%20OR%20%22temper%20mill%22%20when%3A14d&hl=en-US&gl=US&ceid=US:en",
+  "kind": "arama",
+  "durum": "besleme",
+  "baglanti": 0
+ },
+ "gnews_en8": {
+  "publisher": "Google News",
+  "url": "https://news.google.com/rss/search?q=%22cut-to-length%22%20OR%20%22slitting%20line%22%20when%3A14d&hl=en-US&gl=US&ceid=US:en",
+  "kind": "arama",
+  "durum": "besleme",
+  "baglanti": 5
+ },
+ "gnews_en9": {
+  "publisher": "Google News",
+  "url": "https://news.google.com/rss/search?q=%22roll%20shop%22%20OR%20%22roll%20grinding%22%20when%3A14d&hl=en-US&gl=US&ceid=US:en",
+  "kind": "arama",
+  "durum": "besleme",
+  "baglanti": 3
+ },
+ "gnews_tr0": {
+  "publisher": "Google News",
+  "url": "https://news.google.com/rss/search?q=%22so%C4%9Fuk%20haddehane%22%20OR%20%22so%C4%9Fuk%20hadde%22%20when%3A14d&hl=tr&gl=TR&ceid=TR:tr",
+  "kind": "arama",
+  "durum": "besleme",
+  "baglanti": 0
+ },
+ "gnews_tr1": {
+  "publisher": "Google News",
+  "url": "https://news.google.com/rss/search?q=%22galvaniz%20hatt%C4%B1%22%20OR%20%22boyal%C4%B1%20sac%22%20when%3A14d&hl=tr&gl=TR&ceid=TR:tr",
+  "kind": "arama",
+  "durum": "besleme",
+  "baglanti": 1
+ },
+ "gnews_tr2": {
+  "publisher": "Google News",
+  "url": "https://news.google.com/rss/search?q=%22yass%C4%B1%20%C3%A7elik%22%20yat%C4%B1r%C4%B1m%20when%3A14d&hl=tr&gl=TR&ceid=TR:tr",
+  "kind": "arama",
+  "durum": "besleme",
+  "baglanti": 4
  }
 }

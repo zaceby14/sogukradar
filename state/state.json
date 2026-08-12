@@ -90,9 +90,27 @@
     "tekrar": 4
    },
    "uretim": "2026-08-12 05:28 UTC"
+  },
+  {
+   "donem": "2026-W33",
+   "satir": 5,
+   "stats": {
+    "erisilemeyen": 6,
+    "ham": 1488,
+    "kabul": 5,
+    "kapsam_disi": 1260,
+    "kaynak": 76,
+    "makale_acildi": 148,
+    "on_eleme_gecti": 165,
+    "pencere_disi": 155,
+    "tarihsiz_elendi": 61,
+    "tekrar": 7
+   },
+   "uretim": "2026-08-12 05:52 UTC"
   }
  ],
  "seen": {
+  "05ee3ccfafa36b08": "2026-08-11",
   "12ff956ae6e28c09": "2026-08-11",
   "26a882aae8c3cb97": "2026-08-11",
   "27b5ca990931fc28": "2026-08-11",
@@ -101,6 +119,9 @@
   "40703d5cc18ff78c": "2026-08-07",
   "4f5cabfe41debb85": "2026-08-08",
   "5c7a06c5b159131a": "2026-05-20",
+  "7a0be3e7a1b35b52": "2026-08-10",
+  "8152b86ce46bfcb3": "2026-08-05",
+  "88fbd0c6b1f6aac5": "2026-08-11",
   "89a81bc39203a100": "2026-05-20",
   "8ed6e5d999fbd681": "2026-06-12",
   "92a64185885a99ab": "2026-06-05",
@@ -142,6 +163,7 @@
  "source_health": {},
  "tech_seen": {
   "tech:4becdc9506d593e8": "2026-03-26",
+  "tech:5f7eed0b96b0d0c6": "2026-08-02",
   "tech:c1e20af1f2d7d31b": "2026-06-15",
   "tech:dbf500463fb21d96": "2026-04-16"
  },
