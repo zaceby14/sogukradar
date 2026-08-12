@@ -12,6 +12,7 @@ on:
       - "radar/**"
       - "tests/**"
       - ".github/workflows/weekly.yml"
+      - "KALIBRASYON"
   workflow_dispatch:
     inputs:
       today:
