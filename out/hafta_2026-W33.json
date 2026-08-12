@@ -2,46 +2,650 @@
  "rows": [
   {
    "tarih": "2026-08-11",
-   "firma": "KG Steel",
+   "firma": "South Korea",
+   "ulke": "Turkiye",
+   "hat": "Soguk hadde",
+   "asama": "Ilk urun",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "South Korea remains top supplier as Turkey's cold rolled flat steel imports rise slightly in H1 2026",
+   "kaynak": "SteelOrbis",
+   "kaynak_id": "steelorbis",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/south-korea-remains-top-supplier-as-turkeys-cold-rolled-flat-steel-imports-rise-slightly-in-h1-2026-1470164.htm",
+   "tarih_kaynagi": "json-ld",
+   "eksik": [],
+   "anahtar": "204b27c10012cac8",
+   "kategori": "Hat",
+   "olaylar": [
+    "south korea|hat|Soguk hadde|Ilk urun",
+    "south korea|ulke|Turkiye|Ilk urun"
+   ],
+   "puan": 62.6
+  },
+  {
+   "tarih": "2026-08-11",
+   "firma": "Primetals",
    "ulke": "G. Kore",
-   "hat": "Tandem soguk hadde (TCM)",
+   "hat": "Asitleme hatti",
    "asama": "Modernizasyon",
    "tedarikci": "Primetals",
    "kapasite": "",
    "tutar": "",
-   "baslik": "KG Steel Selects Primetals Technologies for PLTCM Revamp",
-   "kaynak": "Primetals Technologies",
-   "kaynak_id": "primetals",
-   "url": "https://www.primetals.com/en/news/kg-steel-selects-primetals-technologies-for-pltcm-modernization-in-dangjin-korea/",
-   "tarih_kaynagi": "metin",
-   "eksik": [
-    "tarih?"
-   ],
-   "anahtar": "27b5ca990931fc28",
+   "baslik": "Primetals to modernise Korean pickling line",
+   "kaynak": "Steel Times International",
+   "kaynak_id": "gq_hat00",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbWRCZVVIdU8wNDh0M0pCTGlsTWl1U2pqSm5ielo4OEpYYWFuenYzZkRQTGphRzF2WDlQT3VCb2dHc015dDh2eXBDNVhEaUdRLTFFanBMMVhQNWZRS2pPYjdEZFduSlR0VTFmODM4cVhVSDdUMExNQWdRSU9MMXhpaTdLaFE?oc=5",
+   "tarih_kaynagi": "rss",
+   "eksik": [],
+   "anahtar": "88fbd0c6b1f6aac5",
+   "kategori": "Hat",
    "olaylar": [
-    "primetals|hat|Tandem soguk hadde (TCM)|Modernizasyon",
+    "primetals|hat|Asitleme hatti|Modernizasyon",
     "primetals|ulke|G. Kore|Modernizasyon"
    ],
-   "puan": 52.6
+   "puan": 49.6
+  },
+  {
+   "tarih": "2026-08-12",
+   "firma": "Primetals Technologies",
+   "ulke": "",
+   "hat": "Soguk hadde",
+   "asama": "Modernizasyon",
+   "tedarikci": "Primetals",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "Primetals Technologies to modernize KG Steel's Dangjin cold mill with AI-driven automation upgrade",
+   "kaynak": "Yieh Corp",
+   "kaynak_id": "yieh",
+   "url": "https://www.yieh.com/en/News/primetals-technologies-to-modernize-kg-steels-dangjin-cold-mill-with-ai-driven-automation-upgrade/161954",
+   "tarih_kaynagi": "metin",
+   "eksik": [
+    "ulke",
+    "tarih?"
+   ],
+   "anahtar": "28459cdd0c32da5c",
+   "kategori": "Hat",
+   "olaylar": [
+    "primetals|hat|Soguk hadde|Modernizasyon"
+   ],
+   "puan": 48.0
+  },
+  {
+   "tarih": "2026-08-11",
+   "firma": "Electrical",
+   "ulke": "",
+   "hat": "Elektrik celigi hatti",
+   "asama": "Teknoloji",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "Electrical steel, non grain oriented",
+   "kaynak": "thyssenkrupp Steel",
+   "kaynak_id": "tksteel",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/electrical-steel/electrical-steel-non-grain-oriented/electrical-steel-non-grain-oriented.html",
+   "tarih_kaynagi": "last-modified",
+   "eksik": [
+    "ulke"
+   ],
+   "anahtar": "786bd66be58ab4a6",
+   "kategori": "Hat",
+   "olaylar": [
+    "electrical|hat|Elektrik celigi hatti|Teknoloji"
+   ],
+   "puan": 42.6
+  },
+  {
+   "tarih": "2026-08-11",
+   "firma": "",
+   "ulke": "",
+   "hat": "Elektrik celigi hatti",
+   "asama": "Teknoloji",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "powercore® traction NGO 025-125Y420",
+   "kaynak": "thyssenkrupp Steel",
+   "kaynak_id": "tksteel",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/electrical-steel/electrical-steel-non-grain-oriented/powercore-traction-for-high-frequencies-and-e-mobility/powercore-traction-ngo-025-125y420/powercore-traction-ngo025-125y420.html",
+   "tarih_kaynagi": "last-modified",
+   "eksik": [
+    "firma",
+    "ulke"
+   ],
+   "anahtar": "4e2eab2b886038c5",
+   "kategori": "Hat",
+   "olaylar": [
+    "|hat|Elektrik celigi hatti|Teknoloji"
+   ],
+   "puan": 42.6
+  },
+  {
+   "tarih": "2026-08-11",
+   "firma": "Hot-dip",
+   "ulke": "",
+   "hat": "Galvaniz hatti (CGL)",
+   "asama": "Teknoloji",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "Hot-dip galvanized narrow strip",
+   "kaynak": "thyssenkrupp Steel",
+   "kaynak_id": "tksteel",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/sheet-coated-products/hot-dip-galvanized-steel-strip/",
+   "tarih_kaynagi": "last-modified",
+   "eksik": [
+    "ulke"
+   ],
+   "anahtar": "4c0824ecce7257aa",
+   "kategori": "Hat",
+   "olaylar": [
+    "hot-dip|hat|Galvaniz hatti (CGL)|Teknoloji"
+   ],
+   "puan": 41.6
+  },
+  {
+   "tarih": "2026-08-12",
+   "firma": "Jindal Stainless",
+   "ulke": "",
+   "hat": "Soguk hadde",
+   "asama": "Belirsiz",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "Rs 40,000 crore",
+   "baslik": "Jindal Stainless plans Rs 40,000 crore investment in new stainless steel production in Maharashtra",
+   "kaynak": "Yieh Corp",
+   "kaynak_id": "yieh",
+   "url": "https://www.yieh.com/en/News/jindal-stainless-plans-rs-40000-crore-investment-in-new-stainless-steel-production-in-maharashtra/161957",
+   "tarih_kaynagi": "metin",
+   "eksik": [
+    "ulke",
+    "asama",
+    "tarih?"
+   ],
+   "anahtar": "c5ac2d1320ae4a31",
+   "kategori": "Hat",
+   "olaylar": [
+    "jindal stainless|hat|Soguk hadde|Belirsiz"
+   ],
+   "puan": 32.0
+  },
+  {
+   "tarih": "2026-08-11",
+   "firma": "Building Materials",
+   "ulke": "",
+   "hat": "Galvaniz hatti (CGL)",
+   "asama": "Belirsiz",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "Galvanized Steel Coil Market for Building Materials to Reach USD",
+   "kaynak": "openPR.com",
+   "kaynak_id": "gq_hat04",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNjBFSUIyY3Iyc1ZSZDNhbkI1dDBTYjc4QkJ2elpScUNGOTEtckxUVTFicnhuc09uNzBlZ3RHQm04Qm84d194WmVmVDI0RVRjV0hWWWlISzR6NnFtLTYtbUdhZFdkUm1ISzRCZ3hZcE1QOTBHdU4zZGtaUWFxZkZ0ZGJPd3I3OGVGTFFwYkNLc0c4bEhrNFlXeHNydmFIM0dpNGc?oc=5",
+   "tarih_kaynagi": "rss",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "anahtar": "d6f17bf48aa4f9a1",
+   "kategori": "Hat",
+   "olaylar": [
+    "building materials|hat|Galvaniz hatti (CGL)|Belirsiz"
+   ],
+   "puan": 29.6
+  },
+  {
+   "tarih": "2026-08-08",
+   "firma": "Cliffs CEO",
+   "ulke": "",
+   "hat": "Elektrik celigi hatti",
+   "asama": "Belirsiz",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "Cliffs CEO says grain-oriented steel essential as Dept. of Energy mulls 2024 transformer ruling",
+   "kaynak": "butlereagle.com",
+   "kaynak_id": "gq_hat08",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQOFVrOVF0MWhDN2lpNUJuYWxNWDNmUnZhZjFmZndsMFZvTTJkU2ZQTkNrQ2Y5UHhzZVNMZUM4Z05mTDM4YzMwUTNjVGRPb1J1ZGROMV9leTJXNElaeGh1bXZZMTV1UzJXaVF6SWUxYXh3QkFXMjJwclBvR2hlRm5la1JnNzQ3enJZU1h6SEJlTnFoMTJzMmxnc1NhUmstS2l4bkk1ZkZlVGlKVXR4UjRWaXpGU0NyNHg5ZWgzejFneDdoaVI5eWU0Yl83SXA?oc=5",
+   "tarih_kaynagi": "rss",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "anahtar": "b44e2d7efe525713",
+   "kategori": "Hat",
+   "olaylar": [
+    "cliffs ceo|hat|Elektrik celigi hatti|Belirsiz"
+   ],
+   "puan": 29.4
+  },
+  {
+   "tarih": "2026-08-06",
+   "firma": "Inductotherm",
+   "ulke": "",
+   "hat": "Galvaniz hatti (CGL)",
+   "asama": "Belirsiz",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "Inductotherm ve Metkom Çelik Döküm’den Osmaniye’de Güçlü İş birliği Ergitme ve döküm teknolojilerinin küresel lideri Inductotherm, Metkom Çelik Döküm’ün Osmaniye Toprakkale’deki yeni tesis…",
+   "kaynak": "Metal Dunyasi",
+   "kaynak_id": "metaldunyasi",
+   "url": "https://metaldunyasi.com.tr/tr/sektorel-haberler/20/demir-elik/2268/inductotherm-ve-metkom-celik-dokum-den-osmaniye-de-guclu-is-birligi.html",
+   "tarih_kaynagi": "metin",
+   "eksik": [
+    "ulke",
+    "asama",
+    "tarih?"
+   ],
+   "anahtar": "35fb78f056ca0c89",
+   "kategori": "Hat",
+   "olaylar": [
+    "inductotherm|hat|Galvaniz hatti (CGL)|Belirsiz"
+   ],
+   "puan": 27.6
+  },
+  {
+   "tarih": "2026-08-06",
+   "firma": "Galvanizing Flux Manufacturing",
+   "ulke": "",
+   "hat": "Galvaniz hatti (CGL)",
+   "asama": "Belirsiz",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "Galvanizing Flux Manufacturing Plant Project Report 2026: Detailed DPR, Cost Analysis, ROI, IRR & Business Plan",
+   "kaynak": "openPR.com",
+   "kaynak_id": "gq_hat04",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQazFxRVNWbGlfcUdpQmhjUE5vNUY3eXJBU3Y5ano1TjlBNHhyRDEySHkwQVdvendERnRyNW1Cc2trM0VmV2xBVjZDXy1ZdU1HQWo2N0Q1RTBDM21hSHhkZTlNb1UwdVd5NFFVR3R4UzNRQkx0c2tFeGhVLV93VWZMQWtjQTVrZkRLV1pLY0lnZEVyVGhCV0JR?oc=5",
+   "tarih_kaynagi": "rss",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "anahtar": "9162dd5d8e7adf6c",
+   "kategori": "Hat",
+   "olaylar": [
+    "galvanizing flux manufacturing|hat|Galvaniz hatti (CGL)|Belirsiz"
+   ],
+   "puan": 27.6
+  },
+  {
+   "tarih": "2026-08-05",
+   "firma": "",
+   "ulke": "Cin",
+   "hat": "Soguk hadde",
+   "asama": "Belirsiz",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "5.Japan slaps provisional AD duties of up to 55% on Chinese, South Korean galvanized steel",
+   "kaynak": "Yieh Corp",
+   "kaynak_id": "yieh",
+   "url": "https://www.yieh.com/en/News/japan-slaps-provisional-ad-duties-of-up-to-55-on-chinese-south-korean-galvanized-steel/161841",
+   "tarih_kaynagi": "metin",
+   "eksik": [
+    "firma",
+    "asama",
+    "tarih?"
+   ],
+   "anahtar": "e531033e32aae2ed",
+   "kategori": "Hat",
+   "olaylar": [
+    "|hat|Soguk hadde|Belirsiz",
+    "|ulke|Cin|Belirsiz"
+   ],
+   "puan": 25.2
+  },
+  {
+   "tarih": "2026-08-12",
+   "firma": "Hindistan",
+   "ulke": "",
+   "hat": "Serit isleme hatti",
+   "asama": "Belirsiz",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "Hindistan, 2030’da 300 Milyon Ton Çelik Kapasitesi Hedefini Sürdürüyor",
+   "kaynak": "SteelTurk",
+   "kaynak_id": "steelturk",
+   "url": "https://www.steelturk.com.tr/hindistan-2030da-300-milyon-ton-celik-kapasitesi-hedefini-surduruyor/",
+   "tarih_kaynagi": "metin",
+   "eksik": [
+    "ulke",
+    "asama",
+    "tarih?"
+   ],
+   "anahtar": "851524a8bc0e3676",
+   "kategori": "Hat",
+   "olaylar": [
+    "hindistan|hat|Serit isleme hatti|Belirsiz"
+   ],
+   "puan": 24.0
+  },
+  {
+   "tarih": "2026-08-11",
+   "firma": "Hoa Phat",
+   "ulke": "",
+   "hat": "Belirsiz",
+   "asama": "Ilk urun",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "$765 million",
+   "baslik": "Hoa Phat plans $765 million expansion of Dung Quat rail steel project",
+   "kaynak": "SteelOrbis",
+   "kaynak_id": "steelorbis",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/hoa-phat-plans-765-million-expansion-of-dung-quat-rail-steel-project-1470232.htm",
+   "tarih_kaynagi": "json-ld",
+   "eksik": [
+    "ulke",
+    "hat"
+   ],
+   "anahtar": "dba539dca8697330",
+   "kategori": "Yatirim",
+   "olaylar": [
+    "hoa phat|hat|Belirsiz|Ilk urun"
+   ],
+   "puan": 22.6
+  },
+  {
+   "tarih": "2026-08-07",
+   "firma": "",
+   "ulke": "Ispanya",
+   "hat": "Serit isleme hatti",
+   "asama": "Belirsiz",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "İspanya, Hydnum Steel’in Yeşil Çelik Tesisine 150 Milyon Euro Destek Sağlayacak",
+   "kaynak": "SteelTurk",
+   "kaynak_id": "steelturk",
+   "url": "https://www.steelturk.com.tr/ispanya-hydnum-steelin-yesil-celik-tesisine-150-milyon-euro-destek-saglayacak/",
+   "tarih_kaynagi": "metin",
+   "eksik": [
+    "firma",
+    "asama",
+    "tarih?"
+   ],
+   "anahtar": "2b4150031b0ef2d5",
+   "kategori": "Hat",
+   "olaylar": [
+    "|hat|Serit isleme hatti|Belirsiz",
+    "|ulke|Ispanya|Belirsiz"
+   ],
+   "puan": 22.0
+  },
+  {
+   "tarih": "2026-08-05",
+   "firma": "Metinvest'in",
+   "ulke": "",
+   "hat": "Serit isleme hatti",
+   "asama": "Belirsiz",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "Metinvest'in 2026 İlk Yarı Çelik Üretimi %13 Arttı",
+   "kaynak": "SteelTurk",
+   "kaynak_id": "steelturk",
+   "url": "https://www.steelturk.com.tr/metinvestin-2026-ilk-yari-celik-uretimi-13-artti/",
+   "tarih_kaynagi": "metin",
+   "eksik": [
+    "ulke",
+    "asama",
+    "tarih?"
+   ],
+   "anahtar": "548e508af3e99653",
+   "kategori": "Hat",
+   "olaylar": [
+    "metinvest'in|hat|Serit isleme hatti|Belirsiz"
+   ],
+   "puan": 21.2
+  },
+  {
+   "tarih": "2026-08-12",
+   "firma": "Pakistan abandons liquidation",
+   "ulke": "Pakistan",
+   "hat": "Belirsiz",
+   "asama": "Ilk urun",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "Pakistan abandons liquidation plan for Pakistan Steel Mills amid investor interest",
+   "kaynak": "SteelOrbis",
+   "kaynak_id": "steelorbis",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/pakistan-abandons-liquidation-plan-for-pakistan-steel-mills-amid-investor-interest-1470445.htm",
+   "tarih_kaynagi": "json-ld",
+   "eksik": [
+    "hat"
+   ],
+   "anahtar": "b304e9dd42fff380",
+   "kategori": "Yatirim",
+   "olaylar": [
+    "pakistan abandons liquidation|hat|Belirsiz|Ilk urun",
+    "pakistan abandons liquidation|ulke|Pakistan|Ilk urun"
+   ],
+   "puan": 19.0
+  },
+  {
+   "tarih": "2026-08-12",
+   "firma": "Baowu Group",
+   "ulke": "Cezayir",
+   "hat": "Belirsiz",
+   "asama": "Ilk urun",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "Baowu Group and SNS eye integrated green steel plant investment in Algeria",
+   "kaynak": "SteelOrbis",
+   "kaynak_id": "steelorbis",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/baowu-group-and-sns-eye-integrated-green-steel-plant-investment-in-algeria-1470426.htm",
+   "tarih_kaynagi": "json-ld",
+   "eksik": [
+    "hat"
+   ],
+   "anahtar": "a13cf1ef115fa16d",
+   "kategori": "Yatirim",
+   "olaylar": [
+    "baowu group|hat|Belirsiz|Ilk urun",
+    "baowu group|ulke|Cezayir|Ilk urun"
+   ],
+   "puan": 19.0
+  },
+  {
+   "tarih": "2026-08-12",
+   "firma": "LMEL",
+   "ulke": "Hindistan",
+   "hat": "Belirsiz",
+   "asama": "Ilk urun",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "India's LMEL to invest in solar and wind power projects to secure clean energy for steelmaking and related operations",
+   "kaynak": "SteelOrbis",
+   "kaynak_id": "steelorbis",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/indias-lmel-to-invest-in-solar-and-wind-power-projects-to-secure-clean-energy-for-steelmaking-and-related-operations-1470350.htm",
+   "tarih_kaynagi": "json-ld",
+   "eksik": [
+    "hat"
+   ],
+   "anahtar": "9883ec60f053eeba",
+   "kategori": "Yatirim",
+   "olaylar": [
+    "lmel|hat|Belirsiz|Ilk urun",
+    "lmel|ulke|Hindistan|Ilk urun"
+   ],
+   "puan": 19.0
+  },
+  {
+   "tarih": "2026-08-06",
+   "firma": "Stuttgart",
+   "ulke": "",
+   "hat": "Dilme / boy kesme / SSC",
+   "asama": "Belirsiz",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "tk accelis announces milestone at Stuttgart steel service center",
+   "kaynak": "EUROMETAL",
+   "kaynak_id": "gq_hat08",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNckRmQVo2MEcyVHJEcVl6U1B4MUR2LVg0R084T2U3ZTRhSGw2NDZtU0tQYnUwN2J0R0lSaHB3cXQ1VGlWbDFrMHpTUkpUckdEMmQ4VnBWNXBzNjNjWmdRLXI0N21NNHl1WFRYNWdQU2JnYWtPRmYxLTVvTWNmcWUzS05fdnMzYktIVEh1bVRNamQ?oc=5",
+   "tarih_kaynagi": "rss",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "anahtar": "1733ff02c2b335cf",
+   "kategori": "Hat",
+   "olaylar": [
+    "stuttgart|hat|Dilme / boy kesme / SSC|Belirsiz"
+   ],
+   "puan": 17.6
+  },
+  {
+   "tarih": "2026-08-10",
+   "firma": "August",
+   "ulke": "Turkiye",
+   "hat": "Belirsiz",
+   "asama": "Teknoloji",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "August 2024 JOINT STEEL INVESTMENT WITH SONANGOL IN ANGOLA BY TOSYALI",
+   "kaynak": "Tosyali Holding",
+   "kaynak_id": "tosyali",
+   "url": "https://www.tosyaliholding.com.tr/en/media-central/press-releases/tosyali-holding/2024/joint-steel-investment-with-sonangol-in-angola-by-tosyali",
+   "tarih_kaynagi": "last-modified",
+   "eksik": [
+    "hat"
+   ],
+   "anahtar": "b7a5f8822965236e",
+   "kategori": "Yatirim",
+   "olaylar": [
+    "august|hat|Belirsiz|Teknoloji",
+    "august|ulke|Turkiye|Teknoloji"
+   ],
+   "puan": 14.2
+  },
+  {
+   "tarih": "2026-08-06",
+   "firma": "SMS Group Strengthens",
+   "ulke": "",
+   "hat": "Belirsiz",
+   "asama": "Belirsiz",
+   "tedarikci": "SMS group",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "SMS Group Strengthens Financial Performance and Accelerates Investment in Sustainable Steel Technologies",
+   "kaynak": "Machine Maker",
+   "kaynak_id": "gq_sup00",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxObUZSaTdJbE9YZ0FzQUx0RG4tMWp6eHdhX2xsMVJLV1JLUDBzemlRYmExTHpGb1pHbGZzMTlzNUxLc2NJVTZ4TWZVSE5ZRWRlZUN5bWY5NmJXZ1Y4M2tNdnNUMkV4MFRoVEppVmJRYl9QVl9nMURTODlCdVh6bGpiaVYzalZYeW4tSWhqRWhvc2JkdFB0TmZZMGtydnEwQzVGZ3lubmQwaWJ5bDhFSDBEYkJJTllfYjU1NGFLbkVBNzBoVUgwaXhEY0hfLVNCMVRaYnA5aQ?oc=5",
+   "tarih_kaynagi": "rss",
+   "eksik": [
+    "ulke",
+    "hat",
+    "asama"
+   ],
+   "anahtar": "ddfa9261461ca9f9",
+   "kategori": "Yatirim",
+   "olaylar": [
+    "sms group|hat|Belirsiz|Belirsiz"
+   ],
+   "puan": -1.4
+  },
+  {
+   "tarih": "2026-08-10",
+   "firma": "Dawit Girma",
+   "ulke": "",
+   "hat": "Belirsiz",
+   "asama": "Belirsiz",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "EUR 47.74",
+   "baslik": "Dawit Girma: Steel demand in East Africa will be supported by major infrastructure investments",
+   "kaynak": "Steel Radar",
+   "kaynak_id": "steelradar",
+   "url": "https://www.steelradar.com/en/haber/dawit-girma-steel-demand-in-east-africa-will-be-supported-by-major-infrastructure-investments/",
+   "tarih_kaynagi": "metin",
+   "eksik": [
+    "ulke",
+    "hat",
+    "asama",
+    "tarih?"
+   ],
+   "anahtar": "044c9f97fca7a385",
+   "kategori": "Yatirim",
+   "olaylar": [
+    "dawit girma|hat|Belirsiz|Belirsiz"
+   ],
+   "puan": -1.8
+  },
+  {
+   "tarih": "2026-08-10",
+   "firma": "Manaksia Steels",
+   "ulke": "Hindistan",
+   "hat": "Belirsiz",
+   "asama": "Belirsiz",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "INR 800 Crore",
+   "baslik": "Manaksia Steels Plans INR 800 Crore Expansion at Haldia",
+   "kaynak": "Tube & Pipe India",
+   "kaynak_id": "gq_urun00",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBYMkxGWFh1WGc5SE16MmFsd052SzZlcmx0WEZjQUotT1IxSEFlMkpXWXdzMFh6emI4aEUybUNMV1MzOGI4N01LaG4yQUxiTjZoeWZqMGx2T1ZaWHU5?oc=5",
+   "tarih_kaynagi": "rss",
+   "eksik": [
+    "hat",
+    "asama"
+   ],
+   "anahtar": "8c6196cc5bbad101",
+   "kategori": "Yatirim",
+   "olaylar": [
+    "manaksia steels|hat|Belirsiz|Belirsiz",
+    "manaksia steels|ulke|Hindistan|Belirsiz"
+   ],
+   "puan": -1.8
+  },
+  {
+   "tarih": "2026-08-12",
+   "firma": "Baowu Group",
+   "ulke": "Cezayir",
+   "hat": "Belirsiz",
+   "asama": "Belirsiz",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "Baowu Group ve SNS Cezayir'de entegre yeşil çelik tesisi yatırımı yapmayı değerlendiriyor",
+   "kaynak": "SteelOrbis",
+   "kaynak_id": "gq_tr06",
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPSl9oZm1leTdXcUZYYUY4c04zeUlsN2hqVlByd2tQS0ZIU1lhTVBqNzFDWGJKRktWWUoxeW5TY0czTVd2OHlxOUZoekFzVGZIS2k2dW1xT19LNURjcU1BcExZeTYxRmNIODg2Z0oxX1J6ck0tbWM2d05BU2gtMDRPRGYxbE0tNUlMV0w1WXdBS1ZPdHM1eUtpNlBOaUYyb29SWTUtUXdIa2tITXBFMmgxQmQ1M0VQQ0RJbnRrWVF0YWxtWXppSXA2U19pVVBlQXBpVEdpeUdJNVRZU29URG83bmljb05kUVNMN1N4dTJpbw?oc=5",
+   "tarih_kaynagi": "rss",
+   "eksik": [
+    "hat",
+    "asama"
+   ],
+   "anahtar": "b8d2235241424bed",
+   "kategori": "Yatirim",
+   "olaylar": [
+    "baowu group|hat|Belirsiz|Belirsiz",
+    "baowu group|ulke|Cezayir|Belirsiz"
+   ],
+   "puan": -5.0
   }
  ],
  "stats": {
-  "kaynak": 81,
-  "erisilemeyen": 6,
-  "ham": 1504,
-  "on_eleme_gecti": 167,
-  "makale_acildi": 147,
-  "tarihsiz_elendi": 61,
-  "pencere_disi": 152,
-  "kapsam_disi": 1277,
-  "tekrar": 13,
-  "kabul": 1
+  "kaynak": 131,
+  "erisilemeyen": 8,
+  "ham": 1960,
+  "on_eleme_gecti": 270,
+  "makale_acildi": 220,
+  "tarihsiz_elendi": 86,
+  "pencere_disi": 200,
+  "kapsam_disi": 1605,
+  "tekrar": 24,
+  "kabul": 25
  },
  "unreachable": [
-  [
-   "SMS group",
-   "HTTP 403"
-  ],
   [
    "Cognex",
    "HTTP 429"
@@ -61,6 +665,18 @@
   [
    "MetalMiner",
    "HTTP 403"
+  ],
+  [
+   "Furnaces International",
+   "HTTP 403"
+  ],
+  [
+   "MetalForming Magazine",
+   "HTTP 404"
+  ],
+  [
+   "Sanayi Gazetesi",
+   "URLError: <urlopen error timed out>"
   ]
  ],
  "kinds": {
@@ -127,24 +743,74 @@
   "aist": "kurum",
   "eurofer": "kurum",
   "tcud": "kurum",
-  "gnews_en0": "arama",
-  "gnews_en1": "arama",
-  "gnews_en2": "arama",
-  "gnews_en3": "arama",
-  "gnews_en4": "arama",
-  "gnews_en5": "arama",
-  "gnews_en6": "arama",
-  "gnews_en7": "arama",
-  "gnews_en8": "arama",
-  "gnews_en9": "arama",
-  "gnews_tr0": "arama",
-  "gnews_tr1": "arama",
-  "gnews_tr2": "arama",
-  "gnews_sup0": "arama",
-  "gnews_sup1": "arama",
-  "gnews_sup2": "arama",
-  "gnews_sup3": "arama",
-  "gnews_sup4": "arama"
+  "furnacesint": "dergi",
+  "heattreat": "dergi",
+  "metalforming": "dergi",
+  "pma": "kurum",
+  "mysteel": "dergi",
+  "metallurgprom": "dergi",
+  "siderweb": "dergi",
+  "alacero": "kurum",
+  "mesteel": "dergi",
+  "japanmetal": "dergi",
+  "wvstahl": "kurum",
+  "steelhome": "dergi",
+  "sanayigazete": "dergi",
+  "cib": "kurum",
+  "metalmakina": "dergi",
+  "aisi": "kurum",
+  "sma": "kurum",
+  "iza": "kurum",
+  "egga": "kurum",
+  "arku": "oem",
+  "bradbury": "oem",
+  "chemetall": "oem",
+  "kocks": "oem",
+  "gq_hat00": "arama",
+  "gq_hat01": "arama",
+  "gq_hat02": "arama",
+  "gq_hat03": "arama",
+  "gq_hat04": "arama",
+  "gq_hat05": "arama",
+  "gq_hat06": "arama",
+  "gq_hat07": "arama",
+  "gq_hat08": "arama",
+  "gq_hat09": "arama",
+  "gq_hat10": "arama",
+  "gq_hat11": "arama",
+  "gq_hat12": "arama",
+  "gq_hat13": "arama",
+  "gq_hat14": "arama",
+  "gq_hat15": "arama",
+  "gq_hat16": "arama",
+  "gq_hat17": "arama",
+  "gq_hat18": "arama",
+  "gq_hat19": "arama",
+  "gq_sup00": "arama",
+  "gq_sup01": "arama",
+  "gq_sup02": "arama",
+  "gq_sup03": "arama",
+  "gq_sup04": "arama",
+  "gq_sup05": "arama",
+  "gq_sup06": "arama",
+  "gq_sup07": "arama",
+  "gq_sup08": "arama",
+  "gq_sup09": "arama",
+  "gq_sup10": "arama",
+  "gq_sup11": "arama",
+  "gq_sup12": "arama",
+  "gq_tr00": "arama",
+  "gq_tr01": "arama",
+  "gq_tr02": "arama",
+  "gq_tr03": "arama",
+  "gq_tr04": "arama",
+  "gq_tr05": "arama",
+  "gq_tr06": "arama",
+  "gq_tr07": "arama",
+  "gq_urun00": "arama",
+  "gq_urun01": "arama",
+  "gq_urun02": "arama",
+  "gq_urun03": "arama"
  },
  "today": "2026-08-12",
  "tech_pool": [
@@ -157,37 +823,21 @@
    "hat": "Elektrik celigi hatti"
   }
  ],
- "watch": [
-  {
-   "anahtar": "851524a8bc0e3676",
-   "tarih": "2026-08-12",
-   "baslik": "Hindistan, 2030’da 300 Milyon Ton Çelik Kapasitesi Hedefini Sürdürüyor",
-   "url": "https://www.steelturk.com.tr/hindistan-2030da-300-milyon-ton-celik-kapasitesi-hedefini-surduruyor/",
-   "kaynak": "SteelTurk"
-  },
-  {
-   "anahtar": "2b4150031b0ef2d5",
-   "tarih": "2026-08-07",
-   "baslik": "İspanya, Hydnum Steel’in Yeşil Çelik Tesisine 150 Milyon Euro Destek Sağlayacak",
-   "url": "https://www.steelturk.com.tr/ispanya-hydnum-steelin-yesil-celik-tesisine-150-milyon-euro-destek-saglayacak/",
-   "kaynak": "SteelTurk"
-  },
-  {
-   "anahtar": "6d17109555cc3680",
-   "tarih": "2026-08-05",
-   "baslik": "Hoa Binh ve Pomina Steel 1,2 milyon mt kapasiteli yassı mamul tesisi genişletme projesinde iş birliği yapacak",
-   "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOSDFNSkkwMGl6TXdqLUhrVC1sU0pCdXZOYVdmbVVfVEdlZnFiT0VTVERCd2dWdnF5dTYxekdlSW1kNy1hZDNiVG1SQXFxd1lrNTRxX3JaV2RlY29mekw4VHVTSGZmU0NXUW9RU0lJcUcyN1pFY2RDb2ZzcUhNV3lSSzFuZEJxcFZ2Rm1Bbm42YjZ0SHFWMC0xU0JKQWdDcndDbUxQWUZFa0JjMzFuZzVkSm1waG9pRmtCSXM4MzVudkEzc2hHWkN1cEx6UHpIeVg3Nnc4OVRQbzlfQ2lYd29nbEpMN1JkZWxubXA5YW1TU09ocUVVLUtRdENDdGJwNUkzQXdHOHI0eGxkZw?oc=5",
-   "kaynak": "Google News"
-  }
- ],
  "kaynak_katki": {
-  "Primetals Technologies": 1
+  "thyssenkrupp Steel": 3,
+  "Tosyali Holding": 1,
+  "SteelTurk": 3,
+  "Steel Radar": 1,
+  "Metal Dunyasi": 1,
+  "SteelOrbis": 5,
+  "Yieh Corp": 3,
+  "Google News": 8
  },
  "window": [
   "2026-08-05",
   "2026-08-12"
  ],
  "period": "2026-W33",
- "generated": "2026-08-12 11:33 UTC",
+ "generated": "2026-08-12 17:45 UTC",
  "version": "3.0.0"
 }
