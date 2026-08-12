@@ -114,8 +114,10 @@ def cmd_run(a):
         st = state.load()
         for r in payload["rows"]:
             st["seen"][r["anahtar"]] = r["tarih"]
-            if r.get("olay"):
-                st["events"][r["olay"]] = r["tarih"]
+            for k in r.get("olaylar", []):
+                st["events"][k] = r["tarih"]
+            st["son_basliklar"].append({"b": r["baslik"], "t": r["tarih"],
+                                        "a": r["asama"]})
         st["periods"] = (st.get("periods") or []) + [{
             "donem": per, "satir": len(payload["rows"]),
             "uretim": payload["generated"], "stats": payload["stats"]}]

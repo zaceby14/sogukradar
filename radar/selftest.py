@@ -129,6 +129,23 @@ def test_w33d_regresyon():
         "Primetals to modernise Korean pickling line"), False, "farkli haberler benzer degil")
 
 
+def test_uclu_kg_senaryosu():
+    from . import collect as col
+    r1 = {"tedarikci": "Primetals", "firma": "KG Steel", "ulke": "G. Kore",
+          "hat": "Tandem soguk hadde (TCM)", "asama": "Modernizasyon"}
+    r2 = {"tedarikci": "Primetals", "firma": "Primetals Technologies",
+          "ulke": "G. Kore", "hat": "Soguk hadde", "asama": "Modernizasyon"}
+    r3 = {"tedarikci": "Primetals", "firma": "Primetals", "ulke": "G. Kore",
+          "hat": "Asitleme hatti", "asama": "Modernizasyon"}
+    k1, k2, k3 = col.event_keys(r1), col.event_keys(r2), col.event_keys(r3)
+    eq(bool(k1 & k2), True, "varyant 2 yakalanmali")
+    eq(bool(k1 & k3), True, "varyant 3 yakalanmali")
+    eq(taxonomy.similar_titles(
+        "KG Steel Selects Primetals Technologies for PLTCM Revamp",
+        "Primetals to modernise Korean pickling line"), True,
+       "KG varyantlari baslik benzeri")
+
+
 def test_compose_ve_mail():
     from . import compose, render
     rows = [
@@ -287,7 +304,8 @@ def run():
     for fn in (test_dates, test_article_date_chain, test_firm, test_scope,
                test_line_and_stage, test_listing_parser, test_feed_parser,
                test_state, test_build_row, test_w33_regresyon, test_w33b_regresyon,
-               test_w33c_regresyon, test_w33d_regresyon, test_compose_ve_mail):
+               test_w33c_regresyon, test_w33d_regresyon, test_uclu_kg_senaryosu,
+               test_compose_ve_mail):
         try:
             fn()
         except Exception as e:

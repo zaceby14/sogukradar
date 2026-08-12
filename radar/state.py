@@ -57,6 +57,7 @@ def load():
     # Olay parmak izleri: {tedarikci|ulke|asama: tarih}. Ayni olayin farkli
     # baslikli varyanti (baska yayin, baska dil) ikinci kez rapora giremez.
     st.setdefault("events", {})
+    st.setdefault("son_basliklar", [])
     st["version"] = VERSION
     return st
 
@@ -79,4 +80,7 @@ def prune(st, keep=1500, event_days=120):
     cut = (_dt.date.today() - _dt.timedelta(days=event_days)).isoformat()
     st["events"] = {k: v for k, v in st.get("events", {}).items()
                     if (v or "9999") >= cut}
+    cut21 = (_dt.date.today() - _dt.timedelta(days=21)).isoformat()
+    st["son_basliklar"] = [b for b in st.get("son_basliklar", [])
+                           if (b.get("t") or "9999") >= cut21][-200:]
     return st

@@ -18,6 +18,15 @@ from .config import (MAX_ARTICLE_FETCH, MAX_LINKS_PER_SOURCE, TECH_WINDOW_DAYS,
 US_STYLE = {"cognex", "butechbliss", "delta", "bronx", "aist", "magnetics", "worldsteel"}
 
 
+def event_keys(row):
+    who = taxonomy.fold(row.get("tedarikci") or row.get("firma") or "")
+    asama = row.get("asama") or ""
+    keys = {who + "|hat|" + (row.get("hat") or "") + "|" + asama}
+    if row.get("ulke"):
+        keys.add(who + "|ulke|" + row["ulke"] + "|" + asama)
+    return keys
+
+
 def _dayfirst(sid):
     return sid not in US_STYLE
 
@@ -117,13 +126,6 @@ def collect(today=None, log=print):
     run_keys = set()
     ev_state = st.get("events", {})
     run_events = set()
-
-    def ev_key(row):
-        """Olay parmak izi: tedarikci (yoksa firma) + ulke + asama.
-        'KG Steel selects Primetals...' ile 'Primetals to modernise Korean
-        pickling line' ayni olaydir - baslik farkli, parmak izi ayni."""
-        who = taxonomy.fold(row.get("tedarikci") or row.get("firma") or "")
-        return who + "|" + (row.get("hat") or "") + "|" + (row.get("asama") or "")
 
     def maybe_tech(it, date_iso, text, publisher):
         """Teknoloji kosesi adayi mi? Ana pencereden BAGIMSIZ calisir:
@@ -271,15 +273,22 @@ def collect(today=None, log=print):
                     seen_watch.add(key)
                 drop("kapsam_disi", it, "hat+asama belirsiz")
                 continue
-            ek = ev_key(row)
-            if ek in run_events or ek in ev_state:
-                drop("tekrar", it, "ayni olayin varyanti: " + ek)
+            eks = event_keys(row)
+            if (eks & run_events) or any(k in ev_state for k in eks):
+                drop("tekrar", it, "ayni olayin varyanti")
+                continue
+            if any(taxonomy.similar_titles(it["title"], r["baslik"])
+                   and r["asama"] == row["asama"] for r in rows) or \
+               any(taxonomy.similar_titles(it["title"], b.get("b", ""))
+                   and b.get("a", "") == row["asama"]
+                   for b in st.get("son_basliklar", [])):
+                drop("tekrar", it, "benzer baslik")
                 continue
             row["anahtar"] = key
-            row["olay"] = ek
+            row["olaylar"] = sorted(eks)
             run_keys.add(key)
             if row.get("tedarikci") or row.get("firma"):
-                run_events.add(ek)
+                run_events |= eks
             if src in ("liste", "url", "metin"):
                 # yapisal olmayan tarih: rapora girer ama bana DOGRULAT diye isaretlenir
                 row["eksik"] = list(row["eksik"]) + ["tarih?"]
