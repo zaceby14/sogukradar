@@ -195,6 +195,10 @@ def test_w33c_regresyon():
                               "baslik": "x"})
     eq("Primetals'e verdi" in s, False, "kendi kendine ihale cumlesi yasak")
     eq("ustlendi" in s, True, "tedarikci bakis acisiyla yazilmali")
+    eq(taxonomy.match_stage(
+        "POSCO Partners with Hyundai Motor and 8 Organizations to Develop "
+        "Next-Generation High-Efficiency Electrical Steel for EVs"),
+       "Teknoloji", "'to develop' ar-ge haberi teknoloji sayilmali")
 
 
 def test_line_and_stage():

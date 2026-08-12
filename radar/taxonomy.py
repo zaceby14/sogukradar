@@ -92,8 +92,8 @@ EVENT_WORDS = [
     (r"contract|order|awarded|awards|wins|won|secures|selects|selected|to supply|signs|"
      r"signed|letter of intent|\bloi\b|agreement to|places order|will supply|"
      r"has been chosen|sozlesme|siparis|ihale|anlasma imzala|imzaladi", "Sozlesme"),
-    (r"unveils|launches|introduc|new technology|patent|licen[cs]e|develops|presents|"
-     r"showcases|debut|world first|innovation|yeni teknoloji|gelistirdi|tanitti|lisans",
+    (r"unveils|launches|introduc|new technology|patent|licen[cs]e|develop(s|ing|ment)?\b|partners? with|joint(ly)? develop|next[- ]generation|\br&d\b|research (project|partnership|collaboration)|presents|"
+     r"showcases|debut|world first|innovation|yeni teknoloji|gelistir|tanitti|lisans|ar-ge",
      "Teknoloji"),
 ]
 
