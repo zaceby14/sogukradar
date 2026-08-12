@@ -186,3 +186,35 @@ def extract_article_date(doc, url="", dayfirst=True, today=None):
 def iso_week(d):
     y, w, _ = dt.date.fromisoformat(d).isocalendar()
     return "%04d-W%02d" % (y, w)
+
+
+# ---------------------------------------------------------------------------
+# Baslik-tarih celiskisi denetimi.
+#
+# v4 kosusunda "August 2024 JOINT STEEL INVESTMENT WITH SONANGOL IN ANGOLA BY
+# TOSYALI" basligi 2026-08-10 tarihiyle listeye girdi: sayfanin HTTP
+# Last-Modified basligi bugunu gosteriyordu, icerik ise iki yil oncesine ait.
+# Kural: baslikta yil geciyorsa ve GECEN TUM YILLAR tarihin yilindan KUCUKSE
+# bu satir eski bir icerigin yeniden servis edilmesidir; elenir.
+# Gelecek yillar ("2028'e kadar 2 milyon ton") elenmez - onlar hedef beyanidir.
+RE_TITLE_YEAR = re.compile(r"(?<!\d)(19\d{2}|20\d{2})(?!\d)")
+
+
+def title_year_conflict(title, date_iso):
+    if not date_iso:
+        return False
+    yrs = [int(y) for y in RE_TITLE_YEAR.findall(title or "")]
+    if not yrs:
+        return False
+    dy = int(date_iso[:4])
+    return max(yrs) < dy
+
+
+# Tarihin "yapisal" (yayincinin kendi beyani) mi yoksa "dolayli" mi
+# oldugunu soyler. Dolayli tarihler rapora "tarih?" isaretiyle girer.
+KESIN_TARIH = ("rss", "json-ld", "time", "capraz-rss")
+
+
+def kesin_mi(src):
+    s = (src or "").split(":")[0]
+    return s in KESIN_TARIH or s.startswith("meta")

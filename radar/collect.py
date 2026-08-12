@@ -29,6 +29,11 @@ def event_keys(row):
     keys = {who + "|hat|" + (row.get("hat") or "") + "|" + asama}
     if row.get("ulke"):
         keys.add(who + "|ulke|" + row["ulke"] + "|" + asama)
+        # ASAMASIZ bacak: ayni olayin Ingilizce ve Turkce anlatimi ayni
+        # govde metnini paylasmadigi icin asama farkli cikabiliyor
+        # (Baowu/SNS Cezayir haberi 2026-W33'te hem EN hem TR listeye girdi).
+        # Firma + ulke + hat ucu ayniysa asama bakilmaksizin ayni olaydir.
+        keys.add(who + "|fu|" + row["ulke"] + "|" + (row.get("hat") or ""))
     return keys
 
 
@@ -190,6 +195,12 @@ def collect(today=None, log=print):
             if taxonomy.is_junk_title(title):
                 drop("kapsam_disi", it, "haber degil (menu/e-posta/kisa)")
                 continue
+            # Rapor/pazar arastirmasi satan yayin dagitim siteleri: icerik
+            # haber degil reklamdir (v4 kosusunda openPR sizdi).
+            if taxonomy.SPAM_PUBLISHER.search(
+                    taxonomy.fold(it.get("url", "") + " " + (it.get("_pub") or ""))):
+                drop("kapsam_disi", it, "rapor/bulten dagitim sitesi")
+                continue
             watchable = taxonomy.genel_yatirim(title)
             if taxonomy.HARD_REJECT.search(taxonomy.fold(title)) and not watchable:
                 drop("kapsam_disi", it, "sert red (baslik)")
@@ -242,21 +253,30 @@ def collect(today=None, log=print):
                     date_iso, src = dates.extract_article_date(doc, info["final"], df, today)
                     text = doc.get("text", "")[:3000] or text
                 if not date_iso:
-                    # ACI 5: sunucunun Last-Modified basligi (yayincinin beyani)
-                    lm = dates.parse_date_text(info.get("last_modified", ""), False, today)
-                    if lm:
-                        date_iso, src = lm, "last-modified"
-                if not date_iso:
-                    # ACI 6: ayni adres baska bir beslemede gecti mi
+                    # ACI 5: ayni adres baska bir beslemede gecti mi.
+                    # Last-Modified'dan ONCE denenir: capraz besleme yayincinin
+                    # kendi tarih beyanidir; HTTP basligi ise sunucunun son
+                    # dokunma zamanidir ve eski sayfa bugun servis edilince
+                    # yaniltir (Tosyali/Sonangol 2024 vakasi, 2026-08-12).
                     od = url_dates.get(it["url"].split("?")[0])
                     if od:
                         date_iso, src = od, "capraz-rss"
+                if not date_iso:
+                    # ACI 6: sunucunun Last-Modified basligi - en zayif aci
+                    lm = dates.parse_date_text(info.get("last_modified", ""), False, today)
+                    if lm:
+                        date_iso, src = lm, "last-modified"
                 if not date_iso:
                     date_iso = it.get("_rough")
                     # Beslemeden gelen tarih yapisaldir - "tarih?" isareti gerekmez
                     src = ("rss" if it.get("from_feed") else "liste") if date_iso else "yok"
             if not date_iso:
                 drop("tarihsiz_elendi", it)   # TARIH YOKSA HABER YOK
+                continue
+            # Baslikta gecen yil, bulunan tarihten eskiyse: eski icerik bugun
+            # servis edilmis demektir. Tarih guvenilmez, satir elenir.
+            if dates.title_year_conflict(it["title"], date_iso):
+                drop("tarih_celiskisi", it, "baslik yili < %s" % date_iso)
                 continue
             if date_iso < floor.isoformat() or date_iso > today.isoformat():
                 maybe_tech(it, date_iso, text, s["publisher"])
@@ -295,6 +315,17 @@ def collect(today=None, log=print):
                 else:
                     drop("kapsam_disi", it, "hat+asama belirsiz")
                     continue
+            # Cekirdek (Hat) satiri en az BIR somut delil tasimali: asama,
+            # tedarikci, kapasite ya da tutar. Hicbiri yoksa satir "bir yerde
+            # soguk hadde kelimesi geciyor" seviyesindedir - alakasiz gorunur
+            # (kullanici geri bildirimi, 2026-08-12).
+            if kategori == "Hat" and row["asama"] == "Belirsiz" and not (
+                    row["tedarikci"] or row["kapasite"] or row["tutar"]):
+                if taxonomy.genel_yatirim(it["title"]):
+                    kategori = "Yatirim"
+                else:
+                    drop("kapsam_disi", it, "delil yok (asama/tedarikci/kapasite/tutar)")
+                    continue
             if kategori == "Yatirim" and \
                     sum(1 for r in rows if r.get("kategori") == "Yatirim") >= 12:
                 drop("kapsam_disi", it, "yatirim katmani limiti")
@@ -318,7 +349,7 @@ def collect(today=None, log=print):
             run_keys.add(key)
             if row.get("tedarikci") or row.get("firma"):
                 run_events |= eks
-            if src in ("liste", "url", "metin"):
+            if not dates.kesin_mi(src):
                 # yapisal olmayan tarih: rapora girer ama bana DOGRULAT diye isaretlenir
                 row["eksik"] = list(row["eksik"]) + ["tarih?"]
             rows.append(row)

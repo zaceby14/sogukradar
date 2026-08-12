@@ -229,27 +229,43 @@ MATERIAL_BLOCK = re.compile(
 # Kalıplara BAGLAM eklendi: "heavy-duty" artik ticaret vergisi sanilmiyor
 # (2026-08-12'de Andritz'in asitleme hatti haberini boyle kaybetmistik).
 # ----------------------------------------------------------------------
-HARD_REJECT = re.compile(
-    r"("
+# GURULTU: bunlar hicbir katmanda haber degildir. Katman 1 (Hat) ve
+# Katman 2 (Yatirim) kapilarinin IKISI de bu listeyi uygular. v4 kosusunda
+# alakasiz satirlarin tamami buradan sizdi: HARD_REJECT sadece Katman 1'de
+# calisiyordu, "genel yatirim" etiketi alan satir denetimi atliyordu.
+_NOISE = (
     # fiyat / piyasa / ticaret - hepsi baglamli
     r"\bprices?\b|\bpricing\b|price (rise|drop|increase|hike|index)|"
     r"anti[- ]dumping|countervail|safeguard measure|import (duty|tariff|quota|ban)|"
     r"export (duty|tariff|quota|ban)|customs duty|trade case|tariff|"
     r"curbs? on|considers? curbs|import restriction|"
+    # ticaret/istatistik haberi (v4 kosusu sizintilari)
+    r"imports? (rise|rose|fall|fell|drop|increase|decline|surge|slip)|"
+    r"exports? (rise|rose|fall|fell|drop|increase|decline|surge)|"
+    r"top supplier|\bad duties\b|provisional dut|antidumping|"
+    r"output (rose|fell|up|down)|production (rose|fell|up \d|down \d)|"
+    r"steel demand|demand (will|to) be supported|"
+    # rapor satisi / pazar arastirmasi spam'i
+    r"market .{0,40}(to reach|size|share|worth|value)|project report|"
+    r"\bdpr\b|cost analysis|\broi\b|\birr\b|business plan|"
+    r"manufacturing plant project|feasibility report|"
+    # kurumsal finans / tasfiye
+    r"financial performance|liquidation|insolven|bankrupt|restructuring plan|"
+    # uzun urun / enerji
+    r"rail steel|rail project|solar and wind|wind power project|"
+    r"power (project|plant) invest|"
+    # Turkce istatistik
+    r"uretimi %|uretimi artti|uretimi geriledi|ihracati artti|talep|"
+    r"kapasitesi hedefini|kapasite hedefi|capacity target|"
     r"trade (defence|defense) measure|"
     r"market (report|outlook|update|share|size|research|forecast)|\bcagr\b|"
     r"quarterly result|annual result|earnings|revenue|net profit|ebitda|"
     r"dividend|share price|stock exchange|\bipo\b|financial results|"
-    # sicak hadde ve oncesi
-    r"blast furnace|\bdri\b|\bhbi\b|direct reduc|\beaf\b|electric arc furnace|"
-    r"basic oxygen|\bbof\b|continuous cast|slab caster|\bbillet\b|\bbloom\b|"
-    r"csp mill|compact strip production|hot strip mill|hot rolling mill|"
-    r"sinter plant|coke oven|pellet plant|scrap yard|ladle furnace|"
+    # ergitme / dokum yatirimi - duz mamul kapsamimiz disinda
+    r"\bergitme\b|\bdokum\b|induction (melting|furnace)|foundry|"
     # uzun urun / boru
     r"rebar|wire rod|long product|section mill|rail mill|seamless tube|"
     r"welded pipe|pipe mill|tube mill|profile mill|"
-    # hammadde
-    r"iron ore|coking coal|"
     # kurumsal gurultu
     r"appoint(s|ed|ment)|new ceo|new chief|resign|retire|obituary|passes away|"
     r"award(s|ed) (to|for) (excellence|safety)|prize|medal|anniversar|"
@@ -262,10 +278,28 @@ HARD_REJECT = re.compile(
     r"esg report|sustainability report|"
     # Turkce
     r"fiyat|ihracat kisit|ithalat kisit|damping|gumruk vergisi|kota|bilanco|"
-    r"ciro|net kar|hisse|borsa|halka arz|yuksek firin|ark ocagi|"
-    r"surekli dokum|insaat demiri|filmasin|atandi|odul ald|fuar|kongre|"
-    r"is ilan|bagis"
-    r")")
+    r"ciro|net kar|hisse|borsa|halka arz|insaat demiri|filmasin|"
+    r"atandi|odul ald|fuar|kongre|is ilan|bagis"
+)
+
+# YUKARI AKIS: sicak hadde ve oncesi. Bunlar Katman 1'de (islem hatti)
+# reddedilir ama Katman 2'de (genel yatirim) SERBESTTIR - "DRI-EAF ile yesil
+# celik tesisi yatirimi" gecerli bir dunya yatirim haberidir.
+_UPSTREAM = (
+    r"blast furnace|\bdri\b|\bhbi\b|direct reduc|\beaf\b|electric arc furnace|"
+    r"basic oxygen|\bbof\b|continuous cast|slab caster|\bbillet\b|\bbloom\b|"
+    r"csp mill|compact strip production|hot strip mill|hot rolling mill|"
+    r"sinter plant|coke oven|pellet plant|scrap yard|ladle furnace|"
+    # hammadde
+    r"iron ore|coking coal|"
+    # Turkce yukari akis
+    r"yuksek firin|ark ocagi|surekli dokum"
+)
+
+# Katman 1 kapisi: gurultu + yukari akis.
+HARD_REJECT = re.compile(r"(" + _NOISE + r"|" + _UPSTREAM + r")")
+# Katman 2 kapisi: sadece gurultu.
+NOISE_REJECT = re.compile(r"(" + _NOISE + r")")
 
 COUNTRY_MAP = [
     (r"turkey|turkiye|turkish", "Turkiye"),
@@ -342,8 +376,35 @@ JUNK_TITLE = re.compile(
     r"career|employer|company information|annual report \d{4} published)")
 
 
+# Urun katalogu basliklari (thyssenkrupp vakasi): fiil yok, urun kodu var.
+PRODUCT_PAGE = re.compile(
+    r"(\u00ae|\u2122|\b[a-z]{2,10}\s?\d{3}[- ]\d{2,3}[a-z]\d{2,3}\b|"
+    r"^(electrical steel|hot[- ]dip galvani[sz]ed|cold rolled|"
+    r"organic coated|precision steel|manganese|boron)[ ,].{0,40}$)")
+
+# Basligin haber olmasi icin fiil ya da olay isareti tasimasi beklenir.
+# DIKKAT: kisa Turkce kokler SINIR ile aranir. Sinirsiz yazildiginda
+# "tr-ACTI-on" kelimesi "acti" (acti) sanildi ve thyssenkrupp urun katalogu
+# basligi "powercore traction NGO 025-125Y420" habermis gibi listeye girdi
+# (v4 kosusu, 2026-08-12).
+HAS_VERB = re.compile(
+    r"(order|contract|award|win\b|won\b|start|begin|commission|inaugurat|"
+    r"complet|suppl|install|expand|invest|launch|develop|sign|select|"
+    r"produc|modern|revamp|upgrade|plan\b|build|open\b|announce|deliver|"
+    r"acquir|partner|to reach|report"
+    r"|\b(?:siparis|sozlesme|ihale|aldi|verdi|basla|basladi|devreye|kurul"
+    r"|yatirim|acti|actu|tamamla|uretime|imzala|gelistir|duyur|yapti"
+    r"|kuracak|alacak|yapacak|acilis|hatti|tesisi|fabrika))")
+
+
 def is_junk_title(title):
     t = fold(title)
+    # Urun katalogu sayfasi: urun kodu / tescil isareti var, olay yok.
+    # DIKKAT: "fiil yoksa haber degil" kurali TEK BASINA uygulanamaz -
+    # "X-ray thickness gauge and shapemeter for rolling mill" gibi gecerli
+    # ekipman basliklari isim tamlamasidir, fiil tasimaz (2026-08-12).
+    if PRODUCT_PAGE.search(t) and not HAS_VERB.search(t):
+        return True
     if JUNK_TITLE.search(t):
         return True
     if len(t.split()) < 4:   # Turkce basliklar kisa olabilir
@@ -463,6 +524,11 @@ def genel_yatirim(title):
     t = fold(title)
     if is_junk_title(title) or WATCH_SPAM.search(t):
         return False
+    # Gurultu denetimi Katman 2'de de calisir. Bu satir yokken "genel
+    # yatirim" etiketi bir muafiyet gibi davraniyordu ve ticaret/istatistik/
+    # finans basliklari listeye giriyordu (v4 kosusu, 2026-08-12).
+    if NOISE_REJECT.search(t):
+        return False
     if MATERIAL_BLOCK.search(t) and not re.search(r"(steel|celik)", t):
         return False
     if WATCH_BLOCK.search(t) and not (WATCH_BIG.search(t) and WATCH_INVEST.search(t)):
@@ -472,3 +538,11 @@ def genel_yatirim(title):
 
 def watch_worthy(title):
     return genel_yatirim(title)
+
+
+# Rapor/pazar arastirmasi satan siteler: Google News uzerinden geliyor,
+# icerikleri haber degil reklam (v4 kosusunda openPR sizdi).
+SPAM_PUBLISHER = re.compile(
+    r"(openpr|prnewswire|einpresswire|globenewswire|marketwatch|"
+    r"researchandmarkets|imarcgroup|marketsandmarkets|expertmarketresearch|"
+    r"businesswire|abnewswire|digitaljournal|benzinga|marketreport)")

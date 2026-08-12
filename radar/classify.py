@@ -40,12 +40,26 @@ MONEY = re.compile(
     re.I)
 
 
+# Firma olamayacak basliklar (v4 kosusunda "South Korea", "August",
+# "Stuttgart", "Electrical", "Hot-dip", "Building Materials" cikti).
+NOT_FIRM = re.compile(
+    r"^(south korea|north korea|united states|south africa|east africa|"
+    r"january|february|march|april|may|june|july|august|september|october|"
+    r"november|december|electrical|hot[- ]dip|cold rolled|building materials|"
+    r"galvanizing flux|stuttgart|europe|asia|africa|america|china|india|"
+    r"turkey|japan|germany|france|italy|spain|brazil|new|the|global|world|"
+    r"steel|market|report|price|demand)$", re.I)
+
+
 def _clean_firm(name):
     name = TAIL.sub("", (name or "").strip())
     # "Primetals Technologies to" -> sondaki edat/baglac firma adinin parcasi degil
     name = re.sub(r"\s+(to|and|for|at|by|with|in|on|of|from)$", "", name, flags=re.I)
     name = re.sub(r"^(The|A|An)\s+", "", name, flags=re.I)
-    return name.strip(" -,:;'’")
+    name = name.strip(" -,:;'’")
+    if NOT_FIRM.match(name):
+        return ""
+    return name
 
 
 def detect_firm(title, fallback=""):

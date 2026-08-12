@@ -159,12 +159,22 @@ def test_uclu_kg_senaryosu():
 def test_iki_katmanli_liste():
     """2026-08-12 karari: haftalik DOLU liste. Yatirim katmani dunya geneli
     celik yatirim haberlerini alir; fiyat/borsa/rapor-satisi yine giremez."""
-    ok = [("Hindistan, 2030'da 300 Milyon Ton Çelik Kapasitesi Hedefini Sürdürüyor", True),
-          ("Kocaer Çelik ABD'de Üretim İçin Şirket Kuruyor", True),
+    ok = [("Kocaer Çelik ABD'de Üretim İçin Şirket Kuruyor", True),
           ("Nucor announces new sheet mill investment in West Virginia", True),
+          ("Baowu Group and SNS eye green steel plant investment in Algeria", True),
+          ("Jindal plans Rs 40,000 crore investment in new steel facility", True),
           ("EREGL Hissesi 42,24 TL'de Kapanış Yaptı", False),
           ("Çin'in Çelik İhracatı, İlk 7 Ayda Yüzde 4,4 Geriledi", False),
-          ("Electrical Steel Market Outlook (2026-2031)", False)]
+          ("Electrical Steel Market Outlook (2026-2031)", False),
+          # --- v4.1: Katman 2 artik gurultu denetimi uygular -----------------
+          ("Hindistan, 2030'da 300 Milyon Ton Çelik Kapasitesi Hedefini Sürdürüyor", False),
+          ("Metinvest'in 2026 İlk Yarı Çelik Üretimi %13 Arttı", False),
+          ("SMS Group Strengthens Financial Performance and Accelerates Investment", False),
+          ("Pakistan abandons liquidation plan for Pakistan Steel Mills", False),
+          ("India's LMEL to invest in solar and wind power projects", False),
+          ("Hoa Phat plans $765 million expansion of Dung Quat rail steel project", False),
+          ("Steel demand in East Africa will be supported by infrastructure investment", False),
+          ("Rebar and wire rod mill investment announced", False)]
     for t, w in ok:
         eq(taxonomy.genel_yatirim(t), w, "genel yatirim: " + t[:50])
 
@@ -236,10 +246,36 @@ def test_kapsam_havuzu():
         "Rebar and wire rod mill investment announced",
         "Quarterly results: net profit rises 14 percent",
         "info@remove-this.example.de",
+        # --- v4.1 sizinti regresyonlari (2026-08-12 kosusu) -----------------
+        "powercore traction NGO 025-125Y420",
+        "Hot-dip galvanized steel, thickness 0.4 - 3.0 mm",
+        "Cold rolled steel strip, width up to 1850 mm",
+        "Steel imports rise 12% year on year",
+        "Global Cold Rolled Steel Market Size Worth USD 210 Billion by 2032",
+        "Detailed Project Report on cold rolling mill with ROI and IRR",
+        "Anti-dumping duties imposed on galvanized steel imports",
     ]
     for t in girmemeli:
         ok, sebep = taxonomy.in_scope(t)
         eq(ok, False, "KAPSAM DISI olmali: %s" % t[:60])
+
+
+def test_tarih_celiskisi():
+    """v4.1: eski icerik bugun servis edilirse (HTTP Last-Modified) baslikta
+    gecen yil ile bulunan tarih catisir. Tosyali/Sonangol 2024 vakasi."""
+    eq(dates.title_year_conflict(
+        "August 2024 JOINT STEEL INVESTMENT WITH SONANGOL IN ANGOLA BY TOSYALI",
+        "2026-08-10"), True, "2024 basligi 2026 tarihiyle gelemez")
+    eq(dates.title_year_conflict(
+        "Tosyali to reach 2 million tonnes by 2028", "2026-08-10"), False,
+        "gelecek yil hedefi elenmemeli")
+    eq(dates.title_year_conflict(
+        "Primetals wins pickling line order", "2026-08-10"), False,
+        "yilsiz baslik elenmemeli")
+    eq(dates.kesin_mi("meta:article:published_time"), True, "meta yapisaldir")
+    eq(dates.kesin_mi("json-ld"), True, "json-ld yapisaldir")
+    eq(dates.kesin_mi("last-modified"), False, "last-modified dolayli")
+    eq(dates.kesin_mi("liste"), False, "liste dolayli")
 
 
 def test_tarih_acilari():
