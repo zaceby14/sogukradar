@@ -16,6 +16,12 @@
   },
   {
    "sebep": "kapsam_disi",
+   "baslik": "top performances 2026, 18th June Danieli’s QSP-DUE® technology sets new industrial milestones at SGJT",
+   "url": "https://www.danieli.com/en/news-media/news/danieli-s-qsp-due-technology-sets-new-industrial-milestones-sgjt_37_1072.htm",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
    "baslik": "Copyright © Danieli & C. S.p.A. – All Right Reserved",
    "url": "https://www.danieli.com/en/copyright.htm",
    "ek": "haber degil (menu/e-posta/kisa)"
@@ -61,12 +67,6 @@
    "baslik": "new orders 2026, 25th June Zahit Aluminium confirms performance of Danieli Breda extrusion press in Turkey",
    "url": "https://www.danieli.com/en/news-media/news/zahit-aluminium-confirms-performance-danieli-breda-extrusion-press-turkey_37_1074.htm",
    "ek": "2026-06-25"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "top performances 2026, 18th June Danieli’s QSP-DUE® technology sets new industrial milestones at SGJT",
-   "url": "https://www.danieli.com/en/news-media/news/danieli-s-qsp-due-technology-sets-new-industrial-milestones-sgjt_37_1072.htm",
-   "ek": "2026-06-18"
   },
   {
    "sebep": "kapsam_disi",
@@ -1077,10 +1077,10 @@
    "ek": "on eleme: 2021-03-25"
   },
   {
-   "sebep": "pencere_disi",
+   "sebep": "kapsam_disi",
    "baslik": "The Bronx Group welcomes SpecMetrix® to Russia/CIS region",
    "url": "https://thebronxgroup.com/the-bronx-group-welcomes-specmetrix-to-russia-cis-region/",
-   "ek": "on eleme: 2020-11-20"
+   "ek": "haber degil (menu/e-posta/kisa)"
   },
   {
    "sebep": "pencere_disi",
@@ -1456,14 +1456,80 @@
   },
   {
    "sebep": "kapsam_disi",
+   "baslik": "Roughness and waviness - EMG SORM®",
+   "url": "https://www.emg.elexis.group/solutions/quality-assurance-systems/emg-sorm",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Strip stabilisation - EMG eMASS®",
+   "url": "https://www.emg.elexis.group/solutions/quality-assurance-systems/emg-emass",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Oil and dry film thickness - EMG SOLID®",
+   "url": "https://www.emg.elexis.group/solutions/quality-assurance-systems/emg-solid",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "(Slit) strip width measurement & hole detection - EMG iCAM®",
+   "url": "https://www.emg.elexis.group/solutions/quality-assurance-systems/emg-icam",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Process optimisation with AI - EMG iCASS®",
+   "url": "https://www.emg.elexis.group/solutions/process-optimisation-with-ai",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "EMG ELDRO® New generation",
+   "url": "https://www.emg.elexis.group/solutions/safety-components/emg-eldro-new-generation",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "EMG ELDRO® Direct current",
+   "url": "https://www.emg.elexis.group/solutions/safety-components/emg-eldro-direct-current",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "EMG BRAKEMATIC® Brake controls",
+   "url": "https://www.emg.elexis.group/solutions/safety-components/emg-brakematic",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
    "baslik": "Wastewater treatment plants",
    "url": "https://www.emg.elexis.group/industries/wastewater-treatment-plants",
    "ek": "haber degil (menu/e-posta/kisa)"
   },
   {
    "sebep": "kapsam_disi",
+   "baslik": "Exchange EMG ELDRO® / ELHY® thrusters and other brands",
+   "url": "https://www.emg.elexis.group/service/exchange-thrusters",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
    "baslik": "Manufacturing Capabilities",
    "url": "https://www.emg.elexis.group/company/manufacturing-capabilities",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Inside EMG iCAM®: The Technology Behind High-Precision Strip Width Measurement",
+   "url": "https://www.emg.elexis.group/news/inside-emg-icamr-the-technology-behind-high-precision-strip-width-measurement",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Two Decades of EMG eMASS® and New Perspectives with EMG iCASS®",
+   "url": "https://www.emg.elexis.group/news/two-decades-of-emg-emassr-and-new-perspectives-with-emg-icassr",
    "ek": "haber degil (menu/e-posta/kisa)"
   },
   {
@@ -1492,27 +1558,9 @@
   },
   {
    "sebep": "pencere_disi",
-   "baslik": "Roughness and waviness - EMG SORM®",
-   "url": "https://www.emg.elexis.group/solutions/quality-assurance-systems/emg-sorm",
-   "ek": "2026-06-26"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Strip stabilisation - EMG eMASS®",
-   "url": "https://www.emg.elexis.group/solutions/quality-assurance-systems/emg-emass",
-   "ek": "2026-06-01"
-  },
-  {
-   "sebep": "pencere_disi",
    "baslik": "Baffle blades control - EMG eBACS",
    "url": "https://www.emg.elexis.group/solutions/quality-assurance-systems/emg-ebacs",
    "ek": "2026-06-01"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Oil and dry film thickness - EMG SOLID®",
-   "url": "https://www.emg.elexis.group/solutions/quality-assurance-systems/emg-solid",
-   "ek": "hat+asama belirsiz"
   },
   {
    "sebep": "pencere_disi",
@@ -1522,32 +1570,8 @@
   },
   {
    "sebep": "pencere_disi",
-   "baslik": "(Slit) strip width measurement & hole detection - EMG iCAM®",
-   "url": "https://www.emg.elexis.group/solutions/quality-assurance-systems/emg-icam",
-   "ek": "2026-07-06"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Process optimisation with AI - EMG iCASS®",
-   "url": "https://www.emg.elexis.group/solutions/process-optimisation-with-ai",
-   "ek": "2026-07-02"
-  },
-  {
-   "sebep": "pencere_disi",
    "baslik": "Thrusters and actuators EMG ELDRO® / ELHY®",
    "url": "https://www.emg.elexis.group/solutions/safety-components",
-   "ek": "2026-07-07"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "EMG ELDRO® New generation",
-   "url": "https://www.emg.elexis.group/solutions/safety-components/emg-eldro-new-generation",
-   "ek": "2026-07-07"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "EMG ELDRO® Direct current",
-   "url": "https://www.emg.elexis.group/solutions/safety-components/emg-eldro-direct-current",
    "ek": "2026-07-07"
   },
   {
@@ -1555,12 +1579,6 @@
    "baslik": "EMG ESSE Quick response actuator",
    "url": "https://www.emg.elexis.group/solutions/safety-components/emg-esse",
    "ek": "hat+asama belirsiz"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "EMG BRAKEMATIC® Brake controls",
-   "url": "https://www.emg.elexis.group/solutions/safety-components/emg-brakematic",
-   "ek": "2026-07-07"
   },
   {
    "sebep": "pencere_disi",
@@ -1588,12 +1606,6 @@
   },
   {
    "sebep": "pencere_disi",
-   "baslik": "Exchange EMG ELDRO® / ELHY® thrusters and other brands",
-   "url": "https://www.emg.elexis.group/service/exchange-thrusters",
-   "ek": "2026-02-04"
-  },
-  {
-   "sebep": "pencere_disi",
    "baslik": "In our news overview, you will find reports and updates from recent years at a glance.",
    "url": "https://www.emg.elexis.group/news",
    "ek": "2026-05-05"
@@ -1612,12 +1624,6 @@
   },
   {
    "sebep": "pencere_disi",
-   "baslik": "Inside EMG iCAM®: The Technology Behind High-Precision Strip Width Measurement",
-   "url": "https://www.emg.elexis.group/news/inside-emg-icamr-the-technology-behind-high-precision-strip-width-measurement",
-   "ek": "2026-05-05"
-  },
-  {
-   "sebep": "pencere_disi",
    "baslik": "Modern Strip Production Requires More Than Conventional Width Measurement",
    "url": "https://www.emg.elexis.group/news/modern-strip-production-requires-more-than-conventional-width-measurement",
    "ek": "2026-05-05"
@@ -1626,12 +1632,6 @@
    "sebep": "pencere_disi",
    "baslik": "Deep Dive: Inline determination of mechanical properties with EMG IMPOC – what does the research say?",
    "url": "https://www.emg.elexis.group/news/deep-dive-inline-determination-of-mechanical-properties-with-emg-impoc-what-does-the-research-say",
-   "ek": "2026-05-05"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Two Decades of EMG eMASS® and New Perspectives with EMG iCASS®",
-   "url": "https://www.emg.elexis.group/news/two-decades-of-emg-emassr-and-new-perspectives-with-emg-icassr",
    "ek": "2026-05-05"
   },
   {
@@ -1657,6 +1657,12 @@
    "baslik": "Pressurized pouring furnace",
    "url": "https://www.otto-junker.com/en/rgd/",
    "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "OTTO JUNKER stainless steel foundry",
+   "url": "https://www.otto-junker.com/en/stainless-steel-foundry/",
+   "ek": "sert red (baslik)"
   },
   {
    "sebep": "kapsam_disi",
@@ -1686,12 +1692,6 @@
    "sebep": "tarihsiz_elendi",
    "baslik": "Channel type holding furnace",
    "url": "https://www.otto-junker.com/en/rwk/",
-   "ek": ""
-  },
-  {
-   "sebep": "tarihsiz_elendi",
-   "baslik": "OTTO JUNKER stainless steel foundry",
-   "url": "https://www.otto-junker.com/en/stainless-steel-foundry/",
    "ek": ""
   },
   {
@@ -2064,7 +2064,19 @@
    "sebep": "kapsam_disi",
    "baslik": "MBW® – Manganese-boron steel for hot forming",
    "url": "https://www.thyssenkrupp-steel.com/en/products/sheet-coated-products/manganese-boron-steel-for-hot-forming/mbw-manganese-boron-steel-for-hot-forming/",
-   "ek": "kapsam kapisi (baslik)"
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Hot-dip galvanized narrow strip",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/sheet-coated-products/hot-dip-galvanized-steel-strip/",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Hot-dip galvanized corrugated and roofing sheet",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/sheet-coated-products/hot-dip-galvanized-corrugated-and-roofing-sheet/",
+   "ek": "haber degil (menu/e-posta/kisa)"
   },
   {
    "sebep": "kapsam_disi",
@@ -2082,7 +2094,7 @@
    "sebep": "kapsam_disi",
    "baslik": "ZM Ecoprotect® Solar (ZM Solar)",
    "url": "https://www.thyssenkrupp-steel.com/en/products/sheet-coated-products/surface-finishing/zm-ecoprotect-solar-zm-solar/zm-ecoprotect-solar.html",
-   "ek": "kapsam kapisi (baslik)"
+   "ek": "haber degil (menu/e-posta/kisa)"
   },
   {
    "sebep": "kapsam_disi",
@@ -2094,7 +2106,7 @@
    "sebep": "kapsam_disi",
    "baslik": "Organic coated strip and sheet",
    "url": "https://www.thyssenkrupp-steel.com/en/products/organic-coated-strip-and-sheet/",
-   "ek": "kapsam kapisi (baslik)"
+   "ek": "haber degil (menu/e-posta/kisa)"
   },
   {
    "sebep": "kapsam_disi",
@@ -2104,9 +2116,27 @@
   },
   {
    "sebep": "kapsam_disi",
+   "baslik": "Electrical steel, non grain oriented",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/electrical-steel/electrical-steel-non-grain-oriented/electrical-steel-non-grain-oriented.html",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
    "baslik": "powercore® traction for high frequencies and e-mobility",
    "url": "https://www.thyssenkrupp-steel.com/en/products/electrical-steel/electrical-steel-non-grain-oriented/powercore-traction-for-high-frequencies-and-e-mobility/powercore-a-3.html",
-   "ek": "kapsam kapisi (baslik)"
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "powercore® traction NGO 025-125Y420",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/electrical-steel/electrical-steel-non-grain-oriented/powercore-traction-for-high-frequencies-and-e-mobility/powercore-traction-ngo-025-125y420/powercore-traction-ngo025-125y420.html",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Electrical steel, grain oriented",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/electrical-steel/electrical-steel-grain-oriented/electrical-steel-grain-oriented.html",
+   "ek": "haber degil (menu/e-posta/kisa)"
   },
   {
    "sebep": "kapsam_disi",
@@ -2220,6 +2250,12 @@
    "sebep": "kapsam_disi",
    "baslik": "Working at thyssenkrupp Steel Europe",
    "url": "https://www.thyssenkrupp-steel.com/en/career/working-at-thyssenkrupp-steel-europe/",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Electrical Steel as emplyer",
+   "url": "https://www.thyssenkrupp-steel.com/en/career/working-at-thyssenkrupp-steel-europe/our-subsidiaries/electrical-steel-as-emplyer/electrical-steel-als-arbeitgeber.html",
    "ek": "haber degil (menu/e-posta/kisa)"
   },
   {
@@ -2472,7 +2508,7 @@
    "sebep": "kapsam_disi",
    "baslik": "Trade press | 2025-05-02 thyssenkrupp Steel at Intersolar Europe 2025: Presentation of ZM Ecoprotect#sup;®!sup; Solar for durable PV mounting systems",
    "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/thyssenkrupp-steel-at-intersolar-europe-2025-presentation-of-zm-ecoprotect-solar-for-durable-pv-mounting-systems.html",
-   "ek": "kapsam kapisi (baslik)"
+   "ek": "haber degil (menu/e-posta/kisa)"
   },
   {
    "sebep": "kapsam_disi",
@@ -2493,10 +2529,10 @@
    "ek": "kapsam kapisi (baslik)"
   },
   {
-   "sebep": "pencere_disi",
+   "sebep": "kapsam_disi",
    "baslik": "Trade press | 2025-03-25 thyssenkrupp Steel and RWTH Aachen present CO#sub;2!sub;-reduced powercore#sup;®!sup; traction NGO 025-125Y420 in the rotor technology demonstrator at Coil",
    "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/thyssenkrupp-steel-and-rwth-aachen-present-co2-reduced-powercore-traction-ngo-025-125y420-in-the-rotor-technology-demonstrator-at-coiltech-2025.html",
-   "ek": "on eleme: 2025-03-25"
+   "ek": "haber degil (menu/e-posta/kisa)"
   },
   {
    "sebep": "kapsam_disi",
@@ -2641,24 +2677,6 @@
    "baslik": "Trade press | 2024-06-17 Intersolar Europe 2024: thyssenkrupp Steel presents innovative solutions for the energy transition",
    "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/intersolar-europe-2024-thyssenkrupp-steel-presents-innovative-solutions-for-the-energy-transition.html",
    "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "Hot-dip galvanized corrugated and roofing sheet",
-   "url": "https://www.thyssenkrupp-steel.com/en/products/sheet-coated-products/hot-dip-galvanized-corrugated-and-roofing-sheet/",
-   "ek": "ayni olayin varyanti: hot-dip|hat|Galvaniz hatti (CGL)|Teknoloji"
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "Electrical steel, grain oriented",
-   "url": "https://www.thyssenkrupp-steel.com/en/products/electrical-steel/electrical-steel-grain-oriented/electrical-steel-grain-oriented.html",
-   "ek": "ayni olayin varyanti: electrical|hat|Elektrik celigi hatti|Teknoloji"
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "Electrical Steel as emplyer",
-   "url": "https://www.thyssenkrupp-steel.com/en/career/working-at-thyssenkrupp-steel-europe/our-subsidiaries/electrical-steel-as-emplyer/electrical-steel-als-arbeitgeber.html",
-   "ek": "benzer baslik"
   },
   {
    "sebep": "pencere_disi",
@@ -3582,24 +3600,6 @@
    "sebep": "kapsam_disi",
    "baslik": "JFE Steel’s Social Contributions",
    "url": "https://www.jfe-steel.co.jp/en/company/csr.html",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "About JFE’s GX Steel “JGreeX™”",
-   "url": "https://www.jfe-steel.co.jp/en/products/jgreex/index.html",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Need help solving a problem?",
-   "url": "https://www.jfe-steel.co.jp/en/products/solution/total-s/index.html",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Search by Technical Problem",
-   "url": "https://www.jfe-steel.co.jp/en/products/solution/cat_index.html",
    "ek": "kapsam kapisi (baslik)"
   }
  ]

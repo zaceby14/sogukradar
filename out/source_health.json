@@ -423,7 +423,7 @@
   "url": "https://www.kallanish.com/en/news/steel/live",
   "kind": "dergi",
   "durum": "html",
-  "baglanti": 39,
+  "baglanti": 46,
   "besleme_bulundu": []
  },
  "gmk": {
@@ -448,9 +448,8 @@
   "publisher": "SteelGuru",
   "url": "https://www.steelguru.com/",
   "kind": "dergi",
-  "durum": "bos_liste",
-  "baglanti": 0,
-  "besleme_bulundu": []
+  "durum": "erisilemedi",
+  "hata": "URLError: <urlopen error timed out>"
  },
  "magnetics": {
   "publisher": "Magnetics Magazine",
@@ -652,8 +651,12 @@
   "publisher": "Sanayi Gazetesi",
   "url": "https://sanayigazetesi.com.tr/",
   "kind": "dergi",
-  "durum": "erisilemedi",
-  "hata": "URLError: <urlopen error timed out>"
+  "durum": "html",
+  "baglanti": 72,
+  "besleme_bulundu": [
+   "https://sanayigazetesi.com.tr/feed/",
+   "https://sanayigazetesi.com.tr/comments/feed/"
+  ]
  },
  "cib": {
   "publisher": "Celik Ihracatcilari Birligi",
@@ -1019,7 +1022,7 @@
   "url": "https://news.google.com/rss/search?q=%22yass%C4%B1%20%C3%A7elik%22%20yat%C4%B1r%C4%B1m%20when%3A7d&hl=tr&gl=TR&ceid=TR:tr",
   "kind": "arama",
   "durum": "besleme",
-  "baglanti": 2
+  "baglanti": 3
  },
  "gq_tr07": {
   "publisher": "Google News",
