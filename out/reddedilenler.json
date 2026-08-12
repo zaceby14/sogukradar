@@ -153,12 +153,6 @@
    "ek": "haber degil (menu/e-posta/kisa)"
   },
   {
-   "sebep": "tekrar",
-   "baslik": "KG Steel Selects Primetals Technologies for PLTCM Revamp",
-   "url": "https://www.primetals.com/en/news/kg-steel-selects-primetals-technologies-for-pltcm-modernization-in-dangjin-korea/",
-   "ek": ""
-  },
-  {
    "sebep": "pencere_disi",
    "baslik": "Primetals Technologies Receives TrimRob FAC at Hyundai Steel",
    "url": "https://www.primetals.com/en/news/primetals-technologies-receives-fac-from-hyundai-dangjin-for-trimrob-the-first-robotic-coil-trimming-and-sampling-system/",
@@ -3502,13 +3496,19 @@
   },
   {
    "sebep": "kapsam_disi",
+   "baslik": "POSCO Future M Breaks into LFP Market with Large-Scale, Long-Term Battery Maker Supply Agreement 2026/08/12",
+   "url": "https://newsroom.posco.com/en/posco-future-m-breaks-into-lfp-market-with-large-scale-long-term-battery-maker-supply-agreement/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
    "baslik": "POSCO AIR SOLUTION Becomes First in Asia to Earn Global Standard Certification for High-Purity Rare Gases Used in Aerospace and Defense 2026/08/07",
    "url": "https://newsroom.posco.com/en/posco-air-solution-becomes-first-in-asia-to-earn-global-standard-certification-for-high-purity-rare-gases-used-in-aerospace-and-defense/",
    "ek": "kapsam kapisi (baslik)"
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "POSCO DX Makes Major Transformation into an ‘AI Native Company’… Leading the AI Market with Physical AI and Agentic AI 2026/08/04",
+   "baslik": "POSCO DX Makes Major Transformation into an ‘AI Native Company’… Leading the AI Market with Physical AI and Agentic AI",
    "url": "https://newsroom.posco.com/en/posco-dx-makes-major-transformation-into-an-ai-native-company-leading-the-ai-market-with-physical-ai-and-agentic-ai/",
    "ek": "kapsam kapisi (baslik)"
   },
@@ -3517,12 +3517,6 @@
    "baslik": "POSCO Holdings announces Q2 2026 results… profitability improved on visible gains centered on lithium and LNG resources",
    "url": "https://newsroom.posco.com/en/posco-holdings-announces-q2-2026-results-profitability-improved-on-visible-gains-centered-on-lithium-and-lng-resources/",
    "ek": "sert red (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "POSCO Group Strengthens Rare Earth Supply Chain Together with Brazil",
-   "url": "https://newsroom.posco.com/en/posco-group-strengthens-rare-earth-supply-chain-together-with-brazil/",
-   "ek": "kapsam kapisi (baslik)"
   },
   {
    "sebep": "kapsam_disi",
@@ -3601,6 +3595,12 @@
    "baslik": "JFE Steel’s Social Contributions",
    "url": "https://www.jfe-steel.co.jp/en/company/csr.html",
    "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "About JFE’s GX Steel “JGreeX™”",
+   "url": "https://www.jfe-steel.co.jp/en/products/jgreex/index.html",
+   "ek": "kapsam kapisi (baslik)"
   }
  ]
 }

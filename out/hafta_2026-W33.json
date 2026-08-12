@@ -1,16 +1,78 @@
 {
- "rows": [],
+ "rows": [
+  {
+   "tarih": "2026-08-11",
+   "firma": "11 Aug Free KG Steel",
+   "ulke": "Turkiye",
+   "hat": "Tandem soguk hadde (TCM)",
+   "asama": "Modernizasyon",
+   "tedarikci": "Primetals",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "11 Aug Free KG Steel selects Primetals for Dangjin PLTCM upgrade and capacity expansion",
+   "kaynak": "SteelOrbis",
+   "kaynak_id": "steelorbis",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/kg-steel-selects-primetals-for-dangjin-pltcm-upgrade-and-capacity-expansion-1470187.htm",
+   "tarih_kaynagi": "json-ld",
+   "eksik": [],
+   "anahtar": "ddd3161581c94d65",
+   "olay": "primetals|Turkiye|Modernizasyon",
+   "puan": 60.6
+  },
+  {
+   "tarih": "2026-08-11",
+   "firma": "KG Steel",
+   "ulke": "G. Kore",
+   "hat": "Tandem soguk hadde (TCM)",
+   "asama": "Modernizasyon",
+   "tedarikci": "Primetals",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "KG Steel Selects Primetals Technologies for PLTCM Revamp",
+   "kaynak": "Primetals Technologies",
+   "kaynak_id": "primetals",
+   "url": "https://www.primetals.com/en/news/kg-steel-selects-primetals-technologies-for-pltcm-modernization-in-dangjin-korea/",
+   "tarih_kaynagi": "metin",
+   "eksik": [
+    "tarih?"
+   ],
+   "anahtar": "27b5ca990931fc28",
+   "olay": "primetals|G. Kore|Modernizasyon",
+   "puan": 52.6
+  },
+  {
+   "tarih": "2026-08-11",
+   "firma": "KG Steel",
+   "ulke": "",
+   "hat": "Tandem soguk hadde (TCM)",
+   "asama": "Modernizasyon",
+   "tedarikci": "Primetals",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "KG Steel selects Primetals for Dangjin PLTCM upgrade and capacity expansion",
+   "kaynak": "SteelOrbis",
+   "kaynak_id": "gnews_en1",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPTzBDNXBHbG12c0FwRUdCMUpMRVAtaFZUMkI4b2lzaTV1TzVicDNDelZjRjF2RDNNNERoaS1hQkxsSGhxb0NxM2V2Uzd0RFJ3Mm9OLVh5Y2dvbkhTTUdDWGlVN2I1NG9KM05lZWNDN3hBZ2dtUzdVbVphTGQxeG53akhyeWoya3JncjJrTy1FNkhKLUlGOU5COXZTZWRRa2xFQjhZOXZvYkRfSHZYZlJWU2ZUZG1uclNwQzRtbnMyVFUwWjNUV1ZySWxrektuWGJnUGpN?oc=5",
+   "tarih_kaynagi": "rss",
+   "eksik": [
+    "ulke"
+   ],
+   "anahtar": "05ee3ccfafa36b08",
+   "olay": "primetals||Modernizasyon",
+   "puan": 49.6
+  }
+ ],
  "stats": {
   "kaynak": 76,
   "erisilemeyen": 7,
-  "ham": 1487,
-  "on_eleme_gecti": 160,
+  "ham": 1478,
+  "on_eleme_gecti": 161,
   "makale_acildi": 146,
   "tarihsiz_elendi": 61,
   "pencere_disi": 152,
-  "kapsam_disi": 1265,
-  "tekrar": 9,
-  "kabul": 0
+  "kapsam_disi": 1257,
+  "tekrar": 5,
+  "kabul": 3
  },
  "unreachable": [
   [
@@ -30,7 +92,7 @@
    "HTTP 403"
   ],
   [
-   "SteelGuru",
+   "The Canmaker",
    "URLError: <urlopen error timed out>"
   ],
   [
@@ -121,7 +183,16 @@
   "gnews_tr2": "arama"
  },
  "today": "2026-08-12",
- "tech_pool": [],
+ "tech_pool": [
+  {
+   "anahtar": "tech:c1e20af1f2d7d31b",
+   "tarih": "2026-06-15",
+   "baslik": "POSCO Partners with Hyundai Motor and 8 Organizations to Develop Next-Generation High-Efficiency Electrical Steel for EVs",
+   "url": "https://worldsteel.org/media/industry-member-news/2026-member-news/posco-partners-with-hyundai-motor-and-8-organizations-to-develop-next-generation-high-efficiency-electrical-steel-for-evs/",
+   "kaynak": "worldsteel",
+   "hat": "Elektrik celigi hatti"
+  }
+ ],
  "watch": [
   {
    "anahtar": "851524a8bc0e3676",
@@ -131,19 +202,37 @@
    "kaynak": "SteelTurk"
   },
   {
+   "anahtar": "2b4150031b0ef2d5",
+   "tarih": "2026-08-07",
+   "baslik": "İspanya, Hydnum Steel’in Yeşil Çelik Tesisine 150 Milyon Euro Destek Sağlayacak",
+   "url": "https://www.steelturk.com.tr/ispanya-hydnum-steelin-yesil-celik-tesisine-150-milyon-euro-destek-saglayacak/",
+   "kaynak": "SteelTurk"
+  },
+  {
    "anahtar": "b2cf8f1ad52425f4",
    "tarih": "2026-08-05",
    "baslik": "Hydnum Steel, İber Yarımadası'nın ilk temiz çelik tesisi için 150 milyon euroluk yatırım taahhüdü aldı",
    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQa2MteXV2RlJsNVZoZUNNOXVKQi1URjd6WGM0RUdJckdsbExfU2NlRk9tcjUyY0czcUhLcXZ4YnZQZHZ2aFU4QXQ1bGpLMmgzX0xRQTBUalBxQUxoQ2V5UmtCRU1pcDkwOWw0c01nTDVLVXZlU1B6bjM4M0hoSHVlV1cwLXJuTHlZYXhLRXpyNEZIal8xVHpsR0RVSW5mMGZ5MXpUaE5Xc3A2UnhBMlU4elA0eUdWMXlOcEpBOVVNcnpBMHNlanI4WTFweG1OYVE?oc=5",
    "kaynak": "Google News"
+  },
+  {
+   "anahtar": "6d17109555cc3680",
+   "tarih": "2026-08-05",
+   "baslik": "Hoa Binh ve Pomina Steel 1,2 milyon mt kapasiteli yassı mamul tesisi genişletme projesinde iş birliği yapacak",
+   "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOSDFNSkkwMGl6TXdqLUhrVC1sU0pCdXZOYVdmbVVfVEdlZnFiT0VTVERCd2dWdnF5dTYxekdlSW1kNy1hZDNiVG1SQXFxd1lrNTRxX3JaV2RlY29mekw4VHVTSGZmU0NXUW9RU0lJcUcyN1pFY2RDb2ZzcUhNV3lSSzFuZEJxcFZ2Rm1Bbm42YjZ0SHFWMC0xU0JKQWdDcndDbUxQWUZFa0JjMzFuZzVkSm1waG9pRmtCSXM4MzVudkEzc2hHWkN1cEx6UHpIeVg3Nnc4OVRQbzlfQ2lYd29nbEpMN1JkZWxubXA5YW1TU09ocUVVLUtRdENDdGJwNUkzQXdHOHI0eGxkZw?oc=5",
+   "kaynak": "Google News"
   }
  ],
- "kaynak_katki": {},
+ "kaynak_katki": {
+  "Primetals Technologies": 1,
+  "SteelOrbis": 1,
+  "Google News": 1
+ },
  "window": [
   "2026-08-05",
   "2026-08-12"
  ],
  "period": "2026-W33",
- "generated": "2026-08-12 06:32 UTC",
+ "generated": "2026-08-12 08:29 UTC",
  "version": "3.0.0"
 }

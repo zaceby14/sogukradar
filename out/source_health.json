@@ -411,12 +411,8 @@
   "publisher": "The Canmaker",
   "url": "https://canmaker.com/news/",
   "kind": "dergi",
-  "durum": "html",
-  "baglanti": 13,
-  "besleme_bulundu": [
-   "https://canmaker.com/feed/",
-   "https://canmaker.com/comments/feed/"
-  ]
+  "durum": "erisilemedi",
+  "hata": "URLError: <urlopen error timed out>"
  },
  "kallanish": {
   "publisher": "Kallanish",
@@ -448,8 +444,9 @@
   "publisher": "SteelGuru",
   "url": "https://www.steelguru.com/",
   "kind": "dergi",
-  "durum": "erisilemedi",
-  "hata": "URLError: <urlopen error timed out>"
+  "durum": "bos_liste",
+  "baglanti": 0,
+  "besleme_bulundu": []
  },
  "magnetics": {
   "publisher": "Magnetics Magazine",
@@ -582,7 +579,7 @@
   "url": "https://news.google.com/rss/search?q=%22electrical%20steel%22%20plant%20OR%20line%20when%3A14d&hl=en-US&gl=US&ceid=US:en",
   "kind": "arama",
   "durum": "besleme",
-  "baglanti": 15
+  "baglanti": 14
  },
  "gnews_en7": {
   "publisher": "Google News",

@@ -1,6 +1,75 @@
 {
  "donem": "2026-W33",
- "duzelt": [],
- "cumle_yaz": [],
- "teknoloji_adaylari": []
+ "duzelt": [
+  {
+   "anahtar": "27b5ca990931fc28",
+   "baslik": "KG Steel Selects Primetals Technologies for PLTCM Revamp",
+   "url": "https://www.primetals.com/en/news/kg-steel-selects-primetals-technologies-for-pltcm-modernization-in-dangjin-korea/",
+   "eksik": [
+    "tarih?"
+   ],
+   "mevcut": {
+    "firma": "KG Steel",
+    "ulke": "G. Kore",
+    "hat": "Tandem soguk hadde (TCM)",
+    "asama": "Modernizasyon"
+   }
+  },
+  {
+   "anahtar": "05ee3ccfafa36b08",
+   "baslik": "KG Steel selects Primetals for Dangjin PLTCM upgrade and capacity expansion",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPTzBDNXBHbG12c0FwRUdCMUpMRVAtaFZUMkI4b2lzaTV1TzVicDNDelZjRjF2RDNNNERoaS1hQkxsSGhxb0NxM2V2Uzd0RFJ3Mm9OLVh5Y2dvbkhTTUdDWGlVN2I1NG9KM05lZWNDN3hBZ2dtUzdVbVphTGQxeG53akhyeWoya3JncjJrTy1FNkhKLUlGOU5COXZTZWRRa2xFQjhZOXZvYkRfSHZYZlJWU2ZUZG1uclNwQzRtbnMyVFUwWjNUV1ZySWxrektuWGJnUGpN?oc=5",
+   "eksik": [
+    "ulke"
+   ],
+   "mevcut": {
+    "firma": "KG Steel",
+    "ulke": "",
+    "hat": "Tandem soguk hadde (TCM)",
+    "asama": "Modernizasyon"
+   }
+  }
+ ],
+ "cumle_yaz": [
+  {
+   "anahtar": "ddd3161581c94d65",
+   "tarih": "2026-08-11",
+   "firma": "11 Aug Free KG Steel",
+   "ulke": "Turkiye",
+   "hat": "Tandem soguk hadde (TCM)",
+   "asama": "Modernizasyon",
+   "baslik": "11 Aug Free KG Steel selects Primetals for Dangjin PLTCM upgrade and capacity expansion",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/kg-steel-selects-primetals-for-dangjin-pltcm-upgrade-and-capacity-expansion-1470187.htm"
+  },
+  {
+   "anahtar": "27b5ca990931fc28",
+   "tarih": "2026-08-11",
+   "firma": "KG Steel",
+   "ulke": "G. Kore",
+   "hat": "Tandem soguk hadde (TCM)",
+   "asama": "Modernizasyon",
+   "baslik": "KG Steel Selects Primetals Technologies for PLTCM Revamp",
+   "url": "https://www.primetals.com/en/news/kg-steel-selects-primetals-technologies-for-pltcm-modernization-in-dangjin-korea/"
+  },
+  {
+   "anahtar": "05ee3ccfafa36b08",
+   "tarih": "2026-08-11",
+   "firma": "KG Steel",
+   "ulke": "",
+   "hat": "Tandem soguk hadde (TCM)",
+   "asama": "Modernizasyon",
+   "baslik": "KG Steel selects Primetals for Dangjin PLTCM upgrade and capacity expansion",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPTzBDNXBHbG12c0FwRUdCMUpMRVAtaFZUMkI4b2lzaTV1TzVicDNDelZjRjF2RDNNNERoaS1hQkxsSGhxb0NxM2V2Uzd0RFJ3Mm9OLVh5Y2dvbkhTTUdDWGlVN2I1NG9KM05lZWNDN3hBZ2dtUzdVbVphTGQxeG53akhyeWoya3JncjJrTy1FNkhKLUlGOU5COXZTZWRRa2xFQjhZOXZvYkRfSHZYZlJWU2ZUZG1uclNwQzRtbnMyVFUwWjNUV1ZySWxrektuWGJnUGpN?oc=5"
+  }
+ ],
+ "teknoloji_adaylari": [
+  {
+   "anahtar": "tech:c1e20af1f2d7d31b",
+   "tarih": "2026-06-15",
+   "baslik": "POSCO Partners with Hyundai Motor and 8 Organizations to Develop Next-Generation High-Efficiency Electrical Steel for EVs",
+   "url": "https://worldsteel.org/media/industry-member-news/2026-member-news/posco-partners-with-hyundai-motor-and-8-organizations-to-develop-next-generation-high-efficiency-electrical-steel-for-evs/",
+   "kaynak": "worldsteel",
+   "hat": "Elektrik celigi hatti"
+  }
+ ]
 }
