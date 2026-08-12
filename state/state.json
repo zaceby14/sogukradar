@@ -1,8 +1,7 @@
 {
  "events": {
-  "primetals|Asitleme hatti|Modernizasyon": "2026-08-11",
-  "primetals|Soguk hadde|Modernizasyon": "2026-08-12",
-  "primetals|Tandem soguk hadde (TCM)|Modernizasyon": "2026-08-11"
+  "primetals|hat|Tandem soguk hadde (TCM)|Modernizasyon": "2026-08-11",
+  "primetals|ulke|G. Kore|Modernizasyon": "2026-08-11"
  },
  "periods": [
   {
@@ -163,13 +162,35 @@
     "tekrar": 11
    },
    "uretim": "2026-08-12 08:55 UTC"
+  },
+  {
+   "donem": "2026-W33",
+   "satir": 1,
+   "stats": {
+    "erisilemeyen": 6,
+    "ham": 1504,
+    "kabul": 1,
+    "kapsam_disi": 1277,
+    "kaynak": 81,
+    "makale_acildi": 147,
+    "on_eleme_gecti": 167,
+    "pencere_disi": 152,
+    "tarihsiz_elendi": 61,
+    "tekrar": 13
+   },
+   "uretim": "2026-08-12 11:33 UTC"
   }
  ],
  "seen": {
-  "12ff956ae6e28c09": "2026-08-12",
-  "27b5ca990931fc28": "2026-08-11",
-  "88fbd0c6b1f6aac5": "2026-08-11"
+  "27b5ca990931fc28": "2026-08-11"
  },
+ "son_basliklar": [
+  {
+   "a": "Modernizasyon",
+   "b": "KG Steel Selects Primetals Technologies for PLTCM Revamp",
+   "t": "2026-08-11"
+  }
+ ],
  "source_health": {},
  "tech_seen": {
   "tech:c1e20af1f2d7d31b": "2026-06-15"

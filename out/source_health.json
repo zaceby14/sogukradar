@@ -331,7 +331,7 @@
   "url": "https://nucor.com/news",
   "kind": "uretici",
   "durum": "html",
-  "baglanti": 16,
+  "baglanti": 15,
   "besleme_bulundu": []
  },
  "baowu": {
@@ -423,7 +423,7 @@
   "url": "https://www.kallanish.com/en/news/steel/live",
   "kind": "dergi",
   "durum": "html",
-  "baglanti": 45,
+  "baglanti": 39,
   "besleme_bulundu": []
  },
  "gmk": {
@@ -487,7 +487,7 @@
   "url": "https://news.metal.com/en/ferrous-metals",
   "kind": "dergi",
   "durum": "html",
-  "baglanti": 33,
+  "baglanti": 34,
   "besleme_bulundu": []
  },
  "bigmint": {

@@ -18,61 +18,24 @@
     "tarih?"
    ],
    "anahtar": "27b5ca990931fc28",
-   "olay": "primetals|Tandem soguk hadde (TCM)|Modernizasyon",
-   "puan": 52.6
-  },
-  {
-   "tarih": "2026-08-12",
-   "firma": "Primetals Technologies",
-   "ulke": "G. Kore",
-   "hat": "Soguk hadde",
-   "asama": "Modernizasyon",
-   "tedarikci": "Primetals",
-   "kapasite": "",
-   "tutar": "USD 7.11",
-   "baslik": "Primetals Technologies to modernize KG Steel’s cold rolling mill in South Korea",
-   "kaynak": "Steel Radar",
-   "kaynak_id": "steelradar",
-   "url": "https://www.steelradar.com/en/haber/primetals-technologies-to-modernize-kg-steels-cold-rolling-mill-in-south-korea/",
-   "tarih_kaynagi": "metin",
-   "eksik": [
-    "tarih?"
+   "olaylar": [
+    "primetals|hat|Tandem soguk hadde (TCM)|Modernizasyon",
+    "primetals|ulke|G. Kore|Modernizasyon"
    ],
-   "anahtar": "12ff956ae6e28c09",
-   "olay": "primetals|Soguk hadde|Modernizasyon",
-   "puan": 52.0
-  },
-  {
-   "tarih": "2026-08-11",
-   "firma": "Primetals",
-   "ulke": "G. Kore",
-   "hat": "Asitleme hatti",
-   "asama": "Modernizasyon",
-   "tedarikci": "Primetals",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "Primetals to modernise Korean pickling line",
-   "kaynak": "Steel Times International",
-   "kaynak_id": "gnews_en2",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbWRCZVVIdU8wNDh0M0pCTGlsTWl1U2pqSm5ielo4OEpYYWFuenYzZkRQTGphRzF2WDlQT3VCb2dHc015dDh2eXBDNVhEaUdRLTFFanBMMVhQNWZRS2pPYjdEZFduSlR0VTFmODM4cVhVSDdUMExNQWdRSU9MMXhpaTdLaFE?oc=5",
-   "tarih_kaynagi": "rss",
-   "eksik": [],
-   "anahtar": "88fbd0c6b1f6aac5",
-   "olay": "primetals|Asitleme hatti|Modernizasyon",
-   "puan": 49.6
+   "puan": 52.6
   }
  ],
  "stats": {
   "kaynak": 81,
   "erisilemeyen": 6,
-  "ham": 1510,
+  "ham": 1504,
   "on_eleme_gecti": 167,
   "makale_acildi": 147,
   "tarihsiz_elendi": 61,
   "pencere_disi": 152,
-  "kapsam_disi": 1283,
-  "tekrar": 11,
-  "kabul": 3
+  "kapsam_disi": 1277,
+  "tekrar": 13,
+  "kabul": 1
  },
  "unreachable": [
   [
@@ -218,15 +181,13 @@
   }
  ],
  "kaynak_katki": {
-  "Primetals Technologies": 1,
-  "Steel Radar": 1,
-  "Google News": 1
+  "Primetals Technologies": 1
  },
  "window": [
   "2026-08-05",
   "2026-08-12"
  ],
  "period": "2026-W33",
- "generated": "2026-08-12 08:55 UTC",
+ "generated": "2026-08-12 11:33 UTC",
  "version": "3.0.0"
 }
