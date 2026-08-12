@@ -1,0 +1,6 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Test ciktilari
+tests/e2e_rapor.html
