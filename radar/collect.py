@@ -76,7 +76,10 @@ def _items_from_source(s, log):
         return [], (info.get("hata") or "HTTP %s" % info.get("status"))
 
     if feeds.looks_like_feed(text):
-        return feeds.parse_feed(text)[:MAX_LINKS_PER_SOURCE], None
+        items = feeds.parse_feed(text)[:MAX_LINKS_PER_SOURCE]
+        for it in items:
+            it["from_feed"] = True
+        return items, None
 
     # HTML: once sayfada gomulu besleme var mi bak (tarih yapisal gelsin)
     for f in htmlx.discover_feeds(text, info["final"])[:2]:
@@ -85,6 +88,8 @@ def _items_from_source(s, log):
             it = feeds.parse_feed(t2)
             if it:
                 log("    (besleme kullanildi: %s)" % f)
+                for x in it:
+                    x["from_feed"] = True
                 return it[:MAX_LINKS_PER_SOURCE], None
 
     links = htmlx.parse_listing(text, info["final"], max_items=MAX_LINKS_PER_SOURCE)
@@ -113,13 +118,15 @@ def collect(today=None, log=print):
         6 aya kadar eski olabilir, ama daha once kosede cikmis olamaz."""
         if date_iso < tech_floor:
             return
-        blob = it["title"] + " . " + (text or "")[:700]
-        if taxonomy.match_stage(it["title"]) != "Teknoloji" \
-                and taxonomy.match_stage(blob) != "Teknoloji":
+        # YALNIZCA BASLIGA bakilir: govdedeki "innovation" gibi pazarlama
+        # sozcukleri bir yatirim kararini teknoloji sanmamiza yol aciyordu
+        # (2026-08-12, USS Gary teneke haberi).
+        if taxonomy.match_stage(it["title"]) != "Teknoloji":
             return
         ok_scope, _ = taxonomy.in_scope(it["title"], (text or "")[:700])
         if not ok_scope:
             return
+        blob = it["title"] + " . " + (text or "")[:700]
         key = "tech:" + state.norm_key(it["title"], it["url"])
         if key in tech_seen:
             return
@@ -178,20 +185,31 @@ def collect(today=None, log=print):
         stats["on_eleme_gecti"] += len(pre)
 
         for it in pre:
-            if stats["makale_acildi"] >= MAX_ARTICLE_FETCH:
-                log("    (makale acma limiti doldu)")
-                break
-            ok, page, info = http.fetch(it["url"])
-            date_iso, src = None, "yok"
-            text = it.get("summary", "")
-            if ok:
-                stats["makale_acildi"] += 1
-                doc = htmlx.parse_article(page)
-                date_iso, src = dates.extract_article_date(doc, info["final"], df, today)
-                text = doc.get("text", "")[:3000] or text
-            if not date_iso:
-                date_iso = it.get("_rough")
-                src = "liste" if date_iso else "yok"
+            if s["kind"] == "arama":
+                # Google News: baglanti yonlendirmedir, makale ACILMAZ;
+                # tarih beslemeden yapisal gelir. Baslik "Baslik - Yayinci".
+                if " - " in it["title"]:
+                    t2, _, pub = it["title"].rpartition(" - ")
+                    if t2 and len(pub) < 45:
+                        it["title"], it["_pub"] = t2.strip(), pub.strip()
+                date_iso, src = it.get("_rough"), "rss"
+                text = it.get("summary", "")
+            else:
+                if stats["makale_acildi"] >= MAX_ARTICLE_FETCH:
+                    log("    (makale acma limiti doldu)")
+                    break
+                ok, page, info = http.fetch(it["url"])
+                date_iso, src = None, "yok"
+                text = it.get("summary", "")
+                if ok:
+                    stats["makale_acildi"] += 1
+                    doc = htmlx.parse_article(page)
+                    date_iso, src = dates.extract_article_date(doc, info["final"], df, today)
+                    text = doc.get("text", "")[:3000] or text
+                if not date_iso:
+                    date_iso = it.get("_rough")
+                    # Beslemeden gelen tarih yapisaldir - "tarih?" isareti gerekmez
+                    src = ("rss" if it.get("from_feed") else "liste") if date_iso else "yok"
             if not date_iso:
                 drop("tarihsiz_elendi", it)   # TARIH YOKSA HABER YOK
                 continue
@@ -220,9 +238,20 @@ def collect(today=None, log=print):
 
             row = classify.build({
                 "title": it["title"], "url": it["url"], "date": date_iso,
-                "publisher": s["publisher"], "source_id": s["id"],
+                "publisher": it.get("_pub") or s["publisher"], "source_id": s["id"],
                 "text": text, "date_src": src,
             })
+            # Hat VE asama belirsizse bu cekirdek tablo satiri degildir;
+            # dikkat cekense "yakin takip"e iner, degilse elenir
+            # (2026-08-12: Hydnum destek haberi boyle bir satirdi).
+            if row["hat"] == "Belirsiz" and row["asama"] == "Belirsiz":
+                if it.get("_watch") and len(watch) < 6:
+                    watch.append({"anahtar": key, "tarih": date_iso,
+                                  "baslik": it["title"], "url": it["url"],
+                                  "kaynak": it.get("_pub") or s["publisher"]})
+                    seen_watch.add(key)
+                drop("kapsam_disi", it, "hat+asama belirsiz")
+                continue
             row["anahtar"] = key
             if src in ("liste", "url", "metin"):
                 # yapisal olmayan tarih: rapora girer ama bana DOGRULAT diye isaretlenir

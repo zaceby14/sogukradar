@@ -162,6 +162,18 @@ def test_compose_ve_mail():
        False, "watch: borsa haberi girmez")
 
 
+def test_w33b_regresyon():
+    """2026-08-12 kosusunun iki hatasi tekrarlanmasin."""
+    # USS Gary restart karari teknoloji DEGILDIR (baslikta teknoloji fiili yok)
+    eq(taxonomy.match_stage("U. S. Steel Announces Plans to Restart Gary Tin Mill")
+       == "Teknoloji", False, "restart karari teknoloji sayilmamali")
+    # Google News basligi "Baslik - Yayinci" ayristirilabilmeli
+    t = "Danieli wins cold mill order in Vietnam - Steel Times International"
+    b, _, pub = t.rpartition(" - ")
+    eq((b, pub), ("Danieli wins cold mill order in Vietnam",
+                  "Steel Times International"), "gnews baslik ayrimi")
+
+
 def test_line_and_stage():
     eq(taxonomy.match_line(
         "JVML awards electrical steel annealing and pickling lines to John Cockerill"),
@@ -235,7 +247,8 @@ def test_build_row():
 def run():
     for fn in (test_dates, test_article_date_chain, test_firm, test_scope,
                test_line_and_stage, test_listing_parser, test_feed_parser,
-               test_state, test_build_row, test_w33_regresyon, test_compose_ve_mail):
+               test_state, test_build_row, test_w33_regresyon, test_w33b_regresyon,
+               test_compose_ve_mail):
         try:
             fn()
         except Exception as e:

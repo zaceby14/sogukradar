@@ -40,7 +40,7 @@ LINE_W = {
     "Belirsiz": 1,
 }
 
-KIND_W = {"oem": 8, "uretici": 7, "dergi": 5, "kurum": 4}
+KIND_W = {"oem": 8, "uretici": 7, "dergi": 5, "kurum": 4, "arama": 5}
 
 
 def score(row, source_kind="dergi", today=None):
