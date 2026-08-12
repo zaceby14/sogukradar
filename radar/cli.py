@@ -102,6 +102,8 @@ def cmd_run(a):
         st = state.load()
         for r in payload["rows"]:
             st["seen"][r["anahtar"]] = r["tarih"]
+            if r.get("olay"):
+                st["events"][r["olay"]] = r["tarih"]
         st["periods"] = (st.get("periods") or []) + [{
             "donem": per, "satir": len(payload["rows"]),
             "uretim": payload["generated"], "stats": payload["stats"]}]

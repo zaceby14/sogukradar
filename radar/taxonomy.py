@@ -79,6 +79,7 @@ EVENT_WORDS = [
     (r"first coil|produces? first|produced first|begins? production|starts? production|"
      r"start[- ]?up|starts? up|commission(s|ed|ing)\b|inaugurat|officially open|opens\b|"
      r"rolls? first|first production|goes on stream|hands? over|handover|"
+     r"launch(es|ed)? (of )?(commercial )?production|production launch|"
      r"ilk bobin|ilk uretim|ilk urun|devreye al|devreye gir|uretime basla|hizmete gir|"
      r"acilisi yapil|faaliyete gec", "Ilk urun"),
     (r"cold test|hot test|trial run|test run|commissioning phase|under test|"
@@ -102,7 +103,7 @@ EVENT_WORDS = [
 HARD_REJECT = re.compile(
     r"("
     r"price(s|d|ing)?\b|pricing|tariff|anti[- ]dumping|countervail|safeguard|quota|"
-    r"trade case|duty|duties|market (report|outlook|update|share)|"
+    r"trade case|duty|duties|\bimport(s)?\b|\bexport(s)?\b|considers? curbs|curbs on|market (report|outlook|update|share|size|research|forecast)|\bcagr\b|"
     r"quarterly result|annual result|earnings|revenue|profit|loss|ebitda|dividend|"
     r"share price|stock|ipo|bond|financial results|"
     # sicak hadde ve oncesi
@@ -305,11 +306,28 @@ WATCH_BIG = re.compile(r"(milyar|milyon|billion|million)")
 WATCH_STEEL = re.compile(r"(celik|steel|sac\b|galvaniz|teneke)")
 
 
+# Mutlak engel: pazar arastirmasi/rapor satisi basliklari hicbir kosulda
+# dikkat cekenlere giremez ("Market Outlook 2026-2031... USD Billion" vakasi).
+WATCH_SPAM = re.compile(
+    r"(market (outlook|size|research|report|forecast)|\bcagr\b|"
+    r"forecast (to|20)|research report|sample report|\bwebinar\b)")
+
+
 def watch_worthy(title):
     t = fold(title)
+    if WATCH_SPAM.search(t):
+        return False
     if WATCH_BLOCK.search(t) and not (WATCH_BIG.search(t) and WATCH_INVEST.search(t)):
         return False
     if WATCH_TR.search(t) and WATCH_INVEST.search(t):
         return True
     return bool(WATCH_BIG.search(t) and WATCH_INVEST.search(t)
                 and WATCH_STEEL.search(t))
+
+
+# Google News gibi genel aramalardan gelen basliklarda celik baglami sarti:
+# "cinnamon roll shop" gibi es-sesli tuzaklari eler.
+STEEL_CONTEXT = re.compile(
+    r"(steel|celik|hadde|\bcoil\b|\bstrip\b|galvaniz|galvanis|tinplate|teneke|"
+    r"pickl|anneal|tavlama|asitleme|\bsac\b|\bmill\b|metallurg|metalurji|"
+    r"\bcgl\b|\bpltcm\b|\btcm\b)")

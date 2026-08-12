@@ -112,6 +112,18 @@ def collect(today=None, log=print):
     unreachable, rows, kinds, rejects, tech_pool = [], [], {}, [], []
     watch, seen_watch, katki = [], set(), {}
     tech_seen = st.get("tech_seen", {})
+    # Ayni kosuda ayni haberin ikinci kopyasi (iki gnews sorgusu ayni sonucu
+    # dondurur) ve AYNI OLAYIN farkli baslikli varyanti icin iki savunma:
+    run_keys = set()
+    ev_state = st.get("events", {})
+    run_events = set()
+
+    def ev_key(row):
+        """Olay parmak izi: tedarikci (yoksa firma) + ulke + asama.
+        'KG Steel selects Primetals...' ile 'Primetals to modernise Korean
+        pickling line' ayni olaydir - baslik farkli, parmak izi ayni."""
+        who = taxonomy.fold(row.get("tedarikci") or row.get("firma") or "")
+        return who + "|" + (row.get("ulke") or "") + "|" + (row.get("asama") or "")
 
     def maybe_tech(it, date_iso, text, publisher):
         """Teknoloji kosesi adayi mi? Ana pencereden BAGIMSIZ calisir:
@@ -192,6 +204,10 @@ def collect(today=None, log=print):
                     t2, _, pub = it["title"].rpartition(" - ")
                     if t2 and len(pub) < 45:
                         it["title"], it["_pub"] = t2.strip(), pub.strip()
+                # Celik baglami sarti: "cinnamon roll shop" tuzagi (2026-08-12)
+                if not taxonomy.STEEL_CONTEXT.search(taxonomy.fold(it["title"])):
+                    drop("kapsam_disi", it, "celik baglami yok (arama)")
+                    continue
                 date_iso, src = it.get("_rough"), "rss"
                 text = it.get("summary", "")
             else:
@@ -232,7 +248,7 @@ def collect(today=None, log=print):
                 drop("kapsam_disi", it, why)
                 continue
 
-            if key in seen:
+            if key in seen or key in run_keys:
                 drop("tekrar", it)
                 continue
 
@@ -252,7 +268,15 @@ def collect(today=None, log=print):
                     seen_watch.add(key)
                 drop("kapsam_disi", it, "hat+asama belirsiz")
                 continue
+            ek = ev_key(row)
+            if ek in run_events or ek in ev_state:
+                drop("tekrar", it, "ayni olayin varyanti: " + ek)
+                continue
             row["anahtar"] = key
+            row["olay"] = ek
+            run_keys.add(key)
+            if row.get("tedarikci") or row.get("firma"):
+                run_events.add(ek)
             if src in ("liste", "url", "metin"):
                 # yapisal olmayan tarih: rapora girer ama bana DOGRULAT diye isaretlenir
                 row["eksik"] = list(row["eksik"]) + ["tarih?"]

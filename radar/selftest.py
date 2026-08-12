@@ -174,6 +174,29 @@ def test_w33b_regresyon():
                   "Steel Times International"), "gnews baslik ayrimi")
 
 
+def test_w33c_regresyon():
+    """2026-08-12 aksam kosusunun hatalari: cift haber, tarcinli corek,
+    ithalat kisiti haberi, 'launches production' teknoloji sanilmasi."""
+    from . import compose
+    eq(taxonomy.match_stage(
+        "Tosyali Algérie Launches Production at Its New Cold Rolling Complex"),
+       "Ilk urun", "'launches production' = ilk urun")
+    eq(taxonomy.in_scope(
+        "EU Considers Curbs on Electrical Steel Imports Amid Industry Pressures")[0],
+       False, "ithalat kisiti haberi kapsam disi")
+    eq(taxonomy.watch_worthy(
+        "Electrical Steel Market Outlook (2026-2031) Forecast USD 52 Billion Capacity"),
+       False, "pazar arastirmasi spam'i dikkat cekenlere giremez")
+    eq(bool(taxonomy.STEEL_CONTEXT.search(taxonomy.fold(
+        "Divilma Headed to Orlando for New Cinnamon Roll Shop"))),
+       False, "tarcinli corek dukkani celik degildir")
+    s = compose.row_sentence({"firma": "Primetals", "tedarikci": "Primetals",
+                              "hat": "Asitleme hatti", "asama": "Modernizasyon",
+                              "baslik": "x"})
+    eq("Primetals'e verdi" in s, False, "kendi kendine ihale cumlesi yasak")
+    eq("ustlendi" in s, True, "tedarikci bakis acisiyla yazilmali")
+
+
 def test_line_and_stage():
     eq(taxonomy.match_line(
         "JVML awards electrical steel annealing and pickling lines to John Cockerill"),
@@ -248,7 +271,7 @@ def run():
     for fn in (test_dates, test_article_date_chain, test_firm, test_scope,
                test_line_and_stage, test_listing_parser, test_feed_parser,
                test_state, test_build_row, test_w33_regresyon, test_w33b_regresyon,
-               test_compose_ve_mail):
+               test_w33c_regresyon, test_compose_ve_mail):
         try:
             fn()
         except Exception as e:

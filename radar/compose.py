@@ -40,12 +40,22 @@ def row_sentence(r):
     hat = (r.get("hat") or "hat").lower()
     asama = r.get("asama") or "Belirsiz"
     ted = r.get("tedarikci") or ""
+    # Ozne tedarikcinin kendisiyse "X isini X'e verdi" denmez (2026-08-12)
+    self_award = ted and (ted.lower() in firma.lower() or firma.lower() in ted.lower())
     if asama == "Sozlesme":
-        s = ("%s, %s yatirimini %s'e siparis etti" % (firma, hat, ted)) if ted \
-            else "%s, %s icin siparis verdi" % (firma, hat)
+        if self_award:
+            s = "%s, %s icin yeni bir sozlesme aldi" % (ted, hat)
+        elif ted:
+            s = "%s, %s yatirimini %s'e siparis etti" % (firma, hat, ted)
+        else:
+            s = "%s, %s icin siparis verdi" % (firma, hat)
     elif asama == "Modernizasyon":
-        s = ("%s, %s yenileme isini %s'e verdi" % (firma, hat, ted)) if ted \
-            else "%s, %s yenileme isini baslatti" % (firma, hat)
+        if self_award:
+            s = "%s, %s yenileme isini ustlendi" % (ted, hat)
+        elif ted:
+            s = "%s, %s yenileme isini %s'e verdi" % (firma, hat, ted)
+        else:
+            s = "%s, %s yenileme isini baslatti" % (firma, hat)
     elif asama in STAGE_PHRASE:
         s = STAGE_PHRASE[asama] % (firma, hat)
     else:

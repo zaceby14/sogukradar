@@ -54,6 +54,9 @@ def load():
     # Teknoloji kosesinde tanitilmis konular: {slug: tarih}. Bir teknoloji
     # bir kez tanitilir, bir daha kosede cikmaz.
     st.setdefault("tech_seen", {})
+    # Olay parmak izleri: {tedarikci|ulke|asama: tarih}. Ayni olayin farkli
+    # baslikli varyanti (baska yayin, baska dil) ikinci kez rapora giremez.
+    st.setdefault("events", {})
     st["version"] = VERSION
     return st
 
@@ -65,10 +68,15 @@ def save(st):
     os.replace(tmp, STATE_FILE)
 
 
-def prune(st, keep=1500):
+def prune(st, keep=1500, event_days=120):
     seen = st.get("seen", {})
-    if len(seen) <= keep:
-        return st
-    items = sorted(seen.items(), key=lambda kv: kv[1] or "", reverse=True)[:keep]
-    st["seen"] = dict(items)
+    if len(seen) > keep:
+        items = sorted(seen.items(), key=lambda kv: kv[1] or "", reverse=True)[:keep]
+        st["seen"] = dict(items)
+    # olay kayitlari 120 gunden eskiyse dusurulur: ayni tesiste YENI bir
+    # modernizasyon mesru sekilde tekrar haber olabilir
+    import datetime as _dt
+    cut = (_dt.date.today() - _dt.timedelta(days=event_days)).isoformat()
+    st["events"] = {k: v for k, v in st.get("events", {}).items()
+                    if (v or "9999") >= cut}
     return st
