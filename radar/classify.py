@@ -8,6 +8,8 @@ import re
 
 from . import taxonomy as tx
 
+_SRC_TR = {"TR": "Turkiye", "IN": "Hindistan", "CN": "Cin", "GB": "Birlesik Krallik", "US": "ABD", "UA": "Ukrayna", "TW": "Tayvan"}
+
 VERB = (r"(?:awards?|awarded|orders?|selects?|selected|contracts?|chooses?|picks?|taps?|"
         r"commissions?|commissioned|inaugurates?|launch(?:es|ed)?|starts?|started|begins?|"
         r"began|completes?|completed|produces?|produced|secures?|secured|wins?|won|"
@@ -123,7 +125,12 @@ def build(cand):
     stage = tx.match_stage(title)
     if stage == "Belirsiz":
         stage = tx.match_stage(blob)
-    country = tx.match_country(blob)
+    country = tx.match_country(title)
+    if not country:
+        country = tx.match_country(body)
+        if (country and cand.get("source_kind") in ("dergi", "kurum", "arama")
+                and country == _SRC_TR.get(cand.get("source_country", ""), "")):
+            country = ""
     supplier = detect_supplier(blob)
     firm = detect_firm(title, fallback="")
     if supplier and firm.lower().startswith(supplier.lower()[:6]):

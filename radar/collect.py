@@ -123,7 +123,7 @@ def collect(today=None, log=print):
         'KG Steel selects Primetals...' ile 'Primetals to modernise Korean
         pickling line' ayni olaydir - baslik farkli, parmak izi ayni."""
         who = taxonomy.fold(row.get("tedarikci") or row.get("firma") or "")
-        return who + "|" + (row.get("ulke") or "") + "|" + (row.get("asama") or "")
+        return who + "|" + (row.get("hat") or "") + "|" + (row.get("asama") or "")
 
     def maybe_tech(it, date_iso, text, publisher):
         """Teknoloji kosesi adayi mi? Ana pencereden BAGIMSIZ calisir:
@@ -240,7 +240,8 @@ def collect(today=None, log=print):
             if not ok_scope:
                 # Cekirdek kapsama girmiyor ama dikkat cekici yatirim haberi ise
                 # ayri "yakin takip" bolumune alinir - ana tabloyu kirletmez.
-                if it.get("_watch") and key not in seen and len(watch) < 6:
+                if (it.get("_watch") and key not in seen and len(watch) < 6
+                        and not any(taxonomy.similar_titles(it["title"], w["baslik"]) for w in watch)):
                     watch.append({"anahtar": key, "tarih": date_iso,
                                   "baslik": it["title"], "url": it["url"],
                                   "kaynak": s["publisher"]})
@@ -256,12 +257,14 @@ def collect(today=None, log=print):
                 "title": it["title"], "url": it["url"], "date": date_iso,
                 "publisher": it.get("_pub") or s["publisher"], "source_id": s["id"],
                 "text": text, "date_src": src,
+                "source_kind": s["kind"], "source_country": s.get("country", ""),
             })
             # Hat VE asama belirsizse bu cekirdek tablo satiri degildir;
             # dikkat cekense "yakin takip"e iner, degilse elenir
             # (2026-08-12: Hydnum destek haberi boyle bir satirdi).
             if row["hat"] == "Belirsiz" and row["asama"] == "Belirsiz":
-                if it.get("_watch") and len(watch) < 6:
+                if (it.get("_watch") and len(watch) < 6
+                        and not any(taxonomy.similar_titles(it["title"], w["baslik"]) for w in watch)):
                     watch.append({"anahtar": key, "tarih": date_iso,
                                   "baslik": it["title"], "url": it["url"],
                                   "kaynak": it.get("_pub") or s["publisher"]})

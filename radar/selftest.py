@@ -117,6 +117,18 @@ def test_w33_regresyon():
        "Primetals Technologies", "fiil musteri adi sanilmamali")
 
 
+def test_w33d_regresyon():
+    eq(htmlx._trim_title("11 Aug Free KG Steel selects Primetals for Dangjin PLTCM upgrade and capacity expansion"),
+       "KG Steel selects Primetals for Dangjin PLTCM upgrade and capacity expansion",
+       "bastaki tarih+Free etiketi atilmali")
+    eq(taxonomy.similar_titles(
+        "İspanya, Hydnum Steel'in Yeşil Çelik Tesisine 150 Milyon Euro Destek Sağlayacak",
+        "Hydnum Steel, İber Yarımadası'nın ilk temiz çelik tesisi için 150 milyon euroluk yatırım taahhüdü aldı"),
+       True, "Hydnum varyantlari ayni haber")
+    eq(taxonomy.similar_titles("Danieli wins cold mill order in Vietnam",
+        "Primetals to modernise Korean pickling line"), False, "farkli haberler benzer degil")
+
+
 def test_compose_ve_mail():
     from . import compose, render
     rows = [
@@ -275,7 +287,7 @@ def run():
     for fn in (test_dates, test_article_date_chain, test_firm, test_scope,
                test_line_and_stage, test_listing_parser, test_feed_parser,
                test_state, test_build_row, test_w33_regresyon, test_w33b_regresyon,
-               test_w33c_regresyon, test_compose_ve_mail):
+               test_w33c_regresyon, test_w33d_regresyon, test_compose_ve_mail):
         try:
             fn()
         except Exception as e:

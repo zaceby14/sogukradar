@@ -207,6 +207,21 @@ SOURCES = [
     dict(id="gnews_tr2", publisher="Google News",           kind="arama", country="TR",
          url="https://news.google.com/rss/search?q=%22yass%C4%B1%20%C3%A7elik%22%20yat%C4%B1r%C4%B1m%20when%3A14d&hl=tr&gl=TR&ceid=TR:tr",
          rss="https://news.google.com/rss/search?q=%22yass%C4%B1%20%C3%A7elik%22%20yat%C4%B1r%C4%B1m%20when%3A14d&hl=tr&gl=TR&ceid=TR:tr", verified=False, lang="tr"),
+    dict(id="gnews_sup0", publisher="Google News", kind="arama", country="XX",
+         url="https://news.google.com/rss/search?q=%22John%20Cockerill%22%20steel%20when%3A14d&hl=en-US&gl=US&ceid=US:en",
+         rss="https://news.google.com/rss/search?q=%22John%20Cockerill%22%20steel%20when%3A14d&hl=en-US&gl=US&ceid=US:en", verified=False),
+    dict(id="gnews_sup1", publisher="Google News", kind="arama", country="XX",
+         url="https://news.google.com/rss/search?q=%22SMS%20group%22%20steel%20mill%20when%3A14d&hl=en-US&gl=US&ceid=US:en",
+         rss="https://news.google.com/rss/search?q=%22SMS%20group%22%20steel%20mill%20when%3A14d&hl=en-US&gl=US&ceid=US:en", verified=False),
+    dict(id="gnews_sup2", publisher="Google News", kind="arama", country="XX",
+         url="https://news.google.com/rss/search?q=%22Primetals%22%20when%3A14d&hl=en-US&gl=US&ceid=US:en",
+         rss="https://news.google.com/rss/search?q=%22Primetals%22%20when%3A14d&hl=en-US&gl=US&ceid=US:en", verified=False),
+    dict(id="gnews_sup3", publisher="Google News", kind="arama", country="XX",
+         url="https://news.google.com/rss/search?q=%22Danieli%22%20steel%20when%3A14d&hl=en-US&gl=US&ceid=US:en",
+         rss="https://news.google.com/rss/search?q=%22Danieli%22%20steel%20when%3A14d&hl=en-US&gl=US&ceid=US:en", verified=False),
+    dict(id="gnews_sup4", publisher="Google News", kind="arama", country="XX",
+         url="https://news.google.com/rss/search?q=%22Andritz%22%20steel%20strip%20when%3A14d&hl=en-US&gl=US&ceid=US:en",
+         rss="https://news.google.com/rss/search?q=%22Andritz%22%20steel%20strip%20when%3A14d&hl=en-US&gl=US&ceid=US:en", verified=False),
 ]
 
 KNOWN_GAPS = [

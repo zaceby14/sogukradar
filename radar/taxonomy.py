@@ -325,6 +325,20 @@ def watch_worthy(title):
                 and WATCH_STEEL.search(t))
 
 
+_WATCH_STOP = {"ve","ile","icin","bir","the","and","for","with","its","yeni","new","steel","celik","milyon","milyar","million","billion","euro","dolar","usd","ton","mt"}
+_COMMON6 = {"turkiye","almanya","hindistan","yatirim","kapasite","tesisi","tesisine","uretim","uretimi","investment","capacity","production","galvaniz","tinplate","annealing","pickling","rolling","modern"}
+def title_tokens(title):
+    return {w for w in fold(title).replace("'", " ").split() if len(w) > 3 and w not in _WATCH_STOP}
+def similar_titles(a, b, esik=0.5):
+    ta, tb = title_tokens(a), title_tokens(b)
+    if not ta or not tb: return False
+    for w in ta & tb:
+        if len(w) >= 6 and w not in _COMMON6: return True
+    pa = {w[:5] for w in ta}; pb = {w[:5] for w in tb}
+    ortak = len(pa & pb)
+    return ortak >= 3 or (ortak / min(len(pa), len(pb))) >= esik
+
+
 # Google News gibi genel aramalardan gelen basliklarda celik baglami sarti:
 # "cinnamon roll shop" gibi es-sesli tuzaklari eler.
 STEEL_CONTEXT = re.compile(
