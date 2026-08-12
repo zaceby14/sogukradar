@@ -16,31 +16,21 @@
    }
   },
   {
-   "anahtar": "05ee3ccfafa36b08",
-   "baslik": "KG Steel selects Primetals for Dangjin PLTCM upgrade and capacity expansion",
-   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPTzBDNXBHbG12c0FwRUdCMUpMRVAtaFZUMkI4b2lzaTV1TzVicDNDelZjRjF2RDNNNERoaS1hQkxsSGhxb0NxM2V2Uzd0RFJ3Mm9OLVh5Y2dvbkhTTUdDWGlVN2I1NG9KM05lZWNDN3hBZ2dtUzdVbVphTGQxeG53akhyeWoya3JncjJrTy1FNkhKLUlGOU5COXZTZWRRa2xFQjhZOXZvYkRfSHZYZlJWU2ZUZG1uclNwQzRtbnMyVFUwWjNUV1ZySWxrektuWGJnUGpN?oc=5",
+   "anahtar": "12ff956ae6e28c09",
+   "baslik": "Primetals Technologies to modernize KG Steel’s cold rolling mill in South Korea",
+   "url": "https://www.steelradar.com/en/haber/primetals-technologies-to-modernize-kg-steels-cold-rolling-mill-in-south-korea/",
    "eksik": [
-    "ulke"
+    "tarih?"
    ],
    "mevcut": {
-    "firma": "KG Steel",
-    "ulke": "",
-    "hat": "Tandem soguk hadde (TCM)",
+    "firma": "Primetals Technologies",
+    "ulke": "G. Kore",
+    "hat": "Soguk hadde",
     "asama": "Modernizasyon"
    }
   }
  ],
  "cumle_yaz": [
-  {
-   "anahtar": "ddd3161581c94d65",
-   "tarih": "2026-08-11",
-   "firma": "11 Aug Free KG Steel",
-   "ulke": "Turkiye",
-   "hat": "Tandem soguk hadde (TCM)",
-   "asama": "Modernizasyon",
-   "baslik": "11 Aug Free KG Steel selects Primetals for Dangjin PLTCM upgrade and capacity expansion",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/kg-steel-selects-primetals-for-dangjin-pltcm-upgrade-and-capacity-expansion-1470187.htm"
-  },
   {
    "anahtar": "27b5ca990931fc28",
    "tarih": "2026-08-11",
@@ -52,14 +42,24 @@
    "url": "https://www.primetals.com/en/news/kg-steel-selects-primetals-technologies-for-pltcm-modernization-in-dangjin-korea/"
   },
   {
-   "anahtar": "05ee3ccfafa36b08",
-   "tarih": "2026-08-11",
-   "firma": "KG Steel",
-   "ulke": "",
-   "hat": "Tandem soguk hadde (TCM)",
+   "anahtar": "12ff956ae6e28c09",
+   "tarih": "2026-08-12",
+   "firma": "Primetals Technologies",
+   "ulke": "G. Kore",
+   "hat": "Soguk hadde",
    "asama": "Modernizasyon",
-   "baslik": "KG Steel selects Primetals for Dangjin PLTCM upgrade and capacity expansion",
-   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPTzBDNXBHbG12c0FwRUdCMUpMRVAtaFZUMkI4b2lzaTV1TzVicDNDelZjRjF2RDNNNERoaS1hQkxsSGhxb0NxM2V2Uzd0RFJ3Mm9OLVh5Y2dvbkhTTUdDWGlVN2I1NG9KM05lZWNDN3hBZ2dtUzdVbVphTGQxeG53akhyeWoya3JncjJrTy1FNkhKLUlGOU5COXZTZWRRa2xFQjhZOXZvYkRfSHZYZlJWU2ZUZG1uclNwQzRtbnMyVFUwWjNUV1ZySWxrektuWGJnUGpN?oc=5"
+   "baslik": "Primetals Technologies to modernize KG Steel’s cold rolling mill in South Korea",
+   "url": "https://www.steelradar.com/en/haber/primetals-technologies-to-modernize-kg-steels-cold-rolling-mill-in-south-korea/"
+  },
+  {
+   "anahtar": "88fbd0c6b1f6aac5",
+   "tarih": "2026-08-11",
+   "firma": "Primetals",
+   "ulke": "G. Kore",
+   "hat": "Asitleme hatti",
+   "asama": "Modernizasyon",
+   "baslik": "Primetals to modernise Korean pickling line",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbWRCZVVIdU8wNDh0M0pCTGlsTWl1U2pqSm5ielo4OEpYYWFuenYzZkRQTGphRzF2WDlQT3VCb2dHc015dDh2eXBDNVhEaUdRLTFFanBMMVhQNWZRS2pPYjdEZFduSlR0VTFmODM4cVhVSDdUMExNQWdRSU9MMXhpaTdLaFE?oc=5"
   }
  ],
  "teknoloji_adaylari": [

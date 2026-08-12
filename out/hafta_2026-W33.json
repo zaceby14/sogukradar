@@ -2,25 +2,6 @@
  "rows": [
   {
    "tarih": "2026-08-11",
-   "firma": "11 Aug Free KG Steel",
-   "ulke": "Turkiye",
-   "hat": "Tandem soguk hadde (TCM)",
-   "asama": "Modernizasyon",
-   "tedarikci": "Primetals",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "11 Aug Free KG Steel selects Primetals for Dangjin PLTCM upgrade and capacity expansion",
-   "kaynak": "SteelOrbis",
-   "kaynak_id": "steelorbis",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/kg-steel-selects-primetals-for-dangjin-pltcm-upgrade-and-capacity-expansion-1470187.htm",
-   "tarih_kaynagi": "json-ld",
-   "eksik": [],
-   "anahtar": "ddd3161581c94d65",
-   "olay": "primetals|Turkiye|Modernizasyon",
-   "puan": 60.6
-  },
-  {
-   "tarih": "2026-08-11",
    "firma": "KG Steel",
    "ulke": "G. Kore",
    "hat": "Tandem soguk hadde (TCM)",
@@ -37,41 +18,60 @@
     "tarih?"
    ],
    "anahtar": "27b5ca990931fc28",
-   "olay": "primetals|G. Kore|Modernizasyon",
+   "olay": "primetals|Tandem soguk hadde (TCM)|Modernizasyon",
    "puan": 52.6
   },
   {
+   "tarih": "2026-08-12",
+   "firma": "Primetals Technologies",
+   "ulke": "G. Kore",
+   "hat": "Soguk hadde",
+   "asama": "Modernizasyon",
+   "tedarikci": "Primetals",
+   "kapasite": "",
+   "tutar": "USD 7.11",
+   "baslik": "Primetals Technologies to modernize KG Steel’s cold rolling mill in South Korea",
+   "kaynak": "Steel Radar",
+   "kaynak_id": "steelradar",
+   "url": "https://www.steelradar.com/en/haber/primetals-technologies-to-modernize-kg-steels-cold-rolling-mill-in-south-korea/",
+   "tarih_kaynagi": "metin",
+   "eksik": [
+    "tarih?"
+   ],
+   "anahtar": "12ff956ae6e28c09",
+   "olay": "primetals|Soguk hadde|Modernizasyon",
+   "puan": 52.0
+  },
+  {
    "tarih": "2026-08-11",
-   "firma": "KG Steel",
-   "ulke": "",
-   "hat": "Tandem soguk hadde (TCM)",
+   "firma": "Primetals",
+   "ulke": "G. Kore",
+   "hat": "Asitleme hatti",
    "asama": "Modernizasyon",
    "tedarikci": "Primetals",
    "kapasite": "",
    "tutar": "",
-   "baslik": "KG Steel selects Primetals for Dangjin PLTCM upgrade and capacity expansion",
-   "kaynak": "SteelOrbis",
-   "kaynak_id": "gnews_en1",
-   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPTzBDNXBHbG12c0FwRUdCMUpMRVAtaFZUMkI4b2lzaTV1TzVicDNDelZjRjF2RDNNNERoaS1hQkxsSGhxb0NxM2V2Uzd0RFJ3Mm9OLVh5Y2dvbkhTTUdDWGlVN2I1NG9KM05lZWNDN3hBZ2dtUzdVbVphTGQxeG53akhyeWoya3JncjJrTy1FNkhKLUlGOU5COXZTZWRRa2xFQjhZOXZvYkRfSHZYZlJWU2ZUZG1uclNwQzRtbnMyVFUwWjNUV1ZySWxrektuWGJnUGpN?oc=5",
+   "baslik": "Primetals to modernise Korean pickling line",
+   "kaynak": "Steel Times International",
+   "kaynak_id": "gnews_en2",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbWRCZVVIdU8wNDh0M0pCTGlsTWl1U2pqSm5ielo4OEpYYWFuenYzZkRQTGphRzF2WDlQT3VCb2dHc015dDh2eXBDNVhEaUdRLTFFanBMMVhQNWZRS2pPYjdEZFduSlR0VTFmODM4cVhVSDdUMExNQWdRSU9MMXhpaTdLaFE?oc=5",
    "tarih_kaynagi": "rss",
-   "eksik": [
-    "ulke"
-   ],
-   "anahtar": "05ee3ccfafa36b08",
-   "olay": "primetals||Modernizasyon",
+   "eksik": [],
+   "anahtar": "88fbd0c6b1f6aac5",
+   "olay": "primetals|Asitleme hatti|Modernizasyon",
    "puan": 49.6
   }
  ],
  "stats": {
-  "kaynak": 76,
-  "erisilemeyen": 7,
-  "ham": 1478,
-  "on_eleme_gecti": 161,
-  "makale_acildi": 146,
+  "kaynak": 81,
+  "erisilemeyen": 6,
+  "ham": 1510,
+  "on_eleme_gecti": 167,
+  "makale_acildi": 147,
   "tarihsiz_elendi": 61,
   "pencere_disi": 152,
-  "kapsam_disi": 1257,
-  "tekrar": 5,
+  "kapsam_disi": 1283,
+  "tekrar": 11,
   "kabul": 3
  },
  "unreachable": [
@@ -90,10 +90,6 @@
   [
    "Steel Times International",
    "HTTP 403"
-  ],
-  [
-   "The Canmaker",
-   "URLError: <urlopen error timed out>"
   ],
   [
    "BigMint (SteelMint)",
@@ -180,7 +176,12 @@
   "gnews_en9": "arama",
   "gnews_tr0": "arama",
   "gnews_tr1": "arama",
-  "gnews_tr2": "arama"
+  "gnews_tr2": "arama",
+  "gnews_sup0": "arama",
+  "gnews_sup1": "arama",
+  "gnews_sup2": "arama",
+  "gnews_sup3": "arama",
+  "gnews_sup4": "arama"
  },
  "today": "2026-08-12",
  "tech_pool": [
@@ -209,13 +210,6 @@
    "kaynak": "SteelTurk"
   },
   {
-   "anahtar": "b2cf8f1ad52425f4",
-   "tarih": "2026-08-05",
-   "baslik": "Hydnum Steel, İber Yarımadası'nın ilk temiz çelik tesisi için 150 milyon euroluk yatırım taahhüdü aldı",
-   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQa2MteXV2RlJsNVZoZUNNOXVKQi1URjd6WGM0RUdJckdsbExfU2NlRk9tcjUyY0czcUhLcXZ4YnZQZHZ2aFU4QXQ1bGpLMmgzX0xRQTBUalBxQUxoQ2V5UmtCRU1pcDkwOWw0c01nTDVLVXZlU1B6bjM4M0hoSHVlV1cwLXJuTHlZYXhLRXpyNEZIal8xVHpsR0RVSW5mMGZ5MXpUaE5Xc3A2UnhBMlU4elA0eUdWMXlOcEpBOVVNcnpBMHNlanI4WTFweG1OYVE?oc=5",
-   "kaynak": "Google News"
-  },
-  {
    "anahtar": "6d17109555cc3680",
    "tarih": "2026-08-05",
    "baslik": "Hoa Binh ve Pomina Steel 1,2 milyon mt kapasiteli yassı mamul tesisi genişletme projesinde iş birliği yapacak",
@@ -225,7 +219,7 @@
  ],
  "kaynak_katki": {
   "Primetals Technologies": 1,
-  "SteelOrbis": 1,
+  "Steel Radar": 1,
   "Google News": 1
  },
  "window": [
@@ -233,6 +227,6 @@
   "2026-08-12"
  ],
  "period": "2026-W33",
- "generated": "2026-08-12 08:29 UTC",
+ "generated": "2026-08-12 08:55 UTC",
  "version": "3.0.0"
 }

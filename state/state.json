@@ -1,8 +1,8 @@
 {
  "events": {
-  "primetals|G. Kore|Modernizasyon": "2026-08-11",
-  "primetals|Turkiye|Modernizasyon": "2026-08-11",
-  "primetals||Modernizasyon": "2026-08-11"
+  "primetals|Asitleme hatti|Modernizasyon": "2026-08-11",
+  "primetals|Soguk hadde|Modernizasyon": "2026-08-12",
+  "primetals|Tandem soguk hadde (TCM)|Modernizasyon": "2026-08-11"
  },
  "periods": [
   {
@@ -146,12 +146,29 @@
     "tekrar": 5
    },
    "uretim": "2026-08-12 08:29 UTC"
+  },
+  {
+   "donem": "2026-W33",
+   "satir": 3,
+   "stats": {
+    "erisilemeyen": 6,
+    "ham": 1510,
+    "kabul": 3,
+    "kapsam_disi": 1283,
+    "kaynak": 81,
+    "makale_acildi": 147,
+    "on_eleme_gecti": 167,
+    "pencere_disi": 152,
+    "tarihsiz_elendi": 61,
+    "tekrar": 11
+   },
+   "uretim": "2026-08-12 08:55 UTC"
   }
  ],
  "seen": {
-  "05ee3ccfafa36b08": "2026-08-11",
+  "12ff956ae6e28c09": "2026-08-12",
   "27b5ca990931fc28": "2026-08-11",
-  "ddd3161581c94d65": "2026-08-11"
+  "88fbd0c6b1f6aac5": "2026-08-11"
  },
  "source_health": {},
  "tech_seen": {

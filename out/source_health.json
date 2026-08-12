@@ -331,7 +331,7 @@
   "url": "https://nucor.com/news",
   "kind": "uretici",
   "durum": "html",
-  "baglanti": 15,
+  "baglanti": 16,
   "besleme_bulundu": []
  },
  "baowu": {
@@ -411,15 +411,19 @@
   "publisher": "The Canmaker",
   "url": "https://canmaker.com/news/",
   "kind": "dergi",
-  "durum": "erisilemedi",
-  "hata": "URLError: <urlopen error timed out>"
+  "durum": "html",
+  "baglanti": 12,
+  "besleme_bulundu": [
+   "https://canmaker.com/feed/",
+   "https://canmaker.com/comments/feed/"
+  ]
  },
  "kallanish": {
   "publisher": "Kallanish",
   "url": "https://www.kallanish.com/en/news/steel/live",
   "kind": "dergi",
   "durum": "html",
-  "baglanti": 44,
+  "baglanti": 45,
   "besleme_bulundu": []
  },
  "gmk": {
@@ -483,7 +487,7 @@
   "url": "https://news.metal.com/en/ferrous-metals",
   "kind": "dergi",
   "durum": "html",
-  "baglanti": 35,
+  "baglanti": 33,
   "besleme_bulundu": []
  },
  "bigmint": {
@@ -551,7 +555,7 @@
   "url": "https://news.google.com/rss/search?q=%22pickling%20line%22%20when%3A14d&hl=en-US&gl=US&ceid=US:en",
   "kind": "arama",
   "durum": "besleme",
-  "baglanti": 4
+  "baglanti": 5
  },
  "gnews_en3": {
   "publisher": "Google News",
@@ -579,7 +583,7 @@
   "url": "https://news.google.com/rss/search?q=%22electrical%20steel%22%20plant%20OR%20line%20when%3A14d&hl=en-US&gl=US&ceid=US:en",
   "kind": "arama",
   "durum": "besleme",
-  "baglanti": 14
+  "baglanti": 15
  },
  "gnews_en7": {
   "publisher": "Google News",
@@ -622,5 +626,40 @@
   "kind": "arama",
   "durum": "besleme",
   "baglanti": 4
+ },
+ "gnews_sup0": {
+  "publisher": "Google News",
+  "url": "https://news.google.com/rss/search?q=%22John%20Cockerill%22%20steel%20when%3A14d&hl=en-US&gl=US&ceid=US:en",
+  "kind": "arama",
+  "durum": "besleme",
+  "baglanti": 1
+ },
+ "gnews_sup1": {
+  "publisher": "Google News",
+  "url": "https://news.google.com/rss/search?q=%22SMS%20group%22%20steel%20mill%20when%3A14d&hl=en-US&gl=US&ceid=US:en",
+  "kind": "arama",
+  "durum": "besleme",
+  "baglanti": 4
+ },
+ "gnews_sup2": {
+  "publisher": "Google News",
+  "url": "https://news.google.com/rss/search?q=%22Primetals%22%20when%3A14d&hl=en-US&gl=US&ceid=US:en",
+  "kind": "arama",
+  "durum": "besleme",
+  "baglanti": 7
+ },
+ "gnews_sup3": {
+  "publisher": "Google News",
+  "url": "https://news.google.com/rss/search?q=%22Danieli%22%20steel%20when%3A14d&hl=en-US&gl=US&ceid=US:en",
+  "kind": "arama",
+  "durum": "besleme",
+  "baglanti": 9
+ },
+ "gnews_sup4": {
+  "publisher": "Google News",
+  "url": "https://news.google.com/rss/search?q=%22Andritz%22%20steel%20strip%20when%3A14d&hl=en-US&gl=US&ceid=US:en",
+  "kind": "arama",
+  "durum": "besleme",
+  "baglanti": 0
  }
 }
