@@ -36,6 +36,8 @@ def _top(rows, key, n=2):
 
 
 def row_sentence(r):
+    if r.get("kategori") == "Yatirim":
+        return r.get("baslik", "")
     firma = r.get("firma") or r.get("kaynak") or "Ilgili uretici"
     hat = (r.get("hat") or "hat").lower()
     asama = r.get("asama") or "Belirsiz"

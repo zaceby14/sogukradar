@@ -118,18 +118,32 @@ def test_w33_regresyon():
 
 
 def test_w33d_regresyon():
-    eq(htmlx._trim_title("11 Aug Free KG Steel selects Primetals for Dangjin PLTCM upgrade and capacity expansion"),
+    """2026-08-12 final kalibrasyon kosusunun hatalari: uclu KG Steel,
+    baslik basindaki '11 Aug Free' pisligi, cift Hydnum."""
+    eq(htmlx._trim_title("11 Aug Free KG Steel selects Primetals for Dangjin "
+                         "PLTCM upgrade and capacity expansion"),
        "KG Steel selects Primetals for Dangjin PLTCM upgrade and capacity expansion",
        "bastaki tarih+Free etiketi atilmali")
     eq(taxonomy.similar_titles(
         "İspanya, Hydnum Steel'in Yeşil Çelik Tesisine 150 Milyon Euro Destek Sağlayacak",
-        "Hydnum Steel, İber Yarımadası'nın ilk temiz çelik tesisi için 150 milyon euroluk yatırım taahhüdü aldı"),
-       True, "Hydnum varyantlari ayni haber")
-    eq(taxonomy.similar_titles("Danieli wins cold mill order in Vietnam",
-        "Primetals to modernise Korean pickling line"), False, "farkli haberler benzer degil")
+        "Hydnum Steel, İber Yarımadası'nın ilk temiz çelik tesisi için 150 milyon "
+        "euroluk yatırım taahhüdü aldı"), True, "Hydnum varyantlari ayni haber")
+    eq(taxonomy.similar_titles(
+        "Danieli wins cold mill order in Vietnam",
+        "Primetals to modernise Korean pickling line"), False,
+       "farkli haberler benzer sayilmamali")
+    # ayni olayin uc varyanti ayni parmak izini vermeli (ulke alani guvenilmez)
+    mk = lambda ulke: {"tedarikci": "Primetals", "firma": "KG Steel",
+                       "hat": "Tandem soguk hadde (TCM)", "asama": "Modernizasyon",
+                       "ulke": ulke}
+    fp = lambda r: (taxonomy.fold(r["tedarikci"]) + "|" + r["hat"] + "|" + r["asama"])
+    eq(fp(mk("Turkiye")) == fp(mk("")) == fp(mk("G. Kore")), True,
+       "olay parmak izi ulkeden bagimsiz olmali")
 
 
 def test_uclu_kg_senaryosu():
+    """2026-08-12: ayni olay uc gazetede uc hat vurgusuyla cikti ve uc satir
+    oldu. Cok bacakli parmak izi + baslik benzerligi bunu tek satira indirir."""
     from . import collect as col
     r1 = {"tedarikci": "Primetals", "firma": "KG Steel", "ulke": "G. Kore",
           "hat": "Tandem soguk hadde (TCM)", "asama": "Modernizasyon"}
@@ -138,12 +152,103 @@ def test_uclu_kg_senaryosu():
     r3 = {"tedarikci": "Primetals", "firma": "Primetals", "ulke": "G. Kore",
           "hat": "Asitleme hatti", "asama": "Modernizasyon"}
     k1, k2, k3 = col.event_keys(r1), col.event_keys(r2), col.event_keys(r3)
-    eq(bool(k1 & k2), True, "varyant 2 yakalanmali")
-    eq(bool(k1 & k3), True, "varyant 3 yakalanmali")
-    eq(taxonomy.similar_titles(
-        "KG Steel Selects Primetals Technologies for PLTCM Revamp",
-        "Primetals to modernise Korean pickling line"), True,
-       "KG varyantlari baslik benzeri")
+    eq(bool(k1 & k2), True, "varyant 2 ulke bacagıyla yakalanmali")
+    eq(bool(k1 & k3), True, "varyant 3 ulke bacagıyla yakalanmali")
+
+
+def test_iki_katmanli_liste():
+    """2026-08-12 karari: haftalik DOLU liste. Yatirim katmani dunya geneli
+    celik yatirim haberlerini alir; fiyat/borsa/rapor-satisi yine giremez."""
+    ok = [("Hindistan, 2030'da 300 Milyon Ton Çelik Kapasitesi Hedefini Sürdürüyor", True),
+          ("Kocaer Çelik ABD'de Üretim İçin Şirket Kuruyor", True),
+          ("Nucor announces new sheet mill investment in West Virginia", True),
+          ("EREGL Hissesi 42,24 TL'de Kapanış Yaptı", False),
+          ("Çin'in Çelik İhracatı, İlk 7 Ayda Yüzde 4,4 Geriledi", False),
+          ("Electrical Steel Market Outlook (2026-2031)", False)]
+    for t, w in ok:
+        eq(taxonomy.genel_yatirim(t), w, "genel yatirim: " + t[:50])
+
+
+def test_kapsam_havuzu():
+    """KAPSAM DENETIMI (v4): her hat tipinden ve ekipman grubundan gercek
+    baslik ornekleri. Hepsi kapsam ici cikmali - kapsam bir daha sessizce
+    daralamaz. Ters ornekler ise KESINLIKLE girmemeli."""
+    girmeli = [
+        "ANDRITZ to supply new pickling section for heavy-duty push pickling line",
+        "Danieli wins order for tandem cold mill and pickling line",
+        "New reversing cold mill with Sendzimir stand ordered",
+        "Continuous annealing line with radiant tube furnace commissioned",
+        "Batch annealing plant with hood-type furnaces upgraded",
+        "New hot-dip galvanizing line with air knife system starts up",
+        "Zinc pot and pot roll replacement at galvanizing line",
+        "Galvannealed steel line expansion announced",
+        "Zn-Al-Mg coating line ordered for automotive steel",
+        "Electrolytic tinning line modernization for tinplate producer",
+        "ECCS tin-free steel line investment announced",
+        "New colour coating line for prepainted steel commissioned",
+        "Skin pass mill and tension leveller supplied to steel producer",
+        "Slitting line and cut-to-length line for steel service centre",
+        "Side trimmer and edge trimming upgrade on strip processing line",
+        "Laser blanking line installed at steel service center",
+        "Roll grinding machine and roll shop automation delivered",
+        "Work roll texturing EDT system for cold mill",
+        "Surface inspection system installed on galvanizing line",
+        "X-ray thickness gauge and shapemeter for rolling mill",
+        "Flash butt welder replaced on continuous pickling line",
+        "New strip welder for coil joining at processing line",
+        "Coil handling and coil packaging system for steel plant",
+        "Electrolytic cleaning line for cold rolled strip ordered",
+        "Acid regeneration plant with spray roaster for pickling line",
+        "Electrical steel CRGO plant investment announced",
+        "Digital twin for cold rolling mill process automation",
+        "Steel coil warehouse automation with walking beam system",
+        "Passivation and chromating line for galvanized steel",
+        "TOSYALI ALGERIE, SOGUK HADDELEME KOMPLEKSINDE ILK URETIMI YAPTI",
+        "Yeni galvaniz hatti devreye alindi",
+        "Asitleme hatti modernizasyonu tamamlandi",
+        "Surekli tavlama hatti icin siparis verildi",
+        "Boyama hatti yatirimi acilandi ve boyali sac uretimi basladi",
+        "Dilme hatti ve boy kesme hatti kuruldu",
+        "Merdane taslama tezgahi merdane atolyesine alindi",
+        "Serit kaynak makinesi bobin birlestirme icin yenilendi",
+        "Celik servis merkezi yeni sac isleme hatti kuruyor",
+        "Elektrik celigi tesisi icin tavlama hatti siparisi",
+        "Bobin tasima ve paketleme sistemi devreye girdi",
+    ]
+    for t in girmeli:
+        ok, sebep = taxonomy.in_scope(t)
+        eq(ok, True, "KAPSAM ICI olmali (%s): %s" % (sebep, t[:60]))
+
+    girmemeli = [
+        "HRC prices rise in Europe amid import pressure",
+        "EU considers curbs on electrical steel imports",
+        "Electrical Steel Market Outlook 2026-2031 forecast",
+        "Company X commissions new blast furnace",
+        "Primetals Technologies to Revamp CSP Mill at WISCO",
+        "New hot strip mill ordered in India",
+        "Steelmaker appoints new CEO of flat rolling division",
+        "Almost 25,000 euro for volunteer initiatives",
+        "Divilma Headed to Orlando for New Cinnamon Roll Shop",
+        "ANDRITZ starts up new surface treatment line for aluminum strip at AMAG",
+        "New copper strip rolling mill for electronics",
+        "Paper mill installs new slitting line",
+        "Glass annealing furnace commissioned",
+        "Rebar and wire rod mill investment announced",
+        "Quarterly results: net profit rises 14 percent",
+        "info@remove-this.example.de",
+    ]
+    for t in girmemeli:
+        ok, sebep = taxonomy.in_scope(t)
+        eq(ok, False, "KAPSAM DISI olmali: %s" % t[:60])
+
+
+def test_tarih_acilari():
+    """v4: Danieli tipi 'yil, gun ay' formati ve iki haneli yil."""
+    eq(dates.parse_date_text("new orders 2026, 21st July Danieli", today=TODAY),
+       "2026-07-21", "Danieli formati (yil once)")
+    eq(dates.parse_date_text("top performances 2026, 18th June", today=TODAY),
+       "2026-06-18", "Danieli formati 2")
+    eq(dates.parse_date_text("21.07.26", today=TODAY), "2026-07-21", "iki haneli yil")
 
 
 def test_compose_ve_mail():
@@ -175,16 +280,19 @@ def test_compose_ve_mail():
                                "url": "https://x/3", "tarih": "2026-06-01"}], 5)
     for parca in ("Değerli yöneticilerim", "AI Özeti", "Zeynel", "Sayı #5",
                   "Soğuk Haddehane", "Öne Çıkan Teknolojileri",
-                  "tek tek açılıp", "Lazer kesim"):
+                  "Bu Haftanın Taraması", "Elendi: kapsam dışı", "Lazer kesim"):
         eq(parca in mail, True, "mailde eksik: " + parca)
     eq("Yönetici özeti" in mail, False, "eski baslik kalmamali")
     eq("powered by" in mail and "Zeynel Abidin Çopur" in mail, True, "powered by")
     eq("Görüş ve önerilerinizi" in mail, False, "kapanis cumlesi silinmis olmali")
-    payload["watch"] = [{"anahtar": "w1", "tarih": "2026-08-07",
-                         "baslik": "Kocaer Celik ABD'de sirket kuruyor",
-                         "url": "https://x/4", "kaynak": "SteelTurk"}]
+    payload["rows"] = rows + [{"anahtar": "w1", "tarih": "2026-08-07",
+        "firma": "Kocaer", "ulke": "Turkiye", "hat": "Belirsiz",
+        "asama": "Belirsiz", "tedarikci": "", "kapasite": "", "tutar": "",
+        "baslik": "Kocaer Celik ABD'de sirket kuruyor", "kaynak": "SteelTurk",
+        "url": "https://x/4", "puan": 5, "eksik": [], "tarih_kaynagi": "rss",
+        "kaynak_id": "steelturk", "kategori": "Yatirim"}]
     mail2 = render.email_html(payload, None, [], 5)
-    eq("Dikkat Çekenler" in mail2 and "Kocaer" in mail2, True, "yakin takip bolumu")
+    eq("YATIRIM" in mail2 and "Kocaer" in mail2, True, "yatirim katmani listede")
     eq(taxonomy.watch_worthy("Kocaer Çelik ABD'de Üretim İçin Şirket Kuruyor"),
        True, "watch: TR yatirim")
     eq(taxonomy.watch_worthy("EREGL Hissesi 42,24 TL'de Kapanış Yaptı"),
@@ -224,6 +332,7 @@ def test_w33c_regresyon():
                               "baslik": "x"})
     eq("Primetals'e verdi" in s, False, "kendi kendine ihale cumlesi yasak")
     eq("ustlendi" in s, True, "tedarikci bakis acisiyla yazilmali")
+    # POSCO Ar-Ge basligi teknoloji sayilmali ('to Develop' kalibi kacmisti)
     eq(taxonomy.match_stage(
         "POSCO Partners with Hyundai Motor and 8 Organizations to Develop "
         "Next-Generation High-Efficiency Electrical Steel for EVs"),
@@ -305,6 +414,7 @@ def run():
                test_line_and_stage, test_listing_parser, test_feed_parser,
                test_state, test_build_row, test_w33_regresyon, test_w33b_regresyon,
                test_w33c_regresyon, test_w33d_regresyon, test_uclu_kg_senaryosu,
+               test_iki_katmanli_liste, test_kapsam_havuzu, test_tarih_acilari,
                test_compose_ve_mail):
         try:
             fn()

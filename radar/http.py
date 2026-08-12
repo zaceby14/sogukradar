@@ -116,7 +116,8 @@ def fetch(url, use_cache=True):
                 raw = r.read()
                 raw = _decompress(raw, (r.headers.get("Content-Encoding") or "").lower())
                 text = raw.decode(_charset(r.headers, raw), errors="replace")
-                info = {"status": r.status, "final": r.geturl(), "cache": False}
+                info = {"status": r.status, "final": r.geturl(), "cache": False,
+                        "last_modified": r.headers.get("Last-Modified") or ""}
             if cp:
                 try:
                     with open(cp, "w", encoding="utf-8") as f:

@@ -19,6 +19,11 @@ US_STYLE = {"cognex", "butechbliss", "delta", "bronx", "aist", "magnetics", "wor
 
 
 def event_keys(row):
+    """Olay parmak izleri - COK BACAKLI. Tek anahtar yetmiyor:
+    2026-08-12'de ayni KG Steel/Primetals olayi uc gazetede uc farkli hat
+    vurgusuyla yazildi (PLTCM / cold rolling / pickling) ve hat-bazli tek
+    anahtar ucunu uc ayri olay sandi. Simdi hem hat hem ulke bacagi var;
+    HERHANGI biri eslesirse ayni olay sayilir."""
     who = taxonomy.fold(row.get("tedarikci") or row.get("firma") or "")
     asama = row.get("asama") or ""
     keys = {who + "|hat|" + (row.get("hat") or "") + "|" + asama}
@@ -119,13 +124,17 @@ def collect(today=None, log=print):
     stats = dict(kaynak=0, erisilemeyen=0, ham=0, on_eleme_gecti=0, makale_acildi=0,
                  tarihsiz_elendi=0, pencere_disi=0, kapsam_disi=0, tekrar=0, kabul=0)
     unreachable, rows, kinds, rejects, tech_pool = [], [], {}, [], []
-    watch, seen_watch, katki = [], set(), {}
+    katki = {}
     tech_seen = st.get("tech_seen", {})
     # Ayni kosuda ayni haberin ikinci kopyasi (iki gnews sorgusu ayni sonucu
     # dondurur) ve AYNI OLAYIN farkli baslikli varyanti icin iki savunma:
     run_keys = set()
     ev_state = st.get("events", {})
     run_events = set()
+    # Capraz tarih odunclemesi: bir adres herhangi bir RSS beslemesinde
+    # geciyorsa oradaki yayin tarihi, ayni adresi HTML'den goren kaynak icin
+    # de gecerlidir. Tarihsiz eleme sayisini dusuren ucuncu aci.
+    url_dates = {}
 
     def maybe_tech(it, date_iso, text, publisher):
         """Teknoloji kosesi adayi mi? Ana pencereden BAGIMSIZ calisir:
@@ -168,6 +177,11 @@ def collect(today=None, log=print):
             continue
         stats["ham"] += len(items)
         df = _dayfirst(s["id"])
+        for it in items:
+            if it.get("from_feed") and it.get("date_raw") and it.get("url"):
+                d0 = dates.parse_date_text(it["date_raw"], df, today)
+                if d0:
+                    url_dates.setdefault(it["url"].split("?")[0], d0)
 
         pre = []
         for it in items:
@@ -176,14 +190,17 @@ def collect(today=None, log=print):
             if taxonomy.is_junk_title(title):
                 drop("kapsam_disi", it, "haber degil (menu/e-posta/kisa)")
                 continue
-            watchable = taxonomy.watch_worthy(title)
+            watchable = taxonomy.genel_yatirim(title)
             if taxonomy.HARD_REJECT.search(taxonomy.fold(title)) and not watchable:
                 drop("kapsam_disi", it, "sert red (baslik)")
                 continue
-            if (s["kind"] != "oem" and not watchable
-                    and not taxonomy.SCOPE_GATE.search(taxonomy.fold(blob))):
-                drop("kapsam_disi", it, "kapsam kapisi (baslik)")
-                continue
+            # On eleme: OEM disi kaynaklarda baslik+ozet en azindan kapsama
+            # ya da genel yatirim havuzuna dokunmali (makale acma maliyeti freni)
+            if s["kind"] != "oem" and not watchable:
+                on_ok, _ = taxonomy.in_scope(title, it.get("summary") or "")
+                if not on_ok:
+                    drop("kapsam_disi", it, "kapsam kapisi (baslik)")
+                    continue
             it["_watch"] = watchable
             # Kaba tarih SADECE maliyet freni icindir: cok eski (arsiv) satirlar
             # icin makale sayfasi hic acilmaz. Esik bilerek genis tutulur -
@@ -225,6 +242,16 @@ def collect(today=None, log=print):
                     date_iso, src = dates.extract_article_date(doc, info["final"], df, today)
                     text = doc.get("text", "")[:3000] or text
                 if not date_iso:
+                    # ACI 5: sunucunun Last-Modified basligi (yayincinin beyani)
+                    lm = dates.parse_date_text(info.get("last_modified", ""), False, today)
+                    if lm:
+                        date_iso, src = lm, "last-modified"
+                if not date_iso:
+                    # ACI 6: ayni adres baska bir beslemede gecti mi
+                    od = url_dates.get(it["url"].split("?")[0])
+                    if od:
+                        date_iso, src = od, "capraz-rss"
+                if not date_iso:
                     date_iso = it.get("_rough")
                     # Beslemeden gelen tarih yapisaldir - "tarih?" isareti gerekmez
                     src = ("rss" if it.get("from_feed") else "liste") if date_iso else "yok"
@@ -238,45 +265,46 @@ def collect(today=None, log=print):
             maybe_tech(it, date_iso, text, s["publisher"])
 
             key = state.norm_key(it["title"], it["url"])
-            ok_scope, why = taxonomy.in_scope(it["title"], text[:700])
-            if not ok_scope:
-                # Cekirdek kapsama girmiyor ama dikkat cekici yatirim haberi ise
-                # ayri "yakin takip" bolumune alinir - ana tabloyu kirletmez.
-                if (it.get("_watch") and key not in seen and len(watch) < 6
-                        and not any(taxonomy.similar_titles(it["title"], w["baslik"]) for w in watch)):
-                    watch.append({"anahtar": key, "tarih": date_iso,
-                                  "baslik": it["title"], "url": it["url"],
-                                  "kaynak": s["publisher"]})
-                    seen_watch.add(key)
-                drop("kapsam_disi", it, why)
-                continue
-
             if key in seen or key in run_keys:
                 drop("tekrar", it)
+                continue
+
+            # IKI KATMANLI LISTE (2026-08-12 karari - "1 haftada tek haber
+            # olmaz, liste olacak"): cekirdek islem hatti haberleri "Hat",
+            # genel celik yatirim haberleri "Yatirim" etiketiyle AYNI listede.
+            ok_scope, why = taxonomy.in_scope(it["title"], text[:700])
+            if ok_scope:
+                kategori = "Hat"
+            elif taxonomy.genel_yatirim(it["title"]):
+                kategori = "Yatirim"
+            else:
+                drop("kapsam_disi", it, why)
                 continue
 
             row = classify.build({
                 "title": it["title"], "url": it["url"], "date": date_iso,
                 "publisher": it.get("_pub") or s["publisher"], "source_id": s["id"],
-                "text": text, "date_src": src,
                 "source_kind": s["kind"], "source_country": s.get("country", ""),
+                "text": text, "date_src": src,
             })
-            # Hat VE asama belirsizse bu cekirdek tablo satiri degildir;
-            # dikkat cekense "yakin takip"e iner, degilse elenir
-            # (2026-08-12: Hydnum destek haberi boyle bir satirdi).
+            # Hat VE asama belirsiz bir satir cekirdek olamaz; yatirim
+            # niteligi tasiyorsa Yatirim katmanina iner, tasimiyorsa elenir.
             if row["hat"] == "Belirsiz" and row["asama"] == "Belirsiz":
-                if (it.get("_watch") and len(watch) < 6
-                        and not any(taxonomy.similar_titles(it["title"], w["baslik"]) for w in watch)):
-                    watch.append({"anahtar": key, "tarih": date_iso,
-                                  "baslik": it["title"], "url": it["url"],
-                                  "kaynak": it.get("_pub") or s["publisher"]})
-                    seen_watch.add(key)
-                drop("kapsam_disi", it, "hat+asama belirsiz")
+                if taxonomy.genel_yatirim(it["title"]):
+                    kategori = "Yatirim"
+                else:
+                    drop("kapsam_disi", it, "hat+asama belirsiz")
+                    continue
+            if kategori == "Yatirim" and \
+                    sum(1 for r in rows if r.get("kategori") == "Yatirim") >= 12:
+                drop("kapsam_disi", it, "yatirim katmani limiti")
                 continue
             eks = event_keys(row)
             if (eks & run_events) or any(k in ev_state for k in eks):
-                drop("tekrar", it, "ayni olayin varyanti")
+                drop("tekrar", it, "ayni olayin varyanti: " + "; ".join(sorted(eks)))
                 continue
+            # Ucuncu bacak: baslik benzerligi. Ayni asamadaki, bu kosuda ya da
+            # son 21 gunde kabul edilmis bir satirla baslik ortusuyorsa tekrar.
             if any(taxonomy.similar_titles(it["title"], r["baslik"])
                    and r["asama"] == row["asama"] for r in rows) or \
                any(taxonomy.similar_titles(it["title"], b.get("b", ""))
@@ -285,6 +313,7 @@ def collect(today=None, log=print):
                 drop("tekrar", it, "benzer baslik")
                 continue
             row["anahtar"] = key
+            row["kategori"] = kategori
             row["olaylar"] = sorted(eks)
             run_keys.add(key)
             if row.get("tedarikci") or row.get("firma"):
@@ -297,8 +326,7 @@ def collect(today=None, log=print):
             katki[s["publisher"]] = katki.get(s["publisher"], 0) + 1
 
     tech_pool.sort(key=lambda t: t["tarih"], reverse=True)
-    watch.sort(key=lambda t: t["tarih"], reverse=True)
     return {"rows": rows, "stats": stats, "unreachable": unreachable,
             "kinds": kinds, "today": today.isoformat(), "rejects": rejects,
-            "tech_pool": tech_pool[:12], "watch": watch, "kaynak_katki": katki,
+            "tech_pool": tech_pool[:12], "kaynak_katki": katki,
             "window": [floor.isoformat(), today.isoformat()]}

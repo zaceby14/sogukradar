@@ -38,6 +38,11 @@ RE_MDY_TEXT = re.compile(r"\b(" + _MONTH_ALT + r")\.?\s+(\d{1,2})(?:st|nd|rd|th)
 RE_NUM = re.compile(r"(?<!\d)(\d{1,2})[./\-](\d{1,2})[./\-](\d{4})(?!\d)")
 RE_URL_YMD = re.compile(r"/(20\d{2})[/\-](\d{1,2})[/\-](\d{1,2})(?:/|\b)")
 RE_URL_YM = re.compile(r"/(20\d{2})[/\-](\d{1,2})/")
+# "new orders 2026, 21st July ..." -> yil ONCE, gun+ay SONRA (Danieli)
+RE_YMD_TEXT = re.compile(r"\b(20\d{2})\s*,\s*(\d{1,2})\s*(?:st|nd|rd|th)?\s+("
+                         + _MONTH_ALT + r")\b", re.I)
+# "21.07.26" / "21/07/26" iki haneli yil
+RE_NUM2 = re.compile(r"(?<!\d)(\d{1,2})[./\-](\d{1,2})[./\-](\d{2})(?!\d)")
 RE_RELATIVE = re.compile(r"\b(\d{1,2})\s+(day|days|hour|hours|week|weeks)\s+ago\b", re.I)
 
 MIN_YEAR = 2015
@@ -81,6 +86,12 @@ def parse_date_text(s, dayfirst=True, today=None):
         if r:
             return r
 
+    m = RE_YMD_TEXT.search(s)
+    if m:
+        r = _mk(m.group(1), MONTHS[m.group(3).lower()], m.group(2), today)
+        if r:
+            return r
+
     m = RE_ISO_SLASH.search(s)
     if m:
         r = _mk(m.group(1), m.group(2), m.group(3), today)
@@ -96,6 +107,15 @@ def parse_date_text(s, dayfirst=True, today=None):
             r = _mk(y, a, b, today)
         else:
             r = _mk(y, b, a, today) if dayfirst else _mk(y, a, b, today)
+        if r:
+            return r
+
+    m = RE_NUM2.search(s)
+    if m:
+        a, b, y2 = m.group(1), m.group(2), int(m.group(3))
+        yil = 2000 + y2 if y2 < 80 else 1900 + y2
+        r = (_mk(yil, b, a, today) if (int(a) > 12 or dayfirst)
+             else _mk(yil, a, b, today))
         if r:
             return r
 

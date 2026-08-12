@@ -194,6 +194,11 @@ STAGE_COLORS = {"Sozlesme": ("#e3edfb", "#14457e", "SÖZLEŞME"),
                 "Belirsiz": ("#eceff3", "#5a6270", "BELİRSİZ")}
 
 
+_ROZET_YAT = ('<span style="background:#eef0f4;color:#5a6270;font-size:10px;'
+              'font-weight:700;padding:1px 7px;border-radius:3px;'
+              'white-space:nowrap;">YATIRIM</span>')
+
+
 def _badge(stage):
     bg, fg, lbl = STAGE_COLORS.get(stage, STAGE_COLORS["Belirsiz"])
     return ('<span style="background:%s;color:%s;font-size:10px;font-weight:700;'
@@ -233,8 +238,8 @@ def email_html(payload, ozet=None, tech_items=None, sayi=1):
 
     n_tr = sum(1 for r in rows if r.get("ulke") == "Turkiye"
                or "tosyali" in (r.get("firma") or "").lower())
-    n_ilk = sum(1 for r in rows if r.get("asama") == "Ilk urun")
-    n_soz = sum(1 for r in rows if r.get("asama") == "Sozlesme")
+    n_hat = sum(1 for r in rows if r.get("kategori") != "Yatirim")
+    n_yat = len(rows) - n_hat
 
     h = ['<!doctype html><html lang="tr"><head><meta charset="utf-8">',
          '<meta name="viewport" content="width=device-width"></head>',
@@ -264,8 +269,8 @@ def email_html(payload, ozet=None, tech_items=None, sayi=1):
 
     h.append('<tr><td style="padding:12px 28px 0;"><table role="presentation" '
              'cellpadding="0" cellspacing="0" width="100%"><tr>'
-             + _kpi(len(rows), "Gelişme") + _kpi(n_ilk, "İlk ürün")
-             + _kpi(n_soz, "Sözleşme") + _kpi(n_tr, "Türkiye ilgili", hi=True)
+             + _kpi(len(rows), "Gelişme") + _kpi(n_hat, "İşlem hattı")
+             + _kpi(n_yat, "Genel yatırım") + _kpi(n_tr, "Türkiye ilgili", hi=True)
              + "</tr></table></td></tr>")
 
     h.append('<tr><td style="padding:20px 28px 0;">'
@@ -322,7 +327,8 @@ def email_html(payload, ozet=None, tech_items=None, sayi=1):
                      '<td style="padding:9px;border-bottom:1px solid #e8eaee;%s">%s</td></tr>'
                      % (bg, _dmy(r["tarih"]), bg, _e(r.get("firma") or "-"), _e(sub),
                         bg, _e(cum), _e(r.get("url")), _e(r.get("kaynak")),
-                        bg, _badge(r.get("asama"))))
+                        bg, (_ROZET_YAT if r.get("kategori") == "Yatirim"
+                             else _badge(r.get("asama")))))
         h.append("</table>")
     else:
         h.append('<div style="background:#fdeeee;border-left:4px solid #c0392b;'
@@ -331,46 +337,55 @@ def email_html(payload, ozet=None, tech_items=None, sayi=1):
                  'sorununu gösterir.</div>')
     h.append("</td></tr>")
 
-    # Yakin takip: cekirdek kapsam disi ama dikkat cekici yatirim haberleri
-    watch = payload.get("watch", [])
-    if watch:
-        h.append('<tr><td style="padding:20px 28px 0;">'
-                 '<div style="font-size:11px;font-weight:700;color:#5a6270;'
-                 'text-transform:uppercase;letter-spacing:.7px;border-bottom:1px solid '
-                 '#e3e6ea;padding-bottom:6px;margin-bottom:8px;">'
-                 'Radar Kapsamı Dışında Ama Dikkat Çekenler</div>'
-                 '<table role="presentation" width="100%" cellpadding="0" '
-                 'cellspacing="0" style="font-size:12.5px;line-height:1.5;">')
-        for w in watch:
-            h.append('<tr><td style="padding:5px 0;border-bottom:1px solid #eef0f3;">'
-                     '<span style="color:#6b7480;font-size:11px;white-space:nowrap;">%s'
-                     '</span> &nbsp;%s &nbsp;<a href="%s" style="color:#12457a;'
-                     'font-size:11px;">%s →</a></td></tr>'
-                     % (_dmy(w["tarih"]), _e(w["baslik"]), _e(w["url"]),
-                        _e(w["kaynak"])))
-        h.append('</table><div style="font-size:11px;color:#8b93a0;margin-top:6px;">'
-                 'Bu bölümdeki haberler ana kapsam (işlem hatları) dışındadır; genel '
-                 'yatırım hareketini izlemek için verilir.</div></td></tr>')
-
     h.append('<tr><td style="padding:20px 28px 6px;font-size:13.5px;line-height:1.6;'
              'color:#3d4450;">Saygılarımla,<br><b>Zeynel</b></td></tr>')
 
+    # TARAMA TABLOSU - kullanici istegi: her mailde taranan/elenen sayilar.
+    unreach = payload.get("unreachable", [])
+    h.append('<tr><td style="padding:16px 28px 0;">'
+             '<div style="font-size:11px;font-weight:700;color:#5a6270;'
+             'text-transform:uppercase;letter-spacing:.7px;border-bottom:1px solid '
+             '#e3e6ea;padding-bottom:6px;margin-bottom:8px;">Bu Haftanın Taraması</div>'
+             '<table role="presentation" width="100%" cellpadding="0" cellspacing="0" '
+             'style="font-size:12px;">')
+    for i, (lbl, val) in enumerate([
+            ("Taranan kaynak", st.get("kaynak", 0)),
+            ("Erişilemeyen kaynak", len(unreach)),
+            ("Görülen haber bağlantısı", st.get("ham", 0)),
+            ("Ön elemeyi geçen", st.get("on_eleme_gecti", 0)),
+            ("Tarih için açılan makale", st.get("makale_acildi", 0)),
+            ("Elendi: tarihi doğrulanamadı", st.get("tarihsiz_elendi", 0)),
+            ("Elendi: 7 günlük pencere dışı", st.get("pencere_disi", 0)),
+            ("Elendi: kapsam dışı", st.get("kapsam_disi", 0)),
+            ("Elendi: daha önce raporlandı", st.get("tekrar", 0)),
+            ("<b>Rapora giren</b>", "<b>%d</b>" % st.get("kabul", 0))]):
+        bg = "background:#f6f8fa;" if i % 2 == 0 else ""
+        h.append('<tr><td style="padding:5px 9px;%s">%s</td>'
+                 '<td align="right" style="padding:5px 9px;%s">%s</td></tr>'
+                 % (bg, lbl, bg, val))
+    h.append("</table></td></tr>")
+
+    if unreach:
+        h.append('<tr><td style="padding:16px 28px 0;">'
+                 '<div style="font-size:11px;font-weight:700;color:#8a6210;'
+                 'text-transform:uppercase;letter-spacing:.7px;border-bottom:1px solid '
+                 '#f0e2c4;padding-bottom:6px;margin-bottom:8px;">'
+                 'İnsan Müdahalesi Gerekenler</div>'
+                 '<div style="font-size:12px;color:#3d4450;line-height:1.6;">'
+                 'Bu kaynaklar bot korumasına takıldı, elle bakılmalı:<br>')
+        for ad, hata in unreach[:12]:
+            h.append('&bull; %s <span style="color:#8b93a0;">(%s)</span><br>'
+                     % (_e(ad), _e(str(hata)[:28])))
+        h.append("</div></td></tr>")
+
     unreach = payload.get("unreachable", [])
     h.append('<tr><td style="background:#f4f6f9;padding:14px 28px;font-size:10.5px;'
-             'color:#7b8290;line-height:1.6;">'
-             '<b>Bu haftanın tarama özeti:</b> %d kaynak tarandı, %d haber bağlantısı '
-             'görüldü. Tarih doğrulaması için %d haberin kendi sayfası tek tek açılıp '
-             'yayın tarihi sayfanın içinden okundu; tarihi bu şekilde doğrulanamayan '
-             '%d haber güvenilir bulunmadığı için rapora alınmadı. %d haber tarih '
-             'penceresi dışında, %d haber kapsam dışında kaldı; %d haber daha önce '
-             'raporlandığı için tekrarlanmadı. Erişilemeyen kaynak: %d%s.<br>'
-             'Kapsam: asitleme, soğuk hadde, tavlama, galvaniz/kaplama, boyama, teneke, '
-             'dilme/boy kesme, merdane atölyesi, yüzey muayene, hat otomasyonu ve '
-             'elektrik çeliği hatları.</td></tr>'
-             % (st.get("kaynak", 0), st.get("ham", 0), st.get("makale_acildi", 0),
-                st.get("tarihsiz_elendi", 0), st.get("pencere_disi", 0),
-                st.get("kapsam_disi", 0), st.get("tekrar", 0), len(unreach),
-                (" (" + ", ".join(a for a, _ in unreach[:8]) + ")") if unreach else ""))
+             'color:#7b8290;line-height:1.6;">Kapsam: asitleme, soğuk hadde, temper, '
+             'tavlama, galvaniz/kaplama, boyama, teneke, dilme/boy kesme, merdane '
+             'atölyesi, şerit birleştirme, bobin taşıma, yüzey muayene, ölçüm ve hat '
+             'otomasyonu, elektrik çeliği. Yayın tarihi kaynağın kendi beyanından '
+             '(RSS, JSON-LD, meta, Last-Modified) okunur; doğrulanamayan haber '
+             'rapora alınmaz.</td></tr>')
 
     h.append('<tr><td style="background:#10233c;padding:10px 28px;text-align:center;'
              'font-size:10.5px;color:#9fb2c8;letter-spacing:.4px;">'

@@ -80,7 +80,8 @@ def cmd_run(a):
            for r in payload["rows"] if r["eksik"]]
     say = [{"anahtar": r["anahtar"], "tarih": r["tarih"], "firma": r["firma"],
             "ulke": r["ulke"], "hat": r["hat"], "asama": r["asama"],
-            "baslik": r["baslik"], "url": r["url"]} for r in payload["rows"]]
+            "baslik": r["baslik"], "url": r["url"]}
+           for r in payload["rows"] if r.get("kategori") != "Yatirim"]
     _w(os.path.join(OUT, "needs_ai.json"),
        {"donem": per, "duzelt": ask, "cumle_yaz": say,
         "teknoloji_adaylari": payload.get("tech_pool", [])})

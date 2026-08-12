@@ -57,6 +57,8 @@ def load():
     # Olay parmak izleri: {tedarikci|ulke|asama: tarih}. Ayni olayin farkli
     # baslikli varyanti (baska yayin, baska dil) ikinci kez rapora giremez.
     st.setdefault("events", {})
+    # Son 21 gunde raporlanan satir basliklari: gec yazan gazetenin ayni
+    # olayi farkli baslikla tekrar sokmasini engeller.
     st.setdefault("son_basliklar", [])
     st["version"] = VERSION
     return st

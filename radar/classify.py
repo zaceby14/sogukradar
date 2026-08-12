@@ -8,7 +8,9 @@ import re
 
 from . import taxonomy as tx
 
-_SRC_TR = {"TR": "Turkiye", "IN": "Hindistan", "CN": "Cin", "GB": "Birlesik Krallik", "US": "ABD", "UA": "Ukrayna", "TW": "Tayvan"}
+_SRC_TR = {"TR": "Turkiye", "IN": "Hindistan", "CN": "Cin",
+           "GB": "Birlesik Krallik", "US": "ABD", "UA": "Ukrayna",
+           "TW": "Tayvan"}
 
 VERB = (r"(?:awards?|awarded|orders?|selects?|selected|contracts?|chooses?|picks?|taps?|"
         r"commissions?|commissioned|inaugurates?|launch(?:es|ed)?|starts?|started|begins?|"
@@ -125,6 +127,10 @@ def build(cand):
     stage = tx.match_stage(title)
     if stage == "Belirsiz":
         stage = tx.match_stage(blob)
+    # Ulke ONCE basliktan. Govde yedegi, dergi/arama kaynaklarinda sayfa
+    # sablonundaki "Turkey" gibi kelimelerle kirlenebiliyor (2026-08-12,
+    # SteelOrbis vakasi): govdeden bulunan ulke, kaynagin kendi ulkesiyle
+    # ayniysa guvenilmez sayilir ve bos birakilir.
     country = tx.match_country(title)
     if not country:
         country = tx.match_country(body)

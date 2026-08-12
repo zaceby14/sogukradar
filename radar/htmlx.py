@@ -83,14 +83,15 @@ class _Listing(HTMLParser):
 
 
 LEAD_CRUFT = re.compile(
-    r"^(?:\d{1,2}\s+[A-Za-z]{3,9}\.?(?:\s+\d{4})?\s*)?"
+    r"^(?:\d{1,2}\s+[A-Za-z]{3,9}\.?(?:\s+\d{4})?\s*)?"      # "11 Aug " / "11 Aug 2026"
     r"(?:Free|Premium|Exclusive|News|Video)?\s*[|:\-–]?\s*", re.I)
 
 
 def _trim_title(txt, cap=190):
-    """Kart metninin tamami baglanti metnine giriyor: "Baslik 2025-12-09 Tata
-    Steel has awarded ...". Baslik ilk tarih damgasinda kesilir, uzunsa
-    kelime sinirindan kirpilir."""
+    """Kart metninin tamami baglanti metnine girebiliyor.
+    - BASTAKI tarih/etiket pisligi atilir ("11 Aug Free KG Steel..." vakasi)
+    - ilk GOMULU tarih damgasinda kesilir ("Baslik 2025-12-09 govde...")
+    - uzunsa kelime sinirindan kirpilir."""
     txt = LEAD_CRUFT.sub("", txt.strip(), count=1)
     m = DATEISH.search(txt)
     if m and m.start() >= 25:
