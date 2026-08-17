@@ -10,10 +10,11 @@ eslesebilir. Makale sayfasindaki JSON-LD / meta / <time> yapisal ve
 yayincinin kendi beyanidir. Tarih dogrulugu bu adimda kazanilir.
 """
 import datetime as dt
+import re
 
 from . import classify, dates, feeds, htmlx, http, sources, state, taxonomy
-from .config import (MAX_ARTICLE_FETCH, MAX_LINKS_PER_SOURCE, TECH_WINDOW_DAYS,
-                     WINDOW_DAYS)
+from .config import (MAX_ARTICLE_FETCH, MAX_LINKS_PER_SOURCE, MAX_SITEMAP_LINKS,
+                     TECH_WINDOW_DAYS, WINDOW_DAYS)
 
 US_STYLE = {"cognex", "butechbliss", "delta", "bronx", "aist", "magnetics", "worldsteel"}
 
@@ -87,8 +88,72 @@ def discover(log=print):
     return found
 
 
+RE_SITEMAP_URL = re.compile(
+    r"<url>(.*?)</url>", re.S | re.I)
+RE_LOC = re.compile(r"<loc>\s*(.*?)\s*</loc>", re.S | re.I)
+RE_LASTMOD = re.compile(r"<lastmod>\s*(.*?)\s*</lastmod>", re.S | re.I)
+
+
+def slug_baslik(url):
+    """Haber adresinin son parcasindan okunabilir bir baslik uretir.
+
+    SteelOrbis ve Steel Times International haber basligini ADRESIN ICINDE
+    tasiyor:
+      .../kg-steel-selects-primetals-for-dangjin-pltcm-upgrade-1470187.htm
+      .../news/primetals-to-modernise-korean-pickling-line
+    Bu sayede kapsam elemesi makale ACILMADAN yapilabilir; yalnizca kapiyi
+    gecen aday icin sayfa indirilir. Hem 403/bot engelini hem de makale acma
+    butcesini rahatlatan asil kazanc budur (2026-08-17 olcumu).
+    """
+    p = (url or "").split("?")[0].split("#")[0].rstrip("/")
+    seg = p.rsplit("/", 1)[-1]
+    seg = re.sub(r"\.(html?|php|aspx?)$", "", seg, flags=re.I)
+    seg = re.sub(r"[-_]\d{4,}$", "", seg)          # sondaki haber numarasi
+    seg = re.sub(r"^\d{4}-\d{2}-\d{2}[-_]", "", seg)  # bastaki tarih
+    seg = re.sub(r"[-_]+", " ", seg).strip()
+    return seg
+
+
+def _items_from_sitemap(s, log):
+    """Haber sitemap'inden (loc + lastmod) aday listesi cikarir.
+
+    DIKKAT - lastmod YAYIN TARIHI DEGILDIR. Primetals sitemap'inde lastmod
+    2026-07-06 olan haberin gercek tarihi 2022-06-09, lastmod 2026-02-02
+    olanin gercek tarihi 2018-11-20 cikti (2026-08-17'de dogrulandi). Bu
+    yuzden lastmod yalnizca KESIF/siralama sinyali olarak kullanilir ve
+    "_sitemap" isareti tasiyan satirlar, makale sayfasindan tarih
+    dogrulanamazsa ELENIR - lastmod'a dusulmez.
+    """
+    ok, text, info = http.fetch(s["sitemap"])
+    if not ok:
+        return [], (info.get("hata") or "HTTP %s" % info.get("status"))
+    out = []
+    for blok in RE_SITEMAP_URL.findall(text):
+        m = RE_LOC.search(blok)
+        if not m:
+            continue
+        u = m.group(1).strip()
+        if not u.startswith("http"):
+            continue
+        lm = RE_LASTMOD.search(blok)
+        t = slug_baslik(u)
+        if len(t.split()) < 4:       # bolum/menu adresi, haber degil
+            continue
+        out.append({"title": t, "url": u,
+                    "date_raw": (lm.group(1).strip() if lm else ""),
+                    "summary": "", "_sitemap": True})
+    # En yeniden eskiye: pencere disi kalanlar zaten on elemede duser
+    out.sort(key=lambda x: x["date_raw"], reverse=True)
+    if not out:
+        return [], "sitemap bos"
+    log("    (sitemap: %d adres)" % len(out))
+    return out[:MAX_SITEMAP_LINKS], None
+
+
 def _items_from_source(s, log):
     """(items, hata) -> items: {title,url,date_raw,summary}"""
+    if s.get("sitemap"):
+        return _items_from_sitemap(s, log)
     url = s.get("rss") or s["url"]
     ok, text, info = http.fetch(url)
     if not ok:
@@ -252,6 +317,13 @@ def collect(today=None, log=print):
                     doc = htmlx.parse_article(page)
                     date_iso, src = dates.extract_article_date(doc, info["final"], df, today)
                     text = doc.get("text", "")[:3000] or text
+                    # Sitemap adayinin basligi adres slug'indan uretilmisti
+                    # ("kg steel selects primetals for ..."). Sayfa acildigina
+                    # gore gercek basligi kullan - rapora slug girmesin.
+                    if it.get("_sitemap"):
+                        gt = (doc.get("title") or "").strip()
+                        if len(gt.split()) >= 4 and not taxonomy.is_junk_title(gt):
+                            it["title"] = gt
                 if not date_iso:
                     # ACI 5: ayni adres baska bir beslemede gecti mi.
                     # Last-Modified'dan ONCE denenir: capraz besleme yayincinin
@@ -266,10 +338,14 @@ def collect(today=None, log=print):
                     lm = dates.parse_date_text(info.get("last_modified", ""), False, today)
                     if lm:
                         date_iso, src = lm, "last-modified"
-                if not date_iso:
+                if not date_iso and not it.get("_sitemap"):
                     date_iso = it.get("_rough")
                     # Beslemeden gelen tarih yapisaldir - "tarih?" isareti gerekmez
                     src = ("rss" if it.get("from_feed") else "liste") if date_iso else "yok"
+                # SITEMAP ISTISNASI: lastmod'a ASLA dusulmez. Primetals
+                # sitemap'inde 2018 ve 2022 tarihli haberler 2026 damgali
+                # cikti; lastmod'u yayin tarihi saymak rapora yillik eski
+                # haber sokar. Sayfadan tarih cikmadiysa satir elenir.
             if not date_iso:
                 drop("tarihsiz_elendi", it)   # TARIH YOKSA HABER YOK
                 continue
@@ -284,6 +360,13 @@ def collect(today=None, log=print):
                 continue
             maybe_tech(it, date_iso, text, s["publisher"])
 
+            # BASLIK TEMIZLIGI, tekrar anahtarindan ONCE (v5, 2026-08-17).
+            # Liste sayfalarindan kopan on ek ("11 Aug Free ...", "Daily press
+            # | 2025-01-30 ...") ve arkaya yapisan lede ayni haberi iki farkli
+            # anahtara bolup listede IKI KEZ gostermisti. Tarih bu noktada
+            # zaten cozulmus durumda, temizlik tarihi etkilemez.
+            it["title"] = taxonomy.temiz_baslik(it["title"])
+
             key = state.norm_key(it["title"], it["url"])
             if key in seen or key in run_keys:
                 drop("tekrar", it)
@@ -294,7 +377,19 @@ def collect(today=None, log=print):
             # genel celik yatirim haberleri "Yatirim" etiketiyle AYNI listede.
             ok_scope, why = taxonomy.in_scope(it["title"], text[:700])
             if ok_scope:
-                kategori = "Hat"
+                # OLAY KAPISI (v5, 2026-08-17): konu dogru olsa bile baslik bir
+                # olay anlatmiyorsa haber degildir. OEM urun katalogu sayfalari
+                # ("Flying Shear Cut-to-Length Lines", "Strip processing line,
+                # Annealing and Pickling line ...") tam da bu yuzden listeye
+                # giriyordu - hepsi isim tamlamasidir.
+                if not taxonomy.haber_olayi(it["title"]):
+                    if taxonomy.genel_yatirim(it["title"]):
+                        kategori = "Yatirim"
+                    else:
+                        drop("kapsam_disi", it, "olay yok (katalog/pazarlama)")
+                        continue
+                else:
+                    kategori = "Hat"
             elif taxonomy.genel_yatirim(it["title"]):
                 kategori = "Yatirim"
             else:

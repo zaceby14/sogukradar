@@ -3,7 +3,7 @@ name: SogukRadar haftalik
 on:
   schedule:
     # Pazartesi 04:05 UTC = 07:05 TSI. Actions kuyrugu gecikebilir, sorun degil.
-    - cron: "5 4 * * 1"
+    - cron: "37 4 * * 1"
   push:
     # Kod degisince kosu kendiliginden baslar. Botun kendi commit'i
     # "[skip ci]" tasidigi icin sonsuz dongu olusmaz.
@@ -56,7 +56,13 @@ jobs:
 
       - name: Haftalik kosu
         env:
-          RADAR_WINDOW_DAYS: "7"
+          # 15 GUN (2026-08-17 karari). Bulten haftalik kalir; bu pencere
+          # listeyi eski haberle sismez cunku state["seen"] her haberi bir
+          # kez gosterir. Kazanc: 6,5 aylik olcumde kapsam ici haber
+          # haftada 0,83 ve haftalarin %40'i sifir; kaynak 403 verdiginde
+          # ya da tarih gec cozuldugunde 7 gunluk pencerede haber BIR DAHA
+          # yakalanmiyordu. 15 gun ayni habere iki hafta sans verir.
+          RADAR_WINDOW_DAYS: "15"
           RADAR_MAX_ARTICLES: "220"
           RADAR_PAUSE: "0.8"
         run: |
@@ -81,21 +87,21 @@ jobs:
           PY
           echo '```' >> $GITHUB_STEP_SUMMARY
 
-      # SIRA ONEMLI: mail, repo kaydindan ONCE gider. 2026-08-11/12'de push
-      # cakismasi mail adimini iki kez iptal ettirdi; mail artik kayda bagimli degil.
-      - name: E-posta gonder
-        if: env.MAIL_USER != ''
-        uses: dawidd6/action-send-mail@v3
-        with:
-          server_address: smtp.gmail.com
-          server_port: 465
-          secure: true
-          username: ${{ secrets.MAIL_USER }}
-          password: ${{ secrets.MAIL_PASS }}
-          subject: "Soguk Haddehane ve Nihai Hatlarda Sektor & Teknoloji Takibi — Haftalik Bulten"
-          to: ${{ secrets.MAIL_TO }}
-          from: SogukRadar Bulten
-          html_body: file://out/email.html
+      # POSTA BU IS AKISINDAN CIKARILDI (2026-08-17 karari).
+      #
+      # Neden: posta 07:05'te, editor daha rapora BAKMADAN gidiyordu. Bozuk
+      # bir satir (ornek 2026-W34: sicak haddeleme hatti "Hat" rozetiyle)
+      # duzeltilemeden aliciya ulasiyordu; editorun katkisi ancak bir sonraki
+      # haftaya yariyordu. Artik sira dogru:
+      #
+      #   1) bu is akisi veriyi uretir ve repoya isler (POSTA YOK)
+      #   2) editor out/ dosyalarini okur, duzeltir, zenginlestirir,
+      #      finalize eder ve out/ONAY dosyasini yazip push eder
+      #   3) gonder.yml ONAY push'unu gorur ve postayi o an gonderir
+      #
+      # Editor onaylamazsa posta GITMEZ. Bu bilincli bir tercih: bozuk
+      # bulten gondermektense gondermemek yegdir (testlerin kapi olmasiyla
+      # ayni mantik).
 
       - uses: actions/upload-artifact@v4
         with:

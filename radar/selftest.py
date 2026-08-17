@@ -445,12 +445,316 @@ def test_build_row():
     eq(r["eksik"], [], "eksik alan yok")
 
 
+def test_olay_kapisi_v5():
+    """v5 (2026-08-17): OLAY kapisi + baslik temizligi.
+
+    Vakalarin TAMAMI gercek kosu ciktilarindan alindi: 37 commit'in
+    reddedilenler.json + hafta_*.json dosyalarindan cikan 1154 benzersiz
+    baslik havuzunda olculdu. Eski kapi 92 basligi kabul ediyordu, bunlarin
+    yaklasik 40'i OEM urun katalogu, pazarlama yazisi ya da ticaret/finans
+    haberiydi. Yeni kapi 48 kabul ediyor; asagidaki ayrimlar sarttir.
+    """
+    def gecer(b):
+        """collect.py ile AYNI zincir: temizle -> kapsam -> olay."""
+        tb = taxonomy.temiz_baslik(b)
+        ok, _ = taxonomy.in_scope(tb, "")
+        if ok and taxonomy.haber_olayi(tb):
+            return "Hat"
+        if taxonomy.genel_yatirim(tb):
+            return "Yatirim"
+        return None
+
+    # --- GECMESI SART: gercek hat olaylari -----------------------------
+    for b in [
+        "ANDRITZ to supply new cut-to-length line to Olympic Steel, USA",
+        "ANDRITZ to upgrade continuous galvanizing line for Tangsteel, China",
+        "ANDRITZ receives final acceptance for pickling line and acid "
+        "regeneration plant at voestalpine, Austria",
+        "Tata Steel awards ANDRITZ order for acid regeneration plant",
+        "KG Steel selects Primetals for Dangjin PLTCM upgrade",
+        "Primetals to modernise Korean pickling line",
+        "CSC orders overhaul of two roll grinding machines",
+        "MINO Process Control Completes Bliss Cold Mill Upgrade at ELVAL",
+        "Olympic Metals Installs DELTA Steel Technologies Cut-To-Length Line",
+        # Turkce: ek alan kokler kapida kalmamali (sondaki \b tuzagi)
+        "TOSYALI ALGERIE, SOGUK HADDELEME KOMPLEKSINDE ILK URETIMI YAPTI",
+        "Kirac Galvaniz Bulgaristan'da 10 Milyon Euro'luk Anlasmaya Imza Atti",
+    ]:
+        eq(gecer(b), "Hat", "Hat gecmeli: " + b[:52])
+
+    # --- ELENMESI SART: konu dogru ama OLAY YOK (urun katalogu) --------
+    for b in [
+        "Flying Shear Cut-to-Length Lines",
+        "Roll Feed / Stop - Start Plate Cut-To-Length Lines",
+        "View All Cut-To-Length Lines",
+        "Strip processing line, Annealing and Pickling line with vertical "
+        "annealing furnace",
+        "Degreasing and Pickling lines, finish-brushing and passivation",
+        "High convection chamber-type furnaces for the annealing of strip coils",
+        "Strip width measurement - EMG BREIMO",
+        "Flotation dryer for coated silicon steel strip",
+        "Hot-Dip Zn-Al-Mg Coated Steel",
+        "Electro Galvanized Steel (EGI)",
+    ]:
+        eq(gecer(b), None, "katalog elenmeli: " + b[:52])
+
+    # --- ELENMESI SART: pazarlama / kose yazisi ------------------------
+    for b in [
+        "Case Study: Cut-to-Length Line (.179 x 60.00)",
+        "Choosing the Right Scrap Solution for Your Slitting Line",
+        "Modern Strip Production Requires More Than Conventional Width "
+        "Measurement",
+        "Delta Steel Technologies Showcases Next-Level Temper Pass CTL Line",
+    ]:
+        eq(gecer(b), None, "pazarlama elenmeli: " + b[:52])
+
+    # --- ELENMESI SART: W33 bulteninde sizan iki satir -----------------
+    eq(gecer("Russian strike halts Metinvest's Zaporizhstal steel production"),
+       None, "Metinvest 'invest' icerdigi icin yatirim sanilmamali")
+    eq(gecer("Domestic steel capacity expansion to boost higher-grade iron "
+             "ore demand - report"), None, "rapor satisi elenmeli")
+
+    # --- ELENMESI SART: gurultu artik Hat katmaninda da calisir --------
+    for b in [
+        "Sale of thyssenkrupp's Indian electrical steel business completed",
+        "thyssenkrupp Electrical Steel: Temporary plant shutdowns in Germany",
+        "PPGI Galvanized Coil / Turkey / Ex-Works USD/t",
+        "Amalgamation of The Tinplate Company of India into Tata Steel",
+        "Cliffs CEO says grain-oriented steel essential for transformers",
+        "Uluslararasi Galvaniz Sektorunun Buyuk Bulusmasi Istanbul'da",
+        "Hoberg & Driesch ve ATTEC'den Turkiye'ye Stratejik Celik Boru Yatirimi",
+    ]:
+        eq(gecer(b), None, "gurultu elenmeli: " + b[:52])
+
+    # --- BASLIK TEMIZLIGI: ayni haber tek anahtara inmeli --------------
+    a = "ANDRITZ to supply new cut-to-length line to Olympic Steel, USA"
+    b = (a + " 2025-02-11 International technology group ANDRITZ has received "
+         "an order from Olympic Steel")
+    eq(taxonomy.temiz_baslik(a), taxonomy.temiz_baslik(b), "lede ayiklanmali")
+    eq(state.norm_key(taxonomy.temiz_baslik(a)),
+       state.norm_key(taxonomy.temiz_baslik(b)),
+       "temizlikten sonra tekrar anahtari ayni olmali")
+    eq(taxonomy.temiz_baslik("11 Aug Free KG Steel selects Primetals for PLTCM"),
+       "KG Steel selects Primetals for PLTCM", "Kallanish on eki ayiklanmali")
+    eq(taxonomy.temiz_baslik("Daily press | 2025-01-30 Sale of business completed"),
+       "Sale of business completed", "thyssenkrupp on eki ayiklanmali")
+    eq(taxonomy.temiz_baslik("new orders 2026, 28th July FAC achieved for caster"),
+       "FAC achieved for caster", "Danieli on eki ayiklanmali")
+
+
+def test_w34_sicak_hadde():
+    """2026-W34 bulteninin bozuk satiri: govde kapsam KURAMAZ.
+
+    "Nippon Steel, 6 Milyon Tonluk Yeni SICAK Haddeleme Hattini Devreye Aldi"
+    basliginda soguk taraf terimi yok; govdesinde hadde/serit kelimeleri
+    geciyordu ve haber "Serit isleme hatti" rozetiyle Hat katmanina girdi.
+    Kapsam: sicak hadde SONRASI - sicak hadde hattinin kendisi Hat olamaz.
+    """
+    tr = "Nippon Steel, 6 Milyon Tonluk Yeni Sicak Haddeleme Hattini Devreye Aldi"
+    govde = ("Nippon Steel'in yeni hatti yilda 6 milyon ton serit uretecek; "
+             "hadde parki ve bobin tasima sistemleri yenilendi.")
+    eq(taxonomy.in_scope(tr, govde)[0], False,
+       "sicak hadde hatti govde yuzunden Hat'a girmemeli")
+    eq(taxonomy.genel_yatirim(tr), True,
+       "kapasite yatirimi olarak Katman 2'de kalabilir")
+    # Ayni kural gercek hat haberini ELEMEMELI: baslikta terim varsa gecer
+    eq(taxonomy.in_scope("Primetals to modernise Korean pickling line", "")[0],
+       True, "baslikta hat terimi varsa govdeye gerek yok")
+    eq(taxonomy.in_scope(
+        "Danieli to supply new pickling line to Acme Steel",
+        "Acme said the investment comes as hot rolled coil prices rise.")[0],
+       True, "govdedeki sicak hadde/fiyat kelimesi haberi elememeli")
+    # v5.2: govde kapsami KURABILIR - baslikta hat adi gecmeyen gercek haber
+    eq(taxonomy.in_scope(
+        "Marcegaglia selects Fives for digital upgrade",
+        "The upgrade covers the annealing and pickling line at Gazoldo.")[0],
+       True, "govde kapsam kurabilmeli (baslikta hat adi yok)")
+    # ...ama baslik yukari akis diyorsa govde onu kurtaramaz
+    eq(taxonomy.in_scope(
+        "Hybar orders continuous minimill from SMS group",
+        "The minimill will feed a downstream galvanizing line.")[0],
+       False, "baslikta yukari akis varsa govde kurtaramaz")
+    # karma baslik: guclu soguk terim vetoyu kaldirir
+    eq(taxonomy.in_scope(
+        "ANDRITZ to supply cold rolling mill and hot strip mill to Acme", "")[0],
+       True, "baslikta guclu soguk terim varsa veto kalkar")
+    # muteahhit atamasi kisi atamasi degildir
+    eq(taxonomy.in_scope(
+        "Welsh contractor appointed for pickle line construction at Port Talbot",
+        "")[0], True, "muteahhit atamasi elenmemeli")
+
+
+
+def test_sitemap_okuyucu():
+    """v6 (2026-08-17): haber sitemap'i kaynak turu.
+
+    Olcum: 2026-02-01..08-17 arasindaki 25 kapsam ici haberin 18'i (%72)
+    Steel Times International + SteelOrbis'ten cikti. STI'nin /news sayfasi
+    bota 403 veriyordu, yani havuzun en verimli kaynagi sisteme hic
+    girmiyordu. Sitemap yolu 403 vermiyor VE basligi adresin icinde tasiyor,
+    boylece kapsam elemesi makale acilmadan yapilabiliyor.
+    """
+    import radar.collect as col
+
+    # Baslik adresten dogru cikarilmali (sondaki haber numarasi atilir)
+    eq(col.slug_baslik(
+        "https://www.steelorbis.com/steel-news/latest-news/"
+        "kg-steel-selects-primetals-for-dangjin-pltcm-upgrade-1470187.htm"),
+       "kg steel selects primetals for dangjin pltcm upgrade",
+       "SteelOrbis slug basligi")
+    eq(col.slug_baslik(
+        "https://www.steeltimesint.com/news/primetals-to-modernise-korean-pickling-line"),
+       "primetals to modernise korean pickling line", "STI slug basligi")
+    eq(col.slug_baslik("https://x.com/news/2026-06-11-saritas-group"),
+       "saritas group", "bastaki tarih atilmali")
+
+    # Slug basligi kapsam + olay kapisindan gecmeli (makale acilmadan)
+    for slug in ("primetals to modernise korean pickling line",
+                 "kg steel selects primetals for dangjin pltcm upgrade"):
+        ok, _ = taxonomy.in_scope(slug, "")
+        eq(ok and taxonomy.haber_olayi(slug), True,
+           "slug baslik kapiyi gecmeli: " + slug[:40])
+
+    # Sitemap XML ayristirmasi
+    xml = ("""<?xml version="1.0"?><urlset>"""
+           """<url><loc>https://a.com/news/danieli-to-supply-pickling-line-to-acme</loc>"""
+           """<lastmod>2026-08-14T10:00:00+03:00</lastmod></url>"""
+           """<url><loc>https://a.com/news/contact</loc><lastmod>2026-08-15</lastmod></url>"""
+           """<url><loc>https://a.com/news/tenova-awarded-cold-mill-revamp-brazil</loc>"""
+           """<lastmod>2026-08-16</lastmod></url></urlset>""")
+    got = []
+
+    class _FakeHttp(object):
+        @staticmethod
+        def fetch(url, use_cache=True):
+            return True, xml, {"status": 200, "final": url}
+
+    real = col.http
+    try:
+        col.http = _FakeHttp
+        items, err = col._items_from_sitemap(
+            {"sitemap": "https://a.com/sm.xml"}, lambda *a: None)
+    finally:
+        col.http = real
+    eq(err, None, "sitemap okunmali")
+    eq(len(items), 2, "kisa/menu adresi ('contact') elenmeli")
+    eq(items[0]["url"].endswith("tenova-awarded-cold-mill-revamp-brazil"), True,
+       "en yeni lastmod basta olmali")
+    eq(all(i.get("_sitemap") for i in items), True,
+       "_sitemap isareti sart - lastmod'a dusulmesin diye")
+    eq(items[0]["date_raw"], "2026-08-16", "lastmod okunmali (yalniz kesif icin)")
+
+
+def test_olculen_25_haber():
+    """2026-02-01..08-17 arasinda ELLE OLCULEN 25 gercek kapsam ici haber.
+
+    Bu vakalar uydurulmadi: alti buçuk aylik donemde kapsam tanimina birebir
+    uyan haberler tek tek dogrulanip sayildi (haftalik ortalama 0,83; haftalarin
+    %40'i sifir). Filtrenin isi bu 25'i kaybetmemek. Asagidakiler YALNIZ
+    BASLIKTAN yakalanmali - govde yardimi olmadan.
+    """
+    def gecer(b):
+        tb = taxonomy.temiz_baslik(b)
+        ok, _ = taxonomy.in_scope(tb, "")
+        if ok and taxonomy.haber_olayi(tb):
+            return "Hat"
+        return "Yatirim" if taxonomy.genel_yatirim(tb) else None
+
+    for b in [
+        # ciplak "starts" + hat adi
+        "Ternium starts cold rolling and galvanizing lines in Mexico",
+        # "restart"
+        "US Steel to restart Gary tin mill",
+        # "annealing furnace" kapsam bosluguydu
+        "Fives signs contract with Yongfeng Group for annealing furnaces",
+        "CERI Technology Company awards annealing furnace contract to ANDRITZ",
+        # fiilsiz tedarikci duyurusu: "new" + hat adi
+        "New MINO Double-Stand Six-High Cold Reversing Mill in North America",
+        # "to invest ... ramp up"
+        "India's Jindal Stainless to invest $94 million to ramp up cold "
+        "rolling capacity",
+        # muteahhit atamasi (kisi atamasi degil)
+        "Welsh contractor appointed for pickle line construction at Port Talbot",
+        # olculen donemden diger dogrulanmis vakalar
+        "SMS upgrades Hyundai Steel galvanising line",
+        "Gazi Metal orders new roll grinder from Pomini Tenova",
+        "India's JIL commissions continuous colour coating line",
+        "Tenova I2S awarded 6-Hi cold rolling mill modernization in Brazil",
+        "Eastern Steel commissions 650,000 mt temper mill in Malaysia",
+        "Tosyali Algerie produces first cold rolled products at new complex",
+        "KG Steel selects Primetals for Dangjin PLTCM upgrade",
+        "Primetals Technologies to upgrade Shougang Shunyi pickling line and "
+        "tandem cold mill automation",
+        "Granite City Processing orders Butech Bliss stretch levelling "
+        "cut-to-length line",
+        "Fives to supply full electrical steel lines to Sanbao Group",
+    ]:
+        eq(gecer(b) is not None, True, "olculen haber kaybolmamali: " + b[:48])
+
+    # ...ve ayni donemde ELENMESI gereken, ayni sayfalarda duran satirlar
+    for b in [
+        "Nippon Steel completes 6MT hot rolling line",
+        "Hybar orders continuous minimill from SMS group",
+        "Danieli installs billet grinding machine in China",
+        "Nucor reports earnings increase in Q2",
+        "How does the European market view quota system changes",
+        "Turkish motor vehicle output down 8.1 percent in Jan-July 2026",
+    ]:
+        eq(gecer(b), None, "kapsam disi kalmali: " + b[:48])
+
+
+def test_cin_katmani():
+    """v7 (2026-08-17): Cince kaynak destegi.
+
+    Olcum: 3-17 Agustos 2026'da Bati basini gercekten bostu (yaz durusu) ama
+    Mysteel ayni iki haftada ekipman sozlesmesi yayinladi ve havuz gormedi.
+    Sebep tek bir satirdi: is_junk_title kelime sayisina bakiyordu, Cince'de
+    ise BOSLUK YOK - her Cince baslik "cok kisa" sayilip eleniyordu.
+    """
+    # Cince baslik artik cop sayilmamali
+    eq(taxonomy.is_junk_title("\u9540\u950c\u673a\u7ec4\u9879\u76ee\u5408\u540c\u7b7e\u8ba2"), False,
+       "Cince baslik cop sayilmamali (bosluk yok)")
+    eq(taxonomy.is_junk_title("\u94a2"), True, "tek karakter yine cop")
+
+    def gecer(b):
+        ok, _ = taxonomy.in_scope(b, "")
+        if ok and taxonomy.haber_olayi(b):
+            return "Hat"
+        return "Yatirim" if taxonomy.genel_yatirim(b) else None
+
+    # GECMELI - gercek Cince hat duyurulari
+    for b, ne in [
+        ("\u9632\u57ce\u6e2f\u699b\u6cf01\u53f7\u9540\u950c\u673a\u7ec4\u9879\u76ee\u5408\u540c\u7b7e\u8ba2", "galvaniz hatti sozlesmesi"),
+        ("\u9996\u94a2\u51b7\u8f67\u9178\u6d17\u8fde\u8f67\u673a\u7ec4\u81ea\u52a8\u5316\u6539\u9020", "PLTCM otomasyon modernizasyonu"),
+        ("\u67d0\u94a2\u5382\u5f69\u6d82\u673a\u7ec4\u6295\u4ea7", "boyama hatti devreye alindi"),
+        ("\u8fde\u7eed\u9000\u706b\u673a\u7ec4\u5408\u540c\u7b7e\u8ba2", "surekli tavlama sozlesmesi"),
+        ("\u5b9d\u94a2\u9540\u9521\u673a\u7ec4\u6295\u4ea7", "teneke hatti devreye alindi"),
+    ]:
+        eq(gecer(b), "Hat", "Cince hat haberi gecmeli: " + ne)
+
+    # ELENMELI - ayni sayfalarda duran Cince gurultu ve yukari akis
+    for b, ne in [
+        ("\u5e7f\u4e1c\u91d1\u6657\u51701780\u6beb\u7c73\u70ed\u8fde\u8f67\u9879\u76ee\u5408\u540c\u7b7e\u8ba2", "SICAK hadde"),
+        ("\u672c\u5468\u51b7\u8f67\u677f\u5377\u4ef7\u683c\u8c03\u4ef7", "fiyat"),
+        ("7\u6708\u7c97\u94a2\u4ea7\u91cf\u540c\u6bd4\u589e\u957f", "uretim istatistigi"),
+        ("\u67d0\u516c\u53f8\u9ad8\u7089\u5927\u4fee\u5b8c\u6210", "yuksek firin"),
+    ]:
+        eq(gecer(b), None, "Cince kapsam disi elenmeli: " + ne)
+
+    # Mysteel adres bicimi tarih verir (on eleme icin)
+    eq(dates.date_from_url("https://news.mysteel.com/a/26081415/CA0AAA8FC351E3AA.html",
+                           dt.date(2026, 8, 17)), "2026-08-14", "Mysteel adres tarihi")
+
+
 def run():
     for fn in (test_dates, test_article_date_chain, test_firm, test_scope,
                test_line_and_stage, test_listing_parser, test_feed_parser,
                test_state, test_build_row, test_w33_regresyon, test_w33b_regresyon,
                test_w33c_regresyon, test_w33d_regresyon, test_uclu_kg_senaryosu,
                test_iki_katmanli_liste, test_kapsam_havuzu, test_tarih_acilari,
+               test_olay_kapisi_v5, test_w34_sicak_hadde,
+               test_sitemap_okuyucu, test_olculen_25_haber,
+               test_cin_katmani,
                test_compose_ve_mail):
         try:
             fn()

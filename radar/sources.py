@@ -115,9 +115,14 @@ SOURCES = [
          verified=False, lang="tr"),
 
     # ---------------- Dergi / haber (17) ----------------
+    # 2026-08-17 olcumu: 6,5 ayda bulunan 25 kapsam ici haberin 11'i BURADAN
+    # cikti - havuzun en verimli tek kaynagi. Ama /news sayfasi bota 403
+    # veriyordu, yani en iyi kaynak sisteme HIC girmiyordu. Haber sitemap'i
+    # 403 vermiyor ve basligi adresin icinde tasiyor.
     dict(id="steeltimesint", publisher="Steel Times International", kind="dergi", country="GB",
          url="https://www.steeltimesint.com/news", rss=None, verified=True,
-         note="sunucu IP'sinden zaman zaman 403"),
+         sitemap="https://www.steeltimesint.com/sitemaps-1-section-news-1-sitemap.xml",
+         note="HTML 403; haber sitemap'i uzerinden okunur"),
     dict(id="steelturk",     publisher="SteelTurk",                kind="dergi", country="TR",
          url="https://www.steelturk.com.tr/global-celik-haberleri/", rss=None,
          verified=True, lang="tr"),
@@ -126,16 +131,22 @@ SOURCES = [
     dict(id="metaldunyasi",  publisher="Metal Dunyasi",            kind="dergi", country="TR",
          url="https://metaldunyasi.com.tr/tr/sektorel-haberler/20/demir-elik/",
          rss=None, verified=True, lang="tr"),
+    # 25 haberin 7'si buradan. Ucretsiz katman sitemap'i ~3 hafta tasiyor ve
+    # saat hassasiyetinde lastmod veriyor; uretici tarafi olaylari (Ternium,
+    # Tosyali ilk bobin, tk accelis) yalnizca bu kaynakta gorundu.
     dict(id="steelorbis",    publisher="SteelOrbis",               kind="dergi", country="TR",
-         url="https://www.steelorbis.com/steel-news/latest-news/", rss=None, verified=True),
+         url="https://www.steelorbis.com/steel-news/latest-news/", rss=None, verified=True,
+         sitemap="https://www.steelorbis.com/sitemap-news-en-free-1.xml"),
     dict(id="eurometal",     publisher="EUROMETAL",                kind="dergi", country="LU",
          url="https://eurometal.net/news/", rss="https://eurometal.net/feed/", verified=True),
     dict(id="canmaker",      publisher="The Canmaker",             kind="dergi", country="GB",
          url="https://canmaker.com/news/", rss="https://canmaker.com/feed", verified=True),
     dict(id="kallanish",     publisher="Kallanish",                kind="dergi", country="GB",
          url="https://www.kallanish.com/en/news/steel/live", rss=None, verified=True),
+    # /feed/ sonsuz yonlendirme dongusune giriyor; sitemap saglam.
     dict(id="gmk",           publisher="GMK Center",               kind="dergi", country="UA",
-         url="https://gmk.center/en/news/", rss=None, verified=True),
+         url="https://gmk.center/en/news/", rss=None, verified=True,
+         sitemap="https://gmk.center/news-sitemap50.xml"),
     dict(id="meps",          publisher="MEPS International",       kind="dergi", country="GB",
          url="https://mepsinternational.com/gb/en/news", rss=None, verified=True),
     dict(id="steelguru",     publisher="SteelGuru",                kind="dergi", country="IN",
@@ -167,16 +178,29 @@ SOURCES = [
 
 
     # ---------------- v4 EK KAYNAKLAR (2026-08-12 arastirmasi) ----------------
+    # Steel Times Int ile ayni altyapi; HTML tarafi 403 veriyordu.
     dict(id="furnacesint",  publisher="Furnaces International", kind="dergi", country="GB",
-         url="https://www.furnaces-international.com/", rss=None, verified=True),
+         url="https://www.furnaces-international.com/", rss=None, verified=True,
+         sitemap="https://furnaces-international.com/sitemaps-1-section-news-1-sitemap.xml"),
     dict(id="heattreat",    publisher="Heat Treat Today",      kind="dergi", country="US",
          url="https://www.heattreattoday.com/", rss=None, verified=True),
     dict(id="metalforming", publisher="MetalForming Magazine", kind="dergi", country="US",
          url="https://www.metalformingmagazine.com/news/", rss=None, verified=True),
     dict(id="pma",          publisher="PMA",                   kind="kurum", country="US",
          url="https://www.pma.org/news/", rss=None, verified=True),
+    # CIN KATMANI (2026-08-17). Dunyanin soguk hadde / kaplama hatti
+    # projelerinin buyuk kismi Cin'de ve havuz Cince tek satir okumuyordu.
+    # Kanit: Mysteel 14 Agustos 2026'da "\u5e7f\u4e1c\u91d1\u6657\u5170 1780mm ... \u5408\u540c\u7b7e\u8ba2"
+    # (ekipman sozlesmesi) yayinladi, havuz gormedi.
+    # Adres tarihi kodluyor: /a/YYMMDDHH/HASH.html -> pencere elemesi sayfa
+    # ACILMADAN yapilir; tarih yine makale sayfasindan dogrulanir.
     dict(id="mysteel",      publisher="Mysteel",               kind="dergi", country="CN",
          url="https://www.mysteel.net/", rss=None, verified=True),
+    dict(id="mysteel_fac",  publisher="Mysteel (tesis/proje)", kind="dergi", country="CN",
+         url="https://factory.mysteel.com/", rss=None, verified=True, lang="zh",
+         note="proje/ekipman kanali - hat sozlesmeleri burada duyurulur"),
+    dict(id="mysteel_news", publisher="Mysteel (haber)",       kind="dergi", country="CN",
+         url="https://news.mysteel.com/", rss=None, verified=True, lang="zh"),
     dict(id="metallurgprom", publisher="Metallurgprom",        kind="dergi", country="UA",
          url="https://metallurgprom.org/en/news/", rss=None, verified=True),
     dict(id="siderweb",     publisher="Siderweb",              kind="dergi", country="IT",

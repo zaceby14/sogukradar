@@ -1,0 +1,65 @@
+name: SogukRadar posta gonder
+
+# Postayi EDITOR ONAYI tetikler. Haftalik kosu (weekly.yml) yalnizca veri
+# uretir; bu is akisi out/ONAY dosyasi push edildiginde calisir ve o anki
+# out/email.html'i gonderir.
+#
+# ONAY dosyasinin ILK SATIRI donem olmalidir (ornek: 2026-W34). Asagidaki
+# kontrol, ONAY'in guncel kosuya ait oldugunu dogrular - eski bir ONAY
+# dosyasi kazara yeniden push edilirse posta gitmez.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "out/ONAY"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: sogukradar-posta
+  cancel-in-progress: false
+
+jobs:
+  gonder:
+    runs-on: ubuntu-latest
+    env:
+      MAIL_USER: ${{ secrets.MAIL_USER }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: ONAY guncel kosuya ait mi
+        run: |
+          test -f out/ONAY || { echo "out/ONAY yok"; exit 1; }
+          test -s out/email.html || { echo "out/email.html bos"; exit 1; }
+          ONAY_DONEM=$(head -1 out/ONAY | tr -d '[:space:]')
+          KOSU_DONEM=$(python - <<'PY'
+          import glob, json
+          f = sorted(glob.glob("out/hafta_*.json"))[-1]
+          print(json.load(open(f, encoding="utf-8"))["period"])
+          PY
+          )
+          echo "ONAY: $ONAY_DONEM | kosu: $KOSU_DONEM"
+          if [ "$ONAY_DONEM" != "$KOSU_DONEM" ]; then
+            echo "ONAY donemi kosu donemiyle ayni degil - posta GONDERILMEDI"
+            exit 1
+          fi
+
+      - name: E-posta gonder
+        if: env.MAIL_USER != ''
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.MAIL_USER }}
+          password: ${{ secrets.MAIL_PASS }}
+          subject: "Soguk Haddehane ve Nihai Hatlarda Sektor & Teknoloji Takibi — Haftalik Bulten"
+          to: ${{ secrets.MAIL_TO }}
+          from: SogukRadar Bulten
+          html_body: file://out/email.html
+
+      - name: Ozet
+        run: echo "Posta gonderildi - $(head -1 out/ONAY)" >> $GITHUB_STEP_SUMMARY

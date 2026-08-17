@@ -130,12 +130,23 @@ def parse_date_text(s, dayfirst=True, today=None):
     return None
 
 
+# Mysteel (Cin) adres bicimi: /a/YYMMDDHH/HASH.html - ornek /a/26081415/
+# 2026-08-14 saat 15. Tarih ADRESTE kodlu oldugu icin pencere elemesi sayfa
+# ACILMADAN yapilabilir; bu, Cin kaynagini ucuza taramanin anahtaridir.
+# DIKKAT: bu yalnizca ON ELEME icindir. Rapora giren tarih yine makale
+# sayfasindan dogrulanir (Mysteel sayfasi "2026-08-14 15:56" yazar).
+RE_URL_YYMMDDHH = re.compile(r"/a/(\d{2})(\d{2})(\d{2})(\d{2})/[0-9A-Fa-f]{8,}")
+
+
 def date_from_url(url, today=None):
     if not url:
         return None
     m = RE_URL_YMD.search(url)
     if m:
         return _mk(m.group(1), m.group(2), m.group(3), today)
+    m2 = RE_URL_YYMMDDHH.search(url)
+    if m2:
+        return _mk("20" + m2.group(1), m2.group(2), m2.group(3), today)
     return None
 
 

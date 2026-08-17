@@ -24,6 +24,10 @@ MIN_ROWS = int(os.environ.get("RADAR_MIN_ROWS", "5"))
 
 # Kaynak basina liste sayfasindan alinacak azami baglanti
 MAX_LINKS_PER_SOURCE = int(os.environ.get("RADAR_MAX_LINKS", "120"))
+# Haber sitemap'inden alinacak azami adres. Sitemap'te makale ACILMADAN
+# baslik elemesi yapildigi icin bu sayi liste sayfasindan cok daha yuksek
+# olabilir - maliyet MAX_ARTICLE_FETCH ile zaten sinirli.
+MAX_SITEMAP_LINKS = int(os.environ.get("RADAR_MAX_SITEMAP", "400"))
 # Kapsam on elemesini gecip makale sayfasi acilacak azami aday (maliyet freni)
 MAX_ARTICLE_FETCH = int(os.environ.get("RADAR_MAX_ARTICLES", "220"))
 
