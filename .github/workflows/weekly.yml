@@ -107,9 +107,14 @@ jobs:
           if os.path.exists("out/kacanlar.json"):
               k = json.load(open("out/kacanlar.json", encoding="utf-8"))
               ozet["capraz"] = {
+                  "sitemap_adayi": k.get("sitemap_adayi", 0),
+                  "kapiyi_gecen": k.get("kapiyi_gecen", 0),
                   "kacan": k["adet"],
-                  "dogrulanamayan": len(k.get("dogrulanamayan", [])),
                   "basliklar": [r["baslik"][:80] for r in k["kacanlar"]],
+                  "acildi_elendi": ["%s | %s" % (r["sebep"], r["baslik"][:60])
+                                    for r in k.get("acildi_elendi", [])],
+                  "dogrulanamayan": ["%s | %s" % (r["sebep"], r["baslik"][:60])
+                                     for r in k.get("dogrulanamayan", [])],
                   "kaynak_sorunu": [v["publisher"] for v in k["kaynaklar"].values()
                                     if v["durum"] != "ok"]}
           print(json.dumps(ozet, ensure_ascii=False, indent=1))
@@ -149,13 +154,30 @@ jobs:
         run: |
           git config user.name  "sogukradar-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add out state
-          git diff --staged --quiet || git commit -m "haftalik kosu $(date -u +%Y-W%V) [skip ci]"
-          # Kosu sirasinda/oncesinde repoya baska commit gelirse push reddedilir;
-          # uc kez cek-birak dongusuyle kendini onarir.
+          # out/ ve state/ her kosuda TAM yeniden uretilir; iki kosu ust uste
+          # bindiginde eski surumle "birlestirmek" anlamsizdir - dogru olan BU
+          # kosunun ciktisidir.
+          #
+          # ONCEKI SURUM VERI KAYBEDIYORDU (2026-08-17'de olculdu). Catismada
+          #   git rebase --abort; git reset --hard origin/main; break
+          # calisiyordu: reset --hard kosunun KENDI commit'ini atiyor, break de
+          # push etmeden dongudan cikiyordu. Adim yine 0 donuyor, yani is akisi
+          # "basarili" gorunurken ciktisi sessizce yok oluyordu - capraz
+          # kontrolun ilk kosusunda out/kacanlar.json boyle kayboldu.
+          #
+          # Cozum: rebase yok. Index origin/main'e alinir (calisma agacina
+          # DOKUNULMAZ), uretilen dosyalar yeniden sahnelenir. Catisma imkansiz,
+          # kod dosyalari geri alinmaz cunku yalniz out/ ve state/ sahnelenir.
           for i in 1 2 3; do
             git fetch origin main
-            git rebase origin/main || { git rebase --abort; git reset --hard origin/main; break; }
+            git reset --quiet origin/main
+            git add out state
+            if git diff --staged --quiet; then
+              echo "degisiklik yok, commit gerekmedi"
+              break
+            fi
+            git commit -q -m "haftalik kosu $(date -u +%Y-W%V) [skip ci]"
             git push && break
+            echo "push reddedildi, yeniden deneniyor ($i/3)"
             sleep 5
           done

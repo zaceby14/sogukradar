@@ -39,14 +39,19 @@ MAX_ACILAN = int(os.environ.get("RADAR_CAPRAZ_MAX", "40"))
 # veren kullanilir, hicbiri vermezse durum "erisilemedi" olarak yazilir.
 KAYNAKLAR = [
     dict(id="steeltimesint", publisher="Steel Times International", dayfirst=True,
-         sitemaps=["https://www.steeltimesint.com/sitemaps-1-section-news-1-sitemap.xml"]),
+         sitemaps=["https://www.steeltimesint.com/sitemaps-1-section-news-1-sitemap.xml"],
+         robots=["https://www.steeltimesint.com"]),
     dict(id="steelorbis", publisher="SteelOrbis", dayfirst=True,
-         sitemaps=["https://www.steelorbis.com/sitemap-news-en-free-1.xml"]),
+         sitemaps=["https://www.steelorbis.com/sitemap-news-en-free-1.xml"],
+         robots=["https://www.steelorbis.com"]),
+    # 2026-08-17: elle yazilan DORT adresin dordu de 404/bos dondu; bu yuzden
+    # robots.txt uzerinden kesif sart. Uc alan adi da denenir.
     dict(id="mysteel", publisher="Mysteel", dayfirst=True,
          sitemaps=["https://news.mysteel.com/sitemap_news.xml",
                    "https://news.mysteel.com/sitemap.xml",
-                   "https://factory.mysteel.com/sitemap.xml",
-                   "https://www.mysteel.net/sitemap.xml"]),
+                   "https://factory.mysteel.com/sitemap.xml"],
+         robots=["https://news.mysteel.com", "https://factory.mysteel.com",
+                 "https://www.mysteel.com"]),
 ]
 
 
@@ -115,15 +120,55 @@ def eleme(adaylar, adresler, basliklar):
     return kalan, atlanan
 
 
+RE_ROBOTS_SITEMAP = re.compile(r"(?im)^\s*sitemap:\s*(\S+)")
+
+
+def robots_sitemaplari(kok, log=lambda s: None):
+    """robots.txt'teki Sitemap: satirlari.
+
+    Elle yazilan aday adresler eskiyor: 2026-08-17 kosusunda Mysteel icin
+    denenen DORT adresin dordu de 404/bos dondu. robots.txt yayincinin
+    kendi beyanidir; tahmin etmek yerine oradan okunur. Haber sitemap'i
+    olma ihtimali yuksek olanlar one alinir.
+    """
+    ok, text, _ = http.fetch(kok.rstrip("/") + "/robots.txt")
+    if not ok:
+        return []
+    bulunan = []
+    for u in RE_ROBOTS_SITEMAP.findall(text):
+        if u.startswith("http"):
+            bulunan.append(u)
+    # Siralama ALAN ADINA degil YOLA bakar: "news.mysteel.com" host'u zaten
+    # "news" tasiyor ve her adresi ayni puana sokuyordu (2026-08-17).
+    def _puan(u):
+        yol = re.sub(r"^https?://[^/]+", "", u)
+        return 0 if re.search(r"news|haber|article", yol, re.I) else 1
+    bulunan.sort(key=_puan)
+    if bulunan:
+        log("    (robots.txt: %d sitemap)" % len(bulunan))
+    return bulunan[:6]
+
+
 def _sitemap_adaylari(k, log):
-    """(adaylar, hata) - kaynagin sitemap adreslerini sirayla dener."""
+    """(adaylar, hata) - once elle yazilan adresler, sonra robots.txt."""
     son = None
-    for u in k["sitemaps"]:
+    denenen = list(k["sitemaps"])
+    for u in denenen:
         items, err = collect._items_from_sitemap({"sitemap": u}, log)
         if items:
             return items, None
         son = err or "sitemap bos"
         log("    (%s -> %s)" % (u, son))
+    for kok in k.get("robots", []):
+        for u in robots_sitemaplari(kok, log):
+            if u in denenen:
+                continue
+            denenen.append(u)
+            items, err = collect._items_from_sitemap({"sitemap": u}, log)
+            if items:
+                log("    (robots.txt'ten bulundu: %s)" % u)
+                return items, None
+            log("    (%s -> %s)" % (u, err or "sitemap bos"))
     return [], son
 
 
@@ -156,7 +201,11 @@ def capraz(today=None, log=print):
     log("sitemap adayi %d -> kapiyi gecen ve listede olmayan %d"
         % (len(adaylar), len(kalan)))
 
-    kacanlar, dogrulanamayan = [], []
+    # Makale ACILDIKTAN SONRA elenenler ayri tutulur. Ilk kosuda (2026-08-17)
+    # kapiyi gecen 5 aday bu asamada elendi ama cikti "0 kacan, 0
+    # dogrulanamayan" diyordu - denetim listesinin sessizce bosalmasi, dolu
+    # olmasindan daha tehlikelidir; sebep gorunmeli.
+    kacanlar, dogrulanamayan, acildi_elendi = [], [], []
     acilan = 0
     for it in kalan:
         if acilan >= MAX_ACILAN:
@@ -176,8 +225,8 @@ def capraz(today=None, log=print):
         baslik = gercek if len(gercek.split()) >= 4 else it["title"]
         katman, sebep = kapi(baslik)
         if not katman:
-            atlanan.append({"title": baslik, "url": it["url"],
-                            "sebep": "gercek baslikta " + sebep})
+            acildi_elendi.append({"baslik": baslik, "url": it["url"],
+                                  "sebep": "gercek baslikta " + sebep})
             continue
         iso, src = dates.extract_article_date(
             doc, info.get("final") or it["url"], it.get("_dayfirst", True), today)
@@ -186,8 +235,8 @@ def capraz(today=None, log=print):
                                    "sebep": "yayin tarihi sayfadan okunamadi"})
             continue
         if iso < floor.isoformat() or iso > today.isoformat():
-            atlanan.append({"title": baslik, "url": it["url"],
-                            "sebep": "pencere disi (%s)" % iso})
+            acildi_elendi.append({"baslik": baslik, "url": it["url"],
+                                  "sebep": "pencere disi (%s)" % iso})
             continue
         if dates.title_year_conflict(baslik, iso):
             dogrulanamayan.append({"baslik": baslik, "url": it["url"],
@@ -209,6 +258,9 @@ def capraz(today=None, log=print):
         "adet": len(kacanlar),
         "kacanlar": kacanlar,
         "dogrulanamayan": dogrulanamayan,
+        "acildi_elendi": acildi_elendi,
+        "kapiyi_gecen": len(kalan),
+        "sitemap_adayi": len(adaylar),
         "elenen": len(atlanan),
     }
 

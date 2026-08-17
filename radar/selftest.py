@@ -709,6 +709,24 @@ def test_capraz_kontrol():
     eq(cp._norm_url("https://WWW.SteelOrbis.com/a/b.htm?x=1#y"),
        "steelorbis.com/a/b.htm", "adres normalizasyonu")
 
+    # robots.txt kesfi: elle yazilan adresler eskiyor. 2026-08-17 kosusunda
+    # Mysteel icin denenen DORT adresin dordu de 404/bos dondu.
+    robots = ("User-agent: *\n"
+              "Disallow: /admin\n"
+              "Sitemap: https://news.mysteel.com/sitemap-index.xml\n"
+              "sitemap: https://news.mysteel.com/sitemap-news-1.xml\n"
+              "Sitemap: /gorece/olmaz.xml\n")
+    import radar.http as H
+    eski = H.fetch
+    try:
+        H.fetch = lambda u, use_cache=True: (True, robots, {"status": 200, "final": u})
+        bulunan = cp.robots_sitemaplari("https://news.mysteel.com/")
+    finally:
+        H.fetch = eski
+    eq(bulunan[0], "https://news.mysteel.com/sitemap-news-1.xml",
+       "haber sitemap'i one alinmali")
+    eq(len(bulunan), 2, "gorece adres atlanmali")
+
 
 def test_sitemap_okuyucu():
     """v6 (2026-08-17): haber sitemap'i kaynak turu.

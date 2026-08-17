@@ -200,13 +200,20 @@ def cmd_capraz(a):
     today = dt.date.fromisoformat(a.today) if a.today else dt.date.today()
     sonuc = cp.capraz(today=today)
     _w(os.path.join(OUT, "kacanlar.json"), sonuc)
-    print("\ncapraz kontrol: %d kacan, %d dogrulanamayan -> out/kacanlar.json"
-          % (sonuc["adet"], len(sonuc["dogrulanamayan"])))
+    print("\ncapraz kontrol: sitemap adayi %d -> kapiyi gecen %d -> KACAN %d"
+          % (sonuc["sitemap_adayi"], sonuc["kapiyi_gecen"], sonuc["adet"]))
     for r in sonuc["kacanlar"]:
         print("  %s | %-9s | %s" % (r["tarih"], r["katman"], r["baslik"][:90]))
+    # Kapiyi gecip de listeye girmeyen adaylarin NEREDE dustugu gorunmeli:
+    # denetim listesinin sessizce bosalmasi, dolu olmasindan tehlikelidir.
+    for r in sonuc["acildi_elendi"]:
+        print("  - elendi (%s): %s" % (r["sebep"], r["baslik"][:75]))
+    for r in sonuc["dogrulanamayan"]:
+        print("  ? dogrulanamadi (%s): %s" % (r["sebep"], r["baslik"][:70]))
     for k, v in sonuc["kaynaklar"].items():
         if v["durum"] != "ok":
             print("  ! %s erisilemedi: %s" % (v["publisher"], v.get("hata")))
+    print("-> out/kacanlar.json")
     return 0
 
 
