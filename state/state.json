@@ -1,9 +1,10 @@
 {
  "events": {
-  "nippon steel|hat|Serit isleme hatti|Ilk urun": "2026-08-13",
-  "vinmetal|fu|Vietnam|Belirsiz": "2026-08-12",
-  "vinmetal|hat|Belirsiz|Belirsiz": "2026-08-12",
-  "vinmetal|ulke|Vietnam|Belirsiz": "2026-08-12"
+  "hoa binh|hat|Belirsiz|Ilk urun": "2026-08-05",
+  "jindal stainless limited|fu|Hindistan|Soguk hadde": "2026-08-17",
+  "jindal stainless limited|hat|Soguk hadde|Ilk urun": "2026-08-17",
+  "jindal stainless limited|ulke|Hindistan|Ilk urun": "2026-08-17",
+  "|hat|Dilme / boy kesme / SSC|Ilk urun": "2026-08-05"
  },
  "periods": [
   {
@@ -234,11 +235,30 @@
     "tekrar": 17
    },
    "uretim": "2026-08-17 06:03 UTC"
+  },
+  {
+   "donem": "2026-W34",
+   "satir": 3,
+   "stats": {
+    "erisilemeyen": 10,
+    "ham": 2421,
+    "kabul": 3,
+    "kapsam_disi": 2119,
+    "kaynak": 133,
+    "makale_acildi": 220,
+    "on_eleme_gecti": 239,
+    "pencere_disi": 191,
+    "tarih_celiskisi": 2,
+    "tarihsiz_elendi": 84,
+    "tekrar": 19
+   },
+   "uretim": "2026-08-17 19:11 UTC"
   }
  ],
  "seen": {
-  "59916e4f4d918c24": "2026-08-13",
-  "5b206c5b1079918e": "2026-08-12"
+  "1733ff02c2b335cf": "2026-08-05",
+  "43d668b85bed5aed": "2026-08-05",
+  "c0b5f864813ba8fd": "2026-08-17"
  },
  "son_basliklar": [
   {
@@ -390,6 +410,21 @@
    "a": "Belirsiz",
    "b": "VinMetal plans to build 5 million mt steel plant in Vietnam",
    "t": "2026-08-12"
+  },
+  {
+   "a": "Ilk urun",
+   "b": "India's Jindal Stainless Limited to invest $94 million to ramp up cold rolling capacity",
+   "t": "2026-08-17"
+  },
+  {
+   "a": "Ilk urun",
+   "b": "tk accelis announces milestone at Stuttgart steel service center",
+   "t": "2026-08-05"
+  },
+  {
+   "a": "Ilk urun",
+   "b": "Hoa Binh and Pomina Steel partner on 1.2 million mt flat steel plant expansion",
+   "t": "2026-08-05"
   }
  ],
  "source_health": {},

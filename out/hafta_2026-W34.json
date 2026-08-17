@@ -1,77 +1,94 @@
 {
  "rows": [
   {
-   "tarih": "2026-08-13",
-   "firma": "Nippon Steel",
+   "tarih": "2026-08-17",
+   "firma": "Jindal Stainless Limited",
+   "ulke": "Hindistan",
+   "hat": "Soguk hadde",
+   "asama": "Ilk urun",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "$94 million",
+   "baslik": "India's Jindal Stainless Limited to invest $94 million to ramp up cold rolling capacity",
+   "kaynak": "SteelOrbis",
+   "kaynak_id": "steelorbis",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/indias-jindal-stainless-limited-to-invest-94-million-to-ramp-up-cold-rolling-capacity-1471127.htm",
+   "tarih_kaynagi": "json-ld",
+   "eksik": [],
+   "anahtar": "c0b5f864813ba8fd",
+   "kategori": "Hat",
+   "olaylar": [
+    "jindal stainless limited|fu|Hindistan|Soguk hadde",
+    "jindal stainless limited|hat|Soguk hadde|Ilk urun",
+    "jindal stainless limited|ulke|Hindistan|Ilk urun"
+   ],
+   "puan": 59.0
+  },
+  {
+   "tarih": "2026-08-05",
+   "firma": "",
    "ulke": "",
-   "hat": "Serit isleme hatti",
+   "hat": "Dilme / boy kesme / SSC",
    "asama": "Ilk urun",
    "tedarikci": "",
    "kapasite": "",
    "tutar": "",
-   "baslik": "Nippon Steel, 6 Milyon Tonluk Yeni Sıcak Haddeleme Hattını Devreye Aldı",
-   "kaynak": "SteelTurk",
-   "kaynak_id": "steelturk",
-   "url": "https://www.steelturk.com.tr/nippon-steel-6-milyon-tonluk-yeni-sicak-haddeleme-hattini-devreye-aldi/",
-   "tarih_kaynagi": "metin",
+   "baslik": "tk accelis announces milestone at Stuttgart steel service center",
+   "kaynak": "SteelOrbis",
+   "kaynak_id": "steelorbis",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/tk-accelis-announces-milestone-at-stuttgart-steel-service-center-1469079.htm",
+   "tarih_kaynagi": "json-ld",
    "eksik": [
-    "ulke",
-    "tarih?"
+    "firma",
+    "ulke"
    ],
-   "anahtar": "59916e4f4d918c24",
+   "anahtar": "1733ff02c2b335cf",
    "kategori": "Hat",
    "olaylar": [
-    "nippon steel|hat|Serit isleme hatti|Ilk urun"
+    "|hat|Dilme / boy kesme / SSC|Ilk urun"
    ],
-   "puan": 46.4
+   "puan": 39.2
   },
   {
-   "tarih": "2026-08-12",
-   "firma": "VinMetal",
-   "ulke": "Vietnam",
+   "tarih": "2026-08-05",
+   "firma": "Hoa Binh",
+   "ulke": "",
    "hat": "Belirsiz",
-   "asama": "Belirsiz",
+   "asama": "Ilk urun",
    "tedarikci": "",
    "kapasite": "",
-   "tutar": "USD 7.13",
-   "baslik": "VinMetal plans to build 5 million mt steel plant in Vietnam",
-   "kaynak": "Steel Radar",
-   "kaynak_id": "steelradar",
-   "url": "https://www.steelradar.com/en/haber/vinmetal-plans-to-build-5-million-mt-steel-plant-in-vietnam/",
-   "tarih_kaynagi": "metin",
+   "tutar": "",
+   "baslik": "Hoa Binh and Pomina Steel partner on 1.2 million mt flat steel plant expansion",
+   "kaynak": "SteelOrbis",
+   "kaynak_id": "steelorbis",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/hoa-binh-and-pomina-steel-partner-on-12-million-mt-flat-steel-plant-expansion-1469094.htm",
+   "tarih_kaynagi": "json-ld",
    "eksik": [
-    "hat",
-    "asama",
-    "tarih?"
+    "ulke",
+    "hat"
    ],
-   "anahtar": "5b206c5b1079918e",
+   "anahtar": "43d668b85bed5aed",
    "kategori": "Yatirim",
    "olaylar": [
-    "vinmetal|fu|Vietnam|Belirsiz",
-    "vinmetal|hat|Belirsiz|Belirsiz",
-    "vinmetal|ulke|Vietnam|Belirsiz"
+    "hoa binh|hat|Belirsiz|Ilk urun"
    ],
-   "puan": -3.0
+   "puan": 14.2
   }
  ],
  "stats": {
-  "kaynak": 131,
-  "erisilemeyen": 9,
-  "ham": 1918,
-  "on_eleme_gecti": 226,
-  "makale_acildi": 209,
-  "tarihsiz_elendi": 86,
-  "pencere_disi": 201,
-  "kapsam_disi": 1610,
-  "tekrar": 17,
-  "kabul": 2,
+  "kaynak": 133,
+  "erisilemeyen": 10,
+  "ham": 2421,
+  "on_eleme_gecti": 239,
+  "makale_acildi": 220,
+  "tarihsiz_elendi": 84,
+  "pencere_disi": 191,
+  "kapsam_disi": 2119,
+  "tekrar": 19,
+  "kabul": 3,
   "tarih_celiskisi": 2
  },
  "unreachable": [
-  [
-   "SMS group",
-   "HTTP 403"
-  ],
   [
    "Cognex",
    "HTTP 429"
@@ -85,8 +102,12 @@
    "HTTP 403"
   ],
   [
-   "SteelGuru",
+   "The Canmaker",
    "URLError: <urlopen error timed out>"
+  ],
+  [
+   "GMK Center",
+   "HTTP 403"
   ],
   [
    "BigMint (SteelMint)",
@@ -103,6 +124,10 @@
   [
    "MetalForming Magazine",
    "HTTP 404"
+  ],
+  [
+   "Steel Manufacturers Assoc.",
+   "URLError: <urlopen error timed out>"
   ]
  ],
  "kinds": {
@@ -174,6 +199,8 @@
   "metalforming": "dergi",
   "pma": "kurum",
   "mysteel": "dergi",
+  "mysteel_fac": "dergi",
+  "mysteel_news": "dergi",
   "metallurgprom": "dergi",
   "siderweb": "dergi",
   "alacero": "kurum",
@@ -258,14 +285,13 @@
   }
  ],
  "kaynak_katki": {
-  "SteelTurk": 1,
-  "Steel Radar": 1
+  "SteelOrbis": 3
  },
  "window": [
-  "2026-08-10",
+  "2026-08-02",
   "2026-08-17"
  ],
  "period": "2026-W34",
- "generated": "2026-08-17 06:03 UTC",
+ "generated": "2026-08-17 19:11 UTC",
  "version": "3.0.0"
 }

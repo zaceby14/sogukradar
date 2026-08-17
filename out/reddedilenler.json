@@ -33,6 +33,12 @@
    "ek": ""
   },
   {
+   "sebep": "kapsam_disi",
+   "baslik": "TYASA’s new SBQ plant enters operation in Orizaba, Mexico",
+   "url": "https://www.danieli.com/en/TYASA-s-new-SBQ-plant-enters-operation-in-Orizaba-Mexico_37_1093.htm",
+   "ek": "kapsam_disi"
+  },
+  {
    "sebep": "pencere_disi",
    "baslik": "new orders 2026, 28th July FAC achieved for Danieli caster revamp at JSW Salem",
    "url": "https://www.danieli.com/en/news-media/news/FAC-achieved-for-Danieli-caster-revamp-at-JSW-Salem_37_1081.htm",
@@ -61,12 +67,6 @@
    "baslik": "new orders 2026, 30th June Danieli Seven-Life Side Guides successfully commissioned at Hoa Phat Dung Quat on QSP® line",
    "url": "https://www.danieli.com/en/news-media/news/Danieli-Seven-Life-Side-Guides-successfully-commissioned-at-Hoa-Phat-Dung-Quat-on-QSP-line_37_1076.htm",
    "ek": "2026-06-30"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "new orders 2026, 25th June Zahit Aluminium confirms performance of Danieli Breda extrusion press in Turkey",
-   "url": "https://www.danieli.com/en/news-media/news/zahit-aluminium-confirms-performance-danieli-breda-extrusion-press-turkey_37_1074.htm",
-   "ek": "2026-06-25"
   },
   {
    "sebep": "kapsam_disi",
@@ -519,16 +519,16 @@
    "ek": "baska_malzeme"
   },
   {
-   "sebep": "pencere_disi",
+   "sebep": "kapsam_disi",
    "baslik": "Fives drives Nike Israel fulfillment growth with rapid LUCI-Caja expansion at SELA Logistics",
    "url": "https://www.fivesgroup.com/newspress/detail-view/fives-drives-nike-israel-fulfillment-growth-with-rapid-luci-caja-expansion-at-sela-logistics-1",
-   "ek": "2026-08-06"
+   "ek": "baska_malzeme"
   },
   {
-   "sebep": "pencere_disi",
+   "sebep": "kapsam_disi",
    "baslik": "Award | Fives Landis Won the “Ringier Technology Innovation Award” for Its Advanced CBN Grinding Machine",
    "url": "https://www.fivesgroup.com/newspress/detail-view/award-fives-landis-won-the-ringier-technology-innovation-award-for-its-advanced-cbn-grinding-machine",
-   "ek": "2026-08-04"
+   "ek": "baska_malzeme"
   },
   {
    "sebep": "pencere_disi",
@@ -838,7 +838,7 @@
   },
   {
    "sebep": "tarihsiz_elendi",
-   "baslik": "SBAWeikersdorfÖsterreichThe Specialist for Modernization",
+   "baslik": "SBAWeikersdorfAustriaThe Specialist for Modernization",
    "url": "https://www.sba-at.eu/en/",
    "ek": ""
   },
@@ -898,33 +898,33 @@
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "2026.08.07 お知らせ 2026年 夏季の働き方キャンペーンについて",
-   "url": "https://www.eng.nipponsteel.com/news/detail/20260807/",
-   "ek": "haber degil (menu/e-posta/kisa)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "2026.08.06 プレスリリース 【受注】エコクリーン松江基幹的設備改良工事および長期包括的運営業務委託",
-   "url": "https://www.eng.nipponsteel.com/news/detail/20260806/",
-   "ek": "haber degil (menu/e-posta/kisa)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "2026.08.04 お知らせ STEAM教育プログラム「情熱・先端Mission-E」がスタート",
-   "url": "https://www.eng.nipponsteel.com/news/detail/20260804/",
-   "ek": "haber degil (menu/e-posta/kisa)"
-  },
-  {
-   "sebep": "kapsam_disi",
    "baslik": "2026.07.30 プレスリリース 【販売開始】木材を使用した座屈拘束ブレース「木・鋼アンボンドブレース®」",
    "url": "https://www.eng.nipponsteel.com/news/detail/20260730/",
    "ek": "haber degil (menu/e-posta/kisa)"
   },
   {
    "sebep": "kapsam_disi",
+   "baslik": "2026.08.07 お知らせ 2026年 夏季の働き方キャンペーンについて",
+   "url": "https://www.eng.nipponsteel.com/news/detail/20260807/",
+   "ek": "kapsam_disi"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "2026.08.06 プレスリリース 【受注】エコクリーン松江基幹的設備改良工事および長期包括的運営業務委託",
+   "url": "https://www.eng.nipponsteel.com/news/detail/20260806/",
+   "ek": "kapsam_disi"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "2026.08.04 お知らせ STEAM教育プログラム「情熱・先端Mission-E」がスタート",
+   "url": "https://www.eng.nipponsteel.com/news/detail/20260804/",
+   "ek": "kapsam_disi"
+  },
+  {
+   "sebep": "kapsam_disi",
    "baslik": "2026.07.23 お知らせ 【受賞】一般財団法人エンジニアリング協会 「エンジニアリング功労者賞・奨励特別賞」",
    "url": "https://www.eng.nipponsteel.com/news/detail/20260723/",
-   "ek": "haber degil (menu/e-posta/kisa)"
+   "ek": "kapsam_disi"
   },
   {
    "sebep": "kapsam_disi",
@@ -1203,10 +1203,10 @@
    "ek": "2025-06-03"
   },
   {
-   "sebep": "pencere_disi",
+   "sebep": "kapsam_disi",
    "baslik": "The Universal “Workhorse” — SECO/WARWICK Secures New CAB Contract in Turkey",
    "url": "https://www.secowarwick.com/en/news/secowarwick-secures-new-cab-contract-in-turkey/",
-   "ek": "2026-08-05"
+   "ek": "baska_malzeme"
   },
   {
    "sebep": "pencere_disi",
@@ -1545,10 +1545,10 @@
    "ek": "2026-07-07"
   },
   {
-   "sebep": "pencere_disi",
+   "sebep": "kapsam_disi",
    "baslik": "EMG ESSE Quick response actuator",
    "url": "https://www.emg.elexis.group/solutions/safety-components/emg-esse",
-   "ek": "2026-08-06"
+   "ek": "olay yok (katalog/pazarlama)"
   },
   {
    "sebep": "pencere_disi",
@@ -1566,13 +1566,13 @@
    "sebep": "kapsam_disi",
    "baslik": "Ports (Container / Bulk material)",
    "url": "https://www.emg.elexis.group/industries/ports",
-   "ek": "hat+asama belirsiz"
+   "ek": "olay yok (katalog/pazarlama)"
   },
   {
    "sebep": "kapsam_disi",
    "baslik": "Raw material extraction / handling",
    "url": "https://www.emg.elexis.group/industries/raw-material-extraction",
-   "ek": "hat+asama belirsiz"
+   "ek": "olay yok (katalog/pazarlama)"
   },
   {
    "sebep": "pencere_disi",
@@ -2332,6 +2332,12 @@
   },
   {
    "sebep": "kapsam_disi",
+   "baslik": "Daily press | 2026-03-24 Quality check for raw materials of the green transformation: thyssenkrupp Steel invests in a laboratory for the iron ores of the future",
+   "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/thyssenkrupp-steel-invests-in-a-laboratory-for-the-iron-ores-of-the-future.html",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
    "baslik": "Daily press | 2026-02-23 thyssenkrupp Steel supplies bluemint#sup;®!sup; Steel for series production of the BMW iX3",
    "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/thyssenkrupp-steel-supplies-bluemint-steel-for-series-production-of-the-bmw-ix3.html",
    "ek": "kapsam kapisi (baslik)"
@@ -2367,10 +2373,10 @@
    "ek": "sert red (baslik)"
   },
   {
-   "sebep": "pencere_disi",
+   "sebep": "kapsam_disi",
    "baslik": "Daily press | 2025-12-11 thyssenkrupp Electrical Steel: Temporary plant shutdowns in Germany and France in face of high import pressure and a tense market environment",
    "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/thyssenkrupp-electrical-steel-temporary-plant-shutdowns-in-germany-and-france-in-face-of-high-import-pressure-and-a-tense-market-environment.html",
-   "ek": "on eleme: 2025-12-11"
+   "ek": "sert red (baslik)"
   },
   {
    "sebep": "kapsam_disi",
@@ -2517,10 +2523,10 @@
    "ek": "kapsam kapisi (baslik)"
   },
   {
-   "sebep": "pencere_disi",
+   "sebep": "kapsam_disi",
    "baslik": "Daily press | 2025-01-30 Sale of thyssenkrupp's Indian electrical steel business completed",
    "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/sale-of-thyssenkrupps-indian-electrical-steel-business-completed.html",
-   "ek": "on eleme: 2025-01-30"
+   "ek": "sert red (baslik)"
   },
   {
    "sebep": "kapsam_disi",
@@ -2592,7 +2598,7 @@
    "sebep": "kapsam_disi",
    "baslik": "Daily press | 2024-10-10 50 years ago: August Thyssen-Hütte AG appoints the first environmental protection officer - a milestone for the sustainable steel industry",
    "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/50-years-ago-august-thyssen-huette-ag-appoints-the-first-environmental-protection-officer-a-milestone-for-the-sustainable-steel-industry.html",
-   "ek": "sert red (baslik)"
+   "ek": "kapsam kapisi (baslik)"
   },
   {
    "sebep": "kapsam_disi",
@@ -2619,10 +2625,10 @@
    "ek": "kapsam kapisi (baslik)"
   },
   {
-   "sebep": "pencere_disi",
+   "sebep": "kapsam_disi",
    "baslik": "Daily press | 2024-07-23 Last legal hurdles cleared: joint venture between thyssenkrupp Steel Logistics and duisport picks up speed",
    "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/joint-venture-between-thyssenkrupp-steel-logistics-and-duisport-picks-up-speed.html",
-   "ek": "on eleme: 2024-07-23"
+   "ek": "sert red (baslik)"
   },
   {
    "sebep": "kapsam_disi",
@@ -2653,12 +2659,6 @@
    "baslik": "Daily press | 2026-03-26 Import crisis for grain-oriented electrical steel: thyssenkrupp Electrical Steel extends production cuts at its Isbergues site in France",
    "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/thyssenkrupp-electrical-steel-extends-production-cuts-at-its-isbergues-site-in-france.html",
    "ek": "2026-03-26"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Daily press | 2026-03-24 Quality check for raw materials of the green transformation: thyssenkrupp Steel invests in a laboratory for the iron ores of the future",
-   "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/thyssenkrupp-steel-invests-in-a-laboratory-for-the-iron-ores-of-the-future.html",
-   "ek": "2026-03-24"
   },
   {
    "sebep": "kapsam_disi",
@@ -3042,7 +3042,13 @@
    "sebep": "kapsam_disi",
    "baslik": "Amalgamation of Bamnipal Steel Limited and Tata Steel BSL Limited into and with Tata Steel Limited",
    "url": "https://www.tatasteel.com/investors/amalgamation/amalgamation-of-bamnipal-steel-limited-and-tata-steel-bsl-limited-into-and-with-tata-steel-limited/",
-   "ek": "kapsam kapisi (baslik)"
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Amalgamation of Rujuvalika Investments Limited into and with Tata Steel Limited",
+   "url": "https://www.tatasteel.com/investors/amalgamation/amalgamation-of-rujuvalika-investments-limited-into-and-with-tata-steel-limited/",
+   "ek": "sert red (baslik)"
   },
   {
    "sebep": "kapsam_disi",
@@ -3052,51 +3058,57 @@
   },
   {
    "sebep": "kapsam_disi",
+   "baslik": "Amalgamation of The Tinplate Company of India Limited into and with Tata Steel Limited",
+   "url": "https://www.tatasteel.com/investors/amalgamation/amalgamation-of-the-tinplate-company-of-india-limited-into-and-with-tata-steel-limited/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
    "baslik": "Amalgamation of Tata Metaliks Limited into and with Tata Steel Limited",
    "url": "https://www.tatasteel.com/investors/amalgamation/amalgamation-of-tata-metaliks-limited-into-and-with-tata-steel-limited/",
-   "ek": "kapsam kapisi (baslik)"
+   "ek": "sert red (baslik)"
   },
   {
    "sebep": "kapsam_disi",
    "baslik": "Amalgamation of TRF Limited into and with Tata Steel Limited",
    "url": "https://www.tatasteel.com/investors/amalgamation/amalgamation-of-trf-limited-into-and-with-tata-steel-limited/",
-   "ek": "kapsam kapisi (baslik)"
+   "ek": "sert red (baslik)"
   },
   {
    "sebep": "kapsam_disi",
    "baslik": "Amalgamation of The Indian Steel & Wire Products Limited into and with Tata Steel Limited",
    "url": "https://www.tatasteel.com/investors/amalgamation/amalgamation-of-the-indian-steel-wire-products-limited-into-and-with-tata-steel-limited/",
-   "ek": "kapsam kapisi (baslik)"
+   "ek": "sert red (baslik)"
   },
   {
    "sebep": "kapsam_disi",
    "baslik": "Amalgamation of Tata Steel Mining Limited into and with Tata Steel Limited",
    "url": "https://www.tatasteel.com/investors/amalgamation/amalgamation-of-tata-steel-mining-limited-into-and-with-tata-steel-limited/",
-   "ek": "kapsam kapisi (baslik)"
+   "ek": "sert red (baslik)"
   },
   {
    "sebep": "kapsam_disi",
    "baslik": "Amalgamation of S & T Mining Company Limited into and with Tata Steel Limited",
    "url": "https://www.tatasteel.com/investors/amalgamation/amalgamation-of-s-t-mining-company-limited-into-and-with-tata-steel-limited/",
-   "ek": "kapsam kapisi (baslik)"
+   "ek": "sert red (baslik)"
   },
   {
    "sebep": "kapsam_disi",
    "baslik": "Amalgamation of Angul Energy Limited into and with Tata Steel Limited",
    "url": "https://www.tatasteel.com/investors/amalgamation/amalgamation-of-angul-energy-limited-into-and-with-tata-steel-limited/",
-   "ek": "kapsam kapisi (baslik)"
+   "ek": "sert red (baslik)"
   },
   {
    "sebep": "kapsam_disi",
    "baslik": "Amalgamation of Bhubaneshwar Power Private Limited into and with Tata Steel Limited",
    "url": "https://www.tatasteel.com/investors/amalgamation/amalgamation-of-bhubaneshwar-power-private-limited-into-and-with-tata-steel-limited/",
-   "ek": "kapsam kapisi (baslik)"
+   "ek": "sert red (baslik)"
   },
   {
    "sebep": "kapsam_disi",
    "baslik": "Amalgamation of Neelachal Ispat Nigam Limited into and with Tata Steel Limited",
    "url": "https://www.tatasteel.com/investors/amalgamation/amalgamation-of-neelachal-ispat-nigam-limited-into-and-with-tata-steel-limited/",
-   "ek": "kapsam kapisi (baslik)"
+   "ek": "sert red (baslik)"
   },
   {
    "sebep": "kapsam_disi",
@@ -3367,18 +3379,6 @@
    "baslik": "Tata Steel: 2QFY2026 Production and Delivery Volumes (Provisional) Mumbai",
    "url": "https://www.tatasteel.com/newsroom/press-releases/india/2025/tata-steel-2qfy2026-production-and-delivery-volumes-provisional/",
    "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "tarihsiz_elendi",
-   "baslik": "Amalgamation of Rujuvalika Investments Limited into and with Tata Steel Limited",
-   "url": "https://www.tatasteel.com/investors/amalgamation/amalgamation-of-rujuvalika-investments-limited-into-and-with-tata-steel-limited/",
-   "ek": ""
-  },
-  {
-   "sebep": "tarihsiz_elendi",
-   "baslik": "Amalgamation of The Tinplate Company of India Limited into and with Tata Steel Limited",
-   "url": "https://www.tatasteel.com/investors/amalgamation/amalgamation-of-the-tinplate-company-of-india-limited-into-and-with-tata-steel-limited/",
-   "ek": ""
   },
   {
    "sebep": "kapsam_disi",

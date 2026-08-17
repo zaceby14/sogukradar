@@ -20,7 +20,7 @@
   "url": "https://www.primetals.com/press-media/news",
   "kind": "oem",
   "durum": "html",
-  "baglanti": 6,
+  "baglanti": 1,
   "besleme_bulundu": []
  },
  "johncockerill": {
@@ -289,7 +289,7 @@
   "url": "https://www.voestalpine.com/group/en/media/press-releases/",
   "kind": "uretici",
   "durum": "html",
-  "baglanti": 35,
+  "baglanti": 36,
   "besleme_bulundu": []
  },
  "salzgitter": {
@@ -378,7 +378,7 @@
   "url": "https://www.steelradar.com/en/",
   "kind": "dergi",
   "durum": "html",
-  "baglanti": 59,
+  "baglanti": 60,
   "besleme_bulundu": []
  },
  "metaldunyasi": {
@@ -411,19 +411,15 @@
   "publisher": "The Canmaker",
   "url": "https://canmaker.com/news/",
   "kind": "dergi",
-  "durum": "html",
-  "baglanti": 11,
-  "besleme_bulundu": [
-   "https://canmaker.com/feed/",
-   "https://canmaker.com/comments/feed/"
-  ]
+  "durum": "erisilemedi",
+  "hata": "URLError: <urlopen error timed out>"
  },
  "kallanish": {
   "publisher": "Kallanish",
   "url": "https://www.kallanish.com/en/news/steel/live",
   "kind": "dergi",
   "durum": "html",
-  "baglanti": 46,
+  "baglanti": 49,
   "besleme_bulundu": []
  },
  "gmk": {
@@ -431,7 +427,7 @@
   "url": "https://gmk.center/en/news/",
   "kind": "dergi",
   "durum": "html",
-  "baglanti": 47,
+  "baglanti": 49,
   "besleme_bulundu": []
  },
  "meps": {
@@ -448,8 +444,9 @@
   "publisher": "SteelGuru",
   "url": "https://www.steelguru.com/",
   "kind": "dergi",
-  "durum": "erisilemedi",
-  "hata": "URLError: <urlopen error timed out>"
+  "durum": "bos_liste",
+  "baglanti": 0,
+  "besleme_bulundu": []
  },
  "magnetics": {
   "publisher": "Magnetics Magazine",
@@ -486,7 +483,7 @@
   "url": "https://news.metal.com/en/ferrous-metals",
   "kind": "dergi",
   "durum": "html",
-  "baglanti": 34,
+  "baglanti": 33,
   "besleme_bulundu": []
  },
  "bigmint": {
@@ -547,7 +544,7 @@
   "url": "https://www.heattreattoday.com/",
   "kind": "dergi",
   "durum": "html",
-  "baglanti": 33,
+  "baglanti": 35,
   "besleme_bulundu": [
    "https://www.heattreattoday.com/feed/"
   ]
@@ -578,12 +575,28 @@
   "baglanti": 6,
   "besleme_bulundu": []
  },
+ "mysteel_fac": {
+  "publisher": "Mysteel (tesis/proje)",
+  "url": "https://factory.mysteel.com/",
+  "kind": "dergi",
+  "durum": "html",
+  "baglanti": 92,
+  "besleme_bulundu": []
+ },
+ "mysteel_news": {
+  "publisher": "Mysteel (haber)",
+  "url": "https://news.mysteel.com/",
+  "kind": "dergi",
+  "durum": "html",
+  "baglanti": 242,
+  "besleme_bulundu": []
+ },
  "metallurgprom": {
   "publisher": "Metallurgprom",
   "url": "https://metallurgprom.org/en/news/",
   "kind": "dergi",
   "durum": "html",
-  "baglanti": 47,
+  "baglanti": 48,
   "besleme_bulundu": [
    "https://metallurgprom.org/en/news/rss.xml",
    "https://metallurgprom.org/en/news/rssdzen.xml"
@@ -604,7 +617,7 @@
   "url": "https://www.alacero.org/en/noticias",
   "kind": "kurum",
   "durum": "html",
-  "baglanti": 59,
+  "baglanti": 60,
   "besleme_bulundu": [
    "https://alacero.org/pt/feed/",
    "https://alacero.org/pt/comments/feed/"
@@ -615,7 +628,7 @@
   "url": "https://news.mesteel.com/",
   "kind": "dergi",
   "durum": "html",
-  "baglanti": 14,
+  "baglanti": 12,
   "besleme_bulundu": [
    "https://news.mesteel.com/feed/",
    "https://news.mesteel.com/comments/feed/"
@@ -626,7 +639,7 @@
   "url": "https://www.japanmetaldaily.com/subcategory/news",
   "kind": "dergi",
   "durum": "html",
-  "baglanti": 65,
+  "baglanti": 67,
   "besleme_bulundu": []
  },
  "wvstahl": {
@@ -644,7 +657,7 @@
   "url": "https://www.steelhome.com/",
   "kind": "dergi",
   "durum": "html",
-  "baglanti": 156,
+  "baglanti": 174,
   "besleme_bulundu": []
  },
  "sanayigazete": {
@@ -652,7 +665,7 @@
   "url": "https://sanayigazetesi.com.tr/",
   "kind": "dergi",
   "durum": "html",
-  "baglanti": 72,
+  "baglanti": 76,
   "besleme_bulundu": [
    "https://sanayigazetesi.com.tr/feed/",
    "https://sanayigazetesi.com.tr/comments/feed/"
@@ -686,9 +699,8 @@
   "publisher": "Steel Manufacturers Assoc.",
   "url": "https://steelnet.org/news/",
   "kind": "kurum",
-  "durum": "html",
-  "baglanti": 15,
-  "besleme_bulundu": []
+  "durum": "erisilemedi",
+  "hata": "URLError: <urlopen error timed out>"
  },
  "iza": {
   "publisher": "International Zinc Assoc.",
@@ -763,7 +775,7 @@
   "url": "https://news.google.com/rss/search?q=%28%22cold%20rolling%20mill%22%20OR%20%22tandem%20cold%20mill%22%20OR%20%22reversing%20cold%20mill%22%29%20steel%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
   "kind": "arama",
   "durum": "besleme",
-  "baglanti": 4
+  "baglanti": 5
  },
  "gq_hat03": {
   "publisher": "Google News",
@@ -777,7 +789,7 @@
   "url": "https://news.google.com/rss/search?q=%28%22galvanizing%20line%22%20OR%20%22hot-dip%20galvanizing%22%20OR%20galvanneal%20OR%20%22zinc%20coating%20line%22%29%20steel%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
   "kind": "arama",
   "durum": "besleme",
-  "baglanti": 10
+  "baglanti": 6
  },
  "gq_hat05": {
   "publisher": "Google News",
@@ -791,21 +803,21 @@
   "url": "https://news.google.com/rss/search?q=%28%22coil%20coating%22%20OR%20%22colour%20coating%20line%22%20OR%20%22color%20coating%20line%22%20OR%20prepainted%20OR%20PPGI%29%20steel%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
   "kind": "arama",
   "durum": "besleme",
-  "baglanti": 7
+  "baglanti": 2
  },
  "gq_hat07": {
   "publisher": "Google News",
   "url": "https://news.google.com/rss/search?q=%28tinplate%20OR%20%22tin%20mill%22%20OR%20%22electrolytic%20tinning%22%20OR%20ECCS%20OR%20%22tin-free%20steel%22%29%20line%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
   "kind": "arama",
   "durum": "besleme",
-  "baglanti": 0
+  "baglanti": 1
  },
  "gq_hat08": {
   "publisher": "Google News",
   "url": "https://news.google.com/rss/search?q=%28%22electrical%20steel%22%20OR%20%22silicon%20steel%22%20OR%20CRGO%20OR%20CRNO%20OR%20%22grain-oriented%22%29%20plant%20OR%20line%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
   "kind": "arama",
   "durum": "besleme",
-  "baglanti": 8
+  "baglanti": 7
  },
  "gq_hat09": {
   "publisher": "Google News",
@@ -819,14 +831,14 @@
   "url": "https://news.google.com/rss/search?q=%28%22slitting%20line%22%20OR%20%22cut-to-length%22%20OR%20%22blanking%20line%22%20OR%20%22side%20trimmer%22%29%20steel%20coil%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
   "kind": "arama",
   "durum": "besleme",
-  "baglanti": 1
+  "baglanti": 0
  },
  "gq_hat11": {
   "publisher": "Google News",
   "url": "https://news.google.com/rss/search?q=%28%22steel%20service%20center%22%20OR%20%22steel%20service%20centre%22%20OR%20%22coil%20processing%20line%22%29%20investment%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
   "kind": "arama",
   "durum": "besleme",
-  "baglanti": 3
+  "baglanti": 0
  },
  "gq_hat12": {
   "publisher": "Google News",
@@ -847,7 +859,7 @@
   "url": "https://news.google.com/rss/search?q=%28%22thickness%20gauge%22%20OR%20%22flatness%20control%22%20OR%20shapemeter%20OR%20%22shape%20meter%22%29%20rolling%20mill%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
   "kind": "arama",
   "durum": "besleme",
-  "baglanti": 0
+  "baglanti": 1
  },
  "gq_hat15": {
   "publisher": "Google News",
@@ -882,28 +894,28 @@
   "url": "https://news.google.com/rss/search?q=%28%22digital%20twin%22%20OR%20%22Level%202%20automation%22%20OR%20%22process%20automation%22%29%20%22rolling%20mill%22%20steel%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
   "kind": "arama",
   "durum": "besleme",
-  "baglanti": 1
+  "baglanti": 2
  },
  "gq_sup00": {
   "publisher": "Google News",
   "url": "https://news.google.com/rss/search?q=%22SMS%20group%22%20steel%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
   "kind": "arama",
   "durum": "besleme",
-  "baglanti": 3
+  "baglanti": 5
  },
  "gq_sup01": {
   "publisher": "Google News",
   "url": "https://news.google.com/rss/search?q=%22Primetals%22%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
   "kind": "arama",
   "durum": "besleme",
-  "baglanti": 5
+  "baglanti": 2
  },
  "gq_sup02": {
   "publisher": "Google News",
   "url": "https://news.google.com/rss/search?q=%22Danieli%22%20steel%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
   "kind": "arama",
   "durum": "besleme",
-  "baglanti": 9
+  "baglanti": 3
  },
  "gq_sup03": {
   "publisher": "Google News",
@@ -917,14 +929,14 @@
   "url": "https://news.google.com/rss/search?q=%22John%20Cockerill%22%20steel%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
   "kind": "arama",
   "durum": "besleme",
-  "baglanti": 0
+  "baglanti": 7
  },
  "gq_sup05": {
   "publisher": "Google News",
   "url": "https://news.google.com/rss/search?q=%22Tenova%22%20steel%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
   "kind": "arama",
   "durum": "besleme",
-  "baglanti": 2
+  "baglanti": 4
  },
  "gq_sup06": {
   "publisher": "Google News",
@@ -973,7 +985,7 @@
   "url": "https://news.google.com/rss/search?q=%22Primetals%22%20OR%20%22SMS%20group%22%20order%20steel%20line%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
   "kind": "arama",
   "durum": "besleme",
-  "baglanti": 4
+  "baglanti": 2
  },
  "gq_tr00": {
   "publisher": "Google News",
@@ -987,7 +999,7 @@
   "url": "https://news.google.com/rss/search?q=%22asitleme%20hatt%C4%B1%22%20OR%20%22tavlama%20hatt%C4%B1%22%20when%3A7d&hl=tr&gl=TR&ceid=TR:tr",
   "kind": "arama",
   "durum": "besleme",
-  "baglanti": 2
+  "baglanti": 0
  },
  "gq_tr02": {
   "publisher": "Google News",
@@ -1008,7 +1020,7 @@
   "url": "https://news.google.com/rss/search?q=%22dilme%20hatt%C4%B1%22%20OR%20%22boy%20kesme%22%20when%3A7d&hl=tr&gl=TR&ceid=TR:tr",
   "kind": "arama",
   "durum": "besleme",
-  "baglanti": 1
+  "baglanti": 0
  },
  "gq_tr05": {
   "publisher": "Google News",
@@ -1022,28 +1034,28 @@
   "url": "https://news.google.com/rss/search?q=%22yass%C4%B1%20%C3%A7elik%22%20yat%C4%B1r%C4%B1m%20when%3A7d&hl=tr&gl=TR&ceid=TR:tr",
   "kind": "arama",
   "durum": "besleme",
-  "baglanti": 3
+  "baglanti": 0
  },
  "gq_tr07": {
   "publisher": "Google News",
   "url": "https://news.google.com/rss/search?q=%22teneke%22%20OR%20%22elektrik%20%C3%A7eli%C4%9Fi%22%20tesis%20when%3A7d&hl=tr&gl=TR&ceid=TR:tr",
   "kind": "arama",
   "durum": "besleme",
-  "baglanti": 2
+  "baglanti": 1
  },
  "gq_urun00": {
   "publisher": "Google News",
   "url": "https://news.google.com/rss/search?q=%22cold%20rolled%20coil%22%20investment%20OR%20expansion%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
   "kind": "arama",
   "durum": "besleme",
-  "baglanti": 7
+  "baglanti": 2
  },
  "gq_urun01": {
   "publisher": "Google News",
   "url": "https://news.google.com/rss/search?q=%22galvanized%20steel%22%20new%20line%20capacity%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
   "kind": "arama",
   "durum": "besleme",
-  "baglanti": 2
+  "baglanti": 0
  },
  "gq_urun02": {
   "publisher": "Google News",
