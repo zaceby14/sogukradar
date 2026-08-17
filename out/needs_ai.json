@@ -2,18 +2,19 @@
  "donem": "2026-W34",
  "duzelt": [
   {
-   "anahtar": "1733ff02c2b335cf",
-   "baslik": "tk accelis announces milestone at Stuttgart steel service center",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/tk-accelis-announces-milestone-at-stuttgart-steel-service-center-1469079.htm",
+   "anahtar": "6e35274c390116ac",
+   "baslik": "Nucor to invest $59 million in steel grating capacity",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/nucor-to-invest-59-million-in-steel-grating-capacity-1471050.htm",
    "eksik": [
-    "firma",
-    "ulke"
+    "ulke",
+    "hat",
+    "asama"
    ],
    "mevcut": {
-    "firma": "",
+    "firma": "Nucor",
     "ulke": "",
-    "hat": "Dilme / boy kesme / SSC",
-    "asama": "Ilk urun"
+    "hat": "Belirsiz",
+    "asama": "Belirsiz"
    }
   },
   {
@@ -22,38 +23,18 @@
    "url": "https://www.steelorbis.com/steel-news/latest-news/hoa-binh-and-pomina-steel-partner-on-12-million-mt-flat-steel-plant-expansion-1469094.htm",
    "eksik": [
     "ulke",
-    "hat"
+    "hat",
+    "asama"
    ],
    "mevcut": {
     "firma": "Hoa Binh",
     "ulke": "",
     "hat": "Belirsiz",
-    "asama": "Ilk urun"
+    "asama": "Belirsiz"
    }
   }
  ],
- "cumle_yaz": [
-  {
-   "anahtar": "c0b5f864813ba8fd",
-   "tarih": "2026-08-17",
-   "firma": "Jindal Stainless Limited",
-   "ulke": "Hindistan",
-   "hat": "Soguk hadde",
-   "asama": "Ilk urun",
-   "baslik": "India's Jindal Stainless Limited to invest $94 million to ramp up cold rolling capacity",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/indias-jindal-stainless-limited-to-invest-94-million-to-ramp-up-cold-rolling-capacity-1471127.htm"
-  },
-  {
-   "anahtar": "1733ff02c2b335cf",
-   "tarih": "2026-08-05",
-   "firma": "",
-   "ulke": "",
-   "hat": "Dilme / boy kesme / SSC",
-   "asama": "Ilk urun",
-   "baslik": "tk accelis announces milestone at Stuttgart steel service center",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/tk-accelis-announces-milestone-at-stuttgart-steel-service-center-1469079.htm"
-  }
- ],
+ "cumle_yaz": [],
  "teknoloji_adaylari": [
   {
    "anahtar": "tech:c1e20af1f2d7d31b",

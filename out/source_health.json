@@ -331,7 +331,7 @@
   "url": "https://nucor.com/news",
   "kind": "uretici",
   "durum": "html",
-  "baglanti": 15,
+  "baglanti": 16,
   "besleme_bulundu": []
  },
  "baowu": {
@@ -411,8 +411,12 @@
   "publisher": "The Canmaker",
   "url": "https://canmaker.com/news/",
   "kind": "dergi",
-  "durum": "erisilemedi",
-  "hata": "URLError: <urlopen error timed out>"
+  "durum": "html",
+  "baglanti": 12,
+  "besleme_bulundu": [
+   "https://canmaker.com/feed/",
+   "https://canmaker.com/comments/feed/"
+  ]
  },
  "kallanish": {
   "publisher": "Kallanish",
@@ -639,7 +643,7 @@
   "url": "https://www.japanmetaldaily.com/subcategory/news",
   "kind": "dergi",
   "durum": "html",
-  "baglanti": 67,
+  "baglanti": 72,
   "besleme_bulundu": []
  },
  "wvstahl": {
@@ -699,8 +703,9 @@
   "publisher": "Steel Manufacturers Assoc.",
   "url": "https://steelnet.org/news/",
   "kind": "kurum",
-  "durum": "erisilemedi",
-  "hata": "URLError: <urlopen error timed out>"
+  "durum": "html",
+  "baglanti": 15,
+  "besleme_bulundu": []
  },
  "iza": {
   "publisher": "International Zinc Assoc.",

@@ -1,60 +1,37 @@
 {
  "rows": [
   {
-   "tarih": "2026-08-17",
-   "firma": "Jindal Stainless Limited",
-   "ulke": "Hindistan",
-   "hat": "Soguk hadde",
-   "asama": "Ilk urun",
-   "tedarikci": "",
-   "kapasite": "",
-   "tutar": "$94 million",
-   "baslik": "India's Jindal Stainless Limited to invest $94 million to ramp up cold rolling capacity",
-   "kaynak": "SteelOrbis",
-   "kaynak_id": "steelorbis",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/indias-jindal-stainless-limited-to-invest-94-million-to-ramp-up-cold-rolling-capacity-1471127.htm",
-   "tarih_kaynagi": "json-ld",
-   "eksik": [],
-   "anahtar": "c0b5f864813ba8fd",
-   "kategori": "Hat",
-   "olaylar": [
-    "jindal stainless limited|fu|Hindistan|Soguk hadde",
-    "jindal stainless limited|hat|Soguk hadde|Ilk urun",
-    "jindal stainless limited|ulke|Hindistan|Ilk urun"
-   ],
-   "puan": 59.0
-  },
-  {
-   "tarih": "2026-08-05",
-   "firma": "",
+   "tarih": "2026-08-14",
+   "firma": "Nucor",
    "ulke": "",
-   "hat": "Dilme / boy kesme / SSC",
-   "asama": "Ilk urun",
+   "hat": "Belirsiz",
+   "asama": "Belirsiz",
    "tedarikci": "",
    "kapasite": "",
-   "tutar": "",
-   "baslik": "tk accelis announces milestone at Stuttgart steel service center",
+   "tutar": "$59 million",
+   "baslik": "Nucor to invest $59 million in steel grating capacity",
    "kaynak": "SteelOrbis",
    "kaynak_id": "steelorbis",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/tk-accelis-announces-milestone-at-stuttgart-steel-service-center-1469079.htm",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/nucor-to-invest-59-million-in-steel-grating-capacity-1471050.htm",
    "tarih_kaynagi": "json-ld",
    "eksik": [
-    "firma",
-    "ulke"
+    "ulke",
+    "hat",
+    "asama"
    ],
-   "anahtar": "1733ff02c2b335cf",
-   "kategori": "Hat",
+   "anahtar": "6e35274c390116ac",
+   "kategori": "Yatirim",
    "olaylar": [
-    "|hat|Dilme / boy kesme / SSC|Ilk urun"
+    "nucor|hat|Belirsiz|Belirsiz"
    ],
-   "puan": 39.2
+   "puan": -2.2
   },
   {
    "tarih": "2026-08-05",
    "firma": "Hoa Binh",
    "ulke": "",
    "hat": "Belirsiz",
-   "asama": "Ilk urun",
+   "asama": "Belirsiz",
    "tedarikci": "",
    "kapasite": "",
    "tutar": "",
@@ -65,27 +42,28 @@
    "tarih_kaynagi": "json-ld",
    "eksik": [
     "ulke",
-    "hat"
+    "hat",
+    "asama"
    ],
    "anahtar": "43d668b85bed5aed",
    "kategori": "Yatirim",
    "olaylar": [
-    "hoa binh|hat|Belirsiz|Ilk urun"
+    "hoa binh|hat|Belirsiz|Belirsiz"
    ],
-   "puan": 14.2
+   "puan": -9.8
   }
  ],
  "stats": {
   "kaynak": 133,
-  "erisilemeyen": 10,
-  "ham": 2421,
-  "on_eleme_gecti": 239,
+  "erisilemeyen": 9,
+  "ham": 2445,
+  "on_eleme_gecti": 240,
   "makale_acildi": 220,
   "tarihsiz_elendi": 84,
   "pencere_disi": 191,
-  "kapsam_disi": 2119,
-  "tekrar": 19,
-  "kabul": 3,
+  "kapsam_disi": 2142,
+  "tekrar": 20,
+  "kabul": 2,
   "tarih_celiskisi": 2
  },
  "unreachable": [
@@ -102,12 +80,12 @@
    "HTTP 403"
   ],
   [
-   "The Canmaker",
-   "URLError: <urlopen error timed out>"
-  ],
-  [
    "GMK Center",
    "HTTP 403"
+  ],
+  [
+   "Magnetics Magazine",
+   "URLError: <urlopen error _ssl.c:999: The handshake operation timed out>"
   ],
   [
    "BigMint (SteelMint)",
@@ -124,10 +102,6 @@
   [
    "MetalForming Magazine",
    "HTTP 404"
-  ],
-  [
-   "Steel Manufacturers Assoc.",
-   "URLError: <urlopen error timed out>"
   ]
  ],
  "kinds": {
@@ -285,13 +259,13 @@
   }
  ],
  "kaynak_katki": {
-  "SteelOrbis": 3
+  "SteelOrbis": 2
  },
  "window": [
   "2026-08-02",
   "2026-08-17"
  ],
  "period": "2026-W34",
- "generated": "2026-08-17 19:11 UTC",
+ "generated": "2026-08-17 20:15 UTC",
  "version": "3.0.0"
 }
