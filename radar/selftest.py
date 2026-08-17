@@ -585,6 +585,60 @@ def test_w34_sicak_hadde():
 
 
 
+def test_niyet_kapisi_ilk_urun():
+    """v9 (2026-08-17): "Ilk urun" rozeti niyet basligina verilmez.
+
+    2026-W34 kosusunun UC satirinin UCU de "Ilk urun" rozetiyle cikti.
+    Ucunun de basligi olay sozcugu tasimiyor (match_stage(baslik)=Belirsiz),
+    yani asama GOVDEden okundu; govdedeki "opens/commissioned/start-up"
+    kelimeleri rozeti kurdu. Ikisinde rozet YANLISTI:
+
+      Jindal Stainless  -> yatirim karari, hatlar 2027-28'de bitecek
+      Hoa Binh/Pomina   -> mutabakat zapti, insaat ekimde baslayacak
+
+    Ucuncusunde (tk accelis) rozet DOGRUYDU - yeni dilme hattinda ilk 500
+    bobin islendi. Bu yuzden govde toptan susturulmaz; ayirt eden sey
+    BASLIKTAKI niyet dilidir.
+    """
+    ortak = {"url": "https://www.steelorbis.com/x", "date": "2026-08-17",
+             "publisher": "SteelOrbis", "source_id": "steelorbis",
+             "source_kind": "dergi", "source_country": "TR", "date_src": "json-ld"}
+    # Govde metinleri "Ilk urun" tetikleyicisini TASIYOR - kapinin isini
+    # gordugu ancak boyle olculebilir.
+    tetikleyici = ("The group opens a new chapter in Asia; its previous line "
+                   "was commissioned in 2019 and reached start-up in months.")
+
+    r1 = classify.build(dict(ortak, title=(
+        "India's Jindal Stainless Limited to invest $94 million to ramp up "
+        "cold rolling capacity"), text=tetikleyici))
+    eq(r1["asama"] != "Ilk urun", True,
+       "'to invest' basligi govdeden Ilk urun rozeti alamaz")
+
+    r2 = classify.build(dict(ortak, title=(
+        "Hoa Binh and Pomina Steel partner on 1.2 million mt flat steel "
+        "plant expansion"), text=tetikleyici))
+    eq(r2["asama"] != "Ilk urun", True,
+       "'partner on' basligi govdeden Ilk urun rozeti alamaz")
+
+    # ...ama niyet dili YOKSA govde eskisi gibi rozeti kurabilmeli
+    r3 = classify.build(dict(ortak, title=(
+        "tk accelis announces milestone at Stuttgart steel service center"),
+        text=("tk accelis Processing Europe has processed the first 500 coils "
+              "on its new slitting line and commissioned a packaging line.")))
+    eq(r3["asama"], "Ilk urun",
+       "niyet dili olmayan baslikta govde Ilk urun rozetini kurabilmeli")
+    eq(r3["hat"], "Dilme / boy kesme / SSC", "tk accelis hat tipi")
+
+    # Baslik kendi asamasini soyluyorsa kapi hic calismaz
+    eq(taxonomy.match_stage(
+        "Tosyali to supply and commission new galvanizing line"), "Sozlesme",
+       "baslik asamasi varsa niyet kapisi devreye girmez")
+    # exclude parametresi siradaki eslesmeye duser, Belirsiz'e atlamaz
+    eq(taxonomy.match_stage("Acme commissions revamped pickling line",
+                            exclude=("Ilk urun", "Seri uretim")),
+       "Modernizasyon", "exclude siradaki asamayi bulmali")
+
+
 def test_sitemap_okuyucu():
     """v6 (2026-08-17): haber sitemap'i kaynak turu.
 
@@ -753,6 +807,7 @@ def run():
                test_w33c_regresyon, test_w33d_regresyon, test_uclu_kg_senaryosu,
                test_iki_katmanli_liste, test_kapsam_havuzu, test_tarih_acilari,
                test_olay_kapisi_v5, test_w34_sicak_hadde,
+               test_niyet_kapisi_ilk_urun,
                test_sitemap_okuyucu, test_olculen_25_haber,
                test_cin_katmani,
                test_compose_ve_mail):

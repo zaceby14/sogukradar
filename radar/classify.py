@@ -140,7 +140,12 @@ def build(cand):
     line = tx.match_line(blob)
     stage = tx.match_stage(title)
     if stage == "Belirsiz":
-        stage = tx.match_stage(blob)
+        # NIYET KAPISI (2026-08-17, W34 dersi): baslik niyet/karar dili
+        # tasiyorsa govde "Ilk urun" ya da "Seri uretim" rozetini kuramaz.
+        # Bu iki rozet bultenin en pahali iddiasidir - yanlis olursa okuyucu
+        # calismayan bir hattin devreye girdigini sanir.
+        haric = ("Ilk urun", "Seri uretim") if tx.NIYET.search(tx.fold(title)) else ()
+        stage = tx.match_stage(blob, exclude=haric)
     # Ulke ONCE basliktan. Govde yedegi, dergi/arama kaynaklarinda sayfa
     # sablonundaki "Turkey" gibi kelimelerle kirlenebiliyor (2026-08-12,
     # SteelOrbis vakasi): govdeden bulunan ulke, kaynagin kendi ulkesiyle

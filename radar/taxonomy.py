@@ -646,9 +646,47 @@ def match_line(text):
     return "Belirsiz"
 
 
-def match_stage(text):
+# NIYET KALIBI - baslik gelecege / karara / mutabakata isaret ediyor mu?
+#
+# 2026-W34 kosusunda UC satirin UCU de "Ilk urun" rozetiyle cikti, cunku
+# baslik hicbir olay sozcugu tasimayinca asama GOVDEden okunuyor ve gövdedeki
+# "opens / commissioned / start-up" gibi kelimeler (cogu zaman BASKA bir
+# tesisten ya da sayfa sablonundan) rozeti kuruyor:
+#
+#   "India's Jindal Stainless Limited to invest $94 million to ramp up
+#    cold rolling capacity"            -> gercek asama: yatirim karari
+#   "Hoa Binh and Pomina Steel partner on 1.2 million mt flat steel plant
+#    expansion"                        -> gercek asama: mutabakat zapti
+#
+# Buna karsilik ayni kosudaki
+#   "tk accelis announces milestone at Stuttgart steel service center"
+# GERCEKTEN ilk urundur (yeni dilme hattinda ilk 500 bobin). Yani govdeyi
+# toptan susturmak dogru degil - ayirt eden sey BASLIKTAKI niyet dilidir.
+# Baslik "yapacak / yatirim yapacak / ortak oldu / imzaladi" diyorsa haber
+# heniz uretim degildir; govde ILK URUN ya da SERI URETIM rozetini kuramaz.
+NIYET = re.compile(
+    r"\bto (invest|build|construct|install|supply|deliver|expand|add|"
+    r"set up|establish|develop|modernis|moderniz|upgrade|start|open|launch)\b|"
+    r"\bplans? to\b|\bplanning\b|\bproposes?\b|"
+    r"\bwill (build|invest|supply|install|start|add|expand)\b|"
+    r"\bpartners? (on|with)\b|\bteams? up\b|\bjoins? forces\b|"
+    r"\bmou\b|memorandum of understanding|letter of intent|\bloi\b|"
+    r"\bto be (built|installed|completed|commissioned|delivered)\b|"
+    # Turkce niyet dili
+    r"yatirim (yapacak|karari|plani)|kuracak|yapacak|kurulacak|"
+    r"planliyor|hazirlaniyor|imzaladi|mutabakat|niyet mektubu")
+
+
+def match_stage(text, exclude=()):
+    """EVENT_WORDS tablosundan ilk eslesen asama.
+
+    exclude: bu asamalar atlanir (siradaki eslesme aranir). Niyet kapisi
+    icin kullanilir - bkz. NIYET.
+    """
     t = fold(text)
     for pat, name in EVENT_WORDS:
+        if name in exclude:
+            continue
         if re.search(pat, t):
             return name
     return "Belirsiz"
