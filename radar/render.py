@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """Cikti uretimi: HTML / CSV / Markdown (+ varsa PDF)."""
 import csv
+import datetime as dt
 import html
 import os
 import subprocess
@@ -348,6 +349,15 @@ def email_html(payload, ozet=None, tech_items=None, sayi=1):
              '#e3e6ea;padding-bottom:6px;margin-bottom:8px;">Bu Haftanın Taraması</div>'
              '<table role="presentation" width="100%" cellpadding="0" cellspacing="0" '
              'style="font-size:12px;">')
+    # Pencere uzunlugu payload'dan okunur. Sabit "7 günlük" yazisi, pencere
+    # 15 güne cikarildiktan sonra (2026-08-17) okuyucuya yanlis sayi
+    # gosteriyordu - istatistik tablosu raporun kendi olcusudur, sabit olamaz.
+    try:
+        _w0 = dt.date.fromisoformat(payload["window"][0])
+        _w1 = dt.date.fromisoformat(payload["window"][1])
+        _pencere = "%d günlük" % ((_w1 - _w0).days or 1)
+    except Exception:
+        _pencere = "tarama"
     for i, (lbl, val) in enumerate([
             ("Taranan kaynak", st.get("kaynak", 0)),
             ("Erişilemeyen kaynak", len(unreach)),
@@ -355,7 +365,7 @@ def email_html(payload, ozet=None, tech_items=None, sayi=1):
             ("Ön elemeyi geçen", st.get("on_eleme_gecti", 0)),
             ("Tarih için açılan makale", st.get("makale_acildi", 0)),
             ("Elendi: tarihi doğrulanamadı", st.get("tarihsiz_elendi", 0)),
-            ("Elendi: 7 günlük pencere dışı", st.get("pencere_disi", 0)),
+            ("Elendi: %s pencere dışı" % _pencere, st.get("pencere_disi", 0)),
             ("Elendi: kapsam dışı", st.get("kapsam_disi", 0)),
             ("Elendi: daha önce raporlandı", st.get("tekrar", 0)),
             ("<b>Rapora giren</b>", "<b>%d</b>" % st.get("kabul", 0))]):

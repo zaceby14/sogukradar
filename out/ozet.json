@@ -1,0 +1,25 @@
+{
+ "exec": "Bu hafta tarih doğrulamasından geçen üç gelişme var. Öne çıkanı Jindal Stainless'ın soğuk hadde kapasitesini yaklaşık %30 büyütecek 94 milyon dolarlık yatırım kararı; ikincisi tk accelis'in Stuttgart servis merkezinde elektrik çeliği şeridi işleyebilen yeni dilme hattından ilk bobinleri alması. Üçüncüsü Vietnam'da 1,2 milyon tonluk yassı çelik fazı için imzalanan mutabakat. Teknoloji köşesi bu hafta boş: altı aylık aday havuzundaki iki maddenin biri arşivde, diğeri teknoloji değil tanıtım yazısı. On kaynak tarama sırasında erişilemedi (Steel Times International, GMK Center, ArcelorMittal ve diğerleri 403/404 verdi); listenin bu hafta tek yayına dayanması bununla ilgili.",
+ "cumleler": {
+  "c0b5f864813ba8fd": "Jindal Stainless, soğuk hadde kapasitesini yılda 2,05 milyon tondan 2,67 milyon tona çıkarmak için yaklaşık 94 milyon dolar (900 crore rupi) ayırdı; yatırım Hisar ve Kharagpur tesislerini ve Jajpur'da kurulacak yeni sıcak rulo tavlama-asitleme (HRAP) ile soğuk hadde hatlarını kapsıyor, 2027-28 mali yılında tamamlanması planlanıyor.",
+  "1733ff02c2b335cf": "thyssenkrupp'un servis merkezi kolu tk accelis Processing Europe, Stuttgart'ta genişlettiği merkezde yeni dilme hattında ilk 500 bobini işledi; 0,2-5,0 mm kalınlık aralığında çalışan ve elektrik çeliği şeridi işleyebilen hat ile dijital entegre paketleme hattının devreye girmesiyle tesisin yıllık işleme kapasitesi 350 bin tona çıktı.",
+  "43d668b85bed5aed": "Vietnamlı müteahhit Hoa Binh Construction Group ile çelik üreticisi Pomina Steel, Phu My 1 Sanayi Parkı'ndaki tesisin ikinci fazı için mutabakat zaptı imzaladı; yaklaşık 40 bin metrekarelik alanda yılda 1,2 milyon ton yassı çelik üretimi hedefleniyor, inşaatın ekim başında başlaması planlanıyor."
+ },
+ "duzeltmeler": {
+  "c0b5f864813ba8fd": {
+   "asama": "Modernizasyon"
+  },
+  "1733ff02c2b335cf": {
+   "firma": "tk accelis Processing Europe",
+   "ulke": "Almanya"
+  },
+  "43d668b85bed5aed": {
+   "firma": "Pomina Steel / Hoa Binh",
+   "ulke": "Vietnam",
+   "asama": "Sozlesme",
+   "kapasite": "1,2 milyon t/y"
+  }
+ },
+ "cikar": [],
+ "teknolojiler": []
+}
