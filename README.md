@@ -113,8 +113,27 @@ python -m radar check             # kaynak sağlık taraması → out/source_hea
 python -m radar discover          # RSS/Atom besleme avı → out/feeds_found.json
 python -m radar run --commit-state
 python -m radar review            # bana sorulacakları ekrana döker
+python -m radar capraz            # çapraz kontrol → out/kacanlar.json
 python -m radar finalize -s ozet.json -p 2026-W33
 ```
+
+### `capraz` — haftalık listenin kaçırdıkları
+
+STI + SteelOrbis + Mysteel haber sitemap'lerini çeker, başlıkları haftalık
+koşunun **aynı iki katmanlı kapısından** geçirir, listede zaten olanları
+(adres · başlık benzerliği · state'teki son 21 gün) ayıklar ve geriye
+kalan her aday için **makale sayfasını açıp yayın tarihini doğrular**.
+Tarihi doğrulanamayan aday "kaçan" sayılmaz; `dogrulanamayan` listesinde
+sebebiyle birlikte durur.
+
+`out/kacanlar.json` **bülten değildir** — editörün okuduğu bir denetim
+listesidir. Bir satırın bültene girmesi için editör ayrıca bakar (haber
+daha önce teknoloji köşesinde çıkmış olabilir; çapraz kontrol bunu bilmez).
+
+Bu iş `weekly.yml` içinde haftalık koşudan **sonra** çalışır. Sebebi:
+editörün kendi oturumunun ağ çıkışı yalnızca paket depolarına ve GitHub'a
+açıktır, haber alan adları egress proxy'sinde 403 alır — bu kontrol orada
+yapılamıyordu. Actions koşucusunun interneti tamdır.
 
 `ozet.json` biçimi:
 
@@ -137,6 +156,7 @@ python -m radar finalize -s ozet.json -p 2026-W33
 | `RADAR_PAUSE` | 0.7 | Aynı sunucuya istekler arası bekleme (sn) |
 | `RADAR_TARGET_ROWS` | 20 | `--limit` ile kırpma sınırı |
 | `RADAR_MIN_ROWS` | 5 | Altına düşülünce rapora "düşük kapsam uyarısı" basılır |
+| `RADAR_CAPRAZ_MAX` | 40 | `capraz`: kapıyı geçip listede bulunmayan kaç aday için makale sayfası açılır |
 
 ## 8. Kurulum
 

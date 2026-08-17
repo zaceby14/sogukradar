@@ -639,6 +639,77 @@ def test_niyet_kapisi_ilk_urun():
        "Modernizasyon", "exclude siradaki asamayi bulmali")
 
 
+def test_capraz_kontrol():
+    """v9 (2026-08-17): capraz kontrolun agsiz cekirdegi.
+
+    Vaka 2026-W34'un GERCEK verisidir. Haftalik liste uc satir uretti;
+    ayni gun SteelOrbis sitemap'inde kapsam ici DORDUNCU bir haber daha
+    duruyordu ve listeye girmemisti:
+
+      .../kg-steel-selects-primetals-for-dangjin-pltcm-upgrade-...-1470187.htm
+
+    Beklenen davranis: uc listedeki adres "listede" diye ayiklanir, KG
+    Steel "kacan" olarak kalir. Ayrica ayni haberin BASKA bir yayindaki
+    varyanti (STI'nin kendi adresi) baslik benzerligiyle ayiklanmalidir -
+    yoksa her hafta ayni haber iki kez "kacan" diye gosterilir.
+    """
+    from . import capraz as cp
+
+    payload = {"rows": [
+        {"baslik": ("India's Jindal Stainless Limited to invest $94 million "
+                    "to ramp up cold rolling capacity"),
+         "url": ("https://www.steelorbis.com/steel-news/latest-news/indias-jindal-"
+                 "stainless-limited-to-invest-94-million-to-ramp-up-cold-rolling-"
+                 "capacity-1471127.htm")},
+        {"baslik": "tk accelis announces milestone at Stuttgart steel service center",
+         "url": ("https://www.steelorbis.com/steel-news/latest-news/tk-accelis-"
+                 "announces-milestone-at-stuttgart-steel-service-center-1469079.htm")},
+        {"baslik": ("Hoa Binh and Pomina Steel partner on 1.2 million mt flat "
+                    "steel plant expansion"),
+         "url": ("https://www.steelorbis.com/steel-news/latest-news/hoa-binh-and-"
+                 "pomina-steel-partner-on-12-million-mt-flat-steel-plant-"
+                 "expansion-1469094.htm")}]}
+    adresler, basliklar = cp.listedekiler(payload, {"son_basliklar": []})
+    eq(len(adresler), 3, "listedeki adres sayisi")
+
+    # Sitemap adaylari: basliklar ADRES SLUG'INDAN uretilir (makale acilmadan)
+    KACAN = ("https://www.steelorbis.com/steel-news/latest-news/kg-steel-selects-"
+             "primetals-for-dangjin-pltcm-upgrade-and-capacity-expansion-1470187.htm")
+    # Ayni KG Steel haberinin ikinci SteelOrbis adresi (www yok, sondaki
+    # slash var): adres normalizasyonu tek satira indirmeli.
+    KACAN2 = KACAN.replace("https://www.", "https://").replace(".htm", ".htm/")
+    # tk accelis haberinin Yieh'teki varyanti: haftalik listede SteelOrbis
+    # basligiyla var, baslik benzerligiyle ayiklanmali.
+    YIEH = ("https://yieh.com/en/News/tk-accelis-processing-europe-expands-"
+            "stuttgart-steel-service-center-capacity/161883")
+    # Kapsam disi: sicak hadde.
+    SICAK = ("https://www.steelorbis.com/steel-news/latest-news/nippon-steel-"
+             "completes-new-hot-rolling-line-at-nagoya-works-1469660.htm")
+
+    urls = [r["url"] for r in payload["rows"]] + [KACAN, KACAN2, YIEH, SICAK]
+    import radar.collect as col
+    adaylar = [{"title": col.slug_baslik(u), "url": u} for u in urls]
+
+    kalan, atlanan = cp.eleme(adaylar, adresler, basliklar)
+    eq(len(kalan), 1, "yalniz KG Steel kacan olarak kalmali")
+    eq("kg-steel-selects-primetals" in kalan[0]["url"], True, "kacan KG Steel olmali")
+    eq(kalan[0]["katman"], "Hat", "KG Steel Hat katmani")
+
+    sebepler = {a["url"]: a["sebep"] for a in atlanan}
+    for r in payload["rows"]:
+        eq(sebepler.get(r["url"], "").startswith("listede"), True,
+           "listedeki satir ayiklanmali: " + r["baslik"][:45])
+    eq(sebepler[KACAN2], "listede (adres)",
+       "ayni haberin ikinci adresi tekrar uretmemeli")
+    eq(sebepler[YIEH], "listede (benzer baslik)",
+       "tk accelis Yieh varyanti baslik benzerligiyle ayiklanmali")
+    eq(sebepler[SICAK], "yukari_akis", "sicak hadde kapida elenmeli")
+
+    # Adres normalizasyonu: www / sondaki slash / sorgu farki tekrar uretmemeli
+    eq(cp._norm_url("https://WWW.SteelOrbis.com/a/b.htm?x=1#y"),
+       "steelorbis.com/a/b.htm", "adres normalizasyonu")
+
+
 def test_sitemap_okuyucu():
     """v6 (2026-08-17): haber sitemap'i kaynak turu.
 
@@ -807,7 +878,7 @@ def run():
                test_w33c_regresyon, test_w33d_regresyon, test_uclu_kg_senaryosu,
                test_iki_katmanli_liste, test_kapsam_havuzu, test_tarih_acilari,
                test_olay_kapisi_v5, test_w34_sicak_hadde,
-               test_niyet_kapisi_ilk_urun,
+               test_niyet_kapisi_ilk_urun, test_capraz_kontrol,
                test_sitemap_okuyucu, test_olculen_25_haber,
                test_cin_katmani,
                test_compose_ve_mail):

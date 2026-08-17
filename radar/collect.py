@@ -106,7 +106,14 @@ def slug_baslik(url):
     butcesini rahatlatan asil kazanc budur (2026-08-17 olcumu).
     """
     p = (url or "").split("?")[0].split("#")[0].rstrip("/")
-    seg = p.rsplit("/", 1)[-1]
+    parca = p.split("/")
+    seg = parca[-1]
+    # Bazi yayinlar haber numarasini AYRI bir parca yapar (Yieh:
+    # /News/tk-accelis-...-capacity/161883). Son parca sadece rakamsa
+    # baslik bir onceki parcadadir - yoksa slug "161883" olur ve aday
+    # "haber degil" diye elenir (2026-08-17'de capraz kontrolde yakalandi).
+    if seg.isdigit() and len(parca) > 1:
+        seg = parca[-2]
     seg = re.sub(r"\.(html?|php|aspx?)$", "", seg, flags=re.I)
     seg = re.sub(r"[-_]\d{4,}$", "", seg)          # sondaki haber numarasi
     seg = re.sub(r"^\d{4}-\d{2}-\d{2}[-_]", "", seg)  # bastaki tarih

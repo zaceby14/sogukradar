@@ -344,6 +344,12 @@ _UPSTREAM = (
     r"blast furnace|\bdri\b|\bhbi\b|direct reduc|\beaf\b|electric arc furnace|"
     r"basic oxygen|\bbof\b|continuous cast|slab caster|\bbillet\b|\bbloom\b|"
     r"csp mill|compact strip production|hot strip mill|hot rolling mill|"
+    # "hot rolling LINE": Nippon Steel Nagoya haberinin gectigi kalip
+    # (2026-08-17). "mill" varyantlari vardi, "line" yoktu ve haber
+    # yukari akis vetosuna takilmadan kapsam_disi'na dusuyordu - sonuc
+    # ayniydi ama sebep yanlisti; kaplama/tavlama terimi tasiyan bir
+    # sicak hadde basligi bu acikten Hat katmanina girebilirdi.
+    r"hot roll(ing)? line|hot strip line|hot mill\b|"
     r"sinter plant|coke oven|pellet plant|scrap yard|ladle furnace|"
     # hammadde
     r"iron ore|coking coal|"

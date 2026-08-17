@@ -6,6 +6,7 @@
   python -m radar run                   HAFTALIK KOSU (GitHub Actions bunu calistirir)
   python -m radar review                bana sorulacaklari ozetler
   python -m radar finalize -s ozet.json Turkce cumleleri isler, state'i gunceller
+  python -m radar capraz                sitemap capraz kontrolu -> out/kacanlar.json
   python -m radar selftest              agsiz birim testleri
 """
 import argparse
@@ -189,6 +190,26 @@ def cmd_finalize(a):
     return 0
 
 
+def cmd_capraz(a):
+    """Haftalik listenin kacirdiklarini bulur -> out/kacanlar.json.
+
+    Editorun elle yaptigi capraz kontrolun makine karsiligi. Ayrintili
+    gerekce icin radar/capraz.py bas yorumuna bakiniz.
+    """
+    from . import capraz as cp
+    today = dt.date.fromisoformat(a.today) if a.today else dt.date.today()
+    sonuc = cp.capraz(today=today)
+    _w(os.path.join(OUT, "kacanlar.json"), sonuc)
+    print("\ncapraz kontrol: %d kacan, %d dogrulanamayan -> out/kacanlar.json"
+          % (sonuc["adet"], len(sonuc["dogrulanamayan"])))
+    for r in sonuc["kacanlar"]:
+        print("  %s | %-9s | %s" % (r["tarih"], r["katman"], r["baslik"][:90]))
+    for k, v in sonuc["kaynaklar"].items():
+        if v["durum"] != "ok":
+            print("  ! %s erisilemedi: %s" % (v["publisher"], v.get("hata")))
+    return 0
+
+
 def cmd_selftest(a):
     from .selftest import run as run_tests
     return run_tests()
@@ -214,6 +235,10 @@ def main(argv=None):
     f.add_argument("-s", "--summaries")
     f.add_argument("-p", "--period")
     f.set_defaults(fn=cmd_finalize)
+
+    c = sub.add_parser("capraz")
+    c.add_argument("--today")
+    c.set_defaults(fn=cmd_capraz)
 
     sub.add_parser("selftest").set_defaults(fn=cmd_selftest)
 

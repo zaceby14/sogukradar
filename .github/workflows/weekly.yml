@@ -72,6 +72,27 @@ jobs:
             python -m radar run --commit-state
           fi
 
+      # CAPRAZ KONTROL (2026-08-17). Editorun elle yaptigi "sitemap'leri ac,
+      # listede olmayan kapsam ici haber var mi" isi. Editorun kendi kum
+      # havuzunda YAPILAMIYOR (o oturumun ag cikisi haber alan adlarina
+      # kapali, 403); burada kosucunun interneti aciktir.
+      #
+      # Haftalik kosudan SONRA calisir - karsilastirdigi liste bu kosunun
+      # ciktisidir. Bir sitemap coktugunde haftalik kosu bosa gitmesin diye
+      # adim hata verse bile is akisi devam eder; durum kacanlar.json'a
+      # "erisilemedi" olarak yazilir.
+      - name: Capraz kontrol (sitemap - listede olmayanlar)
+        continue-on-error: true
+        env:
+          RADAR_WINDOW_DAYS: "15"
+          RADAR_CAPRAZ_MAX: "40"
+        run: |
+          if [ -n "${{ github.event.inputs.today }}" ]; then
+            python -m radar capraz --today "${{ github.event.inputs.today }}"
+          else
+            python -m radar capraz
+          fi
+
       - name: Ozeti is akisina yaz
         run: |
           echo '### SogukRadar' >> $GITHUB_STEP_SUMMARY
@@ -80,10 +101,18 @@ jobs:
           import glob, json, os
           f = sorted(glob.glob("out/hafta_*.json"))[-1]
           d = json.load(open(f, encoding="utf-8"))
-          print(json.dumps({"donem": d["period"], "satir": len(d["rows"]),
-                            "istatistik": d["stats"],
-                            "erisilemeyen": [u[0] for u in d.get("unreachable", [])]},
-                           ensure_ascii=False, indent=1))
+          ozet = {"donem": d["period"], "satir": len(d["rows"]),
+                  "istatistik": d["stats"],
+                  "erisilemeyen": [u[0] for u in d.get("unreachable", [])]}
+          if os.path.exists("out/kacanlar.json"):
+              k = json.load(open("out/kacanlar.json", encoding="utf-8"))
+              ozet["capraz"] = {
+                  "kacan": k["adet"],
+                  "dogrulanamayan": len(k.get("dogrulanamayan", [])),
+                  "basliklar": [r["baslik"][:80] for r in k["kacanlar"]],
+                  "kaynak_sorunu": [v["publisher"] for v in k["kaynaklar"].values()
+                                    if v["durum"] != "ok"]}
+          print(json.dumps(ozet, ensure_ascii=False, indent=1))
           PY
           echo '```' >> $GITHUB_STEP_SUMMARY
 
@@ -112,6 +141,7 @@ jobs:
             out/hafta_*.csv
             out/needs_ai.json
             out/reddedilenler.json
+            out/kacanlar.json
             out/email_body.md
           retention-days: 90
 
