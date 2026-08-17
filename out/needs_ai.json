@@ -1,38 +1,50 @@
 {
- "donem": "2026-W33",
+ "donem": "2026-W34",
  "duzelt": [
   {
-   "anahtar": "d1edc1e337c8637c",
-   "baslik": "Domestic steel capacity expansion to boost higher-grade iron ore demand – report",
-   "url": "https://news.mesteel.com/domestic-steel-capacity-expansion-to-boost-higher-grade-iron-ore-demand-report/",
+   "anahtar": "59916e4f4d918c24",
+   "baslik": "Nippon Steel, 6 Milyon Tonluk Yeni Sıcak Haddeleme Hattını Devreye Aldı",
+   "url": "https://www.steelturk.com.tr/nippon-steel-6-milyon-tonluk-yeni-sicak-haddeleme-hattini-devreye-aldi/",
    "eksik": [
-    "hat",
-    "asama"
+    "ulke",
+    "tarih?"
    ],
    "mevcut": {
-    "firma": "Domestic",
-    "ulke": "Turkiye",
-    "hat": "Belirsiz",
-    "asama": "Belirsiz"
+    "firma": "Nippon Steel",
+    "ulke": "",
+    "hat": "Serit isleme hatti",
+    "asama": "Ilk urun"
    }
   },
   {
-   "anahtar": "84ad740682981093",
-   "baslik": "Russian strike halts Metinvest’s Zaporizhstal steel production",
-   "url": "https://news.mesteel.com/russian-strike-halts-metinvests-zaporizhstal-steel-production/",
+   "anahtar": "5b206c5b1079918e",
+   "baslik": "VinMetal plans to build 5 million mt steel plant in Vietnam",
+   "url": "https://www.steelradar.com/en/haber/vinmetal-plans-to-build-5-million-mt-steel-plant-in-vietnam/",
    "eksik": [
     "hat",
-    "asama"
+    "asama",
+    "tarih?"
    ],
    "mevcut": {
-    "firma": "Russian",
-    "ulke": "Rusya",
+    "firma": "VinMetal",
+    "ulke": "Vietnam",
     "hat": "Belirsiz",
     "asama": "Belirsiz"
    }
   }
  ],
- "cumle_yaz": [],
+ "cumle_yaz": [
+  {
+   "anahtar": "59916e4f4d918c24",
+   "tarih": "2026-08-13",
+   "firma": "Nippon Steel",
+   "ulke": "",
+   "hat": "Serit isleme hatti",
+   "asama": "Ilk urun",
+   "baslik": "Nippon Steel, 6 Milyon Tonluk Yeni Sıcak Haddeleme Hattını Devreye Aldı",
+   "url": "https://www.steelturk.com.tr/nippon-steel-6-milyon-tonluk-yeni-sicak-haddeleme-hattini-devreye-aldi/"
+  }
+ ],
  "teknoloji_adaylari": [
   {
    "anahtar": "tech:c1e20af1f2d7d31b",

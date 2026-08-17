@@ -1,11 +1,9 @@
 {
  "events": {
-  "domestic|fu|Turkiye|Belirsiz": "2026-08-12",
-  "domestic|hat|Belirsiz|Belirsiz": "2026-08-12",
-  "domestic|ulke|Turkiye|Belirsiz": "2026-08-12",
-  "russian|fu|Rusya|Belirsiz": "2026-08-12",
-  "russian|hat|Belirsiz|Belirsiz": "2026-08-12",
-  "russian|ulke|Rusya|Belirsiz": "2026-08-12"
+  "nippon steel|hat|Serit isleme hatti|Ilk urun": "2026-08-13",
+  "vinmetal|fu|Vietnam|Belirsiz": "2026-08-12",
+  "vinmetal|hat|Belirsiz|Belirsiz": "2026-08-12",
+  "vinmetal|ulke|Vietnam|Belirsiz": "2026-08-12"
  },
  "periods": [
   {
@@ -218,11 +216,29 @@
     "tekrar": 25
    },
    "uretim": "2026-08-12 18:27 UTC"
+  },
+  {
+   "donem": "2026-W34",
+   "satir": 2,
+   "stats": {
+    "erisilemeyen": 9,
+    "ham": 1918,
+    "kabul": 2,
+    "kapsam_disi": 1610,
+    "kaynak": 131,
+    "makale_acildi": 209,
+    "on_eleme_gecti": 226,
+    "pencere_disi": 201,
+    "tarih_celiskisi": 2,
+    "tarihsiz_elendi": 86,
+    "tekrar": 17
+   },
+   "uretim": "2026-08-17 06:03 UTC"
   }
  ],
  "seen": {
-  "84ad740682981093": "2026-08-12",
-  "d1edc1e337c8637c": "2026-08-12"
+  "59916e4f4d918c24": "2026-08-13",
+  "5b206c5b1079918e": "2026-08-12"
  },
  "son_basliklar": [
   {
@@ -363,6 +379,16 @@
   {
    "a": "Belirsiz",
    "b": "Russian strike halts Metinvest’s Zaporizhstal steel production",
+   "t": "2026-08-12"
+  },
+  {
+   "a": "Ilk urun",
+   "b": "Nippon Steel, 6 Milyon Tonluk Yeni Sıcak Haddeleme Hattını Devreye Aldı",
+   "t": "2026-08-13"
+  },
+  {
+   "a": "Belirsiz",
+   "b": "VinMetal plans to build 5 million mt steel plant in Vietnam",
    "t": "2026-08-12"
   }
  ],
