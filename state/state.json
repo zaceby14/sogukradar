@@ -1,8 +1,5 @@
 {
- "events": {
-  "hoa binh|hat|Belirsiz|Belirsiz": "2026-08-05",
-  "nucor|hat|Belirsiz|Belirsiz": "2026-08-14"
- },
+ "events": {},
  "periods": [
   {
    "donem": "2026-08 (aylik, v2.0)",
@@ -268,12 +265,27 @@
     "tekrar": 20
    },
    "uretim": "2026-08-17 20:15 UTC"
+  },
+  {
+   "donem": "2026-W34",
+   "satir": 0,
+   "stats": {
+    "erisilemeyen": 9,
+    "ham": 2452,
+    "kabul": 0,
+    "kapsam_disi": 2149,
+    "kaynak": 133,
+    "makale_acildi": 220,
+    "on_eleme_gecti": 240,
+    "pencere_disi": 191,
+    "tarih_celiskisi": 2,
+    "tarihsiz_elendi": 84,
+    "tekrar": 22
+   },
+   "uretim": "2026-08-17 20:53 UTC"
   }
  ],
- "seen": {
-  "43d668b85bed5aed": "2026-08-05",
-  "6e35274c390116ac": "2026-08-14"
- },
+ "seen": {},
  "son_basliklar": [
   {
    "a": "Modernizasyon",

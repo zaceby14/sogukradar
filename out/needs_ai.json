@@ -1,39 +1,6 @@
 {
  "donem": "2026-W34",
- "duzelt": [
-  {
-   "anahtar": "6e35274c390116ac",
-   "baslik": "Nucor to invest $59 million in steel grating capacity",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/nucor-to-invest-59-million-in-steel-grating-capacity-1471050.htm",
-   "eksik": [
-    "ulke",
-    "hat",
-    "asama"
-   ],
-   "mevcut": {
-    "firma": "Nucor",
-    "ulke": "",
-    "hat": "Belirsiz",
-    "asama": "Belirsiz"
-   }
-  },
-  {
-   "anahtar": "43d668b85bed5aed",
-   "baslik": "Hoa Binh and Pomina Steel partner on 1.2 million mt flat steel plant expansion",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/hoa-binh-and-pomina-steel-partner-on-12-million-mt-flat-steel-plant-expansion-1469094.htm",
-   "eksik": [
-    "ulke",
-    "hat",
-    "asama"
-   ],
-   "mevcut": {
-    "firma": "Hoa Binh",
-    "ulke": "",
-    "hat": "Belirsiz",
-    "asama": "Belirsiz"
-   }
-  }
- ],
+ "duzelt": [],
  "cumle_yaz": [],
  "teknoloji_adaylari": [
   {
