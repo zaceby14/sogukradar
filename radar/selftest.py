@@ -817,6 +817,65 @@ def test_teknoloji_ve_ai_bolumleri():
        "listedeki URL tekrar eklenmemeli")
 
 
+def test_w34_sifir_satir_teshisi():
+    """v11 (2026-08-18): 2026-W34 kosusu neden 0 satir uretti.
+
+    Celiski: hafta_2026-W34.json'da kabul=0 ama tekrar=22 iken
+    state/state.json'da seen=0 ve events=0. Bos hafizayla 22 "tekrar"
+    olamaz - olamamasi gerekirdi.
+
+    SEBEP: KALIBRASYON modu seen/events/tech_seen'i sifirliyor ama tekrar
+    savunmasinin UCUNCU bacagini, son_basliklar'i (35 kayit) BIRAKIYORDU.
+    Baslik benzerligi bacagi calismaya devam etti; mod ekrana "tekrar
+    engeli kapali" yazarken engel aciktı.
+
+    IKINCI SEBEP: son_basliklar'da v8 oncesi kosulardan kalan URUN
+    KATALOGU basliklari vardi - bunlar bugunku kapiya gore haber bile
+    degil ama her gercek elektrik celigi / galvaniz haberini eliyorlardi.
+
+    UCUNCU SEBEP: reddedilenler.json ilk 600 kaydi aliyordu; akisin basi
+    kapsam_disi (2149 adet) ile doldugu icin tekrar kayitlari dosyaya HIC
+    girmedi ve celiski gorunmez kaldi.
+    """
+    # state.json'dan alinan GERCEK cop basliklar
+    cop = ["Electrical steel, non grain oriented",
+           "powercore\u00ae traction NGO 025-125Y420",
+           "Hot-dip galvanized narrow strip"]
+    for t in cop:
+        eq(taxonomy.is_junk_title(t), True, "cop baslik taninmali: " + t[:40])
+
+    # ...ve bunlarin oldurdugu GERCEK haber (2026-08-17 kosusunun kacani)
+    gecmis = [{"b": "KG Steel Selects Primetals Technologies for PLTCM Revamp",
+               "t": "2026-08-11", "a": "Modernizasyon"}]
+    yeni_haber = "KG Steel selects Primetals for Dangjin PLTCM upgrade and capacity expansion"
+    eq(any(taxonomy.similar_titles(yeni_haber, b["b"]) for b in gecmis), True,
+       "ayni olayin varyanti gecmise karsi yakalanmali (bu DOGRU davranis)")
+
+    # Cop suzgeci: katalog basligi hafizada dursa bile eleme yapamaz
+    kirli = gecmis + [{"b": c, "t": "2026-08-11", "a": "Teknoloji"} for c in cop]
+    temiz = [b for b in kirli if not taxonomy.is_junk_title(b.get("b", ""))]
+    eq(len(temiz), 1, "cop basliklar karsilastirma havuzundan dusmeli")
+
+    # KALIBRASYON modu son_basliklar'i da sifirlamali
+    import radar.cli as C
+    kaynak = __import__("inspect").getsource(C.cmd_run)
+    eq('st0["son_basliklar"] = []' in kaynak, True,
+       "KALIBRASYON son_basliklar'i da sifirlamali")
+    eq("if not taxonomy.is_junk_title(r[\"baslik\"]):" in kaynak, True,
+       "cop baslik son_basliklar'a yazilmamali")
+
+    # Reddedilenler: sebep basina kota olmadan "tekrar" kayitlari kaybolur
+    from .config import REJECT_SEBEP_KOTA, REJECT_TOPLAM
+    eq(REJECT_SEBEP_KOTA > 0 and REJECT_TOPLAM > REJECT_SEBEP_KOTA, True,
+       "sebep kotasi tanimli olmali")
+    sayac, kayit = {}, []
+    for sebep in ["kapsam_disi"] * 2149 + ["tekrar"] * 22:
+        sayac[sebep] = sayac.get(sebep, 0) + 1
+        if sayac[sebep] <= REJECT_SEBEP_KOTA and len(kayit) < REJECT_TOPLAM:
+            kayit.append(sebep)
+    eq(kayit.count("tekrar"), 22, "22 tekrar kaydinin hepsi dosyaya girmeli")
+
+
 def test_sitemap_okuyucu():
     """v6 (2026-08-17): haber sitemap'i kaynak turu.
 
@@ -986,6 +1045,7 @@ def run():
                test_iki_katmanli_liste, test_kapsam_havuzu, test_tarih_acilari,
                test_olay_kapisi_v5, test_w34_sicak_hadde,
                test_niyet_kapisi_ilk_urun, test_capraz_kontrol,
+               test_w34_sifir_satir_teshisi,
                test_teknoloji_ve_ai_bolumleri,
                test_sitemap_okuyucu, test_olculen_25_haber,
                test_cin_katmani,

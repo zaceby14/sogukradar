@@ -130,6 +130,15 @@ görünmemesi ile "bakıldı, çıkmadı" aynı şey değildir:
   gönderir. Editör onaylamazsa posta gitmez.
 - Editör oturumunun ağ çıkışı haber alan adlarına **kapalıdır** (egress
   proxy 403). Sayfa açman gereken iş `radar capraz` ile koşucuya taşındı.
+- **Tekrar engeli AÇIK** (2026-08-18). `KALIBRASYON` dosyası silindi; artık
+  aynı haber ikinci kez gönderilmez. Hafıza `state/state.json` içinde
+  `seen` / `events` / `son_basliklar` olarak tutulur ve **Actions** günceller.
+  Bir haberi bilerek tekrar göstermek istersen `out/ozet.json` →
+  `ai_eklenen` ile elle ekle; `state`'e elle dokunma.
+- Tekrar savunması **üç bacaklıdır**: başlık anahtarı (`seen`), olay parmak
+  izi (`events`), başlık benzerliği (`son_basliklar`, son 21 gün). Üçüncü
+  bacak ürün kataloğu başlıklarını artık dikkate almaz — v8 öncesinden kalan
+  çöp, gerçek haberi "tekrar" diye eliyordu (2026-W34'te 0 satırın sebebi).
 
 ## 7. Teknoloji arşivi (bir daha seçme)
 

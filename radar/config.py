@@ -31,6 +31,12 @@ MAX_SITEMAP_LINKS = int(os.environ.get("RADAR_MAX_SITEMAP", "400"))
 # Kapsam on elemesini gecip makale sayfasi acilacak azami aday (maliyet freni)
 MAX_ARTICLE_FETCH = int(os.environ.get("RADAR_MAX_ARTICLES", "220"))
 
+# Reddedilenler dosyasi: toplam ve SEBEP BASINA kota. Sebep kotasi olmazsa
+# akisin basindaki "kapsam_disi" yigini dosyayi doldurur ve "tekrar" gibi
+# gec olusan sebepler hic gorunmez (2026-W34 teshisini imkansiz kilmisti).
+REJECT_TOPLAM = int(os.environ.get("RADAR_REJECT_TOPLAM", "900"))
+REJECT_SEBEP_KOTA = int(os.environ.get("RADAR_REJECT_SEBEP", "200"))
+
 os.environ.setdefault("RADAR_CACHE", CACHE)
 
 for d in (OUT, STATE_DIR, CACHE):

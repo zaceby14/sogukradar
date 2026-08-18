@@ -15,7 +15,7 @@ import json
 import os
 import sys
 
-from . import collect, render, score, state
+from . import collect, render, score, state, taxonomy
 from .config import OUT, TARGET_ROWS, VERSION
 from .sources import SOURCES
 
@@ -51,13 +51,21 @@ def cmd_run(a):
     per = _period(today)
 
     # KALIBRASYON MODU: repo kokunde "KALIBRASYON" adli bir dosya varsa
-    # hafiza (seen/events/tech_seen) o kosu icin sifirlanir - daha once
-    # cikan haber ve teknolojiler yeniden kullanilabilir. Sistem oturunca
-    # dosya silinir, tekrar engeli kendiliginden geri gelir.
+    # hafiza o kosu icin sifirlanir - daha once cikan haber ve teknolojiler
+    # yeniden kullanilabilir. Sistem oturunca dosya silinir, tekrar engeli
+    # kendiliginden geri gelir.
+    #
+    # "son_basliklar" DA SIFIRLANIR (2026-08-18). Onceki surum yalnizca
+    # seen/events/tech_seen'i temizliyordu; tekrar savunmasinin UCUNCU bacagi
+    # (baslik benzerligi, collect.py) son_basliklar'a bakiyor ve calismaya
+    # devam ediyordu. Sonuc: mod ekrana "tekrar engeli kapali" yaziyor ama
+    # engel aciktı. 2026-W34 kosusu tam olarak boyle 0 satir uretti -
+    # seen=0 iken tekrar=22 gibi kendi icinde celiskili bir istatistikle.
     from .config import ROOT
     if os.path.exists(os.path.join(ROOT, "KALIBRASYON")):
         st0 = state.load()
         st0["seen"], st0["events"], st0["tech_seen"] = {}, {}, {}
+        st0["son_basliklar"] = []
         state.save(st0)
         print("*** KALIBRASYON MODU: hafiza sifirlandi, tekrar engeli kapali ***")
 
@@ -118,8 +126,14 @@ def cmd_run(a):
             st["seen"][r["anahtar"]] = r["tarih"]
             for k in r.get("olaylar", []):
                 st["events"][k] = r["tarih"]
-            st["son_basliklar"].append({"b": r["baslik"], "t": r["tarih"],
-                                        "a": r["asama"]})
+            # Cop baslik hafizaya YAZILMAZ (2026-08-18). v8 oncesi kosular
+            # "Electrical steel, non grain oriented" gibi urun katalogu
+            # basliklarini satir olarak kabul etmisti; bunlar son_basliklar'a
+            # dusunce baslik benzerligi bacagi her gercek elektrik celigi /
+            # galvaniz haberini "tekrar" diye eliyordu.
+            if not taxonomy.is_junk_title(r["baslik"]):
+                st["son_basliklar"].append({"b": r["baslik"], "t": r["tarih"],
+                                            "a": r["asama"]})
         st["periods"] = (st.get("periods") or []) + [{
             "donem": per, "satir": len(payload["rows"]),
             "uretim": payload["generated"], "stats": payload["stats"]}]

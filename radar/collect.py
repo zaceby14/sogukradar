@@ -14,7 +14,8 @@ import re
 
 from . import classify, dates, feeds, htmlx, http, sources, state, taxonomy
 from .config import (MAX_ARTICLE_FETCH, MAX_LINKS_PER_SOURCE, MAX_SITEMAP_LINKS,
-                     TECH_WINDOW_DAYS, WINDOW_DAYS)
+                     REJECT_SEBEP_KOTA, REJECT_TOPLAM, TECH_WINDOW_DAYS,
+                     WINDOW_DAYS)
 
 US_STYLE = {"cognex", "butechbliss", "delta", "bronx", "aist", "magnetics", "worldsteel"}
 
@@ -234,11 +235,21 @@ def collect(today=None, log=print):
                           "url": it["url"], "kaynak": publisher,
                           "hat": taxonomy.match_line(blob)})
 
+    reject_sayac = {}
+
     def drop(reason, it, extra=""):
         """Elenen her satir kaydedilir. Ayarlama (kalibrasyon) ancak neyin
-        neden elendigi gorulerek yapilabilir; sessiz eleme korlestirir."""
+        neden elendigi gorulerek yapilabilir; sessiz eleme korlestirir.
+
+        SEBEP BASINA KOTA (2026-08-18). Onceki surum ilk 600 kaydi aliyordu;
+        akisin basi "kapsam_disi" ile dolduguntan (tek kosuda 2149 adet)
+        "tekrar" kayitlari dosyaya HIC girmiyordu. 2026-W34'te tekrar=22
+        iken reddedilenler.json'da sifir tekrar kaydi vardi - istatistikle
+        dosya celisiyordu ve teshis imkansizdi.
+        """
         stats[reason] = stats.get(reason, 0) + 1
-        if len(rejects) < 600:
+        reject_sayac[reason] = reject_sayac.get(reason, 0) + 1
+        if reject_sayac[reason] <= REJECT_SEBEP_KOTA and len(rejects) < REJECT_TOPLAM:
             rejects.append({"sebep": reason, "baslik": it.get("title", "")[:180],
                             "url": it.get("url", ""), "ek": extra})
 
@@ -438,12 +449,20 @@ def collect(today=None, log=print):
                 continue
             # Ucuncu bacak: baslik benzerligi. Ayni asamadaki, bu kosuda ya da
             # son 21 gunde kabul edilmis bir satirla baslik ortusuyorsa tekrar.
+            # KULLANIM ANINDA COP SUZGECI (2026-08-18). Yazma tarafi
+            # duzeltildi ama state'te DURAN cop de etkisiz kalmali: v8
+            # oncesi kosulardan kalan "Electrical steel, non grain oriented"
+            # gibi katalog basliklari, her gercek elektrik celigi/galvaniz
+            # haberini "benzer baslik" diye eliyordu.
+            gecmis = [b for b in st.get("son_basliklar", [])
+                      if not taxonomy.is_junk_title(b.get("b", ""))]
             if any(taxonomy.similar_titles(it["title"], r["baslik"])
-                   and r["asama"] == row["asama"] for r in rows) or \
-               any(taxonomy.similar_titles(it["title"], b.get("b", ""))
-                   and b.get("a", "") == row["asama"]
-                   for b in st.get("son_basliklar", [])):
-                drop("tekrar", it, "benzer baslik")
+                   and r["asama"] == row["asama"] for r in rows):
+                drop("tekrar", it, "benzer baslik (bu kosuda)")
+                continue
+            if any(taxonomy.similar_titles(it["title"], b.get("b", ""))
+                   and b.get("a", "") == row["asama"] for b in gecmis):
+                drop("tekrar", it, "benzer baslik (gecmis 21 gun)")
                 continue
             row["anahtar"] = key
             row["kategori"] = kategori
