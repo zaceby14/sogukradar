@@ -152,6 +152,38 @@ def cmd_review(a):
     return 0
 
 
+def _eklenen_satirlar(ham, payload):
+    """ozet.json'daki "ai_eklenen" maddelerini rapor satirina cevirir.
+
+    Yalnizca URL'si ve basligi olan maddeler satir olur; sadece aciklama
+    icin yazilmis bir madde (ornek "STI 403 verdi, elle bakildi") listeye
+    girmez ama AI bolumunde yine gorunur. Ayni URL listede zaten varsa
+    tekrar eklenmez.
+    """
+    varolan = {(r.get("url") or "").rstrip("/") for r in payload["rows"]}
+    out = []
+    for x in ham:
+        if not isinstance(x, dict):
+            continue
+        url, baslik = (x.get("url") or "").strip(), (x.get("baslik") or "").strip()
+        if not url or not baslik or url.rstrip("/") in varolan:
+            continue
+        varolan.add(url.rstrip("/"))
+        out.append({
+            "tarih": x.get("tarih", ""), "firma": x.get("firma", ""),
+            "ulke": x.get("ulke", ""), "hat": x.get("hat") or "Belirsiz",
+            "asama": x.get("asama") or "Belirsiz",
+            "tedarikci": x.get("tedarikci", ""), "kapasite": x.get("kapasite", ""),
+            "tutar": x.get("tutar", ""), "baslik": baslik,
+            "kaynak": x.get("kaynak", ""), "kaynak_id": x.get("kaynak_id", ""),
+            "url": url, "tarih_kaynagi": x.get("tarih_kaynagi") or "editor",
+            "eksik": [], "anahtar": x.get("anahtar") or state.norm_key(baslik, url),
+            "kategori": x.get("kategori") or "Hat", "olaylar": [],
+            "puan": 0.0, "elle_eklendi": True,
+        })
+    return out
+
+
 def cmd_finalize(a):
     per = a.period or _period(dt.date.today())
     base = os.path.join(OUT, "hafta_%s" % per)
@@ -165,6 +197,17 @@ def cmd_finalize(a):
     drop = set(doc.get("cikar", []))
     if drop:
         payload["rows"] = [r for r in payload["rows"] if r["anahtar"] not in drop]
+
+    # ELLE EKLENEN SATIRLAR (2026-08-17). "ai_eklenen" hem listeye satir
+    # ekler hem de postadaki "AI Kontrolu ve Eklemeleri" bolumunu besler -
+    # tek kaynak, tek dogru. Satir "elle_eklendi" isaretiyle gelir, posta
+    # bunu "+ AI" rozetiyle gosterir.
+    eklenen = _eklenen_satirlar(doc.get("ai_eklenen") or [], payload)
+    if eklenen:
+        payload["rows"] += eklenen
+        # Hat satirlari once, Yatirim sonra. Kararli siralama, mevcut
+        # satirlarin score.rank'ten gelen sirasini bozmaz.
+        payload["rows"].sort(key=lambda r: r.get("kategori") == "Yatirim")
 
     html = render.html_report(payload, doc.get("cumleler", {}), doc.get("exec", ""))
     with open(base + ".html", "w", encoding="utf-8") as f:

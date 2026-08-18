@@ -138,3 +138,56 @@ def tech_blurb(t):
         return ("%s alanında yeni bir geliştirme duyuruldu (%s, %s). "
                 "Ayrıntı kaynak bağlantısında." % (hat.capitalize(), kaynak, tarih))
     return "Yeni teknoloji duyurusu (%s, %s). Ayrıntı kaynak bağlantısında." % (kaynak, tarih)
+
+
+# ----------------------------------------------------------------------
+# AI KONTROLU VE EKLEMELERI (2026-08-17)
+#
+# Bulten okuyucusuna "bu listenin neresi yazilim, neresi editor" sorusunun
+# cevabini verir. Bolum HER ZAMAN cikar: bos hafta da bir bilgidir - editor
+# baktiysa ve duzeltilecek bir sey bulmadiysa okuyucu bunu bilmelidir.
+# ----------------------------------------------------------------------
+AI_BOLUM_BOS = "Bu hafta yazılım çıktısında düzeltilecek bir şey bulunmadı."
+
+AI_GRUPLAR = [
+    ("ai_eklenen", "Yazılımın kaçırdığı, elle eklenen"),
+    ("ai_duzeltme", "Düzeltilen satırlar"),
+    ("ai_cikarilan", "Listeden çıkarılanlar"),
+    ("ai_kontrol", "Çapraz kontrol"),
+]
+
+
+def _ai_satir(x):
+    """Bir AI bolumu maddesini tek satirlik metne indirir.
+
+    Sozluk de duz metin de kabul edilir - editorun ozet.json'da her alan
+    icin ayni sekli kullanmak zorunda kalmamasi icin.
+    """
+    if not isinstance(x, dict):
+        return str(x or "").strip()
+    baslik = (x.get("baslik") or x.get("konu") or "").strip()
+    kaynak = (x.get("kaynak") or "").strip()
+    neden = (x.get("neden") or x.get("sebep") or x.get("aciklama") or "").strip()
+    parcalar = [p for p in (baslik, ("(%s)" % kaynak) if kaynak else "") if p]
+    metin = " ".join(parcalar)
+    if neden:
+        metin = ("%s — %s" % (metin, neden)) if metin else neden
+    return metin.strip()
+
+
+def ai_bolumu(ozet):
+    """[(baslik, [satir, ...]), ...] - bos gruplar atilir.
+
+    Hicbir grup dolu degilse [] doner; render bunu gorunce AI_BOLUM_BOS
+    metnini basar. Bolumun KENDISI her durumda render edilir.
+    """
+    ozet = ozet or {}
+    out = []
+    for anahtar, baslik in AI_GRUPLAR:
+        ham = ozet.get(anahtar) or []
+        if isinstance(ham, (str, dict)):
+            ham = [ham]
+        satirlar = [s for s in (_ai_satir(x) for x in ham) if s]
+        if satirlar:
+            out.append((baslik, satirlar))
+    return out

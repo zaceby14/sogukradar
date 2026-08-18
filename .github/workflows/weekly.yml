@@ -4,15 +4,11 @@ on:
   schedule:
     # Pazartesi 04:05 UTC = 07:05 TSI. Actions kuyrugu gecikebilir, sorun degil.
     - cron: "37 4 * * 1"
-  push:
-    # Kod degisince kosu kendiliginden baslar. Botun kendi commit'i
-    # "[skip ci]" tasidigi icin sonsuz dongu olusmaz.
-    branches: [main]
-    paths:
-      - "radar/**"
-      - "tests/**"
-      - ".github/workflows/weekly.yml"
-      - "KALIBRASYON"
+  # PUSH TETIKLEYICISI KALDIRILDI (2026-08-17 karari). Her kod push'u tam
+  # tarama baslatiyordu; tarama out/ dosyalarini eziyor, ayrica program disi
+  # posta zincirine yol aciyordu (2026-W34'te tek gunde dort tarama kostu ve
+  # bir kosunun ciktisi catismada kayboldu). Tarama YALNIZ haftada bir
+  # calisir; kod degisikligini denemek icin workflow_dispatch kullanilir.
   workflow_dispatch:
     inputs:
       today:
@@ -51,7 +47,8 @@ jobs:
           python tests/e2e_offline.py
 
       - name: Kaynak saglik taramasi
-        if: ${{ github.event.inputs.check_sources == 'true' || github.event_name == 'push' }}
+        # push tetikleyicisi kalktigi icin 'event_name == push' kolu da atildi.
+        if: ${{ github.event.inputs.check_sources == 'true' }}
         run: python -m radar check || true
 
       - name: Haftalik kosu

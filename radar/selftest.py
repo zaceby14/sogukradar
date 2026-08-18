@@ -315,7 +315,7 @@ def test_compose_ve_mail():
                              [{"konu": "Lazer kesim", "metin": "m",
                                "url": "https://x/3", "tarih": "2026-06-01"}], 5)
     for parca in ("Değerli yöneticilerim", "AI Özeti", "Zeynel", "Sayı #5",
-                  "Soğuk Haddehane", "Öne Çıkan Teknolojileri",
+                  "Soğuk Haddehane", "Teknoloji Köşesi",
                   "Bu Haftanın Taraması", "Elendi: kapsam dışı", "Lazer kesim"):
         eq(parca in mail, True, "mailde eksik: " + parca)
     eq("Yönetici özeti" in mail, False, "eski baslik kalmamali")
@@ -728,6 +728,95 @@ def test_capraz_kontrol():
     eq(len(bulunan), 2, "gorece adres atlanmali")
 
 
+def test_teknoloji_ve_ai_bolumleri():
+    """v10 (2026-08-17): iki KALICI bolum - Teknoloji Kosesi ve AI Kontrolu.
+
+    Ikisi de aday/icerik cikmayan haftalarda da render edilir. Sebep: bolumun
+    hic gorunmemesi ile "bakildi, cikmadi" ayni sey degildir; okuyucu kosenin
+    unutuldugunu mu yoksa gercekten bos mu oldugunu bilemiyordu. 2026-W34'te
+    teknoloji kosesi tam olarak bu yuzden sessizce yok olmustu.
+
+    Vakalar 2026-W34'un gercek verisidir.
+    """
+    from . import compose, render
+    from .cli import _eklenen_satirlar
+
+    rows = [{"anahtar": "c0b5f864813ba8fd", "tarih": "2026-08-17",
+             "firma": "Jindal Stainless Limited", "ulke": "Hindistan",
+             "hat": "Soguk hadde", "asama": "Modernizasyon", "tedarikci": "",
+             "kapasite": "", "tutar": "$94 million", "kategori": "Hat",
+             "baslik": ("India's Jindal Stainless Limited to invest $94 million "
+                        "to ramp up cold rolling capacity"),
+             "kaynak": "SteelOrbis", "kaynak_id": "steelorbis",
+             "url": "https://www.steelorbis.com/x-1471127.htm", "puan": 59.0,
+             "eksik": [], "tarih_kaynagi": "json-ld"}]
+    stats = {"kaynak": 133, "ham": 2451, "makale_acildi": 220, "tarihsiz_elendi": 84,
+             "pencere_disi": 191, "kapsam_disi": 2148, "tekrar": 20, "erisilemeyen": 10}
+    payload = {"rows": rows, "stats": stats, "unreachable": [],
+               "window": ["2026-08-02", "2026-08-17"], "period": "2026-W34"}
+
+    # --- BOS teknoloji kosesi + BOS AI bolumu ---
+    bos = render.email_html(payload, {}, [], 15)
+    eq("Teknoloji Köşesi" in bos, True, "bos haftada da kose basligi cikmali")
+    eq(render.TEKNOLOJI_BOS in bos, True, "bos kose metni basilmali")
+    eq("AI Kontrolü ve Eklemeleri" in bos, True, "bos haftada da AI bolumu cikmali")
+    eq(compose.AI_BOLUM_BOS in bos, True, "bos AI metni basilmali")
+    # Kose HER ZAMAN listeden ONCE gelir
+    eq(bos.index("Teknoloji Köşesi") < bos.index("Haftanın Gelişmeleri"), True,
+       "bos kose bile listeden once gelmeli")
+
+    # --- DOLU teknoloji kosesi: yine listeden once ---
+    dolu_t = render.email_html(payload, {}, [
+        {"konu": "PLTCM'de AI destekli proses otomasyonu", "metin": "m",
+         "url": "https://x/1", "tarih": "2026-08-11"}], 15)
+    eq(dolu_t.index("Teknoloji Köşesi") < dolu_t.index("Haftanın Gelişmeleri"), True,
+       "dolu kose de listeden once gelmeli")
+    eq(render.TEKNOLOJI_BOS in dolu_t, False, "icerik varken bos metin cikmamali")
+
+    # --- DOLU AI bolumu: dort grup da gorunmeli ---
+    ozet = {
+        "ai_eklenen": [{"baslik": "KG Steel selects Primetals for Dangjin PLTCM upgrade",
+                        "kaynak": "SteelOrbis",
+                        "neden": "STI 403 verdi, haber sitemap'ten gec dustu",
+                        "url": "https://www.steelorbis.com/kg-1470187.htm",
+                        "tarih": "2026-08-11", "firma": "KG Steel",
+                        "ulke": "G. Kore", "hat": "Tandem soguk hadde (TCM)",
+                        "asama": "Sozlesme"}],
+        "ai_duzeltme": [{"baslik": "Jindal Stainless",
+                         "neden": "rozet 'Ilk urun' idi; yatirim karari, Modernizasyon yapildi"}],
+        "ai_cikarilan": [{"baslik": "Nucor to invest $59 million in steel grating capacity",
+                          "neden": "grating uzun/imalat urunu, kapsam disi"}],
+        "ai_kontrol": "SteelOrbis, STI ve Mysteel sitemap'leri tarandi; 1 kacan bulundu",
+    }
+    gruplar = compose.ai_bolumu(ozet)
+    eq(len(gruplar), 4, "dort grup da dolu olmali")
+    dolu = render.email_html(payload, ozet, [], 15)
+    eq(compose.AI_BOLUM_BOS in dolu, False, "icerik varken bos metin cikmamali")
+    for parca in ("Yazılımın kaçırdığı", "Düzeltilen satırlar",
+                  "Listeden çıkarılanlar", "Çapraz kontrol",
+                  "KG Steel selects Primetals", "grating", "1 kacan bulundu"):
+        eq(parca in dolu, True, "AI bolumunde eksik: " + parca)
+
+    # --- ai_eklenen GERCEKTEN satir uretir ve satir "+ AI" ile isaretlenir ---
+    eklenen = _eklenen_satirlar(ozet["ai_eklenen"], payload)
+    eq(len(eklenen), 1, "ai_eklenen bir satir uretmeli")
+    eq(eklenen[0]["elle_eklendi"], True, "satir elle_eklendi isaretli olmali")
+    eq(eklenen[0]["kategori"], "Hat", "varsayilan katman Hat")
+    p2 = dict(payload, rows=rows + eklenen)
+    isaretli = render.email_html(p2, ozet, [], 15)
+    eq("+ AI" in isaretli, True, "elle eklenen satir '+ AI' rozeti tasimali")
+    eq(isaretli.count("+ AI"), 1, "yalniz elle eklenen satir isaretlenmeli")
+
+    # Sadece aciklama olan madde (url/baslik yok) satir URETMEZ ama bolumde kalir
+    eq(_eklenen_satirlar([{"neden": "STI 403 verdi, elle bakildi"}], payload), [],
+       "url'siz madde satir uretmemeli")
+    eq(len(compose.ai_bolumu({"ai_eklenen": [{"neden": "STI 403 verdi"}]})), 1,
+       "url'siz madde AI bolumunde yine gorunmeli")
+    # Ayni URL listede varsa tekrar eklenmez
+    eq(_eklenen_satirlar([{"baslik": "x", "url": rows[0]["url"]}], payload), [],
+       "listedeki URL tekrar eklenmemeli")
+
+
 def test_sitemap_okuyucu():
     """v6 (2026-08-17): haber sitemap'i kaynak turu.
 
@@ -897,6 +986,7 @@ def run():
                test_iki_katmanli_liste, test_kapsam_havuzu, test_tarih_acilari,
                test_olay_kapisi_v5, test_w34_sicak_hadde,
                test_niyet_kapisi_ilk_urun, test_capraz_kontrol,
+               test_teknoloji_ve_ai_bolumleri,
                test_sitemap_okuyucu, test_olculen_25_haber,
                test_cin_katmani,
                test_compose_ve_mail):

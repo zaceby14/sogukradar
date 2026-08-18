@@ -195,6 +195,30 @@ STAGE_COLORS = {"Sozlesme": ("#e3edfb", "#14457e", "SÖZLEŞME"),
                 "Belirsiz": ("#eceff3", "#5a6270", "BELİRSİZ")}
 
 
+# Teknoloji kosesi aday cikmayan haftalarda da render edilir; metin budur.
+TEKNOLOJI_BOS = ("Bu hafta köşede tanıtılacak yeni bir teknoloji çıkmadı; "
+                 "altı aylık aday havuzu tarandı.")
+
+# Elle eklenen satirlarin gorunur isareti (2026-08-17). Okuyucu hangi satirin
+# yazilimdan, hangisinin editorden geldigini ayirt edebilmeli.
+_ROZET_AI = ('<span style="background:#e8f1fb;color:#12457a;font-size:9.5px;'
+             'font-weight:700;padding:1px 5px;border-radius:3px;'
+             'margin-right:5px;white-space:nowrap;">+ AI</span>')
+
+
+def _baslik(metin):
+    """Posta govdesindeki bolum basligi."""
+    return ('<div style="font-size:11px;font-weight:700;color:#5a6270;'
+            'text-transform:uppercase;letter-spacing:.7px;border-bottom:1px solid '
+            '#e3e6ea;padding-bottom:6px;margin-bottom:10px;">%s</div>' % _e(metin))
+
+
+def _firma_hucresi(r):
+    """Firma adi; satir elle eklendiyse basina '+ AI' rozeti konur."""
+    ad = _e(r.get("firma") or "-")
+    return (_ROZET_AI + ad) if r.get("elle_eklendi") else ad
+
+
 _ROZET_YAT = ('<span style="background:#eef0f4;color:#5a6270;font-size:10px;'
               'font-weight:700;padding:1px 7px;border-radius:3px;'
               'white-space:nowrap;">YATIRIM</span>')
@@ -282,13 +306,13 @@ def email_html(payload, ozet=None, tech_items=None, sayi=1):
              'padding:12px 15px;font-size:13.5px;line-height:1.6;color:#2a303a;">%s'
              '</div></td></tr>' % _e(execs))
 
+    # TEKNOLOJI KOSESI - HER ZAMAN ve HER ZAMAN listeden ONCE (2026-08-17).
+    # Onceki surumde bolum "if tech_items" ile kosulluydu: aday cikmayan
+    # haftalarda bulten kosesiz gidiyordu ve okuyucu kosenin unutuldugunu mu
+    # yoksa aday mi cikmadigini bilemiyordu. Bos hafta da bir bilgidir.
+    h.append('<tr><td style="padding:20px 28px 0;">' + _baslik("Teknoloji Köşesi"))
     if tech_items:
-        h.append('<tr><td style="padding:20px 28px 0;">'
-                 '<div style="font-size:11px;font-weight:700;color:#5a6270;'
-                 'text-transform:uppercase;letter-spacing:.7px;border-bottom:1px solid '
-                 '#e3e6ea;padding-bottom:6px;margin-bottom:10px;">'
-                 'Bu Haftanın Öne Çıkan Teknolojileri</div>'
-                 '<table role="presentation" width="100%" cellpadding="0" '
+        h.append('<table role="presentation" width="100%" cellpadding="0" '
                  'cellspacing="0" style="font-size:13px;line-height:1.55;">')
         for t in tech_items:
             h.append('<tr><td style="padding:0 0 10px;"><b>%s</b><br>'
@@ -299,7 +323,12 @@ def email_html(payload, ozet=None, tech_items=None, sayi=1):
                         _e(t.get("metin", "")), _e(t.get("url", ""))))
         h.append('</table><div style="font-size:11px;color:#8b93a0;margin-top:8px;">'
                  'Bu bölümde bir teknoloji yalnızca bir kez tanıtılır; son 6 aydan '
-                 'eski duyurular köşeye alınmaz.</div></td></tr>')
+                 'eski duyurular köşeye alınmaz.</div>')
+    else:
+        h.append('<div style="background:#f6f8fa;border-left:4px solid #b9c2cd;'
+                 'padding:10px 14px;font-size:13px;color:#3d4450;">%s</div>'
+                 % _e(TEKNOLOJI_BOS))
+    h.append('</td></tr>')
 
     h.append('<tr><td style="padding:20px 28px 0;">'
              '<div style="font-size:11px;font-weight:700;color:#5a6270;'
@@ -326,7 +355,7 @@ def email_html(payload, ozet=None, tech_items=None, sayi=1):
                      '<td style="padding:9px;border-bottom:1px solid #e8eaee;%s">%s '
                      '<a href="%s" style="color:#12457a;font-size:11px;">%s →</a></td>'
                      '<td style="padding:9px;border-bottom:1px solid #e8eaee;%s">%s</td></tr>'
-                     % (bg, _dmy(r["tarih"]), bg, _e(r.get("firma") or "-"), _e(sub),
+                     % (bg, _dmy(r["tarih"]), bg, _firma_hucresi(r), _e(sub),
                         bg, _e(cum), _e(r.get("url")), _e(r.get("kaynak")),
                         bg, (_ROZET_YAT if r.get("kategori") == "Yatirim"
                              else _badge(r.get("asama")))))
@@ -337,6 +366,29 @@ def email_html(payload, ozet=None, tech_items=None, sayi=1):
                  'geçen gelişme kaydedilmedi. Alt bilgideki tarama istatistiği erişim '
                  'sorununu gösterir.</div>')
     h.append("</td></tr>")
+
+    # AI KONTROLU VE EKLEMELERI - KALICI bolum (2026-08-17).
+    # Okuyucuya "bu listenin neresi yazilim, neresi editor" sorusunun cevabini
+    # verir. Bos hafta da bir bilgidir: editor bakti ve duzeltilecek bir sey
+    # bulmadi demektir - bolumun hic cikmamasiyla ayni sey degil.
+    h.append('<tr><td style="padding:20px 28px 0;">'
+             + _baslik("AI Kontrolü ve Eklemeleri"))
+    ai = compose.ai_bolumu(ozet)
+    if ai:
+        h.append('<table role="presentation" width="100%" cellpadding="0" '
+                 'cellspacing="0" style="font-size:13px;line-height:1.55;">')
+        for grup, satirlar in ai:
+            h.append('<tr><td style="padding:0 0 4px;">'
+                     '<b style="color:#10233c;">%s</b></td></tr>' % _e(grup))
+            for x in satirlar:
+                h.append('<tr><td style="padding:0 0 6px 12px;color:#3d4450;">'
+                         '&bull; %s</td></tr>' % _e(x))
+        h.append('</table>')
+    else:
+        h.append('<div style="background:#f6f8fa;border-left:4px solid #b9c2cd;'
+                 'padding:10px 14px;font-size:13px;color:#3d4450;">%s</div>'
+                 % _e(compose.AI_BOLUM_BOS))
+    h.append('</td></tr>')
 
     h.append('<tr><td style="padding:20px 28px 6px;font-size:13.5px;line-height:1.6;'
              'color:#3d4450;">Saygılarımla,<br><b>Zeynel</b></td></tr>')

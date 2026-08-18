@@ -104,6 +104,13 @@ Pazartesi 08:00 TSİ   Ben (zamanlanmış görev)
 State güncellemesini **Actions** yapar, ben değil. Böylece ben hiç çalışmasam
 bile "aynı haber iki kez çıkmaz" garantisi bozulmaz.
 
+## 5b. Editör kuralları
+
+Haftalık editör kuralları **`radar/EDITOR.md`** dosyasındadır; haftalık
+routine her koşuda önce o dosyayı okur. Kapsam sınırları, değişmez kurallar,
+`out/ozet.json` biçimi, kalıcı bölümler ve teknoloji arşivi orada tutulur —
+routine prompt'un kendisi değişmez.
+
 ## 6. Komutlar
 
 ```bash
@@ -142,9 +149,19 @@ yapılamıyordu. Actions koşucusunun interneti tamdır.
   "exec": "Yönetici özeti cümlesi.",
   "cumleler": {"a1b2c3d4e5f6a7b8": "Türkçe tek cümlelik özet."},
   "duzeltmeler": {"a1b2c3d4e5f6a7b8": {"firma": "Tosyalı", "ulke": "Türkiye"}},
-  "cikar": ["kaldirilacak_anahtar"]
+  "cikar": ["kaldirilacak_anahtar"],
+
+  "ai_eklenen":   [{"baslik": "...", "url": "...", "tarih": "2026-08-11",
+                    "kaynak": "SteelOrbis", "neden": "neden kaçırıldı"}],
+  "ai_duzeltme":  [{"baslik": "...", "neden": "ne yanlıştı, ne yapıldı"}],
+  "ai_cikarilan": [{"baslik": "...", "neden": "çıkarma sebebi"}],
+  "ai_kontrol":   "Hangi kaynaklar çapraz kontrol edildi, sonuç ne"
 }
 ```
+
+Son dört alan postadaki kalıcı **"AI Kontrolü ve Eklemeleri"** bölümünü
+besler. `ai_eklenen` ayrıca listeye satır ekler: `url` + `baslik` taşıyan
+madde satır olur ve mailde `+ AI` rozetiyle görünür.
 
 ## 7. Ayarlar (ortam değişkeni)
 
