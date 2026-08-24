@@ -1,5 +1,29 @@
 {
- "events": {},
+ "events": {
+  "algerian|fu|Cezayir|Belirsiz": "2026-08-24",
+  "algerian|hat|Belirsiz|Belirsiz": "2026-08-24",
+  "algerian|ulke|Cezayir|Belirsiz": "2026-08-24",
+  "avustralya|hat|Serit isleme hatti|Belirsiz": "2026-08-24",
+  "baowu group|fu|Cezayir|Belirsiz": "2026-08-12",
+  "baowu group|hat|Belirsiz|Ilk urun": "2026-08-12",
+  "baowu group|ulke|Cezayir|Ilk urun": "2026-08-12",
+  "hybar|hat|Soguk hadde|Belirsiz": "2026-08-18",
+  "indian|fu|Hindistan|Belirsiz": "2026-08-20",
+  "indian|hat|Belirsiz|Ilk urun": "2026-08-20",
+  "indian|ulke|Hindistan|Ilk urun": "2026-08-20",
+  "jindal stainless limited|fu|Hindistan|Soguk hadde": "2026-08-17",
+  "jindal stainless limited|hat|Soguk hadde|Belirsiz": "2026-08-17",
+  "jindal stainless limited|ulke|Hindistan|Belirsiz": "2026-08-17",
+  "manaksia steels|hat|Belirsiz|Belirsiz": "2026-08-21",
+  "nippon steel|hat|Serit isleme hatti|Ilk urun": "2026-08-13",
+  "primetals|hat|Tandem soguk hadde (TCM)|Modernizasyon": "2026-08-11",
+  "sepc limited|fu|Hindistan|Belirsiz": "2026-08-19",
+  "sepc limited|hat|Belirsiz|Sozlesme": "2026-08-19",
+  "sepc limited|ulke|Hindistan|Sozlesme": "2026-08-19",
+  "|fu|Hindistan|Belirsiz": "2026-08-21",
+  "|hat|Belirsiz|Belirsiz": "2026-08-21",
+  "|ulke|Hindistan|Belirsiz": "2026-08-21"
+ },
  "periods": [
   {
    "donem": "2026-08 (aylik, v2.0)",
@@ -283,10 +307,96 @@
     "tekrar": 22
    },
    "uretim": "2026-08-17 20:53 UTC"
+  },
+  {
+   "donem": "2026-W35",
+   "satir": 11,
+   "stats": {
+    "erisilemeyen": 10,
+    "ham": 2418,
+    "kabul": 11,
+    "kapsam_disi": 2138,
+    "kaynak": 133,
+    "makale_acildi": 215,
+    "on_eleme_gecti": 223,
+    "pencere_disi": 184,
+    "tarih_celiskisi": 2,
+    "tarihsiz_elendi": 80,
+    "tekrar": 3
+   },
+   "uretim": "2026-08-24 06:15 UTC"
   }
  ],
- "seen": {},
- "son_basliklar": [],
+ "seen": {
+  "05ee3ccfafa36b08": "2026-08-11",
+  "3462917d79ceceef": "2026-08-21",
+  "357e0ddb1bfc0c2a": "2026-08-19",
+  "4efb2dcbc4c0aae6": "2026-08-18",
+  "59916e4f4d918c24": "2026-08-13",
+  "69eacbbd196caa00": "2026-08-24",
+  "a13cf1ef115fa16d": "2026-08-12",
+  "b68fa0b4d26572ac": "2026-08-21",
+  "c0b5f864813ba8fd": "2026-08-17",
+  "d045d03303219029": "2026-08-24",
+  "f29ebf2ed4ff9833": "2026-08-20"
+ },
+ "son_basliklar": [
+  {
+   "a": "Modernizasyon",
+   "b": "KG Steel selects Primetals for Dangjin PLTCM upgrade and capacity expansion",
+   "t": "2026-08-11"
+  },
+  {
+   "a": "Belirsiz",
+   "b": "India's Jindal Stainless Limited to invest $94 million to ramp up cold rolling capacity",
+   "t": "2026-08-17"
+  },
+  {
+   "a": "Sozlesme",
+   "b": "India's SEPC Limited wins $90 million contract to build pellet plant at SAIL's IISCO mill",
+   "t": "2026-08-19"
+  },
+  {
+   "a": "Ilk urun",
+   "b": "Nippon Steel, 6 Milyon Tonluk Yeni Sıcak Haddeleme Hattını Devreye Aldı",
+   "t": "2026-08-13"
+  },
+  {
+   "a": "Ilk urun",
+   "b": "Indian fair trade regulator approves Tata Steel's acquisition of additional stake in logistics firm",
+   "t": "2026-08-20"
+  },
+  {
+   "a": "Ilk urun",
+   "b": "Baowu Group and SNS eye integrated green steel plant investment in Algeria",
+   "t": "2026-08-12"
+  },
+  {
+   "a": "Belirsiz",
+   "b": "Hybar advances low-carbon steel expansion in Arkansas",
+   "t": "2026-08-18"
+  },
+  {
+   "a": "Belirsiz",
+   "b": "Avustralya’nın Yeşil Çelik Hedefi İçin 14 Yılda 110 Milyar Dolarlık Yatırım Gerekiyor",
+   "t": "2026-08-24"
+  },
+  {
+   "a": "Belirsiz",
+   "b": "India: Crude steel expansion approvals reach 19 mnt/year in Apr-Jul'26",
+   "t": "2026-08-21"
+  },
+  {
+   "a": "Belirsiz",
+   "b": "[Algeria Plans to Build New Steel Complex in Oran]According to Algerian media reports, Algeria plans to build a new steel complex in Ain El Biya, Oran Province, as a key project to advance…",
+   "t": "2026-08-24"
+  },
+  {
+   "a": "Belirsiz",
+   "b": "Manaksia Steels plans ₹800 crore investment to nearly triple speciality steel capacity by FY34",
+   "t": "2026-08-21"
+  }
+ ],
  "source_health": {},
  "tech_seen": {
   "tech:14822add12dd1ab1": "2026-04-15",

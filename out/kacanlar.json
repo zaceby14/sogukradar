@@ -1,10 +1,10 @@
 {
- "donem": "2026-W34",
+ "donem": "2026-W35",
  "pencere": [
-  "2026-08-02",
-  "2026-08-17"
+  "2026-08-09",
+  "2026-08-24"
  ],
- "uretim": "2026-08-17 20:53 UTC",
+ "uretim": "2026-08-24 06:15 UTC",
  "kaynaklar": {
   "steeltimesint": {
    "publisher": "Steel Times International",
@@ -27,6 +27,16 @@
  "dogrulanamayan": [],
  "acildi_elendi": [
   {
+   "baslik": "Hoa Binh and Pomina Steel partner on 1.2 million mt flat steel plant expansion",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/hoa-binh-and-pomina-steel-partner-on-12-million-mt-flat-steel-plant-expansion-1469094.htm",
+   "sebep": "pencere disi (2026-08-05)"
+  },
+  {
+   "baslik": "tk accelis announces milestone at Stuttgart steel service center",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/tk-accelis-announces-milestone-at-stuttgart-steel-service-center-1469079.htm",
+   "sebep": "pencere disi (2026-08-05)"
+  },
+  {
    "baslik": "Xining Special Steel invests in establishing a technology company",
    "url": "https://www.steelorbis.com/steel-news/latest-news/xining-special-steel-invests-in-establishing-a-technology-company-1468149.htm",
    "sebep": "pencere disi (2026-07-31)"
@@ -45,14 +55,9 @@
    "baslik": "Severstal develops digital installation technology for CherMK galvanizing line upgrade",
    "url": "https://www.steelorbis.com/steel-news/latest-news/severstal-develops-digital-installation-technology-for-chermk-galvanizing-line-upgrade-1467262.htm",
    "sebep": "pencere disi (2026-07-28)"
-  },
-  {
-   "baslik": "HBIS Laoting Steel to build RMB 7.967 billion wide and heavy plate production line",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/hbis-laoting-steel-to-build-rmb-7967-billion-wide-and-heavy-plate-production-line-1466627.htm",
-   "sebep": "pencere disi (2026-07-24)"
   }
  ],
- "kapiyi_gecen": 5,
+ "kapiyi_gecen": 6,
  "sitemap_adayi": 400,
- "elenen": 395
+ "elenen": 394
 }
