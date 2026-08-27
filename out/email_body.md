@@ -1,21 +1,30 @@
 # SogukRadar &mdash; 2026-W35
 
-**5 dogrulanmis gelisme** | pencere 2026-08-12 - 2026-08-27 | 133 kaynak tarandi
+**8 dogrulanmis gelisme** | pencere 2026-08-12 - 2026-08-27 | 133 kaynak tarandi
 
-1. **JSW Steel, India** (Hindistan, 2026-08-25) &mdash; Galvaniz hatti (CGL) / Sozlesme  
-   JSW Steel, India, orders ANDRITZ galvanizing line for advanced automotive steels  
-   https://www.andritz.com/newsroom-en/metals/2026-08-25-jsw-steel-group
-2. **-** (-, 2026-08-26) &mdash; Belirsiz / Ilk urun  
-   三宝集团SACL3#新能源高牌号无取向硅钢退火炉顺利投产  
-   https://factory.mysteel.com/a/26082617/6E2F124F6AC1DDCB.html
-3. **Pakistan** (Pakistan, 2026-08-26) &mdash; Soguk hadde / Teknoloji  
-   Pakistan launches AD sunset review on cold rolled steel imports  
-   https://www.steelorbis.com/steel-news/latest-news/pakistan-launches-ad-sunset-review-on-cold-rolled-steel-imports-1473012.htm
-4. **Cleveland-Cliffs** (-, 2026-08-24) &mdash; Belirsiz / Modernizasyon  
-   Cleveland-Cliffs Invests $1B in Steelmaking Modernization  
-   https://www.heattreattoday.com/cleveland-cliffs-invests-1b-in-steelmaking-modernization/
-5. **Roofings Unveils** (-, 2026-08-25) &mdash; Belirsiz / Teknoloji  
-   Roofings Unveils $125m Steel Mill, Doubles Cold-Rolled Capacity to 300,000 Tonnes  
-   https://news.google.com/rss/articles/CBMiogFBVV95cUxNRWp3TW5taXBCVU10X0pUNE1UTEwtS0VQc2t2aXhPczd4alM3cERaWFN5Tmx0dnhycURTTG5wUWRKOHphSXhpQmNqWWNJTGtLakNVUnNsYkQ3alB6THRxVDVEaFp1M1l1VEpRUHVPQ2xHZ216TkVVNXVid24weWRrUmM4cS01Smp1aE5taFdjRjVxWVlqcWxidl81T1ljeF9WdUE?oc=5
+1. **Drainage Tubing End Sections** (-, 2026-08-07) &mdash; Bobin tasima / paketleme / Belirsiz  
+   Marion Die & Fixture Bender: Precision Forming for Drainage Tubing End Sections  
+   https://blog.bradburygroup.com/blog/marion-die-fixture-bender-precision-forming-for-drainage-tubing-end-sections
+2. **-** (-, 2026-08-05) &mdash; Dilme / boy kesme / SSC / Ilk urun  
+   tk accelis announces milestone at Stuttgart steel service center  
+   https://www.steelorbis.com/steel-news/latest-news/tk-accelis-announces-milestone-at-stuttgart-steel-service-center-1469079.htm
+3. **TOSYALI ALGÉRİE** (Cezayir, 2026-07-29) &mdash; Soguk hadde / Ilk urun  
+   TOSYALI ALGÉRİE, SOĞUK HADDELEME KOMPLEKSİNDE İLK ÜRETİMİ YAPTI  
+   https://www.steelturk.com.tr/tosyali-algérie-soguk-haddeleme-kompleksinde-ilk-uretimi-yapti/
+4. **Spain EGGA-Galvanizing Europe** (Ispanya, 2026-07-14) &mdash; Galvaniz hatti (CGL) / Belirsiz  
+   EGGA-Galvanizing Europe Presidency: Benelux to Spain EGGA-Galvanizing Europe is pleased to announce Carlos García (Spain) as its new President and Chairman of the Board of Directors. EGGA’s…  
+   https://www.galvanizingeurope.org/egga-galvanizing-europe-presidency-benelux-to-spain/
+5. **JW Aluminium** (Italya, 2026-06-21) &mdash; Soguk hadde / Ilk urun  
+   First Coil Successfully Rolled on MINO-Revamped Cold Rolling Mill at JW Aluminium, Goose Creek  
+   https://mino.it/first-coil-mino-revamped-cold-rolling-mill-jw-aluminium/
+6. **EVs** (-, 2026-06-15) &mdash; Elektrik celigi hatti / Teknoloji  
+   POSCO Partners with Hyundai Motor and 8 Organizations to Develop Next-Generation High-Efficiency Electrical Steel for EVs  
+   https://worldsteel.org/media/industry-member-news/2026-member-news/posco-partners-with-hyundai-motor-and-8-organizations-to-develop-next-generation-high-efficiency-electrical-steel-for-evs/
+7. **PRE** (-, 2026-05-19) &mdash; Bobin tasima / paketleme / Belirsiz  
+   PRE Open House: Celebrating Growth, Community, and the Future  
+   https://blog.bradburygroup.com/blog/pre-open-house-celebrating-growth-community-and-the-future
+8. **Golden Aluminum** (ABD, 2026-05-12) &mdash; Tandem soguk hadde (TCM) / Modernizasyon  
+   MINO awarded Phase One modernization contract for Golden Aluminum, Fort Lupton CO Tandem Cold Rolling Mill  
+   https://mino.it/new-contract-for-golden-tandem-mill/
 
-> Erisilemeyen kaynaklar: SMS group, Clecim, Cognex, ArcelorMittal, Steel Times International, EUROMETAL, GMK Center, BigMint (SteelMint), Furnaces International, MetalForming Magazine, Mysteel, WV Stahl, Sanayi Gazetesi
+> Erisilemeyen kaynaklar: SMS group, Cognex, EMG Automation, ArcelorMittal, Steel Times International, GMK Center, BigMint (SteelMint), Furnaces International, MetalForming Magazine, Mysteel, Sanayi Gazetesi

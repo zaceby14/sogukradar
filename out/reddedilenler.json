@@ -1,6 +1,6 @@
 {
  "donem": "2026-W35",
- "adet": 454,
+ "adet": 448,
  "kayitlar": [
   {
    "sebep": "kapsam_disi",
@@ -76,12 +76,6 @@
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "Recycling and By-products",
-   "url": "https://tenova.com/technologies/our-green-solutions/recycling-and-products",
-   "ek": "haber degil (menu/e-posta/kisa)"
-  },
-  {
-   "sebep": "kapsam_disi",
    "baslik": "Lithium Battery Recycling",
    "url": "https://tenova.com/technologies/our-green-solutions/lithium-battery-recycling",
    "ek": "haber degil (menu/e-posta/kisa)"
@@ -102,6 +96,12 @@
    "sebep": "tarihsiz_elendi",
    "baslik": "Copper & other base metals",
    "url": "https://tenova.com/technologies/pyrometallurgy/copper-other-base-metals",
+   "ek": ""
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "Recycling and By-products",
+   "url": "https://tenova.com/technologies/our-green-solutions/recycling-and-products",
    "ek": ""
   },
   {
@@ -406,9 +406,21 @@
   },
   {
    "sebep": "kapsam_disi",
+   "baslik": "Digital Solutions – Metris",
+   "url": "https://www.andritz.com/metris-en",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
    "baslik": "Annual, financial & sustainability reports",
    "url": "https://www.andritz.com/group-en/investors/investors-downloads/financial-reports",
    "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "JSW Steel, India, orders ANDRITZ galvanizing line for advanced automotive steels",
+   "url": "https://www.andritz.com/newsroom-en/metals/2026-08-25-jsw-steel-group",
+   "ek": ""
   },
   {
    "sebep": "pencere_disi",
@@ -421,12 +433,6 @@
    "baslik": "ANDRITZ to supply precision cold rolling mill for titanium processing in China",
    "url": "https://www.andritz.com/newsroom-en/metals/2026-02-18-rolling-mill-group",
    "ek": "2026-02-18"
-  },
-  {
-   "sebep": "tarihsiz_elendi",
-   "baslik": "Digital Solutions – Metris",
-   "url": "https://www.andritz.com/metris-en",
-   "ek": ""
   },
   {
    "sebep": "tarihsiz_elendi",
@@ -559,6 +565,66 @@
    "baslik": "Safer and repeatable operations with OTO coil loading systems",
    "url": "https://www.fivesgroup.com/newspress/detail-view/safer-and-repeatable-operations-with-oto-coil-loading-systems",
    "ek": "2026-06-24"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Newsletter #5 Francais",
+   "url": "https://www.clecim.com/newsletter-5-francais/",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Newsletter #5 English",
+   "url": "https://www.clecim.com/newsletter-5-english-cloned/",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Global Industrie 2026",
+   "url": "https://www.clecim.com/global-industrie-2026/",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "AisTech 2026",
+   "url": "https://www.clecim.com/aistech/",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Business Indastrie",
+   "url": "https://www.clecim.com/business-indastrie/",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Challenge Mobilités – Don association ARSLA",
+   "url": "https://www.clecim.com/challenge-mobilites-don-association-arsla/",
+   "ek": "on eleme: 2025-10-30"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "SIAS DL – Nomade",
+   "url": "https://www.clecim.com/sias-dl-nomade/",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Challenge Mobilités – Don association Les Amis de Rémi",
+   "url": "https://www.clecim.com/challenge-mobilites-don-association-les-amis-de-remi/",
+   "ek": "on eleme: 2025-10-30"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "TATA STEEL Ground Breaking event",
+   "url": "https://www.clecim.com/tata-steel-ground-breaking-event/",
+   "ek": "on eleme: 2025-10-30"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "SUCCESS STORY | Rénovation d’un groupe hydroélectrique pour EDF Hydro",
+   "url": "https://www.clecim.com/success-story_edf/",
+   "ek": "2026-04-14"
   },
   {
    "sebep": "pencere_disi",
@@ -808,12 +874,6 @@
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "Glüh-& Beschichtungslinie (ACL)",
-   "url": "https://www.ebner.cc/glueh-und-beschichtungslinie-acl-stahl-de",
-   "ek": "haber degil (menu/e-posta/kisa)"
-  },
-  {
-   "sebep": "kapsam_disi",
    "baslik": "Horizontale Kontiglühlinien",
    "url": "https://www.ebner.cc/horizontale-kontigluehlinien-stahl-de",
    "ek": "haber degil (menu/e-posta/kisa)"
@@ -823,6 +883,12 @@
    "baslik": "> Vertretungen. Weltweit.",
    "url": "https://www.ebner.cc/vertretung-de",
    "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Glüh-& Beschichtungslinie (ACL)",
+   "url": "https://www.ebner.cc/glueh-und-beschichtungslinie-acl-stahl-de",
+   "ek": "2020-07-15"
   },
   {
    "sebep": "pencere_disi",
@@ -1336,204 +1402,6 @@
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "Quality assurance systems",
-   "url": "https://www.emg.elexis.group/solutions/quality-assurance-systems",
-   "ek": "haber degil (menu/e-posta/kisa)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Roughness and waviness - EMG SORM®",
-   "url": "https://www.emg.elexis.group/solutions/quality-assurance-systems/emg-sorm",
-   "ek": "haber degil (menu/e-posta/kisa)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Strip stabilisation - EMG eMASS®",
-   "url": "https://www.emg.elexis.group/solutions/quality-assurance-systems/emg-emass",
-   "ek": "haber degil (menu/e-posta/kisa)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Oil and dry film thickness - EMG SOLID®",
-   "url": "https://www.emg.elexis.group/solutions/quality-assurance-systems/emg-solid",
-   "ek": "haber degil (menu/e-posta/kisa)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "(Slit) strip width measurement & hole detection - EMG iCAM®",
-   "url": "https://www.emg.elexis.group/solutions/quality-assurance-systems/emg-icam",
-   "ek": "haber degil (menu/e-posta/kisa)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Process optimisation with AI - EMG iCASS®",
-   "url": "https://www.emg.elexis.group/solutions/process-optimisation-with-ai",
-   "ek": "haber degil (menu/e-posta/kisa)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "EMG ELDRO® New generation",
-   "url": "https://www.emg.elexis.group/solutions/safety-components/emg-eldro-new-generation",
-   "ek": "haber degil (menu/e-posta/kisa)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "EMG ELDRO® Direct current",
-   "url": "https://www.emg.elexis.group/solutions/safety-components/emg-eldro-direct-current",
-   "ek": "haber degil (menu/e-posta/kisa)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "EMG BRAKEMATIC® Brake controls",
-   "url": "https://www.emg.elexis.group/solutions/safety-components/emg-brakematic",
-   "ek": "haber degil (menu/e-posta/kisa)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Wastewater treatment plants",
-   "url": "https://www.emg.elexis.group/industries/wastewater-treatment-plants",
-   "ek": "haber degil (menu/e-posta/kisa)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Exchange EMG ELDRO® / ELHY® thrusters and other brands",
-   "url": "https://www.emg.elexis.group/service/exchange-thrusters",
-   "ek": "haber degil (menu/e-posta/kisa)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Manufacturing Capabilities",
-   "url": "https://www.emg.elexis.group/company/manufacturing-capabilities",
-   "ek": "haber degil (menu/e-posta/kisa)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Inside EMG iCAM®: The Technology Behind High-Precision Strip Width Measurement",
-   "url": "https://www.emg.elexis.group/news/inside-emg-icamr-the-technology-behind-high-precision-strip-width-measurement",
-   "ek": "haber degil (menu/e-posta/kisa)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Galvanizers Association - Annual Conference",
-   "url": "https://www.emg.elexis.group/events/galvanizers-association-annual-conference",
-   "ek": "sert red (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "info(at)emg-automation.com",
-   "url": "https://www.emg.elexis.group/news-overview",
-   "ek": "haber degil (menu/e-posta/kisa)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Sales collaboration platform",
-   "url": "https://elexisgroup.sharepoint.com/sites/emg_salesdocuments/Shared%20Documents/Forms/AllItems.aspx",
-   "ek": "haber degil (menu/e-posta/kisa)"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "EMG Solutions in Process Lines",
-   "url": "https://www.emg.elexis.group/solutions/emg-solutions-in-process-lines",
-   "ek": "2025-11-11"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Tensile and yield strength - EMG IMPOC",
-   "url": "https://www.emg.elexis.group/solutions/quality-assurance-systems/emg-impoc",
-   "ek": "2026-05-13"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Baffle blades control - EMG eBACS",
-   "url": "https://www.emg.elexis.group/solutions/quality-assurance-systems/emg-ebacs",
-   "ek": "2026-06-01"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Strip width measurement - EMG BREIMO",
-   "url": "https://www.emg.elexis.group/solutions/quality-assurance-systems/emg-breimo",
-   "ek": "2026-05-13"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Thrusters and actuators EMG ELDRO® / ELHY®",
-   "url": "https://www.emg.elexis.group/solutions/safety-components",
-   "ek": "2026-07-07"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "EMG ESSE Quick response actuator",
-   "url": "https://www.emg.elexis.group/solutions/safety-components/emg-esse",
-   "ek": "2026-08-06"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "EMG Spring-return fail-safe actuators",
-   "url": "https://www.emg.elexis.group/solutions/safety-components/emg-electrohydraulic-actuators",
-   "ek": "2026-07-07"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Steel and aluminium service centres",
-   "url": "https://www.emg.elexis.group/industries/steel-and-aluminium-service-centres",
-   "ek": "2026-01-09"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Ports (Container / Bulk material)",
-   "url": "https://www.emg.elexis.group/industries/ports",
-   "ek": "olay yok (katalog/pazarlama)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Raw material extraction / handling",
-   "url": "https://www.emg.elexis.group/industries/raw-material-extraction",
-   "ek": "olay yok (katalog/pazarlama)"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "In our news overview, you will find reports and updates from recent years at a glance.",
-   "url": "https://www.emg.elexis.group/news",
-   "ek": "2026-05-05"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Events Upcoming events, highlights and important dates",
-   "url": "https://www.emg.elexis.group/events",
-   "ek": "olay yok (katalog/pazarlama)"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Keeping Quality on Track: Why Strip Guiding is a Foundation of Flat Metal Production",
-   "url": "https://www.emg.elexis.group/news/keeping-quality-on-track-why-strip-guiding-is-a-foundation-of-flat-metal-production",
-   "ek": "2026-05-05"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "How EMG iCAM® Improves Yield, Quality and Productivity",
-   "url": "https://www.emg.elexis.group/news/how-emg-icamr-improves-yield-quality-and-productivity",
-   "ek": "2026-05-05"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Modern Strip Production Requires More Than Conventional Width Measurement",
-   "url": "https://www.emg.elexis.group/news/modern-strip-production-requires-more-than-conventional-width-measurement",
-   "ek": "2026-05-05"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Deep Dive: Inline determination of mechanical properties with EMG IMPOC – what does the research say?",
-   "url": "https://www.emg.elexis.group/news/deep-dive-inline-determination-of-mechanical-properties-with-emg-impoc-what-does-the-research-say",
-   "ek": "2026-05-05"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "General terms and conditions",
-   "url": "https://www.emg.elexis.group/general-terms-and-conditions",
-   "ek": "2025-11-28"
-  },
-  {
-   "sebep": "kapsam_disi",
    "baslik": "Coreless induction furnace",
    "url": "https://www.otto-junker.com/en/mft/",
    "ek": "haber degil (menu/e-posta/kisa)"
@@ -1872,7 +1740,7 @@
    "sebep": "kapsam_disi",
    "baslik": "Hardenable manganese-boron steel",
    "url": "https://www.thyssenkrupp-steel.com/en/products/hot-strip/c-steel/hardenable-manganese-boron-steel/haertbarer-mangan-bor-stahl.html",
-   "ek": "haber degil (menu/e-posta/kisa)"
+   "ek": "kapsam kapisi (baslik)"
   },
   {
    "sebep": "kapsam_disi",
@@ -1890,13 +1758,13 @@
    "sebep": "kapsam_disi",
    "baslik": "Ferrite-bainite-phase steel",
    "url": "https://www.thyssenkrupp-steel.com/en/products/hot-strip/multiphase-steel/ferrite-bainite-phase-steel/ferrite-bainite-phase-steel.html",
-   "ek": "haber degil (menu/e-posta/kisa)"
+   "ek": "kapsam kapisi (baslik)"
   },
   {
    "sebep": "kapsam_disi",
    "baslik": "Manganese-boron steel for hot forming",
    "url": "https://www.thyssenkrupp-steel.com/en/products/hot-strip/manganese-boron-steel-for-hot-form-curing/Manganese-boron-steel-for-hot-form-curing.html",
-   "ek": "kapsam kapisi (baslik)"
+   "ek": "haber degil (menu/e-posta/kisa)"
   },
   {
    "sebep": "kapsam_disi",
@@ -1930,21 +1798,15 @@
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "Cut-to-length sheet products",
-   "url": "https://www.thyssenkrupp-steel.com/en/products/cut-to-length-sheet-products/cut-to-length-sheets-overview.html",
-   "ek": "haber degil (menu/e-posta/kisa)"
-  },
-  {
-   "sebep": "kapsam_disi",
    "baslik": "Ferrite-bainite-phase steel",
    "url": "https://www.thyssenkrupp-steel.com/en/products/sheet-coated-products/multiphase-steel/ferrite-bainite-phase-steel/",
-   "ek": "haber degil (menu/e-posta/kisa)"
+   "ek": "kapsam kapisi (baslik)"
   },
   {
    "sebep": "kapsam_disi",
    "baslik": "Manganese-boron steel for hot forming",
    "url": "https://www.thyssenkrupp-steel.com/en/products/sheet-coated-products/manganese-boron-steel-for-hot-forming/",
-   "ek": "kapsam kapisi (baslik)"
+   "ek": "haber degil (menu/e-posta/kisa)"
   },
   {
    "sebep": "kapsam_disi",
@@ -2196,7 +2058,7 @@
    "sebep": "kapsam_disi",
    "baslik": "Daily press | 2026-06-17 ArcelorMittal, thyssenkrupp Steel and voestalpine call for pragmatic ETS reform, to secure the competitiveness of European steelmaking and help to accelera",
    "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/arcelormittal-thyssenkrupp-steel-and-voestalpine-call-for-pragmatic-ets-reform-to-secure-the-competitiveness-of-european-steelmaking-and-help-to-accelerate-decarbonisation.html",
-   "ek": "kapsam kapisi (baslik)"
+   "ek": "sert red (baslik)"
   },
   {
    "sebep": "kapsam_disi",
@@ -2358,6 +2220,96 @@
    "sebep": "kapsam_disi",
    "baslik": "Daily press , Trade press",
    "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/sustainability-in-focus-thyssenkrupp-steel-achieves-responsiblesteel-site-certification.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Trade press | 2025-06-30 thyssenkrupp Hohenlimburg upgrades furnace system: Energy-efficient, H₂-ready, and future-proof",
+   "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/thyssenkrupp-hohenlimburg-upgrades-furnace-system-energy-efficient-h%E2%82%82-ready-and-future-proof.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Daily press , Trade press",
+   "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/major-investment-in-duisburg-thyssenkrupp-steel-launches-ramp-up-of-new-continuous-casting-line-4.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Trade press | 2025-06-05 thyssenkrupp Steel at Coiltech USA 2025: High-performance electric benches for sustainable e-mobility and energy-efficient transformers",
+   "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/thyssenkrupp-steel-at-coiltech-usa-2025-high-performance-electric-benches-for-sustainable-e-mobility-and-energy-efficient-transformers.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Trade press | 2025-06-02 thyssenkrupp Steel at CWIEME 2025: Innovations for a sustainable energy and mobility future",
+   "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/thyssenkrupp-steel-at-cwieme-2025-innovations-for-a-sustainable-energy-and-mobility-future.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Daily press | 2025-05-07 Agreement in principle concluded between IG Metall and thyssenkrupp Steel on the implementation of the industrial concept. Subsequent negotiations on the…",
+   "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/agreement-in-principle-concluded-between-ig-metall-and-thyssenkrupp-steel-on-the-implementation-of-the-industrial-concept-subsequent-negotiations-on-the-collective-bargaining-agreement-should-be-concluded-by-the-summer.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Daily press | 2025-05-06 Environmentally friendly, efficient, powerful: thyssenkrupp Steel completes modernization of water management at Europe's largest hot strip mill and Beecke",
+   "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/environmentally-friendly-efficient-powerful-thyssenkrupp-steel-completes-modernization-of-water-management-at-europes-largest-hot-strip-mill-and-beeckerwerth-site.html",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Trade press | 2025-05-02 thyssenkrupp Steel at Intersolar Europe 2025: Presentation of ZM Ecoprotect#sup;®!sup; Solar for durable PV mounting systems",
+   "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/thyssenkrupp-steel-at-intersolar-europe-2025-presentation-of-zm-ecoprotect-solar-for-durable-pv-mounting-systems.html",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Daily press | 2025-04-04 thyssenkrupp Steel decides to terminate the supply contract with Hüttenwerke Krupp Mannesmann (HKM)",
+   "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/thyssenkrupp-steel-decides-to-terminate-the-supply-contract-with-huettenwerke-krupp-mannesmann-hkm.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Daily press , Trade press",
+   "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/new-management-of-the-tagal-joint-venture-thyssenkrupp-and-ansteel-strengthen-management-team.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Daily press | 2025-03-25 thyssenkrupp Steel restructures top management: forgoing of fifth Executive Board position, clear downscaling of top management tier",
+   "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/thyssenkrupp-steel-restructures-top-management-forgoing-of-fifth-executive-board-position-clear-downscaling-of-top-management-tier.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Trade press | 2025-03-25 thyssenkrupp Steel and RWTH Aachen present CO#sub;2!sub;-reduced powercore#sup;®!sup; traction NGO 025-125Y420 in the rotor technology demonstrator at Coil",
+   "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/thyssenkrupp-steel-and-rwth-aachen-present-co2-reduced-powercore-traction-ngo-025-125y420-in-the-rotor-technology-demonstrator-at-coiltech-2025.html",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Daily press | 2025-03-20 Executive Vice-President of the European Commission Stéphane Séjourné presents European Steel Action Plan at thyssenkrupp Steel in Duisburg",
+   "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/executive-vice-president-of-the-european-commission-stephane-sejourne-presents-european-steel-action-plan-at-thyssenkrupp-steel-in-duisburg.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Daily press | 2025-02-04 Statement on Chancellor Olaf Scholz's visit to thyssenkrupp Steel",
+   "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/statement-on-chancellor-olaf-scholzs-visit-to-thyssenkrupp-steel.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Daily press | 2025-01-30 Sale of thyssenkrupp's Indian electrical steel business completed",
+   "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/sale-of-thyssenkrupps-indian-electrical-steel-business-completed.html",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Daily press , Trade press",
+   "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/thyssenkrupp-takes-a-new-high-tech-annealing-and-isolating-line-into-operation-in-bochum.html",
    "ek": "kapsam kapisi (baslik)"
   },
   {
@@ -2565,6 +2517,12 @@
    "ek": "2026-06-15"
   },
   {
+   "sebep": "tekrar",
+   "baslik": "三宝集团SACL3#新能源高牌号无取向硅钢退火炉顺利投产",
+   "url": "https://factory.mysteel.com/a/26082617/6E2F124F6AC1DDCB.html",
+   "ek": ""
+  },
+  {
    "sebep": "tarihsiz_elendi",
    "baslik": "【钢之家调查】本周冷轧板卷市场消费量减少4.65万吨至151.99万吨(8月14日-8月20日)",
    "url": "https://www.steelhome.com/24747729 ",
@@ -2713,6 +2671,12 @@
    "baslik": "Azelis and Chemetall expand strategic distribution agreement for surface treatment market in Canada",
    "url": "https://www.surventiscoatings.com/media/news/azelis-and-chemetall-expand-strategic-distribution-agreement-surface-treatment-market",
    "ek": "2026-03-09"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "Roofings Unveils $125m Steel Mill, Doubles Cold-Rolled Capacity to 300,000 Tonnes",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRWp3TW5taXBCVU10X0pUNE1UTEwtS0VQc2t2aXhPczd4alM3cERaWFN5Tmx0dnhycURTTG5wUWRKOHphSXhpQmNqWWNJTGtLakNVUnNsYkQ3alB6THRxVDVEaFp1M1l1VEpRUHVPQ2xHZ216TkVVNXVid24weWRrUmM4cS01Smp1aE5taFdjRjVxWVlqcWxidl81T1ljeF9WdUE?oc=5",
+   "ek": ""
   },
   {
    "sebep": "tekrar",

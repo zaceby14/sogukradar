@@ -11,6 +11,8 @@
   "baowu group|hat|Belirsiz|Ilk urun": "2026-08-12",
   "baowu group|ulke|Cezayir|Ilk urun": "2026-08-12",
   "cleveland-cliffs|hat|Belirsiz|Modernizasyon": "2026-08-24",
+  "drainage tubing end sections|hat|Bobin tasima / paketleme|Belirsiz": "2026-08-07",
+  "evs|hat|Elektrik celigi hatti|Teknoloji": "2026-06-15",
   "hybar|hat|Soguk hadde|Belirsiz": "2026-08-18",
   "indian|fu|Hindistan|Belirsiz": "2026-08-20",
   "indian|hat|Belirsiz|Ilk urun": "2026-08-20",
@@ -19,18 +21,32 @@
   "jindal stainless limited|hat|Soguk hadde|Belirsiz": "2026-08-17",
   "jindal stainless limited|ulke|Hindistan|Belirsiz": "2026-08-17",
   "manaksia steels|hat|Belirsiz|Belirsiz": "2026-08-21",
+  "mino|fu|ABD|Tandem soguk hadde (TCM)": "2026-05-12",
+  "mino|fu|Italya|Soguk hadde": "2026-06-21",
+  "mino|hat|Soguk hadde|Ilk urun": "2026-06-21",
+  "mino|hat|Tandem soguk hadde (TCM)|Modernizasyon": "2026-05-12",
+  "mino|ulke|ABD|Modernizasyon": "2026-05-12",
+  "mino|ulke|Italya|Ilk urun": "2026-06-21",
   "nippon steel|hat|Serit isleme hatti|Ilk urun": "2026-08-13",
   "pakistan|fu|Pakistan|Soguk hadde": "2026-08-26",
   "pakistan|hat|Soguk hadde|Teknoloji": "2026-08-26",
   "pakistan|ulke|Pakistan|Teknoloji": "2026-08-26",
+  "pre|hat|Bobin tasima / paketleme|Belirsiz": "2026-05-19",
   "primetals|hat|Tandem soguk hadde (TCM)|Modernizasyon": "2026-08-11",
   "roofings unveils|hat|Belirsiz|Teknoloji": "2026-08-25",
   "sepc limited|fu|Hindistan|Belirsiz": "2026-08-19",
   "sepc limited|hat|Belirsiz|Sozlesme": "2026-08-19",
   "sepc limited|ulke|Hindistan|Sozlesme": "2026-08-19",
+  "spain egga galvanizing europe|fu|Ispanya|Galvaniz hatti (CGL)": "2026-07-14",
+  "spain egga galvanizing europe|hat|Galvaniz hatti (CGL)|Belirsiz": "2026-07-14",
+  "spain egga galvanizing europe|ulke|Ispanya|Belirsiz": "2026-07-14",
+  "tosyali algerie|fu|Cezayir|Soguk hadde": "2026-07-29",
+  "tosyali algerie|hat|Soguk hadde|Ilk urun": "2026-07-29",
+  "tosyali algerie|ulke|Cezayir|Ilk urun": "2026-07-29",
   "|fu|Hindistan|Belirsiz": "2026-08-21",
   "|hat|Belirsiz|Belirsiz": "2026-08-21",
   "|hat|Belirsiz|Ilk urun": "2026-08-26",
+  "|hat|Dilme / boy kesme / SSC|Ilk urun": "2026-08-05",
   "|ulke|Hindistan|Belirsiz": "2026-08-21"
  },
  "periods": [
@@ -351,22 +367,101 @@
     "tekrar": 5
    },
    "uretim": "2026-08-27 05:05 UTC"
+  },
+  {
+   "donem": "2026-W35",
+   "satir": 8,
+   "stats": {
+    "erisilemeyen": 11,
+    "ham": 2417,
+    "kabul": 0,
+    "kapsam_disi": 2169,
+    "kaynak": 133,
+    "makale_acildi": 181,
+    "on_eleme_gecti": 197,
+    "pencere_disi": 160,
+    "tarihsiz_elendi": 80,
+    "tekrar": 8
+   },
+   "uretim": "2026-08-27 05:26 UTC"
+  }
+ ],
+ "rezerv": [
+  {
+   "anahtar": "dbf500463fb21d96",
+   "asama": "Belirsiz",
+   "baslik": "U. S. Steel Announces Plans to Restart Gary Tin Mill",
+   "eksik": [
+    "asama"
+   ],
+   "firma": "U. S. Steel Announces",
+   "hat": "Teneke hatti (ETL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "U.S. Steel",
+   "kaynak_id": "ussteel",
+   "olaylar": [
+    "u. s. steel announces|fu|Hindistan|Teneke hatti (ETL)",
+    "u. s. steel announces|hat|Teneke hatti (ETL)|Belirsiz",
+    "u. s. steel announces|ulke|Hindistan|Belirsiz"
+   ],
+   "rezerv": true,
+   "tarih": "2026-04-16",
+   "tarih_kaynagi": "liste",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Hindistan",
+   "url": "https://www.ussteel.com:443/media/newsroom/-/blogs/u-s-steel-announces-plans-to-restart-gary-tin-mill?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fwww.ussteel.com%3A443%2Fmedia%2Fnewsroom%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26_com_liferay_blogs_web_portlet_BlogsPortlet_cur%3D1%26_com_liferay_blogs_web_portlet_BlogsPortlet_delta%3D20"
+  },
+  {
+   "anahtar": "971c858c2cf021dc",
+   "asama": "Ilk urun",
+   "baslik": "New MINO Double-Stand Six-High Cold Reversing Mill in North America",
+   "eksik": [
+    "hat"
+   ],
+   "firma": "New MINO Double-Stand",
+   "hat": "Belirsiz",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Mino SpA",
+   "kaynak_id": "mino",
+   "olaylar": [
+    "mino|fu|ABD|Belirsiz",
+    "mino|hat|Belirsiz|Ilk urun",
+    "mino|ulke|ABD|Ilk urun"
+   ],
+   "rezerv": true,
+   "tarih": "2026-03-13",
+   "tarih_kaynagi": "json-ld",
+   "tedarikci": "Mino",
+   "tutar": "",
+   "ulke": "ABD",
+   "url": "https://mino.it/new-mino-double-stand-six-high-cold-reversing-mill-in-north-america/"
   }
  ],
  "seen": {
   "05ee3ccfafa36b08": "2026-08-11",
   "154391920fcd5dd0": "2026-08-24",
+  "1733ff02c2b335cf": "2026-08-05",
+  "1c1c44f6d6bbf16c": "2026-08-07",
   "1d40f81689c438c8": "2026-08-25",
   "3462917d79ceceef": "2026-08-21",
   "357e0ddb1bfc0c2a": "2026-08-19",
   "4d1d032a9f8bfc20": "2026-08-26",
   "4efb2dcbc4c0aae6": "2026-08-18",
   "59916e4f4d918c24": "2026-08-13",
+  "62bdd9e6fa033c66": "2026-07-14",
   "69eacbbd196caa00": "2026-08-24",
+  "72b156f978a4a06b": "2026-05-19",
+  "92e4a5a31f19b487": "2026-07-29",
   "a13cf1ef115fa16d": "2026-08-12",
   "ae75546329a9c77a": "2026-08-26",
+  "aeace6fc455734f0": "2026-06-21",
+  "b0f453cbf04d695f": "2026-05-12",
   "b68fa0b4d26572ac": "2026-08-21",
   "c0b5f864813ba8fd": "2026-08-17",
+  "c1e20af1f2d7d31b": "2026-06-15",
   "d045d03303219029": "2026-08-24",
   "f29ebf2ed4ff9833": "2026-08-20",
   "fb51c908b538f5ec": "2026-08-25"
@@ -451,9 +546,15 @@
    "a": "Teknoloji",
    "b": "Roofings Unveils $125m Steel Mill, Doubles Cold-Rolled Capacity to 300,000 Tonnes",
    "t": "2026-08-25"
+  },
+  {
+   "a": "Belirsiz",
+   "b": "Marion Die & Fixture Bender: Precision Forming for Drainage Tubing End Sections",
+   "t": "2026-08-07"
   }
  ],
  "source_health": {},
+ "tech_rezerv": [],
  "tech_seen": {
   "tech:14822add12dd1ab1": "2026-04-15",
   "tech:ae75546329a9c77a": "2026-08-26",

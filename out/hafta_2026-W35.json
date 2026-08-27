@@ -1,143 +1,214 @@
 {
  "rows": [
   {
-   "tarih": "2026-08-25",
-   "firma": "JSW Steel, India",
-   "ulke": "Hindistan",
-   "hat": "Galvaniz hatti (CGL)",
-   "asama": "Sozlesme",
-   "tedarikci": "Andritz",
+   "tarih": "2026-08-07",
+   "firma": "Drainage Tubing End Sections",
+   "ulke": "",
+   "hat": "Bobin tasima / paketleme",
+   "asama": "Belirsiz",
+   "tedarikci": "",
    "kapasite": "",
    "tutar": "",
-   "baslik": "JSW Steel, India, orders ANDRITZ galvanizing line for advanced automotive steels",
-   "kaynak": "Andritz Metals",
-   "kaynak_id": "andritz",
-   "url": "https://www.andritz.com/newsroom-en/metals/2026-08-25-jsw-steel-group",
-   "tarih_kaynagi": "url",
+   "baslik": "Marion Die & Fixture Bender: Precision Forming for Drainage Tubing End Sections",
+   "kaynak": "Bradbury Group",
+   "kaynak_id": "bradbury",
+   "url": "https://blog.bradburygroup.com/blog/marion-die-fixture-bender-precision-forming-for-drainage-tubing-end-sections",
+   "tarih_kaynagi": "metin",
    "eksik": [
-    "tarih?"
+    "ulke",
+    "asama"
    ],
-   "anahtar": "1d40f81689c438c8",
+   "anahtar": "1c1c44f6d6bbf16c",
    "kategori": "Hat",
    "olaylar": [
-    "andritz|fu|Hindistan|Galvaniz hatti (CGL)",
-    "andritz|hat|Galvaniz hatti (CGL)|Sozlesme",
-    "andritz|ulke|Hindistan|Sozlesme"
+    "drainage tubing end sections|hat|Bobin tasima / paketleme|Belirsiz"
    ],
-   "puan": 64.2
+   "rezerv": true
   },
   {
-   "tarih": "2026-08-26",
+   "tarih": "2026-08-05",
    "firma": "",
    "ulke": "",
-   "hat": "Belirsiz",
+   "hat": "Dilme / boy kesme / SSC",
    "asama": "Ilk urun",
    "tedarikci": "",
    "kapasite": "",
    "tutar": "",
-   "baslik": "三宝集团SACL3#新能源高牌号无取向硅钢退火炉顺利投产",
-   "kaynak": "Mysteel (tesis/proje)",
-   "kaynak_id": "mysteel_fac",
-   "url": "https://factory.mysteel.com/a/26082617/6E2F124F6AC1DDCB.html",
+   "baslik": "tk accelis announces milestone at Stuttgart steel service center",
+   "kaynak": "SteelOrbis",
+   "kaynak_id": "steelorbis",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/tk-accelis-announces-milestone-at-stuttgart-steel-service-center-1469079.htm",
    "tarih_kaynagi": "json-ld",
    "eksik": [
     "firma",
-    "ulke",
-    "hat"
+    "ulke"
    ],
-   "anahtar": "4d1d032a9f8bfc20",
+   "anahtar": "1733ff02c2b335cf",
    "kategori": "Hat",
    "olaylar": [
-    "|hat|Belirsiz|Ilk urun"
+    "|hat|Dilme / boy kesme / SSC|Ilk urun"
    ],
-   "puan": 43.6
+   "rezerv": true
   },
   {
-   "tarih": "2026-08-26",
-   "firma": "Pakistan",
-   "ulke": "Pakistan",
+   "tarih": "2026-07-29",
+   "firma": "TOSYALI ALGÉRİE",
+   "ulke": "Cezayir",
    "hat": "Soguk hadde",
+   "asama": "Ilk urun",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "TOSYALI ALGÉRİE, SOĞUK HADDELEME KOMPLEKSİNDE İLK ÜRETİMİ YAPTI",
+   "kaynak": "SteelTurk",
+   "kaynak_id": "steelturk",
+   "url": "https://www.steelturk.com.tr/tosyali-algérie-soguk-haddeleme-kompleksinde-ilk-uretimi-yapti/",
+   "tarih_kaynagi": "liste",
+   "eksik": [],
+   "anahtar": "92e4a5a31f19b487",
+   "kategori": "Hat",
+   "olaylar": [
+    "tosyali algerie|fu|Cezayir|Soguk hadde",
+    "tosyali algerie|hat|Soguk hadde|Ilk urun",
+    "tosyali algerie|ulke|Cezayir|Ilk urun"
+   ],
+   "rezerv": true
+  },
+  {
+   "tarih": "2026-07-14",
+   "firma": "Spain EGGA-Galvanizing Europe",
+   "ulke": "Ispanya",
+   "hat": "Galvaniz hatti (CGL)",
+   "asama": "Belirsiz",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "EGGA-Galvanizing Europe Presidency: Benelux to Spain EGGA-Galvanizing Europe is pleased to announce Carlos García (Spain) as its new President and Chairman of the Board of Directors. EGGA’s…",
+   "kaynak": "Galvanizing Europe",
+   "kaynak_id": "egga",
+   "url": "https://www.galvanizingeurope.org/egga-galvanizing-europe-presidency-benelux-to-spain/",
+   "tarih_kaynagi": "json-ld",
+   "eksik": [
+    "asama"
+   ],
+   "anahtar": "62bdd9e6fa033c66",
+   "kategori": "Hat",
+   "olaylar": [
+    "spain egga galvanizing europe|fu|Ispanya|Galvaniz hatti (CGL)",
+    "spain egga galvanizing europe|hat|Galvaniz hatti (CGL)|Belirsiz",
+    "spain egga galvanizing europe|ulke|Ispanya|Belirsiz"
+   ],
+   "rezerv": true
+  },
+  {
+   "tarih": "2026-06-21",
+   "firma": "JW Aluminium",
+   "ulke": "Italya",
+   "hat": "Soguk hadde",
+   "asama": "Ilk urun",
+   "tedarikci": "Mino",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "First Coil Successfully Rolled on MINO-Revamped Cold Rolling Mill at JW Aluminium, Goose Creek",
+   "kaynak": "Mino SpA",
+   "kaynak_id": "mino",
+   "url": "https://mino.it/first-coil-mino-revamped-cold-rolling-mill-jw-aluminium/",
+   "tarih_kaynagi": "json-ld",
+   "eksik": [],
+   "anahtar": "aeace6fc455734f0",
+   "kategori": "Hat",
+   "olaylar": [
+    "mino|fu|Italya|Soguk hadde",
+    "mino|hat|Soguk hadde|Ilk urun",
+    "mino|ulke|Italya|Ilk urun"
+   ],
+   "rezerv": true
+  },
+  {
+   "tarih": "2026-06-15",
+   "firma": "EVs",
+   "ulke": "",
+   "hat": "Elektrik celigi hatti",
    "asama": "Teknoloji",
    "tedarikci": "",
    "kapasite": "",
    "tutar": "",
-   "baslik": "Pakistan launches AD sunset review on cold rolled steel imports",
-   "kaynak": "SteelOrbis",
-   "kaynak_id": "steelorbis",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/pakistan-launches-ad-sunset-review-on-cold-rolled-steel-imports-1473012.htm",
+   "baslik": "POSCO Partners with Hyundai Motor and 8 Organizations to Develop Next-Generation High-Efficiency Electrical Steel for EVs",
+   "kaynak": "worldsteel",
+   "kaynak_id": "worldsteel",
+   "url": "https://worldsteel.org/media/industry-member-news/2026-member-news/posco-partners-with-hyundai-motor-and-8-organizations-to-develop-next-generation-high-efficiency-electrical-steel-for-evs/",
+   "tarih_kaynagi": "json-ld",
+   "eksik": [
+    "ulke"
+   ],
+   "anahtar": "c1e20af1f2d7d31b",
+   "kategori": "Hat",
+   "olaylar": [
+    "evs|hat|Elektrik celigi hatti|Teknoloji"
+   ],
+   "rezerv": true
+  },
+  {
+   "tarih": "2026-05-19",
+   "firma": "PRE",
+   "ulke": "",
+   "hat": "Bobin tasima / paketleme",
+   "asama": "Belirsiz",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "PRE Open House: Celebrating Growth, Community, and the Future",
+   "kaynak": "Bradbury Group",
+   "kaynak_id": "bradbury",
+   "url": "https://blog.bradburygroup.com/blog/pre-open-house-celebrating-growth-community-and-the-future",
+   "tarih_kaynagi": "metin",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "anahtar": "72b156f978a4a06b",
+   "kategori": "Hat",
+   "olaylar": [
+    "pre|hat|Bobin tasima / paketleme|Belirsiz"
+   ],
+   "rezerv": true
+  },
+  {
+   "tarih": "2026-05-12",
+   "firma": "Golden Aluminum",
+   "ulke": "ABD",
+   "hat": "Tandem soguk hadde (TCM)",
+   "asama": "Modernizasyon",
+   "tedarikci": "Mino",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "MINO awarded Phase One modernization contract for Golden Aluminum, Fort Lupton CO Tandem Cold Rolling Mill",
+   "kaynak": "Mino SpA",
+   "kaynak_id": "mino",
+   "url": "https://mino.it/new-contract-for-golden-tandem-mill/",
    "tarih_kaynagi": "json-ld",
    "eksik": [],
-   "anahtar": "ae75546329a9c77a",
+   "anahtar": "b0f453cbf04d695f",
    "kategori": "Hat",
    "olaylar": [
-    "pakistan|fu|Pakistan|Soguk hadde",
-    "pakistan|hat|Soguk hadde|Teknoloji",
-    "pakistan|ulke|Pakistan|Teknoloji"
+    "mino|fu|ABD|Tandem soguk hadde (TCM)",
+    "mino|hat|Tandem soguk hadde (TCM)|Modernizasyon",
+    "mino|ulke|ABD|Modernizasyon"
    ],
-   "puan": 40.6
-  },
-  {
-   "tarih": "2026-08-24",
-   "firma": "Cleveland-Cliffs",
-   "ulke": "",
-   "hat": "Belirsiz",
-   "asama": "Modernizasyon",
-   "tedarikci": "",
-   "kapasite": "",
-   "tutar": "$1",
-   "baslik": "Cleveland-Cliffs Invests $1B in Steelmaking Modernization",
-   "kaynak": "Heat Treat Today",
-   "kaynak_id": "heattreat",
-   "url": "https://www.heattreattoday.com/cleveland-cliffs-invests-1b-in-steelmaking-modernization/",
-   "tarih_kaynagi": "json-ld",
-   "eksik": [
-    "ulke",
-    "hat"
-   ],
-   "anahtar": "154391920fcd5dd0",
-   "kategori": "Hat",
-   "olaylar": [
-    "cleveland-cliffs|hat|Belirsiz|Modernizasyon"
-   ],
-   "puan": 36.8
-  },
-  {
-   "tarih": "2026-08-25",
-   "firma": "Roofings Unveils",
-   "ulke": "",
-   "hat": "Belirsiz",
-   "asama": "Teknoloji",
-   "tedarikci": "",
-   "kapasite": "",
-   "tutar": "$125m",
-   "baslik": "Roofings Unveils $125m Steel Mill, Doubles Cold-Rolled Capacity to 300,000 Tonnes",
-   "kaynak": "SoftPower News",
-   "kaynak_id": "gq_hat02",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRWp3TW5taXBCVU10X0pUNE1UTEwtS0VQc2t2aXhPczd4alM3cERaWFN5Tmx0dnhycURTTG5wUWRKOHphSXhpQmNqWWNJTGtLakNVUnNsYkQ3alB6THRxVDVEaFp1M1l1VEpRUHVPQ2xHZ216TkVVNXVid24weWRrUmM4cS01Smp1aE5taFdjRjVxWVlqcWxidl81T1ljeF9WdUE?oc=5",
-   "tarih_kaynagi": "rss",
-   "eksik": [
-    "ulke",
-    "hat"
-   ],
-   "anahtar": "fb51c908b538f5ec",
-   "kategori": "Hat",
-   "olaylar": [
-    "roofings unveils|hat|Belirsiz|Teknoloji"
-   ],
-   "puan": 33.2
+   "rezerv": true
   }
  ],
  "stats": {
   "kaynak": 133,
-  "erisilemeyen": 13,
-  "ham": 2396,
-  "on_eleme_gecti": 215,
-  "makale_acildi": 198,
+  "erisilemeyen": 11,
+  "ham": 2417,
+  "on_eleme_gecti": 197,
+  "makale_acildi": 181,
   "tarihsiz_elendi": 80,
-  "pencere_disi": 169,
-  "kapsam_disi": 2137,
-  "tekrar": 5,
-  "kabul": 5
+  "pencere_disi": 160,
+  "kapsam_disi": 2169,
+  "tekrar": 8,
+  "kabul": 0
  },
  "unreachable": [
   [
@@ -145,12 +216,12 @@
    "HTTP 403"
   ],
   [
-   "Clecim",
-   "URLError: <urlopen error timed out>"
-  ],
-  [
    "Cognex",
    "HTTP 429"
+  ],
+  [
+   "EMG Automation",
+   "HTTP 404"
   ],
   [
    "ArcelorMittal",
@@ -159,10 +230,6 @@
   [
    "Steel Times International",
    "HTTP 403"
-  ],
-  [
-   "EUROMETAL",
-   "URLError: <urlopen error [Errno 101] Network is unreachable>"
   ],
   [
    "GMK Center",
@@ -183,10 +250,6 @@
   [
    "Mysteel",
    "HTTP 404"
-  ],
-  [
-   "WV Stahl",
-   "URLError: <urlopen error timed out>"
   ],
   [
    "Sanayi Gazetesi",
@@ -329,44 +392,15 @@
   "gq_urun03": "arama"
  },
  "today": "2026-08-27",
- "tech_pool": [
-  {
-   "anahtar": "tech:ae75546329a9c77a",
-   "tarih": "2026-08-26",
-   "baslik": "Pakistan launches AD sunset review on cold rolled steel imports",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/pakistan-launches-ad-sunset-review-on-cold-rolled-steel-imports-1473012.htm",
-   "kaynak": "SteelOrbis",
-   "hat": "Soguk hadde"
-  },
-  {
-   "anahtar": "tech:fb51c908b538f5ec",
-   "tarih": "2026-08-25",
-   "baslik": "Roofings Unveils $125m Steel Mill, Doubles Cold-Rolled Capacity to 300,000 Tonnes",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRWp3TW5taXBCVU10X0pUNE1UTEwtS0VQc2t2aXhPczd4alM3cERaWFN5Tmx0dnhycURTTG5wUWRKOHphSXhpQmNqWWNJTGtLakNVUnNsYkQ3alB6THRxVDVEaFp1M1l1VEpRUHVPQ2xHZ216TkVVNXVid24weWRrUmM4cS01Smp1aE5taFdjRjVxWVlqcWxidl81T1ljeF9WdUE?oc=5",
-   "kaynak": "Google News",
-   "hat": "Belirsiz"
-  },
-  {
-   "anahtar": "tech:fb51c908b538f5ec",
-   "tarih": "2026-08-25",
-   "baslik": "Roofings Unveils $125m Steel Mill, Doubles Cold-Rolled Capacity to 300,000 Tonnes",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRWp3TW5taXBCVU10X0pUNE1UTEwtS0VQc2t2aXhPczd4alM3cERaWFN5Tmx0dnhycURTTG5wUWRKOHphSXhpQmNqWWNJTGtLakNVUnNsYkQ3alB6THRxVDVEaFp1M1l1VEpRUHVPQ2xHZ216TkVVNXVid24weWRrUmM4cS01Smp1aE5taFdjRjVxWVlqcWxidl81T1ljeF9WdUE?oc=5",
-   "kaynak": "Google News",
-   "hat": "Belirsiz"
-  }
- ],
- "kaynak_katki": {
-  "Andritz Metals": 1,
-  "SteelOrbis": 1,
-  "Heat Treat Today": 1,
-  "Mysteel (tesis/proje)": 1,
-  "Google News": 1
- },
+ "tech_pool": [],
+ "kaynak_katki": {},
  "window": [
   "2026-08-12",
   "2026-08-27"
  ],
+ "rezerv_kullanilan": 8,
+ "rezerv_havuz": 2,
  "period": "2026-W35",
- "generated": "2026-08-27 05:05 UTC",
+ "generated": "2026-08-27 05:26 UTC",
  "version": "3.0.0"
 }
