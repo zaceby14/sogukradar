@@ -946,6 +946,62 @@ def test_w35_katman2_kapsam_kapisi():
        "gercek 'firin' (ekli hali dahil) eslesmeli")
 
 
+def test_w35_ornek_kosu():
+    """v13 (2026-08-27): W35 ornek koşusunun (33040687548) bes satiri.
+
+    v12'den sonra kosu 11 -> 5 satira indi ama uçu hala yanlisti. Vakalar o
+    kosunun GERCEK basliklaridir.
+    """
+    # 1) TICARET DAVASI Hat katmanina girmisti: "cold rolled" tasiyor diye.
+    ad = "Pakistan launches AD sunset review on cold rolled steel imports"
+    eq(taxonomy.in_scope(ad, "")[0], False, "AD sunset review kapsam disi")
+    eq(taxonomy.genel_yatirim(ad), False, "ticaret davasi Katman 2'ye de girmez")
+    for t in ["India imposes anti-dumping duty on galvanized sheet",
+              "EU opens safeguard investigation on flat steel imports"]:
+        eq(taxonomy.in_scope(t, "")[0], False, "ticaret davasi: " + t[:45])
+
+    # 2) CELIKHANE yukari akistir; govde kapsam kuramaz.
+    cliffs = "Cleveland-Cliffs Invests $1B in Steelmaking Modernization"
+    eq(taxonomy.in_scope(cliffs, "The plan also covers the cold mill complex.")[0],
+       False, "steelmaking basligi Hat'a giremez")
+    # ...baslikta soguk taraf terimi varsa veto kalkar
+    eq(taxonomy.in_scope("Steelmaking and cold rolling complex for Acme", "")[0],
+       True, "baslikta soguk terim varsa veto kalkar")
+
+    # 3) TEKNOLOJI asamasi dar: pazarlama fiili tek basina yetmez. Bir tesis
+    #    acilisi ve bir ticaret davasi teknoloji kosesi havuzuna dusmustu.
+    roofings = "Roofings Unveils $125m Steel Mill, Doubles Cold-Rolled Capacity to 300,000 Tonnes"
+    eq(taxonomy.match_stage(roofings) != "Teknoloji", True,
+       "tesis acilisi teknoloji sayilmamali")
+    eq(taxonomy.match_stage(ad) != "Teknoloji", True,
+       "ticaret davasi teknoloji sayilmamali")
+    eq(taxonomy.match_stage("Primetals unveils new annealing technology"), "Teknoloji",
+       "gercek teknoloji duyurusu Teknoloji kalmali")
+
+    # 4) TIRE. Sozluklerdeki cok kelimeli kaliplar bosluklu yazilmisti;
+    #    Ingilizce baslik tireleyince hicbiri tutmuyordu.
+    eq(taxonomy.match_line(roofings), "Soguk hadde", "cold-rolled hat tipi")
+    eq(taxonomy.match_line("Tosyali orders hot-dip galvanizing line"),
+       "Galvaniz hatti (CGL)", "hot-dip hat tipi")
+    eq(taxonomy.match_line("New temper-mill for Acme"), "Temper / skin pass",
+       "temper-mill hat tipi")
+    eq(taxonomy.match_line("CPL-TCM hatti devreye alindi"),
+       "Tandem soguk hadde (TCM)", "yalin tireli kalip korunmali")
+
+    # 5) CINCE hat terimi. Kosunun gercek satiri:
+    cn = "\u4e09\u5b9d\u96c6\u56e2SACL3#\u65b0\u80fd\u6e90\u9ad8\u724c\u53f7" \
+         "\u65e0\u53d6\u5411\u7845\u94a2\u9000\u706b\u7089\u987a\u5229\u6295\u4ea7"
+    eq(taxonomy.in_scope(cn, "")[0], True, "Cince elektrik celigi kapsam ici")
+    eq(taxonomy.match_line(cn), "Elektrik celigi hatti", "Cince hat tipi cozulmeli")
+    eq(taxonomy.match_stage(cn), "Ilk urun", "Cince asama cozulmeli")
+
+    # 6) Koşunun DOGRU satiri bozulmamali
+    jsw = "JSW Steel, India, orders ANDRITZ galvanizing line for advanced automotive steel"
+    eq(taxonomy.in_scope(jsw, "")[0], True, "JSW satiri kapsam ici")
+    eq(taxonomy.match_line(jsw), "Galvaniz hatti (CGL)", "JSW hat tipi")
+    eq(taxonomy.match_stage(jsw), "Sozlesme", "JSW asamasi")
+
+
 def test_sitemap_okuyucu():
     """v6 (2026-08-17): haber sitemap'i kaynak turu.
 
@@ -1148,7 +1204,7 @@ def run():
                test_iki_katmanli_liste, test_kapsam_havuzu, test_tarih_acilari,
                test_olay_kapisi_v5, test_w34_sicak_hadde,
                test_niyet_kapisi_ilk_urun, test_capraz_kontrol,
-               test_w35_katman2_kapsam_kapisi,
+               test_w35_katman2_kapsam_kapisi, test_w35_ornek_kosu,
                test_w34_sifir_satir_teshisi,
                test_teknoloji_ve_ai_bolumleri,
                test_sitemap_okuyucu, test_olculen_25_haber,

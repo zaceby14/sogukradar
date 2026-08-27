@@ -26,18 +26,38 @@ _TRMAP = str.maketrans({
 })
 
 
+# Tire ve tire benzeri isaretler BOSLUGA cevrilir (2026-08-27).
+#
+# Ingilizce baslik surekli tireler: "cold-rolled", "hot-dip", "temper-mill".
+# Sozluklerdeki cok kelimeli kaliplarin neredeyse tamami bosluklu yazilmisti,
+# yani tireli hal HICBIRINE uymuyordu. Olcum: LINE_MAP'in 120 kalibindan
+# 120'si tireli halde tutmuyordu - "Roofings ... Doubles COLD-ROLLED Capacity"
+# haberi kapsam kapisini geciyor ama hat "Belirsiz" kaliyordu.
+#
+# Kaliplari tek tek duzeltmek yerine esleştirme katmani normallestirilir;
+# "[- ]" yazan mevcut kaliplar bosluga da uydugu icin bozulmaz. Yalin tire
+# tasiyan uc kalip ("cpl-tcm", "ar[- ]ge", "ex[- ]works") "[- ]" olarak guncellendi.
+# DIKKAT: tarih ayristirma fold() kullanmaz (radar/dates.py), "2026-08-27"
+# bicimleri etkilenmez.
+_TIRE = re.compile(r"[-\u2010\u2011\u2012\u2013\u2014\u2015\u2212]")
+
+
 def fold(s):
-    return (s or "").translate(_TRMAP).lower()
+    return _TIRE.sub(" ", (s or "").translate(_TRMAP).lower())
 
 
 # ----------------------------------------------------------------------
 # Hat tipi. SIRA ONEMLIDIR: ilk eslesen kazanir.
 # ----------------------------------------------------------------------
 LINE_MAP = [
+    # Cince hat terimleri (2026-08-27): "三宝集团...无取向硅钢退火炉顺利投产"
+    # kapsam kapisindan geciyor ama hat "Belirsiz" kaliyordu - LINE_MAP'te
+    # Cince yoktu.
     (r"electrical steel|silicon steel|\bcrgo\b|\bcrno\b|\bngo\b|\bgoes\b|"
-     r"grain[- ]oriented|elektrik celigi|silisli celik|trafo saci",
+     r"grain[- ]oriented|elektrik celigi|silisli celik|trafo saci|"
+     r"\u7845\u94a2|\u65e0\u53d6\u5411|\u53d6\u5411\u7845\u94a2",
      "Elektrik celigi hatti"),
-    (r"tandem cold mill|\bpltcm\b|\bcpl-tcm\b|\btcm\b|tandem cold rolling|"
+    (r"tandem cold mill|\bpltcm\b|\bcpl[- ]tcm\b|\btcm\b|tandem cold rolling|"
      r"continuous tandem|tandem soguk", "Tandem soguk hadde (TCM)"),
     (r"reversing cold mill|\brcm\b|sendzimir|20[- ]?hi|18[- ]?hi|"
      r"6[- ]?hi reversing|reversing hadde", "Reversing soguk hadde (RCM)"),
@@ -125,11 +145,21 @@ EVENT_WORDS = [
      r"places order|will supply|has been chosen|sozlesme|siparis|ihale|"
      r"anlasma imzala|imzaladi|"
      r"\u5408\u540c\u7b7e\u8ba2|\u7b7e\u7ea6|\u4e2d\u6807|\u8ba2\u5355|\u91c7\u8d2d", "Sozlesme"),
-    (r"unveils|launches|introduc|new technology|patent|licen[cs]e|"
-     r"develop(s|ing|ment)?\b|partners? with|joint(ly)? develop|"
-     r"next[- ]generation|\br&d\b|research (project|partnership|collaboration)|"
-     r"presents|showcases|debut|world first|innovation|yeni teknoloji|"
-     r"gelistir|tanitti|lisans|is birligi.{0,30}gelistir|ar-ge", "Teknoloji"),
+    # TEKNOLOJI - dar tutulur (2026-08-27). Onceki surumde yalin "unveils |
+    # launches | introduc | presents | debut" fiilleri vardi ve bir tesis
+    # acilisini ("Roofings UNVEILS $125m Steel Mill") ya da bir ticaret
+    # davasini ("Pakistan LAUNCHES AD sunset review") teknoloji sayiyordu;
+    # ikisi de teknoloji kosesi havuzuna dusmustu. Pazarlama fiili TEK
+    # BASINA yetmez, yaninda teknoloji nesnesi aranir.
+    (r"new technology|patent|licen[cs]e|joint(ly)? develop|next[- ]generation|"
+     r"\br&d\b|research (project|partnership|collaboration)|world first|"
+     # Pazarlama fiili + EN COK 30 karakter icinde teknoloji nesnesi.
+     # "unveils new ANNEALING technology" gecer; "Unveils $125m Steel Mill"
+     # gecmez. "\bgrade": "upgrade" icindeki "grade" eslesmesin.
+     r"(unveil|launch|introduc|present|showcase|debut)\w*\s+.{0,30}?"
+     r"(technolog|process|solution|system|method|\bgrade|innovation)|"
+     r"develop(s|ing|ment)?\b.{0,30}(technolog|process|grade|steel)|"
+     r"yeni teknoloji|gelistir|lisans|is birligi.{0,30}gelistir|ar[- ]ge", "Teknoloji"),
 ]
 
 # ----------------------------------------------------------------------
@@ -137,7 +167,7 @@ EVENT_WORDS = [
 # ----------------------------------------------------------------------
 SCOPE_STRONG = re.compile(
     # soguk hadde ailesi
-    r"(cold roll|cold mill|cold strip|cold[- ]rolled|\bpltcm\b|\bcpl-tcm\b|"
+    r"(cold roll|cold mill|cold strip|cold[- ]rolled|\bpltcm\b|\bcpl[- ]tcm\b|"
     r"tandem cold|reversing cold mill|cold reversing mill|sendzimir|20[- ]?hi|18[- ]?hi|"
     r"double cold reduc|\bdcr mill\b|"
     # asitleme + asit
@@ -287,7 +317,7 @@ _NOISE = (
     r"\bsays\b|\bwarns\b|\bcalls for\b|\burges\b|"
     r"\bplans to consider\b|"
     # fiyat kotasyonu satiri ("PPGI Galvanized Coil / Turkey / Ex-Works USD/t")
-    r"usd/t\b|eur/t\b|\$/t\b|ex-works|\bfob\b|\bcfr\b|\bcif\b|"
+    r"usd/t\b|eur/t\b|\$/t\b|ex[- ]works|\bfob\b|\bcfr\b|\bcif\b|"
     # fuar / kongre / tanitim (Turkce)
     r"konferans|kongre|\bfuar\b|zirve|bulusma|sempozyum|"
     # --- v5 Turkce gurultu (2026-08-17 olcumu)
@@ -332,6 +362,14 @@ _NOISE = (
     r"green energy deal|renewable (energy|power) (deal|agreement)|"
     r"esg report|sustainability report|"
     # Turkce
+    # TICARET DAVASI - Ingilizce sozluk eksikti (2026-08-27). "Pakistan
+    # launches AD sunset review on cold rolled steel imports" basligi
+    # "cold rolled" tasidigi icin HAT katmanina girdi; oysa ticaret davasi
+    # hicbir katmana giremez.
+    r"anti[- ]?dumping|\bad\b sunset|sunset review|countervailing|\bcvd\b|"
+    r"safeguard (measure|duty|investigation)|trade (remedy|case|investigation)|"
+    r"dumping (duty|margin|investigation)|import (duty|tariff|quota|curb)|"
+    r"export (duty|tariff|quota|curb|ban)|provisional dut|definitive dut|"
     r"fiyat|ihracat kisit|ithalat kisit|damping|gumruk vergisi|kota|bilanco|"
     r"ciro|net kar|hisse|borsa|halka arz|insaat demiri|filmasin|"
     r"atandi|odul ald|fuar|kongre|is ilan|bagis"
@@ -351,6 +389,10 @@ _UPSTREAM = (
     # sicak hadde basligi bu acikten Hat katmanina girebilirdi.
     r"hot roll(ing)? line|hot strip line|hot mill\b|"
     r"sinter plant|coke oven|pellet plant|scrap yard|ladle furnace|"
+    # "steelmaking" = celikhane. Baslikta soguk taraf terimi yokken bunu
+    # kapsam ici saymak yanlis: "Cleveland-Cliffs Invests $1B in Steelmaking
+    # Modernization" govdesi yuzunden Hat katmanina girmisti (2026-W35).
+    r"steel ?making|steel shop|melt shop|melting shop|celikhane|"
     # hammadde
     r"iron ore|coking coal|"
     # Turkce yukari akis
