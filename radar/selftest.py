@@ -881,8 +881,16 @@ def test_w34_sifir_satir_teshisi():
     kaynak = __import__("inspect").getsource(C.cmd_run)
     eq('st0["son_basliklar"] = []' in kaynak, True,
        "KALIBRASYON son_basliklar'i da sifirlamali")
-    eq("if not taxonomy.is_junk_title(r[\"baslik\"]):" in kaynak, True,
-       "cop baslik son_basliklar'a yazilmamali")
+    # v16: "gonderildi" isaretini artik tarama DEGIL finalize koyar, cunku
+    # postayi editor onayi gonderiyor. Onaylanmayan her kosu gercek haberleri
+    # yakiyordu (olcum: gonderilen 3 satira karsilik 21 satir "gonderilmis"
+    # isaretliydi). Bu yuzden cop-baslik suzgeci de finalize tarafinda.
+    import inspect as _i
+    fin = _i.getsource(C.cmd_finalize)
+    eq('taxonomy.is_junk_title(r.get("baslik", ""))' in fin, True,
+       "cop baslik son_basliklar'a yazilmamali (finalize tarafinda)")
+    eq('st["seen"][r["anahtar"]]' in kaynak, False,
+       "tarama 'gonderildi' isareti koymamali")
 
     # Reddedilenler: sebep basina kota olmadan "tekrar" kayitlari kaybolur
     from .config import REJECT_SEBEP_KOTA, REJECT_TOPLAM

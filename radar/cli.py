@@ -128,12 +128,8 @@ def cmd_run(a):
         t["metin"] = compose.tech_blurb(t)
     with open(os.path.join(OUT, "email.html"), "w", encoding="utf-8") as f:
         f.write(render.email_html(payload, None, tech, sayi))
-    if a.commit_state and tech:
-        # kosede cikan teknolojiler bir daha cikmasin
-        st2 = state.load()
-        for t in tech:
-            st2["tech_seen"][t["anahtar"]] = t["tarih"]
-        state.save(st2)
+    # tech_seen'i de YALNIZ finalize yazar: kosede gorunen aday, postaya
+    # girmedikce "tanitilmis" sayilmaz.
 
     html = render.html_report(payload)
     with open(base + "_taslak.html", "w", encoding="utf-8") as f:
@@ -142,22 +138,20 @@ def cmd_run(a):
     render.write_email(os.path.join(OUT, "email_body.md"), payload)
 
     if a.commit_state:
-        # State GitHub Actions tarafinda guncellenir: bulut oturumumun repoya
-        # yazma imkani yok. Boylece "ayni haber ikinci kez cikmasin" garantisi
-        # benim adimima bagli kalmaz.
+        # TARAMA "GONDERILDI" ISARETI KOYMAZ (2026-08-27).
+        #
+        # Onceki surum her kosuda satirlari seen'e yaziyordu. Ama tarama
+        # posta GONDERMIYOR - postayi editor onayi gonderiyor. Sonuc:
+        # onaylanmayan her kosu, gercek haberleri sessizce YAKIYORDU. Olcum:
+        # bugune kadar gercekten gonderilen tek bulten 2026-W34 (3 satir)
+        # iken state'te 21 satir "gonderilmis" isaretliydi; 18 haber okuyucuya
+        # hic ulasmadan bir daha cikamaz hale gelmisti. Dogrulama icin
+        # calistirilan her el kosusu da ayni zarari veriyordu.
+        #
+        # Artik "gonderildi" isaretini YALNIZ finalize koyar (bkz. cmd_finalize):
+        # yani satir ancak postaya girdiginde hafizaya gecer. Tarama sadece
+        # kendi kalici havuzlarini (rezerv, teknoloji, donem ozeti) tazeler.
         st = state.load()
-        for r in payload["rows"]:
-            st["seen"][r["anahtar"]] = r["tarih"]
-            for k in r.get("olaylar", []):
-                st["events"][k] = r["tarih"]
-            # Cop baslik hafizaya YAZILMAZ (2026-08-18). v8 oncesi kosular
-            # "Electrical steel, non grain oriented" gibi urun katalogu
-            # basliklarini satir olarak kabul etmisti; bunlar son_basliklar'a
-            # dusunce baslik benzerligi bacagi her gercek elektrik celigi /
-            # galvaniz haberini "tekrar" diye eliyordu.
-            if not taxonomy.is_junk_title(r["baslik"]):
-                st["son_basliklar"].append({"b": r["baslik"], "t": r["tarih"],
-                                            "a": r["asama"]})
         # Rezerv havuzu da kalici: bir sonraki kosu buradan devam eder.
         st["rezerv"] = [r for r in (st_r.get("rezerv") or [])
                         if r["anahtar"] not in st["seen"]]

@@ -141,6 +141,21 @@ diagnoz yaz: erişilemeyen kaynak sayısı ve rezerv havuzunun boyutu.
 Hacmi kalıcı yükseltmenin tek gerçek yolu **erişim**: ölçüme göre kapsam içi
 haberin %72'si STI + SteelOrbis'ten geliyor ve STI 403 veriyor.
 
+## 4c. "Gönderildi" işareti yalnız onayla konur
+
+Tarama (`radar run`) posta **göndermez**; postayı `out/ONAY` gönderir. Bu
+yüzden tarama hiçbir satırı "gönderilmiş" saymaz — o işareti **yalnız
+`finalize`** koyar.
+
+Neden önemli: aksi hâlde onaylanmayan her koşu gerçek haberleri sessizce
+yakar. 2026-08-27'de ölçüldü — gerçekten gönderilen tek bülten 3 satırlıktı
+ama state'te **21 satır** "gönderilmiş" işaretliydi; 18 haber okuyucuya hiç
+ulaşmadan bir daha çıkamaz hâle gelmişti. Doğrulama için elle başlatılan her
+koşu da aynı zararı veriyordu.
+
+Sonuç: onaylanmayan bir satır **gelecek hafta yine listede çıkar.** Bu bir
+kusur değil — gönderilmediyse gönderilmemiştir.
+
 ## 5. Kalıcı bölümler
 
 Bu iki bölüm **her hafta**, içerik olmasa da render edilir — bölümün hiç
