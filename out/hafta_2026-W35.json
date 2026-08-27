@@ -1,212 +1,67 @@
 {
  "rows": [
   {
-   "tarih": "2026-08-07",
-   "firma": "Drainage Tubing End Sections",
-   "ulke": "",
-   "hat": "Bobin tasima / paketleme",
+   "anahtar": "dbf500463fb21d96",
    "asama": "Belirsiz",
-   "tedarikci": "",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "Marion Die & Fixture Bender: Precision Forming for Drainage Tubing End Sections",
-   "kaynak": "Bradbury Group",
-   "kaynak_id": "bradbury",
-   "url": "https://blog.bradburygroup.com/blog/marion-die-fixture-bender-precision-forming-for-drainage-tubing-end-sections",
-   "tarih_kaynagi": "metin",
+   "baslik": "U. S. Steel Announces Plans to Restart Gary Tin Mill",
    "eksik": [
-    "ulke",
     "asama"
    ],
-   "anahtar": "1c1c44f6d6bbf16c",
-   "kategori": "Hat",
-   "olaylar": [
-    "drainage tubing end sections|hat|Bobin tasima / paketleme|Belirsiz"
-   ],
-   "rezerv": true
-  },
-  {
-   "tarih": "2026-08-05",
-   "firma": "",
-   "ulke": "",
-   "hat": "Dilme / boy kesme / SSC",
-   "asama": "Ilk urun",
-   "tedarikci": "",
+   "firma": "U. S. Steel Announces",
+   "hat": "Teneke hatti (ETL)",
    "kapasite": "",
-   "tutar": "",
-   "baslik": "tk accelis announces milestone at Stuttgart steel service center",
-   "kaynak": "SteelOrbis",
-   "kaynak_id": "steelorbis",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/tk-accelis-announces-milestone-at-stuttgart-steel-service-center-1469079.htm",
-   "tarih_kaynagi": "json-ld",
-   "eksik": [
-    "firma",
-    "ulke"
-   ],
-   "anahtar": "1733ff02c2b335cf",
    "kategori": "Hat",
+   "kaynak": "U.S. Steel",
+   "kaynak_id": "ussteel",
    "olaylar": [
-    "|hat|Dilme / boy kesme / SSC|Ilk urun"
+    "u. s. steel announces|fu|Hindistan|Teneke hatti (ETL)",
+    "u. s. steel announces|hat|Teneke hatti (ETL)|Belirsiz",
+    "u. s. steel announces|ulke|Hindistan|Belirsiz"
    ],
-   "rezerv": true
-  },
-  {
-   "tarih": "2026-07-29",
-   "firma": "TOSYALI ALGÉRİE",
-   "ulke": "Cezayir",
-   "hat": "Soguk hadde",
-   "asama": "Ilk urun",
-   "tedarikci": "",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "TOSYALI ALGÉRİE, SOĞUK HADDELEME KOMPLEKSİNDE İLK ÜRETİMİ YAPTI",
-   "kaynak": "SteelTurk",
-   "kaynak_id": "steelturk",
-   "url": "https://www.steelturk.com.tr/tosyali-algérie-soguk-haddeleme-kompleksinde-ilk-uretimi-yapti/",
+   "rezerv": true,
+   "tarih": "2026-04-16",
    "tarih_kaynagi": "liste",
-   "eksik": [],
-   "anahtar": "92e4a5a31f19b487",
-   "kategori": "Hat",
-   "olaylar": [
-    "tosyali algerie|fu|Cezayir|Soguk hadde",
-    "tosyali algerie|hat|Soguk hadde|Ilk urun",
-    "tosyali algerie|ulke|Cezayir|Ilk urun"
-   ],
-   "rezerv": true
-  },
-  {
-   "tarih": "2026-07-14",
-   "firma": "Spain EGGA-Galvanizing Europe",
-   "ulke": "Ispanya",
-   "hat": "Galvaniz hatti (CGL)",
-   "asama": "Belirsiz",
    "tedarikci": "",
-   "kapasite": "",
    "tutar": "",
-   "baslik": "EGGA-Galvanizing Europe Presidency: Benelux to Spain EGGA-Galvanizing Europe is pleased to announce Carlos García (Spain) as its new President and Chairman of the Board of Directors. EGGA’s…",
-   "kaynak": "Galvanizing Europe",
-   "kaynak_id": "egga",
-   "url": "https://www.galvanizingeurope.org/egga-galvanizing-europe-presidency-benelux-to-spain/",
-   "tarih_kaynagi": "json-ld",
-   "eksik": [
-    "asama"
-   ],
-   "anahtar": "62bdd9e6fa033c66",
-   "kategori": "Hat",
-   "olaylar": [
-    "spain egga galvanizing europe|fu|Ispanya|Galvaniz hatti (CGL)",
-    "spain egga galvanizing europe|hat|Galvaniz hatti (CGL)|Belirsiz",
-    "spain egga galvanizing europe|ulke|Ispanya|Belirsiz"
-   ],
-   "rezerv": true
+   "ulke": "Hindistan",
+   "url": "https://www.ussteel.com:443/media/newsroom/-/blogs/u-s-steel-announces-plans-to-restart-gary-tin-mill?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fwww.ussteel.com%3A443%2Fmedia%2Fnewsroom%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26_com_liferay_blogs_web_portlet_BlogsPortlet_cur%3D1%26_com_liferay_blogs_web_portlet_BlogsPortlet_delta%3D20"
   },
   {
-   "tarih": "2026-06-21",
-   "firma": "JW Aluminium",
-   "ulke": "Italya",
-   "hat": "Soguk hadde",
+   "anahtar": "971c858c2cf021dc",
    "asama": "Ilk urun",
-   "tedarikci": "Mino",
+   "baslik": "New MINO Double-Stand Six-High Cold Reversing Mill in North America",
+   "eksik": [
+    "hat"
+   ],
+   "firma": "New MINO Double-Stand",
+   "hat": "Belirsiz",
    "kapasite": "",
-   "tutar": "",
-   "baslik": "First Coil Successfully Rolled on MINO-Revamped Cold Rolling Mill at JW Aluminium, Goose Creek",
+   "kategori": "Hat",
    "kaynak": "Mino SpA",
    "kaynak_id": "mino",
-   "url": "https://mino.it/first-coil-mino-revamped-cold-rolling-mill-jw-aluminium/",
+   "olaylar": [
+    "mino|fu|ABD|Belirsiz",
+    "mino|hat|Belirsiz|Ilk urun",
+    "mino|ulke|ABD|Ilk urun"
+   ],
+   "rezerv": true,
+   "tarih": "2026-03-13",
    "tarih_kaynagi": "json-ld",
-   "eksik": [],
-   "anahtar": "aeace6fc455734f0",
-   "kategori": "Hat",
-   "olaylar": [
-    "mino|fu|Italya|Soguk hadde",
-    "mino|hat|Soguk hadde|Ilk urun",
-    "mino|ulke|Italya|Ilk urun"
-   ],
-   "rezerv": true
-  },
-  {
-   "tarih": "2026-06-15",
-   "firma": "EVs",
-   "ulke": "",
-   "hat": "Elektrik celigi hatti",
-   "asama": "Teknoloji",
-   "tedarikci": "",
-   "kapasite": "",
+   "tedarikci": "Mino",
    "tutar": "",
-   "baslik": "POSCO Partners with Hyundai Motor and 8 Organizations to Develop Next-Generation High-Efficiency Electrical Steel for EVs",
-   "kaynak": "worldsteel",
-   "kaynak_id": "worldsteel",
-   "url": "https://worldsteel.org/media/industry-member-news/2026-member-news/posco-partners-with-hyundai-motor-and-8-organizations-to-develop-next-generation-high-efficiency-electrical-steel-for-evs/",
-   "tarih_kaynagi": "json-ld",
-   "eksik": [
-    "ulke"
-   ],
-   "anahtar": "c1e20af1f2d7d31b",
-   "kategori": "Hat",
-   "olaylar": [
-    "evs|hat|Elektrik celigi hatti|Teknoloji"
-   ],
-   "rezerv": true
-  },
-  {
-   "tarih": "2026-05-19",
-   "firma": "PRE",
-   "ulke": "",
-   "hat": "Bobin tasima / paketleme",
-   "asama": "Belirsiz",
-   "tedarikci": "",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "PRE Open House: Celebrating Growth, Community, and the Future",
-   "kaynak": "Bradbury Group",
-   "kaynak_id": "bradbury",
-   "url": "https://blog.bradburygroup.com/blog/pre-open-house-celebrating-growth-community-and-the-future",
-   "tarih_kaynagi": "metin",
-   "eksik": [
-    "ulke",
-    "asama"
-   ],
-   "anahtar": "72b156f978a4a06b",
-   "kategori": "Hat",
-   "olaylar": [
-    "pre|hat|Bobin tasima / paketleme|Belirsiz"
-   ],
-   "rezerv": true
-  },
-  {
-   "tarih": "2026-05-12",
-   "firma": "Golden Aluminum",
    "ulke": "ABD",
-   "hat": "Tandem soguk hadde (TCM)",
-   "asama": "Modernizasyon",
-   "tedarikci": "Mino",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "MINO awarded Phase One modernization contract for Golden Aluminum, Fort Lupton CO Tandem Cold Rolling Mill",
-   "kaynak": "Mino SpA",
-   "kaynak_id": "mino",
-   "url": "https://mino.it/new-contract-for-golden-tandem-mill/",
-   "tarih_kaynagi": "json-ld",
-   "eksik": [],
-   "anahtar": "b0f453cbf04d695f",
-   "kategori": "Hat",
-   "olaylar": [
-    "mino|fu|ABD|Tandem soguk hadde (TCM)",
-    "mino|hat|Tandem soguk hadde (TCM)|Modernizasyon",
-    "mino|ulke|ABD|Modernizasyon"
-   ],
-   "rezerv": true
+   "url": "https://mino.it/new-mino-double-stand-six-high-cold-reversing-mill-in-north-america/"
   }
  ],
  "stats": {
   "kaynak": 133,
-  "erisilemeyen": 11,
-  "ham": 2417,
-  "on_eleme_gecti": 197,
-  "makale_acildi": 181,
+  "erisilemeyen": 10,
+  "ham": 2426,
+  "on_eleme_gecti": 210,
+  "makale_acildi": 194,
   "tarihsiz_elendi": 80,
-  "pencere_disi": 160,
-  "kapsam_disi": 2169,
+  "pencere_disi": 171,
+  "kapsam_disi": 2167,
   "tekrar": 8,
   "kabul": 0
  },
@@ -218,10 +73,6 @@
   [
    "Cognex",
    "HTTP 429"
-  ],
-  [
-   "EMG Automation",
-   "HTTP 404"
   ],
   [
    "ArcelorMittal",
@@ -392,15 +243,24 @@
   "gq_urun03": "arama"
  },
  "today": "2026-08-27",
- "tech_pool": [],
+ "tech_pool": [
+  {
+   "anahtar": "tech:ed3b87951b013f72",
+   "tarih": "2026-07-13",
+   "baslik": "Posco ve Hyundai'den Elektrikli Araçlar İçin Yeni Nesil Elektrik Çeliği Hamlesi",
+   "url": "https://www.steelturk.com.tr/posco-ve-hyundaiden-elektrikli-araclar-icin-yeni-nesil-elektrik-celigi-hamlesi/",
+   "kaynak": "SteelTurk",
+   "hat": "Elektrik celigi hatti"
+  }
+ ],
  "kaynak_katki": {},
  "window": [
   "2026-08-12",
   "2026-08-27"
  ],
- "rezerv_kullanilan": 8,
- "rezerv_havuz": 2,
+ "rezerv_kullanilan": 2,
+ "rezerv_havuz": 0,
  "period": "2026-W35",
- "generated": "2026-08-27 05:26 UTC",
+ "generated": "2026-08-27 05:37 UTC",
  "version": "3.0.0"
 }

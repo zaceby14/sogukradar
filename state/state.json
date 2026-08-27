@@ -384,62 +384,26 @@
     "tekrar": 8
    },
    "uretim": "2026-08-27 05:26 UTC"
-  }
- ],
- "rezerv": [
-  {
-   "anahtar": "dbf500463fb21d96",
-   "asama": "Belirsiz",
-   "baslik": "U. S. Steel Announces Plans to Restart Gary Tin Mill",
-   "eksik": [
-    "asama"
-   ],
-   "firma": "U. S. Steel Announces",
-   "hat": "Teneke hatti (ETL)",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "U.S. Steel",
-   "kaynak_id": "ussteel",
-   "olaylar": [
-    "u. s. steel announces|fu|Hindistan|Teneke hatti (ETL)",
-    "u. s. steel announces|hat|Teneke hatti (ETL)|Belirsiz",
-    "u. s. steel announces|ulke|Hindistan|Belirsiz"
-   ],
-   "rezerv": true,
-   "tarih": "2026-04-16",
-   "tarih_kaynagi": "liste",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "Hindistan",
-   "url": "https://www.ussteel.com:443/media/newsroom/-/blogs/u-s-steel-announces-plans-to-restart-gary-tin-mill?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fwww.ussteel.com%3A443%2Fmedia%2Fnewsroom%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26_com_liferay_blogs_web_portlet_BlogsPortlet_cur%3D1%26_com_liferay_blogs_web_portlet_BlogsPortlet_delta%3D20"
   },
   {
-   "anahtar": "971c858c2cf021dc",
-   "asama": "Ilk urun",
-   "baslik": "New MINO Double-Stand Six-High Cold Reversing Mill in North America",
-   "eksik": [
-    "hat"
-   ],
-   "firma": "New MINO Double-Stand",
-   "hat": "Belirsiz",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "Mino SpA",
-   "kaynak_id": "mino",
-   "olaylar": [
-    "mino|fu|ABD|Belirsiz",
-    "mino|hat|Belirsiz|Ilk urun",
-    "mino|ulke|ABD|Ilk urun"
-   ],
-   "rezerv": true,
-   "tarih": "2026-03-13",
-   "tarih_kaynagi": "json-ld",
-   "tedarikci": "Mino",
-   "tutar": "",
-   "ulke": "ABD",
-   "url": "https://mino.it/new-mino-double-stand-six-high-cold-reversing-mill-in-north-america/"
+   "donem": "2026-W35",
+   "satir": 2,
+   "stats": {
+    "erisilemeyen": 10,
+    "ham": 2426,
+    "kabul": 0,
+    "kapsam_disi": 2167,
+    "kaynak": 133,
+    "makale_acildi": 194,
+    "on_eleme_gecti": 210,
+    "pencere_disi": 171,
+    "tarihsiz_elendi": 80,
+    "tekrar": 8
+   },
+   "uretim": "2026-08-27 05:37 UTC"
   }
  ],
+ "rezerv": [],
  "seen": {
   "05ee3ccfafa36b08": "2026-08-11",
   "154391920fcd5dd0": "2026-08-24",
@@ -452,12 +416,14 @@
   "59916e4f4d918c24": "2026-08-13",
   "69eacbbd196caa00": "2026-08-24",
   "92e4a5a31f19b487": "2026-07-29",
+  "971c858c2cf021dc": "2026-03-13",
   "a13cf1ef115fa16d": "2026-08-12",
   "ae75546329a9c77a": "2026-08-26",
   "b68fa0b4d26572ac": "2026-08-21",
   "c0b5f864813ba8fd": "2026-08-17",
   "c1e20af1f2d7d31b": "2026-06-15",
   "d045d03303219029": "2026-08-24",
+  "dbf500463fb21d96": "2026-04-16",
   "f29ebf2ed4ff9833": "2026-08-20",
   "fb51c908b538f5ec": "2026-08-25"
  },
@@ -554,6 +520,7 @@
   "tech:14822add12dd1ab1": "2026-04-15",
   "tech:ae75546329a9c77a": "2026-08-26",
   "tech:c1e20af1f2d7d31b": "2026-06-15",
+  "tech:ed3b87951b013f72": "2026-07-13",
   "tech:fb51c908b538f5ec": "2026-08-25"
  },
  "version": "3.0.0"
