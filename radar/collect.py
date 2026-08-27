@@ -135,6 +135,16 @@ def _items_from_sitemap(s, log):
     ok, text, info = http.fetch(s["sitemap"])
     if not ok:
         return [], (info.get("hata") or "HTTP %s" % info.get("status"))
+    # Aday adres RSS/Atom cikabilir (zincire /feed, /rss gibi adresler de
+    # konuyor). Besleme tarihi YAPISALDIR - sitemap lastmod'unun aksine
+    # yayincinin kendi yayin tarihi beyanidir, oldugu gibi kullanilir.
+    if feeds.looks_like_feed(text):
+        items = feeds.parse_feed(text)[:MAX_LINKS_PER_SOURCE]
+        for it in items:
+            it["from_feed"] = True
+        if items:
+            log("    (besleme: %d kayit)" % len(items))
+        return items, (None if items else "besleme bos")
     out = []
     for blok in RE_SITEMAP_URL.findall(text):
         m = RE_LOC.search(blok)
@@ -158,10 +168,40 @@ def _items_from_sitemap(s, log):
     return out[:MAX_SITEMAP_LINKS], None
 
 
+def _sitemap_zinciri(s, log):
+    """Kaynagin sitemap adreslerini sirayla dener, sonra robots.txt'e bakar.
+
+    2026-08-27: Steel Times International hem /news hem de elle yazilan
+    sitemap adresinde 403 veriyor; Mysteel'in dort aday adresi 404. Olcume
+    gore kapsam ici haberin %72'si STI + SteelOrbis'ten geliyor, yani bu iki
+    kaynagin yarisi kapaliyken havuz kor. Tek adres yerine ZINCIR denenir ve
+    hicbiri tutmazsa robots.txt'teki Sitemap: satirlari okunur - yayincinin
+    kendi beyani, tahminden iyidir.
+    """
+    from .capraz import robots_sitemaplari
+    adaylar = s.get("sitemaps") or ([s["sitemap"]] if s.get("sitemap") else [])
+    son = None
+    for u in adaylar:
+        items, err = _items_from_sitemap(dict(s, sitemap=u), log)
+        if items:
+            return items, None
+        son = err or "sitemap bos"
+        log("    (sitemap %s -> %s)" % (u, son))
+    for kok in (s.get("robots") or []):
+        for u in robots_sitemaplari(kok, log):
+            if u in adaylar:
+                continue
+            items, err = _items_from_sitemap(dict(s, sitemap=u), log)
+            if items:
+                log("    (robots.txt'ten bulundu: %s)" % u)
+                return items, None
+    return [], son
+
+
 def _items_from_source(s, log):
     """(items, hata) -> items: {title,url,date_raw,summary}"""
-    if s.get("sitemap"):
-        return _items_from_sitemap(s, log)
+    if s.get("sitemap") or s.get("sitemaps"):
+        return _sitemap_zinciri(s, log)
     url = s.get("rss") or s["url"]
     ok, text, info = http.fetch(url)
     if not ok:

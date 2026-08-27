@@ -21,6 +21,14 @@ taşıma-paketleme, yüzey muayene, ölçüm, hat otomasyonu, elektrik çeliği.
 demir dışı metaller. Bunlar **hiçbir katmana** giremez; "Yatırım" katmanı
 bunlar için muafiyet değildir.
 
+**KATMAN 2 (Yatırım) = yassı çelikle ilgili genel yatırım haberi.** "Dünya
+geneli her çelik yatırımı" DEĞİL. Bir haberin bu katmana girmesi için yassı
+tarafa dokunması gerekir (flat steel / sheet / coil / strip / galvaniz /
+soğuk hadde / teneke / elektrik çeliği / servis merkezi...). Pelet tesisi,
+entegre tesis, EAF minimill, ham çelik istatistiği, hisse devri, "10 yılda
+şu kadar milyar dolar gerekiyor" türü projeksiyonlar girmez — 2026-W35
+bülteninde 9 Yatırım satırının 9'u da bu türdendi.
+
 **HİÇBİR KATMANA GİRMEZ** — fiyat, borsa, bilanço, ciro, ihracat/ithalat,
 damping/kota, pazar araştırması ve rapor satışı, kişi ataması, fuar/kongre.
 

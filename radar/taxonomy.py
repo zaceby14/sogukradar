@@ -213,14 +213,14 @@ SCOPE_WEAK = re.compile(
     r"(roll shop|welder|welding machine|welding line|stitcher|\blooper\b|accumulator|"
     r"uncoiler|decoiler|payoff reel|tension reel|mandrel|"
     r"cleaning line|degreasing|drying oven|annealing|furnace|"
-    r"slitting|blanking|level(l)?ing|leveler|leveller|shear|trimming|"
+    r"slitting|blanking|level(l)?ing|leveler|leveller|\bshear|trimming|"
     r"\boiler\b|polishing|brushing|buffing|texturing|shot blast|scale breaker|"
-    r"crane|warehouse automation|packaging line|strapping|weighing|"
+    r"\bcrane|warehouse automation|packaging line|strapping|weighing|"
     r"thickness|flatness|width measurement|inspection line|"
     r"entry section|exit section|digital twin|level 2|process automation|"
-    r"machine learning|robot|"
-    r"kaynak makinesi|firin|duzeltme|kesme|paketleme|tartim|vinc|"
-    r"parlatma|fircalama|temizleme|kaplama|olcum)")
+    r"machine learning|\brobot|"
+    r"kaynak makinesi|\bfirin|duzeltme|\bkesme|paketleme|\btartim|\bvinc|"
+    r"parlatma|fircalama|temizleme|kaplama|\bolcum)")
 
 STEEL_CTX = re.compile(
     r"(steel|celik|strip|serit|coil|bobin|rulo|\bmill\b|hadde|sac\b|"
@@ -304,7 +304,7 @@ _NOISE = (
     r"\bboru\b|profil celigi|insaat demiri|filmasin|nervurlu|"
     # yukari akis: ergitme tarafi hicbir katmanda yok
     r"\beaf\b|electric arc furnace|blast furnace|\bdri\b|\bhbi\b|"
-    r"direct reduc|yuksek firin|ark ocagi|"
+    r"direct reduc|yuksek \bfirin|ark ocagi|"
     # yesil donusum / enerji anlasmasi - hat yatirimi degil
     r"photovoltaic|solar (park|panel|power)|green (electricity|energy) (deal|"
     r"purchase|agreement)|power purchase agreement|\bppa\b|"
@@ -582,6 +582,14 @@ def temiz_baslik(title):
     t = (title or "").strip()
     if not t:
         return t
+    # SMM/Mysteel bicimi: "[Gercek Baslik]Govde metni devam eder..."
+    # Koseli parantez basligi tasir, arkasina lede yapisir. Ayiklanmazsa
+    # baslik 180 karakterlik govde olur; kapsam kapisi o govdede rastgele
+    # bir terime takilip haberi iceri alir (2026-W35: "Oran Province"
+    # icindeki "vinc" yuzunden Cezayir entegre tesisi Hat katmanina girdi).
+    m = re.match(r"^\s*\[([^\]]{15,200})\]\s*\S", t)
+    if m:
+        t = m.group(1).strip()
     for pat, rep in _BAS_ONEK:
         t = re.sub(pat, rep, t, flags=re.I).strip()
     # Arkaya yapisan lede: "... Baslik 2025-07-08 International technology..."
@@ -806,15 +814,63 @@ WATCH_BLOCK = re.compile(
 WATCH_BIG = re.compile(r"(milyar|milyon|billion|million)")
 
 STEEL_CONTEXT = re.compile(
-    r"(steel|celik|hadde|\bcoil\b|\bstrip\b|galvaniz|galvanis|tinplate|teneke|"
+    # "cold roll" / "soguk hadde" celik baglamidir ama listede yoktu: "Rs
+    # 40,000 crore investment in cold rolling complex" basligi celik
+    # baglami bulunamadigi icin Katman 2'den duşuyordu (2026-08-27).
+    r"(steel|celik|hadde|cold roll|cold mill|soguk hadde|"
+    r"\bcoil\b|\bstrip\b|galvaniz|galvanis|tinplate|teneke|"
     r"pickl|anneal|tavlama|asitleme|\bsac\b|\bmill\b|metallurg|metalurji|"
     r"\bcgl\b|\bpltcm\b|\btcm\b)")
 
 
-def genel_yatirim(title):
-    """Katman 2 - dunya geneli celik yatirim haberleri."""
+# YASSI TARAF ISARETI - Katman 2'nin kapsam kapisi (2026-08-27).
+# Katman 2 "dunya geneli her celik yatirimi" DEGILDIR; bu bultenin okuyucusu
+# soguk haddehanede calisir. Genel bir yatirim haberinin listeye girmesi icin
+# YASSI tarafa dokunmasi gerekir.
+YASSI = re.compile(
+    # "flats" sektor kullanimidir ("value-added flats capacities") ve
+    # kalibi yokken gercek bir yassi yatirim haberi dusuyordu (2026-08-27).
+    r"(flat steel|flat[- ]rolled|flat product|\bflats\b|\bhrc\b|\bcrc\b|"
+    r"hot[- ]rolled coil|"
+    r"cold[- ]rolled coil|steel sheet|steel strip|steel coil|\bcoil\b|\bstrip\b|"
+    r"\bsheet\b|sheet mill|\bplate mill\b(?!)|"
+    r"service cent(er|re)|galvaniz|galvanis|tinplate|electrical steel|silicon steel|"
+    r"coating line|colou?r coat|pre[- ]?painted|cold roll|cold mill|pickling|"
+    r"anneal|yassi|yassi celik|soguk hadde|\bsac\b|\brulo\b|teneke|kaplama|"
+    r"\u51b7\u8f67|\u9540\u950c|\u5f69\u6d82|\u9540\u9521|\u677f\u5e26)")
+
+# Katman 2'ye ozgu gurultu: istatistik, onay/izin, projeksiyon, hisse/ortaklik
+# devri. Bunlar "yatirim" kelimesi tasidiklari icin WATCH_INVEST'i geciyor ama
+# hicbiri bir HAT haberi degil (2026-W35 bulteninde besi birden sizdi).
+WATCH_ISTATISTIK = re.compile(
+    r"crude steel|ham celik|capacity (approval|approvals)|approvals reach|"
+    r"\bmnt\b|million tonnes? (per|a) year target|"
+    r"regulator (approves|clears)|fair trade|competition commission|"
+    r"acquisition of .{0,20}stake|stake (in|acquisition)|hisse devri|"
+    r"gerekiyor|ihtiyac duyuluyor|will need|is needed|hedefi icin|"
+    r"\bforecast\b|\boutlook\b|projection|road ?map|yol haritasi")
+
+
+def genel_yatirim(title, lead=""):
+    """Katman 2 - YASSI celik ile ilgili genel yatirim haberleri.
+
+    2026-W35 dersi: kapi yalnizca "celik + yatirim" ariyordu ve bulteni
+    yukari akisla doldurdu - 9 Yatirim satirinin 9'u da kapsam disiydi
+    (pelet tesisi, sicak haddehane, entegre tesis, ham celik istatistigi,
+    lojistik hisse devri, 110 milyar dolarlik projeksiyon...). Kapsam
+    vetosu artik HER IKI katmanda calisir.
+    """
     t = fold(title)
+    blob = t + " " + fold(lead)
     if is_junk_title(title) or WATCH_SPAM.search(t):
+        return False
+    if WATCH_ISTATISTIK.search(blob):
+        return False
+    # YUKARI AKIS VETOSU KATMAN 2'DE DE GECERLI. Onceki surumun yorumunda
+    # "Katman 2'de SERBESTTIR" yaziyordu; bu, kullanicinin kapsam tanimiyla
+    # (sicak hadde / YF / DRI-EAF / dokum / uzun urun HICBIR katmana giremez)
+    # celisiyordu ve W35'te bulteni bozdu.
+    if UPSTREAM_RE.search(blob) and not SOGUK_TARAF.search(blob):
         return False
     # Gurultu denetimi Katman 2'de de calisir. Bu satir yokken "genel
     # yatirim" etiketi bir muafiyet gibi davraniyordu ve ticaret/istatistik/
@@ -828,7 +884,11 @@ def genel_yatirim(title):
         return False
     if WATCH_BLOCK.search(t) and not (WATCH_BIG.search(t) and WATCH_INVEST.search(t)):
         return False
-    return bool(STEEL_CONTEXT.search(t) and WATCH_INVEST.search(t))
+    if not (STEEL_CONTEXT.search(t) and WATCH_INVEST.search(t)):
+        return False
+    # KAPSAM KAPISI: ya haber zaten kapsam ici, ya da en azindan YASSI tarafa
+    # dokunuyor olmali. "Celik + yatirim" tek basina yetmez.
+    return bool(in_scope(title, lead)[0] or YASSI.search(blob))
 
 
 def watch_worthy(title):

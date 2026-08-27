@@ -8,8 +8,19 @@ internet olmadan dogrulanabilir. GitHub Actions'ta gercek agla ayni kod kosar.
 import datetime as dt
 import os
 import sys
+import tempfile
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+# IZOLE STATE (2026-08-27). Bu deneme daha once GERCEK state/state.json'u
+# okuyordu; hafizadaki bir baslik denemedeki bir baslige benzeyince satir
+# "tekrar" diye elenip test kiriliyordu. 2026-W35 kosusu state'e 11 satir
+# yazinca tam olarak bu oldu. Deneme kendi bos hafizasiyla kosar - sonucu
+# haftanin haberine bagli olmamali. RADAR_ROOT config.ROOT tarafindan
+# okundugu icin radar ICE AKTARILMADAN once ayarlanmalidir.
+_TMP = tempfile.mkdtemp(prefix="sogukradar-e2e-")
+os.environ["RADAR_ROOT"] = _TMP
+os.environ["RADAR_CACHE"] = os.path.join(_TMP, ".cache")
 
 from radar import collect, http, render, score, sources  # noqa: E402
 

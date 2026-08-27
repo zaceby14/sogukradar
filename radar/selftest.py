@@ -157,12 +157,24 @@ def test_uclu_kg_senaryosu():
 
 
 def test_iki_katmanli_liste():
-    """2026-08-12 karari: haftalik DOLU liste. Yatirim katmani dunya geneli
-    celik yatirim haberlerini alir; fiyat/borsa/rapor-satisi yine giremez."""
-    ok = [("Kocaer Çelik ABD'de Üretim İçin Şirket Kuruyor", True),
+    """Katman 2 = YASSI celik ile ilgili genel yatirim haberi.
+
+    2026-08-12'de kapi "dunya geneli her celik yatirimi" idi. 2026-W35
+    bulteni bu sozlesmenin yanlis oldugunu gosterdi: 9 Yatirim satirinin
+    9'u da kapsam disiydi (pelet tesisi, sicak haddehane, entegre tesis,
+    ham celik istatistigi, lojistik hisse devri, 110 milyar dolarlik
+    projeksiyon). Okuyucu soguk haddehanede calisiyor; genel bir yatirim
+    haberi ancak YASSI tarafa dokunuyorsa listeye girer.
+    """
+    ok = [# yassi isareti YOK -> artik girmez (uzun/profil ureticisi)
+          ("Kocaer Çelik ABD'de Üretim İçin Şirket Kuruyor", False),
+          # "sheet mill" yassi -> girer
           ("Nucor announces new sheet mill investment in West Virginia", True),
-          ("Baowu Group and SNS eye green steel plant investment in Algeria", True),
-          ("Jindal plans Rs 40,000 crore investment in new steel facility", True),
+          # entegre yesil celik tesisi = yukari akis, yassi isareti yok
+          ("Baowu Group and SNS eye green steel plant investment in Algeria", False),
+          ("Jindal plans Rs 40,000 crore investment in new steel facility", False),
+          # ...ama ayni yatirim yassi hat adiyla anlatilirsa girer
+          ("Jindal plans Rs 40,000 crore investment in cold rolling complex", True),
           ("EREGL Hissesi 42,24 TL'de Kapanış Yaptı", False),
           ("Çin'in Çelik İhracatı, İlk 7 Ayda Yüzde 4,4 Geriledi", False),
           ("Electrical Steel Market Outlook (2026-2031)", False),
@@ -329,8 +341,12 @@ def test_compose_ve_mail():
         "kaynak_id": "steelturk", "kategori": "Yatirim"}]
     mail2 = render.email_html(payload, None, [], 5)
     eq("YATIRIM" in mail2 and "Kocaer" in mail2, True, "yatirim katmani listede")
+    # Kocaer profil/uzun urun ureticisi: yassi isareti tasimayan genel
+    # yatirim haberi Katman 2'ye de girmez (2026-W35 karari).
     eq(taxonomy.watch_worthy("Kocaer Çelik ABD'de Üretim İçin Şirket Kuruyor"),
-       True, "watch: TR yatirim")
+       False, "watch: yassi isareti olmayan TR yatirimi girmez")
+    eq(taxonomy.watch_worthy("Borçelik Bursa'da soğuk hadde ve galvaniz tesisi kuruyor"),
+       True, "watch: yassi hat adi tasiyan TR yatirimi girer")
     eq(taxonomy.watch_worthy("EREGL Hissesi 42,24 TL'de Kapanış Yaptı"),
        False, "watch: borsa haberi girmez")
 
@@ -555,8 +571,12 @@ def test_w34_sicak_hadde():
              "hadde parki ve bobin tasima sistemleri yenilendi.")
     eq(taxonomy.in_scope(tr, govde)[0], False,
        "sicak hadde hatti govde yuzunden Hat'a girmemeli")
-    eq(taxonomy.genel_yatirim(tr), True,
-       "kapasite yatirimi olarak Katman 2'de kalabilir")
+    # 2026-W35 DUZELTMESI: bu satir Katman 2'de de KALAMAZ. Onceki surum
+    # yukari akisi "genel yatirim" sayip muaf tutuyordu ve ayni Nippon
+    # Steel sicak haddehane haberi W35 bulteninde YATIRIM rozetiyle
+    # okuyucuya ulasti. Kapsam vetosu artik her iki katmanda calisir.
+    eq(taxonomy.genel_yatirim(tr), False,
+       "sicak hadde Katman 2'ye de giremez")
     # Ayni kural gercek hat haberini ELEMEMELI: baslikta terim varsa gecer
     eq(taxonomy.in_scope("Primetals to modernise Korean pickling line", "")[0],
        True, "baslikta hat terimi varsa govdeye gerek yok")
@@ -876,6 +896,56 @@ def test_w34_sifir_satir_teshisi():
     eq(kayit.count("tekrar"), 22, "22 tekrar kaydinin hepsi dosyaya girmeli")
 
 
+def test_w35_katman2_kapsam_kapisi():
+    """v12 (2026-08-27): Katman 2'nin kapsam kapisi. 2026-W35 GERCEK kosusu.
+
+    Kosu 11 satir uretti; 9'u Yatirim katmanindaydi ve DOKUZUNUN DA in_scope
+    sonucu "kapsam disi" idi. Katman 2'nin kapsam vetosu yoktu, bulteni
+    yukari akis ve piyasa haberi doldurdu. Asagidakiler o koşunun gercek
+    basliklaridir.
+    """
+    girmemeli = [
+        "India's SEPC Limited wins $90 million contract to build pellet plant at SAIL's IISCO mill",
+        "Nippon Steel, 6 Milyon Tonluk Yeni Sıcak Haddeleme Hattını Devreye Aldı",
+        "Indian fair trade regulator approves Tata Steel's acquisition of additional stake in logistics firm",
+        "Baowu Group and SNS eye integrated green steel plant investment in Algeria",
+        "Hybar advances low-carbon steel expansion in Arkansas",
+        "Avustralya'nın Yeşil Çelik Hedefi İçin 14 Yılda 110 Milyar Dolarlık Yatırım Gerekiyor",
+        "India: Crude steel expansion approvals reach 19 mnt/year in Apr-Jul'26",
+        "Manaksia Steels plans \u20b9800 crore investment to nearly triple speciality steel capacity by FY34",
+    ]
+    for t in girmemeli:
+        eq(taxonomy.genel_yatirim(t), False, "Katman 2'ye girmemeli: " + t[:52])
+        eq(taxonomy.in_scope(t, "")[0], False, "Hat'a da girmemeli: " + t[:52])
+
+    # ...ama ayni koşunun IKI GERCEK satiri kalmali
+    for t in ["KG Steel selects Primetals for Dangjin PLTCM upgrade and capacity expansion",
+              "India's Jindal Stainless Limited to invest $94 million to ramp up cold rolling capacity"]:
+        eq(taxonomy.in_scope(t, "")[0], True, "kapsam ici kalmali: " + t[:52])
+
+    # YASSI isareti tasiyan genel yatirim haberi GIRER
+    for t in ["Hoa Binh and Pomina Steel partner on 1.2 million mt flat steel plant expansion",
+              "Nucor announces new sheet mill investment in West Virginia",
+              "India's Manaksia Steel to invest $84 million to expand value-added flats capacities"]:
+        eq(taxonomy.genel_yatirim(t), True, "yassi yatirim girmeli: " + t[:52])
+
+    # SMM bicimi: "[Baslik]Govde..." - govde ayiklanmali
+    smm = ("[Algeria Plans to Build New Steel Complex in Oran]According to Algerian "
+           "media reports, Algeria plans to build a new steel complex in Ain El Biya, "
+           "Oran Province, as a key project to advance")
+    eq(taxonomy.temiz_baslik(smm), "Algeria Plans to Build New Steel Complex in Oran",
+       "koseli parantez basligi ayiklanmali")
+
+    # "Oran Province" icindeki "vinc": kelime siniri olmayan kisa kalip
+    # Cezayir entegre tesisini Hat katmanina sokmustu.
+    eq(bool(taxonomy.SCOPE_WEAK.search(taxonomy.fold("Oran Province"))), False,
+       "'province' icindeki 'vinc' eslesmemeli")
+    eq(bool(taxonomy.SCOPE_WEAK.search(taxonomy.fold("bobin vinci"))), True,
+       "gercek 'vinc' (ekli hali dahil) eslesmeli")
+    eq(bool(taxonomy.SCOPE_WEAK.search(taxonomy.fold("tavlama firini"))), True,
+       "gercek 'firin' (ekli hali dahil) eslesmeli")
+
+
 def test_sitemap_okuyucu():
     """v6 (2026-08-17): haber sitemap'i kaynak turu.
 
@@ -898,6 +968,39 @@ def test_sitemap_okuyucu():
        "primetals to modernise korean pickling line", "STI slug basligi")
     eq(col.slug_baslik("https://x.com/news/2026-06-11-saritas-group"),
        "saritas group", "bastaki tarih atilmali")
+
+    # SITEMAP ZINCIRI (2026-08-27): STI hem /news hem sitemap adresinde 403,
+    # Mysteel'in adresleri 404 veriyor. Tek adres yerine zincir denenir ve
+    # aday RSS cikarsa besleme olarak ayristirilir.
+    import radar.http as H
+    RSS = ('<?xml version="1.0"?><rss><channel><item>'
+           '<title>Primetals to modernise Korean pickling line</title>'
+           '<link>https://x/1</link>'
+           '<pubDate>Mon, 24 Aug 2026 10:00:00 +0000</pubDate></item></channel></rss>')
+
+    def _sahte(u, use_cache=True):
+        if u.endswith("-sitemap.xml"):
+            return False, "", {"status": 403, "hata": "HTTP 403"}
+        if u.endswith("sitemap.xml"):
+            return False, "", {"status": 404, "hata": "HTTP 404"}
+        if u.endswith("/feed"):
+            return True, RSS, {"status": 200, "final": u}
+        return False, "", {"status": 404, "hata": "HTTP 404"}
+
+    eski_fetch = H.fetch
+    try:
+        H.fetch = _sahte
+        kaynak = dict(id="sti", publisher="STI", kind="dergi",
+                      sitemaps=["https://x/a-sitemap.xml", "https://x/sitemap.xml",
+                                "https://x/feed"])
+        items, err = col._sitemap_zinciri(kaynak, lambda *a: None)
+    finally:
+        H.fetch = eski_fetch
+    eq(err, None, "zincir ucuncu adreste tutmali")
+    eq(len(items), 1, "besleme ayristirilmali")
+    eq(items[0]["title"], "Primetals to modernise Korean pickling line", "besleme basligi")
+    eq(items[0].get("from_feed"), True, "besleme isareti")
+
 
     # Slug basligi kapsam + olay kapisindan gecmeli (makale acilmadan)
     for slug in ("primetals to modernise korean pickling line",
@@ -1045,6 +1148,7 @@ def run():
                test_iki_katmanli_liste, test_kapsam_havuzu, test_tarih_acilari,
                test_olay_kapisi_v5, test_w34_sicak_hadde,
                test_niyet_kapisi_ilk_urun, test_capraz_kontrol,
+               test_w35_katman2_kapsam_kapisi,
                test_w34_sifir_satir_teshisi,
                test_teknoloji_ve_ai_bolumleri,
                test_sitemap_okuyucu, test_olculen_25_haber,

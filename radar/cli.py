@@ -241,6 +241,25 @@ def cmd_finalize(a):
                 st2["tech_seen"][t["anahtar"]] = t.get("tarih", "")
         state.save(st2)
 
+    # GIDEN BULTEN HAFIZAYA YAZILIR (2026-08-27). Onceden yalniz `run
+    # --commit-state` seen'i guncelliyordu; editorun finalize ettigi liste
+    # (elle eklenen satirlar dahil) hicbir yere islenmiyordu. Sonuc: 2026-W34
+    # bulteniyle GIDEN "Jindal Stainless" satiri bir sonraki hafta yeniden
+    # listeye girdi. Postaya giren satir bir daha girmemeli.
+    st3 = state.load()
+    for r in payload["rows"]:
+        if r.get("anahtar"):
+            st3["seen"][r["anahtar"]] = r.get("tarih", "")
+        for k in r.get("olaylar", []):
+            st3["events"][k] = r.get("tarih", "")
+        if not taxonomy.is_junk_title(r.get("baslik", "")):
+            st3["son_basliklar"].append({"b": r.get("baslik", ""),
+                                         "t": r.get("tarih", ""),
+                                         "a": r.get("asama", "")})
+    state.prune(st3)
+    state.save(st3)
+    print("hafiza: %d satir 'gonderildi' olarak isaretlendi" % len(payload["rows"]))
+
     pdf_ok = render.to_pdf(base + ".html", base + ".pdf")
     print("final: %s.html (%d satir), pdf=%s, email.html yenilendi"
           % (base, len(payload["rows"]), pdf_ok))
