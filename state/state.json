@@ -3,10 +3,14 @@
   "algerian|fu|Cezayir|Belirsiz": "2026-08-24",
   "algerian|hat|Belirsiz|Belirsiz": "2026-08-24",
   "algerian|ulke|Cezayir|Belirsiz": "2026-08-24",
+  "andritz|fu|Hindistan|Galvaniz hatti (CGL)": "2026-08-25",
+  "andritz|hat|Galvaniz hatti (CGL)|Sozlesme": "2026-08-25",
+  "andritz|ulke|Hindistan|Sozlesme": "2026-08-25",
   "avustralya|hat|Serit isleme hatti|Belirsiz": "2026-08-24",
   "baowu group|fu|Cezayir|Belirsiz": "2026-08-12",
   "baowu group|hat|Belirsiz|Ilk urun": "2026-08-12",
   "baowu group|ulke|Cezayir|Ilk urun": "2026-08-12",
+  "cleveland-cliffs|hat|Belirsiz|Modernizasyon": "2026-08-24",
   "hybar|hat|Soguk hadde|Belirsiz": "2026-08-18",
   "indian|fu|Hindistan|Belirsiz": "2026-08-20",
   "indian|hat|Belirsiz|Ilk urun": "2026-08-20",
@@ -16,12 +20,17 @@
   "jindal stainless limited|ulke|Hindistan|Belirsiz": "2026-08-17",
   "manaksia steels|hat|Belirsiz|Belirsiz": "2026-08-21",
   "nippon steel|hat|Serit isleme hatti|Ilk urun": "2026-08-13",
+  "pakistan|fu|Pakistan|Soguk hadde": "2026-08-26",
+  "pakistan|hat|Soguk hadde|Teknoloji": "2026-08-26",
+  "pakistan|ulke|Pakistan|Teknoloji": "2026-08-26",
   "primetals|hat|Tandem soguk hadde (TCM)|Modernizasyon": "2026-08-11",
+  "roofings unveils|hat|Belirsiz|Teknoloji": "2026-08-25",
   "sepc limited|fu|Hindistan|Belirsiz": "2026-08-19",
   "sepc limited|hat|Belirsiz|Sozlesme": "2026-08-19",
   "sepc limited|ulke|Hindistan|Sozlesme": "2026-08-19",
   "|fu|Hindistan|Belirsiz": "2026-08-21",
   "|hat|Belirsiz|Belirsiz": "2026-08-21",
+  "|hat|Belirsiz|Ilk urun": "2026-08-26",
   "|ulke|Hindistan|Belirsiz": "2026-08-21"
  },
  "periods": [
@@ -325,20 +334,42 @@
     "tekrar": 3
    },
    "uretim": "2026-08-24 06:15 UTC"
+  },
+  {
+   "donem": "2026-W35",
+   "satir": 5,
+   "stats": {
+    "erisilemeyen": 13,
+    "ham": 2396,
+    "kabul": 5,
+    "kapsam_disi": 2137,
+    "kaynak": 133,
+    "makale_acildi": 198,
+    "on_eleme_gecti": 215,
+    "pencere_disi": 169,
+    "tarihsiz_elendi": 80,
+    "tekrar": 5
+   },
+   "uretim": "2026-08-27 05:05 UTC"
   }
  ],
  "seen": {
   "05ee3ccfafa36b08": "2026-08-11",
+  "154391920fcd5dd0": "2026-08-24",
+  "1d40f81689c438c8": "2026-08-25",
   "3462917d79ceceef": "2026-08-21",
   "357e0ddb1bfc0c2a": "2026-08-19",
+  "4d1d032a9f8bfc20": "2026-08-26",
   "4efb2dcbc4c0aae6": "2026-08-18",
   "59916e4f4d918c24": "2026-08-13",
   "69eacbbd196caa00": "2026-08-24",
   "a13cf1ef115fa16d": "2026-08-12",
+  "ae75546329a9c77a": "2026-08-26",
   "b68fa0b4d26572ac": "2026-08-21",
   "c0b5f864813ba8fd": "2026-08-17",
   "d045d03303219029": "2026-08-24",
-  "f29ebf2ed4ff9833": "2026-08-20"
+  "f29ebf2ed4ff9833": "2026-08-20",
+  "fb51c908b538f5ec": "2026-08-25"
  },
  "son_basliklar": [
   {
@@ -395,12 +426,39 @@
    "a": "Belirsiz",
    "b": "Manaksia Steels plans ₹800 crore investment to nearly triple speciality steel capacity by FY34",
    "t": "2026-08-21"
+  },
+  {
+   "a": "Sozlesme",
+   "b": "JSW Steel, India, orders ANDRITZ galvanizing line for advanced automotive steels",
+   "t": "2026-08-25"
+  },
+  {
+   "a": "Ilk urun",
+   "b": "三宝集团SACL3#新能源高牌号无取向硅钢退火炉顺利投产",
+   "t": "2026-08-26"
+  },
+  {
+   "a": "Teknoloji",
+   "b": "Pakistan launches AD sunset review on cold rolled steel imports",
+   "t": "2026-08-26"
+  },
+  {
+   "a": "Modernizasyon",
+   "b": "Cleveland-Cliffs Invests $1B in Steelmaking Modernization",
+   "t": "2026-08-24"
+  },
+  {
+   "a": "Teknoloji",
+   "b": "Roofings Unveils $125m Steel Mill, Doubles Cold-Rolled Capacity to 300,000 Tonnes",
+   "t": "2026-08-25"
   }
  ],
  "source_health": {},
  "tech_seen": {
   "tech:14822add12dd1ab1": "2026-04-15",
-  "tech:c1e20af1f2d7d31b": "2026-06-15"
+  "tech:ae75546329a9c77a": "2026-08-26",
+  "tech:c1e20af1f2d7d31b": "2026-06-15",
+  "tech:fb51c908b538f5ec": "2026-08-25"
  },
  "version": "3.0.0"
 }

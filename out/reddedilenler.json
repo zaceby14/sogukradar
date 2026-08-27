@@ -1,6 +1,6 @@
 {
  "donem": "2026-W35",
- "adet": 469,
+ "adet": 454,
  "kayitlar": [
   {
    "sebep": "kapsam_disi",
@@ -399,12 +399,6 @@
    "ek": "on eleme: 2023-12-19"
   },
   {
-   "sebep": "pencere_disi",
-   "baslik": "ANDRITZ to supply new 6-high cold rolling mill to ArcelorMittal, France",
-   "url": "https://www.andritz.com/newsroom-en/metals/2023-09-06-arcelormittal-group",
-   "ek": "on eleme: 2023-09-20"
-  },
-  {
    "sebep": "kapsam_disi",
    "baslik": "Suppliers and procurement",
    "url": "https://www.andritz.com/group-en/about-us/suppliers",
@@ -565,66 +559,6 @@
    "baslik": "Safer and repeatable operations with OTO coil loading systems",
    "url": "https://www.fivesgroup.com/newspress/detail-view/safer-and-repeatable-operations-with-oto-coil-loading-systems",
    "ek": "2026-06-24"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Newsletter #5 Francais",
-   "url": "https://www.clecim.com/newsletter-5-francais/",
-   "ek": "haber degil (menu/e-posta/kisa)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Newsletter #5 English",
-   "url": "https://www.clecim.com/newsletter-5-english-cloned/",
-   "ek": "haber degil (menu/e-posta/kisa)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Global Industrie 2026",
-   "url": "https://www.clecim.com/global-industrie-2026/",
-   "ek": "haber degil (menu/e-posta/kisa)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "AisTech 2026",
-   "url": "https://www.clecim.com/aistech/",
-   "ek": "haber degil (menu/e-posta/kisa)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Business Indastrie",
-   "url": "https://www.clecim.com/business-indastrie/",
-   "ek": "haber degil (menu/e-posta/kisa)"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Challenge Mobilités – Don association ARSLA",
-   "url": "https://www.clecim.com/challenge-mobilites-don-association-arsla/",
-   "ek": "on eleme: 2025-10-30"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "SIAS DL – Nomade",
-   "url": "https://www.clecim.com/sias-dl-nomade/",
-   "ek": "on eleme: 2025-10-30"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Challenge Mobilités – Don association Les Amis de Rémi",
-   "url": "https://www.clecim.com/challenge-mobilites-don-association-les-amis-de-remi/",
-   "ek": "on eleme: 2025-10-30"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "TATA STEEL Ground Breaking event",
-   "url": "https://www.clecim.com/tata-steel-ground-breaking-event/",
-   "ek": "on eleme: 2025-10-30"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "SUCCESS STORY | Rénovation d’un groupe hydroélectrique pour EDF Hydro",
-   "url": "https://www.clecim.com/success-story_edf/",
-   "ek": "2026-04-14"
   },
   {
    "sebep": "pencere_disi",
@@ -898,9 +832,9 @@
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "2026.07.30 プレスリリース 【販売開始】木材を使用した座屈拘束ブレース「木・鋼アンボンドブレース®」",
-   "url": "https://www.eng.nipponsteel.com/news/detail/20260730/",
-   "ek": "haber degil (menu/e-posta/kisa)"
+   "baslik": "2026.08.26 お知らせ SMART ENERGY WEEK 2026【秋展】に出展します！",
+   "url": "https://www.eng.nipponsteel.com/news/detail/20260826/",
+   "ek": "kapsam_disi"
   },
   {
    "sebep": "kapsam_disi",
@@ -994,6 +928,66 @@
   },
   {
    "sebep": "pencere_disi",
+   "baslik": "The Bronx Group Strengthens Partnership with Hoa Phat Steel Sheet Co. in Vietnam Through a New High-Speed Colour Coating Line",
+   "url": "https://thebronxgroup.com/bronx-coil-coating-line-for-hoa-phat/",
+   "ek": "on eleme: 2025-11-11"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Turning Waste into Value: Bronx Builds Enval Recycling Module for Greenback",
+   "url": "https://thebronxgroup.com/bronx-for-greenback/",
+   "ek": "on eleme: 2025-09-13"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "We’re Hiring – Technical Sales Engineer",
+   "url": "https://thebronxgroup.com/bronx-is-hiring/",
+   "ek": "on eleme: 2025-06-19"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Decoiling Line 3 for John Tainton",
+   "url": "https://thebronxgroup.com/decoiling-line-3-for-john-tainton/",
+   "ek": "on eleme: 2023-06-18"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "The Latest Bronx Metal Embossing Machine",
+   "url": "https://thebronxgroup.com/the-latest-bronx-metal-embosser/",
+   "ek": "on eleme: 2023-03-05"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Bronx at the ECCA Congress",
+   "url": "https://thebronxgroup.com/bronx-at-the-ecca-congress/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "New technologies as a tool to add value to your coil",
+   "url": "https://thebronxgroup.com/new-technologies-as-a-tool-to-add-value-to-your-coil/",
+   "ek": "on eleme: 2021-11-23"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Take a virtual tour around Metal Profile’s flagship factory",
+   "url": "https://thebronxgroup.com/take-a-virtual-tour-around-metal-profiles-flagship-factory/",
+   "ek": "on eleme: 2021-04-28"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Bronx Coater Installed at TPK Vietnam",
+   "url": "https://thebronxgroup.com/bronx-coater-tpk-vietnam-mar21/",
+   "ek": "on eleme: 2021-03-25"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "The Bronx Group welcomes SpecMetrix® to Russia/CIS region",
+   "url": "https://thebronxgroup.com/the-bronx-group-welcomes-specmetrix-to-russia-cis-region/",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "pencere_disi",
    "baslik": "Delta Steel Technologies Showcases Next-Level Temper Pass CTL Line",
    "url": "https://www.deltasteeltech.com/dst-tmpctl/",
    "ek": "on eleme: 2025-06-23"
@@ -1054,6 +1048,12 @@
   },
   {
    "sebep": "pencere_disi",
+   "baslik": "New Contract Awarded by Egyptalum",
+   "url": "https://mino.it/new-contract-awarded-by-egyptalum/",
+   "ek": "on eleme: 2026-02-25"
+  },
+  {
+   "sebep": "pencere_disi",
    "baslik": "MINO completes installation of fully automatic Preparation Station at ALUNORF",
    "url": "https://mino.it/mino-completes-installation-of-fully-automatic-preparation-station-at-alunorf/",
    "ek": "on eleme: 2026-02-21"
@@ -1065,10 +1065,10 @@
    "ek": "on eleme: 2025-10-23"
   },
   {
-   "sebep": "pencere_disi",
-   "baslik": "MINO SpA selected once more by Ningbo Jintian Copper for the supply of a new Four-High Reversing Roughing Mill",
-   "url": "https://mino.it/mino-four-high-reversing-roughing-mill-ningbo-jintian-copper/",
-   "ek": "on eleme: 2025-10-05"
+   "sebep": "kapsam_disi",
+   "baslik": "MINO Six-High Reversing Intermediate Finishing Mill Successfully Passes Final Acceptance Tests at Ningbo Jintian Copper",
+   "url": "https://mino.it/mino-six-high-mill-ningbo-jintian-final-acceptance-tests/",
+   "ek": "kapsam_disi"
   },
   {
    "sebep": "pencere_disi",
@@ -1107,12 +1107,6 @@
    "ek": "2026-03-13"
   },
   {
-   "sebep": "pencere_disi",
-   "baslik": "New Contract Awarded by Egyptalum",
-   "url": "https://mino.it/new-contract-awarded-by-egyptalum/",
-   "ek": "2026-02-25"
-  },
-  {
    "sebep": "kapsam_disi",
    "baslik": "COOKIE CONSENT MANAGEMENT",
    "url": "https://www.secowarwick.com/en/news/",
@@ -1144,6 +1138,12 @@
   },
   {
    "sebep": "kapsam_disi",
+   "baslik": "The Tenth Furnace for a Global Energy Technology Leader",
+   "url": "https://www.secowarwick.com/en/news/the-tenth-furnace-for-a-global-energy-technology-leader/",
+   "ek": "baska_malzeme"
+  },
+  {
+   "sebep": "kapsam_disi",
    "baslik": "The defense industry needs a robust industrial base. SECO/WARWICK delivers technologies for critical production.",
    "url": "https://www.secowarwick.com/en/news/the-defense-industry-needs-a-robust-industrial-base/",
    "ek": "baska_malzeme"
@@ -1171,18 +1171,6 @@
    "baslik": "Extraordinary general meeting of shareholders",
    "url": "https://www.secowarwick.com/en/news/extraordinary-general-meeting_of_shareholders/",
    "ek": "2026-07-27"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "A new heat treat facility in the Czech Republic powered by SECO/WARWICK solutions",
-   "url": "https://www.secowarwick.com/en/news/a-new-heat-treat-facility-in-the-czech-republic/",
-   "ek": "2026-07-22"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "single chamber vacuum furnace",
-   "url": "https://www.secowarwick.com/en/single-chamber-vacuum-furnace/",
-   "ek": "2022-04-27"
   },
   {
    "sebep": "pencere_disi",
@@ -2367,6 +2355,12 @@
    "ek": "kapsam kapisi (baslik)"
   },
   {
+   "sebep": "kapsam_disi",
+   "baslik": "Daily press , Trade press",
+   "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/sustainability-in-focus-thyssenkrupp-steel-achieves-responsiblesteel-site-certification.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
    "sebep": "pencere_disi",
    "baslik": "Trade press | 2024-12-13 thyssenkrupp Steel has commissioned a modernized walking beam furnace in Duisburg-Bruckhausen for high-quality electrical steel strip production",
    "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/thyssenkrupp-steel-has-commissioned-a-modernized-walking-beam-furnace-in-duisburg-bruckhausen-for-high-quality-electrical-steel-strip-production.html",
@@ -2389,12 +2383,6 @@
    "baslik": "POSCO Goes Global: Australia – Connecting 55 Years of Trust and Cooperation to the Future 2026/04/02",
    "url": "https://newsroom.posco.com/en/posco-goes-global-australia-connecting-55-years-of-trust-and-cooperation-to-the-future/",
    "ek": "2026-04-02"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "voestalpine unveils further expansion plans for greentec steel at its Donawitz location",
-   "url": "https://www.voestalpine.com/group/en/media/press-releases/2026-06-18-voestalpine-unveils-further-expansion-plans-for-greentec-steel-at-its-donawitz-location/",
-   "ek": "2026-06-18"
   },
   {
    "sebep": "tarihsiz_elendi",
@@ -2446,63 +2434,9 @@
   },
   {
    "sebep": "pencere_disi",
-   "baslik": "U. S. Steel Powers Pennsylvania Economy with Jobs, Local Investment, and Community Impact",
-   "url": "https://www.ussteel.com:443/media/newsroom/-/blogs/u-s-steel-powers-pennsylvania-economy-with-jobs-local-investment-and-community-impact?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fwww.ussteel.com%3A443%2Fmedia%2Fnewsroom%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26_com_liferay_blogs_web_portlet_BlogsPortlet_cur%3D1%26_com_liferay_blogs_web_portlet_BlogsPortlet_delta%3D20",
-   "ek": "on eleme: 2026-02-13"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "U. S. Steel Strengthens Arkansas Economy with Jobs, Local Investment, and Community Impact",
-   "url": "https://www.ussteel.com:443/media/newsroom/-/blogs/u-s-steel-strengthens-arkansas-economy-with-jobs-local-investment-and-community-impact?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fwww.ussteel.com%3A443%2Fmedia%2Fnewsroom%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26_com_liferay_blogs_web_portlet_BlogsPortlet_cur%3D1%26_com_liferay_blogs_web_portlet_BlogsPortlet_delta%3D20",
-   "ek": "on eleme: 2025-11-18"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "U. S. Steel Powers Minnesota Economy with Jobs, Local Investment, and Community Impact",
-   "url": "https://www.ussteel.com:443/media/newsroom/-/blogs/u-s-steel-powers-minnesota-economy-with-jobs-local-investment-and-community-impact?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fwww.ussteel.com%3A443%2Fmedia%2Fnewsroom%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26_com_liferay_blogs_web_portlet_BlogsPortlet_cur%3D1%26_com_liferay_blogs_web_portlet_BlogsPortlet_delta%3D20",
-   "ek": "on eleme: 2025-11-12"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "U. S. Steel Invests Approximately $475 Million in State-of-the-Art Quench & Tempering Line at Fairfield Tubular Operations",
-   "url": "https://www.ussteel.com:443/media/newsroom/-/blogs/u-s-steel-invests-approximately-475-million-in-state-of-the-art-quench-tempering-line-at-fairfield-tubular-operations?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fwww.ussteel.com%3A443%2Fmedia%2Fnewsroom%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26_com_liferay_blogs_web_portlet_BlogsPortlet_cur%3D1%26_com_liferay_blogs_web_portlet_BlogsPortlet_delta%3D20",
-   "ek": "2026-06-24"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "U. S. Steel Drives Economic Opportunity in Alabama with Jobs, Local Investment, and Community Impact",
-   "url": "https://www.ussteel.com:443/media/newsroom/-/blogs/u-s-steel-drives-economic-opportunity-in-alabama-with-jobs-local-investment-and-community-impact?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fwww.ussteel.com%3A443%2Fmedia%2Fnewsroom%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26_com_liferay_blogs_web_portlet_BlogsPortlet_cur%3D1%26_com_liferay_blogs_web_portlet_BlogsPortlet_delta%3D20",
-   "ek": "2026-05-20"
-  },
-  {
-   "sebep": "pencere_disi",
    "baslik": "U. S. Steel Announces Plans to Restart Gary Tin Mill",
    "url": "https://www.ussteel.com:443/media/newsroom/-/blogs/u-s-steel-announces-plans-to-restart-gary-tin-mill?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fwww.ussteel.com%3A443%2Fmedia%2Fnewsroom%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26_com_liferay_blogs_web_portlet_BlogsPortlet_cur%3D1%26_com_liferay_blogs_web_portlet_BlogsPortlet_delta%3D20",
    "ek": "2026-04-16"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Community The Story of Steel In Arkansas For nearly four decades, Nucor Steel Arkansas and Nucor-Yamato Steel have invested in this state – in its people, its schools, its communit",
-   "url": "https://nucor.com/2025/09/20/the-story-of-steel-in-arkansas/",
-   "ek": "on eleme: 2025-09-20"
-  },
-  {
-   "sebep": "tarih_celiskisi",
-   "baslik": "August 2024 JOINT STEEL INVESTMENT WITH SONANGOL IN ANGOLA BY TOSYALI",
-   "url": "https://www.tosyaliholding.com.tr/en/media-central/press-releases/tosyali-holding/2024/joint-steel-investment-with-sonangol-in-angola-by-tosyali",
-   "ek": "baslik yili < 2026-08-10"
-  },
-  {
-   "sebep": "tarih_celiskisi",
-   "baslik": "January 2024 GIANT INVESTMENT PLANNED BY GLOBAL GREEN STEEL PRODUCER TOSYALI HOLDING IN SAUDI ARABIA",
-   "url": "https://www.tosyaliholding.com.tr/en/media-central/press-releases/tosyali-holding/2024/giant-investment-planned-by-global-green-steel-producer-tosyali-holding-in-saudi-arabia",
-   "ek": "baslik yili < 2026-08-11"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "İspanya, Hydnum Steel’in Yeşil Çelik Tesisine 150 Milyon Euro Destek Sağlayacak",
-   "url": "https://www.steelturk.com.tr/ispanya-hydnum-steelin-yesil-celik-tesisine-150-milyon-euro-destek-saglayacak/",
-   "ek": "2026-08-07"
   },
   {
    "sebep": "pencere_disi",
@@ -2512,27 +2446,33 @@
   },
   {
    "sebep": "pencere_disi",
-   "baslik": "Kocaer Çelik ABD'de Üretim İçin Şirket Kuruyor",
-   "url": "https://www.steelturk.com.tr/kocaer-celik-abdde-uretim-icin-sirket-kuruyor/",
-   "ek": "2026-07-24"
-  },
-  {
-   "sebep": "pencere_disi",
    "baslik": "Posco ve Hyundai'den Elektrikli Araçlar İçin Yeni Nesil Elektrik Çeliği Hamlesi",
    "url": "https://www.steelturk.com.tr/posco-ve-hyundaiden-elektrikli-araclar-icin-yeni-nesil-elektrik-celigi-hamlesi/",
    "ek": "2026-07-13"
   },
   {
    "sebep": "tekrar",
-   "baslik": "Nucor to invest $59 million in steel grating capacity",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/nucor-to-invest-59-million-in-steel-grating-capacity-1471050.htm",
-   "ek": "benzer baslik (bu kosuda)"
+   "baslik": "JSW Steel orders Andritz galvanizing line for advanced automotive steels",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/jsw-steel-orders-andritz-galvanizing-line-for-advanced-automotive-steels-1472727.htm",
+   "ek": "ayni olayin varyanti: andritz|hat|Galvaniz hatti (CGL)|Sozlesme"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "India's Jindal Stainless Limited to invest $94 million to ramp up cold rolling capacity",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/indias-jindal-stainless-limited-to-invest-94-million-to-ramp-up-cold-rolling-capacity-1471127.htm",
+   "ek": ""
   },
   {
    "sebep": "tekrar",
    "baslik": "India's Manaksia Steel to invest $84 million to expand value-added flats capacities",
    "url": "https://www.steelorbis.com/steel-news/latest-news/indias-manaksia-steel-to-invest-84-million-to-expand-value-added-flats-capacities-1470867.htm",
-   "ek": "benzer baslik (bu kosuda)"
+   "ek": "benzer baslik (gecmis 21 gun)"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "KG Steel selects Primetals for Dangjin PLTCM upgrade and capacity expansion",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/kg-steel-selects-primetals-for-dangjin-pltcm-upgrade-and-capacity-expansion-1470187.htm",
+   "ek": "2026-08-11"
   },
   {
    "sebep": "pencere_disi",
@@ -2545,42 +2485,6 @@
    "baslik": "tk accelis announces milestone at Stuttgart steel service center",
    "url": "https://www.steelorbis.com/steel-news/latest-news/tk-accelis-announces-milestone-at-stuttgart-steel-service-center-1469079.htm",
    "ek": "2026-08-05"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "India's JSW Steel Limited secures global investment grade rating from Moody's",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/indias-jsw-steel-limited-secures-global-investment-grade-rating-from-moodys-1468262.htm",
-   "ek": "2026-07-31"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Xining Special Steel invests in establishing a technology company",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/xining-special-steel-invests-in-establishing-a-technology-company-1468149.htm",
-   "ek": "2026-07-31"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Eastern Steel commissions 650,000 mt temper mill in Malaysia",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/eastern-steel-commissions-650000-mt-temper-mill-in-malaysia-1467608.htm",
-   "ek": "2026-07-29"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Tosyalı Algerie produces first cold rolled products at new complex",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/tosyali-algerie-produces-first-cold-rolled-products-at-new-complex-1467574.htm",
-   "ek": "2026-07-29"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "SAIL and Krakatau Steel plan to build $350 million stainless steel slab mill in Indonesia",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/sail-and-krakatau-steel-plan-to-build-350-million-stainless-steel-slab-mill-in-indonesia-1467526.htm",
-   "ek": "2026-07-29"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Severstal develops digital installation technology for CherMK galvanizing line upgrade",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/severstal-develops-digital-installation-technology-for-chermk-galvanizing-line-upgrade-1467262.htm",
-   "ek": "2026-07-28"
   },
   {
    "sebep": "tarihsiz_elendi",
@@ -2812,9 +2716,15 @@
   },
   {
    "sebep": "tekrar",
-   "baslik": "SMS Group to Build Second Continuous Mini-Mill for Hybar in Arkansas",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZjJBR2FqR2N1TVdTVEJDUUp0bk55aHNhTnU3WGhqT2FocEk1SUFldnFPSXplblNBWHNXb1l2N1J0X3F1THg0d0dZLTM5QTUyR0ZUVFZDdFg5algtcHdfWTl2dmRRUGJ1Z244djNrcGxOSFU3RWc3eVEwbkpTWTQwRF9kd1BtTEgtQkFlNkhJS19fQVlkVTBWNC0tQnloMmw3MzFPbw?oc=5",
-   "ek": "benzer baslik (bu kosuda)"
+   "baslik": "Roofings Unveils $125m Steel Mill, Doubles Cold-Rolled Capacity to 300,000 Tonnes",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRWp3TW5taXBCVU10X0pUNE1UTEwtS0VQc2t2aXhPczd4alM3cERaWFN5Tmx0dnhycURTTG5wUWRKOHphSXhpQmNqWWNJTGtLakNVUnNsYkQ3alB6THRxVDVEaFp1M1l1VEpRUHVPQ2xHZ216TkVVNXVid24weWRrUmM4cS01Smp1aE5taFdjRjVxWVlqcWxidl81T1ljeF9WdUE?oc=5",
+   "ek": ""
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "JSW Steel katma değerli otomotiv çeliği üretimi için Andritz'ten galvanizleme hattı sipariş etti",
+   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQYUkxaERUUDhYUlJhMjJUR1Z3dko4WmVNUmFKTXlXdVhFMjFfR0J4aHRoUnd1dnhmazh3QjNYakdqdmNjYTM1WnRJU3hnV3BKRVNidlQtdU0wcW5lSF9DNHZPa1dpTmVmdDFVNVM0dFNPdzdqQjd1RDJ4UndfWXdkTzZRU2RVUlZJWGVKel9Ud2NDRWdQWVh2MlVLdTFnS0lZZGQtV19FQlVLbEV5SGEyeDRyWnV5QUpBLVpmZVdwTFpXTU1NTnNRWlBUMkFBdGU1b0RJQjZXdlNlMEZGbHJ6aHhBMEYtSFNhejEzNFZWR2NuaEtZN2c?oc=5",
+   "ek": "ayni olayin varyanti: andritz|hat|Galvaniz hatti (CGL)|Sozlesme"
   }
  ]
 }

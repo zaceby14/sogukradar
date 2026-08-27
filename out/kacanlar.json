@@ -1,10 +1,10 @@
 {
  "donem": "2026-W35",
  "pencere": [
-  "2026-08-09",
-  "2026-08-24"
+  "2026-08-12",
+  "2026-08-27"
  ],
- "uretim": "2026-08-24 06:15 UTC",
+ "uretim": "2026-08-27 05:09 UTC",
  "kaynaklar": {
   "steeltimesint": {
    "publisher": "Steel Times International",
@@ -35,29 +35,9 @@
    "baslik": "tk accelis announces milestone at Stuttgart steel service center",
    "url": "https://www.steelorbis.com/steel-news/latest-news/tk-accelis-announces-milestone-at-stuttgart-steel-service-center-1469079.htm",
    "sebep": "pencere disi (2026-08-05)"
-  },
-  {
-   "baslik": "Xining Special Steel invests in establishing a technology company",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/xining-special-steel-invests-in-establishing-a-technology-company-1468149.htm",
-   "sebep": "pencere disi (2026-07-31)"
-  },
-  {
-   "baslik": "Eastern Steel commissions 650,000 mt temper mill in Malaysia",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/eastern-steel-commissions-650000-mt-temper-mill-in-malaysia-1467608.htm",
-   "sebep": "pencere disi (2026-07-29)"
-  },
-  {
-   "baslik": "SAIL and Krakatau Steel plan to build $350 million stainless steel slab mill in Indonesia",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/sail-and-krakatau-steel-plan-to-build-350-million-stainless-steel-slab-mill-in-indonesia-1467526.htm",
-   "sebep": "pencere disi (2026-07-29)"
-  },
-  {
-   "baslik": "Severstal develops digital installation technology for CherMK galvanizing line upgrade",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/severstal-develops-digital-installation-technology-for-chermk-galvanizing-line-upgrade-1467262.htm",
-   "sebep": "pencere disi (2026-07-28)"
   }
  ],
- "kapiyi_gecen": 6,
+ "kapiyi_gecen": 2,
  "sitemap_adayi": 400,
- "elenen": 394
+ "elenen": 398
 }
