@@ -1060,6 +1060,64 @@ def test_rezerv_ve_teknoloji_havuzu():
        ["tech:1"], "tanitilan teknoloji havuzdan duser")
 
 
+def test_rezervin_ortaya_cikardigi_delikler():
+    """v15 (2026-08-27): rezerv ilk kez calisinca gorunen kapi delikleri.
+
+    Rezerv havuzu devreye girince liste 8 satira ciktI ama BESI COPTU.
+    Hepsi daha once "pencere disi" etiketiyle sessizce eleniyordu; havuz
+    onlari gorunur kildi. Basliklar o koşunun gercek satirlaridir.
+
+    Ortak mekanizma: MALZEME VETOSU baslik+GOVDE uzerinde bakiyordu ve
+    govdedeki tek bir "steel" kelimesi vetoyu kaldiriyordu.
+    """
+    # ALUMINYUM - govdede "steel" gecince veto kalkiyordu
+    alu = ("MINO awarded Phase One modernization contract for Golden Aluminum, "
+           "Fort Lupton CO Tandem Cold Rolling Mill")
+    govde = "MINO supplies rolling mills to the steel and aluminium industries worldwide."
+    eq(taxonomy.in_scope(alu, govde)[0], False, "aluminyum basligi govdeyle kurtulamaz")
+    eq(taxonomy.in_scope(alu, "")[1], "baska_malzeme", "sebep: baska malzeme")
+    eq(taxonomy.in_scope("First Coil Successfully Rolled on MINO-Revamped Cold "
+                         "Rolling Mill at JW Aluminium, Goose Creek", govde)[0],
+       False, "JW Aluminium satiri girmemeli")
+    # ...ama celik + aluminyum birlikte gecen GERCEK celik haberi girmeli
+    eq(taxonomy.in_scope("ANDRITZ to supply cold rolling mill for steel and "
+                         "aluminium strip", "")[0], True,
+       "baslikta celik varsa aluminyum vetosu calismaz")
+
+    # DERNEK / ETKINLIK
+    eq(taxonomy.in_scope("EGGA-Galvanizing Europe Presidency: Benelux to Spain",
+                         "galvanizing association news")[0], False,
+       "dernek baskanligi devri haber degil")
+    eq(taxonomy.in_scope("PRE Open House: Celebrating Growth, Community, and the Future",
+                         "PRE serves the steel coil processing industry.")[0], False,
+       "acik kapi gunu haber degil")
+
+    # BORU - ama "radiant tube" gercek bir tavlama bileseni, bozulmamali
+    eq(taxonomy.in_scope("Marion Die & Fixture Bender: Precision Forming for "
+                         "Drainage Tubing", "The line processes steel strip.")[0],
+       False, "boru urunu kapsam disi")
+    eq(taxonomy.in_scope("Ebner supplies radiant tube furnace for annealing line",
+                         "")[0], True, "radiant tube bozulmamali")
+
+    # TEKNOLOJI KOSESI ADAY KAPISI satir asamasindan BAGIMSIZ. Asama kapisi
+    # daraltilinca (v13) kose havuzu 0'a dusmustu.
+    for t in ["POSCO Partners with Hyundai Motor and 8 Organizations to Develop "
+              "Next-Generation High-Efficiency Electrical Steel for EVs",
+              "Severstal develops digital installation technology for CherMK galvanizing line",
+              "ANDRITZ Schuler Develops Innovative Laser Technology for Cut-to-Length Lines"]:
+        eq(bool(taxonomy.TECH_ADAY.search(taxonomy.fold(t))), True,
+           "kose adayi olmali: " + t[:45])
+    for t in ["Roofings Unveils $125m Steel Mill, Doubles Cold-Rolled Capacity",
+              "Pakistan launches AD sunset review on cold rolled steel imports"]:
+        eq(bool(taxonomy.TECH_ADAY.search(taxonomy.fold(t))), False,
+           "kose adayi OLMAMALI: " + t[:45])
+
+    # Gercek satirlar korunmali
+    for t in ["TOSYALI ALGERIE, SOGUK HADDELEME KOMPLEKSINDE ILK URETIMI YAPTI",
+              "tk accelis announces milestone at Stuttgart steel service center"]:
+        eq(taxonomy.in_scope(t, "")[0], True, "gercek satir korunmali: " + t[:45])
+
+
 def test_sitemap_okuyucu():
     """v6 (2026-08-17): haber sitemap'i kaynak turu.
 
@@ -1264,6 +1322,7 @@ def run():
                test_niyet_kapisi_ilk_urun, test_capraz_kontrol,
                test_w35_katman2_kapsam_kapisi, test_w35_ornek_kosu,
                test_rezerv_ve_teknoloji_havuzu,
+               test_rezervin_ortaya_cikardigi_delikler,
                test_w34_sifir_satir_teshisi,
                test_teknoloji_ve_ai_bolumleri,
                test_sitemap_okuyucu, test_olculen_25_haber,

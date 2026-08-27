@@ -264,7 +264,11 @@ def collect(today=None, log=print):
         # YALNIZCA BASLIGA bakilir: govdedeki "innovation" gibi pazarlama
         # sozcukleri bir yatirim kararini teknoloji sanmamiza yol aciyordu
         # (2026-08-12, USS Gary teneke haberi).
-        if taxonomy.match_stage(it["title"]) != "Teknoloji":
+        # Kose kapisi satir asamasindan BAGIMSIZ (2026-08-27). Asama kapisi
+        # daraltilinca kose havuzu kurumustu (aday 0). Kose biraz daha genis
+        # olabilir: oradaki madde editor tarafindan elle okunup tanitiliyor.
+        if not (taxonomy.match_stage(it["title"]) == "Teknoloji"
+                or taxonomy.TECH_ADAY.search(taxonomy.fold(it["title"]))):
             return
         ok_scope, _ = taxonomy.in_scope(it["title"], (text or "")[:700])
         if not ok_scope:
@@ -468,6 +472,12 @@ def collect(today=None, log=print):
             key = state.norm_key(it["title"], it["url"])
             if key in seen or key in run_keys:
                 drop("tekrar", it)
+                continue
+            # Teknoloji kosesinde ZATEN tanitilmis bir haber satir olarak
+            # tekrar cikmamali - okuyucu icin ayni haberdir (2026-W35'te
+            # POSCO elektrik celigi hem arsivde hem listede vardi).
+            if ("tech:" + key) in tech_seen:
+                drop("tekrar", it, "kosede tanitilmis")
                 continue
 
             # IKI KATMANLI LISTE (2026-08-12 karari - "1 haftada tek haber

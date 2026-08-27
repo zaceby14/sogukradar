@@ -356,6 +356,16 @@ _NOISE = (
     r"award(s|ed) (to|for) (excellence|safety)|prize|medal|anniversar|"
     r"volunteer|donation|charity|sponsorship|christmas|"
     r"conference|exhibition|trade fair|webinar|seminar|congress|"
+    # DERNEK / ETKINLIK / KURUMSAL TOREN (2026-08-27). Rezerv havuzu bunlari
+    # gorunur kildi: "EGGA-Galvanizing Europe PRESIDENCY: Benelux to Spain"
+    # ve "PRE OPEN HOUSE: Celebrating Growth, Community, and the Future"
+    # satirlari galvaniz/bobin terimleri tasidiklari icin listeye girmisti.
+    r"open house|presidency|elected president|board of directors|"
+    r"annual (meeting|general)|general assembly|celebrat|"
+    r"grand opening ceremon|ribbon cutting|"
+    # BORU kapsam disi. "tube" tek basina yasaklanamaz - "radiant tube"
+    # gercek bir tavlama hatti bilesenidir; yalniz boru urunu kaliplari.
+    r"\btubing\b|tube mill|pipe mill|\bboru hatt|boru uretim|"
     r"job opening|vacancy|internship|"
     # enerji / karbon duyurulari
     r"photovoltaic|solar (park|plant|panel)|wind farm|power purchase|\bppa\b|"
@@ -667,6 +677,24 @@ def haber_olayi(title):
     return match_stage(title) not in ("Belirsiz", "Teknoloji")
 
 
+# TEKNOLOJI KOSESI ADAY KALIBI (2026-08-27).
+#
+# Kose adaylari daha once match_stage(...) == "Teknoloji" ile bulunuyordu.
+# 2026-08-27'de o asama kapisi DARALTILDI (tesis acilisini teknoloji sayiyordu)
+# ve yan etki olarak kose havuzu kurudu: aday sayisi 0'a dustu. Kose kapisi
+# ile satir asamasi AYNI SEY DEGIL - kose biraz daha genis olmali, cunku
+# oradaki madde editor tarafindan elle okunup tanitiliyor.
+TECH_ADAY = re.compile(
+    r"new technology|technolog\w* (for|to|that)|patent|licen[cs]e|"
+    r"joint(ly)? develop|next[- ]generation|\br&d\b|"
+    r"research (project|partnership|collaboration)|world first|"
+    r"first[- ]of[- ]its[- ]kind|pilot (line|plant|project)|demonstrat\w+ plant|"
+    r"develop(s|ed|ing)\b.{0,40}(technolog|process|grade|line|steel|coating)|"
+    r"(unveil|launch|introduc|present|showcase|debut)\w*\s+.{0,30}?"
+    r"(technolog|process|solution|system|method|\bgrade|innovation)|"
+    r"yeni teknoloji|yeni nesil|gelistir|lisans|ar[- ]ge|patent")
+
+
 # CJK karakter araligi (Cince/Japonca). Bu dillerde kelime sinirı yoktur.
 CJK = re.compile(r"[\u4e00-\u9fff\u3040-\u30ff]")
 
@@ -779,6 +807,15 @@ def in_scope(title, lead=""):
     # asagida KOSULLU bakilir (guclu soguk terim vetoyu kaldirir), bu yuzden
     # burada HARD_REJECT'i toptan uygulamak yanlis olur - "cold rolling mill
     # and hot strip mill" gibi karma basliklari kesiyordu.
+    # MALZEME VETOSU BASLIKTA (2026-08-27). Onceki surum baslik+govde
+    # uzerinde bakiyordu: govdede gecen TEK BIR "steel" kelimesi (OEM
+    # sayfalarindaki "we serve the steel and aluminium industries" gibi
+    # bir cumle) vetoyu kaldiriyordu. Rezerv havuzu bunu gorunur kildi -
+    # "MINO ... for Golden ALUMINUM ... Tandem Cold Rolling Mill" ve
+    # "First Coil ... at JW ALUMINIUM" satirlari boyle listeye girdi.
+    # Baslik baska malzeme diyorsa govde onu kurtaramaz.
+    if MATERIAL_BLOCK.search(ft) and not re.search(r"(steel|celik)", ft):
+        return False, "baska_malzeme"
     if MATERIAL_BLOCK.search(blob) and not re.search(r"(steel|celik)", blob):
         return False, "baska_malzeme"
     # YUKARI AKIS VETOSU - BASLIKTA (v5.2, 2026-08-17).

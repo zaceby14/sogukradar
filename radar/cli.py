@@ -210,7 +210,9 @@ def _rezerv_guncelle(st, yeni_adaylar, rows):
         havuz.setdefault(r["anahtar"], r)
     seen = st.get("seen") or {}
     bu_kosu = {r.get("anahtar") for r in rows}
-    temiz = [r for k, r in havuz.items() if k not in seen and k not in bu_kosu]
+    kosede = {k[5:] for k in (st.get("tech_seen") or {}) if k.startswith("tech:")}
+    temiz = [r for k, r in havuz.items()
+             if k not in seen and k not in bu_kosu and k not in kosede]
     temiz.sort(key=lambda r: r.get("tarih", ""), reverse=True)
     st["rezerv"] = temiz[:REZERV_MAX]
     return list(st["rezerv"])
