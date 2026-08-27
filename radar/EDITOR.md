@@ -117,6 +117,30 @@ cümle yazılmazsa mailde İngilizce başlık çıkar — yazmak daha iyidir.
 satır olur ve mailde **`+ AI`** rozetiyle görünür; yalnız `neden` taşıyan
 madde satır üretmez, sadece bölümde görünür.
 
+## 4b. Hacim hedefi: 7-8 gelişme + 1 teknoloji
+
+Bülten **ortalama 7-8 gelişme** ve **her hafta 1 teknoloji** taşımalı.
+
+**Bu hedef kapıyı gevşeterek tutturulmaz.** 2026-W35'te tam olarak bu
+denendi: Katman 2 "her çelik yatırımını" alınca liste 11 satıra çıktı ama
+9'u kapsam dışıydı. Doğru yol **rezerv**:
+
+- Pencere dışında kalan ama **aynı kapıdan geçmiş ve tarihi sayfadan
+  doğrulanmış** satırlar `state.rezerv`'de birikir.
+- Taze liste 8'in altındaysa eksik buradan, yeniden eskiye doğru tamamlanır.
+- Bu satırlar mailde **"GEÇ YAKALANDI"** rozetiyle çıkar — okuyucu neden
+  eski tarihli bir satır gördüğünü bilir.
+- Teknoloji köşesi de aynı mantıkla `state.tech_rezerv`'den beslenir; aday
+  çıkmayan hafta köşe boş kalmaz.
+
+**Ölçülen arz:** taze kapsam içi haber haftada ~1-3. Yani 7-8'in bir kısmı
+düzenli olarak rezervden gelecek — bu bir kusur değil, tasarım. Rezerv
+tükenirse liste kısalır; **kısa liste, yanlış listeden iyidir.** O hafta
+diagnoz yaz: erişilemeyen kaynak sayısı ve rezerv havuzunun boyutu.
+
+Hacmi kalıcı yükseltmenin tek gerçek yolu **erişim**: ölçüme göre kapsam içi
+haberin %72'si STI + SteelOrbis'ten geliyor ve STI 403 veriyor.
+
 ## 5. Kalıcı bölümler
 
 Bu iki bölüm **her hafta**, içerik olmasa da render edilir — bölümün hiç

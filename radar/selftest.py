@@ -1002,6 +1002,64 @@ def test_w35_ornek_kosu():
     eq(taxonomy.match_stage(jsw), "Sozlesme", "JSW asamasi")
 
 
+def test_rezerv_ve_teknoloji_havuzu():
+    """v14 (2026-08-27): hacim hedefi 7-8 satir + her hafta 1 teknoloji.
+
+    Olcum: taze kapsam ici arz haftada ~1-3 haber. Hedefi kapiyi gevseterek
+    tutturmak 2026-W35'te denendi ve bulteni yukari akisla doldurdu. Dogru
+    yol REZERV: gecmis kosularda kapiyi gecmis, tarihi SAYFADAN dogrulanmis
+    ama pencere disinda kaldigi icin hic gonderilmemis satirlar.
+
+    Vakalar gercek: son kosuda elenen 30 kapsam ici satirin 26'si sirf
+    pencere disiydi; 11'i 2026 tarihliydi ve okuyucu hicbirini gormemisti.
+    """
+    from . import render
+    from .cli import _rezerv_guncelle, _tech_havuz
+
+    def _r(anahtar, tarih, baslik):
+        return {"anahtar": anahtar, "tarih": tarih, "baslik": baslik,
+                "hat": "Soguk hadde", "asama": "Ilk urun", "kategori": "Hat",
+                "rezerv": True}
+
+    havuzdaki = [
+        _r("a1", "2026-07-29", "Tosyalı Algerie produces first cold rolled products at new complex"),
+        _r("a2", "2026-07-29", "Eastern Steel commissions 650,000 mt temper mill in Malaysia"),
+        _r("a3", "2026-04-16", "U. S. Steel Announces Plans to Restart Gary Tin Mill"),
+    ]
+    st = {"seen": {"a3": "2026-04-16"}, "rezerv": havuzdaki[:1]}
+    kalan = _rezerv_guncelle(st, havuzdaki[1:], rows=[])
+    eq([r["anahtar"] for r in kalan], ["a1", "a2"],
+       "raporlanmis satir (a3) havuzdan dusmeli, kalanlar yeniden eskiye")
+
+    # Bu koşuda listeye giren bir satir rezervden de dusmeli
+    kalan2 = _rezerv_guncelle(dict(st, rezerv=havuzdaki), [],
+                              rows=[{"anahtar": "a1"}])
+    eq([r["anahtar"] for r in kalan2], ["a2"], "bu kosudaki satir rezervde durmaz")
+
+    # Rezerv satiri mailde "GEC YAKALANDI" rozetiyle gorunur
+    payload = {"rows": [dict(havuzdaki[1], firma="Eastern Steel", ulke="Malezya",
+                             tedarikci="", tutar="", kaynak="SteelOrbis",
+                             url="https://x/1")],
+               "stats": {"kaynak": 133}, "unreachable": [],
+               "window": ["2026-08-12", "2026-08-27"], "period": "2026-W35"}
+    mail = render.email_html(payload, {}, [], 16)
+    eq("GEÇ YAKALANDI" in mail, True, "rezerv satiri rozetle isaretlenmeli")
+
+    # TEKNOLOJI HAVUZU kalicidir: taze aday cikmayan hafta bos kalmaz
+    t1 = {"anahtar": "tech:1", "tarih": "2026-06-15", "baslik": "POSCO NGO"}
+    t2 = {"anahtar": "tech:2", "tarih": "2026-07-28", "baslik": "Severstal CherMK"}
+    st2 = {"tech_rezerv": [t1], "tech_seen": {}}
+    havuz = _tech_havuz(st2, [t2])
+    eq([t["anahtar"] for t in havuz], ["tech:2", "tech:1"], "havuz birikir, yeniden eskiye")
+    # taze aday YOKKEN de havuz dolu kalir -> kose bos gecmez
+    eq(len(_tech_havuz({"tech_rezerv": havuz, "tech_seen": {}}, [])), 2,
+       "taze aday olmasa da havuz durur")
+    # tanitilan madde bir daha cikmaz
+    eq([t["anahtar"] for t in _tech_havuz({"tech_rezerv": havuz,
+                                           "tech_seen": {"tech:2": "x"}}, [])],
+       ["tech:1"], "tanitilan teknoloji havuzdan duser")
+
+
 def test_sitemap_okuyucu():
     """v6 (2026-08-17): haber sitemap'i kaynak turu.
 
@@ -1205,6 +1263,7 @@ def run():
                test_olay_kapisi_v5, test_w34_sicak_hadde,
                test_niyet_kapisi_ilk_urun, test_capraz_kontrol,
                test_w35_katman2_kapsam_kapisi, test_w35_ornek_kosu,
+               test_rezerv_ve_teknoloji_havuzu,
                test_w34_sifir_satir_teshisi,
                test_teknoloji_ve_ai_bolumleri,
                test_sitemap_okuyucu, test_olculen_25_haber,

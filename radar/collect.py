@@ -14,8 +14,8 @@ import re
 
 from . import classify, dates, feeds, htmlx, http, sources, state, taxonomy
 from .config import (MAX_ARTICLE_FETCH, MAX_LINKS_PER_SOURCE, MAX_SITEMAP_LINKS,
-                     REJECT_SEBEP_KOTA, REJECT_TOPLAM, TECH_WINDOW_DAYS,
-                     WINDOW_DAYS)
+                     REJECT_SEBEP_KOTA, REJECT_TOPLAM, REZERV_GUN,
+                     TECH_WINDOW_DAYS, WINDOW_DAYS)
 
 US_STYLE = {"cognex", "butechbliss", "delta", "bronx", "aist", "magnetics", "worldsteel"}
 
@@ -242,6 +242,8 @@ def collect(today=None, log=print):
     stats = dict(kaynak=0, erisilemeyen=0, ham=0, on_eleme_gecti=0, makale_acildi=0,
                  tarihsiz_elendi=0, pencere_disi=0, kapsam_disi=0, tekrar=0, kabul=0)
     unreachable, rows, kinds, rejects, tech_pool = [], [], {}, [], []
+    rezerv, rezerv_keys = [], set()
+    rezerv_floor = (today - dt.timedelta(days=REZERV_GUN)).isoformat()
     katki = {}
     tech_seen = st.get("tech_seen", {})
     # Ayni kosuda ayni haberin ikinci kopyasi (iki gnews sorgusu ayni sonucu
@@ -274,6 +276,37 @@ def collect(today=None, log=print):
         tech_pool.append({"anahtar": key, "tarih": date_iso, "baslik": it["title"],
                           "url": it["url"], "kaynak": publisher,
                           "hat": taxonomy.match_line(blob)})
+
+    def maybe_rezerv(it, date_iso, text, s):
+        """Pencere disi ama gonderilmeye DEGER satiri havuza al.
+
+        Ayni kapidan gecer (kapsam + olay), tarihi sayfadan dogrulanmistir.
+        Tek farki tarihinin pencere disinda kalmasidir. Daha once
+        raporlanmissa alinmaz - "seen" burada da gecerlidir.
+        """
+        if date_iso < rezerv_floor:
+            return
+        baslik = taxonomy.temiz_baslik(it["title"])
+        ok_scope, _ = taxonomy.in_scope(baslik, (text or "")[:700])
+        if not (ok_scope and taxonomy.haber_olayi(baslik)):
+            return
+        key = state.norm_key(baslik, it["url"])
+        if key in seen or key in run_keys or key in rezerv_keys:
+            return
+        row = classify.build({
+            "title": baslik, "url": it["url"], "date": date_iso,
+            "publisher": it.get("_pub") or s["publisher"], "source_id": s["id"],
+            "source_kind": s["kind"], "source_country": s.get("country", ""),
+            "text": text, "date_src": src,
+        })
+        if row["hat"] == "Belirsiz" and row["asama"] == "Belirsiz":
+            return
+        row["anahtar"] = key
+        row["kategori"] = "Hat"
+        row["olaylar"] = sorted(event_keys(row))
+        row["rezerv"] = True
+        rezerv_keys.add(key)
+        rezerv.append(row)
 
     reject_sayac = {}
 
@@ -414,6 +447,13 @@ def collect(today=None, log=print):
                 continue
             if date_iso < floor.isoformat() or date_iso > today.isoformat():
                 maybe_tech(it, date_iso, text, s["publisher"])
+                # REZERVE AL (2026-08-27). Pencere disi ama kapiyi gecen ve
+                # tarihi DOGRULANMIS satir cope gitmez: hic gonderilmemisse
+                # ileride listeyi doldurmak icin saklanir. Olcum: son kosuda
+                # elenen 30 kapsam ici satirin 26'si sirf pencere disiydi ve
+                # 11'i 2026 tarihliydi - okuyucunun hic gormedigi gercek
+                # haberler. Kapiyi gevsetmek yerine bunlar kullanilir.
+                maybe_rezerv(it, date_iso, text, s)
                 drop("pencere_disi", it, date_iso)
                 continue
             maybe_tech(it, date_iso, text, s["publisher"])
@@ -520,5 +560,6 @@ def collect(today=None, log=print):
     tech_pool.sort(key=lambda t: t["tarih"], reverse=True)
     return {"rows": rows, "stats": stats, "unreachable": unreachable,
             "kinds": kinds, "today": today.isoformat(), "rejects": rejects,
+            "rezerv": rezerv,
             "tech_pool": tech_pool[:12], "kaynak_katki": katki,
             "window": [floor.isoformat(), today.isoformat()]}

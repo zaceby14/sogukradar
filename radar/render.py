@@ -213,10 +213,22 @@ def _baslik(metin):
             '#e3e6ea;padding-bottom:6px;margin-bottom:10px;">%s</div>' % _e(metin))
 
 
+# Rezervden gelen satir: kapiyi gecmis, tarihi dogrulanmis ama pencere
+# disinda kaldigi icin daha once gonderilmemis haber. Okuyucu neden eski
+# tarihli bir satir gordugunu anlamali.
+_ROZET_REZERV = ('<span style="background:#f2eee6;color:#7a6a4f;font-size:9.5px;'
+                 'font-weight:700;padding:1px 5px;border-radius:3px;'
+                 'margin-right:5px;white-space:nowrap;">GEÇ YAKALANDI</span>')
+
+
 def _firma_hucresi(r):
-    """Firma adi; satir elle eklendiyse basina '+ AI' rozeti konur."""
+    """Firma adi; satirin kaynagina gore rozet eklenir."""
     ad = _e(r.get("firma") or "-")
-    return (_ROZET_AI + ad) if r.get("elle_eklendi") else ad
+    if r.get("elle_eklendi"):
+        return _ROZET_AI + ad
+    if r.get("rezerv"):
+        return _ROZET_REZERV + ad
+    return ad
 
 
 _ROZET_YAT = ('<span style="background:#eef0f4;color:#5a6270;font-size:10px;'

@@ -16,7 +16,7 @@ import os
 import sys
 
 from . import collect, render, score, state, taxonomy
-from .config import OUT, TARGET_ROWS, VERSION
+from .config import HEDEF_SATIR, OUT, REZERV_MAX, TARGET_ROWS, VERSION
 from .sources import SOURCES
 
 
@@ -71,6 +71,25 @@ def cmd_run(a):
 
     payload = collect.collect(today=today)
     rows = score.rank(payload["rows"], payload["kinds"], today)
+
+    # REZERV (2026-08-27). Bulten ortalama 7-8 gelisme tasimali ama taze arz
+    # bunu her hafta karsilamiyor (olcum: haftada ~1-3 kapsam ici haber).
+    # Kapiyi GEVSETMEK yerine, gecmiste kapiyi gecmis ve tarihi dogrulanmis
+    # ama pencere disinda kaldigi icin hic gonderilmemis satirlar kullanilir.
+    st_r = state.load()
+    rezerv = _rezerv_guncelle(st_r, payload.pop("rezerv", []), rows)
+    eksik = max(HEDEF_SATIR - len(rows), 0)
+    kullanilan = []
+    if eksik and rezerv:
+        # En yeniden eskiye: okuyucu once guncel olani gorsun.
+        kullanilan = sorted(rezerv, key=lambda r: r.get("tarih", ""),
+                            reverse=True)[:eksik]
+        rows = rows + kullanilan
+        print("rezervden %d satir eklendi (havuzda %d kaldi)"
+              % (len(kullanilan), len(rezerv) - len(kullanilan)))
+    payload["rezerv_kullanilan"] = len(kullanilan)
+    payload["rezerv_havuz"] = len(rezerv) - len(kullanilan)
+
     payload["rows"] = rows[:max(TARGET_ROWS, 0)] if a.limit else rows
     payload["period"] = per
     payload["generated"] = dt.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
@@ -98,7 +117,12 @@ def cmd_run(a):
     # Otomatik posta govdesi: yapay zeka ozeti yoksa kurallı metin kullanilir.
     from . import compose
     sayi = len(state.load().get("periods", [])) + 1
-    tech = payload.get("tech_pool", [])[:3]
+    # TEKNOLOJI KOSESI HER HAFTA DOLU OLMALI (2026-08-27). Taze aday cikmayan
+    # hafta cok: kosenin havuzu 6 aylik olsa da bir haftada 0 aday olabiliyor
+    # (2026-W34'te tam olarak boyle oldu). Bu yuzden aday havuzu da KALICI:
+    # kullanilmayan adaylar state'te birikir, koşe onlardan doldurulur.
+    payload["tech_pool"] = _tech_havuz(st_r, payload.get("tech_pool", []))
+    tech = payload["tech_pool"][:3]
     for t in tech:
         t["konu"] = t["baslik"]
         t["metin"] = compose.tech_blurb(t)
@@ -134,6 +158,11 @@ def cmd_run(a):
             if not taxonomy.is_junk_title(r["baslik"]):
                 st["son_basliklar"].append({"b": r["baslik"], "t": r["tarih"],
                                             "a": r["asama"]})
+        # Rezerv havuzu da kalici: bir sonraki kosu buradan devam eder.
+        st["rezerv"] = [r for r in (st_r.get("rezerv") or [])
+                        if r["anahtar"] not in st["seen"]]
+        st["tech_rezerv"] = [t for t in (st_r.get("tech_rezerv") or [])
+                             if t["anahtar"] not in st.get("tech_seen", {})]
         st["periods"] = (st.get("periods") or []) + [{
             "donem": per, "satir": len(payload["rows"]),
             "uretim": payload["generated"], "stats": payload["stats"]}]
@@ -149,6 +178,42 @@ def cmd_run(a):
     print("duzeltilecek satir: %d | cumle yazilacak: %d" % (len(ask), len(say)))
     print("cikti: %s.json / _taslak.html / .csv" % base)
     return 0
+
+
+def _tech_havuz(st, taze):
+    """Teknoloji adaylarini KALICI havuzda biriktirir ve siralar.
+
+    Daha once kosede tanitilmis (tech_seen) adaylar dusulur. Boylece aday
+    cikmayan haftada bile kose bos kalmaz - gecmis haftalarin kullanilmamis
+    adaylari beklemede durur.
+    """
+    havuz = {t["anahtar"]: t for t in (st.get("tech_rezerv") or [])}
+    for t in taze:
+        havuz.setdefault(t["anahtar"], t)
+    gorulen = st.get("tech_seen") or {}
+    kalan = [t for k, t in havuz.items() if k not in gorulen]
+    kalan.sort(key=lambda t: t.get("tarih", ""), reverse=True)
+    st["tech_rezerv"] = kalan[:60]
+    return list(st["tech_rezerv"])
+
+
+def _rezerv_guncelle(st, yeni_adaylar, rows):
+    """Rezerv havuzunu tazeler ve KULLANILABILIR satirlari dondurur.
+
+    Havuza giren satir zaten kapsam kapisini gecmis ve tarihi sayfadan
+    dogrulanmistir; tek farki tarihinin haftalik pencerenin disinda
+    kalmasidir. Raporlanmis (seen) ya da bu koşuda zaten listeye girmis
+    olanlar havuzdan dusulur.
+    """
+    havuz = {r["anahtar"]: r for r in (st.get("rezerv") or [])}
+    for r in yeni_adaylar:
+        havuz.setdefault(r["anahtar"], r)
+    seen = st.get("seen") or {}
+    bu_kosu = {r.get("anahtar") for r in rows}
+    temiz = [r for k, r in havuz.items() if k not in seen and k not in bu_kosu]
+    temiz.sort(key=lambda r: r.get("tarih", ""), reverse=True)
+    st["rezerv"] = temiz[:REZERV_MAX]
+    return list(st["rezerv"])
 
 
 def cmd_review(a):

@@ -37,6 +37,15 @@ MAX_ARTICLE_FETCH = int(os.environ.get("RADAR_MAX_ARTICLES", "220"))
 REJECT_TOPLAM = int(os.environ.get("RADAR_REJECT_TOPLAM", "900"))
 REJECT_SEBEP_KOTA = int(os.environ.get("RADAR_REJECT_SEBEP", "200"))
 
+# HEDEF SATIR (2026-08-27 karari): bulten ortalama 7-8 gelisme tasimali.
+# Taze arz bunu her hafta karsilamaz (olcum: haftada ~1-3 kapsam ici haber),
+# bu yuzden kapi GEVSETILMEZ; eksik REZERV havuzundan tamamlanir. Rezerv,
+# gecmis kosularda kapiyi gecmis ve tarihi DOGRULANMIS ama pencere disinda
+# kaldigi icin hic gonderilmemis satirlardan olusur.
+HEDEF_SATIR = int(os.environ.get("RADAR_HEDEF_SATIR", "8"))
+REZERV_MAX = int(os.environ.get("RADAR_REZERV_MAX", "300"))
+REZERV_GUN = int(os.environ.get("RADAR_REZERV_GUN", "540"))   # ~18 ay
+
 os.environ.setdefault("RADAR_CACHE", CACHE)
 
 for d in (OUT, STATE_DIR, CACHE):

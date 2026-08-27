@@ -60,6 +60,13 @@ def load():
     # Son 21 gunde raporlanan satir basliklari: gec yazan gazetenin ayni
     # olayi farkli baslikla tekrar sokmasini engeller.
     st.setdefault("son_basliklar", [])
+    # REZERV: kapiyi gecmis, tarihi dogrulanmis ama pencere disinda kaldigi
+    # icin hic gonderilmemis satirlar. Bulten kisa kalinca buradan tamamlanir
+    # - kapi gevsetilmeden hacim saglamanin tek durust yolu.
+    st.setdefault("rezerv", [])
+    # Teknoloji kosesi aday havuzu - kalici. Aday cikmayan haftada kose
+    # buradan doldurulur; tanitilan madde tech_seen ile bir daha cikmaz.
+    st.setdefault("tech_rezerv", [])
     st["version"] = VERSION
     return st
 
@@ -85,4 +92,11 @@ def prune(st, keep=1500, event_days=120):
     cut21 = (_dt.date.today() - _dt.timedelta(days=21)).isoformat()
     st["son_basliklar"] = [b for b in st.get("son_basliklar", [])
                            if (b.get("t") or "9999") >= cut21][-200:]
+    # Rezerv: raporlanmis olan ve cok eskiyen satirlar dusurulur.
+    from .config import REZERV_GUN, REZERV_MAX
+    cutr = (_dt.date.today() - _dt.timedelta(days=REZERV_GUN)).isoformat()
+    rez = [r for r in st.get("rezerv", [])
+           if r.get("anahtar") not in seen and (r.get("tarih") or "9999") >= cutr]
+    rez.sort(key=lambda r: r.get("tarih", ""), reverse=True)
+    st["rezerv"] = rez[:REZERV_MAX]
     return st
