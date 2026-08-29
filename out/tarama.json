@@ -26,33 +26,6 @@
    "puan": 5.8
   },
   {
-   "tarih": "2026-08-14",
-   "firma": "Manaksia Steel",
-   "ulke": "Hindistan",
-   "hat": "Belirsiz",
-   "asama": "Belirsiz",
-   "tedarikci": "",
-   "kapasite": "",
-   "tutar": "$84 million",
-   "baslik": "India's Manaksia Steel to invest $84 million to expand value-added flats capacities",
-   "kaynak": "SteelOrbis",
-   "kaynak_id": "steelorbis",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/indias-manaksia-steel-to-invest-84-million-to-expand-value-added-flats-capacities-1470867.htm",
-   "tarih_kaynagi": "json-ld",
-   "eksik": [
-    "hat",
-    "asama"
-   ],
-   "anahtar": "5057cc8359f58ba5",
-   "kategori": "Yatirim",
-   "olaylar": [
-    "manaksia steel|fu|Hindistan|Belirsiz",
-    "manaksia steel|hat|Belirsiz|Belirsiz",
-    "manaksia steel|ulke|Hindistan|Belirsiz"
-   ],
-   "puan": -7.0
-  },
-  {
    "anahtar": "dbf500463fb21d96",
    "asama": "Belirsiz",
    "baslik": "U. S. Steel Announces Plans to Restart Gary Tin Mill",
@@ -107,28 +80,20 @@
  ],
  "stats": {
   "kaynak": 169,
-  "erisilemeyen": 14,
-  "ham": 3080,
-  "on_eleme_gecti": 278,
-  "makale_acildi": 213,
-  "tarihsiz_elendi": 94,
-  "pencere_disi": 184,
-  "kapsam_disi": 2783,
-  "tekrar": 17,
-  "kabul": 2
+  "erisilemeyen": 12,
+  "ham": 2671,
+  "on_eleme_gecti": 272,
+  "makale_acildi": 204,
+  "tarihsiz_elendi": 98,
+  "pencere_disi": 183,
+  "kapsam_disi": 2373,
+  "tekrar": 16,
+  "kabul": 1
  },
  "unreachable": [
   [
    "SMS group",
    "HTTP 403"
-  ],
-  [
-   "Butech Bliss",
-   "HTTP 500"
-  ],
-  [
-   "ABB Metals",
-   "HTTP 404"
   ],
   [
    "Cognex",
@@ -139,20 +104,20 @@
    "HTTP 403"
   ],
   [
-   "Nippon Steel",
-   "HTTP 404"
-  ],
-  [
-   "China Baowu",
-   "sitemap bos"
-  ],
-  [
    "Steel Times International",
    "HTTP 403"
   ],
   [
+   "Steel Radar",
+   "TimeoutError: The read operation timed out"
+  ],
+  [
+   "The Canmaker",
+   "URLError: <urlopen error timed out>"
+  ],
+  [
    "SteelGuru",
-   "sitemap bos"
+   "URLError: <urlopen error timed out>"
   ],
   [
    "BigMint (SteelMint)",
@@ -171,8 +136,8 @@
    "HTTP 403"
   ],
   [
-   "Kocks (SMS)",
-   "HTTP 404"
+   "Steel Manufacturers Assoc.",
+   "URLError: <urlopen error timed out>"
   ]
  ],
  "kinds": {
@@ -382,7 +347,6 @@
   }
  ],
  "kaynak_katki": {
-  "SteelOrbis": 1,
   "Google News": 1
  },
  "window": [
@@ -392,6 +356,6 @@
  "rezerv_kullanilan": 2,
  "rezerv_havuz": 2,
  "period": "2026-W35",
- "generated": "2026-08-29 15:50 UTC",
+ "generated": "2026-08-29 16:13 UTC",
  "version": "3.0.0"
 }
