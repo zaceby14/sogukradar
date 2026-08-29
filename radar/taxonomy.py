@@ -436,7 +436,11 @@ NOISE_REJECT = re.compile(r"(" + _NOISE + r")")
 
 COUNTRY_MAP = [
     (r"turkey|turkiye|turkish", "Turkiye"),
-    (r"\bindia|indian\b", "Hindistan"),
+    # \bindia SONUNDA SINIR ISTER (2026-08-29): sinirsiz hali INDIANA'nin
+    # icinde tutuyordu ve "U. S. Steel ... Gary Tin Mill" satiri Hindistan
+    # olarak etiketlendi - Gary, Indiana. Ayni aile "Province" icinde
+    # eslesen "vinc" hatasiyla ayni.
+    (r"\bindia\b|\bindias\b|\bindian\b", "Hindistan"),
     (r"\bchina|chinese\b", "Cin"),
     (r"\bjapan|japanese\b", "Japonya"),
     (r"\bkorea|korean\b", "G. Kore"),
@@ -479,7 +483,11 @@ COUNTRY_MAP = [
     (r"\bserbia", "Sirbistan"),
     (r"\bgreece|greek\b", "Yunanistan"),
     (r"\bbritain|\buk\b|united kingdom|england|wales", "Birlesik Krallik"),
-    (r"\busa\b|united states|u\.s\.|american\b", "ABD"),
+    # "U. S. Steel" foldlanınca "u. s. steel" oluyor - noktadan sonra
+    # BOSLUK var, eski desen tutmuyordu. Indiana/Ohio gibi yassi celik
+    # eyaletleri de ABD'ye baglanir.
+    (r"\busa\b|united states|u\.s\.|u\. ?s\. ?steel|u\. ?s\.\b|american\b|"
+     r"\bindiana\b|\bohio\b|\bpennsylvania\b|\bkentucky\b|\balabama\b", "ABD"),
     (r"\bcanada|canadian\b", "Kanada"),
     (r"\bmexico|mexican\b", "Meksika"),
     (r"\bbrazil|brazilian\b|brezilya", "Brezilya"),

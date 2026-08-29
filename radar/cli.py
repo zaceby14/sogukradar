@@ -93,11 +93,18 @@ def cmd_run(a):
     payload["version"] = VERSION
 
     base = os.path.join(OUT, "hafta_%s" % per)
+    # GUNLUK TARAMA HAFTALIK ARSIVE YAZMAZ (2026-08-29). Tarama modu
+    # email.html'e dokunmuyordu ama satir arsivini (hafta_<donem>.json ve
+    # needs_ai.json) hafta adiyla yazmaya devam ediyordu: 2026-08-29
+    # taramasi, gonderilen 6 satirlik W35 bulteninin kaydini rezervden gelen
+    # 4 satirla EZDI. Gonderilen bultenin kaydi yalniz haftalik kosu ve
+    # finalize tarafindan yazilir.
+    cikti = os.path.join(OUT, "tarama") if a.sadece_tarama else base
     # Elenenler ayri dosyaya: kaynak/sozluk ayarini ancak bunu okuyarak yapabilirim.
     rejects = payload.pop("rejects", [])
     _w(os.path.join(OUT, "reddedilenler.json"),
        {"donem": per, "adet": len(rejects), "kayitlar": rejects})
-    _w(base + ".json", payload)
+    _w(cikti + ".json", payload)
 
     ask = [{"anahtar": r["anahtar"], "baslik": r["baslik"], "url": r["url"],
             "eksik": r["eksik"], "mevcut": {k: r[k] for k in
@@ -107,7 +114,8 @@ def cmd_run(a):
             "ulke": r["ulke"], "hat": r["hat"], "asama": r["asama"],
             "baslik": r["baslik"], "url": r["url"]}
            for r in payload["rows"] if r.get("kategori") != "Yatirim"]
-    _w(os.path.join(OUT, "needs_ai.json"),
+    _w(os.path.join(OUT, "tarama_needs_ai.json" if a.sadece_tarama
+                    else "needs_ai.json"),
        {"donem": per, "duzelt": ask, "cumle_yaz": say,
         "teknoloji_adaylari": payload.get("tech_pool", [])})
 
@@ -143,7 +151,7 @@ def cmd_run(a):
         # GUNLUK TARAMA MODU (2026-08-27). Gunluk kosu yalniz HAVUZ besler.
         # email.html ve taslak rapora DOKUNMAZ - editorun o hafta onaylayip
         # gonderdigi metnin kaydi ertesi gunun taramasiyla silinmemeli.
-        _rapor_ozet(per, payload, ask, say, base)
+        _rapor_ozet(per, payload, ask, say, cikti)
         return 0
 
     # Otomatik posta govdesi: yapay zeka ozeti yoksa kurallı metin kullanilir.
@@ -197,6 +205,41 @@ def _tech_havuz(st, taze):
     return list(st["tech_rezerv"])
 
 
+def _imza_carpisti(r, secili, gecmis):
+    """Ayni tedarikci + ayni asama + (ayni ulke YA DA ayni gun) mu?
+
+    Hat vurgusu farkli olsa da ayni olaydir. KG Steel Dangjin vakasinda iki
+    yayindan biri ulkeyi hic yazmamisti ("" vs "G. Kore"), bu yuzden ulke tek
+    basina yetmiyor; ayni gun ayni tedarikcinin ayni asamadaki iki ayri isi
+    olmasi ise pratikte gorulmuyor.
+
+    HEM bu kosunun satirlarina HEM DE gonderilmis satirlara bakilir. Ikincisi
+    2026-08-29'da eklendi: W35'te giden "KG Steel selects Primetals for
+    Dangjin PLTCM upgrade" satirinin STI varyanti ("Primetals to modernise
+    Korean pickling line") rezervde bekliyordu ve imza yalnizca bos olan
+    `rows` listesine karsi isletildigi icin geri donuyordu.
+    """
+    ted = taxonomy.fold(r.get("tedarikci") or "")
+    if not ted:
+        return False
+    asama, ulke, tarih = (r.get("asama") or ""), (r.get("ulke") or ""), (r.get("tarih") or "")
+    for x in secili:
+        if taxonomy.fold(x.get("tedarikci") or "") != ted:
+            continue
+        if (x.get("asama") or "") != asama:
+            continue
+        if (x.get("ulke") or "") == ulke or (x.get("tarih") or "") == tarih:
+            return True
+    for b in gecmis:
+        if taxonomy.fold(b.get("ted") or "") != ted:
+            continue
+        if (b.get("a") or "") != asama:
+            continue
+        if (b.get("u") or "") == ulke or (b.get("t") or "") == tarih:
+            return True
+    return False
+
+
 def _rezervden_sec(rezerv, rows, st, eksik):
     """Rezervden satir secer - AYNI TEKRAR DENETIMINDEN gecirerek.
 
@@ -237,18 +280,7 @@ def _rezervden_sec(rezerv, rows, st, eksik):
         # ulke tek basina yetmiyor; ayni gun ayni tedarikcinin ayni asamadaki
         # iki ayri isi olmasi ise pratikte gorulmuyor.
         ted = taxonomy.fold(r.get("tedarikci") or "")
-        if ted:
-            for x in secili:
-                if taxonomy.fold(x.get("tedarikci") or "") != ted:
-                    continue
-                if (x.get("asama") or "") != (r.get("asama") or ""):
-                    continue
-                ayni_ulke = (x.get("ulke") or "") == (r.get("ulke") or "")
-                ayni_gun = (x.get("tarih") or "") == (r.get("tarih") or "")
-                if ayni_ulke or ayni_gun:
-                    break
-            else:
-                out.append(r); secili.append(r); olaylar |= eks
+        if ted and _imza_carpisti(r, secili, gecmis):
             continue
         out.append(r)
         secili.append(r)
@@ -379,9 +411,18 @@ def cmd_finalize(a):
         for k in r.get("olaylar", []):
             st3["events"][k] = r.get("tarih", "")
         if not taxonomy.is_junk_title(r.get("baslik", "")):
+            # ted/u DE YAZILIR (2026-08-29): rezervden satir secerken
+            # "ayni tedarikci + ayni asama + (ayni ulke ya da ayni gun)"
+            # imzasi kullaniliyor, ama hafizada yalnizca baslik/tarih/asama
+            # duruyordu. Imza gonderilmis satirlara karsi hic isletilemiyor,
+            # bu yuzden gonderilmis bir olayin baska yayindaki varyanti
+            # rezervden geri donebiliyordu.
             st3["son_basliklar"].append({"b": r.get("baslik", ""),
                                          "t": r.get("tarih", ""),
-                                         "a": r.get("asama", "")})
+                                         "a": r.get("asama", ""),
+                                         "ted": r.get("tedarikci", ""),
+                                         "u": r.get("ulke", "")})
+    st3["son_basliklar"] = state.dedup_basliklar(st3["son_basliklar"])
     state.prune(st3)
     state.save(st3)
     print("hafiza: %d satir 'gonderildi' olarak isaretlendi" % len(payload["rows"]))

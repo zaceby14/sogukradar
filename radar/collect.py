@@ -233,11 +233,33 @@ def _items_from_dosya(s, log):
 
 
 def _items_from_source(s, log):
-    """(items, hata) -> items: {title,url,date_raw,summary}"""
+    """(items, hata) -> items: {title,url,date_raw,summary}
+
+    SIRA: elle besleme > sitemap zinciri > kaynagin kendi adresi.
+
+    GERI DUSUS NEDEN VAR (2026-08-29): sitemap adresleri TAHMINDIR. v19'da
+    14 kaynaga zincir eklendim; tahminlerin bir kismi 404 dondu ve zincir
+    tutmayinca kaynagin CALISAN html/rss adresi hic denenmedi - erisilemeyen
+    sayisi 10'dan 16'ya cikti (ABB Metals, Nippon Steel, Kocks, MetalForming,
+    Mysteel bos_liste'den HTTP 404'e dustu). Tahmin edilen bir adres, calisan
+    bir kaynagi asla bozamamali: zincir bos donerse normal yol denenir.
+    """
     if s.get("dosya"):
         return _items_from_dosya(s, log)
     if s.get("sitemap") or s.get("sitemaps"):
-        return _sitemap_zinciri(s, log)
+        items, err = _sitemap_zinciri(s, log)
+        if items:
+            return items, None
+        if not (s.get("rss") or s.get("url")):
+            return [], err
+        log("    (sitemap tutmadi -> kaynagin kendi adresi deneniyor)")
+        items, err2 = _items_from_web(s, log)
+        return items, (None if items else (err2 or err))
+    return _items_from_web(s, log)
+
+
+def _items_from_web(s, log):
+    """Kaynagin kendi adresi: rss > gomulu besleme > html liste."""
     url = s.get("rss") or s["url"]
     ok, text, info = http.fetch(url)
     if not ok:
@@ -280,6 +302,7 @@ def collect(today=None, log=print):
     unreachable, rows, kinds, rejects, tech_pool = [], [], {}, [], []
     rezerv, rezerv_keys = [], set()
     rezerv_floor = (today - dt.timedelta(days=REZERV_GUN)).isoformat()
+    sb_floor = (today - dt.timedelta(days=21)).isoformat()
     katki = {}
     tech_seen = st.get("tech_seen", {})
     # Ayni kosuda ayni haberin ikinci kopyasi (iki gnews sorgusu ayni sonucu
@@ -580,8 +603,15 @@ def collect(today=None, log=print):
             # oncesi kosulardan kalan "Electrical steel, non grain oriented"
             # gibi katalog basliklari, her gercek elektrik celigi/galvaniz
             # haberini "benzer baslik" diye eliyordu.
+            # 21 GUNLUK KESIM BURADA (2026-08-29): state artik gonderilmis
+            # basliklari rezerv kadar (540 gun) tutuyor, cunku rezerv
+            # tekrar denetiminin uzun hafizaya ihtiyaci var. Bu bacagin
+            # amaci ise dar: gec yazan gazetenin AYNI GUNCEL olayi farkli
+            # baslikla tekrar sokmasi. Kapiyi genisletmemek icin kesim
+            # burada, kullanim aninda yapilir.
             gecmis = [b for b in st.get("son_basliklar", [])
-                      if not taxonomy.is_junk_title(b.get("b", ""))]
+                      if not taxonomy.is_junk_title(b.get("b", ""))
+                      and (b.get("t") or "9999") >= sb_floor]
             if any(taxonomy.similar_titles(it["title"], r["baslik"])
                    and r["asama"] == row["asama"] for r in rows):
                 drop("tekrar", it, "benzer baslik (bu kosuda)")

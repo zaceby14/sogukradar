@@ -5,6 +5,7 @@ Her test, gecmiste GERCEKTEN yasanmis bir hatanin tekrarini engeller.
 GitHub Actions her kosudan ONCE bunu calistirir; kirmizi ise haftalik
 kosu hic baslamaz - bozuk mantikla rapor uretmektense rapor uretmemek yegdir.
 """
+import os
 import datetime as dt
 
 from . import classify, dates, feeds, htmlx, state, taxonomy
@@ -1224,6 +1225,161 @@ def test_rezerv_tekrar_denetimi():
     eq(_rezervden_sec([kg], rows=[], st={}, eksik=0), [], "eksik yoksa alinmaz")
 
 
+def test_v20_sitemap_geri_dusus():
+    """v20 (2026-08-29): tahmin edilen sitemap adresi calisan kaynagi bozamaz.
+
+    v19'da 14 kaynaga sitemap ZINCIRI ekledim. Zincirdeki adresler TAHMIN;
+    bir kismi 404 dondu ve zincir tutmayinca kaynagin kendi html/rss adresi
+    HIC denenmedi. Erisilemeyen kaynak sayisi 10'dan 16'ya cikti - ABB
+    Metals, Nippon Steel, Kocks, MetalForming ve Mysteel "bos liste"den
+    "HTTP 404"e dustu, yani iyilestirme diye yaptigim sey kaynaklari
+    strictly kotulestirdi.
+    """
+    from . import collect as C
+    kaynak = os.path.join(os.path.dirname(__file__), "collect.py")
+    src = open(kaynak, encoding="utf-8").read()
+    eq(hasattr(C, "_items_from_web"), True,
+       "normal yol ayri fonksiyona alinmali ki geri dusus mumkun olsun")
+
+    cagrilar = []
+
+    def sahte_zincir(s, log):
+        cagrilar.append("zincir")
+        return [], "HTTP 404"
+
+    def sahte_web(s, log):
+        cagrilar.append("web:" + (s.get("rss") or s["url"]))
+        return [{"title": "Cold rolling mill complex for SSAB in Lulea Sweden",
+                 "url": "https://x/y", "date_raw": "", "summary": ""}], None
+
+    eski_z, eski_w = C._sitemap_zinciri, C._items_from_web
+    try:
+        C._sitemap_zinciri, C._items_from_web = sahte_zincir, sahte_web
+        s = {"url": "https://new.abb.com/metals", "publisher": "ABB Metals",
+             "sitemaps": ["https://new.abb.com/sitemap.xml"]}
+        items, err = C._items_from_source(s, lambda *a: None)
+        eq(len(items), 1, "sitemap tutmayinca kaynagin kendi adresi denenmeli")
+        eq(err, None, "geri dusus tutunca hata bildirilmemeli")
+        eq(cagrilar, ["zincir", "web:https://new.abb.com/metals"],
+           "once zincir, sonra kaynagin kendi adresi")
+
+        # Ikisi de tutmazsa hata bildirilir - sessizce bos donulmez
+        C._items_from_web = lambda s, log: ([], "HTTP 403")
+        items, err = C._items_from_source(s, lambda *a: None)
+        eq(items, [], "ikisi de tutmazsa satir olmaz")
+        eq(bool(err), True, "ikisi de tutmazsa hata bildirilmeli")
+    finally:
+        C._sitemap_zinciri, C._items_from_web = eski_z, eski_w
+
+
+def test_v20_gonderilmis_hafiza():
+    """v20 (2026-08-29): gonderilmis satir hafizasinin uc kusuru.
+
+    2026-08-29 gunluk taramasi rezervden dort satir cikardi ve ikisi
+    tekrardi. Sebep state'te goruldu - son_basliklar 11 kayitti ama
+    yalnizca 6 farkli baslik tasiyordu:
+
+    (1) finalize ayni hafta icin iki kez calisinca ayni basligi ikinci kez
+        ekliyordu (tekrar denetimi yoktu);
+    (2) budama 21 gunluktu, oysa REZERV 540 gun geriye uzaniyor - W34'te
+        GONDERILEN "tk accelis" satiri hafizadan dusmustu ve ayni haberin
+        Yieh varyanti rezervden geri geldi;
+    (3) kayitta tedarikci/ulke yoktu, bu yuzden "ayni tedarikci + ayni asama
+        + (ayni ulke ya da ayni gun)" imzasi GONDERILMIS satirlara karsi hic
+        isletilemiyordu - W35'te giden KG Steel/Primetals olayinin STI
+        varyanti ("Primetals to modernise Korean pickling line") boyle
+        gecti.
+    """
+    from .cli import _rezervden_sec
+
+    # (1) yazma tarafi: ayni baslik iki kez yazilamaz, bos alan dolar
+    d = state.dedup_basliklar([
+        {"b": "Fives supplies technologies for Xinyu's new electrical steel facility",
+         "t": "2026-08-28", "a": "Sozlesme", "ted": "Fives", "u": ""},
+        {"b": "Fives supplies technologies for Xinyu's new electrical steel facility",
+         "t": "2026-08-28", "a": "Sozlesme", "ted": "Fives", "u": "Çin"}])
+    eq(len(d), 1, "ayni baslik hafizada iki kez durmamali")
+    eq(d[0]["u"], "Çin", "tekrar kayitta dolu olan alan korunmali")
+
+    # (2) budama: 21 gunden eski ama rezerv penceresi icindeki kayit KALIR
+    st = {"son_basliklar": [
+        {"b": "tk accelis announces milestone at Stuttgart steel service center",
+         "t": (dt.date.today() - dt.timedelta(days=90)).isoformat(),
+         "a": "Ilk urun", "ted": "", "u": ""}],
+        "seen": {}, "events": {}, "rezerv": [], "tech_rezerv": []}
+    state.prune(st)
+    eq(len(st["son_basliklar"]), 1,
+       "rezerv 540 gun geriye bakarken hafiza 21 gunde silinemez")
+
+    # (3) imza gonderilmis satirlara karsi da isler
+    gecmis = {"son_basliklar": [
+        {"b": "KG Steel selects Primetals for Dangjin PLTCM upgrade and capacity expansion",
+         "t": "2026-08-11", "a": "Modernizasyon", "ted": "Primetals", "u": "G. Kore"}]}
+    sti = {"anahtar": "k2", "tarih": "2026-08-11",
+           "baslik": "Primetals to modernise Korean pickling line",
+           "tedarikci": "Primetals", "ulke": "G. Kore", "asama": "Modernizasyon",
+           "olaylar": ["primetals|ulke|G. Kore|Modernizasyon"],
+           "hat": "Asitleme hatti", "kategori": "Hat", "rezerv": True}
+    eq(_rezervden_sec([sti], rows=[], st=gecmis, eksik=8), [],
+       "gonderilmis olayin varyanti rezervden geri donmemeli")
+
+    # Ayni tedarikcinin BASKA ulkedeki, baska gundeki isi hala gecerli haber
+    baska = dict(sti, anahtar="k3", tarih="2026-05-02", ulke="Hindistan",
+                 baslik="Primetals to modernise Indian pickling line", olaylar=[])
+    eq(len(_rezervden_sec([baska], rows=[], st=gecmis, eksik=8)), 1,
+       "farkli ulke+gun ayri istir, elenmemeli")
+
+
+def test_v20_gunluk_tarama_arsivi_ezmez():
+    """v20 (2026-08-29): gunluk tarama gonderilen bultenin kaydini ezemez.
+
+    Tarama modu email.html'e dokunmuyordu ama satir arsivini hala hafta
+    adiyla yaziyordu. 2026-08-29 taramasi, gonderilen 6 satirlik W35
+    bulteninin kaydini rezervden gelen 4 satirla EZDI; ne gonderildigini
+    ancak git gecmisinden cikarabildim.
+    """
+    src = open(os.path.join(os.path.dirname(__file__), "cli.py"),
+               encoding="utf-8").read()
+    g = src[src.index("def cmd_run("):src.index("def cmd_finalize(")]
+    eq('_w(base + ".json", payload)' not in g, True,
+       "tarama modunda haftalik arsive yazilmamali")
+    eq('cikti = os.path.join(OUT, "tarama") if a.sadece_tarama else base' in g, True,
+       "tarama ciktisi ayri dosyaya gitmeli")
+    eq('"tarama_needs_ai.json" if a.sadece_tarama' in g, True,
+       "needs_ai de tarama modunda ayri dosyaya gitmeli")
+
+
+def test_v20_indiana_hindistan_degil():
+    """v20 (2026-08-29): \\bindia sinirsizken INDIANA'yi yakaliyordu.
+
+    Rezervden gelen gercek satir yanlis etiketle cikti:
+      "U. S. Steel Announces Plans to Restart Gary Tin Mill" -> Hindistan
+    Gary, INDIANA. Ustelik "U. S. Steel" foldlaninca "u. s. steel" oluyor,
+    ABD deseni ise noktadan sonra bosluk beklemedigi icin tutmuyordu; yani
+    dogru ulke de bulunamiyordu. "Province" icinde eslesen "vinc" hatasinin
+    ayni ailesi.
+    """
+    import re as _re
+
+    def ulke(t):
+        b = taxonomy.fold(t)
+        for pat, u in taxonomy.COUNTRY_MAP:
+            if _re.search(pat, b):
+                return u
+        return ""
+
+    eq(ulke("U. S. Steel Announces Plans to Restart Gary Tin Mill"), "ABD",
+       "Gary Indiana ABD'dir")
+    eq(ulke("Nucor to add a cold mill in Indiana"), "ABD", "Indiana ABD")
+    # Gercek Hindistan haberleri bozulmamali
+    eq(ulke("India's Jindal Stainless Limited to invest $94 million to ramp up "
+            "cold rolling capacity"), "Hindistan", "India hala Hindistan")
+    eq(ulke("JSW Steel, India, orders ANDRITZ galvanizing line"), "Hindistan",
+       "India hala Hindistan")
+    eq(ulke("Indian mill starts up new pickling line"), "Hindistan",
+       "Indian hala Hindistan")
+
+
 def test_elle_besleme_kanali():
     """v19 (2026-08-29): bot korumasindaki yayinlar icin elle besleme.
 
@@ -1482,6 +1638,10 @@ def run():
                test_rezervin_ortaya_cikardigi_delikler,
                test_gunluk_tarama_modu, test_rezerv_tekrar_denetimi,
                test_elle_besleme_kanali,
+               test_v20_sitemap_geri_dusus,
+               test_v20_gonderilmis_hafiza,
+               test_v20_gunluk_tarama_arsivi_ezmez,
+               test_v20_indiana_hindistan_degil,
                test_w34_sifir_satir_teshisi,
                test_teknoloji_ve_ai_bolumleri,
                test_sitemap_okuyucu, test_olculen_25_haber,

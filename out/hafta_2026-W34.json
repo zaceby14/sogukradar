@@ -1,23 +1,94 @@
 {
- "rows": [],
+ "rows": [
+  {
+   "tarih": "2026-08-17",
+   "firma": "Jindal Stainless Limited",
+   "ulke": "Hindistan",
+   "hat": "Soguk hadde",
+   "asama": "Ilk urun",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "$94 million",
+   "baslik": "India's Jindal Stainless Limited to invest $94 million to ramp up cold rolling capacity",
+   "kaynak": "SteelOrbis",
+   "kaynak_id": "steelorbis",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/indias-jindal-stainless-limited-to-invest-94-million-to-ramp-up-cold-rolling-capacity-1471127.htm",
+   "tarih_kaynagi": "json-ld",
+   "eksik": [],
+   "anahtar": "c0b5f864813ba8fd",
+   "kategori": "Hat",
+   "olaylar": [
+    "jindal stainless limited|fu|Hindistan|Soguk hadde",
+    "jindal stainless limited|hat|Soguk hadde|Ilk urun",
+    "jindal stainless limited|ulke|Hindistan|Ilk urun"
+   ],
+   "puan": 59.0
+  },
+  {
+   "tarih": "2026-08-05",
+   "firma": "",
+   "ulke": "",
+   "hat": "Dilme / boy kesme / SSC",
+   "asama": "Ilk urun",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "tk accelis announces milestone at Stuttgart steel service center",
+   "kaynak": "SteelOrbis",
+   "kaynak_id": "steelorbis",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/tk-accelis-announces-milestone-at-stuttgart-steel-service-center-1469079.htm",
+   "tarih_kaynagi": "json-ld",
+   "eksik": [
+    "firma",
+    "ulke"
+   ],
+   "anahtar": "1733ff02c2b335cf",
+   "kategori": "Hat",
+   "olaylar": [
+    "|hat|Dilme / boy kesme / SSC|Ilk urun"
+   ],
+   "puan": 39.2
+  },
+  {
+   "tarih": "2026-08-05",
+   "firma": "Hoa Binh",
+   "ulke": "",
+   "hat": "Belirsiz",
+   "asama": "Ilk urun",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "Hoa Binh and Pomina Steel partner on 1.2 million mt flat steel plant expansion",
+   "kaynak": "SteelOrbis",
+   "kaynak_id": "steelorbis",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/hoa-binh-and-pomina-steel-partner-on-12-million-mt-flat-steel-plant-expansion-1469094.htm",
+   "tarih_kaynagi": "json-ld",
+   "eksik": [
+    "ulke",
+    "hat"
+   ],
+   "anahtar": "43d668b85bed5aed",
+   "kategori": "Yatirim",
+   "olaylar": [
+    "hoa binh|hat|Belirsiz|Ilk urun"
+   ],
+   "puan": 14.2
+  }
+ ],
  "stats": {
   "kaynak": 133,
-  "erisilemeyen": 9,
-  "ham": 2452,
-  "on_eleme_gecti": 240,
+  "erisilemeyen": 10,
+  "ham": 2421,
+  "on_eleme_gecti": 239,
   "makale_acildi": 220,
   "tarihsiz_elendi": 84,
   "pencere_disi": 191,
-  "kapsam_disi": 2149,
-  "tekrar": 22,
-  "kabul": 0,
+  "kapsam_disi": 2119,
+  "tekrar": 19,
+  "kabul": 3,
   "tarih_celiskisi": 2
  },
  "unreachable": [
-  [
-   "SMS group",
-   "HTTP 403"
-  ],
   [
    "Cognex",
    "HTTP 429"
@@ -29,6 +100,10 @@
   [
    "Steel Times International",
    "HTTP 403"
+  ],
+  [
+   "The Canmaker",
+   "URLError: <urlopen error timed out>"
   ],
   [
    "GMK Center",
@@ -49,6 +124,10 @@
   [
    "MetalForming Magazine",
    "HTTP 404"
+  ],
+  [
+   "Steel Manufacturers Assoc.",
+   "URLError: <urlopen error timed out>"
   ]
  ],
  "kinds": {
@@ -205,12 +284,14 @@
    "hat": "Bobin tasima / paketleme"
   }
  ],
- "kaynak_katki": {},
+ "kaynak_katki": {
+  "SteelOrbis": 3
+ },
  "window": [
   "2026-08-02",
   "2026-08-17"
  ],
  "period": "2026-W34",
- "generated": "2026-08-17 20:53 UTC",
+ "generated": "2026-08-17 19:11 UTC",
  "version": "3.0.0"
 }

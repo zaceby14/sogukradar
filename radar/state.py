@@ -78,6 +78,32 @@ def save(st):
     os.replace(tmp, STATE_FILE)
 
 
+def dedup_basliklar(lst):
+    """Ayni basligi iki kez tutmaz - en dolu kaydi birakir.
+
+    finalize ayni hafta icin iki kez calistirilabilir (editor duzeltip
+    yeniden final alir). Tekrar yazilan kayit hafizayi sisirmekle kalmiyor,
+    budama sinirini erken doldurup ESKI ve hala gecerli basliklari disari
+    itiyordu.
+    """
+    from . import taxonomy
+    out, ix = [], {}
+    for b in lst or []:
+        k = taxonomy.fold(b.get("b") or "").strip()
+        if not k:
+            continue
+        j = ix.get(k)
+        if j is None:
+            ix[k] = len(out)
+            out.append(dict(b))
+            continue
+        eski = out[j]
+        for alan in ("t", "a", "ted", "u"):
+            if not eski.get(alan) and b.get(alan):
+                eski[alan] = b[alan]
+    return out
+
+
 def prune(st, keep=1500, event_days=120):
     seen = st.get("seen", {})
     if len(seen) > keep:
@@ -89,9 +115,22 @@ def prune(st, keep=1500, event_days=120):
     cut = (_dt.date.today() - _dt.timedelta(days=event_days)).isoformat()
     st["events"] = {k: v for k, v in st.get("events", {}).items()
                     if (v or "9999") >= cut}
-    cut21 = (_dt.date.today() - _dt.timedelta(days=21)).isoformat()
-    st["son_basliklar"] = [b for b in st.get("son_basliklar", [])
-                           if (b.get("t") or "9999") >= cut21][-200:]
+    # SON BASLIKLAR: gonderilmis satirlarin hafizasi.
+    #
+    # 2026-08-29'da IKI kusur birden ortaya cikti. (1) finalize listeye
+    # ekleme yaparken tekrar denetimi yapmiyordu; W35 icin iki kez
+    # calistirilinca 11 kaydin 5'i cift yazildi. (2) budama 21 gunle
+    # sinirliydi; oysa REZERV 540 gun geriye uzaniyor, yani rezervden gelen
+    # bir satir 21 gun once GONDERILMIS bir haberin varyanti olabiliyordu.
+    # Nitekim W34'te giden "tk accelis" satiri hafizadan dusmustu ve ayni
+    # olayin Yieh varyanti rezervden yeniden listeye girdi. Hafiza rezerv
+    # kadar uzun tutulur; 21 gunluk pencereyi kullanan taraf (collect.py
+    # ucuncu bacak) kendi kesimini kendisi yapar.
+    from .config import REZERV_GUN
+    cutb = (_dt.date.today() - _dt.timedelta(days=REZERV_GUN)).isoformat()
+    st["son_basliklar"] = dedup_basliklar(
+        [b for b in st.get("son_basliklar", [])
+         if (b.get("t") or "9999") >= cutb])[-400:]
     # Rezerv: raporlanmis olan ve cok eskiyen satirlar dusurulur.
     from .config import REZERV_GUN, REZERV_MAX
     cutr = (_dt.date.today() - _dt.timedelta(days=REZERV_GUN)).isoformat()

@@ -170,6 +170,31 @@ kaynak tarafından yükselir, filtre aynı kalır.
 
 Pazartesi editör koşusu bu havuzun üstüne oturur.
 
+Günlük tarama **hiçbir zaman** haftalık arşive yazmaz. Kendi çıktısı ayrı
+dosyadadır: `out/tarama.json` + `out/tarama_needs_ai.json`. (2026-08-29'da
+tersi oldu: tarama, gönderilen 6 satırlık W35 bülteninin kaydı olan
+`out/hafta_2026-W35.json`'u rezervden gelen 4 satırla ezdi; ne gönderdiğimi
+ancak git geçmişinden çıkarabildim.)
+
+## 4g. Gönderilmiş satır hafızası (`son_basliklar`)
+
+Rezerv **540 gün** geriye uzanır, dolayısıyla hafıza da o kadar uzun tutulur
+— 21 günlük budama, üç hafta önce gönderilmiş bir haberin başka yayındaki
+varyantının rezervden geri dönmesine izin veriyordu. 21 günlük pencereyi
+kullanan taraf (`collect.py` üçüncü bacak) kesimini kendisi yapar.
+
+Her kayıt `{b, t, a, ted, u}` taşır — başlık, tarih, aşama, **tedarikçi,
+ülke**. Tedarikçi/ülke olmadan "aynı tedarikçi + aynı aşama + (aynı ülke ya
+da aynı gün)" imzası gönderilmiş satırlara karşı hiç işletilemiyordu.
+
+`finalize` yazarken tekrar denetimi yapar (`state.dedup_basliklar`): aynı
+hafta iki kez finalize edilirse hafıza şişmez.
+
+Bu üç kusur 2026-08-29'da birlikte görüldü: 11 kayıtlık hafızada yalnızca 6
+farklı başlık vardı, W34'te gönderilen "tk accelis" satırı düşmüştü ve aynı
+haberin Yieh varyantı ile W35'te giden KG Steel/Primetals olayının STI
+varyantı rezervden listeye girdi.
+
 ## 4e. Otonomi: sistem sensiz çalışır
 
 ```
@@ -211,6 +236,14 @@ bunu kanıtladı (sayfa 403, sitemap 1000 adres).
 
 Bu dosya **her hafta tazelenir** (ayrı routine, `SogukRadar elle besleme`).
 Kapalı yayınlar için arama sorguları: yayın adı + hat terimleri, son 30 gün.
+
+### Tahmin edilen sitemap adresi çalışan kaynağı bozamaz
+
+Kaynaklara eklenen sitemap **zinciri** tahmindir. Zincir tutmazsa kaynağın
+kendi html/rss adresi denenir. (v19'da bu geri düşüş yoktu: tahminlerin bir
+kısmı 404 döndü ve erişilemeyen kaynak sayısı 10'dan 16'ya çıktı — ABB
+Metals, Nippon Steel, Kocks, MetalForming ve Mysteel "boş liste"den "HTTP
+404"e düştü. İyileştirme diye yapılan şey kaynakları kötüleştirdi.)
 
 ## 5. Kalıcı bölümler
 

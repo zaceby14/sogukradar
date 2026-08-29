@@ -533,59 +533,81 @@
  },
  "son_basliklar": [
   {
-   "a": "Belirsiz",
+   "a": "Sozlesme",
+   "b": "JSW Steel, India, orders ANDRITZ galvanizing line for advanced automotive steels",
+   "t": "2026-08-25",
+   "ted": "Andritz",
+   "u": "Hindistan"
+  },
+  {
+   "a": "Sozlesme",
+   "b": "Fives supplies technologies for Xinyu's new electrical steel facility",
+   "t": "2026-08-28",
+   "ted": "Fives",
+   "u": "Çin"
+  },
+  {
+   "a": "Ilk urun",
+   "b": "三宝集团SACL3#新能源高牌号无取向硅钢退火炉顺利投产",
+   "t": "2026-08-26",
+   "ted": "",
+   "u": "Çin"
+  },
+  {
+   "a": "Ilk urun",
+   "b": "Roofings Unveils $125m Steel Mill, Doubles Cold-Rolled Capacity to 300,000 Tonnes",
+   "t": "2026-08-25",
+   "ted": "Danieli",
+   "u": "Uganda"
+  },
+  {
+   "a": "Modernizasyon",
+   "b": "KG Steel selects Primetals for Dangjin PLTCM upgrade and capacity expansion",
+   "t": "2026-08-11",
+   "ted": "Primetals",
+   "u": "G. Kore"
+  },
+  {
+   "a": "Ilk urun",
+   "b": "TOSYALI ALGÉRİE, SOĞUK HADDELEME KOMPLEKSİNDE İLK ÜRETİMİ YAPTI",
+   "t": "2026-07-29",
+   "ted": "",
+   "u": "Cezayir"
+  },
+  {
+   "a": "Ilk urun",
    "b": "India's Jindal Stainless Limited to invest $94 million to ramp up cold rolling capacity",
-   "t": "2026-08-17"
-  },
-  {
-   "a": "Sozlesme",
-   "b": "JSW Steel, India, orders ANDRITZ galvanizing line for advanced automotive steels",
-   "t": "2026-08-25"
-  },
-  {
-   "a": "Sozlesme",
-   "b": "Fives supplies technologies for Xinyu's new electrical steel facility",
-   "t": "2026-08-28"
+   "t": "2026-08-17",
+   "ted": "",
+   "u": "Hindistan"
   },
   {
    "a": "Ilk urun",
-   "b": "三宝集团SACL3#新能源高牌号无取向硅钢退火炉顺利投产",
-   "t": "2026-08-26"
+   "b": "tk accelis announces milestone at Stuttgart steel service center",
+   "t": "2026-08-05",
+   "ted": "",
+   "u": ""
   },
   {
    "a": "Ilk urun",
-   "b": "Roofings Unveils $125m Steel Mill, Doubles Cold-Rolled Capacity to 300,000 Tonnes",
-   "t": "2026-08-25"
+   "b": "Hoa Binh and Pomina Steel partner on 1.2 million mt flat steel plant expansion",
+   "t": "2026-08-05",
+   "ted": "",
+   "u": ""
   },
   {
-   "a": "Modernizasyon",
-   "b": "KG Steel selects Primetals for Dangjin PLTCM upgrade and capacity expansion",
-   "t": "2026-08-11"
+   "a": "Belirsiz",
+   "b": "Domestic steel capacity expansion to boost higher-grade iron ore demand – report",
+   "t": "2026-08-12",
+   "ted": "",
+   "u": "Turkiye"
   },
   {
-   "a": "Sozlesme",
-   "b": "JSW Steel, India, orders ANDRITZ galvanizing line for advanced automotive steels",
-   "t": "2026-08-25"
-  },
-  {
-   "a": "Sozlesme",
-   "b": "Fives supplies technologies for Xinyu's new electrical steel facility",
-   "t": "2026-08-28"
-  },
-  {
-   "a": "Ilk urun",
-   "b": "三宝集团SACL3#新能源高牌号无取向硅钢退火炉顺利投产",
-   "t": "2026-08-26"
-  },
-  {
-   "a": "Ilk urun",
-   "b": "Roofings Unveils $125m Steel Mill, Doubles Cold-Rolled Capacity to 300,000 Tonnes",
-   "t": "2026-08-25"
-  },
-  {
-   "a": "Modernizasyon",
-   "b": "KG Steel selects Primetals for Dangjin PLTCM upgrade and capacity expansion",
-   "t": "2026-08-11"
+   "a": "Belirsiz",
+   "b": "Russian strike halts Metinvest’s Zaporizhstal steel production",
+   "t": "2026-08-12",
+   "ted": "",
+   "u": "Rusya"
   }
  ],
  "source_health": {},
