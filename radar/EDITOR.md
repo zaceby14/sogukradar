@@ -176,6 +176,16 @@ tersi oldu: tarama, gönderilen 6 satırlık W35 bülteninin kaydı olan
 `out/hafta_2026-W35.json`'u rezervden gelen 4 satırla ezdi; ne gönderdiğimi
 ancak git geçmişinden çıkarabildim.)
 
+## 4h. Rezervdeki satır, sözlük düzelince kendini düzeltir
+
+Rezerv 540 gün geriye uzanır; havuza giren satır **o günkü kodun kararını**
+taşır. Sözlükteki bir hata düzeltildiğinde havuzdaki eski satır hâlâ bozuk
+değeri taşır — 2026-08-29'da tam bu oldu: `\bindia` deseni düzeltildikten
+sonra bile "U. S. Steel … Gary Tin Mill" satırı rezervden **Hindistan**
+olarak çıkmaya devam etti. Rezervden seçilen satırın ülkesi, seçim anında
+güncel sözlükle **başlıktan** yeniden türetilir; başlık ülke taşımıyorsa
+(KG Steel/Dangjin gibi) gövdeden gelen eski değer korunur.
+
 ## 4g. Gönderilmiş satır hafızası (`son_basliklar`)
 
 Rezerv **540 gün** geriye uzanır, dolayısıyla hafıza da o kadar uzun tutulur
@@ -228,9 +238,20 @@ bunu kanıtladı (sayfa 403, sitemap 1000 adres).
 **arama ile** bulur ve bu dosyaya yazar. Kurallar:
 
 - Dosya **yalnız başlık + adres** taşır. **TARİH YAZILMAZ.**
-- Tarihi Actions makale sayfasını açarak doğrular. Editörün beyan ettiği
-  bir tarih rapora asla giremez — "tarih uydurulmaz" kuralı burada da
-  geçerli, `selftest` bunun bekçiliğini yapar.
+- Editörün beyan ettiği bir tarih rapora asla giremez — "tarih uydurulmaz"
+  kuralı burada da geçerli, `selftest` bunun bekçiliğini yapar.
+- **Tarihi kim doğrular:** ulaşılabilir bir beslemeden (Google News RSS),
+  yayıncının kendi `pubDate`'inden, **başlık örtüşmesi aranarak**. Örtüşme
+  yoksa tarih yok, satır da yok.
+
+  İlk tasarımda tarih "Actions makale sayfasını açarak" doğrulanacaktı; bu
+  yanlıştı ve ölçüldü — 15 kaydın 14'ü `tarihsiz_elendi` ile düştü, kanal
+  **hiç satır üretmedi.** Kapalı yayının sayfası kapalıysa tarihi de
+  kapalıdır. Başlık örtüşme ölçütü tekrar elemeninkinden **katıdır**:
+  `similar_titles` "SMS upgrades Hyundai Steel galvanising line" ile
+  "Ternium contracts Fives for new galvanizing line"i aynı sayıyor; tekrar
+  elemede bu tolerans doğru, tarih atamada başka haberin tarihini bu
+  başlığa yapıştırır.
 - Kapsam kapısı değişmez; bu kanal yalnızca **aday** taşır.
 - Pencere dışında kalanlar rezerve düşer, kaybolmaz.
 

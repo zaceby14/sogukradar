@@ -1423,6 +1423,15 @@ def test_elle_besleme_kanali():
 
     KRITIK KURAL: dosya TARIH TASIMAZ. Editorun beyan ettigi bir tarih
     rapora asla giremez - "tarih uydurulmaz" kurali bu kanalda da gecerli.
+
+    v20c (2026-08-29) - TARIHI KIM DOGRULAR? Kanalin ilk hali OLCULDU ve
+    15 kaydin 14'u "tarihsiz_elendi" ile dustu; kanal HIC satir uretmedi.
+    Tasarim hatasi bendeydi: tarihin "Actions'ta makale sayfasi acilarak"
+    dogrulanacagini varsaymistim, oysa bu yayinlar zaten bot korumasinda -
+    makale sayfasi da 403. Kapali yayinin sayfasi kapaliysa tarihi de
+    kapalidir. Tarih artik ULASILABILIR bir beslemeden (Google News RSS,
+    yayincinin kendi pubDate'i) baslik ortusmesi araniyor; ortusme yoksa
+    tarih yok, satir da yok. Editor yine tarih beyan etmiyor.
     """
     import json as _json
     import os as _os
@@ -1444,11 +1453,48 @@ def test_elle_besleme_kanali():
     # Okuyucu dogru calismali ve tarih URETMEMELI
     kaynak = dict(id="elle", publisher="Elle besleme", kind="dergi",
                   dosya="veri/elle_besleme.json")
-    items, err = col._items_from_dosya(kaynak, lambda *a: None)
-    eq(err, None, "dosya okunabilmeli")
-    eq(len(items), len(d["kayitlar"]), "tum kayitlar aday olmali")
-    for it in items:
-        eq(it["date_raw"], "", "elle beslemeden tarih GELMEMELI")
+    # Aginin olmadigi yerde tarih dogrulama BOS doner, cokmez
+    eski_fetch = col.http.fetch
+    try:
+        col.http.fetch = lambda u, **kw: (False, "", {"hata": "ag yok"})
+        items, err = col._items_from_dosya(kaynak, lambda *a: None)
+        eq(err, None, "dosya okunabilmeli")
+        eq(len(items), len(d["kayitlar"]), "tum kayitlar aday olmali")
+        for it in items:
+            eq(it["date_raw"], "", "dogrulanamayan tarih URETILMEZ")
+            eq(it.get("from_feed", False), False, "tarih yoksa yapisal isaret de yok")
+
+        # BASLIK ORTUSURSE yayincinin kendi pubDate'i alinir
+        besleme = ('<rss><channel><item>'
+                   '<title>SMS upgrades Hyundai Steel galvanising line</title>'
+                   '<link>https://news.google.com/x</link>'
+                   '<pubDate>Tue, 25 Aug 2026 09:00:00 GMT</pubDate>'
+                   '</item></channel></rss>')
+        col.http.fetch = lambda u, **kw: (True, besleme, {"final": u})
+        eq(col._elle_tarih("SMS upgrades Hyundai Steel galvanising line",
+                           lambda *a: None)[:3], "Tue",
+           "ortusen baslikta yayincinin tarihi alinmali")
+
+        # BASLIK ORTUSMEZSE tarih ALINMAZ - baska haberin tarihini bu
+        # baslıga yapistirmak, tarih uydurmakla ayni sonucu verir
+        eq(col._elle_tarih("Ternium contracts Fives for new galvanizing line",
+                           lambda *a: None), "",
+           "ortusmeyen baslikta tarih alinmamali")
+
+        # Olcutun kendisi: tekrar elemenin toleransi burada KULLANILAMAZ.
+        # taxonomy.similar_titles bu iki basligi AYNI sayiyor (ortak
+        # "galvanizing line"); tekrar elemede bu dogru, tarih atamada ise
+        # baska bir haberin tarihini bu basliga yapistirir.
+        a = "SMS upgrades Hyundai Steel galvanising line"
+        b = "Ternium contracts Fives for new galvanizing line"
+        eq(taxonomy.similar_titles(a, b), True,
+           "tekrar olcutu bu ikiliyi ayni sayar - vakanin dayanagi")
+        eq(col._ayni_baslik(a, b), False,
+           "tarih olcutu ayni saymamali")
+        eq(col._ayni_baslik(a, "SMS upgrades Hyundai Steel galvanising line"),
+           True, "birebir baslik ortusmeli")
+    finally:
+        col.http.fetch = eski_fetch
 
     # Kayip dosya cokmemeli
     _, err2 = col._items_from_dosya(dict(dosya="veri/yok.json"), lambda *a: None)

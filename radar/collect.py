@@ -221,15 +221,70 @@ def _items_from_dosya(s, log):
         d = _json.load(open(yol, encoding="utf-8"))
     except Exception as e:
         return [], "dosya okunamadi: %s" % e
-    out = []
+    out, tarihli = [], 0
     for k in d.get("kayitlar", []):
         u, t = (k.get("url") or "").strip(), (k.get("baslik") or "").strip()
-        if u.startswith("http") and len(t.split()) >= 4:
-            out.append({"title": t, "url": u, "date_raw": "", "summary": "",
-                        "_pub": k.get("kaynak") or s["publisher"]})
+        if not (u.startswith("http") and len(t.split()) >= 4):
+            continue
+        tarih = _elle_tarih(t, log)
+        if tarih:
+            tarihli += 1
+        out.append({"title": t, "url": u, "date_raw": tarih, "summary": "",
+                    "from_feed": bool(tarih),
+                    "_pub": k.get("kaynak") or s["publisher"]})
     if out:
-        log("    (elle besleme: %d aday)" % len(out))
+        log("    (elle besleme: %d aday, %d tanesinin tarihi dogrulandi)"
+            % (len(out), tarihli))
     return out, (None if out else "elle besleme bos")
+
+
+GNEWS_ARA = "https://news.google.com/rss/search?q=%s&hl=en-US&gl=US&ceid=US:en"
+
+
+def _elle_tarih(baslik, log):
+    """Elle beslenen basligin tarihini ULASILABILIR bir beslemeden dogrular.
+
+    NEDEN GEREKLI (2026-08-29, olculdu): kanalin ilk hali 15 kaydin 14'unu
+    "tarihsiz_elendi" ile kaybediyordu, yani kanal HIC satir uretmiyordu.
+    Sebep tasarim hatasiydi: tarihin "Actions'ta makale sayfasi acilarak"
+    dogrulanacagini varsaymistim, oysa bu yayinlar zaten bot korumasinda -
+    makale sayfasi da 403 veriyor. Kapali yayinin sayfasi kapaliysa tarihi
+    de kapalidir.
+
+    Cozum EDITORUN TARIH BEYAN ETMESI DEGILDIR - o kural degismez. Tarih
+    yine yayincinin kendi beyanindan gelir, sadece ULASILABILIR bir kanaldan:
+    Google News beslemesi haberi indeksledigi zaman yayincinin pubDate'ini
+    tasir ve bu, boru hattinin RSS icin zaten guvendigi YAPISAL tarihtir.
+    Baslik ortusmesi aranir; ortusme yoksa tarih yok, satir da yok.
+    """
+    import urllib.parse
+    q = urllib.parse.quote('"%s"' % baslik[:110])
+    ok, text, _info = http.fetch(GNEWS_ARA % q)
+    if not ok or not feeds.looks_like_feed(text):
+        return ""
+    for e in feeds.parse_feed(text)[:10]:
+        if _ayni_baslik(e.get("title", ""), baslik):
+            return e.get("date_raw", "")
+    return ""
+
+
+def _ayni_baslik(a, b, esik=0.85):
+    """Iki baslik AYNI HABER MI - tarih atamak icin katı olcut.
+
+    taxonomy.similar_titles burada KULLANILAMAZ; o olcut "ayni olayin
+    varyanti" icin ayarli ve 2026-08-29'da olculdu:
+      "SMS upgrades Hyundai Steel galvanising line"
+      "Ternium contracts Fives for new galvanizing line"
+    ikilisini AYNI sayiyor (ortak "galvanizing line"). Tekrar elemede bu
+    tolerans dogru - fazladan eleme haber kaybettirir, yanlis bilgi
+    vermez. Tarih atamada ise ayni tolerans, BASKA bir haberin tarihini bu
+    basliga yapistirir; sonucu tarih uydurmakla aynidir. Bu yuzden
+    neredeyse birebir ortusme aranir.
+    """
+    ta, tb = taxonomy.title_tokens(a), taxonomy.title_tokens(b)
+    if not ta or not tb:
+        return False
+    return len(ta & tb) / max(len(ta), len(tb)) >= esik
 
 
 def _items_from_source(s, log):

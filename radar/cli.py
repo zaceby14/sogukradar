@@ -205,6 +205,26 @@ def _tech_havuz(st, taze):
     return list(st["tech_rezerv"])
 
 
+def _rezerv_alanlarini_tazele(r):
+    """Rezervdeki satirin ulkesini GUNCEL sozlukle yeniden turetir.
+
+    Rezerv 540 gun geriye uzaniyor; havuza giren satir o gunku kodun verdigi
+    KARARI tasiyor. Sozlukteki bir hata duzeltildiginde havuzdaki eski satir
+    hala bozuk degeri taşıyor - 2026-08-29'da tam bu oldu: COUNTRY_MAP'te
+    "\\bindia" sinirsizdi ve Gary, INDIANA'daki tesisi anlatan
+    "U. S. Steel Announces Plans to Restart Gary Tin Mill" satirina
+    "Hindistan" yazmisti. Desen duzeltildikten sonra bile satir rezervden
+    Hindistan olarak cikmaya devam etti.
+
+    Yalnizca BASLIKTAN turetilebilen bir ulke varsa yazilir; baslik ulke
+    tasimiyorsa (KG Steel/Dangjin gibi) govdeden gelen eski deger korunur.
+    """
+    u = taxonomy.match_country(r.get("baslik") or "")
+    if u and u != (r.get("ulke") or ""):
+        r["ulke"] = u
+    return r
+
+
 def _imza_carpisti(r, secili, gecmis):
     """Ayni tedarikci + ayni asama + (ayni ulke YA DA ayni gun) mu?
 
@@ -263,6 +283,7 @@ def _rezervden_sec(rezerv, rows, st, eksik):
     out = []
     # En yeniden eskiye: okuyucu once guncel olani gorsun.
     for r in sorted(rezerv, key=lambda r: r.get("tarih", ""), reverse=True):
+        _rezerv_alanlarini_tazele(r)
         if len(out) >= eksik:
             break
         eks = set(r.get("olaylar") or [])
