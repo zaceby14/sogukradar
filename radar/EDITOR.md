@@ -170,6 +170,25 @@ kaynak tarafından yükselir, filtre aynı kalır.
 
 Pazartesi editör koşusu bu havuzun üstüne oturur.
 
+## 4e. Otonomi: sistem sensiz çalışır
+
+```
+her gün 03:17 UTC   gunluk.yml   tarama → rezerv + teknoloji havuzu
+                                 (posta yok, "gönderildi" işareti yok)
+pazartesi 04:37     weekly.yml   haftalık koşu + çapraz kontrol
+pazartesi 05:30     editör       EDITOR.md akışı → ozet.json → finalize
+                                 → out/ONAY → main'e push
+                    gonder.yml   ONAY'ı görür, postayı gönderir
+pazartesi 07:00     bekçi        gitmediyse kullanıcıya bildirim
+```
+
+Kullanıcıdan **hiçbir onay beklenmez.** Editör kendi kararını verir ve
+gönderir. Tek durum: bülten bozuksa `out/ONAY` yazılmaz, sebep rapor edilir
+— bekçi de bunu kullanıcıya bildirir.
+
+**Hedef 5-6 gelişme + 1 teknoloji.** Taze arz yetmezse rezervden tamamlanır;
+rezerv de boşsa liste kısalır. Sayıyı tutturmak için kapı gevşetilmez.
+
 ## 5. Kalıcı bölümler
 
 Bu iki bölüm **her hafta**, içerik olmasa da render edilir — bölümün hiç
