@@ -42,7 +42,10 @@ REJECT_SEBEP_KOTA = int(os.environ.get("RADAR_REJECT_SEBEP", "200"))
 # bu yuzden kapi GEVSETILMEZ; eksik REZERV havuzundan tamamlanir. Rezerv,
 # gecmis kosularda kapiyi gecmis ve tarihi DOGRULANMIS ama pencere disinda
 # kaldigi icin hic gonderilmemis satirlardan olusur.
-HEDEF_SATIR = int(os.environ.get("RADAR_HEDEF_SATIR", "8"))
+# 5-6 gelisme (2026-08-27 kullanici karari). Ortalama budur: dolu hafta
+# 6, zayif hafta rezervden tamamlanir, rezerv de bosalirsa liste kisalir
+# - kisa liste yanlis listeden iyidir.
+HEDEF_SATIR = int(os.environ.get("RADAR_HEDEF_SATIR", "6"))
 REZERV_MAX = int(os.environ.get("RADAR_REZERV_MAX", "300"))
 REZERV_GUN = int(os.environ.get("RADAR_REZERV_GUN", "540"))   # ~18 ay
 
