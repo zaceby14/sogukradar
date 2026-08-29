@@ -1224,6 +1224,57 @@ def test_rezerv_tekrar_denetimi():
     eq(_rezervden_sec([kg], rows=[], st={}, eksik=0), [], "eksik yoksa alinmaz")
 
 
+def test_elle_besleme_kanali():
+    """v19 (2026-08-29): bot korumasindaki yayinlar icin elle besleme.
+
+    On bes kaynak sorunlu: yedisi 403/429 (SMS group, ArcelorMittal, STI,
+    BigMint, MetalMiner, Furnaces Int, Cognex), yedisinde sayfa aciliyor ama
+    link cikmiyor, biri 404. Editorun kendi oturumu da ayni egress proxy'nin
+    arkasinda - o da bu sitelere giremiyor. Cozum: editor basliklari ARAMA
+    ile bulur, dosyaya BASLIK + ADRES yazar; tarihi Actions makale sayfasini
+    acarak dogrular.
+
+    KRITIK KURAL: dosya TARIH TASIMAZ. Editorun beyan ettigi bir tarih
+    rapora asla giremez - "tarih uydurulmaz" kurali bu kanalda da gecerli.
+    """
+    import json as _json
+    import os as _os
+    import radar.collect as col
+
+    kok = _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))
+    yol = _os.path.join(kok, "veri", "elle_besleme.json")
+    eq(_os.path.exists(yol), True, "elle besleme dosyasi bulunmali")
+    d = _json.load(open(yol, encoding="utf-8"))
+
+    # Dosya TARIH ALANI TASIMAMALI - bu kuralin bekcisi
+    for k in d.get("kayitlar", []):
+        for alan in ("tarih", "date", "tarih_kaynagi", "pubDate"):
+            eq(alan in k, False, "elle beslemede tarih alani olmamali: " + alan)
+        eq(k.get("url", "").startswith("http"), True, "adres http ile baslamali")
+        eq(len(k.get("baslik", "").split()) >= 4, True,
+           "baslik anlamli olmali: " + k.get("baslik", "")[:40])
+
+    # Okuyucu dogru calismali ve tarih URETMEMELI
+    kaynak = dict(id="elle", publisher="Elle besleme", kind="dergi",
+                  dosya="veri/elle_besleme.json")
+    items, err = col._items_from_dosya(kaynak, lambda *a: None)
+    eq(err, None, "dosya okunabilmeli")
+    eq(len(items), len(d["kayitlar"]), "tum kayitlar aday olmali")
+    for it in items:
+        eq(it["date_raw"], "", "elle beslemeden tarih GELMEMELI")
+
+    # Kayip dosya cokmemeli
+    _, err2 = col._items_from_dosya(dict(dosya="veri/yok.json"), lambda *a: None)
+    eq(err2, "dosya yok", "kayip dosya nazikce bildirilmeli")
+
+    # Adaylar kapsam kapisindan gecmeli - kanal muafiyet DEGIL
+    kapsam_ici = sum(1 for it in items
+                     if taxonomy.in_scope(it["title"], "")[0]
+                     and taxonomy.haber_olayi(it["title"]))
+    eq(kapsam_ici >= 4, True,
+       "beslemedeki adaylarin cogu kapsam kapisini gecmeli (gecen: %d)" % kapsam_ici)
+
+
 def test_sitemap_okuyucu():
     """v6 (2026-08-17): haber sitemap'i kaynak turu.
 
@@ -1430,6 +1481,7 @@ def run():
                test_rezerv_ve_teknoloji_havuzu,
                test_rezervin_ortaya_cikardigi_delikler,
                test_gunluk_tarama_modu, test_rezerv_tekrar_denetimi,
+               test_elle_besleme_kanali,
                test_w34_sifir_satir_teshisi,
                test_teknoloji_ve_ai_bolumleri,
                test_sitemap_okuyucu, test_olculen_25_haber,

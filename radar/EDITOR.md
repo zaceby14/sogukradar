@@ -189,6 +189,29 @@ gönderir. Tek durum: bülten bozuksa `out/ONAY` yazılmaz, sebep rapor edilir
 **Hedef 5-6 gelişme + 1 teknoloji.** Taze arz yetmezse rezervden tamamlanır;
 rezerv de boşsa liste kısalır. Sayıyı tutturmak için kapı gevşetilmez.
 
+## 4f. Kapalı kaynaklar ve elle besleme
+
+15 kaynak sorunlu: 7'si bot koruması (403/429), 7'sinde sayfa açılıyor ama
+link çıkmıyor, 1'i ölü adres. **Editörün kendi oturumu da aynı egress
+proxy'nin arkasında** — o da bu sitelere giremiyor. İki yönlü çözüm:
+
+**1. Sitemap zinciri + robots.txt keşfi.** 16 kaynağa yedek adres listesi
+bağlandı. Sitemap çoğu zaman ana sayfayla aynı korumada değil — SteelOrbis
+bunu kanıtladı (sayfa 403, sitemap 1000 adres).
+
+**2. `veri/elle_besleme.json`.** Editör kapalı yayınların başlıklarını
+**arama ile** bulur ve bu dosyaya yazar. Kurallar:
+
+- Dosya **yalnız başlık + adres** taşır. **TARİH YAZILMAZ.**
+- Tarihi Actions makale sayfasını açarak doğrular. Editörün beyan ettiği
+  bir tarih rapora asla giremez — "tarih uydurulmaz" kuralı burada da
+  geçerli, `selftest` bunun bekçiliğini yapar.
+- Kapsam kapısı değişmez; bu kanal yalnızca **aday** taşır.
+- Pencere dışında kalanlar rezerve düşer, kaybolmaz.
+
+Bu dosya **her hafta tazelenir** (ayrı routine, `SogukRadar elle besleme`).
+Kapalı yayınlar için arama sorguları: yayın adı + hat terimleri, son 30 gün.
+
 ## 5. Kalıcı bölümler
 
 Bu iki bölüm **her hafta**, içerik olmasa da render edilir — bölümün hiç

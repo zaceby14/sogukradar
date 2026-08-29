@@ -10,6 +10,7 @@ eslesebilir. Makale sayfasindaki JSON-LD / meta / <time> yapisal ve
 yayincinin kendi beyanidir. Tarih dogrulugu bu adimda kazanilir.
 """
 import datetime as dt
+import os
 import re
 
 from . import classify, dates, feeds, htmlx, http, sources, state, taxonomy
@@ -198,8 +199,43 @@ def _sitemap_zinciri(s, log):
     return [], son
 
 
+def _items_from_dosya(s, log):
+    """Depodaki bir JSON dosyasindan aday listesi (ELLE BESLEME).
+
+    NEDEN VAR (2026-08-29): kaynaklarin bir kismi bot korumasi yuzunden hem
+    yazilima hem de editorun oturumuna kapali (Steel Times International,
+    SMS group, ArcelorMittal, BigMint... 403). Editor bu yayinlarin
+    basliklarini ARAMA ile bulup bu dosyaya yazar.
+
+    KRITIK: dosya yalnizca BASLIK + ADRES tasir, TARIH TASIMAZ. Tarih her
+    zamanki gibi Actions'ta makale sayfasi acilarak dogrulanir - editorun
+    beyan ettigi bir tarih hicbir zaman rapora girmez. Kapsam kapisi da
+    degismez; bu kanal yalnizca ADAY tasir.
+    """
+    import json as _json
+    from .config import ROOT
+    yol = os.path.join(ROOT, s["dosya"])
+    if not os.path.exists(yol):
+        return [], "dosya yok"
+    try:
+        d = _json.load(open(yol, encoding="utf-8"))
+    except Exception as e:
+        return [], "dosya okunamadi: %s" % e
+    out = []
+    for k in d.get("kayitlar", []):
+        u, t = (k.get("url") or "").strip(), (k.get("baslik") or "").strip()
+        if u.startswith("http") and len(t.split()) >= 4:
+            out.append({"title": t, "url": u, "date_raw": "", "summary": "",
+                        "_pub": k.get("kaynak") or s["publisher"]})
+    if out:
+        log("    (elle besleme: %d aday)" % len(out))
+    return out, (None if out else "elle besleme bos")
+
+
 def _items_from_source(s, log):
     """(items, hata) -> items: {title,url,date_raw,summary}"""
+    if s.get("dosya"):
+        return _items_from_dosya(s, log)
     if s.get("sitemap") or s.get("sitemaps"):
         return _sitemap_zinciri(s, log)
     url = s.get("rss") or s["url"]
