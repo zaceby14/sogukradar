@@ -1,25 +1,71 @@
 {
- "exec": "Bu hafta tarih doğrulamasından geçen üç gelişme var. Öne çıkanı Jindal Stainless'ın soğuk hadde kapasitesini yaklaşık %30 büyütecek 94 milyon dolarlık yatırım kararı; ikincisi tk accelis'in Stuttgart servis merkezinde elektrik çeliği şeridi işleyebilen yeni dilme hattından ilk bobinleri alması. Üçüncüsü Vietnam'da 1,2 milyon tonluk yassı çelik fazı için imzalanan mutabakat. Teknoloji köşesi bu hafta boş: altı aylık aday havuzundaki iki maddenin biri arşivde, diğeri teknoloji değil tanıtım yazısı. On kaynak tarama sırasında erişilemedi (Steel Times International, GMK Center, ArcelorMittal ve diğerleri 403/404 verdi); listenin bu hafta tek yayına dayanması bununla ilgili.",
+ "exec": "Bu hafta altı gelişme var ve dördü doğrudan hat yatırımı. Öne çıkan iki başlık soğuk haddeleme kompleksi devreye alma: Uganda'da Roofings, Danieli yapımı kompleksin dördüncü fazını açarak soğuk hadde kapasitesini 300 bin tona çıkardı; Tosyalı Algérie ise kendi soğuk haddeleme kompleksinde ilk üretimi yaptı. Elektrik çeliği tarafı hareketli: Fives Çin'de Xinyu'nun yeni tesisine teknoloji veriyor, Sanbao Grubu ise yönsüz silisyum çeliği tavlama fırınını devreye aldı. JSW Steel otomotiv sacı için ANDRITZ'e galvaniz hattı siparişi verdi, KG Steel Dangjin'deki PLTCM'i Primetals ile yeniliyor. Teknoloji köşesinde Severstal'ın galvaniz hattı yenilemesinde kullandığı dijital montaj yaklaşımı var.",
  "cumleler": {
-  "c0b5f864813ba8fd": "Jindal Stainless, soğuk hadde kapasitesini yılda 2,05 milyon tondan 2,67 milyon tona çıkarmak için yaklaşık 94 milyon dolar (900 crore rupi) ayırdı; yatırım Hisar ve Kharagpur tesislerini ve Jajpur'da kurulacak yeni sıcak rulo tavlama-asitleme (HRAP) ile soğuk hadde hatlarını kapsıyor, 2027-28 mali yılında tamamlanması planlanıyor.",
-  "1733ff02c2b335cf": "thyssenkrupp'un servis merkezi kolu tk accelis Processing Europe, Stuttgart'ta genişlettiği merkezde yeni dilme hattında ilk 500 bobini işledi; 0,2-5,0 mm kalınlık aralığında çalışan ve elektrik çeliği şeridi işleyebilen hat ile dijital entegre paketleme hattının devreye girmesiyle tesisin yıllık işleme kapasitesi 350 bin tona çıktı.",
-  "43d668b85bed5aed": "Vietnamlı müteahhit Hoa Binh Construction Group ile çelik üreticisi Pomina Steel, Phu My 1 Sanayi Parkı'ndaki tesisin ikinci fazı için mutabakat zaptı imzaladı; yaklaşık 40 bin metrekarelik alanda yılda 1,2 milyon ton yassı çelik üretimi hedefleniyor, inşaatın ekim başında başlaması planlanıyor."
+  "1d40f81689c438c8": "JSW Steel, Hindistan'daki tesisi için ANDRITZ'e sürekli galvaniz hattı siparişi verdi; hat, otomotiv sanayisinin talep ettiği yüksek mukavemetli kaplamalı sacları üretecek.",
+  "9e26740970742b85": "Fives, Çin'de Xinyu'nun yeni elektrik çeliği tesisine hat teknolojisi sağlayacak; şirketin bu alandaki referansları arasında ince yönsüz silisyum çeliği için soğuk hadde ve tavlama-kaplama hatları bulunuyor.",
+  "4d1d032a9f8bfc20": "Sanbao Grubu, yeni enerji uygulamaları için yüksek kaliteli yönsüz silisyum çeliği üreten SACL 3 numaralı tavlama fırınını sorunsuz biçimde devreye aldı.",
+  "fb51c908b538f5ec": "Uganda'da Roofings Group, Danieli yapımı soğuk haddeleme kompleksinin dördüncü fazını 125 milyon dolara devreye aldı; 150 bin ton ilave kapasiteyle toplam soğuk hadde kapasitesi 300 bin tona çıktı, tesis soğuk hadde, galvaniz ve boyama hatlarını Level 2 otomasyonla birlikte barındırıyor.",
+  "05ee3ccfafa36b08": "KG Steel, Dangjin tesisindeki asitleme-tandem soğuk hadde hattının (PLTCM) otomasyon yenilemesi ve kapasite artışı için Primetals Technologies'i seçti; 18 aylık proje yapay zekâ destekli proses modellerini kapsıyor.",
+  "92e4a5a31f19b487": "Tosyalı Algérie, Cezayir'deki soğuk haddeleme kompleksinde ilk üretimi gerçekleştirdi."
  },
  "duzeltmeler": {
-  "c0b5f864813ba8fd": {
-   "asama": "Modernizasyon"
+  "9e26740970742b85": {
+   "firma": "Fives / Xinyu",
+   "ulke": "Çin",
+   "asama": "Sozlesme"
   },
-  "1733ff02c2b335cf": {
-   "firma": "tk accelis Processing Europe",
-   "ulke": "Almanya"
+  "4d1d032a9f8bfc20": {
+   "firma": "Sanbao Grubu",
+   "ulke": "Çin",
+   "hat": "Elektrik celigi hatti"
   },
-  "43d668b85bed5aed": {
-   "firma": "Pomina Steel / Hoa Binh",
-   "ulke": "Vietnam",
-   "asama": "Sozlesme",
-   "kapasite": "1,2 milyon t/y"
+  "fb51c908b538f5ec": {
+   "firma": "Roofings Group",
+   "ulke": "Uganda",
+   "asama": "Ilk urun",
+   "tedarikci": "Danieli",
+   "kapasite": "300.000 t/y",
+   "url": "https://softpower.ug/roofings-unveils-125m-steel-mill-doubles-cold-rolled-capacity-to-300000-tonnes/",
+   "kaynak": "SoftPower News"
+  },
+  "05ee3ccfafa36b08": {
+   "ulke": "G. Kore"
+  },
+  "1d40f81689c438c8": {
+   "firma": "JSW Steel"
+  },
+  "92e4a5a31f19b487": {
+   "firma": "Tosyalı Algérie",
+   "ulke": "Cezayir"
   }
  },
  "cikar": [],
- "teknolojiler": []
+ "teknolojiler": [
+  {
+   "anahtar": "tech:severstal-chermk-dijital-montaj",
+   "tarih": "2026-07-28",
+   "konu": "Galvaniz hattı yenilemesinde dijital montaj",
+   "metin": "Severstal, Çerepovets'teki (CherMK) galvaniz hattı yenileme projesi için dijital montaj teknolojisi geliştirdiğini duyurdu. Şirketin dijital birimi aynı tesiste sürekli sıcak daldırma galvaniz hatlarında yapay görü tabanlı otomatik yüzey kalite kontrolünü de yaygınlaştırıyor.",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/severstal-develops-digital-installation-technology-for-chermk-galvanizing-line-upgrade-1467262.htm"
+  }
+ ],
+ "ai_duzeltme": [
+  {
+   "baslik": "Fives / Xinyu elektrik çeliği",
+   "neden": "aşama 'İlk ürün' okunmuştu; haber tedarik sözleşmesi, Sözleşme olarak düzeltildi"
+  },
+  {
+   "baslik": "Roofings Group",
+   "neden": "firma adı başlıktan 'Roofings Unveils' olarak çıkmıştı; ülke, tedarikçi (Danieli), kapasite ve doğrudan kaynak bağlantısı elle dolduruldu"
+  },
+  {
+   "baslik": "Sanbao Grubu / KG Steel",
+   "neden": "Çince başlıkta firma, Kore haberinde ülke alanı boştu; ikisi de tamamlandı"
+  }
+ ],
+ "ai_kontrol": [
+  "SteelOrbis, Steel Times International ve Mysteel sitemap'leri her gün taranıyor; bu hafta listede olmayan kapsam içi haber çıkmadı.",
+  "Roofings ve Severstal satırları bağımsız kaynaklardan çapraz doğrulandı (Uganda Investment Authority, SoftPower, Metallurgprom).",
+  "168 kaynağın 10'una erişilemedi (Steel Times International, ArcelorMittal, SMS group ve diğerleri bot korumasında); bu kaynakların haberleri arama katmanından yakalanmaya çalışılıyor."
+ ]
 }

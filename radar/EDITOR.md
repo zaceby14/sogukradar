@@ -224,6 +224,8 @@ görünmemesi ile "bakıldı, çıkmadı" aynı şey değildir:
 
 1. EV motorları için %6,5 silisyumlu geniş elektrik çeliği (POSCO/Hyundai)
 2. PLTCM modernizasyonunda AI destekli proses otomasyonu (Primetals/KG Steel)
+3. Galvaniz hattı yenilemesinde dijital montaj + yapay görü ile yüzey kalite
+   kontrolü (Severstal / CherMK) — 2026-W35
 
 > Seçtiğin teknolojiyi **bu listeye ekle** — arşiv artık routine prompt'ta
 > değil, burada tutulur.
