@@ -1,6 +1,6 @@
 {
  "donem": "2026-W35",
- "adet": 497,
+ "adet": 496,
  "kayitlar": [
   {
    "sebep": "kapsam_disi",
@@ -2812,12 +2812,6 @@
   },
   {
    "sebep": "tekrar",
-   "baslik": "Roofings Unveils $125m Steel Mill, Doubles Cold-Rolled Capacity to 300,000 Tonnes",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRWp3TW5taXBCVU10X0pUNE1UTEwtS0VQc2t2aXhPczd4alM3cERaWFN5Tmx0dnhycURTTG5wUWRKOHphSXhpQmNqWWNJTGtLakNVUnNsYkQ3alB6THRxVDVEaFp1M1l1VEpRUHVPQ2xHZ216TkVVNXVid24weWRrUmM4cS01Smp1aE5taFdjRjVxWVlqcWxidl81T1ljeF9WdUE?oc=5",
-   "ek": ""
-  },
-  {
-   "sebep": "tekrar",
    "baslik": "JSW Steel orders galvanizing line from ANDRITZ for automotive steels",
    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPalV5WUVkNm02UXRWN08zLVh5WGZlQ1NBMG9SUWdVZlFXQzdXYXdvUFlNMkVVMWV2XzI2bzQ5OWt0Q1JJczIzUUdjbngxTDhvanhxYUhkUl95MkpEWFRJUUJiTmNxWUZpb3NibzZaTVJ3cGJ3VVNmQkVOSGlPd3FPOHhzMnY4ekt0cE1peklrSUlRRFV2V241M3RPa2RibnB6?oc=5",
    "ek": "ayni olayin varyanti: andritz|hat|Galvaniz hatti (CGL)|Sozlesme"
@@ -2851,6 +2845,12 @@
    "baslik": "JSW Steel orders galvanizing line from ANDRITZ for automotive steels",
    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPalV5WUVkNm02UXRWN08zLVh5WGZlQ1NBMG9SUWdVZlFXQzdXYXdvUFlNMkVVMWV2XzI2bzQ5OWt0Q1JJczIzUUdjbngxTDhvanhxYUhkUl95MkpEWFRJUUJiTmNxWUZpb3NibzZaTVJ3cGJ3VVNmQkVOSGlPd3FPOHhzMnY4ekt0cE1peklrSUlRRFV2V241M3RPa2RibnB6?oc=5",
    "ek": "ayni olayin varyanti: andritz|hat|Galvaniz hatti (CGL)|Sozlesme"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "ArcelorMittal to move forward with construction of a new world-class electrical steel facility in Alabama",
+   "url": "https://corporate.arcelormittal.com/media/news/non-regulatory-news/arcelormittal-to-move-forward-with-construction-of-a-new-world-class-electrical-steel-facility-in-alabama",
+   "ek": "on eleme: 2025-02-06"
   },
   {
    "sebep": "tarihsiz_elendi",
@@ -2892,12 +2892,6 @@
    "sebep": "tarihsiz_elendi",
    "baslik": "SSAB Lulea new sustainable cold rolling and strip processing complex",
    "url": "https://www.sms-group.com/en-us/plants/projects/ssab-lulea-cold-rolling-and-strip-processing-complex",
-   "ek": ""
-  },
-  {
-   "sebep": "tarihsiz_elendi",
-   "baslik": "ArcelorMittal to move forward with construction of a new world-class electrical steel facility in Alabama",
-   "url": "https://corporate.arcelormittal.com/media/news/non-regulatory-news/arcelormittal-to-move-forward-with-construction-of-a-new-world-class-electrical-steel-facility-in-alabama",
    "ek": ""
   },
   {

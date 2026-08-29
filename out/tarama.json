@@ -48,7 +48,7 @@
    "tarih_kaynagi": "liste",
    "tedarikci": "",
    "tutar": "",
-   "ulke": "Hindistan",
+   "ulke": "ABD",
    "url": "https://www.ussteel.com:443/media/newsroom/-/blogs/u-s-steel-announces-plans-to-restart-gary-tin-mill?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fwww.ussteel.com%3A443%2Fmedia%2Fnewsroom%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26_com_liferay_blogs_web_portlet_BlogsPortlet_cur%3D1%26_com_liferay_blogs_web_portlet_BlogsPortlet_delta%3D20"
   },
   {
@@ -80,14 +80,14 @@
  ],
  "stats": {
   "kaynak": 169,
-  "erisilemeyen": 12,
-  "ham": 2671,
+  "erisilemeyen": 8,
+  "ham": 2755,
   "on_eleme_gecti": 272,
-  "makale_acildi": 204,
-  "tarihsiz_elendi": 98,
-  "pencere_disi": 183,
-  "kapsam_disi": 2373,
-  "tekrar": 16,
+  "makale_acildi": 206,
+  "tarihsiz_elendi": 97,
+  "pencere_disi": 184,
+  "kapsam_disi": 2458,
+  "tekrar": 15,
   "kabul": 1
  },
  "unreachable": [
@@ -108,18 +108,6 @@
    "HTTP 403"
   ],
   [
-   "Steel Radar",
-   "TimeoutError: The read operation timed out"
-  ],
-  [
-   "The Canmaker",
-   "URLError: <urlopen error timed out>"
-  ],
-  [
-   "SteelGuru",
-   "URLError: <urlopen error timed out>"
-  ],
-  [
    "BigMint (SteelMint)",
    "HTTP 403"
   ],
@@ -134,10 +122,6 @@
   [
    "Sanayi Gazetesi",
    "HTTP 403"
-  ],
-  [
-   "Steel Manufacturers Assoc.",
-   "URLError: <urlopen error timed out>"
   ]
  ],
  "kinds": {
@@ -356,6 +340,6 @@
  "rezerv_kullanilan": 2,
  "rezerv_havuz": 2,
  "period": "2026-W35",
- "generated": "2026-08-29 16:13 UTC",
+ "generated": "2026-08-29 16:26 UTC",
  "version": "3.0.0"
 }

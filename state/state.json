@@ -448,6 +448,23 @@
     "tekrar": 16
    },
    "uretim": "2026-08-29 16:13 UTC"
+  },
+  {
+   "donem": "2026-W35",
+   "satir": 3,
+   "stats": {
+    "erisilemeyen": 8,
+    "ham": 2755,
+    "kabul": 1,
+    "kapsam_disi": 2458,
+    "kaynak": 169,
+    "makale_acildi": 206,
+    "on_eleme_gecti": 272,
+    "pencere_disi": 184,
+    "tarihsiz_elendi": 97,
+    "tekrar": 15
+   },
+   "uretim": "2026-08-29 16:26 UTC"
   }
  ],
  "rezerv": [
@@ -524,7 +541,7 @@
    "tarih_kaynagi": "liste",
    "tedarikci": "",
    "tutar": "",
-   "ulke": "Hindistan",
+   "ulke": "ABD",
    "url": "https://www.ussteel.com:443/media/newsroom/-/blogs/u-s-steel-announces-plans-to-restart-gary-tin-mill?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fwww.ussteel.com%3A443%2Fmedia%2Fnewsroom%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26_com_liferay_blogs_web_portlet_BlogsPortlet_cur%3D1%26_com_liferay_blogs_web_portlet_BlogsPortlet_delta%3D20"
   },
   {
