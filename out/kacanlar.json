@@ -4,7 +4,7 @@
   "2026-08-14",
   "2026-08-29"
  ],
- "uretim": "2026-08-29 15:30 UTC",
+ "uretim": "2026-08-29 15:50 UTC",
  "kaynaklar": {
   "steeltimesint": {
    "publisher": "Steel Times International",
@@ -25,14 +25,8 @@
  "adet": 0,
  "kacanlar": [],
  "dogrulanamayan": [],
- "acildi_elendi": [
-  {
-   "baslik": "Hoa Binh and Pomina Steel partner on 1.2 million mt flat steel plant expansion",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/hoa-binh-and-pomina-steel-partner-on-12-million-mt-flat-steel-plant-expansion-1469094.htm",
-   "sebep": "pencere disi (2026-08-05)"
-  }
- ],
- "kapiyi_gecen": 1,
+ "acildi_elendi": [],
+ "kapiyi_gecen": 0,
  "sitemap_adayi": 400,
- "elenen": 399
+ "elenen": 400
 }
