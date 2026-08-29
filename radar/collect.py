@@ -246,16 +246,33 @@ def _items_from_source(s, log):
     """
     if s.get("dosya"):
         return _items_from_dosya(s, log)
-    if s.get("sitemap") or s.get("sitemaps"):
-        items, err = _sitemap_zinciri(s, log)
-        if items:
-            return items, None
-        if not (s.get("rss") or s.get("url")):
-            return [], err
-        log("    (sitemap tutmadi -> kaynagin kendi adresi deneniyor)")
-        items, err2 = _items_from_web(s, log)
-        return items, (None if items else (err2 or err))
-    return _items_from_web(s, log)
+    zincir = bool(s.get("sitemap") or s.get("sitemaps"))
+    if not (s.get("rss") or s.get("url")):
+        return _sitemap_zinciri(s, log) if zincir else ([], "adres yok")
+
+    # ONCE KAYNAGIN KENDI ADRESI, SONRA SITEMAP ZINCIRI (2026-08-29, v20b).
+    # Ilk denemede sira tersti ve geri dusus eklemek yetmedi: zincir tutmayan
+    # bes kaynak (ABB Metals, Nippon Steel, China Baowu, SteelGuru, Kocks)
+    # v19 oncesinde ACILIYORDU, v19'dan sonra kendi adreslerinden 404 almaya
+    # basladi. Sebep zincirin kendisi - gercek istekten hemen once ayni
+    # sunucuya 1-4 basarisiz istek gidiyor ve site bunu bot davranisi sayip
+    # kapiyi kapatiyor. Tahmin edilen adres yalnizca kaynagin kendi adresi
+    # is gormedigi zaman denenmeli.
+    items, err = _items_from_web(s, log)
+    if items or not zincir:
+        return items, err
+    if err:
+        log("    (kaynagin kendi adresi tutmadi -> sitemap zinciri)")
+    else:
+        log("    (liste bos -> sitemap zinciri)")
+    items2, err2 = _sitemap_zinciri(s, log)
+    if items2:
+        return items2, None
+    # ZINCIRIN HATASI KAYNAGIN HATASINI GOLGELEMEZ. Kendi adresi acilip da
+    # liste bos donduyse kaynak ERISILEMEZ DEGILDIR; v20'nin ilk halinde
+    # zincirin "sitemap bos" hatasi bu duruma yaziliyor ve China Baowu ile
+    # SteelGuru erisilemeyen listesine yanlis giriyordu.
+    return [], (err or None)
 
 
 def _items_from_web(s, log):

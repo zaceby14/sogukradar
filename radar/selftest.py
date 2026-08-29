@@ -1226,14 +1226,27 @@ def test_rezerv_tekrar_denetimi():
 
 
 def test_v20_sitemap_geri_dusus():
-    """v20 (2026-08-29): tahmin edilen sitemap adresi calisan kaynagi bozamaz.
+    """v20 (2026-08-29): kaynagin KENDI adresi once, sitemap zinciri sonra.
 
-    v19'da 14 kaynaga sitemap ZINCIRI ekledim. Zincirdeki adresler TAHMIN;
-    bir kismi 404 dondu ve zincir tutmayinca kaynagin kendi html/rss adresi
-    HIC denenmedi. Erisilemeyen kaynak sayisi 10'dan 16'ya cikti - ABB
-    Metals, Nippon Steel, Kocks, MetalForming ve Mysteel "bos liste"den
-    "HTTP 404"e dustu, yani iyilestirme diye yaptigim sey kaynaklari
-    strictly kotulestirdi.
+    v19'da 14 kaynaga sitemap ZINCIRI ekledim ve zincir kaynagin kendi
+    adresinin ONUNE gecti. Zincirdeki adresler TAHMIN; bir kismi 404 dondu
+    ve erisilemeyen kaynak sayisi 10'dan 16'ya cikti.
+
+    Ilk duzeltmede yalnizca GERI DUSUS ekledim - yetmedi. Olcum (2026-08-29
+    kosusu, v19 oncesiyle karsilastirmali):
+      zincirin KAZANDIRDIGI : GMK Center, Mysteel
+      zincirin KAYBETTIRDIGI: ABB Metals, Nippon Steel, China Baowu,
+                              SteelGuru, Kocks
+    Bes kaynak da v19 oncesinde ACILIYORDU ve kendi adresleri degismemisti.
+    Sebep zincirin kendisi: gercek istekten hemen once ayni sunucuya 1-4
+    basarisiz istek gidiyor, site bunu bot davranisi sayip kapiyi kapatiyor.
+    Bu yuzden sira TERSINE cevrildi - tahmin, kaynagin kendi adresi is
+    gormediginde devreye girer.
+
+    Ikinci kusur: zincirin hatasi kaynagin hatasini golgeliyordu. Kendi
+    adresi ACILIP da liste bos donduyse kaynak ERISILEMEZ DEGILDIR; zincirin
+    "sitemap bos" hatasi bu duruma yazilinca China Baowu ile SteelGuru
+    erisilemeyen listesine yanlis girdi.
     """
     from . import collect as C
     kaynak = os.path.join(os.path.dirname(__file__), "collect.py")
@@ -1253,21 +1266,39 @@ def test_v20_sitemap_geri_dusus():
                  "url": "https://x/y", "date_raw": "", "summary": ""}], None
 
     eski_z, eski_w = C._sitemap_zinciri, C._items_from_web
+    s = {"url": "https://new.abb.com/metals", "publisher": "ABB Metals",
+         "sitemaps": ["https://new.abb.com/sitemap.xml"]}
     try:
         C._sitemap_zinciri, C._items_from_web = sahte_zincir, sahte_web
-        s = {"url": "https://new.abb.com/metals", "publisher": "ABB Metals",
-             "sitemaps": ["https://new.abb.com/sitemap.xml"]}
         items, err = C._items_from_source(s, lambda *a: None)
-        eq(len(items), 1, "sitemap tutmayinca kaynagin kendi adresi denenmeli")
-        eq(err, None, "geri dusus tutunca hata bildirilmemeli")
-        eq(cagrilar, ["zincir", "web:https://new.abb.com/metals"],
-           "once zincir, sonra kaynagin kendi adresi")
+        eq(len(items), 1, "kaynagin kendi adresi is goruyorsa satir gelmeli")
+        eq(err, None, "calisan kaynak icin hata bildirilmemeli")
+        eq(cagrilar, ["web:https://new.abb.com/metals"],
+           "KENDI ADRESI ONCE - zincir hic denenmemeli, cunku zincirin "
+           "basarisiz istekleri sunucuyu kapatiyor")
 
-        # Ikisi de tutmazsa hata bildirilir - sessizce bos donulmez
+        # Kendi adresi tutmazsa zincir devreye girer
+        del cagrilar[:]
+        C._items_from_web = lambda s, log: ([], "HTTP 404")
+        C._sitemap_zinciri = lambda s, log: (cagrilar.append("zincir") or
+                                             ([{"title": "x y z w", "url": "u",
+                                                "date_raw": "", "summary": ""}], None))
+        items, err = C._items_from_source(s, lambda *a: None)
+        eq(len(items), 1, "kendi adresi tutmazsa zincir devreye girmeli")
+        eq(cagrilar, ["zincir"], "zincir yalnizca ikinci sirada denenmeli")
+
+        # KENDI ADRESI ACILIP LISTE BOS ise kaynak ERISILEMEZ DEGILDIR
+        C._items_from_web = lambda s, log: ([], None)
+        C._sitemap_zinciri = lambda s, log: ([], "sitemap bos")
+        items, err = C._items_from_source(s, lambda *a: None)
+        eq(items, [], "iki yol da satir vermedi")
+        eq(err, None,
+           "sayfa acilip liste bos donduyse zincirin hatasi rapor edilemez")
+
+        # Kendi adresi GERCEKTEN tutmadiysa hata bildirilir
         C._items_from_web = lambda s, log: ([], "HTTP 403")
         items, err = C._items_from_source(s, lambda *a: None)
-        eq(items, [], "ikisi de tutmazsa satir olmaz")
-        eq(bool(err), True, "ikisi de tutmazsa hata bildirilmeli")
+        eq(err, "HTTP 403", "kaynagin kendi hatasi bildirilmeli")
     finally:
         C._sitemap_zinciri, C._items_from_web = eski_z, eski_w
 

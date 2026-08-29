@@ -237,13 +237,25 @@ bunu kanıtladı (sayfa 403, sitemap 1000 adres).
 Bu dosya **her hafta tazelenir** (ayrı routine, `SogukRadar elle besleme`).
 Kapalı yayınlar için arama sorguları: yayın adı + hat terimleri, son 30 gün.
 
-### Tahmin edilen sitemap adresi çalışan kaynağı bozamaz
+### Kaynağın kendi adresi önce, sitemap zinciri sonra
 
-Kaynaklara eklenen sitemap **zinciri** tahmindir. Zincir tutmazsa kaynağın
-kendi html/rss adresi denenir. (v19'da bu geri düşüş yoktu: tahminlerin bir
-kısmı 404 döndü ve erişilemeyen kaynak sayısı 10'dan 16'ya çıktı — ABB
-Metals, Nippon Steel, Kocks, MetalForming ve Mysteel "boş liste"den "HTTP
-404"e düştü. İyileştirme diye yapılan şey kaynakları kötüleştirdi.)
+Sitemap **zinciri tahmindir** ve yalnızca kaynağın kendi adresi iş
+görmediğinde denenir. Sıra v19'da tersti; geri düşüş eklemek yetmedi.
+Ölçüm (2026-08-29 koşusu, v19 öncesiyle karşılaştırmalı):
+
+| | kaynak |
+|---|---|
+| zincirin **kazandırdığı** | GMK Center, Mysteel |
+| zincirin **kaybettirdiği** | ABB Metals, Nippon Steel, China Baowu, SteelGuru, Kocks |
+
+Beş kaynak da v19 öncesinde açılıyordu ve kendi adresleri değişmemişti.
+Sebep zincirin kendisi: gerçek istekten hemen önce aynı sunucuya 1-4
+başarısız istek gidiyor, site bunu bot davranışı sayıp kapıyı kapatıyor.
+
+İkinci kural: **zincirin hatası kaynağın hatasını gölgelemez.** Kendi adresi
+açılıp da liste boş döndüyse kaynak *erişilemez değildir* — v20'nin ilk
+halinde zincirin "sitemap boş" hatası bu duruma yazılıyor ve China Baowu ile
+SteelGuru erişilemeyen listesine yanlış giriyordu.
 
 ## 5. Kalıcı bölümler
 
