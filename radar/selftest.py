@@ -1126,6 +1126,47 @@ def test_rezervin_ortaya_cikardigi_delikler():
         eq(taxonomy.in_scope(t, "")[0], True, "gercek satir korunmali: " + t[:45])
 
 
+def test_gunluk_tarama_modu():
+    """v17 (2026-08-27): gunluk tarama havuzu besler, postaya dokunmaz.
+
+    Haftalik kosu tek basina yetmiyordu: yayincilar haberi gec indeksliyor,
+    kaynak gun icinde 403 verip ertesi gun aciliyor ve 15 gunluk pencere
+    kapaninca haber BIR DAHA yakalanmiyordu. Olcum: son haftalik kosuda
+    elenen 30 kapsam ici satirin 26'si sirf pencere disiydi.
+
+    Gunluk tarama bunu kapiyi GEVSETMEDEN cozer - satir sayisi kaynak
+    tarafindan yukselir, filtre ayni kalir.
+    """
+    import inspect as _i
+    from . import cli as C
+    kaynak = _i.getsource(C.cmd_run)
+
+    # --sadece-tarama posta govdesine DOKUNMAMALI
+    i_tarama = kaynak.index("if a.sadece_tarama:")
+    i_mail = kaynak.index('render.email_html')
+    eq(i_tarama < i_mail, True, "sadece-tarama posta uretiminden ONCE donmeli")
+
+    # ...ama havuz kaydi erken donusten ONCE olmali, yoksa gunluk kosu
+    # hicbir sey biriktirmez (ilk yazimda tam olarak bu hata yapildi).
+    i_commit = kaynak.index("if a.commit_state:")
+    eq(i_commit < i_tarama, True, "havuz kaydi erken donusten once olmali")
+    i_tech = kaynak.index("_tech_havuz(st_r")
+    eq(i_tech < i_tarama, True, "teknoloji havuzu da erken donusten once")
+
+    # Tarama hicbir kosulda "gonderildi" isareti koymamali
+    eq('st["seen"][' in kaynak, False, "tarama seen'e yazmamali")
+    eq('st["tech_seen"]' in kaynak, False, "tarama tech_seen'e yazmamali")
+
+    # Gunluk is akisi posta gondermemeli
+    import os as _os
+    yol = _os.path.join(_os.path.dirname(_os.path.dirname(
+        _os.path.abspath(__file__))), ".github", "workflows", "gunluk.yml")
+    if _os.path.exists(yol):
+        y = open(yol, encoding="utf-8").read()
+        eq("--sadece-tarama" in y, True, "gunluk kosu --sadece-tarama kullanmali")
+        eq("send-mail" in y or "ONAY" in y, False, "gunluk kosu posta gondermemeli")
+
+
 def test_sitemap_okuyucu():
     """v6 (2026-08-17): haber sitemap'i kaynak turu.
 
@@ -1331,6 +1372,7 @@ def run():
                test_w35_katman2_kapsam_kapisi, test_w35_ornek_kosu,
                test_rezerv_ve_teknoloji_havuzu,
                test_rezervin_ortaya_cikardigi_delikler,
+               test_gunluk_tarama_modu,
                test_w34_sifir_satir_teshisi,
                test_teknoloji_ve_ai_bolumleri,
                test_sitemap_okuyucu, test_olculen_25_haber,

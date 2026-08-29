@@ -114,14 +114,44 @@ def cmd_run(a):
        {"donem": per, "duzelt": ask, "cumle_yaz": say,
         "teknoloji_adaylari": payload.get("tech_pool", [])})
 
-    # Otomatik posta govdesi: yapay zeka ozeti yoksa kurallı metin kullanilir.
-    from . import compose
-    sayi = len(state.load().get("periods", [])) + 1
     # TEKNOLOJI KOSESI HER HAFTA DOLU OLMALI (2026-08-27). Taze aday cikmayan
     # hafta cok: kosenin havuzu 6 aylik olsa da bir haftada 0 aday olabiliyor
     # (2026-W34'te tam olarak boyle oldu). Bu yuzden aday havuzu da KALICI:
     # kullanilmayan adaylar state'te birikir, koşe onlardan doldurulur.
     payload["tech_pool"] = _tech_havuz(st_r, payload.get("tech_pool", []))
+
+    if a.commit_state:
+        # TARAMA "GONDERILDI" ISARETI KOYMAZ (2026-08-27).
+        #
+        # Tarama posta GONDERMIYOR - postayi editor onayi gonderiyor. Onceki
+        # surum her kosuda satirlari seen'e yaziyordu ve onaylanmayan her kosu
+        # gercek haberleri sessizce YAKIYORDU: gercekten gonderilen tek bulten
+        # 3 satirlik iken state'te 21 satir "gonderilmis" isaretliydi.
+        # "Gonderildi" isaretini artik YALNIZ finalize koyar. Tarama sadece
+        # kendi kalici havuzlarini tazeler - GUNLUK kosunun butun isi budur.
+        st = state.load()
+        st["rezerv"] = [r for r in (st_r.get("rezerv") or [])
+                        if r["anahtar"] not in st["seen"]]
+        st["tech_rezerv"] = [t for t in (st_r.get("tech_rezerv") or [])
+                             if t["anahtar"] not in st.get("tech_seen", {})]
+        st["periods"] = (st.get("periods") or []) + [{
+            "donem": per, "satir": len(payload["rows"]),
+            "uretim": payload["generated"], "stats": payload["stats"]}]
+        state.prune(st)
+        state.save(st)
+        print("havuz: rezerv %d satir, teknoloji adayi %d"
+              % (len(st["rezerv"]), len(st["tech_rezerv"])))
+
+    if a.sadece_tarama:
+        # GUNLUK TARAMA MODU (2026-08-27). Gunluk kosu yalniz HAVUZ besler.
+        # email.html ve taslak rapora DOKUNMAZ - editorun o hafta onaylayip
+        # gonderdigi metnin kaydi ertesi gunun taramasiyla silinmemeli.
+        _rapor_ozet(per, payload, ask, say, base)
+        return 0
+
+    # Otomatik posta govdesi: yapay zeka ozeti yoksa kurallı metin kullanilir.
+    from . import compose
+    sayi = len(state.load().get("periods", [])) + 1
     tech = payload["tech_pool"][:3]
     for t in tech:
         t["konu"] = t["baslik"]
@@ -137,41 +167,20 @@ def cmd_run(a):
     render.write_csv(base + ".csv", payload["rows"])
     render.write_email(os.path.join(OUT, "email_body.md"), payload)
 
-    if a.commit_state:
-        # TARAMA "GONDERILDI" ISARETI KOYMAZ (2026-08-27).
-        #
-        # Onceki surum her kosuda satirlari seen'e yaziyordu. Ama tarama
-        # posta GONDERMIYOR - postayi editor onayi gonderiyor. Sonuc:
-        # onaylanmayan her kosu, gercek haberleri sessizce YAKIYORDU. Olcum:
-        # bugune kadar gercekten gonderilen tek bulten 2026-W34 (3 satir)
-        # iken state'te 21 satir "gonderilmis" isaretliydi; 18 haber okuyucuya
-        # hic ulasmadan bir daha cikamaz hale gelmisti. Dogrulama icin
-        # calistirilan her el kosusu da ayni zarari veriyordu.
-        #
-        # Artik "gonderildi" isaretini YALNIZ finalize koyar (bkz. cmd_finalize):
-        # yani satir ancak postaya girdiginde hafizaya gecer. Tarama sadece
-        # kendi kalici havuzlarini (rezerv, teknoloji, donem ozeti) tazeler.
-        st = state.load()
-        # Rezerv havuzu da kalici: bir sonraki kosu buradan devam eder.
-        st["rezerv"] = [r for r in (st_r.get("rezerv") or [])
-                        if r["anahtar"] not in st["seen"]]
-        st["tech_rezerv"] = [t for t in (st_r.get("tech_rezerv") or [])
-                             if t["anahtar"] not in st.get("tech_seen", {})]
-        st["periods"] = (st.get("periods") or []) + [{
-            "donem": per, "satir": len(payload["rows"]),
-            "uretim": payload["generated"], "stats": payload["stats"]}]
-        state.prune(st)
-        state.save(st)
-        print("state guncellendi: %d kayit" % len(st["seen"]))
+    _rapor_ozet(per, payload, ask, say, base)
+    return 0
 
+
+def _rapor_ozet(per, payload, ask, say, base):
     s = payload["stats"]
     print("\n[%s] ham %d -> aday %d -> makale %d -> KABUL %d  (tarihsiz %d, "
           "pencere disi %d, kapsam disi %d, tekrar %d)"
           % (per, s["ham"], s["on_eleme_gecti"], s["makale_acildi"], s["kabul"],
              s["tarihsiz_elendi"], s["pencere_disi"], s["kapsam_disi"], s["tekrar"]))
+    print("rezerv: %d kullanildi, havuzda %d"
+          % (payload.get("rezerv_kullanilan", 0), payload.get("rezerv_havuz", 0)))
     print("duzeltilecek satir: %d | cumle yazilacak: %d" % (len(ask), len(say)))
-    print("cikti: %s.json / _taslak.html / .csv" % base)
-    return 0
+    print("cikti: %s.json" % base)
 
 
 def _tech_havuz(st, taze):
@@ -370,7 +379,9 @@ def main(argv=None):
     r.add_argument("--today")
     r.add_argument("--limit", action="store_true", help="TARGET_ROWS ile kirp")
     r.add_argument("--commit-state", action="store_true",
-                   help="raporlanan satirlari state'e isle (Actions bunu kullanir)")
+                   help="rezerv/teknoloji havuzlarini state'e isle (Actions bunu kullanir)")
+    r.add_argument("--sadece-tarama", action="store_true",
+                   help="gunluk tarama: havuzu besler, posta govdesine dokunmaz")
     r.set_defaults(fn=cmd_run)
 
     sub.add_parser("review").set_defaults(fn=cmd_review)

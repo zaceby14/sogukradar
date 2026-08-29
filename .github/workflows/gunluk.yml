@@ -1,0 +1,87 @@
+name: SogukRadar gunluk tarama
+
+# GUNLUK TARAMA (2026-08-27). Haftalik kosu tek basina yetmiyordu: yayincilar
+# haberi gec indeksliyor, kaynaklar gun icinde 403/timeout verip ertesi gun
+# aciliyor ve 15 gunluk pencere kapaninca haber BIR DAHA yakalanmiyordu.
+# Olcum: son haftalik kosuda elenen 30 kapsam ici satirin 26'si sirf pencere
+# disiydi.
+#
+# Bu is akisi POSTA GONDERMEZ ve posta govdesine DOKUNMAZ (--sadece-tarama).
+# Tek isi havuzu beslemek: rezerv + teknoloji adaylari. Haftalik bulten bu
+# havuzdan doluyor, boylece satir sayisi KAPI GEVSETILMEDEN yukseliyor.
+on:
+  schedule:
+    - cron: "17 3 * * *"        # her gun 03:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sogukradar             # haftalik kosuyla ayni grup - cakismaz
+  cancel-in-progress: false
+
+jobs:
+  tara:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Birim testleri (kirmizi ise tarama baslamaz)
+        run: |
+          python -m radar selftest
+          python tests/e2e_offline.py
+
+      - name: Gunluk tarama
+        env:
+          RADAR_WINDOW_DAYS: "15"
+          RADAR_MAX_ARTICLES: "420"
+          RADAR_PAUSE: "0.5"
+        run: python -m radar run --commit-state --sadece-tarama
+
+      - name: Capraz kontrol
+        continue-on-error: true
+        env:
+          RADAR_WINDOW_DAYS: "15"
+          RADAR_CAPRAZ_MAX: "40"
+        run: python -m radar capraz
+
+      - name: Ozeti is akisina yaz
+        run: |
+          echo '### SogukRadar gunluk tarama' >> $GITHUB_STEP_SUMMARY
+          echo '```json' >> $GITHUB_STEP_SUMMARY
+          python - <<'PY' >> $GITHUB_STEP_SUMMARY
+          import glob, json
+          f = sorted(glob.glob("out/hafta_*.json"))[-1]
+          d = json.load(open(f, encoding="utf-8"))
+          st = json.load(open("state/state.json", encoding="utf-8"))
+          print(json.dumps({"donem": d["period"], "satir": len(d["rows"]),
+                            "istatistik": d["stats"],
+                            "rezerv_havuz": len(st.get("rezerv", [])),
+                            "teknoloji_adayi": len(st.get("tech_rezerv", [])),
+                            "erisilemeyen": [u[0] for u in d.get("unreachable", [])]},
+                           ensure_ascii=False, indent=1))
+          PY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+
+      - name: Ciktilari repoya isle
+        run: |
+          git config user.name  "sogukradar-bot"
+          git config user.email "bot@users.noreply.github.com"
+          for i in 1 2 3; do
+            git fetch origin main
+            git reset --quiet origin/main
+            git add out state
+            if git diff --staged --quiet; then
+              echo "degisiklik yok"
+              break
+            fi
+            git commit -q -m "gunluk tarama $(date -u +%Y-%m-%d) [skip ci]"
+            git push && break
+            echo "push reddedildi, yeniden ($i/3)"
+            sleep 5
+          done

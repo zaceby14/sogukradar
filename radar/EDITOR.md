@@ -156,6 +156,20 @@ koşu da aynı zararı veriyordu.
 Sonuç: onaylanmayan bir satır **gelecek hafta yine listede çıkar.** Bu bir
 kusur değil — gönderilmediyse gönderilmemiştir.
 
+## 4d. Günlük tarama
+
+`gunluk.yml` her gün 03:17 UTC'de `radar run --sadece-tarama` çalıştırır.
+**Posta göndermez, posta gövdesine dokunmaz.** Tek işi havuzu beslemek:
+rezerv + teknoloji adayları.
+
+Neden: yayıncılar haberi geç indeksliyor, kaynak gün içinde 403 verip ertesi
+gün açılıyor, ve 15 günlük pencere kapanınca haber bir daha yakalanmıyordu.
+Ölçüm: bir haftalık koşuda elenen 30 kapsam içi satırın **26'sı sırf pencere
+dışıydı.** Günlük tarama bunu **kapıyı gevşetmeden** çözer — satır sayısı
+kaynak tarafından yükselir, filtre aynı kalır.
+
+Pazartesi editör koşusu bu havuzun üstüne oturur.
+
 ## 5. Kalıcı bölümler
 
 Bu iki bölüm **her hafta**, içerik olmasa da render edilir — bölümün hiç
