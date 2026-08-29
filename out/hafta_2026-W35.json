@@ -1,6 +1,180 @@
 {
  "rows": [
   {
+   "tarih": "2026-08-25",
+   "firma": "JSW Steel, India",
+   "ulke": "Hindistan",
+   "hat": "Galvaniz hatti (CGL)",
+   "asama": "Sozlesme",
+   "tedarikci": "Andritz",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "JSW Steel, India, orders ANDRITZ galvanizing line for advanced automotive steels",
+   "kaynak": "Andritz Metals",
+   "kaynak_id": "andritz",
+   "url": "https://www.andritz.com/newsroom-en/metals/2026-08-25-jsw-steel-group",
+   "tarih_kaynagi": "url",
+   "eksik": [
+    "tarih?"
+   ],
+   "anahtar": "1d40f81689c438c8",
+   "kategori": "Hat",
+   "olaylar": [
+    "andritz|fu|Hindistan|Galvaniz hatti (CGL)",
+    "andritz|hat|Galvaniz hatti (CGL)|Sozlesme",
+    "andritz|ulke|Hindistan|Sozlesme"
+   ],
+   "puan": 63.4
+  },
+  {
+   "tarih": "2026-08-28",
+   "firma": "Xinyu's",
+   "ulke": "",
+   "hat": "Elektrik celigi hatti",
+   "asama": "Ilk urun",
+   "tedarikci": "Fives",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "Fives supplies technologies for Xinyu's new electrical steel facility",
+   "kaynak": "SteelOrbis",
+   "kaynak_id": "steelorbis",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/fives-supplies-technologies-for-xinyus-new-electrical-steel-facility-1473583.htm",
+   "tarih_kaynagi": "json-ld",
+   "eksik": [
+    "ulke"
+   ],
+   "anahtar": "9e26740970742b85",
+   "kategori": "Hat",
+   "olaylar": [
+    "fives|hat|Elektrik celigi hatti|Ilk urun"
+   ],
+   "puan": 60.6
+  },
+  {
+   "tarih": "2026-08-26",
+   "firma": "",
+   "ulke": "",
+   "hat": "Elektrik celigi hatti",
+   "asama": "Ilk urun",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "三宝集团SACL3#新能源高牌号无取向硅钢退火炉顺利投产",
+   "kaynak": "Mysteel (tesis/proje)",
+   "kaynak_id": "mysteel_fac",
+   "url": "https://factory.mysteel.com/a/26082617/6E2F124F6AC1DDCB.html",
+   "tarih_kaynagi": "json-ld",
+   "eksik": [
+    "firma",
+    "ulke"
+   ],
+   "anahtar": "4d1d032a9f8bfc20",
+   "kategori": "Hat",
+   "olaylar": [
+    "|hat|Elektrik celigi hatti|Ilk urun"
+   ],
+   "puan": 53.8
+  },
+  {
+   "tarih": "2026-08-11",
+   "firma": "KG Steel",
+   "ulke": "",
+   "hat": "Tandem soguk hadde (TCM)",
+   "asama": "Modernizasyon",
+   "tedarikci": "Primetals",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "KG Steel selects Primetals for Dangjin PLTCM upgrade and capacity expansion",
+   "kaynak": "SteelOrbis",
+   "kaynak_id": "steelorbis",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/kg-steel-selects-primetals-for-dangjin-pltcm-upgrade-and-capacity-expansion-1470187.htm",
+   "tarih_kaynagi": "json-ld",
+   "eksik": [
+    "ulke"
+   ],
+   "anahtar": "05ee3ccfafa36b08",
+   "kategori": "Hat",
+   "olaylar": [
+    "primetals|hat|Tandem soguk hadde (TCM)|Modernizasyon"
+   ],
+   "puan": 44.8,
+   "rezerv": true
+  },
+  {
+   "tarih": "2026-08-11",
+   "firma": "Primetals",
+   "ulke": "G. Kore",
+   "hat": "Asitleme hatti",
+   "asama": "Modernizasyon",
+   "tedarikci": "Primetals",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "Primetals to modernise Korean pickling line",
+   "kaynak": "Steel Times International",
+   "kaynak_id": "gq_hat00",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbWRCZVVIdU8wNDh0M0pCTGlsTWl1U2pqSm5ielo4OEpYYWFuenYzZkRQTGphRzF2WDlQT3VCb2dHc015dDh2eXBDNVhEaUdRLTFFanBMMVhQNWZRS2pPYjdEZFduSlR0VTFmODM4cVhVSDdUMExNQWdRSU9MMXhpaTdLaFE?oc=5",
+   "tarih_kaynagi": "rss",
+   "eksik": [],
+   "anahtar": "88fbd0c6b1f6aac5",
+   "kategori": "Hat",
+   "olaylar": [
+    "primetals|fu|G. Kore|Asitleme hatti",
+    "primetals|hat|Asitleme hatti|Modernizasyon",
+    "primetals|ulke|G. Kore|Modernizasyon"
+   ],
+   "rezerv": true
+  },
+  {
+   "tarih": "2026-08-07",
+   "firma": "",
+   "ulke": "",
+   "hat": "Dilme / boy kesme / SSC",
+   "asama": "Belirsiz",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "tk accelis Processing Europe expands Stuttgart steel service center capacity",
+   "kaynak": "Yieh Corp.",
+   "kaynak_id": "gq_hat10",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMzF1RWZTMXBiMDhndDAtbEZwYVRISXdVbTlhMmstbGFrMzJaVXBGVVk3RElGczQ4NjFxaTFfcVE1MkNaQm5KRUNTYnVTNlpsT3oxZzhzRVpBM0JSSWNtU0pYMnEtOF91SEpDWFV1eEQxV1ZnT0JLcVE1VG9sc3h2Q1RuOUtRX0FhZFJpbkpzSS15dlhWdEJwM0cteXVZSjZIZzB6Sl9iRDduRXY1?oc=5",
+   "tarih_kaynagi": "rss",
+   "eksik": [
+    "firma",
+    "ulke",
+    "asama"
+   ],
+   "anahtar": "beb57acb388dd4c9",
+   "kategori": "Hat",
+   "olaylar": [
+    "|hat|Dilme / boy kesme / SSC|Belirsiz"
+   ],
+   "rezerv": true
+  },
+  {
+   "tarih": "2026-07-29",
+   "firma": "TOSYALI ALGÉRİE",
+   "ulke": "Cezayir",
+   "hat": "Soguk hadde",
+   "asama": "Ilk urun",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "TOSYALI ALGÉRİE, SOĞUK HADDELEME KOMPLEKSİNDE İLK ÜRETİMİ YAPTI",
+   "kaynak": "SteelTurk",
+   "kaynak_id": "steelturk",
+   "url": "https://www.steelturk.com.tr/tosyali-algérie-soguk-haddeleme-kompleksinde-ilk-uretimi-yapti/",
+   "tarih_kaynagi": "liste",
+   "eksik": [],
+   "anahtar": "92e4a5a31f19b487",
+   "kategori": "Hat",
+   "olaylar": [
+    "tosyali algerie|fu|Cezayir|Soguk hadde",
+    "tosyali algerie|hat|Soguk hadde|Ilk urun",
+    "tosyali algerie|ulke|Cezayir|Ilk urun"
+   ],
+   "rezerv": true
+  },
+  {
    "anahtar": "dbf500463fb21d96",
    "asama": "Belirsiz",
    "baslik": "U. S. Steel Announces Plans to Restart Gary Tin Mill",
@@ -25,50 +199,28 @@
    "tutar": "",
    "ulke": "Hindistan",
    "url": "https://www.ussteel.com:443/media/newsroom/-/blogs/u-s-steel-announces-plans-to-restart-gary-tin-mill?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fwww.ussteel.com%3A443%2Fmedia%2Fnewsroom%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26_com_liferay_blogs_web_portlet_BlogsPortlet_cur%3D1%26_com_liferay_blogs_web_portlet_BlogsPortlet_delta%3D20"
-  },
-  {
-   "anahtar": "971c858c2cf021dc",
-   "asama": "Ilk urun",
-   "baslik": "New MINO Double-Stand Six-High Cold Reversing Mill in North America",
-   "eksik": [
-    "hat"
-   ],
-   "firma": "New MINO Double-Stand",
-   "hat": "Belirsiz",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "Mino SpA",
-   "kaynak_id": "mino",
-   "olaylar": [
-    "mino|fu|ABD|Belirsiz",
-    "mino|hat|Belirsiz|Ilk urun",
-    "mino|ulke|ABD|Ilk urun"
-   ],
-   "rezerv": true,
-   "tarih": "2026-03-13",
-   "tarih_kaynagi": "json-ld",
-   "tedarikci": "Mino",
-   "tutar": "",
-   "ulke": "ABD",
-   "url": "https://mino.it/new-mino-double-stand-six-high-cold-reversing-mill-in-north-america/"
   }
  ],
  "stats": {
-  "kaynak": 133,
-  "erisilemeyen": 10,
-  "ham": 2426,
-  "on_eleme_gecti": 210,
-  "makale_acildi": 194,
+  "kaynak": 168,
+  "erisilemeyen": 11,
+  "ham": 2596,
+  "on_eleme_gecti": 254,
+  "makale_acildi": 202,
   "tarihsiz_elendi": 80,
-  "pencere_disi": 171,
-  "kapsam_disi": 2167,
-  "tekrar": 8,
-  "kabul": 0
+  "pencere_disi": 174,
+  "kapsam_disi": 2323,
+  "tekrar": 16,
+  "kabul": 3
  },
  "unreachable": [
   [
    "SMS group",
    "HTTP 403"
+  ],
+  [
+   "Butech Bliss",
+   "HTTP 500"
   ],
   [
    "Cognex",
@@ -240,27 +392,90 @@
   "gq_urun00": "arama",
   "gq_urun01": "arama",
   "gq_urun02": "arama",
-  "gq_urun03": "arama"
+  "gq_urun03": "arama",
+  "gx_sms_group": "arama",
+  "gx_arcelor": "arama",
+  "gx_sti_q": "arama",
+  "gx_gmk_q": "arama",
+  "gx_bigmint_q": "arama",
+  "gx_furnaces_q": "arama",
+  "gx_cognex_q": "arama",
+  "gx_clecim_q": "arama",
+  "gx_eurometal_q": "arama",
+  "gx_q_temper": "arama",
+  "gx_q_ecl": "arama",
+  "gx_q_rollshop": "arama",
+  "gx_q_weld": "arama",
+  "gx_q_coilhand": "arama",
+  "gx_q_gauge": "arama",
+  "gx_q_auto": "arama",
+  "gx_q_etl": "arama",
+  "gx_q_ccl": "arama",
+  "gx_q_egl": "arama",
+  "gx_q_znalmg": "arama",
+  "gx_q_elec2": "arama",
+  "gx_q_ssc": "arama",
+  "gx_q_arp": "arama",
+  "gx_q_commis": "arama",
+  "gx_q_order": "arama",
+  "gx_q_tr1": "arama",
+  "gx_q_tr2": "arama",
+  "gx_q_tr3": "arama",
+  "gx_q_zh1": "arama",
+  "gx_q_zh2": "arama",
+  "gx_q_zh3": "arama",
+  "gx_q_ko1": "arama",
+  "gx_q_ja1": "arama",
+  "gx_q_de1": "arama",
+  "gx_q_es1": "arama"
  },
- "today": "2026-08-27",
+ "today": "2026-08-29",
  "tech_pool": [
   {
-   "anahtar": "tech:ed3b87951b013f72",
-   "tarih": "2026-07-13",
-   "baslik": "Posco ve Hyundai'den Elektrikli Araçlar İçin Yeni Nesil Elektrik Çeliği Hamlesi",
-   "url": "https://www.steelturk.com.tr/posco-ve-hyundaiden-elektrikli-araclar-icin-yeni-nesil-elektrik-celigi-hamlesi/",
-   "kaynak": "SteelTurk",
+   "anahtar": "tech:9e26740970742b85",
+   "tarih": "2026-08-28",
+   "baslik": "Fives supplies technologies for Xinyu's new electrical steel facility",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/fives-supplies-technologies-for-xinyus-new-electrical-steel-facility-1473583.htm",
+   "kaynak": "SteelOrbis",
+   "hat": "Elektrik celigi hatti"
+  },
+  {
+   "anahtar": "tech:9e26740970742b85",
+   "tarih": "2026-08-28",
+   "baslik": "Fives supplies technologies for Xinyu's new electrical steel facility",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZjZFX1pBZ2tjSWJrb3luT1FoTm9qM0otMGFQZFVsb0ZLc1F4Z3QtRElGOHMycUdyQ0pCa2JVWGQ2UEt5MW5NNE5ncDZmMHlHRFg4MlkwaVNMVzREOGo3RThNLXIxQUt5TC1EM0pmeXltSXUwaHU4Z0VLMFNpemcxS1JHaHVLNW5sNWxucUxzQTd3dFVSYWZZcDNsaHlTdmhXTmw2WloxQkdudThkWFhwcmdiS2drd0VFd015NVFmR0dwNHpmWGZ6QlNR?oc=5",
+   "kaynak": "Google News",
+   "hat": "Elektrik celigi hatti"
+  },
+  {
+   "anahtar": "tech:9e26740970742b85",
+   "tarih": "2026-08-28",
+   "baslik": "Fives supplies technologies for Xinyu's new electrical steel facility",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZjZFX1pBZ2tjSWJrb3luT1FoTm9qM0otMGFQZFVsb0ZLc1F4Z3QtRElGOHMycUdyQ0pCa2JVWGQ2UEt5MW5NNE5ncDZmMHlHRFg4MlkwaVNMVzREOGo3RThNLXIxQUt5TC1EM0pmeXltSXUwaHU4Z0VLMFNpemcxS1JHaHVLNW5sNWxucUxzQTd3dFVSYWZZcDNsaHlTdmhXTmw2WloxQkdudThkWFhwcmdiS2drd0VFd015NVFmR0dwNHpmWGZ6QlNR?oc=5",
+   "kaynak": "Google News",
+   "hat": "Elektrik celigi hatti"
+  },
+  {
+   "anahtar": "tech:9e26740970742b85",
+   "tarih": "2026-08-28",
+   "baslik": "Fives supplies technologies for Xinyu's new electrical steel facility",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZjZFX1pBZ2tjSWJrb3luT1FoTm9qM0otMGFQZFVsb0ZLc1F4Z3QtRElGOHMycUdyQ0pCa2JVWGQ2UEt5MW5NNE5ncDZmMHlHRFg4MlkwaVNMVzREOGo3RThNLXIxQUt5TC1EM0pmeXltSXUwaHU4Z0VLMFNpemcxS1JHaHVLNW5sNWxucUxzQTd3dFVSYWZZcDNsaHlTdmhXTmw2WloxQkdudThkWFhwcmdiS2drd0VFd015NVFmR0dwNHpmWGZ6QlNR?oc=5",
+   "kaynak": "Google News",
    "hat": "Elektrik celigi hatti"
   }
  ],
- "kaynak_katki": {},
+ "kaynak_katki": {
+  "Andritz Metals": 1,
+  "SteelOrbis": 1,
+  "Mysteel (tesis/proje)": 1
+ },
  "window": [
-  "2026-08-12",
-  "2026-08-27"
+  "2026-08-14",
+  "2026-08-29"
  ],
- "rezerv_kullanilan": 2,
- "rezerv_havuz": 0,
+ "rezerv_kullanilan": 5,
+ "rezerv_havuz": 1,
  "period": "2026-W35",
- "generated": "2026-08-27 05:37 UTC",
+ "generated": "2026-08-29 13:40 UTC",
  "version": "3.0.0"
 }

@@ -352,137 +352,124 @@
     "tekrar": 8
    },
    "uretim": "2026-08-27 05:37 UTC"
+  },
+  {
+   "donem": "2026-W35",
+   "satir": 8,
+   "stats": {
+    "erisilemeyen": 11,
+    "ham": 2596,
+    "kabul": 3,
+    "kapsam_disi": 2323,
+    "kaynak": 168,
+    "makale_acildi": 202,
+    "on_eleme_gecti": 254,
+    "pencere_disi": 174,
+    "tarihsiz_elendi": 80,
+    "tekrar": 16
+   },
+   "uretim": "2026-08-29 13:40 UTC"
   }
  ],
  "rezerv": [
   {
-   "tarih": "2026-08-26",
-   "firma": "",
-   "ulke": "",
-   "hat": "Belirsiz",
-   "asama": "Ilk urun",
-   "tedarikci": "",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "三宝集团SACL3#新能源高牌号无取向硅钢退火炉顺利投产",
-   "kaynak": "Mysteel (tesis/proje)",
-   "kaynak_id": "mysteel_fac",
-   "url": "https://factory.mysteel.com/a/26082617/6E2F124F6AC1DDCB.html",
-   "tarih_kaynagi": "json-ld",
-   "eksik": [
-    "firma",
-    "ulke",
-    "hat"
-   ],
-   "anahtar": "4d1d032a9f8bfc20",
-   "kategori": "Hat",
-   "olaylar": [
-    "|hat|Belirsiz|Ilk urun"
-   ],
-   "puan": 43.6,
-   "rezerv": true
-  },
-  {
-   "tarih": "2026-08-25",
-   "firma": "JSW Steel, India",
-   "ulke": "Hindistan",
-   "hat": "Galvaniz hatti (CGL)",
-   "asama": "Sozlesme",
-   "tedarikci": "Andritz",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "JSW Steel, India, orders ANDRITZ galvanizing line for advanced automotive steels",
-   "kaynak": "Andritz Metals",
-   "kaynak_id": "andritz",
-   "url": "https://www.andritz.com/newsroom-en/metals/2026-08-25-jsw-steel-group",
-   "tarih_kaynagi": "url",
-   "eksik": [
-    "tarih?"
-   ],
-   "anahtar": "1d40f81689c438c8",
-   "kategori": "Hat",
-   "olaylar": [
-    "andritz|fu|Hindistan|Galvaniz hatti (CGL)",
-    "andritz|hat|Galvaniz hatti (CGL)|Sozlesme",
-    "andritz|ulke|Hindistan|Sozlesme"
-   ],
-   "puan": 64.2,
-   "rezerv": true
-  },
-  {
-   "tarih": "2026-08-25",
-   "firma": "Roofings Unveils",
-   "ulke": "",
-   "hat": "Belirsiz",
-   "asama": "Teknoloji",
-   "tedarikci": "",
-   "kapasite": "",
-   "tutar": "$125m",
-   "baslik": "Roofings Unveils $125m Steel Mill, Doubles Cold-Rolled Capacity to 300,000 Tonnes",
-   "kaynak": "SoftPower News",
-   "kaynak_id": "gq_hat02",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRWp3TW5taXBCVU10X0pUNE1UTEwtS0VQc2t2aXhPczd4alM3cERaWFN5Tmx0dnhycURTTG5wUWRKOHphSXhpQmNqWWNJTGtLakNVUnNsYkQ3alB6THRxVDVEaFp1M1l1VEpRUHVPQ2xHZ216TkVVNXVid24weWRrUmM4cS01Smp1aE5taFdjRjVxWVlqcWxidl81T1ljeF9WdUE?oc=5",
-   "tarih_kaynagi": "rss",
-   "eksik": [
-    "ulke",
-    "hat"
-   ],
-   "anahtar": "fb51c908b538f5ec",
-   "kategori": "Hat",
-   "olaylar": [
-    "roofings unveils|hat|Belirsiz|Teknoloji"
-   ],
-   "puan": 33.2,
-   "rezerv": true
-  },
-  {
-   "tarih": "2026-08-11",
-   "firma": "KG Steel",
-   "ulke": "",
-   "hat": "Tandem soguk hadde (TCM)",
+   "anahtar": "05ee3ccfafa36b08",
    "asama": "Modernizasyon",
-   "tedarikci": "Primetals",
-   "kapasite": "",
-   "tutar": "",
    "baslik": "KG Steel selects Primetals for Dangjin PLTCM upgrade and capacity expansion",
-   "kaynak": "SteelOrbis",
-   "kaynak_id": "steelorbis",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/kg-steel-selects-primetals-for-dangjin-pltcm-upgrade-and-capacity-expansion-1470187.htm",
-   "tarih_kaynagi": "json-ld",
    "eksik": [
     "ulke"
    ],
-   "anahtar": "05ee3ccfafa36b08",
+   "firma": "KG Steel",
+   "hat": "Tandem soguk hadde (TCM)",
+   "kapasite": "",
    "kategori": "Hat",
+   "kaynak": "SteelOrbis",
+   "kaynak_id": "steelorbis",
    "olaylar": [
     "primetals|hat|Tandem soguk hadde (TCM)|Modernizasyon"
    ],
    "puan": 44.8,
-   "rezerv": true
+   "rezerv": true,
+   "tarih": "2026-08-11",
+   "tarih_kaynagi": "json-ld",
+   "tedarikci": "Primetals",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/kg-steel-selects-primetals-for-dangjin-pltcm-upgrade-and-capacity-expansion-1470187.htm"
   },
   {
-   "tarih": "2026-07-29",
-   "firma": "TOSYALI ALGÉRİE",
-   "ulke": "Cezayir",
-   "hat": "Soguk hadde",
-   "asama": "Ilk urun",
-   "tedarikci": "",
+   "anahtar": "88fbd0c6b1f6aac5",
+   "asama": "Modernizasyon",
+   "baslik": "Primetals to modernise Korean pickling line",
+   "eksik": [],
+   "firma": "Primetals",
+   "hat": "Asitleme hatti",
    "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Steel Times International",
+   "kaynak_id": "gq_hat00",
+   "olaylar": [
+    "primetals|fu|G. Kore|Asitleme hatti",
+    "primetals|hat|Asitleme hatti|Modernizasyon",
+    "primetals|ulke|G. Kore|Modernizasyon"
+   ],
+   "rezerv": true,
+   "tarih": "2026-08-11",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "Primetals",
    "tutar": "",
+   "ulke": "G. Kore",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbWRCZVVIdU8wNDh0M0pCTGlsTWl1U2pqSm5ielo4OEpYYWFuenYzZkRQTGphRzF2WDlQT3VCb2dHc015dDh2eXBDNVhEaUdRLTFFanBMMVhQNWZRS2pPYjdEZFduSlR0VTFmODM4cVhVSDdUMExNQWdRSU9MMXhpaTdLaFE?oc=5"
+  },
+  {
+   "anahtar": "beb57acb388dd4c9",
+   "asama": "Belirsiz",
+   "baslik": "tk accelis Processing Europe expands Stuttgart steel service center capacity",
+   "eksik": [
+    "firma",
+    "ulke",
+    "asama"
+   ],
+   "firma": "",
+   "hat": "Dilme / boy kesme / SSC",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Yieh Corp.",
+   "kaynak_id": "gq_hat10",
+   "olaylar": [
+    "|hat|Dilme / boy kesme / SSC|Belirsiz"
+   ],
+   "rezerv": true,
+   "tarih": "2026-08-07",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMzF1RWZTMXBiMDhndDAtbEZwYVRISXdVbTlhMmstbGFrMzJaVXBGVVk3RElGczQ4NjFxaTFfcVE1MkNaQm5KRUNTYnVTNlpsT3oxZzhzRVpBM0JSSWNtU0pYMnEtOF91SEpDWFV1eEQxV1ZnT0JLcVE1VG9sc3h2Q1RuOUtRX0FhZFJpbkpzSS15dlhWdEJwM0cteXVZSjZIZzB6Sl9iRDduRXY1?oc=5"
+  },
+  {
+   "anahtar": "92e4a5a31f19b487",
+   "asama": "Ilk urun",
    "baslik": "TOSYALI ALGÉRİE, SOĞUK HADDELEME KOMPLEKSİNDE İLK ÜRETİMİ YAPTI",
+   "eksik": [],
+   "firma": "TOSYALI ALGÉRİE",
+   "hat": "Soguk hadde",
+   "kapasite": "",
+   "kategori": "Hat",
    "kaynak": "SteelTurk",
    "kaynak_id": "steelturk",
-   "url": "https://www.steelturk.com.tr/tosyali-algérie-soguk-haddeleme-kompleksinde-ilk-uretimi-yapti/",
-   "tarih_kaynagi": "liste",
-   "eksik": [],
-   "anahtar": "92e4a5a31f19b487",
-   "kategori": "Hat",
    "olaylar": [
     "tosyali algerie|fu|Cezayir|Soguk hadde",
     "tosyali algerie|hat|Soguk hadde|Ilk urun",
     "tosyali algerie|ulke|Cezayir|Ilk urun"
    ],
-   "rezerv": true
+   "rezerv": true,
+   "tarih": "2026-07-29",
+   "tarih_kaynagi": "liste",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Cezayir",
+   "url": "https://www.steelturk.com.tr/tosyali-algérie-soguk-haddeleme-kompleksinde-ilk-uretimi-yapti/"
   },
   {
    "anahtar": "dbf500463fb21d96",
@@ -539,8 +526,8 @@
  ],
  "seen": {
   "1733ff02c2b335cf": "2026-08-05",
-  "c0b5f864813ba8fd": "2026-08-17",
-  "43d668b85bed5aed": "2026-08-17"
+  "43d668b85bed5aed": "2026-08-17",
+  "c0b5f864813ba8fd": "2026-08-17"
  },
  "son_basliklar": [
   {
@@ -550,7 +537,16 @@
   }
  ],
  "source_health": {},
- "tech_rezerv": [],
+ "tech_rezerv": [
+  {
+   "anahtar": "tech:9e26740970742b85",
+   "baslik": "Fives supplies technologies for Xinyu's new electrical steel facility",
+   "hat": "Elektrik celigi hatti",
+   "kaynak": "SteelOrbis",
+   "tarih": "2026-08-28",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/fives-supplies-technologies-for-xinyus-new-electrical-steel-facility-1473583.htm"
+  }
+ ],
  "tech_seen": {
   "tech:14822add12dd1ab1": "2026-04-15",
   "tech:ae75546329a9c77a": "2026-08-26",

@@ -1,6 +1,6 @@
 {
  "donem": "2026-W35",
- "adet": 459,
+ "adet": 470,
  "kayitlar": [
   {
    "sebep": "kapsam_disi",
@@ -34,6 +34,12 @@
   },
   {
    "sebep": "kapsam_disi",
+   "baslik": "service news 2026, 27th August Cooling chamber successfully revamped at Cogne Acciai Speciali",
+   "url": "https://www.danieli.com/en/Cooling-chamber-successfully-revamped-at-Cogne-Acciai-Speciali_37_1095.htm",
+   "ek": "kapsam_disi"
+  },
+  {
+   "sebep": "kapsam_disi",
    "baslik": "Successful installation of new, Danieli coil-handling cranes at NS–Siam United Steel",
    "url": "https://www.danieli.com/en/Successful-installation-of-new-Danieli-coil-handling-cranes-at-NS-Siam-United-Steel_37_1094.htm",
    "ek": "olay yok (katalog/pazarlama)"
@@ -61,12 +67,6 @@
    "baslik": "new orders 2026, 15th July Henan Jiyuan Iron & Steel awards Danieli for new Jumbo Rounds caster in China",
    "url": "https://www.danieli.com/en/news-media/news/henan-jiyuan-iron-steel-awards-danieli-new-jumbo-rounds-caster-china_37_1078.htm",
    "ek": "2026-07-15"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "new orders 2026, 6th July GIADEC selects Danieli for new aluminum foil plant in Ghana",
-   "url": "https://www.danieli.com/en/news-media/news/giadec-selects-danieli-new-aluminum-foil-plant-ghana_37_1077.htm",
-   "ek": "2026-07-06"
   },
   {
    "sebep": "kapsam_disi",
@@ -417,12 +417,6 @@
    "ek": "sert red (baslik)"
   },
   {
-   "sebep": "tekrar",
-   "baslik": "JSW Steel, India, orders ANDRITZ galvanizing line for advanced automotive steels",
-   "url": "https://www.andritz.com/newsroom-en/metals/2026-08-25-jsw-steel-group",
-   "ek": ""
-  },
-  {
    "sebep": "pencere_disi",
    "baslik": "Saritas selects ANDRITZ to supply key equipment for new stainless steel plant in Türkiye",
    "url": "https://www.andritz.com/newsroom-en/metals/2026-06-11-saritas-group",
@@ -514,6 +508,18 @@
   },
   {
    "sebep": "kapsam_disi",
+   "baslik": "Fives supports Xinyu’s new electrical steel facility",
+   "url": "https://www.fivesgroup.com/newspress/detail-view/fives-supports-xinyus-new-electrical-steel-facility",
+   "ek": "olay yok (katalog/pazarlama)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Fives reinforces its strategic collaboration with Geopost through a landmark automated hub for Jadlog in Brazil",
+   "url": "https://www.fivesgroup.com/newspress/detail-view/fives-reinforces-its-strategic-collaboration-with-geopost-through-a-landmark-automated-hub-for-jadlog-in-brazil",
+   "ek": "baska_malzeme"
+  },
+  {
+   "sebep": "kapsam_disi",
    "baslik": "Fives to exhibit at the PHILSUTECH 2026 Annual National Covnention",
    "url": "https://www.fivesgroup.com/newspress/detail-view/fives-to-exhibit-at-the-philsutech-2026-annual-national-covnention",
    "ek": "baska_malzeme"
@@ -553,18 +559,6 @@
    "baslik": "A new step in italian retail innovation: Coop entrusts Fives with the automation of their distribution center in Tortona",
    "url": "https://www.fivesgroup.com/newspress/detail-view/a-new-step-in-italian-retail-innovation-coop-entrusts-fives-with-the-automation-of-their-distribution-center-in-tortona",
    "ek": "2026-07-07"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Hoval strengthens equipment reliability with a dedicated service agreement from Fives",
-   "url": "https://www.fivesgroup.com/newspress/detail-view/hoval-strengthens-equipment-reliability-with-a-dedicated-service-agreement-from-fives",
-   "ek": "2026-07-01"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Safer and repeatable operations with OTO coil loading systems",
-   "url": "https://www.fivesgroup.com/newspress/detail-view/safer-and-repeatable-operations-with-oto-coil-loading-systems",
-   "ek": "2026-06-24"
   },
   {
    "sebep": "kapsam_disi",
@@ -625,24 +619,6 @@
    "baslik": "SUCCESS STORY | Rénovation d’un groupe hydroélectrique pour EDF Hydro",
    "url": "https://www.clecim.com/success-story_edf/",
    "ek": "2026-04-14"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "See How Intelligent Content Syndication Enabled a Tech Giant to Turbocharge Customer Engagement",
-   "url": "https://butechbliss.com/see-how-intelligent-content-syndication-enabled-a-tech-giant-to-turbocharge-customer-engagement/",
-   "ek": "on eleme: 2022-08-09"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "100,000+ Users Migrate to a New Platform Seamlessly & Effectively",
-   "url": "https://butechbliss.com/100000-users-migrate-to-a-new-platform-seamlessly-effectively/",
-   "ek": "on eleme: 2022-08-09"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "iTalent’s iAgent for Privacy Protection Saves Billions",
-   "url": "https://butechbliss.com/italents-iagent-for-privacy-protection-saves-billions/",
-   "ek": "haber degil (menu/e-posta/kisa)"
   },
   {
    "sebep": "kapsam_disi",
@@ -1503,10 +1479,10 @@
    "ek": "2025-11-11"
   },
   {
-   "sebep": "pencere_disi",
+   "sebep": "kapsam_disi",
    "baslik": "Tensile and yield strength - EMG IMPOC",
    "url": "https://www.emg.elexis.group/solutions/quality-assurance-systems/emg-impoc",
-   "ek": "2026-05-13"
+   "ek": "olay yok (katalog/pazarlama)"
   },
   {
    "sebep": "pencere_disi",
@@ -2379,24 +2355,6 @@
    "ek": "kapsam kapisi (baslik)"
   },
   {
-   "sebep": "kapsam_disi",
-   "baslik": "Trade press | 2025-10-21 thyssenkrupp Steel presents innovative door ring solution at Blechexpo 2025",
-   "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/thyssenkrupp-steel-presents-innovative-door-ring-solution-at-blechexpo-2025.html",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Trade press | 2025-10-17 thyssenkrupp Steel at Blechexpo 2025: Innovative steel solutions for economical lightweight construction and sustainable mobility",
-   "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/thyssenkrupp-steel-at-blechexpo-2025-innovative-steel-solutions-for-economical-lightweight-construction-and-sustainable-mobility.html",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Trade press | 2025-09-16 thyssenkrupp Steel at Coiltech Italia 2025: Material solutions for the mobility and energy transition",
-   "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/thyssenkrupp-steel-at-coiltech-italia-2025-material-solutions-for-the-mobility-and-energy-transition.html",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
    "sebep": "pencere_disi",
    "baslik": "Trade press | 2024-12-13 thyssenkrupp Steel has commissioned a modernized walking beam furnace in Duisburg-Bruckhausen for high-quality electrical steel strip production",
    "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/thyssenkrupp-steel-has-commissioned-a-modernized-walking-beam-furnace-in-duisburg-bruckhausen-for-high-quality-electrical-steel-strip-production.html",
@@ -2479,12 +2437,6 @@
    "baslik": "TOSYALI ALGÉRİE, SOĞUK HADDELEME KOMPLEKSİNDE İLK ÜRETİMİ YAPTI",
    "url": "https://www.steelturk.com.tr/tosyali-algérie-soguk-haddeleme-kompleksinde-ilk-uretimi-yapti/",
    "ek": "2026-07-29"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Posco ve Hyundai'den Elektrikli Araçlar İçin Yeni Nesil Elektrik Çeliği Hamlesi",
-   "url": "https://www.steelturk.com.tr/posco-ve-hyundaiden-elektrikli-araclar-icin-yeni-nesil-elektrik-celigi-hamlesi/",
-   "ek": "2026-07-13"
   },
   {
    "sebep": "tekrar",
@@ -2595,22 +2547,16 @@
    "ek": ""
   },
   {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "[SMM Analysis] July Non‑Oriented Silicon Steel Exports Hit New‑High for the Year on Sound Overseas",
+   "url": "https://news.metal.com/en/newscontent/104086732-smm-analysis-july-non‐oriented-silicon-steel-exports-hit-new‐high-for-the-year-on-sound-overseas-demand",
+   "ek": ""
+  },
+  {
    "sebep": "pencere_disi",
    "baslik": "POSCO Partners with Hyundai Motor and 8 Organizations to Develop Next-Generation High-Efficiency Electrical Steel for EVs",
    "url": "https://worldsteel.org/media/industry-member-news/2026-member-news/posco-partners-with-hyundai-motor-and-8-organizations-to-develop-next-generation-high-efficiency-electrical-steel-for-evs/",
    "ek": "2026-06-15"
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "三宝集团SACL3#新能源高牌号无取向硅钢退火炉顺利投产",
-   "url": "https://factory.mysteel.com/a/26082617/6E2F124F6AC1DDCB.html",
-   "ek": ""
-  },
-  {
-   "sebep": "tarihsiz_elendi",
-   "baslik": "【钢之家调查】本周冷轧板卷市场消费量减少4.65万吨至151.99万吨(8月14日-8月20日)",
-   "url": "https://www.steelhome.com/24747729 ",
-   "ek": ""
   },
   {
    "sebep": "pencere_disi",
@@ -2739,22 +2685,142 @@
    "ek": "2026-03-09"
   },
   {
-   "sebep": "tekrar",
-   "baslik": "Roofings Unveils $125m Steel Mill, Doubles Cold-Rolled Capacity to 300,000 Tonnes",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRWp3TW5taXBCVU10X0pUNE1UTEwtS0VQc2t2aXhPczd4alM3cERaWFN5Tmx0dnhycURTTG5wUWRKOHphSXhpQmNqWWNJTGtLakNVUnNsYkQ3alB6THRxVDVEaFp1M1l1VEpRUHVPQ2xHZ216TkVVNXVid24weWRrUmM4cS01Smp1aE5taFdjRjVxWVlqcWxidl81T1ljeF9WdUE?oc=5",
-   "ek": ""
+   "sebep": "pencere_disi",
+   "baslik": "Primetals to modernise Korean pickling line",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbWRCZVVIdU8wNDh0M0pCTGlsTWl1U2pqSm5ielo4OEpYYWFuenYzZkRQTGphRzF2WDlQT3VCb2dHc015dDh2eXBDNVhEaUdRLTFFanBMMVhQNWZRS2pPYjdEZFduSlR0VTFmODM4cVhVSDdUMExNQWdRSU9MMXhpaTdLaFE?oc=5",
+   "ek": "2026-08-11"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Primetals to modernise Korean pickling line",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbWRCZVVIdU8wNDh0M0pCTGlsTWl1U2pqSm5ielo4OEpYYWFuenYzZkRQTGphRzF2WDlQT3VCb2dHc015dDh2eXBDNVhEaUdRLTFFanBMMVhQNWZRS2pPYjdEZFduSlR0VTFmODM4cVhVSDdUMExNQWdRSU9MMXhpaTdLaFE?oc=5",
+   "ek": "2026-08-11"
   },
   {
    "sebep": "tekrar",
    "baslik": "Roofings Unveils $125m Steel Mill, Doubles Cold-Rolled Capacity to 300,000 Tonnes",
    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRWp3TW5taXBCVU10X0pUNE1UTEwtS0VQc2t2aXhPczd4alM3cERaWFN5Tmx0dnhycURTTG5wUWRKOHphSXhpQmNqWWNJTGtLakNVUnNsYkQ3alB6THRxVDVEaFp1M1l1VEpRUHVPQ2xHZ216TkVVNXVid24weWRrUmM4cS01Smp1aE5taFdjRjVxWVlqcWxidl81T1ljeF9WdUE?oc=5",
-   "ek": ""
+   "ek": "kosede tanitilmis"
   },
   {
    "sebep": "tekrar",
-   "baslik": "JSW Steel katma değerli otomotiv çeliği üretimi için Andritz'ten galvanizleme hattı sipariş etti",
-   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQYUkxaERUUDhYUlJhMjJUR1Z3dko4WmVNUmFKTXlXdVhFMjFfR0J4aHRoUnd1dnhmazh3QjNYakdqdmNjYTM1WnRJU3hnV3BKRVNidlQtdU0wcW5lSF9DNHZPa1dpTmVmdDFVNVM0dFNPdzdqQjd1RDJ4UndfWXdkTzZRU2RVUlZJWGVKel9Ud2NDRWdQWVh2MlVLdTFnS0lZZGQtV19FQlVLbEV5SGEyeDRyWnV5QUpBLVpmZVdwTFpXTU1NTnNRWlBUMkFBdGU1b0RJQjZXdlNlMEZGbHJ6aHhBMEYtSFNhejEzNFZWR2NuaEtZN2c?oc=5",
+   "baslik": "JSW Steel orders galvanizing line from ANDRITZ for automotive steels",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPalV5WUVkNm02UXRWN08zLVh5WGZlQ1NBMG9SUWdVZlFXQzdXYXdvUFlNMkVVMWV2XzI2bzQ5OWt0Q1JJczIzUUdjbngxTDhvanhxYUhkUl95MkpEWFRJUUJiTmNxWUZpb3NibzZaTVJ3cGJ3VVNmQkVOSGlPd3FPOHhzMnY4ekt0cE1peklrSUlRRFV2V241M3RPa2RibnB6?oc=5",
    "ek": "ayni olayin varyanti: andritz|hat|Galvaniz hatti (CGL)|Sozlesme"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "Fives supplies technologies for Xinyu's new electrical steel facility",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZjZFX1pBZ2tjSWJrb3luT1FoTm9qM0otMGFQZFVsb0ZLc1F4Z3QtRElGOHMycUdyQ0pCa2JVWGQ2UEt5MW5NNE5ncDZmMHlHRFg4MlkwaVNMVzREOGo3RThNLXIxQUt5TC1EM0pmeXltSXUwaHU4Z0VLMFNpemcxS1JHaHVLNW5sNWxucUxzQTd3dFVSYWZZcDNsaHlTdmhXTmw2WloxQkdudThkWFhwcmdiS2drd0VFd015NVFmR0dwNHpmWGZ6QlNR?oc=5",
+   "ek": ""
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "tk accelis Processing Europe expands Stuttgart steel service center capacity",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMzF1RWZTMXBiMDhndDAtbEZwYVRISXdVbTlhMmstbGFrMzJaVXBGVVk3RElGczQ4NjFxaTFfcVE1MkNaQm5KRUNTYnVTNlpsT3oxZzhzRVpBM0JSSWNtU0pYMnEtOF91SEpDWFV1eEQxV1ZnT0JLcVE1VG9sc3h2Q1RuOUtRX0FhZFJpbkpzSS15dlhWdEJwM0cteXVZSjZIZzB6Sl9iRDduRXY1?oc=5",
+   "ek": "2026-08-07"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "tk accelis Processing Europe expands Stuttgart steel service center capacity",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMzF1RWZTMXBiMDhndDAtbEZwYVRISXdVbTlhMmstbGFrMzJaVXBGVVk3RElGczQ4NjFxaTFfcVE1MkNaQm5KRUNTYnVTNlpsT3oxZzhzRVpBM0JSSWNtU0pYMnEtOF91SEpDWFV1eEQxV1ZnT0JLcVE1VG9sc3h2Q1RuOUtRX0FhZFJpbkpzSS15dlhWdEJwM0cteXVZSjZIZzB6Sl9iRDduRXY1?oc=5",
+   "ek": "2026-08-07"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Primetals to modernise Korean pickling line",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbWRCZVVIdU8wNDh0M0pCTGlsTWl1U2pqSm5ielo4OEpYYWFuenYzZkRQTGphRzF2WDlQT3VCb2dHc015dDh2eXBDNVhEaUdRLTFFanBMMVhQNWZRS2pPYjdEZFduSlR0VTFmODM4cVhVSDdUMExNQWdRSU9MMXhpaTdLaFE?oc=5",
+   "ek": "2026-08-11"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "JSW Steel orders galvanizing line from ANDRITZ for automotive steels",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPalV5WUVkNm02UXRWN08zLVh5WGZlQ1NBMG9SUWdVZlFXQzdXYXdvUFlNMkVVMWV2XzI2bzQ5OWt0Q1JJczIzUUdjbngxTDhvanhxYUhkUl95MkpEWFRJUUJiTmNxWUZpb3NibzZaTVJ3cGJ3VVNmQkVOSGlPd3FPOHhzMnY4ekt0cE1peklrSUlRRFV2V241M3RPa2RibnB6?oc=5",
+   "ek": "ayni olayin varyanti: andritz|hat|Galvaniz hatti (CGL)|Sozlesme"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "Fives supplies technologies for Xinyu's new electrical steel facility",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZjZFX1pBZ2tjSWJrb3luT1FoTm9qM0otMGFQZFVsb0ZLc1F4Z3QtRElGOHMycUdyQ0pCa2JVWGQ2UEt5MW5NNE5ncDZmMHlHRFg4MlkwaVNMVzREOGo3RThNLXIxQUt5TC1EM0pmeXltSXUwaHU4Z0VLMFNpemcxS1JHaHVLNW5sNWxucUxzQTd3dFVSYWZZcDNsaHlTdmhXTmw2WloxQkdudThkWFhwcmdiS2drd0VFd015NVFmR0dwNHpmWGZ6QlNR?oc=5",
+   "ek": ""
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Primetals to modernise Korean pickling line",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbWRCZVVIdU8wNDh0M0pCTGlsTWl1U2pqSm5ielo4OEpYYWFuenYzZkRQTGphRzF2WDlQT3VCb2dHc015dDh2eXBDNVhEaUdRLTFFanBMMVhQNWZRS2pPYjdEZFduSlR0VTFmODM4cVhVSDdUMExNQWdRSU9MMXhpaTdLaFE?oc=5",
+   "ek": "2026-08-11"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "JSW Steel orders galvanizing line from ANDRITZ for automotive steels",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPalV5WUVkNm02UXRWN08zLVh5WGZlQ1NBMG9SUWdVZlFXQzdXYXdvUFlNMkVVMWV2XzI2bzQ5OWt0Q1JJczIzUUdjbngxTDhvanhxYUhkUl95MkpEWFRJUUJiTmNxWUZpb3NibzZaTVJ3cGJ3VVNmQkVOSGlPd3FPOHhzMnY4ekt0cE1peklrSUlRRFV2V241M3RPa2RibnB6?oc=5",
+   "ek": "ayni olayin varyanti: andritz|hat|Galvaniz hatti (CGL)|Sozlesme"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "tk accelis Processing Europe expands Stuttgart steel service center capacity",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMzF1RWZTMXBiMDhndDAtbEZwYVRISXdVbTlhMmstbGFrMzJaVXBGVVk3RElGczQ4NjFxaTFfcVE1MkNaQm5KRUNTYnVTNlpsT3oxZzhzRVpBM0JSSWNtU0pYMnEtOF91SEpDWFV1eEQxV1ZnT0JLcVE1VG9sc3h2Q1RuOUtRX0FhZFJpbkpzSS15dlhWdEJwM0cteXVZSjZIZzB6Sl9iRDduRXY1?oc=5",
+   "ek": "2026-08-07"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "JSW Steel orders galvanizing line from ANDRITZ for automotive steels",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPalV5WUVkNm02UXRWN08zLVh5WGZlQ1NBMG9SUWdVZlFXQzdXYXdvUFlNMkVVMWV2XzI2bzQ5OWt0Q1JJczIzUUdjbngxTDhvanhxYUhkUl95MkpEWFRJUUJiTmNxWUZpb3NibzZaTVJ3cGJ3VVNmQkVOSGlPd3FPOHhzMnY4ekt0cE1peklrSUlRRFV2V241M3RPa2RibnB6?oc=5",
+   "ek": "ayni olayin varyanti: andritz|hat|Galvaniz hatti (CGL)|Sozlesme"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "JSW Steel orders galvanizing line from ANDRITZ for automotive steels",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPalV5WUVkNm02UXRWN08zLVh5WGZlQ1NBMG9SUWdVZlFXQzdXYXdvUFlNMkVVMWV2XzI2bzQ5OWt0Q1JJczIzUUdjbngxTDhvanhxYUhkUl95MkpEWFRJUUJiTmNxWUZpb3NibzZaTVJ3cGJ3VVNmQkVOSGlPd3FPOHhzMnY4ekt0cE1peklrSUlRRFV2V241M3RPa2RibnB6?oc=5",
+   "ek": "ayni olayin varyanti: andritz|hat|Galvaniz hatti (CGL)|Sozlesme"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "JSW Steel orders galvanizing line from ANDRITZ for automotive steels",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPalV5WUVkNm02UXRWN08zLVh5WGZlQ1NBMG9SUWdVZlFXQzdXYXdvUFlNMkVVMWV2XzI2bzQ5OWt0Q1JJczIzUUdjbngxTDhvanhxYUhkUl95MkpEWFRJUUJiTmNxWUZpb3NibzZaTVJ3cGJ3VVNmQkVOSGlPd3FPOHhzMnY4ekt0cE1peklrSUlRRFV2V241M3RPa2RibnB6?oc=5",
+   "ek": "ayni olayin varyanti: andritz|hat|Galvaniz hatti (CGL)|Sozlesme"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "Jindal Stainless investing Rs 900 crore to increase cold rolling capacity to 2.67 MT by FY28: MD",
+   "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNM2hmV0lKLTRuT0d6ODZXbllZLVczcTBBUGFUbnh0RWRldnptUlJHYkdmTkVheU1fc2xLRGtfUENvazhTeUQ2cTFMVEcxckFIZmhtWFZDQ2psTDBuak1MVVdaVUlZXzB4YmgzZFh3UkdkRXdpbVZ5WTM1QVhWVnpYS2t6SWxWUmI4Tnk3QlVqQkx5YlJRQ2VzeERVVlcxV2QwdGpfTU05TDZ5WnotNGZtRklMUklzMzltbkFwX2tkMkxNNDhERmRObWVDY2ZucGp5Qm5QTFV0UEI2S28wN3AtTllOT0E4S3dvcWxTWmVZcnNaNHZxc0RhVmhLMDg3bGJlcF9yTXBGMDFzSFnSAZACQVVfeXFMTWh5Q3hBcFRSZkFrUmJfUkZURjFKYXNVbzRZY3pnNGVWZG1uSFVQa2V5R3JWQkhJRHR2U0luTE1IbTJIdVNycERGVERXNFN4Y0NsX3lWeXk3aGtoNkgzTlVHeTNlWVZnSEZLclJrd1FQSXVtc2FadjJmWEdKMU9tVkpER0NDOFhhWEJveFU5VUFiekFvNlpjR1FCR1E4cXpTN2RBSEFIZ3Jpb3JXWEhqZnBHM0ZYS1NOSzlTbU5wTnFiOTF6MHJSNnc2d1BoS0xWeGV2WXAyTFVBT1FjTWZWWlpuQWJYOEViT0RWQ2xCQVlNcU5qRVJhbE5sektENGFHUXpDZXJ4VWtZX094V0RXWDg?oc=5",
+   "ek": "benzer baslik (gecmis 21 gun)"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "Jindal Stainless to invest ₹900 crore to expand cold rolling capacity",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUE5DeTEtaUxlSFZvVEJGbTd1X3N1SE5YZm5EaVlBZkwxOVNVYkZtTHFtdFFDeTM0UWZrVjdaYkhHTXE5UkpqNGp5aEJCUi1QSUM0cFhHMmZXb1hCa3dFZGswaTRJY21tUFpKYVlGbkZoc0Q5YnljTW5KY2E1WVdqa2VueW5VR3JnQ2ZMQ1BGU1ZHZFM1SGpwMFBOaTNmS2tHWWNaSGV5YU5kMFJKZ2R4d0p3b0FvYkxt?oc=5",
+   "ek": "benzer baslik (gecmis 21 gun)"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "Jindal Stainless Invests Rs 900 Crore to Expand Cold Rolling Capacity",
+   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOeXliOE0yWGlwUklNdXYyQ1p4ZThoZ2Z0OF9YcjJNczdScER0eEZQTWoxMFpwYThHdnczUFEyY1RwVzFXWkNQWUlERVNfREx2WlBCN3hrdVYyR2dMNmRXa3g2cHRpRlZqZkE3VVZPTVNua1N2UHVWUlh0QV8yV0dVc0xaamdiVk03Ynlxdmk4WWFJa1IyOS1IOWx1THFkeUhRZXkydFJMeXBoR3RUQVl2MkE4dVRyY09HWXNCQVM3MUVwWVBvYXp4S044WEY0N2tnQnpFVzR3SDBqcm1MeU1SSk9yZGxkZ09lMmlEd1hpVUU?oc=5",
+   "ek": "benzer baslik (gecmis 21 gun)"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "tk accelis Processing Europe expands Stuttgart steel service center capacity",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMzF1RWZTMXBiMDhndDAtbEZwYVRISXdVbTlhMmstbGFrMzJaVXBGVVk3RElGczQ4NjFxaTFfcVE1MkNaQm5KRUNTYnVTNlpsT3oxZzhzRVpBM0JSSWNtU0pYMnEtOF91SEpDWFV1eEQxV1ZnT0JLcVE1VG9sc3h2Q1RuOUtRX0FhZFJpbkpzSS15dlhWdEJwM0cteXVZSjZIZzB6Sl9iRDduRXY1?oc=5",
+   "ek": "2026-08-07"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "Fives supplies technologies for Xinyu's new electrical steel facility",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZjZFX1pBZ2tjSWJrb3luT1FoTm9qM0otMGFQZFVsb0ZLc1F4Z3QtRElGOHMycUdyQ0pCa2JVWGQ2UEt5MW5NNE5ncDZmMHlHRFg4MlkwaVNMVzREOGo3RThNLXIxQUt5TC1EM0pmeXltSXUwaHU4Z0VLMFNpemcxS1JHaHVLNW5sNWxucUxzQTd3dFVSYWZZcDNsaHlTdmhXTmw2WloxQkdudThkWFhwcmdiS2drd0VFd015NVFmR0dwNHpmWGZ6QlNR?oc=5",
+   "ek": ""
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "tk accelis Processing Europe expands Stuttgart steel service center capacity",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMzF1RWZTMXBiMDhndDAtbEZwYVRISXdVbTlhMmstbGFrMzJaVXBGVVk3RElGczQ4NjFxaTFfcVE1MkNaQm5KRUNTYnVTNlpsT3oxZzhzRVpBM0JSSWNtU0pYMnEtOF91SEpDWFV1eEQxV1ZnT0JLcVE1VG9sc3h2Q1RuOUtRX0FhZFJpbkpzSS15dlhWdEJwM0cteXVZSjZIZzB6Sl9iRDduRXY1?oc=5",
+   "ek": "2026-08-07"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Primetals to modernise Korean pickling line",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbWRCZVVIdU8wNDh0M0pCTGlsTWl1U2pqSm5ielo4OEpYYWFuenYzZkRQTGphRzF2WDlQT3VCb2dHc015dDh2eXBDNVhEaUdRLTFFanBMMVhQNWZRS2pPYjdEZFduSlR0VTFmODM4cVhVSDdUMExNQWdRSU9MMXhpaTdLaFE?oc=5",
+   "ek": "2026-08-11"
   }
  ]
 }

@@ -1,10 +1,10 @@
 {
  "donem": "2026-W35",
  "pencere": [
-  "2026-08-12",
-  "2026-08-27"
+  "2026-08-14",
+  "2026-08-29"
  ],
- "uretim": "2026-08-27 05:37 UTC",
+ "uretim": "2026-08-29 13:46 UTC",
  "kaynaklar": {
   "steeltimesint": {
    "publisher": "Steel Times International",
@@ -30,14 +30,9 @@
    "baslik": "Hoa Binh and Pomina Steel partner on 1.2 million mt flat steel plant expansion",
    "url": "https://www.steelorbis.com/steel-news/latest-news/hoa-binh-and-pomina-steel-partner-on-12-million-mt-flat-steel-plant-expansion-1469094.htm",
    "sebep": "pencere disi (2026-08-05)"
-  },
-  {
-   "baslik": "tk accelis announces milestone at Stuttgart steel service center",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/tk-accelis-announces-milestone-at-stuttgart-steel-service-center-1469079.htm",
-   "sebep": "pencere disi (2026-08-05)"
   }
  ],
- "kapiyi_gecen": 2,
+ "kapiyi_gecen": 1,
  "sitemap_adayi": 400,
- "elenen": 398
+ "elenen": 399
 }
