@@ -2,35 +2,80 @@
  "aciklama": "Bot korumasi yuzunden hem yazilima hem editorun oturumuna kapali yayinlarin basliklari. Editor bunlari ARAMA ile bulur. DOSYA TARIH TASIMAZ - tarih her zamanki gibi Actions'ta makale sayfasi acilarak dogrulanir; editorun beyan ettigi bir tarih rapora asla girmez. Kapsam kapisi da degismez, bu kanal yalnizca ADAY tasir. Pencere disi cikanlar rezerve duser.",
  "guncelleme": "2026-08-29",
  "kayitlar": [
-  {"kaynak": "Steel Times International",
+  {
+   "kaynak": "Steel Times International",
    "baslik": "Tata Steel breaks ground on new pickle line at Port Talbot site",
-   "url": "https://www.steeltimesint.com/news/tata-steel-breaks-ground-on-new-pickle-line-at-port-talbot-site"},
-  {"kaynak": "Steel Times International",
+   "url": "https://www.steeltimesint.com/news/tata-steel-breaks-ground-on-new-pickle-line-at-port-talbot-site"
+  },
+  {
+   "kaynak": "Steel Times International",
    "baslik": "Fives to supply Baosteel with two new processing line furnaces",
-   "url": "https://www.steeltimesint.com/news/fives-to-supply-baosteel-with-two-new-processing-line-furnaces"},
-  {"kaynak": "Steel Times International",
+   "url": "https://www.steeltimesint.com/news/fives-to-supply-baosteel-with-two-new-processing-line-furnaces"
+  },
+  {
+   "kaynak": "Steel Times International",
    "baslik": "Cold rolling mill complex for SSAB in Lulea Sweden",
-   "url": "https://www.steeltimesint.com/news/cold-rolling-mill-complex-for-ssab-in-lulea-sweden"},
-  {"kaynak": "Steel Times International",
+   "url": "https://www.steeltimesint.com/news/cold-rolling-mill-complex-for-ssab-in-lulea-sweden"
+  },
+  {
+   "kaynak": "Steel Times International",
    "baslik": "Fives furnaces at Baosteel's Zhanjiang steel plant",
-   "url": "https://www.steeltimesint.com/news/fives-furnaces-at-baosteels-zhanjiang-steel-plant"},
-  {"kaynak": "SMS group",
+   "url": "https://www.steeltimesint.com/news/fives-furnaces-at-baosteels-zhanjiang-steel-plant"
+  },
+  {
+   "kaynak": "SMS group",
    "baslik": "Galvanizing line upgrade by SMS group enables Villacero to meet the growing demand for skin-passed strip and coil",
-   "url": "https://www.sms-group.com/press-media/press-releases/press-detail/galvanizing-line-upgrade-by-sms-group-enables-villacero-to-meet-the-growing-demand-for-skin-passed-strip-and-coil-1567"},
-  {"kaynak": "SMS group",
+   "url": "https://www.sms-group.com/press-media/press-releases/press-detail/galvanizing-line-upgrade-by-sms-group-enables-villacero-to-meet-the-growing-demand-for-skin-passed-strip-and-coil-1567"
+  },
+  {
+   "kaynak": "SMS group",
    "baslik": "Integration tests for Habas AS cold rolling and processing complex",
-   "url": "https://www.sms-group.com/en-us/insights/all-insights/milestone-update-integration-tests-for-habas-as-cold-rolling-and-processing-complex"},
-  {"kaynak": "SMS group",
+   "url": "https://www.sms-group.com/en-us/insights/all-insights/milestone-update-integration-tests-for-habas-as-cold-rolling-and-processing-complex"
+  },
+  {
+   "kaynak": "SMS group",
    "baslik": "SSAB Lulea new sustainable cold rolling and strip processing complex",
-   "url": "https://www.sms-group.com/en-us/plants/projects/ssab-lulea-cold-rolling-and-strip-processing-complex"},
-  {"kaynak": "ArcelorMittal",
+   "url": "https://www.sms-group.com/en-us/plants/projects/ssab-lulea-cold-rolling-and-strip-processing-complex"
+  },
+  {
+   "kaynak": "ArcelorMittal",
    "baslik": "ArcelorMittal to move forward with construction of a new world-class electrical steel facility in Alabama",
-   "url": "https://corporate.arcelormittal.com/media/news/non-regulatory-news/arcelormittal-to-move-forward-with-construction-of-a-new-world-class-electrical-steel-facility-in-alabama"},
-  {"kaynak": "ArcelorMittal",
+   "url": "https://corporate.arcelormittal.com/media/news/non-regulatory-news/arcelormittal-to-move-forward-with-construction-of-a-new-world-class-electrical-steel-facility-in-alabama"
+  },
+  {
+   "kaynak": "ArcelorMittal",
    "baslik": "US Department of Energy announces financial support for ArcelorMittal's anticipated World-Class Electrical Steel facility in Alabama",
-   "url": "https://corporate.arcelormittal.com/media/news-articles/u-s-department-of-energy-announces-financial-support-for-arcelormittal-s-anticipated-world-class-electrical-steel-facility-in-alabama"},
-  {"kaynak": "Furnaces International",
+   "url": "https://corporate.arcelormittal.com/media/news-articles/u-s-department-of-energy-announces-financial-support-for-arcelormittal-s-anticipated-world-class-electrical-steel-facility-in-alabama"
+  },
+  {
+   "kaynak": "Furnaces International",
    "baslik": "Successful thermal performance at NLMK Strasbourg galvanizing line furnace",
-   "url": "https://furnaces-international.com/news/successful-thermal-performance-at-nlmk-strasbourg"}
+   "url": "https://furnaces-international.com/news/successful-thermal-performance-at-nlmk-strasbourg"
+  },
+  {
+   "kaynak": "Steel Times International",
+   "baslik": "SMS upgrades Hyundai Steel galvanising line",
+   "url": "https://www.steeltimesint.com/news/sms-upgrades-hyundai-steel-galvanising-line"
+  },
+  {
+   "kaynak": "Steel Times International",
+   "baslik": "Ternium contracts Fives for new galvanizing line",
+   "url": "https://www.steeltimesint.com/news/ternium-contracts-fives-for-new-galvanizing-line"
+  },
+  {
+   "kaynak": "Steel Times International",
+   "baslik": "CMI supplies Europe's largest galvanizing line",
+   "url": "https://www.steeltimesint.com/news/cmi-supplies-europes-largest-galvanizing-line"
+  },
+  {
+   "kaynak": "AIST",
+   "baslik": "Guangzhou JFE Steel Sheet Starts up 2nd Continuous Galvanizing Line",
+   "url": "https://www.aist.org/guangzhou-jfe-steel-sheet-starts-up-2nd-continuous-galvanizing-line"
+  },
+  {
+   "kaynak": "ArcelorMittal",
+   "baslik": "ArcelorMittal North America to add additional capability in Canada to produce Alusi Coated Usibor Press Hardenable Steel for Automotive applications",
+   "url": "https://corporate.arcelormittal.com/media/news/non-regulatory-news/arcelormittal-north-america-to-add-additional-capability-in-canada-to-produce-alusi-coated-usibor-press-hardenable-steel-phs-for-automotive-applications"
+  }
  ]
 }
