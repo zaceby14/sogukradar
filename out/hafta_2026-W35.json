@@ -76,151 +76,96 @@
    "puan": 53.8
   },
   {
-   "tarih": "2026-08-11",
-   "firma": "KG Steel",
+   "tarih": "2026-08-25",
+   "firma": "Roofings Unveils",
    "ulke": "",
-   "hat": "Tandem soguk hadde (TCM)",
-   "asama": "Modernizasyon",
-   "tedarikci": "Primetals",
+   "hat": "Soguk hadde",
+   "asama": "Belirsiz",
+   "tedarikci": "",
    "kapasite": "",
-   "tutar": "",
+   "tutar": "$125m",
+   "baslik": "Roofings Unveils $125m Steel Mill, Doubles Cold-Rolled Capacity to 300,000 Tonnes",
+   "kaynak": "SoftPower News",
+   "kaynak_id": "gq_hat02",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRWp3TW5taXBCVU10X0pUNE1UTEwtS0VQc2t2aXhPczd4alM3cERaWFN5Tmx0dnhycURTTG5wUWRKOHphSXhpQmNqWWNJTGtLakNVUnNsYkQ3alB6THRxVDVEaFp1M1l1VEpRUHVPQ2xHZ216TkVVNXVid24weWRrUmM4cS01Smp1aE5taFdjRjVxWVlqcWxidl81T1ljeF9WdUE?oc=5",
+   "tarih_kaynagi": "rss",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "anahtar": "fb51c908b538f5ec",
+   "kategori": "Hat",
+   "olaylar": [
+    "roofings unveils|hat|Soguk hadde|Belirsiz"
+   ],
+   "puan": 30.4
+  },
+  {
+   "anahtar": "05ee3ccfafa36b08",
+   "asama": "Modernizasyon",
    "baslik": "KG Steel selects Primetals for Dangjin PLTCM upgrade and capacity expansion",
-   "kaynak": "SteelOrbis",
-   "kaynak_id": "steelorbis",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/kg-steel-selects-primetals-for-dangjin-pltcm-upgrade-and-capacity-expansion-1470187.htm",
-   "tarih_kaynagi": "json-ld",
    "eksik": [
     "ulke"
    ],
-   "anahtar": "05ee3ccfafa36b08",
+   "firma": "KG Steel",
+   "hat": "Tandem soguk hadde (TCM)",
+   "kapasite": "",
    "kategori": "Hat",
+   "kaynak": "SteelOrbis",
+   "kaynak_id": "steelorbis",
    "olaylar": [
     "primetals|hat|Tandem soguk hadde (TCM)|Modernizasyon"
    ],
    "puan": 44.8,
-   "rezerv": true
-  },
-  {
+   "rezerv": true,
    "tarih": "2026-08-11",
-   "firma": "Primetals",
-   "ulke": "G. Kore",
-   "hat": "Asitleme hatti",
-   "asama": "Modernizasyon",
+   "tarih_kaynagi": "json-ld",
    "tedarikci": "Primetals",
-   "kapasite": "",
    "tutar": "",
-   "baslik": "Primetals to modernise Korean pickling line",
-   "kaynak": "Steel Times International",
-   "kaynak_id": "gq_hat00",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbWRCZVVIdU8wNDh0M0pCTGlsTWl1U2pqSm5ielo4OEpYYWFuenYzZkRQTGphRzF2WDlQT3VCb2dHc015dDh2eXBDNVhEaUdRLTFFanBMMVhQNWZRS2pPYjdEZFduSlR0VTFmODM4cVhVSDdUMExNQWdRSU9MMXhpaTdLaFE?oc=5",
-   "tarih_kaynagi": "rss",
-   "eksik": [],
-   "anahtar": "88fbd0c6b1f6aac5",
-   "kategori": "Hat",
-   "olaylar": [
-    "primetals|fu|G. Kore|Asitleme hatti",
-    "primetals|hat|Asitleme hatti|Modernizasyon",
-    "primetals|ulke|G. Kore|Modernizasyon"
-   ],
-   "rezerv": true
-  },
-  {
-   "tarih": "2026-08-07",
-   "firma": "",
    "ulke": "",
-   "hat": "Dilme / boy kesme / SSC",
-   "asama": "Belirsiz",
-   "tedarikci": "",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "tk accelis Processing Europe expands Stuttgart steel service center capacity",
-   "kaynak": "Yieh Corp.",
-   "kaynak_id": "gq_hat10",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMzF1RWZTMXBiMDhndDAtbEZwYVRISXdVbTlhMmstbGFrMzJaVXBGVVk3RElGczQ4NjFxaTFfcVE1MkNaQm5KRUNTYnVTNlpsT3oxZzhzRVpBM0JSSWNtU0pYMnEtOF91SEpDWFV1eEQxV1ZnT0JLcVE1VG9sc3h2Q1RuOUtRX0FhZFJpbkpzSS15dlhWdEJwM0cteXVZSjZIZzB6Sl9iRDduRXY1?oc=5",
-   "tarih_kaynagi": "rss",
-   "eksik": [
-    "firma",
-    "ulke",
-    "asama"
-   ],
-   "anahtar": "beb57acb388dd4c9",
-   "kategori": "Hat",
-   "olaylar": [
-    "|hat|Dilme / boy kesme / SSC|Belirsiz"
-   ],
-   "rezerv": true
+   "url": "https://www.steelorbis.com/steel-news/latest-news/kg-steel-selects-primetals-for-dangjin-pltcm-upgrade-and-capacity-expansion-1470187.htm"
   },
   {
-   "tarih": "2026-07-29",
-   "firma": "TOSYALI ALGÉRİE",
-   "ulke": "Cezayir",
-   "hat": "Soguk hadde",
+   "anahtar": "92e4a5a31f19b487",
    "asama": "Ilk urun",
-   "tedarikci": "",
-   "kapasite": "",
-   "tutar": "",
    "baslik": "TOSYALI ALGÉRİE, SOĞUK HADDELEME KOMPLEKSİNDE İLK ÜRETİMİ YAPTI",
+   "eksik": [],
+   "firma": "TOSYALI ALGÉRİE",
+   "hat": "Soguk hadde",
+   "kapasite": "",
+   "kategori": "Hat",
    "kaynak": "SteelTurk",
    "kaynak_id": "steelturk",
-   "url": "https://www.steelturk.com.tr/tosyali-algérie-soguk-haddeleme-kompleksinde-ilk-uretimi-yapti/",
-   "tarih_kaynagi": "liste",
-   "eksik": [],
-   "anahtar": "92e4a5a31f19b487",
-   "kategori": "Hat",
    "olaylar": [
     "tosyali algerie|fu|Cezayir|Soguk hadde",
     "tosyali algerie|hat|Soguk hadde|Ilk urun",
     "tosyali algerie|ulke|Cezayir|Ilk urun"
    ],
-   "rezerv": true
-  },
-  {
-   "anahtar": "dbf500463fb21d96",
-   "asama": "Belirsiz",
-   "baslik": "U. S. Steel Announces Plans to Restart Gary Tin Mill",
-   "eksik": [
-    "asama"
-   ],
-   "firma": "U. S. Steel Announces",
-   "hat": "Teneke hatti (ETL)",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "U.S. Steel",
-   "kaynak_id": "ussteel",
-   "olaylar": [
-    "u. s. steel announces|fu|Hindistan|Teneke hatti (ETL)",
-    "u. s. steel announces|hat|Teneke hatti (ETL)|Belirsiz",
-    "u. s. steel announces|ulke|Hindistan|Belirsiz"
-   ],
    "rezerv": true,
-   "tarih": "2026-04-16",
+   "tarih": "2026-07-29",
    "tarih_kaynagi": "liste",
    "tedarikci": "",
    "tutar": "",
-   "ulke": "Hindistan",
-   "url": "https://www.ussteel.com:443/media/newsroom/-/blogs/u-s-steel-announces-plans-to-restart-gary-tin-mill?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fwww.ussteel.com%3A443%2Fmedia%2Fnewsroom%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26_com_liferay_blogs_web_portlet_BlogsPortlet_cur%3D1%26_com_liferay_blogs_web_portlet_BlogsPortlet_delta%3D20"
+   "ulke": "Cezayir",
+   "url": "https://www.steelturk.com.tr/tosyali-algérie-soguk-haddeleme-kompleksinde-ilk-uretimi-yapti/"
   }
  ],
  "stats": {
   "kaynak": 168,
-  "erisilemeyen": 11,
-  "ham": 2596,
-  "on_eleme_gecti": 254,
+  "erisilemeyen": 10,
+  "ham": 2618,
+  "on_eleme_gecti": 253,
   "makale_acildi": 202,
   "tarihsiz_elendi": 80,
-  "pencere_disi": 174,
-  "kapsam_disi": 2323,
-  "tekrar": 16,
-  "kabul": 3
+  "pencere_disi": 175,
+  "kapsam_disi": 2344,
+  "tekrar": 15,
+  "kabul": 4
  },
  "unreachable": [
   [
    "SMS group",
    "HTTP 403"
-  ],
-  [
-   "Butech Bliss",
-   "HTTP 500"
   ],
   [
    "Cognex",
@@ -467,15 +412,16 @@
  "kaynak_katki": {
   "Andritz Metals": 1,
   "SteelOrbis": 1,
-  "Mysteel (tesis/proje)": 1
+  "Mysteel (tesis/proje)": 1,
+  "Google News": 1
  },
  "window": [
   "2026-08-14",
   "2026-08-29"
  ],
- "rezerv_kullanilan": 5,
- "rezerv_havuz": 1,
+ "rezerv_kullanilan": 2,
+ "rezerv_havuz": 4,
  "period": "2026-W35",
- "generated": "2026-08-29 13:40 UTC",
+ "generated": "2026-08-29 14:41 UTC",
  "version": "3.0.0"
 }

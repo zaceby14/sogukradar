@@ -369,6 +369,23 @@
     "tekrar": 16
    },
    "uretim": "2026-08-29 13:40 UTC"
+  },
+  {
+   "donem": "2026-W35",
+   "satir": 6,
+   "stats": {
+    "erisilemeyen": 10,
+    "ham": 2618,
+    "kabul": 4,
+    "kapsam_disi": 2344,
+    "kaynak": 168,
+    "makale_acildi": 202,
+    "on_eleme_gecti": 253,
+    "pencere_disi": 175,
+    "tarihsiz_elendi": 80,
+    "tekrar": 15
+   },
+   "uretim": "2026-08-29 14:41 UTC"
   }
  ],
  "rezerv": [
@@ -534,16 +551,6 @@
    "a": "Belirsiz",
    "b": "India's Jindal Stainless Limited to invest $94 million to ramp up cold rolling capacity",
    "t": "2026-08-17"
-  },
-  {
-   "b": "tk accelis announces milestone at Stuttgart steel service center",
-   "t": "2026-08-05",
-   "a": "Ilk urun"
-  },
-  {
-   "b": "Hoa Binh and Pomina Steel partner on 1.2 million mt flat steel plant expansion",
-   "t": "2026-08-05",
-   "a": "Ilk urun"
   }
  ],
  "source_health": {},
