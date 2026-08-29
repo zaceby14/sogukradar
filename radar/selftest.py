@@ -1409,6 +1409,10 @@ def test_v20_indiana_hindistan_degil():
        "India hala Hindistan")
     eq(ulke("Indian mill starts up new pickling line"), "Hindistan",
        "Indian hala Hindistan")
+    # crore/lakh Hindistan'a ozgu sayi birimi; baslikta ulke adi hic
+    # gecmeyen Hint haberinde tek sinyal olabiliyor (2026-08-29 taramasi)
+    eq(ulke("Jindal Stainless investing Rs 900 crore to increase cold "
+            "rolling capacity"), "Hindistan", "crore Hindistan sinyalidir")
 
 
 def test_elle_besleme_kanali():

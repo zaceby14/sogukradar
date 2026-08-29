@@ -440,7 +440,11 @@ COUNTRY_MAP = [
     # icinde tutuyordu ve "U. S. Steel ... Gary Tin Mill" satiri Hindistan
     # olarak etiketlendi - Gary, Indiana. Ayni aile "Province" icinde
     # eslesen "vinc" hatasiyla ayni.
-    (r"\bindia\b|\bindias\b|\bindian\b", "Hindistan"),
+    # crore/lakh Hindistan'a ozgu sayi birimleridir ve baslikta ulke adi
+    # gecmeyen Hint haberlerinde tek sinyal olabiliyor: 2026-08-29
+    # taramasinda "Jindal Stainless investing Rs 900 crore to increase
+    # cold rolling capacity" satirinin ulkesi bos kalmisti.
+    (r"\bindia\b|\bindias\b|\bindian\b|\bcrore\b|\blakh\b", "Hindistan"),
     (r"\bchina|chinese\b", "Cin"),
     (r"\bjapan|japanese\b", "Japonya"),
     (r"\bkorea|korean\b", "G. Kore"),

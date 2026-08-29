@@ -247,7 +247,15 @@ bunu kanıtladı (sayfa 403, sitemap 1000 adres).
   İlk tasarımda tarih "Actions makale sayfasını açarak" doğrulanacaktı; bu
   yanlıştı ve ölçüldü — 15 kaydın 14'ü `tarihsiz_elendi` ile düştü, kanal
   **hiç satır üretmedi.** Kapalı yayının sayfası kapalıysa tarihi de
-  kapalıdır. Başlık örtüşme ölçütü tekrar elemeninkinden **katıdır**:
+  kapalıdır.
+
+- **Kanalın ölçülmüş verimi düşüktür.** Google News doğrulaması eklendikten
+  sonra 15 kaydın **1'i** tarih alabildi (o da pencere dışıydı): Google News
+  bu yayınların çoğunu ya indekslemiyor ya da başlık birebir örtüşmüyor.
+  **Bu yüzden dosyayı doldururken önceliğin ULAŞILABİLİR bir yayının
+  adresidir** — aynı haberi yazan başka bir yayın. O zaman tarih makale
+  sayfasından normal yoldan doğrulanır ve satır gerçekten çıkar. Kapalı
+  yayının kendi adresi son çaredir ve genellikle satır üretmez. Başlık örtüşme ölçütü tekrar elemeninkinden **katıdır**:
   `similar_titles` "SMS upgrades Hyundai Steel galvanising line" ile
   "Ternium contracts Fives for new galvanizing line"i aynı sayıyor; tekrar
   elemede bu tolerans doğru, tarih atamada başka haberin tarihini bu
