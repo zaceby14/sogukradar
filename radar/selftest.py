@@ -1167,6 +1167,63 @@ def test_gunluk_tarama_modu():
         eq("send-mail" in y or "ONAY" in y, False, "gunluk kosu posta gondermemeli")
 
 
+def test_rezerv_tekrar_denetimi():
+    """v18 (2026-08-27): rezervden secim de tekrar denetiminden gecer.
+
+    Ilk surum havuzun basindan "eksik" kadar satiri DOGRUDAN aliyordu; taze
+    satirlarda calisan uc bacakli tekrar savunmasi rezervde hic calismiyordu.
+    Ilk gunluk taramada iki tekrar birden listeye girdi - ikisi de gercek:
+
+      ayni olay, iki yayin, farkli hat vurgusu:
+        "KG Steel selects Primetals for Dangjin PLTCM upgrade"  (SteelOrbis)
+        "Primetals to modernise Korean pickling line"           (STI)
+      W34'te ZATEN GONDERILMIS haberin baska yayindaki varyanti:
+        "tk accelis Processing Europe expands Stuttgart steel service center"
+    """
+    from .cli import _rezervden_sec
+
+    def _r(a, tarih, baslik, ted="", ulke="", asama="Modernizasyon", olaylar=()):
+        return {"anahtar": a, "tarih": tarih, "baslik": baslik, "tedarikci": ted,
+                "ulke": ulke, "asama": asama, "olaylar": list(olaylar),
+                "hat": "Soguk hadde", "kategori": "Hat", "rezerv": True}
+
+    kg = _r("k1", "2026-08-11",
+            "KG Steel selects Primetals for Dangjin PLTCM upgrade and capacity expansion",
+            ted="Primetals", olaylar=["primetals|hat|Tandem soguk hadde (TCM)|Modernizasyon"])
+    sti = _r("k2", "2026-08-11", "Primetals to modernise Korean pickling line",
+             ted="Primetals", ulke="G. Kore",
+             olaylar=["primetals|ulke|G. Kore|Modernizasyon"])
+    # Ayni tedarikci + ayni asama + AYNI GUN -> ayni olay. Ulke bir yayinda
+    # bos oldugu icin ulke tek basina yetmiyor.
+    sec = _rezervden_sec([kg, sti], rows=[], st={}, eksik=8)
+    eq(len(sec), 1, "ayni olayin iki varyantindan biri alinmali")
+
+    # Farkli GUN ve farkli ULKE ise iki ayri is: ikisi de alinir
+    baska = _r("k3", "2026-06-02", "Primetals to modernise Indian pickling line",
+               ted="Primetals", ulke="Hindistan")
+    eq(len(_rezervden_sec([kg, baska], rows=[], st={}, eksik=8)), 2,
+       "farkli gun+ulke iki ayri is sayilmali")
+
+    # GECMISTE GONDERILMIS haberin varyanti alinmamali
+    gecmis = {"son_basliklar": [
+        {"b": "tk accelis announces milestone at Stuttgart steel service center",
+         "t": "2026-08-05", "a": "Ilk urun"}]}
+    yieh = _r("k4", "2026-08-07",
+              "tk accelis Processing Europe expands Stuttgart steel service center capacity",
+              asama="Ilk urun")
+    eq(_rezervden_sec([yieh], rows=[], st=gecmis, eksik=8), [],
+       "gonderilmis haberin baska yayindaki varyanti girmemeli")
+
+    # Bu koşuda ZATEN listede olan satirin varyanti da girmemeli
+    eq(_rezervden_sec([yieh], rows=[{
+        "baslik": "tk accelis announces milestone at Stuttgart steel service center",
+        "asama": "Ilk urun", "olaylar": []}], st={}, eksik=8), [],
+       "listedeki satirin varyanti girmemeli")
+
+    # eksik=0 ise hicbir sey alinmaz
+    eq(_rezervden_sec([kg], rows=[], st={}, eksik=0), [], "eksik yoksa alinmaz")
+
+
 def test_sitemap_okuyucu():
     """v6 (2026-08-17): haber sitemap'i kaynak turu.
 
@@ -1372,7 +1429,7 @@ def run():
                test_w35_katman2_kapsam_kapisi, test_w35_ornek_kosu,
                test_rezerv_ve_teknoloji_havuzu,
                test_rezervin_ortaya_cikardigi_delikler,
-               test_gunluk_tarama_modu,
+               test_gunluk_tarama_modu, test_rezerv_tekrar_denetimi,
                test_w34_sifir_satir_teshisi,
                test_teknoloji_ve_ai_bolumleri,
                test_sitemap_okuyucu, test_olculen_25_haber,

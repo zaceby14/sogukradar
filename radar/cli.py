@@ -79,11 +79,8 @@ def cmd_run(a):
     st_r = state.load()
     rezerv = _rezerv_guncelle(st_r, payload.pop("rezerv", []), rows)
     eksik = max(HEDEF_SATIR - len(rows), 0)
-    kullanilan = []
-    if eksik and rezerv:
-        # En yeniden eskiye: okuyucu once guncel olani gorsun.
-        kullanilan = sorted(rezerv, key=lambda r: r.get("tarih", ""),
-                            reverse=True)[:eksik]
+    kullanilan = _rezervden_sec(rezerv, rows, st_r, eksik)
+    if kullanilan:
         rows = rows + kullanilan
         print("rezervden %d satir eklendi (havuzda %d kaldi)"
               % (len(kullanilan), len(rezerv) - len(kullanilan)))
@@ -198,6 +195,65 @@ def _tech_havuz(st, taze):
     kalan.sort(key=lambda t: t.get("tarih", ""), reverse=True)
     st["tech_rezerv"] = kalan[:60]
     return list(st["tech_rezerv"])
+
+
+def _rezervden_sec(rezerv, rows, st, eksik):
+    """Rezervden satir secer - AYNI TEKRAR DENETIMINDEN gecirerek.
+
+    Ilk surum havuzun basindan "eksik" kadar satiri dogrudan aliyordu; hicbir
+    tekrar denetimi yoktu. Sonuc 2026-08-27 taramasinda goruldu: ayni KG Steel
+    Dangjin olayi listeye IKI KEZ girdi -
+        "KG Steel selects Primetals for Dangjin PLTCM upgrade"   (SteelOrbis)
+        "Primetals to modernise Korean pickling line"            (STI)
+    Iki yayin ayni olayi farkli hat vurgusuyla yazinca olay parmak izleri
+    kesismiyor; taze satirlarda calisan uc bacakli savunma burada hic
+    calismiyordu.
+    """
+    if eksik <= 0 or not rezerv:
+        return []
+    secili = list(rows)
+    olaylar = set()
+    for r in secili:
+        olaylar |= set(r.get("olaylar") or [])
+    gecmis = [b for b in (st.get("son_basliklar") or [])
+              if not taxonomy.is_junk_title(b.get("b", ""))]
+    out = []
+    # En yeniden eskiye: okuyucu once guncel olani gorsun.
+    for r in sorted(rezerv, key=lambda r: r.get("tarih", ""), reverse=True):
+        if len(out) >= eksik:
+            break
+        eks = set(r.get("olaylar") or [])
+        if eks & olaylar:
+            continue                                   # ayni olayin varyanti
+        if any(taxonomy.similar_titles(r.get("baslik", ""), x.get("baslik", ""))
+               for x in secili):
+            continue                                   # bu listede benzeri var
+        if any(taxonomy.similar_titles(r.get("baslik", ""), b.get("b", ""))
+               for b in gecmis):
+            continue                                   # gecmiste gonderilmis
+        # AYNI TEDARIKCI + AYNI ASAMA + (ayni ulke YA DA ayni tarih):
+        # hat vurgusu farkli olsa da ayni olaydir. KG Steel vakasinda iki
+        # yayindan biri ulkeyi hic yazmamisti ("" vs "G. Kore"), bu yuzden
+        # ulke tek basina yetmiyor; ayni gun ayni tedarikcinin ayni asamadaki
+        # iki ayri isi olmasi ise pratikte gorulmuyor.
+        ted = taxonomy.fold(r.get("tedarikci") or "")
+        if ted:
+            for x in secili:
+                if taxonomy.fold(x.get("tedarikci") or "") != ted:
+                    continue
+                if (x.get("asama") or "") != (r.get("asama") or ""):
+                    continue
+                ayni_ulke = (x.get("ulke") or "") == (r.get("ulke") or "")
+                ayni_gun = (x.get("tarih") or "") == (r.get("tarih") or "")
+                if ayni_ulke or ayni_gun:
+                    break
+            else:
+                out.append(r); secili.append(r); olaylar |= eks
+            continue
+        out.append(r)
+        secili.append(r)
+        olaylar |= eks
+    return out
 
 
 def _rezerv_guncelle(st, yeni_adaylar, rows):
