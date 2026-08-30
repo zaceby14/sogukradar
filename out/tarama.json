@@ -1,29 +1,30 @@
 {
  "rows": [
   {
-   "tarih": "2026-08-16",
-   "firma": "FY28",
-   "ulke": "",
+   "tarih": "2026-08-17",
+   "firma": "Jindal Stainless",
+   "ulke": "Hindistan",
    "hat": "Soguk hadde",
    "asama": "Belirsiz",
    "tedarikci": "",
-   "kapasite": "2.67 MT",
-   "tutar": "Rs 900 crore",
-   "baslik": "Jindal Stainless investing Rs 900 crore to increase cold rolling capacity to 2.67 MT by FY28: MD",
-   "kaynak": "The Economic Times",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "Jindal Stainless to invest ₹900 crore to expand cold rolling capacity",
+   "kaynak": "Manufacturing Today India",
    "kaynak_id": "gx_bigmint_q",
-   "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNM2hmV0lKLTRuT0d6ODZXbllZLVczcTBBUGFUbnh0RWRldnptUlJHYkdmTkVheU1fc2xLRGtfUENvazhTeUQ2cTFMVEcxckFIZmhtWFZDQ2psTDBuak1MVVdaVUlZXzB4YmgzZFh3UkdkRXdpbVZ5WTM1QVhWVnpYS2t6SWxWUmI4Tnk3QlVqQkx5YlJRQ2VzeERVVlcxV2QwdGpfTU05TDZ5WnotNGZtRklMUklzMzltbkFwX2tkMkxNNDhERmRObWVDY2ZucGp5Qm5QTFV0UEI2S28wN3AtTllOT0E4S3dvcWxTWmVZcnNaNHZxc0RhVmhLMDg3bGJlcF9yTXBGMDFzSFnSAZACQVVfeXFMTWh5Q3hBcFRSZkFrUmJfUkZURjFKYXNVbzRZY3pnNGVWZG1uSFVQa2V5R3JWQkhJRHR2U0luTE1IbTJIdVNycERGVERXNFN4Y0NsX3lWeXk3aGtoNkgzTlVHeTNlWVZnSEZLclJrd1FQSXVtc2FadjJmWEdKMU9tVkpER0NDOFhhWEJveFU5VUFiekFvNlpjR1FCR1E4cXpTN2RBSEFIZ3Jpb3JXWEhqZnBHM0ZYS1NOSzlTbU5wTnFiOTF6MHJSNnc2d1BoS0xWeGV2WXAyTFVBT1FjTWZWWlpuQWJYOEViT0RWQ2xCQVlNcU5qRVJhbE5sektENGFHUXpDZXJ4VWtZX094V0RXWDg?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUE5DeTEtaUxlSFZvVEJGbTd1X3N1SE5YZm5EaVlBZkwxOVNVYkZtTHFtdFFDeTM0UWZrVjdaYkhHTXE5UkpqNGp5aEJCUi1QSUM0cFhHMmZXb1hCa3dFZGswaTRJY21tUFpKYVlGbkZoc0Q5YnljTW5KY2E1WVdqa2VueW5VR3JnQ2ZMQ1BGU1ZHZFM1SGpwMFBOaTNmS2tHWWNaSGV5YU5kMFJKZ2R4d0p3b0FvYkxt?oc=5",
    "tarih_kaynagi": "rss",
    "eksik": [
-    "ulke",
     "asama"
    ],
-   "anahtar": "24e2dda77f2e84e9",
+   "anahtar": "730bd1f322f11f09",
    "kategori": "Yatirim",
    "olaylar": [
-    "fy28|hat|Soguk hadde|Belirsiz"
+    "jindal stainless|fu|Hindistan|Soguk hadde",
+    "jindal stainless|hat|Soguk hadde|Belirsiz",
+    "jindal stainless|ulke|Hindistan|Belirsiz"
    ],
-   "puan": 5.8
+   "puan": -2.2
   },
   {
    "anahtar": "dbf500463fb21d96",
@@ -80,13 +81,13 @@
  ],
  "stats": {
   "kaynak": 169,
-  "erisilemeyen": 8,
-  "ham": 2755,
-  "on_eleme_gecti": 272,
-  "makale_acildi": 206,
+  "erisilemeyen": 9,
+  "ham": 2717,
+  "on_eleme_gecti": 270,
+  "makale_acildi": 205,
   "tarihsiz_elendi": 97,
-  "pencere_disi": 184,
-  "kapsam_disi": 2458,
+  "pencere_disi": 186,
+  "kapsam_disi": 2418,
   "tekrar": 15,
   "kabul": 1
  },
@@ -94,6 +95,10 @@
   [
    "SMS group",
    "HTTP 403"
+  ],
+  [
+   "Butech Bliss",
+   "HTTP 500"
   ],
   [
    "Cognex",
@@ -295,7 +300,7 @@
   "gx_q_de1": "arama",
   "gx_q_es1": "arama"
  },
- "today": "2026-08-29",
+ "today": "2026-08-30",
  "tech_pool": [
   {
    "anahtar": "tech:9e26740970742b85",
@@ -334,12 +339,12 @@
   "Google News": 1
  },
  "window": [
-  "2026-08-14",
-  "2026-08-29"
+  "2026-08-15",
+  "2026-08-30"
  ],
  "rezerv_kullanilan": 2,
- "rezerv_havuz": 2,
+ "rezerv_havuz": 3,
  "period": "2026-W35",
- "generated": "2026-08-29 16:26 UTC",
+ "generated": "2026-08-30 03:28 UTC",
  "version": "3.0.0"
 }

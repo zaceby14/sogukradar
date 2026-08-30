@@ -465,9 +465,51 @@
     "tekrar": 15
    },
    "uretim": "2026-08-29 16:26 UTC"
+  },
+  {
+   "donem": "2026-W35",
+   "satir": 3,
+   "stats": {
+    "erisilemeyen": 9,
+    "ham": 2717,
+    "kabul": 1,
+    "kapsam_disi": 2418,
+    "kaynak": 169,
+    "makale_acildi": 205,
+    "on_eleme_gecti": 270,
+    "pencere_disi": 186,
+    "tarihsiz_elendi": 97,
+    "tekrar": 15
+   },
+   "uretim": "2026-08-30 03:28 UTC"
   }
  ],
  "rezerv": [
+  {
+   "anahtar": "2dd71ceba3d095f7",
+   "asama": "Belirsiz",
+   "baslik": "US Steel Targets 2027 Restart of Ind. Tin Mill Amid Demand for Domestic Steel",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "firma": "Domestic Steel",
+   "hat": "Teneke hatti (ETL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Thomasnet",
+   "kaynak_id": "gq_hat07",
+   "olaylar": [
+    "domestic steel|hat|Teneke hatti (ETL)|Belirsiz"
+   ],
+   "rezerv": true,
+   "tarih": "2026-08-14",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9IUmt5bnEwYkszNUZ1SXBuNFpsaW95Q2syZjE0STdIUmo4N2trS1M2M3lPMTZCXzRjaUhiRUg0VTNLQlctUk9NeTFPQWNkbmJrYWIzSm5qZVdtNEs0ZDNvM2VvSWhIMDZxeXRxbU9lRlpRUDZLVm1uVDU3YjVQT1E?oc=5"
+  },
   {
    "anahtar": "88fbd0c6b1f6aac5",
    "asama": "Modernizasyon",

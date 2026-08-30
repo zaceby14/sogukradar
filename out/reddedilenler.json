@@ -1,6 +1,6 @@
 {
  "donem": "2026-W35",
- "adet": 496,
+ "adet": 498,
  "kayitlar": [
   {
    "sebep": "kapsam_disi",
@@ -625,24 +625,6 @@
    "baslik": "SUCCESS STORY | Rénovation d’un groupe hydroélectrique pour EDF Hydro",
    "url": "https://www.clecim.com/success-story_edf/",
    "ek": "2026-04-14"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "See How Intelligent Content Syndication Enabled a Tech Giant to Turbocharge Customer Engagement",
-   "url": "https://butechbliss.com/see-how-intelligent-content-syndication-enabled-a-tech-giant-to-turbocharge-customer-engagement/",
-   "ek": "on eleme: 2022-08-09"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "100,000+ Users Migrate to a New Platform Seamlessly & Effectively",
-   "url": "https://butechbliss.com/100000-users-migrate-to-a-new-platform-seamlessly-effectively/",
-   "ek": "on eleme: 2022-08-09"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "iTalent’s iAgent for Privacy Protection Saves Billions",
-   "url": "https://butechbliss.com/italents-iagent-for-privacy-protection-saves-billions/",
-   "ek": "haber degil (menu/e-posta/kisa)"
   },
   {
    "sebep": "kapsam_disi",
@@ -1545,16 +1527,16 @@
    "ek": "2026-01-09"
   },
   {
-   "sebep": "kapsam_disi",
+   "sebep": "pencere_disi",
    "baslik": "Ports (Container / Bulk material)",
    "url": "https://www.emg.elexis.group/industries/ports",
-   "ek": "olay yok (katalog/pazarlama)"
+   "ek": "2026-08-14"
   },
   {
-   "sebep": "kapsam_disi",
+   "sebep": "pencere_disi",
    "baslik": "Raw material extraction / handling",
    "url": "https://www.emg.elexis.group/industries/raw-material-extraction",
-   "ek": "olay yok (katalog/pazarlama)"
+   "ek": "2026-08-14"
   },
   {
    "sebep": "pencere_disi",
@@ -2373,6 +2355,24 @@
    "ek": "kapsam kapisi (baslik)"
   },
   {
+   "sebep": "kapsam_disi",
+   "baslik": "Daily press | 2025-10-25 Fire at thyssenkrupp Steel in Duisburg in the Bruckhausen plant area. Fire is under control. Duisburg fire department withdraws",
+   "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/fire-at-thyssenkrupp-steel-in-duisburg-in-the-bruckhausen-plant-area-fire-is-under-control-duisburg-fire-department-withdraws.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Trade press | 2025-10-21 thyssenkrupp Steel presents innovative door ring solution at Blechexpo 2025",
+   "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/thyssenkrupp-steel-presents-innovative-door-ring-solution-at-blechexpo-2025.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Trade press | 2025-10-17 thyssenkrupp Steel at Blechexpo 2025: Innovative steel solutions for economical lightweight construction and sustainable mobility",
+   "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/thyssenkrupp-steel-at-blechexpo-2025-innovative-steel-solutions-for-economical-lightweight-construction-and-sustainable-mobility.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
    "sebep": "pencere_disi",
    "baslik": "Trade press | 2024-12-13 thyssenkrupp Steel has commissioned a modernized walking beam furnace in Duisburg-Bruckhausen for high-quality electrical steel strip production",
    "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/thyssenkrupp-steel-has-commissioned-a-modernized-walking-beam-furnace-in-duisburg-bruckhausen-for-high-quality-electrical-steel-strip-production.html",
@@ -2787,6 +2787,12 @@
    "ek": "ayni olayin varyanti: andritz|hat|Galvaniz hatti (CGL)|Sozlesme"
   },
   {
+   "sebep": "pencere_disi",
+   "baslik": "US Steel Targets 2027 Restart of Ind. Tin Mill Amid Demand for Domestic Steel",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9IUmt5bnEwYkszNUZ1SXBuNFpsaW95Q2syZjE0STdIUmo4N2trS1M2M3lPMTZCXzRjaUhiRUg0VTNLQlctUk9NeTFPQWNkbmJrYWIzSm5qZVdtNEs0ZDNvM2VvSWhIMDZxeXRxbU9lRlpRUDZLVm1uVDU3YjVQT1E?oc=5",
+   "ek": "2026-08-14"
+  },
+  {
    "sebep": "tekrar",
    "baslik": "Fives supplies technologies for Xinyu's new electrical steel facility",
    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZjZFX1pBZ2tjSWJrb3luT1FoTm9qM0otMGFQZFVsb0ZLc1F4Z3QtRElGOHMycUdyQ0pCa2JVWGQ2UEt5MW5NNE5ncDZmMHlHRFg4MlkwaVNMVzREOGo3RThNLXIxQUt5TC1EM0pmeXltSXUwaHU4Z0VLMFNpemcxS1JHaHVLNW5sNWxucUxzQTd3dFVSYWZZcDNsaHlTdmhXTmw2WloxQkdudThkWFhwcmdiS2drd0VFd015NVFmR0dwNHpmWGZ6QlNR?oc=5",
@@ -2944,21 +2950,27 @@
   },
   {
    "sebep": "tekrar",
-   "baslik": "Jindal Stainless to invest ₹900 crore to expand cold rolling capacity",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUE5DeTEtaUxlSFZvVEJGbTd1X3N1SE5YZm5EaVlBZkwxOVNVYkZtTHFtdFFDeTM0UWZrVjdaYkhHTXE5UkpqNGp5aEJCUi1QSUM0cFhHMmZXb1hCa3dFZGswaTRJY21tUFpKYVlGbkZoc0Q5YnljTW5KY2E1WVdqa2VueW5VR3JnQ2ZMQ1BGU1ZHZFM1SGpwMFBOaTNmS2tHWWNaSGV5YU5kMFJKZ2R4d0p3b0FvYkxt?oc=5",
+   "baslik": "Jindal Stainless investing Rs 900 crore to increase cold rolling capacity to 2.67 MT by FY28: MD",
+   "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNM2hmV0lKLTRuT0d6ODZXbllZLVczcTBBUGFUbnh0RWRldnptUlJHYkdmTkVheU1fc2xLRGtfUENvazhTeUQ2cTFMVEcxckFIZmhtWFZDQ2psTDBuak1MVVdaVUlZXzB4YmgzZFh3UkdkRXdpbVZ5WTM1QVhWVnpYS2t6SWxWUmI4Tnk3QlVqQkx5YlJRQ2VzeERVVlcxV2QwdGpfTU05TDZ5WnotNGZtRklMUklzMzltbkFwX2tkMkxNNDhERmRObWVDY2ZucGp5Qm5QTFV0UEI2S28wN3AtTllOT0E4S3dvcWxTWmVZcnNaNHZxc0RhVmhLMDg3bGJlcF9yTXBGMDFzSFnSAZACQVVfeXFMTWh5Q3hBcFRSZkFrUmJfUkZURjFKYXNVbzRZY3pnNGVWZG1uSFVQa2V5R3JWQkhJRHR2U0luTE1IbTJIdVNycERGVERXNFN4Y0NsX3lWeXk3aGtoNkgzTlVHeTNlWVZnSEZLclJrd1FQSXVtc2FadjJmWEdKMU9tVkpER0NDOFhhWEJveFU5VUFiekFvNlpjR1FCR1E4cXpTN2RBSEFIZ3Jpb3JXWEhqZnBHM0ZYS1NOSzlTbU5wTnFiOTF6MHJSNnc2d1BoS0xWeGV2WXAyTFVBT1FjTWZWWlpuQWJYOEViT0RWQ2xCQVlNcU5qRVJhbE5sektENGFHUXpDZXJ4VWtZX094V0RXWDg?oc=5",
    "ek": "benzer baslik (bu kosuda)"
   },
   {
    "sebep": "tekrar",
    "baslik": "Jindal Stainless Invests Rs 900 Crore to Expand Cold Rolling Capacity",
    "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOeXliOE0yWGlwUklNdXYyQ1p4ZThoZ2Z0OF9YcjJNczdScER0eEZQTWoxMFpwYThHdnczUFEyY1RwVzFXWkNQWUlERVNfREx2WlBCN3hrdVYyR2dMNmRXa3g2cHRpRlZqZkE3VVZPTVNua1N2UHVWUlh0QV8yV0dVc0xaamdiVk03Ynlxdmk4WWFJa1IyOS1IOWx1THFkeUhRZXkydFJMeXBoR3RUQVl2MkE4dVRyY09HWXNCQVM3MUVwWVBvYXp4S044WEY0N2tnQnpFVzR3SDBqcm1MeU1SSk9yZGxkZ09lMmlEd1hpVUU?oc=5",
-   "ek": "benzer baslik (bu kosuda)"
+   "ek": "ayni olayin varyanti: jindal stainless|fu|Hindistan|Soguk hadde; jindal stainless|hat|Soguk hadde|Belirsiz; jindal stainless|ulke|Hindistan|Belirsiz"
   },
   {
    "sebep": "pencere_disi",
    "baslik": "tk accelis Processing Europe expands Stuttgart steel service center capacity",
    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMzF1RWZTMXBiMDhndDAtbEZwYVRISXdVbTlhMmstbGFrMzJaVXBGVVk3RElGczQ4NjFxaTFfcVE1MkNaQm5KRUNTYnVTNlpsT3oxZzhzRVpBM0JSSWNtU0pYMnEtOF91SEpDWFV1eEQxV1ZnT0JLcVE1VG9sc3h2Q1RuOUtRX0FhZFJpbkpzSS15dlhWdEJwM0cteXVZSjZIZzB6Sl9iRDduRXY1?oc=5",
    "ek": "2026-08-07"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "US Steel Targets 2027 Restart of Ind. Tin Mill Amid Demand for Domestic Steel",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9IUmt5bnEwYkszNUZ1SXBuNFpsaW95Q2syZjE0STdIUmo4N2trS1M2M3lPMTZCXzRjaUhiRUg0VTNLQlctUk9NeTFPQWNkbmJrYWIzSm5qZVdtNEs0ZDNvM2VvSWhIMDZxeXRxbU9lRlpRUDZLVm1uVDU3YjVQT1E?oc=5",
+   "ek": "2026-08-14"
   },
   {
    "sebep": "tekrar",
