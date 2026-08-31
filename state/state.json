@@ -558,6 +558,24 @@
     "tekrar": 18
    },
    "uretim": "2026-08-31 17:38 UTC"
+  },
+  {
+   "donem": "2026-W36",
+   "satir": 6,
+   "stats": {
+    "erisilemeyen": 8,
+    "gnews_tarih": 0,
+    "ham": 3296,
+    "kabul": 3,
+    "kapsam_disi": 2972,
+    "kaynak": 249,
+    "makale_acildi": 202,
+    "on_eleme_gecti": 326,
+    "pencere_disi": 191,
+    "tarihsiz_elendi": 94,
+    "tekrar": 36
+   },
+   "uretim": "2026-08-31 17:48 UTC"
   }
  ],
  "rezerv": [
@@ -635,6 +653,56 @@
    "tutar": "",
    "ulke": "",
    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMzF1RWZTMXBiMDhndDAtbEZwYVRISXdVbTlhMmstbGFrMzJaVXBGVVk3RElGczQ4NjFxaTFfcVE1MkNaQm5KRUNTYnVTNlpsT3oxZzhzRVpBM0JSSWNtU0pYMnEtOF91SEpDWFV1eEQxV1ZnT0JLcVE1VG9sc3h2Q1RuOUtRX0FhZFJpbkpzSS15dlhWdEJwM0cteXVZSjZIZzB6Sl9iRDduRXY1?oc=5"
+  },
+  {
+   "anahtar": "40159f1debb141d2",
+   "asama": "Belirsiz",
+   "baslik": "Triple-S Steel acquires Camden Yards Steel",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "firma": "Triple-S Steel",
+   "hat": "Dilme / boy kesme / SSC",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_hat11",
+   "olaylar": [
+    "triple s steel|hat|Dilme / boy kesme / SSC|Belirsiz"
+   ],
+   "rezerv": true,
+   "tarih": "2026-08-05",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95be2eefd9492797340d008ffc93f1&url=https%3a%2f%2fnjbiz.com%2ftriple-s-steel-acquires-camden-yards-steel%2f&c=9705910004172991754&mkt=en-us"
+  },
+  {
+   "anahtar": "44d64530f05f9415",
+   "asama": "Modernizasyon",
+   "baslik": "Ezz Flat Steel signs agreement with Danieli for QSP modernization in Ain Sokhna",
+   "eksik": [
+    "ulke",
+    "hat"
+   ],
+   "firma": "Ezz Flat Steel",
+   "hat": "Belirsiz",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_sup02",
+   "olaylar": [
+    "danieli|hat|Belirsiz|Modernizasyon"
+   ],
+   "rezerv": true,
+   "tarih": "2026-08-05",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "Danieli",
+   "tutar": "",
+   "ulke": "",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95be334252404aad05308958db0302&url=https%3a%2f%2fwww.steelradar.com%2fen%2fhaber%2fezz-flat-steel-signs-agreement-with-danieli-for-qsp-modernization-in-ain-sokhna%2f&c=6577064450131778690&mkt=en-us"
   },
   {
    "anahtar": "971c858c2cf021dc",
@@ -778,6 +846,14 @@
    "kaynak": "SteelOrbis",
    "tarih": "2026-08-28",
    "url": "https://www.steelorbis.com/steel-news/latest-news/fives-supplies-technologies-for-xinyus-new-electrical-steel-facility-1473583.htm"
+  },
+  {
+   "anahtar": "tech:8f6043a18acdc49f",
+   "baslik": "Primetals Technologies to Modernize PLTCM for KG Steel in South Korea",
+   "hat": "Tandem soguk hadde (TCM)",
+   "kaynak": "Bing News",
+   "tarih": "2026-08-18",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95be321aca42b4bc9c226ed3591336&url=https%3a%2f%2fnote.com%2fsankituushin%2fn%2fn4cc3fa0e878e%3fhl%3den&c=3218958862499560946&mkt=en-us"
   }
  ],
  "tech_seen": {
