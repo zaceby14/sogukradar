@@ -286,6 +286,29 @@ açılıp da liste boş döndüyse kaynak *erişilemez değildir* — v20'nin il
 halinde zincirin "sitemap boş" hatası bu duruma yazılıyor ve China Baowu ile
 SteelGuru erişilemeyen listesine yanlış giriyordu.
 
+### Havuzu büyütmek kapının deliklerini gösterir
+
+Rezerv ilk açıldığında beş delik göstermişti; ikinci arama host'u açılınca
+üç delik daha çıktı. Bu bir kural: **arzı artıran her değişiklik, aynı
+koşuda kapının denetimidir.** Yeni katmanın getirdiği satırlar tek tek
+okunmadan katman "çalıştı" sayılmaz — 2026-08-31'de Bing aynası ham
+bağlantıyı %21 artırdı ve beş satır üretti, beşi de yayınlanamazdı.
+
+1. **Olay parmak izi düzeltmeden sonra üretilir.** İz koşu anında, henüz
+   düzeltilmemiş alanlardan üretiliyordu; editörün düzeltmesi hafızaya hiç
+   yansımıyordu. Eski iz de korunur (başka yayın aynı bozuk okumayı
+   üretebilir).
+2. **Şirket satın alma her iki katmanda vetoludur.** Veto yalnız Katman
+   2'deydi; gövdede servis merkezi geçince Hat katmanı açılıyordu. Bir
+   servis merkezinin el değiştirmesi hat gelişmesi değildir.
+3. **QSP / ince slab döküm yukarı akıştır.** Firma adında "Flat Steel"
+   geçmesi haberi yassı *işlem* hattı yapmaz.
+4. **Kimsiz parmak izi bacağı** — aynı ülkede, aynı hatta, aynı ay içinde
+   iki ayrı tesis **ilk üretime geçmez**. Bacak yalnız `İlk ürün` /
+   `Seri üretim` için açılır; sözleşme ve modernizasyon haberleri büyük
+   üreticilerde meşru şekilde tekrarlanır ve orada bu bacak gerçek haber
+   kaybettirirdi.
+
 ### Host bütçesi ve soğutma — bu hata sınıfı artık yapısal olarak kapalı
 
 `http.fetch` her isteği göndermeden **host bütçesini sorar**. Bütçe dolunca

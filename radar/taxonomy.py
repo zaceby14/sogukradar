@@ -278,6 +278,16 @@ MATERIAL_BLOCK = re.compile(
 # alakasiz satirlarin tamami buradan sizdi: HARD_REJECT sadece Katman 1'de
 # calisiyordu, "genel yatirim" etiketi alan satir denetimi atliyordu.
 _NOISE = (
+    # SIRKET SATIN ALMA / BIRLESME - HER IKI KATMANDA (2026-08-31).
+    # Kural bastan beri "sirket satin alma rapora girmez" diyordu ama veto
+    # yalniz Katman 2'deydi. Bing ayna katmani acilinca su satir HAT
+    # katmanina girdi: "Triple-S Steel acquires Camden Yards Steel" -
+    # govdede servis merkezi/dilme gecince kapsam kapisi acildi. Bir servis
+    # merkezinin EL DEGISTIRMESI bir hat gelismesi degildir; ayni sirketin
+    # yeni bir dilme hatti kurmasi haberdir, sirketi satin almasi degil.
+    r"\bacquires?\b|\bacquired\b|\bacquisition\b|to acquire|"
+    r"\bmerger\b|\bmerges?\b|takeover|buys? (out|stake)|satin ald|"
+    r"devral|birlesme anlasmasi|"
     # fiyat / piyasa / ticaret - hepsi baglamli
     r"\bprices?\b|\bpricing\b|price (rise|drop|increase|hike|index)|"
     r"anti[- ]dumping|countervail|safeguard measure|import (duty|tariff|quota|ban)|"
@@ -392,6 +402,11 @@ _UPSTREAM = (
     r"blast furnace|\bdri\b|\bhbi\b|direct reduc|\beaf\b|electric arc furnace|"
     r"basic oxygen|\bbof\b|continuous cast|slab caster|\bbillet\b|\bbloom\b|"
     r"csp mill|compact strip production|hot strip mill|hot rolling mill|"
+    # QSP (Quality Strip Production) Danieli'nin INCE SLAB DOKUM + SICAK
+    # HADDE hattidir; 2026-08-31'de "Ezz Flat Steel signs agreement with
+    # Danieli for QSP modernization" satiri Hat katmanina girdi. Firma
+    # adinda "Flat Steel" gecmesi haberi yassi ISLEM hatti yapmaz.
+    r"\bqsp\b|quality strip production|thin slab|endless strip production|\besp\b|"
     # "hot rolling LINE": Nippon Steel Nagoya haberinin gectigi kalip
     # (2026-08-17). "mill" varyantlari vardi, "line" yoktu ve haber
     # yukari akis vetosuna takilmadan kapsam_disi'na dusuyordu - sonuc
@@ -465,6 +480,17 @@ COUNTRY_MAP = [
     (r"\balgeria|algerie|cezayir", "Cezayir"),
     (r"south africa", "G. Afrika"),
     (r"\bnigeria", "Nijerya"),
+    # 2026-08-31: W35'te Uganda'daki Roofings soguk hadde kompleksi
+    # bultene girdi ama ULKESI BOS kaldi - haritada Uganda yoktu. Ulke
+    # bos kalinca olay parmak izinin ulke bacagi calismiyor ve ayni
+    # haberin baska cerceveli ("Museveni Unveils...") ve BASKA DILDEKI
+    # varyantlari tekrar listeye giriyor. Ek kalibi "Uganda'da" ve sifat
+    # hali "Ugandan" da kapsanir.
+    (r"\bugand", "Uganda"),
+    (r"\bkenya", "Kenya"),
+    (r"\bethiopia|etiyopya", "Etiyopya"),
+    (r"\btanzania", "Tanzanya"),
+    (r"\bghana\b", "Gana"),
     (r"\brussia|russian\b", "Rusya"),
     (r"\bukraine|ukrainian\b", "Ukrayna"),
     (r"\bkazakh", "Kazakistan"),

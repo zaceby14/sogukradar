@@ -1415,6 +1415,109 @@ def test_v20_indiana_hindistan_degil():
             "rolling capacity"), "Hindistan", "crore Hindistan sinyalidir")
 
 
+def test_w36_bing_katmaninin_actigi_uc_delik():
+    """2026-08-31: ikinci arama host'u acilinca kapinin UC deligi gorundu.
+
+    Bing ayna katmani ham baglantiyi 2730'dan 3296'ya cikardi (+%21) ve BES
+    yeni satir uretti. Besinin de yayinlanamaz oldugunu denetimde buldum -
+    katman calisti, KAPI sizdirdi. Rezervin daha once yaptigi isi bu sefer
+    yeni katman yapti: havuzu buyutunce delikler gorunur oldu.
+
+    DELIK 1 - OLAY PARMAK IZI DUZELTMEDEN SONRA URETILMIYORDU.
+      2026-W35'te giden Roofings satirinin kayitli anahtari
+      "roofings unveils|hat|Soguk hadde|Belirsiz" idi: firma adi baslikta
+      "Roofings Unveils" okunmus, ulke bos, asama Belirsiz kalmisti. Editor
+      hepsini duzeltti (Roofings Group / Uganda / Ilk urun / Danieli) ama
+      hafizada bozuk anahtar kaldi. Sonuc: AYNI olayin iki varyanti daha
+      listeye girdi -
+        "Museveni Unveils $120 Million Steel Complex to Boost Ugandan..."
+        "Roofings Group, Uganda'da 125 milyon dolarlik yeni celik tesisini
+         faaliyete gecirdi"                        (ayni haberin Turkcesi)
+      Baslik benzerligi bunlari yakalayamaz - biri cumhurbaskanini one
+      cikariyor, digeri baska dilde. Olay parmak izi yakalamaliydi.
+
+    DELIK 2 - SIRKET SATIN ALMA YALNIZ KATMAN 2'DE VETOLUYDU.
+        "Triple-S Steel acquires Camden Yards Steel"
+      Govdede servis merkezi/dilme gecince Hat katmani acildi. Bir servis
+      merkezinin EL DEGISTIRMESI hat gelismesi degildir.
+
+    DELIK 3 - QSP YUKARI AKIS VETOSUNDA YOKTU.
+        "Ezz Flat Steel signs agreement with Danieli for QSP modernization"
+      QSP = Quality Strip Production, ince slab dokum + sicak hadde. Firma
+      adinda "Flat Steel" gecmesi haberi yassi ISLEM hatti yapmaz.
+    """
+    from .collect import event_keys
+
+    # DELIK 1: duzeltilmis alanlardan parmak izi uretilmeli
+    ham = {"firma": "Roofings Unveils", "ulke": "", "asama": "Belirsiz",
+           "tedarikci": "", "hat": "Soguk hadde"}
+    duzeltilmis = dict(ham, firma="Roofings Group", ulke="Uganda",
+                       asama="Ilk urun", tedarikci="Danieli")
+    eq(event_keys(ham) & event_keys(duzeltilmis), set(),
+       "bozuk okumanin anahtari duzeltilmisle KESISMIYOR - vakanin dayanagi")
+
+    # ...ve duzeltilmis kayit, iki GERCEK varyanti da yakalamali
+    hafiza = event_keys(duzeltilmis)
+    museveni = {"firma": "Boost Ugandan Manufacturing", "ulke": "Uganda",
+                "hat": "Soguk hadde", "asama": "Ilk urun", "tedarikci": ""}
+    turkce = {"firma": "Roofings Group", "ulke": "Uganda",
+              "hat": "Soguk hadde", "asama": "Ilk urun", "tedarikci": ""}
+    eq(bool(event_keys(museveni) & hafiza), True,
+       "firma adi bambaska bozulsa da ayni olay yakalanmali")
+    eq(bool(event_keys(turkce) & hafiza), True,
+       "ayni haberin Turkcesi yakalanmali")
+
+    # Ulke haritasi: bos ulke butun ulke bacaklarini korlestiriyordu
+    eq(taxonomy.match_country("Museveni Unveils Steel Complex to Boost "
+                              "Ugandan Manufacturing"), "Uganda",
+       "sifat hali 'Ugandan' taninmali")
+    eq(taxonomy.match_country("Roofings Group, Uganda'da yeni tesis"),
+       "Uganda", "Turkce ek 'Uganda'da' taninmali")
+
+    # KIMSIZ BACAK YALNIZ ILK URETIM ICIN. Sozlesme/modernizasyon
+    # haberleri buyuk ureticilerde ayni ay mesru sekilde tekrarlanir;
+    # orada bu bacak GERCEK haber kaybettirirdi.
+    a = {"firma": "A", "ulke": "Cin", "hat": "Galvaniz hatti (CGL)",
+         "asama": "Sozlesme", "tedarikci": ""}
+    b = {"firma": "B", "ulke": "Cin", "hat": "Galvaniz hatti (CGL)",
+         "asama": "Sozlesme", "tedarikci": ""}
+    eq(event_keys(a) & event_keys(b), set(),
+       "iki AYRI sozlesme haberi ayni olay sayilmamali")
+    c = dict(a, asama="Ilk urun")
+    d2 = dict(b, asama="Ilk urun")
+    eq(bool(event_keys(c) & event_keys(d2)), True,
+       "ayni ulkede ayni hatta iki ILK URETIM ayni olaydir")
+    csrc = open(os.path.join(os.path.dirname(__file__), "cli.py"),
+                encoding="utf-8").read()
+    g = csrc[csrc.index("def cmd_finalize("):]
+    i_fix = g.index('fixes.get(r["anahtar"])')
+    i_olay = g.index('r["olaylar"] = sorted(eski | set(event_keys(r)))')
+    eq(i_fix < i_olay, True,
+       "parmak izi DUZELTMEDEN SONRA yeniden uretilmeli")
+    eq("eski | set(event_keys(r))" in g, True,
+       "eski anahtar da korunmali - baska yayin ayni bozuk okumayi uretebilir")
+
+    # DELIK 2 ve 3: kapi artik sizdirmamali
+    for t in ("Triple-S Steel acquires Camden Yards Steel",
+              "ANDRITZ to acquire Salico Group",
+              "Ezz Flat Steel signs agreement with Danieli for QSP "
+              "modernization in Ain Sokhna"):
+        eq(taxonomy.in_scope(t)[0], False, "kapsam disi olmali: " + t[:45])
+        eq(bool(taxonomy.genel_yatirim(t)), False,
+           "Katman 2'ye de girmemeli: " + t[:45])
+
+    # COP EKLEMEDEN: gercek hat haberleri KORUNMALI
+    for t in ("JSW Steel, India, orders ANDRITZ galvanizing line for "
+              "advanced automotive steel",
+              "KG Steel selects Primetals for Dangjin PLTCM upgrade and "
+              "capacity expansion",
+              "Primetals to modernise Korean pickling line",
+              "U. S. Steel Announces Plans to Restart Gary Tin Mill",
+              "Fives supplies technologies for Xinyu's new electrical "
+              "steel facility"):
+        eq(taxonomy.in_scope(t)[0], True, "kapsam ici kalmali: " + t[:45])
+
+
 def test_w36_host_korumasi_ve_ikinci_arama_hostu():
     """2026-08-31: AYNI HATAYI IKI KEZ YAPTIM - ucuncusu yapisal olarak engellendi.
 
@@ -1933,6 +2036,7 @@ def run():
                test_v20_gonderilmis_hafiza,
                test_v20_gunluk_tarama_arsivi_ezmez,
                test_v20_indiana_hindistan_degil,
+               test_w36_bing_katmaninin_actigi_uc_delik,
                test_w36_host_korumasi_ve_ikinci_arama_hostu,
                test_w36_aci7_geri_alindi_paylasilan_host,
                test_w36_tekrar_ve_kose_yonu,

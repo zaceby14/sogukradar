@@ -410,6 +410,31 @@ def cmd_finalize(a):
         for k, v in (fixes.get(r["anahtar"]) or {}).items():
             if k in r and v:
                 r[k] = v
+    # OLAY PARMAK IZLERI DUZELTMEDEN SONRA YENIDEN URETILIR (2026-08-31).
+    #
+    # Parmak izi kosu aninda, HENUZ DUZELTILMEMIS alanlardan uretiliyordu ve
+    # editorun duzeltmesi hafizaya hic yansimiyordu. 2026-W35'te giden
+    # Roofings satirinin kayitli anahtari sudur:
+    #     "roofings unveils|hat|Soguk hadde|Belirsiz"
+    # cunku firma adi baslikta "Roofings Unveils" olarak okunmus, ulke bos,
+    # asama "Belirsiz" kalmisti. Editor bunlari duzeltti (Roofings Group /
+    # Uganda / Ilk urun / Danieli) ama hafizada yine bozuk anahtar kaldi.
+    # Sonuc 2026-08-31'de goruldu: AYNI olayin iki varyanti daha listeye
+    # girdi -
+    #     "Museveni Unveils $120 Million Steel Complex to Boost Ugandan..."
+    #     "Roofings Group, Uganda'da 125 milyon dolarlik yeni celik
+    #      tesisini faaliyete gecirdi"          (ayni haberin Turkcesi)
+    # Baslik benzerligi bunlari yakalayamaz (biri cumhurbaskanini one
+    # cikariyor, digeri baska dilde); olay parmak izi yakalamaliydi ve
+    # yakalayamamasinin sebebi duzeltmenin ize islenmemesiydi.
+    #
+    # ESKI ANAHTAR DA KORUNUR: baska bir yayin ayni bozuk okumayi
+    # uretebilir, o kapiyi kapatmanin bir zarari yok.
+    from .collect import event_keys
+    for r in payload["rows"]:
+        eski = set(r.get("olaylar") or [])
+        r["olaylar"] = sorted(eski | set(event_keys(r)))
+
     drop = set(doc.get("cikar", []))
     if drop:
         payload["rows"] = [r for r in payload["rows"] if r["anahtar"] not in drop]

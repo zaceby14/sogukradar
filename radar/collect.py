@@ -27,16 +27,42 @@ def event_keys(row):
     vurgusuyla yazildi (PLTCM / cold rolling / pickling) ve hat-bazli tek
     anahtar ucunu uc ayri olay sandi. Simdi hem hat hem ulke bacagi var;
     HERHANGI biri eslesirse ayni olay sayilir."""
-    who = taxonomy.fold(row.get("tedarikci") or row.get("firma") or "")
     asama = row.get("asama") or ""
-    keys = {who + "|hat|" + (row.get("hat") or "") + "|" + asama}
-    if row.get("ulke"):
-        keys.add(who + "|ulke|" + row["ulke"] + "|" + asama)
-        # ASAMASIZ bacak: ayni olayin Ingilizce ve Turkce anlatimi ayni
-        # govde metnini paylasmadigi icin asama farkli cikabiliyor
-        # (Baowu/SNS Cezayir haberi 2026-W33'te hem EN hem TR listeye girdi).
-        # Firma + ulke + hat ucu ayniysa asama bakilmaksizin ayni olaydir.
-        keys.add(who + "|fu|" + row["ulke"] + "|" + (row.get("hat") or ""))
+    hat = row.get("hat") or ""
+    ulke = row.get("ulke") or ""
+    # HEM TEDARIKCI HEM FIRMA BACAGI (2026-08-31). Onceden tedarikci VARSA
+    # firma hic kullanilmiyordu; ayni olayi tedarikciyi anmadan yazan bir
+    # yayin firma-bazli anahtar uretiyor ve iki anahtar hic kesismiyordu.
+    kimler = {taxonomy.fold(row.get("tedarikci") or ""),
+              taxonomy.fold(row.get("firma") or "")} - {""}
+    keys = set()
+    for who in (kimler or {""}):
+        keys.add(who + "|hat|" + hat + "|" + asama)
+        if ulke:
+            keys.add(who + "|ulke|" + ulke + "|" + asama)
+            # ASAMASIZ bacak: ayni olayin Ingilizce ve Turkce anlatimi ayni
+            # govde metnini paylasmadigi icin asama farkli cikabiliyor
+            # (Baowu/SNS Cezayir haberi 2026-W33'te hem EN hem TR listeye
+            # girdi). Firma + ulke + hat ucu ayniysa asama bakilmaksizin
+            # ayni olaydir.
+            keys.add(who + "|fu|" + ulke + "|" + hat)
+    # KIMSIZ BACAK - YALNIZ ILK URETIM ICIN (2026-08-31).
+    #
+    # Vaka: W35'te giden Uganda/Roofings soguk hadde kompleksi ILK URETIM
+    # haberinin iki varyanti daha listeye girdi -
+    #   "Museveni Unveils $120 Million Steel Complex..."   (firma okumasi
+    #                                    "Boost Ugandan Manufacturing")
+    #   "Roofings Group, Uganda'da 125 milyon dolarlik..." (Turkce)
+    # Her varyantta firma adi BASKA turlu bozuluyor, dolayisiyla kim-bazli
+    # butun bacaklar isiksiz kaliyor. Ortak ve saglam olan sey su: ayni
+    # ulkede, ayni hatta, ayni ay icinde IKI AYRI tesis ilk uretime
+    # gecmez.
+    #
+    # Bacak YALNIZ "Ilk urun"/"Seri uretim" icin acilir. Sozlesme ve
+    # modernizasyon haberleri buyuk ureticilerde ayni ay icinde mesru
+    # sekilde tekrarlanir; onlarda bu bacak gercek haber kaybettirirdi.
+    if ulke and hat and asama in ("Ilk urun", "Seri uretim"):
+        keys.add("*|ulke-hat|" + ulke + "|" + hat + "|" + asama)
     return keys
 
 
