@@ -1,83 +1,6 @@
 {
  "rows": [
   {
-   "tarih": "2026-08-30",
-   "firma": "R",
-   "ulke": "",
-   "hat": "Soguk hadde",
-   "asama": "Belirsiz",
-   "tedarikci": "",
-   "kapasite": "",
-   "tutar": "$ 5 Billion",
-   "baslik": "ArcelorMittal Confirms Up to R$ 5 Billion for New Cold Rolling Mill in Tubarão, Espírito Santo, with 560,000 Tonnes Annually, 3,000 Jobs at Peak, Operations by 2030",
-   "kaynak": "CPG Click Oil and Gas",
-   "kaynak_id": "gq_hat02",
-   "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPdE9Sa2dwY2VrTTk5YlVVMmJ5SFR2YzUyNnN0X1Y3UmZja2I0eXNKTUNKcU1PRWJWZmFLRXU0bkdHR3NjSXR0dGNaWXIzMDNyTmd0RERRc2hJYkZHVFFNRjJIRUFoSUk3LVh1TWhzVEhmRVJNTmhlX0JzQWZZU1JfOFlQc0JoNi1OVHlibDNtZkFkRkFyUlpyNFNMVVV4THdIV09mNmxSSFYya3NJN3BZdVlrOFZ5ZlJsZS02cXBiRjFZeFZ4bVA4Z0J2RXFnYzVieEc4VlBMZWU5eGlJN3Vmak1NRld3U3V5ZnRnaWtWbHA3ZU9yOHd4ZktEVjRfTGdnVW9pR3dn?oc=5",
-   "tarih_kaynagi": "rss",
-   "eksik": [
-    "ulke",
-    "asama"
-   ],
-   "anahtar": "323761b5cf24e21b",
-   "kategori": "Hat",
-   "olaylar": [
-    "r|hat|Soguk hadde|Belirsiz"
-   ],
-   "puan": 31.6
-  },
-  {
-   "tarih": "2026-08-16",
-   "firma": "FY28",
-   "ulke": "Hindistan",
-   "hat": "Soguk hadde",
-   "asama": "Belirsiz",
-   "tedarikci": "",
-   "kapasite": "2.67 MT",
-   "tutar": "Rs 900 crore",
-   "baslik": "Jindal Stainless investing Rs 900 crore to increase cold rolling capacity to 2.67 MT by FY28: MD",
-   "kaynak": "The Economic Times",
-   "kaynak_id": "gx_bigmint_q",
-   "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNM2hmV0lKLTRuT0d6ODZXbllZLVczcTBBUGFUbnh0RWRldnptUlJHYkdmTkVheU1fc2xLRGtfUENvazhTeUQ2cTFMVEcxckFIZmhtWFZDQ2psTDBuak1MVVdaVUlZXzB4YmgzZFh3UkdkRXdpbVZ5WTM1QVhWVnpYS2t6SWxWUmI4Tnk3QlVqQkx5YlJRQ2VzeERVVlcxV2QwdGpfTU05TDZ5WnotNGZtRklMUklzMzltbkFwX2tkMkxNNDhERmRObWVDY2ZucGp5Qm5QTFV0UEI2S28wN3AtTllOT0E4S3dvcWxTWmVZcnNaNHZxc0RhVmhLMDg3bGJlcF9yTXBGMDFzSFnSAZACQVVfeXFMTWh5Q3hBcFRSZkFrUmJfUkZURjFKYXNVbzRZY3pnNGVWZG1uSFVQa2V5R3JWQkhJRHR2U0luTE1IbTJIdVNycERGVERXNFN4Y0NsX3lWeXk3aGtoNkgzTlVHeTNlWVZnSEZLclJrd1FQSXVtc2FadjJmWEdKMU9tVkpER0NDOFhhWEJveFU5VUFiekFvNlpjR1FCR1E4cXpTN2RBSEFIZ3Jpb3JXWEhqZnBHM0ZYS1NOSzlTbU5wTnFiOTF6MHJSNnc2d1BoS0xWeGV2WXAyTFVBT1FjTWZWWlpuQWJYOEViT0RWQ2xCQVlNcU5qRVJhbE5sektENGFHUXpDZXJ4VWtZX094V0RXWDg?oc=5",
-   "tarih_kaynagi": "rss",
-   "eksik": [
-    "asama"
-   ],
-   "anahtar": "24e2dda77f2e84e9",
-   "kategori": "Yatirim",
-   "olaylar": [
-    "fy28|fu|Hindistan|Soguk hadde",
-    "fy28|hat|Soguk hadde|Belirsiz",
-    "fy28|ulke|Hindistan|Belirsiz"
-   ],
-   "puan": 5.0
-  },
-  {
-   "anahtar": "dbf500463fb21d96",
-   "asama": "Belirsiz",
-   "baslik": "U. S. Steel Announces Plans to Restart Gary Tin Mill",
-   "eksik": [
-    "asama"
-   ],
-   "firma": "U. S. Steel Announces",
-   "hat": "Teneke hatti (ETL)",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "U.S. Steel",
-   "kaynak_id": "ussteel",
-   "olaylar": [
-    "u. s. steel announces|fu|Hindistan|Teneke hatti (ETL)",
-    "u. s. steel announces|hat|Teneke hatti (ETL)|Belirsiz",
-    "u. s. steel announces|ulke|Hindistan|Belirsiz"
-   ],
-   "rezerv": true,
-   "tarih": "2026-04-16",
-   "tarih_kaynagi": "liste",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "ABD",
-   "url": "https://www.ussteel.com:443/media/newsroom/-/blogs/u-s-steel-announces-plans-to-restart-gary-tin-mill?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fwww.ussteel.com%3A443%2Fmedia%2Fnewsroom%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26_com_liferay_blogs_web_portlet_BlogsPortlet_cur%3D1%26_com_liferay_blogs_web_portlet_BlogsPortlet_delta%3D20"
-  },
-  {
    "anahtar": "971c858c2cf021dc",
    "asama": "Ilk urun",
    "baslik": "New MINO Double-Stand Six-High Cold Reversing Mill in North America",
@@ -106,20 +29,25 @@
  ],
  "stats": {
   "kaynak": 169,
-  "erisilemeyen": 10,
-  "ham": 2695,
-  "on_eleme_gecti": 263,
-  "makale_acildi": 203,
-  "tarihsiz_elendi": 97,
-  "pencere_disi": 188,
-  "kapsam_disi": 2394,
-  "tekrar": 14,
-  "kabul": 2
+  "erisilemeyen": 9,
+  "ham": 2730,
+  "on_eleme_gecti": 265,
+  "makale_acildi": 202,
+  "tarihsiz_elendi": 94,
+  "pencere_disi": 184,
+  "kapsam_disi": 2434,
+  "tekrar": 18,
+  "kabul": 0,
+  "gnews_tarih": 0
  },
  "unreachable": [
   [
    "SMS group",
    "HTTP 403"
+  ],
+  [
+   "Butech Bliss",
+   "HTTP 500"
   ],
   [
    "Cognex",
@@ -132,10 +60,6 @@
   [
    "Steel Times International",
    "HTTP 403"
-  ],
-  [
-   "The Canmaker",
-   "URLError: <urlopen error timed out>"
   ],
   [
    "BigMint (SteelMint)",
@@ -152,10 +76,6 @@
   [
    "Sanayi Gazetesi",
    "HTTP 403"
-  ],
-  [
-   "Steel Manufacturers Assoc.",
-   "URLError: <urlopen error timed out>"
   ]
  ],
  "kinds": {
@@ -330,26 +250,15 @@
   "gx_q_es1": "arama"
  },
  "today": "2026-08-31",
- "tech_pool": [
-  {
-   "anahtar": "tech:9e26740970742b85",
-   "tarih": "2026-08-28",
-   "baslik": "Fives supplies technologies for Xinyu's new electrical steel facility",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/fives-supplies-technologies-for-xinyus-new-electrical-steel-facility-1473583.htm",
-   "kaynak": "SteelOrbis",
-   "hat": "Elektrik celigi hatti"
-  }
- ],
- "kaynak_katki": {
-  "Google News": 2
- },
+ "tech_pool": [],
+ "kaynak_katki": {},
  "window": [
   "2026-08-16",
   "2026-08-31"
  ],
- "rezerv_kullanilan": 2,
+ "rezerv_kullanilan": 1,
  "rezerv_havuz": 3,
  "period": "2026-W36",
- "generated": "2026-08-31 03:29 UTC",
+ "generated": "2026-08-31 17:38 UTC",
  "version": "3.0.0"
 }
