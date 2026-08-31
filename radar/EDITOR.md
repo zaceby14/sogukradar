@@ -288,6 +288,28 @@ rezerv de boşsa liste kısalır. Sayıyı tutturmak için kapı gevşetilmez.
 link çıkmıyor, 1'i ölü adres. **Editörün kendi oturumu da aynı egress
 proxy'nin arkasında** — o da bu sitelere giremiyor. İki yönlü çözüm:
 
+### Zayıf haftalarda editör bulur, MAKİNE doğrular
+
+Taze arz ölçülmüş haliyle haftada ~1-3 kapsam içi haber; hedef 5-6. Zayıf
+haftada editörün arama ile haber bulması **gerekir** — ama bulduğunu
+doğrudan rapora yazmak iki kuralı birden çiğner: tarih uydurulamaz, ve
+kapsam kapısı editörün kanaatiyle değil aynı kapıyla işler.
+
+**Akış:** editör arama yapar → `veri/elle_besleme.json`'a **yalnız başlık +
+adres** yazar → push → `dogrula.yml` tetiklenir → `radar dogrula` Actions'ta
+her adresi açar, **sayfanın gerçek başlığını** alır, aynı kapıdan geçirir,
+tarihi **yapısal olarak** çıkarır, tekrar denetiminden geçirir ve pencere
+içindeyse `bulunan`a, dışındaysa `rezerv`e yazar → editör `finalize` eder.
+
+Zincirin hiçbir halkası atlanamaz; `selftest` bunun bekçiliğini yapar.
+**Editörün katkısı ADAY GÖSTERMEKTİR, karar makinenindir.**
+
+Aday seçerken: **sayfası açılabilen yayın** (MEsteel, Metallurgprom,
+SteelOrbis, Yieh, Danieli, Primetals, John Cockerill, Fives, ANDRITZ,
+Tenova, üreticilerin kendi newsroom'ları). Kapalı yayınların kendi adresi
+ölçüldü ve hiç satır üretmedi — sayfa 403 verince tarih de doğrulanamıyor;
+o yayınların haberleri artık arama katmanında `site:` hedefiyle yakalanıyor.
+
 **1. Sitemap zinciri + robots.txt keşfi.** 16 kaynağa yedek adres listesi
 bağlandı. Sitemap çoğu zaman ana sayfayla aynı korumada değil — SteelOrbis
 bunu kanıtladı (sayfa 403, sitemap 1000 adres).

@@ -1415,6 +1415,74 @@ def test_v20_indiana_hindistan_degil():
             "rolling capacity"), "Hindistan", "crore Hindistan sinyalidir")
 
 
+def test_w36_editor_bulur_makine_dogrular():
+    """2026-08-31 (kullanici: "bulamadigi haftalar sen bul").
+
+    Taze arz olculmus haliyle haftada ~1-3 kapsam ici haber; hedef 5-6.
+    Zayif haftalarda editorun ARAMA ile haber bulmasi gerekiyor. Ama
+    editorun buldugu bir haberi dogrudan rapora yazmak IKI kurali birden
+    cignerdi: tarih uydurulamaz, ve kapsam kapisi editorun kanaatiyle
+    degil ayni kapiyla isler.
+
+    COZUM: editor YALNIZ BASLIK + ADRES verir; "radar dogrula" Actions'ta
+    sayfayi acar, SAYFANIN GERCEK basligini alir, ayni kapidan gecirir,
+    tarihi YAPISAL olarak cikarir ve tekrar denetiminden gecirir. Editorun
+    katkisi ADAY GOSTERMEKTIR, karar makinenindir.
+
+    Bu testin bekcilik ettigi sey: dogrulama zincirinin hicbir halkasinin
+    atlanamamasi. Zincir kirilirsa editorun kanaati rapora sizar.
+    """
+    import json as _json
+    from . import dogrula as D
+
+    src = open(os.path.join(os.path.dirname(__file__), "dogrula.py"),
+               encoding="utf-8").read()
+    # Sayfa acilamiyorsa HICBIR SEY girmez
+    eq('red(k, "sayfa acilamadi"' in src, True, "acilamayan sayfa girmemeli")
+    # Editorun yazdigi baslik degil, SAYFANIN basligi kullanilir
+    eq('gercek = (doc.get("title") or "").strip()' in src, True,
+       "sayfanin gercek basligi kullanilmali")
+    # Tarih YAPISAL olarak cikarilir, cikmazsa girmez
+    eq("dates.extract_article_date(doc" in src, True, "tarih yapisal cikarilmali")
+    eq('red(k, "yayin tarihi sayfadan okunamadi")' in src, True,
+       "tarihi okunamayan haber girmemeli")
+    eq("dates.title_year_conflict(baslik, iso)" in src, True,
+       "baslik yili celiskisi denetlenmeli")
+    # Kapi ve tekrar denetimi
+    eq("_kapi(baslik, govde)" in src, True, "ayni kapsam kapisi isletilmeli")
+    eq('set(row["olaylar"]) & ev' in src, True, "olay izi denetlenmeli")
+    eq("taxonomy.similar_titles(baslik, b" in src, True,
+       "gonderilmis varyant denetlenmeli")
+    # Dosyada TARIH ALANI olamaz - kural bu kanalda da gecerli
+    kok = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    d = _json.load(open(os.path.join(kok, "veri", "elle_besleme.json"),
+                        encoding="utf-8"))
+    for k in d["kayitlar"]:
+        for alan in ("tarih", "date", "pubDate", "tarih_kaynagi"):
+            eq(alan in k, False, "elle beslemede tarih alani olamaz: " + alan)
+    # Adaylar ULASILABILIR yayinlardan olmali - olculdu: kapali yayinlarin
+    # kendi adresleri hic satir uretmedi, cunku sayfa 403 verince tarih de
+    # dogrulanamiyor.
+    kapali = ("steeltimesint.com", "sms-group.com",
+              "corporate.arcelormittal.com", "bigmint.co",
+              "furnaces-international.com")
+    for k in d["kayitlar"]:
+        for kap in kapali:
+            eq(kap in k["url"], False,
+               "kapali yayinin adresi aday olamaz (%s)" % kap)
+
+    # Ag yokken cokmez ve HICBIR SEY eklemez
+    eski = D.http.fetch
+    try:
+        D.http.fetch = lambda u, **kw: (False, "", {"hata": "ag yok"})
+        st_once = _json.dumps(state.load().get("bulunan", []), sort_keys=True)
+        D.dogrula(log=lambda *a: None)
+        eq(_json.dumps(state.load().get("bulunan", []), sort_keys=True), st_once,
+           "sayfa acilamiyorsa havuza hicbir sey eklenmez")
+    finally:
+        D.http.fetch = eski
+
+
 def test_w36_adres_ve_teknoloji_havuzu():
     """2026-08-31: okuyucunun tikladigi baglanti ve kosenin tekrarlari.
 
@@ -2270,6 +2338,7 @@ def run():
                test_v20_gonderilmis_hafiza,
                test_v20_gunluk_tarama_arsivi_ezmez,
                test_v20_indiana_hindistan_degil,
+               test_w36_editor_bulur_makine_dogrular,
                test_w36_adres_ve_teknoloji_havuzu,
                test_w36_bulunan_havuzu_ve_yanlis_tekrar,
                test_w36_havuz_karari_tasir_kodu_degil,

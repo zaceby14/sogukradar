@@ -1,0 +1,73 @@
+name: SogukRadar elle besleme dogrulama
+
+# EDITORUN BULDUGUNU MAKINE DOGRULAR.
+#
+# Editorun kendi oturumunun ag cikisi haber alan adlarina kapali (403), bu
+# yuzden editor bir haberi bulsa bile TARIHINI dogrulayamaz. Bu is akisi
+# veri/elle_besleme.json her degistiginde calisir, adresleri Actions'ta
+# acar, ayni kapidan ve ayni tarih zincirinden gecirir ve gecenleri
+# havuza yazar.
+#
+# Editorun beyan ettigi bir tarih ya da kapsam kanaati rapora ASLA giremez;
+# editorun katkisi ADAY GOSTERMEKTIR, karar makinenindir.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "veri/elle_besleme.json"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sogukradar-dogrula
+  cancel-in-progress: false
+
+jobs:
+  dogrula:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Birim testleri (kirmizi ise dogrulama baslamaz)
+        run: |
+          python -m radar selftest
+          python tests/e2e_offline.py
+
+      - name: Adaylari dogrula
+        env:
+          RADAR_WINDOW_DAYS: "15"
+          RADAR_PAUSE: "0.5"
+        run: python -m radar dogrula
+
+      - name: Ozeti is akisina yaz
+        if: always()
+        run: |
+          echo '### SogukRadar elle besleme dogrulama' >> $GITHUB_STEP_SUMMARY
+          echo '```json' >> $GITHUB_STEP_SUMMARY
+          cat out/dogrulama.json >> $GITHUB_STEP_SUMMARY 2>/dev/null || echo '{}' >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+
+      - name: Ciktilari repoya isle
+        run: |
+          git config user.name  "sogukradar-bot"
+          git config user.email "bot@users.noreply.github.com"
+          for i in 1 2 3; do
+            git fetch origin main
+            git reset --quiet origin/main
+            git add out state
+            if git diff --staged --quiet; then
+              echo "degisiklik yok"
+              break
+            fi
+            git commit -q -m "elle besleme dogrulamasi $(date -u +%Y-%m-%d) [skip ci]"
+            git push && break
+            echo "push reddedildi, yeniden ($i/3)"
+            sleep 5
+          done

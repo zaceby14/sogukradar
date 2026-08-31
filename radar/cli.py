@@ -586,6 +586,16 @@ def cmd_finalize(a):
     return 0
 
 
+def cmd_dogrula(a):
+    """Editorun elle_besleme.json'a yazdigi adaylari DOGRULAR.
+
+    Ayrintili gerekce icin radar/dogrula.py bas yorumuna bakiniz.
+    """
+    from . import dogrula as _dg
+    today = dt.date.fromisoformat(a.today) if a.today else None
+    return _dg.dogrula(today=today)
+
+
 def cmd_capraz(a):
     """Haftalik listenin kacirdiklarini bulur -> out/kacanlar.json.
 
@@ -644,6 +654,16 @@ def main(argv=None):
     c = sub.add_parser("capraz")
     c.add_argument("--today")
     c.set_defaults(fn=cmd_capraz)
+
+    # EDITORUN BULDUGUNU MAKINE DOGRULAR (2026-08-31). Zayif haftalarda
+    # editor arama ile haber bulur ve veri/elle_besleme.json'a YALNIZ
+    # baslik + adres yazar; bu komut Actions'ta sayfayi acar, gercek
+    # basligi alir, ayni kapidan gecirir, tarihi YAPISAL olarak dogrular ve
+    # havuza yazar. Editorun beyan ettigi tarih ya da kapsam kanaati rapora
+    # asla giremez - katkisi ADAY GOSTERMEKTIR, karar makinenindir.
+    dg = sub.add_parser("dogrula")
+    dg.add_argument("--today")
+    dg.set_defaults(fn=cmd_dogrula)
 
     sub.add_parser("selftest").set_defaults(fn=cmd_selftest)
 

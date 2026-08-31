@@ -1,71 +1,61 @@
 {
- "aciklama": "Bot korumasi yuzunden hem yazilima hem editorun oturumuna kapali yayinlarin basliklari. Editor bunlari ARAMA ile bulur. DOSYA TARIH TASIMAZ - tarih her zamanki gibi Actions'ta makale sayfasi acilarak dogrulanir; editorun beyan ettigi bir tarih rapora asla girmez. Kapsam kapisi da degismez, bu kanal yalnizca ADAY tasir. Pencere disi cikanlar rezerve duser. ONCELIK ULASILABILIR YAYINDIR: ayni haberi yazan, sayfasi acilabilen bir yayinin adresi varsa o yazilir - tarih o zaman makale sayfasindan normal yoldan dogrulanir. Kapali yayinin kendi adresi son caredir. ESKI HABER YAZMA: arama sonuclari yillar oncesinin sayfalarini one cikarabiliyor (2026-08-31'de iki kayit boyle girdi - biri 2012 tarihli JFE Guangzhou hatti, digeri sirketin 2019'da adi degismis olan CMI donemine ait). Boru hatti ikisini de tarihsiz diye eledi, ama istek harcadilar.",
+ "aciklama": "Editorun ARAMA ile buldugu ADAYLAR. Dosya YALNIZ baslik + adres tasir, TARIH TASIMAZ. Tarihi 'radar dogrula' Actions'ta sayfayi acarak YAPISAL olarak dogrular; editorun beyan ettigi bir tarih ya da kapsam kanaati rapora ASLA giremez - editorun katkisi ADAY GOSTERMEKTIR, karar makinenindir. ONCELIK ULASILABILIR YAYINDIR: sayfasi acilabilen bir yayinin adresi yazilir. Kapali yayinin (STI, SMS group, ArcelorMittal kurumsal, BigMint, Furnaces Int) kendi adresi OLCULDU ve hic satir uretmedi - sayfasi 403 verdigi icin tarihi de dogrulanamiyor; o yayinlarin haberleri artik arama katmaninda site: hedefiyle yakalaniyor. ESKI HABER YAZMA: arama sonuclari yillar oncesinin sayfalarini one cikarabiliyor.",
  "guncelleme": "2026-08-31",
  "kayitlar": [
   {
-   "kaynak": "Steel Times International",
-   "baslik": "Tata Steel breaks ground on new pickle line at Port Talbot site",
-   "url": "https://www.steeltimesint.com/news/tata-steel-breaks-ground-on-new-pickle-line-at-port-talbot-site"
+   "kaynak": "Mesteel",
+   "baslik": "RRM starts up new cold-mill complex with Danieli technology",
+   "url": "https://news.mesteel.com/rrm-starts-up-new-cold-mill-complex-with-danieli-technology/"
   },
   {
-   "kaynak": "Steel Times International",
-   "baslik": "Fives to supply Baosteel with two new processing line furnaces",
-   "url": "https://www.steeltimesint.com/news/fives-to-supply-baosteel-with-two-new-processing-line-furnaces"
+   "kaynak": "Mesteel",
+   "baslik": "Marcegaglia upgrades pickling line at Gazoldo degli Ippoliti stainless steel plant",
+   "url": "https://news.mesteel.com/marcegaglia-upgrades-pickling-line-at-gazoldo-degli-ippoliti-stainless-steel-plant/"
   },
   {
-   "kaynak": "Steel Times International",
-   "baslik": "Cold rolling mill complex for SSAB in Lulea Sweden",
-   "url": "https://www.steeltimesint.com/news/cold-rolling-mill-complex-for-ssab-in-lulea-sweden"
+   "kaynak": "Mesteel",
+   "baslik": "AM/NS India to launch new automotive steel production lines at Hazira plant",
+   "url": "https://news.mesteel.com/am-ns-india-to-launch-new-automotive-steel-production-lines-at-hazira-plant/"
   },
   {
-   "kaynak": "Steel Times International",
-   "baslik": "Fives furnaces at Baosteel's Zhanjiang steel plant",
-   "url": "https://www.steeltimesint.com/news/fives-furnaces-at-baosteels-zhanjiang-steel-plant"
+   "kaynak": "Metallurgprom",
+   "baslik": "ArcelorMittal Poland completes construction of ZAM roll coating line",
+   "url": "https://metallurgprom.org/en/news/europe/18814-arcelormittal-poland-zavershaet-stroitelstvo-linii-nanesenija-pokrytija-na-rulony-zam.html"
   },
   {
-   "kaynak": "SMS group",
-   "baslik": "Galvanizing line upgrade by SMS group enables Villacero to meet the growing demand for skin-passed strip and coil",
-   "url": "https://www.sms-group.com/press-media/press-releases/press-detail/galvanizing-line-upgrade-by-sms-group-enables-villacero-to-meet-the-growing-demand-for-skin-passed-strip-and-coil-1567"
+   "kaynak": "John Cockerill",
+   "baslik": "Partnering with Shandong Zhongxin to Deliver High-End Galvanizing and Continuous Annealing Lines for Automotive Steel Upgrading",
+   "url": "https://johncockerill.com/en/press-and-news/news/cgl-cal-shandong-zhongxin/"
   },
   {
-   "kaynak": "SMS group",
-   "baslik": "Integration tests for Habas AS cold rolling and processing complex",
-   "url": "https://www.sms-group.com/en-us/insights/all-insights/milestone-update-integration-tests-for-habas-as-cold-rolling-and-processing-complex"
+   "kaynak": "Danieli",
+   "baslik": "Tata Steel selects Danieli for a combined pickling and galvanizing line for hot-rolled coated products",
+   "url": "https://www.danieli.com/en/news-media/news/tata-steel-selects-danieli-combined-pickling-and-galvanizing-line-hot-rolled-coated-products_37_876.htm"
   },
   {
-   "kaynak": "SMS group",
-   "baslik": "SSAB Lulea new sustainable cold rolling and strip processing complex",
-   "url": "https://www.sms-group.com/en-us/plants/projects/ssab-lulea-cold-rolling-and-strip-processing-complex"
+   "kaynak": "Danieli",
+   "baslik": "Borcelik endorses Danieli with order for cold-strip complex",
+   "url": "https://www.danieli.com/en/news-media/news/borcelik-endorses-danieli-order-cold-strip-complex_37_912.htm"
   },
   {
-   "kaynak": "ArcelorMittal",
-   "baslik": "ArcelorMittal to move forward with construction of a new world-class electrical steel facility in Alabama",
-   "url": "https://corporate.arcelormittal.com/media/news/non-regulatory-news/arcelormittal-to-move-forward-with-construction-of-a-new-world-class-electrical-steel-facility-in-alabama"
+   "kaynak": "Primetals Technologies",
+   "baslik": "Primetals Technologies to supply continuous galvanizing and pickling line to Chengde Steel",
+   "url": "https://www.primetals.com/press-media/news/primetals-technologies-to-supply-continuous-galvanizing-and-pickling-line-to-chengde-steel"
   },
   {
-   "kaynak": "ArcelorMittal",
-   "baslik": "US Department of Energy announces financial support for ArcelorMittal's anticipated World-Class Electrical Steel facility in Alabama",
-   "url": "https://corporate.arcelormittal.com/media/news-articles/u-s-department-of-energy-announces-financial-support-for-arcelormittal-s-anticipated-world-class-electrical-steel-facility-in-alabama"
+   "kaynak": "Primetals Technologies",
+   "baslik": "Primetals Technologies awarded contract for hot-dip galvanizing line at JFE Steel",
+   "url": "https://www.primetals.com/en/news/primetals-technologies-awarded-contract-for-hot-dip-galvanizing-line-at-jfe-steel/"
   },
   {
-   "kaynak": "Furnaces International",
-   "baslik": "Successful thermal performance at NLMK Strasbourg galvanizing line furnace",
-   "url": "https://furnaces-international.com/news/successful-thermal-performance-at-nlmk-strasbourg"
+   "kaynak": "SteelOrbis",
+   "baslik": "India's JIL commissions continuous color coating line completing $155 million capex program",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/indias-jil-commissions-continuous-color-coating-line-completing-155-million-capex-program-1454553.htm"
   },
   {
-   "kaynak": "Steel Times International",
-   "baslik": "SMS upgrades Hyundai Steel galvanising line",
-   "url": "https://www.steeltimesint.com/news/sms-upgrades-hyundai-steel-galvanising-line"
-  },
-  {
-   "kaynak": "Steel Times International",
-   "baslik": "Ternium contracts Fives for new galvanizing line",
-   "url": "https://www.steeltimesint.com/news/ternium-contracts-fives-for-new-galvanizing-line"
-  },
-  {
-   "kaynak": "ArcelorMittal",
-   "baslik": "ArcelorMittal North America to add additional capability in Canada to produce Alusi Coated Usibor Press Hardenable Steel for Automotive applications",
-   "url": "https://corporate.arcelormittal.com/media/news/non-regulatory-news/arcelormittal-north-america-to-add-additional-capability-in-canada-to-produce-alusi-coated-usibor-press-hardenable-steel-phs-for-automotive-applications"
+   "kaynak": "Yieh Corp",
+   "baslik": "Turkey's Borcelik partners with Danieli for cold-rolled strip complex",
+   "url": "https://www.yieh.com/en/NewsItem/149395"
   }
  ]
 }
