@@ -2,49 +2,6 @@
  "donem": "2026-W36",
  "duzelt": [
   {
-   "anahtar": "24e2dda77f2e84e9",
-   "baslik": "Jindal Stainless investing Rs 900 crore to increase cold rolling capacity to 2.67 MT by FY28: MD",
-   "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNM2hmV0lKLTRuT0d6ODZXbllZLVczcTBBUGFUbnh0RWRldnptUlJHYkdmTkVheU1fc2xLRGtfUENvazhTeUQ2cTFMVEcxckFIZmhtWFZDQ2psTDBuak1MVVdaVUlZXzB4YmgzZFh3UkdkRXdpbVZ5WTM1QVhWVnpYS2t6SWxWUmI4Tnk3QlVqQkx5YlJRQ2VzeERVVlcxV2QwdGpfTU05TDZ5WnotNGZtRklMUklzMzltbkFwX2tkMkxNNDhERmRObWVDY2ZucGp5Qm5QTFV0UEI2S28wN3AtTllOT0E4S3dvcWxTWmVZcnNaNHZxc0RhVmhLMDg3bGJlcF9yTXBGMDFzSFnSAZACQVVfeXFMTWh5Q3hBcFRSZkFrUmJfUkZURjFKYXNVbzRZY3pnNGVWZG1uSFVQa2V5R3JWQkhJRHR2U0luTE1IbTJIdVNycERGVERXNFN4Y0NsX3lWeXk3aGtoNkgzTlVHeTNlWVZnSEZLclJrd1FQSXVtc2FadjJmWEdKMU9tVkpER0NDOFhhWEJveFU5VUFiekFvNlpjR1FCR1E4cXpTN2RBSEFIZ3Jpb3JXWEhqZnBHM0ZYS1NOSzlTbU5wTnFiOTF6MHJSNnc2d1BoS0xWeGV2WXAyTFVBT1FjTWZWWlpuQWJYOEViT0RWQ2xCQVlNcU5qRVJhbE5sektENGFHUXpDZXJ4VWtZX094V0RXWDg?oc=5",
-   "eksik": [
-    "asama"
-   ],
-   "mevcut": {
-    "firma": "FY28",
-    "ulke": "Hindistan",
-    "hat": "Soguk hadde",
-    "asama": "Belirsiz"
-   }
-  },
-  {
-   "anahtar": "1457ad47e4e48f43",
-   "baslik": "ArcelorMittal approves Tubarao flat steel expansion",
-   "url": "https://news.mesteel.com/arcelormittal-approves-tubarao-flat-steel-expansion/",
-   "eksik": [
-    "hat",
-    "asama"
-   ],
-   "mevcut": {
-    "firma": "ArcelorMittal",
-    "ulke": "Turkiye",
-    "hat": "Belirsiz",
-    "asama": "Belirsiz"
-   }
-  },
-  {
-   "anahtar": "dbf500463fb21d96",
-   "baslik": "U. S. Steel Announces Plans to Restart Gary Tin Mill",
-   "url": "https://www.ussteel.com:443/media/newsroom/-/blogs/u-s-steel-announces-plans-to-restart-gary-tin-mill?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fwww.ussteel.com%3A443%2Fmedia%2Fnewsroom%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26_com_liferay_blogs_web_portlet_BlogsPortlet_cur%3D1%26_com_liferay_blogs_web_portlet_BlogsPortlet_delta%3D20",
-   "eksik": [
-    "asama"
-   ],
-   "mevcut": {
-    "firma": "U. S. Steel Announces",
-    "ulke": "ABD",
-    "hat": "Teneke hatti (ETL)",
-    "asama": "Belirsiz"
-   }
-  },
-  {
    "anahtar": "971c858c2cf021dc",
    "baslik": "New MINO Double-Stand Six-High Cold Reversing Mill in North America",
    "url": "https://mino.it/new-mino-double-stand-six-high-cold-reversing-mill-in-north-america/",
@@ -61,16 +18,6 @@
  ],
  "cumle_yaz": [
   {
-   "anahtar": "dbf500463fb21d96",
-   "tarih": "2026-04-16",
-   "firma": "U. S. Steel Announces",
-   "ulke": "ABD",
-   "hat": "Teneke hatti (ETL)",
-   "asama": "Belirsiz",
-   "baslik": "U. S. Steel Announces Plans to Restart Gary Tin Mill",
-   "url": "https://www.ussteel.com:443/media/newsroom/-/blogs/u-s-steel-announces-plans-to-restart-gary-tin-mill?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fwww.ussteel.com%3A443%2Fmedia%2Fnewsroom%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26_com_liferay_blogs_web_portlet_BlogsPortlet_cur%3D1%26_com_liferay_blogs_web_portlet_BlogsPortlet_delta%3D20"
-  },
-  {
    "anahtar": "971c858c2cf021dc",
    "tarih": "2026-03-13",
    "firma": "New MINO Double-Stand",
@@ -81,14 +28,5 @@
    "url": "https://mino.it/new-mino-double-stand-six-high-cold-reversing-mill-in-north-america/"
   }
  ],
- "teknoloji_adaylari": [
-  {
-   "anahtar": "tech:9e26740970742b85",
-   "tarih": "2026-08-28",
-   "baslik": "Fives supplies technologies for Xinyu's new electrical steel facility",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/fives-supplies-technologies-for-xinyus-new-electrical-steel-facility-1473583.htm",
-   "kaynak": "SteelOrbis",
-   "hat": "Elektrik celigi hatti"
-  }
- ]
+ "teknoloji_adaylari": []
 }
