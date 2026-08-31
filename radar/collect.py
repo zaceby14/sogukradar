@@ -14,9 +14,9 @@ import os
 import re
 
 from . import classify, dates, feeds, htmlx, http, sources, state, taxonomy
-from .config import (MAX_ARTICLE_FETCH, MAX_LINKS_PER_SOURCE, MAX_SITEMAP_LINKS,
-                     REJECT_SEBEP_KOTA, REJECT_TOPLAM, REZERV_GUN,
-                     TECH_WINDOW_DAYS, WINDOW_DAYS)
+from .config import (GNEWS_TARIH_BUTCE, MAX_ARTICLE_FETCH, MAX_LINKS_PER_SOURCE,
+                     MAX_SITEMAP_LINKS, REJECT_SEBEP_KOTA, REJECT_TOPLAM,
+                     REZERV_GUN, TECH_WINDOW_DAYS, WINDOW_DAYS)
 
 US_STYLE = {"cognex", "butechbliss", "delta", "bronx", "aist", "magnetics", "worldsteel"}
 
@@ -241,6 +241,20 @@ def _items_from_dosya(s, log):
 GNEWS_ARA = "https://news.google.com/rss/search?q=%s&hl=en-US&gl=US&ceid=US:en"
 
 
+def _tarih_sorulur_mu(baslik):
+    """Bu baslik icin ulasilabilir beslemeye tarih sormaya deger mi?
+
+    YALNIZ BASLIKLA kapiyi gecenler sorulur. Tarih sorusu bir istek eder;
+    kapsam disi bir baslik icin harcamanin anlami yok. Kapi burada
+    GEVSEMEZ - ayni in_scope/haber_olayi/genel_yatirim kapisidir, sadece
+    govde henuz elimizde olmadigi icin basliga bakar.
+    """
+    ok, _ = taxonomy.in_scope(baslik)
+    if ok and taxonomy.haber_olayi(baslik):
+        return True
+    return bool(taxonomy.genel_yatirim(baslik))
+
+
 def _elle_tarih(baslik, log):
     """Elle beslenen basligin tarihini ULASILABILIR bir beslemeden dogrular.
 
@@ -370,7 +384,10 @@ def collect(today=None, log=print):
     seen = st.get("seen", {})
 
     stats = dict(kaynak=0, erisilemeyen=0, ham=0, on_eleme_gecti=0, makale_acildi=0,
-                 tarihsiz_elendi=0, pencere_disi=0, kapsam_disi=0, tekrar=0, kabul=0)
+                 tarihsiz_elendi=0, pencere_disi=0, kapsam_disi=0, tekrar=0, kabul=0,
+                 gnews_tarih=0)
+    # Liste, closure icinden azaltilabilsin diye (int degil)
+    gnews_butce = [GNEWS_TARIH_BUTCE]
     unreachable, rows, kinds, rejects, tech_pool = [], [], {}, [], []
     rezerv, rezerv_keys = [], set()
     rezerv_floor = (today - dt.timedelta(days=REZERV_GUN)).isoformat()
@@ -405,8 +422,17 @@ def collect(today=None, log=print):
         if not ok_scope:
             return
         blob = it["title"] + " . " + (text or "")[:700]
-        key = "tech:" + state.norm_key(it["title"], it["url"])
+        ham = state.norm_key(it["title"], it["url"])
+        key = "tech:" + ham
         if key in tech_seen:
+            return
+        # SATIR OLARAK GONDERILMIS HABER KOSEYE GIREMEZ (2026-08-31).
+        # Kural bugune kadar tek yonluydu: kosede tanitilmis haber satir
+        # olamiyordu, ama tersi serbestti. 2026-W36'da havuzun TEK adayi
+        # "Fives supplies technologies for Xinyu's new electrical steel
+        # facility" idi ve o haber 2026-W35 bulteninde satir olarak zaten
+        # gitmisti. Okuyucu icin ikisi ayni haberdir; yon fark etmez.
+        if ham in seen:
             return
         tech_pool.append({"anahtar": key, "tarih": date_iso, "baslik": it["title"],
                           "url": it["url"], "kaynak": publisher,
@@ -573,6 +599,36 @@ def collect(today=None, log=print):
                 # cikti; lastmod'u yayin tarihi saymak rapora yillik eski
                 # haber sokar. Sayfadan tarih cikmadiysa satir elenir.
             if not date_iso:
+                # ACI 7: ULASILABILIR BESLEMEDEN TARIH (2026-08-31).
+                #
+                # OLCUM (bu haftanin kosusu): tarihi dogrulanamadigi icin
+                # elenen 96 kaydin 9'u BASLIKLA kapsam+olay kapisini
+                # geciyordu ve SEKIZI makale sayfasi 403 veren yayinlardandi
+                # (Steel Times International, SMS group, ArcelorMittal).
+                # Yani bu haberlerin kapsami da olayi da belli; kaybedilen
+                # tek sey tarih. Kapali yayinin sayfasi kapaliysa tarihi de
+                # kapalidir - baska bir ULASILABILIR kanaldan sorulmalidir.
+                #
+                # Tarih yine YAYINCININ KENDI BEYANIDIR: Google News
+                # beslemesi haberi indeksledigi zaman pubDate'i tasir ve bu,
+                # boru hattinin RSS icin zaten guvendigi yapisal tarihtir.
+                # Uydurma yok, tahmin yok; baslik birebir ortusmezse tarih
+                # de alinmaz.
+                #
+                # Butce: yalniz kapiyi BASLIKLA gecen adaylar sorulur ve
+                # kosu basina GNEWS_TARIH_BUTCE ile sinirlidir - 96 kayit
+                # icin 96 istek atmanin anlami yok.
+                if gnews_butce[0] > 0 and _tarih_sorulur_mu(it["title"]):
+                    gnews_butce[0] -= 1
+                    ham = _elle_tarih(it["title"], log)
+                    if ham:
+                        d2 = dates.parse_date_text(ham, False, today)
+                        if d2:
+                            date_iso, src = d2, "gnews-besleme"
+                            stats["gnews_tarih"] += 1
+                            log("    (tarih beslemeden: %s | %s)"
+                                % (d2, it["title"][:60]))
+            if not date_iso:
                 drop("tarihsiz_elendi", it)   # TARIH YOKSA HABER YOK
                 continue
             # Baslikta gecen yil, bulunan tarihten eskiyse: eski icerik bugun
@@ -688,8 +744,20 @@ def collect(today=None, log=print):
                    and r["asama"] == row["asama"] for r in rows):
                 drop("tekrar", it, "benzer baslik (bu kosuda)")
                 continue
+            # ASAMA SARTI KALKTI (2026-08-31). Kosul "benzer baslik VE ayni
+            # asama" idi ve 2026-W36'da su tekrari gecirdi:
+            #   gonderilen (W34): "India's Jindal Stainless Limited to invest
+            #                      $94 million to ramp up cold rolling
+            #                      capacity"              asama: Ilk urun
+            #   yeni gelen      : "Jindal Stainless investing Rs 900 crore to
+            #                      increase cold rolling capacity to 2.67 MT
+            #                      by FY28"               asama: Belirsiz
+            # Ayni duyuru, iki yayin, farkli para birimi. Asama zaten
+            # yayindan yayina degisen bir OKUMA; onu tekrar denetiminin
+            # sartina koymak, savunmayi en cok ihtiyac duyulan yerde -
+            # ayni olayin farkli yorumlandigi yerde - kapatiyor.
             if any(taxonomy.similar_titles(it["title"], b.get("b", ""))
-                   and b.get("a", "") == row["asama"] for b in gecmis):
+                   for b in gecmis):
                 drop("tekrar", it, "benzer baslik (gecmis 21 gun)")
                 continue
             row["anahtar"] = key

@@ -47,6 +47,13 @@ REJECT_SEBEP_KOTA = int(os.environ.get("RADAR_REJECT_SEBEP", "200"))
 # - kisa liste yanlis listeden iyidir.
 HEDEF_SATIR = int(os.environ.get("RADAR_HEDEF_SATIR", "6"))
 REZERV_MAX = int(os.environ.get("RADAR_REZERV_MAX", "300"))
+
+# ULASILABILIR BESLEMEDEN TARIH SORMA BUTCESI (2026-08-31).
+# Makale sayfasi 403 veren yayinlarin haberleri kapiyi geciyor ama tarihsiz
+# kaldigi icin eleniyordu. Tarih, Google News beslemesindeki pubDate'ten -
+# yani yayincinin kendi beyanindan - sorulur. Yalniz BASLIKLA kapiyi gecen
+# adaylar sorulur; butce, kosu basina istek sayisini sinirlar.
+GNEWS_TARIH_BUTCE = int(os.environ.get("RADAR_GNEWS_TARIH", "40"))
 REZERV_GUN = int(os.environ.get("RADAR_REZERV_GUN", "540"))   # ~18 ay
 
 os.environ.setdefault("RADAR_CACHE", CACHE)

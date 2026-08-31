@@ -1,6 +1,6 @@
 {
- "aciklama": "Bot korumasi yuzunden hem yazilima hem editorun oturumuna kapali yayinlarin basliklari. Editor bunlari ARAMA ile bulur. DOSYA TARIH TASIMAZ - tarih her zamanki gibi Actions'ta makale sayfasi acilarak dogrulanir; editorun beyan ettigi bir tarih rapora asla girmez. Kapsam kapisi da degismez, bu kanal yalnizca ADAY tasir. Pencere disi cikanlar rezerve duser.",
- "guncelleme": "2026-08-29",
+ "aciklama": "Bot korumasi yuzunden hem yazilima hem editorun oturumuna kapali yayinlarin basliklari. Editor bunlari ARAMA ile bulur. DOSYA TARIH TASIMAZ - tarih her zamanki gibi Actions'ta makale sayfasi acilarak dogrulanir; editorun beyan ettigi bir tarih rapora asla girmez. Kapsam kapisi da degismez, bu kanal yalnizca ADAY tasir. Pencere disi cikanlar rezerve duser. ONCELIK ULASILABILIR YAYINDIR: ayni haberi yazan, sayfasi acilabilen bir yayinin adresi varsa o yazilir - tarih o zaman makale sayfasindan normal yoldan dogrulanir. Kapali yayinin kendi adresi son caredir. ESKI HABER YAZMA: arama sonuclari yillar oncesinin sayfalarini one cikarabiliyor (2026-08-31'de iki kayit boyle girdi - biri 2012 tarihli JFE Guangzhou hatti, digeri sirketin 2019'da adi degismis olan CMI donemine ait). Boru hatti ikisini de tarihsiz diye eledi, ama istek harcadilar.",
+ "guncelleme": "2026-08-31",
  "kayitlar": [
   {
    "kaynak": "Steel Times International",
@@ -61,16 +61,6 @@
    "kaynak": "Steel Times International",
    "baslik": "Ternium contracts Fives for new galvanizing line",
    "url": "https://www.steeltimesint.com/news/ternium-contracts-fives-for-new-galvanizing-line"
-  },
-  {
-   "kaynak": "Steel Times International",
-   "baslik": "CMI supplies Europe's largest galvanizing line",
-   "url": "https://www.steeltimesint.com/news/cmi-supplies-europes-largest-galvanizing-line"
-  },
-  {
-   "kaynak": "AIST",
-   "baslik": "Guangzhou JFE Steel Sheet Starts up 2nd Continuous Galvanizing Line",
-   "url": "https://www.aist.org/guangzhou-jfe-steel-sheet-starts-up-2nd-continuous-galvanizing-line"
   },
   {
    "kaynak": "ArcelorMittal",

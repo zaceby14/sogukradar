@@ -1415,6 +1415,112 @@ def test_v20_indiana_hindistan_degil():
             "rolling capacity"), "Hindistan", "crore Hindistan sinyalidir")
 
 
+def test_w36_tarih_aci7_ulasilabilir_besleme():
+    """2026-W36 (2026-08-31): kapiyi gecip TARIHSIZ kalan haberler.
+
+    OLCUM (canli kosu): tarihi dogrulanamadigi icin elenen 96 kaydin 9'u
+    BASLIKLA kapsam+olay kapisini geciyordu ve SEKIZI makale sayfasi 403
+    veren yayinlardandi:
+      "Tata Steel breaks ground on new pickle line at Port Talbot site"
+      "SMS upgrades Hyundai Steel galvanising line"
+      "Ternium contracts Fives for new galvanizing line"
+      "Fives to supply Baosteel with two new processing line furnaces"
+      "Galvanizing line upgrade by SMS group enables Villacero ..."
+    Kapsami da olayi da belli; kaybedilen tek sey tarih. Kapali yayinin
+    sayfasi kapaliysa tarihi de kapalidir - baska bir ULASILABILIR
+    kanaldan sorulmalidir.
+
+    KAPI GEVSEMEZ: tarih sorusu yalniz basligiyla ayni kapiyi gecen
+    adaylar icin harcanir, ve tarih yine YAYINCININ beyanindan gelir.
+    """
+    from . import collect as C
+
+    # Kapi: gercek basliklar sorulmali
+    for b in ("Tata Steel breaks ground on new pickle line at Port Talbot site",
+              "SMS upgrades Hyundai Steel galvanising line",
+              "Ternium contracts Fives for new galvanizing line"):
+        eq(C._tarih_sorulur_mu(b), True, "kapsam ici baslik icin tarih sorulmali: " + b[:40])
+    # Kapsam disi baslik icin istek HARCANMAZ
+    for b in ("Turkey's crude steel output rises in July",
+              "Nippon Steel completes 6Mt hot-rolling line",
+              "Galvanizers Association - Annual Conference"):
+        eq(C._tarih_sorulur_mu(b), False, "kapsam disi baslik sorulmamali: " + b[:40])
+
+    # Akis: tarih beslemeden gelirse kaynagi GORUNUR olmali
+    src = open(os.path.join(os.path.dirname(__file__), "collect.py"),
+               encoding="utf-8").read()
+    eq('src = d2, "gnews-besleme"' in src, True,
+       "beslemeden gelen tarihin kaynagi rapora yazilmali")
+    eq("gnews_butce[0] > 0" in src, True, "istek butcesi olmali")
+    # Butce ve kapi, tarihsiz elemeden ONCE olmali
+    i_aci = src.index("gnews_butce[0] > 0")
+    i_drop = src.index('drop("tarihsiz_elendi", it)')
+    eq(i_aci < i_drop, True, "7. aci, tarihsiz elemeden once denenmeli")
+
+
+def test_w36_tekrar_ve_kose_yonu():
+    """2026-W36 (2026-08-31): iki gercek kusur, ikisi de canli kosuda cikti.
+
+    (1) TEKRAR BACAGI AYNI ASAMAYI SART KOSUYORDU. Kosul "benzer baslik VE
+        ayni asama" idi ve su tekrari gecirdi:
+          gonderilen (W34): "India's Jindal Stainless Limited to invest
+                             $94 million to ramp up cold rolling capacity"
+                            asama: Ilk urun
+          yeni gelen      : "Jindal Stainless investing Rs 900 crore to
+                             increase cold rolling capacity to 2.67 MT by
+                             FY28"                    asama: Belirsiz
+        Ayni duyuru, iki yayin, farkli para birimi. Asama zaten yayindan
+        yayina degisen bir OKUMA; onu sart kosmak savunmayi tam da en cok
+        gerektigi yerde kapatiyor.
+
+    (2) "KOSEDE TANITILMIS HABER SATIR OLAMAZ" KURALI TEK YONLUYDU. Tersi
+        serbestti ve W36'da teknoloji havuzunun TEK adayi, W35 bulteninde
+        satir olarak zaten gitmis olan "Fives supplies technologies for
+        Xinyu's new electrical steel facility" idi. Okuyucu icin ikisi ayni
+        haberdir; yon fark etmez.
+    """
+    src = open(os.path.join(os.path.dirname(__file__), "collect.py"),
+               encoding="utf-8").read()
+
+    # (1) Iki gercek baslik gercekten "benzer" sayilmali
+    gonderilen = ("India's Jindal Stainless Limited to invest $94 million "
+                  "to ramp up cold rolling capacity")
+    yeni = ("Jindal Stainless investing Rs 900 crore to increase cold "
+            "rolling capacity to 2.67 MT by FY28: MD")
+    eq(taxonomy.similar_titles(yeni, gonderilen), True,
+       "iki Jindal basligi ayni haberdir")
+    # ...ve kod artik asamayi SART KOSMAMALI
+    eq('and b.get("a", "") == row["asama"] for b in gecmis' not in src, True,
+       "gecmis basliklarla karsilastirmada asama sarti kalkmali")
+
+    # (2) seen'deki bir haber teknoloji havuzuna giremez
+    eq("if ham in seen:" in src, True,
+       "satir olarak gonderilmis haber koseye giremez")
+    g = src[src.index("def maybe_tech("):src.index("def maybe_rezerv(")]
+    eq("ham in seen" in g, True, "kontrol maybe_tech icinde olmali")
+
+
+def test_w36_finalize_ozetsiz_calismaz():
+    """2026-W36 (2026-08-31): "-s" unutulunca finalize sessizce her seyi atliyordu.
+
+    "-s" verilmeyince doc bos kaliyor ve finalize editorun BUTUN kararlarini
+    - duzeltmeleri, cikarilan satirlari, Turkce cumleleri, teknoloji kosesini
+    - atlayip yine de bulten uretiyor VE her satiri "gonderildi" isaretliyordu.
+    Bugun tam bu oldu: cikarilmasi gereken iki satir (biri tekrar, birinin
+    tarihi celiskili) postaya girecekti ve dordu birden hafizaya yazildi.
+    Ozet dosyasi diskte duruyorken onu ATLAMAK bir secim olamaz.
+    """
+    src = open(os.path.join(os.path.dirname(__file__), "cli.py"),
+               encoding="utf-8").read()
+    g = src[src.index("def cmd_finalize("):]
+    g = g[:g.index("def cmd_capraz(")]
+    eq('doc = json.load(open(a.summaries, encoding="utf-8")) if a.summaries else {}'
+       not in g, True, "ozetsiz sessiz gecis kalmamali")
+    eq('ozet_yolu = a.summaries or os.path.join(OUT, "ozet.json")' in g, True,
+       "-s yoksa varsayilan ozet dosyasi kullanilmali")
+    eq("return 1" in g, True, "ozet hic yoksa finalize hata vermeli")
+
+
 def test_elle_besleme_kanali():
     """v19 (2026-08-29): bot korumasindaki yayinlar icin elle besleme.
 
@@ -1723,6 +1829,9 @@ def run():
                test_v20_gonderilmis_hafiza,
                test_v20_gunluk_tarama_arsivi_ezmez,
                test_v20_indiana_hindistan_degil,
+               test_w36_tarih_aci7_ulasilabilir_besleme,
+               test_w36_tekrar_ve_kose_yonu,
+               test_w36_finalize_ozetsiz_calismaz,
                test_w34_sifir_satir_teshisi,
                test_teknoloji_ve_ai_bolumleri,
                test_sitemap_okuyucu, test_olculen_25_haber,
