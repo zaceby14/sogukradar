@@ -548,7 +548,7 @@ def collect(today=None, log=print):
         """
         if date_iso < rezerv_floor:
             return
-        baslik = taxonomy.temiz_baslik(it["title"])
+        baslik = taxonomy.temiz_baslik(it["title"], it.get("url") or "")
         ok_scope, _ = taxonomy.in_scope(baslik, (text or "")[:700])
         if not (ok_scope and taxonomy.haber_olayi(baslik)):
             return
@@ -725,7 +725,7 @@ def collect(today=None, log=print):
             # | 2025-01-30 ...") ve arkaya yapisan lede ayni haberi iki farkli
             # anahtara bolup listede IKI KEZ gostermisti. Tarih bu noktada
             # zaten cozulmus durumda, temizlik tarihi etkilemez.
-            it["title"] = taxonomy.temiz_baslik(it["title"])
+            it["title"] = taxonomy.temiz_baslik(it["title"], it.get("url") or "")
 
             key = state.norm_key(it["title"], it["url"])
             if key in seen or key in run_keys:

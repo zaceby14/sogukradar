@@ -1484,6 +1484,17 @@ def test_w36_yayinci_kuyrugu():
     eq(taxonomy.temiz_baslik(
         "Angang starts production at new galvanizing line - Yieh Corp Steel News"),
        "Angang starts production at new galvanizing line", "Yieh kuyrugu atilmali")
+    # KUYRUK KAYNAGIN ALAN ADINA BENZIYORSA da atilir. "... ZAM roll
+    # coating line » Metallurgprom" hicbir yayincilik sozcugu tasimiyor;
+    # ayni haber bu yuzden havuzda IKI KEZ durdu. Alan adi karsilastirmasi
+    # keyfi bir yayinci listesi tutmaktan hem daha genel hem daha guvenli.
+    eq(taxonomy.temiz_baslik(
+        "ArcelorMittal Poland completes construction of ZAM roll coating "
+        "line » Metallurgprom",
+        "https://metallurgprom.org/en/news/europe/18814-x.html"),
+       "ArcelorMittal Poland completes construction of ZAM roll coating line",
+       "alan adina benzeyen kuyruk atilmali")
+
     # KORUNMALI - kuyruk degil, basligin kendisi
     for t in ("KEZAD galvanising facility moves closer to commissioning",
               "KG Steel selects Primetals for Dangjin PLTCM upgrade and "
@@ -1493,6 +1504,26 @@ def test_w36_yayinci_kuyrugu():
               "New MINO Double-Stand Six-High Cold Reversing Mill in North America",
               "Tosyali Algerie launches cold-rolled steel production"):
         eq(taxonomy.temiz_baslik(t), t, "gercek baslik kirpilmamali: " + t[:44])
+    # ...adres verilse de kirpilmamali
+    eq(taxonomy.temiz_baslik(
+        "Primetals to modernise Korean pickling line",
+        "https://www.steeltimesint.com/news/primetals-to-modernise-korean-"
+        "pickling-line"),
+       "Primetals to modernise Korean pickling line",
+       "adres verilince de gercek baslik kirpilmamali")
+
+    # Havuz tekrari: ayni haber iki yoldan girince BASLIK bazli birlesmeli
+    from .cli import _havuz_tekrarsiz
+    a = {"baslik": "ArcelorMittal Poland completes construction of ZAM roll "
+                   "coating line » Metallurgprom",
+         "url": "https://metallurgprom.org/en/news/europe/18814-x.html"}
+    b = {"baslik": "ArcelorMittal Poland completes construction of ZAM roll "
+                   "coating line",
+         "url": "https://news.google.com/rss/articles/CBMi?oc=5"}
+    out = _havuz_tekrarsiz([b, a])
+    eq(len(out), 1, "ayni haber havuzda iki kez durmamali")
+    eq(out[0]["url"].startswith("https://metallurgprom.org"), True,
+       "yayincinin kendi adresi tercih edilmeli - aggregator yonlendirmesi degil")
 
 
 def test_w36_editor_bulur_makine_dogrular():

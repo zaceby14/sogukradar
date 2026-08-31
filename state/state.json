@@ -921,30 +921,6 @@
    "url": "https://news.mesteel.com/marcegaglia-upgrades-pickling-line-at-gazoldo-degli-ippoliti-stainless-steel-plant/"
   },
   {
-   "anahtar": "4851a46a95068095",
-   "asama": "Modernizasyon",
-   "baslik": "Marcegaglia upgrades pickling line at Gazoldo degli Ippoliti stainless steel plant",
-   "eksik": [],
-   "firma": "Gazoldo",
-   "hat": "Asitleme hatti",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "Mesteel",
-   "kaynak_id": "elle",
-   "olaylar": [
-    "gazoldo|fu|Turkiye|Asitleme hatti",
-    "gazoldo|hat|Asitleme hatti|Modernizasyon",
-    "gazoldo|ulke|Turkiye|Modernizasyon"
-   ],
-   "rezerv": true,
-   "tarih": "2026-07-13",
-   "tarih_kaynagi": "meta:datepublished",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "Turkiye",
-   "url": "https://news.mesteel.com/marcegaglia-upgrades-pickling-line-at-gazoldo-degli-ippoliti-stainless-steel-plant/"
-  },
-  {
    "anahtar": "89a81bc39203a100",
    "asama": "Ilk urun",
    "baslik": "India’s JIL commissions continuous color coating line completing $155 million capex program",
@@ -1060,30 +1036,6 @@
    "kategori": "Hat",
    "kaynak": "Metallurgprom",
    "kaynak_id": "",
-   "olaylar": [
-    "arcelormittal poland|fu|Polonya|Roll shop / merdane",
-    "arcelormittal poland|hat|Roll shop / merdane|Insaat",
-    "arcelormittal poland|ulke|Polonya|Insaat"
-   ],
-   "rezerv": true,
-   "tarih": "2025-12-11",
-   "tarih_kaynagi": "json-ld",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "Polonya",
-   "url": "https://metallurgprom.org/en/news/europe/18814-arcelormittal-poland-zavershaet-stroitelstvo-linii-nanesenija-pokrytija-na-rulony-zam.html"
-  },
-  {
-   "anahtar": "ea36f7854d6f030b",
-   "asama": "Insaat",
-   "baslik": "ArcelorMittal Poland completes construction of ZAM roll coating line",
-   "eksik": [],
-   "firma": "ArcelorMittal Poland",
-   "hat": "Roll shop / merdane",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "Metallurgprom",
-   "kaynak_id": "elle",
    "olaylar": [
     "arcelormittal poland|fu|Polonya|Roll shop / merdane",
     "arcelormittal poland|hat|Roll shop / merdane|Insaat",

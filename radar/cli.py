@@ -364,11 +364,50 @@ def _bulunan_guncelle(st, rows):
     kosede = {k[5:] for k in (st.get("tech_seen") or {}) if k.startswith("tech:")}
     temiz = [r for k, r in havuz.items()
              if k not in seen and k not in kosede and _rezerv_hala_gecerli(r)]
+    temiz = _havuz_tekrarsiz(temiz)
     temiz.sort(key=lambda r: r.get("tarih", ""), reverse=True)
     st["bulunan"] = temiz[:REZERV_MAX]
     # Bu kosuda zaten listede olanlar tekrar EKLENMEZ ama havuzda KALIR:
     # bulten onaylanmazsa gelecek hafta yine cikabilmeliler.
     return [r for r in st["bulunan"] if r["anahtar"] not in bu_kosu]
+
+
+def _havuz_tekrarsiz(satirlar):
+    """Havuzda ayni haber iki kez durmaz - anahtar DEGIL, BASLIK bazli.
+
+    Havuzlar iki ayri yoldan doluyor (haftalik/gunluk kosu ve "radar
+    dogrula") ve ayni haber iki yoldan girince anahtarlari farkli oluyor:
+    biri arama beslemesinin yonlendirme adresinden, digeri yayincinin
+    kendi adresinden turuyor; baslik da yayinci kuyrugu yuzunden farkli
+    olabiliyor. 2026-08-31'de rezervde Marcegaglia ve ArcelorMittal Poland
+    satirlari IKISER kez durdu.
+
+    Ayni baslik icin YAYINCININ KENDI adresini tasiyan kayit tutulur -
+    okuyucu icin aggregator yonlendirmesinden iyidir.
+    """
+    ix, out = {}, []
+    for r in satirlar:
+        k = taxonomy.fold(taxonomy.temiz_baslik(r.get("baslik") or "",
+                                                 r.get("url") or "")).strip()
+        if not k:
+            continue
+        j = ix.get(k)
+        if j is None:
+            ix[k] = len(out)
+            out.append(r)
+            continue
+        eski = out[j]
+        yeni_iyi = not _aggregator_adresi(r.get("url"))
+        eski_iyi = not _aggregator_adresi(eski.get("url"))
+        if yeni_iyi and not eski_iyi:
+            out[j] = r
+    return out
+
+
+def _aggregator_adresi(url):
+    u = (url or "").lower()
+    return ("news.google.com" in u or "bing.com/news" in u
+            or "msn.com" in u or "/rss/articles/" in u)
 
 
 def _rezerv_hala_gecerli(r):
@@ -417,6 +456,7 @@ def _rezerv_guncelle(st, yeni_adaylar, rows):
     temiz = [r for k, r in havuz.items()
              if k not in seen and k not in bu_kosu and k not in kosede
              and _rezerv_hala_gecerli(r)]
+    temiz = _havuz_tekrarsiz(temiz)
     temiz.sort(key=lambda r: r.get("tarih", ""), reverse=True)
     st["rezerv"] = temiz[:REZERV_MAX]
     return list(st["rezerv"])

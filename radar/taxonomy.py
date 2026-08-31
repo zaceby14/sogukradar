@@ -695,7 +695,7 @@ _BAS_ONEK = [
 ]
 
 
-def temiz_baslik(title):
+def temiz_baslik(title, url=""):
     """Liste sayfasindan kopup gelen on ek ve lede'yi baslikdan ayiklar.
 
     Ayni haber bir kaynakta temiz, digerinde 'Baslik 2025-07-08 International
@@ -723,11 +723,27 @@ def temiz_baslik(title):
     # ayni haberin iki yayindaki hali farkli tekrar anahtari uretir.
     # Kesim ihtiyatli: yalnizca AYIRICIDAN SONRAKI kisa parca ve ancak
     # geriye anlamli bir baslik kaliyorsa atilir.
-    m = re.search(r"^(.{25,}?)\s+[|\u2013\u2014-]\s+([^|\u2013\u2014]{3,45})$", t)
+    # Ayirici olarak »/•/· da kullaniliyor: Metallurgprom basligi
+    # "... ZAM roll coating line » Metallurgprom" seklinde geliyor ve ayni
+    # haber iki farkli baslikla havuzda IKI KEZ durdu (2026-08-31).
+    m = re.search(r"^(.{25,}?)\s+[|\u2013\u2014\u00bb\u2022\u00b7-]\s+"
+                  r"([^|\u2013\u2014\u00bb\u2022\u00b7]{3,45})$", t)
     if m and len(m.group(1).split()) >= 5:
         kuyruk = m.group(2).lower()
-        if re.search(r"(news|online|magazine|daily|press|corp|group|"
-                     r"steel news|com\b|\.net|haber|gazete)", kuyruk):
+        # Iki isaretten biri yeterli: (a) kuyrukta yayincilik sozcugu,
+        # (b) kuyruk KAYNAGIN ALAN ADINA benziyor. Ikincisi olmadan
+        # "... ZAM roll coating line » Metallurgprom" kesilmiyordu -
+        # "metallurgprom" hicbir yayincilik sozcugu tasimiyor. Alan adi
+        # karsilastirmasi keyfi bir liste tutmaktan hem daha genel hem
+        # daha guvenli.
+        alan = re.sub(r"^https?://(www\.)?", "", (url or "").lower()).split("/")[0]
+        alan_kok = re.sub(r"\.(com|org|net|co|io|info)(\.[a-z]{2})?$", "", alan)
+        alan_kok = alan_kok.split(".")[-1] if alan_kok else ""
+        sade = re.sub(r"[^a-z0-9]", "", kuyruk)
+        if (re.search(r"(news|online|magazine|daily|press|corp|group|"
+                      r"steel news|com\b|\.net|haber|gazete)", kuyruk)
+                or (len(alan_kok) >= 5 and len(sade) >= 5
+                    and (sade in alan_kok or alan_kok in sade))):
             t = m.group(1).strip()
     # Arkaya yapisan lede: "... Baslik 2025-07-08 International technology..."
     m = re.search(r"^(.{25,}?)\s+\d{4}-\d{2}-\d{2}\s+\S", t)
