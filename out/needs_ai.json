@@ -65,7 +65,27 @@
    "hat": "Galvaniz hatti (CGL)",
    "asama": "Ilk urun",
    "baslik": "KEZAD galvanising facility moves closer to commissioning",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95cacd4e7441aeb951448930105137&url=https%3a%2f%2fwww.msn.com%2fen-ae%2fnews%2fother%2fkezad-galvanising-facility-moves-closer-to-commissioning%2far-AA2ayC80&c=5487109860416195630&mkt=en-us"
+   "url": "https://www.msn.com/en-ae/news/other/kezad-galvanising-facility-moves-closer-to-commissioning/ar-AA2ayC80"
+  },
+  {
+   "anahtar": "449019d6e383b1ae",
+   "tarih": "2026-07-13",
+   "firma": "Gazoldo",
+   "ulke": "Turkiye",
+   "hat": "Asitleme hatti",
+   "asama": "Modernizasyon",
+   "baslik": "Marcegaglia upgrades pickling line at Gazoldo degli Ippoliti stainless steel plant | Mesteel - Online News",
+   "url": "https://news.mesteel.com/marcegaglia-upgrades-pickling-line-at-gazoldo-degli-ippoliti-stainless-steel-plant/"
+  },
+  {
+   "anahtar": "89a81bc39203a100",
+   "tarih": "2026-05-20",
+   "firma": "India’s JIL",
+   "ulke": "Hindistan",
+   "hat": "Boyama hatti (CCL)",
+   "asama": "Ilk urun",
+   "baslik": "India’s JIL commissions continuous color coating line completing $155 million capex program",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/indias-jil-commissions-continuous-color-coating-line-completing-155-million-capex-program-1454553.htm"
   },
   {
    "anahtar": "971c858c2cf021dc",
@@ -78,30 +98,5 @@
    "url": "https://mino.it/new-mino-double-stand-six-high-cold-reversing-mill-in-north-america/"
   }
  ],
- "teknoloji_adaylari": [
-  {
-   "anahtar": "tech:8f6043a18acdc49f",
-   "tarih": "2026-08-18",
-   "baslik": "Primetals Technologies to Modernize PLTCM for KG Steel in South Korea",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95d1ee4fca4968975e2feb8047c6cf&url=https%3a%2f%2fnote.com%2fsankituushin%2fn%2fn4cc3fa0e878e%3fhl%3den&c=3218958862499560946&mkt=en-us",
-   "kaynak": "Bing News",
-   "hat": "Tandem soguk hadde (TCM)"
-  },
-  {
-   "anahtar": "tech:8f6043a18acdc49f",
-   "tarih": "2026-08-18",
-   "baslik": "Primetals Technologies to Modernize PLTCM for KG Steel in South Korea",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95d1f7177e4dc0ad04d9bf5810a033&url=https%3a%2f%2fnote.com%2fsankituushin%2fn%2fn4cc3fa0e878e%3fhl%3den&c=3218958862499560946&mkt=en-us",
-   "kaynak": "Bing News",
-   "hat": "Tandem soguk hadde (TCM)"
-  },
-  {
-   "anahtar": "tech:8f6043a18acdc49f",
-   "tarih": "2026-08-18",
-   "baslik": "Primetals Technologies to Modernize PLTCM for KG Steel in South Korea",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95d20bd3b64edf86bac45c6b19e71d&url=https%3a%2f%2fnote.com%2fsankituushin%2fn%2fn4cc3fa0e878e%3fhl%3den&c=3218958862499560946&mkt=en-us",
-   "kaynak": "Bing News",
-   "hat": "Tandem soguk hadde (TCM)"
-  }
- ]
+ "teknoloji_adaylari": []
 }

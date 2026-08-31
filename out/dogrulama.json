@@ -1,83 +1,73 @@
 {
  "donem": "2026-08-31",
  "girdi": 11,
- "eklenen": [
-  {
-   "havuz": "rezerv",
-   "tarih": "2026-07-13",
-   "tarih_kaynagi": "meta:datepublished",
-   "baslik": "Marcegaglia upgrades pickling line at Gazoldo degli Ippoliti stainless steel plant | Mesteel - Online News",
-   "url": "https://news.mesteel.com/marcegaglia-upgrades-pickling-line-at-gazoldo-degli-ippoliti-stainless-steel-plant/",
-   "hat": "Asitleme hatti",
-   "asama": "Modernizasyon"
-  },
-  {
-   "havuz": "rezerv",
-   "tarih": "2025-12-11",
-   "tarih_kaynagi": "json-ld",
-   "baslik": "ArcelorMittal Poland completes construction of ZAM roll coating line » Metallurgprom",
-   "url": "https://metallurgprom.org/en/news/europe/18814-arcelormittal-poland-zavershaet-stroitelstvo-linii-nanesenija-pokrytija-na-rulony-zam.html",
-   "hat": "Roll shop / merdane",
-   "asama": "Insaat"
-  },
-  {
-   "havuz": "rezerv",
-   "tarih": "2026-05-20",
-   "tarih_kaynagi": "json-ld",
-   "baslik": "India’s JIL commissions continuous color coating line completing $155 million capex program",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/indias-jil-commissions-continuous-color-coating-line-completing-155-million-capex-program-1454553.htm",
-   "hat": "Boyama hatti (CCL)",
-   "asama": "Ilk urun"
-  }
- ],
+ "eklenen": [],
  "reddedilen": [
   {
    "baslik": "RRM starts up new cold-mill complex with Danieli technology",
    "url": "https://news.mesteel.com/rrm-starts-up-new-cold-mill-complex-with-danieli-technology/",
-   "sebep": "ayni olay zaten gonderilmis",
-   "ek": "2026-02-12"
+   "sebep": "sayfa acilamadi",
+   "ek": "ag yok"
+  },
+  {
+   "baslik": "Marcegaglia upgrades pickling line at Gazoldo degli Ippoliti stainless steel plant",
+   "url": "https://news.mesteel.com/marcegaglia-upgrades-pickling-line-at-gazoldo-degli-ippoliti-stainless-steel-plant/",
+   "sebep": "sayfa acilamadi",
+   "ek": "ag yok"
   },
   {
    "baslik": "AM/NS India to launch new automotive steel production lines at Hazira plant",
    "url": "https://news.mesteel.com/am-ns-india-to-launch-new-automotive-steel-production-lines-at-hazira-plant/",
-   "sebep": "kapsam disi",
-   "ek": "kapsam_disi"
+   "sebep": "sayfa acilamadi",
+   "ek": "ag yok"
+  },
+  {
+   "baslik": "ArcelorMittal Poland completes construction of ZAM roll coating line",
+   "url": "https://metallurgprom.org/en/news/europe/18814-arcelormittal-poland-zavershaet-stroitelstvo-linii-nanesenija-pokrytija-na-rulony-zam.html",
+   "sebep": "sayfa acilamadi",
+   "ek": "ag yok"
   },
   {
    "baslik": "Partnering with Shandong Zhongxin to Deliver High-End Galvanizing and Continuous Annealing Lines for Automotive Steel Up",
    "url": "https://johncockerill.com/en/press-and-news/news/cgl-cal-shandong-zhongxin/",
-   "sebep": "gonderilmis haberin varyanti",
-   "ek": "2026-02-26"
+   "sebep": "sayfa acilamadi",
+   "ek": "ag yok"
   },
   {
    "baslik": "Tata Steel selects Danieli for a combined pickling and galvanizing line for hot-rolled coated products",
    "url": "https://www.danieli.com/en/news-media/news/tata-steel-selects-danieli-combined-pickling-and-galvanizing-line-hot-rolled-coated-products_37_876.htm",
-   "sebep": "cok eski",
-   "ek": "2024-03-11"
+   "sebep": "sayfa acilamadi",
+   "ek": "ag yok"
   },
   {
    "baslik": "Borcelik endorses Danieli with order for cold-strip complex",
    "url": "https://www.danieli.com/en/news-media/news/borcelik-endorses-danieli-order-cold-strip-complex_37_912.htm",
-   "sebep": "cok eski",
-   "ek": "2024-07-29"
+   "sebep": "sayfa acilamadi",
+   "ek": "ag yok"
   },
   {
    "baslik": "Primetals Technologies to supply continuous galvanizing and pickling line to Chengde Steel",
    "url": "https://www.primetals.com/press-media/news/primetals-technologies-to-supply-continuous-galvanizing-and-pickling-line-to-chengde-steel",
-   "sebep": "kapsam disi",
-   "ek": "kapsam_disi"
+   "sebep": "sayfa acilamadi",
+   "ek": "ag yok"
   },
   {
    "baslik": "Primetals Technologies awarded contract for hot-dip galvanizing line at JFE Steel",
    "url": "https://www.primetals.com/en/news/primetals-technologies-awarded-contract-for-hot-dip-galvanizing-line-at-jfe-steel/",
-   "sebep": "gonderilmis haberin varyanti",
-   "ek": "2025-11-25"
+   "sebep": "sayfa acilamadi",
+   "ek": "ag yok"
+  },
+  {
+   "baslik": "India's JIL commissions continuous color coating line completing $155 million capex program",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/indias-jil-commissions-continuous-color-coating-line-completing-155-million-capex-program-1454553.htm",
+   "sebep": "sayfa acilamadi",
+   "ek": "ag yok"
   },
   {
    "baslik": "Turkey's Borcelik partners with Danieli for cold-rolled strip complex",
    "url": "https://www.yieh.com/en/NewsItem/149395",
-   "sebep": "cok eski",
-   "ek": "2024-08-01"
+   "sebep": "sayfa acilamadi",
+   "ek": "ag yok"
   }
  ]
 }
