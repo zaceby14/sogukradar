@@ -1,57 +1,6 @@
 {
  "rows": [
   {
-   "tarih": "2026-08-20",
-   "firma": "KEZAD",
-   "ulke": "BAE",
-   "hat": "Galvaniz hatti (CGL)",
-   "asama": "Ilk urun",
-   "tedarikci": "",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "KEZAD galvanising facility moves closer to commissioning",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgq_hat05",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95cacd4e7441aeb951448930105137&url=https%3a%2f%2fwww.msn.com%2fen-ae%2fnews%2fother%2fkezad-galvanising-facility-moves-closer-to-commissioning%2far-AA2ayC80&c=5487109860416195630&mkt=en-us",
-   "tarih_kaynagi": "rss",
-   "eksik": [],
-   "anahtar": "4d59fdf2ae6ec46f",
-   "kategori": "Hat",
-   "olaylar": [
-    "*|ulke-hat|BAE|Galvaniz hatti (CGL)|Ilk urun",
-    "kezad|fu|BAE|Galvaniz hatti (CGL)",
-    "kezad|hat|Galvaniz hatti (CGL)|Ilk urun",
-    "kezad|ulke|BAE|Ilk urun"
-   ],
-   "puan": 52.6
-  },
-  {
-   "tarih": "2026-08-21",
-   "firma": "Ohio",
-   "ulke": "ABD",
-   "hat": "Belirsiz",
-   "asama": "Modernizasyon",
-   "tedarikci": "",
-   "kapasite": "",
-   "tutar": "$500M",
-   "baslik": "Cleveland-Cliffs matches $500M federal grant for Ohio steel mill without hydrogen retrofit",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgq_hat12",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95cad1a0c5416a97ac10eab8d7fa95&url=https%3a%2f%2fwww.bizjournals.com%2fcleveland%2fnews%2f2026%2f08%2f21%2fmiddletown-works-cleveland-cliffs-hydrogen-steel.html&c=12483172322001066592&mkt=en-us",
-   "tarih_kaynagi": "rss",
-   "eksik": [
-    "hat"
-   ],
-   "anahtar": "392d2d9682089828",
-   "kategori": "Hat",
-   "olaylar": [
-    "ohio|fu|ABD|Belirsiz",
-    "ohio|hat|Belirsiz|Modernizasyon",
-    "ohio|ulke|ABD|Modernizasyon"
-   ],
-   "puan": 34.0
-  },
-  {
    "tarih": "2026-08-24",
    "firma": "NS-SUS",
    "ulke": "",
@@ -61,7 +10,7 @@
    "kapasite": "",
    "tutar": "",
    "baslik": "NS-SUS Completes Installation of New Danieli Coil-Handling Cranes",
-   "kaynak": "aist.org",
+   "kaynak": "AIST Association for Iron & Steel Technology",
    "kaynak_id": "gs_aist",
    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNejhtT3VSU2JqekN5bVh3bnhHdmFMbEtfWmxzQ0hFNXFhV2U5TklNWkhsbXYwQ3JnWEpNOGNyS2ZHRGZjYzViWmtDSEpZZnFiMDUxdktCWnpIWGJtNXNEaDNMUE5zRzIzNFFGZkRQc0RjNjdxOS15d0JpT2o2SFMyaUU4c0xMSU5QdG11YW14UQ?oc=5",
    "tarih_kaynagi": "rss",
@@ -76,56 +25,6 @@
     "ns sus|hat|Bobin tasima / paketleme|Belirsiz"
    ],
    "puan": 23.2
-  },
-  {
-   "anahtar": "40159f1debb141d2",
-   "asama": "Belirsiz",
-   "baslik": "Triple-S Steel acquires Camden Yards Steel",
-   "eksik": [
-    "ulke",
-    "asama"
-   ],
-   "firma": "Triple-S Steel",
-   "hat": "Dilme / boy kesme / SSC",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgq_hat11",
-   "olaylar": [
-    "triple s steel|hat|Dilme / boy kesme / SSC|Belirsiz"
-   ],
-   "rezerv": true,
-   "tarih": "2026-08-05",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95be2eefd9492797340d008ffc93f1&url=https%3a%2f%2fnjbiz.com%2ftriple-s-steel-acquires-camden-yards-steel%2f&c=9705910004172991754&mkt=en-us"
-  },
-  {
-   "anahtar": "44d64530f05f9415",
-   "asama": "Modernizasyon",
-   "baslik": "Ezz Flat Steel signs agreement with Danieli for QSP modernization in Ain Sokhna",
-   "eksik": [
-    "ulke",
-    "hat"
-   ],
-   "firma": "Ezz Flat Steel",
-   "hat": "Belirsiz",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgq_sup02",
-   "olaylar": [
-    "danieli|hat|Belirsiz|Modernizasyon"
-   ],
-   "rezerv": true,
-   "tarih": "2026-08-05",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "Danieli",
-   "tutar": "",
-   "ulke": "",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95be334252404aad05308958db0302&url=https%3a%2f%2fwww.steelradar.com%2fen%2fhaber%2fezz-flat-steel-signs-agreement-with-danieli-for-qsp-modernization-in-ain-sokhna%2f&c=6577064450131778690&mkt=en-us"
   },
   {
    "anahtar": "971c858c2cf021dc",
@@ -156,25 +55,21 @@
  ],
  "stats": {
   "kaynak": 269,
-  "erisilemeyen": 9,
-  "ham": 3486,
-  "on_eleme_gecti": 329,
+  "erisilemeyen": 8,
+  "ham": 3472,
+  "on_eleme_gecti": 325,
   "makale_acildi": 201,
-  "tarihsiz_elendi": 94,
-  "pencere_disi": 185,
-  "kapsam_disi": 3165,
+  "tarihsiz_elendi": 92,
+  "pencere_disi": 188,
+  "kapsam_disi": 3152,
   "tekrar": 39,
-  "kabul": 3,
+  "kabul": 1,
   "gnews_tarih": 0
  },
  "unreachable": [
   [
    "SMS group",
    "HTTP 403"
-  ],
-  [
-   "Butech Bliss",
-   "HTTP 500"
   ],
   [
    "Cognex",
@@ -504,7 +399,7 @@
    "anahtar": "tech:8f6043a18acdc49f",
    "tarih": "2026-08-18",
    "baslik": "Primetals Technologies to Modernize PLTCM for KG Steel in South Korea",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95cad4a9b249fd85f7f5342bcf6e64&url=https%3a%2f%2fnote.com%2fsankituushin%2fn%2fn4cc3fa0e878e%3fhl%3den&c=3218958862499560946&mkt=en-us",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95ce31a1034b0db8ce511ef3e62614&url=https%3a%2f%2fnote.com%2fsankituushin%2fn%2fn4cc3fa0e878e%3fhl%3den&c=3218958862499560946&mkt=en-us",
    "kaynak": "Bing News",
    "hat": "Tandem soguk hadde (TCM)"
   },
@@ -512,22 +407,29 @@
    "anahtar": "tech:8f6043a18acdc49f",
    "tarih": "2026-08-18",
    "baslik": "Primetals Technologies to Modernize PLTCM for KG Steel in South Korea",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95cae91093492689a31a0a06e63723&url=https%3a%2f%2fnote.com%2fsankituushin%2fn%2fn4cc3fa0e878e%3fhl%3den&c=3218958862499560946&mkt=en-us",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95ce3b58e84c5dba0c8ef066f8e745&url=https%3a%2f%2fnote.com%2fsankituushin%2fn%2fn4cc3fa0e878e%3fhl%3den&c=3218958862499560946&mkt=en-us",
+   "kaynak": "Bing News",
+   "hat": "Tandem soguk hadde (TCM)"
+  },
+  {
+   "anahtar": "tech:8f6043a18acdc49f",
+   "tarih": "2026-08-18",
+   "baslik": "Primetals Technologies to Modernize PLTCM for KG Steel in South Korea",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95ce4f0f0e4817b10d4de9c018593f&url=https%3a%2f%2fnote.com%2fsankituushin%2fn%2fn4cc3fa0e878e%3fhl%3den&c=3218958862499560946&mkt=en-us",
    "kaynak": "Bing News",
    "hat": "Tandem soguk hadde (TCM)"
   }
  ],
  "kaynak_katki": {
-  "Google News": 1,
-  "Bing News": 2
+  "Google News": 1
  },
  "window": [
   "2026-08-16",
   "2026-08-31"
  ],
- "rezerv_kullanilan": 3,
+ "rezerv_kullanilan": 1,
  "rezerv_havuz": 3,
  "period": "2026-W36",
- "generated": "2026-08-31 18:42 UTC",
+ "generated": "2026-08-31 18:56 UTC",
  "version": "3.0.0"
 }
