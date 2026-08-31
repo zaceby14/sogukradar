@@ -185,6 +185,14 @@ def _rapor_ozet(per, payload, ask, say, base):
     print("rezerv: %d kullanildi, havuzda %d"
           % (payload.get("rezerv_kullanilan", 0), payload.get("rezerv_havuz", 0)))
     print("duzeltilecek satir: %d | cumle yazilacak: %d" % (len(ask), len(say)))
+    hs = payload.get("host_saglik") or {}
+    if hs:
+        print("host: " + " | ".join(
+            "%s %d istek%s" % (h.replace("www.", ""), d["istek"],
+                               " SOGUTMADA" if d["sogutmada"] else
+                               (" (%d hiz siniri)" % d["hiz_siniri"]
+                                if d["hiz_siniri"] else ""))
+            for h, d in hs.items()))
     print("cikti: %s.json" % base)
 
 

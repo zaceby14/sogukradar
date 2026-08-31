@@ -756,8 +756,19 @@ def collect(today=None, log=print):
             katki[s["publisher"]] = katki.get(s["publisher"], 0) + 1
 
     tech_pool.sort(key=lambda t: t["tarih"], reverse=True)
+    # HOST SAGLIGI RAPORA GIRER (2026-08-31). Hiz sinirlamasi SESSIZ
+    # kalmamali: 2026-08-31'de news.google.com 503 dondu, 80 kaynak birden
+    # dustu ve bunu ancak kosudan sonra JSON'i okuyarak anladim. Hangi
+    # host'a kac istek gittigi ve hangisi sogutmaya alindigi artik
+    # raporun kendisinde durur.
+    hs = http.host_raporu()
+    for h, d in hs.items():
+        if d["sogutmada"] or d["hiz_siniri"]:
+            log("  ! host %s: %d istek, %d hiz siniri%s"
+                % (h, d["istek"], d["hiz_siniri"],
+                   ", SOGUTMADA" if d["sogutmada"] else ""))
     return {"rows": rows, "stats": stats, "unreachable": unreachable,
             "kinds": kinds, "today": today.isoformat(), "rejects": rejects,
-            "rezerv": rezerv,
+            "rezerv": rezerv, "host_saglik": hs,
             "tech_pool": tech_pool[:12], "kaynak_katki": katki,
             "window": [floor.isoformat(), today.isoformat()]}

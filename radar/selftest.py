@@ -1415,6 +1415,98 @@ def test_v20_indiana_hindistan_degil():
             "rolling capacity"), "Hindistan", "crore Hindistan sinyalidir")
 
 
+def test_w36_host_korumasi_ve_ikinci_arama_hostu():
+    """2026-08-31: AYNI HATAYI IKI KEZ YAPTIM - ucuncusu yapisal olarak engellendi.
+
+    Iki gerileme de ayni sebeptendi: PAYLASILAN BIR HOST'A FAZLADAN ISTEK
+    GONDERDIM VE FATURAYI BASKA BIR IS ODEDI.
+      1) Sitemap zinciri gercek istegin onune gecti; tahmin adresleri 404
+         alinca site kapiyi kapatti ve BES kaynak erisilemez oldu.
+      2) Tarih icin news.google.com'a 40 ek istek: erisilemeyen kaynak
+         9 -> 89 (80'i Google, HTTP 503), kazanc 0, kosu 35 -> 60 dakika.
+
+    Ders yamayla ogrenilmez, ZORLANIR. Iki yapisal degisiklik:
+
+    A) HOST BUTCESI + SOGUTMA. Her host icin kosu basina istek butcesi var;
+       butce dolunca istek GONDERILMEZ, hangi is isterse istesin. Hiz
+       siniri sinyali (429/503) gelince host sogutmaya alinir - israr
+       yumusak kisitlamayi sert bloga cevirir, 31 Agustos'ta tam bu oldu.
+       Boylece yeni bir katman eklemek mevcut katmani riske ATAMAZ.
+
+    B) IKINCI ARAMA HOST'U. 169 kaynagin 80'i tek host'taydi; arama
+       katmaninin tamami tek saglayiciya bagliydi ve o saglayicinin kotu
+       gunu butun bulteni dusuruyordu. Her Google News sorgusunun Bing News
+       aynasi OTOMATIK uretilir - elle ikinci liste tutulmaz, sorgu
+       eklendiginde aynasi bedava gelir ve iki liste asla sapmaz.
+       Kapi GENISLEMEZ: ayni sorgular, ayni kapsam kapisi, ayni tarih
+       zinciri; degisen tek sey ayni sorunun ikinci bir yere de sorulmasi.
+    """
+    from . import http as H
+    from . import sources as S
+    import re as _re
+
+    # --- A) butce istegi gercekten keser
+    eski_butce = H.HOST_BUTCE
+    try:
+        H.host_sifirla()
+        H.HOST_BUTCE = 3
+        for _ in range(3):
+            eq(H.host_izin("https://news.google.com/rss/x")[0], True, "butce icinde")
+            H._host_kaydet("https://news.google.com/rss/x")
+        izin, sebep = H.host_izin("https://news.google.com/rss/y")
+        eq(izin, False, "butce dolunca istek gonderilmemeli")
+        eq(sebep, "host butcesi doldu", "sebep bildirilmeli")
+        # BASKA host etkilenmez - ceza host'a ozeldir
+        eq(H.host_izin("https://www.steelorbis.com/x")[0], True,
+           "butce baska host'u baglamaz")
+
+        # --- A2) hiz sinirinda israr edilmez
+        H.host_sifirla()
+        H._host_hiz_siniri("https://news.google.com/x")
+        eq(H.host_izin("https://news.google.com/y")[0], True,
+           "ilk sinyal uyaridir, kapatmaz")
+        H._host_hiz_siniri("https://news.google.com/x")
+        eq(H.host_izin("https://news.google.com/y")[0], False,
+           "ikinci sinyalde host sogutmaya alinmali")
+        r = H.host_raporu()
+        eq(r.get("news.google.com", {}).get("sogutmada"), True,
+           "sogutma raporda GORUNMELI - sessiz kisitlama en kotusudur")
+    finally:
+        H.HOST_BUTCE = eski_butce
+        H.host_sifirla()
+
+    # 429/503'te tekrar denenmemeli (kodun kendisi)
+    hsrc = open(os.path.join(os.path.dirname(__file__), "http.py"),
+                encoding="utf-8").read()
+    eq("HIZ SINIRINDA ISRAR EDILMEZ" in hsrc, True, "hiz sinirinda retry olmamali")
+    eq("izin, sebep = host_izin(url)" in hsrc, True, "fetch butceyi sormali")
+
+    # --- B) arama katmani tek host'ta olmamali
+    hostlar = {}
+    for x in S.SOURCES:
+        u = x.get("rss") or x.get("url") or ""
+        m = _re.match(r"https?://([^/]+)", u)
+        if m:
+            hostlar[m.group(1)] = hostlar.get(m.group(1), 0) + 1
+    en_buyuk = max(hostlar.values())
+    eq(en_buyuk <= len(S.SOURCES) * 0.40, True,
+       "hicbir host kaynaklarin %%40'indan fazlasini tutmamali (en buyuk %d/%d)"
+       % (en_buyuk, len(S.SOURCES)))
+
+    ayna = [x for x in S.SOURCES if x["publisher"] == "Bing News"]
+    gnews = [x for x in S.SOURCES if x["publisher"] == "Google News"]
+    eq(len(ayna), len(gnews), "her Google sorgusunun aynasi olmali")
+    eq(all("when:" not in (x["rss"] or "") for x in ayna), True,
+       "Google'a ozgu when: kalibi aynada kalmamali")
+    eq(all("format=RSS" in x["rss"] for x in ayna), True, "ayna besleme olmali")
+    # Dil katmani korunmali
+    eq(any("tr-TR" in x["rss"] for x in ayna), True, "TR katmani aynada da olmali")
+    eq(any("zh-CN" in x["rss"] for x in ayna), True, "ZH katmani aynada da olmali")
+    # id catismasi olmamali
+    ids = [x["id"] for x in S.SOURCES]
+    eq(len(set(ids)), len(ids), "kaynak id'leri benzersiz olmali")
+
+
 def test_w36_aci7_geri_alindi_paylasilan_host():
     """2026-W36 (2026-08-31): tarih icin fazladan istek GERI TEPTI - olculdu.
 
@@ -1841,6 +1933,7 @@ def run():
                test_v20_gonderilmis_hafiza,
                test_v20_gunluk_tarama_arsivi_ezmez,
                test_v20_indiana_hindistan_degil,
+               test_w36_host_korumasi_ve_ikinci_arama_hostu,
                test_w36_aci7_geri_alindi_paylasilan_host,
                test_w36_tekrar_ve_kose_yonu,
                test_w36_finalize_ozetsiz_calismaz,

@@ -286,6 +286,32 @@ açılıp da liste boş döndüyse kaynak *erişilemez değildir* — v20'nin il
 halinde zincirin "sitemap boş" hatası bu duruma yazılıyor ve China Baowu ile
 SteelGuru erişilemeyen listesine yanlış giriyordu.
 
+### Host bütçesi ve soğutma — bu hata sınıfı artık yapısal olarak kapalı
+
+`http.fetch` her isteği göndermeden **host bütçesini sorar**. Bütçe dolunca
+istek gönderilmez — hangi iş isterse istesin. Bir host hız sınırı sinyali
+(429/503) döndürdüğünde **soğutmaya alınır** ve o koşuda bir daha
+denenmez; ısrar, yumuşak kısıtlamayı sert bloğa çevirir.
+
+Bunun anlamı şudur: **yeni bir katman eklemek mevcut katmanı artık riske
+atamaz.** En kötü ihtimalle yeni katman kendi bütçesini tüketir. Host
+sağlığı koşu çıktısına ve `hafta_*.json`'a yazılır — sessiz kısıtlama en
+kötüsüdür.
+
+### İkinci arama host'u — tek noktadan çökme bitti
+
+169 kaynağın 80'i tek host'taydı (news.google.com), yani arama katmanının
+**tamamı** tek sağlayıcıya bağlıydı. Her Google News sorgusunun **Bing News
+aynası otomatik üretilir** (`sources._bing_aynalari`) — elle ikinci liste
+tutulmaz, sorgu eklendiğinde aynası bedava gelir ve iki liste asla sapmaz.
+Ayrı host, ayrı hız sınırı, ayrı indeks: biri çökerse diğeri ayakta kalır.
+
+Kapı **genişlemez** — aynı sorgular, aynı kapsam kapısı, aynı tarih
+zinciri. Değişen tek şey aynı sorunun ikinci bir yere de sorulması. Ayrıca
+besleme maddesi yapısal tarih (`pubDate`) taşır, yani bu katmandan gelen
+haber "tarihsiz elendi" kovasına hiç düşmez — haftalık kaybın en büyük
+kalemi oydu (96 kayıt).
+
 ### Paylaşılan host'a fazladan istek bedava değildir
 
 169 kaynağın **~90'ı Google News arama beslemesidir** — hepsi tek host.

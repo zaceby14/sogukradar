@@ -560,6 +560,57 @@ def by_id(sid):
     return None
 
 
+# --------------------------------------------------------------------- #
+# IKINCI ARAMA HOST'U - TEK NOKTADAN COKMEYI BITIRIR
+#
+# 2026-08-31 olcumu: 169 kaynagin 80'i news.google.com'daydi, yani arama
+# katmaninin TAMAMI tek host'a bagliydi. O gun Google 503 dondu ve
+# erisilemeyen kaynak 9'dan 89'a firladi; bulten uretilemedi. Tek bir
+# saglayicinin kotu gunu butun bulteni dusuruyorsa bu bir tasarim
+# hatasidir, sanssizlik degil.
+#
+# Cozum AYNALAMA: her Google News sorgusunun Bing News karsiligi otomatik
+# uretilir. Elle ikinci bir liste tutulmaz - sorgu eklendiginde aynasi
+# bedava gelir ve iki liste birbirinden asla sapmaz.
+#
+# Neden ise yarar: ayri host, ayri hiz siniri, ayri indeks. Biri
+# cokerse digeri ayakta kalir. Ayrica besleme maddesi YAPISAL tarih
+# tasir (pubDate), yani bu katmandan gelen haber "tarihsiz elendi"
+# kovasina hic dusmez - haftalik kaybin en buyuk kalemi oydu.
+#
+# Kapi GENISLEMEZ: ayni sorgular, ayni kapsam kapisi, ayni tarih zinciri.
+# Degisen tek sey ayni sorunun ikinci bir yere de sorulmasi.
+# --------------------------------------------------------------------- #
+_CEID_MKT = {"US:en": "en-US", "TR:tr": "tr-TR", "CN:zh-Hans": "zh-CN",
+             "KR:ko": "ko-KR", "JP:ja": "ja-JP", "DE:de": "de-DE",
+             "ES:es": "es-ES"}
+
+
+def _bing_aynalari(srcs):
+    import re
+    import urllib.parse as _up
+    out = []
+    for s in srcs:
+        adres = s.get("rss") or s.get("url") or ""
+        if s.get("kind") != "arama" or "news.google.com" not in adres:
+            continue
+        qs = _up.parse_qs(_up.urlparse(adres).query)
+        q = (qs.get("q") or [""])[0]
+        # "when:30d" Google'a ozgudur; Bing'de karsiligi qft araligidir.
+        q = re.sub(r"\s*when:\d+[dhm]\s*", " ", q).strip()
+        if not q:
+            continue
+        mkt = _CEID_MKT.get((qs.get("ceid") or [""])[0], "en-US")
+        u = ("https://www.bing.com/news/search?q=" + _up.quote(q)
+             + "&qft=interval%3d%229%22&format=RSS&setmkt=" + mkt)
+        out.append(dict(id="b" + s["id"], publisher="Bing News", kind="arama",
+                        country="XX", url=u, rss=u, verified=False))
+    return out
+
+
+SOURCES = SOURCES + _bing_aynalari(SOURCES)
+
+
 def active(kinds=None):
     if not kinds:
         return list(SOURCES)
