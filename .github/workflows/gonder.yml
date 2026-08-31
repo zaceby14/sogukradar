@@ -47,8 +47,24 @@ jobs:
             exit 1
           fi
 
+      # SIRLAR EKSIKSE SESSIZCE ATLANMAZ (2026-08-31). Onceki surumde posta
+      # adimi "if: env.MAIL_USER != ''" tasiyordu: sir tanimli degilse adim
+      # ATLANIYOR, is akisi YESIL bitiyor ve "posta gonderildi" ozeti yine
+      # yaziliyordu. Gonderilmeyen bulten, gonderilmis gibi gorunuyordu.
+      - name: Sirlar tanimli mi
+        run: |
+          eksik=""
+          [ -n "${{ secrets.MAIL_USER }}" ] || eksik="$eksik MAIL_USER"
+          [ -n "${{ secrets.MAIL_PASS }}" ] || eksik="$eksik MAIL_PASS"
+          [ -n "${{ secrets.MAIL_TO }}"   ] || eksik="$eksik MAIL_TO"
+          if [ -n "$eksik" ]; then
+            echo "POSTA GONDERILEMEZ - tanimli olmayan sir(lar):$eksik"
+            exit 1
+          fi
+          echo "sirlar tanimli"
+
       - name: E-posta gonder
-        if: env.MAIL_USER != ''
+        id: posta
         uses: dawidd6/action-send-mail@v3
         with:
           server_address: smtp.gmail.com
@@ -61,5 +77,19 @@ jobs:
           from: SogukRadar Bulten
           html_body: file://out/email.html
 
+      # KANIT (2026-08-31). Gonderme adimi hicbir sey basmiyordu; "success"
+      # disinda elimizde delil yoktu ve haftalarca postanin gidip gitmedigi
+      # anlasilamadi. Ozet artik NE gonderildigini yaziyor.
       - name: Ozet
-        run: echo "Posta gonderildi - $(head -1 out/ONAY)" >> $GITHUB_STEP_SUMMARY
+        run: |
+          {
+            echo "### SogukRadar posta"
+            echo ""
+            echo "- donem: $(head -1 out/ONAY)"
+            echo "- gonderme adimi: ${{ steps.posta.outcome }}"
+            echo "- alici sayisi: $(echo '${{ secrets.MAIL_TO }}' | tr ',' '\n' | grep -c .)"
+            echo "- govde: out/email.html ($(wc -c < out/email.html) bayt, $(grep -c '<tr' out/email.html || true) satir etiketi)"
+            echo ""
+            echo "Konu: Soguk Haddehane ve Nihai Hatlarda Sektor & Teknoloji Takibi"
+          } >> $GITHUB_STEP_SUMMARY
+          test "${{ steps.posta.outcome }}" = "success" || exit 1
