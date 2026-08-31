@@ -74,7 +74,7 @@
    "tedarikci": "",
    "tutar": "",
    "ulke": "BAE",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95cacd4e7441aeb951448930105137&url=https%3a%2f%2fwww.msn.com%2fen-ae%2fnews%2fother%2fkezad-galvanising-facility-moves-closer-to-commissioning%2far-AA2ayC80&c=5487109860416195630&mkt=en-us"
+   "url": "https://www.msn.com/en-ae/news/other/kezad-galvanising-facility-moves-closer-to-commissioning/ar-AA2ayC80"
   },
   {
    "anahtar": "730bd1f322f11f09",
@@ -1037,24 +1037,7 @@
   }
  ],
  "source_health": {},
- "tech_rezerv": [
-  {
-   "anahtar": "tech:9e26740970742b85",
-   "baslik": "Fives supplies technologies for Xinyu's new electrical steel facility",
-   "hat": "Elektrik celigi hatti",
-   "kaynak": "SteelOrbis",
-   "tarih": "2026-08-28",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/fives-supplies-technologies-for-xinyus-new-electrical-steel-facility-1473583.htm"
-  },
-  {
-   "anahtar": "tech:8f6043a18acdc49f",
-   "baslik": "Primetals Technologies to Modernize PLTCM for KG Steel in South Korea",
-   "hat": "Tandem soguk hadde (TCM)",
-   "kaynak": "Bing News",
-   "tarih": "2026-08-18",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95be321aca42b4bc9c226ed3591336&url=https%3a%2f%2fnote.com%2fsankituushin%2fn%2fn4cc3fa0e878e%3fhl%3den&c=3218958862499560946&mkt=en-us"
-  }
- ],
+ "tech_rezerv": [],
  "tech_seen": {
   "tech:c1e20af1f2d7d31b": "2026-06-15",
   "tech:ed3b87951b013f72": "2026-07-13",

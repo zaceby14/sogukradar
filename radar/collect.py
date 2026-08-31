@@ -122,6 +122,37 @@ RE_LOC = re.compile(r"<loc>\s*(.*?)\s*</loc>", re.S | re.I)
 RE_LASTMOD = re.compile(r"<lastmod>\s*(.*?)\s*</lastmod>", re.S | re.I)
 
 
+def temiz_adres(url):
+    """Aggregator yonlendirmesinden YAYINCININ KENDI adresini cikarir.
+
+    Bing haber beslemesi adresi su bicimdedir ve gercek adresi ICINDE tasir:
+      http://www.bing.com/news/apiclick.aspx?ref=FexRss&tid=...&url=<kodlanmis>&c=...
+    Cozum agi HIC kullanmaz - adres zaten elimizde, yalnizca kodu acilir.
+
+    NEDEN ONEMLI (2026-08-31): rapordaki baglanti okuyucunun tikladigi seydir.
+    Aggregator yonlendirmesi tiklandiginda once arama motoruna gider; W35'te
+    Roofings satirinin baglantisini bu yuzden ELLE duzeltmek zorunda kaldim
+    ("kaynak Google News yonlendirmesiydi, okuyucu icin kullanissiz"). Arama
+    katmani kaynaklarin yarisi oldugu icin bu artik tek tek duzeltilecek bir
+    is degil.
+
+    Google News'in yeni bicimi (CBMi...) SIFRELIDIR ve cevrimdisi cozulemez;
+    o adresler oldugu gibi kalir ve editorun duzeltme listesinde gorunur.
+    """
+    import urllib.parse as _up
+    if not url:
+        return url
+    try:
+        p = _up.urlparse(url)
+        if p.netloc.endswith("bing.com") and "apiclick" in p.path:
+            gercek = _up.parse_qs(p.query).get("url", [""])[0]
+            if gercek.startswith("http"):
+                return gercek
+    except Exception:
+        pass
+    return url
+
+
 def slug_baslik(url):
     """Haber adresinin son parcasindan okunabilir bir baslik uretir.
 
@@ -169,6 +200,7 @@ def _items_from_sitemap(s, log):
         items = feeds.parse_feed(text)[:MAX_LINKS_PER_SOURCE]
         for it in items:
             it["from_feed"] = True
+            it["url"] = temiz_adres(it.get("url"))
         if items:
             log("    (besleme: %d kayit)" % len(items))
         return items, (None if items else "besleme bos")
@@ -395,6 +427,7 @@ def _items_from_web(s, log):
         items = feeds.parse_feed(text)[:MAX_LINKS_PER_SOURCE]
         for it in items:
             it["from_feed"] = True
+            it["url"] = temiz_adres(it.get("url"))
         return items, None
 
     # HTML: once sayfada gomulu besleme var mi bak (tarih yapisal gelsin)
@@ -432,6 +465,8 @@ def collect(today=None, log=print):
     sb_floor = (today - dt.timedelta(days=21)).isoformat()
     katki = {}
     tech_seen = st.get("tech_seen", {})
+    gonderilmis = [b for b in (st.get("son_basliklar") or [])
+                   if not taxonomy.is_junk_title(b.get("b", ""))]
     # Ayni kosuda ayni haberin ikinci kopyasi (iki gnews sorgusu ayni sonucu
     # dondurur) ve AYNI OLAYIN farkli baslikli varyanti icin iki savunma:
     run_keys = set()
@@ -471,6 +506,34 @@ def collect(today=None, log=print):
         # facility" idi ve o haber 2026-W35 bulteninde satir olarak zaten
         # gitmisti. Okuyucu icin ikisi ayni haberdir; yon fark etmez.
         if ham in seen:
+            return
+        # AYNI MADDE HAVUZA IKI KEZ GIRMEZ (2026-08-31). Iki aggregator ayni
+        # haberi farkli yonlendirme adresiyle donduruyor; anahtar ayni ama
+        # havuzda uc kopya birikti.
+        if any(t["anahtar"] == key for t in tech_pool):
+            return
+        # GONDERILMIS OLAYIN VARYANTI DA KOSEYE GIREMEZ. "ham in seen"
+        # kontrolu ANAHTAR bazlidir; baska yayinin ayni olayi anlatan
+        # varyantinin anahtari farklidir. 2026-W36'da havuza
+        # "Primetals Technologies to Modernize PLTCM for KG Steel in South
+        # Korea" girdi - W35 bulteninde "KG Steel selects Primetals for
+        # Dangjin PLTCM upgrade and capacity expansion" olarak zaten
+        # gitmisti.
+        #
+        # BASLIK BENZERLIGI BU CIFTI YAKALAMAZ - olculdu: ortak ayirt edici
+        # kelimeler yalniz "steel" ve "pltcm", oran %30. Yakalayan bacak
+        # OLAY PARMAK IZIDIR (tedarikci + hat + asama), satirlarda oldugu
+        # gibi. Bu yuzden aday icin de aday bir satir kurulup ayni izler
+        # hesaplanir.
+        aday_satir = {"tedarikci": classify.detect_supplier(blob) or "",
+                      "firma": classify.detect_firm(it["title"]) or "",
+                      "hat": taxonomy.match_line(blob),
+                      "ulke": taxonomy.match_country(blob),
+                      "asama": taxonomy.match_stage(it["title"])}
+        if set(event_keys(aday_satir)) & set(ev_state):
+            return
+        if any(taxonomy.similar_titles(it["title"], b.get("b", ""))
+               for b in gonderilmis):
             return
         tech_pool.append({"anahtar": key, "tarih": date_iso, "baslik": it["title"],
                           "url": it["url"], "kaynak": publisher,

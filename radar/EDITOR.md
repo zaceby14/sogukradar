@@ -176,6 +176,28 @@ tersi oldu: tarama, gönderilen 6 satırlık W35 bülteninin kaydı olan
 `out/hafta_2026-W35.json`'u rezervden gelen 4 satırla ezdi; ne gönderdiğimi
 ancak git geçmişinden çıkarabildim.)
 
+### Rapordaki bağlantı okuyucunun tıkladığı şeydir
+
+Aggregator yönlendirmesi tıklandığında önce arama motoruna gider. W35'te
+Roofings satırının bağlantısını bu yüzden **elle** düzeltmek zorunda kaldım;
+arama katmanı artık kaynakların yarısı olduğu için bu tek tek düzeltilecek
+bir iş değil. Bing adresi gerçek adresi `&url=` içinde taşır ve ağ
+kullanmadan çözülür. Google'ın yeni biçimi (`CBMi…`) **şifrelidir**,
+çevrimdışı çözülemez — o adresler olduğu gibi kalır ve editörün düzeltme
+listesinde görünür.
+
+### Köşe adayı da tekrar denetiminden geçer
+
+"Köşede tanıtılmış haber satır olamaz" kuralı çift yönlü olmakla kalmaz;
+**gönderilmiş olayın varyantı da köşeye giremez.** `seen` kontrolü anahtar
+bazlıdır ve başka yayının aynı olayı anlatan varyantının anahtarı farklıdır.
+Ölçüldü: "Primetals Technologies to Modernize PLTCM for KG Steel in South
+Korea" havuza girdi — W35'te "KG Steel selects Primetals for Dangjin PLTCM
+upgrade" olarak zaten gitmişti. **Başlık benzerliği bu çifti yakalamaz**
+(ortak ayırt edici kelime yalnız `steel` ve `pltcm`, oran %30); yakalayan
+bacak olay parmak izidir, bu yüzden köşe adayı için de aday bir satır
+kurulup aynı izler hesaplanır.
+
 ## 4i. Bulunan havuzu — görülen haber unutulmaz
 
 **Hacim sorununun asıl sebebi buydu.** Günlük tarama kabul ettiği satırı

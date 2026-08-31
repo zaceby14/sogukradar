@@ -1415,6 +1415,74 @@ def test_v20_indiana_hindistan_degil():
             "rolling capacity"), "Hindistan", "crore Hindistan sinyalidir")
 
 
+def test_w36_adres_ve_teknoloji_havuzu():
+    """2026-08-31: okuyucunun tikladigi baglanti ve kosenin tekrarlari.
+
+    (1) AGGREGATOR YONLENDIRMESI OKUYUCUYA GITMEMELI. Rapordaki baglanti
+        okuyucunun tikladigi seydir; yonlendirme once arama motoruna gider.
+        W35'te Roofings satirinin baglantisini bu yuzden ELLE duzeltmek
+        zorunda kaldim. Arama katmani artik kaynaklarin yarisi oldugu icin
+        bu tek tek duzeltilecek bir is degil.
+        Bing adresi gercek adresi ICINDE tasir, cozum agi hic kullanmaz.
+        Google'in yeni bicimi (CBMi...) SIFRELIDIR ve cevrimdisi cozulemez;
+        o adresler oldugu gibi kalir.
+
+    (2) TEKNOLOJI HAVUZUNDA AYNI MADDE UC KEZ. Iki aggregator ayni haberi
+        farkli yonlendirme adresiyle donduruyor; anahtar ayni ama havuza
+        uc kopya girdi.
+
+    (3) GONDERILMIS OLAYIN VARYANTI KOSEYE GIREMEZ. "ham in seen" kontrolu
+        ANAHTAR bazlidir; baska yayinin ayni olayi anlatan varyantinin
+        anahtari farklidir. Havuza "Primetals Technologies to Modernize
+        PLTCM for KG Steel in South Korea" girdi - W35 bulteninde
+        "KG Steel selects Primetals for Dangjin PLTCM upgrade and capacity
+        expansion" olarak zaten gitmisti.
+    """
+    from .collect import temiz_adres
+
+    bing = ("http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95"
+            "&url=https%3a%2f%2fwww.msn.com%2fen-ae%2fnews%2fother%2fkezad-"
+            "galvanising-facility-moves-closer-to-commissioning%2far-AA2ayC80"
+            "&c=548&mkt=en-us")
+    eq(temiz_adres(bing).startswith("https://www.msn.com/en-ae/news/other/"
+                                    "kezad-galvanising"), True,
+       "Bing yonlendirmesi yayincinin adresine cozulmeli")
+    gnews = "https://news.google.com/rss/articles/CBMijwFBVV95cUxN?oc=5"
+    eq(temiz_adres(gnews), gnews, "sifreli Google adresi bozulmadan kalmali")
+    eq(temiz_adres("https://www.steelorbis.com/steel-news/x.htm"),
+       "https://www.steelorbis.com/steel-news/x.htm", "normal adres degismez")
+    eq(temiz_adres(""), "", "bos adres cokmemeli")
+    eq(temiz_adres(None), None, "None cokmemeli")
+
+    src = open(os.path.join(os.path.dirname(__file__), "collect.py"),
+               encoding="utf-8").read()
+    g = src[src.index("def maybe_tech("):src.index("def maybe_rezerv(")]
+    eq('any(t["anahtar"] == key for t in tech_pool)' in g, True,
+       "ayni madde havuza iki kez girmemeli")
+    eq("gonderilmis" in g, True,
+       "gonderilmis olayin varyanti koseye girmemeli")
+
+    # VAKANIN DAYANAGI: basligi benzerlik YAKALAMAZ - olculdu. Ortak ayirt
+    # edici kelimeler yalniz "steel" ve "pltcm", oran %30. Bu yuzden koseye
+    # OLAY PARMAK IZI bacagi konuldu, baslik bacagi degil.
+    a = "Primetals Technologies to Modernize PLTCM for KG Steel in South Korea"
+    b = ("KG Steel selects Primetals for Dangjin PLTCM upgrade and capacity "
+         "expansion")
+    eq(taxonomy.similar_titles(a, b), False,
+       "baslik bacagi bu cifti yakalamaz - vakanin dayanagi")
+    from .collect import event_keys
+    gonderilen = {"tedarikci": "Primetals", "firma": "KG Steel",
+                  "hat": "Tandem soguk hadde (TCM)", "ulke": "G. Kore",
+                  "asama": "Modernizasyon"}
+    aday = {"tedarikci": "Primetals Technologies", "firma": "KG Steel",
+            "hat": "Tandem soguk hadde (TCM)", "ulke": "G. Kore",
+            "asama": "Modernizasyon"}
+    eq(bool(event_keys(aday) & event_keys(gonderilen)), True,
+       "olay parmak izi ayni KG Steel/Primetals olayini yakalamali")
+    eq("set(event_keys(aday_satir)) & set(ev_state)" in g, True,
+       "kose adayi olay parmak izinden gecmeli")
+
+
 def test_w36_bulunan_havuzu_ve_yanlis_tekrar():
     """2026-08-31: hacim sorununun ASIL sebebi - gorulen haber unutuluyordu.
 
@@ -2202,6 +2270,7 @@ def run():
                test_v20_gonderilmis_hafiza,
                test_v20_gunluk_tarama_arsivi_ezmez,
                test_v20_indiana_hindistan_degil,
+               test_w36_adres_ve_teknoloji_havuzu,
                test_w36_bulunan_havuzu_ve_yanlis_tekrar,
                test_w36_havuz_karari_tasir_kodu_degil,
                test_w36_bing_katmaninin_actigi_uc_delik,
