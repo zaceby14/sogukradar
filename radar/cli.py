@@ -381,7 +381,22 @@ def cmd_finalize(a):
     per = a.period or _period(dt.date.today())
     base = os.path.join(OUT, "hafta_%s" % per)
     payload = json.load(open(base + ".json", encoding="utf-8"))
-    doc = json.load(open(a.summaries, encoding="utf-8")) if a.summaries else {}
+    # -s UNUTULURSA SESSIZCE GECMEZ (2026-08-31). "-s" verilmeyince doc bos
+    # kaliyor ve finalize editorun BUTUN kararlarini - duzeltmeleri,
+    # cikarilan satirlari, Turkce cumleleri, teknoloji kosesini - sessizce
+    # atlayip yine de bulten uretiyor VE her satiri "gonderildi"
+    # isaretliyordu. 2026-W36'da tam bu oldu: cikarilmasi gereken iki satir
+    # (bir tekrar, bir tarihi celiskili) postaya girecekti ve dordu de
+    # hafizaya yazildi. Ozet dosyasi diskte duruyorken onu ATLAMAK bir
+    # secim olamaz.
+    ozet_yolu = a.summaries or os.path.join(OUT, "ozet.json")
+    if not a.summaries and os.path.exists(ozet_yolu):
+        print("uyari: -s verilmedi, %s kullaniliyor" % ozet_yolu)
+    if not os.path.exists(ozet_yolu):
+        print("HATA: editor ozeti yok (%s). Ozetsiz finalize, editorun butun\n"
+              "      kararlarini atlar ve satirlari 'gonderildi' isaretler." % ozet_yolu)
+        return 1
+    doc = json.load(open(ozet_yolu, encoding="utf-8"))
     fixes = doc.get("duzeltmeler", {})
     for r in payload["rows"]:
         for k, v in (fixes.get(r["anahtar"]) or {}).items():

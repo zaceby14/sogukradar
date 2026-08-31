@@ -3,7 +3,13 @@
   "andritz|fu|Hindistan|Galvaniz hatti (CGL)": "2026-08-25",
   "andritz|hat|Galvaniz hatti (CGL)|Sozlesme": "2026-08-25",
   "andritz|ulke|Hindistan|Sozlesme": "2026-08-25",
+  "arcelormittal|fu|Turkiye|Belirsiz": "2026-08-31",
+  "arcelormittal|hat|Belirsiz|Belirsiz": "2026-08-31",
+  "arcelormittal|ulke|Turkiye|Belirsiz": "2026-08-31",
   "fives|hat|Elektrik celigi hatti|Ilk urun": "2026-08-28",
+  "fy28|fu|Hindistan|Soguk hadde": "2026-08-16",
+  "fy28|hat|Soguk hadde|Belirsiz": "2026-08-16",
+  "fy28|ulke|Hindistan|Belirsiz": "2026-08-16",
   "primetals|hat|Tandem soguk hadde (TCM)|Modernizasyon": "2026-08-11",
   "roofings unveils|hat|Soguk hadde|Belirsiz": "2026-08-25",
   "tosyali algerie|fu|Cezayir|Soguk hadde": "2026-07-29",
@@ -595,32 +601,6 @@
    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMzF1RWZTMXBiMDhndDAtbEZwYVRISXdVbTlhMmstbGFrMzJaVXBGVVk3RElGczQ4NjFxaTFfcVE1MkNaQm5KRUNTYnVTNlpsT3oxZzhzRVpBM0JSSWNtU0pYMnEtOF91SEpDWFV1eEQxV1ZnT0JLcVE1VG9sc3h2Q1RuOUtRX0FhZFJpbkpzSS15dlhWdEJwM0cteXVZSjZIZzB6Sl9iRDduRXY1?oc=5"
   },
   {
-   "anahtar": "dbf500463fb21d96",
-   "asama": "Belirsiz",
-   "baslik": "U. S. Steel Announces Plans to Restart Gary Tin Mill",
-   "eksik": [
-    "asama"
-   ],
-   "firma": "U. S. Steel Announces",
-   "hat": "Teneke hatti (ETL)",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "U.S. Steel",
-   "kaynak_id": "ussteel",
-   "olaylar": [
-    "u. s. steel announces|fu|Hindistan|Teneke hatti (ETL)",
-    "u. s. steel announces|hat|Teneke hatti (ETL)|Belirsiz",
-    "u. s. steel announces|ulke|Hindistan|Belirsiz"
-   ],
-   "rezerv": true,
-   "tarih": "2026-04-16",
-   "tarih_kaynagi": "liste",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "ABD",
-   "url": "https://www.ussteel.com:443/media/newsroom/-/blogs/u-s-steel-announces-plans-to-restart-gary-tin-mill?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fwww.ussteel.com%3A443%2Fmedia%2Fnewsroom%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26_com_liferay_blogs_web_portlet_BlogsPortlet_cur%3D1%26_com_liferay_blogs_web_portlet_BlogsPortlet_delta%3D20"
-  },
-  {
    "anahtar": "971c858c2cf021dc",
    "asama": "Ilk urun",
    "baslik": "New MINO Double-Stand Six-High Cold Reversing Mill in North America",
@@ -649,6 +629,7 @@
  ],
  "seen": {
   "05ee3ccfafa36b08": "2026-08-11",
+  "1457ad47e4e48f43": "2026-08-31",
   "1733ff02c2b335cf": "2026-08-05",
   "1d40f81689c438c8": "2026-08-25",
   "43d668b85bed5aed": "2026-08-17",
@@ -656,6 +637,7 @@
   "92e4a5a31f19b487": "2026-07-29",
   "9e26740970742b85": "2026-08-28",
   "c0b5f864813ba8fd": "2026-08-17",
+  "dbf500463fb21d96": "2026-04-16",
   "fb51c908b538f5ec": "2026-08-25"
  },
  "son_basliklar": [
@@ -735,6 +717,20 @@
    "t": "2026-08-12",
    "ted": "",
    "u": "Rusya"
+  },
+  {
+   "a": "Belirsiz",
+   "b": "ArcelorMittal approves Tubarao flat steel expansion",
+   "t": "2026-08-31",
+   "ted": "",
+   "u": "Brezilya"
+  },
+  {
+   "a": "Belirsiz",
+   "b": "U. S. Steel Announces Plans to Restart Gary Tin Mill",
+   "t": "2026-04-16",
+   "ted": "",
+   "u": "ABD"
   }
  ],
  "source_health": {},

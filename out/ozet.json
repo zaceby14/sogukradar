@@ -1,71 +1,39 @@
 {
- "exec": "Bu hafta altı gelişme var ve dördü doğrudan hat yatırımı. Öne çıkan iki başlık soğuk haddeleme kompleksi devreye alma: Uganda'da Roofings, Danieli yapımı kompleksin dördüncü fazını açarak soğuk hadde kapasitesini 300 bin tona çıkardı; Tosyalı Algérie ise kendi soğuk haddeleme kompleksinde ilk üretimi yaptı. Elektrik çeliği tarafı hareketli: Fives Çin'de Xinyu'nun yeni tesisine teknoloji veriyor, Sanbao Grubu ise yönsüz silisyum çeliği tavlama fırınını devreye aldı. JSW Steel otomotiv sacı için ANDRITZ'e galvaniz hattı siparişi verdi, KG Steel Dangjin'deki PLTCM'i Primetals ile yeniliyor. Teknoloji köşesinde Severstal'ın galvaniz hattı yenilemesinde kullandığı dijital montaj yaklaşımı var.",
+ "exec": "Bu hafta iki gelişme var ve bültenin kısa olmasının sebebi arz değil, denetim: koşu dört satır üretti, ikisi elendi. ArcelorMittal Brezilya'daki Tubarão tesisinde yassı çelik genişleme yatırımını onayladı - proje yeni bir soğuk hadde hattı ve sürekli kaplama hattı içeriyor, haftanın en somut hat yatırımı bu. İkinci satır geç yakalandı: U. S. Steel, Indiana'daki Gary tesisinde teneke hattını yeniden devreye alma planını açıkladı. Elenen iki satırın gerekçesi 'AI Kontrolü ve Eklemeleri' bölümünde yazıyor. Teknoloji köşesi bu hafta boş: havuzdaki tek aday, 2026-W35 bülteninde zaten satır olarak gitmiş olan Fives/Xinyu haberiydi; aynı haberi ikinci kez göstermektense köşeyi boş bırakmak doğru.",
  "cumleler": {
-  "1d40f81689c438c8": "JSW Steel, Hindistan'daki tesisi için ANDRITZ'e sürekli galvaniz hattı siparişi verdi; hat, otomotiv sanayisinin talep ettiği yüksek mukavemetli kaplamalı sacları üretecek.",
-  "9e26740970742b85": "Fives, Çin'de Xinyu'nun yeni elektrik çeliği tesisine hat teknolojisi sağlayacak; şirketin bu alandaki referansları arasında ince yönsüz silisyum çeliği için soğuk hadde ve tavlama-kaplama hatları bulunuyor.",
-  "4d1d032a9f8bfc20": "Sanbao Grubu, yeni enerji uygulamaları için yüksek kaliteli yönsüz silisyum çeliği üreten SACL 3 numaralı tavlama fırınını sorunsuz biçimde devreye aldı.",
-  "fb51c908b538f5ec": "Uganda'da Roofings Group, Danieli yapımı soğuk haddeleme kompleksinin dördüncü fazını 125 milyon dolara devreye aldı; 150 bin ton ilave kapasiteyle toplam soğuk hadde kapasitesi 300 bin tona çıktı, tesis soğuk hadde, galvaniz ve boyama hatlarını Level 2 otomasyonla birlikte barındırıyor.",
-  "05ee3ccfafa36b08": "KG Steel, Dangjin tesisindeki asitleme-tandem soğuk hadde hattının (PLTCM) otomasyon yenilemesi ve kapasite artışı için Primetals Technologies'i seçti; 18 aylık proje yapay zekâ destekli proses modellerini kapsıyor.",
-  "92e4a5a31f19b487": "Tosyalı Algérie, Cezayir'deki soğuk haddeleme kompleksinde ilk üretimi gerçekleştirdi."
+  "1457ad47e4e48f43": "ArcelorMittal, Brezilya'daki Tubarão tesisinde yassı çelik genişleme yatırımını onayladı; proje yeni bir soğuk hadde hattı ile sürekli kaplama hattını kapsıyor ve otomotiv, beyaz eşya ve inşaat için yüksek katma değerli soğuk haddelenmiş ürün kapasitesini hedefliyor.",
+  "dbf500463fb21d96": "U. S. Steel, Indiana'daki Gary tesisinde teneke hattını yeniden devreye alma planını açıkladı; şirket yerli teneke talebine karşılık vermeyi gerekçe gösteriyor."
  },
  "duzeltmeler": {
-  "9e26740970742b85": {
-   "firma": "Fives / Xinyu",
-   "ulke": "Çin",
-   "asama": "Sozlesme"
+  "1457ad47e4e48f43": {
+   "firma": "ArcelorMittal",
+   "ulke": "Brezilya",
+   "hat": "Soguk hadde + kaplama hatti"
   },
-  "4d1d032a9f8bfc20": {
-   "firma": "Sanbao Grubu",
-   "ulke": "Çin",
-   "hat": "Elektrik celigi hatti"
-  },
-  "fb51c908b538f5ec": {
-   "firma": "Roofings Group",
-   "ulke": "Uganda",
-   "asama": "Ilk urun",
-   "tedarikci": "Danieli",
-   "kapasite": "300.000 t/y",
-   "url": "https://softpower.ug/roofings-unveils-125m-steel-mill-doubles-cold-rolled-capacity-to-300000-tonnes/",
-   "kaynak": "SoftPower News"
-  },
-  "05ee3ccfafa36b08": {
-   "ulke": "G. Kore"
-  },
-  "1d40f81689c438c8": {
-   "firma": "JSW Steel"
-  },
-  "92e4a5a31f19b487": {
-   "firma": "Tosyalı Algérie",
-   "ulke": "Cezayir"
+  "dbf500463fb21d96": {
+   "firma": "U. S. Steel",
+   "ulke": "ABD"
   }
  },
- "cikar": [],
- "teknolojiler": [
-  {
-   "anahtar": "tech:severstal-chermk-dijital-montaj",
-   "tarih": "2026-07-28",
-   "konu": "Galvaniz hattı yenilemesinde dijital montaj",
-   "metin": "Severstal, Çerepovets'teki (CherMK) galvaniz hattı yenileme projesi için dijital montaj teknolojisi geliştirdiğini duyurdu. Şirketin dijital birimi aynı tesiste sürekli sıcak daldırma galvaniz hatlarında yapay görü tabanlı otomatik yüzey kalite kontrolünü de yaygınlaştırıyor.",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/severstal-develops-digital-installation-technology-for-chermk-galvanizing-line-upgrade-1467262.htm"
-  }
- ],
+ "cikar": ["24e2dda77f2e84e9", "971c858c2cf021dc"],
+ "teknolojiler": [],
  "ai_duzeltme": [
-  {
-   "baslik": "Fives / Xinyu elektrik çeliği",
-   "neden": "aşama 'İlk ürün' okunmuştu; haber tedarik sözleşmesi, Sözleşme olarak düzeltildi"
-  },
-  {
-   "baslik": "Roofings Group",
-   "neden": "firma adı başlıktan 'Roofings Unveils' olarak çıkmıştı; ülke, tedarikçi (Danieli), kapasite ve doğrudan kaynak bağlantısı elle dolduruldu"
-  },
-  {
-   "baslik": "Sanbao Grubu / KG Steel",
-   "neden": "Çince başlıkta firma, Kore haberinde ülke alanı boştu; ikisi de tamamlandı"
-  }
+  {"baslik": "ArcelorMittal / Tubarão",
+   "neden": "ülke 'Türkiye' okunmuştu; Tubarão Brezilya'dadır. Hat alanı boştu, haberdeki iki hat (soğuk hadde + sürekli kaplama) yazıldı."},
+  {"baslik": "U. S. Steel / Gary",
+   "neden": "firma adı başlıktan 'U. S. Steel Announces' olarak çıkmıştı, düzeltildi."}
+ ],
+ "ai_cikarilan": [
+  {"baslik": "Jindal Stainless investing Rs 900 crore to increase cold rolling capacity to 2.67 MT by FY28",
+   "neden": "TEKRAR. Aynı yatırım 2026-W34 bülteninde 'India's Jindal Stainless Limited to invest $94 million to ramp up cold rolling capacity' başlığıyla zaten gitti (17.08). İki yayın aynı duyuruyu farklı para biriminde yazmış. Tekrar savunmasının başlık benzerliği bacağı bunu kaçırdı çünkü iki satırın AŞAMASI farklıydı ve o bacak aynı aşamayı şart koşuyor; kusur düzeltildi."},
+  {"baslik": "New MINO Double-Stand Six-High Cold Reversing Mill in North America",
+   "neden": "TARİH ÇELİŞKİLİ. Sayfanın yapısal tarihi 13.03.2026 diyor, ama MINO'nun kendi proje sayfası 27.06.2024, üretime geçiş ise başka bir kaynakta Mart 2025 olarak geçiyor. Satır 'İLK ÜRÜN' rozeti taşıyacaktı - bültenin en pahalı iddiası. Doğrulanamayan tarih girmez; çelişki çözülene kadar rezervde bekliyor."}
  ],
  "ai_kontrol": [
-  "SteelOrbis, Steel Times International ve Mysteel sitemap'leri her gün taranıyor; bu hafta listede olmayan kapsam içi haber çıkmadı.",
-  "Roofings ve Severstal satırları bağımsız kaynaklardan çapraz doğrulandı (Uganda Investment Authority, SoftPower, Metallurgprom).",
-  "168 kaynağın 10'una erişilemedi (Steel Times International, ArcelorMittal, SMS group ve diğerleri bot korumasında); bu kaynakların haberleri arama katmanından yakalanmaya çalışılıyor."
+  "ArcelorMittal Tubarão satırı bağımsız kaynaklardan çapraz doğrulandı (GMK Center, SteelOrbis, Fastmarkets): projenin içeriği yeni soğuk hadde hattı + sürekli kaplama hattı.",
+  "U. S. Steel Gary satırı, rezervdeki ikinci bir varyantla ('US Steel Targets 2027 Restart of Ind. Tin Mill', 14.08) örtüşüyor; aynı olay, iki yayın. Bültene bir kez girdi.",
+  "SteelOrbis sitemap'i (400 adres) tarandı, listede olmayan kapsam içi haber çıkmadı. Steel Times International 403, Mysteel 404 verdi.",
+  "169 kaynağın 9'una erişilemedi - bu, ölçülen en iyi sonuç (geçen hafta 14, ondan önce 10). Sitemap zinciri kaynağın kendi adresinin arkasına alındığı için beş kaynak geri geldi.",
+  "Elle besleme kanalı denetlendi ve iki kaydım eskiydi: 'Guangzhou JFE Steel Sheet Starts up 2nd Continuous Galvanizing Line' 2012 tarihli, 'CMI supplies Europe's largest galvanizing line' ise CMI'nin 2019'da John Cockerill'e dönüşmesinden önceye ait. İkisi de boru hattı tarafından tarihsiz diye elenmişti - kural çalıştı - ama kayıtlar dosyadan çıkarıldı."
  ]
 }
