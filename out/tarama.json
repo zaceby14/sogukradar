@@ -1,52 +1,29 @@
 {
  "rows": [
   {
-   "tarih": "2026-08-24",
-   "firma": "Boost Ugandan Manufacturing",
-   "ulke": "",
-   "hat": "Soguk hadde",
-   "asama": "Ilk urun",
-   "tedarikci": "",
-   "kapasite": "",
-   "tutar": "$120 Million",
-   "baslik": "Museveni Unveils $120 Million Steel Complex to Boost Ugandan Manufacturing",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgq_hat14",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95be2faa42444d90bdde883997e656&url=https%3a%2f%2fwww.ugandaonline.net%2fnews%2f2026-08-25--museveni-unveils-120-million-steel-complex-to-boost-ugandan-manufacturing--b1b8655f4860%2f&c=9636092284349879570&mkt=en-us",
-   "tarih_kaynagi": "rss",
-   "eksik": [
-    "ulke"
-   ],
-   "anahtar": "7f5fec9b34584972",
-   "kategori": "Hat",
-   "olaylar": [
-    "boost ugandan manufacturing|hat|Soguk hadde|Ilk urun"
-   ],
-   "puan": 53.2
-  },
-  {
-   "tarih": "2026-08-26",
-   "firma": "Roofings Group",
-   "ulke": "",
-   "hat": "Soguk hadde",
+   "tarih": "2026-08-20",
+   "firma": "KEZAD",
+   "ulke": "BAE",
+   "hat": "Galvaniz hatti (CGL)",
    "asama": "Ilk urun",
    "tedarikci": "",
    "kapasite": "",
    "tutar": "",
-   "baslik": "Roofings Group, Uganda’da 125 milyon dolarlık yeni çelik tesisini faaliyete geçirdi",
+   "baslik": "KEZAD galvanising facility moves closer to commissioning",
    "kaynak": "Bing News",
-   "kaynak_id": "bgq_tr06",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95be3c73a74b90a9fe516c6769fe7f&url=https%3a%2f%2fwww.steelradar.com%2fhaber%2froofings-group-ugandada-125-milyon-dolarlik-yeni-celik-tesisini-faaliyete-gecirdi%2f&c=10506205159669172717&mkt=tr-tr",
+   "kaynak_id": "bgq_hat05",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95cacd4e7441aeb951448930105137&url=https%3a%2f%2fwww.msn.com%2fen-ae%2fnews%2fother%2fkezad-galvanising-facility-moves-closer-to-commissioning%2far-AA2ayC80&c=5487109860416195630&mkt=en-us",
    "tarih_kaynagi": "rss",
-   "eksik": [
-    "ulke"
-   ],
-   "anahtar": "daaf9c1210a1e6a2",
+   "eksik": [],
+   "anahtar": "4d59fdf2ae6ec46f",
    "kategori": "Hat",
    "olaylar": [
-    "roofings group|hat|Soguk hadde|Ilk urun"
+    "*|ulke-hat|BAE|Galvaniz hatti (CGL)|Ilk urun",
+    "kezad|fu|BAE|Galvaniz hatti (CGL)",
+    "kezad|hat|Galvaniz hatti (CGL)|Ilk urun",
+    "kezad|ulke|BAE|Ilk urun"
    ],
-   "puan": 50.0
+   "puan": 52.6
   },
   {
    "tarih": "2026-08-21",
@@ -60,7 +37,7 @@
    "baslik": "Cleveland-Cliffs matches $500M federal grant for Ohio steel mill without hydrogen retrofit",
    "kaynak": "Bing News",
    "kaynak_id": "bgq_hat12",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95be2e45b04908a30229a99bb5a363&url=https%3a%2f%2fwww.bizjournals.com%2fcleveland%2fnews%2f2026%2f08%2f21%2fmiddletown-works-cleveland-cliffs-hydrogen-steel.html&c=12483172322001066592&mkt=en-us",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95cad1a0c5416a97ac10eab8d7fa95&url=https%3a%2f%2fwww.bizjournals.com%2fcleveland%2fnews%2f2026%2f08%2f21%2fmiddletown-works-cleveland-cliffs-hydrogen-steel.html&c=12483172322001066592&mkt=en-us",
    "tarih_kaynagi": "rss",
    "eksik": [
     "hat"
@@ -75,54 +52,80 @@
    "puan": 34.0
   },
   {
-   "tarih": "2026-08-05",
-   "firma": "Triple-S Steel",
+   "tarih": "2026-08-24",
+   "firma": "NS-SUS",
    "ulke": "",
-   "hat": "Dilme / boy kesme / SSC",
+   "hat": "Bobin tasima / paketleme",
    "asama": "Belirsiz",
-   "tedarikci": "",
+   "tedarikci": "Danieli",
    "kapasite": "",
    "tutar": "",
-   "baslik": "Triple-S Steel acquires Camden Yards Steel",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgq_hat11",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95be2eefd9492797340d008ffc93f1&url=https%3a%2f%2fnjbiz.com%2ftriple-s-steel-acquires-camden-yards-steel%2f&c=9705910004172991754&mkt=en-us",
+   "baslik": "NS-SUS Completes Installation of New Danieli Coil-Handling Cranes",
+   "kaynak": "aist.org",
+   "kaynak_id": "gs_aist",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNejhtT3VSU2JqekN5bVh3bnhHdmFMbEtfWmxzQ0hFNXFhV2U5TklNWkhsbXYwQ3JnWEpNOGNyS2ZHRGZjYzViWmtDSEpZZnFiMDUxdktCWnpIWGJtNXNEaDNMUE5zRzIzNFFGZkRQc0RjNjdxOS15d0JpT2o2SFMyaUU4c0xMSU5QdG11YW14UQ?oc=5",
    "tarih_kaynagi": "rss",
    "eksik": [
     "ulke",
     "asama"
    ],
-   "anahtar": "40159f1debb141d2",
+   "anahtar": "f1860f395525b68a",
    "kategori": "Hat",
+   "olaylar": [
+    "danieli|hat|Bobin tasima / paketleme|Belirsiz",
+    "ns sus|hat|Bobin tasima / paketleme|Belirsiz"
+   ],
+   "puan": 23.2
+  },
+  {
+   "anahtar": "40159f1debb141d2",
+   "asama": "Belirsiz",
+   "baslik": "Triple-S Steel acquires Camden Yards Steel",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "firma": "Triple-S Steel",
+   "hat": "Dilme / boy kesme / SSC",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_hat11",
    "olaylar": [
     "triple s steel|hat|Dilme / boy kesme / SSC|Belirsiz"
    ],
-   "rezerv": true
+   "rezerv": true,
+   "tarih": "2026-08-05",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95be2eefd9492797340d008ffc93f1&url=https%3a%2f%2fnjbiz.com%2ftriple-s-steel-acquires-camden-yards-steel%2f&c=9705910004172991754&mkt=en-us"
   },
   {
-   "tarih": "2026-08-05",
-   "firma": "Ezz Flat Steel",
-   "ulke": "",
-   "hat": "Belirsiz",
+   "anahtar": "44d64530f05f9415",
    "asama": "Modernizasyon",
-   "tedarikci": "Danieli",
-   "kapasite": "",
-   "tutar": "",
    "baslik": "Ezz Flat Steel signs agreement with Danieli for QSP modernization in Ain Sokhna",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgq_sup02",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95be334252404aad05308958db0302&url=https%3a%2f%2fwww.steelradar.com%2fen%2fhaber%2fezz-flat-steel-signs-agreement-with-danieli-for-qsp-modernization-in-ain-sokhna%2f&c=6577064450131778690&mkt=en-us",
-   "tarih_kaynagi": "rss",
    "eksik": [
     "ulke",
     "hat"
    ],
-   "anahtar": "44d64530f05f9415",
+   "firma": "Ezz Flat Steel",
+   "hat": "Belirsiz",
+   "kapasite": "",
    "kategori": "Hat",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_sup02",
    "olaylar": [
     "danieli|hat|Belirsiz|Modernizasyon"
    ],
-   "rezerv": true
+   "rezerv": true,
+   "tarih": "2026-08-05",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "Danieli",
+   "tutar": "",
+   "ulke": "",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95be334252404aad05308958db0302&url=https%3a%2f%2fwww.steelradar.com%2fen%2fhaber%2fezz-flat-steel-signs-agreement-with-danieli-for-qsp-modernization-in-ain-sokhna%2f&c=6577064450131778690&mkt=en-us"
   },
   {
    "anahtar": "971c858c2cf021dc",
@@ -152,15 +155,15 @@
   }
  ],
  "stats": {
-  "kaynak": 249,
-  "erisilemeyen": 8,
-  "ham": 3296,
-  "on_eleme_gecti": 326,
-  "makale_acildi": 202,
+  "kaynak": 269,
+  "erisilemeyen": 9,
+  "ham": 3486,
+  "on_eleme_gecti": 329,
+  "makale_acildi": 201,
   "tarihsiz_elendi": 94,
-  "pencere_disi": 191,
-  "kapsam_disi": 2972,
-  "tekrar": 36,
+  "pencere_disi": 185,
+  "kapsam_disi": 3165,
+  "tekrar": 39,
   "kabul": 3,
   "gnews_tarih": 0
  },
@@ -168,6 +171,10 @@
   [
    "SMS group",
    "HTTP 403"
+  ],
+  [
+   "Butech Bliss",
+   "HTTP 500"
   ],
   [
    "Cognex",
@@ -368,6 +375,16 @@
   "gx_q_ja1": "arama",
   "gx_q_de1": "arama",
   "gx_q_es1": "arama",
+  "gs_sti": "arama",
+  "gs_sms": "arama",
+  "gs_amittal": "arama",
+  "gs_furnint": "arama",
+  "gs_bigmint": "arama",
+  "gs_mysteel": "arama",
+  "gs_aist": "arama",
+  "gs_nippon": "arama",
+  "gs_mfmag": "arama",
+  "gs_orbis2": "arama",
   "bgq_hat00": "arama",
   "bgq_hat01": "arama",
   "bgq_hat02": "arama",
@@ -447,17 +464,27 @@
   "bgx_q_ko1": "arama",
   "bgx_q_ja1": "arama",
   "bgx_q_de1": "arama",
-  "bgx_q_es1": "arama"
+  "bgx_q_es1": "arama",
+  "bgs_sti": "arama",
+  "bgs_sms": "arama",
+  "bgs_amittal": "arama",
+  "bgs_furnint": "arama",
+  "bgs_bigmint": "arama",
+  "bgs_mysteel": "arama",
+  "bgs_aist": "arama",
+  "bgs_nippon": "arama",
+  "bgs_mfmag": "arama",
+  "bgs_orbis2": "arama"
  },
  "today": "2026-08-31",
  "host_saglik": {
   "news.google.com": {
-   "istek": 93,
+   "istek": 103,
    "hiz_siniri": 0,
    "sogutmada": false
   },
   "www.bing.com": {
-   "istek": 80,
+   "istek": 90,
    "hiz_siniri": 0,
    "sogutmada": false
   },
@@ -477,7 +504,7 @@
    "anahtar": "tech:8f6043a18acdc49f",
    "tarih": "2026-08-18",
    "baslik": "Primetals Technologies to Modernize PLTCM for KG Steel in South Korea",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95be321aca42b4bc9c226ed3591336&url=https%3a%2f%2fnote.com%2fsankituushin%2fn%2fn4cc3fa0e878e%3fhl%3den&c=3218958862499560946&mkt=en-us",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95cad4a9b249fd85f7f5342bcf6e64&url=https%3a%2f%2fnote.com%2fsankituushin%2fn%2fn4cc3fa0e878e%3fhl%3den&c=3218958862499560946&mkt=en-us",
    "kaynak": "Bing News",
    "hat": "Tandem soguk hadde (TCM)"
   },
@@ -485,13 +512,14 @@
    "anahtar": "tech:8f6043a18acdc49f",
    "tarih": "2026-08-18",
    "baslik": "Primetals Technologies to Modernize PLTCM for KG Steel in South Korea",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95be4667eb4b3fb2e34e82e45ca63e&url=https%3a%2f%2fnote.com%2fsankituushin%2fn%2fn4cc3fa0e878e%3fhl%3den&c=3218958862499560946&mkt=en-us",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95cae91093492689a31a0a06e63723&url=https%3a%2f%2fnote.com%2fsankituushin%2fn%2fn4cc3fa0e878e%3fhl%3den&c=3218958862499560946&mkt=en-us",
    "kaynak": "Bing News",
    "hat": "Tandem soguk hadde (TCM)"
   }
  ],
  "kaynak_katki": {
-  "Bing News": 3
+  "Google News": 1,
+  "Bing News": 2
  },
  "window": [
   "2026-08-16",
@@ -500,6 +528,6 @@
  "rezerv_kullanilan": 3,
  "rezerv_havuz": 3,
  "period": "2026-W36",
- "generated": "2026-08-31 17:48 UTC",
+ "generated": "2026-08-31 18:42 UTC",
  "version": "3.0.0"
 }

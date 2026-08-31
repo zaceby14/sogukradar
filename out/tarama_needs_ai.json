@@ -2,37 +2,9 @@
  "donem": "2026-W36",
  "duzelt": [
   {
-   "anahtar": "7f5fec9b34584972",
-   "baslik": "Museveni Unveils $120 Million Steel Complex to Boost Ugandan Manufacturing",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95be2faa42444d90bdde883997e656&url=https%3a%2f%2fwww.ugandaonline.net%2fnews%2f2026-08-25--museveni-unveils-120-million-steel-complex-to-boost-ugandan-manufacturing--b1b8655f4860%2f&c=9636092284349879570&mkt=en-us",
-   "eksik": [
-    "ulke"
-   ],
-   "mevcut": {
-    "firma": "Boost Ugandan Manufacturing",
-    "ulke": "",
-    "hat": "Soguk hadde",
-    "asama": "Ilk urun"
-   }
-  },
-  {
-   "anahtar": "daaf9c1210a1e6a2",
-   "baslik": "Roofings Group, Uganda’da 125 milyon dolarlık yeni çelik tesisini faaliyete geçirdi",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95be3c73a74b90a9fe516c6769fe7f&url=https%3a%2f%2fwww.steelradar.com%2fhaber%2froofings-group-ugandada-125-milyon-dolarlik-yeni-celik-tesisini-faaliyete-gecirdi%2f&c=10506205159669172717&mkt=tr-tr",
-   "eksik": [
-    "ulke"
-   ],
-   "mevcut": {
-    "firma": "Roofings Group",
-    "ulke": "",
-    "hat": "Soguk hadde",
-    "asama": "Ilk urun"
-   }
-  },
-  {
    "anahtar": "392d2d9682089828",
    "baslik": "Cleveland-Cliffs matches $500M federal grant for Ohio steel mill without hydrogen retrofit",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95be2e45b04908a30229a99bb5a363&url=https%3a%2f%2fwww.bizjournals.com%2fcleveland%2fnews%2f2026%2f08%2f21%2fmiddletown-works-cleveland-cliffs-hydrogen-steel.html&c=12483172322001066592&mkt=en-us",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95cad1a0c5416a97ac10eab8d7fa95&url=https%3a%2f%2fwww.bizjournals.com%2fcleveland%2fnews%2f2026%2f08%2f21%2fmiddletown-works-cleveland-cliffs-hydrogen-steel.html&c=12483172322001066592&mkt=en-us",
    "eksik": [
     "hat"
    ],
@@ -41,6 +13,21 @@
     "ulke": "ABD",
     "hat": "Belirsiz",
     "asama": "Modernizasyon"
+   }
+  },
+  {
+   "anahtar": "f1860f395525b68a",
+   "baslik": "NS-SUS Completes Installation of New Danieli Coil-Handling Cranes",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNejhtT3VSU2JqekN5bVh3bnhHdmFMbEtfWmxzQ0hFNXFhV2U5TklNWkhsbXYwQ3JnWEpNOGNyS2ZHRGZjYzViWmtDSEpZZnFiMDUxdktCWnpIWGJtNXNEaDNMUE5zRzIzNFFGZkRQc0RjNjdxOS15d0JpT2o2SFMyaUU4c0xMSU5QdG11YW14UQ?oc=5",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "mevcut": {
+    "firma": "NS-SUS",
+    "ulke": "",
+    "hat": "Bobin tasima / paketleme",
+    "asama": "Belirsiz"
    }
   },
   {
@@ -90,24 +77,14 @@
  ],
  "cumle_yaz": [
   {
-   "anahtar": "7f5fec9b34584972",
-   "tarih": "2026-08-24",
-   "firma": "Boost Ugandan Manufacturing",
-   "ulke": "",
-   "hat": "Soguk hadde",
+   "anahtar": "4d59fdf2ae6ec46f",
+   "tarih": "2026-08-20",
+   "firma": "KEZAD",
+   "ulke": "BAE",
+   "hat": "Galvaniz hatti (CGL)",
    "asama": "Ilk urun",
-   "baslik": "Museveni Unveils $120 Million Steel Complex to Boost Ugandan Manufacturing",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95be2faa42444d90bdde883997e656&url=https%3a%2f%2fwww.ugandaonline.net%2fnews%2f2026-08-25--museveni-unveils-120-million-steel-complex-to-boost-ugandan-manufacturing--b1b8655f4860%2f&c=9636092284349879570&mkt=en-us"
-  },
-  {
-   "anahtar": "daaf9c1210a1e6a2",
-   "tarih": "2026-08-26",
-   "firma": "Roofings Group",
-   "ulke": "",
-   "hat": "Soguk hadde",
-   "asama": "Ilk urun",
-   "baslik": "Roofings Group, Uganda’da 125 milyon dolarlık yeni çelik tesisini faaliyete geçirdi",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95be3c73a74b90a9fe516c6769fe7f&url=https%3a%2f%2fwww.steelradar.com%2fhaber%2froofings-group-ugandada-125-milyon-dolarlik-yeni-celik-tesisini-faaliyete-gecirdi%2f&c=10506205159669172717&mkt=tr-tr"
+   "baslik": "KEZAD galvanising facility moves closer to commissioning",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95cacd4e7441aeb951448930105137&url=https%3a%2f%2fwww.msn.com%2fen-ae%2fnews%2fother%2fkezad-galvanising-facility-moves-closer-to-commissioning%2far-AA2ayC80&c=5487109860416195630&mkt=en-us"
   },
   {
    "anahtar": "392d2d9682089828",
@@ -117,7 +94,17 @@
    "hat": "Belirsiz",
    "asama": "Modernizasyon",
    "baslik": "Cleveland-Cliffs matches $500M federal grant for Ohio steel mill without hydrogen retrofit",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95be2e45b04908a30229a99bb5a363&url=https%3a%2f%2fwww.bizjournals.com%2fcleveland%2fnews%2f2026%2f08%2f21%2fmiddletown-works-cleveland-cliffs-hydrogen-steel.html&c=12483172322001066592&mkt=en-us"
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95cad1a0c5416a97ac10eab8d7fa95&url=https%3a%2f%2fwww.bizjournals.com%2fcleveland%2fnews%2f2026%2f08%2f21%2fmiddletown-works-cleveland-cliffs-hydrogen-steel.html&c=12483172322001066592&mkt=en-us"
+  },
+  {
+   "anahtar": "f1860f395525b68a",
+   "tarih": "2026-08-24",
+   "firma": "NS-SUS",
+   "ulke": "",
+   "hat": "Bobin tasima / paketleme",
+   "asama": "Belirsiz",
+   "baslik": "NS-SUS Completes Installation of New Danieli Coil-Handling Cranes",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNejhtT3VSU2JqekN5bVh3bnhHdmFMbEtfWmxzQ0hFNXFhV2U5TklNWkhsbXYwQ3JnWEpNOGNyS2ZHRGZjYzViWmtDSEpZZnFiMDUxdktCWnpIWGJtNXNEaDNMUE5zRzIzNFFGZkRQc0RjNjdxOS15d0JpT2o2SFMyaUU4c0xMSU5QdG11YW14UQ?oc=5"
   },
   {
    "anahtar": "40159f1debb141d2",
@@ -155,7 +142,7 @@
    "anahtar": "tech:8f6043a18acdc49f",
    "tarih": "2026-08-18",
    "baslik": "Primetals Technologies to Modernize PLTCM for KG Steel in South Korea",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95be321aca42b4bc9c226ed3591336&url=https%3a%2f%2fnote.com%2fsankituushin%2fn%2fn4cc3fa0e878e%3fhl%3den&c=3218958862499560946&mkt=en-us",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95cad4a9b249fd85f7f5342bcf6e64&url=https%3a%2f%2fnote.com%2fsankituushin%2fn%2fn4cc3fa0e878e%3fhl%3den&c=3218958862499560946&mkt=en-us",
    "kaynak": "Bing News",
    "hat": "Tandem soguk hadde (TCM)"
   },
@@ -163,7 +150,7 @@
    "anahtar": "tech:8f6043a18acdc49f",
    "tarih": "2026-08-18",
    "baslik": "Primetals Technologies to Modernize PLTCM for KG Steel in South Korea",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95be4667eb4b3fb2e34e82e45ca63e&url=https%3a%2f%2fnote.com%2fsankituushin%2fn%2fn4cc3fa0e878e%3fhl%3den&c=3218958862499560946&mkt=en-us",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95cae91093492689a31a0a06e63723&url=https%3a%2f%2fnote.com%2fsankituushin%2fn%2fn4cc3fa0e878e%3fhl%3den&c=3218958862499560946&mkt=en-us",
    "kaynak": "Bing News",
    "hat": "Tandem soguk hadde (TCM)"
   }
