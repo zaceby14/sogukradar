@@ -1,6 +1,6 @@
 {
  "donem": "2026-W36",
- "adet": 499,
+ "adet": 498,
  "kayitlar": [
   {
    "sebep": "kapsam_disi",
@@ -460,6 +460,12 @@
   },
   {
    "sebep": "kapsam_disi",
+   "baslik": "Decarbonized glass technology at Glass Problems Conference",
+   "url": "https://www.fivesgroup.com/newspress/detail-view/decarbonized-glass-technology-at-glass-problems-conference",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
    "baslik": "Fives to highlight advanced cement solutions at FICEM Technical Congress 2026",
    "url": "https://www.fivesgroup.com/newspress/detail-view/fives-to-highlight-advanced-cement-solutions-at-ficem-technical-congress-2026",
    "ek": "sert red (baslik)"
@@ -559,12 +565,6 @@
    "baslik": "Marcegaglia entrusts Fives with a new digital upgrade",
    "url": "https://www.fivesgroup.com/newspress/detail-view/marcegaglia-entrusts-fives-with-a-new-digital-upgrade",
    "ek": "2026-07-08"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "A new step in italian retail innovation: Coop entrusts Fives with the automation of their distribution center in Tortona",
-   "url": "https://www.fivesgroup.com/newspress/detail-view/a-new-step-in-italian-retail-innovation-coop-entrusts-fives-with-the-automation-of-their-distribution-center-in-tortona",
-   "ek": "2026-07-07"
   },
   {
    "sebep": "kapsam_disi",
@@ -2242,6 +2242,12 @@
   },
   {
    "sebep": "kapsam_disi",
+   "baslik": "Daily press | 2026-08-31 thyssenkrupp Steel Launches Partial Refurbishment of the Schwelgern 2 Blast Furnace",
+   "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/thyssenkrupp-steel-launches-partial-refurbishment-of-the-schwelgern-2-blast-furnace.html",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
    "baslik": "Trade press | 2026-08-05 thyssenkrupp Rasselstein Purchases Green Electricity from On-Site Photovoltaic System",
    "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/thyssenkrupp-rasselstein-purchases-green-electricity-from-on-site-photovoltaic-system.html",
    "ek": "sert red (baslik)"
@@ -2370,18 +2376,6 @@
    "sebep": "kapsam_disi",
    "baslik": "Daily press | 2025-10-31 Personnel changes on the Executive Board of thyssenkrupp Steel",
    "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/personnel-changes-on-the-executive-board-of-thyssenkrupp-steel.html",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Daily press | 2025-10-25 Fire at thyssenkrupp Steel in Duisburg in the Bruckhausen plant area. Fire is under control. Duisburg fire department withdraws",
-   "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/fire-at-thyssenkrupp-steel-in-duisburg-in-the-bruckhausen-plant-area-fire-is-under-control-duisburg-fire-department-withdraws.html",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Trade press | 2025-10-21 thyssenkrupp Steel presents innovative door ring solution at Blechexpo 2025",
-   "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/thyssenkrupp-steel-presents-innovative-door-ring-solution-at-blechexpo-2025.html",
    "ek": "kapsam kapisi (baslik)"
   },
   {
@@ -2544,12 +2538,6 @@
    "sebep": "tarihsiz_elendi",
    "baslik": "Ungalvanized Steel Wire Ropes",
    "url": "https://www.yieh.com/en/Product/wire-rod/ungalvanized-steel-wire-ropes-2",
-   "ek": ""
-  },
-  {
-   "sebep": "tarihsiz_elendi",
-   "baslik": "[SMM Analysis] July Non‑Oriented Silicon Steel Exports Hit New‑High for the Year on Sound Overseas",
-   "url": "https://news.metal.com/en/newscontent/104086732-smm-analysis-july-non‐oriented-silicon-steel-exports-hit-new‐high-for-the-year-on-sound-overseas-demand",
    "ek": ""
   },
   {
@@ -2781,10 +2769,10 @@
    "ek": "2026-08-11"
   },
   {
-   "sebep": "pencere_disi",
-   "baslik": "Primetals to modernise Korean pickling line",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbWRCZVVIdU8wNDh0M0pCTGlsTWl1U2pqSm5ielo4OEpYYWFuenYzZkRQTGphRzF2WDlQT3VCb2dHc015dDh2eXBDNVhEaUdRLTFFanBMMVhQNWZRS2pPYjdEZFduSlR0VTFmODM4cVhVSDdUMExNQWdRSU9MMXhpaTdLaFE?oc=5",
-   "ek": "2026-08-11"
+   "sebep": "tekrar",
+   "baslik": "ArcelorMittal Confirms Up to R$ 5 Billion for New Cold Rolling Mill in Tubarão, Espírito Santo, with 560,000 Tonnes Annually, 3,000 Jobs at Peak, Operations by 2030",
+   "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPdE9Sa2dwY2VrTTk5YlVVMmJ5SFR2YzUyNnN0X1Y3UmZja2I0eXNKTUNKcU1PRWJWZmFLRXU0bkdHR3NjSXR0dGNaWXIzMDNyTmd0RERRc2hJYkZHVFFNRjJIRUFoSUk3LVh1TWhzVEhmRVJNTmhlX0JzQWZZU1JfOFlQc0JoNi1OVHlibDNtZkFkRkFyUlpyNFNMVVV4THdIV09mNmxSSFYya3NJN3BZdVlrOFZ5ZlJsZS02cXBiRjFZeFZ4bVA4Z0J2RXFnYzVieEc4VlBMZWU5eGlJN3Vmak1NRld3U3V5ZnRnaWtWbHA3ZU9yOHd4ZktEVjRfTGdnVW9pR3dn?oc=5",
+   "ek": "benzer baslik (bu kosuda)"
   },
   {
    "sebep": "tekrar",
@@ -2821,6 +2809,12 @@
    "baslik": "Primetals to modernise Korean pickling line",
    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbWRCZVVIdU8wNDh0M0pCTGlsTWl1U2pqSm5ielo4OEpYYWFuenYzZkRQTGphRzF2WDlQT3VCb2dHc015dDh2eXBDNVhEaUdRLTFFanBMMVhQNWZRS2pPYjdEZFduSlR0VTFmODM4cVhVSDdUMExNQWdRSU9MMXhpaTdLaFE?oc=5",
    "ek": "2026-08-11"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "Roofings Unveils $125m Steel Mill, Doubles Cold-Rolled Capacity to 300,000 Tonnes",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRWp3TW5taXBCVU10X0pUNE1UTEwtS0VQc2t2aXhPczd4alM3cERaWFN5Tmx0dnhycURTTG5wUWRKOHphSXhpQmNqWWNJTGtLakNVUnNsYkQ3alB6THRxVDVEaFp1M1l1VEpRUHVPQ2xHZ216TkVVNXVid24weWRrUmM4cS01Smp1aE5taFdjRjVxWVlqcWxidl81T1ljeF9WdUE?oc=5",
+   "ek": ""
   },
   {
    "sebep": "tekrar",
@@ -2940,7 +2934,7 @@
    "sebep": "tekrar",
    "baslik": "ArcelorMittal Confirms Up to R$ 5 Billion for New Cold Rolling Mill in Tubarão, Espírito Santo, with 560,000 Tonnes Annually, 3,000 Jobs at Peak, Operations by 2030",
    "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPdE9Sa2dwY2VrTTk5YlVVMmJ5SFR2YzUyNnN0X1Y3UmZja2I0eXNKTUNKcU1PRWJWZmFLRXU0bkdHR3NjSXR0dGNaWXIzMDNyTmd0RERRc2hJYkZHVFFNRjJIRUFoSUk3LVh1TWhzVEhmRVJNTmhlX0JzQWZZU1JfOFlQc0JoNi1OVHlibDNtZkFkRkFyUlpyNFNMVVV4THdIV09mNmxSSFYya3NJN3BZdVlrOFZ5ZlJsZS02cXBiRjFZeFZ4bVA4Z0J2RXFnYzVieEc4VlBMZWU5eGlJN3Vmak1NRld3U3V5ZnRnaWtWbHA3ZU9yOHd4ZktEVjRfTGdnVW9pR3dn?oc=5",
-   "ek": ""
+   "ek": "benzer baslik (bu kosuda)"
   },
   {
    "sebep": "tekrar",
@@ -2952,7 +2946,7 @@
    "sebep": "tekrar",
    "baslik": "ArcelorMittal Confirms Up to R$ 5 Billion for New Cold Rolling Mill in Tubarão, Espírito Santo, with 560,000 Tonnes Annually, 3,000 Jobs at Peak, Operations by 2030",
    "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPdE9Sa2dwY2VrTTk5YlVVMmJ5SFR2YzUyNnN0X1Y3UmZja2I0eXNKTUNKcU1PRWJWZmFLRXU0bkdHR3NjSXR0dGNaWXIzMDNyTmd0RERRc2hJYkZHVFFNRjJIRUFoSUk3LVh1TWhzVEhmRVJNTmhlX0JzQWZZU1JfOFlQc0JoNi1OVHlibDNtZkFkRkFyUlpyNFNMVVV4THdIV09mNmxSSFYya3NJN3BZdVlrOFZ5ZlJsZS02cXBiRjFZeFZ4bVA4Z0J2RXFnYzVieEc4VlBMZWU5eGlJN3Vmak1NRld3U3V5ZnRnaWtWbHA3ZU9yOHd4ZktEVjRfTGdnVW9pR3dn?oc=5",
-   "ek": ""
+   "ek": "benzer baslik (bu kosuda)"
   },
   {
    "sebep": "tekrar",

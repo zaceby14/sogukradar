@@ -1,19 +1,32 @@
 {
- "donem": "2026-W35",
+ "donem": "2026-W36",
  "duzelt": [
   {
-   "anahtar": "beb57acb388dd4c9",
-   "baslik": "tk accelis Processing Europe expands Stuttgart steel service center capacity",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMzF1RWZTMXBiMDhndDAtbEZwYVRISXdVbTlhMmstbGFrMzJaVXBGVVk3RElGczQ4NjFxaTFfcVE1MkNaQm5KRUNTYnVTNlpsT3oxZzhzRVpBM0JSSWNtU0pYMnEtOF91SEpDWFV1eEQxV1ZnT0JLcVE1VG9sc3h2Q1RuOUtRX0FhZFJpbkpzSS15dlhWdEJwM0cteXVZSjZIZzB6Sl9iRDduRXY1?oc=5",
+   "anahtar": "24e2dda77f2e84e9",
+   "baslik": "Jindal Stainless investing Rs 900 crore to increase cold rolling capacity to 2.67 MT by FY28: MD",
+   "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNM2hmV0lKLTRuT0d6ODZXbllZLVczcTBBUGFUbnh0RWRldnptUlJHYkdmTkVheU1fc2xLRGtfUENvazhTeUQ2cTFMVEcxckFIZmhtWFZDQ2psTDBuak1MVVdaVUlZXzB4YmgzZFh3UkdkRXdpbVZ5WTM1QVhWVnpYS2t6SWxWUmI4Tnk3QlVqQkx5YlJRQ2VzeERVVlcxV2QwdGpfTU05TDZ5WnotNGZtRklMUklzMzltbkFwX2tkMkxNNDhERmRObWVDY2ZucGp5Qm5QTFV0UEI2S28wN3AtTllOT0E4S3dvcWxTWmVZcnNaNHZxc0RhVmhLMDg3bGJlcF9yTXBGMDFzSFnSAZACQVVfeXFMTWh5Q3hBcFRSZkFrUmJfUkZURjFKYXNVbzRZY3pnNGVWZG1uSFVQa2V5R3JWQkhJRHR2U0luTE1IbTJIdVNycERGVERXNFN4Y0NsX3lWeXk3aGtoNkgzTlVHeTNlWVZnSEZLclJrd1FQSXVtc2FadjJmWEdKMU9tVkpER0NDOFhhWEJveFU5VUFiekFvNlpjR1FCR1E4cXpTN2RBSEFIZ3Jpb3JXWEhqZnBHM0ZYS1NOSzlTbU5wTnFiOTF6MHJSNnc2d1BoS0xWeGV2WXAyTFVBT1FjTWZWWlpuQWJYOEViT0RWQ2xCQVlNcU5qRVJhbE5sektENGFHUXpDZXJ4VWtZX094V0RXWDg?oc=5",
    "eksik": [
-    "firma",
-    "ulke",
     "asama"
    ],
    "mevcut": {
-    "firma": "",
-    "ulke": "",
-    "hat": "Dilme / boy kesme / SSC",
+    "firma": "FY28",
+    "ulke": "Hindistan",
+    "hat": "Soguk hadde",
+    "asama": "Belirsiz"
+   }
+  },
+  {
+   "anahtar": "1457ad47e4e48f43",
+   "baslik": "ArcelorMittal approves Tubarao flat steel expansion",
+   "url": "https://news.mesteel.com/arcelormittal-approves-tubarao-flat-steel-expansion/",
+   "eksik": [
+    "hat",
+    "asama"
+   ],
+   "mevcut": {
+    "firma": "ArcelorMittal",
+    "ulke": "Turkiye",
+    "hat": "Belirsiz",
     "asama": "Belirsiz"
    }
   },
@@ -26,7 +39,7 @@
    ],
    "mevcut": {
     "firma": "U. S. Steel Announces",
-    "ulke": "Hindistan",
+    "ulke": "ABD",
     "hat": "Teneke hatti (ETL)",
     "asama": "Belirsiz"
    }
@@ -48,30 +61,10 @@
  ],
  "cumle_yaz": [
   {
-   "anahtar": "88fbd0c6b1f6aac5",
-   "tarih": "2026-08-11",
-   "firma": "Primetals",
-   "ulke": "G. Kore",
-   "hat": "Asitleme hatti",
-   "asama": "Modernizasyon",
-   "baslik": "Primetals to modernise Korean pickling line",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbWRCZVVIdU8wNDh0M0pCTGlsTWl1U2pqSm5ielo4OEpYYWFuenYzZkRQTGphRzF2WDlQT3VCb2dHc015dDh2eXBDNVhEaUdRLTFFanBMMVhQNWZRS2pPYjdEZFduSlR0VTFmODM4cVhVSDdUMExNQWdRSU9MMXhpaTdLaFE?oc=5"
-  },
-  {
-   "anahtar": "beb57acb388dd4c9",
-   "tarih": "2026-08-07",
-   "firma": "",
-   "ulke": "",
-   "hat": "Dilme / boy kesme / SSC",
-   "asama": "Belirsiz",
-   "baslik": "tk accelis Processing Europe expands Stuttgart steel service center capacity",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMzF1RWZTMXBiMDhndDAtbEZwYVRISXdVbTlhMmstbGFrMzJaVXBGVVk3RElGczQ4NjFxaTFfcVE1MkNaQm5KRUNTYnVTNlpsT3oxZzhzRVpBM0JSSWNtU0pYMnEtOF91SEpDWFV1eEQxV1ZnT0JLcVE1VG9sc3h2Q1RuOUtRX0FhZFJpbkpzSS15dlhWdEJwM0cteXVZSjZIZzB6Sl9iRDduRXY1?oc=5"
-  },
-  {
    "anahtar": "dbf500463fb21d96",
    "tarih": "2026-04-16",
    "firma": "U. S. Steel Announces",
-   "ulke": "Hindistan",
+   "ulke": "ABD",
    "hat": "Teneke hatti (ETL)",
    "asama": "Belirsiz",
    "baslik": "U. S. Steel Announces Plans to Restart Gary Tin Mill",
@@ -95,30 +88,6 @@
    "baslik": "Fives supplies technologies for Xinyu's new electrical steel facility",
    "url": "https://www.steelorbis.com/steel-news/latest-news/fives-supplies-technologies-for-xinyus-new-electrical-steel-facility-1473583.htm",
    "kaynak": "SteelOrbis",
-   "hat": "Elektrik celigi hatti"
-  },
-  {
-   "anahtar": "tech:9e26740970742b85",
-   "tarih": "2026-08-28",
-   "baslik": "Fives supplies technologies for Xinyu's new electrical steel facility",
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZjZFX1pBZ2tjSWJrb3luT1FoTm9qM0otMGFQZFVsb0ZLc1F4Z3QtRElGOHMycUdyQ0pCa2JVWGQ2UEt5MW5NNE5ncDZmMHlHRFg4MlkwaVNMVzREOGo3RThNLXIxQUt5TC1EM0pmeXltSXUwaHU4Z0VLMFNpemcxS1JHaHVLNW5sNWxucUxzQTd3dFVSYWZZcDNsaHlTdmhXTmw2WloxQkdudThkWFhwcmdiS2drd0VFd015NVFmR0dwNHpmWGZ6QlNR?oc=5",
-   "kaynak": "Google News",
-   "hat": "Elektrik celigi hatti"
-  },
-  {
-   "anahtar": "tech:9e26740970742b85",
-   "tarih": "2026-08-28",
-   "baslik": "Fives supplies technologies for Xinyu's new electrical steel facility",
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZjZFX1pBZ2tjSWJrb3luT1FoTm9qM0otMGFQZFVsb0ZLc1F4Z3QtRElGOHMycUdyQ0pCa2JVWGQ2UEt5MW5NNE5ncDZmMHlHRFg4MlkwaVNMVzREOGo3RThNLXIxQUt5TC1EM0pmeXltSXUwaHU4Z0VLMFNpemcxS1JHaHVLNW5sNWxucUxzQTd3dFVSYWZZcDNsaHlTdmhXTmw2WloxQkdudThkWFhwcmdiS2drd0VFd015NVFmR0dwNHpmWGZ6QlNR?oc=5",
-   "kaynak": "Google News",
-   "hat": "Elektrik celigi hatti"
-  },
-  {
-   "anahtar": "tech:9e26740970742b85",
-   "tarih": "2026-08-28",
-   "baslik": "Fives supplies technologies for Xinyu's new electrical steel facility",
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZjZFX1pBZ2tjSWJrb3luT1FoTm9qM0otMGFQZFVsb0ZLc1F4Z3QtRElGOHMycUdyQ0pCa2JVWGQ2UEt5MW5NNE5ncDZmMHlHRFg4MlkwaVNMVzREOGo3RThNLXIxQUt5TC1EM0pmeXltSXUwaHU4Z0VLMFNpemcxS1JHaHVLNW5sNWxucUxzQTd3dFVSYWZZcDNsaHlTdmhXTmw2WloxQkdudThkWFhwcmdiS2drd0VFd015NVFmR0dwNHpmWGZ6QlNR?oc=5",
-   "kaynak": "Google News",
    "hat": "Elektrik celigi hatti"
   }
  ]
