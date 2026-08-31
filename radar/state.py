@@ -64,6 +64,24 @@ def load():
     # icin hic gonderilmemis satirlar. Bulten kisa kalinca buradan tamamlanir
     # - kapi gevsetilmeden hacim saglamanin tek durust yolu.
     st.setdefault("rezerv", [])
+    # BULUNAN HAVUZU (2026-08-31) - hacim sorununun asil cozumu.
+    #
+    # Gunluk tarama kabul ettigi satiri hicbir yere KAYDETMIYORDU:
+    # out/tarama.json ertesi gun uzerine yaziliyor, rezerv ise yalniz
+    # PENCERE DISI satirlari tutuyor. Aggregator sonuclari ise oynak - bir
+    # gun gorunen haber ertesi gun beslemede yok. Sonuc olculdu: sistem
+    # hafta boyunca 5-6 ayri kapsam ici haber GORDU ama bultene yalniz
+    # pazartesi sabahi hala gorunur olanlar girdi.
+    #   29.08  India's Manaksia Steel to invest $84 million to expand...
+    #   31.08  ArcelorMittal Confirms Up to R$ 5 Billion for New Cold...
+    #   31.08  KEZAD galvanising facility moves closer to commissioning
+    # Ucu de tek bir taramada gorundu ve kayboldu.
+    #
+    # Bu havuz PENCERE ICI, kapiyi gecmis, tarihi dogrulanmis ve henuz
+    # gonderilmemis satirlari tutar. Haftalik kosu once buradan tamamlar,
+    # sonra rezerve bakar. Kapi GEVSEMEZ - satirlar zaten ayni kapidan
+    # gecmistir; degisen tek sey unutulmamalari.
+    st.setdefault("bulunan", [])
     # Teknoloji kosesi aday havuzu - kalici. Aday cikmayan haftada kose
     # buradan doldurulur; tanitilan madde tech_seen ile bir daha cikmaz.
     st.setdefault("tech_rezerv", [])
@@ -138,4 +156,12 @@ def prune(st, keep=1500, event_days=120):
            if r.get("anahtar") not in seen and (r.get("tarih") or "9999") >= cutr]
     rez.sort(key=lambda r: r.get("tarih", ""), reverse=True)
     st["rezerv"] = rez[:REZERV_MAX]
+    # Bulunan havuzu: gonderilmis olan duser. Pencere disina dusenler zaten
+    # rezervde de duruyor (collect ikisine birden yazar), burada tutmanin
+    # anlami kalmaz - pencerenin iki kati yas siniri yeterli.
+    cutb2 = (_dt.date.today() - _dt.timedelta(days=45)).isoformat()
+    bul = [r for r in st.get("bulunan", [])
+           if r.get("anahtar") not in seen and (r.get("tarih") or "9999") >= cutb2]
+    bul.sort(key=lambda r: r.get("tarih", ""), reverse=True)
+    st["bulunan"] = bul[:REZERV_MAX]
     return st

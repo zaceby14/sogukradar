@@ -1415,6 +1415,95 @@ def test_v20_indiana_hindistan_degil():
             "rolling capacity"), "Hindistan", "crore Hindistan sinyalidir")
 
 
+def test_w36_bulunan_havuzu_ve_yanlis_tekrar():
+    """2026-08-31: hacim sorununun ASIL sebebi - gorulen haber unutuluyordu.
+
+    Gunluk tarama kabul ettigi satiri hicbir yere kaydetmiyordu:
+    out/tarama.json ertesi gun uzerine yaziliyor, rezerv ise yalniz PENCERE
+    DISI satirlari tutuyor. Aggregator sonuclari ise OYNAK - bir gun gorunen
+    haber ertesi gun beslemede yok.
+
+    OLCULDU (bu haftanin gunluk taramalarinin git gecmisi): sistem hafta
+    boyunca birbirinden farkli satirlar gordu ve her biri TEK bir taramada
+    gorunup kayboldu -
+      29.08  "India's Manaksia Steel to invest $84 million to expand..."
+      31.08  "ArcelorMittal Confirms Up to R$ 5 Billion for New Cold..."
+      31.08  "KEZAD galvanising facility moves closer to commissioning"
+    Bultene 2 satir girdi. Kapi degil, HAFIZA eksikti.
+
+    BULUNAN HAVUZU: pencere ici, kapiyi gecmis, tarihi dogrulanmis, henuz
+    gonderilmemis satirlar. Kapi GEVSEMEZ - satirlar zaten ayni kapidan
+    gecmistir, degisen tek sey unutulmamalaridir.
+
+    IKINCI KUSUR - YANLIS "TEKRAR" ELEMESI. Havuz kurulunca gorundu:
+      "India's Manaksia Steel to invest $84 million to expand value-added
+       steel capacity"
+      "India's Jindal Stainless Limited to invest $94 million to ramp up
+       cold rolling capacity"                            (W34'te gonderildi)
+    IKI AYRI HINT SIRKETI ayni haber sayilip elendi. Paylastiklari sey
+    invest / million / capacity idi - ucu de kalip. Yanlis tekrar elemesi
+    gercek haber kaybettirir ve bunu kimse gormez, cunku eleme sessizdir.
+    """
+    from .cli import _bulunan_guncelle, _rezerv_hala_gecerli
+
+    # --- Havuz: taze satir girer, rezervden gelen GIRMEZ
+    st = {"bulunan": [], "seen": {}, "tech_seen": {}}
+    taze = {"anahtar": "a1", "tarih": "2026-08-20", "baslik":
+            "KEZAD galvanising facility moves closer to commissioning",
+            "hat": "Galvaniz hatti (CGL)", "asama": "Ilk urun"}
+    rez = {"anahtar": "a2", "tarih": "2026-03-13", "rezerv": True, "baslik":
+           "New MINO Double-Stand Six-High Cold Reversing Mill in North America"}
+    _bulunan_guncelle(st, [taze, rez])
+    eq([r["anahtar"] for r in st["bulunan"]], ["a1"],
+       "yalniz taze satir havuza girer; rezerv kendi havuzundadir")
+
+    # Bu kosuda listede olan satir havuzda KALIR ama tekrar EKLENMEZ:
+    # bulten onaylanmazsa gelecek hafta yine cikabilmeli
+    eq(_bulunan_guncelle(st, [taze]), [], "bu kosudaki satir yeniden eklenmez")
+    eq(len(st["bulunan"]), 1, "ama havuzdan da dusmez")
+
+    # Gonderilmis satir havuzdan duser
+    st2 = {"bulunan": [dict(taze)], "seen": {"a1": "2026-08-20"}, "tech_seen": {}}
+    _bulunan_guncelle(st2, [])
+    eq(st2["bulunan"], [], "gonderilen satir havuzda kalmaz")
+
+    # Havuz da guncel kapiya sokulur (havuz karari tasir, kodu degil)
+    st3 = {"bulunan": [{"anahtar": "x", "tarih": "2026-08-05", "baslik":
+                        "Triple-S Steel acquires Camden Yards Steel"}],
+           "seen": {}, "tech_seen": {}}
+    _bulunan_guncelle(st3, [])
+    eq(st3["bulunan"], [], "kapali kapidan gecen satir havuzda kalmaz")
+
+    # --- Yanlis tekrar elemesi: AYIRT EDICI ortak kelime yoksa kalip yetmez
+    manaksia = ("India's Manaksia Steel to invest $84 million to expand "
+                "value-added steel capacity")
+    jindal = ("India's Jindal Stainless Limited to invest $94 million to "
+              "ramp up cold rolling capacity")
+    eq(taxonomy.similar_titles(manaksia, jindal), False,
+       "iki ayri Hint sirketi ayni haber sayilamaz")
+    eq(taxonomy.similar_titles(
+        "Nucor to invest $59 million in steel grating capacity", jindal), False,
+       "Nucor ile Jindal ayni haber degildir")
+
+    # ...ama GERCEK tekrarlar yakalanmaya devam etmeli
+    eq(taxonomy.similar_titles(
+        "Jindal Stainless investing Rs 900 crore to increase cold rolling "
+        "capacity to 2.67 MT by FY28", jindal), True,
+       "ayni Jindal duyurusunun iki yayini")
+    eq(taxonomy.similar_titles(
+        "tk accelis Processing Europe expands Stuttgart steel service "
+        "center capacity",
+        "tk accelis announces milestone at Stuttgart steel service center"),
+        True, "ayni tk accelis haberi")
+    # Tek ayirt edici ad + zayif ortusme (Hydnum) korunmali
+    eq(taxonomy.similar_titles(
+        "İspanya, Hydnum Steel'in Yeşil Çelik Tesisine 150 Milyon Euro "
+        "Destek Sağlayacak",
+        "Hydnum Steel, İber Yarımadası'nın ilk temiz çelik tesisi için "
+        "150 milyon euroluk yatırım taahhüdü aldı"), True,
+        "tek ayirt edici ad yeterli olmali")
+
+
 def test_w36_havuz_karari_tasir_kodu_degil():
     """2026-08-31: kapiyi duzeltmek havuzdaki eski karari DUZELTMEZ.
 
@@ -2113,6 +2202,7 @@ def run():
                test_v20_gonderilmis_hafiza,
                test_v20_gunluk_tarama_arsivi_ezmez,
                test_v20_indiana_hindistan_degil,
+               test_w36_bulunan_havuzu_ve_yanlis_tekrar,
                test_w36_havuz_karari_tasir_kodu_degil,
                test_w36_bing_katmaninin_actigi_uc_delik,
                test_w36_host_korumasi_ve_ikinci_arama_hostu,

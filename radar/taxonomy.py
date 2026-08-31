@@ -897,7 +897,22 @@ _COMMON6 = {"turkiye", "almanya", "hindistan", "yatirim", "kapasite", "tesisi",
             "tesisine", "uretim", "uretimi", "investment", "capacity",
             "production", "galvaniz", "tinplate", "annealing", "pickling",
             "rolling", "modern", "primetals", "danieli", "andritz", "tenova",
-            "cockerill", "technologies"}
+            "cockerill", "technologies",
+            # GENEL IS SOZLUGU "guclu token" SAYILMAZ (2026-08-31).
+            # Olcum: "India's Manaksia Steel to invest $84 million to expand
+            # value-added steel capacity" satiri, GONDERILMIS olan "India's
+            # Jindal Stainless Limited to invest $94 million to ramp up cold
+            # rolling capacity" ile ayni haber sayilip ELENDI. Iki AYRI Hint
+            # sirketi; paylastiklari tek sey "invest" ve %43 onek ortusmesi
+            # idi. Bu kelimeler yatirim baslıklarinda kaliptir, ayirt edici
+            # degildir - ayirt edici olan sirket adi ve hat turudur.
+            # Yanlis "tekrar" elemesi GERCEK HABER kaybettirir.
+            "invest", "investing", "invests", "invested", "expand",
+            "expansion", "expanding", "million", "billion", "crore",
+            "increase", "increasing", "facility", "facilities", "project",
+            "projects", "announce", "announces", "announced", "complete",
+            "completes", "completed", "yatirimi", "milyon", "milyar",
+            "genisletme", "kapasitesi", "artirma"}
 
 
 def title_tokens(title):
@@ -921,6 +936,25 @@ def similar_titles(a, b, esik=0.5):
         return True
     if len(guclu) == 1 and oran >= 0.25:
         return True
+    # AYIRT EDICI ORTAK KELIME YOKSA, KALIP ORTUSMESI YETMEZ (2026-08-31).
+    #
+    # Eski kural bu noktada yalnizca onek oranina bakiyordu ve KALIP
+    # kelimeler tek basina esigi asabiliyordu:
+    #   "Nucor to invest $59 million in steel grating capacity"
+    #   "India's Jindal Stainless Limited to invest $94 million to ramp up
+    #    cold rolling capacity"
+    # Ortak onekleri invest / million / capacity idi - ucu de kalip, hicbiri
+    # ayirt edici degil. Oran tam %50 cikti ve iki AYRI sirketin haberi ayni
+    # sayildi. Ayni sekilde Manaksia ile Jindal birlestirildi. Yanlis
+    # "tekrar" elemesi GERCEK HABER kaybettirir ve bunu kimse gormez.
+    #
+    # Kural buraya konuluyor, oranin kendisine degil: guclu ortak kelime
+    # VARSA (Hydnum vakasi - tek ayirt edici ad + zayif ortusme) eski
+    # davranis korunur; HIC yoksa en az dort ayirt edici ortak kelime
+    # aranir.
+    ayirt_edici = {w for w in ta & tb if w not in _COMMON6}
+    if not ayirt_edici:
+        return False
     return ortak >= 4 or oran >= esik
 
 

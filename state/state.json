@@ -1,4 +1,161 @@
 {
+ "bulunan": [
+  {
+   "anahtar": "323761b5cf24e21b",
+   "asama": "Belirsiz",
+   "baslik": "ArcelorMittal Confirms Up to R$ 5 Billion for New Cold Rolling Mill in Tubarão, Espírito Santo, with 560,000 Tonnes Annually, 3,000 Jobs at Peak, Operations by 2030",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "firma": "R",
+   "hat": "Soguk hadde",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "CPG Click Oil and Gas",
+   "kaynak_id": "gq_hat02",
+   "olaylar": [
+    "r|hat|Soguk hadde|Belirsiz"
+   ],
+   "puan": 31.6,
+   "tarih": "2026-08-30",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "$ 5 Billion",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPdE9Sa2dwY2VrTTk5YlVVMmJ5SFR2YzUyNnN0X1Y3UmZja2I0eXNKTUNKcU1PRWJWZmFLRXU0bkdHR3NjSXR0dGNaWXIzMDNyTmd0RERRc2hJYkZHVFFNRjJIRUFoSUk3LVh1TWhzVEhmRVJNTmhlX0JzQWZZU1JfOFlQc0JoNi1OVHlibDNtZkFkRkFyUlpyNFNMVVV4THdIV09mNmxSSFYya3NJN3BZdVlrOFZ5ZlJsZS02cXBiRjFZeFZ4bVA4Z0J2RXFnYzVieEc4VlBMZWU5eGlJN3Vmak1NRld3U3V5ZnRnaWtWbHA3ZU9yOHd4ZktEVjRfTGdnVW9pR3dn?oc=5"
+  },
+  {
+   "anahtar": "f1860f395525b68a",
+   "asama": "Belirsiz",
+   "baslik": "NS-SUS Completes Installation of New Danieli Coil-Handling Cranes",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "firma": "NS-SUS",
+   "hat": "Bobin tasima / paketleme",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "AIST Association for Iron & Steel Technology",
+   "kaynak_id": "gs_aist",
+   "olaylar": [
+    "danieli|hat|Bobin tasima / paketleme|Belirsiz",
+    "ns sus|hat|Bobin tasima / paketleme|Belirsiz"
+   ],
+   "puan": 23.2,
+   "tarih": "2026-08-24",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "Danieli",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNejhtT3VSU2JqekN5bVh3bnhHdmFMbEtfWmxzQ0hFNXFhV2U5TklNWkhsbXYwQ3JnWEpNOGNyS2ZHRGZjYzViWmtDSEpZZnFiMDUxdktCWnpIWGJtNXNEaDNMUE5zRzIzNFFGZkRQc0RjNjdxOS15d0JpT2o2SFMyaUU4c0xMSU5QdG11YW14UQ?oc=5"
+  },
+  {
+   "anahtar": "4d59fdf2ae6ec46f",
+   "asama": "Ilk urun",
+   "baslik": "KEZAD galvanising facility moves closer to commissioning",
+   "eksik": [],
+   "firma": "KEZAD",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_hat05",
+   "olaylar": [
+    "*|ulke-hat|BAE|Galvaniz hatti (CGL)|Ilk urun",
+    "kezad|fu|BAE|Galvaniz hatti (CGL)",
+    "kezad|hat|Galvaniz hatti (CGL)|Ilk urun",
+    "kezad|ulke|BAE|Ilk urun"
+   ],
+   "puan": 52.6,
+   "tarih": "2026-08-20",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "BAE",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95cacd4e7441aeb951448930105137&url=https%3a%2f%2fwww.msn.com%2fen-ae%2fnews%2fother%2fkezad-galvanising-facility-moves-closer-to-commissioning%2far-AA2ayC80&c=5487109860416195630&mkt=en-us"
+  },
+  {
+   "anahtar": "730bd1f322f11f09",
+   "asama": "Belirsiz",
+   "baslik": "Jindal Stainless to invest ₹900 crore to expand cold rolling capacity",
+   "eksik": [
+    "asama"
+   ],
+   "firma": "Jindal Stainless",
+   "hat": "Soguk hadde",
+   "kapasite": "",
+   "kategori": "Yatirim",
+   "kaynak": "Manufacturing Today India",
+   "kaynak_id": "gx_bigmint_q",
+   "olaylar": [
+    "jindal stainless|fu|Hindistan|Soguk hadde",
+    "jindal stainless|hat|Soguk hadde|Belirsiz",
+    "jindal stainless|ulke|Hindistan|Belirsiz"
+   ],
+   "puan": -2.2,
+   "tarih": "2026-08-17",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Hindistan",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUE5DeTEtaUxlSFZvVEJGbTd1X3N1SE5YZm5EaVlBZkwxOVNVYkZtTHFtdFFDeTM0UWZrVjdaYkhHTXE5UkpqNGp5aEJCUi1QSUM0cFhHMmZXb1hCa3dFZGswaTRJY21tUFpKYVlGbkZoc0Q5YnljTW5KY2E1WVdqa2VueW5VR3JnQ2ZMQ1BGU1ZHZFM1SGpwMFBOaTNmS2tHWWNaSGV5YU5kMFJKZ2R4d0p3b0FvYkxt?oc=5"
+  },
+  {
+   "anahtar": "24e2dda77f2e84e9",
+   "asama": "Belirsiz",
+   "baslik": "Jindal Stainless investing Rs 900 crore to increase cold rolling capacity to 2.67 MT by FY28: MD",
+   "eksik": [
+    "asama"
+   ],
+   "firma": "FY28",
+   "hat": "Soguk hadde",
+   "kapasite": "2.67 MT",
+   "kategori": "Yatirim",
+   "kaynak": "The Economic Times",
+   "kaynak_id": "gx_bigmint_q",
+   "olaylar": [
+    "fy28|fu|Hindistan|Soguk hadde",
+    "fy28|hat|Soguk hadde|Belirsiz",
+    "fy28|ulke|Hindistan|Belirsiz"
+   ],
+   "puan": 5.0,
+   "tarih": "2026-08-16",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "Rs 900 crore",
+   "ulke": "Hindistan",
+   "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNM2hmV0lKLTRuT0d6ODZXbllZLVczcTBBUGFUbnh0RWRldnptUlJHYkdmTkVheU1fc2xLRGtfUENvazhTeUQ2cTFMVEcxckFIZmhtWFZDQ2psTDBuak1MVVdaVUlZXzB4YmgzZFh3UkdkRXdpbVZ5WTM1QVhWVnpYS2t6SWxWUmI4Tnk3QlVqQkx5YlJRQ2VzeERVVlcxV2QwdGpfTU05TDZ5WnotNGZtRklMUklzMzltbkFwX2tkMkxNNDhERmRObWVDY2ZucGp5Qm5QTFV0UEI2S28wN3AtTllOT0E4S3dvcWxTWmVZcnNaNHZxc0RhVmhLMDg3bGJlcF9yTXBGMDFzSFnSAZACQVVfeXFMTWh5Q3hBcFRSZkFrUmJfUkZURjFKYXNVbzRZY3pnNGVWZG1uSFVQa2V5R3JWQkhJRHR2U0luTE1IbTJIdVNycERGVERXNFN4Y0NsX3lWeXk3aGtoNkgzTlVHeTNlWVZnSEZLclJrd1FQSXVtc2FadjJmWEdKMU9tVkpER0NDOFhhWEJveFU5VUFiekFvNlpjR1FCR1E4cXpTN2RBSEFIZ3Jpb3JXWEhqZnBHM0ZYS1NOSzlTbU5wTnFiOTF6MHJSNnc2d1BoS0xWeGV2WXAyTFVBT1FjTWZWWlpuQWJYOEViT0RWQ2xCQVlNcU5qRVJhbE5sektENGFHUXpDZXJ4VWtZX094V0RXWDg?oc=5"
+  },
+  {
+   "anahtar": "5057cc8359f58ba5",
+   "asama": "Belirsiz",
+   "baslik": "India's Manaksia Steel to invest $84 million to expand value-added flats capacities",
+   "eksik": [
+    "hat",
+    "asama"
+   ],
+   "firma": "Manaksia Steel",
+   "hat": "Belirsiz",
+   "kapasite": "",
+   "kategori": "Yatirim",
+   "kaynak": "SteelOrbis",
+   "kaynak_id": "steelorbis",
+   "olaylar": [
+    "manaksia steel|fu|Hindistan|Belirsiz",
+    "manaksia steel|hat|Belirsiz|Belirsiz",
+    "manaksia steel|ulke|Hindistan|Belirsiz"
+   ],
+   "puan": -7.0,
+   "tarih": "2026-08-14",
+   "tarih_kaynagi": "json-ld",
+   "tedarikci": "",
+   "tutar": "$84 million",
+   "ulke": "Hindistan",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/indias-manaksia-steel-to-invest-84-million-to-expand-value-added-flats-capacities-1470867.htm"
+  }
+ ],
  "events": {
   "*|ulke-hat|Cezayir|Soguk hadde|Ilk urun": "2026-07-29",
   "*|ulke-hat|Hindistan|Soguk hadde|Ilk urun": "2026-08-17",

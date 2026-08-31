@@ -176,6 +176,42 @@ tersi oldu: tarama, gönderilen 6 satırlık W35 bülteninin kaydı olan
 `out/hafta_2026-W35.json`'u rezervden gelen 4 satırla ezdi; ne gönderdiğimi
 ancak git geçmişinden çıkarabildim.)
 
+## 4i. Bulunan havuzu — görülen haber unutulmaz
+
+**Hacim sorununun asıl sebebi buydu.** Günlük tarama kabul ettiği satırı
+hiçbir yere kaydetmiyordu: `out/tarama.json` ertesi gün üzerine yazılıyor,
+rezerv ise yalnızca **pencere dışı** satırları tutuyor. Aggregator sonuçları
+ise **oynak** — bir gün görünen haber ertesi gün beslemede yok.
+
+Ölçüldü (günlük taramaların git geçmişi): sistem hafta boyunca birbirinden
+farklı satırlar gördü ve her biri **tek bir taramada** görünüp kayboldu:
+
+| bulunduğu tarama | haber |
+|---|---|
+| 29.08 | India's Manaksia Steel to invest $84 million… |
+| 31.08 | ArcelorMittal Confirms Up to R$ 5 Billion for New Cold Rolling Mill |
+| 31.08 | KEZAD galvanising facility moves closer to commissioning |
+
+Bültene 2 satır girdi. **Kapı değil, hafıza eksikti.**
+
+`state.bulunan`: pencere içi, kapıyı geçmiş, tarihi doğrulanmış, henüz
+gönderilmemiş satırlar. Haftalık koşu önce buradan tamamlar (taze, rozetsiz),
+sonra rezerve bakar (pencere dışı, "GEÇ YAKALANDI"). Kapı gevşemez —
+satırlar zaten aynı kapıdan geçmiştir; değişen tek şey unutulmamaları.
+Havuz çıkışta da güncel kapıya sokulur ve gönderilmiş olan düşer.
+
+### Yanlış "tekrar" elemesi gerçek haber kaybettirir
+
+Havuz kurulunca görüldü: iki **ayrı** Hint şirketinin haberi aynı sayılıp
+elenmişti — paylaştıkları şey `invest` / `million` / `capacity` idi, üçü de
+kalıp. Kural: **ayırt edici ortak kelime yoksa, kalıp örtüşmesi tek başına
+yetmez.** Ölçüm (400 başlıkta çift sayımı): 1816 → 1794; 22 yanlış
+birleştirme kalktı, yeni birleştirme olmadı. Tek ayırt edici ad + zayıf
+örtüşme (Hydnum vakası) korunur.
+
+Eleme **sessizdir** — yanlış elenen haberi kimse görmez. Bu yüzden tekrar
+kapısının hatası, kapsam kapısınınkinden daha pahalıdır.
+
 ## 4h. Rezervdeki satır, sözlük düzelince kendini düzeltir
 
 Rezerv 540 gün geriye uzanır; havuza giren satır **o günkü kodun kararını**

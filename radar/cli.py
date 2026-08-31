@@ -77,13 +77,42 @@ def cmd_run(a):
     # Kapiyi GEVSETMEK yerine, gecmiste kapiyi gecmis ve tarihi dogrulanmis
     # ama pencere disinda kaldigi icin hic gonderilmemis satirlar kullanilir.
     st_r = state.load()
+
+    # BULUNAN HAVUZU (2026-08-31) - hacim sorununun asil cozumu.
+    #
+    # Gunluk tarama kabul ettigi satiri hicbir yere kaydetmiyordu ve
+    # aggregator sonuclari OYNAK: bir gun gorunen haber ertesi gun
+    # beslemede yok. Olcum, hafta boyunca gorulup kaybolan satirlari
+    # gosterdi - Manaksia (29.08), ArcelorMittal Tubarao'nun R$ 5 milyar
+    # cercevesi (31.08), KEZAD galvaniz hatti (31.08). Ucu de tek bir
+    # taramada gorundu ve bir daha cikmadi. Sistem haftada 5-6 haber
+    # GORUYOR, bultene 2 tanesi giriyordu.
+    #
+    # Bu havuz PENCERE ICI, kapiyi gecmis, tarihi dogrulanmis, henuz
+    # gonderilmemis satirlari tutar. Once buradan tamamlanir (taze ve
+    # pencere ici), sonra rezerve bakilir (pencere disi, "GEC YAKALANDI").
+    # Kapi GEVSEMEZ: satirlar zaten ayni kapidan gecmistir, degisen tek sey
+    # unutulmamalaridir.
+    bulunan = _bulunan_guncelle(st_r, rows)
     rezerv = _rezerv_guncelle(st_r, payload.pop("rezerv", []), rows)
+
+    eksik = max(HEDEF_SATIR - len(rows), 0)
+    bulunandan = _rezervden_sec(bulunan, rows, st_r, eksik)
+    if bulunandan:
+        for r in bulunandan:
+            r.pop("rezerv", None)      # pencere ici - "GEC YAKALANDI" degil
+        rows = rows + bulunandan
+        print("bulunan havuzundan %d satir eklendi (havuzda %d kaldi)"
+              % (len(bulunandan), len(bulunan) - len(bulunandan)))
+
     eksik = max(HEDEF_SATIR - len(rows), 0)
     kullanilan = _rezervden_sec(rezerv, rows, st_r, eksik)
     if kullanilan:
         rows = rows + kullanilan
         print("rezervden %d satir eklendi (havuzda %d kaldi)"
               % (len(kullanilan), len(rezerv) - len(kullanilan)))
+    payload["bulunan_kullanilan"] = len(bulunandan)
+    payload["bulunan_havuz"] = len(bulunan) - len(bulunandan)
     payload["rezerv_kullanilan"] = len(kullanilan)
     payload["rezerv_havuz"] = len(rezerv) - len(kullanilan)
 
@@ -137,6 +166,8 @@ def cmd_run(a):
         st = state.load()
         st["rezerv"] = [r for r in (st_r.get("rezerv") or [])
                         if r["anahtar"] not in st["seen"]]
+        st["bulunan"] = [r for r in (st_r.get("bulunan") or [])
+                         if r["anahtar"] not in st["seen"]]
         st["tech_rezerv"] = [t for t in (st_r.get("tech_rezerv") or [])
                              if t["anahtar"] not in st.get("tech_seen", {})]
         st["periods"] = (st.get("periods") or []) + [{
@@ -144,8 +175,8 @@ def cmd_run(a):
             "uretim": payload["generated"], "stats": payload["stats"]}]
         state.prune(st)
         state.save(st)
-        print("havuz: rezerv %d satir, teknoloji adayi %d"
-              % (len(st["rezerv"]), len(st["tech_rezerv"])))
+        print("havuz: bulunan %d satir, rezerv %d satir, teknoloji adayi %d"
+              % (len(st["bulunan"]), len(st["rezerv"]), len(st["tech_rezerv"])))
 
     if a.sadece_tarama:
         # GUNLUK TARAMA MODU (2026-08-27). Gunluk kosu yalniz HAVUZ besler.
@@ -315,6 +346,29 @@ def _rezervden_sec(rezerv, rows, st, eksik):
         secili.append(r)
         olaylar |= eks
     return out
+
+
+def _bulunan_guncelle(st, rows):
+    """Bu kosuda KABUL EDILEN satirlari kalici havuza yazar ve havuzu dondurur.
+
+    Havuza yalniz TAZE satirlar girer - rezervden gelenler zaten kendi
+    havuzundadir. Cikisa da ayni disiplin uygulanir: gonderilmis olan
+    duser, guncel kapiyi gecmeyen duser (bkz. _rezerv_hala_gecerli).
+    """
+    havuz = {r["anahtar"]: r for r in (st.get("bulunan") or [])}
+    for r in rows:
+        if r.get("anahtar") and not r.get("rezerv"):
+            havuz.setdefault(r["anahtar"], dict(r))
+    seen = st.get("seen") or {}
+    bu_kosu = {r.get("anahtar") for r in rows}
+    kosede = {k[5:] for k in (st.get("tech_seen") or {}) if k.startswith("tech:")}
+    temiz = [r for k, r in havuz.items()
+             if k not in seen and k not in kosede and _rezerv_hala_gecerli(r)]
+    temiz.sort(key=lambda r: r.get("tarih", ""), reverse=True)
+    st["bulunan"] = temiz[:REZERV_MAX]
+    # Bu kosuda zaten listede olanlar tekrar EKLENMEZ ama havuzda KALIR:
+    # bulten onaylanmazsa gelecek hafta yine cikabilmeliler.
+    return [r for r in st["bulunan"] if r["anahtar"] not in bu_kosu]
 
 
 def _rezerv_hala_gecerli(r):
