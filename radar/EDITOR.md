@@ -310,6 +310,28 @@ Tenova, üreticilerin kendi newsroom'ları). Kapalı yayınların kendi adresi
 ölçüldü ve hiç satır üretmedi — sayfa 403 verince tarih de doğrulanamıyor;
 o yayınların haberleri artık arama katmanında `site:` hedefiyle yakalanıyor.
 
+#### Arama motoru ESKİ sayfaları öne çıkarır — ölçüldü, üç kez
+
+İlk gerçek doğrulama koşusu (2026-08-31): editörün 11 adayının **hiçbiri**
+pencere içinde değildi.
+
+| sonuç | adet |
+|---|---|
+| doğrulanıp rezerve eklendi | 3 |
+| **"çok eski" (2024 tarihli)** | **3** |
+| gönderilmiş haberin varyantı | 3 |
+| kapsam dışı | 2 |
+
+Üç 2024 haberi (Tata/Danieli birleşik hat, Borçelik ×2) doğrulama olmasa
+bültene girecekti. Daha önce de aynı şey olmuştu: JFE Guangzhou hattı
+2012'den, "CMI" ise şirketin 2019'da John Cockerill olmasından önceden.
+
+**Kural:** editörün bulduğu hiçbir aday, yaşı doğrulanmadan bültene
+giremez — ve editör bunu kendi oturumundan doğrulayamaz. Bu yüzden
+`radar dogrula` bir kolaylık değil, **zorunlu halkadır.** Aday yazarken
+yayının tarih taşıyan listesinden (arşiv/haber indeksi) gitmek, arama
+sonucundan gitmekten daha güvenilirdir.
+
 **1. Sitemap zinciri + robots.txt keşfi.** 16 kaynağa yedek adres listesi
 bağlandı. Sitemap çoğu zaman ana sayfayla aynı korumada değil — SteelOrbis
 bunu kanıtladı (sayfa 403, sitemap 1000 adres).
