@@ -1415,6 +1415,86 @@ def test_v20_indiana_hindistan_degil():
             "rolling capacity"), "Hindistan", "crore Hindistan sinyalidir")
 
 
+def test_w36_pota_galvaniz_hat_degildir():
+    """2026-08-31: galvaniz POTASI, serit isleyen galvaniz HATTI degildir.
+
+    "KEZAD galvanising facility moves closer to commissioning" satiri
+    2026-W36 kosusunda HAT katmanina "Galvaniz hatti (CGL)" rozetiyle
+    girdi. Denetimde cikti: haber bir GALVANIZ POTASI - 610 ton ergimis
+    cinko, 16,2 metrelik kazan, 5,5 metreye kadar YAPILAR icin cift
+    daldirma, yilda 150 bin ton. Yani celik konstruksiyonun parca parca
+    daldirildigi genel galvaniz tesisi; bobin/serit isleyen SUREKLI
+    galvaniz hatti degil. Soguk haddehane muduru icin bu haber degildir.
+
+    BASLIKTA TEK BIR POTA KELIMESI YOK - kanit govdededir. Bu yuzden veto
+    govdede de isler. Govde vetosu yalnizca DARALTIR: "govde bir haberi
+    kapsam ici YAPAMAZ" kuralinin tersi degil, tamamlayicisidir - govde
+    bir haberin kapsam DISI oldugunu kanitlayabilir.
+    """
+    kezad = ("The facility will hold 610 metric tons of molten zinc at "
+             "around 450C in a 16.2-metre galvanising kettle with "
+             "double-dipping capability for structures up to 5.5 metres, "
+             "providing capacity to galvanize up to 150,000 tonnes annually.")
+    ok, why = taxonomy.in_scope(
+        "KEZAD galvanising facility moves closer to commissioning", kezad)
+    eq(ok, False, "pota tesisi kapsam disi olmali")
+    eq(why, "pota_galvaniz", "sebep dogru olmali")
+    eq(taxonomy.in_scope(
+        "Galva Hub to commission Emirates largest galvanizing kettle")[0],
+       False, "basliktaki pota da vetolanmali")
+
+    # SUREKLI SERIT HATLARI KORUNMALI - kalip dar tutuldu
+    for t, g in (
+        ("JSW Steel, India, orders ANDRITZ galvanizing line for advanced "
+         "automotive steel",
+         "The continuous galvanizing line will produce high-strength coated "
+         "sheet for the automotive industry."),
+        ("Primetals Technologies awarded contract for hot-dip galvanizing "
+         "line at JFE Steel",
+         "The hot-dip galvanizing line processes cold-rolled strip in coil form."),
+        ("Galvanizing line upgrade by SMS group enables Villacero to meet "
+         "the growing demand for skin-passed strip and coil",
+         "The continuous galvanizing line upgrade includes a new zinc pot "
+         "and air knife system."),
+        ("Angang Guangzhou produces first coil at new galvanizing line", ""),
+    ):
+        eq(taxonomy.in_scope(t, g)[0], True,
+           "surekli galvaniz hatti kapsam icinde kalmali: " + t[:44])
+
+
+def test_w36_yayinci_kuyrugu():
+    """2026-08-31: yayinci adi basligin sonuna yapisip rapora giriyordu.
+
+    2026-W36 kosusunda satir bu haliyle cikti:
+      "Marcegaglia upgrades pickling line at Gazoldo degli Ippoliti
+       stainless steel plant | Mesteel - Online News"
+    Iki zarari var: okuyucuya cop gosterir, VE ayni haberin iki yayindaki
+    hali farkli tekrar anahtari uretir - yani tekrar savunmasini da deler.
+
+    Kesim IHTIYATLI olmali: ayiricidan sonraki parca kisa olmali, yayinci
+    isareti tasimali ve geriye anlamli bir baslik kalmali. Aksi halde
+    "New MINO Double-Stand Six-High Cold Reversing Mill in North America"
+    gibi tireli gercek basliklar kirpilir.
+    """
+    eq(taxonomy.temiz_baslik(
+        "Marcegaglia upgrades pickling line at Gazoldo degli Ippoliti "
+        "stainless steel plant | Mesteel - Online News"),
+       "Marcegaglia upgrades pickling line at Gazoldo degli Ippoliti "
+       "stainless steel plant", "Mesteel kuyrugu atilmali")
+    eq(taxonomy.temiz_baslik(
+        "Angang starts production at new galvanizing line - Yieh Corp Steel News"),
+       "Angang starts production at new galvanizing line", "Yieh kuyrugu atilmali")
+    # KORUNMALI - kuyruk degil, basligin kendisi
+    for t in ("KEZAD galvanising facility moves closer to commissioning",
+              "KG Steel selects Primetals for Dangjin PLTCM upgrade and "
+              "capacity expansion",
+              "Primetals to modernise Korean pickling line",
+              "U. S. Steel Announces Plans to Restart Gary Tin Mill",
+              "New MINO Double-Stand Six-High Cold Reversing Mill in North America",
+              "Tosyali Algerie launches cold-rolled steel production"):
+        eq(taxonomy.temiz_baslik(t), t, "gercek baslik kirpilmamali: " + t[:44])
+
+
 def test_w36_editor_bulur_makine_dogrular():
     """2026-08-31 (kullanici: "bulamadigi haftalar sen bul").
 
@@ -2338,6 +2418,8 @@ def run():
                test_v20_gonderilmis_hafiza,
                test_v20_gunluk_tarama_arsivi_ezmez,
                test_v20_indiana_hindistan_degil,
+               test_w36_pota_galvaniz_hat_degildir,
+               test_w36_yayinci_kuyrugu,
                test_w36_editor_bulur_makine_dogrular,
                test_w36_adres_ve_teknoloji_havuzu,
                test_w36_bulunan_havuzu_ve_yanlis_tekrar,

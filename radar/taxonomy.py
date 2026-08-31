@@ -278,6 +278,23 @@ MATERIAL_BLOCK = re.compile(
 # alakasiz satirlarin tamami buradan sizdi: HARD_REJECT sadece Katman 1'de
 # calisiyordu, "genel yatirim" etiketi alan satir denetimi atliyordu.
 _NOISE = (
+    # GENEL/POTA GALVANIZ - YASSI HAT DEGILDIR (2026-08-31).
+    #
+    # "KEZAD galvanising facility moves closer to commissioning" satiri
+    # 2026-W36'da HAT katmanina "Galvaniz hatti (CGL)" olarak girdi.
+    # Denetimde cikti: haber bir GALVANIZ POTASI - 610 ton ergimis cinko,
+    # 16,2 metrelik kazan, 5,5 metreye kadar YAPILAR icin cift daldirma.
+    # Yani celik konstruksiyonun parca parca daldirildigi genel galvaniz
+    # tesisi; serit/bobin isleyen SUREKLI galvaniz hatti degil. Soguk
+    # haddehane muduru icin bu haber degildir.
+    #
+    # Kalip DAR: "hot-dip galvanizing LINE" (CGL) kapsam icindedir ve
+    # korunmasi test edilir. Vetolanan sey pota/kazan/batch/genel galvaniz
+    # ve yapi daldirmadir.
+    r"galvani[sz]ing kettle|galvani[sz]ing bath|zinc kettle|"
+    r"batch galvani|general galvani|galvani[sz]ing plant for (steel )?structur|"
+    r"double[- ]dipping|galvani[sz]e (steel )?structur|fabricated steel galvani|"
+    r"galvaniz kazan|daldirma galvaniz|sicak daldirma galvaniz tesisi|"
     # SIRKET SATIN ALMA / BIRLESME - HER IKI KATMANDA (2026-08-31).
     # Kural bastan beri "sirket satin alma rapora girmez" diyordu ama veto
     # yalniz Katman 2'deydi. Bing ayna katmani acilinca su satir HAT
@@ -456,6 +473,15 @@ SOGUK_TARAF = re.compile(
 
 # Gurultu tek basina: HER IKI katmanda da uygulanir (v5).
 NOISE_REJECT = re.compile(r"(" + _NOISE + r")")
+
+# POTA / GENEL GALVANIZ: govdede de aranir (bkz. in_scope). Serit isleyen
+# SUREKLI galvaniz hatti kapsam icidir; celik konstruksiyonun parca parca
+# daldirildigi pota tesisi degildir.
+POTA_GALVANIZ = re.compile(
+    r"(galvani[sz]ing kettle|galvani[sz]ing bath|zinc kettle|molten zinc"
+    r"[^.]{0,60}(kettle|bath)|batch galvani|general galvani|double[- ]dipping|"
+    r"galvani[sz]e (steel )?structur|galvani[sz]ing (of )?(steel )?structur|"
+    r"fabricated steel galvani|galvaniz kazan|daldirma galvaniz)")
 
 COUNTRY_MAP = [
     (r"turkey|turkiye|turkish", "Turkiye"),
@@ -690,6 +716,19 @@ def temiz_baslik(title):
         t = m.group(1).strip()
     for pat, rep in _BAS_ONEK:
         t = re.sub(pat, rep, t, flags=re.I).strip()
+    # YAYINCI KUYRUGU (2026-08-31). Cok yayinci basligin sonuna kendi adini
+    # ekliyor: "... stainless steel plant | Mesteel - Online News",
+    # "... galvanizing line - Yieh Corp Steel News". Kuyruk rapora oldugu
+    # gibi girdi (2026-W36) ve iki zarari var: okuyucuya cop gosterir, VE
+    # ayni haberin iki yayindaki hali farkli tekrar anahtari uretir.
+    # Kesim ihtiyatli: yalnizca AYIRICIDAN SONRAKI kisa parca ve ancak
+    # geriye anlamli bir baslik kaliyorsa atilir.
+    m = re.search(r"^(.{25,}?)\s+[|\u2013\u2014-]\s+([^|\u2013\u2014]{3,45})$", t)
+    if m and len(m.group(1).split()) >= 5:
+        kuyruk = m.group(2).lower()
+        if re.search(r"(news|online|magazine|daily|press|corp|group|"
+                     r"steel news|com\b|\.net|haber|gazete)", kuyruk):
+            t = m.group(1).strip()
     # Arkaya yapisan lede: "... Baslik 2025-07-08 International technology..."
     m = re.search(r"^(.{25,}?)\s+\d{4}-\d{2}-\d{2}\s+\S", t)
     if m:
@@ -849,6 +888,19 @@ def in_scope(title, lead=""):
     # kurumsal el degistirme haberleri Hat katmanindan sizabiliyordu.
     if NOISE_REJECT.search(ft):
         return False, "gurultu"
+    # POTA/GENEL GALVANIZ VETOSU GOVDEDE DE ISLER (2026-08-31).
+    #
+    # "KEZAD galvanising facility moves closer to commissioning" basliginda
+    # tek bir pota kelimesi yok; kanit GOVDEDE - 610 ton ergimis cinko,
+    # 16,2 metrelik kazan, 5,5 metreye kadar YAPILAR icin cift daldirma.
+    # Satir 2026-W36'da "Galvaniz hatti (CGL)" rozetiyle Hat katmanina
+    # girdi ve denetimde yakalandi.
+    #
+    # Govde vetosu YALNIZCA DARALTIR, asla genisletmez - "govde kurtaramaz"
+    # kuralinin tersi degil, tamamlayicisidir: govde bir haberi kapsam ici
+    # YAPAMAZ ama kapsam disi oldugunu KANITLAYABILIR.
+    if POTA_GALVANIZ.search(blob):
+        return False, "pota_galvaniz"
     # HARD_REJECT = NOISE + UPSTREAM. NOISE yukarida ayri bakildi; UPSTREAM
     # asagida KOSULLU bakilir (guclu soguk terim vetoyu kaldirir), bu yuzden
     # burada HARD_REJECT'i toptan uygulamak yanlis olur - "cold rolling mill
