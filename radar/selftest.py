@@ -1547,6 +1547,7 @@ def test_w36_host_korumasi_ve_ikinci_arama_hostu():
     from . import http as H
     from . import sources as S
     import re as _re
+    import urllib.parse as _up
 
     # --- A) butce istegi gercekten keser
     eski_butce = H.HOST_BUTCE
@@ -1595,6 +1596,25 @@ def test_w36_host_korumasi_ve_ikinci_arama_hostu():
     eq(en_buyuk <= len(S.SOURCES) * 0.40, True,
        "hicbir host kaynaklarin %%40'indan fazlasini tutmamali (en buyuk %d/%d)"
        % (en_buyuk, len(S.SOURCES)))
+
+    # KAPALI YAYININ KENDI HABERI site: ile hedeflenir (2026-08-31).
+    # Olcum: kapsam ici haberin ~%72'si STI + SteelOrbis'ten geliyor ve STI
+    # HER adreste 403. Mevcut vekil sorgular yayinin ADINI ariyordu - "SMS
+    # group" HAKKINDAKI haberleri buluyor, sms-group.com'un KENDI
+    # haberlerini degil; aradaki fark o yayinlarin butun uretimi kadardir.
+    # 403 burada engel degildir: arama katmani makaleyi HIC ACMAZ, tarih
+    # beslemenin pubDate'inden yapisal gelir.
+    site_q = [x for x in S.SOURCES if x["id"].startswith("gs_")]
+    eq(len(site_q) >= 8, True, "kapali yayinlar site: ile hedeflenmeli")
+    alanlar = " ".join(x["rss"] for x in site_q)
+    for alan in ("steeltimesint.com", "sms-group.com",
+                 "corporate.arcelormittal.com", "bigmint.co",
+                 "furnaces-international.com", "mysteel.com"):
+        eq(_up.quote("site:" + alan) in alanlar, True,
+           "erisilemeyen yayin hedeflenmeli: " + alan)
+    # site: sorgulari da AYNALANMALI - bir aggregator indekslemezse digeri
+    eq(len([x for x in S.SOURCES if x["id"].startswith("bgs_")]), len(site_q),
+       "site: sorgularinin da aynasi olmali")
 
     ayna = [x for x in S.SOURCES if x["publisher"] == "Bing News"]
     gnews = [x for x in S.SOURCES if x["publisher"] == "Google News"]

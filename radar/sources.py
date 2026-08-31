@@ -538,6 +538,57 @@ SOURCES = [
     dict(id="gx_q_es1", publisher="Google News", kind="arama", country="XX",
          url="https://news.google.com/rss/search?q=%22linea%20de%20galvanizado%22%20OR%20%22laminacion%20en%20frio%22%20OR%20%22linea%20de%20decapado%22%20acero%20when%3A30d&hl=es&gl=ES&ceid=ES:es",
          rss="https://news.google.com/rss/search?q=%22linea%20de%20galvanizado%22%20OR%20%22laminacion%20en%20frio%22%20OR%20%22linea%20de%20decapado%22%20acero%20when%3A30d&hl=es&gl=ES&ceid=ES:es", verified=False),
+
+    # KAPALI YAYININ KENDI HABERLERINI ARAMA KATMANINDAN AL (2026-08-31).
+    #
+    # Olcum: kapsam ici haberin ~%72'si Steel Times International +
+    # SteelOrbis'ten geliyor ve STI HER adreste 403 - sayfa, sitemap,
+    # /feed, /rss ve robots.txt'ten bulunanlar dahil. SMS group,
+    # ArcelorMittal, BigMint, Furnaces International, Nippon Steel,
+    # MetalForming ayni durumda.
+    #
+    # Mevcut vekil sorgular yayinin ADINI ariyordu - yani "SMS group"
+    # HAKKINDAKI haberleri buluyor, sms-group.com'un KENDI haberlerini
+    # degil. Aradaki fark bu yayinlarin butun uretimi kadardir.
+    #
+    # site: hedefi bunu cozer ve 403 BURADA ENGEL DEGILDIR: arama katmani
+    # makaleyi HIC ACMAZ (kind="arama"), tarih beslemenin kendi
+    # pubDate'inden yapisal olarak gelir. Yani kapali yayinin haberi,
+    # sayfasi kapaliyken de tarihiyle birlikte yakalanir. Tarihsiz elenen
+    # 96 kaydin 8'inin tam olarak bu yayinlardan gelmesinin sebebi buydu.
+    #
+    # Her sorgu Bing aynasina da otomatik yansir: bir aggregator o yayini
+    # indekslemezse digeri deneyecektir.
+    dict(id="gs_sti", publisher="Google News", kind="arama", country="XX",
+         url="https://news.google.com/rss/search?q=site%3Asteeltimesint.com%20%28line%20OR%20mill%20OR%20galvani%20OR%20pickling%20OR%20annealing%20OR%20coating%20OR%20tinplate%20OR%20%22cold%20rolling%22%29%20when%3A30d&hl=en-US&gl=US&ceid=US:en",
+         rss="https://news.google.com/rss/search?q=site%3Asteeltimesint.com%20%28line%20OR%20mill%20OR%20galvani%20OR%20pickling%20OR%20annealing%20OR%20coating%20OR%20tinplate%20OR%20%22cold%20rolling%22%29%20when%3A30d&hl=en-US&gl=US&ceid=US:en", verified=False),
+    dict(id="gs_sms", publisher="Google News", kind="arama", country="XX",
+         url="https://news.google.com/rss/search?q=site%3Asms-group.com%20%28line%20OR%20mill%20OR%20strip%20OR%20coating%20OR%20annealing%20OR%20pickling%29%20when%3A30d&hl=en-US&gl=US&ceid=US:en",
+         rss="https://news.google.com/rss/search?q=site%3Asms-group.com%20%28line%20OR%20mill%20OR%20strip%20OR%20coating%20OR%20annealing%20OR%20pickling%29%20when%3A30d&hl=en-US&gl=US&ceid=US:en", verified=False),
+    dict(id="gs_amittal", publisher="Google News", kind="arama", country="XX",
+         url="https://news.google.com/rss/search?q=site%3Acorporate.arcelormittal.com%20%28galvanizing%20OR%20%22cold%20rolling%22%20OR%20coating%20OR%20tinplate%20OR%20%22electrical%20steel%22%20OR%20line%29%20when%3A30d&hl=en-US&gl=US&ceid=US:en",
+         rss="https://news.google.com/rss/search?q=site%3Acorporate.arcelormittal.com%20%28galvanizing%20OR%20%22cold%20rolling%22%20OR%20coating%20OR%20tinplate%20OR%20%22electrical%20steel%22%20OR%20line%29%20when%3A30d&hl=en-US&gl=US&ceid=US:en", verified=False),
+    dict(id="gs_furnint", publisher="Google News", kind="arama", country="XX",
+         url="https://news.google.com/rss/search?q=site%3Afurnaces-international.com%20%28strip%20OR%20galvanizing%20OR%20annealing%20OR%20line%29%20when%3A30d&hl=en-US&gl=US&ceid=US:en",
+         rss="https://news.google.com/rss/search?q=site%3Afurnaces-international.com%20%28strip%20OR%20galvanizing%20OR%20annealing%20OR%20line%29%20when%3A30d&hl=en-US&gl=US&ceid=US:en", verified=False),
+    dict(id="gs_bigmint", publisher="Google News", kind="arama", country="XX",
+         url="https://news.google.com/rss/search?q=site%3Abigmint.co%20%28%22cold%20rolled%22%20OR%20galvanized%20OR%20coated%20OR%20line%20OR%20mill%29%20when%3A30d&hl=en-US&gl=US&ceid=US:en",
+         rss="https://news.google.com/rss/search?q=site%3Abigmint.co%20%28%22cold%20rolled%22%20OR%20galvanized%20OR%20coated%20OR%20line%20OR%20mill%29%20when%3A30d&hl=en-US&gl=US&ceid=US:en", verified=False),
+    dict(id="gs_mysteel", publisher="Google News", kind="arama", country="XX",
+         url="https://news.google.com/rss/search?q=site%3Amysteel.com%20%28%22cold%20rolling%22%20OR%20galvanizing%20OR%20annealing%20OR%20%22silicon%20steel%22%29%20when%3A30d&hl=en-US&gl=US&ceid=US:en",
+         rss="https://news.google.com/rss/search?q=site%3Amysteel.com%20%28%22cold%20rolling%22%20OR%20galvanizing%20OR%20annealing%20OR%20%22silicon%20steel%22%29%20when%3A30d&hl=en-US&gl=US&ceid=US:en", verified=False),
+    dict(id="gs_aist", publisher="Google News", kind="arama", country="XX",
+         url="https://news.google.com/rss/search?q=site%3Aaist.org%20%28%22cold%20rolling%22%20OR%20galvanizing%20OR%20annealing%20OR%20pickling%20OR%20%22electrical%20steel%22%29%20when%3A30d&hl=en-US&gl=US&ceid=US:en",
+         rss="https://news.google.com/rss/search?q=site%3Aaist.org%20%28%22cold%20rolling%22%20OR%20galvanizing%20OR%20annealing%20OR%20pickling%20OR%20%22electrical%20steel%22%29%20when%3A30d&hl=en-US&gl=US&ceid=US:en", verified=False),
+    dict(id="gs_nippon", publisher="Google News", kind="arama", country="XX",
+         url="https://news.google.com/rss/search?q=site%3Anipponsteel.com%20%28galvanizing%20OR%20%22cold%20rolling%22%20OR%20coating%20OR%20%22electrical%20steel%22%20OR%20line%29%20when%3A30d&hl=en-US&gl=US&ceid=US:en",
+         rss="https://news.google.com/rss/search?q=site%3Anipponsteel.com%20%28galvanizing%20OR%20%22cold%20rolling%22%20OR%20coating%20OR%20%22electrical%20steel%22%20OR%20line%29%20when%3A30d&hl=en-US&gl=US&ceid=US:en", verified=False),
+    dict(id="gs_mfmag", publisher="Google News", kind="arama", country="XX",
+         url="https://news.google.com/rss/search?q=site%3Ametalformingmagazine.com%20%28%22cut-to-length%22%20OR%20slitting%20OR%20%22coil%20processing%22%20OR%20leveling%29%20when%3A30d&hl=en-US&gl=US&ceid=US:en",
+         rss="https://news.google.com/rss/search?q=site%3Ametalformingmagazine.com%20%28%22cut-to-length%22%20OR%20slitting%20OR%20%22coil%20processing%22%20OR%20leveling%29%20when%3A30d&hl=en-US&gl=US&ceid=US:en", verified=False),
+    dict(id="gs_orbis2", publisher="Google News", kind="arama", country="XX",
+         url="https://news.google.com/rss/search?q=site%3Asteelorbis.com%20%28%22cold%20rolling%22%20OR%20galvanizing%20OR%20annealing%20OR%20pickling%20OR%20tinplate%20OR%20%22electrical%20steel%22%29%20when%3A30d&hl=en-US&gl=US&ceid=US:en",
+         rss="https://news.google.com/rss/search?q=site%3Asteelorbis.com%20%28%22cold%20rolling%22%20OR%20galvanizing%20OR%20annealing%20OR%20pickling%20OR%20tinplate%20OR%20%22electrical%20steel%22%29%20when%3A30d&hl=en-US&gl=US&ceid=US:en", verified=False),
 ]
 
 KNOWN_GAPS = [
