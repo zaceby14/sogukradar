@@ -258,6 +258,13 @@ def _rezerv_alanlarini_tazele(r):
     Yalnizca BASLIKTAN turetilebilen bir ulke varsa yazilir; baslik ulke
     tasimiyorsa (KG Steel/Dangjin gibi) govdeden gelen eski deger korunur.
     """
+    # BASLIK DA GUNCEL TEMIZLIKTEN GECER. Havuzdaki baslik, havuza girdigi
+    # gunku temizlikle yazilmistir; yayinci kuyrugu kesimi sonradan
+    # eklendiginde havuzdaki satir hala "... | Mesteel - Online News"
+    # tasiyordu ve rapora oyle girdi (2026-W36).
+    tb = taxonomy.temiz_baslik(r.get("baslik") or "", r.get("url") or "")
+    if tb and tb != r.get("baslik"):
+        r["baslik"] = tb
     u = taxonomy.match_country(r.get("baslik") or "")
     if u and u != (r.get("ulke") or ""):
         r["ulke"] = u
@@ -314,7 +321,18 @@ def _rezervden_sec(rezerv, rows, st, eksik):
     if eksik <= 0 or not rezerv:
         return []
     secili = list(rows)
-    olaylar = set()
+    # KALICI OLAY HAFIZASI DA SORULUR (2026-08-31). Taze satirlar collect
+    # icinde state["events"]'e karsi denetleniyordu; REZERVDEN secim ise
+    # yalnizca BU KOSUNUN satirlarina bakiyordu. Sonuc olculdu:
+    #   gonderilen (W35): "Roofings Unveils $125m Steel Mill, Doubles
+    #                      Cold-Rolled Capacity to 300,000 Tonnes" (Uganda)
+    #   rezervden gelen : "RRM starts up new cold-mill complex with Danieli
+    #                      technology"
+    # RRM = Roofings Rolling Mills; ayni Uganda soguk hadde kompleksi, baska
+    # yayin, baska kisaltma. Ustelik satirin ulkesi "Turkiye" okunmustu,
+    # yani ulke bacagi da korlesmisti - ama TEDARIKCI+HAT+ASAMA bacagi
+    # hafizada duruyordu ve sorulsaydi yakalanacakti.
+    olaylar = set(st.get("events") or {})
     for r in secili:
         olaylar |= set(r.get("olaylar") or [])
     gecmis = [b for b in (st.get("son_basliklar") or [])
@@ -323,6 +341,14 @@ def _rezervden_sec(rezerv, rows, st, eksik):
     # En yeniden eskiye: okuyucu once guncel olani gorsun.
     for r in sorted(rezerv, key=lambda r: r.get("tarih", ""), reverse=True):
         _rezerv_alanlarini_tazele(r)
+        # IZLER YENIDEN URETILMEZ - denendi ve GERCEK HABER kaybettirdi.
+        # event_keys'in "kim|hat|hat_turu|asama" bacagi ULKESIZDIR ve
+        # tedarikci ayni olunca farkli ulkelerdeki iki ayri isi
+        # birlestiriyor: "Primetals to modernise Korean pickling line" ile
+        # "Primetals to modernise Indian pickling line" ayni sayildi.
+        # Havuzdaki iz zaten satirin kendi alanlarindan uretilmisti; RRM
+        # tekrarini yakalayan sey iz uretimi degil, KALICI HAFIZANIN
+        # sorulmasiydi (asagida olaylar kumesine state["events"] konuldu).
         if len(out) >= eksik:
             break
         eks = set(r.get("olaylar") or [])

@@ -1415,6 +1415,63 @@ def test_v20_indiana_hindistan_degil():
             "rolling capacity"), "Hindistan", "crore Hindistan sinyalidir")
 
 
+def test_w36_rezerv_kalici_hafizayi_sorar():
+    """2026-08-31: rezervden secim KALICI olay hafizasini hic sormuyordu.
+
+    Taze satirlar collect icinde state["events"]'e karsi denetleniyor;
+    rezervden secim ise yalnizca BU KOSUNUN satirlarina bakiyordu. Sonuc
+    olculdu - 2026-W36 kosusunda su satir listeye girdi:
+      gonderilen (W35): "Roofings Unveils $125m Steel Mill, Doubles
+                         Cold-Rolled Capacity to 300,000 Tonnes"  (Uganda)
+      rezervden gelen : "RRM starts up new cold-mill complex with Danieli
+                         technology"
+    RRM = Roofings Rolling Mills; AYNI Uganda soguk hadde kompleksi, baska
+    yayin, baska kisaltma. Ustelik satirin ulkesi "Turkiye" okunmustu, yani
+    ulke bacagi da korlesmisti - ama TEDARIKCI+HAT+ASAMA bacagi hafizada
+    duruyordu ve sorulsaydi yakalanacakti.
+
+    NOT: izleri yeniden URETMEK cozum DEGIL - denendi ve gercek haber
+    kaybettirdi. event_keys'in "kim|hat|..." bacagi ULKESIZDIR; tedarikci
+    ayni olunca "Primetals to modernise Korean pickling line" ile
+    "Primetals to modernise Indian pickling line" birlesiyor. Cozum
+    havuzdaki mevcut izleri KALICI HAFIZAYA karsi sormaktir.
+    """
+    from .cli import _rezervden_sec
+
+    def _r(a, tarih, baslik, ted="", ulke="", asama="Ilk urun", hat="Soguk hadde"):
+        return {"anahtar": a, "tarih": tarih, "baslik": baslik, "tedarikci": ted,
+                "ulke": ulke, "asama": asama, "hat": hat, "kategori": "Hat",
+                "olaylar": [], "rezerv": True}
+
+    rrm = _r("r1", "2026-02-12",
+             "RRM starts up new cold-mill complex with Danieli technology",
+             ted="Danieli", ulke="Turkiye")
+    rrm["olaylar"] = ["danieli|hat|Soguk hadde|Ilk urun",
+                      "danieli|ulke|Turkiye|Ilk urun"]
+    hafiza = {"events": {"danieli|hat|Soguk hadde|Ilk urun": "2026-08-25",
+                         "danieli|ulke|Uganda|Ilk urun": "2026-08-25"},
+              "son_basliklar": []}
+    eq(_rezervden_sec([rrm], rows=[], st=hafiza, eksik=6), [],
+       "kalici hafizadaki olayin varyanti rezervden gelemez")
+
+    # Hafizada olmayan satir GECER - temizlik cop toplar, haber degil
+    yeni_satir = _r("r2", "2026-05-20",
+                    "India's JIL commissions continuous color coating line",
+                    ulke="Hindistan", hat="Boyama hatti (CCL)")
+    yeni_satir["olaylar"] = ["|hat|Boyama hatti (CCL)|Ilk urun"]
+    eq(len(_rezervden_sec([yeni_satir], rows=[], st=hafiza, eksik=6)), 1,
+       "hafizada olmayan gercek satir gecmeli")
+
+    # Izler YENIDEN URETILMEZ - iki ayri Primetals isi birlesmemeli
+    src = open(os.path.join(os.path.dirname(__file__), "cli.py"),
+               encoding="utf-8").read()
+    g = src[src.index("def _rezervden_sec("):src.index("def _bulunan_guncelle(")]
+    eq('r["olaylar"] = sorted(set(r.get("olaylar")' not in g, True,
+       "rezervde iz yeniden uretilmemeli - gercek haber kaybettirir")
+    eq('olaylar = set(st.get("events") or {})' in g, True,
+       "kalici hafiza olaylar kumesine konulmali")
+
+
 def test_w36_pota_galvaniz_hat_degildir():
     """2026-08-31: galvaniz POTASI, serit isleyen galvaniz HATTI degildir.
 
@@ -2449,6 +2506,7 @@ def run():
                test_v20_gonderilmis_hafiza,
                test_v20_gunluk_tarama_arsivi_ezmez,
                test_v20_indiana_hindistan_degil,
+               test_w36_rezerv_kalici_hafizayi_sorar,
                test_w36_pota_galvaniz_hat_degildir,
                test_w36_yayinci_kuyrugu,
                test_w36_editor_bulur_makine_dogrular,
