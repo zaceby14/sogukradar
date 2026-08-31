@@ -317,6 +317,35 @@ def _rezervden_sec(rezerv, rows, st, eksik):
     return out
 
 
+def _rezerv_hala_gecerli(r):
+    """Rezervdeki satir BUGUNKU kapiyi hala geciyor mu?
+
+    HAVUZ, KARARI TASIR - KODU DEGIL. Rezerv 540 gun geriye uzaniyor; bir
+    satir havuza girdiginde o gunku kapinin verdigi karari yaniyla birlikte
+    tasiyor. Kapida bir delik kapatildiginda havuzda duran eski satir
+    etkilenmiyor ve haftalar sonra listeye giriyor.
+
+    2026-08-31'de olculdu. Ayni gun iki delik kapatilmisti:
+      "Triple-S Steel acquires Camden Yards Steel"        (sirket satin alma)
+      "Ezz Flat Steel signs agreement with Danieli for QSP modernization"
+                                                          (QSP = sicak taraf)
+    Ikisi de kapali kapidan bir daha GECEMEZ - ama ayni kosuda REZERVDEN
+    listeye girdiler, cunku rezervden secim kapiyi hic sormuyordu.
+
+    Ayni aile: _rezerv_alanlarini_tazele ulkeyi guncel sozlukle yeniden
+    turetir (Gary/Indiana vakasi). Burada da havuz her kosuda guncel kapiya
+    gore temizlenir; dusen satir havuzdan KALICI olarak cikar, bir daha
+    istek ya da denetim harcatmaz.
+    """
+    t = r.get("baslik") or ""
+    if not t:
+        return False
+    ok, _ = taxonomy.in_scope(t)
+    if ok and taxonomy.haber_olayi(t):
+        return True
+    return bool(taxonomy.genel_yatirim(t))
+
+
 def _rezerv_guncelle(st, yeni_adaylar, rows):
     """Rezerv havuzunu tazeler ve KULLANILABILIR satirlari dondurur.
 
@@ -332,7 +361,8 @@ def _rezerv_guncelle(st, yeni_adaylar, rows):
     bu_kosu = {r.get("anahtar") for r in rows}
     kosede = {k[5:] for k in (st.get("tech_seen") or {}) if k.startswith("tech:")}
     temiz = [r for k, r in havuz.items()
-             if k not in seen and k not in bu_kosu and k not in kosede]
+             if k not in seen and k not in bu_kosu and k not in kosede
+             and _rezerv_hala_gecerli(r)]
     temiz.sort(key=lambda r: r.get("tarih", ""), reverse=True)
     st["rezerv"] = temiz[:REZERV_MAX]
     return list(st["rezerv"])

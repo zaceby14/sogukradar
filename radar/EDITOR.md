@@ -286,6 +286,21 @@ açılıp da liste boş döndüyse kaynak *erişilemez değildir* — v20'nin il
 halinde zincirin "sitemap boş" hatası bu duruma yazılıyor ve China Baowu ile
 SteelGuru erişilemeyen listesine yanlış giriyordu.
 
+### Havuz KARARI taşır, KODU değil — üç yerde aynı ders
+
+Rezerv 540 gün geriye uzanır ve içindeki her satır **havuza girdiği günkü
+kodun kararını** taşır. Kapıyı düzeltmek havuzdaki eski kararı düzeltmez.
+Aynı ders 2026-08-31'de üç ayrı yerde çıktı:
+
+| yer | vaka | çözüm |
+|---|---|---|
+| ülke alanı | `\bindia` düzeltildi ama rezervdeki Gary satırı hâlâ "Hindistan" | `_rezerv_alanlarini_tazele` — ülkeyi güncel sözlükle başlıktan yeniden türetir |
+| olay parmak izi | editör Roofings satırını düzeltti, hafızada bozuk iz kaldı → aynı haberin iki varyantı geri geldi | `finalize` izi **düzeltmeden sonra** üretir, eskisini de saklar |
+| kapsam kapısı | M&A ve QSP vetoları eklendi, aynı koşuda o iki satır **rezervden** listeye girdi | `_rezerv_hala_gecerli` — havuz her koşuda güncel kapıya sokulur, düşen satır kalıcı olarak çıkar |
+
+Kural: **kalıcı bir havuza yazılan her karar, okunurken güncel kodla
+yeniden sınanmalıdır.** Yeni bir havuz eklenirse bu soru sorulmalı.
+
 ### Havuzu büyütmek kapının deliklerini gösterir
 
 Rezerv ilk açıldığında beş delik göstermişti; ikinci arama host'u açılınca

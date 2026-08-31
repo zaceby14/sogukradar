@@ -413,6 +413,14 @@ _UPSTREAM = (
     # ayniydi ama sebep yanlisti; kaplama/tavlama terimi tasiyan bir
     # sicak hadde basligi bu acikten Hat katmanina girebilirdi.
     r"hot roll(ing)? line|hot strip line|hot mill\b|"
+    # HIDROJEN TABANLI DEMIR URETIMI = YUKARI AKIS (2026-08-31).
+    # "Cleveland-Cliffs matches $500M federal grant for Ohio steel mill
+    # without hydrogen retrofit" satiri Hat katmanina girdi; haber demir
+    # uretiminin karbonsuzlastirilmasi hakkinda, bir islem hatti hakkinda
+    # degil. Kalip DAR tutuldu: "hydrogen annealing" ve HNx atmosferi
+    # gercek bir tavlama hatti konusudur, onlar eslesmemeli.
+    r"hydrogen[- ]?(retrofit|ready|based|ironmaking|dri)|"
+    r"h2[- ](retrofit|based) |green hydrogen (plant|project)|"
     r"sinter plant|coke oven|pellet plant|scrap yard|ladle furnace|"
     # "steelmaking" = celikhane. Baslikta soguk taraf terimi yokken bunu
     # kapsam ici saymak yanlis: "Cleveland-Cliffs Invests $1B in Steelmaking

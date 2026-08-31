@@ -1415,6 +1415,63 @@ def test_v20_indiana_hindistan_degil():
             "rolling capacity"), "Hindistan", "crore Hindistan sinyalidir")
 
 
+def test_w36_havuz_karari_tasir_kodu_degil():
+    """2026-08-31: kapiyi duzeltmek havuzdaki eski karari DUZELTMEZ.
+
+    Ayni gun iki delik kapatildi (sirket satin alma, QSP) ve AYNI KOSUDA
+    o iki satir REZERVDEN listeye girdi:
+      "Triple-S Steel acquires Camden Yards Steel"
+      "Ezz Flat Steel signs agreement with Danieli for QSP modernization"
+    Ikisi de kapali kapidan bir daha GECEMEZ - ama rezervden secim kapiyi
+    hic sormuyordu. Rezerv 540 gun geriye uzaniyor, yani her kapi
+    duzeltmesi havuzda 18 aya kadar etkisiz kaliyordu.
+
+    AYNI AILE, ucuncu kez: havuz KARARI tasir, KODU degil.
+      - _rezerv_alanlarini_tazele : ulkeyi guncel sozlukle yeniden turetir
+                                    (Gary/Indiana -> Hindistan vakasi)
+      - finalize                  : olay izini duzeltmeden SONRA uretir
+                                    (Roofings vakasi)
+      - _rezerv_hala_gecerli      : havuzu her kosuda guncel kapiya sokar
+    """
+    from .cli import _rezerv_hala_gecerli
+
+    for t in ("Triple-S Steel acquires Camden Yards Steel",
+              "Ezz Flat Steel signs agreement with Danieli for QSP "
+              "modernization in Ain Sokhna",
+              "Cleveland-Cliffs matches $500M federal grant for Ohio steel "
+              "mill without hydrogen retrofit"):
+        eq(_rezerv_hala_gecerli({"baslik": t}), False,
+           "kapali kapidan gecen satir havuzda kalmamali: " + t[:45])
+
+    # Gercek satirlar havuzda KALMALI - temizlik cop toplar, haber degil
+    for t in ("Primetals to modernise Korean pickling line",
+              "U. S. Steel Announces Plans to Restart Gary Tin Mill",
+              "tk accelis Processing Europe expands Stuttgart steel "
+              "service center capacity",
+              "New MINO Double-Stand Six-High Cold Reversing Mill in "
+              "North America"):
+        eq(_rezerv_hala_gecerli({"baslik": t}), True,
+           "gercek haber havuzda kalmali: " + t[:45])
+
+    eq(_rezerv_hala_gecerli({}), False, "baslik yoksa havuzda duramaz")
+
+    # Temizlik havuz TAZELENIRKEN isler - dusen satir bir daha maliyet
+    # cikarmasin diye kalici olarak duser
+    src = open(os.path.join(os.path.dirname(__file__), "cli.py"),
+               encoding="utf-8").read()
+    g = src[src.index("def _rezerv_guncelle("):src.index("def cmd_review(")]
+    eq("_rezerv_hala_gecerli(r)" in g, True,
+       "havuz her kosuda guncel kapiya sokulmali")
+
+    # HIDROJEN KALIBI DAR OLMALI: hidrojen tavlama gercek bir hat konusudur
+    eq(taxonomy.in_scope("New hydrogen annealing furnace commissioned at "
+                         "cold rolling complex")[0], True,
+       "hidrojen TAVLAMA kapsam icindedir")
+    eq(taxonomy.in_scope("SMS supplies HNx hydrogen atmosphere batch "
+                         "annealing line")[0], True,
+       "HNx atmosferi kapsam icindedir")
+
+
 def test_w36_bing_katmaninin_actigi_uc_delik():
     """2026-08-31: ikinci arama host'u acilinca kapinin UC deligi gorundu.
 
@@ -2056,6 +2113,7 @@ def run():
                test_v20_gonderilmis_hafiza,
                test_v20_gunluk_tarama_arsivi_ezmez,
                test_v20_indiana_hindistan_degil,
+               test_w36_havuz_karari_tasir_kodu_degil,
                test_w36_bing_katmaninin_actigi_uc_delik,
                test_w36_host_korumasi_ve_ikinci_arama_hostu,
                test_w36_aci7_geri_alindi_paylasilan_host,
