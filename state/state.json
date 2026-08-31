@@ -904,6 +904,55 @@
    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMzF1RWZTMXBiMDhndDAtbEZwYVRISXdVbTlhMmstbGFrMzJaVXBGVVk3RElGczQ4NjFxaTFfcVE1MkNaQm5KRUNTYnVTNlpsT3oxZzhzRVpBM0JSSWNtU0pYMnEtOF91SEpDWFV1eEQxV1ZnT0JLcVE1VG9sc3h2Q1RuOUtRX0FhZFJpbkpzSS15dlhWdEJwM0cteXVZSjZIZzB6Sl9iRDduRXY1?oc=5"
   },
   {
+   "anahtar": "449019d6e383b1ae",
+   "asama": "Modernizasyon",
+   "baslik": "Marcegaglia upgrades pickling line at Gazoldo degli Ippoliti stainless steel plant | Mesteel - Online News",
+   "eksik": [],
+   "firma": "Gazoldo",
+   "hat": "Asitleme hatti",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Mesteel",
+   "kaynak_id": "",
+   "olaylar": [
+    "gazoldo|fu|Turkiye|Asitleme hatti",
+    "gazoldo|hat|Asitleme hatti|Modernizasyon",
+    "gazoldo|ulke|Turkiye|Modernizasyon"
+   ],
+   "rezerv": true,
+   "tarih": "2026-07-13",
+   "tarih_kaynagi": "meta:datepublished",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Turkiye",
+   "url": "https://news.mesteel.com/marcegaglia-upgrades-pickling-line-at-gazoldo-degli-ippoliti-stainless-steel-plant/"
+  },
+  {
+   "anahtar": "89a81bc39203a100",
+   "asama": "Ilk urun",
+   "baslik": "India’s JIL commissions continuous color coating line completing $155 million capex program",
+   "eksik": [],
+   "firma": "India’s JIL",
+   "hat": "Boyama hatti (CCL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "SteelOrbis",
+   "kaynak_id": "",
+   "olaylar": [
+    "*|ulke-hat|Hindistan|Boyama hatti (CCL)|Ilk urun",
+    "india’s jil|fu|Hindistan|Boyama hatti (CCL)",
+    "india’s jil|hat|Boyama hatti (CCL)|Ilk urun",
+    "india’s jil|ulke|Hindistan|Ilk urun"
+   ],
+   "rezerv": true,
+   "tarih": "2026-05-20",
+   "tarih_kaynagi": "json-ld",
+   "tedarikci": "",
+   "tutar": "$155 million",
+   "ulke": "Hindistan",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/indias-jil-commissions-continuous-color-coating-line-completing-155-million-capex-program-1454553.htm"
+  },
+  {
    "anahtar": "971c858c2cf021dc",
    "asama": "Ilk urun",
    "baslik": "New MINO Double-Stand Six-High Cold Reversing Mill in North America",
@@ -928,6 +977,30 @@
    "tutar": "",
    "ulke": "ABD",
    "url": "https://mino.it/new-mino-double-stand-six-high-cold-reversing-mill-in-north-america/"
+  },
+  {
+   "anahtar": "871c1e92bc856210",
+   "asama": "Insaat",
+   "baslik": "ArcelorMittal Poland completes construction of ZAM roll coating line » Metallurgprom",
+   "eksik": [],
+   "firma": "ArcelorMittal Poland",
+   "hat": "Roll shop / merdane",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Metallurgprom",
+   "kaynak_id": "",
+   "olaylar": [
+    "arcelormittal poland|fu|Polonya|Roll shop / merdane",
+    "arcelormittal poland|hat|Roll shop / merdane|Insaat",
+    "arcelormittal poland|ulke|Polonya|Insaat"
+   ],
+   "rezerv": true,
+   "tarih": "2025-12-11",
+   "tarih_kaynagi": "json-ld",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Polonya",
+   "url": "https://metallurgprom.org/en/news/europe/18814-arcelormittal-poland-zavershaet-stroitelstvo-linii-nanesenija-pokrytija-na-rulony-zam.html"
   }
  ],
  "seen": {
