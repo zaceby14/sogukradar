@@ -14,9 +14,9 @@ import os
 import re
 
 from . import classify, dates, feeds, htmlx, http, sources, state, taxonomy
-from .config import (GNEWS_TARIH_BUTCE, MAX_ARTICLE_FETCH, MAX_LINKS_PER_SOURCE,
-                     MAX_SITEMAP_LINKS, REJECT_SEBEP_KOTA, REJECT_TOPLAM,
-                     REZERV_GUN, TECH_WINDOW_DAYS, WINDOW_DAYS)
+from .config import (MAX_ARTICLE_FETCH, MAX_LINKS_PER_SOURCE, MAX_SITEMAP_LINKS,
+                     REJECT_SEBEP_KOTA, REJECT_TOPLAM, REZERV_GUN,
+                     TECH_WINDOW_DAYS, WINDOW_DAYS)
 
 US_STYLE = {"cognex", "butechbliss", "delta", "bronx", "aist", "magnetics", "worldsteel"}
 
@@ -242,12 +242,26 @@ GNEWS_ARA = "https://news.google.com/rss/search?q=%s&hl=en-US&gl=US&ceid=US:en"
 
 
 def _tarih_sorulur_mu(baslik):
-    """Bu baslik icin ulasilabilir beslemeye tarih sormaya deger mi?
+    """Bu baslik BASLIGIYLA kapiyi geciyor mu?
 
-    YALNIZ BASLIKLA kapiyi gecenler sorulur. Tarih sorusu bir istek eder;
-    kapsam disi bir baslik icin harcamanin anlami yok. Kapi burada
-    GEVSEMEZ - ayni in_scope/haber_olayi/genel_yatirim kapisidir, sadece
-    govde henuz elimizde olmadigi icin basliga bakar.
+    GERI ALINAN "ACI 7"DEN KALAN OLCUM ARACI (2026-08-31). Tarihi
+    dogrulanamadigi icin elenen 96 kaydin 9'u basligiyla kapiyi geciyordu
+    ve 8'i makale sayfasi 403 veren yayinlardandi; bu haberlerin tarihini
+    Google News beslemesinden sormayi denedim.
+
+    DENEME GERI TEPTI VE OLCULDU. 40 ek istek news.google.com'u bogdu:
+      erisilemeyen kaynak   9 -> 89   (80'i Google News, HTTP 503)
+      kurtarilan tarih                 0
+      kabul edilen satir    2 ->  0
+    Sebep yapisal: 169 kaynagin ~90'i Google News ARAMA beslemesidir, yani
+    o tek host'a giden fazladan her istek butun arama katmanini riske atar.
+    Sitemap zincirinin bes kaynagi bozmasiyla ayni aile: fazladan istek
+    bedava degildir. Elle besleme kanalinin ~13 sorgusu olculen tolerans
+    icinde kaliyor; onun uzerine cikilmamali.
+
+    Fonksiyon KALDI cunku olcumun bekcisi odur - kapinin basliga
+    uygulanabilir oldugunu gosterir ve tarih sorusunun nereye
+    harcanacagini bir gun baska bir kanaldan cozersek hazirdir.
     """
     ok, _ = taxonomy.in_scope(baslik)
     if ok and taxonomy.haber_olayi(baslik):
@@ -386,8 +400,6 @@ def collect(today=None, log=print):
     stats = dict(kaynak=0, erisilemeyen=0, ham=0, on_eleme_gecti=0, makale_acildi=0,
                  tarihsiz_elendi=0, pencere_disi=0, kapsam_disi=0, tekrar=0, kabul=0,
                  gnews_tarih=0)
-    # Liste, closure icinden azaltilabilsin diye (int degil)
-    gnews_butce = [GNEWS_TARIH_BUTCE]
     unreachable, rows, kinds, rejects, tech_pool = [], [], {}, [], []
     rezerv, rezerv_keys = [], set()
     rezerv_floor = (today - dt.timedelta(days=REZERV_GUN)).isoformat()
@@ -598,36 +610,6 @@ def collect(today=None, log=print):
                 # sitemap'inde 2018 ve 2022 tarihli haberler 2026 damgali
                 # cikti; lastmod'u yayin tarihi saymak rapora yillik eski
                 # haber sokar. Sayfadan tarih cikmadiysa satir elenir.
-            if not date_iso:
-                # ACI 7: ULASILABILIR BESLEMEDEN TARIH (2026-08-31).
-                #
-                # OLCUM (bu haftanin kosusu): tarihi dogrulanamadigi icin
-                # elenen 96 kaydin 9'u BASLIKLA kapsam+olay kapisini
-                # geciyordu ve SEKIZI makale sayfasi 403 veren yayinlardandi
-                # (Steel Times International, SMS group, ArcelorMittal).
-                # Yani bu haberlerin kapsami da olayi da belli; kaybedilen
-                # tek sey tarih. Kapali yayinin sayfasi kapaliysa tarihi de
-                # kapalidir - baska bir ULASILABILIR kanaldan sorulmalidir.
-                #
-                # Tarih yine YAYINCININ KENDI BEYANIDIR: Google News
-                # beslemesi haberi indeksledigi zaman pubDate'i tasir ve bu,
-                # boru hattinin RSS icin zaten guvendigi yapisal tarihtir.
-                # Uydurma yok, tahmin yok; baslik birebir ortusmezse tarih
-                # de alinmaz.
-                #
-                # Butce: yalniz kapiyi BASLIKLA gecen adaylar sorulur ve
-                # kosu basina GNEWS_TARIH_BUTCE ile sinirlidir - 96 kayit
-                # icin 96 istek atmanin anlami yok.
-                if gnews_butce[0] > 0 and _tarih_sorulur_mu(it["title"]):
-                    gnews_butce[0] -= 1
-                    ham = _elle_tarih(it["title"], log)
-                    if ham:
-                        d2 = dates.parse_date_text(ham, False, today)
-                        if d2:
-                            date_iso, src = d2, "gnews-besleme"
-                            stats["gnews_tarih"] += 1
-                            log("    (tarih beslemeden: %s | %s)"
-                                % (d2, it["title"][:60]))
             if not date_iso:
                 drop("tarihsiz_elendi", it)   # TARIH YOKSA HABER YOK
                 continue

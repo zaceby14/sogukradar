@@ -1415,47 +1415,59 @@ def test_v20_indiana_hindistan_degil():
             "rolling capacity"), "Hindistan", "crore Hindistan sinyalidir")
 
 
-def test_w36_tarih_aci7_ulasilabilir_besleme():
-    """2026-W36 (2026-08-31): kapiyi gecip TARIHSIZ kalan haberler.
+def test_w36_aci7_geri_alindi_paylasilan_host():
+    """2026-W36 (2026-08-31): tarih icin fazladan istek GERI TEPTI - olculdu.
 
-    OLCUM (canli kosu): tarihi dogrulanamadigi icin elenen 96 kaydin 9'u
-    BASLIKLA kapsam+olay kapisini geciyordu ve SEKIZI makale sayfasi 403
-    veren yayinlardandi:
-      "Tata Steel breaks ground on new pickle line at Port Talbot site"
-      "SMS upgrades Hyundai Steel galvanising line"
-      "Ternium contracts Fives for new galvanizing line"
-      "Fives to supply Baosteel with two new processing line furnaces"
-      "Galvanizing line upgrade by SMS group enables Villacero ..."
-    Kapsami da olayi da belli; kaybedilen tek sey tarih. Kapali yayinin
-    sayfasi kapaliysa tarihi de kapalidir - baska bir ULASILABILIR
-    kanaldan sorulmalidir.
+    NIYET dogruydu: tarihi dogrulanamadigi icin elenen 96 kaydin 9'u
+    BASLIKLA kapiyi geciyordu ve 8'i makale sayfasi 403 veren yayinlardandi
+    (Tata Steel Port Talbot asitleme hatti, SMS/Hyundai galvaniz, Ternium/
+    Fives galvaniz...). Kapsami da olayi da belliydi; eksik olan tek sey
+    tarihti. Tarihi Google News beslemesinin pubDate'inden sormayi denedim.
 
-    KAPI GEVSEMEZ: tarih sorusu yalniz basligiyla ayni kapiyi gecen
-    adaylar icin harcanir, ve tarih yine YAYINCININ beyanindan gelir.
+    SONUC (canli kosu, 33414160429):
+      erisilemeyen kaynak   9 -> 89    (80'i Google News, HTTP 503)
+      kurtarilan tarih                  0
+      kabul edilen satir    2 ->  0
+      kosu suresi                      60 dakika
+
+    SEBEP YAPISAL: 169 kaynagin ~90'i Google News ARAMA beslemesidir. O tek
+    host'a giden fazladan 40 istek, butun arama katmanini birden dusurdu.
+    Sitemap zincirinin bes kaynagi bozmasiyla AYNI AILE (bkz.
+    test_v20_sitemap_geri_dusus): paylasilan bir host'a fazladan istek
+    bedava degildir ve faturayi baska bir is oder.
+
+    KURAL: news.google.com'a kosu basina gonderilen istek sayisi
+    artirilmaz. Elle besleme kanalinin ~13 sorgusu olculen tolerans
+    icindedir (o kosuda erisilemeyen 9'du); uzerine cikilmamali.
     """
     from . import collect as C
-
-    # Kapi: gercek basliklar sorulmali
-    for b in ("Tata Steel breaks ground on new pickle line at Port Talbot site",
-              "SMS upgrades Hyundai Steel galvanising line",
-              "Ternium contracts Fives for new galvanizing line"):
-        eq(C._tarih_sorulur_mu(b), True, "kapsam ici baslik icin tarih sorulmali: " + b[:40])
-    # Kapsam disi baslik icin istek HARCANMAZ
-    for b in ("Turkey's crude steel output rises in July",
-              "Nippon Steel completes 6Mt hot-rolling line",
-              "Galvanizers Association - Annual Conference"):
-        eq(C._tarih_sorulur_mu(b), False, "kapsam disi baslik sorulmamali: " + b[:40])
-
-    # Akis: tarih beslemeden gelirse kaynagi GORUNUR olmali
     src = open(os.path.join(os.path.dirname(__file__), "collect.py"),
                encoding="utf-8").read()
-    eq('src = d2, "gnews-besleme"' in src, True,
-       "beslemeden gelen tarihin kaynagi rapora yazilmali")
-    eq("gnews_butce[0] > 0" in src, True, "istek butcesi olmali")
-    # Butce ve kapi, tarihsiz elemeden ONCE olmali
-    i_aci = src.index("gnews_butce[0] > 0")
+
+    # Aci 7 akistan KALKMIS olmali
+    eq("gnews_butce" not in src, True,
+       "tarih icin fazladan Google News istegi akista kalmamali")
     i_drop = src.index('drop("tarihsiz_elendi", it)')
-    eq(i_aci < i_drop, True, "7. aci, tarihsiz elemeden once denenmeli")
+    onceki = src[max(0, i_drop - 1500):i_drop]
+    eq("_elle_tarih(it[" not in onceki, True,
+       "tarihsiz eleme oncesinde besleme sorgusu olmamali")
+
+    # Olcum araci duruyor ve dogru calisiyor
+    for b in ("Tata Steel breaks ground on new pickle line at Port Talbot site",
+              "SMS upgrades Hyundai Steel galvanising line"):
+        eq(C._tarih_sorulur_mu(b), True, "kapsam ici baslik: " + b[:40])
+    for b in ("Turkey's crude steel output rises in July",
+              "Nippon Steel completes 6Mt hot-rolling line"):
+        eq(C._tarih_sorulur_mu(b), False, "kapsam disi baslik: " + b[:40])
+
+    # Elle besleme kanali TEK sorgu kaynagi olarak kalmali, sayisi da sinirli
+    import json as _json
+    kok = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    d = _json.load(open(os.path.join(kok, "veri", "elle_besleme.json"),
+                        encoding="utf-8"))
+    eq(len(d["kayitlar"]) <= 20, True,
+       "elle besleme kayit sayisi olculen tolerans icinde kalmali (%d)"
+       % len(d["kayitlar"]))
 
 
 def test_w36_tekrar_ve_kose_yonu():
@@ -1829,7 +1841,7 @@ def run():
                test_v20_gonderilmis_hafiza,
                test_v20_gunluk_tarama_arsivi_ezmez,
                test_v20_indiana_hindistan_degil,
-               test_w36_tarih_aci7_ulasilabilir_besleme,
+               test_w36_aci7_geri_alindi_paylasilan_host,
                test_w36_tekrar_ve_kose_yonu,
                test_w36_finalize_ozetsiz_calismaz,
                test_w34_sifir_satir_teshisi,

@@ -286,6 +286,31 @@ açılıp da liste boş döndüyse kaynak *erişilemez değildir* — v20'nin il
 halinde zincirin "sitemap boş" hatası bu duruma yazılıyor ve China Baowu ile
 SteelGuru erişilemeyen listesine yanlış giriyordu.
 
+### Paylaşılan host'a fazladan istek bedava değildir
+
+169 kaynağın **~90'ı Google News arama beslemesidir** — hepsi tek host.
+O host'a giden her fazladan istek bütün arama katmanını riske atar.
+
+Ölçüldü (2026-08-31, koşu 33414160429). Tarihi doğrulanamadığı için elenen
+96 kaydın 9'u başlıkla kapıyı geçiyordu ve 8'i makale sayfası 403 veren
+yayınlardandı; tarihlerini Google News `pubDate`'inden sormayı denedim:
+
+| | öncesi | sonrası |
+|---|---|---|
+| erişilemeyen kaynak | 9 | **89** (80'i Google News, HTTP 503) |
+| kurtarılan tarih | — | **0** |
+| kabul edilen satır | 2 | **0** |
+| koşu süresi | ~35 dk | 60 dk |
+
+Geri alındı. Sitemap zincirinin beş kaynağı bozmasıyla **aynı aile**: fazladan
+istek bedava değildir, faturayı başka bir iş öder. Elle beslemenin ~13
+sorgusu ölçülen tolerans içindedir (o koşuda erişilemeyen 9'du); üzerine
+çıkılmamalı. `selftest` bunun bekçiliğini yapıyor.
+
+**Hacim artırmanın hâlâ açık olan yolları:** kapalı yayınların haberini
+*ulaşılabilir* bir yayından yakalamak (elle besleme kuralı), günlük taramanın
+rezervi beslemesi, ve kaynak listesini Google News'e yüklenmeden genişletmek.
+
 ## 5. Kalıcı bölümler
 
 Bu iki bölüm **her hafta**, içerik olmasa da render edilir — bölümün hiç

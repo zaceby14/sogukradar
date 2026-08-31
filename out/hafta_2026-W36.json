@@ -1,6 +1,85 @@
 {
  "rows": [
   {
+   "tarih": "2026-08-16",
+   "firma": "FY28",
+   "ulke": "Hindistan",
+   "hat": "Soguk hadde",
+   "asama": "Belirsiz",
+   "tedarikci": "",
+   "kapasite": "2.67 MT",
+   "tutar": "Rs 900 crore",
+   "baslik": "Jindal Stainless investing Rs 900 crore to increase cold rolling capacity to 2.67 MT by FY28: MD",
+   "kaynak": "The Economic Times",
+   "kaynak_id": "gx_bigmint_q",
+   "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNM2hmV0lKLTRuT0d6ODZXbllZLVczcTBBUGFUbnh0RWRldnptUlJHYkdmTkVheU1fc2xLRGtfUENvazhTeUQ2cTFMVEcxckFIZmhtWFZDQ2psTDBuak1MVVdaVUlZXzB4YmgzZFh3UkdkRXdpbVZ5WTM1QVhWVnpYS2t6SWxWUmI4Tnk3QlVqQkx5YlJRQ2VzeERVVlcxV2QwdGpfTU05TDZ5WnotNGZtRklMUklzMzltbkFwX2tkMkxNNDhERmRObWVDY2ZucGp5Qm5QTFV0UEI2S28wN3AtTllOT0E4S3dvcWxTWmVZcnNaNHZxc0RhVmhLMDg3bGJlcF9yTXBGMDFzSFnSAZACQVVfeXFMTWh5Q3hBcFRSZkFrUmJfUkZURjFKYXNVbzRZY3pnNGVWZG1uSFVQa2V5R3JWQkhJRHR2U0luTE1IbTJIdVNycERGVERXNFN4Y0NsX3lWeXk3aGtoNkgzTlVHeTNlWVZnSEZLclJrd1FQSXVtc2FadjJmWEdKMU9tVkpER0NDOFhhWEJveFU5VUFiekFvNlpjR1FCR1E4cXpTN2RBSEFIZ3Jpb3JXWEhqZnBHM0ZYS1NOSzlTbU5wTnFiOTF6MHJSNnc2d1BoS0xWeGV2WXAyTFVBT1FjTWZWWlpuQWJYOEViT0RWQ2xCQVlNcU5qRVJhbE5sektENGFHUXpDZXJ4VWtZX094V0RXWDg?oc=5",
+   "tarih_kaynagi": "rss",
+   "eksik": [
+    "asama"
+   ],
+   "anahtar": "24e2dda77f2e84e9",
+   "kategori": "Yatirim",
+   "olaylar": [
+    "fy28|fu|Hindistan|Soguk hadde",
+    "fy28|hat|Soguk hadde|Belirsiz",
+    "fy28|ulke|Hindistan|Belirsiz"
+   ],
+   "puan": 5.0
+  },
+  {
+   "tarih": "2026-08-31",
+   "firma": "ArcelorMittal",
+   "ulke": "Turkiye",
+   "hat": "Belirsiz",
+   "asama": "Belirsiz",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "ArcelorMittal approves Tubarao flat steel expansion",
+   "kaynak": "MEsteel",
+   "kaynak_id": "mesteel",
+   "url": "https://news.mesteel.com/arcelormittal-approves-tubarao-flat-steel-expansion/",
+   "tarih_kaynagi": "meta:datepublished",
+   "eksik": [
+    "hat",
+    "asama"
+   ],
+   "anahtar": "1457ad47e4e48f43",
+   "kategori": "Yatirim",
+   "olaylar": [
+    "arcelormittal|fu|Turkiye|Belirsiz",
+    "arcelormittal|hat|Belirsiz|Belirsiz",
+    "arcelormittal|ulke|Turkiye|Belirsiz"
+   ],
+   "puan": 3.0
+  },
+  {
+   "anahtar": "dbf500463fb21d96",
+   "asama": "Belirsiz",
+   "baslik": "U. S. Steel Announces Plans to Restart Gary Tin Mill",
+   "eksik": [
+    "asama"
+   ],
+   "firma": "U. S. Steel Announces",
+   "hat": "Teneke hatti (ETL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "U.S. Steel",
+   "kaynak_id": "ussteel",
+   "olaylar": [
+    "u. s. steel announces|fu|Hindistan|Teneke hatti (ETL)",
+    "u. s. steel announces|hat|Teneke hatti (ETL)|Belirsiz",
+    "u. s. steel announces|ulke|Hindistan|Belirsiz"
+   ],
+   "rezerv": true,
+   "tarih": "2026-04-16",
+   "tarih_kaynagi": "liste",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "ABD",
+   "url": "https://www.ussteel.com:443/media/newsroom/-/blogs/u-s-steel-announces-plans-to-restart-gary-tin-mill?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fwww.ussteel.com%3A443%2Fmedia%2Fnewsroom%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26_com_liferay_blogs_web_portlet_BlogsPortlet_cur%3D1%26_com_liferay_blogs_web_portlet_BlogsPortlet_delta%3D20"
+  },
+  {
    "anahtar": "971c858c2cf021dc",
    "asama": "Ilk urun",
    "baslik": "New MINO Double-Stand Six-High Cold Reversing Mill in North America",
@@ -29,25 +108,20 @@
  ],
  "stats": {
   "kaynak": 169,
-  "erisilemeyen": 89,
-  "ham": 2514,
-  "on_eleme_gecti": 218,
-  "makale_acildi": 201,
+  "erisilemeyen": 9,
+  "ham": 2725,
+  "on_eleme_gecti": 266,
+  "makale_acildi": 203,
   "tarihsiz_elendi": 96,
-  "pencere_disi": 172,
-  "kapsam_disi": 2242,
-  "tekrar": 4,
-  "kabul": 0,
-  "gnews_tarih": 0
+  "pencere_disi": 186,
+  "kapsam_disi": 2425,
+  "tekrar": 16,
+  "kabul": 2
  },
  "unreachable": [
   [
    "SMS group",
    "HTTP 403"
-  ],
-  [
-   "Butech Bliss",
-   "HTTP 500"
   ],
   [
    "Cognex",
@@ -74,328 +148,12 @@
    "HTTP 404"
   ],
   [
+   "Mysteel",
+   "TimeoutError: The read operation timed out"
+  ],
+  [
    "Sanayi Gazetesi",
    "HTTP 403"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
-  ],
-  [
-   "Google News",
-   "HTTP 503"
   ]
  ],
  "kinds": {
@@ -570,15 +328,27 @@
   "gx_q_es1": "arama"
  },
  "today": "2026-08-31",
- "tech_pool": [],
- "kaynak_katki": {},
+ "tech_pool": [
+  {
+   "anahtar": "tech:9e26740970742b85",
+   "tarih": "2026-08-28",
+   "baslik": "Fives supplies technologies for Xinyu's new electrical steel facility",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/fives-supplies-technologies-for-xinyus-new-electrical-steel-facility-1473583.htm",
+   "kaynak": "SteelOrbis",
+   "hat": "Elektrik celigi hatti"
+  }
+ ],
+ "kaynak_katki": {
+  "MEsteel": 1,
+  "Google News": 1
+ },
  "window": [
   "2026-08-16",
   "2026-08-31"
  ],
- "rezerv_kullanilan": 1,
+ "rezerv_kullanilan": 2,
  "rezerv_havuz": 3,
  "period": "2026-W36",
- "generated": "2026-08-31 17:26 UTC",
+ "generated": "2026-08-31 16:10 UTC",
  "version": "3.0.0"
 }
