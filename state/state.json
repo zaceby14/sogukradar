@@ -818,6 +818,24 @@
     "tekrar": 42
    },
    "uretim": "2026-08-31 20:12 UTC"
+  },
+  {
+   "donem": "2026-W36",
+   "satir": 6,
+   "stats": {
+    "erisilemeyen": 9,
+    "gnews_tarih": 0,
+    "ham": 3410,
+    "kabul": 1,
+    "kapsam_disi": 3091,
+    "kaynak": 269,
+    "makale_acildi": 211,
+    "on_eleme_gecti": 325,
+    "pencere_disi": 192,
+    "tarihsiz_elendi": 84,
+    "tekrar": 42
+   },
+   "uretim": "2026-08-31 20:28 UTC"
   }
  ],
  "rezerv": [

@@ -1,6 +1,6 @@
 {
  "donem": "2026-W36",
- "adet": 517,
+ "adet": 518,
  "kayitlar": [
   {
    "sebep": "kapsam_disi",
@@ -2440,6 +2440,12 @@
   },
   {
    "sebep": "tarihsiz_elendi",
+   "baslik": "Kallanish amends Turkish PPGI assessment",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/rfp-article-details/kallanish-amends-turkish-ppgi-assessment-0826/",
+   "ek": ""
+  },
+  {
+   "sebep": "tarihsiz_elendi",
    "baslik": "Stainless Steel Cold Rolled Coil",
    "url": "https://www.yieh.com/en/Product/stainless-steel/stainless-steel-cold-rolled-coil",
    "ek": ""
@@ -3016,6 +3022,12 @@
   },
   {
    "sebep": "tekrar",
+   "baslik": "Roofings Unveils $125m Steel Mill, Doubles Cold-Rolled Capacity to 300,000 Tonnes",
+   "url": "https://softpower.ug/roofings-unveils-125m-steel-mill-doubles-cold-rolled-capacity-to-300000-tonnes/",
+   "ek": ""
+  },
+  {
+   "sebep": "tekrar",
    "baslik": "ANDRITZ to supply galvinising line to JSW Steel",
    "url": "https://www.steeltimesint.com/news/andritz-to-supply-galvinising-line-to-jsw-steel",
    "ek": "ayni olayin varyanti: andritz|fu|Hindistan|Galvaniz hatti (CGL); andritz|hat|Galvaniz hatti (CGL)|Sozlesme; andritz|ulke|Hindistan|Sozlesme; jsw steel|fu|Hindistan|Galvaniz hatti (CGL); jsw steel|hat|Galvaniz hatti (CGL)|Sozlesme; jsw steel|ulke|Hindistan|Sozlesme"
@@ -3049,12 +3061,6 @@
    "baslik": "ANDRITZ Wins Order From JSW Steel for Automotive-Grade Galvanized Steel Production",
    "url": "https://news.europawire.eu/andritz-wins-order-from-jsw-steel-for-automotive-grade-galvanized-steel-production/eu-press-release/2026/08/26/13/13/18/179789/",
    "ek": "ayni olayin varyanti: andritz|fu|Hindistan|Galvaniz hatti (CGL); andritz|hat|Galvaniz hatti (CGL)|Sozlesme; andritz|ulke|Hindistan|Sozlesme; automotive grade galvanized steel production|fu|Hindistan|Galvaniz hatti (CGL); automotive grade galvanized steel production|hat|Galvaniz hatti (CGL)|Sozlesme; automotive grade galvanized steel production|ulke|Hindistan|Sozlesme"
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "ArcelorMittal Confirms Up to R$ 5 Billion for New Cold Rolling Mill in Tubarão, Espírito Santo, with 560,000 Tonnes Annually, 3,000 Jobs at Peak, Operations by 2030",
-   "url": "https://en.clickpetroleoegas.com.br/arcelormittal-confirms-investment-of-up-to-r-5-billion-for-new-cold-rolling-mill-in-tubarao-espirito-santo-projecting-560000-tonnes-davila/",
-   "ek": "benzer baslik (gecmis 21 gun)"
   },
   {
    "sebep": "pencere_disi",

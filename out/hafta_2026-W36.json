@@ -10,7 +10,7 @@
    "kapasite": "",
    "tutar": "",
    "baslik": "NS-SUS Completes Installation of New Danieli Coil-Handling Cranes",
-   "kaynak": "AIST Association for Iron & Steel Technology",
+   "kaynak": "aist.org",
    "kaynak_id": "gs_aist",
    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNejhtT3VSU2JqekN5bVh3bnhHdmFMbEtfWmxzQ0hFNXFhV2U5TklNWkhsbXYwQ3JnWEpNOGNyS2ZHRGZjYzViWmtDSEpZZnFiMDUxdktCWnpIWGJtNXNEaDNMUE5zRzIzNFFGZkRQc0RjNjdxOS15d0JpT2o2SFMyaUU4c0xMSU5QdG11YW14UQ?oc=5",
    "tarih_kaynagi": "rss",
@@ -25,31 +25,6 @@
     "ns sus|hat|Bobin tasima / paketleme|Belirsiz"
    ],
    "puan": 23.2
-  },
-  {
-   "anahtar": "4d59fdf2ae6ec46f",
-   "asama": "Ilk urun",
-   "baslik": "KEZAD galvanising facility moves closer to commissioning",
-   "eksik": [],
-   "firma": "KEZAD",
-   "hat": "Galvaniz hatti (CGL)",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgq_hat05",
-   "olaylar": [
-    "*|ulke-hat|BAE|Galvaniz hatti (CGL)|Ilk urun",
-    "kezad|fu|BAE|Galvaniz hatti (CGL)",
-    "kezad|hat|Galvaniz hatti (CGL)|Ilk urun",
-    "kezad|ulke|BAE|Ilk urun"
-   ],
-   "puan": 52.6,
-   "tarih": "2026-08-20",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "BAE",
-   "url": "https://www.msn.com/en-ae/news/other/kezad-galvanising-facility-moves-closer-to-commissioning/ar-AA2ayC80"
   },
   {
    "anahtar": "5057cc8359f58ba5",
@@ -152,17 +127,45 @@
    "tutar": "",
    "ulke": "ABD",
    "url": "https://mino.it/new-mino-double-stand-six-high-cold-reversing-mill-in-north-america/"
+  },
+  {
+   "anahtar": "4b43a2343a38c4e0",
+   "asama": "Ilk urun",
+   "baslik": "RRM starts up new cold-mill complex with Danieli technology",
+   "eksik": [],
+   "firma": "RRM",
+   "hat": "Soguk hadde",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Mesteel",
+   "kaynak_id": "elle",
+   "olaylar": [
+    "*|ulke-hat|Turkiye|Soguk hadde|Ilk urun",
+    "danieli|fu|Turkiye|Soguk hadde",
+    "danieli|hat|Soguk hadde|Ilk urun",
+    "danieli|ulke|Turkiye|Ilk urun",
+    "rrm|fu|Turkiye|Soguk hadde",
+    "rrm|hat|Soguk hadde|Ilk urun",
+    "rrm|ulke|Turkiye|Ilk urun"
+   ],
+   "rezerv": true,
+   "tarih": "2026-02-12",
+   "tarih_kaynagi": "meta:datepublished",
+   "tedarikci": "Danieli",
+   "tutar": "",
+   "ulke": "Turkiye",
+   "url": "https://news.mesteel.com/rrm-starts-up-new-cold-mill-complex-with-danieli-technology/"
   }
  ],
  "stats": {
   "kaynak": 269,
   "erisilemeyen": 9,
-  "ham": 3408,
+  "ham": 3410,
   "on_eleme_gecti": 325,
-  "makale_acildi": 210,
-  "tarihsiz_elendi": 83,
+  "makale_acildi": 211,
+  "tarihsiz_elendi": 84,
   "pencere_disi": 192,
-  "kapsam_disi": 3090,
+  "kapsam_disi": 3091,
   "tekrar": 42,
   "kabul": 1,
   "gnews_tarih": 0
@@ -507,11 +510,11 @@
   "2026-08-16",
   "2026-08-31"
  ],
- "bulunan_kullanilan": 2,
+ "bulunan_kullanilan": 1,
  "bulunan_havuz": 3,
- "rezerv_kullanilan": 3,
- "rezerv_havuz": 9,
+ "rezerv_kullanilan": 4,
+ "rezerv_havuz": 6,
  "period": "2026-W36",
- "generated": "2026-08-31 20:12 UTC",
+ "generated": "2026-08-31 20:28 UTC",
  "version": "3.0.0"
 }
