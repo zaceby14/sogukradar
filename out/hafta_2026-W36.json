@@ -1,83 +1,82 @@
 {
  "rows": [
   {
-   "tarih": "2026-08-16",
-   "firma": "FY28",
-   "ulke": "Hindistan",
-   "hat": "Soguk hadde",
+   "tarih": "2026-08-24",
+   "firma": "NS-SUS",
+   "ulke": "",
+   "hat": "Bobin tasima / paketleme",
    "asama": "Belirsiz",
-   "tedarikci": "",
-   "kapasite": "2.67 MT",
-   "tutar": "Rs 900 crore",
-   "baslik": "Jindal Stainless investing Rs 900 crore to increase cold rolling capacity to 2.67 MT by FY28: MD",
-   "kaynak": "The Economic Times",
-   "kaynak_id": "gx_bigmint_q",
-   "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNM2hmV0lKLTRuT0d6ODZXbllZLVczcTBBUGFUbnh0RWRldnptUlJHYkdmTkVheU1fc2xLRGtfUENvazhTeUQ2cTFMVEcxckFIZmhtWFZDQ2psTDBuak1MVVdaVUlZXzB4YmgzZFh3UkdkRXdpbVZ5WTM1QVhWVnpYS2t6SWxWUmI4Tnk3QlVqQkx5YlJRQ2VzeERVVlcxV2QwdGpfTU05TDZ5WnotNGZtRklMUklzMzltbkFwX2tkMkxNNDhERmRObWVDY2ZucGp5Qm5QTFV0UEI2S28wN3AtTllOT0E4S3dvcWxTWmVZcnNaNHZxc0RhVmhLMDg3bGJlcF9yTXBGMDFzSFnSAZACQVVfeXFMTWh5Q3hBcFRSZkFrUmJfUkZURjFKYXNVbzRZY3pnNGVWZG1uSFVQa2V5R3JWQkhJRHR2U0luTE1IbTJIdVNycERGVERXNFN4Y0NsX3lWeXk3aGtoNkgzTlVHeTNlWVZnSEZLclJrd1FQSXVtc2FadjJmWEdKMU9tVkpER0NDOFhhWEJveFU5VUFiekFvNlpjR1FCR1E4cXpTN2RBSEFIZ3Jpb3JXWEhqZnBHM0ZYS1NOSzlTbU5wTnFiOTF6MHJSNnc2d1BoS0xWeGV2WXAyTFVBT1FjTWZWWlpuQWJYOEViT0RWQ2xCQVlNcU5qRVJhbE5sektENGFHUXpDZXJ4VWtZX094V0RXWDg?oc=5",
-   "tarih_kaynagi": "rss",
-   "eksik": [
-    "asama"
-   ],
-   "anahtar": "24e2dda77f2e84e9",
-   "kategori": "Yatirim",
-   "olaylar": [
-    "fy28|fu|Hindistan|Soguk hadde",
-    "fy28|hat|Soguk hadde|Belirsiz",
-    "fy28|ulke|Hindistan|Belirsiz"
-   ],
-   "puan": 5.0
-  },
-  {
-   "tarih": "2026-08-31",
-   "firma": "ArcelorMittal",
-   "ulke": "Turkiye",
-   "hat": "Belirsiz",
-   "asama": "Belirsiz",
-   "tedarikci": "",
+   "tedarikci": "Danieli",
    "kapasite": "",
    "tutar": "",
-   "baslik": "ArcelorMittal approves Tubarao flat steel expansion",
-   "kaynak": "MEsteel",
-   "kaynak_id": "mesteel",
-   "url": "https://news.mesteel.com/arcelormittal-approves-tubarao-flat-steel-expansion/",
-   "tarih_kaynagi": "meta:datepublished",
+   "baslik": "NS-SUS Completes Installation of New Danieli Coil-Handling Cranes",
+   "kaynak": "AIST Association for Iron & Steel Technology",
+   "kaynak_id": "gs_aist",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNejhtT3VSU2JqekN5bVh3bnhHdmFMbEtfWmxzQ0hFNXFhV2U5TklNWkhsbXYwQ3JnWEpNOGNyS2ZHRGZjYzViWmtDSEpZZnFiMDUxdktCWnpIWGJtNXNEaDNMUE5zRzIzNFFGZkRQc0RjNjdxOS15d0JpT2o2SFMyaUU4c0xMSU5QdG11YW14UQ?oc=5",
+   "tarih_kaynagi": "rss",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "anahtar": "f1860f395525b68a",
+   "kategori": "Hat",
+   "olaylar": [
+    "danieli|hat|Bobin tasima / paketleme|Belirsiz",
+    "ns sus|hat|Bobin tasima / paketleme|Belirsiz"
+   ],
+   "puan": 23.2
+  },
+  {
+   "anahtar": "4d59fdf2ae6ec46f",
+   "asama": "Ilk urun",
+   "baslik": "KEZAD galvanising facility moves closer to commissioning",
+   "eksik": [],
+   "firma": "KEZAD",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_hat05",
+   "olaylar": [
+    "*|ulke-hat|BAE|Galvaniz hatti (CGL)|Ilk urun",
+    "kezad|fu|BAE|Galvaniz hatti (CGL)",
+    "kezad|hat|Galvaniz hatti (CGL)|Ilk urun",
+    "kezad|ulke|BAE|Ilk urun"
+   ],
+   "puan": 52.6,
+   "tarih": "2026-08-20",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "BAE",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95cacd4e7441aeb951448930105137&url=https%3a%2f%2fwww.msn.com%2fen-ae%2fnews%2fother%2fkezad-galvanising-facility-moves-closer-to-commissioning%2far-AA2ayC80&c=5487109860416195630&mkt=en-us"
+  },
+  {
+   "anahtar": "5057cc8359f58ba5",
+   "asama": "Belirsiz",
+   "baslik": "India's Manaksia Steel to invest $84 million to expand value-added flats capacities",
    "eksik": [
     "hat",
     "asama"
    ],
-   "anahtar": "1457ad47e4e48f43",
-   "kategori": "Yatirim",
-   "olaylar": [
-    "arcelormittal|fu|Turkiye|Belirsiz",
-    "arcelormittal|hat|Belirsiz|Belirsiz",
-    "arcelormittal|ulke|Turkiye|Belirsiz"
-   ],
-   "puan": 3.0
-  },
-  {
-   "anahtar": "dbf500463fb21d96",
-   "asama": "Belirsiz",
-   "baslik": "U. S. Steel Announces Plans to Restart Gary Tin Mill",
-   "eksik": [
-    "asama"
-   ],
-   "firma": "U. S. Steel Announces",
-   "hat": "Teneke hatti (ETL)",
+   "firma": "Manaksia Steel",
+   "hat": "Belirsiz",
    "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "U.S. Steel",
-   "kaynak_id": "ussteel",
+   "kategori": "Yatirim",
+   "kaynak": "SteelOrbis",
+   "kaynak_id": "steelorbis",
    "olaylar": [
-    "u. s. steel announces|fu|Hindistan|Teneke hatti (ETL)",
-    "u. s. steel announces|hat|Teneke hatti (ETL)|Belirsiz",
-    "u. s. steel announces|ulke|Hindistan|Belirsiz"
+    "manaksia steel|fu|Hindistan|Belirsiz",
+    "manaksia steel|hat|Belirsiz|Belirsiz",
+    "manaksia steel|ulke|Hindistan|Belirsiz"
    ],
-   "rezerv": true,
-   "tarih": "2026-04-16",
-   "tarih_kaynagi": "liste",
+   "puan": -7.0,
+   "tarih": "2026-08-14",
+   "tarih_kaynagi": "json-ld",
    "tedarikci": "",
-   "tutar": "",
-   "ulke": "ABD",
-   "url": "https://www.ussteel.com:443/media/newsroom/-/blogs/u-s-steel-announces-plans-to-restart-gary-tin-mill?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fwww.ussteel.com%3A443%2Fmedia%2Fnewsroom%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26_com_liferay_blogs_web_portlet_BlogsPortlet_cur%3D1%26_com_liferay_blogs_web_portlet_BlogsPortlet_delta%3D20"
+   "tutar": "$84 million",
+   "ulke": "Hindistan",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/indias-manaksia-steel-to-invest-84-million-to-expand-value-added-flats-capacities-1470867.htm"
   },
   {
    "anahtar": "971c858c2cf021dc",
@@ -107,16 +106,17 @@
   }
  ],
  "stats": {
-  "kaynak": 169,
-  "erisilemeyen": 9,
-  "ham": 2725,
-  "on_eleme_gecti": 266,
-  "makale_acildi": 203,
-  "tarihsiz_elendi": 96,
+  "kaynak": 269,
+  "erisilemeyen": 8,
+  "ham": 3462,
+  "on_eleme_gecti": 331,
+  "makale_acildi": 200,
+  "tarihsiz_elendi": 94,
   "pencere_disi": 186,
-  "kapsam_disi": 2425,
-  "tekrar": 16,
-  "kabul": 2
+  "kapsam_disi": 3140,
+  "tekrar": 41,
+  "kabul": 1,
+  "gnews_tarih": 0
  },
  "unreachable": [
   [
@@ -146,10 +146,6 @@
   [
    "MetalForming Magazine",
    "HTTP 404"
-  ],
-  [
-   "Mysteel",
-   "TimeoutError: The read operation timed out"
   ],
   [
    "Sanayi Gazetesi",
@@ -325,30 +321,169 @@
   "gx_q_ko1": "arama",
   "gx_q_ja1": "arama",
   "gx_q_de1": "arama",
-  "gx_q_es1": "arama"
+  "gx_q_es1": "arama",
+  "gs_sti": "arama",
+  "gs_sms": "arama",
+  "gs_amittal": "arama",
+  "gs_furnint": "arama",
+  "gs_bigmint": "arama",
+  "gs_mysteel": "arama",
+  "gs_aist": "arama",
+  "gs_nippon": "arama",
+  "gs_mfmag": "arama",
+  "gs_orbis2": "arama",
+  "bgq_hat00": "arama",
+  "bgq_hat01": "arama",
+  "bgq_hat02": "arama",
+  "bgq_hat03": "arama",
+  "bgq_hat04": "arama",
+  "bgq_hat05": "arama",
+  "bgq_hat06": "arama",
+  "bgq_hat07": "arama",
+  "bgq_hat08": "arama",
+  "bgq_hat09": "arama",
+  "bgq_hat10": "arama",
+  "bgq_hat11": "arama",
+  "bgq_hat12": "arama",
+  "bgq_hat13": "arama",
+  "bgq_hat14": "arama",
+  "bgq_hat15": "arama",
+  "bgq_hat16": "arama",
+  "bgq_hat17": "arama",
+  "bgq_hat18": "arama",
+  "bgq_hat19": "arama",
+  "bgq_sup00": "arama",
+  "bgq_sup01": "arama",
+  "bgq_sup02": "arama",
+  "bgq_sup03": "arama",
+  "bgq_sup04": "arama",
+  "bgq_sup05": "arama",
+  "bgq_sup06": "arama",
+  "bgq_sup07": "arama",
+  "bgq_sup08": "arama",
+  "bgq_sup09": "arama",
+  "bgq_sup10": "arama",
+  "bgq_sup11": "arama",
+  "bgq_sup12": "arama",
+  "bgq_tr00": "arama",
+  "bgq_tr01": "arama",
+  "bgq_tr02": "arama",
+  "bgq_tr03": "arama",
+  "bgq_tr04": "arama",
+  "bgq_tr05": "arama",
+  "bgq_tr06": "arama",
+  "bgq_tr07": "arama",
+  "bgq_urun00": "arama",
+  "bgq_urun01": "arama",
+  "bgq_urun02": "arama",
+  "bgq_urun03": "arama",
+  "bgx_sms_group": "arama",
+  "bgx_arcelor": "arama",
+  "bgx_sti_q": "arama",
+  "bgx_gmk_q": "arama",
+  "bgx_bigmint_q": "arama",
+  "bgx_furnaces_q": "arama",
+  "bgx_cognex_q": "arama",
+  "bgx_clecim_q": "arama",
+  "bgx_eurometal_q": "arama",
+  "bgx_q_temper": "arama",
+  "bgx_q_ecl": "arama",
+  "bgx_q_rollshop": "arama",
+  "bgx_q_weld": "arama",
+  "bgx_q_coilhand": "arama",
+  "bgx_q_gauge": "arama",
+  "bgx_q_auto": "arama",
+  "bgx_q_etl": "arama",
+  "bgx_q_ccl": "arama",
+  "bgx_q_egl": "arama",
+  "bgx_q_znalmg": "arama",
+  "bgx_q_elec2": "arama",
+  "bgx_q_ssc": "arama",
+  "bgx_q_arp": "arama",
+  "bgx_q_commis": "arama",
+  "bgx_q_order": "arama",
+  "bgx_q_tr1": "arama",
+  "bgx_q_tr2": "arama",
+  "bgx_q_tr3": "arama",
+  "bgx_q_zh1": "arama",
+  "bgx_q_zh2": "arama",
+  "bgx_q_zh3": "arama",
+  "bgx_q_ko1": "arama",
+  "bgx_q_ja1": "arama",
+  "bgx_q_de1": "arama",
+  "bgx_q_es1": "arama",
+  "bgs_sti": "arama",
+  "bgs_sms": "arama",
+  "bgs_amittal": "arama",
+  "bgs_furnint": "arama",
+  "bgs_bigmint": "arama",
+  "bgs_mysteel": "arama",
+  "bgs_aist": "arama",
+  "bgs_nippon": "arama",
+  "bgs_mfmag": "arama",
+  "bgs_orbis2": "arama"
  },
  "today": "2026-08-31",
+ "host_saglik": {
+  "news.google.com": {
+   "istek": 103,
+   "hiz_siniri": 0,
+   "sogutmada": false
+  },
+  "www.bing.com": {
+   "istek": 90,
+   "hiz_siniri": 0,
+   "sogutmada": false
+  },
+  "www.otto-junker.com": {
+   "istek": 21,
+   "hiz_siniri": 0,
+   "sogutmada": false
+  },
+  "www.cognex.com": {
+   "istek": 2,
+   "hiz_siniri": 2,
+   "sogutmada": true
+  }
+ },
  "tech_pool": [
   {
-   "anahtar": "tech:9e26740970742b85",
-   "tarih": "2026-08-28",
-   "baslik": "Fives supplies technologies for Xinyu's new electrical steel facility",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/fives-supplies-technologies-for-xinyus-new-electrical-steel-facility-1473583.htm",
-   "kaynak": "SteelOrbis",
-   "hat": "Elektrik celigi hatti"
+   "anahtar": "tech:8f6043a18acdc49f",
+   "tarih": "2026-08-18",
+   "baslik": "Primetals Technologies to Modernize PLTCM for KG Steel in South Korea",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95d1ee4fca4968975e2feb8047c6cf&url=https%3a%2f%2fnote.com%2fsankituushin%2fn%2fn4cc3fa0e878e%3fhl%3den&c=3218958862499560946&mkt=en-us",
+   "kaynak": "Bing News",
+   "hat": "Tandem soguk hadde (TCM)"
+  },
+  {
+   "anahtar": "tech:8f6043a18acdc49f",
+   "tarih": "2026-08-18",
+   "baslik": "Primetals Technologies to Modernize PLTCM for KG Steel in South Korea",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95d1f7177e4dc0ad04d9bf5810a033&url=https%3a%2f%2fnote.com%2fsankituushin%2fn%2fn4cc3fa0e878e%3fhl%3den&c=3218958862499560946&mkt=en-us",
+   "kaynak": "Bing News",
+   "hat": "Tandem soguk hadde (TCM)"
+  },
+  {
+   "anahtar": "tech:8f6043a18acdc49f",
+   "tarih": "2026-08-18",
+   "baslik": "Primetals Technologies to Modernize PLTCM for KG Steel in South Korea",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95d20bd3b64edf86bac45c6b19e71d&url=https%3a%2f%2fnote.com%2fsankituushin%2fn%2fn4cc3fa0e878e%3fhl%3den&c=3218958862499560946&mkt=en-us",
+   "kaynak": "Bing News",
+   "hat": "Tandem soguk hadde (TCM)"
   }
  ],
  "kaynak_katki": {
-  "MEsteel": 1,
   "Google News": 1
  },
  "window": [
   "2026-08-16",
   "2026-08-31"
  ],
- "rezerv_kullanilan": 2,
+ "bulunan_kullanilan": 2,
+ "bulunan_havuz": 3,
+ "rezerv_kullanilan": 1,
  "rezerv_havuz": 3,
  "period": "2026-W36",
- "generated": "2026-08-31 16:10 UTC",
+ "generated": "2026-08-31 19:12 UTC",
  "version": "3.0.0"
 }

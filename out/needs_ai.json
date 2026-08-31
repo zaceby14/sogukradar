@@ -2,6 +2,36 @@
  "donem": "2026-W36",
  "duzelt": [
   {
+   "anahtar": "f1860f395525b68a",
+   "baslik": "NS-SUS Completes Installation of New Danieli Coil-Handling Cranes",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNejhtT3VSU2JqekN5bVh3bnhHdmFMbEtfWmxzQ0hFNXFhV2U5TklNWkhsbXYwQ3JnWEpNOGNyS2ZHRGZjYzViWmtDSEpZZnFiMDUxdktCWnpIWGJtNXNEaDNMUE5zRzIzNFFGZkRQc0RjNjdxOS15d0JpT2o2SFMyaUU4c0xMSU5QdG11YW14UQ?oc=5",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "mevcut": {
+    "firma": "NS-SUS",
+    "ulke": "",
+    "hat": "Bobin tasima / paketleme",
+    "asama": "Belirsiz"
+   }
+  },
+  {
+   "anahtar": "5057cc8359f58ba5",
+   "baslik": "India's Manaksia Steel to invest $84 million to expand value-added flats capacities",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/indias-manaksia-steel-to-invest-84-million-to-expand-value-added-flats-capacities-1470867.htm",
+   "eksik": [
+    "hat",
+    "asama"
+   ],
+   "mevcut": {
+    "firma": "Manaksia Steel",
+    "ulke": "Hindistan",
+    "hat": "Belirsiz",
+    "asama": "Belirsiz"
+   }
+  },
+  {
    "anahtar": "971c858c2cf021dc",
    "baslik": "New MINO Double-Stand Six-High Cold Reversing Mill in North America",
    "url": "https://mino.it/new-mino-double-stand-six-high-cold-reversing-mill-in-north-america/",
@@ -18,6 +48,26 @@
  ],
  "cumle_yaz": [
   {
+   "anahtar": "f1860f395525b68a",
+   "tarih": "2026-08-24",
+   "firma": "NS-SUS",
+   "ulke": "",
+   "hat": "Bobin tasima / paketleme",
+   "asama": "Belirsiz",
+   "baslik": "NS-SUS Completes Installation of New Danieli Coil-Handling Cranes",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNejhtT3VSU2JqekN5bVh3bnhHdmFMbEtfWmxzQ0hFNXFhV2U5TklNWkhsbXYwQ3JnWEpNOGNyS2ZHRGZjYzViWmtDSEpZZnFiMDUxdktCWnpIWGJtNXNEaDNMUE5zRzIzNFFGZkRQc0RjNjdxOS15d0JpT2o2SFMyaUU4c0xMSU5QdG11YW14UQ?oc=5"
+  },
+  {
+   "anahtar": "4d59fdf2ae6ec46f",
+   "tarih": "2026-08-20",
+   "firma": "KEZAD",
+   "ulke": "BAE",
+   "hat": "Galvaniz hatti (CGL)",
+   "asama": "Ilk urun",
+   "baslik": "KEZAD galvanising facility moves closer to commissioning",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95cacd4e7441aeb951448930105137&url=https%3a%2f%2fwww.msn.com%2fen-ae%2fnews%2fother%2fkezad-galvanising-facility-moves-closer-to-commissioning%2far-AA2ayC80&c=5487109860416195630&mkt=en-us"
+  },
+  {
    "anahtar": "971c858c2cf021dc",
    "tarih": "2026-03-13",
    "firma": "New MINO Double-Stand",
@@ -28,5 +78,30 @@
    "url": "https://mino.it/new-mino-double-stand-six-high-cold-reversing-mill-in-north-america/"
   }
  ],
- "teknoloji_adaylari": []
+ "teknoloji_adaylari": [
+  {
+   "anahtar": "tech:8f6043a18acdc49f",
+   "tarih": "2026-08-18",
+   "baslik": "Primetals Technologies to Modernize PLTCM for KG Steel in South Korea",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95d1ee4fca4968975e2feb8047c6cf&url=https%3a%2f%2fnote.com%2fsankituushin%2fn%2fn4cc3fa0e878e%3fhl%3den&c=3218958862499560946&mkt=en-us",
+   "kaynak": "Bing News",
+   "hat": "Tandem soguk hadde (TCM)"
+  },
+  {
+   "anahtar": "tech:8f6043a18acdc49f",
+   "tarih": "2026-08-18",
+   "baslik": "Primetals Technologies to Modernize PLTCM for KG Steel in South Korea",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95d1f7177e4dc0ad04d9bf5810a033&url=https%3a%2f%2fnote.com%2fsankituushin%2fn%2fn4cc3fa0e878e%3fhl%3den&c=3218958862499560946&mkt=en-us",
+   "kaynak": "Bing News",
+   "hat": "Tandem soguk hadde (TCM)"
+  },
+  {
+   "anahtar": "tech:8f6043a18acdc49f",
+   "tarih": "2026-08-18",
+   "baslik": "Primetals Technologies to Modernize PLTCM for KG Steel in South Korea",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95d20bd3b64edf86bac45c6b19e71d&url=https%3a%2f%2fnote.com%2fsankituushin%2fn%2fn4cc3fa0e878e%3fhl%3den&c=3218958862499560946&mkt=en-us",
+   "kaynak": "Bing News",
+   "hat": "Tandem soguk hadde (TCM)"
+  }
+ ]
 }
