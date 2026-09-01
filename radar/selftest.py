@@ -1428,6 +1428,37 @@ def test_v20_indiana_hindistan_degil():
             "rolling capacity"), "Hindistan", "crore Hindistan sinyalidir")
 
 
+def test_w36_ocak_parcasi_tavlama_firini_degildir():
+    """2026-09-01: "furnace roof" tavlama firini degil ARK OCAGI catisidir.
+
+    Uc haftalik pencerenin ilk kosusunda su satir Hat katmanina girdi:
+      "Primetals to supply furnace roof to British Steel"
+    Sebep: "furnace" ZAYIF kapsam terimi olarak tavlama firini icin
+    konmustu ve baslikta "steel" gecince celik baglami da saglaniyordu.
+    Oysa ocak catisi celikhane parcasidir - kapsam sicak hadde SONRASI.
+
+    Kalip DAR: tavlama, galvaniz hatti ve isleme hatti firinlari kapsam ici
+    kalir ve burada tek tek bekcilenir. Ayirt eden sey "firin" kelimesi
+    degil, HANGI firin oldugudur.
+    """
+    for t in ("Primetals to supply furnace roof to British Steel",
+              "New electric arc furnace for Salzgitter",
+              "Danieli to supply ladle furnace and electrode arms"):
+        eq(taxonomy.in_scope(t)[0], False, "ocak parcasi kapsam disi: " + t[:46])
+
+    for t in ("Fives to supply Baosteel with two new processing line furnaces",
+              "Successful thermal performance at NLMK Strasbourg galvanizing "
+              "line furnace",
+              "CERI Technology Company awards annealing furnace contract to "
+              "ANDRITZ",
+              "ANDRITZ to supply combi-line furnace to Borcelik, Turkiye",
+              "Sanbao Group SACL 3 annealing furnace for non-oriented silicon "
+              "steel commissioned",
+              "High convection chamber-type furnaces for the annealing of "
+              "strip coils"):
+        eq(taxonomy.in_scope(t)[0], True, "hat firini kapsam ici: " + t[:46])
+
+
 def test_w36_pencere_uc_hafta():
     """2026-08-31 (kullanici karari): pencere 15 gun -> 21 gun (UC HAFTA).
 
@@ -2734,6 +2765,7 @@ def run():
                test_v20_gonderilmis_hafiza,
                test_v20_gunluk_tarama_arsivi_ezmez,
                test_v20_indiana_hindistan_degil,
+               test_w36_ocak_parcasi_tavlama_firini_degildir,
                test_w36_pencere_uc_hafta,
                test_w36_kose_kendi_kapisi_ve_turkiye_katmani,
                test_w36_rezerv_kalici_hafizayi_sorar,

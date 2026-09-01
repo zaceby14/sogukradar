@@ -438,6 +438,14 @@ _UPSTREAM = (
     # gercek bir tavlama hatti konusudur, onlar eslesmemeli.
     r"hydrogen[- ]?(retrofit|ready|based|ironmaking|dri)|"
     r"h2[- ](retrofit|based) |green hydrogen (plant|project)|"
+    # OCAK/CELIKHANE PARCALARI (2026-09-01). "furnace" zayif kapsam terimi
+    # olarak tavlama firini icin konmustu; "Primetals to supply FURNACE ROOF
+    # to British Steel" satiri bu yuzden Hat katmanina girdi - oysa ocak
+    # catisi ARK OCAGI parcasidir, celikhanedir. Tavlama/galvaniz firini
+    # kalıpları kapsam ici kalir ve testle bekcilenir.
+    r"furnace roof|furnace shell|furnace transformer|arc furnace|"
+    r"melting furnace|melt(ing)? shop furnace|ergitme firin|pota firin|"
+    r"\belectrode\b|elektrot|tapping|ocak catisi|"
     r"sinter plant|coke oven|pellet plant|scrap yard|ladle furnace|"
     # "steelmaking" = celikhane. Baslikta soguk taraf terimi yokken bunu
     # kapsam ici saymak yanlis: "Cleveland-Cliffs Invests $1B in Steelmaking
