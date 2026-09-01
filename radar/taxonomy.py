@@ -1012,10 +1012,19 @@ def in_scope(title, lead=""):
     # ya da "hat" der - CGL, "galvanizing line", "first coil", "strip". Genel
     # galvaniz tesisi ise tesisin kendisinden bahseder ("galvanising
     # facility/plant") ve serit demez, cunku parca daldirir.
-    if (re.search(r"galvani[sz]", blob)
-            and not re.search(r"(line|hatt|strip|serit|coil|bobin|sheet|sac\b|"
-                              r"\bcgl\b|\bcgal\b|mill|hadde|anneal|tavlama|"
-                              r"pickl|asitleme|tandem|skin[- ]?pass|temper)", blob)):
+    # KURAL DAR TUTULDU: "galvaniz" kelimesi SIRKET ADININ parcasi olabilir
+    # ("Kirac Galvaniz Bulgaristan'da anlasma imzaladi") ve o haber gercek
+    # bir yassi is olabilir. Bu yuzden veto yalnizca TESIS kelimesiyle
+    # birlikte gelen galvaniz haberine uygulanir - KEZAD'in sekli tam budur:
+    # "galvanising FACILITY moves closer to commissioning", hicbir serit
+    # isareti yok.
+    if (re.search(r"galvani[sz]\w*\s+(facility|plant|works|hub|kettle|bath)|"
+                  r"(facility|plant|hub)\s+\w{0,12}\s?galvani[sz]|"
+                  r"galvaniz\w*\s+(tesis|fabrika|kazan)", blob)
+            and not re.search(r"(\bline\b|\blines\b|hatt|strip|serit|coil|bobin|"
+                              r"sheet|sac\b|\bcgl\b|\bcgal\b|mill|hadde|anneal|"
+                              r"tavlama|pickl|asitleme|tandem|skin[- ]?pass|temper)",
+                              blob)):
         return False, "galvaniz_hat_isareti_yok"
     # HARD_REJECT = NOISE + UPSTREAM. NOISE yukarida ayri bakildi; UPSTREAM
     # asagida KOSULLU bakilir (guclu soguk terim vetoyu kaldirir), bu yuzden

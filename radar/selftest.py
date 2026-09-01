@@ -1597,8 +1597,16 @@ def test_w36_pota_galvaniz_hat_degildir():
     ok, why = taxonomy.in_scope(
         "KEZAD galvanising facility moves closer to commissioning",
         "The facility in Abu Dhabi will serve fabricators in the industrial hub.")
-    eq(ok, False, "hat isareti tasimayan galvaniz haberi girmemeli")
+    eq(ok, False, "hat isareti tasimayan galvaniz TESISI girmemeli")
     eq(why, "galvaniz_hat_isareti_yok", "sebep dogru olmali")
+
+    # KURAL DAR TUTULMALI: "galvaniz" SIRKET ADININ parcasi olabilir ve o
+    # haber gercek bir yassi is olabilir. Ilk yazdigim genis hal bu satiri
+    # eledi ve KENDI TESTIM yakaladi - veto yalnizca TESIS kelimesiyle
+    # birlikte gelen galvaniz haberine uygulanir.
+    eq(taxonomy.in_scope(
+        "Kirac Galvaniz Bulgaristan'da 10 Milyon Euro'luk Anlasmaya Imza Atti")[0],
+       True, "sirket adindaki 'Galvaniz' vetoya sebep olmamali")
 
     # SUREKLI SERIT HATLARI KORUNMALI - kalip dar tutuldu
     for t, g in (
