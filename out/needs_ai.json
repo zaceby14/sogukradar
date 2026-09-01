@@ -2,21 +2,6 @@
  "donem": "2026-W36",
  "duzelt": [
   {
-   "anahtar": "e7077d87ef63e021",
-   "baslik": "Ex-SpaceX engineers open robotic steel factory in Cincinnati on $15 million seed",
-   "url": "https://www.cryptopolitan.com/spacex-engineers-cincinnati-steel-factory/",
-   "eksik": [
-    "ulke",
-    "hat"
-   ],
-   "mevcut": {
-    "firma": "Ex-SpaceX engineers",
-    "ulke": "",
-    "hat": "Belirsiz",
-    "asama": "Sozlesme"
-   }
-  },
-  {
    "anahtar": "f1860f395525b68a",
    "baslik": "NS-SUS Completes Installation of New Danieli Coil-Handling Cranes",
    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNejhtT3VSU2JqekN5bVh3bnhHdmFMbEtfWmxzQ0hFNXFhV2U5TklNWkhsbXYwQ3JnWEpNOGNyS2ZHRGZjYzViWmtDSEpZZnFiMDUxdktCWnpIWGJtNXNEaDNMUE5zRzIzNFFGZkRQc0RjNjdxOS15d0JpT2o2SFMyaUU4c0xMSU5QdG11YW14UQ?oc=5",
@@ -28,6 +13,21 @@
     "firma": "NS-SUS",
     "ulke": "",
     "hat": "Bobin tasima / paketleme",
+    "asama": "Belirsiz"
+   }
+  },
+  {
+   "anahtar": "5ddafe54499a1936",
+   "baslik": "ArcelorMittal Brasil to invest in new cold rolling mill and coating lines",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/arcelormittal-brasil-to-invest-in-new-cold-rolling-mill-and-coating-lines-1474267.htm",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "mevcut": {
+    "firma": "ArcelorMittal Brasil",
+    "ulke": "",
+    "hat": "Soguk hadde",
     "asama": "Belirsiz"
    }
   },
@@ -57,16 +57,6 @@
    "asama": "Sozlesme",
    "baslik": "John Cockerill Signs Contract with A1 Iron & Steel for Integrated Cold Rolling Complex in Tanzania",
    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYWhzdjdOTS1scDR4azVuN0JiaHM1bm5FNTdGUlczOHgzYkwtNzZtVEhFY3VBRld1bWVPOTB0OXA1bHY4Z2l1UHNKbS1rLXlmNmNnbnV6eGxuUWRoYWw5X2FrMkJnV0g0Q1V2a3BVeHBTUTk0d2RRN29iNHdYaEFlVHQ2VXVITWVJZUlpSmgyTHhYdXNRWDhROA?oc=5"
-  },
-  {
-   "anahtar": "e7077d87ef63e021",
-   "tarih": "2026-08-18",
-   "firma": "Ex-SpaceX engineers",
-   "ulke": "",
-   "hat": "Belirsiz",
-   "asama": "Sozlesme",
-   "baslik": "Ex-SpaceX engineers open robotic steel factory in Cincinnati on $15 million seed",
-   "url": "https://www.cryptopolitan.com/spacex-engineers-cincinnati-steel-factory/"
   },
   {
    "anahtar": "f1860f395525b68a",

@@ -28,31 +28,6 @@
    "puan": 62.6
   },
   {
-   "tarih": "2026-08-18",
-   "firma": "Ex-SpaceX engineers",
-   "ulke": "",
-   "hat": "Belirsiz",
-   "asama": "Sozlesme",
-   "tedarikci": "",
-   "kapasite": "1872, a",
-   "tutar": "$15 million",
-   "baslik": "Ex-SpaceX engineers open robotic steel factory in Cincinnati on $15 million seed",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgq_hat17",
-   "url": "https://www.cryptopolitan.com/spacex-engineers-cincinnati-steel-factory/",
-   "tarih_kaynagi": "rss",
-   "eksik": [
-    "ulke",
-    "hat"
-   ],
-   "anahtar": "e7077d87ef63e021",
-   "kategori": "Hat",
-   "olaylar": [
-    "ex spacex engineers|hat|Belirsiz|Sozlesme"
-   ],
-   "puan": 48.4
-  },
-  {
    "tarih": "2026-08-24",
    "firma": "NS-SUS",
    "ulke": "",
@@ -77,6 +52,31 @@
     "ns sus|hat|Bobin tasima / paketleme|Belirsiz"
    ],
    "puan": 22.8
+  },
+  {
+   "tarih": "2026-09-01",
+   "firma": "ArcelorMittal Brasil",
+   "ulke": "",
+   "hat": "Soguk hadde",
+   "asama": "Belirsiz",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "ArcelorMittal Brasil to invest in new cold rolling mill and coating lines",
+   "kaynak": "SteelOrbis",
+   "kaynak_id": "steelorbis",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/arcelormittal-brasil-to-invest-in-new-cold-rolling-mill-and-coating-lines-1474267.htm",
+   "tarih_kaynagi": "json-ld",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "anahtar": "5ddafe54499a1936",
+   "kategori": "Yatirim",
+   "olaylar": [
+    "arcelormittal brasil|hat|Soguk hadde|Belirsiz"
+   ],
+   "puan": 3.0
   },
   {
    "anahtar": "5057cc8359f58ba5",
@@ -133,13 +133,13 @@
  "stats": {
   "kaynak": 291,
   "erisilemeyen": 9,
-  "ham": 3526,
-  "on_eleme_gecti": 343,
+  "ham": 3599,
+  "on_eleme_gecti": 352,
   "makale_acildi": 211,
   "tarihsiz_elendi": 87,
-  "pencere_disi": 256,
-  "kapsam_disi": 3132,
-  "tekrar": 48,
+  "pencere_disi": 257,
+  "kapsam_disi": 3196,
+  "tekrar": 56,
   "kabul": 3,
   "gnews_tarih": 0
  },
@@ -499,8 +499,8 @@
  },
  "tech_pool": [],
  "kaynak_katki": {
-  "Google News": 2,
-  "Bing News": 1
+  "SteelOrbis": 1,
+  "Google News": 2
  },
  "window": [
   "2026-08-11",
@@ -511,6 +511,6 @@
  "rezerv_kullanilan": 1,
  "rezerv_havuz": 12,
  "period": "2026-W36",
- "generated": "2026-09-01 07:54 UTC",
+ "generated": "2026-09-01 08:38 UTC",
  "version": "3.0.0"
 }
