@@ -17,6 +17,21 @@
    }
   },
   {
+   "anahtar": "5057cc8359f58ba5",
+   "baslik": "India's Manaksia Steel to invest $84 million to expand value-added flats capacities",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/indias-manaksia-steel-to-invest-84-million-to-expand-value-added-flats-capacities-1470867.htm",
+   "eksik": [
+    "hat",
+    "asama"
+   ],
+   "mevcut": {
+    "firma": "Manaksia Steel",
+    "ulke": "Hindistan",
+    "hat": "Belirsiz",
+    "asama": "Belirsiz"
+   }
+  },
+  {
    "anahtar": "971c858c2cf021dc",
    "baslik": "New MINO Double-Stand Six-High Cold Reversing Mill in North America",
    "url": "https://mino.it/new-mino-double-stand-six-high-cold-reversing-mill-in-north-america/",
@@ -33,6 +48,16 @@
  ],
  "cumle_yaz": [
   {
+   "anahtar": "4d59fdf2ae6ec46f",
+   "tarih": "2026-08-20",
+   "firma": "KEZAD",
+   "ulke": "BAE",
+   "hat": "Galvaniz hatti (CGL)",
+   "asama": "Ilk urun",
+   "baslik": "KEZAD galvanising facility moves closer to commissioning",
+   "url": "https://www.msn.com/en-ae/technology/general/kezad-galvanising-facility-moves-closer-to-commissioning/ar-AA2ayC80"
+  },
+  {
    "anahtar": "f1860f395525b68a",
    "tarih": "2026-08-24",
    "firma": "NS-SUS",
@@ -41,6 +66,26 @@
    "asama": "Belirsiz",
    "baslik": "NS-SUS Completes Installation of New Danieli Coil-Handling Cranes",
    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNejhtT3VSU2JqekN5bVh3bnhHdmFMbEtfWmxzQ0hFNXFhV2U5TklNWkhsbXYwQ3JnWEpNOGNyS2ZHRGZjYzViWmtDSEpZZnFiMDUxdktCWnpIWGJtNXNEaDNMUE5zRzIzNFFGZkRQc0RjNjdxOS15d0JpT2o2SFMyaUU4c0xMSU5QdG11YW14UQ?oc=5"
+  },
+  {
+   "anahtar": "449019d6e383b1ae",
+   "tarih": "2026-07-13",
+   "firma": "Gazoldo",
+   "ulke": "Turkiye",
+   "hat": "Asitleme hatti",
+   "asama": "Modernizasyon",
+   "baslik": "Marcegaglia upgrades pickling line at Gazoldo degli Ippoliti stainless steel plant",
+   "url": "https://news.mesteel.com/marcegaglia-upgrades-pickling-line-at-gazoldo-degli-ippoliti-stainless-steel-plant/"
+  },
+  {
+   "anahtar": "89a81bc39203a100",
+   "tarih": "2026-05-20",
+   "firma": "India’s JIL",
+   "ulke": "Hindistan",
+   "hat": "Boyama hatti (CCL)",
+   "asama": "Ilk urun",
+   "baslik": "India’s JIL commissions continuous color coating line completing $155 million capex program",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/indias-jil-commissions-continuous-color-coating-line-completing-155-million-capex-program-1454553.htm"
   },
   {
    "anahtar": "971c858c2cf021dc",
@@ -53,30 +98,5 @@
    "url": "https://mino.it/new-mino-double-stand-six-high-cold-reversing-mill-in-north-america/"
   }
  ],
- "teknoloji_adaylari": [
-  {
-   "anahtar": "tech:8f6043a18acdc49f",
-   "tarih": "2026-08-18",
-   "baslik": "Primetals Technologies to Modernize PLTCM for KG Steel in South Korea",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95ce31a1034b0db8ce511ef3e62614&url=https%3a%2f%2fnote.com%2fsankituushin%2fn%2fn4cc3fa0e878e%3fhl%3den&c=3218958862499560946&mkt=en-us",
-   "kaynak": "Bing News",
-   "hat": "Tandem soguk hadde (TCM)"
-  },
-  {
-   "anahtar": "tech:8f6043a18acdc49f",
-   "tarih": "2026-08-18",
-   "baslik": "Primetals Technologies to Modernize PLTCM for KG Steel in South Korea",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95ce3b58e84c5dba0c8ef066f8e745&url=https%3a%2f%2fnote.com%2fsankituushin%2fn%2fn4cc3fa0e878e%3fhl%3den&c=3218958862499560946&mkt=en-us",
-   "kaynak": "Bing News",
-   "hat": "Tandem soguk hadde (TCM)"
-  },
-  {
-   "anahtar": "tech:8f6043a18acdc49f",
-   "tarih": "2026-08-18",
-   "baslik": "Primetals Technologies to Modernize PLTCM for KG Steel in South Korea",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95ce4f0f0e4817b10d4de9c018593f&url=https%3a%2f%2fnote.com%2fsankituushin%2fn%2fn4cc3fa0e878e%3fhl%3den&c=3218958862499560946&mkt=en-us",
-   "kaynak": "Bing News",
-   "hat": "Tandem soguk hadde (TCM)"
-  }
- ]
+ "teknoloji_adaylari": []
 }

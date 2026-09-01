@@ -1,6 +1,31 @@
 {
  "rows": [
   {
+   "tarih": "2026-08-20",
+   "firma": "KEZAD",
+   "ulke": "BAE",
+   "hat": "Galvaniz hatti (CGL)",
+   "asama": "Ilk urun",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "KEZAD galvanising facility moves closer to commissioning",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_hat05",
+   "url": "https://www.msn.com/en-ae/technology/general/kezad-galvanising-facility-moves-closer-to-commissioning/ar-AA2ayC80",
+   "tarih_kaynagi": "rss",
+   "eksik": [],
+   "anahtar": "4d59fdf2ae6ec46f",
+   "kategori": "Hat",
+   "olaylar": [
+    "*|ulke-hat|BAE|Galvaniz hatti (CGL)|Ilk urun",
+    "kezad|fu|BAE|Galvaniz hatti (CGL)",
+    "kezad|hat|Galvaniz hatti (CGL)|Ilk urun",
+    "kezad|ulke|BAE|Ilk urun"
+   ],
+   "puan": 52.2
+  },
+  {
    "tarih": "2026-08-24",
    "firma": "NS-SUS",
    "ulke": "",
@@ -24,7 +49,83 @@
     "danieli|hat|Bobin tasima / paketleme|Belirsiz",
     "ns sus|hat|Bobin tasima / paketleme|Belirsiz"
    ],
-   "puan": 23.2
+   "puan": 22.8
+  },
+  {
+   "anahtar": "5057cc8359f58ba5",
+   "asama": "Belirsiz",
+   "baslik": "India's Manaksia Steel to invest $84 million to expand value-added flats capacities",
+   "eksik": [
+    "hat",
+    "asama"
+   ],
+   "firma": "Manaksia Steel",
+   "hat": "Belirsiz",
+   "kapasite": "",
+   "kategori": "Yatirim",
+   "kaynak": "SteelOrbis",
+   "kaynak_id": "steelorbis",
+   "olaylar": [
+    "manaksia steel|fu|Hindistan|Belirsiz",
+    "manaksia steel|hat|Belirsiz|Belirsiz",
+    "manaksia steel|ulke|Hindistan|Belirsiz"
+   ],
+   "puan": -7.0,
+   "tarih": "2026-08-14",
+   "tarih_kaynagi": "json-ld",
+   "tedarikci": "",
+   "tutar": "$84 million",
+   "ulke": "Hindistan",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/indias-manaksia-steel-to-invest-84-million-to-expand-value-added-flats-capacities-1470867.htm"
+  },
+  {
+   "anahtar": "449019d6e383b1ae",
+   "asama": "Modernizasyon",
+   "baslik": "Marcegaglia upgrades pickling line at Gazoldo degli Ippoliti stainless steel plant",
+   "eksik": [],
+   "firma": "Gazoldo",
+   "hat": "Asitleme hatti",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Mesteel",
+   "kaynak_id": "",
+   "olaylar": [
+    "gazoldo|fu|Turkiye|Asitleme hatti",
+    "gazoldo|hat|Asitleme hatti|Modernizasyon",
+    "gazoldo|ulke|Turkiye|Modernizasyon"
+   ],
+   "rezerv": true,
+   "tarih": "2026-07-13",
+   "tarih_kaynagi": "meta:datepublished",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Turkiye",
+   "url": "https://news.mesteel.com/marcegaglia-upgrades-pickling-line-at-gazoldo-degli-ippoliti-stainless-steel-plant/"
+  },
+  {
+   "anahtar": "89a81bc39203a100",
+   "asama": "Ilk urun",
+   "baslik": "India’s JIL commissions continuous color coating line completing $155 million capex program",
+   "eksik": [],
+   "firma": "India’s JIL",
+   "hat": "Boyama hatti (CCL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "SteelOrbis",
+   "kaynak_id": "",
+   "olaylar": [
+    "*|ulke-hat|Hindistan|Boyama hatti (CCL)|Ilk urun",
+    "india’s jil|fu|Hindistan|Boyama hatti (CCL)",
+    "india’s jil|hat|Boyama hatti (CCL)|Ilk urun",
+    "india’s jil|ulke|Hindistan|Ilk urun"
+   ],
+   "rezerv": true,
+   "tarih": "2026-05-20",
+   "tarih_kaynagi": "json-ld",
+   "tedarikci": "",
+   "tutar": "$155 million",
+   "ulke": "Hindistan",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/indias-jil-commissions-continuous-color-coating-line-completing-155-million-capex-program-1454553.htm"
   },
   {
    "anahtar": "971c858c2cf021dc",
@@ -55,21 +156,25 @@
  ],
  "stats": {
   "kaynak": 269,
-  "erisilemeyen": 8,
-  "ham": 3472,
+  "erisilemeyen": 9,
+  "ham": 3464,
   "on_eleme_gecti": 325,
-  "makale_acildi": 201,
-  "tarihsiz_elendi": 92,
-  "pencere_disi": 188,
-  "kapsam_disi": 3152,
-  "tekrar": 39,
-  "kabul": 1,
+  "makale_acildi": 212,
+  "tarihsiz_elendi": 84,
+  "pencere_disi": 195,
+  "kapsam_disi": 3148,
+  "tekrar": 35,
+  "kabul": 2,
   "gnews_tarih": 0
  },
  "unreachable": [
   [
    "SMS group",
    "HTTP 403"
+  ],
+  [
+   "Butech Bliss",
+   "HTTP 500"
   ],
   [
    "Cognex",
@@ -371,10 +476,10 @@
   "bgs_mfmag": "arama",
   "bgs_orbis2": "arama"
  },
- "today": "2026-08-31",
+ "today": "2026-09-01",
  "host_saglik": {
   "news.google.com": {
-   "istek": 103,
+   "istek": 101,
    "hiz_siniri": 0,
    "sogutmada": false
   },
@@ -394,42 +499,20 @@
    "sogutmada": true
   }
  },
- "tech_pool": [
-  {
-   "anahtar": "tech:8f6043a18acdc49f",
-   "tarih": "2026-08-18",
-   "baslik": "Primetals Technologies to Modernize PLTCM for KG Steel in South Korea",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95ce31a1034b0db8ce511ef3e62614&url=https%3a%2f%2fnote.com%2fsankituushin%2fn%2fn4cc3fa0e878e%3fhl%3den&c=3218958862499560946&mkt=en-us",
-   "kaynak": "Bing News",
-   "hat": "Tandem soguk hadde (TCM)"
-  },
-  {
-   "anahtar": "tech:8f6043a18acdc49f",
-   "tarih": "2026-08-18",
-   "baslik": "Primetals Technologies to Modernize PLTCM for KG Steel in South Korea",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95ce3b58e84c5dba0c8ef066f8e745&url=https%3a%2f%2fnote.com%2fsankituushin%2fn%2fn4cc3fa0e878e%3fhl%3den&c=3218958862499560946&mkt=en-us",
-   "kaynak": "Bing News",
-   "hat": "Tandem soguk hadde (TCM)"
-  },
-  {
-   "anahtar": "tech:8f6043a18acdc49f",
-   "tarih": "2026-08-18",
-   "baslik": "Primetals Technologies to Modernize PLTCM for KG Steel in South Korea",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a95ce4f0f0e4817b10d4de9c018593f&url=https%3a%2f%2fnote.com%2fsankituushin%2fn%2fn4cc3fa0e878e%3fhl%3den&c=3218958862499560946&mkt=en-us",
-   "kaynak": "Bing News",
-   "hat": "Tandem soguk hadde (TCM)"
-  }
- ],
+ "tech_pool": [],
  "kaynak_katki": {
-  "Google News": 1
+  "Google News": 1,
+  "Bing News": 1
  },
  "window": [
-  "2026-08-16",
-  "2026-08-31"
+  "2026-08-17",
+  "2026-09-01"
  ],
- "rezerv_kullanilan": 1,
- "rezerv_havuz": 3,
+ "bulunan_kullanilan": 1,
+ "bulunan_havuz": 3,
+ "rezerv_kullanilan": 3,
+ "rezerv_havuz": 8,
  "period": "2026-W36",
- "generated": "2026-08-31 18:56 UTC",
+ "generated": "2026-09-01 03:35 UTC",
  "version": "3.0.0"
 }
