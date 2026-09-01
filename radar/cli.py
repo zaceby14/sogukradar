@@ -16,7 +16,9 @@ import os
 import sys
 
 from . import collect, render, score, state, taxonomy
-from .config import HEDEF_SATIR, OUT, REZERV_MAX, TARGET_ROWS, VERSION
+from .config import (HEDEF_SATIR, OUT, REZERV_DAR_GUN, REZERV_ESIK,
+                     REZERV_KULLANIM_GUN, REZERV_MAX, TARGET_ROWS,
+                     VERSION)
 from .sources import SOURCES
 
 
@@ -319,6 +321,19 @@ def _rezervden_sec(rezerv, rows, st, eksik):
     calismiyordu.
     """
     if eksik <= 0 or not rezerv:
+        return []
+    # NE KADAR GERIYE GIDILIR - LISTENIN DOLULUGUNA BAGLI (2026-08-31).
+    # Kullanici kurali: "5 taneden az haber oldugu her an 3 aylik verilere
+    # erissin, en uygun ve yakin tarihli olanlari alsin."
+    #
+    # Rezerv 540 gun SAKLAR ama saklamak ile bultene koymak ayni sey degil:
+    # 2026-W36 listesi Mart/Mayis/Temmuz tarihli satirlarla dolduruldu ve
+    # okuyucu icin bu haftalik bulten degil arsiv taramasi olur. Saklama
+    # TEKRAR SAVUNMASI icindir; koyma hakki asagidaki sinirla olculur.
+    gun = REZERV_KULLANIM_GUN if len(rows) < REZERV_ESIK else REZERV_DAR_GUN
+    en_eski = (dt.date.today() - dt.timedelta(days=gun)).isoformat()
+    rezerv = [r for r in rezerv if (r.get("tarih") or "") >= en_eski]
+    if not rezerv:
         return []
     secili = list(rows)
     # KALICI OLAY HAFIZASI DA SORULUR (2026-08-31). Taze satirlar collect

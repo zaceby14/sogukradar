@@ -48,6 +48,25 @@ REJECT_SEBEP_KOTA = int(os.environ.get("RADAR_REJECT_SEBEP", "200"))
 HEDEF_SATIR = int(os.environ.get("RADAR_HEDEF_SATIR", "6"))
 REZERV_MAX = int(os.environ.get("RADAR_REZERV_MAX", "300"))
 
+# REZERVDEN BULTENE GIREBILECEK EN ESKI HABER (2026-08-31, kullanici kurali:
+# "5 taneden az haber oldugu her an 3 aylik verilere erissin, en uygun ve
+# yakin tarihli olanlari alsin").
+#
+# Rezerv 540 gun SAKLAR - ama saklamak ile BULTENE KOYMAK ayni sey degil.
+# 2026-W36'da liste Mart (MINO), Mayis (JIL) ve Temmuz (Marcegaglia) tarihli
+# satirlarla dolduruldu; "GEC YAKALANDI" rozeti tasisalar da okuyucu icin bu
+# haftalik bulten degil arsiv taramasidir.
+#
+# Ayrim: 540 gunluk saklama TEKRAR SAVUNMASI icindir - eski bir haberin
+# varyanti bir daha giremesin diye. Bultene KOYMA hakki asagidaki sinirlarla
+# olculur ve LISTENIN DOLULUGUNA gore degisir:
+#   liste 5'ten AZ satir tasiyorsa  -> 3 aya kadar geriye gidilir (DAR gun)
+#   liste 5 ya da daha doluysa      -> yalnizca son ayin haberi eklenir
+# Havuz her zaman EN YENIDEN ESKIYE taranir, yani once en yakin tarihli.
+REZERV_KULLANIM_GUN = int(os.environ.get("RADAR_REZERV_KULLANIM", "90"))
+REZERV_DAR_GUN = int(os.environ.get("RADAR_REZERV_DAR", "30"))
+REZERV_ESIK = int(os.environ.get("RADAR_REZERV_ESIK", "5"))
+
 # ULASILABILIR BESLEMEDEN TARIH SORMA BUTCESI (2026-08-31).
 # Makale sayfasi 403 veren yayinlarin haberleri kapiyi geciyor ama tarihsiz
 # kaldigi icin eleniyordu. Tarih, Google News beslemesindeki pubDate'ten -

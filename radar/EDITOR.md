@@ -198,6 +198,23 @@ upgrade" olarak zaten gitmişti. **Başlık benzerliği bu çifti yakalamaz**
 bacak olay parmak izidir, bu yüzden köşe adayı için de aday bir satır
 kurulup aynı izler hesaplanır.
 
+## 4k. Rezerv ne kadar geriye gider — listenin doluluğuna bağlı
+
+Rezerv **540 gün saklar** ama saklamak ile **bültene koymak** aynı şey
+değil. 2026-W36 listesi Mart (MINO), Mayıs (JIL) ve Temmuz (Marcegaglia)
+tarihli satırlarla dolduruldu; "GEÇ YAKALANDI" rozeti taşısalar da okuyucu
+için bu haftalık bülten değil arşiv taramasıdır.
+
+| listede | rezervden gidilebilecek en eski |
+|---|---|
+| **5'ten az** satır | **3 ay** (90 gün) |
+| 5 veya daha dolu | 1 ay (30 gün) |
+| her koşulda | havuz **en yeniden eskiye** taranır |
+
+Ayrım net: 540 günlük saklama **tekrar savunması** içindir — eski bir
+haberin varyantı bir daha giremesin diye. Bültene **koyma** hakkı yukarıdaki
+sınırla ölçülür. Böylece eski haber ne tekrar eder ne de yeniden yayınlanır.
+
 ## 4j. Sayı kapıyla değil ARZLA sınırlı — ölçüldü
 
 2026-08-31'de huni baştan ölçüldü ve **kapının yanlış eleme yapmadığı**

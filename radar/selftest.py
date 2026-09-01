@@ -1188,10 +1188,11 @@ def test_rezerv_tekrar_denetimi():
                 "ulke": ulke, "asama": asama, "olaylar": list(olaylar),
                 "hat": "Soguk hadde", "kategori": "Hat", "rezerv": True}
 
-    kg = _r("k1", "2026-08-11",
+    _bugun = (dt.date.today() - dt.timedelta(days=12)).isoformat()
+    kg = _r("k1", _bugun,
             "KG Steel selects Primetals for Dangjin PLTCM upgrade and capacity expansion",
             ted="Primetals", olaylar=["primetals|hat|Tandem soguk hadde (TCM)|Modernizasyon"])
-    sti = _r("k2", "2026-08-11", "Primetals to modernise Korean pickling line",
+    sti = _r("k2", _bugun, "Primetals to modernise Korean pickling line",
              ted="Primetals", ulke="G. Kore",
              olaylar=["primetals|ulke|G. Kore|Modernizasyon"])
     # Ayni tedarikci + ayni asama + AYNI GUN -> ayni olay. Ulke bir yayinda
@@ -1199,8 +1200,12 @@ def test_rezerv_tekrar_denetimi():
     sec = _rezervden_sec([kg, sti], rows=[], st={}, eksik=8)
     eq(len(sec), 1, "ayni olayin iki varyantindan biri alinmali")
 
-    # Farkli GUN ve farkli ULKE ise iki ayri is: ikisi de alinir
-    baska = _r("k3", "2026-06-02", "Primetals to modernise Indian pickling line",
+    # Farkli GUN ve farkli ULKE ise iki ayri is: ikisi de alinir.
+    # NOT: tarih BUGUNE GORE hesaplanir. 2026-08-31'de "rezervden bultene
+    # girebilecek en eski haber" kurali kondu; sabit tarihli vaka zamanla
+    # kendiliginden eskiyip testi kirardi - nitekim 2026-06-02 yazilmisti.
+    baska = _r("k3", (dt.date.today() - dt.timedelta(days=20)).isoformat(),
+               "Primetals to modernise Indian pickling line",
                ted="Primetals", ulke="Hindistan")
     eq(len(_rezervden_sec([kg, baska], rows=[], st={}, eksik=8)), 2,
        "farkli gun+ulke iki ayri is sayilmali")
@@ -1208,8 +1213,9 @@ def test_rezerv_tekrar_denetimi():
     # GECMISTE GONDERILMIS haberin varyanti alinmamali
     gecmis = {"son_basliklar": [
         {"b": "tk accelis announces milestone at Stuttgart steel service center",
-         "t": "2026-08-05", "a": "Ilk urun"}]}
-    yieh = _r("k4", "2026-08-07",
+         "t": (dt.date.today() - dt.timedelta(days=10)).isoformat(),
+         "a": "Ilk urun"}]}
+    yieh = _r("k4", (dt.date.today() - dt.timedelta(days=8)).isoformat(),
               "tk accelis Processing Europe expands Stuttgart steel service center capacity",
               asama="Ilk urun")
     eq(_rezervden_sec([yieh], rows=[], st=gecmis, eksik=8), [],
@@ -1345,8 +1351,10 @@ def test_v20_gonderilmis_hafiza():
     # (3) imza gonderilmis satirlara karsi da isler
     gecmis = {"son_basliklar": [
         {"b": "KG Steel selects Primetals for Dangjin PLTCM upgrade and capacity expansion",
-         "t": "2026-08-11", "a": "Modernizasyon", "ted": "Primetals", "u": "G. Kore"}]}
-    sti = {"anahtar": "k2", "tarih": "2026-08-11",
+         "t": (dt.date.today() - dt.timedelta(days=12)).isoformat(),
+         "a": "Modernizasyon", "ted": "Primetals", "u": "G. Kore"}]}
+    _t = (dt.date.today() - dt.timedelta(days=12)).isoformat()
+    sti = {"anahtar": "k2", "tarih": _t,
            "baslik": "Primetals to modernise Korean pickling line",
            "tedarikci": "Primetals", "ulke": "G. Kore", "asama": "Modernizasyon",
            "olaylar": ["primetals|ulke|G. Kore|Modernizasyon"],
@@ -1355,7 +1363,12 @@ def test_v20_gonderilmis_hafiza():
        "gonderilmis olayin varyanti rezervden geri donmemeli")
 
     # Ayni tedarikcinin BASKA ulkedeki, baska gundeki isi hala gecerli haber
-    baska = dict(sti, anahtar="k3", tarih="2026-05-02", ulke="Hindistan",
+    # NOT: tarih bugune gore. Sabit 2026-05-02 yazilmisti ve "rezervden
+    # bultene girebilecek en eski haber" kurali konunca kendiliginden
+    # eskiyip testi kirdi.
+    baska = dict(sti, anahtar="k3",
+                 tarih=(dt.date.today() - dt.timedelta(days=25)).isoformat(),
+                 ulke="Hindistan",
                  baslik="Primetals to modernise Indian pickling line", olaylar=[])
     eq(len(_rezervden_sec([baska], rows=[], st=gecmis, eksik=8)), 1,
        "farkli ulke+gun ayri istir, elenmemeli")
@@ -1589,13 +1602,60 @@ def test_w36_rezerv_kalici_hafizayi_sorar():
     eq(_rezervden_sec([rrm], rows=[], st=hafiza, eksik=6), [],
        "kalici hafizadaki olayin varyanti rezervden gelemez")
 
-    # Hafizada olmayan satir GECER - temizlik cop toplar, haber degil
-    yeni_satir = _r("r2", "2026-05-20",
+    # Hafizada olmayan satir GECER - temizlik cop toplar, haber degil.
+    # NOT: tarih BUGUNE GORE hesaplanir. Sabit tarih yazilamaz cunku
+    # 2026-08-31'de "rezervden bultene girebilecek en eski haber 60 gun"
+    # kurali kondu ve sabit tarihli vaka zamanla kendiliginden eskiyip
+    # testi kirardi - nitekim ilk yazimda 2026-05-20 kullanilmisti.
+    _yeni_tarih = (dt.date.today() - dt.timedelta(days=10)).isoformat()
+    yeni_satir = _r("r2", _yeni_tarih,
                     "India's JIL commissions continuous color coating line",
                     ulke="Hindistan", hat="Boyama hatti (CCL)")
     yeni_satir["olaylar"] = ["|hat|Boyama hatti (CCL)|Ilk urun"]
     eq(len(_rezervden_sec([yeni_satir], rows=[], st=hafiza, eksik=6)), 1,
        "hafizada olmayan gercek satir gecmeli")
+
+    # ESKI HABER BULTENE GIREMEZ (2026-08-31, kullanici: "eski haberleri
+    # tekrar tekrar cikartmasin"). Rezerv 540 gun SAKLAR - ama saklamak ile
+    # bultene koymak ayni sey degil. 2026-W36 listesi Mart (MINO), Mayis
+    # (JIL) ve Temmuz (Marcegaglia) tarihli satirlarla dolduruldu; "GEC
+    # YAKALANDI" rozeti tasisalar da okuyucu icin bu haftalik bulten degil
+    # arsiv taramasi olur.
+    #
+    # Ayrim: saklama TEKRAR SAVUNMASI icindir (eski haberin varyanti bir
+    # daha giremesin); bultene KOYMA hakki REZERV_KULLANIM_GUN ile sinirli.
+    # Boylece eski haber ne tekrar eder ne de yeniden yayinlanir.
+    from .config import REZERV_KULLANIM_GUN, REZERV_DAR_GUN, REZERV_ESIK
+    gun = lambda n: (dt.date.today() - dt.timedelta(days=n)).isoformat()
+    mino = lambda a, n: _r(a, gun(n),
+                           "New MINO Double-Stand Six-High Cold Reversing "
+                           "Mill in North America", ulke="ABD", hat="Soguk hadde")
+
+    # LISTE BOS (5'ten az) -> 3 aya kadar geriye gidilir
+    eq(len(_rezervden_sec([mino("r3", REZERV_KULLANIM_GUN - 10)],
+                          rows=[], st={}, eksik=6)), 1,
+       "liste zayifken 3 aylik veriye erisilmeli")
+    eq(_rezervden_sec([mino("r4", REZERV_KULLANIM_GUN + 30)],
+                      rows=[], st={}, eksik=6), [],
+       "3 aydan eski haber hicbir kosulda bultene girmemeli")
+
+    # LISTE DOLU (5+ satir) -> yalnizca son ayin haberi eklenir
+    dolu = [{"baslik": "x%d" % i, "asama": "Belirsiz", "olaylar": []}
+            for i in range(REZERV_ESIK)]
+    eq(_rezervden_sec([mino("r5", REZERV_DAR_GUN + 20)],
+                      rows=dolu, st={}, eksik=1), [],
+       "liste doluyken eski rezerv satiri eklenmemeli")
+    eq(len(_rezervden_sec([mino("r6", REZERV_DAR_GUN - 5)],
+                          rows=dolu, st={}, eksik=1)), 1,
+       "liste doluyken son ayin haberi eklenebilmeli")
+
+    # HAVUZ EN YENIDEN ESKIYE taranir - "en yakin tarihli" once
+    a, b = mino("r7", 50), mino("r8", 5)
+    b["baslik"] = "Primetals to modernise Indian pickling line"
+    b["hat"] = "Asitleme hatti"
+    sec2 = _rezervden_sec([a, b], rows=[], st={}, eksik=1)
+    eq(len(sec2), 1, "eksik kadar satir alinmali")
+    eq(sec2[0]["anahtar"], "r8", "once EN YAKIN tarihli alinmali")
 
     # Izler YENIDEN URETILMEZ - iki ayri Primetals isi birlesmemeli
     src = open(os.path.join(os.path.dirname(__file__), "cli.py"),
