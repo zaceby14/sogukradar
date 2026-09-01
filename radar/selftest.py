@@ -1415,6 +1415,91 @@ def test_v20_indiana_hindistan_degil():
             "rolling capacity"), "Hindistan", "crore Hindistan sinyalidir")
 
 
+def test_w36_kose_kendi_kapisi_ve_turkiye_katmani():
+    """2026-08-31 (kullanici: "sayi ve icerik yine yetersiz").
+
+    HUNI OLCULDU ve kapinin YANLIS eleme yapmadigi gorundu: reddedilenlerin
+    icerigi urun katalogu sayfalari, kurumsal duyurular, bagis haberleri,
+    konferanslar ve yukari akis (DRI, sicak hadde). Gizli bir kapsam ici
+    haber yigini YOK. Yani sayi kapiyla degil ARZLA sinirli.
+
+    Icerik iki yerde eksikti ve ikisi de kapsam ICI:
+
+    A) TEKNOLOJI KOSESI IKI HAFTADIR BOS. Sebeplerden biri arz, digeri
+       KAPI: in_scope hat ISMI ariyor ("annealing line"), oysa kosenin
+       konusu hattin kendisi degil PROSES TEKNOLOJISIDIR. Gercek basliklar
+       bu yuzden dusuyordu:
+         "SMS group I-Furnace intelligent annealing process model"
+         "John Cockerill unveils jet vapor deposition coating technology"
+       Ayrica kalip modern teknoloji sozlugunu hic tanimiyordu (digital
+       twin, AI-based, machine vision, process model).
+       Kose kendi kapsam kapisini aldi. HABER KAPISI DEGISMEDI.
+
+    B) OKUYUCU TURK ama 2026-W36'da Turkiye ile ilgili TEK satir yoktu.
+       Kaynak listesinde Erdemir ve Tosyali var; Borcelik, MMK Metalurji,
+       Colakoglu, Yildiz Demir Celik, Tezcan Galvaniz, Habas YOK.
+       site: hedefi burada ise yaramaz - Google News YAYINCILARI
+       indeksler, sirketlerin kurumsal sayfalarini degil; sirketler icin
+       dogru yol ADLARINI aramaktir.
+    """
+    from . import sources as S
+
+    # --- A) Kose kapisi: proses teknolojisi hat ismi olmadan da girer
+    for t in ("SMS group I-Furnace intelligent annealing process model",
+              "John Cockerill unveils jet vapor deposition coating "
+              "technology for steel strip",
+              "Danieli introduces digital twin for cold rolling mill automation",
+              "AI-based surface inspection for galvanized strip",
+              "Primetals Technologies develops new process model for "
+              "continuous annealing lines"):
+        eq(taxonomy.tech_kapsam(t), True, "kose adayi olmali: " + t[:46])
+        eq(bool(taxonomy.TECH_ADAY.search(taxonomy.fold(t))), True,
+           "teknoloji kalibi tutmali: " + t[:46])
+
+    # IKI KAPI AYRIDIR ve ikisi de gerekir. Olcum kalibi olan ama TEKNOLOJI
+    # HABERI olmayan urun katalogu sayfasi kapsami gecer, aday kapisini
+    # GECMEZ - kose haber tanitir, katalog maddesi degil.
+    katalog = ("XR SMC multichannel thickness profile measuring system with "
+               "integrated surcon 2D surface inspection")
+    eq(taxonomy.tech_kapsam(katalog), True, "olcum sistemi kapsam icidir")
+    eq(bool(taxonomy.TECH_ADAY.search(taxonomy.fold(katalog))), False,
+       "katalog sayfasi teknoloji HABERI degildir")
+
+    # KOSEYE DE GIRMEYECEKLER - vetolar aynen isler
+    for t in ("Nippon Steel commissions new hot rolling line in Nagoya",
+              "New DRI plant technology from Energiron",
+              "MINO develops new cold rolling mill for Golden Aluminum",
+              "Galva Hub to commission Emirates largest galvanizing kettle",
+              "thyssenkrupp Steel Supervisory Board appoints new COO"):
+        eq(taxonomy.tech_kapsam(t), False, "kose disi olmali: " + t[:46])
+
+    # YUKARI AKIS VETOSUNU YALNIZ ASAGI AKIS HATTI KALDIRIR. Olcum:
+    # "surface inspection" guclu terimdir ve in_scope'ta vetoyu kaldirir;
+    # kosede kaldirmamali cunku muayene sistemi her iki tarafta da var.
+    sicak = ("Experience Report: How SDI Butler enhances quality control in "
+             "hot rolling mill through the implementation of surcon 2D "
+             "surface inspection system")
+    eq(taxonomy.tech_kapsam(sicak), False,
+       "sicak haddehanedeki muayene sistemi koseye girmemeli")
+    eq(taxonomy.tech_kapsam(
+        "First Combined surcon 2D and 3D Surface Inspection in a Pickling Line"),
+       True, "asitleme hattindaki AYNI sistem kose adayidir")
+
+    # --- B) Turk yassi celik ureticileri aranmali
+    tr = [x for x in S.SOURCES if x["id"].startswith("gtr_")]
+    eq(len(tr) >= 6, True, "Turk uretici sorgulari olmali")
+    hepsi = " ".join(x["rss"] for x in tr)
+    import urllib.parse as _up
+    for ad in ("Borçelik", "MMK Metalurji", "Çolakoğlu", "Tezcan"):
+        eq(_up.quote(ad) in hepsi or _up.quote('"%s"' % ad) in hepsi, True,
+           "Turk uretici aranmali: " + ad)
+    eq(all("ceid=TR:tr" in x["rss"] for x in tr), True,
+       "Turk sorgulari Turkce katmandan sorulmali")
+    # Aynalari da olmali
+    eq(len([x for x in S.SOURCES if x["id"].startswith("bgtr_")]), len(tr),
+       "Turk sorgularinin da Bing aynasi olmali")
+
+
 def test_w36_rezerv_kalici_hafizayi_sorar():
     """2026-08-31: rezervden secim KALICI olay hafizasini hic sormuyordu.
 
@@ -2506,6 +2591,7 @@ def run():
                test_v20_gonderilmis_hafiza,
                test_v20_gunluk_tarama_arsivi_ezmez,
                test_v20_indiana_hindistan_degil,
+               test_w36_kose_kendi_kapisi_ve_turkiye_katmani,
                test_w36_rezerv_kalici_hafizayi_sorar,
                test_w36_pota_galvaniz_hat_degildir,
                test_w36_yayinci_kuyrugu,

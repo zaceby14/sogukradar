@@ -198,6 +198,38 @@ upgrade" olarak zaten gitmişti. **Başlık benzerliği bu çifti yakalamaz**
 bacak olay parmak izidir, bu yüzden köşe adayı için de aday bir satır
 kurulup aynı izler hesaplanır.
 
+## 4j. Sayı kapıyla değil ARZLA sınırlı — ölçüldü
+
+2026-08-31'de huni baştan ölçüldü ve **kapının yanlış eleme yapmadığı**
+görüldü. Reddedilenlerin içeriği: ürün kataloğu sayfaları (114/200 "haber
+değil"), kurumsal duyurular, bağış haberleri, konferans ilanları ve yukarı
+akış (DRI, sıcak hadde). **Gizli bir kapsam içi haber yığını yok.**
+
+Gerçek dünya haftada ~2-3 kapsam içi hat olayı üretiyor. Bülteni 5-6 satıra
+çıkaran şey kapıyı gevşetmek değil, üç havuzun toplamıdır: taze + `bulunan`
++ `rezerv`. İçeriği güçlendiren ise iki ayrı eksikti:
+
+**A. Teknoloji köşesinin kendi kapsam kapısı var.** `in_scope` hat *ismi*
+arar ("annealing line"); köşenin konusu hattın kendisi değil **proses
+teknolojisidir**. Gerçek başlıklar bu yüzden düşüyordu — "SMS group
+I-Furnace intelligent annealing process model", "John Cockerill unveils jet
+vapor deposition coating technology". Ayrıca kalıp modern teknoloji
+sözlüğünü hiç tanımıyordu (digital twin, AI-based, machine vision, process
+model). `tech_kapsam` aynı yukarı akış / başka malzeme / gürültü vetolarını
+uygular, yalnızca hat ismini şart koşmaz. **Haber kapısı değişmez.**
+
+Bir incelik: köşede yukarı akış vetosunu **yalnız aşağı akış hattı**
+kaldırır. `in_scope`'ta herhangi bir güçlü terim kaldırır, ama ölçüm ve
+muayene terimleri her iki tarafta da geçer — "surface inspection in **hot
+rolling mill**" böyle sızıyordu.
+
+**B. Okuyucu Türk ama Türk üreticileri kaynak listesinde yoktu.** Erdemir
+ve Tosyalı vardı; Borçelik, MMK Metalurji, Çolakoğlu, Yıldız Demir Çelik,
+Tezcan Galvaniz, Habaş yoktu (`KNOWN_GAPS`: sayfaları JavaScript ile
+yükleniyor). `site:` hedefi burada işe yaramaz — Google News **yayıncıları**
+indeksler, şirketlerin kurumsal sayfalarını değil. Şirketler için doğru yol
+**adlarını aramaktır**; Türk sektör basını onları zaten yazıyor.
+
 ## 4i. Bulunan havuzu — görülen haber unutulmaz
 
 **Hacim sorununun asıl sebebi buydu.** Günlük tarama kabul ettiği satırı

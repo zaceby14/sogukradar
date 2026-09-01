@@ -491,8 +491,13 @@ def collect(today=None, log=print):
         if not (taxonomy.match_stage(it["title"]) == "Teknoloji"
                 or taxonomy.TECH_ADAY.search(taxonomy.fold(it["title"]))):
             return
-        ok_scope, _ = taxonomy.in_scope(it["title"], (text or "")[:700])
-        if not ok_scope:
+        # KOSENIN KENDI KAPSAM KAPISI (2026-08-31). in_scope hat ISMI ariyor
+        # ("annealing line"); kosenin konusu hattin kendisi degil PROSES
+        # TEKNOLOJISIDIR ve gercek basliklar bu yuzden dusuyordu ("SMS group
+        # I-Furnace intelligent annealing process model"). tech_kapsam ayni
+        # yukari akis / baska malzeme / gurultu vetolarini uygular, yalnizca
+        # hat ismini sart kosmaz. HABER KAPISI DEGISMEZ.
+        if not taxonomy.tech_kapsam(it["title"], (text or "")[:700]):
             return
         blob = it["title"] + " . " + (text or "")[:700]
         ham = state.norm_key(it["title"], it["url"])

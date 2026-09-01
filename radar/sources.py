@@ -589,6 +589,61 @@ SOURCES = [
     dict(id="gs_orbis2", publisher="Google News", kind="arama", country="XX",
          url="https://news.google.com/rss/search?q=site%3Asteelorbis.com%20%28%22cold%20rolling%22%20OR%20galvanizing%20OR%20annealing%20OR%20pickling%20OR%20tinplate%20OR%20%22electrical%20steel%22%29%20when%3A30d&hl=en-US&gl=US&ceid=US:en",
          rss="https://news.google.com/rss/search?q=site%3Asteelorbis.com%20%28%22cold%20rolling%22%20OR%20galvanizing%20OR%20annealing%20OR%20pickling%20OR%20tinplate%20OR%20%22electrical%20steel%22%29%20when%3A30d&hl=en-US&gl=US&ceid=US:en", verified=False),
+
+    # TURK YASSI CELIK URETICILERI - OKUYUCUNUN KENDI SEKTORU (2026-08-31).
+    #
+    # Bulten bir Turk soguk haddehane muduru icin yaziliyor ama 2026-W36'da
+    # Turkiye ile ilgili TEK satir yoktu. Kaynak listesinde Erdemir ve
+    # Tosyali var; Borcelik, MMK Metalurji, Colakoglu, Yildiz Demir Celik,
+    # Tezcan Galvaniz, Habas YOK - KNOWN_GAPS'te "haber sayfalari
+    # JavaScript ile yukleniyor" diye not dusulmus.
+    #
+    # site: hedefi burada ISE YARAMAZ: Google News YAYINCILARI indeksler,
+    # sirketlerin kurumsal sayfalarini degil. Sirketler icin dogru yol
+    # ADLARINI aramaktir - Turk sektor basini onlari zaten yaziyor.
+    # Her sorgu Bing aynasina da otomatik yansir.
+    dict(id="gtr_borcelik", publisher="Google News", kind="arama", country="TR",
+         url="https://news.google.com/rss/search?q=%22Bor%C3%A7elik%22%20%28%22so%C4%9Fuk%20hadde%22%20OR%20galvaniz%20OR%20%22asitleme%22%20OR%20tavlama%20OR%20%22boyama%20hatt%C4%B1%22%20OR%20%22dilme%20hatt%C4%B1%22%20OR%20teneke%20OR%20%22kaplama%20hatt%C4%B1%22%20OR%20%22sac%22%20OR%20yat%C4%B1r%C4%B1m%20OR%20%22devreye%22%20OR%20kapasite%29%20when%3A30d&hl=tr&gl=TR&ceid=TR:tr",
+         rss="https://news.google.com/rss/search?q=%22Bor%C3%A7elik%22%20%28%22so%C4%9Fuk%20hadde%22%20OR%20galvaniz%20OR%20%22asitleme%22%20OR%20tavlama%20OR%20%22boyama%20hatt%C4%B1%22%20OR%20%22dilme%20hatt%C4%B1%22%20OR%20teneke%20OR%20%22kaplama%20hatt%C4%B1%22%20OR%20%22sac%22%20OR%20yat%C4%B1r%C4%B1m%20OR%20%22devreye%22%20OR%20kapasite%29%20when%3A30d&hl=tr&gl=TR&ceid=TR:tr", verified=False),
+    dict(id="gtr_mmkmet", publisher="Google News", kind="arama", country="TR",
+         url="https://news.google.com/rss/search?q=%22MMK%20Metalurji%22%20%28%22so%C4%9Fuk%20hadde%22%20OR%20galvaniz%20OR%20%22asitleme%22%20OR%20tavlama%20OR%20%22boyama%20hatt%C4%B1%22%20OR%20%22dilme%20hatt%C4%B1%22%20OR%20teneke%20OR%20%22kaplama%20hatt%C4%B1%22%20OR%20%22sac%22%20OR%20yat%C4%B1r%C4%B1m%20OR%20%22devreye%22%20OR%20kapasite%29%20when%3A30d&hl=tr&gl=TR&ceid=TR:tr",
+         rss="https://news.google.com/rss/search?q=%22MMK%20Metalurji%22%20%28%22so%C4%9Fuk%20hadde%22%20OR%20galvaniz%20OR%20%22asitleme%22%20OR%20tavlama%20OR%20%22boyama%20hatt%C4%B1%22%20OR%20%22dilme%20hatt%C4%B1%22%20OR%20teneke%20OR%20%22kaplama%20hatt%C4%B1%22%20OR%20%22sac%22%20OR%20yat%C4%B1r%C4%B1m%20OR%20%22devreye%22%20OR%20kapasite%29%20when%3A30d&hl=tr&gl=TR&ceid=TR:tr", verified=False),
+    dict(id="gtr_colakoglu", publisher="Google News", kind="arama", country="TR",
+         url="https://news.google.com/rss/search?q=%22%C3%87olako%C4%9Flu%22%20%28%22so%C4%9Fuk%20hadde%22%20OR%20galvaniz%20OR%20%22asitleme%22%20OR%20tavlama%20OR%20%22boyama%20hatt%C4%B1%22%20OR%20%22dilme%20hatt%C4%B1%22%20OR%20teneke%20OR%20%22kaplama%20hatt%C4%B1%22%20OR%20%22sac%22%20OR%20yat%C4%B1r%C4%B1m%20OR%20%22devreye%22%20OR%20kapasite%29%20when%3A30d&hl=tr&gl=TR&ceid=TR:tr",
+         rss="https://news.google.com/rss/search?q=%22%C3%87olako%C4%9Flu%22%20%28%22so%C4%9Fuk%20hadde%22%20OR%20galvaniz%20OR%20%22asitleme%22%20OR%20tavlama%20OR%20%22boyama%20hatt%C4%B1%22%20OR%20%22dilme%20hatt%C4%B1%22%20OR%20teneke%20OR%20%22kaplama%20hatt%C4%B1%22%20OR%20%22sac%22%20OR%20yat%C4%B1r%C4%B1m%20OR%20%22devreye%22%20OR%20kapasite%29%20when%3A30d&hl=tr&gl=TR&ceid=TR:tr", verified=False),
+    dict(id="gtr_yildizdc", publisher="Google News", kind="arama", country="TR",
+         url="https://news.google.com/rss/search?q=%22Y%C4%B1ld%C4%B1z%20Demir%20%C3%87elik%22%20OR%20%22Yildiz%20Demir%20Celik%22%20%28%22so%C4%9Fuk%20hadde%22%20OR%20galvaniz%20OR%20%22asitleme%22%20OR%20tavlama%20OR%20%22boyama%20hatt%C4%B1%22%20OR%20%22dilme%20hatt%C4%B1%22%20OR%20teneke%20OR%20%22kaplama%20hatt%C4%B1%22%20OR%20%22sac%22%20OR%20yat%C4%B1r%C4%B1m%20OR%20%22devreye%22%20OR%20kapasite%29%20when%3A30d&hl=tr&gl=TR&ceid=TR:tr",
+         rss="https://news.google.com/rss/search?q=%22Y%C4%B1ld%C4%B1z%20Demir%20%C3%87elik%22%20OR%20%22Yildiz%20Demir%20Celik%22%20%28%22so%C4%9Fuk%20hadde%22%20OR%20galvaniz%20OR%20%22asitleme%22%20OR%20tavlama%20OR%20%22boyama%20hatt%C4%B1%22%20OR%20%22dilme%20hatt%C4%B1%22%20OR%20teneke%20OR%20%22kaplama%20hatt%C4%B1%22%20OR%20%22sac%22%20OR%20yat%C4%B1r%C4%B1m%20OR%20%22devreye%22%20OR%20kapasite%29%20when%3A30d&hl=tr&gl=TR&ceid=TR:tr", verified=False),
+    dict(id="gtr_tezcan", publisher="Google News", kind="arama", country="TR",
+         url="https://news.google.com/rss/search?q=%22Tezcan%20Galvaniz%22%20OR%20%22Tezcan%20Yap%C4%B1%22%20%28%22so%C4%9Fuk%20hadde%22%20OR%20galvaniz%20OR%20%22asitleme%22%20OR%20tavlama%20OR%20%22boyama%20hatt%C4%B1%22%20OR%20%22dilme%20hatt%C4%B1%22%20OR%20teneke%20OR%20%22kaplama%20hatt%C4%B1%22%20OR%20%22sac%22%20OR%20yat%C4%B1r%C4%B1m%20OR%20%22devreye%22%20OR%20kapasite%29%20when%3A30d&hl=tr&gl=TR&ceid=TR:tr",
+         rss="https://news.google.com/rss/search?q=%22Tezcan%20Galvaniz%22%20OR%20%22Tezcan%20Yap%C4%B1%22%20%28%22so%C4%9Fuk%20hadde%22%20OR%20galvaniz%20OR%20%22asitleme%22%20OR%20tavlama%20OR%20%22boyama%20hatt%C4%B1%22%20OR%20%22dilme%20hatt%C4%B1%22%20OR%20teneke%20OR%20%22kaplama%20hatt%C4%B1%22%20OR%20%22sac%22%20OR%20yat%C4%B1r%C4%B1m%20OR%20%22devreye%22%20OR%20kapasite%29%20when%3A30d&hl=tr&gl=TR&ceid=TR:tr", verified=False),
+    dict(id="gtr_habas", publisher="Google News", kind="arama", country="TR",
+         url="https://news.google.com/rss/search?q=%22Haba%C5%9F%22%20OR%20%22Habas%22%20%C3%A7elik%20%28%22so%C4%9Fuk%20hadde%22%20OR%20galvaniz%20OR%20%22asitleme%22%20OR%20tavlama%20OR%20%22boyama%20hatt%C4%B1%22%20OR%20%22dilme%20hatt%C4%B1%22%20OR%20teneke%20OR%20%22kaplama%20hatt%C4%B1%22%20OR%20%22sac%22%20OR%20yat%C4%B1r%C4%B1m%20OR%20%22devreye%22%20OR%20kapasite%29%20when%3A30d&hl=tr&gl=TR&ceid=TR:tr",
+         rss="https://news.google.com/rss/search?q=%22Haba%C5%9F%22%20OR%20%22Habas%22%20%C3%A7elik%20%28%22so%C4%9Fuk%20hadde%22%20OR%20galvaniz%20OR%20%22asitleme%22%20OR%20tavlama%20OR%20%22boyama%20hatt%C4%B1%22%20OR%20%22dilme%20hatt%C4%B1%22%20OR%20teneke%20OR%20%22kaplama%20hatt%C4%B1%22%20OR%20%22sac%22%20OR%20yat%C4%B1r%C4%B1m%20OR%20%22devreye%22%20OR%20kapasite%29%20when%3A30d&hl=tr&gl=TR&ceid=TR:tr", verified=False),
+    dict(id="gtr_atakas", publisher="Google News", kind="arama", country="TR",
+         url="https://news.google.com/rss/search?q=%22Ataka%C5%9F%20%C3%87elik%22%20OR%20%22Atakas%20Celik%22%20%28%22so%C4%9Fuk%20hadde%22%20OR%20galvaniz%20OR%20%22asitleme%22%20OR%20tavlama%20OR%20%22boyama%20hatt%C4%B1%22%20OR%20%22dilme%20hatt%C4%B1%22%20OR%20teneke%20OR%20%22kaplama%20hatt%C4%B1%22%20OR%20%22sac%22%20OR%20yat%C4%B1r%C4%B1m%20OR%20%22devreye%22%20OR%20kapasite%29%20when%3A30d&hl=tr&gl=TR&ceid=TR:tr",
+         rss="https://news.google.com/rss/search?q=%22Ataka%C5%9F%20%C3%87elik%22%20OR%20%22Atakas%20Celik%22%20%28%22so%C4%9Fuk%20hadde%22%20OR%20galvaniz%20OR%20%22asitleme%22%20OR%20tavlama%20OR%20%22boyama%20hatt%C4%B1%22%20OR%20%22dilme%20hatt%C4%B1%22%20OR%20teneke%20OR%20%22kaplama%20hatt%C4%B1%22%20OR%20%22sac%22%20OR%20yat%C4%B1r%C4%B1m%20OR%20%22devreye%22%20OR%20kapasite%29%20when%3A30d&hl=tr&gl=TR&ceid=TR:tr", verified=False),
+    dict(id="gtr_borusan", publisher="Google News", kind="arama", country="TR",
+         url="https://news.google.com/rss/search?q=%22Borusan%22%20%28yass%C4%B1%20OR%20galvaniz%20OR%20%22so%C4%9Fuk%20hadde%22%29%20%28%22so%C4%9Fuk%20hadde%22%20OR%20galvaniz%20OR%20%22asitleme%22%20OR%20tavlama%20OR%20%22boyama%20hatt%C4%B1%22%20OR%20%22dilme%20hatt%C4%B1%22%20OR%20teneke%20OR%20%22kaplama%20hatt%C4%B1%22%20OR%20%22sac%22%20OR%20yat%C4%B1r%C4%B1m%20OR%20%22devreye%22%20OR%20kapasite%29%20when%3A30d&hl=tr&gl=TR&ceid=TR:tr",
+         rss="https://news.google.com/rss/search?q=%22Borusan%22%20%28yass%C4%B1%20OR%20galvaniz%20OR%20%22so%C4%9Fuk%20hadde%22%29%20%28%22so%C4%9Fuk%20hadde%22%20OR%20galvaniz%20OR%20%22asitleme%22%20OR%20tavlama%20OR%20%22boyama%20hatt%C4%B1%22%20OR%20%22dilme%20hatt%C4%B1%22%20OR%20teneke%20OR%20%22kaplama%20hatt%C4%B1%22%20OR%20%22sac%22%20OR%20yat%C4%B1r%C4%B1m%20OR%20%22devreye%22%20OR%20kapasite%29%20when%3A30d&hl=tr&gl=TR&ceid=TR:tr", verified=False),
+
+    # TEKNOLOJI KOSESI ICIN OEM TEKNIK ICERIGI (2026-08-31).
+    #
+    # Kose iki haftadir BOS. Sebep kapi degil ARZ: aday havuzundaki maddeler
+    # ya 6 aylik pencerenin disinda ya da arsivde zaten tanitilmis. OEM'ler
+    # (Primetals, Danieli, John Cockerill) surekli teknik icerik yayinliyor
+    # - proses modelleri, dijitallesme, kaplama teknigi - ve bunlar kosenin
+    # tam konusu. Kendi sayfalari liste/urun sayfasi oldugu icin haber
+    # akisina girmiyorlardi; arama katmani teknik yazilari da indeksliyor.
+    dict(id="gtek_prime", publisher="Google News", kind="arama", country="XX",
+         url="https://news.google.com/rss/search?q=site%3Aprimetals.com%20%28technology%20OR%20%22metals%20magazine%22%20OR%20digitalization%20OR%20%22process%20model%22%20OR%20automation%29%20%28strip%20OR%20%22cold%20rolling%22%20OR%20galvanizing%20OR%20annealing%29%20when%3A30d&hl=en-US&gl=US&ceid=US:en",
+         rss="https://news.google.com/rss/search?q=site%3Aprimetals.com%20%28technology%20OR%20%22metals%20magazine%22%20OR%20digitalization%20OR%20%22process%20model%22%20OR%20automation%29%20%28strip%20OR%20%22cold%20rolling%22%20OR%20galvanizing%20OR%20annealing%29%20when%3A30d&hl=en-US&gl=US&ceid=US:en", verified=False),
+    dict(id="gtek_jc", publisher="Google News", kind="arama", country="XX",
+         url="https://news.google.com/rss/search?q=site%3Ajohncockerill.com%20%28galvanizing%20OR%20annealing%20OR%20%22cold%20rolling%22%20OR%20coating%20OR%20technology%29%20when%3A30d&hl=en-US&gl=US&ceid=US:en",
+         rss="https://news.google.com/rss/search?q=site%3Ajohncockerill.com%20%28galvanizing%20OR%20annealing%20OR%20%22cold%20rolling%22%20OR%20coating%20OR%20technology%29%20when%3A30d&hl=en-US&gl=US&ceid=US:en", verified=False),
+    dict(id="gtek_danieli", publisher="Google News", kind="arama", country="XX",
+         url="https://news.google.com/rss/search?q=site%3Adanieli.com%20%28automation%20OR%20digital%20OR%20%22process%20control%22%20OR%20technology%29%20%28cold%20OR%20galvanizing%20OR%20annealing%20OR%20strip%29%20when%3A30d&hl=en-US&gl=US&ceid=US:en",
+         rss="https://news.google.com/rss/search?q=site%3Adanieli.com%20%28automation%20OR%20digital%20OR%20%22process%20control%22%20OR%20technology%29%20%28cold%20OR%20galvanizing%20OR%20annealing%20OR%20strip%29%20when%3A30d&hl=en-US&gl=US&ceid=US:en", verified=False),
 ]
 
 KNOWN_GAPS = [

@@ -793,7 +793,91 @@ TECH_ADAY = re.compile(
     r"develop(s|ed|ing)\b.{0,40}(technolog|process|grade|line|steel|coating)|"
     r"(unveil|launch|introduc|present|showcase|debut)\w*\s+.{0,30}?"
     r"(technolog|process|solution|system|method|\bgrade|innovation)|"
-    r"yeni teknoloji|yeni nesil|gelistir|lisans|ar[- ]ge|patent")
+    r"yeni teknoloji|yeni nesil|gelistir|lisans|ar[- ]ge|patent|"
+    # MODERN TEKNOLOJI SOZLUGU (2026-08-31). Kose iki haftadir bostu ve
+    # olcumde gorundu ki kalip su gercek basliklari hic tutmuyordu:
+    #   "Danieli introduces digital twin for cold rolling mill automation"
+    #   "AI-based surface inspection for galvanized strip"
+    #   "SMS group I-Furnace intelligent annealing process model"
+    r"digital twin|dijital ikiz|\bai[- ]based|\bai\b[- ]?(destekli|powered|driven)|"
+    r"machine learning|makine ogrenmesi|machine vision|yapay gor|"
+    r"digitali[sz]ation|dijitallesme|process model|proses model|"
+    r"predictive (maintenance|model|control)|kestirimci|"
+    r"\bsensor\b|olcum sistemi|inspection system|muayene sistemi|"
+    r"automation (upgrade|package|system)|otomasyon (yenile|paket|sistem)")
+
+
+# TEKNOLOJI KOSESININ KENDI KAPSAM KAPISI (2026-08-31).
+#
+# Kose iki haftadir bos. Sebeplerden biri arz, digeri KAPI: in_scope hat
+# ISMI ariyor ("annealing line", "galvanizing line"), oysa kosenin konusu
+# hattin kendisi degil PROSES TEKNOLOJISIDIR. Olculdu - su gercek kaliplar
+# kapida dusuyordu:
+#   "John Cockerill unveils jet vapor deposition coating technology for
+#    steel strip"
+#   "SMS group I-Furnace intelligent annealing process model"
+#
+# HABER KAPISI DEGISMEZ. Bu kapi YALNIZ koseye uygulanir; kosedeki madde
+# editor tarafindan elle okunup tanitildigi icin biraz daha genis olabilir -
+# ayni gerekce TECH_ADAY'in satir asamasindan ayrilmasinda da kullanildi.
+# Kapsam yine YASSI CELIK VE SICAK HADDE SONRASIDIR: yukari akis ve baska
+# malzeme vetolari aynen isler.
+TECH_KAPSAM = re.compile(
+    r"(cold roll|cold mill|cold strip|cold[- ]rolled|soguk hadde|"
+    r"pickl|asitleme|anneal|tavlama|galvani|kaplama|coating|coated|"
+    r"tinplate|tin mill|teneke|colou?r coat|pre[- ]?paint|boyama|"
+    r"skin[- ]?pass|temper mill|slitting|dilme|cut[- ]to[- ]length|boy kesme|"
+    r"roll grind|roll shop|merdane|electrical steel|silicon steel|"
+    r"elektrik celigi|grain[- ]oriented|strip surface|serit yuzey|"
+    # OLCUM VE YUZEY MUAYENE kapsam listesinde acikca var; kose kapisi
+    # bunlari da tanimali (IMS "thickness profile measuring system with
+    # integrated surcon 2D surface inspection" vakasi).
+    r"thickness (gauge|profile|measur)|flatness|planarite|kalinlik olcum|"
+    r"duzluk olcum|profile measuring|width (gauge|measur)|serit genislik|"
+    r"surface inspect|yuzey muayene|coating weight|kaplama agirlig|"
+    r"\bcgl\b|\bcal\b|\bbaf\b|\bccl\b|\betl\b|\bctl\b|\bpltcm\b|"
+    r"(steel|celik) (strip|serit|coil|bobin|sheet|sac))")
+
+
+# Asagi akis HATTI/PROSESI - yukari akis vetosunu yalnizca bunlar kaldirir.
+# Olcum ve muayene terimleri bilerek DISARIDA: onlar her iki tarafta da var.
+ASAGI_AKIS = re.compile(
+    r"(cold roll|cold mill|cold strip|cold[- ]rolled|soguk hadde|"
+    r"pickling|pickle line|asitleme|continuous anneal|annealing (line|furnace)|"
+    r"tavlama hatt|galvani[sz]ing line|galvaniz hatt|hot[- ]dip galvani|"
+    r"coil coating|colou?r coat|pre[- ]?paint|boyama hatt|tinplate|tin mill|"
+    r"teneke|temper mill|skin[- ]?pass|slitting line|dilme hatt|"
+    r"cut[- ]to[- ]length|boy kesme|roll grind|roll shop|"
+    r"electrical steel|silicon steel|elektrik celigi|"
+    r"\bcgl\b|\bcal\b|\bbaf\b|\bccl\b|\betl\b|\bctl\b|\bpltcm\b)")
+
+
+def tech_kapsam(title, lead=""):
+    """Kose adayi kapsam ici mi? in_scope'tan tek farki: hat ISMI sart degil.
+
+    Yukari akis, baska malzeme ve gurultu vetolari AYNEN isler - genisleyen
+    tek sey hat isminin zorunlu olmamasi.
+    """
+    if is_junk_title(title):
+        return False
+    ft = fold(title)
+    blob = ft + " " + fold(lead)
+    if NOISE_REJECT.search(ft) or POTA_GALVANIZ.search(blob):
+        return False
+    if MATERIAL_BLOCK.search(ft) and not re.search(r"(steel|celik)", ft):
+        return False
+    # YUKARI AKIS VETOSUNU YALNIZ ASAGI AKIS HATTI KALDIRIR (2026-08-31).
+    #
+    # in_scope'ta vetoyu herhangi bir "guclu terim" kaldirir; kose kapisinda
+    # bu yetmiyor cunku olcum/muayene terimleri her iki tarafta da geciyor.
+    # Olculdu: "Experience Report: How SDI Butler enhances quality control in
+    # HOT ROLLING MILL through the implementation of surcon's 2D SURFACE
+    # INSPECTION system" - "surface inspection" vetoyu kaldirdi ve sicak
+    # haddehane haberi koseye girdi. Muayene sistemi her yerde var; haberi
+    # kapsam ici yapan sey HANGI HATTA oldugudur.
+    if UPSTREAM_RE.search(ft) and not ASAGI_AKIS.search(ft):
+        return False
+    return bool(TECH_KAPSAM.search(blob))
 
 
 # CJK karakter araligi (Cince/Japonca). Bu dillerde kelime sinirı yoktur.
