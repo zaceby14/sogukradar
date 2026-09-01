@@ -28,29 +28,30 @@
    "puan": 62.6
   },
   {
-   "tarih": "2026-08-20",
-   "firma": "KEZAD",
-   "ulke": "BAE",
-   "hat": "Galvaniz hatti (CGL)",
-   "asama": "Ilk urun",
-   "tedarikci": "",
+   "tarih": "2026-09-01",
+   "firma": "British Steel",
+   "ulke": "",
+   "hat": "Belirsiz",
+   "asama": "Sozlesme",
+   "tedarikci": "Primetals",
    "kapasite": "",
    "tutar": "",
-   "baslik": "KEZAD galvanising facility moves closer to commissioning",
+   "baslik": "Primetals to supply furnace roof to British Steel",
    "kaynak": "Bing News",
-   "kaynak_id": "bgq_hat05",
-   "url": "https://www.msn.com/en-ae/news/other/kezad-galvanising-facility-moves-closer-to-commissioning/ar-AA2ayC80",
+   "kaynak_id": "bgq_sup01",
+   "url": "https://www.steeltimesint.com/news/primetals-to-supply-furnace-roof-to-british-steel",
    "tarih_kaynagi": "rss",
-   "eksik": [],
-   "anahtar": "4d59fdf2ae6ec46f",
+   "eksik": [
+    "ulke",
+    "hat"
+   ],
+   "anahtar": "95224a8982f6849a",
    "kategori": "Hat",
    "olaylar": [
-    "*|ulke-hat|BAE|Galvaniz hatti (CGL)|Ilk urun",
-    "kezad|fu|BAE|Galvaniz hatti (CGL)",
-    "kezad|hat|Galvaniz hatti (CGL)|Ilk urun",
-    "kezad|ulke|BAE|Ilk urun"
+    "british steel|hat|Belirsiz|Sozlesme",
+    "primetals|hat|Belirsiz|Sozlesme"
    ],
-   "puan": 52.2
+   "puan": 52.0
   },
   {
    "tarih": "2026-08-24",
@@ -157,14 +158,14 @@
  ],
  "stats": {
   "kaynak": 291,
-  "erisilemeyen": 8,
-  "ham": 3602,
-  "on_eleme_gecti": 343,
+  "erisilemeyen": 9,
+  "ham": 3595,
+  "on_eleme_gecti": 350,
   "makale_acildi": 211,
   "tarihsiz_elendi": 87,
-  "pencere_disi": 273,
-  "kapsam_disi": 3201,
-  "tekrar": 38,
+  "pencere_disi": 257,
+  "kapsam_disi": 3198,
+  "tekrar": 50,
   "kabul": 3,
   "gnews_tarih": 0
  },
@@ -172,6 +173,10 @@
   [
    "SMS group",
    "HTTP 403"
+  ],
+  [
+   "Butech Bliss",
+   "HTTP 500"
   ],
   [
    "Cognex",
@@ -524,7 +529,7 @@
   "Bing News": 1
  },
  "window": [
-  "2026-08-17",
+  "2026-08-11",
   "2026-09-01"
  ],
  "bulunan_kullanilan": 1,
@@ -532,6 +537,6 @@
  "rezerv_kullanilan": 2,
  "rezerv_havuz": 11,
  "period": "2026-W36",
- "generated": "2026-09-01 04:57 UTC",
+ "generated": "2026-09-01 07:42 UTC",
  "version": "3.0.0"
 }

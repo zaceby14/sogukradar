@@ -1,6 +1,32 @@
 {
  "bulunan": [
   {
+   "anahtar": "95224a8982f6849a",
+   "asama": "Sozlesme",
+   "baslik": "Primetals to supply furnace roof to British Steel",
+   "eksik": [
+    "ulke",
+    "hat"
+   ],
+   "firma": "British Steel",
+   "hat": "Belirsiz",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_sup01",
+   "olaylar": [
+    "british steel|hat|Belirsiz|Sozlesme",
+    "primetals|hat|Belirsiz|Sozlesme"
+   ],
+   "puan": 52.0,
+   "tarih": "2026-09-01",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "Primetals",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://www.steeltimesint.com/news/primetals-to-supply-furnace-roof-to-british-steel"
+  },
+  {
    "anahtar": "6e45c036c75edf5b",
    "asama": "Sozlesme",
    "baslik": "John Cockerill Signs Contract with A1 Iron & Steel for Integrated Cold Rolling Complex in Tanzania",
@@ -899,6 +925,24 @@
     "tekrar": 38
    },
    "uretim": "2026-09-01 04:57 UTC"
+  },
+  {
+   "donem": "2026-W36",
+   "satir": 6,
+   "stats": {
+    "erisilemeyen": 9,
+    "gnews_tarih": 0,
+    "ham": 3595,
+    "kabul": 3,
+    "kapsam_disi": 3198,
+    "kaynak": 291,
+    "makale_acildi": 211,
+    "on_eleme_gecti": 350,
+    "pencere_disi": 257,
+    "tarihsiz_elendi": 87,
+    "tekrar": 50
+   },
+   "uretim": "2026-09-01 07:42 UTC"
   }
  ],
  "rezerv": [
@@ -1077,6 +1121,162 @@
    "tutar": "",
    "ulke": "Turkiye",
    "url": "https://news.mesteel.com/marcegaglia-upgrades-pickling-line-at-gazoldo-degli-ippoliti-stainless-steel-plant/"
+  },
+  {
+   "anahtar": "89a81bc39203a100",
+   "asama": "Ilk urun",
+   "baslik": "India’s JIL commissions continuous color coating line completing $155 million capex program",
+   "eksik": [],
+   "firma": "India’s JIL",
+   "hat": "Boyama hatti (CCL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "SteelOrbis",
+   "kaynak_id": "",
+   "olaylar": [
+    "*|ulke-hat|Hindistan|Boyama hatti (CCL)|Ilk urun",
+    "india’s jil|fu|Hindistan|Boyama hatti (CCL)",
+    "india’s jil|hat|Boyama hatti (CCL)|Ilk urun",
+    "india’s jil|ulke|Hindistan|Ilk urun"
+   ],
+   "rezerv": true,
+   "tarih": "2026-05-20",
+   "tarih_kaynagi": "json-ld",
+   "tedarikci": "",
+   "tutar": "$155 million",
+   "ulke": "Hindistan",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/indias-jil-commissions-continuous-color-coating-line-completing-155-million-capex-program-1454553.htm"
+  },
+  {
+   "anahtar": "971c858c2cf021dc",
+   "asama": "Ilk urun",
+   "baslik": "New MINO Double-Stand Six-High Cold Reversing Mill in North America",
+   "eksik": [
+    "hat"
+   ],
+   "firma": "New MINO Double-Stand",
+   "hat": "Belirsiz",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Mino SpA",
+   "kaynak_id": "mino",
+   "olaylar": [
+    "mino|fu|ABD|Belirsiz",
+    "mino|hat|Belirsiz|Ilk urun",
+    "mino|ulke|ABD|Ilk urun"
+   ],
+   "rezerv": true,
+   "tarih": "2026-03-13",
+   "tarih_kaynagi": "json-ld",
+   "tedarikci": "Mino",
+   "tutar": "",
+   "ulke": "ABD",
+   "url": "https://mino.it/new-mino-double-stand-six-high-cold-reversing-mill-in-north-america/"
+  },
+  {
+   "anahtar": "46ec3b1d88adc8d6",
+   "asama": "Belirsiz",
+   "baslik": "Partnering with Shandong Zhongxin to Deliver High-End Galvanizing and Continuous Annealing Lines for Automotive Steel Upgrading",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "firma": "Partnering with Shandong Zhongxin",
+   "hat": "Surekli tavlama (CAL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "John Cockerill",
+   "kaynak_id": "elle",
+   "olaylar": [
+    "john cockerill|hat|Surekli tavlama (CAL)|Belirsiz",
+    "partnering with shandong zhongxin|hat|Surekli tavlama (CAL)|Belirsiz"
+   ],
+   "rezerv": true,
+   "tarih": "2026-02-26",
+   "tarih_kaynagi": "json-ld",
+   "tedarikci": "John Cockerill",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://johncockerill.com/en/press-and-news/news/cgl-cal-shandong-zhongxin/"
+  },
+  {
+   "anahtar": "4b43a2343a38c4e0",
+   "asama": "Ilk urun",
+   "baslik": "RRM starts up new cold-mill complex with Danieli technology",
+   "eksik": [],
+   "firma": "RRM",
+   "hat": "Soguk hadde",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Mesteel",
+   "kaynak_id": "elle",
+   "olaylar": [
+    "*|ulke-hat|Turkiye|Soguk hadde|Ilk urun",
+    "danieli|fu|Turkiye|Soguk hadde",
+    "danieli|hat|Soguk hadde|Ilk urun",
+    "danieli|ulke|Turkiye|Ilk urun",
+    "rrm|fu|Turkiye|Soguk hadde",
+    "rrm|hat|Soguk hadde|Ilk urun",
+    "rrm|ulke|Turkiye|Ilk urun"
+   ],
+   "rezerv": true,
+   "tarih": "2026-02-12",
+   "tarih_kaynagi": "meta:datepublished",
+   "tedarikci": "Danieli",
+   "tutar": "",
+   "ulke": "Turkiye",
+   "url": "https://news.mesteel.com/rrm-starts-up-new-cold-mill-complex-with-danieli-technology/"
+  },
+  {
+   "anahtar": "871c1e92bc856210",
+   "asama": "Insaat",
+   "baslik": "ArcelorMittal Poland completes construction of ZAM roll coating line » Metallurgprom",
+   "eksik": [],
+   "firma": "ArcelorMittal Poland",
+   "hat": "Roll shop / merdane",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Metallurgprom",
+   "kaynak_id": "",
+   "olaylar": [
+    "arcelormittal poland|fu|Polonya|Roll shop / merdane",
+    "arcelormittal poland|hat|Roll shop / merdane|Insaat",
+    "arcelormittal poland|ulke|Polonya|Insaat"
+   ],
+   "rezerv": true,
+   "tarih": "2025-12-11",
+   "tarih_kaynagi": "json-ld",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Polonya",
+   "url": "https://metallurgprom.org/en/news/europe/18814-arcelormittal-poland-zavershaet-stroitelstvo-linii-nanesenija-pokrytija-na-rulony-zam.html"
+  },
+  {
+   "anahtar": "8f594cb2da2f00c0",
+   "asama": "Sozlesme",
+   "baslik": "Primetals Technologies awarded contract for hot-dip galvanizing line at JFE Steel",
+   "eksik": [],
+   "firma": "JFE Steel",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Primetals Technologies",
+   "kaynak_id": "elle",
+   "olaylar": [
+    "jfe steel|fu|Japonya|Galvaniz hatti (CGL)",
+    "jfe steel|hat|Galvaniz hatti (CGL)|Sozlesme",
+    "jfe steel|ulke|Japonya|Sozlesme",
+    "primetals|fu|Japonya|Galvaniz hatti (CGL)",
+    "primetals|hat|Galvaniz hatti (CGL)|Sozlesme",
+    "primetals|ulke|Japonya|Sozlesme"
+   ],
+   "rezerv": true,
+   "tarih": "2025-11-25",
+   "tarih_kaynagi": "metin",
+   "tedarikci": "Primetals",
+   "tutar": "",
+   "ulke": "Japonya",
+   "url": "https://www.primetals.com/en/news/primetals-technologies-awarded-contract-for-hot-dip-galvanizing-line-at-jfe-steel/"
   }
  ],
  "seen": {
