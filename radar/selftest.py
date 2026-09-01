@@ -1585,6 +1585,21 @@ def test_w36_pota_galvaniz_hat_degildir():
         "Galva Hub to commission Emirates largest galvanizing kettle")[0],
        False, "basliktaki pota da vetolanmali")
 
+    # KANIT METNE BAGLI OLDUGU SURECE KURAL KIRILGAN (2026-08-31, olculdu).
+    # KEZAD satiri bir kosuda "kettle / double-dipping / structures"
+    # kelimeleriyle elendi; ERTESI KOSUDA ayni haber baska bir yayinin
+    # metniyle geldi, kalip tutmadi ve satir geri dondu.
+    #
+    # Saglam ayrim: SUREKLI galvaniz hatti haberi mutlaka serit/bobin/sac ya
+    # da "hat" der - CGL, "galvanizing line", "first coil", "strip". Genel
+    # galvaniz tesisi tesisin kendisinden bahseder ve serit demez, cunku
+    # parca daldirir.
+    ok, why = taxonomy.in_scope(
+        "KEZAD galvanising facility moves closer to commissioning",
+        "The facility in Abu Dhabi will serve fabricators in the industrial hub.")
+    eq(ok, False, "hat isareti tasimayan galvaniz haberi girmemeli")
+    eq(why, "galvaniz_hat_isareti_yok", "sebep dogru olmali")
+
     # SUREKLI SERIT HATLARI KORUNMALI - kalip dar tutuldu
     for t, g in (
         ("JSW Steel, India, orders ANDRITZ galvanizing line for advanced "
@@ -1599,6 +1614,12 @@ def test_w36_pota_galvaniz_hat_degildir():
          "The continuous galvanizing line upgrade includes a new zinc pot "
          "and air knife system."),
         ("Angang Guangzhou produces first coil at new galvanizing line", ""),
+        ("Partnering with Shandong Zhongxin to Deliver High-End Galvanizing "
+         "and Continuous Annealing Lines for Automotive Steel Upgrading", ""),
+        ("Roofings Unveils $125m Steel Mill, Doubles Cold-Rolled Capacity "
+         "to 300000 Tonnes",
+         "The plant houses cold rolling, galvanizing and colour coating lines."),
+        ("ArcelorMittal Poland completes construction of ZAM roll coating line", ""),
     ):
         eq(taxonomy.in_scope(t, g)[0], True,
            "surekli galvaniz hatti kapsam icinde kalmali: " + t[:44])

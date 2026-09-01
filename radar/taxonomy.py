@@ -1001,6 +1001,22 @@ def in_scope(title, lead=""):
     # YAPAMAZ ama kapsam disi oldugunu KANITLAYABILIR.
     if POTA_GALVANIZ.search(blob):
         return False, "pota_galvaniz"
+    # GALVANIZ HABERI BIR HAT/SERIT ISARETI TASIMALI (2026-08-31).
+    #
+    # Pota kalibi govdeye baglidir ve govde her zaman ayni gelmiyor: KEZAD
+    # satiri bir kosuda "kettle / double-dipping / structures" kelimeleriyle
+    # elendi, ertesi kosuda AYNI haber baska bir yayinin metniyle geldi ve
+    # kalip tutmadi. Kanit metne bagli oldugu surece kural kirilgan.
+    #
+    # Saglam ayrim su: SUREKLI galvaniz hatti haberi mutlaka serit/bobin/sac
+    # ya da "hat" der - CGL, "galvanizing line", "first coil", "strip". Genel
+    # galvaniz tesisi ise tesisin kendisinden bahseder ("galvanising
+    # facility/plant") ve serit demez, cunku parca daldirir.
+    if (re.search(r"galvani[sz]", blob)
+            and not re.search(r"(line|hatt|strip|serit|coil|bobin|sheet|sac\b|"
+                              r"\bcgl\b|\bcgal\b|mill|hadde|anneal|tavlama|"
+                              r"pickl|asitleme|tandem|skin[- ]?pass|temper)", blob)):
+        return False, "galvaniz_hat_isareti_yok"
     # HARD_REJECT = NOISE + UPSTREAM. NOISE yukarida ayri bakildi; UPSTREAM
     # asagida KOSULLU bakilir (guclu soguk terim vetoyu kaldirir), bu yuzden
     # burada HARD_REJECT'i toptan uygulamak yanlis olur - "cold rolling mill
