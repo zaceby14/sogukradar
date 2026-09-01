@@ -28,30 +28,29 @@
    "puan": 62.6
   },
   {
-   "tarih": "2026-09-01",
-   "firma": "British Steel",
+   "tarih": "2026-08-18",
+   "firma": "Ex-SpaceX engineers",
    "ulke": "",
    "hat": "Belirsiz",
    "asama": "Sozlesme",
-   "tedarikci": "Primetals",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "Primetals to supply furnace roof to British Steel",
+   "tedarikci": "",
+   "kapasite": "1872, a",
+   "tutar": "$15 million",
+   "baslik": "Ex-SpaceX engineers open robotic steel factory in Cincinnati on $15 million seed",
    "kaynak": "Bing News",
-   "kaynak_id": "bgq_sup01",
-   "url": "https://www.steeltimesint.com/news/primetals-to-supply-furnace-roof-to-british-steel",
+   "kaynak_id": "bgq_hat17",
+   "url": "https://www.cryptopolitan.com/spacex-engineers-cincinnati-steel-factory/",
    "tarih_kaynagi": "rss",
    "eksik": [
     "ulke",
     "hat"
    ],
-   "anahtar": "95224a8982f6849a",
+   "anahtar": "e7077d87ef63e021",
    "kategori": "Hat",
    "olaylar": [
-    "british steel|hat|Belirsiz|Sozlesme",
-    "primetals|hat|Belirsiz|Sozlesme"
+    "ex spacex engineers|hat|Belirsiz|Sozlesme"
    ],
-   "puan": 52.0
+   "puan": 48.4
   },
   {
    "tarih": "2026-08-24",
@@ -129,43 +128,18 @@
    "tutar": "",
    "ulke": "Turkiye",
    "url": "https://news.mesteel.com/marcegaglia-upgrades-pickling-line-at-gazoldo-degli-ippoliti-stainless-steel-plant/"
-  },
-  {
-   "anahtar": "89a81bc39203a100",
-   "asama": "Ilk urun",
-   "baslik": "India’s JIL commissions continuous color coating line completing $155 million capex program",
-   "eksik": [],
-   "firma": "India’s JIL",
-   "hat": "Boyama hatti (CCL)",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "SteelOrbis",
-   "kaynak_id": "",
-   "olaylar": [
-    "*|ulke-hat|Hindistan|Boyama hatti (CCL)|Ilk urun",
-    "india’s jil|fu|Hindistan|Boyama hatti (CCL)",
-    "india’s jil|hat|Boyama hatti (CCL)|Ilk urun",
-    "india’s jil|ulke|Hindistan|Ilk urun"
-   ],
-   "rezerv": true,
-   "tarih": "2026-05-20",
-   "tarih_kaynagi": "json-ld",
-   "tedarikci": "",
-   "tutar": "$155 million",
-   "ulke": "Hindistan",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/indias-jil-commissions-continuous-color-coating-line-completing-155-million-capex-program-1454553.htm"
   }
  ],
  "stats": {
   "kaynak": 291,
   "erisilemeyen": 9,
-  "ham": 3595,
-  "on_eleme_gecti": 350,
+  "ham": 3526,
+  "on_eleme_gecti": 343,
   "makale_acildi": 211,
   "tarihsiz_elendi": 87,
-  "pencere_disi": 257,
-  "kapsam_disi": 3198,
-  "tekrar": 50,
+  "pencere_disi": 256,
+  "kapsam_disi": 3132,
+  "tekrar": 48,
   "kabul": 3,
   "gnews_tarih": 0
  },
@@ -534,9 +508,9 @@
  ],
  "bulunan_kullanilan": 1,
  "bulunan_havuz": 3,
- "rezerv_kullanilan": 2,
- "rezerv_havuz": 11,
+ "rezerv_kullanilan": 1,
+ "rezerv_havuz": 12,
  "period": "2026-W36",
- "generated": "2026-09-01 07:42 UTC",
+ "generated": "2026-09-01 07:54 UTC",
  "version": "3.0.0"
 }
