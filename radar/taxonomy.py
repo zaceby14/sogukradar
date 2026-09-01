@@ -295,6 +295,16 @@ _NOISE = (
     r"batch galvani|general galvani|galvani[sz]ing plant for (steel )?structur|"
     r"double[- ]dipping|galvani[sz]e (steel )?structur|fabricated steel galvani|"
     r"galvaniz kazan|daldirma galvaniz|sicak daldirma galvaniz tesisi|"
+    # GIRISIM SERMAYESI TURU - HAT HABERI DEGILDIR (2026-09-01).
+    # "Ex-SpaceX engineers open robotic steel factory in Cincinnati on $15
+    # million SEED" satiri Hat katmanina girdi: "robot" zayif kapsam terimi
+    # (HAT otomasyonu icin konmustu) ve "steel" baglami yetti. Oysa haber
+    # bir girisimin tohum yatirimi; yassi isleme hatti yok.
+    r"\bseed (round|funding|investment|capital)\b|\bpre[- ]seed\b|"
+    r"(million|milyon|\bm\b|\bbn\b)\s+seed\b|seed\s+(of|round)\b|"
+    r"series [a-e] (round|funding)\b|\bventure (capital|round|funding)\b|"
+    r"\bstartup\b.{0,30}\b(raise[sd]?|funding|round)|tohum yatirim|"
+    r"melek yatirim|girisim sermayesi|"
     # SIRKET SATIN ALMA / BIRLESME - HER IKI KATMANDA (2026-08-31).
     # Kural bastan beri "sirket satin alma rapora girmez" diyordu ama veto
     # yalniz Katman 2'deydi. Bing ayna katmani acilinca su satir HAT

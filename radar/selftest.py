@@ -1428,6 +1428,44 @@ def test_v20_indiana_hindistan_degil():
             "rolling capacity"), "Hindistan", "crore Hindistan sinyalidir")
 
 
+def test_w36_girisim_turu_hat_haberi_degil():
+    """2026-09-01: tohum/seri yatirim turu bir hat gelismesi degildir.
+
+    Temizlik sonrasi kosuda su satir Hat katmanina girdi:
+      "Ex-SpaceX engineers open robotic steel factory in Cincinnati on
+       $15 million seed"
+    Sebep: "robot" ZAYIF kapsam terimi olarak HAT OTOMASYONU icin
+    konmustu ve "steel" baglami yetti. Oysa haber bir girisimin tohum
+    yatirimi; ortada yassi isleme hatti yok.
+
+    Kalip DAR: gercek hat yatirimlari ("to invest $59 million in cold
+    rolling capacity") korunur - ayirt eden sey PARA degil, paranin
+    NEYE gittigidir.
+    """
+    for t in ("Ex-SpaceX engineers open robotic steel factory in Cincinnati "
+              "on $15 million seed",
+              "Steel tech startup raises $20 million in Series B funding"):
+        eq(taxonomy.in_scope(t)[0], False, "girisim turu Hat degil: " + t[:46])
+        eq(bool(taxonomy.genel_yatirim(t)), False,
+           "girisim turu Katman 2'ye de girmemeli: " + t[:46])
+
+    # GERCEK HAT YATIRIMLARI KORUNMALI
+    for t in ("Nucor to invest $59 million in cold rolling capacity",
+              "Roofings Unveils $125m Steel Mill, Doubles Cold-Rolled "
+              "Capacity to 300000 Tonnes",
+              "John Cockerill Signs Contract with A1 Iron & Steel for "
+              "Integrated Cold Rolling Complex",
+              "ArcelorMittal approves Tubarao flat steel expansion",
+              "KG Steel selects Primetals for Dangjin PLTCM upgrade and "
+              "capacity expansion"):
+        eq(taxonomy.in_scope(t)[0], True, "gercek hat haberi: " + t[:46])
+    # ...Katman 2'den gecen gercek yatirim da korunur
+    eq(bool(taxonomy.genel_yatirim(
+        "India's Manaksia Steel to invest $84 million to expand "
+        "value-added flats capacities")), True,
+        "yassi kapasite yatirimi Katman 2'de kalmali")
+
+
 def test_w36_ocak_parcasi_tavlama_firini_degildir():
     """2026-09-01: "furnace roof" tavlama firini degil ARK OCAGI catisidir.
 
@@ -2765,6 +2803,7 @@ def run():
                test_v20_gonderilmis_hafiza,
                test_v20_gunluk_tarama_arsivi_ezmez,
                test_v20_indiana_hindistan_degil,
+               test_w36_girisim_turu_hat_haberi_degil,
                test_w36_ocak_parcasi_tavlama_firini_degildir,
                test_w36_pencere_uc_hafta,
                test_w36_kose_kendi_kapisi_ve_turkiye_katmani,
