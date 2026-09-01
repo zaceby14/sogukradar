@@ -1858,9 +1858,13 @@ def test_w36_bulunan_havuzu_ve_yanlis_tekrar():
 
     # --- Havuz: taze satir girer, rezervden gelen GIRMEZ
     st = {"bulunan": [], "seen": {}, "tech_seen": {}}
-    taze = {"anahtar": "a1", "tarih": "2026-08-20", "baslik":
-            "KEZAD galvanising facility moves closer to commissioning",
-            "hat": "Galvaniz hatti (CGL)", "asama": "Ilk urun"}
+    # NOT: vaka basligi 2026-08-31'de degistirildi. Once KEZAD kullanilmisti;
+    # ayni gun "galvaniz haberi hat/serit isareti tasimali" kurali konunca o
+    # baslik kapiyi gecmez oldu ve test kirildi - dogru davranis. Yerine ayni
+    # kosunun bir baska GERCEK satiri konuldu.
+    taze = {"anahtar": "a1", "tarih": "2026-08-24", "baslik":
+            "NS-SUS Completes Installation of New Danieli Coil-Handling Cranes",
+            "hat": "Bobin tasima / paketleme", "asama": "Belirsiz"}
     rez = {"anahtar": "a2", "tarih": "2026-03-13", "rezerv": True, "baslik":
            "New MINO Double-Stand Six-High Cold Reversing Mill in North America"}
     _bulunan_guncelle(st, [taze, rez])
@@ -1873,7 +1877,7 @@ def test_w36_bulunan_havuzu_ve_yanlis_tekrar():
     eq(len(st["bulunan"]), 1, "ama havuzdan da dusmez")
 
     # Gonderilmis satir havuzdan duser
-    st2 = {"bulunan": [dict(taze)], "seen": {"a1": "2026-08-20"}, "tech_seen": {}}
+    st2 = {"bulunan": [dict(taze)], "seen": {"a1": "2026-08-24"}, "tech_seen": {}}
     _bulunan_guncelle(st2, [])
     eq(st2["bulunan"], [], "gonderilen satir havuzda kalmaz")
 
