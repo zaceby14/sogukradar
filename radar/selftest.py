@@ -1415,6 +1415,56 @@ def test_v20_indiana_hindistan_degil():
             "rolling capacity"), "Hindistan", "crore Hindistan sinyalidir")
 
 
+def test_w36_pencere_uc_hafta():
+    """2026-08-31 (kullanici karari): pencere 15 gun -> 21 gun (UC HAFTA).
+
+    Once 7, sonra 15 gundu. Olcum: 6,5 aylik gecmiste kapsam ici haber
+    haftada 0,83 ve haftalarin %40'i SIFIR; kaynak 403 verdiginde ya da
+    tarih gec cozuldugunde dar pencerede haber BIR DAHA yakalanmiyordu.
+
+    Gecmis kosularin "pencere_disi" kayitlari uzerinde olculdu: 15-21 gun
+    arasinda, kapiyi GECEN dort benzersiz baslik var -
+      "Primetals to modernise Korean pickling line"          (11.08)
+      "KG Steel selects Primetals for Dangjin PLTCM upgrade"  (11.08)
+      "US Steel Targets 2027 Restart of Ind. Tin Mill"        (14.08)
+      "Jindal Stainless investing Rs 900 cr ... cold rolling" (15.08)
+
+    TEKRAR RISKI YOK: pencerenin genisligi tekrar URETMEZ, yalnizca
+    KACIRMAYI azaltir. Ayni haber uc bacakli savunmadan geciyor - seen,
+    olay parmak izi, baslik benzerligi. Nitekim yukaridaki dordunun ucu
+    zaten gonderilmis haberlerin varyanti ve dedup onlari eliyor.
+
+    Bu test AYARIN KENDISINI bekciler: is akislari ile config'in ayni
+    degeri soylemesi gerekir, yoksa gunluk ve haftalik kosu farkli
+    pencerelerde calisir ve rezerv/bulunan havuzlari tutarsiz dolar.
+    """
+    import re as _re
+    from .config import WINDOW_DAYS
+
+    eq(WINDOW_DAYS, 21, "varsayilan pencere uc hafta olmali")
+
+    kok = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    ak = os.path.join(kok, ".github", "workflows")
+    bulunan = 0
+    for dosya in ("weekly.yml", "gunluk.yml", "dogrula.yml"):
+        yol = os.path.join(ak, dosya)
+        if not os.path.exists(yol):
+            continue
+        icerik = open(yol, encoding="utf-8").read()
+        for d in _re.findall(r'RADAR_WINDOW_DAYS:\s*"(\d+)"', icerik):
+            bulunan += 1
+            eq(d, "21", "%s pencereyi config ile ayni tutmali" % dosya)
+    eq(bulunan >= 3, True, "is akislarinda pencere ayari bulunmali")
+
+    # Tekrar savunmasinin ucuncu bacagi pencereyle AYNI uzunlukta olmali:
+    # daha kisa olursa pencerenin geri getirdigi haber tekrar denetimsiz
+    # kalir.
+    csrc = open(os.path.join(os.path.dirname(__file__), "collect.py"),
+                encoding="utf-8").read()
+    eq("sb_floor = (today - dt.timedelta(days=21)).isoformat()" in csrc, True,
+       "baslik benzerligi bacagi da uc hafta olmali")
+
+
 def test_w36_kose_kendi_kapisi_ve_turkiye_katmani():
     """2026-08-31 (kullanici: "sayi ve icerik yine yetersiz").
 
@@ -2624,6 +2674,7 @@ def run():
                test_v20_gonderilmis_hafiza,
                test_v20_gunluk_tarama_arsivi_ezmez,
                test_v20_indiana_hindistan_degil,
+               test_w36_pencere_uc_hafta,
                test_w36_kose_kendi_kapisi_ve_turkiye_katmani,
                test_w36_rezerv_kalici_hafizayi_sorar,
                test_w36_pota_galvaniz_hat_degildir,

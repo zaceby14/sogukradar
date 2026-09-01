@@ -42,7 +42,7 @@ jobs:
 
       - name: Adaylari dogrula
         env:
-          RADAR_WINDOW_DAYS: "15"
+          RADAR_WINDOW_DAYS: "21"
           RADAR_PAUSE: "0.5"
         run: python -m radar dogrula
 

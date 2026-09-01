@@ -60,13 +60,17 @@ jobs:
 
       - name: Haftalik kosu
         env:
-          # 15 GUN (2026-08-17 karari). Bulten haftalik kalir; bu pencere
-          # listeyi eski haberle sismez cunku state["seen"] her haberi bir
-          # kez gosterir. Kazanc: 6,5 aylik olcumde kapsam ici haber
-          # haftada 0,83 ve haftalarin %40'i sifir; kaynak 403 verdiginde
-          # ya da tarih gec cozuldugunde 7 gunluk pencerede haber BIR DAHA
-          # yakalanmiyordu. 15 gun ayni habere iki hafta sans verir.
-          RADAR_WINDOW_DAYS: "15"
+          # 21 GUN = UC HAFTA (2026-08-31, kullanici karari).
+          #
+          # Once 7, sonra 15 gundu. Olcum: 6,5 aylik gecmiste kapsam ici
+          # haber haftada 0,83 ve haftalarin %40'i SIFIR; kaynak 403
+          # verdiginde ya da tarih gec cozuldugunde dar pencerede haber BIR
+          # DAHA yakalanmiyordu. Uc hafta ayni habere UC hafta sans verir.
+          #
+          # Tekrar riski YOK: ayni haber state["seen"], olay parmak izi ve
+          # baslik benzerligi olmak uzere UC bacakli savunmadan geciyor;
+          # pencerenin genisligi tekrar uretmez, yalnizca KACIRMAYI azaltir.
+          RADAR_WINDOW_DAYS: "21"
           RADAR_MAX_ARTICLES: "220"
           # 0.8 -> 0.5: gunluk tarama bu degerle 169 kaynagi ~19 dakikada
           # bitiriyor; haftalik kosunun 0.8 ile 45 dakikayi asmasinin
@@ -92,7 +96,7 @@ jobs:
       - name: Capraz kontrol (sitemap - listede olmayanlar)
         continue-on-error: true
         env:
-          RADAR_WINDOW_DAYS: "15"
+          RADAR_WINDOW_DAYS: "21"
           RADAR_CAPRAZ_MAX: "40"
         run: |
           if [ -n "${{ github.event.inputs.today }}" ]; then

@@ -163,7 +163,7 @@ kusur değil — gönderilmediyse gönderilmemiştir.
 rezerv + teknoloji adayları.
 
 Neden: yayıncılar haberi geç indeksliyor, kaynak gün içinde 403 verip ertesi
-gün açılıyor, ve 15 günlük pencere kapanınca haber bir daha yakalanmıyordu.
+gün açılıyor, ve 21 günlük pencere kapanınca haber bir daha yakalanmıyordu.
 Ölçüm: bir haftalık koşuda elenen 30 kapsam içi satırın **26'sı sırf pencere
 dışıydı.** Günlük tarama bunu **kapıyı gevşetmeden** çözer — satır sayısı
 kaynak tarafından yükselir, filtre aynı kalır.

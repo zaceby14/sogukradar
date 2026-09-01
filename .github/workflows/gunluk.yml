@@ -38,7 +38,7 @@ jobs:
 
       - name: Gunluk tarama
         env:
-          RADAR_WINDOW_DAYS: "15"
+          RADAR_WINDOW_DAYS: "21"
           RADAR_MAX_ARTICLES: "420"
           RADAR_PAUSE: "0.5"
         run: python -m radar run --commit-state --sadece-tarama
@@ -46,7 +46,7 @@ jobs:
       - name: Capraz kontrol
         continue-on-error: true
         env:
-          RADAR_WINDOW_DAYS: "15"
+          RADAR_WINDOW_DAYS: "21"
           RADAR_CAPRAZ_MAX: "40"
         run: python -m radar capraz
 
