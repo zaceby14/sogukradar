@@ -30,23 +30,29 @@
     "hat": "Belirsiz",
     "asama": "Belirsiz"
    }
-  },
-  {
-   "anahtar": "971c858c2cf021dc",
-   "baslik": "New MINO Double-Stand Six-High Cold Reversing Mill in North America",
-   "url": "https://mino.it/new-mino-double-stand-six-high-cold-reversing-mill-in-north-america/",
-   "eksik": [
-    "hat"
-   ],
-   "mevcut": {
-    "firma": "New MINO Double-Stand",
-    "ulke": "ABD",
-    "hat": "Belirsiz",
-    "asama": "Ilk urun"
-   }
   }
  ],
  "cumle_yaz": [
+  {
+   "anahtar": "6e45c036c75edf5b",
+   "tarih": "2026-08-31",
+   "firma": "Integrated Cold Rolling Complex",
+   "ulke": "Tanzanya",
+   "hat": "Soguk hadde",
+   "asama": "Sozlesme",
+   "baslik": "John Cockerill Signs Contract with A1 Iron & Steel for Integrated Cold Rolling Complex in Tanzania",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYWhzdjdOTS1scDR4azVuN0JiaHM1bm5FNTdGUlczOHgzYkwtNzZtVEhFY3VBRld1bWVPOTB0OXA1bHY4Z2l1UHNKbS1rLXlmNmNnbnV6eGxuUWRoYWw5X2FrMkJnV0g0Q1V2a3BVeHBTUTk0d2RRN29iNHdYaEFlVHQ2VXVITWVJZUlpSmgyTHhYdXNRWDhROA?oc=5"
+  },
+  {
+   "anahtar": "4d59fdf2ae6ec46f",
+   "tarih": "2026-08-20",
+   "firma": "KEZAD",
+   "ulke": "BAE",
+   "hat": "Galvaniz hatti (CGL)",
+   "asama": "Ilk urun",
+   "baslik": "KEZAD galvanising facility moves closer to commissioning",
+   "url": "https://www.msn.com/en-ae/news/other/kezad-galvanising-facility-moves-closer-to-commissioning/ar-AA2ayC80"
+  },
   {
    "anahtar": "f1860f395525b68a",
    "tarih": "2026-08-24",
@@ -64,7 +70,7 @@
    "ulke": "Turkiye",
    "hat": "Asitleme hatti",
    "asama": "Modernizasyon",
-   "baslik": "Marcegaglia upgrades pickling line at Gazoldo degli Ippoliti stainless steel plant | Mesteel - Online News",
+   "baslik": "Marcegaglia upgrades pickling line at Gazoldo degli Ippoliti stainless steel plant",
    "url": "https://news.mesteel.com/marcegaglia-upgrades-pickling-line-at-gazoldo-degli-ippoliti-stainless-steel-plant/"
   },
   {
@@ -76,26 +82,6 @@
    "asama": "Ilk urun",
    "baslik": "India’s JIL commissions continuous color coating line completing $155 million capex program",
    "url": "https://www.steelorbis.com/steel-news/latest-news/indias-jil-commissions-continuous-color-coating-line-completing-155-million-capex-program-1454553.htm"
-  },
-  {
-   "anahtar": "971c858c2cf021dc",
-   "tarih": "2026-03-13",
-   "firma": "New MINO Double-Stand",
-   "ulke": "ABD",
-   "hat": "Belirsiz",
-   "asama": "Ilk urun",
-   "baslik": "New MINO Double-Stand Six-High Cold Reversing Mill in North America",
-   "url": "https://mino.it/new-mino-double-stand-six-high-cold-reversing-mill-in-north-america/"
-  },
-  {
-   "anahtar": "4b43a2343a38c4e0",
-   "tarih": "2026-02-12",
-   "firma": "RRM",
-   "ulke": "Turkiye",
-   "hat": "Soguk hadde",
-   "asama": "Ilk urun",
-   "baslik": "RRM starts up new cold-mill complex with Danieli technology",
-   "url": "https://news.mesteel.com/rrm-starts-up-new-cold-mill-complex-with-danieli-technology/"
   }
  ],
  "teknoloji_adaylari": []

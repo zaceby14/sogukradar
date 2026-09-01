@@ -1,6 +1,33 @@
 {
  "bulunan": [
   {
+   "anahtar": "6e45c036c75edf5b",
+   "asama": "Sozlesme",
+   "baslik": "John Cockerill Signs Contract with A1 Iron & Steel for Integrated Cold Rolling Complex in Tanzania",
+   "eksik": [],
+   "firma": "Integrated Cold Rolling Complex",
+   "hat": "Soguk hadde",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "johncockerill.com",
+   "kaynak_id": "gtek_jc",
+   "olaylar": [
+    "integrated cold rolling complex|fu|Tanzanya|Soguk hadde",
+    "integrated cold rolling complex|hat|Soguk hadde|Sozlesme",
+    "integrated cold rolling complex|ulke|Tanzanya|Sozlesme",
+    "john cockerill|fu|Tanzanya|Soguk hadde",
+    "john cockerill|hat|Soguk hadde|Sozlesme",
+    "john cockerill|ulke|Tanzanya|Sozlesme"
+   ],
+   "puan": 62.6,
+   "tarih": "2026-08-31",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "John Cockerill",
+   "tutar": "",
+   "ulke": "Tanzanya",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYWhzdjdOTS1scDR4azVuN0JiaHM1bm5FNTdGUlczOHgzYkwtNzZtVEhFY3VBRld1bWVPOTB0OXA1bHY4Z2l1UHNKbS1rLXlmNmNnbnV6eGxuUWRoYWw5X2FrMkJnV0g0Q1V2a3BVeHBTUTk0d2RRN29iNHdYaEFlVHQ2VXVITWVJZUlpSmgyTHhYdXNRWDhROA?oc=5"
+  },
+  {
    "anahtar": "323761b5cf24e21b",
    "asama": "Belirsiz",
    "baslik": "ArcelorMittal Confirms Up to R$ 5 Billion for New Cold Rolling Mill in Tubarão, Espírito Santo, with 560,000 Tonnes Annually, 3,000 Jobs at Peak, Operations by 2030",
@@ -879,6 +906,24 @@
     "tekrar": 35
    },
    "uretim": "2026-09-01 03:35 UTC"
+  },
+  {
+   "donem": "2026-W36",
+   "satir": 6,
+   "stats": {
+    "erisilemeyen": 8,
+    "gnews_tarih": 0,
+    "ham": 3602,
+    "kabul": 3,
+    "kapsam_disi": 3201,
+    "kaynak": 291,
+    "makale_acildi": 211,
+    "on_eleme_gecti": 343,
+    "pencere_disi": 273,
+    "tarihsiz_elendi": 87,
+    "tekrar": 38
+   },
+   "uretim": "2026-09-01 04:57 UTC"
   }
  ],
  "rezerv": [
@@ -958,6 +1003,31 @@
    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbWRCZVVIdU8wNDh0M0pCTGlsTWl1U2pqSm5ielo4OEpYYWFuenYzZkRQTGphRzF2WDlQT3VCb2dHc015dDh2eXBDNVhEaUdRLTFFanBMMVhQNWZRS2pPYjdEZFduSlR0VTFmODM4cVhVSDdUMExNQWdRSU9MMXhpaTdLaFE?oc=5"
   },
   {
+   "anahtar": "27b5ca990931fc28",
+   "asama": "Modernizasyon",
+   "baslik": "KG Steel Selects Primetals Technologies for PLTCM Revamp",
+   "eksik": [
+    "ulke"
+   ],
+   "firma": "KG Steel",
+   "hat": "Tandem soguk hadde (TCM)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Primetals Technologies",
+   "kaynak_id": "gtek_prime",
+   "olaylar": [
+    "kg steel|hat|Tandem soguk hadde (TCM)|Modernizasyon",
+    "primetals|hat|Tandem soguk hadde (TCM)|Modernizasyon"
+   ],
+   "rezerv": true,
+   "tarih": "2026-08-11",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "Primetals",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOT19pS3M3d0JOYkpveGRGQnNhaHl5TEFHYjBhT1BWcV92cjN2UWJOakJ6US1iSnVMOEtWRGFjbk9RbFFxY19qeWw0UXFsX0lMZ0h4cC1tWXZCYWZFX19tX0VISDB3Z2kwY3JKRmpfU0J5Q1NMSGdtcUUtNV9aMENLdVlLQUh2WndFb3pBZU1FZkxITzJ2dTk3VktZekxOOWdHeHVxTUFiNFVHMzZaMFViMFF4aHRLdw?oc=5"
+  },
+  {
    "anahtar": "beb57acb388dd4c9",
    "asama": "Belirsiz",
    "baslik": "tk accelis Processing Europe expands Stuttgart steel service center capacity",
@@ -982,6 +1052,32 @@
    "tutar": "",
    "ulke": "",
    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMzF1RWZTMXBiMDhndDAtbEZwYVRISXdVbTlhMmstbGFrMzJaVXBGVVk3RElGczQ4NjFxaTFfcVE1MkNaQm5KRUNTYnVTNlpsT3oxZzhzRVpBM0JSSWNtU0pYMnEtOF91SEpDWFV1eEQxV1ZnT0JLcVE1VG9sc3h2Q1RuOUtRX0FhZFJpbkpzSS15dlhWdEJwM0cteXVZSjZIZzB6Sl9iRDduRXY1?oc=5"
+  },
+  {
+   "anahtar": "bae91f33c6977778",
+   "asama": "Belirsiz",
+   "baslik": "Nucor Berkeley updated the Hot Dip Galvanizing Line with new degreasing and quenching sections",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "firma": "Nucor Berkeley",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Danieli",
+   "kaynak_id": "gtek_danieli",
+   "olaylar": [
+    "danieli|hat|Galvaniz hatti (CGL)|Belirsiz",
+    "nucor berkeley|hat|Galvaniz hatti (CGL)|Belirsiz"
+   ],
+   "rezerv": true,
+   "tarih": "2026-08-03",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "Danieli",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNSGtHdXVmSWtIN0NhR2VjVHNsUGEzYkFORk9xalVwNXZqbDBDZFVkN2ozX3c5SFNBWHNxTEliVklEdk4yTmdBUmZTdEdtclllamdlb2JRY1A4UnpGNGh2Q3B0ay1UcDE2aTNxcGxaeVlvZjVOLWh6ajlwTDdQYkFrY3k3NTVBRWhla19USS1yUHhTLTZxQWpETTBjdFpTUVFGQVV5RE42Um5rRkR4ZWJyWFJCY1JrSVRTNHdpb05ZdWFZamRqOElvZzBRNWg3TFdNTnZrWG9xdmNVcGx0?oc=5"
   },
   {
    "anahtar": "449019d6e383b1ae",
