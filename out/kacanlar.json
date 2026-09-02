@@ -1,10 +1,10 @@
 {
  "donem": "2026-W36",
  "pencere": [
-  "2026-08-11",
-  "2026-09-01"
+  "2026-08-12",
+  "2026-09-02"
  ],
- "uretim": "2026-09-01 08:38 UTC",
+ "uretim": "2026-09-02 03:39 UTC",
  "kaynaklar": {
   "steeltimesint": {
    "publisher": "Steel Times International",
@@ -22,11 +22,23 @@
    "hata": "HTTP 404"
   }
  },
- "adet": 0,
- "kacanlar": [],
+ "adet": 1,
+ "kacanlar": [
+  {
+   "tarih": "2026-09-01",
+   "tarih_kaynagi": "json-ld",
+   "baslik": "Japan's Chugai Ro delivers electric bright annealing line to Romania's Otelinox",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/japans-chugai-ro-delivers-electric-bright-annealing-line-to-romanias-otelinox-1474287.htm",
+   "kaynak": "SteelOrbis",
+   "katman": "Hat",
+   "hat": "Surekli tavlama (CAL)",
+   "asama": "Belirsiz",
+   "anahtar": "f78620ad28390d6c"
+  }
+ ],
  "dogrulanamayan": [],
  "acildi_elendi": [],
- "kapiyi_gecen": 0,
+ "kapiyi_gecen": 1,
  "sitemap_adayi": 400,
- "elenen": 400
+ "elenen": 399
 }

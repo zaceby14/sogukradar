@@ -1,29 +1,56 @@
 {
  "rows": [
   {
-   "tarih": "2026-08-20",
-   "firma": "KEZAD",
-   "ulke": "BAE",
-   "hat": "Galvaniz hatti (CGL)",
+   "tarih": "2026-08-31",
+   "firma": "Integrated Cold Rolling Complex",
+   "ulke": "Tanzanya",
+   "hat": "Soguk hadde",
+   "asama": "Sozlesme",
+   "tedarikci": "John Cockerill",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "John Cockerill Signs Contract with A1 Iron & Steel for Integrated Cold Rolling Complex in Tanzania",
+   "kaynak": "johncockerill.com",
+   "kaynak_id": "gtek_jc",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYWhzdjdOTS1scDR4azVuN0JiaHM1bm5FNTdGUlczOHgzYkwtNzZtVEhFY3VBRld1bWVPOTB0OXA1bHY4Z2l1UHNKbS1rLXlmNmNnbnV6eGxuUWRoYWw5X2FrMkJnV0g0Q1V2a3BVeHBTUTk0d2RRN29iNHdYaEFlVHQ2VXVITWVJZUlpSmgyTHhYdXNRWDhROA?oc=5",
+   "tarih_kaynagi": "rss",
+   "eksik": [],
+   "anahtar": "6e45c036c75edf5b",
+   "kategori": "Hat",
+   "olaylar": [
+    "integrated cold rolling complex|fu|Tanzanya|Soguk hadde",
+    "integrated cold rolling complex|hat|Soguk hadde|Sozlesme",
+    "integrated cold rolling complex|ulke|Tanzanya|Sozlesme",
+    "john cockerill|fu|Tanzanya|Soguk hadde",
+    "john cockerill|hat|Soguk hadde|Sozlesme",
+    "john cockerill|ulke|Tanzanya|Sozlesme"
+   ],
+   "puan": 62.2
+  },
+  {
+   "tarih": "2026-09-01",
+   "firma": "Chugai Ro",
+   "ulke": "Japonya",
+   "hat": "Surekli tavlama (CAL)",
    "asama": "Ilk urun",
    "tedarikci": "",
    "kapasite": "",
    "tutar": "",
-   "baslik": "KEZAD galvanising facility moves closer to commissioning",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgq_hat05",
-   "url": "https://www.msn.com/en-ae/technology/general/kezad-galvanising-facility-moves-closer-to-commissioning/ar-AA2ayC80",
-   "tarih_kaynagi": "rss",
+   "baslik": "Japan's Chugai Ro delivers electric bright annealing line to Romania's Otelinox",
+   "kaynak": "SteelOrbis",
+   "kaynak_id": "steelorbis",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/japans-chugai-ro-delivers-electric-bright-annealing-line-to-romanias-otelinox-1474287.htm",
+   "tarih_kaynagi": "json-ld",
    "eksik": [],
-   "anahtar": "4d59fdf2ae6ec46f",
+   "anahtar": "f78620ad28390d6c",
    "kategori": "Hat",
    "olaylar": [
-    "*|ulke-hat|BAE|Galvaniz hatti (CGL)|Ilk urun",
-    "kezad|fu|BAE|Galvaniz hatti (CGL)",
-    "kezad|hat|Galvaniz hatti (CGL)|Ilk urun",
-    "kezad|ulke|BAE|Ilk urun"
+    "*|ulke-hat|Japonya|Surekli tavlama (CAL)|Ilk urun",
+    "chugai ro|fu|Japonya|Surekli tavlama (CAL)",
+    "chugai ro|hat|Surekli tavlama (CAL)|Ilk urun",
+    "chugai ro|ulke|Japonya|Ilk urun"
    ],
-   "puan": 52.2
+   "puan": 55.6
   },
   {
    "tarih": "2026-08-24",
@@ -49,7 +76,57 @@
     "danieli|hat|Bobin tasima / paketleme|Belirsiz",
     "ns sus|hat|Bobin tasima / paketleme|Belirsiz"
    ],
-   "puan": 22.8
+   "puan": 22.4
+  },
+  {
+   "tarih": "2026-09-01",
+   "firma": "Xinyu Steel",
+   "ulke": "",
+   "hat": "Elektrik celigi hatti",
+   "asama": "Belirsiz",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "Xinyu Steel, elektrik çeliği üretim kapasitesini 250 bin tona çıkardı",
+   "kaynak": "SteelRadar",
+   "kaynak_id": "gx_q_tr2",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUERkVDlfM1NRTG81c0RlSHZWWksxRGx1MEVaN3lReHNxaTdRcEllaUdCZjVBZWFLeWhWc1dvcnU2aVNuLUIxVVRtaXgwRFlEeTN3ckRiZTZjbnd2SnlrNjNjSUx5MUszMi03TkJ3bFByMklzWS1BRVJ3clh4YncwTjhKX2ZNQ0MwUUc2QlAzNDNxVng5U0hfakIyVkk4YzVxNm54NQ?oc=5",
+   "tarih_kaynagi": "rss",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "anahtar": "cae1022dd02a793f",
+   "kategori": "Yatirim",
+   "olaylar": [
+    "xinyu steel|hat|Elektrik celigi hatti|Belirsiz"
+   ],
+   "puan": 5.6
+  },
+  {
+   "tarih": "2026-09-01",
+   "firma": "ArcelorMittal Brasil",
+   "ulke": "",
+   "hat": "Soguk hadde",
+   "asama": "Belirsiz",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "ArcelorMittal Brasil to invest in new cold rolling mill and coating lines",
+   "kaynak": "SteelOrbis",
+   "kaynak_id": "steelorbis",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/arcelormittal-brasil-to-invest-in-new-cold-rolling-mill-and-coating-lines-1474267.htm",
+   "tarih_kaynagi": "json-ld",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "anahtar": "5ddafe54499a1936",
+   "kategori": "Yatirim",
+   "olaylar": [
+    "arcelormittal brasil|hat|Soguk hadde|Belirsiz"
+   ],
+   "puan": 2.6
   },
   {
    "anahtar": "5057cc8359f58ba5",
@@ -77,94 +154,19 @@
    "tutar": "$84 million",
    "ulke": "Hindistan",
    "url": "https://www.steelorbis.com/steel-news/latest-news/indias-manaksia-steel-to-invest-84-million-to-expand-value-added-flats-capacities-1470867.htm"
-  },
-  {
-   "anahtar": "449019d6e383b1ae",
-   "asama": "Modernizasyon",
-   "baslik": "Marcegaglia upgrades pickling line at Gazoldo degli Ippoliti stainless steel plant",
-   "eksik": [],
-   "firma": "Gazoldo",
-   "hat": "Asitleme hatti",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "Mesteel",
-   "kaynak_id": "",
-   "olaylar": [
-    "gazoldo|fu|Turkiye|Asitleme hatti",
-    "gazoldo|hat|Asitleme hatti|Modernizasyon",
-    "gazoldo|ulke|Turkiye|Modernizasyon"
-   ],
-   "rezerv": true,
-   "tarih": "2026-07-13",
-   "tarih_kaynagi": "meta:datepublished",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "Turkiye",
-   "url": "https://news.mesteel.com/marcegaglia-upgrades-pickling-line-at-gazoldo-degli-ippoliti-stainless-steel-plant/"
-  },
-  {
-   "anahtar": "89a81bc39203a100",
-   "asama": "Ilk urun",
-   "baslik": "India’s JIL commissions continuous color coating line completing $155 million capex program",
-   "eksik": [],
-   "firma": "India’s JIL",
-   "hat": "Boyama hatti (CCL)",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "SteelOrbis",
-   "kaynak_id": "",
-   "olaylar": [
-    "*|ulke-hat|Hindistan|Boyama hatti (CCL)|Ilk urun",
-    "india’s jil|fu|Hindistan|Boyama hatti (CCL)",
-    "india’s jil|hat|Boyama hatti (CCL)|Ilk urun",
-    "india’s jil|ulke|Hindistan|Ilk urun"
-   ],
-   "rezerv": true,
-   "tarih": "2026-05-20",
-   "tarih_kaynagi": "json-ld",
-   "tedarikci": "",
-   "tutar": "$155 million",
-   "ulke": "Hindistan",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/indias-jil-commissions-continuous-color-coating-line-completing-155-million-capex-program-1454553.htm"
-  },
-  {
-   "anahtar": "971c858c2cf021dc",
-   "asama": "Ilk urun",
-   "baslik": "New MINO Double-Stand Six-High Cold Reversing Mill in North America",
-   "eksik": [
-    "hat"
-   ],
-   "firma": "New MINO Double-Stand",
-   "hat": "Belirsiz",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "Mino SpA",
-   "kaynak_id": "mino",
-   "olaylar": [
-    "mino|fu|ABD|Belirsiz",
-    "mino|hat|Belirsiz|Ilk urun",
-    "mino|ulke|ABD|Ilk urun"
-   ],
-   "rezerv": true,
-   "tarih": "2026-03-13",
-   "tarih_kaynagi": "json-ld",
-   "tedarikci": "Mino",
-   "tutar": "",
-   "ulke": "ABD",
-   "url": "https://mino.it/new-mino-double-stand-six-high-cold-reversing-mill-in-north-america/"
   }
  ],
  "stats": {
-  "kaynak": 269,
+  "kaynak": 291,
   "erisilemeyen": 9,
-  "ham": 3464,
-  "on_eleme_gecti": 325,
-  "makale_acildi": 212,
-  "tarihsiz_elendi": 84,
-  "pencere_disi": 195,
-  "kapsam_disi": 3148,
-  "tekrar": 35,
-  "kabul": 2,
+  "ham": 3612,
+  "on_eleme_gecti": 352,
+  "makale_acildi": 211,
+  "tarihsiz_elendi": 87,
+  "pencere_disi": 262,
+  "kapsam_disi": 3209,
+  "tekrar": 49,
+  "kabul": 5,
   "gnews_tarih": 0
  },
  "unreachable": [
@@ -385,6 +387,17 @@
   "gs_nippon": "arama",
   "gs_mfmag": "arama",
   "gs_orbis2": "arama",
+  "gtr_borcelik": "arama",
+  "gtr_mmkmet": "arama",
+  "gtr_colakoglu": "arama",
+  "gtr_yildizdc": "arama",
+  "gtr_tezcan": "arama",
+  "gtr_habas": "arama",
+  "gtr_atakas": "arama",
+  "gtr_borusan": "arama",
+  "gtek_prime": "arama",
+  "gtek_jc": "arama",
+  "gtek_danieli": "arama",
   "bgq_hat00": "arama",
   "bgq_hat01": "arama",
   "bgq_hat02": "arama",
@@ -474,17 +487,28 @@
   "bgs_aist": "arama",
   "bgs_nippon": "arama",
   "bgs_mfmag": "arama",
-  "bgs_orbis2": "arama"
+  "bgs_orbis2": "arama",
+  "bgtr_borcelik": "arama",
+  "bgtr_mmkmet": "arama",
+  "bgtr_colakoglu": "arama",
+  "bgtr_yildizdc": "arama",
+  "bgtr_tezcan": "arama",
+  "bgtr_habas": "arama",
+  "bgtr_atakas": "arama",
+  "bgtr_borusan": "arama",
+  "bgtek_prime": "arama",
+  "bgtek_jc": "arama",
+  "bgtek_danieli": "arama"
  },
- "today": "2026-09-01",
+ "today": "2026-09-02",
  "host_saglik": {
   "news.google.com": {
-   "istek": 101,
+   "istek": 112,
    "hiz_siniri": 0,
    "sogutmada": false
   },
   "www.bing.com": {
-   "istek": 90,
+   "istek": 101,
    "hiz_siniri": 0,
    "sogutmada": false
   },
@@ -501,18 +525,18 @@
  },
  "tech_pool": [],
  "kaynak_katki": {
-  "Google News": 1,
-  "Bing News": 1
+  "SteelOrbis": 2,
+  "Google News": 3
  },
  "window": [
-  "2026-08-17",
-  "2026-09-01"
+  "2026-08-12",
+  "2026-09-02"
  ],
  "bulunan_kullanilan": 1,
  "bulunan_havuz": 3,
- "rezerv_kullanilan": 3,
- "rezerv_havuz": 8,
+ "rezerv_kullanilan": 0,
+ "rezerv_havuz": 13,
  "period": "2026-W36",
- "generated": "2026-09-01 03:35 UTC",
+ "generated": "2026-09-02 03:35 UTC",
  "version": "3.0.0"
 }

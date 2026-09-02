@@ -26,6 +26,56 @@
    "url": "https://www.steelorbis.com/steel-news/latest-news/arcelormittal-brasil-to-invest-in-new-cold-rolling-mill-and-coating-lines-1474267.htm"
   },
   {
+   "anahtar": "f78620ad28390d6c",
+   "asama": "Ilk urun",
+   "baslik": "Japan's Chugai Ro delivers electric bright annealing line to Romania's Otelinox",
+   "eksik": [],
+   "firma": "Chugai Ro",
+   "hat": "Surekli tavlama (CAL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "SteelOrbis",
+   "kaynak_id": "steelorbis",
+   "olaylar": [
+    "*|ulke-hat|Japonya|Surekli tavlama (CAL)|Ilk urun",
+    "chugai ro|fu|Japonya|Surekli tavlama (CAL)",
+    "chugai ro|hat|Surekli tavlama (CAL)|Ilk urun",
+    "chugai ro|ulke|Japonya|Ilk urun"
+   ],
+   "puan": 55.6,
+   "tarih": "2026-09-01",
+   "tarih_kaynagi": "json-ld",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Japonya",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/japans-chugai-ro-delivers-electric-bright-annealing-line-to-romanias-otelinox-1474287.htm"
+  },
+  {
+   "anahtar": "cae1022dd02a793f",
+   "asama": "Belirsiz",
+   "baslik": "Xinyu Steel, elektrik çeliği üretim kapasitesini 250 bin tona çıkardı",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "firma": "Xinyu Steel",
+   "hat": "Elektrik celigi hatti",
+   "kapasite": "",
+   "kategori": "Yatirim",
+   "kaynak": "SteelRadar",
+   "kaynak_id": "gx_q_tr2",
+   "olaylar": [
+    "xinyu steel|hat|Elektrik celigi hatti|Belirsiz"
+   ],
+   "puan": 5.6,
+   "tarih": "2026-09-01",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUERkVDlfM1NRTG81c0RlSHZWWksxRGx1MEVaN3lReHNxaTdRcEllaUdCZjVBZWFLeWhWc1dvcnU2aVNuLUIxVVRtaXgwRFlEeTN3ckRiZTZjbnd2SnlrNjNjSUx5MUszMi03TkJ3bFByMklzWS1BRVJ3clh4YncwTjhKX2ZNQ0MwUUc2QlAzNDNxVng5U0hfakIyVkk4YzVxNm54NQ?oc=5"
+  },
+  {
    "anahtar": "6e45c036c75edf5b",
    "asama": "Sozlesme",
    "baslik": "John Cockerill Signs Contract with A1 Iron & Steel for Integrated Cold Rolling Complex in Tanzania",
@@ -978,6 +1028,24 @@
     "tekrar": 56
    },
    "uretim": "2026-09-01 08:38 UTC"
+  },
+  {
+   "donem": "2026-W36",
+   "satir": 6,
+   "stats": {
+    "erisilemeyen": 9,
+    "gnews_tarih": 0,
+    "ham": 3612,
+    "kabul": 5,
+    "kapsam_disi": 3209,
+    "kaynak": 291,
+    "makale_acildi": 211,
+    "on_eleme_gecti": 352,
+    "pencere_disi": 262,
+    "tarihsiz_elendi": 87,
+    "tekrar": 49
+   },
+   "uretim": "2026-09-02 03:35 UTC"
   }
  ],
  "rezerv": [
