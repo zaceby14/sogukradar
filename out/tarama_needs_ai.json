@@ -2,6 +2,21 @@
  "donem": "2026-W36",
  "duzelt": [
   {
+   "anahtar": "5f96f7156d345f49",
+   "baslik": "Metallus Commissions Furnaces for Defense Steel Production",
+   "url": "https://www.heattreattoday.com/metallus-commissions-furnaces-for-defense-steel-production/",
+   "eksik": [
+    "ulke",
+    "hat"
+   ],
+   "mevcut": {
+    "firma": "Metallus",
+    "ulke": "",
+    "hat": "Belirsiz",
+    "asama": "Ilk urun"
+   }
+  },
+  {
    "anahtar": "f1860f395525b68a",
    "baslik": "NS-SUS Completes Installation of New Danieli Coil-Handling Cranes",
    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNejhtT3VSU2JqekN5bVh3bnhHdmFMbEtfWmxzQ0hFNXFhV2U5TklNWkhsbXYwQ3JnWEpNOGNyS2ZHRGZjYzViWmtDSEpZZnFiMDUxdktCWnpIWGJtNXNEaDNMUE5zRzIzNFFGZkRQc0RjNjdxOS15d0JpT2o2SFMyaUU4c0xMSU5QdG11YW14UQ?oc=5",
@@ -17,17 +32,17 @@
    }
   },
   {
-   "anahtar": "cae1022dd02a793f",
-   "baslik": "Xinyu Steel, elektrik çeliği üretim kapasitesini 250 bin tona çıkardı",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUERkVDlfM1NRTG81c0RlSHZWWksxRGx1MEVaN3lReHNxaTdRcEllaUdCZjVBZWFLeWhWc1dvcnU2aVNuLUIxVVRtaXgwRFlEeTN3ckRiZTZjbnd2SnlrNjNjSUx5MUszMi03TkJ3bFByMklzWS1BRVJ3clh4YncwTjhKX2ZNQ0MwUUc2QlAzNDNxVng5U0hfakIyVkk4YzVxNm54NQ?oc=5",
+   "anahtar": "6b5ba9496b3d7d58",
+   "baslik": "Konya'da 430 milyon dolarlık çifte yatırım: Haddehane gün sayıyor, yeni hat geliyor",
+   "url": "https://www.yenihaberden.com/konya-da-430-milyon-dolarlik-cifte-yatirim-haddehane-gun-sayiyor-yeni-hat-geliyor/1859098/",
    "eksik": [
     "ulke",
     "asama"
    ],
    "mevcut": {
-    "firma": "Xinyu Steel",
+    "firma": "Konya'da",
     "ulke": "",
-    "hat": "Elektrik celigi hatti",
+    "hat": "Soguk hadde",
     "asama": "Belirsiz"
    }
   },
@@ -47,32 +62,22 @@
    }
   },
   {
-   "anahtar": "5057cc8359f58ba5",
-   "baslik": "India's Manaksia Steel to invest $84 million to expand value-added flats capacities",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/indias-manaksia-steel-to-invest-84-million-to-expand-value-added-flats-capacities-1470867.htm",
+   "anahtar": "cae1022dd02a793f",
+   "baslik": "Xinyu Steel, elektrik çeliği üretim kapasitesini 250 bin tona çıkardı",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUERkVDlfM1NRTG81c0RlSHZWWksxRGx1MEVaN3lReHNxaTdRcEllaUdCZjVBZWFLeWhWc1dvcnU2aVNuLUIxVVRtaXgwRFlEeTN3ckRiZTZjbnd2SnlrNjNjSUx5MUszMi03TkJ3bFByMklzWS1BRVJ3clh4YncwTjhKX2ZNQ0MwUUc2QlAzNDNxVng5U0hfakIyVkk4YzVxNm54NQ?oc=5",
    "eksik": [
-    "hat",
+    "ulke",
     "asama"
    ],
    "mevcut": {
-    "firma": "Manaksia Steel",
-    "ulke": "Hindistan",
-    "hat": "Belirsiz",
+    "firma": "Xinyu Steel",
+    "ulke": "",
+    "hat": "Elektrik celigi hatti",
     "asama": "Belirsiz"
    }
   }
  ],
  "cumle_yaz": [
-  {
-   "anahtar": "6e45c036c75edf5b",
-   "tarih": "2026-08-31",
-   "firma": "Integrated Cold Rolling Complex",
-   "ulke": "Tanzanya",
-   "hat": "Soguk hadde",
-   "asama": "Sozlesme",
-   "baslik": "John Cockerill Signs Contract with A1 Iron & Steel for Integrated Cold Rolling Complex in Tanzania",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYWhzdjdOTS1scDR4azVuN0JiaHM1bm5FNTdGUlczOHgzYkwtNzZtVEhFY3VBRld1bWVPOTB0OXA1bHY4Z2l1UHNKbS1rLXlmNmNnbnV6eGxuUWRoYWw5X2FrMkJnV0g0Q1V2a3BVeHBTUTk0d2RRN29iNHdYaEFlVHQ2VXVITWVJZUlpSmgyTHhYdXNRWDhROA?oc=5"
-  },
   {
    "anahtar": "f78620ad28390d6c",
    "tarih": "2026-09-01",
@@ -82,6 +87,16 @@
    "asama": "Ilk urun",
    "baslik": "Japan's Chugai Ro delivers electric bright annealing line to Romania's Otelinox",
    "url": "https://www.steelorbis.com/steel-news/latest-news/japans-chugai-ro-delivers-electric-bright-annealing-line-to-romanias-otelinox-1474287.htm"
+  },
+  {
+   "anahtar": "5f96f7156d345f49",
+   "tarih": "2026-09-02",
+   "firma": "Metallus",
+   "ulke": "",
+   "hat": "Belirsiz",
+   "asama": "Ilk urun",
+   "baslik": "Metallus Commissions Furnaces for Defense Steel Production",
+   "url": "https://www.heattreattoday.com/metallus-commissions-furnaces-for-defense-steel-production/"
   },
   {
    "anahtar": "f1860f395525b68a",

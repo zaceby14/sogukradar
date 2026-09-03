@@ -1,6 +1,56 @@
 {
  "bulunan": [
   {
+   "anahtar": "5f96f7156d345f49",
+   "asama": "Ilk urun",
+   "baslik": "Metallus Commissions Furnaces for Defense Steel Production",
+   "eksik": [
+    "ulke",
+    "hat"
+   ],
+   "firma": "Metallus",
+   "hat": "Belirsiz",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Heat Treat Today",
+   "kaynak_id": "heattreat",
+   "olaylar": [
+    "metallus|hat|Belirsiz|Ilk urun"
+   ],
+   "puan": 43.6,
+   "tarih": "2026-09-02",
+   "tarih_kaynagi": "json-ld",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://www.heattreattoday.com/metallus-commissions-furnaces-for-defense-steel-production/"
+  },
+  {
+   "anahtar": "6b5ba9496b3d7d58",
+   "asama": "Belirsiz",
+   "baslik": "Konya'da 430 milyon dolarlık çifte yatırım: Haddehane gün sayıyor, yeni hat geliyor",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "firma": "Konya'da",
+   "hat": "Soguk hadde",
+   "kapasite": "",
+   "kategori": "Yatirim",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_tr00",
+   "olaylar": [
+    "konya'da|hat|Soguk hadde|Belirsiz"
+   ],
+   "puan": 2.6,
+   "tarih": "2026-09-02",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://www.yenihaberden.com/konya-da-430-milyon-dolarlik-cifte-yatirim-haddehane-gun-sayiyor-yeni-hat-geliyor/1859098/"
+  },
+  {
    "anahtar": "5ddafe54499a1936",
    "asama": "Belirsiz",
    "baslik": "ArcelorMittal Brasil to invest in new cold rolling mill and coating lines",
@@ -1046,6 +1096,24 @@
     "tekrar": 49
    },
    "uretim": "2026-09-02 03:35 UTC"
+  },
+  {
+   "donem": "2026-W36",
+   "satir": 6,
+   "stats": {
+    "erisilemeyen": 9,
+    "gnews_tarih": 0,
+    "ham": 3549,
+    "kabul": 5,
+    "kapsam_disi": 3180,
+    "kaynak": 291,
+    "makale_acildi": 210,
+    "on_eleme_gecti": 326,
+    "pencere_disi": 235,
+    "tarihsiz_elendi": 86,
+    "tekrar": 43
+   },
+   "uretim": "2026-09-03 05:38 UTC"
   }
  ],
  "rezerv": [
