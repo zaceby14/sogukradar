@@ -1,29 +1,28 @@
 {
  "rows": [
   {
-   "tarih": "2026-09-01",
-   "firma": "Chugai Ro",
-   "ulke": "Japonya",
-   "hat": "Surekli tavlama (CAL)",
-   "asama": "Ilk urun",
-   "tedarikci": "",
+   "tarih": "2026-09-03",
+   "firma": "Primetals",
+   "ulke": "",
+   "hat": "Tandem soguk hadde (TCM)",
+   "asama": "Sozlesme",
+   "tedarikci": "Primetals",
    "kapasite": "",
    "tutar": "",
-   "baslik": "Japan's Chugai Ro delivers electric bright annealing line to Romania's Otelinox",
-   "kaynak": "SteelOrbis",
-   "kaynak_id": "steelorbis",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/japans-chugai-ro-delivers-electric-bright-annealing-line-to-romanias-otelinox-1474287.htm",
-   "tarih_kaynagi": "json-ld",
-   "eksik": [],
-   "anahtar": "f78620ad28390d6c",
+   "baslik": "Primetals secures PLTCM automation order",
+   "kaynak": "Steel Times International",
+   "kaynak_id": "gq_hat00",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOVFV4U0VJZ0hYZUVGOGQzMkc0TnZyX3BRa3JaYVVqejZ4dW42SEhGNlItT1FZcHIzUUxrejJMai1zUDhGMXhHUFdPZktOWnZyQkhpODJzVnJMN2xNaDFDRXpPd1ZKREhZN1hld2NRTGtGLW43NWxLRkRsYzZQelUwcw?oc=5",
+   "tarih_kaynagi": "rss",
+   "eksik": [
+    "ulke"
+   ],
+   "anahtar": "dde7adab1615e8c7",
    "kategori": "Hat",
    "olaylar": [
-    "*|ulke-hat|Japonya|Surekli tavlama (CAL)|Ilk urun",
-    "chugai ro|fu|Japonya|Surekli tavlama (CAL)",
-    "chugai ro|hat|Surekli tavlama (CAL)|Ilk urun",
-    "chugai ro|ulke|Japonya|Ilk urun"
+    "primetals|hat|Tandem soguk hadde (TCM)|Sozlesme"
    ],
-   "puan": 55.2
+   "puan": 61.6
   },
   {
    "tarih": "2026-09-02",
@@ -48,7 +47,7 @@
    "olaylar": [
     "metallus|hat|Belirsiz|Ilk urun"
    ],
-   "puan": 43.6
+   "puan": 43.2
   },
   {
    "tarih": "2026-08-24",
@@ -74,7 +73,32 @@
     "danieli|hat|Bobin tasima / paketleme|Belirsiz",
     "ns sus|hat|Bobin tasima / paketleme|Belirsiz"
    ],
-   "puan": 22.0
+   "puan": 21.6
+  },
+  {
+   "tarih": "2026-09-01",
+   "firma": "Xinyu Steel",
+   "ulke": "",
+   "hat": "Elektrik celigi hatti",
+   "asama": "Belirsiz",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "Xinyu Steel, elektrik çeliği üretim kapasitesini 250 bin tona çıkardı",
+   "kaynak": "SteelRadar",
+   "kaynak_id": "gx_q_tr2",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUERkVDlfM1NRTG81c0RlSHZWWksxRGx1MEVaN3lReHNxaTdRcEllaUdCZjVBZWFLeWhWc1dvcnU2aVNuLUIxVVRtaXgwRFlEeTN3ckRiZTZjbnd2SnlrNjNjSUx5MUszMi03TkJ3bFByMklzWS1BRVJ3clh4YncwTjhKX2ZNQ0MwUUc2QlAzNDNxVng5U0hfakIyVkk4YzVxNm54NQ?oc=5",
+   "tarih_kaynagi": "rss",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "anahtar": "cae1022dd02a793f",
+   "kategori": "Yatirim",
+   "olaylar": [
+    "xinyu steel|hat|Elektrik celigi hatti|Belirsiz"
+   ],
+   "puan": 4.8
   },
   {
    "tarih": "2026-09-02",
@@ -86,9 +110,9 @@
    "kapasite": "",
    "tutar": "",
    "baslik": "Konya'da 430 milyon dolarlık çifte yatırım: Haddehane gün sayıyor, yeni hat geliyor",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgq_tr00",
-   "url": "https://www.yenihaberden.com/konya-da-430-milyon-dolarlik-cifte-yatirim-haddehane-gun-sayiyor-yeni-hat-geliyor/1859098/",
+   "kaynak": "yenihaberden.com",
+   "kaynak_id": "gx_q_tr1",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTU5oR2MyUTFrT1NXVE9MWEh3eE9WNDU1VXFKOFdKVHZrX1Yzb29KSWxCVndOWmhUR19JQUtPamFwLWhkUEpLQ3VMMEdlQndPaXY5YmEySEhoYUZNOElBSGFVQ210clU1SVNsYjN1Ykk5M2lzMS1WeVZFdnB5WmJzc3VUVHZCLW1tYUtFaVZUbDdOUFIySXRRQ0xEalI0azNlQWdEUVZzWncyVWRUT2xfelpnNUUxc0VBR1Zr?oc=5",
    "tarih_kaynagi": "rss",
    "eksik": [
     "ulke",
@@ -99,7 +123,7 @@
    "olaylar": [
     "konya'da|hat|Soguk hadde|Belirsiz"
    ],
-   "puan": 2.6
+   "puan": 2.2
   },
   {
    "tarih": "2026-09-01",
@@ -111,10 +135,10 @@
    "kapasite": "",
    "tutar": "",
    "baslik": "ArcelorMittal Brasil to invest in new cold rolling mill and coating lines",
-   "kaynak": "SteelOrbis",
-   "kaynak_id": "steelorbis",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/arcelormittal-brasil-to-invest-in-new-cold-rolling-mill-and-coating-lines-1474267.htm",
-   "tarih_kaynagi": "json-ld",
+   "kaynak": "Steel Orbis",
+   "kaynak_id": "gs_orbis2",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZ0dBb1JlVzZvNy1pX3NMS2l3WjhLYWQ1T21sckpkbTZsVGpxa3BRaG9SZGJjTUhjSnlCOEpPbVVVaHBGM1dacFRSMk9zM0RCWGJwQlNkZUw4Y05TYnVHaWJYMWpaMkpKT25XNThscERvalI2M1c3bXpoNUtUQU1BUnhfMHFzRjhYcWtncDViVk5vSDJWVnRURG01WlVDY2VDV2JhZU9HdUZrb1k0cUJFRlM5bS1VU3Y1OHpaNG16bktwRk0waDNnbjZTWDh2dElY?oc=5",
+   "tarih_kaynagi": "rss",
    "eksik": [
     "ulke",
     "asama"
@@ -124,45 +148,20 @@
    "olaylar": [
     "arcelormittal brasil|hat|Soguk hadde|Belirsiz"
    ],
-   "puan": 2.2
-  },
-  {
-   "anahtar": "cae1022dd02a793f",
-   "asama": "Belirsiz",
-   "baslik": "Xinyu Steel, elektrik çeliği üretim kapasitesini 250 bin tona çıkardı",
-   "eksik": [
-    "ulke",
-    "asama"
-   ],
-   "firma": "Xinyu Steel",
-   "hat": "Elektrik celigi hatti",
-   "kapasite": "",
-   "kategori": "Yatirim",
-   "kaynak": "SteelRadar",
-   "kaynak_id": "gx_q_tr2",
-   "olaylar": [
-    "xinyu steel|hat|Elektrik celigi hatti|Belirsiz"
-   ],
-   "puan": 5.6,
-   "tarih": "2026-09-01",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUERkVDlfM1NRTG81c0RlSHZWWksxRGx1MEVaN3lReHNxaTdRcEllaUdCZjVBZWFLeWhWc1dvcnU2aVNuLUIxVVRtaXgwRFlEeTN3ckRiZTZjbnd2SnlrNjNjSUx5MUszMi03TkJ3bFByMklzWS1BRVJ3clh4YncwTjhKX2ZNQ0MwUUc2QlAzNDNxVng5U0hfakIyVkk4YzVxNm54NQ?oc=5"
+   "puan": 1.8
   }
  ],
  "stats": {
   "kaynak": 291,
-  "erisilemeyen": 9,
-  "ham": 3549,
-  "on_eleme_gecti": 326,
-  "makale_acildi": 210,
-  "tarihsiz_elendi": 86,
-  "pencere_disi": 235,
-  "kapsam_disi": 3180,
-  "tekrar": 43,
-  "kabul": 5,
+  "erisilemeyen": 10,
+  "ham": 3519,
+  "on_eleme_gecti": 336,
+  "makale_acildi": 213,
+  "tarihsiz_elendi": 88,
+  "pencere_disi": 226,
+  "kapsam_disi": 3165,
+  "tekrar": 34,
+  "kabul": 6,
   "gnews_tarih": 0
  },
  "unreachable": [
@@ -185,6 +184,10 @@
   [
    "Steel Times International",
    "HTTP 403"
+  ],
+  [
+   "SteelGuru",
+   "URLError: <urlopen error timed out>"
   ],
   [
    "BigMint (SteelMint)",
@@ -496,7 +499,7 @@
   "bgtek_jc": "arama",
   "bgtek_danieli": "arama"
  },
- "today": "2026-09-03",
+ "today": "2026-09-04",
  "host_saglik": {
   "news.google.com": {
    "istek": 112,
@@ -516,25 +519,23 @@
   "www.cognex.com": {
    "istek": 2,
    "hiz_siniri": 2,
-   "sogutmada": true
+   "sogutmada": false
   }
  },
  "tech_pool": [],
  "kaynak_katki": {
-  "SteelOrbis": 2,
   "Heat Treat Today": 1,
-  "Google News": 1,
-  "Bing News": 1
+  "Google News": 5
  },
  "window": [
-  "2026-08-13",
-  "2026-09-03"
+  "2026-08-14",
+  "2026-09-04"
  ],
- "bulunan_kullanilan": 1,
- "bulunan_havuz": 5,
+ "bulunan_kullanilan": 0,
+ "bulunan_havuz": 6,
  "rezerv_kullanilan": 0,
  "rezerv_havuz": 13,
  "period": "2026-W36",
- "generated": "2026-09-03 05:38 UTC",
+ "generated": "2026-09-04 03:40 UTC",
  "version": "3.0.0"
 }

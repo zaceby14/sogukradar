@@ -1,6 +1,30 @@
 {
  "bulunan": [
   {
+   "anahtar": "dde7adab1615e8c7",
+   "asama": "Sozlesme",
+   "baslik": "Primetals secures PLTCM automation order",
+   "eksik": [
+    "ulke"
+   ],
+   "firma": "Primetals",
+   "hat": "Tandem soguk hadde (TCM)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Steel Times International",
+   "kaynak_id": "gq_hat00",
+   "olaylar": [
+    "primetals|hat|Tandem soguk hadde (TCM)|Sozlesme"
+   ],
+   "puan": 61.6,
+   "tarih": "2026-09-03",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "Primetals",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOVFV4U0VJZ0hYZUVGOGQzMkc0TnZyX3BRa3JaYVVqejZ4dW42SEhGNlItT1FZcHIzUUxrejJMai1zUDhGMXhHUFdPZktOWnZyQkhpODJzVnJMN2xNaDFDRXpPd1ZKREhZN1hld2NRTGtGLW43NWxLRkRsYzZQelUwcw?oc=5"
+  },
+  {
    "anahtar": "5f96f7156d345f49",
    "asama": "Ilk urun",
    "baslik": "Metallus Commissions Furnaces for Defense Steel Production",
@@ -1114,6 +1138,24 @@
     "tekrar": 43
    },
    "uretim": "2026-09-03 05:38 UTC"
+  },
+  {
+   "donem": "2026-W36",
+   "satir": 6,
+   "stats": {
+    "erisilemeyen": 10,
+    "gnews_tarih": 0,
+    "ham": 3519,
+    "kabul": 6,
+    "kapsam_disi": 3165,
+    "kaynak": 291,
+    "makale_acildi": 213,
+    "on_eleme_gecti": 336,
+    "pencere_disi": 226,
+    "tarihsiz_elendi": 88,
+    "tekrar": 34
+   },
+   "uretim": "2026-09-04 03:40 UTC"
   }
  ],
  "rezerv": [
