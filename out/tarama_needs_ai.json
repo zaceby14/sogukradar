@@ -61,21 +61,6 @@
    }
   },
   {
-   "anahtar": "6b5ba9496b3d7d58",
-   "baslik": "Konya'da 430 milyon dolarlık çifte yatırım: Haddehane gün sayıyor, yeni hat geliyor",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTU5oR2MyUTFrT1NXVE9MWEh3eE9WNDU1VXFKOFdKVHZrX1Yzb29KSWxCVndOWmhUR19JQUtPamFwLWhkUEpLQ3VMMEdlQndPaXY5YmEySEhoYUZNOElBSGFVQ210clU1SVNsYjN1Ykk5M2lzMS1WeVZFdnB5WmJzc3VUVHZCLW1tYUtFaVZUbDdOUFIySXRRQ0xEalI0azNlQWdEUVZzWncyVWRUT2xfelpnNUUxc0VBR1Zr?oc=5",
-   "eksik": [
-    "ulke",
-    "asama"
-   ],
-   "mevcut": {
-    "firma": "Konya'da",
-    "ulke": "",
-    "hat": "Soguk hadde",
-    "asama": "Belirsiz"
-   }
-  },
-  {
    "anahtar": "5ddafe54499a1936",
    "baslik": "ArcelorMittal Brasil to invest in new cold rolling mill and coating lines",
    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZ0dBb1JlVzZvNy1pX3NMS2l3WjhLYWQ1T21sckpkbTZsVGpxa3BRaG9SZGJjTUhjSnlCOEpPbVVVaHBGM1dacFRSMk9zM0RCWGJwQlNkZUw4Y05TYnVHaWJYMWpaMkpKT25XNThscERvalI2M1c3bXpoNUtUQU1BUnhfMHFzRjhYcWtncDViVk5vSDJWVnRURG01WlVDY2VDV2JhZU9HdUZrb1k0cUJFRlM5bS1VU3Y1OHpaNG16bktwRk0waDNnbjZTWDh2dElY?oc=5",
@@ -92,6 +77,16 @@
   }
  ],
  "cumle_yaz": [
+  {
+   "anahtar": "98a2950f8f9b76b6",
+   "tarih": "2026-08-30",
+   "firma": "USSK",
+   "ulke": "Turkiye",
+   "hat": "Elektrik celigi hatti",
+   "asama": "Sozlesme",
+   "baslik": "USSK orders new electrical steel plant from Tenova",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/ussk-orders-new-electrical-steel-plant-tenova-0619/"
+  },
   {
    "anahtar": "dde7adab1615e8c7",
    "tarih": "2026-09-03",

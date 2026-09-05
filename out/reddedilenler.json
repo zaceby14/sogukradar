@@ -1,6 +1,6 @@
 {
  "donem": "2026-W36",
- "adet": 522,
+ "adet": 529,
  "kayitlar": [
   {
    "sebep": "kapsam_disi",
@@ -1533,16 +1533,16 @@
    "ek": "2026-01-09"
   },
   {
-   "sebep": "kapsam_disi",
+   "sebep": "pencere_disi",
    "baslik": "Ports (Container / Bulk material)",
    "url": "https://www.emg.elexis.group/industries/ports",
-   "ek": "olay yok (katalog/pazarlama)"
+   "ek": "2026-08-14"
   },
   {
-   "sebep": "kapsam_disi",
+   "sebep": "pencere_disi",
    "baslik": "Raw material extraction / handling",
    "url": "https://www.emg.elexis.group/industries/raw-material-extraction",
-   "ek": "olay yok (katalog/pazarlama)"
+   "ek": "2026-08-14"
   },
   {
    "sebep": "pencere_disi",
@@ -2313,6 +2313,18 @@
    "ek": "kapsam kapisi (baslik)"
   },
   {
+   "sebep": "kapsam_disi",
+   "baslik": "Daily press | 2026-02-06 Key issues paper on new shareholder structure agreed: Salzgitter AG plans to continue operating HKM as the sole shareholder from June 01, 2026 onward",
+   "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/key-issues-paper-on-new-shareholder-structure-agreed-salzgitter-ag-plans-to-continue-operating-hkm-as-the-sole-shareholder-from-june-01-2026-onward.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Daily press | 2026-02-03 Decarbonization of steel production: thyssenkrupp Steel signs contracts securing supply of 230 GWh of green electricity for subsidiaries",
+   "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/decarbonization-of-steel-production-thyssenkrupp-steel-signs-contracts-securing-supply-of-230-gwh-of-green-electricity-for-subsidiaries.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
    "sebep": "pencere_disi",
    "baslik": "Trade press | 2026-01-12 Peak value in 2024: 94.3 percent of tinplate packaging from private end consumption recycled",
    "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/peak-value-in-2024-94-3-percent-of-tinplate-packaging-from-private-end-consumption-recycled.html",
@@ -2404,8 +2416,8 @@
   },
   {
    "sebep": "tarihsiz_elendi",
-   "baslik": "PPGI Galvanised Coil India Delivered Basis INR/t",
-   "url": "https://www.kallanish.com/en/prices/details/ppgi-galvanised-india-domestic-price/",
+   "baslik": "9:52 Exports of flat steel from Ukraine rose by 13% m/m in July",
+   "url": "https://gmk.center/en/news/exports-of-flat-steel-from-ukraine-rose-by-13-m-m-in-july/",
    "ek": ""
   },
   {
@@ -2560,7 +2572,7 @@
   },
   {
    "sebep": "tarihsiz_elendi",
-   "baslik": "Advanced Cold Rolling Training: 201 - Association for Iron & Steel Technology",
+   "baslik": "Advanced Cold Rolling Training 201",
    "url": "https://www.aist.org/Conferences-Expositions/Technology-Training/Advanced-Cold-Rolling-Training-201",
    "ek": ""
   },
@@ -2698,8 +2710,14 @@
   },
   {
    "sebep": "tekrar",
-   "baslik": "JSW Steel orders galvanizing line from ANDRITZ for automotive steels",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPalV5WUVkNm02UXRWN08zLVh5WGZlQ1NBMG9SUWdVZlFXQzdXYXdvUFlNMkVVMWV2XzI2bzQ5OWt0Q1JJczIzUUdjbngxTDhvanhxYUhkUl95MkpEWFRJUUJiTmNxWUZpb3NibzZaTVJ3cGJ3VVNmQkVOSGlPd3FPOHhzMnY4ekt0cE1peklrSUlRRFV2V241M3RPa2RibnB6?oc=5",
+   "baslik": "ArcelorMittal Confirms Up to R$ 5 Billion for New Cold Rolling Mill in Tubarão, Espírito Santo, with 560,000 Tonnes Annually, 3,000 Jobs at Peak, Operations by 2030",
+   "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPdE9Sa2dwY2VrTTk5YlVVMmJ5SFR2YzUyNnN0X1Y3UmZja2I0eXNKTUNKcU1PRWJWZmFLRXU0bkdHR3NjSXR0dGNaWXIzMDNyTmd0RERRc2hJYkZHVFFNRjJIRUFoSUk3LVh1TWhzVEhmRVJNTmhlX0JzQWZZU1JfOFlQc0JoNi1OVHlibDNtZkFkRkFyUlpyNFNMVVV4THdIV09mNmxSSFYya3NJN3BZdVlrOFZ5ZlJsZS02cXBiRjFZeFZ4bVA4Z0J2RXFnYzVieEc4VlBMZWU5eGlJN3Vmak1NRld3U3V5ZnRnaWtWbHA3ZU9yOHd4ZktEVjRfTGdnVW9pR3dn?oc=5",
+   "ek": "benzer baslik (gecmis 21 gun)"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "JSW Steel Selects ANDRITZ for New Galvanizing Line in Karnataka",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOLVFUWU5LSnZrU2ZmY3lSb2E3bXZudWpPWWNiMVRmN2FzaVlKSnI4YlFzX3UySlVWMEI0YzJZS3c2TDhwc3Rkal9va0dWbFdIZGJEYWhGdmwtdFFad3FZTlVyd0pTNUlvVHRscUhrUWV3QVZDa3BlVG1KNmUzRGtRQzJnVUNfUU1mcHlDUUUtcUNCUndmbWkyV1hYQjJiUQ?oc=5",
    "ek": "ayni olayin varyanti: andritz|hat|Galvaniz hatti (CGL)|Sozlesme; jsw steel|hat|Galvaniz hatti (CGL)|Sozlesme"
   },
   {
@@ -2722,8 +2740,8 @@
   },
   {
    "sebep": "tekrar",
-   "baslik": "JSW Steel orders galvanizing line from ANDRITZ for automotive steels",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPalV5WUVkNm02UXRWN08zLVh5WGZlQ1NBMG9SUWdVZlFXQzdXYXdvUFlNMkVVMWV2XzI2bzQ5OWt0Q1JJczIzUUdjbngxTDhvanhxYUhkUl95MkpEWFRJUUJiTmNxWUZpb3NibzZaTVJ3cGJ3VVNmQkVOSGlPd3FPOHhzMnY4ekt0cE1peklrSUlRRFV2V241M3RPa2RibnB6?oc=5",
+   "baslik": "JSW Steel Selects ANDRITZ for New Galvanizing Line in Karnataka",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOLVFUWU5LSnZrU2ZmY3lSb2E3bXZudWpPWWNiMVRmN2FzaVlKSnI4YlFzX3UySlVWMEI0YzJZS3c2TDhwc3Rkal9va0dWbFdIZGJEYWhGdmwtdFFad3FZTlVyd0pTNUlvVHRscUhrUWV3QVZDa3BlVG1KNmUzRGtRQzJnVUNfUU1mcHlDUUUtcUNCUndmbWkyV1hYQjJiUQ?oc=5",
    "ek": "ayni olayin varyanti: andritz|hat|Galvaniz hatti (CGL)|Sozlesme; jsw steel|hat|Galvaniz hatti (CGL)|Sozlesme"
   },
   {
@@ -2740,8 +2758,8 @@
   },
   {
    "sebep": "tekrar",
-   "baslik": "JSW Steel orders galvanizing line from ANDRITZ for automotive steels",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPalV5WUVkNm02UXRWN08zLVh5WGZlQ1NBMG9SUWdVZlFXQzdXYXdvUFlNMkVVMWV2XzI2bzQ5OWt0Q1JJczIzUUdjbngxTDhvanhxYUhkUl95MkpEWFRJUUJiTmNxWUZpb3NibzZaTVJ3cGJ3VVNmQkVOSGlPd3FPOHhzMnY4ekt0cE1peklrSUlRRFV2V241M3RPa2RibnB6?oc=5",
+   "baslik": "JSW Steel Selects ANDRITZ for New Galvanizing Line in Karnataka",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOLVFUWU5LSnZrU2ZmY3lSb2E3bXZudWpPWWNiMVRmN2FzaVlKSnI4YlFzX3UySlVWMEI0YzJZS3c2TDhwc3Rkal9va0dWbFdIZGJEYWhGdmwtdFFad3FZTlVyd0pTNUlvVHRscUhrUWV3QVZDa3BlVG1KNmUzRGtRQzJnVUNfUU1mcHlDUUUtcUNCUndmbWkyV1hYQjJiUQ?oc=5",
    "ek": "ayni olayin varyanti: andritz|hat|Galvaniz hatti (CGL)|Sozlesme; jsw steel|hat|Galvaniz hatti (CGL)|Sozlesme"
   },
   {
@@ -2764,8 +2782,8 @@
   },
   {
    "sebep": "tekrar",
-   "baslik": "JSW Steel orders galvanizing line from ANDRITZ for automotive steels",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPalV5WUVkNm02UXRWN08zLVh5WGZlQ1NBMG9SUWdVZlFXQzdXYXdvUFlNMkVVMWV2XzI2bzQ5OWt0Q1JJczIzUUdjbngxTDhvanhxYUhkUl95MkpEWFRJUUJiTmNxWUZpb3NibzZaTVJ3cGJ3VVNmQkVOSGlPd3FPOHhzMnY4ekt0cE1peklrSUlRRFV2V241M3RPa2RibnB6?oc=5",
+   "baslik": "JSW Steel Selects ANDRITZ for New Galvanizing Line in Karnataka",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOLVFUWU5LSnZrU2ZmY3lSb2E3bXZudWpPWWNiMVRmN2FzaVlKSnI4YlFzX3UySlVWMEI0YzJZS3c2TDhwc3Rkal9va0dWbFdIZGJEYWhGdmwtdFFad3FZTlVyd0pTNUlvVHRscUhrUWV3QVZDa3BlVG1KNmUzRGtRQzJnVUNfUU1mcHlDUUUtcUNCUndmbWkyV1hYQjJiUQ?oc=5",
    "ek": "ayni olayin varyanti: andritz|hat|Galvaniz hatti (CGL)|Sozlesme; jsw steel|hat|Galvaniz hatti (CGL)|Sozlesme"
   },
   {
@@ -2830,9 +2848,15 @@
   },
   {
    "sebep": "tekrar",
-   "baslik": "JSW Steel orders galvanizing line from ANDRITZ for automotive steels",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPalV5WUVkNm02UXRWN08zLVh5WGZlQ1NBMG9SUWdVZlFXQzdXYXdvUFlNMkVVMWV2XzI2bzQ5OWt0Q1JJczIzUUdjbngxTDhvanhxYUhkUl95MkpEWFRJUUJiTmNxWUZpb3NibzZaTVJ3cGJ3VVNmQkVOSGlPd3FPOHhzMnY4ekt0cE1peklrSUlRRFV2V241M3RPa2RibnB6?oc=5",
-   "ek": "ayni olayin varyanti: andritz|hat|Galvaniz hatti (CGL)|Sozlesme; jsw steel|hat|Galvaniz hatti (CGL)|Sozlesme"
+   "baslik": "ArcelorMittal Confirms Up to R$ 5 Billion for New Cold Rolling Mill in Tubarão, Espírito Santo, with 560,000 Tonnes Annually, 3,000 Jobs at Peak, Operations by 2030",
+   "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPdE9Sa2dwY2VrTTk5YlVVMmJ5SFR2YzUyNnN0X1Y3UmZja2I0eXNKTUNKcU1PRWJWZmFLRXU0bkdHR3NjSXR0dGNaWXIzMDNyTmd0RERRc2hJYkZHVFFNRjJIRUFoSUk3LVh1TWhzVEhmRVJNTmhlX0JzQWZZU1JfOFlQc0JoNi1OVHlibDNtZkFkRkFyUlpyNFNMVVV4THdIV09mNmxSSFYya3NJN3BZdVlrOFZ5ZlJsZS02cXBiRjFZeFZ4bVA4Z0J2RXFnYzVieEc4VlBMZWU5eGlJN3Vmak1NRld3U3V5ZnRnaWtWbHA3ZU9yOHd4ZktEVjRfTGdnVW9pR3dn?oc=5",
+   "ek": "benzer baslik (gecmis 21 gun)"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "ArcelorMittal Confirms Up to R$ 5 Billion for New Cold Rolling Mill in Tubarão, Espírito Santo, with 560,000 Tonnes Annually, 3,000 Jobs at Peak, Operations by 2030",
+   "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPdE9Sa2dwY2VrTTk5YlVVMmJ5SFR2YzUyNnN0X1Y3UmZja2I0eXNKTUNKcU1PRWJWZmFLRXU0bkdHR3NjSXR0dGNaWXIzMDNyTmd0RERRc2hJYkZHVFFNRjJIRUFoSUk3LVh1TWhzVEhmRVJNTmhlX0JzQWZZU1JfOFlQc0JoNi1OVHlibDNtZkFkRkFyUlpyNFNMVVV4THdIV09mNmxSSFYya3NJN3BZdVlrOFZ5ZlJsZS02cXBiRjFZeFZ4bVA4Z0J2RXFnYzVieEc4VlBMZWU5eGlJN3Vmak1NRld3U3V5ZnRnaWtWbHA3ZU9yOHd4ZktEVjRfTGdnVW9pR3dn?oc=5",
+   "ek": "benzer baslik (gecmis 21 gun)"
   },
   {
    "sebep": "tekrar",
@@ -2842,9 +2866,15 @@
   },
   {
    "sebep": "tekrar",
-   "baslik": "JSW Steel orders galvanizing line from ANDRITZ for automotive steels",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPalV5WUVkNm02UXRWN08zLVh5WGZlQ1NBMG9SUWdVZlFXQzdXYXdvUFlNMkVVMWV2XzI2bzQ5OWt0Q1JJczIzUUdjbngxTDhvanhxYUhkUl95MkpEWFRJUUJiTmNxWUZpb3NibzZaTVJ3cGJ3VVNmQkVOSGlPd3FPOHhzMnY4ekt0cE1peklrSUlRRFV2V241M3RPa2RibnB6?oc=5",
+   "baslik": "JSW Steel Selects ANDRITZ for New Galvanizing Line in Karnataka",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOLVFUWU5LSnZrU2ZmY3lSb2E3bXZudWpPWWNiMVRmN2FzaVlKSnI4YlFzX3UySlVWMEI0YzJZS3c2TDhwc3Rkal9va0dWbFdIZGJEYWhGdmwtdFFad3FZTlVyd0pTNUlvVHRscUhrUWV3QVZDa3BlVG1KNmUzRGtRQzJnVUNfUU1mcHlDUUUtcUNCUndmbWkyV1hYQjJiUQ?oc=5",
    "ek": "ayni olayin varyanti: andritz|hat|Galvaniz hatti (CGL)|Sozlesme; jsw steel|hat|Galvaniz hatti (CGL)|Sozlesme"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "Jindal Stainless Invests Rs 900 Crore to Expand Cold Rolling Capacity",
+   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOeXliOE0yWGlwUklNdXYyQ1p4ZThoZ2Z0OF9YcjJNczdScER0eEZQTWoxMFpwYThHdnczUFEyY1RwVzFXWkNQWUlERVNfREx2WlBCN3hrdVYyR2dMNmRXa3g2cHRpRlZqZkE3VVZPTVNua1N2UHVWUlh0QV8yV0dVc0xaamdiVk03Ynlxdmk4WWFJa1IyOS1IOWx1THFkeUhRZXkydFJMeXBoR3RUQVl2MkE4dVRyY09HWXNCQVM3MUVwWVBvYXp4S044WEY0N2tnQnpFVzR3SDBqcm1MeU1SSk9yZGxkZ09lMmlEd1hpVUU?oc=5",
+   "ek": "benzer baslik (gecmis 21 gun)"
   },
   {
    "sebep": "pencere_disi",
@@ -2860,9 +2890,9 @@
   },
   {
    "sebep": "tekrar",
-   "baslik": "Primetals secures PLTCM automation order",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOVFV4U0VJZ0hYZUVGOGQzMkc0TnZyX3BRa3JaYVVqejZ4dW42SEhGNlItT1FZcHIzUUxrejJMai1zUDhGMXhHUFdPZktOWnZyQkhpODJzVnJMN2xNaDFDRXpPd1ZKREhZN1hld2NRTGtGLW43NWxLRkRsYzZQelUwcw?oc=5",
-   "ek": ""
+   "baslik": "JSW Steel Selects ANDRITZ for New Galvanizing Line in Karnataka",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOLVFUWU5LSnZrU2ZmY3lSb2E3bXZudWpPWWNiMVRmN2FzaVlKSnI4YlFzX3UySlVWMEI0YzJZS3c2TDhwc3Rkal9va0dWbFdIZGJEYWhGdmwtdFFad3FZTlVyd0pTNUlvVHRscUhrUWV3QVZDa3BlVG1KNmUzRGtRQzJnVUNfUU1mcHlDUUUtcUNCUndmbWkyV1hYQjJiUQ?oc=5",
+   "ek": "ayni olayin varyanti: andritz|hat|Galvaniz hatti (CGL)|Sozlesme; jsw steel|hat|Galvaniz hatti (CGL)|Sozlesme"
   },
   {
    "sebep": "tekrar",
@@ -2884,6 +2914,18 @@
   },
   {
    "sebep": "pencere_disi",
+   "baslik": "Yıldız Demir Çelik'den soğuk haddeleme hattı yatırımı - stendustri.com.tr",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTXBlbnVtU3RaTXJuMGNONzEzcGZOS2pvRmJYckthcVUyVXM3U0YxeEo2ajlSOFE1Vk9zQ0g3YVQ1SDg1Tk1jeGxtblBoQkJzY2tJS2ZBWVduRU1hTm5VQnFBcXFwOVJfN2hJdGJYTU9uakcxSWhvMUpmcEx4OGRuTmVmU3FWMEVCT1E?oc=5",
+   "ek": "on eleme: 2018-12-10"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Yıldız Demir Çelik Şirketi Kartepe haddehane projesine karşı vatandaşlar çadır kurdu - Bağımsız Kocaeli Gazetesi",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPRVNjSWFzX0dQRjNFbXYtTnVVd3BlTnpHTUhGeGdEcnRoUXB5cHpEcjl0MTVwaHhqUmpEZkxwSEZQbVJKcEJZTWxpWmllbFFkMWR6SFJLc3hoMVRTMU5iQVFZSDRFQkFaX2pMTVNySV81c3h4dmhHUHNwVlpnc0VVd2hxOXZCMk9hNkwtQl9kcjhVTU5ETzRFU0VVekRjc0ZJN3JXV0VfWnRTRVNreExZX013ZTFmV1k1S0FTNGF5M3JFaDZTUHp5cFlXSlctajdZbWVIdmZR?oc=5",
+   "ek": "on eleme: 2025-11-07"
+  },
+  {
+   "sebep": "pencere_disi",
    "baslik": "‘Tezcan Galvaniz işçileri sadece ekmek değil insanlık mücadelesi veriyorlar’ - Emek Partisi (EMEP)",
    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdHFWbGZrVTJ2OTNOdDZRb1pLTDFPSnZoaEQ2bC1FMUNCeFQ0a201a0FnM291eUFVTWgwNFk5RGhLZDRIajltVU5FcExFRFA1V0NCVG1LOU9jU0NjQXllTXZPS0xyXzM1WTFjczd5NTBlcl85TEZRckIzSG4xbDhZSV9QenRDTVR3M2dtY1gwcWxoNUNwOVFmUEEzdw?oc=5",
    "ek": "on eleme: 2025-03-18"
@@ -2893,12 +2935,6 @@
    "baslik": "Tezcan Galvaniz videosu 5 sene öncesine ait: Görüntülerin bahanesi olamaz - Bianet",
    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQOEtrR0xSaUV2dzNBY2dDWmtfcE1QX0daYzRnUVFJVDdrZHM5SWtpRVBQWVFCekJTZGVPS1g1V25xRWNiQ2Fydko5c2VrMzVrRGt4eE1lWGtGaWh1bHo2Umt0VEVoWWs1MU44VVlvTC1QUnR5bDc2QWJpd19BNExEZk5QSHZWNnc1TWM4YS13VWdXelVqaVpEbEZXQ0VhcFZYb3FCcUtSVQ?oc=5",
    "ek": "on eleme: 2024-01-03"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Tezcan Galvaniz işçileri baskı ve mobbinge uğruyor - Evrensel.net",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVU91QWRPZ2NITm1SRnNxVWg1bFphSU91bkhrajhGQlQ4emJDaExNcjFJRE5BM083TXR6ZkN3R0Nhc2E0OW1uYjFWbTJKS2hSd1Q1Z1hpRFd0SU54V2I2WGxNbFgxR2RXaEg3aXljaGlWSm12Q24wSG1CbUwzRDFQZGtJVVI1ak5YZzNtRUpMUjJIZw?oc=5",
-   "ek": "on eleme: 2025-10-02"
   },
   {
    "sebep": "pencere_disi",
@@ -2926,9 +2962,21 @@
   },
   {
    "sebep": "pencere_disi",
+   "baslik": "Tezcan Galvaniz işçileri baskı ve mobbinge uğruyor - Evrensel.net",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVU91QWRPZ2NITm1SRnNxVWg1bFphSU91bkhrajhGQlQ4emJDaExNcjFJRE5BM083TXR6ZkN3R0Nhc2E0OW1uYjFWbTJKS2hSd1Q1Z1hpRFd0SU54V2I2WGxNbFgxR2RXaEg3aXljaGlWSm12Q24wSG1CbUwzRDFQZGtJVVI1ak5YZzNtRUpMUjJIZw?oc=5",
+   "ek": "on eleme: 2025-10-02"
+  },
+  {
+   "sebep": "pencere_disi",
    "baslik": "Tezcan Galvaniz grevi 6. gününde - Emek Partisi (EMEP)",
    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9EVGx3OHc0TnlKX0c2ZV81SEYwYVRZVzc2Ym9yRjNKUGVocVVldldTOGdfaGRwQnN3dnpQbHctYXJMdVhKSEgyNm1mMXVOekRKVFI4MkZPMzYzcU1GUEhVWk5B?oc=5",
    "ek": "on eleme: 2025-03-17"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Tezcan Galvaniz, Türkiye'nin ilk Galvalume üreticisi oldu - Dünya Gazetesi",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVldRUXQ4Uk9KbGtHYk1McHZ2UkJIQUdGR1h1eFZPYTdKNkhQVV9VUmRJbDZYZTNYb09EeW1JX3AtelRXcXZmYW9lSWJMcGh1QktZaFZnVEpLX1VIa2FRSG1iWVdfQTZQNHAxaHBMdDVXNDJFUnJ0bUhpY0UwT3UwM2wwbmtUUGw1RWFsd0Y1U2FNMTQ0OHVDTzBfOFVFZG5pZlE?oc=5",
+   "ek": "on eleme: 2016-12-08"
   },
   {
    "sebep": "pencere_disi",
@@ -2956,69 +3004,33 @@
   },
   {
    "sebep": "pencere_disi",
+   "baslik": "Kocaeli'de Tezcan Galvaniz Fabrikasında iş cinayeti - soL Haber",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaTJVdnpQdTA3S0ota3plbTJoQldIWnJqY2NWc2wwRWJrSUthdENtZENCbDZlQWNadndxUXFTTWNwbU9zOFpYUFpqdTRDVEYzdDBZbWVvcTdCU2FnNG9nTnVlams2cGM2U2VJU01PaWdSUHk3SV9xdlVKTEo2RzR3UTBsS3BCMW00RXRMVFl6ajdORXVGVzMw?oc=5",
+   "ek": "on eleme: 2018-05-12"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Tezcan Galvaniz işçileri grevle kazandı: Patron yüzde 8 dayatmıştı, işçiler yüzde 71 zam aldı - Evrensel.net",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMGFxdTduY0w5MmQzdnpNb0pJcUxCZ2I2V0hMMDFUVGRXWVZUbmpkM2tIZ3htX1o1dmkwMUZJci0zUkFBQzkwWFVSN3MzOTF0ekxmd3ctSldCLUtFanlYamFLbUpiSjBRZHRraFlqbW1oeUFTWUZYWU1ubWpoNm9kNjh1Vm1yNVF1eVd3Y3RGOVd0RE9FeTNOZDIydExGZjZ0VWVLSEdVdWRqNnRPaDBtU2V1dTNKeDlGY2l3UTJEYjVlNlQ5aDg2Wg?oc=5",
+   "ek": "on eleme: 2025-04-27"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Kocaeli'de kurulu Tezcan Galvaniz fabrikasında iş cinayeti! - Evrensel.net",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRDVmOTNTVmpmZ0Q4eHFmLTN1ZjRLYUJ0OVJmR0JjMXhnSzZ6VVJ4LWNxWGl0RG1xcmh1OFJrWThlZEhiS0lhNVNTUW5ZSUphUkJndEsxX0diNkk0ejM2azVOSDZkcUNuaEtROGtGZDRrY3lpVWg3RWFJSDNVd1JFRVgyLXVDTzVpZlpKeEwtTkF4c3h0SF9xZmdzUQ?oc=5",
+   "ek": "on eleme: 2018-05-12"
+  },
+  {
+   "sebep": "pencere_disi",
    "baslik": "Tezcan Galvaniz'de maaş sistemi değişiyor - İşte Kocaeli Gazetesi",
    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE00UlUxVjcyVmRVSUtwdncyS2ZvQ2tIRkotQ1NhTkZwUmxST19EU0pyWlBBMlIya0VvU19aNV9OeXZVLUN5TjlERjYwSXhaMGo0SHNBVHZUVUJMdHVBeEc1aldNRWR3dVRUZl9zVnk5VDBiRTZQS2J2adIBgAFBVV95cUxQRTNwZnZsZm00T29PemxMNGc0akhjTmJXLW5FUWh0clNDV0dXbDBNTV9hN0dVc3hxN29DZmZiLVpaelkzNDNubVdIQ3o0eS1TZnpsemVUck5KZVA3SnROSWZfR3RPalVUWV9SQ05hOWctT3ZCb19XcF9Zd1BodENSSg?oc=5",
    "ek": "on eleme: 2026-03-05"
   },
   {
    "sebep": "pencere_disi",
-   "baslik": "Tezcan Galvaniz’de iyi şeyler de oluyor! - Kocaeli Gündem",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPM1JhaTg2cDZxYXE5cThMaGlyV05rRl9XalVzdXFHckdyeTJDYk5CUnZCa2xXMFJ2eGVOcjRDcFZGX0ZxNENVaDZyWDNHSmQzY2JhQjZIUmdiYnFBbHctbVpua3FwejV1WnJ6S1VvQlFpVzdidXpsZ2laWHZ1Yk5fUl9nODZjd9IBiwFBVV95cUxQX1QyR28zd1R5dTRRNmVqRGsxQzNMRi15VEpVTFFJMjNIZ19sQjlzTG1JdFNQRmR6MklOaVR4ZmV0SVI5VC1vS1lIZWJzZzJESEhRVk5fSlcwVWRPZmRtUXpHcndyNU5jcHloVDR6SzlDZjk1c0hpbGpmOEQzLU1jNFFYT1FQZDZKdEdR?oc=5",
-   "ek": "on eleme: 2026-03-05"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Tezcan Galvaniz’de Özçelik İş ve işveren anlaştı kazanan işçi oldu! - Nokta Gazetesi",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdnd2T2JnYmZSTzRiRzBBa2h6N0dpRjBhak9faHl2eDlYa2Jzb1psM1JzUEhIY1dGZk1QbW1aLTVOQy1RR2hvbS0zcVpYRTdiXzN6ZWlKd1FqWkU1RGhfci1XY3Q1eHc4VUJnX2ZLaWlndnliYm5xS2tOM01SSDgwblNUekQyLVI1aUozZmV2ZldzLVg2UGRHVmltWmQ3dUVjakxwWnFhQnVJeVdFTS1rTnpVUTV0SW_SAbwBQVVfeXFMTmVvVXhFU3dvSG1GdG1ocXYtREhrMENWSndvdXVZVExpaFQ1ODFoOHBPZE9aZ0VmTUtNa3F3QVU4czJQQjJjUFk2SlJxWWxIS2ZjLU5rX0lvbk0yb25UTjZ6QXJQVzFCY25iR3ZXbU44MWJtdmRaN1VLbl9tODZoLW0zblhvZHRYTHUwR0p2aHNLSmJlUmxnTXRYaklfOWg4MWR4aFZIZVNRWEdZY1VyMzYxaDNGTWJqZWpCaU4?oc=5",
-   "ek": "on eleme: 2026-03-06"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Tezcan Galvaniz’de kaç tane kaçak kuyu var? - Kocaeli Gündem",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOT0M4NXd4TWFVbDAtelJjOUJzOUprLU1fRzZsbGZ4TWp0YUJ4SDRuZ1NTZUE3OF9rZnlVdl9uWGpDX3IzalM4SXhyNUlHcThkT1BaVTVBUlR6LS1iTy1HVVVuQng4ZjZZTGFmajQ1Q05ESjlNbFVDN1JQS2xBUXFNRDZpWExKaWFDalHSAY8BQVVfeXFMTy1ablN6cGFRY09ydG1QamdXZTJSRmR2V2huc09KbVQtaFBDbG5URnZDejN6b19XY29nM3lDMmg5M1R5dlUtblU5T2VjazYtNkhjOGxJUnhndHVlNzU3a1NoQlRNekxaM1B0N0FiRHVPWVVENWhuNnB1Y2dxVU9zZkdHdXdZZzR5S3o0WGNjajg?oc=5",
-   "ek": "on eleme: 2025-12-08"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Tezcan Galvaniz’de hakkını arayan işçi işten atıldı - Kocaeli Gündem",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQck9Db09FS1BkYWdmQmpYOGZoRXp4NXJLeElzcS1EbDBDalR0amNRbGlCWm83VndjVWkxQkZzYy1VUlJJcFZmR1VKRFVDV3lEVHl4eDFfb0RPSnZOWWpENWhnZEJlYUV5dlhIOExkR21DeUpjckN3dGwyZXVGVWR0bkIxMHVwWWRTMUE5dV9URjE1Zl9DcHfSAZsBQVVfeXFMTkk5SFhwbm5zVnhEUC04UkFpRUtDaVdKN25URkVPcS1FMXVfQkZWVVljOGszZ3VEZWJwN2czVFdtRlFQTmxzZmxiUWw2aGJMYTRwRlpCdGdsWmhxaDJPMHRQUTBMcFlPX1BNV0ZxcXJpSS1aNF81WG5ibldPaHg3d3JPTVZZZkxfMUZxSFdVb2wxRGVDWmFPaGwzN1U?oc=5",
-   "ek": "on eleme: 2025-10-01"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Tezcan Galvaniz’de anlaşma sağlandı! - kocaeligazetesi.com.tr",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNMGFoX2NiMEJUMzlKM3NxUzVjMXRmMDlkYURoNFh0Wm5KTTlYclBFcEY2NVIwYlpqRE4wZjlqX2ktVVB3ckVoSk84TGFqU1h6WFhWeDBpVTk2UkktRzN6VjE3cmY1NUdjbC1XNFpPWWNMZGZ0RDJ3ajI4ZTZwaERnQlAxWnJaQ1dURkxKWA?oc=5",
-   "ek": "on eleme: 2025-04-29"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Tezcan Galvaniz’de patron şımarıklığı! - Bağımsız Kocaeli Gazetesi",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQTFOaXdOV09pQU1RSGFFQUVlZEZybG14bXlrdS0tVlZkZk5iaVdiSmJDU1l5SmRPN0lzenJzVnFMS0QxdS1DUF9vTHViTGRoWWhaU2gzNTVlb0Vua3dFOUlNU1pfWWRIRjFfTU1YR2tIVGlzaHRsQi1nLS1BN1NqTnBxVGI5TXk5VHI1NWZpdE9ieTAyZ0hoYQ?oc=5",
-   "ek": "on eleme: 2024-01-02"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "AKP, Dayakçı Tezcan Galvaniz Patronuna Sırtını Döndü! Kocaman’dan İşçilerin Grevine Destek Ziyareti.. - kocaelihalkgazetesi.com",
-   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNb2QyZ3ptczQxcko0c3JKZG5reHN3ZWpEWjZXQm9MMXFILUVSTHdSbHYzaWJvbnh1ZXZONnUycTZjYnQ3dHoyQS1nUFR6RTUwRUZfWTlwODlSSkFYdTVYWlZuQ3BENEhBNUdSY1huZHlvS09ISWZ5cEdZZjBoaGZtemY4eS1oVzJYVVRkLTN6cVZsRHZ6dWxlSGJtZmtrT0tGaTBQSlZzc25aS2lvaFdjbTF0U01vRzZsSHFvYWtRbTZLMmxFeEhOVHQzbXRqMlJjbW9GNVpFZ2VxNjjSAeABQVVfeXFMTzRWZ3VPSER0SFdGbnowOS1qZ0F5d2I3TEREQmMxT3VneklKUVhOTEdXbmtDdUg3V3BUVmw4MjhJNHo3YzZKOUdJSWxZbVFEcjkxeXdhRTFWZHp3S1BIQ3RUVlpuTlVDZW5lRGJ3Z2VhbWJZWTh0c0U0S0l3czlUUmFLNGpwRVRQYkQ1dHh3T3c2MUJJYWd0ZEhVRXQ0OVllRVRfSWdVNG5qMS1GcUNLMGFKYks4RnRwZUlvU0l3VUU2cEVERjNpeWZXMWxDVjBKa2tCS2Z0TERIRjBobGlITGo?oc=5",
-   "ek": "on eleme: 2025-03-13"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Tezcan Galvaniz’de sendika ve işçiler, işveren hakkında suç duyurusu bulundu! - Bağımsız Kocaeli Gazetesi",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOaXJCNVFXdlFqVGhSSENTUEJtS2xfVFQ3c3FBT1UySk4yTlhySXJIQm5pNDBlUEhRaVd3VEpuQ1M1LW9TV2tYbFNieGQ5WnJCbDM5NlFLUEctUDRrQ1JXeEV6NUVvRlVYVXg0azVHbGc1c1FmVGVvQnZTMldRbnRBQ1p2MlJqSVlTSnNOT0tQZDUyU1NXLWJmMVVDV1dpb2N2d1QzTUY5S1l1Q3JtSVZGVEE0cUIza3NpTzhUeXhQTm0wYmJ0aVNFSA?oc=5",
-   "ek": "on eleme: 2025-03-12"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Tezcan Galvaniz grevi bayramda da devam ediyor! - Ses Kocaeli Gazetesi",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMnoxd0F2dFhTNG5vZFhYVXBsOVF0OE1rYkdZN0htcTlVbTAxLWFjMVlwVjZvRUhyWEpoTVUteklHV0hsZkVZNGRHR192SDZHaUQ5T1FGOTJkOEFJNVNSdUJpc0ZSbUlKSy1IcDFKaVZwZDIyWGhIQ2toVFV3akJXaDhZbGJERXAxODhXblVRNmVEUdIBlwFBVV95cUxQeVhFdTI5U1drZm54WlJSa3VlTnlCSlEzamY5V3F0eHZYeEl2SjJpTnV2VGVDNWJJTVpuaUR6bFl2em9JQzdpcDZHZnc3dEYwS1FiVWlPRFVwLUVpR0N5aXlZUHNScUR1czdMbkhTcFlCcG9kREx6TkpEWFE0ZGRrRXh3Zi12a1dyU2pBYU5nZ2t6eXR0a0k0?oc=5",
-   "ek": "on eleme: 2025-04-01"
-  },
-  {
-   "sebep": "tarihsiz_elendi",
-   "baslik": "Tezcan Galvaniz işçileri, kendilerini fabrikaya kapattı",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbFhnVkVNOHNIODVvU2VyaDdvbERDM0VJcE54NEpyeW5WUUZkemtQYnpXaUhnaFo0UXdUMkxYLVQyVFFnTUtzQzRTUDAwTnZDVkRHYm5SWGlSeHU4VXBVaXpDdDdoekd0Q21MdDhjYnVnY0FfOExIMDEzNDl5QVVjbWNvR0xfNnZoRGVzYk9OTU1nZw?oc=5",
-   "ek": ""
+   "baslik": "Tezcan Galvaniz’de sular durulmuyor: \"Yaklaşık 70 işçi düşük tazminatla işten ayrılmaya mecbur bırakıldı” - Özgür Kocaeli",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPNE5mR1RSVlNybk0xazBPaG56TlYzU2JPUkNKbndqSUh3OHVFNXc3MlBFajJ6c3kxQk5QUXE1QmJ0QTBudGZtMUlzbkpyYmtMYVprSnZqcXcwRU1SeWxXeDFLdHRHX3ZCbklkNXh0SnJOMGIySTc3dXFxeFNxZWczcmVBVkV5OHFmLURld1Y3SW40M3U4R0ZYdUtBWjdTTWh3bWNZZ18wYW4yUDhPUDNyd2sxa0xsSzV4dk00cHRQVDR4RTNMVklXM3hRTWZnSUc3a0N1bnJRVzkybTRLSUs3U1Z30gHnAUFVX3lxTFB4cXNBUzMwQlVsdlptbjdGanlnaWZPbXFYMU9DbllqSDBsZmZ1MENmMDVvLTg4MHZEVnRnUnduNVpuN2JEdVA4cks2dS1uMEI0T2xlWUtWdnZXc0RjT19nN1lfWGIyazZsZ0dTeE9uM09UbTZsbmFXdVVLZ09qMkpka1FwZktyNWk4aW01Y3YzSy0yNmF3SHNHSWFia1QxQ3dkVVowSVdobmFmU0FiVDZtbjEyTDZYY2hDZ1ZJYlNWZXNVTlpYdUt5WHFGUE9jNlhZRHBtajlnN3VlaGtqSGI4MnNBQTBHSQ?oc=5",
+   "ek": "on eleme: 2025-11-28"
   },
   {
    "sebep": "tarihsiz_elendi",
@@ -3028,15 +3040,15 @@
   },
   {
    "sebep": "tarihsiz_elendi",
-   "baslik": "Nurten Erk: Borusan bayiliğinden galvaniz krallığına",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZEl6alFxNy1wSVN5ZWxXTFBUUDRrdGhkbmRSeGJiZWk1X3g4UXd1SGNRcVEtSDhMa3M5QTBzMnZwOTBCRmdDc2N6aFJkTXo5eUFpWmo4QlV4aVRMM1F5NEZGazZQdUVyRFVGdmM1a0p3RWJKR1AxaVdyWkJJQnVpZmt5cGpYMkhyaDBEbUlqUUgwNHExRlZnNXF6WjdxbzJ1eWV1Y3RxbmxHU21MNlNFSGtPcGRYb1E?oc=5",
+   "baslik": "Tezcan Galvaniz işçileri, kendilerini fabrikaya kapattı",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbFhnVkVNOHNIODVvU2VyaDdvbERDM0VJcE54NEpyeW5WUUZkemtQYnpXaUhnaFo0UXdUMkxYLVQyVFFnTUtzQzRTUDAwTnZDVkRHYm5SWGlSeHU4VXBVaXpDdDdoekd0Q21MdDhjYnVnY0FfOExIMDEzNDl5QVVjbWNvR0xfNnZoRGVzYk9OTU1nZw?oc=5",
    "ek": ""
   },
   {
-   "sebep": "tekrar",
-   "baslik": "Museveni opens $125m Roofings steel plant in Namanve",
-   "url": "https://www.monitor.co.ug/uganda/news/national/museveni-opens-125m-roofings-steel-plant-in-namanve-5571352",
-   "ek": "ayni olayin varyanti: *|ulke-hat|Uganda|Soguk hadde|Ilk urun; museveni|fu|Uganda|Soguk hadde; museveni|hat|Soguk hadde|Ilk urun; museveni|ulke|Uganda|Ilk urun"
+   "sebep": "tarihsiz_elendi",
+   "baslik": "Nurten Erk: Borusan bayiliğinden galvaniz krallığına",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZEl6alFxNy1wSVN5ZWxXTFBUUDRrdGhkbmRSeGJiZWk1X3g4UXd1SGNRcVEtSDhMa3M5QTBzMnZwOTBCRmdDc2N6aFJkTXo5eUFpWmo4QlV4aVRMM1F5NEZGazZQdUVyRFVGdmM1a0p3RWJKR1AxaVdyWkJJQnVpZmt5cGpYMkhyaDBEbUlqUUgwNHExRlZnNXF6WjdxbzJ1eWV1Y3RxbmxHU21MNlNFSGtPcGRYb1E?oc=5",
+   "ek": ""
   },
   {
    "sebep": "tekrar",
@@ -3064,15 +3076,51 @@
   },
   {
    "sebep": "tekrar",
-   "baslik": "Roofings Unveils $125m Steel Mill, Doubles Cold-Rolled Capacity to 300,000 Tonnes",
-   "url": "https://softpower.ug/roofings-unveils-125m-steel-mill-doubles-cold-rolled-capacity-to-300000-tonnes/",
+   "baslik": "Primetals secures PLTCM automation order",
+   "url": "https://www.steeltimesint.com/news/primetals-secures-pltcm-automation-order",
    "ek": ""
   },
   {
    "sebep": "tekrar",
-   "baslik": "Konya'da 430 milyon dolarlık çifte yatırım: Haddehane gün sayıyor, yeni hat geliyor",
-   "url": "https://www.yenihaberden.com/konya-da-430-milyon-dolarlik-cifte-yatirim-haddehane-gun-sayiyor-yeni-hat-geliyor/1859098/",
+   "baslik": "Primetals Technologies to modernize KG Steel’s cold rolling mill in South Korea",
+   "url": "https://www.steelradar.com/en/haber/primetals-technologies-to-modernize-kg-steels-cold-rolling-mill-in-south-korea/",
+   "ek": "ayni olayin varyanti: primetals technologies|fu|G. Kore|Soguk hadde; primetals technologies|hat|Soguk hadde|Modernizasyon; primetals technologies|ulke|G. Kore|Modernizasyon; primetals|fu|G. Kore|Soguk hadde; primetals|hat|Soguk hadde|Modernizasyon; primetals|ulke|G. Kore|Modernizasyon"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "ANDRITZ to supply galvinising line to JSW Steel",
+   "url": "https://www.steeltimesint.com/news/andritz-to-supply-galvinising-line-to-jsw-steel",
+   "ek": "ayni olayin varyanti: andritz|fu|Hindistan|Galvaniz hatti (CGL); andritz|hat|Galvaniz hatti (CGL)|Sozlesme; andritz|ulke|Hindistan|Sozlesme; jsw steel|fu|Hindistan|Galvaniz hatti (CGL); jsw steel|hat|Galvaniz hatti (CGL)|Sozlesme; jsw steel|ulke|Hindistan|Sozlesme"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "ANDRITZ Wins Order From JSW Steel for Automotive-Grade Galvanized Steel Production",
+   "url": "https://news.europawire.eu/andritz-wins-order-from-jsw-steel-for-automotive-grade-galvanized-steel-production/eu-press-release/2026/08/26/13/13/18/179789/",
+   "ek": "ayni olayin varyanti: andritz|fu|Hindistan|Galvaniz hatti (CGL); andritz|hat|Galvaniz hatti (CGL)|Sozlesme; andritz|ulke|Hindistan|Sozlesme; automotive grade galvanized steel production|fu|Hindistan|Galvaniz hatti (CGL); automotive grade galvanized steel production|hat|Galvaniz hatti (CGL)|Sozlesme; automotive grade galvanized steel production|ulke|Hindistan|Sozlesme"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "JSW Steel orders galvanizing line from ANDRITZ for automotive steels",
+   "url": "https://www.steelradar.com/en/haber/jsw-steel-orders-galvanizing-line-from-andritz-for-automotive-steels/",
+   "ek": "ayni olayin varyanti: andritz|hat|Galvaniz hatti (CGL)|Sozlesme; jsw steel|hat|Galvaniz hatti (CGL)|Sozlesme"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "JSW Steel Orders ANDRITZ Galvanising Line for AHSS Automotive Applications",
+   "url": "https://tubepipeindia.com/jsw-steel-orders/",
+   "ek": "ayni olayin varyanti: andritz|hat|Galvaniz hatti (CGL)|Sozlesme; jsw steel|hat|Galvaniz hatti (CGL)|Sozlesme"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "ANDRITZ : JSW Steel, India, orders ANDRITZ galvanizing line for advanced automotive steels",
+   "url": "https://www.marketscreener.com/news/andritz-jsw-steel-india-orders-andritz-galvanizing-line-for-advanced-automotive-steels-ce7858dbd081fe21",
    "ek": ""
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "Saritas Stainless Steel orders Andritz cold rolling lines",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/saritas-stainless-steel-orders-andritz-cold-rolling-lines-0526/",
+   "ek": "benzer baslik (gecmis 21 gun)"
   },
   {
    "sebep": "tekrar",
@@ -3094,33 +3142,27 @@
   },
   {
    "sebep": "tekrar",
-   "baslik": "Primetals secures PLTCM automation order",
-   "url": "https://www.steeltimesint.com/news/primetals-secures-pltcm-automation-order",
+   "baslik": "ANDRITZ Wins Order From JSW Steel for Automotive-Grade Galvanized Steel Production",
+   "url": "https://news.europawire.eu/andritz-wins-order-from-jsw-steel-for-automotive-grade-galvanized-steel-production/eu-press-release/2026/08/26/13/13/18/179789/",
+   "ek": "ayni olayin varyanti: andritz|fu|Hindistan|Galvaniz hatti (CGL); andritz|hat|Galvaniz hatti (CGL)|Sozlesme; andritz|ulke|Hindistan|Sozlesme; automotive grade galvanized steel production|fu|Hindistan|Galvaniz hatti (CGL); automotive grade galvanized steel production|hat|Galvaniz hatti (CGL)|Sozlesme; automotive grade galvanized steel production|ulke|Hindistan|Sozlesme"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "ANDRITZ Wins Order From JSW Steel for Automotive-Grade Galvanized Steel Production",
+   "url": "https://news.europawire.eu/andritz-wins-order-from-jsw-steel-for-automotive-grade-galvanized-steel-production/eu-press-release/2026/08/26/13/13/18/179789/",
+   "ek": "ayni olayin varyanti: andritz|fu|Hindistan|Galvaniz hatti (CGL); andritz|hat|Galvaniz hatti (CGL)|Sozlesme; andritz|ulke|Hindistan|Sozlesme; automotive grade galvanized steel production|fu|Hindistan|Galvaniz hatti (CGL); automotive grade galvanized steel production|hat|Galvaniz hatti (CGL)|Sozlesme; automotive grade galvanized steel production|ulke|Hindistan|Sozlesme"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "Roofings Unveils $125m Steel Mill, Doubles Cold-Rolled Capacity to 300,000 Tonnes",
+   "url": "https://softpower.ug/roofings-unveils-125m-steel-mill-doubles-cold-rolled-capacity-to-300000-tonnes/",
    "ek": ""
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "ANDRITZ Wins Order From JSW Steel for Automotive-Grade Galvanized Steel Production",
-   "url": "https://news.europawire.eu/andritz-wins-order-from-jsw-steel-for-automotive-grade-galvanized-steel-production/eu-press-release/2026/08/26/13/13/18/179789/",
-   "ek": "ayni olayin varyanti: andritz|fu|Hindistan|Galvaniz hatti (CGL); andritz|hat|Galvaniz hatti (CGL)|Sozlesme; andritz|ulke|Hindistan|Sozlesme; automotive grade galvanized steel production|fu|Hindistan|Galvaniz hatti (CGL); automotive grade galvanized steel production|hat|Galvaniz hatti (CGL)|Sozlesme; automotive grade galvanized steel production|ulke|Hindistan|Sozlesme"
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "ANDRITZ Wins Order From JSW Steel for Automotive-Grade Galvanized Steel Production",
-   "url": "https://news.europawire.eu/andritz-wins-order-from-jsw-steel-for-automotive-grade-galvanized-steel-production/eu-press-release/2026/08/26/13/13/18/179789/",
-   "ek": "ayni olayin varyanti: andritz|fu|Hindistan|Galvaniz hatti (CGL); andritz|hat|Galvaniz hatti (CGL)|Sozlesme; andritz|ulke|Hindistan|Sozlesme; automotive grade galvanized steel production|fu|Hindistan|Galvaniz hatti (CGL); automotive grade galvanized steel production|hat|Galvaniz hatti (CGL)|Sozlesme; automotive grade galvanized steel production|ulke|Hindistan|Sozlesme"
   },
   {
    "sebep": "tekrar",
    "baslik": "Museveni Unveils $120 Million Steel Complex to Boost Ugandan Manufacturing",
    "url": "https://www.ugandaonline.net/news/2026-08-25--museveni-unveils-120-million-steel-complex-to-boost-ugandan-manufacturing--b1b8655f4860/",
    "ek": "ayni olayin varyanti: *|ulke-hat|Uganda|Soguk hadde|Ilk urun; boost ugandan manufacturing|fu|Uganda|Soguk hadde; boost ugandan manufacturing|hat|Soguk hadde|Ilk urun; boost ugandan manufacturing|ulke|Uganda|Ilk urun"
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "Konya'da 430 milyon dolarlık çifte yatırım: Haddehane gün sayıyor, yeni hat geliyor",
-   "url": "https://www.yenihaberden.com/konya-da-430-milyon-dolarlik-cifte-yatirim-haddehane-gun-sayiyor-yeni-hat-geliyor/1859098/",
-   "ek": ""
   },
   {
    "sebep": "tekrar",

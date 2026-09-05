@@ -1,6 +1,33 @@
 {
  "rows": [
   {
+   "tarih": "2026-08-30",
+   "firma": "USSK",
+   "ulke": "Turkiye",
+   "hat": "Elektrik celigi hatti",
+   "asama": "Sozlesme",
+   "tedarikci": "Tenova",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "USSK orders new electrical steel plant from Tenova",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_sup05",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/ussk-orders-new-electrical-steel-plant-tenova-0619/",
+   "tarih_kaynagi": "rss",
+   "eksik": [],
+   "anahtar": "98a2950f8f9b76b6",
+   "kategori": "Hat",
+   "olaylar": [
+    "tenova|fu|Turkiye|Elektrik celigi hatti",
+    "tenova|hat|Elektrik celigi hatti|Sozlesme",
+    "tenova|ulke|Turkiye|Sozlesme",
+    "ussk|fu|Turkiye|Elektrik celigi hatti",
+    "ussk|hat|Elektrik celigi hatti|Sozlesme",
+    "ussk|ulke|Turkiye|Sozlesme"
+   ],
+   "puan": 71.6
+  },
+  {
    "tarih": "2026-09-03",
    "firma": "Primetals",
    "ulke": "",
@@ -22,7 +49,7 @@
    "olaylar": [
     "primetals|hat|Tandem soguk hadde (TCM)|Sozlesme"
    ],
-   "puan": 61.6
+   "puan": 61.2
   },
   {
    "tarih": "2026-09-02",
@@ -47,7 +74,7 @@
    "olaylar": [
     "metallus|hat|Belirsiz|Ilk urun"
    ],
-   "puan": 43.2
+   "puan": 42.8
   },
   {
    "tarih": "2026-08-24",
@@ -73,7 +100,7 @@
     "danieli|hat|Bobin tasima / paketleme|Belirsiz",
     "ns sus|hat|Bobin tasima / paketleme|Belirsiz"
    ],
-   "puan": 21.6
+   "puan": 21.2
   },
   {
    "tarih": "2026-09-01",
@@ -98,32 +125,7 @@
    "olaylar": [
     "xinyu steel|hat|Elektrik celigi hatti|Belirsiz"
    ],
-   "puan": 4.8
-  },
-  {
-   "tarih": "2026-09-02",
-   "firma": "Konya'da",
-   "ulke": "",
-   "hat": "Soguk hadde",
-   "asama": "Belirsiz",
-   "tedarikci": "",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "Konya'da 430 milyon dolarlık çifte yatırım: Haddehane gün sayıyor, yeni hat geliyor",
-   "kaynak": "yenihaberden.com",
-   "kaynak_id": "gx_q_tr1",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTU5oR2MyUTFrT1NXVE9MWEh3eE9WNDU1VXFKOFdKVHZrX1Yzb29KSWxCVndOWmhUR19JQUtPamFwLWhkUEpLQ3VMMEdlQndPaXY5YmEySEhoYUZNOElBSGFVQ210clU1SVNsYjN1Ykk5M2lzMS1WeVZFdnB5WmJzc3VUVHZCLW1tYUtFaVZUbDdOUFIySXRRQ0xEalI0azNlQWdEUVZzWncyVWRUT2xfelpnNUUxc0VBR1Zr?oc=5",
-   "tarih_kaynagi": "rss",
-   "eksik": [
-    "ulke",
-    "asama"
-   ],
-   "anahtar": "6b5ba9496b3d7d58",
-   "kategori": "Yatirim",
-   "olaylar": [
-    "konya'da|hat|Soguk hadde|Belirsiz"
-   ],
-   "puan": 2.2
+   "puan": 4.4
   },
   {
    "tarih": "2026-09-01",
@@ -148,19 +150,19 @@
    "olaylar": [
     "arcelormittal brasil|hat|Soguk hadde|Belirsiz"
    ],
-   "puan": 1.8
+   "puan": 1.4
   }
  ],
  "stats": {
   "kaynak": 291,
-  "erisilemeyen": 10,
-  "ham": 3519,
-  "on_eleme_gecti": 336,
-  "makale_acildi": 213,
+  "erisilemeyen": 11,
+  "ham": 3683,
+  "on_eleme_gecti": 343,
+  "makale_acildi": 206,
   "tarihsiz_elendi": 88,
-  "pencere_disi": 226,
-  "kapsam_disi": 3165,
-  "tekrar": 34,
+  "pencere_disi": 238,
+  "kapsam_disi": 3310,
+  "tekrar": 41,
   "kabul": 6,
   "gnews_tarih": 0
  },
@@ -186,7 +188,7 @@
    "HTTP 403"
   ],
   [
-   "SteelGuru",
+   "The Canmaker",
    "URLError: <urlopen error timed out>"
   ],
   [
@@ -204,6 +206,10 @@
   [
    "Sanayi Gazetesi",
    "HTTP 403"
+  ],
+  [
+   "Steel Manufacturers Assoc.",
+   "URLError: <urlopen error timed out>"
   ]
  ],
  "kinds": {
@@ -499,7 +505,7 @@
   "bgtek_jc": "arama",
   "bgtek_danieli": "arama"
  },
- "today": "2026-09-04",
+ "today": "2026-09-05",
  "host_saglik": {
   "news.google.com": {
    "istek": 112,
@@ -511,6 +517,11 @@
    "hiz_siniri": 0,
    "sogutmada": false
   },
+  "www.aist.org": {
+   "istek": 23,
+   "hiz_siniri": 0,
+   "sogutmada": false
+  },
   "www.otto-junker.com": {
    "istek": 21,
    "hiz_siniri": 0,
@@ -519,23 +530,24 @@
   "www.cognex.com": {
    "istek": 2,
    "hiz_siniri": 2,
-   "sogutmada": false
+   "sogutmada": true
   }
  },
  "tech_pool": [],
  "kaynak_katki": {
   "Heat Treat Today": 1,
-  "Google News": 5
+  "Google News": 4,
+  "Bing News": 1
  },
  "window": [
-  "2026-08-14",
-  "2026-09-04"
+  "2026-08-15",
+  "2026-09-05"
  ],
  "bulunan_kullanilan": 0,
- "bulunan_havuz": 6,
+ "bulunan_havuz": 7,
  "rezerv_kullanilan": 0,
  "rezerv_havuz": 13,
  "period": "2026-W36",
- "generated": "2026-09-04 03:40 UTC",
+ "generated": "2026-09-05 03:36 UTC",
  "version": "3.0.0"
 }

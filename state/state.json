@@ -202,6 +202,33 @@
    "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPdE9Sa2dwY2VrTTk5YlVVMmJ5SFR2YzUyNnN0X1Y3UmZja2I0eXNKTUNKcU1PRWJWZmFLRXU0bkdHR3NjSXR0dGNaWXIzMDNyTmd0RERRc2hJYkZHVFFNRjJIRUFoSUk3LVh1TWhzVEhmRVJNTmhlX0JzQWZZU1JfOFlQc0JoNi1OVHlibDNtZkFkRkFyUlpyNFNMVVV4THdIV09mNmxSSFYya3NJN3BZdVlrOFZ5ZlJsZS02cXBiRjFZeFZ4bVA4Z0J2RXFnYzVieEc4VlBMZWU5eGlJN3Vmak1NRld3U3V5ZnRnaWtWbHA3ZU9yOHd4ZktEVjRfTGdnVW9pR3dn?oc=5"
   },
   {
+   "anahtar": "98a2950f8f9b76b6",
+   "asama": "Sozlesme",
+   "baslik": "USSK orders new electrical steel plant from Tenova",
+   "eksik": [],
+   "firma": "USSK",
+   "hat": "Elektrik celigi hatti",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_sup05",
+   "olaylar": [
+    "tenova|fu|Turkiye|Elektrik celigi hatti",
+    "tenova|hat|Elektrik celigi hatti|Sozlesme",
+    "tenova|ulke|Turkiye|Sozlesme",
+    "ussk|fu|Turkiye|Elektrik celigi hatti",
+    "ussk|hat|Elektrik celigi hatti|Sozlesme",
+    "ussk|ulke|Turkiye|Sozlesme"
+   ],
+   "puan": 71.6,
+   "tarih": "2026-08-30",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "Tenova",
+   "tutar": "",
+   "ulke": "Turkiye",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/ussk-orders-new-electrical-steel-plant-tenova-0619/"
+  },
+  {
    "anahtar": "f1860f395525b68a",
    "asama": "Belirsiz",
    "baslik": "NS-SUS Completes Installation of New Danieli Coil-Handling Cranes",
@@ -1156,6 +1183,24 @@
     "tekrar": 34
    },
    "uretim": "2026-09-04 03:40 UTC"
+  },
+  {
+   "donem": "2026-W36",
+   "satir": 6,
+   "stats": {
+    "erisilemeyen": 11,
+    "gnews_tarih": 0,
+    "ham": 3683,
+    "kabul": 6,
+    "kapsam_disi": 3310,
+    "kaynak": 291,
+    "makale_acildi": 206,
+    "on_eleme_gecti": 343,
+    "pencere_disi": 238,
+    "tarihsiz_elendi": 88,
+    "tekrar": 41
+   },
+   "uretim": "2026-09-05 03:36 UTC"
   }
  ],
  "rezerv": [
