@@ -25,7 +25,7 @@
     "ussk|hat|Elektrik celigi hatti|Sozlesme",
     "ussk|ulke|Turkiye|Sozlesme"
    ],
-   "puan": 71.6
+   "puan": 71.2
   },
   {
    "tarih": "2026-09-03",
@@ -49,7 +49,7 @@
    "olaylar": [
     "primetals|hat|Tandem soguk hadde (TCM)|Sozlesme"
    ],
-   "puan": 61.2
+   "puan": 60.8
   },
   {
    "tarih": "2026-09-02",
@@ -74,33 +74,7 @@
    "olaylar": [
     "metallus|hat|Belirsiz|Ilk urun"
    ],
-   "puan": 42.8
-  },
-  {
-   "tarih": "2026-08-24",
-   "firma": "NS-SUS",
-   "ulke": "",
-   "hat": "Bobin tasima / paketleme",
-   "asama": "Belirsiz",
-   "tedarikci": "Danieli",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "NS-SUS Completes Installation of New Danieli Coil-Handling Cranes",
-   "kaynak": "AIST Association for Iron & Steel Technology",
-   "kaynak_id": "gs_aist",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNejhtT3VSU2JqekN5bVh3bnhHdmFMbEtfWmxzQ0hFNXFhV2U5TklNWkhsbXYwQ3JnWEpNOGNyS2ZHRGZjYzViWmtDSEpZZnFiMDUxdktCWnpIWGJtNXNEaDNMUE5zRzIzNFFGZkRQc0RjNjdxOS15d0JpT2o2SFMyaUU4c0xMSU5QdG11YW14UQ?oc=5",
-   "tarih_kaynagi": "rss",
-   "eksik": [
-    "ulke",
-    "asama"
-   ],
-   "anahtar": "f1860f395525b68a",
-   "kategori": "Hat",
-   "olaylar": [
-    "danieli|hat|Bobin tasima / paketleme|Belirsiz",
-    "ns sus|hat|Bobin tasima / paketleme|Belirsiz"
-   ],
-   "puan": 21.2
+   "puan": 42.4
   },
   {
    "tarih": "2026-09-01",
@@ -125,45 +99,70 @@
    "olaylar": [
     "xinyu steel|hat|Elektrik celigi hatti|Belirsiz"
    ],
-   "puan": 4.4
+   "puan": 4.0
   },
   {
-   "tarih": "2026-09-01",
-   "firma": "ArcelorMittal Brasil",
-   "ulke": "",
-   "hat": "Soguk hadde",
+   "anahtar": "6b5ba9496b3d7d58",
    "asama": "Belirsiz",
-   "tedarikci": "",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "ArcelorMittal Brasil to invest in new cold rolling mill and coating lines",
-   "kaynak": "Steel Orbis",
-   "kaynak_id": "gs_orbis2",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZ0dBb1JlVzZvNy1pX3NMS2l3WjhLYWQ1T21sckpkbTZsVGpxa3BRaG9SZGJjTUhjSnlCOEpPbVVVaHBGM1dacFRSMk9zM0RCWGJwQlNkZUw4Y05TYnVHaWJYMWpaMkpKT25XNThscERvalI2M1c3bXpoNUtUQU1BUnhfMHFzRjhYcWtncDViVk5vSDJWVnRURG01WlVDY2VDV2JhZU9HdUZrb1k0cUJFRlM5bS1VU3Y1OHpaNG16bktwRk0waDNnbjZTWDh2dElY?oc=5",
-   "tarih_kaynagi": "rss",
+   "baslik": "Konya'da 430 milyon dolarlık çifte yatırım: Haddehane gün sayıyor, yeni hat geliyor",
    "eksik": [
     "ulke",
     "asama"
    ],
-   "anahtar": "5ddafe54499a1936",
+   "firma": "Konya'da",
+   "hat": "Soguk hadde",
+   "kapasite": "",
    "kategori": "Yatirim",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_tr00",
+   "olaylar": [
+    "konya'da|hat|Soguk hadde|Belirsiz"
+   ],
+   "puan": 2.6,
+   "tarih": "2026-09-02",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://www.yenihaberden.com/konya-da-430-milyon-dolarlik-cifte-yatirim-haddehane-gun-sayiyor-yeni-hat-geliyor/1859098/"
+  },
+  {
+   "anahtar": "5ddafe54499a1936",
+   "asama": "Belirsiz",
+   "baslik": "ArcelorMittal Brasil to invest in new cold rolling mill and coating lines",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "firma": "ArcelorMittal Brasil",
+   "hat": "Soguk hadde",
+   "kapasite": "",
+   "kategori": "Yatirim",
+   "kaynak": "SteelOrbis",
+   "kaynak_id": "steelorbis",
    "olaylar": [
     "arcelormittal brasil|hat|Soguk hadde|Belirsiz"
    ],
-   "puan": 1.4
+   "puan": 3.0,
+   "tarih": "2026-09-01",
+   "tarih_kaynagi": "json-ld",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/arcelormittal-brasil-to-invest-in-new-cold-rolling-mill-and-coating-lines-1474267.htm"
   }
  ],
  "stats": {
   "kaynak": 291,
-  "erisilemeyen": 11,
-  "ham": 3683,
-  "on_eleme_gecti": 343,
-  "makale_acildi": 206,
-  "tarihsiz_elendi": 88,
-  "pencere_disi": 238,
-  "kapsam_disi": 3310,
-  "tekrar": 41,
-  "kabul": 6,
+  "erisilemeyen": 12,
+  "ham": 3646,
+  "on_eleme_gecti": 354,
+  "makale_acildi": 202,
+  "tarihsiz_elendi": 89,
+  "pencere_disi": 249,
+  "kapsam_disi": 3256,
+  "tekrar": 48,
+  "kabul": 4,
   "gnews_tarih": 0
  },
  "unreachable": [
@@ -202,6 +201,10 @@
   [
    "MetalForming Magazine",
    "HTTP 404"
+  ],
+  [
+   "Metallurgprom",
+   "HTTP 403"
   ],
   [
    "Sanayi Gazetesi",
@@ -505,10 +508,10 @@
   "bgtek_jc": "arama",
   "bgtek_danieli": "arama"
  },
- "today": "2026-09-05",
+ "today": "2026-09-06",
  "host_saglik": {
   "news.google.com": {
-   "istek": 112,
+   "istek": 114,
    "hiz_siniri": 0,
    "sogutmada": false
   },
@@ -530,24 +533,24 @@
   "www.cognex.com": {
    "istek": 2,
    "hiz_siniri": 2,
-   "sogutmada": true
+   "sogutmada": false
   }
  },
  "tech_pool": [],
  "kaynak_katki": {
   "Heat Treat Today": 1,
-  "Google News": 4,
+  "Google News": 2,
   "Bing News": 1
  },
  "window": [
-  "2026-08-15",
-  "2026-09-05"
+  "2026-08-16",
+  "2026-09-06"
  ],
- "bulunan_kullanilan": 0,
+ "bulunan_kullanilan": 2,
  "bulunan_havuz": 7,
  "rezerv_kullanilan": 0,
  "rezerv_havuz": 13,
  "period": "2026-W36",
- "generated": "2026-09-05 03:36 UTC",
+ "generated": "2026-09-06 03:41 UTC",
  "version": "3.0.0"
 }

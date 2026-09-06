@@ -31,21 +31,6 @@
    }
   },
   {
-   "anahtar": "f1860f395525b68a",
-   "baslik": "NS-SUS Completes Installation of New Danieli Coil-Handling Cranes",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNejhtT3VSU2JqekN5bVh3bnhHdmFMbEtfWmxzQ0hFNXFhV2U5TklNWkhsbXYwQ3JnWEpNOGNyS2ZHRGZjYzViWmtDSEpZZnFiMDUxdktCWnpIWGJtNXNEaDNMUE5zRzIzNFFGZkRQc0RjNjdxOS15d0JpT2o2SFMyaUU4c0xMSU5QdG11YW14UQ?oc=5",
-   "eksik": [
-    "ulke",
-    "asama"
-   ],
-   "mevcut": {
-    "firma": "NS-SUS",
-    "ulke": "",
-    "hat": "Bobin tasima / paketleme",
-    "asama": "Belirsiz"
-   }
-  },
-  {
    "anahtar": "cae1022dd02a793f",
    "baslik": "Xinyu Steel, elektrik çeliği üretim kapasitesini 250 bin tona çıkardı",
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUERkVDlfM1NRTG81c0RlSHZWWksxRGx1MEVaN3lReHNxaTdRcEllaUdCZjVBZWFLeWhWc1dvcnU2aVNuLUIxVVRtaXgwRFlEeTN3ckRiZTZjbnd2SnlrNjNjSUx5MUszMi03TkJ3bFByMklzWS1BRVJ3clh4YncwTjhKX2ZNQ0MwUUc2QlAzNDNxVng5U0hfakIyVkk4YzVxNm54NQ?oc=5",
@@ -61,9 +46,24 @@
    }
   },
   {
+   "anahtar": "6b5ba9496b3d7d58",
+   "baslik": "Konya'da 430 milyon dolarlık çifte yatırım: Haddehane gün sayıyor, yeni hat geliyor",
+   "url": "https://www.yenihaberden.com/konya-da-430-milyon-dolarlik-cifte-yatirim-haddehane-gun-sayiyor-yeni-hat-geliyor/1859098/",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "mevcut": {
+    "firma": "Konya'da",
+    "ulke": "",
+    "hat": "Soguk hadde",
+    "asama": "Belirsiz"
+   }
+  },
+  {
    "anahtar": "5ddafe54499a1936",
    "baslik": "ArcelorMittal Brasil to invest in new cold rolling mill and coating lines",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZ0dBb1JlVzZvNy1pX3NMS2l3WjhLYWQ1T21sckpkbTZsVGpxa3BRaG9SZGJjTUhjSnlCOEpPbVVVaHBGM1dacFRSMk9zM0RCWGJwQlNkZUw4Y05TYnVHaWJYMWpaMkpKT25XNThscERvalI2M1c3bXpoNUtUQU1BUnhfMHFzRjhYcWtncDViVk5vSDJWVnRURG01WlVDY2VDV2JhZU9HdUZrb1k0cUJFRlM5bS1VU3Y1OHpaNG16bktwRk0waDNnbjZTWDh2dElY?oc=5",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/arcelormittal-brasil-to-invest-in-new-cold-rolling-mill-and-coating-lines-1474267.htm",
    "eksik": [
     "ulke",
     "asama"
@@ -106,16 +106,6 @@
    "asama": "Ilk urun",
    "baslik": "Metallus Commissions Furnaces for Defense Steel Production",
    "url": "https://www.heattreattoday.com/metallus-commissions-furnaces-for-defense-steel-production/"
-  },
-  {
-   "anahtar": "f1860f395525b68a",
-   "tarih": "2026-08-24",
-   "firma": "NS-SUS",
-   "ulke": "",
-   "hat": "Bobin tasima / paketleme",
-   "asama": "Belirsiz",
-   "baslik": "NS-SUS Completes Installation of New Danieli Coil-Handling Cranes",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNejhtT3VSU2JqekN5bVh3bnhHdmFMbEtfWmxzQ0hFNXFhV2U5TklNWkhsbXYwQ3JnWEpNOGNyS2ZHRGZjYzViWmtDSEpZZnFiMDUxdktCWnpIWGJtNXNEaDNMUE5zRzIzNFFGZkRQc0RjNjdxOS15d0JpT2o2SFMyaUU4c0xMSU5QdG11YW14UQ?oc=5"
   }
  ],
  "teknoloji_adaylari": []
