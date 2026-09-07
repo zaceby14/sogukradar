@@ -25,7 +25,7 @@
     "ussk|hat|Elektrik celigi hatti|Sozlesme",
     "ussk|ulke|Turkiye|Sozlesme"
    ],
-   "puan": 71.2
+   "puan": 70.8
   },
   {
    "tarih": "2026-09-03",
@@ -49,7 +49,7 @@
    "olaylar": [
     "primetals|hat|Tandem soguk hadde (TCM)|Sozlesme"
    ],
-   "puan": 60.8
+   "puan": 60.4
   },
   {
    "tarih": "2026-09-02",
@@ -74,7 +74,7 @@
    "olaylar": [
     "metallus|hat|Belirsiz|Ilk urun"
    ],
-   "puan": 42.4
+   "puan": 42.0
   },
   {
    "tarih": "2026-09-01",
@@ -99,7 +99,7 @@
    "olaylar": [
     "xinyu steel|hat|Elektrik celigi hatti|Belirsiz"
    ],
-   "puan": 4.0
+   "puan": 3.6
   },
   {
    "anahtar": "6b5ba9496b3d7d58",
@@ -154,14 +154,14 @@
  ],
  "stats": {
   "kaynak": 291,
-  "erisilemeyen": 12,
-  "ham": 3646,
-  "on_eleme_gecti": 354,
-  "makale_acildi": 202,
+  "erisilemeyen": 9,
+  "ham": 3679,
+  "on_eleme_gecti": 351,
+  "makale_acildi": 207,
   "tarihsiz_elendi": 89,
-  "pencere_disi": 249,
-  "kapsam_disi": 3256,
-  "tekrar": 48,
+  "pencere_disi": 253,
+  "kapsam_disi": 3284,
+  "tekrar": 49,
   "kabul": 4,
   "gnews_tarih": 0
  },
@@ -187,10 +187,6 @@
    "HTTP 403"
   ],
   [
-   "The Canmaker",
-   "URLError: <urlopen error timed out>"
-  ],
-  [
    "BigMint (SteelMint)",
    "HTTP 403"
   ],
@@ -203,16 +199,8 @@
    "HTTP 404"
   ],
   [
-   "Metallurgprom",
-   "HTTP 403"
-  ],
-  [
    "Sanayi Gazetesi",
    "HTTP 403"
-  ],
-  [
-   "Steel Manufacturers Assoc.",
-   "URLError: <urlopen error timed out>"
   ]
  ],
  "kinds": {
@@ -508,20 +496,15 @@
   "bgtek_jc": "arama",
   "bgtek_danieli": "arama"
  },
- "today": "2026-09-06",
+ "today": "2026-09-07",
  "host_saglik": {
   "news.google.com": {
-   "istek": 114,
+   "istek": 112,
    "hiz_siniri": 0,
    "sogutmada": false
   },
   "www.bing.com": {
    "istek": 101,
-   "hiz_siniri": 0,
-   "sogutmada": false
-  },
-  "www.aist.org": {
-   "istek": 23,
    "hiz_siniri": 0,
    "sogutmada": false
   },
@@ -533,7 +516,7 @@
   "www.cognex.com": {
    "istek": 2,
    "hiz_siniri": 2,
-   "sogutmada": false
+   "sogutmada": true
   }
  },
  "tech_pool": [],
@@ -543,14 +526,14 @@
   "Bing News": 1
  },
  "window": [
-  "2026-08-16",
-  "2026-09-06"
+  "2026-08-17",
+  "2026-09-07"
  ],
  "bulunan_kullanilan": 2,
  "bulunan_havuz": 7,
  "rezerv_kullanilan": 0,
- "rezerv_havuz": 13,
- "period": "2026-W36",
- "generated": "2026-09-06 03:41 UTC",
+ "rezerv_havuz": 14,
+ "period": "2026-W37",
+ "generated": "2026-09-07 03:36 UTC",
  "version": "3.0.0"
 }

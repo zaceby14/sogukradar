@@ -1219,6 +1219,24 @@
     "tekrar": 48
    },
    "uretim": "2026-09-06 03:41 UTC"
+  },
+  {
+   "donem": "2026-W37",
+   "satir": 6,
+   "stats": {
+    "erisilemeyen": 9,
+    "gnews_tarih": 0,
+    "ham": 3679,
+    "kabul": 4,
+    "kapsam_disi": 3284,
+    "kaynak": 291,
+    "makale_acildi": 207,
+    "on_eleme_gecti": 351,
+    "pencere_disi": 253,
+    "tarihsiz_elendi": 89,
+    "tekrar": 49
+   },
+   "uretim": "2026-09-07 03:36 UTC"
   }
  ],
  "rezerv": [
@@ -1247,6 +1265,33 @@
    "tutar": "Rs 900 Crore",
    "ulke": "Hindistan",
    "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOeXliOE0yWGlwUklNdXYyQ1p4ZThoZ2Z0OF9YcjJNczdScER0eEZQTWoxMFpwYThHdnczUFEyY1RwVzFXWkNQWUlERVNfREx2WlBCN3hrdVYyR2dMNmRXa3g2cHRpRlZqZkE3VVZPTVNua1N2UHVWUlh0QV8yV0dVc0xaamdiVk03Ynlxdmk4WWFJa1IyOS1IOWx1THFkeUhRZXkydFJMeXBoR3RUQVl2MkE4dVRyY09HWXNCQVM3MUVwWVBvYXp4S044WEY0N2tnQnpFVzR3SDBqcm1MeU1SSk9yZGxkZ09lMmlEd1hpVUU?oc=5"
+  },
+  {
+   "anahtar": "12ff956ae6e28c09",
+   "asama": "Modernizasyon",
+   "baslik": "Primetals Technologies to modernize KG Steel’s cold rolling mill in South Korea",
+   "eksik": [],
+   "firma": "Primetals Technologies",
+   "hat": "Soguk hadde",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_sup01",
+   "olaylar": [
+    "primetals technologies|fu|G. Kore|Soguk hadde",
+    "primetals technologies|hat|Soguk hadde|Modernizasyon",
+    "primetals technologies|ulke|G. Kore|Modernizasyon",
+    "primetals|fu|G. Kore|Soguk hadde",
+    "primetals|hat|Soguk hadde|Modernizasyon",
+    "primetals|ulke|G. Kore|Modernizasyon"
+   ],
+   "rezerv": true,
+   "tarih": "2026-08-16",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "Primetals",
+   "tutar": "",
+   "ulke": "G. Kore",
+   "url": "https://www.steelradar.com/en/haber/primetals-technologies-to-modernize-kg-steels-cold-rolling-mill-in-south-korea/"
   },
   {
    "anahtar": "2dd71ceba3d095f7",
