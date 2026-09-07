@@ -1,21 +1,24 @@
-# SogukRadar &mdash; 2026-W36
+# SogukRadar &mdash; 2026-W37
 
-**5 dogrulanmis gelisme** | pencere 2026-08-11 - 2026-09-01 | 291 kaynak tarandi
+**6 dogrulanmis gelisme** | pencere 2026-08-17 - 2026-09-07 | 291 kaynak tarandi
 
-1. **Integrated Cold Rolling Complex** (Tanzanya, 2026-08-31) &mdash; Soguk hadde / Sozlesme  
-   John Cockerill Signs Contract with A1 Iron & Steel for Integrated Cold Rolling Complex in Tanzania  
-   https://news.google.com/rss/articles/CBMimAFBVV95cUxOYWhzdjdOTS1scDR4azVuN0JiaHM1bm5FNTdGUlczOHgzYkwtNzZtVEhFY3VBRld1bWVPOTB0OXA1bHY4Z2l1UHNKbS1rLXlmNmNnbnV6eGxuUWRoYWw5X2FrMkJnV0g0Q1V2a3BVeHBTUTk0d2RRN29iNHdYaEFlVHQ2VXVITWVJZUlpSmgyTHhYdXNRWDhROA?oc=5
-2. **NS-SUS** (-, 2026-08-24) &mdash; Bobin tasima / paketleme / Belirsiz  
-   NS-SUS Completes Installation of New Danieli Coil-Handling Cranes  
-   https://news.google.com/rss/articles/CBMijwFBVV95cUxNejhtT3VSU2JqekN5bVh3bnhHdmFMbEtfWmxzQ0hFNXFhV2U5TklNWkhsbXYwQ3JnWEpNOGNyS2ZHRGZjYzViWmtDSEpZZnFiMDUxdktCWnpIWGJtNXNEaDNMUE5zRzIzNFFGZkRQc0RjNjdxOS15d0JpT2o2SFMyaUU4c0xMSU5QdG11YW14UQ?oc=5
-3. **ArcelorMittal Brasil** (-, 2026-09-01) &mdash; Soguk hadde / Belirsiz  
+1. **USSK** (Turkiye, 2026-08-30) &mdash; Elektrik celigi hatti / Sozlesme  
+   USSK orders new electrical steel plant from Tenova  
+   https://www.kallanish.com/en/news/steel/market-reports/article-details/ussk-orders-new-electrical-steel-plant-tenova-0619/
+2. **Primetals** (-, 2026-09-03) &mdash; Tandem soguk hadde (TCM) / Sozlesme  
+   Primetals secures PLTCM automation order  
+   https://news.google.com/rss/articles/CBMigAFBVV95cUxOVFV4U0VJZ0hYZUVGOGQzMkc0TnZyX3BRa3JaYVVqejZ4dW42SEhGNlItT1FZcHIzUUxrejJMai1zUDhGMXhHUFdPZktOWnZyQkhpODJzVnJMN2xNaDFDRXpPd1ZKREhZN1hld2NRTGtGLW43NWxLRkRsYzZQelUwcw?oc=5
+3. **Metallus** (-, 2026-09-02) &mdash; Belirsiz / Ilk urun  
+   Metallus Commissions Furnaces for Defense Steel Production  
+   https://www.heattreattoday.com/metallus-commissions-furnaces-for-defense-steel-production/
+4. **Xinyu Steel** (-, 2026-09-01) &mdash; Elektrik celigi hatti / Belirsiz  
+   Xinyu Steel, elektrik çeliği üretim kapasitesini 250 bin tona çıkardı  
+   https://news.google.com/rss/articles/CBMipAFBVV95cUxOUERkVDlfM1NRTG81c0RlSHZWWksxRGx1MEVaN3lReHNxaTdRcEllaUdCZjVBZWFLeWhWc1dvcnU2aVNuLUIxVVRtaXgwRFlEeTN3ckRiZTZjbnd2SnlrNjNjSUx5MUszMi03TkJ3bFByMklzWS1BRVJ3clh4YncwTjhKX2ZNQ0MwUUc2QlAzNDNxVng5U0hfakIyVkk4YzVxNm54NQ?oc=5
+5. **Konya'da** (-, 2026-09-02) &mdash; Soguk hadde / Belirsiz  
+   Konya'da 430 milyon dolarlık çifte yatırım: Haddehane gün sayıyor, yeni hat geliyor  
+   https://www.yenihaberden.com/konya-da-430-milyon-dolarlik-cifte-yatirim-haddehane-gun-sayiyor-yeni-hat-geliyor/1859098/
+6. **ArcelorMittal Brasil** (-, 2026-09-01) &mdash; Soguk hadde / Belirsiz  
    ArcelorMittal Brasil to invest in new cold rolling mill and coating lines  
    https://www.steelorbis.com/steel-news/latest-news/arcelormittal-brasil-to-invest-in-new-cold-rolling-mill-and-coating-lines-1474267.htm
-4. **Manaksia Steel** (Hindistan, 2026-08-14) &mdash; Belirsiz / Belirsiz  
-   India's Manaksia Steel to invest $84 million to expand value-added flats capacities  
-   https://www.steelorbis.com/steel-news/latest-news/indias-manaksia-steel-to-invest-84-million-to-expand-value-added-flats-capacities-1470867.htm
-5. **Gazoldo** (Turkiye, 2026-07-13) &mdash; Asitleme hatti / Modernizasyon  
-   Marcegaglia upgrades pickling line at Gazoldo degli Ippoliti stainless steel plant  
-   https://news.mesteel.com/marcegaglia-upgrades-pickling-line-at-gazoldo-degli-ippoliti-stainless-steel-plant/
 
 > Erisilemeyen kaynaklar: SMS group, Butech Bliss, Cognex, ArcelorMittal, Steel Times International, BigMint (SteelMint), Furnaces International, MetalForming Magazine, Sanayi Gazetesi

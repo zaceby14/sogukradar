@@ -1,10 +1,10 @@
 {
- "donem": "2026-W36",
+ "donem": "2026-W37",
  "pencere": [
   "2026-08-17",
   "2026-09-07"
  ],
- "uretim": "2026-09-07 03:39 UTC",
+ "uretim": "2026-09-07 04:53 UTC",
  "kaynaklar": {
   "steeltimesint": {
    "publisher": "Steel Times International",
@@ -37,8 +37,14 @@
   }
  ],
  "dogrulanamayan": [],
- "acildi_elendi": [],
- "kapiyi_gecen": 1,
+ "acildi_elendi": [
+  {
+   "baslik": "India's Manaksia Steel to invest $84 million to expand value-added flats capacities",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/indias-manaksia-steel-to-invest-84-million-to-expand-value-added-flats-capacities-1470867.htm",
+   "sebep": "pencere disi (2026-08-14)"
+  }
+ ],
+ "kapiyi_gecen": 2,
  "sitemap_adayi": 400,
- "elenen": 399
+ "elenen": 398
 }
