@@ -1,6 +1,31 @@
 {
  "bulunan": [
   {
+   "anahtar": "495456be16726ffc",
+   "asama": "Seri uretim",
+   "baslik": "Rizhao Steel Coating Lines Reach Full Production Across the Board",
+   "eksik": [
+    "ulke",
+    "tarih?"
+   ],
+   "firma": "Rizhao Steel Coating",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "SMM (Shanghai Metals)",
+   "kaynak_id": "smm",
+   "olaylar": [
+    "rizhao steel coating|hat|Galvaniz hatti (CGL)|Seri uretim"
+   ],
+   "puan": 41.6,
+   "tarih": "2026-09-07",
+   "tarih_kaynagi": "metin",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.metal.com/en/newscontent/104101348-rizhao-steel-coating-lines-reach-full-production-across-the-board"
+  },
+  {
    "anahtar": "dde7adab1615e8c7",
    "asama": "Sozlesme",
    "baslik": "Primetals secures PLTCM automation order",
@@ -1255,6 +1280,24 @@
     "tekrar": 30
    },
    "uretim": "2026-09-07 04:53 UTC"
+  },
+  {
+   "donem": "2026-W37",
+   "satir": 7,
+   "stats": {
+    "erisilemeyen": 10,
+    "gnews_tarih": 0,
+    "ham": 3649,
+    "kabul": 7,
+    "kapsam_disi": 3244,
+    "kaynak": 291,
+    "makale_acildi": 207,
+    "on_eleme_gecti": 323,
+    "pencere_disi": 270,
+    "tarihsiz_elendi": 88,
+    "tekrar": 40
+   },
+   "uretim": "2026-09-08 03:42 UTC"
   }
  ],
  "rezerv": [

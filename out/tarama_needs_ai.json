@@ -16,6 +16,34 @@
    }
   },
   {
+   "anahtar": "17a7f7a31c91493d",
+   "baslik": "POSCO Invests 480 Billion Won in New Auto Steel Plant",
+   "url": "https://en.sedaily.com/finance/2026/09/08/posco-invests-480-billion-won-in-new-auto-steel-plant",
+   "eksik": [
+    "ulke"
+   ],
+   "mevcut": {
+    "firma": "POSCO",
+    "ulke": "",
+    "hat": "Galvaniz hatti (CGL)",
+    "asama": "Sozlesme"
+   }
+  },
+  {
+   "anahtar": "80f7089316da6753",
+   "baslik": "Wanneng Steel Structure Indonesia Company: Bridging Chinese Blueprints, Cross-Border Logistics, and Local K3 Management",
+   "url": "https://www.sohu.com/a/1072548628_122758036",
+   "eksik": [
+    "hat"
+   ],
+   "mevcut": {
+    "firma": "Wanneng Steel Structure",
+    "ulke": "Cin",
+    "hat": "Belirsiz",
+    "asama": "Sozlesme"
+   }
+  },
+  {
    "anahtar": "5f96f7156d345f49",
    "baslik": "Metallus Commissions Furnaces for Defense Steel Production",
    "url": "https://www.heattreattoday.com/metallus-commissions-furnaces-for-defense-steel-production/",
@@ -31,6 +59,21 @@
    }
   },
   {
+   "anahtar": "495456be16726ffc",
+   "baslik": "Rizhao Steel Coating Lines Reach Full Production Across the Board",
+   "url": "https://news.metal.com/en/newscontent/104101348-rizhao-steel-coating-lines-reach-full-production-across-the-board",
+   "eksik": [
+    "ulke",
+    "tarih?"
+   ],
+   "mevcut": {
+    "firma": "Rizhao Steel Coating",
+    "ulke": "",
+    "hat": "Galvaniz hatti (CGL)",
+    "asama": "Seri uretim"
+   }
+  },
+  {
    "anahtar": "cae1022dd02a793f",
    "baslik": "Xinyu Steel, elektrik çeliği üretim kapasitesini 250 bin tona çıkardı",
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUERkVDlfM1NRTG81c0RlSHZWWksxRGx1MEVaN3lReHNxaTdRcEllaUdCZjVBZWFLeWhWc1dvcnU2aVNuLUIxVVRtaXgwRFlEeTN3ckRiZTZjbnd2SnlrNjNjSUx5MUszMi03TkJ3bFByMklzWS1BRVJ3clh4YncwTjhKX2ZNQ0MwUUc2QlAzNDNxVng5U0hfakIyVkk4YzVxNm54NQ?oc=5",
@@ -42,36 +85,6 @@
     "firma": "Xinyu Steel",
     "ulke": "",
     "hat": "Elektrik celigi hatti",
-    "asama": "Belirsiz"
-   }
-  },
-  {
-   "anahtar": "6b5ba9496b3d7d58",
-   "baslik": "Konya'da 430 milyon dolarlık çifte yatırım: Haddehane gün sayıyor, yeni hat geliyor",
-   "url": "https://www.yenihaberden.com/konya-da-430-milyon-dolarlik-cifte-yatirim-haddehane-gun-sayiyor-yeni-hat-geliyor/1859098/",
-   "eksik": [
-    "ulke",
-    "asama"
-   ],
-   "mevcut": {
-    "firma": "Konya'da",
-    "ulke": "",
-    "hat": "Soguk hadde",
-    "asama": "Belirsiz"
-   }
-  },
-  {
-   "anahtar": "5ddafe54499a1936",
-   "baslik": "ArcelorMittal Brasil to invest in new cold rolling mill and coating lines",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/arcelormittal-brasil-to-invest-in-new-cold-rolling-mill-and-coating-lines-1474267.htm",
-   "eksik": [
-    "ulke",
-    "asama"
-   ],
-   "mevcut": {
-    "firma": "ArcelorMittal Brasil",
-    "ulke": "",
-    "hat": "Soguk hadde",
     "asama": "Belirsiz"
    }
   }
@@ -98,6 +111,26 @@
    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOVFV4U0VJZ0hYZUVGOGQzMkc0TnZyX3BRa3JaYVVqejZ4dW42SEhGNlItT1FZcHIzUUxrejJMai1zUDhGMXhHUFdPZktOWnZyQkhpODJzVnJMN2xNaDFDRXpPd1ZKREhZN1hld2NRTGtGLW43NWxLRkRsYzZQelUwcw?oc=5"
   },
   {
+   "anahtar": "17a7f7a31c91493d",
+   "tarih": "2026-09-07",
+   "firma": "POSCO",
+   "ulke": "",
+   "hat": "Galvaniz hatti (CGL)",
+   "asama": "Sozlesme",
+   "baslik": "POSCO Invests 480 Billion Won in New Auto Steel Plant",
+   "url": "https://en.sedaily.com/finance/2026/09/08/posco-invests-480-billion-won-in-new-auto-steel-plant"
+  },
+  {
+   "anahtar": "80f7089316da6753",
+   "tarih": "2026-09-06",
+   "firma": "Wanneng Steel Structure",
+   "ulke": "Cin",
+   "hat": "Belirsiz",
+   "asama": "Sozlesme",
+   "baslik": "Wanneng Steel Structure Indonesia Company: Bridging Chinese Blueprints, Cross-Border Logistics, and Local K3 Management",
+   "url": "https://www.sohu.com/a/1072548628_122758036"
+  },
+  {
    "anahtar": "5f96f7156d345f49",
    "tarih": "2026-09-02",
    "firma": "Metallus",
@@ -106,6 +139,16 @@
    "asama": "Ilk urun",
    "baslik": "Metallus Commissions Furnaces for Defense Steel Production",
    "url": "https://www.heattreattoday.com/metallus-commissions-furnaces-for-defense-steel-production/"
+  },
+  {
+   "anahtar": "495456be16726ffc",
+   "tarih": "2026-09-07",
+   "firma": "Rizhao Steel Coating",
+   "ulke": "",
+   "hat": "Galvaniz hatti (CGL)",
+   "asama": "Seri uretim",
+   "baslik": "Rizhao Steel Coating Lines Reach Full Production Across the Board",
+   "url": "https://news.metal.com/en/newscontent/104101348-rizhao-steel-coating-lines-reach-full-production-across-the-board"
   }
  ],
  "teknoloji_adaylari": []

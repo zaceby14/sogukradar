@@ -25,7 +25,7 @@
     "ussk|hat|Elektrik celigi hatti|Sozlesme",
     "ussk|ulke|Turkiye|Sozlesme"
    ],
-   "puan": 70.8
+   "puan": 70.4
   },
   {
    "tarih": "2026-09-03",
@@ -49,7 +49,57 @@
    "olaylar": [
     "primetals|hat|Tandem soguk hadde (TCM)|Sozlesme"
    ],
-   "puan": 60.4
+   "puan": 60.0
+  },
+  {
+   "tarih": "2026-09-07",
+   "firma": "POSCO",
+   "ulke": "",
+   "hat": "Galvaniz hatti (CGL)",
+   "asama": "Sozlesme",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "POSCO Invests 480 Billion Won in New Auto Steel Plant",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_urun01",
+   "url": "https://en.sedaily.com/finance/2026/09/08/posco-invests-480-billion-won-in-new-auto-steel-plant",
+   "tarih_kaynagi": "rss",
+   "eksik": [
+    "ulke"
+   ],
+   "anahtar": "17a7f7a31c91493d",
+   "kategori": "Hat",
+   "olaylar": [
+    "posco|hat|Galvaniz hatti (CGL)|Sozlesme"
+   ],
+   "puan": 55.6
+  },
+  {
+   "tarih": "2026-09-06",
+   "firma": "Wanneng Steel Structure",
+   "ulke": "Cin",
+   "hat": "Belirsiz",
+   "asama": "Sozlesme",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "Wanneng Steel Structure Indonesia Company: Bridging Chinese Blueprints, Cross-Border Logistics, and Local K3 Management",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_hat17",
+   "url": "https://www.sohu.com/a/1072548628_122758036",
+   "tarih_kaynagi": "rss",
+   "eksik": [
+    "hat"
+   ],
+   "anahtar": "80f7089316da6753",
+   "kategori": "Hat",
+   "olaylar": [
+    "wanneng steel structure|fu|Cin|Belirsiz",
+    "wanneng steel structure|hat|Belirsiz|Sozlesme",
+    "wanneng steel structure|ulke|Cin|Sozlesme"
+   ],
+   "puan": 45.2
   },
   {
    "tarih": "2026-09-02",
@@ -74,7 +124,32 @@
    "olaylar": [
     "metallus|hat|Belirsiz|Ilk urun"
    ],
-   "puan": 42.0
+   "puan": 41.6
+  },
+  {
+   "tarih": "2026-09-07",
+   "firma": "Rizhao Steel Coating",
+   "ulke": "",
+   "hat": "Galvaniz hatti (CGL)",
+   "asama": "Seri uretim",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "Rizhao Steel Coating Lines Reach Full Production Across the Board",
+   "kaynak": "SMM (Shanghai Metals)",
+   "kaynak_id": "smm",
+   "url": "https://news.metal.com/en/newscontent/104101348-rizhao-steel-coating-lines-reach-full-production-across-the-board",
+   "tarih_kaynagi": "metin",
+   "eksik": [
+    "ulke",
+    "tarih?"
+   ],
+   "anahtar": "495456be16726ffc",
+   "kategori": "Hat",
+   "olaylar": [
+    "rizhao steel coating|hat|Galvaniz hatti (CGL)|Seri uretim"
+   ],
+   "puan": 41.6
   },
   {
    "tarih": "2026-09-01",
@@ -99,70 +174,20 @@
    "olaylar": [
     "xinyu steel|hat|Elektrik celigi hatti|Belirsiz"
    ],
-   "puan": 3.6
-  },
-  {
-   "anahtar": "6b5ba9496b3d7d58",
-   "asama": "Belirsiz",
-   "baslik": "Konya'da 430 milyon dolarlık çifte yatırım: Haddehane gün sayıyor, yeni hat geliyor",
-   "eksik": [
-    "ulke",
-    "asama"
-   ],
-   "firma": "Konya'da",
-   "hat": "Soguk hadde",
-   "kapasite": "",
-   "kategori": "Yatirim",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgq_tr00",
-   "olaylar": [
-    "konya'da|hat|Soguk hadde|Belirsiz"
-   ],
-   "puan": 2.6,
-   "tarih": "2026-09-02",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "",
-   "url": "https://www.yenihaberden.com/konya-da-430-milyon-dolarlik-cifte-yatirim-haddehane-gun-sayiyor-yeni-hat-geliyor/1859098/"
-  },
-  {
-   "anahtar": "5ddafe54499a1936",
-   "asama": "Belirsiz",
-   "baslik": "ArcelorMittal Brasil to invest in new cold rolling mill and coating lines",
-   "eksik": [
-    "ulke",
-    "asama"
-   ],
-   "firma": "ArcelorMittal Brasil",
-   "hat": "Soguk hadde",
-   "kapasite": "",
-   "kategori": "Yatirim",
-   "kaynak": "SteelOrbis",
-   "kaynak_id": "steelorbis",
-   "olaylar": [
-    "arcelormittal brasil|hat|Soguk hadde|Belirsiz"
-   ],
-   "puan": 3.0,
-   "tarih": "2026-09-01",
-   "tarih_kaynagi": "json-ld",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/arcelormittal-brasil-to-invest-in-new-cold-rolling-mill-and-coating-lines-1474267.htm"
+   "puan": 3.2
   }
  ],
  "stats": {
   "kaynak": 291,
-  "erisilemeyen": 9,
-  "ham": 3679,
-  "on_eleme_gecti": 351,
+  "erisilemeyen": 10,
+  "ham": 3649,
+  "on_eleme_gecti": 323,
   "makale_acildi": 207,
-  "tarihsiz_elendi": 89,
-  "pencere_disi": 253,
-  "kapsam_disi": 3284,
-  "tekrar": 49,
-  "kabul": 4,
+  "tarihsiz_elendi": 88,
+  "pencere_disi": 270,
+  "kapsam_disi": 3244,
+  "tekrar": 40,
+  "kabul": 7,
   "gnews_tarih": 0
  },
  "unreachable": [
@@ -185,6 +210,10 @@
   [
    "Steel Times International",
    "HTTP 403"
+  ],
+  [
+   "SteelGuru",
+   "URLError: <urlopen error timed out>"
   ],
   [
    "BigMint (SteelMint)",
@@ -496,7 +525,7 @@
   "bgtek_jc": "arama",
   "bgtek_danieli": "arama"
  },
- "today": "2026-09-07",
+ "today": "2026-09-08",
  "host_saglik": {
   "news.google.com": {
    "istek": 112,
@@ -516,24 +545,25 @@
   "www.cognex.com": {
    "istek": 2,
    "hiz_siniri": 2,
-   "sogutmada": true
+   "sogutmada": false
   }
  },
  "tech_pool": [],
  "kaynak_katki": {
+  "SMM (Shanghai Metals)": 1,
   "Heat Treat Today": 1,
   "Google News": 2,
-  "Bing News": 1
+  "Bing News": 3
  },
  "window": [
-  "2026-08-17",
-  "2026-09-07"
+  "2026-08-18",
+  "2026-09-08"
  ],
- "bulunan_kullanilan": 2,
- "bulunan_havuz": 7,
+ "bulunan_kullanilan": 0,
+ "bulunan_havuz": 9,
  "rezerv_kullanilan": 0,
  "rezerv_havuz": 14,
  "period": "2026-W37",
- "generated": "2026-09-07 03:36 UTC",
+ "generated": "2026-09-08 03:42 UTC",
  "version": "3.0.0"
 }
