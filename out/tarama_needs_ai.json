@@ -30,17 +30,17 @@
    }
   },
   {
-   "anahtar": "80f7089316da6753",
-   "baslik": "Wanneng Steel Structure Indonesia Company: Bridging Chinese Blueprints, Cross-Border Logistics, and Local K3 Management",
-   "url": "https://www.sohu.com/a/1072548628_122758036",
+   "anahtar": "76de8e87fe54c6be",
+   "baslik": "Posco breaks ground on first new auto-steel coating line in 9 years, investing W480b in Gwangyang",
+   "url": "https://biz.heraldcorp.com/article/10865917",
    "eksik": [
-    "hat"
+    "ulke"
    ],
    "mevcut": {
-    "firma": "Wanneng Steel Structure",
-    "ulke": "Cin",
-    "hat": "Belirsiz",
-    "asama": "Sozlesme"
+    "firma": "Posco",
+    "ulke": "",
+    "hat": "Galvaniz hatti (CGL)",
+    "asama": "Insaat"
    }
   },
   {
@@ -56,21 +56,6 @@
     "ulke": "",
     "hat": "Belirsiz",
     "asama": "Ilk urun"
-   }
-  },
-  {
-   "anahtar": "495456be16726ffc",
-   "baslik": "Rizhao Steel Coating Lines Reach Full Production Across the Board",
-   "url": "https://news.metal.com/en/newscontent/104101348-rizhao-steel-coating-lines-reach-full-production-across-the-board",
-   "eksik": [
-    "ulke",
-    "tarih?"
-   ],
-   "mevcut": {
-    "firma": "Rizhao Steel Coating",
-    "ulke": "",
-    "hat": "Galvaniz hatti (CGL)",
-    "asama": "Seri uretim"
    }
   },
   {
@@ -112,7 +97,7 @@
   },
   {
    "anahtar": "17a7f7a31c91493d",
-   "tarih": "2026-09-07",
+   "tarih": "2026-09-08",
    "firma": "POSCO",
    "ulke": "",
    "hat": "Galvaniz hatti (CGL)",
@@ -121,14 +106,14 @@
    "url": "https://en.sedaily.com/finance/2026/09/08/posco-invests-480-billion-won-in-new-auto-steel-plant"
   },
   {
-   "anahtar": "80f7089316da6753",
-   "tarih": "2026-09-06",
-   "firma": "Wanneng Steel Structure",
-   "ulke": "Cin",
-   "hat": "Belirsiz",
-   "asama": "Sozlesme",
-   "baslik": "Wanneng Steel Structure Indonesia Company: Bridging Chinese Blueprints, Cross-Border Logistics, and Local K3 Management",
-   "url": "https://www.sohu.com/a/1072548628_122758036"
+   "anahtar": "76de8e87fe54c6be",
+   "tarih": "2026-09-07",
+   "firma": "Posco",
+   "ulke": "",
+   "hat": "Galvaniz hatti (CGL)",
+   "asama": "Insaat",
+   "baslik": "Posco breaks ground on first new auto-steel coating line in 9 years, investing W480b in Gwangyang",
+   "url": "https://biz.heraldcorp.com/article/10865917"
   },
   {
    "anahtar": "5f96f7156d345f49",
@@ -139,16 +124,6 @@
    "asama": "Ilk urun",
    "baslik": "Metallus Commissions Furnaces for Defense Steel Production",
    "url": "https://www.heattreattoday.com/metallus-commissions-furnaces-for-defense-steel-production/"
-  },
-  {
-   "anahtar": "495456be16726ffc",
-   "tarih": "2026-09-07",
-   "firma": "Rizhao Steel Coating",
-   "ulke": "",
-   "hat": "Galvaniz hatti (CGL)",
-   "asama": "Seri uretim",
-   "baslik": "Rizhao Steel Coating Lines Reach Full Production Across the Board",
-   "url": "https://news.metal.com/en/newscontent/104101348-rizhao-steel-coating-lines-reach-full-production-across-the-board"
   }
  ],
  "teknoloji_adaylari": []

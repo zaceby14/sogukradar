@@ -25,7 +25,7 @@
     "ussk|hat|Elektrik celigi hatti|Sozlesme",
     "ussk|ulke|Turkiye|Sozlesme"
    ],
-   "puan": 70.4
+   "puan": 70.0
   },
   {
    "tarih": "2026-09-03",
@@ -49,10 +49,10 @@
    "olaylar": [
     "primetals|hat|Tandem soguk hadde (TCM)|Sozlesme"
    ],
-   "puan": 60.0
+   "puan": 59.6
   },
   {
-   "tarih": "2026-09-07",
+   "tarih": "2026-09-08",
    "firma": "POSCO",
    "ulke": "",
    "hat": "Galvaniz hatti (CGL)",
@@ -76,30 +76,28 @@
    "puan": 55.6
   },
   {
-   "tarih": "2026-09-06",
-   "firma": "Wanneng Steel Structure",
-   "ulke": "Cin",
-   "hat": "Belirsiz",
-   "asama": "Sozlesme",
+   "tarih": "2026-09-07",
+   "firma": "Posco",
+   "ulke": "",
+   "hat": "Galvaniz hatti (CGL)",
+   "asama": "Insaat",
    "tedarikci": "",
    "kapasite": "",
-   "tutar": "",
-   "baslik": "Wanneng Steel Structure Indonesia Company: Bridging Chinese Blueprints, Cross-Border Logistics, and Local K3 Management",
+   "tutar": "$354 million",
+   "baslik": "Posco breaks ground on first new auto-steel coating line in 9 years, investing W480b in Gwangyang",
    "kaynak": "Bing News",
-   "kaynak_id": "bgq_hat17",
-   "url": "https://www.sohu.com/a/1072548628_122758036",
+   "kaynak_id": "bgq_hat04",
+   "url": "https://biz.heraldcorp.com/article/10865917",
    "tarih_kaynagi": "rss",
    "eksik": [
-    "hat"
+    "ulke"
    ],
-   "anahtar": "80f7089316da6753",
+   "anahtar": "76de8e87fe54c6be",
    "kategori": "Hat",
    "olaylar": [
-    "wanneng steel structure|fu|Cin|Belirsiz",
-    "wanneng steel structure|hat|Belirsiz|Sozlesme",
-    "wanneng steel structure|ulke|Cin|Sozlesme"
+    "posco|hat|Galvaniz hatti (CGL)|Insaat"
    ],
-   "puan": 45.2
+   "puan": 51.2
   },
   {
    "tarih": "2026-09-02",
@@ -124,32 +122,7 @@
    "olaylar": [
     "metallus|hat|Belirsiz|Ilk urun"
    ],
-   "puan": 41.6
-  },
-  {
-   "tarih": "2026-09-07",
-   "firma": "Rizhao Steel Coating",
-   "ulke": "",
-   "hat": "Galvaniz hatti (CGL)",
-   "asama": "Seri uretim",
-   "tedarikci": "",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "Rizhao Steel Coating Lines Reach Full Production Across the Board",
-   "kaynak": "SMM (Shanghai Metals)",
-   "kaynak_id": "smm",
-   "url": "https://news.metal.com/en/newscontent/104101348-rizhao-steel-coating-lines-reach-full-production-across-the-board",
-   "tarih_kaynagi": "metin",
-   "eksik": [
-    "ulke",
-    "tarih?"
-   ],
-   "anahtar": "495456be16726ffc",
-   "kategori": "Hat",
-   "olaylar": [
-    "rizhao steel coating|hat|Galvaniz hatti (CGL)|Seri uretim"
-   ],
-   "puan": 41.6
+   "puan": 41.2
   },
   {
    "tarih": "2026-09-01",
@@ -174,20 +147,20 @@
    "olaylar": [
     "xinyu steel|hat|Elektrik celigi hatti|Belirsiz"
    ],
-   "puan": 3.2
+   "puan": 2.8
   }
  ],
  "stats": {
   "kaynak": 291,
-  "erisilemeyen": 10,
-  "ham": 3649,
-  "on_eleme_gecti": 323,
-  "makale_acildi": 207,
+  "erisilemeyen": 9,
+  "ham": 3735,
+  "on_eleme_gecti": 338,
+  "makale_acildi": 210,
   "tarihsiz_elendi": 88,
-  "pencere_disi": 270,
-  "kapsam_disi": 3244,
-  "tekrar": 40,
-  "kabul": 7,
+  "pencere_disi": 278,
+  "kapsam_disi": 3313,
+  "tekrar": 50,
+  "kabul": 6,
   "gnews_tarih": 0
  },
  "unreachable": [
@@ -210,10 +183,6 @@
   [
    "Steel Times International",
    "HTTP 403"
-  ],
-  [
-   "SteelGuru",
-   "URLError: <urlopen error timed out>"
   ],
   [
    "BigMint (SteelMint)",
@@ -525,7 +494,7 @@
   "bgtek_jc": "arama",
   "bgtek_danieli": "arama"
  },
- "today": "2026-09-08",
+ "today": "2026-09-09",
  "host_saglik": {
   "news.google.com": {
    "istek": 112,
@@ -545,25 +514,24 @@
   "www.cognex.com": {
    "istek": 2,
    "hiz_siniri": 2,
-   "sogutmada": false
+   "sogutmada": true
   }
  },
  "tech_pool": [],
  "kaynak_katki": {
-  "SMM (Shanghai Metals)": 1,
   "Heat Treat Today": 1,
   "Google News": 2,
   "Bing News": 3
  },
  "window": [
-  "2026-08-18",
-  "2026-09-08"
+  "2026-08-19",
+  "2026-09-09"
  ],
  "bulunan_kullanilan": 0,
- "bulunan_havuz": 9,
+ "bulunan_havuz": 10,
  "rezerv_kullanilan": 0,
- "rezerv_havuz": 14,
+ "rezerv_havuz": 15,
  "period": "2026-W37",
- "generated": "2026-09-08 03:42 UTC",
+ "generated": "2026-09-09 03:38 UTC",
  "version": "3.0.0"
 }
