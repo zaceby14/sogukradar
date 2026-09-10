@@ -1,6 +1,32 @@
 {
  "bulunan": [
   {
+   "anahtar": "529c0fb9c048632c",
+   "asama": "Belirsiz",
+   "baslik": "Kocaeli PS: Küresel kapasite fazlası, korumacılık ve karbon maliyetleri yassı çelik sektörünün hareket alanını daraltıyor",
+   "eksik": [
+    "ulke",
+    "hat",
+    "asama"
+   ],
+   "firma": "Kocaeli PS",
+   "hat": "Belirsiz",
+   "kapasite": "",
+   "kategori": "Yatirim",
+   "kaynak": "SteelOrbis",
+   "kaynak_id": "gq_tr06",
+   "olaylar": [
+    "kocaeli ps|hat|Belirsiz|Belirsiz"
+   ],
+   "puan": -5.4,
+   "tarih": "2026-09-09",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNM25GdzB0bUUyMVo3V29WSEYyandNdU5oLUdwVmRHVXZIcVdDRVRCQ0FOQW45Z0ZZVGlPS09pYmtYODNISm14d3YtNnctMzBHMTZYM2xDdjBXaC1McU96a0tCYkFvcTFuY0VkM1pSSjNJNFZUNjRTdW4yMlF4T2VxUGh0amVMTHNWOHNHS3FscTVnOVY1bUxrd1dGYjlUYV9QdTdRNDktd1RFMGZKMzJQa3RJRnlpZXlzVmdLOTUzY1BtTVhhaGlSVHZUdjBYVFRla3h4Z0Q0M0RtOS1ZaU9jd1BQcHc3NWd2N3hrYXh4ZnFmbVhEX296U2t4ZDA3ZnNod3pEejBoQWNwQQ?oc=5"
+  },
+  {
    "anahtar": "495456be16726ffc",
    "asama": "Seri uretim",
    "baslik": "Rizhao Steel Coating Lines Reach Full Production Across the Board",
@@ -1340,6 +1366,24 @@
     "tekrar": 50
    },
    "uretim": "2026-09-09 03:38 UTC"
+  },
+  {
+   "donem": "2026-W37",
+   "satir": 7,
+   "stats": {
+    "erisilemeyen": 8,
+    "gnews_tarih": 0,
+    "ham": 3809,
+    "kabul": 7,
+    "kapsam_disi": 3394,
+    "kaynak": 291,
+    "makale_acildi": 211,
+    "on_eleme_gecti": 332,
+    "pencere_disi": 279,
+    "tarihsiz_elendi": 88,
+    "tekrar": 41
+   },
+   "uretim": "2026-09-10 03:34 UTC"
   }
  ],
  "rezerv": [

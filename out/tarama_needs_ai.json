@@ -16,8 +16,22 @@
    }
   },
   {
-   "anahtar": "17a7f7a31c91493d",
-   "baslik": "POSCO Invests 480 Billion Won in New Auto Steel Plant",
+   "anahtar": "57d6f873acaab6da",
+   "baslik": "Posco injects W480b to expand premium auto steel production",
+   "url": "https://www.koreaherald.com/article/10866589",
+   "eksik": [
+    "ulke"
+   ],
+   "mevcut": {
+    "firma": "Posco injects W480b",
+    "ulke": "",
+    "hat": "Galvaniz hatti (CGL)",
+    "asama": "Sozlesme"
+   }
+  },
+  {
+   "anahtar": "541377035ee6148a",
+   "baslik": "POSCO Invests 480 Billion Won in New Auto Steel Coating Plant",
    "url": "https://en.sedaily.com/finance/2026/09/08/posco-invests-480-billion-won-in-new-auto-steel-plant",
    "eksik": [
     "ulke"
@@ -59,32 +73,37 @@
    }
   },
   {
-   "anahtar": "cae1022dd02a793f",
-   "baslik": "Xinyu Steel, elektrik çeliği üretim kapasitesini 250 bin tona çıkardı",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUERkVDlfM1NRTG81c0RlSHZWWksxRGx1MEVaN3lReHNxaTdRcEllaUdCZjVBZWFLeWhWc1dvcnU2aVNuLUIxVVRtaXgwRFlEeTN3ckRiZTZjbnd2SnlrNjNjSUx5MUszMi03TkJ3bFByMklzWS1BRVJ3clh4YncwTjhKX2ZNQ0MwUUc2QlAzNDNxVng5U0hfakIyVkk4YzVxNm54NQ?oc=5",
+   "anahtar": "d791aae848d7b42f",
+   "baslik": "Posco expands production capacity for premium automotive steel",
+   "url": "https://finance.yahoo.com/technology/articles/posco-expands-production-capacity-premium-084422106.html",
    "eksik": [
-    "ulke",
     "asama"
    ],
    "mevcut": {
-    "firma": "Xinyu Steel",
+    "firma": "Posco",
+    "ulke": "G. Kore",
+    "hat": "Galvaniz hatti (CGL)",
+    "asama": "Belirsiz"
+   }
+  },
+  {
+   "anahtar": "529c0fb9c048632c",
+   "baslik": "Kocaeli PS: Küresel kapasite fazlası, korumacılık ve karbon maliyetleri yassı çelik sektörünün hareket alanını daraltıyor",
+   "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNM25GdzB0bUUyMVo3V29WSEYyandNdU5oLUdwVmRHVXZIcVdDRVRCQ0FOQW45Z0ZZVGlPS09pYmtYODNISm14d3YtNnctMzBHMTZYM2xDdjBXaC1McU96a0tCYkFvcTFuY0VkM1pSSjNJNFZUNjRTdW4yMlF4T2VxUGh0amVMTHNWOHNHS3FscTVnOVY1bUxrd1dGYjlUYV9QdTdRNDktd1RFMGZKMzJQa3RJRnlpZXlzVmdLOTUzY1BtTVhhaGlSVHZUdjBYVFRla3h4Z0Q0M0RtOS1ZaU9jd1BQcHc3NWd2N3hrYXh4ZnFmbVhEX296U2t4ZDA3ZnNod3pEejBoQWNwQQ?oc=5",
+   "eksik": [
+    "ulke",
+    "hat",
+    "asama"
+   ],
+   "mevcut": {
+    "firma": "Kocaeli PS",
     "ulke": "",
-    "hat": "Elektrik celigi hatti",
+    "hat": "Belirsiz",
     "asama": "Belirsiz"
    }
   }
  ],
  "cumle_yaz": [
-  {
-   "anahtar": "98a2950f8f9b76b6",
-   "tarih": "2026-08-30",
-   "firma": "USSK",
-   "ulke": "Turkiye",
-   "hat": "Elektrik celigi hatti",
-   "asama": "Sozlesme",
-   "baslik": "USSK orders new electrical steel plant from Tenova",
-   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/ussk-orders-new-electrical-steel-plant-tenova-0619/"
-  },
   {
    "anahtar": "dde7adab1615e8c7",
    "tarih": "2026-09-03",
@@ -96,13 +115,23 @@
    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOVFV4U0VJZ0hYZUVGOGQzMkc0TnZyX3BRa3JaYVVqejZ4dW42SEhGNlItT1FZcHIzUUxrejJMai1zUDhGMXhHUFdPZktOWnZyQkhpODJzVnJMN2xNaDFDRXpPd1ZKREhZN1hld2NRTGtGLW43NWxLRkRsYzZQelUwcw?oc=5"
   },
   {
-   "anahtar": "17a7f7a31c91493d",
+   "anahtar": "57d6f873acaab6da",
+   "tarih": "2026-09-07",
+   "firma": "Posco injects W480b",
+   "ulke": "",
+   "hat": "Galvaniz hatti (CGL)",
+   "asama": "Sozlesme",
+   "baslik": "Posco injects W480b to expand premium auto steel production",
+   "url": "https://www.koreaherald.com/article/10866589"
+  },
+  {
+   "anahtar": "541377035ee6148a",
    "tarih": "2026-09-08",
    "firma": "POSCO",
    "ulke": "",
    "hat": "Galvaniz hatti (CGL)",
    "asama": "Sozlesme",
-   "baslik": "POSCO Invests 480 Billion Won in New Auto Steel Plant",
+   "baslik": "POSCO Invests 480 Billion Won in New Auto Steel Coating Plant",
    "url": "https://en.sedaily.com/finance/2026/09/08/posco-invests-480-billion-won-in-new-auto-steel-plant"
   },
   {
@@ -124,6 +153,16 @@
    "asama": "Ilk urun",
    "baslik": "Metallus Commissions Furnaces for Defense Steel Production",
    "url": "https://www.heattreattoday.com/metallus-commissions-furnaces-for-defense-steel-production/"
+  },
+  {
+   "anahtar": "d791aae848d7b42f",
+   "tarih": "2026-09-09",
+   "firma": "Posco",
+   "ulke": "G. Kore",
+   "hat": "Galvaniz hatti (CGL)",
+   "asama": "Belirsiz",
+   "baslik": "Posco expands production capacity for premium automotive steel",
+   "url": "https://finance.yahoo.com/technology/articles/posco-expands-production-capacity-premium-084422106.html"
   }
  ],
  "teknoloji_adaylari": []
