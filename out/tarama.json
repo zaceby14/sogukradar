@@ -1,33 +1,6 @@
 {
  "rows": [
   {
-   "tarih": "2026-08-30",
-   "firma": "USSK",
-   "ulke": "Turkiye",
-   "hat": "Elektrik celigi hatti",
-   "asama": "Sozlesme",
-   "tedarikci": "Tenova",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "USSK orders new electrical steel plant from Tenova",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgq_sup05",
-   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/ussk-orders-new-electrical-steel-plant-tenova-0619/",
-   "tarih_kaynagi": "rss",
-   "eksik": [],
-   "anahtar": "98a2950f8f9b76b6",
-   "kategori": "Hat",
-   "olaylar": [
-    "tenova|fu|Turkiye|Elektrik celigi hatti",
-    "tenova|hat|Elektrik celigi hatti|Sozlesme",
-    "tenova|ulke|Turkiye|Sozlesme",
-    "ussk|fu|Turkiye|Elektrik celigi hatti",
-    "ussk|hat|Elektrik celigi hatti|Sozlesme",
-    "ussk|ulke|Turkiye|Sozlesme"
-   ],
-   "puan": 69.2
-  },
-  {
    "tarih": "2026-09-03",
    "firma": "Primetals",
    "ulke": "",
@@ -49,7 +22,7 @@
    "olaylar": [
     "primetals|hat|Tandem soguk hadde (TCM)|Sozlesme"
    ],
-   "puan": 58.8
+   "puan": 58.4
   },
   {
    "tarih": "2026-09-07",
@@ -73,7 +46,7 @@
    "olaylar": [
     "posco injects w480b|hat|Galvaniz hatti (CGL)|Sozlesme"
    ],
-   "puan": 58.4
+   "puan": 58.0
   },
   {
    "tarih": "2026-09-08",
@@ -97,7 +70,7 @@
    "olaylar": [
     "posco|hat|Galvaniz hatti (CGL)|Sozlesme"
    ],
-   "puan": 54.8
+   "puan": 54.4
   },
   {
    "tarih": "2026-09-07",
@@ -110,7 +83,7 @@
    "tutar": "$354 million",
    "baslik": "Posco breaks ground on first new auto-steel coating line in 9 years, investing W480b in Gwangyang",
    "kaynak": "Bing News",
-   "kaynak_id": "bgq_urun01",
+   "kaynak_id": "bgq_hat04",
    "url": "https://biz.heraldcorp.com/article/10865917",
    "tarih_kaynagi": "rss",
    "eksik": [
@@ -121,33 +94,7 @@
    "olaylar": [
     "posco|hat|Galvaniz hatti (CGL)|Insaat"
    ],
-   "puan": 50.4
-  },
-  {
-   "tarih": "2026-09-06",
-   "firma": "Wanneng Steel Structure",
-   "ulke": "Cin",
-   "hat": "Belirsiz",
-   "asama": "Sozlesme",
-   "tedarikci": "",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "Wanneng Steel Structure Indonesia Company: Bridging Chinese Blueprints, Cross-Border Logistics, and Local K3 Management",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgq_hat17",
-   "url": "https://www.sohu.com/a/1072548628_122758036",
-   "tarih_kaynagi": "rss",
-   "eksik": [
-    "hat"
-   ],
-   "anahtar": "80f7089316da6753",
-   "kategori": "Hat",
-   "olaylar": [
-    "wanneng steel structure|fu|Cin|Belirsiz",
-    "wanneng steel structure|hat|Belirsiz|Sozlesme",
-    "wanneng steel structure|ulke|Cin|Sozlesme"
-   ],
-   "puan": 44.0
+   "puan": 50.0
   },
   {
    "tarih": "2026-09-09",
@@ -173,20 +120,46 @@
     "posco|hat|Galvaniz hatti (CGL)|Belirsiz",
     "posco|ulke|G. Kore|Belirsiz"
    ],
-   "puan": 33.2
+   "puan": 32.8
+  },
+  {
+   "anahtar": "529c0fb9c048632c",
+   "asama": "Belirsiz",
+   "baslik": "Kocaeli PS: Küresel kapasite fazlası, korumacılık ve karbon maliyetleri yassı çelik sektörünün hareket alanını daraltıyor",
+   "eksik": [
+    "ulke",
+    "hat",
+    "asama"
+   ],
+   "firma": "Kocaeli PS",
+   "hat": "Belirsiz",
+   "kapasite": "",
+   "kategori": "Yatirim",
+   "kaynak": "SteelOrbis",
+   "kaynak_id": "gq_tr06",
+   "olaylar": [
+    "kocaeli ps|hat|Belirsiz|Belirsiz"
+   ],
+   "puan": -5.4,
+   "tarih": "2026-09-09",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNM25GdzB0bUUyMVo3V29WSEYyandNdU5oLUdwVmRHVXZIcVdDRVRCQ0FOQW45Z0ZZVGlPS09pYmtYODNISm14d3YtNnctMzBHMTZYM2xDdjBXaC1McU96a0tCYkFvcTFuY0VkM1pSSjNJNFZUNjRTdW4yMlF4T2VxUGh0amVMTHNWOHNHS3FscTVnOVY1bUxrd1dGYjlUYV9QdTdRNDktd1RFMGZKMzJQa3RJRnlpZXlzVmdLOTUzY1BtTVhhaGlSVHZUdjBYVFRla3h4Z0Q0M0RtOS1ZaU9jd1BQcHc3NWd2N3hrYXh4ZnFmbVhEX296U2t4ZDA3ZnNod3pEejBoQWNwQQ?oc=5"
   }
  ],
  "stats": {
   "kaynak": 291,
-  "erisilemeyen": 9,
-  "ham": 3682,
-  "on_eleme_gecti": 335,
-  "makale_acildi": 209,
-  "tarihsiz_elendi": 92,
-  "pencere_disi": 266,
-  "kapsam_disi": 3276,
-  "tekrar": 41,
-  "kabul": 7,
+  "erisilemeyen": 8,
+  "ham": 3792,
+  "on_eleme_gecti": 344,
+  "makale_acildi": 213,
+  "tarihsiz_elendi": 90,
+  "pencere_disi": 275,
+  "kapsam_disi": 3377,
+  "tekrar": 45,
+  "kabul": 5,
   "gnews_tarih": 0
  },
  "unreachable": [
@@ -197,10 +170,6 @@
   [
    "Cognex",
    "HTTP 429"
-  ],
-  [
-   "The Bronx Group",
-   "URLError: <urlopen error timed out>"
   ],
   [
    "ArcelorMittal",
@@ -520,7 +489,7 @@
   "bgtek_jc": "arama",
   "bgtek_danieli": "arama"
  },
- "today": "2026-09-11",
+ "today": "2026-09-12",
  "host_saglik": {
   "news.google.com": {
    "istek": 112,
@@ -540,23 +509,23 @@
   "www.cognex.com": {
    "istek": 2,
    "hiz_siniri": 2,
-   "sogutmada": true
+   "sogutmada": false
   }
  },
  "tech_pool": [],
  "kaynak_katki": {
   "Google News": 1,
-  "Bing News": 6
+  "Bing News": 4
  },
  "window": [
-  "2026-08-21",
-  "2026-09-11"
+  "2026-08-22",
+  "2026-09-12"
  ],
- "bulunan_kullanilan": 0,
+ "bulunan_kullanilan": 1,
  "bulunan_havuz": 13,
  "rezerv_kullanilan": 0,
  "rezerv_havuz": 15,
  "period": "2026-W37",
- "generated": "2026-09-11 08:13 UTC",
+ "generated": "2026-09-12 08:08 UTC",
  "version": "3.0.0"
 }
