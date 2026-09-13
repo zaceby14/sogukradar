@@ -22,30 +22,6 @@
    "olaylar": [
     "primetals|hat|Tandem soguk hadde (TCM)|Sozlesme"
    ],
-   "puan": 58.4
-  },
-  {
-   "tarih": "2026-09-07",
-   "firma": "Posco injects W480b",
-   "ulke": "",
-   "hat": "Galvaniz hatti (CGL)",
-   "asama": "Sozlesme",
-   "tedarikci": "",
-   "kapasite": "",
-   "tutar": "$357 million",
-   "baslik": "Posco injects W480b to expand premium auto steel production",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgx_q_elec2",
-   "url": "https://www.koreaherald.com/article/10866589",
-   "tarih_kaynagi": "rss",
-   "eksik": [
-    "ulke"
-   ],
-   "anahtar": "57d6f873acaab6da",
-   "kategori": "Hat",
-   "olaylar": [
-    "posco injects w480b|hat|Galvaniz hatti (CGL)|Sozlesme"
-   ],
    "puan": 58.0
   },
   {
@@ -70,7 +46,7 @@
    "olaylar": [
     "posco|hat|Galvaniz hatti (CGL)|Sozlesme"
    ],
-   "puan": 54.4
+   "puan": 54.0
   },
   {
    "tarih": "2026-09-07",
@@ -83,7 +59,7 @@
    "tutar": "$354 million",
    "baslik": "Posco breaks ground on first new auto-steel coating line in 9 years, investing W480b in Gwangyang",
    "kaynak": "Bing News",
-   "kaynak_id": "bgq_hat04",
+   "kaynak_id": "bgq_urun01",
    "url": "https://biz.heraldcorp.com/article/10865917",
    "tarih_kaynagi": "rss",
    "eksik": [
@@ -94,33 +70,32 @@
    "olaylar": [
     "posco|hat|Galvaniz hatti (CGL)|Insaat"
    ],
-   "puan": 50.0
+   "puan": 49.6
   },
   {
-   "tarih": "2026-09-09",
-   "firma": "Posco",
-   "ulke": "G. Kore",
-   "hat": "Galvaniz hatti (CGL)",
+   "tarih": "2026-09-10",
+   "firma": "Hyundai Steel",
+   "ulke": "",
+   "hat": "Soguk hadde",
    "asama": "Belirsiz",
    "tedarikci": "",
    "kapasite": "",
-   "tutar": "US$ 360 million",
-   "baslik": "Posco expands production capacity for premium automotive steel",
+   "tutar": "$5.8 billion",
+   "baslik": "Hyundai Steel plans to open steel plant in Louisiana",
    "kaynak": "Bing News",
-   "kaynak_id": "bgq_urun02",
-   "url": "https://finance.yahoo.com/technology/articles/posco-expands-production-capacity-premium-084422106.html",
+   "kaynak_id": "bgx_q_weld",
+   "url": "https://www.plantservices.com/industry-news/news/55404410/hyundai-steel-plans-to-open-steel-plant-in-louisiana",
    "tarih_kaynagi": "rss",
    "eksik": [
+    "ulke",
     "asama"
    ],
-   "anahtar": "d791aae848d7b42f",
+   "anahtar": "725f7a83cfe053d1",
    "kategori": "Hat",
    "olaylar": [
-    "posco|fu|G. Kore|Galvaniz hatti (CGL)",
-    "posco|hat|Galvaniz hatti (CGL)|Belirsiz",
-    "posco|ulke|G. Kore|Belirsiz"
+    "hyundai steel|hat|Soguk hadde|Belirsiz"
    ],
-   "puan": 32.8
+   "puan": 30.8
   },
   {
    "anahtar": "529c0fb9c048632c",
@@ -147,19 +122,44 @@
    "tutar": "",
    "ulke": "",
    "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNM25GdzB0bUUyMVo3V29WSEYyandNdU5oLUdwVmRHVXZIcVdDRVRCQ0FOQW45Z0ZZVGlPS09pYmtYODNISm14d3YtNnctMzBHMTZYM2xDdjBXaC1McU96a0tCYkFvcTFuY0VkM1pSSjNJNFZUNjRTdW4yMlF4T2VxUGh0amVMTHNWOHNHS3FscTVnOVY1bUxrd1dGYjlUYV9QdTdRNDktd1RFMGZKMzJQa3RJRnlpZXlzVmdLOTUzY1BtTVhhaGlSVHZUdjBYVFRla3h4Z0Q0M0RtOS1ZaU9jd1BQcHc3NWd2N3hrYXh4ZnFmbVhEX296U2t4ZDA3ZnNod3pEejBoQWNwQQ?oc=5"
+  },
+  {
+   "anahtar": "495456be16726ffc",
+   "asama": "Seri uretim",
+   "baslik": "Rizhao Steel Coating Lines Reach Full Production Across the Board",
+   "eksik": [
+    "ulke",
+    "tarih?"
+   ],
+   "firma": "Rizhao Steel Coating",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "SMM (Shanghai Metals)",
+   "kaynak_id": "smm",
+   "olaylar": [
+    "rizhao steel coating|hat|Galvaniz hatti (CGL)|Seri uretim"
+   ],
+   "puan": 41.6,
+   "tarih": "2026-09-07",
+   "tarih_kaynagi": "metin",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.metal.com/en/newscontent/104101348-rizhao-steel-coating-lines-reach-full-production-across-the-board"
   }
  ],
  "stats": {
   "kaynak": 291,
   "erisilemeyen": 8,
-  "ham": 3792,
-  "on_eleme_gecti": 344,
-  "makale_acildi": 213,
-  "tarihsiz_elendi": 90,
-  "pencere_disi": 275,
-  "kapsam_disi": 3377,
-  "tekrar": 45,
-  "kabul": 5,
+  "ham": 3550,
+  "on_eleme_gecti": 308,
+  "makale_acildi": 212,
+  "tarihsiz_elendi": 88,
+  "pencere_disi": 272,
+  "kapsam_disi": 3162,
+  "tekrar": 24,
+  "kabul": 4,
   "gnews_tarih": 0
  },
  "unreachable": [
@@ -489,7 +489,7 @@
   "bgtek_jc": "arama",
   "bgtek_danieli": "arama"
  },
- "today": "2026-09-12",
+ "today": "2026-09-13",
  "host_saglik": {
   "news.google.com": {
    "istek": 112,
@@ -509,23 +509,23 @@
   "www.cognex.com": {
    "istek": 2,
    "hiz_siniri": 2,
-   "sogutmada": false
+   "sogutmada": true
   }
  },
  "tech_pool": [],
  "kaynak_katki": {
   "Google News": 1,
-  "Bing News": 4
+  "Bing News": 3
  },
  "window": [
-  "2026-08-22",
-  "2026-09-12"
+  "2026-08-23",
+  "2026-09-13"
  ],
- "bulunan_kullanilan": 1,
- "bulunan_havuz": 13,
+ "bulunan_kullanilan": 2,
+ "bulunan_havuz": 12,
  "rezerv_kullanilan": 0,
  "rezerv_havuz": 15,
  "period": "2026-W37",
- "generated": "2026-09-12 08:08 UTC",
+ "generated": "2026-09-13 08:26 UTC",
  "version": "3.0.0"
 }
