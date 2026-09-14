@@ -1,10 +1,10 @@
 {
- "donem": "2026-W37",
+ "donem": "2026-W38",
  "duzelt": [
   {
    "anahtar": "dde7adab1615e8c7",
    "baslik": "Primetals secures PLTCM automation order",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOVFV4U0VJZ0hYZUVGOGQzMkc0TnZyX3BRa3JaYVVqejZ4dW42SEhGNlItT1FZcHIzUUxrejJMai1zUDhGMXhHUFdPZktOWnZyQkhpODJzVnJMN2xNaDFDRXpPd1ZKREhZN1hld2NRTGtGLW43NWxLRkRsYzZQelUwcw?oc=5",
+   "url": "https://www.steeltimesint.com/news/primetals-secures-pltcm-automation-order",
    "eksik": [
     "ulke"
    ],
@@ -16,60 +16,58 @@
    }
   },
   {
-   "anahtar": "5f96f7156d345f49",
-   "baslik": "Metallus Commissions Furnaces for Defense Steel Production",
-   "url": "https://www.heattreattoday.com/metallus-commissions-furnaces-for-defense-steel-production/",
+   "anahtar": "541377035ee6148a",
+   "baslik": "POSCO Invests 480 Billion Won in New Auto Steel Coating Plant",
+   "url": "https://en.sedaily.com/finance/2026/09/08/posco-invests-480-billion-won-in-new-auto-steel-plant",
    "eksik": [
-    "ulke",
-    "hat"
+    "ulke"
    ],
    "mevcut": {
-    "firma": "Metallus",
+    "firma": "POSCO",
     "ulke": "",
-    "hat": "Belirsiz",
-    "asama": "Ilk urun"
+    "hat": "Galvaniz hatti (CGL)",
+    "asama": "Sozlesme"
    }
   },
   {
-   "anahtar": "cae1022dd02a793f",
-   "baslik": "Xinyu Steel, elektrik çeliği üretim kapasitesini 250 bin tona çıkardı",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUERkVDlfM1NRTG81c0RlSHZWWksxRGx1MEVaN3lReHNxaTdRcEllaUdCZjVBZWFLeWhWc1dvcnU2aVNuLUIxVVRtaXgwRFlEeTN3ckRiZTZjbnd2SnlrNjNjSUx5MUszMi03TkJ3bFByMklzWS1BRVJ3clh4YncwTjhKX2ZNQ0MwUUc2QlAzNDNxVng5U0hfakIyVkk4YzVxNm54NQ?oc=5",
+   "anahtar": "76de8e87fe54c6be",
+   "baslik": "Posco breaks ground on first new auto-steel coating line in 9 years, investing W480b in Gwangyang",
+   "url": "https://biz.heraldcorp.com/article/10865917",
+   "eksik": [
+    "ulke"
+   ],
+   "mevcut": {
+    "firma": "Posco",
+    "ulke": "",
+    "hat": "Galvaniz hatti (CGL)",
+    "asama": "Insaat"
+   }
+  },
+  {
+   "anahtar": "ee101f4da5b277ec",
+   "baslik": "[Rizhao Steel No.7 Pickling and Rolling Line Upgrade and Transformation]",
+   "url": "https://news.metal.com/en/newscontent/104112659-rizhao-steel-no7-pickling-and-rolling-line-upgrade-and-transformation",
+   "eksik": [
+    "firma",
+    "tarih?"
+   ],
+   "mevcut": {
+    "firma": "",
+    "ulke": "Malezya",
+    "hat": "Asitleme hatti",
+    "asama": "Modernizasyon"
+   }
+  },
+  {
+   "anahtar": "725f7a83cfe053d1",
+   "baslik": "Hyundai Steel plans to open steel plant in Louisiana",
+   "url": "https://www.plantservices.com/industry-news/news/55404410/hyundai-steel-plans-to-open-steel-plant-in-louisiana",
    "eksik": [
     "ulke",
     "asama"
    ],
    "mevcut": {
-    "firma": "Xinyu Steel",
-    "ulke": "",
-    "hat": "Elektrik celigi hatti",
-    "asama": "Belirsiz"
-   }
-  },
-  {
-   "anahtar": "6b5ba9496b3d7d58",
-   "baslik": "Konya'da 430 milyon dolarlık çifte yatırım: Haddehane gün sayıyor, yeni hat geliyor",
-   "url": "https://www.yenihaberden.com/konya-da-430-milyon-dolarlik-cifte-yatirim-haddehane-gun-sayiyor-yeni-hat-geliyor/1859098/",
-   "eksik": [
-    "ulke",
-    "asama"
-   ],
-   "mevcut": {
-    "firma": "Konya'da",
-    "ulke": "",
-    "hat": "Soguk hadde",
-    "asama": "Belirsiz"
-   }
-  },
-  {
-   "anahtar": "5ddafe54499a1936",
-   "baslik": "ArcelorMittal Brasil to invest in new cold rolling mill and coating lines",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/arcelormittal-brasil-to-invest-in-new-cold-rolling-mill-and-coating-lines-1474267.htm",
-   "eksik": [
-    "ulke",
-    "asama"
-   ],
-   "mevcut": {
-    "firma": "ArcelorMittal Brasil",
+    "firma": "Hyundai Steel",
     "ulke": "",
     "hat": "Soguk hadde",
     "asama": "Belirsiz"
@@ -88,6 +86,16 @@
    "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/ussk-orders-new-electrical-steel-plant-tenova-0619/"
   },
   {
+   "anahtar": "239c2c6495c887bf",
+   "tarih": "2026-08-31",
+   "firma": "John Cockerill",
+   "ulke": "Tanzanya",
+   "hat": "Soguk hadde",
+   "asama": "Sozlesme",
+   "baslik": "John Cockerill rises after bagging Rs 200-cr order from A1 Iron & Steel Tanzania",
+   "url": "https://www.msn.com/en-in/news/other/john-cockerill-rises-after-bagging-rs-200-cr-order-from-a1-iron-steel-tanzania/ar-AA2bezOs"
+  },
+  {
    "anahtar": "dde7adab1615e8c7",
    "tarih": "2026-09-03",
    "firma": "Primetals",
@@ -95,17 +103,47 @@
    "hat": "Tandem soguk hadde (TCM)",
    "asama": "Sozlesme",
    "baslik": "Primetals secures PLTCM automation order",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOVFV4U0VJZ0hYZUVGOGQzMkc0TnZyX3BRa3JaYVVqejZ4dW42SEhGNlItT1FZcHIzUUxrejJMai1zUDhGMXhHUFdPZktOWnZyQkhpODJzVnJMN2xNaDFDRXpPd1ZKREhZN1hld2NRTGtGLW43NWxLRkRsYzZQelUwcw?oc=5"
+   "url": "https://www.steeltimesint.com/news/primetals-secures-pltcm-automation-order"
   },
   {
-   "anahtar": "5f96f7156d345f49",
-   "tarih": "2026-09-02",
-   "firma": "Metallus",
+   "anahtar": "541377035ee6148a",
+   "tarih": "2026-09-08",
+   "firma": "POSCO",
    "ulke": "",
-   "hat": "Belirsiz",
-   "asama": "Ilk urun",
-   "baslik": "Metallus Commissions Furnaces for Defense Steel Production",
-   "url": "https://www.heattreattoday.com/metallus-commissions-furnaces-for-defense-steel-production/"
+   "hat": "Galvaniz hatti (CGL)",
+   "asama": "Sozlesme",
+   "baslik": "POSCO Invests 480 Billion Won in New Auto Steel Coating Plant",
+   "url": "https://en.sedaily.com/finance/2026/09/08/posco-invests-480-billion-won-in-new-auto-steel-plant"
+  },
+  {
+   "anahtar": "76de8e87fe54c6be",
+   "tarih": "2026-09-07",
+   "firma": "Posco",
+   "ulke": "",
+   "hat": "Galvaniz hatti (CGL)",
+   "asama": "Insaat",
+   "baslik": "Posco breaks ground on first new auto-steel coating line in 9 years, investing W480b in Gwangyang",
+   "url": "https://biz.heraldcorp.com/article/10865917"
+  },
+  {
+   "anahtar": "ee101f4da5b277ec",
+   "tarih": "2026-09-14",
+   "firma": "",
+   "ulke": "Malezya",
+   "hat": "Asitleme hatti",
+   "asama": "Modernizasyon",
+   "baslik": "[Rizhao Steel No.7 Pickling and Rolling Line Upgrade and Transformation]",
+   "url": "https://news.metal.com/en/newscontent/104112659-rizhao-steel-no7-pickling-and-rolling-line-upgrade-and-transformation"
+  },
+  {
+   "anahtar": "725f7a83cfe053d1",
+   "tarih": "2026-09-10",
+   "firma": "Hyundai Steel",
+   "ulke": "",
+   "hat": "Soguk hadde",
+   "asama": "Belirsiz",
+   "baslik": "Hyundai Steel plans to open steel plant in Louisiana",
+   "url": "https://www.plantservices.com/industry-news/news/55404410/hyundai-steel-plans-to-open-steel-plant-in-louisiana"
   }
  ],
  "teknoloji_adaylari": []

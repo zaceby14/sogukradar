@@ -1,6 +1,33 @@
 {
  "bulunan": [
   {
+   "anahtar": "ee101f4da5b277ec",
+   "asama": "Modernizasyon",
+   "baslik": "[Rizhao Steel No.7 Pickling and Rolling Line Upgrade and Transformation]",
+   "eksik": [
+    "firma",
+    "tarih?"
+   ],
+   "firma": "",
+   "hat": "Asitleme hatti",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "SMM (Shanghai Metals)",
+   "kaynak_id": "smm",
+   "olaylar": [
+    "|fu|Malezya|Asitleme hatti",
+    "|hat|Asitleme hatti|Modernizasyon",
+    "|ulke|Malezya|Modernizasyon"
+   ],
+   "puan": 41.0,
+   "tarih": "2026-09-14",
+   "tarih_kaynagi": "metin",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Malezya",
+   "url": "https://news.metal.com/en/newscontent/104112659-rizhao-steel-no7-pickling-and-rolling-line-upgrade-and-transformation"
+  },
+  {
    "anahtar": "529c0fb9c048632c",
    "asama": "Belirsiz",
    "baslik": "Kocaeli PS: Küresel kapasite fazlası, korumacılık ve karbon maliyetleri yassı çelik sektörünün hareket alanını daraltıyor",
@@ -1438,6 +1465,24 @@
     "tekrar": 24
    },
    "uretim": "2026-09-13 08:26 UTC"
+  },
+  {
+   "donem": "2026-W38",
+   "satir": 7,
+   "stats": {
+    "erisilemeyen": 109,
+    "gnews_tarih": 0,
+    "ham": 3185,
+    "kabul": 7,
+    "kapsam_disi": 2879,
+    "kaynak": 291,
+    "makale_acildi": 215,
+    "on_eleme_gecti": 284,
+    "pencere_disi": 190,
+    "tarihsiz_elendi": 85,
+    "tekrar": 24
+   },
+   "uretim": "2026-09-14 04:55 UTC"
   }
  ],
  "rezerv": [
