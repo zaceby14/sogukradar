@@ -1,6 +1,30 @@
 {
  "rows": [
   {
+   "tarih": "2026-08-31",
+   "firma": "John Cockerill",
+   "ulke": "Tanzanya",
+   "hat": "Soguk hadde",
+   "asama": "Sozlesme",
+   "tedarikci": "John Cockerill",
+   "kapasite": "",
+   "tutar": "Rs 200",
+   "baslik": "John Cockerill rises after bagging Rs 200-cr order from A1 Iron & Steel Tanzania",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_sup04",
+   "url": "https://www.msn.com/en-in/news/other/john-cockerill-rises-after-bagging-rs-200-cr-order-from-a1-iron-steel-tanzania/ar-AA2bezOs",
+   "tarih_kaynagi": "rss",
+   "eksik": [],
+   "anahtar": "239c2c6495c887bf",
+   "kategori": "Hat",
+   "olaylar": [
+    "john cockerill|fu|Tanzanya|Soguk hadde",
+    "john cockerill|hat|Soguk hadde|Sozlesme",
+    "john cockerill|ulke|Tanzanya|Sozlesme"
+   ],
+   "puan": 61.4
+  },
+  {
    "tarih": "2026-09-03",
    "firma": "Primetals",
    "ulke": "",
@@ -22,7 +46,31 @@
    "olaylar": [
     "primetals|hat|Tandem soguk hadde (TCM)|Sozlesme"
    ],
-   "puan": 58.0
+   "puan": 57.6
+  },
+  {
+   "tarih": "2026-09-07",
+   "firma": "Posco injects W480b",
+   "ulke": "",
+   "hat": "Galvaniz hatti (CGL)",
+   "asama": "Sozlesme",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "$357 million",
+   "baslik": "Posco injects W480b to expand premium auto steel production",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgx_q_elec2",
+   "url": "https://www.koreaherald.com/article/10866589",
+   "tarih_kaynagi": "rss",
+   "eksik": [
+    "ulke"
+   ],
+   "anahtar": "57d6f873acaab6da",
+   "kategori": "Hat",
+   "olaylar": [
+    "posco injects w480b|hat|Galvaniz hatti (CGL)|Sozlesme"
+   ],
+   "puan": 57.2
   },
   {
    "tarih": "2026-09-08",
@@ -46,7 +94,7 @@
    "olaylar": [
     "posco|hat|Galvaniz hatti (CGL)|Sozlesme"
    ],
-   "puan": 54.0
+   "puan": 53.6
   },
   {
    "tarih": "2026-09-07",
@@ -59,7 +107,7 @@
    "tutar": "$354 million",
    "baslik": "Posco breaks ground on first new auto-steel coating line in 9 years, investing W480b in Gwangyang",
    "kaynak": "Bing News",
-   "kaynak_id": "bgq_urun01",
+   "kaynak_id": "bgq_hat04",
    "url": "https://biz.heraldcorp.com/article/10865917",
    "tarih_kaynagi": "rss",
    "eksik": [
@@ -70,7 +118,59 @@
    "olaylar": [
     "posco|hat|Galvaniz hatti (CGL)|Insaat"
    ],
-   "puan": 49.6
+   "puan": 49.2
+  },
+  {
+   "tarih": "2026-09-06",
+   "firma": "Wanneng Steel Structure",
+   "ulke": "Cin",
+   "hat": "Belirsiz",
+   "asama": "Sozlesme",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "Wanneng Steel Structure Indonesia Company: Bridging Chinese Blueprints, Cross-Border Logistics, and Local K3 Management",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_hat17",
+   "url": "https://www.sohu.com/a/1072548628_122758036",
+   "tarih_kaynagi": "rss",
+   "eksik": [
+    "hat"
+   ],
+   "anahtar": "80f7089316da6753",
+   "kategori": "Hat",
+   "olaylar": [
+    "wanneng steel structure|fu|Cin|Belirsiz",
+    "wanneng steel structure|hat|Belirsiz|Sozlesme",
+    "wanneng steel structure|ulke|Cin|Sozlesme"
+   ],
+   "puan": 42.8
+  },
+  {
+   "tarih": "2026-09-14",
+   "firma": "Rizhao Steel No.7",
+   "ulke": "Endonezya",
+   "hat": "Asitleme hatti",
+   "asama": "Modernizasyon",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "Rizhao Steel No.7 Pickling and Rolling Line Upgrade and Transformation",
+   "kaynak": "SMM (Shanghai Metals)",
+   "kaynak_id": "smm",
+   "url": "https://news.metal.com/en/newscontent/104112659-rizhao-steel-no7-pickling-and-rolling-line-upgrade-and-transformation",
+   "tarih_kaynagi": "metin",
+   "eksik": [
+    "tarih?"
+   ],
+   "anahtar": "ee101f4da5b277ec",
+   "kategori": "Hat",
+   "olaylar": [
+    "rizhao steel no.7|fu|Endonezya|Asitleme hatti",
+    "rizhao steel no.7|hat|Asitleme hatti|Modernizasyon",
+    "rizhao steel no.7|ulke|Endonezya|Modernizasyon"
+   ],
+   "puan": 41.0
   },
   {
    "tarih": "2026-09-10",
@@ -95,71 +195,20 @@
    "olaylar": [
     "hyundai steel|hat|Soguk hadde|Belirsiz"
    ],
-   "puan": 30.8
-  },
-  {
-   "anahtar": "529c0fb9c048632c",
-   "asama": "Belirsiz",
-   "baslik": "Kocaeli PS: Küresel kapasite fazlası, korumacılık ve karbon maliyetleri yassı çelik sektörünün hareket alanını daraltıyor",
-   "eksik": [
-    "ulke",
-    "hat",
-    "asama"
-   ],
-   "firma": "Kocaeli PS",
-   "hat": "Belirsiz",
-   "kapasite": "",
-   "kategori": "Yatirim",
-   "kaynak": "SteelOrbis",
-   "kaynak_id": "gq_tr06",
-   "olaylar": [
-    "kocaeli ps|hat|Belirsiz|Belirsiz"
-   ],
-   "puan": -5.4,
-   "tarih": "2026-09-09",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "",
-   "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNM25GdzB0bUUyMVo3V29WSEYyandNdU5oLUdwVmRHVXZIcVdDRVRCQ0FOQW45Z0ZZVGlPS09pYmtYODNISm14d3YtNnctMzBHMTZYM2xDdjBXaC1McU96a0tCYkFvcTFuY0VkM1pSSjNJNFZUNjRTdW4yMlF4T2VxUGh0amVMTHNWOHNHS3FscTVnOVY1bUxrd1dGYjlUYV9QdTdRNDktd1RFMGZKMzJQa3RJRnlpZXlzVmdLOTUzY1BtTVhhaGlSVHZUdjBYVFRla3h4Z0Q0M0RtOS1ZaU9jd1BQcHc3NWd2N3hrYXh4ZnFmbVhEX296U2t4ZDA3ZnNod3pEejBoQWNwQQ?oc=5"
-  },
-  {
-   "anahtar": "495456be16726ffc",
-   "asama": "Seri uretim",
-   "baslik": "Rizhao Steel Coating Lines Reach Full Production Across the Board",
-   "eksik": [
-    "ulke",
-    "tarih?"
-   ],
-   "firma": "Rizhao Steel Coating",
-   "hat": "Galvaniz hatti (CGL)",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "SMM (Shanghai Metals)",
-   "kaynak_id": "smm",
-   "olaylar": [
-    "rizhao steel coating|hat|Galvaniz hatti (CGL)|Seri uretim"
-   ],
-   "puan": 41.6,
-   "tarih": "2026-09-07",
-   "tarih_kaynagi": "metin",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "",
-   "url": "https://news.metal.com/en/newscontent/104101348-rizhao-steel-coating-lines-reach-full-production-across-the-board"
+   "puan": 30.4
   }
  ],
  "stats": {
   "kaynak": 291,
-  "erisilemeyen": 8,
-  "ham": 3550,
-  "on_eleme_gecti": 308,
-  "makale_acildi": 212,
+  "erisilemeyen": 9,
+  "ham": 3656,
+  "on_eleme_gecti": 334,
+  "makale_acildi": 220,
   "tarihsiz_elendi": 88,
-  "pencere_disi": 272,
-  "kapsam_disi": 3162,
-  "tekrar": 24,
-  "kabul": 4,
+  "pencere_disi": 267,
+  "kapsam_disi": 3257,
+  "tekrar": 36,
+  "kabul": 8,
   "gnews_tarih": 0
  },
  "unreachable": [
@@ -190,6 +239,10 @@
   [
    "MetalForming Magazine",
    "HTTP 404"
+  ],
+  [
+   "Japan Metal Daily",
+   "TimeoutError: The read operation timed out"
   ],
   [
    "Sanayi Gazetesi",
@@ -489,7 +542,7 @@
   "bgtek_jc": "arama",
   "bgtek_danieli": "arama"
  },
- "today": "2026-09-13",
+ "today": "2026-09-14",
  "host_saglik": {
   "news.google.com": {
    "istek": 112,
@@ -514,18 +567,19 @@
  },
  "tech_pool": [],
  "kaynak_katki": {
+  "SMM (Shanghai Metals)": 1,
   "Google News": 1,
-  "Bing News": 3
+  "Bing News": 6
  },
  "window": [
-  "2026-08-23",
-  "2026-09-13"
+  "2026-08-24",
+  "2026-09-14"
  ],
- "bulunan_kullanilan": 2,
- "bulunan_havuz": 12,
+ "bulunan_kullanilan": 0,
+ "bulunan_havuz": 14,
  "rezerv_kullanilan": 0,
  "rezerv_havuz": 15,
- "period": "2026-W37",
- "generated": "2026-09-13 08:26 UTC",
+ "period": "2026-W38",
+ "generated": "2026-09-14 09:06 UTC",
  "version": "3.0.0"
 }

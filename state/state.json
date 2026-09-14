@@ -1483,6 +1483,24 @@
     "tekrar": 24
    },
    "uretim": "2026-09-14 04:55 UTC"
+  },
+  {
+   "donem": "2026-W38",
+   "satir": 8,
+   "stats": {
+    "erisilemeyen": 9,
+    "gnews_tarih": 0,
+    "ham": 3656,
+    "kabul": 8,
+    "kapsam_disi": 3257,
+    "kaynak": 291,
+    "makale_acildi": 220,
+    "on_eleme_gecti": 334,
+    "pencere_disi": 267,
+    "tarihsiz_elendi": 88,
+    "tekrar": 36
+   },
+   "uretim": "2026-09-14 09:06 UTC"
   }
  ],
  "rezerv": [

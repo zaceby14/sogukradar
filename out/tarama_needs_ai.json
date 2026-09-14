@@ -1,5 +1,5 @@
 {
- "donem": "2026-W37",
+ "donem": "2026-W38",
  "duzelt": [
   {
    "anahtar": "dde7adab1615e8c7",
@@ -12,6 +12,20 @@
     "firma": "Primetals",
     "ulke": "",
     "hat": "Tandem soguk hadde (TCM)",
+    "asama": "Sozlesme"
+   }
+  },
+  {
+   "anahtar": "57d6f873acaab6da",
+   "baslik": "Posco injects W480b to expand premium auto steel production",
+   "url": "https://www.koreaherald.com/article/10866589",
+   "eksik": [
+    "ulke"
+   ],
+   "mevcut": {
+    "firma": "Posco injects W480b",
+    "ulke": "",
+    "hat": "Galvaniz hatti (CGL)",
     "asama": "Sozlesme"
    }
   },
@@ -44,6 +58,34 @@
    }
   },
   {
+   "anahtar": "80f7089316da6753",
+   "baslik": "Wanneng Steel Structure Indonesia Company: Bridging Chinese Blueprints, Cross-Border Logistics, and Local K3 Management",
+   "url": "https://www.sohu.com/a/1072548628_122758036",
+   "eksik": [
+    "hat"
+   ],
+   "mevcut": {
+    "firma": "Wanneng Steel Structure",
+    "ulke": "Cin",
+    "hat": "Belirsiz",
+    "asama": "Sozlesme"
+   }
+  },
+  {
+   "anahtar": "ee101f4da5b277ec",
+   "baslik": "Rizhao Steel No.7 Pickling and Rolling Line Upgrade and Transformation",
+   "url": "https://news.metal.com/en/newscontent/104112659-rizhao-steel-no7-pickling-and-rolling-line-upgrade-and-transformation",
+   "eksik": [
+    "tarih?"
+   ],
+   "mevcut": {
+    "firma": "Rizhao Steel No.7",
+    "ulke": "Endonezya",
+    "hat": "Asitleme hatti",
+    "asama": "Modernizasyon"
+   }
+  },
+  {
    "anahtar": "725f7a83cfe053d1",
    "baslik": "Hyundai Steel plans to open steel plant in Louisiana",
    "url": "https://www.plantservices.com/industry-news/news/55404410/hyundai-steel-plans-to-open-steel-plant-in-louisiana",
@@ -57,40 +99,19 @@
     "hat": "Soguk hadde",
     "asama": "Belirsiz"
    }
-  },
-  {
-   "anahtar": "529c0fb9c048632c",
-   "baslik": "Kocaeli PS: Küresel kapasite fazlası, korumacılık ve karbon maliyetleri yassı çelik sektörünün hareket alanını daraltıyor",
-   "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNM25GdzB0bUUyMVo3V29WSEYyandNdU5oLUdwVmRHVXZIcVdDRVRCQ0FOQW45Z0ZZVGlPS09pYmtYODNISm14d3YtNnctMzBHMTZYM2xDdjBXaC1McU96a0tCYkFvcTFuY0VkM1pSSjNJNFZUNjRTdW4yMlF4T2VxUGh0amVMTHNWOHNHS3FscTVnOVY1bUxrd1dGYjlUYV9QdTdRNDktd1RFMGZKMzJQa3RJRnlpZXlzVmdLOTUzY1BtTVhhaGlSVHZUdjBYVFRla3h4Z0Q0M0RtOS1ZaU9jd1BQcHc3NWd2N3hrYXh4ZnFmbVhEX296U2t4ZDA3ZnNod3pEejBoQWNwQQ?oc=5",
-   "eksik": [
-    "ulke",
-    "hat",
-    "asama"
-   ],
-   "mevcut": {
-    "firma": "Kocaeli PS",
-    "ulke": "",
-    "hat": "Belirsiz",
-    "asama": "Belirsiz"
-   }
-  },
-  {
-   "anahtar": "495456be16726ffc",
-   "baslik": "Rizhao Steel Coating Lines Reach Full Production Across the Board",
-   "url": "https://news.metal.com/en/newscontent/104101348-rizhao-steel-coating-lines-reach-full-production-across-the-board",
-   "eksik": [
-    "ulke",
-    "tarih?"
-   ],
-   "mevcut": {
-    "firma": "Rizhao Steel Coating",
-    "ulke": "",
-    "hat": "Galvaniz hatti (CGL)",
-    "asama": "Seri uretim"
-   }
   }
  ],
  "cumle_yaz": [
+  {
+   "anahtar": "239c2c6495c887bf",
+   "tarih": "2026-08-31",
+   "firma": "John Cockerill",
+   "ulke": "Tanzanya",
+   "hat": "Soguk hadde",
+   "asama": "Sozlesme",
+   "baslik": "John Cockerill rises after bagging Rs 200-cr order from A1 Iron & Steel Tanzania",
+   "url": "https://www.msn.com/en-in/news/other/john-cockerill-rises-after-bagging-rs-200-cr-order-from-a1-iron-steel-tanzania/ar-AA2bezOs"
+  },
   {
    "anahtar": "dde7adab1615e8c7",
    "tarih": "2026-09-03",
@@ -100,6 +121,16 @@
    "asama": "Sozlesme",
    "baslik": "Primetals secures PLTCM automation order",
    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOVFV4U0VJZ0hYZUVGOGQzMkc0TnZyX3BRa3JaYVVqejZ4dW42SEhGNlItT1FZcHIzUUxrejJMai1zUDhGMXhHUFdPZktOWnZyQkhpODJzVnJMN2xNaDFDRXpPd1ZKREhZN1hld2NRTGtGLW43NWxLRkRsYzZQelUwcw?oc=5"
+  },
+  {
+   "anahtar": "57d6f873acaab6da",
+   "tarih": "2026-09-07",
+   "firma": "Posco injects W480b",
+   "ulke": "",
+   "hat": "Galvaniz hatti (CGL)",
+   "asama": "Sozlesme",
+   "baslik": "Posco injects W480b to expand premium auto steel production",
+   "url": "https://www.koreaherald.com/article/10866589"
   },
   {
    "anahtar": "541377035ee6148a",
@@ -122,6 +153,26 @@
    "url": "https://biz.heraldcorp.com/article/10865917"
   },
   {
+   "anahtar": "80f7089316da6753",
+   "tarih": "2026-09-06",
+   "firma": "Wanneng Steel Structure",
+   "ulke": "Cin",
+   "hat": "Belirsiz",
+   "asama": "Sozlesme",
+   "baslik": "Wanneng Steel Structure Indonesia Company: Bridging Chinese Blueprints, Cross-Border Logistics, and Local K3 Management",
+   "url": "https://www.sohu.com/a/1072548628_122758036"
+  },
+  {
+   "anahtar": "ee101f4da5b277ec",
+   "tarih": "2026-09-14",
+   "firma": "Rizhao Steel No.7",
+   "ulke": "Endonezya",
+   "hat": "Asitleme hatti",
+   "asama": "Modernizasyon",
+   "baslik": "Rizhao Steel No.7 Pickling and Rolling Line Upgrade and Transformation",
+   "url": "https://news.metal.com/en/newscontent/104112659-rizhao-steel-no7-pickling-and-rolling-line-upgrade-and-transformation"
+  },
+  {
    "anahtar": "725f7a83cfe053d1",
    "tarih": "2026-09-10",
    "firma": "Hyundai Steel",
@@ -130,16 +181,6 @@
    "asama": "Belirsiz",
    "baslik": "Hyundai Steel plans to open steel plant in Louisiana",
    "url": "https://www.plantservices.com/industry-news/news/55404410/hyundai-steel-plans-to-open-steel-plant-in-louisiana"
-  },
-  {
-   "anahtar": "495456be16726ffc",
-   "tarih": "2026-09-07",
-   "firma": "Rizhao Steel Coating",
-   "ulke": "",
-   "hat": "Galvaniz hatti (CGL)",
-   "asama": "Seri uretim",
-   "baslik": "Rizhao Steel Coating Lines Reach Full Production Across the Board",
-   "url": "https://news.metal.com/en/newscontent/104101348-rizhao-steel-coating-lines-reach-full-production-across-the-board"
   }
  ],
  "teknoloji_adaylari": []
