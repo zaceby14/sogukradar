@@ -58,34 +58,6 @@
    }
   },
   {
-   "anahtar": "80f7089316da6753",
-   "baslik": "Wanneng Steel Structure Indonesia Company: Bridging Chinese Blueprints, Cross-Border Logistics, and Local K3 Management",
-   "url": "https://www.sohu.com/a/1072548628_122758036",
-   "eksik": [
-    "hat"
-   ],
-   "mevcut": {
-    "firma": "Wanneng Steel Structure",
-    "ulke": "Cin",
-    "hat": "Belirsiz",
-    "asama": "Sozlesme"
-   }
-  },
-  {
-   "anahtar": "ee101f4da5b277ec",
-   "baslik": "Rizhao Steel No.7 Pickling and Rolling Line Upgrade and Transformation",
-   "url": "https://news.metal.com/en/newscontent/104112659-rizhao-steel-no7-pickling-and-rolling-line-upgrade-and-transformation",
-   "eksik": [
-    "tarih?"
-   ],
-   "mevcut": {
-    "firma": "Rizhao Steel No.7",
-    "ulke": "Endonezya",
-    "hat": "Asitleme hatti",
-    "asama": "Modernizasyon"
-   }
-  },
-  {
    "anahtar": "725f7a83cfe053d1",
    "baslik": "Hyundai Steel plans to open steel plant in Louisiana",
    "url": "https://www.plantservices.com/industry-news/news/55404410/hyundai-steel-plans-to-open-steel-plant-in-louisiana",
@@ -104,13 +76,13 @@
  "cumle_yaz": [
   {
    "anahtar": "239c2c6495c887bf",
-   "tarih": "2026-08-31",
+   "tarih": "2026-08-30",
    "firma": "John Cockerill",
    "ulke": "Tanzanya",
    "hat": "Soguk hadde",
    "asama": "Sozlesme",
    "baslik": "John Cockerill rises after bagging Rs 200-cr order from A1 Iron & Steel Tanzania",
-   "url": "https://www.msn.com/en-in/news/other/john-cockerill-rises-after-bagging-rs-200-cr-order-from-a1-iron-steel-tanzania/ar-AA2bezOs"
+   "url": "https://www.msn.com/en-in/money/economy/john-cockerill-rises-after-bagging-rs-200-cr-order-from-a1-iron-steel-tanzania/ar-AA2bezOs"
   },
   {
    "anahtar": "dde7adab1615e8c7",
@@ -151,26 +123,6 @@
    "asama": "Insaat",
    "baslik": "Posco breaks ground on first new auto-steel coating line in 9 years, investing W480b in Gwangyang",
    "url": "https://biz.heraldcorp.com/article/10865917"
-  },
-  {
-   "anahtar": "80f7089316da6753",
-   "tarih": "2026-09-06",
-   "firma": "Wanneng Steel Structure",
-   "ulke": "Cin",
-   "hat": "Belirsiz",
-   "asama": "Sozlesme",
-   "baslik": "Wanneng Steel Structure Indonesia Company: Bridging Chinese Blueprints, Cross-Border Logistics, and Local K3 Management",
-   "url": "https://www.sohu.com/a/1072548628_122758036"
-  },
-  {
-   "anahtar": "ee101f4da5b277ec",
-   "tarih": "2026-09-14",
-   "firma": "Rizhao Steel No.7",
-   "ulke": "Endonezya",
-   "hat": "Asitleme hatti",
-   "asama": "Modernizasyon",
-   "baslik": "Rizhao Steel No.7 Pickling and Rolling Line Upgrade and Transformation",
-   "url": "https://news.metal.com/en/newscontent/104112659-rizhao-steel-no7-pickling-and-rolling-line-upgrade-and-transformation"
   },
   {
    "anahtar": "725f7a83cfe053d1",

@@ -1,7 +1,7 @@
 {
  "rows": [
   {
-   "tarih": "2026-08-31",
+   "tarih": "2026-08-30",
    "firma": "John Cockerill",
    "ulke": "Tanzanya",
    "hat": "Soguk hadde",
@@ -11,8 +11,8 @@
    "tutar": "Rs 200",
    "baslik": "John Cockerill rises after bagging Rs 200-cr order from A1 Iron & Steel Tanzania",
    "kaynak": "Bing News",
-   "kaynak_id": "bgq_sup04",
-   "url": "https://www.msn.com/en-in/news/other/john-cockerill-rises-after-bagging-rs-200-cr-order-from-a1-iron-steel-tanzania/ar-AA2bezOs",
+   "kaynak_id": "bgx_q_arp",
+   "url": "https://www.msn.com/en-in/money/economy/john-cockerill-rises-after-bagging-rs-200-cr-order-from-a1-iron-steel-tanzania/ar-AA2bezOs",
    "tarih_kaynagi": "rss",
    "eksik": [],
    "anahtar": "239c2c6495c887bf",
@@ -22,7 +22,7 @@
     "john cockerill|hat|Soguk hadde|Sozlesme",
     "john cockerill|ulke|Tanzanya|Sozlesme"
    ],
-   "puan": 61.4
+   "puan": 60.6
   },
   {
    "tarih": "2026-09-03",
@@ -46,7 +46,7 @@
    "olaylar": [
     "primetals|hat|Tandem soguk hadde (TCM)|Sozlesme"
    ],
-   "puan": 57.6
+   "puan": 57.2
   },
   {
    "tarih": "2026-09-07",
@@ -70,7 +70,7 @@
    "olaylar": [
     "posco injects w480b|hat|Galvaniz hatti (CGL)|Sozlesme"
    ],
-   "puan": 57.2
+   "puan": 56.8
   },
   {
    "tarih": "2026-09-08",
@@ -83,7 +83,7 @@
    "tutar": "",
    "baslik": "POSCO Invests 480 Billion Won in New Auto Steel Coating Plant",
    "kaynak": "Bing News",
-   "kaynak_id": "bgq_urun01",
+   "kaynak_id": "bgq_hat04",
    "url": "https://en.sedaily.com/finance/2026/09/08/posco-invests-480-billion-won-in-new-auto-steel-plant",
    "tarih_kaynagi": "rss",
    "eksik": [
@@ -94,7 +94,7 @@
    "olaylar": [
     "posco|hat|Galvaniz hatti (CGL)|Sozlesme"
    ],
-   "puan": 53.6
+   "puan": 53.2
   },
   {
    "tarih": "2026-09-07",
@@ -118,59 +118,7 @@
    "olaylar": [
     "posco|hat|Galvaniz hatti (CGL)|Insaat"
    ],
-   "puan": 49.2
-  },
-  {
-   "tarih": "2026-09-06",
-   "firma": "Wanneng Steel Structure",
-   "ulke": "Cin",
-   "hat": "Belirsiz",
-   "asama": "Sozlesme",
-   "tedarikci": "",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "Wanneng Steel Structure Indonesia Company: Bridging Chinese Blueprints, Cross-Border Logistics, and Local K3 Management",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgq_hat17",
-   "url": "https://www.sohu.com/a/1072548628_122758036",
-   "tarih_kaynagi": "rss",
-   "eksik": [
-    "hat"
-   ],
-   "anahtar": "80f7089316da6753",
-   "kategori": "Hat",
-   "olaylar": [
-    "wanneng steel structure|fu|Cin|Belirsiz",
-    "wanneng steel structure|hat|Belirsiz|Sozlesme",
-    "wanneng steel structure|ulke|Cin|Sozlesme"
-   ],
-   "puan": 42.8
-  },
-  {
-   "tarih": "2026-09-14",
-   "firma": "Rizhao Steel No.7",
-   "ulke": "Endonezya",
-   "hat": "Asitleme hatti",
-   "asama": "Modernizasyon",
-   "tedarikci": "",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "Rizhao Steel No.7 Pickling and Rolling Line Upgrade and Transformation",
-   "kaynak": "SMM (Shanghai Metals)",
-   "kaynak_id": "smm",
-   "url": "https://news.metal.com/en/newscontent/104112659-rizhao-steel-no7-pickling-and-rolling-line-upgrade-and-transformation",
-   "tarih_kaynagi": "metin",
-   "eksik": [
-    "tarih?"
-   ],
-   "anahtar": "ee101f4da5b277ec",
-   "kategori": "Hat",
-   "olaylar": [
-    "rizhao steel no.7|fu|Endonezya|Asitleme hatti",
-    "rizhao steel no.7|hat|Asitleme hatti|Modernizasyon",
-    "rizhao steel no.7|ulke|Endonezya|Modernizasyon"
-   ],
-   "puan": 41.0
+   "puan": 48.8
   },
   {
    "tarih": "2026-09-10",
@@ -195,20 +143,20 @@
    "olaylar": [
     "hyundai steel|hat|Soguk hadde|Belirsiz"
    ],
-   "puan": 30.4
+   "puan": 30.0
   }
  ],
  "stats": {
   "kaynak": 291,
-  "erisilemeyen": 9,
-  "ham": 3656,
-  "on_eleme_gecti": 334,
-  "makale_acildi": 220,
+  "erisilemeyen": 8,
+  "ham": 3731,
+  "on_eleme_gecti": 336,
+  "makale_acildi": 210,
   "tarihsiz_elendi": 88,
-  "pencere_disi": 267,
-  "kapsam_disi": 3257,
-  "tekrar": 36,
-  "kabul": 8,
+  "pencere_disi": 263,
+  "kapsam_disi": 3344,
+  "tekrar": 30,
+  "kabul": 6,
   "gnews_tarih": 0
  },
  "unreachable": [
@@ -239,10 +187,6 @@
   [
    "MetalForming Magazine",
    "HTTP 404"
-  ],
-  [
-   "Japan Metal Daily",
-   "TimeoutError: The read operation timed out"
   ],
   [
    "Sanayi Gazetesi",
@@ -542,7 +486,7 @@
   "bgtek_jc": "arama",
   "bgtek_danieli": "arama"
  },
- "today": "2026-09-14",
+ "today": "2026-09-15",
  "host_saglik": {
   "news.google.com": {
    "istek": 112,
@@ -567,19 +511,18 @@
  },
  "tech_pool": [],
  "kaynak_katki": {
-  "SMM (Shanghai Metals)": 1,
   "Google News": 1,
-  "Bing News": 6
+  "Bing News": 5
  },
  "window": [
-  "2026-08-24",
-  "2026-09-14"
+  "2026-08-25",
+  "2026-09-15"
  ],
  "bulunan_kullanilan": 0,
- "bulunan_havuz": 14,
+ "bulunan_havuz": 15,
  "rezerv_kullanilan": 0,
  "rezerv_havuz": 15,
  "period": "2026-W38",
- "generated": "2026-09-14 09:06 UTC",
+ "generated": "2026-09-15 08:48 UTC",
  "version": "3.0.0"
 }
