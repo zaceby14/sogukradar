@@ -2,6 +2,33 @@
  "rows": [
   {
    "tarih": "2026-08-30",
+   "firma": "USSK",
+   "ulke": "Turkiye",
+   "hat": "Elektrik celigi hatti",
+   "asama": "Sozlesme",
+   "tedarikci": "Tenova",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "USSK orders new electrical steel plant from Tenova",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_sup05",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/ussk-orders-new-electrical-steel-plant-tenova-0619/",
+   "tarih_kaynagi": "rss",
+   "eksik": [],
+   "anahtar": "98a2950f8f9b76b6",
+   "kategori": "Hat",
+   "olaylar": [
+    "tenova|fu|Turkiye|Elektrik celigi hatti",
+    "tenova|hat|Elektrik celigi hatti|Sozlesme",
+    "tenova|ulke|Turkiye|Sozlesme",
+    "ussk|fu|Turkiye|Elektrik celigi hatti",
+    "ussk|hat|Elektrik celigi hatti|Sozlesme",
+    "ussk|ulke|Turkiye|Sozlesme"
+   ],
+   "puan": 67.2
+  },
+  {
+   "tarih": "2026-08-30",
    "firma": "John Cockerill",
    "ulke": "Tanzanya",
    "hat": "Soguk hadde",
@@ -11,8 +38,8 @@
    "tutar": "Rs 200",
    "baslik": "John Cockerill rises after bagging Rs 200-cr order from A1 Iron & Steel Tanzania",
    "kaynak": "Bing News",
-   "kaynak_id": "bgx_q_arp",
-   "url": "https://www.msn.com/en-in/money/economy/john-cockerill-rises-after-bagging-rs-200-cr-order-from-a1-iron-steel-tanzania/ar-AA2bezOs",
+   "kaynak_id": "bgq_hat01",
+   "url": "https://www.msn.com/en-in/money/other/john-cockerill-rises-after-bagging-rs-200-cr-order-from-a1-iron-steel-tanzania/ar-AA2bezOs",
    "tarih_kaynagi": "rss",
    "eksik": [],
    "anahtar": "239c2c6495c887bf",
@@ -22,7 +49,57 @@
     "john cockerill|hat|Soguk hadde|Sozlesme",
     "john cockerill|ulke|Tanzanya|Sozlesme"
    ],
-   "puan": 60.6
+   "puan": 60.2
+  },
+  {
+   "tarih": "2026-09-15",
+   "firma": "Flux Steel Works",
+   "ulke": "ABD",
+   "hat": "Elektrik celigi hatti",
+   "asama": "Sozlesme",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "Flux Steel Works Secures Ohio Plant to Produce Power Transformer Core Steel",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_hat12",
+   "url": "https://finance.yahoo.com/energy/articles/flux-steel-works-secures-ohio-120300709.html",
+   "tarih_kaynagi": "rss",
+   "eksik": [],
+   "anahtar": "103151f7f2661a28",
+   "kategori": "Hat",
+   "olaylar": [
+    "flux steel works|fu|ABD|Elektrik celigi hatti",
+    "flux steel works|hat|Elektrik celigi hatti|Sozlesme",
+    "flux steel works|ulke|ABD|Sozlesme"
+   ],
+   "puan": 59.6
+  },
+  {
+   "tarih": "2026-09-16",
+   "firma": "Chengde Steel",
+   "ulke": "",
+   "hat": "Asitleme hatti",
+   "asama": "Sozlesme",
+   "tedarikci": "Primetals",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "Primetals Technologies to supply continuous galvanizing and pickling line to Chengde Steel",
+   "kaynak": "Primetals Technologies",
+   "kaynak_id": "elle",
+   "url": "https://www.primetals.com/press-media/news/primetals-technologies-to-supply-continuous-galvanizing-and-pickling-line-to-chengde-steel",
+   "tarih_kaynagi": "last-modified",
+   "eksik": [
+    "ulke",
+    "tarih?"
+   ],
+   "anahtar": "861fe83cb05ff9be",
+   "kategori": "Hat",
+   "olaylar": [
+    "chengde steel|hat|Asitleme hatti|Sozlesme",
+    "primetals|hat|Asitleme hatti|Sozlesme"
+   ],
+   "puan": 59.0
   },
   {
    "tarih": "2026-09-03",
@@ -34,9 +111,9 @@
    "kapasite": "",
    "tutar": "",
    "baslik": "Primetals secures PLTCM automation order",
-   "kaynak": "Steel Times International",
-   "kaynak_id": "gq_hat00",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOVFV4U0VJZ0hYZUVGOGQzMkc0TnZyX3BRa3JaYVVqejZ4dW42SEhGNlItT1FZcHIzUUxrejJMai1zUDhGMXhHUFdPZktOWnZyQkhpODJzVnJMN2xNaDFDRXpPd1ZKREhZN1hld2NRTGtGLW43NWxLRkRsYzZQelUwcw?oc=5",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgx_q_auto",
+   "url": "https://www.steeltimesint.com/news/primetals-secures-pltcm-automation-order",
    "tarih_kaynagi": "rss",
    "eksik": [
     "ulke"
@@ -46,7 +123,7 @@
    "olaylar": [
     "primetals|hat|Tandem soguk hadde (TCM)|Sozlesme"
    ],
-   "puan": 57.2
+   "puan": 56.8
   },
   {
    "tarih": "2026-09-07",
@@ -70,7 +147,7 @@
    "olaylar": [
     "posco injects w480b|hat|Galvaniz hatti (CGL)|Sozlesme"
    ],
-   "puan": 56.8
+   "puan": 56.4
   },
   {
    "tarih": "2026-09-08",
@@ -83,7 +160,7 @@
    "tutar": "",
    "baslik": "POSCO Invests 480 Billion Won in New Auto Steel Coating Plant",
    "kaynak": "Bing News",
-   "kaynak_id": "bgq_hat04",
+   "kaynak_id": "bgq_urun01",
    "url": "https://en.sedaily.com/finance/2026/09/08/posco-invests-480-billion-won-in-new-auto-steel-plant",
    "tarih_kaynagi": "rss",
    "eksik": [
@@ -94,7 +171,7 @@
    "olaylar": [
     "posco|hat|Galvaniz hatti (CGL)|Sozlesme"
    ],
-   "puan": 53.2
+   "puan": 52.8
   },
   {
    "tarih": "2026-09-07",
@@ -118,7 +195,31 @@
    "olaylar": [
     "posco|hat|Galvaniz hatti (CGL)|Insaat"
    ],
-   "puan": 48.8
+   "puan": 48.4
+  },
+  {
+   "tarih": "2026-09-15",
+   "firma": "Flux Steel",
+   "ulke": "",
+   "hat": "Elektrik celigi hatti",
+   "asama": "Modernizasyon",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "Flux Steel to retrofit Stark County mill, challenge Cleveland-Cliffs' monopoly on key transformer steel",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_hat12",
+   "url": "https://www.bizjournals.com/cleveland/news/2026/09/15/flux-steel-works-grain-oriented-cleveland-cliffs.html",
+   "tarih_kaynagi": "rss",
+   "eksik": [
+    "ulke"
+   ],
+   "anahtar": "89e2ebeec30e9c94",
+   "kategori": "Hat",
+   "olaylar": [
+    "flux steel|hat|Elektrik celigi hatti|Modernizasyon"
+   ],
+   "puan": 44.6
   },
   {
    "tarih": "2026-09-10",
@@ -143,20 +244,46 @@
    "olaylar": [
     "hyundai steel|hat|Soguk hadde|Belirsiz"
    ],
-   "puan": 30.0
+   "puan": 29.6
+  },
+  {
+   "tarih": "2026-09-15",
+   "firma": "ArcelorMittal",
+   "ulke": "Cin",
+   "hat": "Elektrik celigi hatti",
+   "asama": "Belirsiz",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "ArcelorMittal & China Oriental's joint venture to produce electrical steel in Changzhou, China",
+   "kaynak": "Yieh Corp.",
+   "kaynak_id": "gq_hat08",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxON1V3ZFNGd2RsUXV1QTJNbFU3aWQyNDFVV0FJdVRxSTA1WGMtRTFJa2QxdXg0RlNQbkNWTjJWQXRYN1FwRzZzVllBYVZ4T2d3NHNFQmdKN1lHZ2VMXzFoN29kRmg0dmNmRnBIRkFMU2ZRNTB5UzdmUFFSU0xNeTNjV29Ka2Y3QXNGT2JPT0prRnl5aEM4SGNwaE5MeFFXbEY0Z3BpY1otUnNVUUFFYV9iODBzcVBPQ05HQ1NFeW0tWQ?oc=5",
+   "tarih_kaynagi": "rss",
+   "eksik": [
+    "asama"
+   ],
+   "anahtar": "d6fc492ada265b4b",
+   "kategori": "Yatirim",
+   "olaylar": [
+    "arcelormittal|fu|Cin|Elektrik celigi hatti",
+    "arcelormittal|hat|Elektrik celigi hatti|Belirsiz",
+    "arcelormittal|ulke|Cin|Belirsiz"
+   ],
+   "puan": 5.6
   }
  ],
  "stats": {
   "kaynak": 291,
   "erisilemeyen": 8,
-  "ham": 3731,
-  "on_eleme_gecti": 336,
+  "ham": 3703,
+  "on_eleme_gecti": 337,
   "makale_acildi": 210,
   "tarihsiz_elendi": 88,
-  "pencere_disi": 263,
-  "kapsam_disi": 3344,
-  "tekrar": 30,
-  "kabul": 6,
+  "pencere_disi": 261,
+  "kapsam_disi": 3316,
+  "tekrar": 27,
+  "kabul": 11,
   "gnews_tarih": 0
  },
  "unreachable": [
@@ -486,7 +613,7 @@
   "bgtek_jc": "arama",
   "bgtek_danieli": "arama"
  },
- "today": "2026-09-15",
+ "today": "2026-09-16",
  "host_saglik": {
   "news.google.com": {
    "istek": 112,
@@ -512,17 +639,18 @@
  "tech_pool": [],
  "kaynak_katki": {
   "Google News": 1,
-  "Bing News": 5
+  "Elle besleme": 1,
+  "Bing News": 9
  },
  "window": [
-  "2026-08-25",
-  "2026-09-15"
+  "2026-08-26",
+  "2026-09-16"
  ],
  "bulunan_kullanilan": 0,
- "bulunan_havuz": 15,
+ "bulunan_havuz": 14,
  "rezerv_kullanilan": 0,
  "rezerv_havuz": 15,
  "period": "2026-W38",
- "generated": "2026-09-15 08:48 UTC",
+ "generated": "2026-09-16 08:45 UTC",
  "version": "3.0.0"
 }

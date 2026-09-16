@@ -2,9 +2,24 @@
  "donem": "2026-W38",
  "duzelt": [
   {
+   "anahtar": "861fe83cb05ff9be",
+   "baslik": "Primetals Technologies to supply continuous galvanizing and pickling line to Chengde Steel",
+   "url": "https://www.primetals.com/press-media/news/primetals-technologies-to-supply-continuous-galvanizing-and-pickling-line-to-chengde-steel",
+   "eksik": [
+    "ulke",
+    "tarih?"
+   ],
+   "mevcut": {
+    "firma": "Chengde Steel",
+    "ulke": "",
+    "hat": "Asitleme hatti",
+    "asama": "Sozlesme"
+   }
+  },
+  {
    "anahtar": "dde7adab1615e8c7",
    "baslik": "Primetals secures PLTCM automation order",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOVFV4U0VJZ0hYZUVGOGQzMkc0TnZyX3BRa3JaYVVqejZ4dW42SEhGNlItT1FZcHIzUUxrejJMai1zUDhGMXhHUFdPZktOWnZyQkhpODJzVnJMN2xNaDFDRXpPd1ZKREhZN1hld2NRTGtGLW43NWxLRkRsYzZQelUwcw?oc=5",
+   "url": "https://www.steeltimesint.com/news/primetals-secures-pltcm-automation-order",
    "eksik": [
     "ulke"
    ],
@@ -58,6 +73,20 @@
    }
   },
   {
+   "anahtar": "89e2ebeec30e9c94",
+   "baslik": "Flux Steel to retrofit Stark County mill, challenge Cleveland-Cliffs' monopoly on key transformer steel",
+   "url": "https://www.bizjournals.com/cleveland/news/2026/09/15/flux-steel-works-grain-oriented-cleveland-cliffs.html",
+   "eksik": [
+    "ulke"
+   ],
+   "mevcut": {
+    "firma": "Flux Steel",
+    "ulke": "",
+    "hat": "Elektrik celigi hatti",
+    "asama": "Modernizasyon"
+   }
+  },
+  {
    "anahtar": "725f7a83cfe053d1",
    "baslik": "Hyundai Steel plans to open steel plant in Louisiana",
    "url": "https://www.plantservices.com/industry-news/news/55404410/hyundai-steel-plans-to-open-steel-plant-in-louisiana",
@@ -71,9 +100,33 @@
     "hat": "Soguk hadde",
     "asama": "Belirsiz"
    }
+  },
+  {
+   "anahtar": "d6fc492ada265b4b",
+   "baslik": "ArcelorMittal & China Oriental's joint venture to produce electrical steel in Changzhou, China",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxON1V3ZFNGd2RsUXV1QTJNbFU3aWQyNDFVV0FJdVRxSTA1WGMtRTFJa2QxdXg0RlNQbkNWTjJWQXRYN1FwRzZzVllBYVZ4T2d3NHNFQmdKN1lHZ2VMXzFoN29kRmg0dmNmRnBIRkFMU2ZRNTB5UzdmUFFSU0xNeTNjV29Ka2Y3QXNGT2JPT0prRnl5aEM4SGNwaE5MeFFXbEY0Z3BpY1otUnNVUUFFYV9iODBzcVBPQ05HQ1NFeW0tWQ?oc=5",
+   "eksik": [
+    "asama"
+   ],
+   "mevcut": {
+    "firma": "ArcelorMittal",
+    "ulke": "Cin",
+    "hat": "Elektrik celigi hatti",
+    "asama": "Belirsiz"
+   }
   }
  ],
  "cumle_yaz": [
+  {
+   "anahtar": "98a2950f8f9b76b6",
+   "tarih": "2026-08-30",
+   "firma": "USSK",
+   "ulke": "Turkiye",
+   "hat": "Elektrik celigi hatti",
+   "asama": "Sozlesme",
+   "baslik": "USSK orders new electrical steel plant from Tenova",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/ussk-orders-new-electrical-steel-plant-tenova-0619/"
+  },
   {
    "anahtar": "239c2c6495c887bf",
    "tarih": "2026-08-30",
@@ -82,7 +135,27 @@
    "hat": "Soguk hadde",
    "asama": "Sozlesme",
    "baslik": "John Cockerill rises after bagging Rs 200-cr order from A1 Iron & Steel Tanzania",
-   "url": "https://www.msn.com/en-in/money/economy/john-cockerill-rises-after-bagging-rs-200-cr-order-from-a1-iron-steel-tanzania/ar-AA2bezOs"
+   "url": "https://www.msn.com/en-in/money/other/john-cockerill-rises-after-bagging-rs-200-cr-order-from-a1-iron-steel-tanzania/ar-AA2bezOs"
+  },
+  {
+   "anahtar": "103151f7f2661a28",
+   "tarih": "2026-09-15",
+   "firma": "Flux Steel Works",
+   "ulke": "ABD",
+   "hat": "Elektrik celigi hatti",
+   "asama": "Sozlesme",
+   "baslik": "Flux Steel Works Secures Ohio Plant to Produce Power Transformer Core Steel",
+   "url": "https://finance.yahoo.com/energy/articles/flux-steel-works-secures-ohio-120300709.html"
+  },
+  {
+   "anahtar": "861fe83cb05ff9be",
+   "tarih": "2026-09-16",
+   "firma": "Chengde Steel",
+   "ulke": "",
+   "hat": "Asitleme hatti",
+   "asama": "Sozlesme",
+   "baslik": "Primetals Technologies to supply continuous galvanizing and pickling line to Chengde Steel",
+   "url": "https://www.primetals.com/press-media/news/primetals-technologies-to-supply-continuous-galvanizing-and-pickling-line-to-chengde-steel"
   },
   {
    "anahtar": "dde7adab1615e8c7",
@@ -92,7 +165,7 @@
    "hat": "Tandem soguk hadde (TCM)",
    "asama": "Sozlesme",
    "baslik": "Primetals secures PLTCM automation order",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOVFV4U0VJZ0hYZUVGOGQzMkc0TnZyX3BRa3JaYVVqejZ4dW42SEhGNlItT1FZcHIzUUxrejJMai1zUDhGMXhHUFdPZktOWnZyQkhpODJzVnJMN2xNaDFDRXpPd1ZKREhZN1hld2NRTGtGLW43NWxLRkRsYzZQelUwcw?oc=5"
+   "url": "https://www.steeltimesint.com/news/primetals-secures-pltcm-automation-order"
   },
   {
    "anahtar": "57d6f873acaab6da",
@@ -123,6 +196,16 @@
    "asama": "Insaat",
    "baslik": "Posco breaks ground on first new auto-steel coating line in 9 years, investing W480b in Gwangyang",
    "url": "https://biz.heraldcorp.com/article/10865917"
+  },
+  {
+   "anahtar": "89e2ebeec30e9c94",
+   "tarih": "2026-09-15",
+   "firma": "Flux Steel",
+   "ulke": "",
+   "hat": "Elektrik celigi hatti",
+   "asama": "Modernizasyon",
+   "baslik": "Flux Steel to retrofit Stark County mill, challenge Cleveland-Cliffs' monopoly on key transformer steel",
+   "url": "https://www.bizjournals.com/cleveland/news/2026/09/15/flux-steel-works-grain-oriented-cleveland-cliffs.html"
   },
   {
    "anahtar": "725f7a83cfe053d1",

@@ -1,6 +1,58 @@
 {
  "bulunan": [
   {
+   "anahtar": "861fe83cb05ff9be",
+   "asama": "Sozlesme",
+   "baslik": "Primetals Technologies to supply continuous galvanizing and pickling line to Chengde Steel",
+   "eksik": [
+    "ulke",
+    "tarih?"
+   ],
+   "firma": "Chengde Steel",
+   "hat": "Asitleme hatti",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Primetals Technologies",
+   "kaynak_id": "elle",
+   "olaylar": [
+    "chengde steel|hat|Asitleme hatti|Sozlesme",
+    "primetals|hat|Asitleme hatti|Sozlesme"
+   ],
+   "puan": 59.0,
+   "tarih": "2026-09-16",
+   "tarih_kaynagi": "last-modified",
+   "tedarikci": "Primetals",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://www.primetals.com/press-media/news/primetals-technologies-to-supply-continuous-galvanizing-and-pickling-line-to-chengde-steel"
+  },
+  {
+   "anahtar": "d6fc492ada265b4b",
+   "asama": "Belirsiz",
+   "baslik": "ArcelorMittal & China Oriental's joint venture to produce electrical steel in Changzhou, China",
+   "eksik": [
+    "asama"
+   ],
+   "firma": "ArcelorMittal",
+   "hat": "Elektrik celigi hatti",
+   "kapasite": "",
+   "kategori": "Yatirim",
+   "kaynak": "Yieh Corp.",
+   "kaynak_id": "gq_hat08",
+   "olaylar": [
+    "arcelormittal|fu|Cin|Elektrik celigi hatti",
+    "arcelormittal|hat|Elektrik celigi hatti|Belirsiz",
+    "arcelormittal|ulke|Cin|Belirsiz"
+   ],
+   "puan": 5.6,
+   "tarih": "2026-09-15",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Cin",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxON1V3ZFNGd2RsUXV1QTJNbFU3aWQyNDFVV0FJdVRxSTA1WGMtRTFJa2QxdXg0RlNQbkNWTjJWQXRYN1FwRzZzVllBYVZ4T2d3NHNFQmdKN1lHZ2VMXzFoN29kRmg0dmNmRnBIRkFMU2ZRNTB5UzdmUFFSU0xNeTNjV29Ka2Y3QXNGT2JPT0prRnl5aEM4SGNwaE5MeFFXbEY0Z3BpY1otUnNVUUFFYV9iODBzcVBPQ05HQ1NFeW0tWQ?oc=5"
+  },
+  {
    "anahtar": "ee101f4da5b277ec",
    "asama": "Modernizasyon",
    "baslik": "[Rizhao Steel No.7 Pickling and Rolling Line Upgrade and Transformation]",
@@ -1519,6 +1571,24 @@
     "tekrar": 30
    },
    "uretim": "2026-09-15 08:48 UTC"
+  },
+  {
+   "donem": "2026-W38",
+   "satir": 11,
+   "stats": {
+    "erisilemeyen": 8,
+    "gnews_tarih": 0,
+    "ham": 3703,
+    "kabul": 11,
+    "kapsam_disi": 3316,
+    "kaynak": 291,
+    "makale_acildi": 210,
+    "on_eleme_gecti": 337,
+    "pencere_disi": 261,
+    "tarihsiz_elendi": 88,
+    "tekrar": 27
+   },
+   "uretim": "2026-09-16 08:45 UTC"
   }
  ],
  "rezerv": [
