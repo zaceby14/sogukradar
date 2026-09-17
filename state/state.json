@@ -27,6 +27,30 @@
    "url": "https://www.primetals.com/press-media/news/primetals-technologies-to-supply-continuous-galvanizing-and-pickling-line-to-chengde-steel"
   },
   {
+   "anahtar": "6bafb498d8e38fb4",
+   "asama": "Ilk urun",
+   "baslik": "Daido Steel completes new forged steel processing line at Chita No. 2 plant",
+   "eksik": [
+    "ulke"
+   ],
+   "firma": "Daido Steel",
+   "hat": "Serit isleme hatti",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "SteelOrbis",
+   "kaynak_id": "steelorbis",
+   "olaylar": [
+    "daido steel|hat|Serit isleme hatti|Ilk urun"
+   ],
+   "puan": 47.6,
+   "tarih": "2026-09-16",
+   "tarih_kaynagi": "json-ld",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/daido-steel-completes-new-forged-steel-processing-line-at-chita-no-2-plant-1477689.htm"
+  },
+  {
    "anahtar": "d6fc492ada265b4b",
    "asama": "Belirsiz",
    "baslik": "ArcelorMittal & China Oriental's joint venture to produce electrical steel in Changzhou, China",
@@ -1589,9 +1613,54 @@
     "tekrar": 27
    },
    "uretim": "2026-09-16 08:45 UTC"
+  },
+  {
+   "donem": "2026-W38",
+   "satir": 12,
+   "stats": {
+    "erisilemeyen": 8,
+    "gnews_tarih": 0,
+    "ham": 3640,
+    "kabul": 12,
+    "kapsam_disi": 3268,
+    "kaynak": 291,
+    "makale_acildi": 209,
+    "on_eleme_gecti": 311,
+    "pencere_disi": 247,
+    "tarihsiz_elendi": 88,
+    "tekrar": 25
+   },
+   "uretim": "2026-09-17 08:49 UTC"
   }
  ],
  "rezerv": [
+  {
+   "anahtar": "110c74e875e43af5",
+   "asama": "Sozlesme",
+   "baslik": "ANDRITZ Wins Order From JSW Steel for Automotive-Grade Galvanized Steel Production",
+   "eksik": [],
+   "firma": "Automotive-Grade Galvanized Steel Production",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_sup03",
+   "olaylar": [
+    "andritz|fu|Hindistan|Galvaniz hatti (CGL)",
+    "andritz|hat|Galvaniz hatti (CGL)|Sozlesme",
+    "andritz|ulke|Hindistan|Sozlesme",
+    "automotive grade galvanized steel production|fu|Hindistan|Galvaniz hatti (CGL)",
+    "automotive grade galvanized steel production|hat|Galvaniz hatti (CGL)|Sozlesme",
+    "automotive grade galvanized steel production|ulke|Hindistan|Sozlesme"
+   ],
+   "rezerv": true,
+   "tarih": "2026-08-26",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "Andritz",
+   "tutar": "",
+   "ulke": "Hindistan",
+   "url": "https://news.europawire.eu/andritz-wins-order-from-jsw-steel-for-automotive-grade-galvanized-steel-production/eu-press-release/2026/08/26/13/13/18/179789/"
+  },
   {
    "anahtar": "8f6043a18acdc49f",
    "asama": "Modernizasyon",

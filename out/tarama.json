@@ -25,7 +25,7 @@
     "ussk|hat|Elektrik celigi hatti|Sozlesme",
     "ussk|ulke|Turkiye|Sozlesme"
    ],
-   "puan": 67.2
+   "puan": 66.8
   },
   {
    "tarih": "2026-08-30",
@@ -38,7 +38,7 @@
    "tutar": "Rs 200",
    "baslik": "John Cockerill rises after bagging Rs 200-cr order from A1 Iron & Steel Tanzania",
    "kaynak": "Bing News",
-   "kaynak_id": "bgq_hat01",
+   "kaynak_id": "bgq_hat00",
    "url": "https://www.msn.com/en-in/money/other/john-cockerill-rises-after-bagging-rs-200-cr-order-from-a1-iron-steel-tanzania/ar-AA2bezOs",
    "tarih_kaynagi": "rss",
    "eksik": [],
@@ -49,7 +49,7 @@
     "john cockerill|hat|Soguk hadde|Sozlesme",
     "john cockerill|ulke|Tanzanya|Sozlesme"
    ],
-   "puan": 60.2
+   "puan": 59.8
   },
   {
    "tarih": "2026-09-15",
@@ -73,7 +73,7 @@
     "flux steel works|hat|Elektrik celigi hatti|Sozlesme",
     "flux steel works|ulke|ABD|Sozlesme"
    ],
-   "puan": 59.6
+   "puan": 59.2
   },
   {
    "tarih": "2026-09-16",
@@ -99,7 +99,7 @@
     "chengde steel|hat|Asitleme hatti|Sozlesme",
     "primetals|hat|Asitleme hatti|Sozlesme"
    ],
-   "puan": 59.0
+   "puan": 58.6
   },
   {
    "tarih": "2026-09-03",
@@ -112,7 +112,7 @@
    "tutar": "",
    "baslik": "Primetals secures PLTCM automation order",
    "kaynak": "Bing News",
-   "kaynak_id": "bgx_q_auto",
+   "kaynak_id": "bgx_q_order",
    "url": "https://www.steeltimesint.com/news/primetals-secures-pltcm-automation-order",
    "tarih_kaynagi": "rss",
    "eksik": [
@@ -123,7 +123,7 @@
    "olaylar": [
     "primetals|hat|Tandem soguk hadde (TCM)|Sozlesme"
    ],
-   "puan": 56.8
+   "puan": 56.4
   },
   {
    "tarih": "2026-09-07",
@@ -147,7 +147,7 @@
    "olaylar": [
     "posco injects w480b|hat|Galvaniz hatti (CGL)|Sozlesme"
    ],
-   "puan": 56.4
+   "puan": 56.0
   },
   {
    "tarih": "2026-09-08",
@@ -160,7 +160,7 @@
    "tutar": "",
    "baslik": "POSCO Invests 480 Billion Won in New Auto Steel Coating Plant",
    "kaynak": "Bing News",
-   "kaynak_id": "bgq_urun01",
+   "kaynak_id": "bgq_hat04",
    "url": "https://en.sedaily.com/finance/2026/09/08/posco-invests-480-billion-won-in-new-auto-steel-plant",
    "tarih_kaynagi": "rss",
    "eksik": [
@@ -171,7 +171,7 @@
    "olaylar": [
     "posco|hat|Galvaniz hatti (CGL)|Sozlesme"
    ],
-   "puan": 52.8
+   "puan": 52.4
   },
   {
    "tarih": "2026-09-07",
@@ -195,7 +195,31 @@
    "olaylar": [
     "posco|hat|Galvaniz hatti (CGL)|Insaat"
    ],
-   "puan": 48.4
+   "puan": 48.0
+  },
+  {
+   "tarih": "2026-09-16",
+   "firma": "Daido Steel",
+   "ulke": "",
+   "hat": "Serit isleme hatti",
+   "asama": "Ilk urun",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "Daido Steel completes new forged steel processing line at Chita No. 2 plant",
+   "kaynak": "SteelOrbis",
+   "kaynak_id": "steelorbis",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/daido-steel-completes-new-forged-steel-processing-line-at-chita-no-2-plant-1477689.htm",
+   "tarih_kaynagi": "json-ld",
+   "eksik": [
+    "ulke"
+   ],
+   "anahtar": "6bafb498d8e38fb4",
+   "kategori": "Hat",
+   "olaylar": [
+    "daido steel|hat|Serit isleme hatti|Ilk urun"
+   ],
+   "puan": 47.6
   },
   {
    "tarih": "2026-09-15",
@@ -206,7 +230,7 @@
    "tedarikci": "",
    "kapasite": "",
    "tutar": "",
-   "baslik": "Flux Steel to retrofit Stark County mill, challenge Cleveland-Cliffs' monopoly on key transformer steel",
+   "baslik": "Flux Steel to retrofit Stark County mill, challenge Cleveland-Cliffs' dominance in key transformer steel market",
    "kaynak": "Bing News",
    "kaynak_id": "bgq_hat12",
    "url": "https://www.bizjournals.com/cleveland/news/2026/09/15/flux-steel-works-grain-oriented-cleveland-cliffs.html",
@@ -214,12 +238,38 @@
    "eksik": [
     "ulke"
    ],
-   "anahtar": "89e2ebeec30e9c94",
+   "anahtar": "756f723a3d321269",
    "kategori": "Hat",
    "olaylar": [
     "flux steel|hat|Elektrik celigi hatti|Modernizasyon"
    ],
-   "puan": 44.6
+   "puan": 44.2
+  },
+  {
+   "tarih": "2026-09-16",
+   "firma": "Nippon Steel Backs",
+   "ulke": "Slovakya",
+   "hat": "Belirsiz",
+   "asama": "Modernizasyon",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "900 Million Eur",
+   "baslik": "Nippon Steel Backs 900 Million Euro Slovakia Steel Upgrade",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgx_eurometal_q",
+   "url": "https://jp.ibtimes.com/nippon-steel-backs-900-million-euro-slovakia-steel-upgrade-104450",
+   "tarih_kaynagi": "rss",
+   "eksik": [
+    "hat"
+   ],
+   "anahtar": "287abe7add2ec96e",
+   "kategori": "Hat",
+   "olaylar": [
+    "nippon steel backs|fu|Slovakya|Belirsiz",
+    "nippon steel backs|hat|Belirsiz|Modernizasyon",
+    "nippon steel backs|ulke|Slovakya|Modernizasyon"
+   ],
+   "puan": 37.6
   },
   {
    "tarih": "2026-09-10",
@@ -244,46 +294,20 @@
    "olaylar": [
     "hyundai steel|hat|Soguk hadde|Belirsiz"
    ],
-   "puan": 29.6
-  },
-  {
-   "tarih": "2026-09-15",
-   "firma": "ArcelorMittal",
-   "ulke": "Cin",
-   "hat": "Elektrik celigi hatti",
-   "asama": "Belirsiz",
-   "tedarikci": "",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "ArcelorMittal & China Oriental's joint venture to produce electrical steel in Changzhou, China",
-   "kaynak": "Yieh Corp.",
-   "kaynak_id": "gq_hat08",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxON1V3ZFNGd2RsUXV1QTJNbFU3aWQyNDFVV0FJdVRxSTA1WGMtRTFJa2QxdXg0RlNQbkNWTjJWQXRYN1FwRzZzVllBYVZ4T2d3NHNFQmdKN1lHZ2VMXzFoN29kRmg0dmNmRnBIRkFMU2ZRNTB5UzdmUFFSU0xNeTNjV29Ka2Y3QXNGT2JPT0prRnl5aEM4SGNwaE5MeFFXbEY0Z3BpY1otUnNVUUFFYV9iODBzcVBPQ05HQ1NFeW0tWQ?oc=5",
-   "tarih_kaynagi": "rss",
-   "eksik": [
-    "asama"
-   ],
-   "anahtar": "d6fc492ada265b4b",
-   "kategori": "Yatirim",
-   "olaylar": [
-    "arcelormittal|fu|Cin|Elektrik celigi hatti",
-    "arcelormittal|hat|Elektrik celigi hatti|Belirsiz",
-    "arcelormittal|ulke|Cin|Belirsiz"
-   ],
-   "puan": 5.6
+   "puan": 29.2
   }
  ],
  "stats": {
   "kaynak": 291,
   "erisilemeyen": 8,
-  "ham": 3703,
-  "on_eleme_gecti": 337,
-  "makale_acildi": 210,
+  "ham": 3640,
+  "on_eleme_gecti": 311,
+  "makale_acildi": 209,
   "tarihsiz_elendi": 88,
-  "pencere_disi": 261,
-  "kapsam_disi": 3316,
-  "tekrar": 27,
-  "kabul": 11,
+  "pencere_disi": 247,
+  "kapsam_disi": 3268,
+  "tekrar": 25,
+  "kabul": 12,
   "gnews_tarih": 0
  },
  "unreachable": [
@@ -613,7 +637,7 @@
   "bgtek_jc": "arama",
   "bgtek_danieli": "arama"
  },
- "today": "2026-09-16",
+ "today": "2026-09-17",
  "host_saglik": {
   "news.google.com": {
    "istek": 112,
@@ -638,19 +662,19 @@
  },
  "tech_pool": [],
  "kaynak_katki": {
-  "Google News": 1,
+  "SteelOrbis": 1,
   "Elle besleme": 1,
-  "Bing News": 9
+  "Bing News": 10
  },
  "window": [
-  "2026-08-26",
-  "2026-09-16"
+  "2026-08-27",
+  "2026-09-17"
  ],
  "bulunan_kullanilan": 0,
- "bulunan_havuz": 14,
+ "bulunan_havuz": 15,
  "rezerv_kullanilan": 0,
- "rezerv_havuz": 15,
+ "rezerv_havuz": 16,
  "period": "2026-W38",
- "generated": "2026-09-16 08:45 UTC",
+ "generated": "2026-09-17 08:49 UTC",
  "version": "3.0.0"
 }

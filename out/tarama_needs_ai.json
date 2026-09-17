@@ -73,8 +73,22 @@
    }
   },
   {
-   "anahtar": "89e2ebeec30e9c94",
-   "baslik": "Flux Steel to retrofit Stark County mill, challenge Cleveland-Cliffs' monopoly on key transformer steel",
+   "anahtar": "6bafb498d8e38fb4",
+   "baslik": "Daido Steel completes new forged steel processing line at Chita No. 2 plant",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/daido-steel-completes-new-forged-steel-processing-line-at-chita-no-2-plant-1477689.htm",
+   "eksik": [
+    "ulke"
+   ],
+   "mevcut": {
+    "firma": "Daido Steel",
+    "ulke": "",
+    "hat": "Serit isleme hatti",
+    "asama": "Ilk urun"
+   }
+  },
+  {
+   "anahtar": "756f723a3d321269",
+   "baslik": "Flux Steel to retrofit Stark County mill, challenge Cleveland-Cliffs' dominance in key transformer steel market",
    "url": "https://www.bizjournals.com/cleveland/news/2026/09/15/flux-steel-works-grain-oriented-cleveland-cliffs.html",
    "eksik": [
     "ulke"
@@ -83,6 +97,20 @@
     "firma": "Flux Steel",
     "ulke": "",
     "hat": "Elektrik celigi hatti",
+    "asama": "Modernizasyon"
+   }
+  },
+  {
+   "anahtar": "287abe7add2ec96e",
+   "baslik": "Nippon Steel Backs 900 Million Euro Slovakia Steel Upgrade",
+   "url": "https://jp.ibtimes.com/nippon-steel-backs-900-million-euro-slovakia-steel-upgrade-104450",
+   "eksik": [
+    "hat"
+   ],
+   "mevcut": {
+    "firma": "Nippon Steel Backs",
+    "ulke": "Slovakya",
+    "hat": "Belirsiz",
     "asama": "Modernizasyon"
    }
   },
@@ -98,20 +126,6 @@
     "firma": "Hyundai Steel",
     "ulke": "",
     "hat": "Soguk hadde",
-    "asama": "Belirsiz"
-   }
-  },
-  {
-   "anahtar": "d6fc492ada265b4b",
-   "baslik": "ArcelorMittal & China Oriental's joint venture to produce electrical steel in Changzhou, China",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxON1V3ZFNGd2RsUXV1QTJNbFU3aWQyNDFVV0FJdVRxSTA1WGMtRTFJa2QxdXg0RlNQbkNWTjJWQXRYN1FwRzZzVllBYVZ4T2d3NHNFQmdKN1lHZ2VMXzFoN29kRmg0dmNmRnBIRkFMU2ZRNTB5UzdmUFFSU0xNeTNjV29Ka2Y3QXNGT2JPT0prRnl5aEM4SGNwaE5MeFFXbEY0Z3BpY1otUnNVUUFFYV9iODBzcVBPQ05HQ1NFeW0tWQ?oc=5",
-   "eksik": [
-    "asama"
-   ],
-   "mevcut": {
-    "firma": "ArcelorMittal",
-    "ulke": "Cin",
-    "hat": "Elektrik celigi hatti",
     "asama": "Belirsiz"
    }
   }
@@ -198,14 +212,34 @@
    "url": "https://biz.heraldcorp.com/article/10865917"
   },
   {
-   "anahtar": "89e2ebeec30e9c94",
+   "anahtar": "6bafb498d8e38fb4",
+   "tarih": "2026-09-16",
+   "firma": "Daido Steel",
+   "ulke": "",
+   "hat": "Serit isleme hatti",
+   "asama": "Ilk urun",
+   "baslik": "Daido Steel completes new forged steel processing line at Chita No. 2 plant",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/daido-steel-completes-new-forged-steel-processing-line-at-chita-no-2-plant-1477689.htm"
+  },
+  {
+   "anahtar": "756f723a3d321269",
    "tarih": "2026-09-15",
    "firma": "Flux Steel",
    "ulke": "",
    "hat": "Elektrik celigi hatti",
    "asama": "Modernizasyon",
-   "baslik": "Flux Steel to retrofit Stark County mill, challenge Cleveland-Cliffs' monopoly on key transformer steel",
+   "baslik": "Flux Steel to retrofit Stark County mill, challenge Cleveland-Cliffs' dominance in key transformer steel market",
    "url": "https://www.bizjournals.com/cleveland/news/2026/09/15/flux-steel-works-grain-oriented-cleveland-cliffs.html"
+  },
+  {
+   "anahtar": "287abe7add2ec96e",
+   "tarih": "2026-09-16",
+   "firma": "Nippon Steel Backs",
+   "ulke": "Slovakya",
+   "hat": "Belirsiz",
+   "asama": "Modernizasyon",
+   "baslik": "Nippon Steel Backs 900 Million Euro Slovakia Steel Upgrade",
+   "url": "https://jp.ibtimes.com/nippon-steel-backs-900-million-euro-slovakia-steel-upgrade-104450"
   },
   {
    "anahtar": "725f7a83cfe053d1",
