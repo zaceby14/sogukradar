@@ -25,7 +25,7 @@
     "ussk|hat|Elektrik celigi hatti|Sozlesme",
     "ussk|ulke|Turkiye|Sozlesme"
    ],
-   "puan": 66.8
+   "puan": 66.4
   },
   {
    "tarih": "2026-08-30",
@@ -49,7 +49,7 @@
     "john cockerill|hat|Soguk hadde|Sozlesme",
     "john cockerill|ulke|Tanzanya|Sozlesme"
    ],
-   "puan": 59.8
+   "puan": 59.4
   },
   {
    "tarih": "2026-09-15",
@@ -73,7 +73,7 @@
     "flux steel works|hat|Elektrik celigi hatti|Sozlesme",
     "flux steel works|ulke|ABD|Sozlesme"
    ],
-   "puan": 59.2
+   "puan": 58.8
   },
   {
    "tarih": "2026-09-16",
@@ -99,31 +99,7 @@
     "chengde steel|hat|Asitleme hatti|Sozlesme",
     "primetals|hat|Asitleme hatti|Sozlesme"
    ],
-   "puan": 58.6
-  },
-  {
-   "tarih": "2026-09-03",
-   "firma": "Primetals",
-   "ulke": "",
-   "hat": "Tandem soguk hadde (TCM)",
-   "asama": "Sozlesme",
-   "tedarikci": "Primetals",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "Primetals secures PLTCM automation order",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgx_q_order",
-   "url": "https://www.steeltimesint.com/news/primetals-secures-pltcm-automation-order",
-   "tarih_kaynagi": "rss",
-   "eksik": [
-    "ulke"
-   ],
-   "anahtar": "dde7adab1615e8c7",
-   "kategori": "Hat",
-   "olaylar": [
-    "primetals|hat|Tandem soguk hadde (TCM)|Sozlesme"
-   ],
-   "puan": 56.4
+   "puan": 58.2
   },
   {
    "tarih": "2026-09-07",
@@ -147,7 +123,7 @@
    "olaylar": [
     "posco injects w480b|hat|Galvaniz hatti (CGL)|Sozlesme"
    ],
-   "puan": 56.0
+   "puan": 55.6
   },
   {
    "tarih": "2026-09-08",
@@ -171,7 +147,7 @@
    "olaylar": [
     "posco|hat|Galvaniz hatti (CGL)|Sozlesme"
    ],
-   "puan": 52.4
+   "puan": 52.0
   },
   {
    "tarih": "2026-09-07",
@@ -195,7 +171,7 @@
    "olaylar": [
     "posco|hat|Galvaniz hatti (CGL)|Insaat"
    ],
-   "puan": 48.0
+   "puan": 47.6
   },
   {
    "tarih": "2026-09-16",
@@ -219,7 +195,7 @@
    "olaylar": [
     "daido steel|hat|Serit isleme hatti|Ilk urun"
    ],
-   "puan": 47.6
+   "puan": 47.2
   },
   {
    "tarih": "2026-09-15",
@@ -243,7 +219,7 @@
    "olaylar": [
     "flux steel|hat|Elektrik celigi hatti|Modernizasyon"
    ],
-   "puan": 44.2
+   "puan": 43.8
   },
   {
    "tarih": "2026-09-16",
@@ -269,45 +245,20 @@
     "nippon steel backs|hat|Belirsiz|Modernizasyon",
     "nippon steel backs|ulke|Slovakya|Modernizasyon"
    ],
-   "puan": 37.6
-  },
-  {
-   "tarih": "2026-09-10",
-   "firma": "Hyundai Steel",
-   "ulke": "",
-   "hat": "Soguk hadde",
-   "asama": "Belirsiz",
-   "tedarikci": "",
-   "kapasite": "",
-   "tutar": "$5.8 billion",
-   "baslik": "Hyundai Steel plans to open steel plant in Louisiana",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgx_q_weld",
-   "url": "https://www.plantservices.com/industry-news/news/55404410/hyundai-steel-plans-to-open-steel-plant-in-louisiana",
-   "tarih_kaynagi": "rss",
-   "eksik": [
-    "ulke",
-    "asama"
-   ],
-   "anahtar": "725f7a83cfe053d1",
-   "kategori": "Hat",
-   "olaylar": [
-    "hyundai steel|hat|Soguk hadde|Belirsiz"
-   ],
-   "puan": 29.2
+   "puan": 37.2
   }
  ],
  "stats": {
   "kaynak": 291,
   "erisilemeyen": 8,
-  "ham": 3640,
-  "on_eleme_gecti": 311,
-  "makale_acildi": 209,
-  "tarihsiz_elendi": 88,
-  "pencere_disi": 247,
-  "kapsam_disi": 3268,
-  "tekrar": 25,
-  "kabul": 12,
+  "ham": 3680,
+  "on_eleme_gecti": 310,
+  "makale_acildi": 211,
+  "tarihsiz_elendi": 89,
+  "pencere_disi": 250,
+  "kapsam_disi": 3313,
+  "tekrar": 18,
+  "kabul": 10,
   "gnews_tarih": 0
  },
  "unreachable": [
@@ -637,7 +588,7 @@
   "bgtek_jc": "arama",
   "bgtek_danieli": "arama"
  },
- "today": "2026-09-17",
+ "today": "2026-09-18",
  "host_saglik": {
   "news.google.com": {
    "istek": 112,
@@ -664,17 +615,17 @@
  "kaynak_katki": {
   "SteelOrbis": 1,
   "Elle besleme": 1,
-  "Bing News": 10
+  "Bing News": 8
  },
  "window": [
-  "2026-08-27",
-  "2026-09-17"
+  "2026-08-28",
+  "2026-09-18"
  ],
  "bulunan_kullanilan": 0,
- "bulunan_havuz": 15,
+ "bulunan_havuz": 16,
  "rezerv_kullanilan": 0,
- "rezerv_havuz": 16,
+ "rezerv_havuz": 17,
  "period": "2026-W38",
- "generated": "2026-09-17 08:49 UTC",
+ "generated": "2026-09-18 08:25 UTC",
  "version": "3.0.0"
 }

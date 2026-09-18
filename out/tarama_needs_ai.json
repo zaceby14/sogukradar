@@ -17,20 +17,6 @@
    }
   },
   {
-   "anahtar": "dde7adab1615e8c7",
-   "baslik": "Primetals secures PLTCM automation order",
-   "url": "https://www.steeltimesint.com/news/primetals-secures-pltcm-automation-order",
-   "eksik": [
-    "ulke"
-   ],
-   "mevcut": {
-    "firma": "Primetals",
-    "ulke": "",
-    "hat": "Tandem soguk hadde (TCM)",
-    "asama": "Sozlesme"
-   }
-  },
-  {
    "anahtar": "57d6f873acaab6da",
    "baslik": "Posco injects W480b to expand premium auto steel production",
    "url": "https://www.koreaherald.com/article/10866589",
@@ -113,21 +99,6 @@
     "hat": "Belirsiz",
     "asama": "Modernizasyon"
    }
-  },
-  {
-   "anahtar": "725f7a83cfe053d1",
-   "baslik": "Hyundai Steel plans to open steel plant in Louisiana",
-   "url": "https://www.plantservices.com/industry-news/news/55404410/hyundai-steel-plans-to-open-steel-plant-in-louisiana",
-   "eksik": [
-    "ulke",
-    "asama"
-   ],
-   "mevcut": {
-    "firma": "Hyundai Steel",
-    "ulke": "",
-    "hat": "Soguk hadde",
-    "asama": "Belirsiz"
-   }
   }
  ],
  "cumle_yaz": [
@@ -170,16 +141,6 @@
    "asama": "Sozlesme",
    "baslik": "Primetals Technologies to supply continuous galvanizing and pickling line to Chengde Steel",
    "url": "https://www.primetals.com/press-media/news/primetals-technologies-to-supply-continuous-galvanizing-and-pickling-line-to-chengde-steel"
-  },
-  {
-   "anahtar": "dde7adab1615e8c7",
-   "tarih": "2026-09-03",
-   "firma": "Primetals",
-   "ulke": "",
-   "hat": "Tandem soguk hadde (TCM)",
-   "asama": "Sozlesme",
-   "baslik": "Primetals secures PLTCM automation order",
-   "url": "https://www.steeltimesint.com/news/primetals-secures-pltcm-automation-order"
   },
   {
    "anahtar": "57d6f873acaab6da",
@@ -240,16 +201,6 @@
    "asama": "Modernizasyon",
    "baslik": "Nippon Steel Backs 900 Million Euro Slovakia Steel Upgrade",
    "url": "https://jp.ibtimes.com/nippon-steel-backs-900-million-euro-slovakia-steel-upgrade-104450"
-  },
-  {
-   "anahtar": "725f7a83cfe053d1",
-   "tarih": "2026-09-10",
-   "firma": "Hyundai Steel",
-   "ulke": "",
-   "hat": "Soguk hadde",
-   "asama": "Belirsiz",
-   "baslik": "Hyundai Steel plans to open steel plant in Louisiana",
-   "url": "https://www.plantservices.com/industry-news/news/55404410/hyundai-steel-plans-to-open-steel-plant-in-louisiana"
   }
  ],
  "teknoloji_adaylari": []

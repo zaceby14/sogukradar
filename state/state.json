@@ -1631,9 +1631,52 @@
     "tekrar": 25
    },
    "uretim": "2026-09-17 08:49 UTC"
+  },
+  {
+   "donem": "2026-W38",
+   "satir": 10,
+   "stats": {
+    "erisilemeyen": 8,
+    "gnews_tarih": 0,
+    "ham": 3680,
+    "kabul": 10,
+    "kapsam_disi": 3313,
+    "kaynak": 291,
+    "makale_acildi": 211,
+    "on_eleme_gecti": 310,
+    "pencere_disi": 250,
+    "tarihsiz_elendi": 89,
+    "tekrar": 18
+   },
+   "uretim": "2026-09-18 08:25 UTC"
   }
  ],
  "rezerv": [
+  {
+   "anahtar": "fff9f334c284b183",
+   "asama": "Sozlesme",
+   "baslik": "JSW Steel orders galvanizing line from ANDRITZ for automotive steels",
+   "eksik": [
+    "ulke"
+   ],
+   "firma": "JSW Steel",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_hat09",
+   "olaylar": [
+    "andritz|hat|Galvaniz hatti (CGL)|Sozlesme",
+    "jsw steel|hat|Galvaniz hatti (CGL)|Sozlesme"
+   ],
+   "rezerv": true,
+   "tarih": "2026-08-27",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "Andritz",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://www.steelradar.com/en/haber/jsw-steel-orders-galvanizing-line-from-andritz-for-automotive-steels/"
+  },
   {
    "anahtar": "110c74e875e43af5",
    "asama": "Sozlesme",
