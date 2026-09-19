@@ -1,6 +1,6 @@
 {
  "donem": "2026-W38",
- "adet": 507,
+ "adet": 509,
  "kayitlar": [
   {
    "sebep": "kapsam_disi",
@@ -22,12 +22,6 @@
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "new orders 2026, 6th August New ENERGIRON ZR direct reduction plant in Europe",
-   "url": "https://www.danieli.com/en/news-media/news/New-ENERGIRON-ZR-direct-reduction-plant-in-Europe_37_1092.htm?cme=true",
-   "ek": "sert red (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
    "baslik": "Copyright © Danieli & C. S.p.A. – All Right Reserved",
    "url": "https://www.danieli.com/en/copyright.htm",
    "ek": "haber degil (menu/e-posta/kisa)"
@@ -37,6 +31,12 @@
    "baslik": "Plant and equipment solutions",
    "url": "https://www.danieli.com/en/customer-service/plant-and-equipment-solutions.htm",
    "ek": ""
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Ezz Steel selects Danieli Automation for advanced MES digital platform",
+   "url": "https://www.danieli.com/en/Ezz-Steel-selects-Danieli-Automation-for-advanced-MES-digital-platform_37_1100.htm",
+   "ek": "kapsam_disi"
   },
   {
    "sebep": "kapsam_disi",
@@ -492,19 +492,19 @@
    "sebep": "pencere_disi",
    "baslik": "Grinding | Ultra Precision",
    "url": "https://www.fivesgroup.com/high-precision-machines/grinding-ultra-precision",
-   "ek": "2026-07-30"
+   "ek": "2026-09-21"
   },
   {
    "sebep": "pencere_disi",
    "baslik": "Cutting Tools | Abrasives",
    "url": "https://www.fivesgroup.com/high-precision-machines/cutting-tools-abrasives",
-   "ek": "2026-06-02"
+   "ek": "2026-09-21"
   },
   {
    "sebep": "pencere_disi",
    "baslik": "Composites & Automated Solutions",
    "url": "https://www.fivesgroup.com/high-precision-machines/composites-automated-solutions",
-   "ek": "2026-06-02"
+   "ek": "2026-09-21"
   },
   {
    "sebep": "tarihsiz_elendi",
@@ -519,16 +519,16 @@
    "ek": ""
   },
   {
-   "sebep": "tarihsiz_elendi",
+   "sebep": "pencere_disi",
    "baslik": "Fives - High Precision Machines at IMTS 2026",
    "url": "https://www.fivesgroup.com/newspress/detail-view/fives-high-precision-machines-at-imts-2026",
-   "ek": ""
+   "ek": "2026-09-21"
   },
   {
-   "sebep": "tarihsiz_elendi",
+   "sebep": "pencere_disi",
    "baslik": "Fives to attend CAMX 2026",
    "url": "https://www.fivesgroup.com/newspress/detail-view/fives-is-back-at-camx",
-   "ek": ""
+   "ek": "2026-09-21"
   },
   {
    "sebep": "kapsam_disi",
@@ -1509,10 +1509,10 @@
    "ek": "2025-11-11"
   },
   {
-   "sebep": "kapsam_disi",
+   "sebep": "pencere_disi",
    "baslik": "Tensile and yield strength - EMG IMPOC",
    "url": "https://www.emg.elexis.group/solutions/quality-assurance-systems/emg-impoc",
-   "ek": "olay yok (katalog/pazarlama)"
+   "ek": "2026-08-28"
   },
   {
    "sebep": "kapsam_disi",
@@ -2313,6 +2313,12 @@
    "ek": "kapsam kapisi (baslik)"
   },
   {
+   "sebep": "kapsam_disi",
+   "baslik": "Daily press , Trade press",
+   "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/henkel-relies-on-co%E2%82%82-reduced-packaging-made-using-bluemint-packaging-steel-from-thyssenkrupp-rasselstein.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
    "sebep": "pencere_disi",
    "baslik": "Trade press | 2026-01-12 Peak value in 2024: 94.3 percent of tinplate packaging from private end consumption recycled",
    "url": "https://www.thyssenkrupp-steel.com/en/newsroom/press-releases/peak-value-in-2024-94-3-percent-of-tinplate-packaging-from-private-end-consumption-recycled.html",
@@ -2573,19 +2579,7 @@
   {
    "sebep": "tarihsiz_elendi",
    "baslik": "【钢之家调查】本周冷轧板卷市场消费量增加0.88万吨至151.3万吨(9月11日-9月17日)",
-   "url": "https://www.steelhome.com/24764667",
-   "ek": ""
-  },
-  {
-   "sebep": "tarihsiz_elendi",
-   "baslik": "【钢之家调查】本周冷轧板卷市场消费量增加0.88万吨至151.3万吨(9月11日-9月17日)",
    "url": "https://www.steelhome.com/24764667 ",
-   "ek": ""
-  },
-  {
-   "sebep": "tarihsiz_elendi",
-   "baslik": "【钢之家调查】本周国内镀锌管产能利用率90.15%保持平稳（9月11日-9月17日）",
-   "url": "https://www.steelhome.com/24764276 ",
    "ek": ""
   },
   {
@@ -2788,7 +2782,7 @@
   },
   {
    "sebep": "pencere_disi",
-   "baslik": "Yıldız Demir Çelik Kallanish Global Flat Steel 2025'te yer aldı - sabirgazetesi.com",
+   "baslik": "Yıldız Demir Çelik Kallanish Global Flat Steel 2025'te yer aldı - Sabır Gazetesi",
    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOa3JMYzZvN3VZQWhtOEtSeG02Q3lxaHAtQjJxWmg2Z0JYWlBNMlJ1ZjEzZjNnazVyTHY1aGtRTURUTXNJamdBa0hlQmtHMndZS2YxakQtTnlJeDdSTHpJNGl6Q295UURrRHFFcE9OMHN4Qlc0d1JQcUUzdHhtWkM3QzBXQ2FNVjhCN2xQVDhsXzFPUTBqMERj?oc=5",
    "ek": "on eleme: 2025-10-18"
   },
@@ -2800,7 +2794,7 @@
   },
   {
    "sebep": "pencere_disi",
-   "baslik": "‘Tezcan Galvaniz işçileri sadece ekmek değil insanlık mücadelesi veriyorlar’ - Emek Partisi (EMEP)",
+   "baslik": "‘Tezcan Galvaniz işçileri sadece ekmek değil insanlık mücadelesi veriyorlar’ - Emek Partisi",
    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdHFWbGZrVTJ2OTNOdDZRb1pLTDFPSnZoaEQ2bC1FMUNCeFQ0a201a0FnM291eUFVTWgwNFk5RGhLZDRIajltVU5FcExFRFA1V0NCVG1LOU9jU0NjQXllTXZPS0xyXzM1WTFjczd5NTBlcl85TEZRckIzSG4xbDhZSV9QenRDTVR3M2dtY1gwcWxoNUNwOVFmUEEzdw?oc=5",
    "ek": "on eleme: 2025-03-18"
   },
@@ -2812,37 +2806,25 @@
   },
   {
    "sebep": "pencere_disi",
-   "baslik": "Tezcan Galvaniz’in GES projesi ÇED tarafından onaylandı - SteelRadar",
+   "baslik": "Tezcan Galvaniz’in GES projesi ÇED tarafından onaylandı - steelradar.com",
    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQNWRvbmxSZDBJOGlOOVJCRFBFbkpRd0ExQXR4MV9lLURKSWhxcmRid1l3RHp5bm1XMzRSTDVSM2gxQThyVUx4ZGdlLURVX0dzTko4cFg1empsdGRQbk5ZTm1zemt0TmszaVU2Yy1SMTF0LU9DYzZXTUZFTkZ5LW5MeWhPX0FvTEluNUE?oc=5",
    "ek": "on eleme: 2024-09-02"
   },
   {
    "sebep": "pencere_disi",
-   "baslik": "Tezcan Galvaniz işçileri baskı ve mobbinge uğruyor - Evrensel",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVU91QWRPZ2NITm1SRnNxVWg1bFphSU91bkhrajhGQlQ4emJDaExNcjFJRE5BM083TXR6ZkN3R0Nhc2E0OW1uYjFWbTJKS2hSd1Q1Z1hpRFd0SU54V2I2WGxNbFgxR2RXaEg3aXljaGlWSm12Q24wSG1CbUwzRDFQZGtJVVI1ak5YZzNtRUpMUjJIZw?oc=5",
-   "ek": "on eleme: 2025-10-02"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Başkan Karaosmanoğlu, Tezcan Galvaniz’i ziyaret etti - Kocaeli Büyükşehir Belediyesi",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTWJuT2lxal9HdS1EZkxEdld0QkNUdHJzdVdBSkM2YUlFUlhoUnFmVGJfS1ZlcjM1cHNkYTN4RjJPMmxQQ3lDZFpkMDJ5S2d4OUhTME90SVZZSlQ0S0pXM050b0YxdHloaUQ0aEk4Skl1ZjFXRDAyblVjQzhpS3hmRUpwYy13cUVaYVVVQXZzNEpFOUVicG9rcHRR0gGfAUFVX3lxTE5NbXhiS1lNd1lwWVJvb254N0tVdWZqTkxpdkxDZTZjWGd5cl9rOHllM1Nkam1MTWlMTjU2YlQ3bldJQlNGUGk1Z29tRnhVNkNfbVpqM2p1RFhFSHcxSHB1VWxhakdOeDdqdXRJWTBFTUx6NGIxZzNReGZSQU00UWxoU1N1UEZaOG50aFh5RFljb1hGUlJsUDJzNjlJTEl4NA?oc=5",
-   "ek": "on eleme: 2017-04-10"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "İşçilerin yemek ve servisinin kesildiği Tezcan Galvaniz fabrikasında Sadettin Tezcan'ın skandal görüntüsü! - bugunkocaeli.com.tr",
+   "baslik": "İşçilerin yemek ve servisinin kesildiği Tezcan Galvaniz fabrikasında Sadettin Tezcan'ın skandal görüntüsü! - Bugün Kocaeli Gazetesi",
    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZjc0cGJVYi1STUJybzNHdjdGaG5fVXk0UEp0eDRoNTVFSVkwTnlvUUx4d2ZlOUFSUDZEWHhVV2xNazhqbzNlRUMtYmJCanlZX0JhZVpHazQtZUd5Z1RUSEQwZnNULUJrbUNzTEhyNGtnVFJiTldkRHViVllvMldKejFCUzBPYVZXVHZjdnZYSVh5dllSTmNVWlZJX3FNc0k5UDgxTTl0eElzNnpHdi05ZkdkSlBRcWhWQ1pMMEJYZnlqRmNxR1pxNHdaMDN5VUNISVE?oc=5",
    "ek": "on eleme: 2024-01-02"
   },
   {
    "sebep": "pencere_disi",
-   "baslik": "Tezcan Galvaniz fabrikasında işveren TİS'i imzalamadı, işçiler eylem yaptı - artigercek.com",
+   "baslik": "Tezcan Galvaniz fabrikasında işveren TİS'i imzalamadı, işçiler eylem yaptı - Artı Gerçek",
    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMDdvUEV2Z09idUJ2ZGlKNmNNclVsSXlKWjJWem9HcDl4N3pnMk5TeEVzODJSeGFVRTlJSnlUcnhFQmM1STdQMEV3c3RoaFoyNDAxQzdPa0o1cGJZbVUwdGVXTEV3NjNCSVJEb1dqenZfYTE5eWV4VmkyYzBLcTdoUjZDZ0dNRHFsOWtqRUg1X3MyR3VUS2pHcE4wcGlOSzc2akg0dnhFLVNEMkRi?oc=5",
    "ek": "on eleme: 2023-08-18"
   },
   {
    "sebep": "pencere_disi",
-   "baslik": "Tezcan Galvaniz patronundan işçiye saldırı ve hakaret - gazeteduvar.com.tr",
+   "baslik": "Tezcan Galvaniz patronundan işçiye saldırı ve hakaret - Gazete Duvar",
    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOYWRLOEExSjhSS0NCMzVlUVhOOGFILU5lTXI3N0tPME9qLTY1MXM2MThHNE1wb3YzTmVzYVpjUS1udkZNcDRFTU04dFgtbmNXWEJaM2YzS2hXVER6dUgwYk5ReWhQYXVfOFdwMmY5OE90QTZpMUY4NnhKMXJXLWZFc1pXWk41YWZsd0dETGVBZHJWT0MxU3BoenVaQ2lRLTTSAaQBQVVfeXFMTV85bmN6Y3cyZU9KdTJBSDBpUGJzNmtObWo2WFZxVWpCdUhadk5JX2p3STFhZmpxTlJfRG5YbmtqSC1oejhBNTRxcVE0bFR5WGsxSm1hUGRFWlNMQVNOSWk1VmZfeE1VS3BGMUxJdlFDak84cTlKSEhlN3BaUHNBaGdZWEdUUzNmaDJpUndrLWZQenNDLUQ1NU1oc2tKV3l3SVZSUVc?oc=5",
    "ek": "on eleme: 2024-01-02"
   },
@@ -2860,7 +2842,13 @@
   },
   {
    "sebep": "pencere_disi",
-   "baslik": "Tezcan Galvaniz grevi 6. gününde - Emek Partisi (EMEP)",
+   "baslik": "Grev kırıcılığının faturası yine işçiye kesildi: Tezcan Galvaniz’de sevkiyat personeli iş kazası geçirdi - Evrensel.net",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOMXFnNTdFWnBNWXJ4T090bV9senpZSDhjamRHTGV2NGdaRTFwa3VyTThZdTFiMFlGZ2g3WWd6cndqYVBkckdYWW5KT09qekthZWlVNldFZXNVYVlFcHRKWWJvV2EyVndhR3k3U3NLcUVVRF96Wk5DWEpFd1FBNlF0UUlKYUVnQjlFc3ljQ1FOX2l0aUhfOG00bThZSUpCQnNCMGZSSTZoR3hyZ0ctVEhhRU41SXNHTUV4NnRuWks4aG95Y2FOSmY2VEdISS0xM081Q1lZLUFHWQ?oc=5",
+   "ek": "on eleme: 2025-03-18"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Tezcan Galvaniz grevi 6. gününde - Emek Partisi",
    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9EVGx3OHc0TnlKX0c2ZV81SEYwYVRZVzc2Ym9yRjNKUGVocVVldldTOGdfaGRwQnN3dnpQbHctYXJMdVhKSEgyNm1mMXVOekRKVFI4MkZPMzYzcU1GUEhVWk5B?oc=5",
    "ek": "on eleme: 2025-03-17"
   },
@@ -2872,51 +2860,39 @@
   },
   {
    "sebep": "pencere_disi",
+   "baslik": "Tezcan Galvaniz’de patrondan yüzde 8 dayatması: İşçiler greve çıktı - soL Haber",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRzRtTVoyQkdiY1BCcDM1OTRnNjdYSVdxTnJubno5QXBCRWktb3cyaVp4QV9rSzg1X3lmSFJGWlpDVlZsdVlnX0ZySklPSnZxSUcyV21xZXRGNXBZVDZPSThaY3lYWllqNkhKdXZtak5SYndvd0J1VGVBWnd2Vm1oY1kyRlpveEVfNEZWbGwzN09FYUFtVjJval8tYlg5ZlkwdzlXc0F3?oc=5",
+   "ek": "on eleme: 2025-03-14"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Tezcan Galvaniz'in patronundan işçiye şiddet - Artı Gerçek",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQWjZWS1M5ajZGcDMwMy1SNXhwM0oxU1E0dm5lSnVpaDE1TGMzWEJRR0I5eVI5ai04bXdQZkRGZlZ3M2NsNmVRV1EzZzQwQjZ6dnM1MFpsWVl6WXpEUWVlT1JpUWx5TUktZUJBTFlnc3lXTUZtc3A0blV2OHhpTjlUZG1Halg5dw?oc=5",
+   "ek": "on eleme: 2024-01-02"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Tezcan Galvaniz işçileri grevle kazandı: Patron yüzde 8 dayatmıştı, işçiler yüzde 71 zam aldı - Evrensel.net",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMGFxdTduY0w5MmQzdnpNb0pJcUxCZ2I2V0hMMDFUVGRXWVZUbmpkM2tIZ3htX1o1dmkwMUZJci0zUkFBQzkwWFVSN3MzOTF0ekxmd3ctSldCLUtFanlYamFLbUpiSjBRZHRraFlqbW1oeUFTWUZYWU1ubWpoNm9kNjh1Vm1yNVF1eVd3Y3RGOVd0RE9FeTNOZDIydExGZjZ0VWVLSEdVdWRqNnRPaDBtU2V1dTNKeDlGY2l3UTJEYjVlNlQ5aDg2Wg?oc=5",
+   "ek": "on eleme: 2025-04-27"
+  },
+  {
+   "sebep": "pencere_disi",
    "baslik": "Tezcan Galvaniz'de skandallar bitmiyor: Patron bu kez de bir işçiye saldırdı! - soL Haber",
    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOT2hEam40UExYVTJhVUZqYUpJSUpDWjg5Yy1VcEVENDE4eUVWcGtRWHJUU1JWVjJ0MDNrOGs3YXJWYjhKNXhQRXpfNG01S3dYWFA2cXRNTWxuamY3WG5rQmlKTEk5MmhaN0t6NlB6VFg3eUcxeFBuV3ZFZnNUUC1INk0xT1hiQlcwZmtMYUFFZ3lZVHMwS0g5Y0pBZ0o0d0hzZk1iSU5iakdqeWptaTZsaHN3?oc=5",
    "ek": "on eleme: 2024-01-02"
   },
   {
    "sebep": "pencere_disi",
-   "baslik": "Tezcan Galvaniz'in patronundan işçiye şiddet - artigercek.com",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQWjZWS1M5ajZGcDMwMy1SNXhwM0oxU1E0dm5lSnVpaDE1TGMzWEJRR0I5eVI5ai04bXdQZkRGZlZ3M2NsNmVRV1EzZzQwQjZ6dnM1MFpsWVl6WXpEUWVlT1JpUWx5TUktZUJBTFlnc3lXTUZtc3A0blV2OHhpTjlUZG1Halg5dw?oc=5",
-   "ek": "on eleme: 2024-01-02"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Grev kırıcılığının faturası yine işçiye kesildi: Tezcan Galvaniz’de sevkiyat personeli iş kazası geçirdi - Evrensel",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOMXFnNTdFWnBNWXJ4T090bV9senpZSDhjamRHTGV2NGdaRTFwa3VyTThZdTFiMFlGZ2g3WWd6cndqYVBkckdYWW5KT09qekthZWlVNldFZXNVYVlFcHRKWWJvV2EyVndhR3k3U3NLcUVVRF96Wk5DWEpFd1FBNlF0UUlKYUVnQjlFc3ljQ1FOX2l0aUhfOG00bThZSUpCQnNCMGZSSTZoR3hyZ0ctVEhhRU41SXNHTUV4NnRuWks4aG95Y2FOSmY2VEdISS0xM081Q1lZLUFHWQ?oc=5",
-   "ek": "on eleme: 2025-03-18"
+   "baslik": "Tezcan Galvaniz işçileri baskı ve mobbinge uğruyor - Evrensel.net",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVU91QWRPZ2NITm1SRnNxVWg1bFphSU91bkhrajhGQlQ4emJDaExNcjFJRE5BM083TXR6ZkN3R0Nhc2E0OW1uYjFWbTJKS2hSd1Q1Z1hpRFd0SU54V2I2WGxNbFgxR2RXaEg3aXljaGlWSm12Q24wSG1CbUwzRDFQZGtJVVI1ak5YZzNtRUpMUjJIZw?oc=5",
+   "ek": "on eleme: 2025-10-02"
   },
   {
    "sebep": "pencere_disi",
    "baslik": "Kocaeli'de Tezcan Galvaniz Fabrikasında iş cinayeti - soL Haber",
    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaTJVdnpQdTA3S0ota3plbTJoQldIWnJqY2NWc2wwRWJrSUthdENtZENCbDZlQWNadndxUXFTTWNwbU9zOFpYUFpqdTRDVEYzdDBZbWVvcTdCU2FnNG9nTnVlams2cGM2U2VJU01PaWdSUHk3SV9xdlVKTEo2RzR3UTBsS3BCMW00RXRMVFl6ajdORXVGVzMw?oc=5",
    "ek": "on eleme: 2018-05-12"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Tezcan Galvaniz işçileri grevle kazandı: Patron yüzde 8 dayatmıştı, işçiler yüzde 71 zam aldı - Evrensel",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMGFxdTduY0w5MmQzdnpNb0pJcUxCZ2I2V0hMMDFUVGRXWVZUbmpkM2tIZ3htX1o1dmkwMUZJci0zUkFBQzkwWFVSN3MzOTF0ekxmd3ctSldCLUtFanlYamFLbUpiSjBRZHRraFlqbW1oeUFTWUZYWU1ubWpoNm9kNjh1Vm1yNVF1eVd3Y3RGOVd0RE9FeTNOZDIydExGZjZ0VWVLSEdVdWRqNnRPaDBtU2V1dTNKeDlGY2l3UTJEYjVlNlQ5aDg2Wg?oc=5",
-   "ek": "on eleme: 2025-04-27"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Kocaeli'de kurulu Tezcan Galvaniz fabrikasında iş cinayeti! - Evrensel",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRDVmOTNTVmpmZ0Q4eHFmLTN1ZjRLYUJ0OVJmR0JjMXhnSzZ6VVJ4LWNxWGl0RG1xcmh1OFJrWThlZEhiS0lhNVNTUW5ZSUphUkJndEsxX0diNkk0ejM2azVOSDZkcUNuaEtROGtGZDRrY3lpVWg3RWFJSDNVd1JFRVgyLXVDTzVpZlpKeEwtTkF4c3h0SF9xZmdzUQ?oc=5",
-   "ek": "on eleme: 2018-05-12"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Tezcan Galvaniz’de Özçelik İş ve işveren anlaştı kazanan işçi oldu! - Nokta Gazetesi",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdnd2T2JnYmZSTzRiRzBBa2h6N0dpRjBhak9faHl2eDlYa2Jzb1psM1JzUEhIY1dGZk1QbW1aLTVOQy1RR2hvbS0zcVpYRTdiXzN6ZWlKd1FqWkU1RGhfci1XY3Q1eHc4VUJnX2ZLaWlndnliYm5xS2tOM01SSDgwblNUekQyLVI1aUozZmV2ZldzLVg2UGRHVmltWmQ3dUVjakxwWnFhQnVJeVdFTS1rTnpVUTV0SW_SAbwBQVVfeXFMTmVvVXhFU3dvSG1GdG1ocXYtREhrMENWSndvdXVZVExpaFQ1ODFoOHBPZE9aZ0VmTUtNa3F3QVU4czJQQjJjUFk2SlJxWWxIS2ZjLU5rX0lvbk0yb25UTjZ6QXJQVzFCY25iR3ZXbU44MWJtdmRaN1VLbl9tODZoLW0zblhvZHRYTHUwR0p2aHNLSmJlUmxnTXRYaklfOWg4MWR4aFZIZVNRWEdZY1VyMzYxaDNGTWJqZWpCaU4?oc=5",
-   "ek": "on eleme: 2026-03-06"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Tezcan Galvaniz’de işçilere yönelik yeni uygulama! - Özgün Kocaeli",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQzlnNzBLdjZJdHUxbjRpeG5BVFh1czNCQ3MzNHFVQXloZUFoVFVCUkhfRHB1SHkxY21tX1RUdTFSaEY4VmRENzgxb2U1MEpXeVBWeW13U3BIZ1BTaGdjUm1ZWUxKS0ZJMV9POGpGb0ZKcGxxV1g5bEF3UXFVR2Zack5yY1AxdE0?oc=5",
-   "ek": "on eleme: 2026-03-05"
   },
   {
    "sebep": "tarihsiz_elendi",
@@ -2938,6 +2914,18 @@
   },
   {
    "sebep": "tekrar",
+   "baslik": "Tosyali Algeria Produces First Cold-Rolled Steel Coil, Marking Milestone in Industrial Expansion – DzairTube En",
+   "url": "https://www.dzair-tube.dz/en/tosyali-algeria-produces-first-cold-rolled-steel-coil-marking-milestone-in-industrial-expansion/",
+   "ek": "ayni olayin varyanti: *|ulke-hat|Cezayir|Soguk hadde|Ilk urun; tosyali algeria|fu|Cezayir|Soguk hadde; tosyali algeria|hat|Soguk hadde|Ilk urun; tosyali algeria|ulke|Cezayir|Ilk urun"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "John Cockerill rises after bagging Rs 200-cr order from A1 Iron & Steel Tanzania",
+   "url": "https://www.msn.com/en-in/money/other/john-cockerill-rises-after-bagging-rs-200-cr-order-from-a1-iron-steel-tanzania/ar-AA2bezOs",
+   "ek": ""
+  },
+  {
+   "sebep": "tekrar",
    "baslik": "Museveni unveils Shs 466bn steel ambition",
    "url": "https://observer.ug/news/museveni-unveils-shs-466bn-steel-ambition/",
    "ek": "ayni olayin varyanti: *|ulke-hat|Uganda|Soguk hadde|Ilk urun; danieli|fu|Uganda|Soguk hadde; danieli|hat|Soguk hadde|Ilk urun; danieli|ulke|Uganda|Ilk urun; museveni|fu|Uganda|Soguk hadde; museveni|hat|Soguk hadde|Ilk urun; museveni|ulke|Uganda|Ilk urun"
@@ -2947,6 +2935,18 @@
    "baslik": "Museveni unveils Shs 466bn steel ambition",
    "url": "https://observer.ug/news/museveni-unveils-shs-466bn-steel-ambition/",
    "ek": "ayni olayin varyanti: *|ulke-hat|Uganda|Soguk hadde|Ilk urun; danieli|fu|Uganda|Soguk hadde; danieli|hat|Soguk hadde|Ilk urun; danieli|ulke|Uganda|Ilk urun; museveni|fu|Uganda|Soguk hadde; museveni|hat|Soguk hadde|Ilk urun; museveni|ulke|Uganda|Ilk urun"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "John Cockerill rises after bagging Rs 200-cr order from A1 Iron & Steel Tanzania",
+   "url": "https://www.msn.com/en-in/money/other/john-cockerill-rises-after-bagging-rs-200-cr-order-from-a1-iron-steel-tanzania/ar-AA2bezOs",
+   "ek": ""
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "Danieli & C Officine Meccaniche S p A : Ezz Steel selects Danieli Automation for advanced MES digital platform",
+   "url": "https://www.marketscreener.com/news/danieli-c-officine-meccaniche-s-p-a-ezz-steel-selects-danieli-automation-for-advanced-mes-digita-ce785adadd88f725",
+   "ek": ""
   },
   {
    "sebep": "tekrar",
@@ -2971,12 +2971,6 @@
    "baslik": "John Cockerill rises after bagging Rs 200-cr order from A1 Iron & Steel Tanzania",
    "url": "https://www.msn.com/en-in/money/economy/john-cockerill-rises-after-bagging-rs-200-cr-order-from-a1-iron-steel-tanzania/ar-AA2bezOs",
    "ek": ""
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "Xinyu inaugurates electrical steel production facility",
-   "url": "https://www.steeltimesint.com/news/xinyu-inaugurates-electrical-steel-production-facility",
-   "ek": "benzer baslik (gecmis 21 gun)"
   },
   {
    "sebep": "tekrar",
@@ -3010,8 +3004,14 @@
   },
   {
    "sebep": "tekrar",
-   "baslik": "Flux Steel Works Secures Ohio Plant to Produce Power Transformer Core Steel",
-   "url": "https://finance.yahoo.com/energy/articles/flux-steel-works-secures-ohio-120300709.html",
+   "baslik": "Flux Steel to retrofit Stark County mill, challenge Cleveland-Cliffs' dominance in key transformer steel market",
+   "url": "https://www.bizjournals.com/cleveland/news/2026/09/15/flux-steel-works-grain-oriented-cleveland-cliffs.html",
+   "ek": ""
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "Danieli & C Officine Meccaniche S p A : Ezz Steel selects Danieli Automation for advanced MES digital platform",
+   "url": "https://www.marketscreener.com/news/danieli-c-officine-meccaniche-s-p-a-ezz-steel-selects-danieli-automation-for-advanced-mes-digita-ce785adadd88f725",
    "ek": ""
   },
   {
@@ -3022,8 +3022,8 @@
   },
   {
    "sebep": "tekrar",
-   "baslik": "Flux Steel Works Secures Ohio Plant to Produce Power Transformer Core Steel",
-   "url": "https://finance.yahoo.com/energy/articles/flux-steel-works-secures-ohio-120300709.html",
+   "baslik": "POSCO Invests 480 Billion Won in New Auto Steel Coating Plant",
+   "url": "https://en.sedaily.com/finance/2026/09/08/posco-invests-480-billion-won-in-new-auto-steel-plant",
    "ek": ""
   },
   {
@@ -3040,9 +3040,21 @@
   },
   {
    "sebep": "tekrar",
+   "baslik": "John Cockerill rises after bagging Rs 200-cr order from A1 Iron & Steel Tanzania",
+   "url": "https://www.msn.com/en-in/money/other/john-cockerill-rises-after-bagging-rs-200-cr-order-from-a1-iron-steel-tanzania/ar-AA2bezOs",
+   "ek": ""
+  },
+  {
+   "sebep": "tekrar",
    "baslik": "Xinyu inaugurates electrical steel production facility",
    "url": "https://www.steeltimesint.com/news/xinyu-inaugurates-electrical-steel-production-facility",
-   "ek": "benzer baslik (gecmis 21 gun)"
+   "ek": ""
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "Primetals secures PLTCM automation order",
+   "url": "https://www.steeltimesint.com/news/primetals-secures-pltcm-automation-order",
+   "ek": ""
   }
  ]
 }

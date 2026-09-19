@@ -1,6 +1,32 @@
 {
  "bulunan": [
   {
+   "anahtar": "6bb3535ceff2b463",
+   "asama": "Belirsiz",
+   "baslik": "Flux Steel Works to build GOES production facility in Ohio",
+   "eksik": [
+    "asama"
+   ],
+   "firma": "Flux Steel Works",
+   "hat": "Elektrik celigi hatti",
+   "kapasite": "",
+   "kategori": "Yatirim",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgx_sti_q",
+   "olaylar": [
+    "flux steel works|fu|ABD|Elektrik celigi hatti",
+    "flux steel works|hat|Elektrik celigi hatti|Belirsiz",
+    "flux steel works|ulke|ABD|Belirsiz"
+   ],
+   "puan": 5.6,
+   "tarih": "2026-09-18",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "ABD",
+   "url": "https://www.steelradar.com/en/haber/flux-steel-works-to-build-goes-production-facility-in-ohio/"
+  },
+  {
    "anahtar": "861fe83cb05ff9be",
    "asama": "Sozlesme",
    "baslik": "Primetals Technologies to supply continuous galvanizing and pickling line to Chengde Steel",
@@ -102,6 +128,30 @@
    "tutar": "",
    "ulke": "Malezya",
    "url": "https://news.metal.com/en/newscontent/104112659-rizhao-steel-no7-pickling-and-rolling-line-upgrade-and-transformation"
+  },
+  {
+   "anahtar": "f8b35bb2fde97335",
+   "asama": "Ilk urun",
+   "baslik": "Xinyu inaugurates electrical steel production facility",
+   "eksik": [
+    "ulke"
+   ],
+   "firma": "Xinyu",
+   "hat": "Elektrik celigi hatti",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgx_q_commis",
+   "olaylar": [
+    "xinyu|hat|Elektrik celigi hatti|Ilk urun"
+   ],
+   "puan": 51.4,
+   "tarih": "2026-09-10",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://www.steeltimesint.com/news/xinyu-inaugurates-electrical-steel-production-facility"
   },
   {
    "anahtar": "529c0fb9c048632c",
@@ -1649,6 +1699,24 @@
     "tekrar": 18
    },
    "uretim": "2026-09-18 08:25 UTC"
+  },
+  {
+   "donem": "2026-W38",
+   "satir": 13,
+   "stats": {
+    "erisilemeyen": 10,
+    "gnews_tarih": 0,
+    "ham": 3544,
+    "kabul": 13,
+    "kapsam_disi": 3160,
+    "kaynak": 291,
+    "makale_acildi": 209,
+    "on_eleme_gecti": 324,
+    "pencere_disi": 262,
+    "tarihsiz_elendi": 85,
+    "tekrar": 24
+   },
+   "uretim": "2026-09-19 08:21 UTC"
   }
  ],
  "rezerv": [
@@ -1703,6 +1771,33 @@
    "tutar": "",
    "ulke": "Hindistan",
    "url": "https://news.europawire.eu/andritz-wins-order-from-jsw-steel-for-automotive-grade-galvanized-steel-production/eu-press-release/2026/08/26/13/13/18/179789/"
+  },
+  {
+   "anahtar": "416a04500e3bd53e",
+   "asama": "Sozlesme",
+   "baslik": "Saritas Stainless Steel orders Andritz cold rolling lines",
+   "eksik": [],
+   "firma": "Saritas Stainless Steel",
+   "hat": "Soguk hadde",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_sup03",
+   "olaylar": [
+    "andritz|fu|Fas|Soguk hadde",
+    "andritz|hat|Soguk hadde|Sozlesme",
+    "andritz|ulke|Fas|Sozlesme",
+    "saritas stainless steel|fu|Fas|Soguk hadde",
+    "saritas stainless steel|hat|Soguk hadde|Sozlesme",
+    "saritas stainless steel|ulke|Fas|Sozlesme"
+   ],
+   "rezerv": true,
+   "tarih": "2026-08-26",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "Andritz",
+   "tutar": "",
+   "ulke": "Fas",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/saritas-stainless-steel-orders-andritz-cold-rolling-lines-0526/"
   },
   {
    "anahtar": "8f6043a18acdc49f",

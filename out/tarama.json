@@ -25,7 +25,7 @@
     "ussk|hat|Elektrik celigi hatti|Sozlesme",
     "ussk|ulke|Turkiye|Sozlesme"
    ],
-   "puan": 66.4
+   "puan": 66.0
   },
   {
    "tarih": "2026-08-30",
@@ -49,31 +49,31 @@
     "john cockerill|hat|Soguk hadde|Sozlesme",
     "john cockerill|ulke|Tanzanya|Sozlesme"
    ],
-   "puan": 59.4
+   "puan": 59.0
   },
   {
-   "tarih": "2026-09-15",
-   "firma": "Flux Steel Works",
-   "ulke": "ABD",
-   "hat": "Elektrik celigi hatti",
+   "tarih": "2026-09-03",
+   "firma": "Primetals",
+   "ulke": "Cin",
+   "hat": "Tandem soguk hadde (TCM)",
    "asama": "Sozlesme",
-   "tedarikci": "",
+   "tedarikci": "Primetals",
    "kapasite": "",
    "tutar": "",
-   "baslik": "Flux Steel Works Secures Ohio Plant to Produce Power Transformer Core Steel",
+   "baslik": "Primetals secures PLTCM automation order",
    "kaynak": "Bing News",
-   "kaynak_id": "bgq_hat12",
-   "url": "https://finance.yahoo.com/energy/articles/flux-steel-works-secures-ohio-120300709.html",
+   "kaynak_id": "bgq_hat00",
+   "url": "https://www.steeltimesint.com/news/primetals-secures-pltcm-automation-order",
    "tarih_kaynagi": "rss",
    "eksik": [],
-   "anahtar": "103151f7f2661a28",
+   "anahtar": "dde7adab1615e8c7",
    "kategori": "Hat",
    "olaylar": [
-    "flux steel works|fu|ABD|Elektrik celigi hatti",
-    "flux steel works|hat|Elektrik celigi hatti|Sozlesme",
-    "flux steel works|ulke|ABD|Sozlesme"
+    "primetals|fu|Cin|Tandem soguk hadde (TCM)",
+    "primetals|hat|Tandem soguk hadde (TCM)|Sozlesme",
+    "primetals|ulke|Cin|Sozlesme"
    ],
-   "puan": 58.8
+   "puan": 58.6
   },
   {
    "tarih": "2026-09-16",
@@ -99,7 +99,7 @@
     "chengde steel|hat|Asitleme hatti|Sozlesme",
     "primetals|hat|Asitleme hatti|Sozlesme"
    ],
-   "puan": 58.2
+   "puan": 57.8
   },
   {
    "tarih": "2026-09-07",
@@ -123,7 +123,7 @@
    "olaylar": [
     "posco injects w480b|hat|Galvaniz hatti (CGL)|Sozlesme"
    ],
-   "puan": 55.6
+   "puan": 55.2
   },
   {
    "tarih": "2026-09-08",
@@ -147,7 +147,57 @@
    "olaylar": [
     "posco|hat|Galvaniz hatti (CGL)|Sozlesme"
    ],
-   "puan": 52.0
+   "puan": 51.6
+  },
+  {
+   "tarih": "2026-09-18",
+   "firma": "Danieli",
+   "ulke": "Misir",
+   "hat": "Belirsiz",
+   "asama": "Sozlesme",
+   "tedarikci": "Danieli",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "Danieli & C Officine Meccaniche S p A : Ezz Steel selects Danieli Automation for advanced MES digital platform",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_hat09",
+   "url": "https://www.marketscreener.com/news/danieli-c-officine-meccaniche-s-p-a-ezz-steel-selects-danieli-automation-for-advanced-mes-digita-ce785adadd88f725",
+   "tarih_kaynagi": "rss",
+   "eksik": [
+    "hat"
+   ],
+   "anahtar": "22b595b15125f4b7",
+   "kategori": "Hat",
+   "olaylar": [
+    "danieli|fu|Misir|Belirsiz",
+    "danieli|hat|Belirsiz|Sozlesme",
+    "danieli|ulke|Misir|Sozlesme"
+   ],
+   "puan": 51.6
+  },
+  {
+   "tarih": "2026-09-10",
+   "firma": "Xinyu",
+   "ulke": "",
+   "hat": "Elektrik celigi hatti",
+   "asama": "Ilk urun",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "Xinyu inaugurates electrical steel production facility",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgx_q_commis",
+   "url": "https://www.steeltimesint.com/news/xinyu-inaugurates-electrical-steel-production-facility",
+   "tarih_kaynagi": "rss",
+   "eksik": [
+    "ulke"
+   ],
+   "anahtar": "f8b35bb2fde97335",
+   "kategori": "Hat",
+   "olaylar": [
+    "xinyu|hat|Elektrik celigi hatti|Ilk urun"
+   ],
+   "puan": 51.4
   },
   {
    "tarih": "2026-09-07",
@@ -170,30 +220,6 @@
    "kategori": "Hat",
    "olaylar": [
     "posco|hat|Galvaniz hatti (CGL)|Insaat"
-   ],
-   "puan": 47.6
-  },
-  {
-   "tarih": "2026-09-16",
-   "firma": "Daido Steel",
-   "ulke": "",
-   "hat": "Serit isleme hatti",
-   "asama": "Ilk urun",
-   "tedarikci": "",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "Daido Steel completes new forged steel processing line at Chita No. 2 plant",
-   "kaynak": "SteelOrbis",
-   "kaynak_id": "steelorbis",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/daido-steel-completes-new-forged-steel-processing-line-at-chita-no-2-plant-1477689.htm",
-   "tarih_kaynagi": "json-ld",
-   "eksik": [
-    "ulke"
-   ],
-   "anahtar": "6bafb498d8e38fb4",
-   "kategori": "Hat",
-   "olaylar": [
-    "daido steel|hat|Serit isleme hatti|Ilk urun"
    ],
    "puan": 47.2
   },
@@ -219,7 +245,33 @@
    "olaylar": [
     "flux steel|hat|Elektrik celigi hatti|Modernizasyon"
    ],
-   "puan": 43.8
+   "puan": 43.4
+  },
+  {
+   "tarih": "2026-09-18",
+   "firma": "European",
+   "ulke": "Hindistan",
+   "hat": "Belirsiz",
+   "asama": "Modernizasyon",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "300 million eur",
+   "baslik": "The European Commission is reviewing the purchase of Arvedi steel distributor AMCLN",
+   "kaynak": "Metallurgprom",
+   "kaynak_id": "metallurgprom",
+   "url": "https://metallurgprom.org/en/news/europe/21764-evrokomissija-proverjaet-sdelku-po-pokupke-arvedi-distribjutora-stali-amcln.html",
+   "tarih_kaynagi": "json-ld",
+   "eksik": [
+    "hat"
+   ],
+   "anahtar": "0954fe1112c05394",
+   "kategori": "Hat",
+   "olaylar": [
+    "european|fu|Hindistan|Belirsiz",
+    "european|hat|Belirsiz|Modernizasyon",
+    "european|ulke|Hindistan|Modernizasyon"
+   ],
+   "puan": 37.6
   },
   {
    "tarih": "2026-09-16",
@@ -245,20 +297,46 @@
     "nippon steel backs|hat|Belirsiz|Modernizasyon",
     "nippon steel backs|ulke|Slovakya|Modernizasyon"
    ],
-   "puan": 37.2
+   "puan": 36.8
+  },
+  {
+   "tarih": "2026-09-18",
+   "firma": "Flux Steel Works",
+   "ulke": "ABD",
+   "hat": "Elektrik celigi hatti",
+   "asama": "Belirsiz",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "Flux Steel Works to build GOES production facility in Ohio",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgx_sti_q",
+   "url": "https://www.steelradar.com/en/haber/flux-steel-works-to-build-goes-production-facility-in-ohio/",
+   "tarih_kaynagi": "rss",
+   "eksik": [
+    "asama"
+   ],
+   "anahtar": "6bb3535ceff2b463",
+   "kategori": "Yatirim",
+   "olaylar": [
+    "flux steel works|fu|ABD|Elektrik celigi hatti",
+    "flux steel works|hat|Elektrik celigi hatti|Belirsiz",
+    "flux steel works|ulke|ABD|Belirsiz"
+   ],
+   "puan": 5.6
   }
  ],
  "stats": {
   "kaynak": 291,
-  "erisilemeyen": 8,
-  "ham": 3680,
-  "on_eleme_gecti": 310,
-  "makale_acildi": 211,
-  "tarihsiz_elendi": 89,
-  "pencere_disi": 250,
-  "kapsam_disi": 3313,
-  "tekrar": 18,
-  "kabul": 10,
+  "erisilemeyen": 10,
+  "ham": 3544,
+  "on_eleme_gecti": 324,
+  "makale_acildi": 209,
+  "tarihsiz_elendi": 85,
+  "pencere_disi": 262,
+  "kapsam_disi": 3160,
+  "tekrar": 24,
+  "kabul": 13,
   "gnews_tarih": 0
  },
  "unreachable": [
@@ -279,6 +357,10 @@
    "HTTP 403"
   ],
   [
+   "Steel Radar",
+   "HTTP 403"
+  ],
+  [
    "BigMint (SteelMint)",
    "HTTP 403"
   ],
@@ -289,6 +371,10 @@
   [
    "MetalForming Magazine",
    "HTTP 404"
+  ],
+  [
+   "Mysteel (tesis/proje)",
+   "URLError: <urlopen error timed out>"
   ],
   [
    "Sanayi Gazetesi",
@@ -588,7 +674,7 @@
   "bgtek_jc": "arama",
   "bgtek_danieli": "arama"
  },
- "today": "2026-09-18",
+ "today": "2026-09-19",
  "host_saglik": {
   "news.google.com": {
    "istek": 112,
@@ -608,24 +694,24 @@
   "www.cognex.com": {
    "istek": 2,
    "hiz_siniri": 2,
-   "sogutmada": true
+   "sogutmada": false
   }
  },
  "tech_pool": [],
  "kaynak_katki": {
-  "SteelOrbis": 1,
+  "Metallurgprom": 1,
   "Elle besleme": 1,
-  "Bing News": 8
+  "Bing News": 11
  },
  "window": [
-  "2026-08-28",
-  "2026-09-18"
+  "2026-08-29",
+  "2026-09-19"
  ],
  "bulunan_kullanilan": 0,
  "bulunan_havuz": 16,
  "rezerv_kullanilan": 0,
- "rezerv_havuz": 17,
+ "rezerv_havuz": 18,
  "period": "2026-W38",
- "generated": "2026-09-18 08:25 UTC",
+ "generated": "2026-09-19 08:21 UTC",
  "version": "3.0.0"
 }
