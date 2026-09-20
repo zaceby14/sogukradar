@@ -1717,6 +1717,24 @@
     "tekrar": 24
    },
    "uretim": "2026-09-19 08:21 UTC"
+  },
+  {
+   "donem": "2026-W38",
+   "satir": 11,
+   "stats": {
+    "erisilemeyen": 10,
+    "gnews_tarih": 0,
+    "ham": 3427,
+    "kabul": 11,
+    "kapsam_disi": 3051,
+    "kaynak": 291,
+    "makale_acildi": 209,
+    "on_eleme_gecti": 303,
+    "pencere_disi": 261,
+    "tarihsiz_elendi": 85,
+    "tekrar": 19
+   },
+   "uretim": "2026-09-20 08:47 UTC"
   }
  ],
  "rezerv": [
@@ -1798,6 +1816,60 @@
    "tutar": "",
    "ulke": "Fas",
    "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/saritas-stainless-steel-orders-andritz-cold-rolling-lines-0526/"
+  },
+  {
+   "anahtar": "dfe38e689235ad12",
+   "asama": "Sozlesme",
+   "baslik": "JSW Steel Orders ANDRITZ Galvanising Line for AHSS Automotive Applications",
+   "eksik": [],
+   "firma": "JSW Steel",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Tube & Pipe India",
+   "kaynak_id": "gq_urun01",
+   "olaylar": [
+    "andritz|fu|Hindistan|Galvaniz hatti (CGL)",
+    "andritz|hat|Galvaniz hatti (CGL)|Sozlesme",
+    "andritz|ulke|Hindistan|Sozlesme",
+    "jsw steel|fu|Hindistan|Galvaniz hatti (CGL)",
+    "jsw steel|hat|Galvaniz hatti (CGL)|Sozlesme",
+    "jsw steel|ulke|Hindistan|Sozlesme"
+   ],
+   "rezerv": true,
+   "tarih": "2026-08-25",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "Andritz",
+   "tutar": "",
+   "ulke": "Hindistan",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBMSjVlazhlNGhpdDZjMDlsZW5zSGFIS3hHZzl6eDNLZ0h1VkRfb1Voc2I5V2x6NE1nVzIzNkdYTkV6TndMUS1ZTkswYTYzZGZxUVF6OG9R?oc=5"
+  },
+  {
+   "anahtar": "620682afc0d3f81e",
+   "asama": "Sozlesme",
+   "baslik": "JSW Steel orders Andritz galvanizing line for advanced automotive steels",
+   "eksik": [],
+   "firma": "JSW Steel",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_sup03",
+   "olaylar": [
+    "andritz|fu|Hindistan|Galvaniz hatti (CGL)",
+    "andritz|hat|Galvaniz hatti (CGL)|Sozlesme",
+    "andritz|ulke|Hindistan|Sozlesme",
+    "jsw steel|fu|Hindistan|Galvaniz hatti (CGL)",
+    "jsw steel|hat|Galvaniz hatti (CGL)|Sozlesme",
+    "jsw steel|ulke|Hindistan|Sozlesme"
+   ],
+   "rezerv": true,
+   "tarih": "2026-08-25",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "Andritz",
+   "tutar": "",
+   "ulke": "Hindistan",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/jsw-steel-orders-andritz-galvanizing-line-for-advanced-automotive-steels-1472727.htm"
   },
   {
    "anahtar": "8f6043a18acdc49f",
@@ -2297,7 +2369,16 @@
   }
  ],
  "source_health": {},
- "tech_rezerv": [],
+ "tech_rezerv": [
+  {
+   "anahtar": "tech:b56ca34c38e3c8eb",
+   "baslik": "Steel inspection system uses machine vision to increase line speed and precision",
+   "hat": "Yuzey muayene (SIS)",
+   "kaynak": "Bing News",
+   "tarih": "2026-09-16",
+   "url": "https://www.imveurope.com/article/steel-inspection-system-uses-machine-vision-increase-line-speed-precision"
+  }
+ ],
  "tech_seen": {
   "tech:c1e20af1f2d7d31b": "2026-06-15",
   "tech:ed3b87951b013f72": "2026-07-13",

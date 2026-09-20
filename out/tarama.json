@@ -25,7 +25,7 @@
     "ussk|hat|Elektrik celigi hatti|Sozlesme",
     "ussk|ulke|Turkiye|Sozlesme"
    ],
-   "puan": 66.0
+   "puan": 65.6
   },
   {
    "tarih": "2026-08-30",
@@ -49,31 +49,31 @@
     "john cockerill|hat|Soguk hadde|Sozlesme",
     "john cockerill|ulke|Tanzanya|Sozlesme"
    ],
-   "puan": 59.0
+   "puan": 58.6
   },
   {
-   "tarih": "2026-09-03",
-   "firma": "Primetals",
-   "ulke": "Cin",
-   "hat": "Tandem soguk hadde (TCM)",
+   "tarih": "2026-09-15",
+   "firma": "Flux Steel Works",
+   "ulke": "ABD",
+   "hat": "Elektrik celigi hatti",
    "asama": "Sozlesme",
-   "tedarikci": "Primetals",
+   "tedarikci": "",
    "kapasite": "",
    "tutar": "",
-   "baslik": "Primetals secures PLTCM automation order",
+   "baslik": "Flux Steel Works Secures Ohio Plant to Produce Power Transformer Core Steel",
    "kaynak": "Bing News",
-   "kaynak_id": "bgq_hat00",
-   "url": "https://www.steeltimesint.com/news/primetals-secures-pltcm-automation-order",
+   "kaynak_id": "bgq_hat12",
+   "url": "https://finance.yahoo.com/energy/articles/flux-steel-works-secures-ohio-120300709.html",
    "tarih_kaynagi": "rss",
    "eksik": [],
-   "anahtar": "dde7adab1615e8c7",
+   "anahtar": "103151f7f2661a28",
    "kategori": "Hat",
    "olaylar": [
-    "primetals|fu|Cin|Tandem soguk hadde (TCM)",
-    "primetals|hat|Tandem soguk hadde (TCM)|Sozlesme",
-    "primetals|ulke|Cin|Sozlesme"
+    "flux steel works|fu|ABD|Elektrik celigi hatti",
+    "flux steel works|hat|Elektrik celigi hatti|Sozlesme",
+    "flux steel works|ulke|ABD|Sozlesme"
    ],
-   "puan": 58.6
+   "puan": 58.0
   },
   {
    "tarih": "2026-09-16",
@@ -99,29 +99,29 @@
     "chengde steel|hat|Asitleme hatti|Sozlesme",
     "primetals|hat|Asitleme hatti|Sozlesme"
    ],
-   "puan": 57.8
+   "puan": 57.4
   },
   {
-   "tarih": "2026-09-07",
-   "firma": "Posco injects W480b",
+   "tarih": "2026-09-03",
+   "firma": "Primetals",
    "ulke": "",
-   "hat": "Galvaniz hatti (CGL)",
+   "hat": "Tandem soguk hadde (TCM)",
    "asama": "Sozlesme",
-   "tedarikci": "",
+   "tedarikci": "Primetals",
    "kapasite": "",
-   "tutar": "$357 million",
-   "baslik": "Posco injects W480b to expand premium auto steel production",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgx_q_elec2",
-   "url": "https://www.koreaherald.com/article/10866589",
+   "tutar": "",
+   "baslik": "Primetals secures PLTCM automation order",
+   "kaynak": "Steel Times International",
+   "kaynak_id": "gq_sup01",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOVFV4U0VJZ0hYZUVGOGQzMkc0TnZyX3BRa3JaYVVqejZ4dW42SEhGNlItT1FZcHIzUUxrejJMai1zUDhGMXhHUFdPZktOWnZyQkhpODJzVnJMN2xNaDFDRXpPd1ZKREhZN1hld2NRTGtGLW43NWxLRkRsYzZQelUwcw?oc=5",
    "tarih_kaynagi": "rss",
    "eksik": [
     "ulke"
    ],
-   "anahtar": "57d6f873acaab6da",
+   "anahtar": "dde7adab1615e8c7",
    "kategori": "Hat",
    "olaylar": [
-    "posco injects w480b|hat|Galvaniz hatti (CGL)|Sozlesme"
+    "primetals|hat|Tandem soguk hadde (TCM)|Sozlesme"
    ],
    "puan": 55.2
   },
@@ -136,7 +136,7 @@
    "tutar": "",
    "baslik": "POSCO Invests 480 Billion Won in New Auto Steel Coating Plant",
    "kaynak": "Bing News",
-   "kaynak_id": "bgq_hat04",
+   "kaynak_id": "bgq_urun01",
    "url": "https://en.sedaily.com/finance/2026/09/08/posco-invests-480-billion-won-in-new-auto-steel-plant",
    "tarih_kaynagi": "rss",
    "eksik": [
@@ -147,7 +147,7 @@
    "olaylar": [
     "posco|hat|Galvaniz hatti (CGL)|Sozlesme"
    ],
-   "puan": 51.6
+   "puan": 51.2
   },
   {
    "tarih": "2026-09-18",
@@ -173,31 +173,7 @@
     "danieli|hat|Belirsiz|Sozlesme",
     "danieli|ulke|Misir|Sozlesme"
    ],
-   "puan": 51.6
-  },
-  {
-   "tarih": "2026-09-10",
-   "firma": "Xinyu",
-   "ulke": "",
-   "hat": "Elektrik celigi hatti",
-   "asama": "Ilk urun",
-   "tedarikci": "",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "Xinyu inaugurates electrical steel production facility",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgx_q_commis",
-   "url": "https://www.steeltimesint.com/news/xinyu-inaugurates-electrical-steel-production-facility",
-   "tarih_kaynagi": "rss",
-   "eksik": [
-    "ulke"
-   ],
-   "anahtar": "f8b35bb2fde97335",
-   "kategori": "Hat",
-   "olaylar": [
-    "xinyu|hat|Elektrik celigi hatti|Ilk urun"
-   ],
-   "puan": 51.4
+   "puan": 51.2
   },
   {
    "tarih": "2026-09-07",
@@ -221,7 +197,7 @@
    "olaylar": [
     "posco|hat|Galvaniz hatti (CGL)|Insaat"
    ],
-   "puan": 47.2
+   "puan": 46.8
   },
   {
    "tarih": "2026-09-15",
@@ -245,7 +221,7 @@
    "olaylar": [
     "flux steel|hat|Elektrik celigi hatti|Modernizasyon"
    ],
-   "puan": 43.4
+   "puan": 43.0
   },
   {
    "tarih": "2026-09-18",
@@ -271,7 +247,7 @@
     "european|hat|Belirsiz|Modernizasyon",
     "european|ulke|Hindistan|Modernizasyon"
    ],
-   "puan": 37.6
+   "puan": 37.2
   },
   {
    "tarih": "2026-09-16",
@@ -297,46 +273,20 @@
     "nippon steel backs|hat|Belirsiz|Modernizasyon",
     "nippon steel backs|ulke|Slovakya|Modernizasyon"
    ],
-   "puan": 36.8
-  },
-  {
-   "tarih": "2026-09-18",
-   "firma": "Flux Steel Works",
-   "ulke": "ABD",
-   "hat": "Elektrik celigi hatti",
-   "asama": "Belirsiz",
-   "tedarikci": "",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "Flux Steel Works to build GOES production facility in Ohio",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgx_sti_q",
-   "url": "https://www.steelradar.com/en/haber/flux-steel-works-to-build-goes-production-facility-in-ohio/",
-   "tarih_kaynagi": "rss",
-   "eksik": [
-    "asama"
-   ],
-   "anahtar": "6bb3535ceff2b463",
-   "kategori": "Yatirim",
-   "olaylar": [
-    "flux steel works|fu|ABD|Elektrik celigi hatti",
-    "flux steel works|hat|Elektrik celigi hatti|Belirsiz",
-    "flux steel works|ulke|ABD|Belirsiz"
-   ],
-   "puan": 5.6
+   "puan": 36.4
   }
  ],
  "stats": {
   "kaynak": 291,
   "erisilemeyen": 10,
-  "ham": 3544,
-  "on_eleme_gecti": 324,
+  "ham": 3427,
+  "on_eleme_gecti": 303,
   "makale_acildi": 209,
   "tarihsiz_elendi": 85,
-  "pencere_disi": 262,
-  "kapsam_disi": 3160,
-  "tekrar": 24,
-  "kabul": 13,
+  "pencere_disi": 261,
+  "kapsam_disi": 3051,
+  "tekrar": 19,
+  "kabul": 11,
   "gnews_tarih": 0
  },
  "unreachable": [
@@ -361,6 +311,10 @@
    "HTTP 403"
   ],
   [
+   "Magnetics Magazine",
+   "TimeoutError: The read operation timed out"
+  ],
+  [
    "BigMint (SteelMint)",
    "HTTP 403"
   ],
@@ -371,10 +325,6 @@
   [
    "MetalForming Magazine",
    "HTTP 404"
-  ],
-  [
-   "Mysteel (tesis/proje)",
-   "URLError: <urlopen error timed out>"
   ],
   [
    "Sanayi Gazetesi",
@@ -674,7 +624,7 @@
   "bgtek_jc": "arama",
   "bgtek_danieli": "arama"
  },
- "today": "2026-09-19",
+ "today": "2026-09-20",
  "host_saglik": {
   "news.google.com": {
    "istek": 112,
@@ -697,21 +647,31 @@
    "sogutmada": false
   }
  },
- "tech_pool": [],
+ "tech_pool": [
+  {
+   "anahtar": "tech:b56ca34c38e3c8eb",
+   "tarih": "2026-09-16",
+   "baslik": "Steel inspection system uses machine vision to increase line speed and precision",
+   "url": "https://www.imveurope.com/article/steel-inspection-system-uses-machine-vision-increase-line-speed-precision",
+   "kaynak": "Bing News",
+   "hat": "Yuzey muayene (SIS)"
+  }
+ ],
  "kaynak_katki": {
   "Metallurgprom": 1,
+  "Google News": 1,
   "Elle besleme": 1,
-  "Bing News": 11
+  "Bing News": 8
  },
  "window": [
-  "2026-08-29",
-  "2026-09-19"
+  "2026-08-30",
+  "2026-09-20"
  ],
  "bulunan_kullanilan": 0,
- "bulunan_havuz": 16,
+ "bulunan_havuz": 18,
  "rezerv_kullanilan": 0,
- "rezerv_havuz": 18,
+ "rezerv_havuz": 20,
  "period": "2026-W38",
- "generated": "2026-09-19 08:21 UTC",
+ "generated": "2026-09-20 08:47 UTC",
  "version": "3.0.0"
 }
