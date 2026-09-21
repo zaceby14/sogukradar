@@ -1,6 +1,106 @@
 {
  "bulunan": [
   {
+   "anahtar": "866a901347e29691",
+   "asama": "Modernizasyon",
+   "baslik": "唐山市晟鑫冷轧薄板生产线升级改造项目生态环境影响报告书获批",
+   "eksik": [
+    "firma",
+    "ulke"
+   ],
+   "firma": "",
+   "hat": "Elektrik celigi hatti",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Mysteel (haber)",
+   "kaynak_id": "mysteel_news",
+   "olaylar": [
+    "|hat|Elektrik celigi hatti|Modernizasyon"
+   ],
+   "puan": 45.0,
+   "tarih": "2026-09-21",
+   "tarih_kaynagi": "json-ld",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.mysteel.com/a/26092109/0A0B14F6D5801083.html"
+  },
+  {
+   "anahtar": "6452945ec70270a7",
+   "asama": "Teknoloji",
+   "baslik": "POSCO to Build State-of-the-Art Galvanized Automotive Steel Sheet Plant, Bringing Together the Latest Automotive Steel Technologies 2026/09/21",
+   "eksik": [
+    "ulke",
+    "tarih?"
+   ],
+   "firma": "POSCO",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "POSCO",
+   "kaynak_id": "posco",
+   "olaylar": [
+    "posco|hat|Galvaniz hatti (CGL)|Teknoloji"
+   ],
+   "puan": 42.0,
+   "tarih": "2026-09-21",
+   "tarih_kaynagi": "metin",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://newsroom.posco.com/en/posco-to-build-state-of-the-art-galvanized-automotive-steel-sheet-plant-bringing-together-the-latest-automotive-steel-technologies/"
+  },
+  {
+   "anahtar": "6b9163d81507db69",
+   "asama": "Belirsiz",
+   "baslik": "POSCO to Build State-of-the-Art Galvanized Automotive Steel Sheet Plant, Bringing Together the Latest Automotive Steel Technologies",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "firma": "POSCO",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "",
+   "kategori": "Yatirim",
+   "kaynak": "포스코그룹 뉴스룸",
+   "kaynak_id": "gq_hat04",
+   "olaylar": [
+    "posco|hat|Galvaniz hatti (CGL)|Belirsiz"
+   ],
+   "puan": 5.0,
+   "tarih": "2026-09-21",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNRjdQdkp3TTgyQXluR1JnM29pUmoyT3NoUDZBenBrZk81RVZwNHo5NEZsVmpLVlVYNlZobEJVT0RPWWZTNno3NmM2X2FRNUpMazlkUG9HQzhRMmI5SktOYnVfa3ZSbzc2QlBwazd2V3NmS09LbUlXVW9rY0x0QXhBUklaUnN3RGVRUHQzb0laeXU3Q0FtZHlFYWlpRU5YSlg2Q19UMDNFdHZRS0U0aDRpTUZpOHZQUk9vUUU2dW00akUtOU9KTVhnbldUY00zbW96dnBfX2VRaFFRTGs3Ymx2QWs5UVhzSFFpY1dWY2JqcjdMV2s?oc=5"
+  },
+  {
+   "anahtar": "fa9153c7d7a93635",
+   "asama": "Belirsiz",
+   "baslik": "Did Electrical Steel Expansion Just Shift Worthington Steel (WS) Investment Narrative?",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "firma": "Did Electrical Steel",
+   "hat": "Elektrik celigi hatti",
+   "kapasite": "",
+   "kategori": "Yatirim",
+   "kaynak": "simplywall.st",
+   "kaynak_id": "gx_q_elec2",
+   "olaylar": [
+    "did electrical steel|hat|Elektrik celigi hatti|Belirsiz"
+   ],
+   "puan": 5.6,
+   "tarih": "2026-09-20",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZzJnQkFHSnNNVDVBU1VSZnZIMXF4WG4wYjRyOHZQdkdfakxLU3lrZ2YxOC1acVU5V1dsU1RLcFhVZmpOMUZhZUJLa25vampucWVNTnlFODlTUXVrQ0Z1SGRDb29KNi0yVEkzUy0ta1dFQU1QOVdUSjY3QlUxT0ZQR0NwWXVOLWxNTHRQZmw4MklTNmpIb0NjMS1yeVBTVThtWkx5dmlNalBUeEN5bmdOVUdyRldESHRQY3JicTlHN29CVmxnaWpRQ2d1TkfSAdIBQVVfeXFMTlZwRFBaWEk3a0YyWFM0dzJySEZRT2daSHU3WWFYRjVpRFdTYjdxSW1GTnF3QUl1ZWpzVXlKTWM4VldXeTRzZGphQWZTQ2ZnNUhVMjc5Qlc4dGxNUmNWbmNZVElfdGFjd2lBUmhZUk5xMElnYk5KV3Z6cjV4cFl5N1p3NWxlcWh0VWw0VnVyVm4tUFRhR2sxd0hIbEthb08zMktzTjBuWGFscnU1cWk3eHhGM2lHRW9RMlhUMm5GdURhdlBaVGY1RjYxa1ZsWjJrNUJR?oc=5"
+  },
+  {
    "anahtar": "6bb3535ceff2b463",
    "asama": "Belirsiz",
    "baslik": "Flux Steel Works to build GOES production facility in Ohio",
@@ -25,6 +125,30 @@
    "tutar": "",
    "ulke": "ABD",
    "url": "https://www.steelradar.com/en/haber/flux-steel-works-to-build-goes-production-facility-in-ohio/"
+  },
+  {
+   "anahtar": "86ebab9307e0afe1",
+   "asama": "Sozlesme",
+   "baslik": "AM/NS India Secures Two New BIS Licences for Advanced Q&T and Zn-Al-Mg Coated Steel",
+   "eksik": [],
+   "firma": "AM/NS India",
+   "hat": "Zn-Al-Mg / Galvalume kaplama",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Ahmedabad Mirror",
+   "kaynak_id": "gx_arcelor",
+   "olaylar": [
+    "am/ns india|fu|Hindistan|Zn-Al-Mg / Galvalume kaplama",
+    "am/ns india|hat|Zn-Al-Mg / Galvalume kaplama|Sozlesme",
+    "am/ns india|ulke|Hindistan|Sozlesme"
+   ],
+   "puan": 57.4,
+   "tarih": "2026-09-17",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Hindistan",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNLWxqSTJweGtTTVRfaGJWcnVrWEd0aU9rUkFHMnA5MzVZU1pvNkFpUWZySVc4Yll2NFNfazBwZlI1dFZpVWpYT2cxa1RCNnloLW93Y2pPTnc2VllOV2FrU0VpMUJiSC1paVpTWlFpMmtCb3dMcnhSNGVnYlBULTd2S1BwWHJidVcxamJqbnEtM0NEMXY5amx1dU9YOGhleHJtdl9aQW4wVzkzTkpfY3BsOTdFWlZ4X0gwZXVMR082RWZSMXJnQ0E?oc=5"
   },
   {
    "anahtar": "861fe83cb05ff9be",
@@ -227,6 +351,33 @@
    "tutar": "$354 million",
    "ulke": "",
    "url": "https://biz.heraldcorp.com/article/10865917"
+  },
+  {
+   "anahtar": "0bfa599743c7ee24",
+   "asama": "Sozlesme",
+   "baslik": "Primetals Technologies Wins PLTCM Project in China",
+   "eksik": [],
+   "firma": "Primetals Technologies",
+   "hat": "Tandem soguk hadde (TCM)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgx_q_auto",
+   "olaylar": [
+    "primetals technologies|fu|Cin|Tandem soguk hadde (TCM)",
+    "primetals technologies|hat|Tandem soguk hadde (TCM)|Sozlesme",
+    "primetals technologies|ulke|Cin|Sozlesme",
+    "primetals|fu|Cin|Tandem soguk hadde (TCM)",
+    "primetals|hat|Tandem soguk hadde (TCM)|Sozlesme",
+    "primetals|ulke|Cin|Sozlesme"
+   ],
+   "puan": 58.2,
+   "tarih": "2026-09-04",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "Primetals",
+   "tutar": "",
+   "ulke": "Cin",
+   "url": "https://note.com/sankituushin/n/nebe64a6ad351?hl=en"
   },
   {
    "anahtar": "dde7adab1615e8c7",
@@ -1735,6 +1886,24 @@
     "tekrar": 19
    },
    "uretim": "2026-09-20 08:47 UTC"
+  },
+  {
+   "donem": "2026-W39",
+   "satir": 14,
+   "stats": {
+    "erisilemeyen": 9,
+    "gnews_tarih": 0,
+    "ham": 3338,
+    "kabul": 14,
+    "kapsam_disi": 2971,
+    "kaynak": 291,
+    "makale_acildi": 211,
+    "on_eleme_gecti": 288,
+    "pencere_disi": 259,
+    "tarihsiz_elendi": 84,
+    "tekrar": 10
+   },
+   "uretim": "2026-09-21 09:05 UTC"
   }
  ],
  "rezerv": [

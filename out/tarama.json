@@ -1,55 +1,31 @@
 {
  "rows": [
   {
-   "tarih": "2026-08-30",
-   "firma": "USSK",
-   "ulke": "Turkiye",
-   "hat": "Elektrik celigi hatti",
+   "tarih": "2026-09-04",
+   "firma": "Primetals Technologies",
+   "ulke": "Cin",
+   "hat": "Tandem soguk hadde (TCM)",
    "asama": "Sozlesme",
-   "tedarikci": "Tenova",
+   "tedarikci": "Primetals",
    "kapasite": "",
    "tutar": "",
-   "baslik": "USSK orders new electrical steel plant from Tenova",
+   "baslik": "Primetals Technologies Wins PLTCM Project in China",
    "kaynak": "Bing News",
-   "kaynak_id": "bgq_sup05",
-   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/ussk-orders-new-electrical-steel-plant-tenova-0619/",
+   "kaynak_id": "bgx_q_auto",
+   "url": "https://note.com/sankituushin/n/nebe64a6ad351?hl=en",
    "tarih_kaynagi": "rss",
    "eksik": [],
-   "anahtar": "98a2950f8f9b76b6",
+   "anahtar": "0bfa599743c7ee24",
    "kategori": "Hat",
    "olaylar": [
-    "tenova|fu|Turkiye|Elektrik celigi hatti",
-    "tenova|hat|Elektrik celigi hatti|Sozlesme",
-    "tenova|ulke|Turkiye|Sozlesme",
-    "ussk|fu|Turkiye|Elektrik celigi hatti",
-    "ussk|hat|Elektrik celigi hatti|Sozlesme",
-    "ussk|ulke|Turkiye|Sozlesme"
+    "primetals technologies|fu|Cin|Tandem soguk hadde (TCM)",
+    "primetals technologies|hat|Tandem soguk hadde (TCM)|Sozlesme",
+    "primetals technologies|ulke|Cin|Sozlesme",
+    "primetals|fu|Cin|Tandem soguk hadde (TCM)",
+    "primetals|hat|Tandem soguk hadde (TCM)|Sozlesme",
+    "primetals|ulke|Cin|Sozlesme"
    ],
-   "puan": 65.6
-  },
-  {
-   "tarih": "2026-08-30",
-   "firma": "John Cockerill",
-   "ulke": "Tanzanya",
-   "hat": "Soguk hadde",
-   "asama": "Sozlesme",
-   "tedarikci": "John Cockerill",
-   "kapasite": "",
-   "tutar": "Rs 200",
-   "baslik": "John Cockerill rises after bagging Rs 200-cr order from A1 Iron & Steel Tanzania",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgq_hat00",
-   "url": "https://www.msn.com/en-in/money/other/john-cockerill-rises-after-bagging-rs-200-cr-order-from-a1-iron-steel-tanzania/ar-AA2bezOs",
-   "tarih_kaynagi": "rss",
-   "eksik": [],
-   "anahtar": "239c2c6495c887bf",
-   "kategori": "Hat",
-   "olaylar": [
-    "john cockerill|fu|Tanzanya|Soguk hadde",
-    "john cockerill|hat|Soguk hadde|Sozlesme",
-    "john cockerill|ulke|Tanzanya|Sozlesme"
-   ],
-   "puan": 58.6
+   "puan": 58.2
   },
   {
    "tarih": "2026-09-15",
@@ -73,7 +49,31 @@
     "flux steel works|hat|Elektrik celigi hatti|Sozlesme",
     "flux steel works|ulke|ABD|Sozlesme"
    ],
-   "puan": 58.0
+   "puan": 57.6
+  },
+  {
+   "tarih": "2026-09-17",
+   "firma": "AM/NS India",
+   "ulke": "Hindistan",
+   "hat": "Zn-Al-Mg / Galvalume kaplama",
+   "asama": "Sozlesme",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "AM/NS India Secures Two New BIS Licences for Advanced Q&T and Zn-Al-Mg Coated Steel",
+   "kaynak": "Ahmedabad Mirror",
+   "kaynak_id": "gx_arcelor",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNLWxqSTJweGtTTVRfaGJWcnVrWEd0aU9rUkFHMnA5MzVZU1pvNkFpUWZySVc4Yll2NFNfazBwZlI1dFZpVWpYT2cxa1RCNnloLW93Y2pPTnc2VllOV2FrU0VpMUJiSC1paVpTWlFpMmtCb3dMcnhSNGVnYlBULTd2S1BwWHJidVcxamJqbnEtM0NEMXY5amx1dU9YOGhleHJtdl9aQW4wVzkzTkpfY3BsOTdFWlZ4X0gwZXVMR082RWZSMXJnQ0E?oc=5",
+   "tarih_kaynagi": "rss",
+   "eksik": [],
+   "anahtar": "86ebab9307e0afe1",
+   "kategori": "Hat",
+   "olaylar": [
+    "am/ns india|fu|Hindistan|Zn-Al-Mg / Galvalume kaplama",
+    "am/ns india|hat|Zn-Al-Mg / Galvalume kaplama|Sozlesme",
+    "am/ns india|ulke|Hindistan|Sozlesme"
+   ],
+   "puan": 57.4
   },
   {
    "tarih": "2026-09-16",
@@ -99,55 +99,7 @@
     "chengde steel|hat|Asitleme hatti|Sozlesme",
     "primetals|hat|Asitleme hatti|Sozlesme"
    ],
-   "puan": 57.4
-  },
-  {
-   "tarih": "2026-09-03",
-   "firma": "Primetals",
-   "ulke": "",
-   "hat": "Tandem soguk hadde (TCM)",
-   "asama": "Sozlesme",
-   "tedarikci": "Primetals",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "Primetals secures PLTCM automation order",
-   "kaynak": "Steel Times International",
-   "kaynak_id": "gq_sup01",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOVFV4U0VJZ0hYZUVGOGQzMkc0TnZyX3BRa3JaYVVqejZ4dW42SEhGNlItT1FZcHIzUUxrejJMai1zUDhGMXhHUFdPZktOWnZyQkhpODJzVnJMN2xNaDFDRXpPd1ZKREhZN1hld2NRTGtGLW43NWxLRkRsYzZQelUwcw?oc=5",
-   "tarih_kaynagi": "rss",
-   "eksik": [
-    "ulke"
-   ],
-   "anahtar": "dde7adab1615e8c7",
-   "kategori": "Hat",
-   "olaylar": [
-    "primetals|hat|Tandem soguk hadde (TCM)|Sozlesme"
-   ],
-   "puan": 55.2
-  },
-  {
-   "tarih": "2026-09-08",
-   "firma": "POSCO",
-   "ulke": "",
-   "hat": "Galvaniz hatti (CGL)",
-   "asama": "Sozlesme",
-   "tedarikci": "",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "POSCO Invests 480 Billion Won in New Auto Steel Coating Plant",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgq_urun01",
-   "url": "https://en.sedaily.com/finance/2026/09/08/posco-invests-480-billion-won-in-new-auto-steel-plant",
-   "tarih_kaynagi": "rss",
-   "eksik": [
-    "ulke"
-   ],
-   "anahtar": "541377035ee6148a",
-   "kategori": "Hat",
-   "olaylar": [
-    "posco|hat|Galvaniz hatti (CGL)|Sozlesme"
-   ],
-   "puan": 51.2
+   "puan": 57.0
   },
   {
    "tarih": "2026-09-18",
@@ -173,7 +125,31 @@
     "danieli|hat|Belirsiz|Sozlesme",
     "danieli|ulke|Misir|Sozlesme"
    ],
-   "puan": 51.2
+   "puan": 50.8
+  },
+  {
+   "tarih": "2026-09-10",
+   "firma": "Xinyu",
+   "ulke": "",
+   "hat": "Elektrik celigi hatti",
+   "asama": "Ilk urun",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "Xinyu inaugurates electrical steel production facility",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_sup06",
+   "url": "https://www.steeltimesint.com/news/xinyu-inaugurates-electrical-steel-production-facility",
+   "tarih_kaynagi": "rss",
+   "eksik": [
+    "ulke"
+   ],
+   "anahtar": "f8b35bb2fde97335",
+   "kategori": "Hat",
+   "olaylar": [
+    "xinyu|hat|Elektrik celigi hatti|Ilk urun"
+   ],
+   "puan": 50.6
   },
   {
    "tarih": "2026-09-07",
@@ -197,7 +173,32 @@
    "olaylar": [
     "posco|hat|Galvaniz hatti (CGL)|Insaat"
    ],
-   "puan": 46.8
+   "puan": 46.4
+  },
+  {
+   "tarih": "2026-09-21",
+   "firma": "",
+   "ulke": "",
+   "hat": "Elektrik celigi hatti",
+   "asama": "Modernizasyon",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "唐山市晟鑫冷轧薄板生产线升级改造项目生态环境影响报告书获批",
+   "kaynak": "Mysteel (haber)",
+   "kaynak_id": "mysteel_news",
+   "url": "https://news.mysteel.com/a/26092109/0A0B14F6D5801083.html",
+   "tarih_kaynagi": "json-ld",
+   "eksik": [
+    "firma",
+    "ulke"
+   ],
+   "anahtar": "866a901347e29691",
+   "kategori": "Hat",
+   "olaylar": [
+    "|hat|Elektrik celigi hatti|Modernizasyon"
+   ],
+   "puan": 45.0
   },
   {
    "tarih": "2026-09-15",
@@ -221,7 +222,32 @@
    "olaylar": [
     "flux steel|hat|Elektrik celigi hatti|Modernizasyon"
    ],
-   "puan": 43.0
+   "puan": 42.6
+  },
+  {
+   "tarih": "2026-09-21",
+   "firma": "POSCO",
+   "ulke": "",
+   "hat": "Galvaniz hatti (CGL)",
+   "asama": "Teknoloji",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "POSCO to Build State-of-the-Art Galvanized Automotive Steel Sheet Plant, Bringing Together the Latest Automotive Steel Technologies 2026/09/21",
+   "kaynak": "POSCO",
+   "kaynak_id": "posco",
+   "url": "https://newsroom.posco.com/en/posco-to-build-state-of-the-art-galvanized-automotive-steel-sheet-plant-bringing-together-the-latest-automotive-steel-technologies/",
+   "tarih_kaynagi": "metin",
+   "eksik": [
+    "ulke",
+    "tarih?"
+   ],
+   "anahtar": "6452945ec70270a7",
+   "kategori": "Hat",
+   "olaylar": [
+    "posco|hat|Galvaniz hatti (CGL)|Teknoloji"
+   ],
+   "puan": 42.0
   },
   {
    "tarih": "2026-09-18",
@@ -247,7 +273,7 @@
     "european|hat|Belirsiz|Modernizasyon",
     "european|ulke|Hindistan|Modernizasyon"
    ],
-   "puan": 37.2
+   "puan": 36.8
   },
   {
    "tarih": "2026-09-16",
@@ -273,20 +299,70 @@
     "nippon steel backs|hat|Belirsiz|Modernizasyon",
     "nippon steel backs|ulke|Slovakya|Modernizasyon"
    ],
-   "puan": 36.4
+   "puan": 36.0
+  },
+  {
+   "tarih": "2026-09-20",
+   "firma": "Did Electrical Steel",
+   "ulke": "",
+   "hat": "Elektrik celigi hatti",
+   "asama": "Belirsiz",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "Did Electrical Steel Expansion Just Shift Worthington Steel (WS) Investment Narrative?",
+   "kaynak": "simplywall.st",
+   "kaynak_id": "gx_q_elec2",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZzJnQkFHSnNNVDVBU1VSZnZIMXF4WG4wYjRyOHZQdkdfakxLU3lrZ2YxOC1acVU5V1dsU1RLcFhVZmpOMUZhZUJLa25vampucWVNTnlFODlTUXVrQ0Z1SGRDb29KNi0yVEkzUy0ta1dFQU1QOVdUSjY3QlUxT0ZQR0NwWXVOLWxNTHRQZmw4MklTNmpIb0NjMS1yeVBTVThtWkx5dmlNalBUeEN5bmdOVUdyRldESHRQY3JicTlHN29CVmxnaWpRQ2d1TkfSAdIBQVVfeXFMTlZwRFBaWEk3a0YyWFM0dzJySEZRT2daSHU3WWFYRjVpRFdTYjdxSW1GTnF3QUl1ZWpzVXlKTWM4VldXeTRzZGphQWZTQ2ZnNUhVMjc5Qlc4dGxNUmNWbmNZVElfdGFjd2lBUmhZUk5xMElnYk5KV3Z6cjV4cFl5N1p3NWxlcWh0VWw0VnVyVm4tUFRhR2sxd0hIbEthb08zMktzTjBuWGFscnU1cWk3eHhGM2lHRW9RMlhUMm5GdURhdlBaVGY1RjYxa1ZsWjJrNUJR?oc=5",
+   "tarih_kaynagi": "rss",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "anahtar": "fa9153c7d7a93635",
+   "kategori": "Yatirim",
+   "olaylar": [
+    "did electrical steel|hat|Elektrik celigi hatti|Belirsiz"
+   ],
+   "puan": 5.6
+  },
+  {
+   "tarih": "2026-09-21",
+   "firma": "POSCO",
+   "ulke": "",
+   "hat": "Galvaniz hatti (CGL)",
+   "asama": "Belirsiz",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "POSCO to Build State-of-the-Art Galvanized Automotive Steel Sheet Plant, Bringing Together the Latest Automotive Steel Technologies",
+   "kaynak": "포스코그룹 뉴스룸",
+   "kaynak_id": "gq_hat04",
+   "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNRjdQdkp3TTgyQXluR1JnM29pUmoyT3NoUDZBenBrZk81RVZwNHo5NEZsVmpLVlVYNlZobEJVT0RPWWZTNno3NmM2X2FRNUpMazlkUG9HQzhRMmI5SktOYnVfa3ZSbzc2QlBwazd2V3NmS09LbUlXVW9rY0x0QXhBUklaUnN3RGVRUHQzb0laeXU3Q0FtZHlFYWlpRU5YSlg2Q19UMDNFdHZRS0U0aDRpTUZpOHZQUk9vUUU2dW00akUtOU9KTVhnbldUY00zbW96dnBfX2VRaFFRTGs3Ymx2QWs5UVhzSFFpY1dWY2JqcjdMV2s?oc=5",
+   "tarih_kaynagi": "rss",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "anahtar": "6b9163d81507db69",
+   "kategori": "Yatirim",
+   "olaylar": [
+    "posco|hat|Galvaniz hatti (CGL)|Belirsiz"
+   ],
+   "puan": 5.0
   }
  ],
  "stats": {
   "kaynak": 291,
-  "erisilemeyen": 10,
-  "ham": 3427,
-  "on_eleme_gecti": 303,
-  "makale_acildi": 209,
-  "tarihsiz_elendi": 85,
-  "pencere_disi": 261,
-  "kapsam_disi": 3051,
-  "tekrar": 19,
-  "kabul": 11,
+  "erisilemeyen": 9,
+  "ham": 3338,
+  "on_eleme_gecti": 288,
+  "makale_acildi": 211,
+  "tarihsiz_elendi": 84,
+  "pencere_disi": 259,
+  "kapsam_disi": 2971,
+  "tekrar": 10,
+  "kabul": 14,
   "gnews_tarih": 0
  },
  "unreachable": [
@@ -309,10 +385,6 @@
   [
    "Steel Radar",
    "HTTP 403"
-  ],
-  [
-   "Magnetics Magazine",
-   "TimeoutError: The read operation timed out"
   ],
   [
    "BigMint (SteelMint)",
@@ -624,7 +696,7 @@
   "bgtek_jc": "arama",
   "bgtek_danieli": "arama"
  },
- "today": "2026-09-20",
+ "today": "2026-09-21",
  "host_saglik": {
   "news.google.com": {
    "istek": 112,
@@ -644,34 +716,27 @@
   "www.cognex.com": {
    "istek": 2,
    "hiz_siniri": 2,
-   "sogutmada": false
+   "sogutmada": true
   }
  },
- "tech_pool": [
-  {
-   "anahtar": "tech:b56ca34c38e3c8eb",
-   "tarih": "2026-09-16",
-   "baslik": "Steel inspection system uses machine vision to increase line speed and precision",
-   "url": "https://www.imveurope.com/article/steel-inspection-system-uses-machine-vision-increase-line-speed-precision",
-   "kaynak": "Bing News",
-   "hat": "Yuzey muayene (SIS)"
-  }
- ],
+ "tech_pool": [],
  "kaynak_katki": {
+  "POSCO": 1,
+  "Mysteel (haber)": 1,
   "Metallurgprom": 1,
-  "Google News": 1,
+  "Google News": 3,
   "Elle besleme": 1,
-  "Bing News": 8
+  "Bing News": 7
  },
  "window": [
-  "2026-08-30",
-  "2026-09-20"
+  "2026-08-31",
+  "2026-09-21"
  ],
  "bulunan_kullanilan": 0,
- "bulunan_havuz": 18,
+ "bulunan_havuz": 19,
  "rezerv_kullanilan": 0,
  "rezerv_havuz": 20,
- "period": "2026-W38",
- "generated": "2026-09-20 08:47 UTC",
+ "period": "2026-W39",
+ "generated": "2026-09-21 09:05 UTC",
  "version": "3.0.0"
 }
