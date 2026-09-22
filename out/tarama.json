@@ -1,55 +1,28 @@
 {
  "rows": [
   {
-   "tarih": "2026-09-04",
-   "firma": "Primetals Technologies",
+   "tarih": "2026-09-03",
+   "firma": "Primetals",
    "ulke": "Cin",
    "hat": "Tandem soguk hadde (TCM)",
    "asama": "Sozlesme",
    "tedarikci": "Primetals",
    "kapasite": "",
    "tutar": "",
-   "baslik": "Primetals Technologies Wins PLTCM Project in China",
+   "baslik": "Primetals secures PLTCM automation order",
    "kaynak": "Bing News",
-   "kaynak_id": "bgx_q_auto",
-   "url": "https://note.com/sankituushin/n/nebe64a6ad351?hl=en",
+   "kaynak_id": "bgx_q_order",
+   "url": "https://www.steeltimesint.com/news/primetals-secures-pltcm-automation-order",
    "tarih_kaynagi": "rss",
    "eksik": [],
-   "anahtar": "0bfa599743c7ee24",
+   "anahtar": "dde7adab1615e8c7",
    "kategori": "Hat",
    "olaylar": [
-    "primetals technologies|fu|Cin|Tandem soguk hadde (TCM)",
-    "primetals technologies|hat|Tandem soguk hadde (TCM)|Sozlesme",
-    "primetals technologies|ulke|Cin|Sozlesme",
     "primetals|fu|Cin|Tandem soguk hadde (TCM)",
     "primetals|hat|Tandem soguk hadde (TCM)|Sozlesme",
     "primetals|ulke|Cin|Sozlesme"
    ],
-   "puan": 58.2
-  },
-  {
-   "tarih": "2026-09-15",
-   "firma": "Flux Steel Works",
-   "ulke": "ABD",
-   "hat": "Elektrik celigi hatti",
-   "asama": "Sozlesme",
-   "tedarikci": "",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "Flux Steel Works Secures Ohio Plant to Produce Power Transformer Core Steel",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgq_hat12",
-   "url": "https://finance.yahoo.com/energy/articles/flux-steel-works-secures-ohio-120300709.html",
-   "tarih_kaynagi": "rss",
-   "eksik": [],
-   "anahtar": "103151f7f2661a28",
-   "kategori": "Hat",
-   "olaylar": [
-    "flux steel works|fu|ABD|Elektrik celigi hatti",
-    "flux steel works|hat|Elektrik celigi hatti|Sozlesme",
-    "flux steel works|ulke|ABD|Sozlesme"
-   ],
-   "puan": 57.6
+   "puan": 57.4
   },
   {
    "tarih": "2026-09-17",
@@ -73,7 +46,7 @@
     "am/ns india|hat|Zn-Al-Mg / Galvalume kaplama|Sozlesme",
     "am/ns india|ulke|Hindistan|Sozlesme"
    ],
-   "puan": 57.4
+   "puan": 57.0
   },
   {
    "tarih": "2026-09-16",
@@ -99,33 +72,60 @@
     "chengde steel|hat|Asitleme hatti|Sozlesme",
     "primetals|hat|Asitleme hatti|Sozlesme"
    ],
-   "puan": 57.0
+   "puan": 56.6
   },
   {
-   "tarih": "2026-09-18",
-   "firma": "Danieli",
+   "tarih": "2026-09-21",
+   "firma": "EZZ STEEL",
    "ulke": "Misir",
    "hat": "Belirsiz",
    "asama": "Sozlesme",
    "tedarikci": "Danieli",
    "kapasite": "",
    "tutar": "",
-   "baslik": "Danieli & C Officine Meccaniche S p A : Ezz Steel selects Danieli Automation for advanced MES digital platform",
+   "baslik": "EZZ STEEL SELECTS DANIELI AUTOMATION FOR ADVANCED MES DIGITAL PLATFORM",
    "kaynak": "Bing News",
    "kaynak_id": "bgq_hat09",
-   "url": "https://www.marketscreener.com/news/danieli-c-officine-meccaniche-s-p-a-ezz-steel-selects-danieli-automation-for-advanced-mes-digita-ce785adadd88f725",
+   "url": "https://www.marketscreener.com/news/ezz-steel-selects-danieli-automation-for-advanced-mes-digital-platform-ce785adbdd8ff324",
    "tarih_kaynagi": "rss",
    "eksik": [
     "hat"
    ],
-   "anahtar": "22b595b15125f4b7",
+   "anahtar": "f8f05cd980be9254",
    "kategori": "Hat",
    "olaylar": [
     "danieli|fu|Misir|Belirsiz",
     "danieli|hat|Belirsiz|Sozlesme",
-    "danieli|ulke|Misir|Sozlesme"
+    "danieli|ulke|Misir|Sozlesme",
+    "ezz steel|fu|Misir|Belirsiz",
+    "ezz steel|hat|Belirsiz|Sozlesme",
+    "ezz steel|ulke|Misir|Sozlesme"
    ],
-   "puan": 50.8
+   "puan": 51.6
+  },
+  {
+   "tarih": "2026-09-08",
+   "firma": "POSCO",
+   "ulke": "",
+   "hat": "Galvaniz hatti (CGL)",
+   "asama": "Sozlesme",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "POSCO Invests 480 Billion Won in New Auto Steel Coating Plant",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_urun01",
+   "url": "https://en.sedaily.com/finance/2026/09/08/posco-invests-480-billion-won-in-new-auto-steel-plant",
+   "tarih_kaynagi": "rss",
+   "eksik": [
+    "ulke"
+   ],
+   "anahtar": "541377035ee6148a",
+   "kategori": "Hat",
+   "olaylar": [
+    "posco|hat|Galvaniz hatti (CGL)|Sozlesme"
+   ],
+   "puan": 50.4
   },
   {
    "tarih": "2026-09-10",
@@ -149,56 +149,31 @@
    "olaylar": [
     "xinyu|hat|Elektrik celigi hatti|Ilk urun"
    ],
-   "puan": 50.6
+   "puan": 50.2
   },
   {
-   "tarih": "2026-09-07",
-   "firma": "Posco",
+   "tarih": "2026-09-09",
+   "firma": "POSCO",
    "ulke": "",
    "hat": "Galvaniz hatti (CGL)",
    "asama": "Insaat",
    "tedarikci": "",
    "kapasite": "",
-   "tutar": "$354 million",
-   "baslik": "Posco breaks ground on first new auto-steel coating line in 9 years, investing W480b in Gwangyang",
+   "tutar": "$358 million",
+   "baslik": "POSCO breaks ground on 480 bn won auto steel plant",
    "kaynak": "Bing News",
-   "kaynak_id": "bgq_hat04",
-   "url": "https://biz.heraldcorp.com/article/10865917",
+   "kaynak_id": "bgq_urun01",
+   "url": "https://pulse.mk.co.kr/news/english/12147942",
    "tarih_kaynagi": "rss",
    "eksik": [
     "ulke"
    ],
-   "anahtar": "76de8e87fe54c6be",
+   "anahtar": "9305d46b567c46f4",
    "kategori": "Hat",
    "olaylar": [
     "posco|hat|Galvaniz hatti (CGL)|Insaat"
    ],
-   "puan": 46.4
-  },
-  {
-   "tarih": "2026-09-21",
-   "firma": "",
-   "ulke": "",
-   "hat": "Elektrik celigi hatti",
-   "asama": "Modernizasyon",
-   "tedarikci": "",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "唐山市晟鑫冷轧薄板生产线升级改造项目生态环境影响报告书获批",
-   "kaynak": "Mysteel (haber)",
-   "kaynak_id": "mysteel_news",
-   "url": "https://news.mysteel.com/a/26092109/0A0B14F6D5801083.html",
-   "tarih_kaynagi": "json-ld",
-   "eksik": [
-    "firma",
-    "ulke"
-   ],
-   "anahtar": "866a901347e29691",
-   "kategori": "Hat",
-   "olaylar": [
-    "|hat|Elektrik celigi hatti|Modernizasyon"
-   ],
-   "puan": 45.0
+   "puan": 46.8
   },
   {
    "tarih": "2026-09-15",
@@ -222,7 +197,7 @@
    "olaylar": [
     "flux steel|hat|Elektrik celigi hatti|Modernizasyon"
    ],
-   "puan": 42.6
+   "puan": 42.2
   },
   {
    "tarih": "2026-09-21",
@@ -247,33 +222,7 @@
    "olaylar": [
     "posco|hat|Galvaniz hatti (CGL)|Teknoloji"
    ],
-   "puan": 42.0
-  },
-  {
-   "tarih": "2026-09-18",
-   "firma": "European",
-   "ulke": "Hindistan",
-   "hat": "Belirsiz",
-   "asama": "Modernizasyon",
-   "tedarikci": "",
-   "kapasite": "",
-   "tutar": "300 million eur",
-   "baslik": "The European Commission is reviewing the purchase of Arvedi steel distributor AMCLN",
-   "kaynak": "Metallurgprom",
-   "kaynak_id": "metallurgprom",
-   "url": "https://metallurgprom.org/en/news/europe/21764-evrokomissija-proverjaet-sdelku-po-pokupke-arvedi-distribjutora-stali-amcln.html",
-   "tarih_kaynagi": "json-ld",
-   "eksik": [
-    "hat"
-   ],
-   "anahtar": "0954fe1112c05394",
-   "kategori": "Hat",
-   "olaylar": [
-    "european|fu|Hindistan|Belirsiz",
-    "european|hat|Belirsiz|Modernizasyon",
-    "european|ulke|Hindistan|Modernizasyon"
-   ],
-   "puan": 36.8
+   "puan": 41.6
   },
   {
    "tarih": "2026-09-16",
@@ -299,7 +248,57 @@
     "nippon steel backs|hat|Belirsiz|Modernizasyon",
     "nippon steel backs|ulke|Slovakya|Modernizasyon"
    ],
-   "puan": 36.0
+   "puan": 35.6
+  },
+  {
+   "tarih": "2026-09-10",
+   "firma": "Hyundai Steel",
+   "ulke": "",
+   "hat": "Soguk hadde",
+   "asama": "Belirsiz",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "$5.8 billion",
+   "baslik": "Hyundai Steel plans to open steel plant in Louisiana",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgx_q_weld",
+   "url": "https://www.plantservices.com/industry-news/news/55404410/hyundai-steel-plans-to-open-steel-plant-in-louisiana",
+   "tarih_kaynagi": "rss",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "anahtar": "725f7a83cfe053d1",
+   "kategori": "Hat",
+   "olaylar": [
+    "hyundai steel|hat|Soguk hadde|Belirsiz"
+   ],
+   "puan": 27.2
+  },
+  {
+   "tarih": "2026-09-01",
+   "firma": "ArcelorMittal Brasil",
+   "ulke": "",
+   "hat": "Soguk hadde",
+   "asama": "Belirsiz",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "$740",
+   "baslik": "ArcelorMittal Brasil to invest in new cold rolling mill and coating lines",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgx_arcelor",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/arcelormittal-brasil-to-invest-in-new-cold-rolling-mill-and-coating-lines-1474267.htm",
+   "tarih_kaynagi": "rss",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "anahtar": "5ddafe54499a1936",
+   "kategori": "Hat",
+   "olaylar": [
+    "arcelormittal brasil|hat|Soguk hadde|Belirsiz"
+   ],
+   "puan": 23.6
   },
   {
    "tarih": "2026-09-20",
@@ -324,7 +323,7 @@
    "olaylar": [
     "did electrical steel|hat|Elektrik celigi hatti|Belirsiz"
    ],
-   "puan": 5.6
+   "puan": 5.2
   },
   {
    "tarih": "2026-09-21",
@@ -349,19 +348,19 @@
    "olaylar": [
     "posco|hat|Galvaniz hatti (CGL)|Belirsiz"
    ],
-   "puan": 5.0
+   "puan": 4.6
   }
  ],
  "stats": {
   "kaynak": 291,
   "erisilemeyen": 9,
-  "ham": 3338,
-  "on_eleme_gecti": 288,
-  "makale_acildi": 211,
-  "tarihsiz_elendi": 84,
-  "pencere_disi": 259,
-  "kapsam_disi": 2971,
-  "tekrar": 10,
+  "ham": 3676,
+  "on_eleme_gecti": 343,
+  "makale_acildi": 215,
+  "tarihsiz_elendi": 83,
+  "pencere_disi": 276,
+  "kapsam_disi": 3284,
+  "tekrar": 19,
   "kabul": 14,
   "gnews_tarih": 0
  },
@@ -696,7 +695,7 @@
   "bgtek_jc": "arama",
   "bgtek_danieli": "arama"
  },
- "today": "2026-09-21",
+ "today": "2026-09-22",
  "host_saglik": {
   "news.google.com": {
    "istek": 112,
@@ -716,27 +715,25 @@
   "www.cognex.com": {
    "istek": 2,
    "hiz_siniri": 2,
-   "sogutmada": true
+   "sogutmada": false
   }
  },
  "tech_pool": [],
  "kaynak_katki": {
   "POSCO": 1,
-  "Mysteel (haber)": 1,
-  "Metallurgprom": 1,
   "Google News": 3,
   "Elle besleme": 1,
-  "Bing News": 7
+  "Bing News": 9
  },
  "window": [
-  "2026-08-31",
-  "2026-09-21"
+  "2026-09-01",
+  "2026-09-22"
  ],
  "bulunan_kullanilan": 0,
- "bulunan_havuz": 19,
+ "bulunan_havuz": 20,
  "rezerv_kullanilan": 0,
- "rezerv_havuz": 20,
+ "rezerv_havuz": 21,
  "period": "2026-W39",
- "generated": "2026-09-21 09:05 UTC",
+ "generated": "2026-09-22 08:44 UTC",
  "version": "3.0.0"
 }
