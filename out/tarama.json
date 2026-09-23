@@ -1,28 +1,81 @@
 {
  "rows": [
   {
-   "tarih": "2026-09-03",
-   "firma": "Primetals",
+   "tarih": "2026-09-23",
+   "firma": "Chengde Steel",
+   "ulke": "",
+   "hat": "Asitleme hatti",
+   "asama": "Sozlesme",
+   "tedarikci": "Primetals",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "Primetals Technologies to supply continuous galvanizing and pickling line to Chengde Steel",
+   "kaynak": "Primetals Technologies",
+   "kaynak_id": "elle",
+   "url": "https://www.primetals.com/press-media/news/primetals-technologies-to-supply-continuous-galvanizing-and-pickling-line-to-chengde-steel",
+   "tarih_kaynagi": "last-modified",
+   "eksik": [
+    "ulke",
+    "tarih?"
+   ],
+   "anahtar": "861fe83cb05ff9be",
+   "kategori": "Hat",
+   "olaylar": [
+    "chengde steel|hat|Asitleme hatti|Sozlesme",
+    "primetals|hat|Asitleme hatti|Sozlesme"
+   ],
+   "puan": 59.0
+  },
+  {
+   "tarih": "2026-09-04",
+   "firma": "Primetals Technologies",
    "ulke": "Cin",
    "hat": "Tandem soguk hadde (TCM)",
    "asama": "Sozlesme",
    "tedarikci": "Primetals",
    "kapasite": "",
    "tutar": "",
-   "baslik": "Primetals secures PLTCM automation order",
+   "baslik": "Primetals Technologies Wins PLTCM Project in China",
    "kaynak": "Bing News",
-   "kaynak_id": "bgx_q_order",
-   "url": "https://www.steeltimesint.com/news/primetals-secures-pltcm-automation-order",
+   "kaynak_id": "bgx_q_auto",
+   "url": "https://note.com/sankituushin/n/nebe64a6ad351?hl=en",
    "tarih_kaynagi": "rss",
    "eksik": [],
-   "anahtar": "dde7adab1615e8c7",
+   "anahtar": "0bfa599743c7ee24",
    "kategori": "Hat",
    "olaylar": [
+    "primetals technologies|fu|Cin|Tandem soguk hadde (TCM)",
+    "primetals technologies|hat|Tandem soguk hadde (TCM)|Sozlesme",
+    "primetals technologies|ulke|Cin|Sozlesme",
     "primetals|fu|Cin|Tandem soguk hadde (TCM)",
     "primetals|hat|Tandem soguk hadde (TCM)|Sozlesme",
     "primetals|ulke|Cin|Sozlesme"
    ],
    "puan": 57.4
+  },
+  {
+   "tarih": "2026-09-15",
+   "firma": "Flux Steel Works",
+   "ulke": "ABD",
+   "hat": "Elektrik celigi hatti",
+   "asama": "Sozlesme",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "Flux Steel Works Secures Ohio Plant to Produce Power Transformer Core Steel",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_hat12",
+   "url": "https://finance.yahoo.com/energy/articles/flux-steel-works-secures-ohio-120300709.html",
+   "tarih_kaynagi": "rss",
+   "eksik": [],
+   "anahtar": "103151f7f2661a28",
+   "kategori": "Hat",
+   "olaylar": [
+    "flux steel works|fu|ABD|Elektrik celigi hatti",
+    "flux steel works|hat|Elektrik celigi hatti|Sozlesme",
+    "flux steel works|ulke|ABD|Sozlesme"
+   ],
+   "puan": 56.8
   },
   {
    "tarih": "2026-09-17",
@@ -46,62 +99,33 @@
     "am/ns india|hat|Zn-Al-Mg / Galvalume kaplama|Sozlesme",
     "am/ns india|ulke|Hindistan|Sozlesme"
    ],
-   "puan": 57.0
-  },
-  {
-   "tarih": "2026-09-16",
-   "firma": "Chengde Steel",
-   "ulke": "",
-   "hat": "Asitleme hatti",
-   "asama": "Sozlesme",
-   "tedarikci": "Primetals",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "Primetals Technologies to supply continuous galvanizing and pickling line to Chengde Steel",
-   "kaynak": "Primetals Technologies",
-   "kaynak_id": "elle",
-   "url": "https://www.primetals.com/press-media/news/primetals-technologies-to-supply-continuous-galvanizing-and-pickling-line-to-chengde-steel",
-   "tarih_kaynagi": "last-modified",
-   "eksik": [
-    "ulke",
-    "tarih?"
-   ],
-   "anahtar": "861fe83cb05ff9be",
-   "kategori": "Hat",
-   "olaylar": [
-    "chengde steel|hat|Asitleme hatti|Sozlesme",
-    "primetals|hat|Asitleme hatti|Sozlesme"
-   ],
    "puan": 56.6
   },
   {
-   "tarih": "2026-09-21",
-   "firma": "EZZ STEEL",
-   "ulke": "Misir",
+   "tarih": "2026-09-23",
+   "firma": "Ezz Flat Steel Plant",
+   "ulke": "",
    "hat": "Belirsiz",
    "asama": "Sozlesme",
    "tedarikci": "Danieli",
    "kapasite": "",
    "tutar": "",
-   "baslik": "EZZ STEEL SELECTS DANIELI AUTOMATION FOR ADVANCED MES DIGITAL PLATFORM",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgq_hat09",
-   "url": "https://www.marketscreener.com/news/ezz-steel-selects-danieli-automation-for-advanced-mes-digital-platform-ce785adbdd8ff324",
+   "baslik": "Danieli Automation to Supply MES Platform for Ezz Flat Steel Plant",
+   "kaynak": "Machine Maker",
+   "kaynak_id": "gq_sup02",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdU1RMmRXLVpqaWEzNHN4cnhuUlhZajdIMjFfc1VFY0tIT1dQNFlucGVBVGZ0MkpVcW91RHlsREwyUFltVW0yWGlNQzNwVDVUSy1ETXUzNG41TXFGTHJncmI1TXNhS2tVYXJEcDV4Mmt4Mm9KdWJoczNyeDNPWWNqY0FDUU1mUnF1NEZxWm9IQnNoNmtDZnh5U25iMml2TFVGN1E?oc=5",
    "tarih_kaynagi": "rss",
    "eksik": [
+    "ulke",
     "hat"
    ],
-   "anahtar": "f8f05cd980be9254",
+   "anahtar": "24c572c3d06c307e",
    "kategori": "Hat",
    "olaylar": [
-    "danieli|fu|Misir|Belirsiz",
     "danieli|hat|Belirsiz|Sozlesme",
-    "danieli|ulke|Misir|Sozlesme",
-    "ezz steel|fu|Misir|Belirsiz",
-    "ezz steel|hat|Belirsiz|Sozlesme",
-    "ezz steel|ulke|Misir|Sozlesme"
+    "ezz flat steel plant|hat|Belirsiz|Sozlesme"
    ],
-   "puan": 51.6
+   "puan": 52.0
   },
   {
    "tarih": "2026-09-08",
@@ -125,7 +149,7 @@
    "olaylar": [
     "posco|hat|Galvaniz hatti (CGL)|Sozlesme"
    ],
-   "puan": 50.4
+   "puan": 50.0
   },
   {
    "tarih": "2026-09-10",
@@ -138,7 +162,7 @@
    "tutar": "",
    "baslik": "Xinyu inaugurates electrical steel production facility",
    "kaynak": "Bing News",
-   "kaynak_id": "bgq_sup06",
+   "kaynak_id": "bgx_q_commis",
    "url": "https://www.steeltimesint.com/news/xinyu-inaugurates-electrical-steel-production-facility",
    "tarih_kaynagi": "rss",
    "eksik": [
@@ -149,7 +173,7 @@
    "olaylar": [
     "xinyu|hat|Elektrik celigi hatti|Ilk urun"
    ],
-   "puan": 50.2
+   "puan": 49.8
   },
   {
    "tarih": "2026-09-09",
@@ -173,7 +197,7 @@
    "olaylar": [
     "posco|hat|Galvaniz hatti (CGL)|Insaat"
    ],
-   "puan": 46.8
+   "puan": 46.4
   },
   {
    "tarih": "2026-09-15",
@@ -197,7 +221,7 @@
    "olaylar": [
     "flux steel|hat|Elektrik celigi hatti|Modernizasyon"
    ],
-   "puan": 42.2
+   "puan": 41.8
   },
   {
    "tarih": "2026-09-21",
@@ -222,33 +246,32 @@
    "olaylar": [
     "posco|hat|Galvaniz hatti (CGL)|Teknoloji"
    ],
-   "puan": 41.6
+   "puan": 41.2
   },
   {
-   "tarih": "2026-09-16",
-   "firma": "Nippon Steel Backs",
-   "ulke": "Slovakya",
-   "hat": "Belirsiz",
-   "asama": "Modernizasyon",
+   "tarih": "2026-09-09",
+   "firma": "POSCO will",
+   "ulke": "",
+   "hat": "Galvaniz hatti (CGL)",
+   "asama": "Belirsiz",
    "tedarikci": "",
    "kapasite": "",
-   "tutar": "900 Million Eur",
-   "baslik": "Nippon Steel Backs 900 Million Euro Slovakia Steel Upgrade",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgx_eurometal_q",
-   "url": "https://jp.ibtimes.com/nippon-steel-backs-900-million-euro-slovakia-steel-upgrade-104450",
+   "tutar": "$359 million",
+   "baslik": "POSCO will invest $359 million to build a continuous galvanizing line",
+   "kaynak": "Shanghai Metals Market",
+   "kaynak_id": "gq_hat04",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNUJiY0ZtNGRLc0pRZ0hWb3hYRzZGNjZsM1VIcW5UZ19NME5NRUpZRFd5eHQ5VWd4S1AycHdFZ25GUjlGaTlpcTlVN3VZV3FYTXdELU9rUnNESGVJeWszTWJUbFpUbUZXM0FGVFZjVTNHUEt3Nnpjd0I0QTlkVEtEWHVyM2g0dGFmWDZrSEwwRXJYdEoxb3hIeHVodzk5UFFnTHNvY3NYbw?oc=5",
    "tarih_kaynagi": "rss",
    "eksik": [
-    "hat"
+    "ulke",
+    "asama"
    ],
-   "anahtar": "287abe7add2ec96e",
+   "anahtar": "31f1f76c17af6d14",
    "kategori": "Hat",
    "olaylar": [
-    "nippon steel backs|fu|Slovakya|Belirsiz",
-    "nippon steel backs|hat|Belirsiz|Modernizasyon",
-    "nippon steel backs|ulke|Slovakya|Modernizasyon"
+    "posco will|hat|Galvaniz hatti (CGL)|Belirsiz"
    ],
-   "puan": 35.6
+   "puan": 28.4
   },
   {
    "tarih": "2026-09-10",
@@ -273,32 +296,7 @@
    "olaylar": [
     "hyundai steel|hat|Soguk hadde|Belirsiz"
    ],
-   "puan": 27.2
-  },
-  {
-   "tarih": "2026-09-01",
-   "firma": "ArcelorMittal Brasil",
-   "ulke": "",
-   "hat": "Soguk hadde",
-   "asama": "Belirsiz",
-   "tedarikci": "",
-   "kapasite": "",
-   "tutar": "$740",
-   "baslik": "ArcelorMittal Brasil to invest in new cold rolling mill and coating lines",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgx_arcelor",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/arcelormittal-brasil-to-invest-in-new-cold-rolling-mill-and-coating-lines-1474267.htm",
-   "tarih_kaynagi": "rss",
-   "eksik": [
-    "ulke",
-    "asama"
-   ],
-   "anahtar": "5ddafe54499a1936",
-   "kategori": "Hat",
-   "olaylar": [
-    "arcelormittal brasil|hat|Soguk hadde|Belirsiz"
-   ],
-   "puan": 23.6
+   "puan": 26.8
   },
   {
    "tarih": "2026-09-20",
@@ -323,7 +321,7 @@
    "olaylar": [
     "did electrical steel|hat|Elektrik celigi hatti|Belirsiz"
    ],
-   "puan": 5.2
+   "puan": 4.8
   },
   {
    "tarih": "2026-09-21",
@@ -348,20 +346,47 @@
    "olaylar": [
     "posco|hat|Galvaniz hatti (CGL)|Belirsiz"
    ],
-   "puan": 4.6
+   "puan": 4.2
+  },
+  {
+   "tarih": "2026-09-22",
+   "firma": "EMSTEEL",
+   "ulke": "Birlesik Krallik",
+   "hat": "Belirsiz",
+   "asama": "Belirsiz",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "EMSTEEL supplies sheet piles for UK highway expansion project",
+   "kaynak": "MEsteel",
+   "kaynak_id": "mesteel",
+   "url": "https://news.mesteel.com/emsteel-supplies-sheet-piles-for-uk-highway-expansion-project/",
+   "tarih_kaynagi": "meta:datepublished",
+   "eksik": [
+    "hat",
+    "asama"
+   ],
+   "anahtar": "53755e2c0db4a5a0",
+   "kategori": "Yatirim",
+   "olaylar": [
+    "emsteel|fu|Birlesik Krallik|Belirsiz",
+    "emsteel|hat|Belirsiz|Belirsiz",
+    "emsteel|ulke|Birlesik Krallik|Belirsiz"
+   ],
+   "puan": -5.4
   }
  ],
  "stats": {
   "kaynak": 291,
   "erisilemeyen": 9,
-  "ham": 3676,
-  "on_eleme_gecti": 343,
-  "makale_acildi": 215,
-  "tarihsiz_elendi": 83,
-  "pencere_disi": 276,
-  "kapsam_disi": 3284,
-  "tekrar": 19,
-  "kabul": 14,
+  "ham": 3388,
+  "on_eleme_gecti": 311,
+  "makale_acildi": 214,
+  "tarihsiz_elendi": 84,
+  "pencere_disi": 259,
+  "kapsam_disi": 3013,
+  "tekrar": 17,
+  "kabul": 15,
   "gnews_tarih": 0
  },
  "unreachable": [
@@ -695,7 +720,7 @@
   "bgtek_jc": "arama",
   "bgtek_danieli": "arama"
  },
- "today": "2026-09-22",
+ "today": "2026-09-23",
  "host_saglik": {
   "news.google.com": {
    "istek": 112,
@@ -715,25 +740,26 @@
   "www.cognex.com": {
    "istek": 2,
    "hiz_siniri": 2,
-   "sogutmada": false
+   "sogutmada": true
   }
  },
  "tech_pool": [],
  "kaynak_katki": {
   "POSCO": 1,
-  "Google News": 3,
+  "MEsteel": 1,
+  "Google News": 5,
   "Elle besleme": 1,
-  "Bing News": 9
+  "Bing News": 7
  },
  "window": [
-  "2026-09-01",
-  "2026-09-22"
+  "2026-09-02",
+  "2026-09-23"
  ],
  "bulunan_kullanilan": 0,
- "bulunan_havuz": 20,
+ "bulunan_havuz": 21,
  "rezerv_kullanilan": 0,
  "rezerv_havuz": 21,
  "period": "2026-W39",
- "generated": "2026-09-22 08:44 UTC",
+ "generated": "2026-09-23 08:46 UTC",
  "version": "3.0.0"
 }

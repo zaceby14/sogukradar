@@ -1,6 +1,59 @@
 {
  "bulunan": [
   {
+   "anahtar": "24c572c3d06c307e",
+   "asama": "Sozlesme",
+   "baslik": "Danieli Automation to Supply MES Platform for Ezz Flat Steel Plant",
+   "eksik": [
+    "ulke",
+    "hat"
+   ],
+   "firma": "Ezz Flat Steel Plant",
+   "hat": "Belirsiz",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Machine Maker",
+   "kaynak_id": "gq_sup02",
+   "olaylar": [
+    "danieli|hat|Belirsiz|Sozlesme",
+    "ezz flat steel plant|hat|Belirsiz|Sozlesme"
+   ],
+   "puan": 52.0,
+   "tarih": "2026-09-23",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "Danieli",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdU1RMmRXLVpqaWEzNHN4cnhuUlhZajdIMjFfc1VFY0tIT1dQNFlucGVBVGZ0MkpVcW91RHlsREwyUFltVW0yWGlNQzNwVDVUSy1ETXUzNG41TXFGTHJncmI1TXNhS2tVYXJEcDV4Mmt4Mm9KdWJoczNyeDNPWWNqY0FDUU1mUnF1NEZxWm9IQnNoNmtDZnh5U25iMml2TFVGN1E?oc=5"
+  },
+  {
+   "anahtar": "53755e2c0db4a5a0",
+   "asama": "Belirsiz",
+   "baslik": "EMSTEEL supplies sheet piles for UK highway expansion project",
+   "eksik": [
+    "hat",
+    "asama"
+   ],
+   "firma": "EMSTEEL",
+   "hat": "Belirsiz",
+   "kapasite": "",
+   "kategori": "Yatirim",
+   "kaynak": "MEsteel",
+   "kaynak_id": "mesteel",
+   "olaylar": [
+    "emsteel|fu|Birlesik Krallik|Belirsiz",
+    "emsteel|hat|Belirsiz|Belirsiz",
+    "emsteel|ulke|Birlesik Krallik|Belirsiz"
+   ],
+   "puan": -5.4,
+   "tarih": "2026-09-22",
+   "tarih_kaynagi": "meta:datepublished",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Birlesik Krallik",
+   "url": "https://news.mesteel.com/emsteel-supplies-sheet-piles-for-uk-highway-expansion-project/"
+  },
+  {
    "anahtar": "866a901347e29691",
    "asama": "Modernizasyon",
    "baslik": "唐山市晟鑫冷轧薄板生产线升级改造项目生态环境影响报告书获批",
@@ -302,6 +355,31 @@
    "tutar": "",
    "ulke": "",
    "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNM25GdzB0bUUyMVo3V29WSEYyandNdU5oLUdwVmRHVXZIcVdDRVRCQ0FOQW45Z0ZZVGlPS09pYmtYODNISm14d3YtNnctMzBHMTZYM2xDdjBXaC1McU96a0tCYkFvcTFuY0VkM1pSSjNJNFZUNjRTdW4yMlF4T2VxUGh0amVMTHNWOHNHS3FscTVnOVY1bUxrd1dGYjlUYV9QdTdRNDktd1RFMGZKMzJQa3RJRnlpZXlzVmdLOTUzY1BtTVhhaGlSVHZUdjBYVFRla3h4Z0Q0M0RtOS1ZaU9jd1BQcHc3NWd2N3hrYXh4ZnFmbVhEX296U2t4ZDA3ZnNod3pEejBoQWNwQQ?oc=5"
+  },
+  {
+   "anahtar": "31f1f76c17af6d14",
+   "asama": "Belirsiz",
+   "baslik": "POSCO will invest $359 million to build a continuous galvanizing line",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "firma": "POSCO will",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Shanghai Metals Market",
+   "kaynak_id": "gq_hat04",
+   "olaylar": [
+    "posco will|hat|Galvaniz hatti (CGL)|Belirsiz"
+   ],
+   "puan": 28.4,
+   "tarih": "2026-09-09",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "$359 million",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNUJiY0ZtNGRLc0pRZ0hWb3hYRzZGNjZsM1VIcW5UZ19NME5NRUpZRFd5eHQ5VWd4S1AycHdFZ25GUjlGaTlpcTlVN3VZV3FYTXdELU9rUnNESGVJeWszTWJUbFpUbUZXM0FGVFZjVTNHUEt3Nnpjd0I0QTlkVEtEWHVyM2g0dGFmWDZrSEwwRXJYdEoxb3hIeHVodzk5UFFnTHNvY3NYbw?oc=5"
   },
   {
    "anahtar": "495456be16726ffc",
@@ -1940,6 +2018,24 @@
     "tekrar": 19
    },
    "uretim": "2026-09-22 08:44 UTC"
+  },
+  {
+   "donem": "2026-W39",
+   "satir": 15,
+   "stats": {
+    "erisilemeyen": 9,
+    "gnews_tarih": 0,
+    "ham": 3388,
+    "kabul": 15,
+    "kapsam_disi": 3013,
+    "kaynak": 291,
+    "makale_acildi": 214,
+    "on_eleme_gecti": 311,
+    "pencere_disi": 259,
+    "tarihsiz_elendi": 84,
+    "tekrar": 17
+   },
+   "uretim": "2026-09-23 08:46 UTC"
   }
  ],
  "rezerv": [
