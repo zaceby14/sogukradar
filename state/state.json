@@ -1,6 +1,60 @@
 {
  "bulunan": [
   {
+   "anahtar": "3c6ddad628eeb8ca",
+   "asama": "Belirsiz",
+   "baslik": "POSCO, Otomotiv Çeliği İçin 359 Milyon Dolarlık Yeni Galvanizleme Hattı Kuruyor",
+   "eksik": [
+    "ulke",
+    "asama",
+    "tarih?"
+   ],
+   "firma": "POSCO",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "",
+   "kategori": "Yatirim",
+   "kaynak": "SteelTurk",
+   "kaynak_id": "steelturk",
+   "olaylar": [
+    "posco|hat|Galvaniz hatti (CGL)|Belirsiz"
+   ],
+   "puan": 5.0,
+   "tarih": "2026-09-24",
+   "tarih_kaynagi": "metin",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://www.steelturk.com.tr/posco-otomotiv-celigi-icin-359-milyon-dolarlik-yeni-galvanizleme-hatti-kuruyor/"
+  },
+  {
+   "anahtar": "ead1e2985beceddf",
+   "asama": "Belirsiz",
+   "baslik": "India extends AD investigation deadline on stainless steel cold-rolled flat products from 3 Asian nations",
+   "eksik": [
+    "firma",
+    "asama",
+    "tarih?"
+   ],
+   "firma": "",
+   "hat": "Soguk hadde",
+   "kapasite": "",
+   "kategori": "Yatirim",
+   "kaynak": "Yieh Corp",
+   "kaynak_id": "yieh",
+   "olaylar": [
+    "|fu|Hindistan|Soguk hadde",
+    "|hat|Soguk hadde|Belirsiz",
+    "|ulke|Hindistan|Belirsiz"
+   ],
+   "puan": 3.0,
+   "tarih": "2026-09-24",
+   "tarih_kaynagi": "metin",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Hindistan",
+   "url": "https://www.yieh.com/en/News/india-extends-ad-investigation-deadline-on-stainless-steel-cold-rolled-flat-products-from-3-asian-nations/162696"
+  },
+  {
    "anahtar": "24c572c3d06c307e",
    "asama": "Sozlesme",
    "baslik": "Danieli Automation to Supply MES Platform for Ezz Flat Steel Plant",
@@ -25,6 +79,30 @@
    "tutar": "",
    "ulke": "",
    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdU1RMmRXLVpqaWEzNHN4cnhuUlhZajdIMjFfc1VFY0tIT1dQNFlucGVBVGZ0MkpVcW91RHlsREwyUFltVW0yWGlNQzNwVDVUSy1ETXUzNG41TXFGTHJncmI1TXNhS2tVYXJEcDV4Mmt4Mm9KdWJoczNyeDNPWWNqY0FDUU1mUnF1NEZxWm9IQnNoNmtDZnh5U25iMml2TFVGN1E?oc=5"
+  },
+  {
+   "anahtar": "9a0e4948eeca27d9",
+   "asama": "Modernizasyon",
+   "baslik": "The European Commission has introduced temporary protective measures for the import of electrical steel",
+   "eksik": [],
+   "firma": "European",
+   "hat": "Elektrik celigi hatti",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Metallurgprom",
+   "kaynak_id": "metallurgprom",
+   "olaylar": [
+    "european|fu|Hindistan|Elektrik celigi hatti",
+    "european|hat|Elektrik celigi hatti|Modernizasyon",
+    "european|ulke|Hindistan|Modernizasyon"
+   ],
+   "puan": 51.6,
+   "tarih": "2026-09-23",
+   "tarih_kaynagi": "json-ld",
+   "tedarikci": "",
+   "tutar": "300 million eur",
+   "ulke": "Hindistan",
+   "url": "https://metallurgprom.org/en/news/europe/21800-evrokomissija-vvela-vremennye-zaschitnye-mery-dlja-importa-jelektrotehnicheskoj-stali.html"
   },
   {
    "anahtar": "53755e2c0db4a5a0",
@@ -2036,9 +2114,78 @@
     "tekrar": 17
    },
    "uretim": "2026-09-23 08:46 UTC"
+  },
+  {
+   "donem": "2026-W39",
+   "satir": 16,
+   "stats": {
+    "erisilemeyen": 10,
+    "gnews_tarih": 0,
+    "ham": 3660,
+    "kabul": 16,
+    "kapsam_disi": 3260,
+    "kaynak": 291,
+    "makale_acildi": 221,
+    "on_eleme_gecti": 350,
+    "pencere_disi": 276,
+    "tarihsiz_elendi": 87,
+    "tekrar": 21
+   },
+   "uretim": "2026-09-24 08:35 UTC"
   }
  ],
  "rezerv": [
+  {
+   "anahtar": "f78620ad28390d6c",
+   "asama": "Belirsiz",
+   "baslik": "Japan's Chugai Ro delivers electric bright annealing line to Romania's Otelinox",
+   "eksik": [
+    "asama"
+   ],
+   "firma": "Chugai Ro",
+   "hat": "Surekli tavlama (CAL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_hat03",
+   "olaylar": [
+    "chugai ro|fu|Japonya|Surekli tavlama (CAL)",
+    "chugai ro|hat|Surekli tavlama (CAL)|Belirsiz",
+    "chugai ro|ulke|Japonya|Belirsiz"
+   ],
+   "rezerv": true,
+   "tarih": "2026-09-01",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Japonya",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/japans-chugai-ro-delivers-electric-bright-annealing-line-to-romanias-otelinox-1474287.htm"
+  },
+  {
+   "anahtar": "5ddafe54499a1936",
+   "asama": "Belirsiz",
+   "baslik": "ArcelorMittal Brasil to invest in new cold rolling mill and coating lines",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "firma": "ArcelorMittal Brasil",
+   "hat": "Soguk hadde",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgx_arcelor",
+   "olaylar": [
+    "arcelormittal brasil|hat|Soguk hadde|Belirsiz"
+   ],
+   "rezerv": true,
+   "tarih": "2026-09-01",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "$740",
+   "ulke": "",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/arcelormittal-brasil-to-invest-in-new-cold-rolling-mill-and-coating-lines-1474267.htm"
+  },
   {
    "anahtar": "98a2950f8f9b76b6",
    "asama": "Sozlesme",

@@ -1,6 +1,6 @@
 {
  "donem": "2026-W39",
- "adet": 501,
+ "adet": 508,
  "kayitlar": [
   {
    "sebep": "kapsam_disi",
@@ -45,10 +45,10 @@
    "ek": "kapsam_disi"
   },
   {
-   "sebep": "kapsam_disi",
-   "baslik": "Acciaierie Venete commissions second Danieli bar-straightening line at Padova Works",
+   "sebep": "pencere_disi",
+   "baslik": "new orders 2026, 2nd September Acciaierie Venete commissions second Danieli bar-straightening line at Padova Works",
    "url": "https://www.danieli.com/en/Acciaierie-Venete-commissions-second-Danieli-bar-straightening-line-at-Padova-Works_37_1096.htm",
-   "ek": "kapsam_disi"
+   "ek": "2026-09-02"
   },
   {
    "sebep": "pencere_disi",
@@ -1174,9 +1174,21 @@
   },
   {
    "sebep": "kapsam_disi",
+   "baslik": "British foundry technology leader chooses SECO/WARWICK",
+   "url": "https://www.secowarwick.com/en/news/british-foundry-technology-leader-chooses-secowarwick/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
    "baslik": "COOKIE CONSENT MANAGEMENT",
    "url": "https://www.secowarwick.com/en/news/",
    "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "NADCA – Die Casting Congress & Tabletop 2026",
+   "url": "https://www.secowarwick.com/en/event/nadca-2026/",
+   "ek": "sert red (baslik)"
   },
   {
    "sebep": "kapsam_disi",
@@ -1221,10 +1233,10 @@
    "ek": "2019-12-12"
   },
   {
-   "sebep": "kapsam_disi",
+   "sebep": "pencere_disi",
    "baslik": "A Return After a Decade: SECO/WARWICK to Deliver the Largest ZeroFlow Nitriding Furnace produced in China",
    "url": "https://www.secowarwick.com/en/news/secowarwick-to-deliver-the-largest-zeroflow-nitriding-furnace-in-its-history/",
-   "ek": "baska_malzeme"
+   "ek": "2026-09-02"
   },
   {
    "sebep": "pencere_disi",
@@ -1237,12 +1249,6 @@
    "baslik": "The Tenth Furnace for a Global Energy Technology Leader",
    "url": "https://www.secowarwick.com/en/news/the-tenth-furnace-for-a-global-energy-technology-leader/",
    "ek": "2026-08-26"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "The defense industry needs a robust industrial base. SECO/WARWICK delivers technologies for critical production.",
-   "url": "https://www.secowarwick.com/en/news/the-defense-industry-needs-a-robust-industrial-base/",
-   "ek": "2026-08-19"
   },
   {
    "sebep": "pencere_disi",
@@ -2344,6 +2350,12 @@
   },
   {
    "sebep": "tarihsiz_elendi",
+   "baslik": "Regulation costs squeeze flat steel traders: Kallanish GFS26",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/regulation-costs-squeeze-flat-steel-traders-kallanish-gfs26-0926/",
+   "ek": ""
+  },
+  {
+   "sebep": "tarihsiz_elendi",
    "baslik": "Stainless Steel Cold Rolled Coil",
    "url": "https://www.yieh.com/en/Product/stainless-steel/stainless-steel-cold-rolled-coil",
    "ek": ""
@@ -2415,12 +2427,6 @@
    "ek": ""
   },
   {
-   "sebep": "tarihsiz_elendi",
-   "baslik": "[SMM Analysis]August Silicon‑Steel Import & Export Review: Imports Keep Falling, Monthly Export Volatility Intensifies10 mins ago",
-   "url": "https://news.metal.com/en/newscontent/104131499-smm-analysisaugust-silicon‐steel-import-export-review-imports-keep-falling-monthly-export-volatility-intensifies",
-   "ek": ""
-  },
-  {
    "sebep": "pencere_disi",
    "baslik": "POSCO Partners with Hyundai Motor and 8 Organizations to Develop Next-Generation High-Efficiency Electrical Steel for EVs",
    "url": "https://worldsteel.org/media/industry-member-news/2026-member-news/posco-partners-with-hyundai-motor-and-8-organizations-to-develop-next-generation-high-efficiency-electrical-steel-for-evs/",
@@ -2461,12 +2467,6 @@
    "baslik": "404 - Page Not Found",
    "url": "https://www.aist.org/Steel-News/2026/August/10-14-August-2026/KG-Steel-Turns-to-Primetals-Technologies-for-PLTCM",
    "ek": "2024-12-10"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Sheet Processing and Finishing Lines",
-   "url": "https://www.aist.org/Conferences-Expositions/Technology-Training/Sheet-Processing-and-Finishing-Lines",
-   "ek": "2026-09-24"
   },
   {
    "sebep": "pencere_disi",
@@ -2518,8 +2518,14 @@
   },
   {
    "sebep": "tarihsiz_elendi",
-   "baslik": "【钢之家调查】本周冷轧板卷市场消费量增加0.88万吨至151.3万吨(9月11日-9月17日)",
-   "url": "https://www.steelhome.com/24764667 ",
+   "baslik": "【钢之家调查】本周国内镀锌管产能利用率90.15%保持平稳（9月18日-9月23日）",
+   "url": "https://www.steelhome.com/24768241 ",
+   "ek": ""
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "【钢之家调查】本周冷轧板卷市场消费量增加1.18万吨至152.48万吨(9月18日-9月23日)",
+   "url": "https://www.steelhome.com/24768279 ",
    "ek": ""
   },
   {
@@ -2649,16 +2655,16 @@
    "ek": "2026-06-18"
   },
   {
+   "sebep": "tekrar",
+   "baslik": "POSCO : to Build State-of-the-Art Galvanized Automotive Steel Sheet Plant, Bringing Together the Latest Automotive Steel Technologies",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQcTVDYVRnNnFDZUZobkNaZnhiWkxUTHF6eUI4eFNNTjJuTGRxTFdLVGMwLXBvbC1kU2VJNklvQzNFaW41NnJnbjlHdEF6NmEyMFY1X25TTjlnMFdWc0tycVp0MHMxWWJJaGJrbG5OZUpFQnk1azJsMGNFQk1Ld1FycFZzX1NRbGZOMHZmOG5XN2hNczRPM2ZaU2xNVVhDMVFLekpCV1ZzSUtKVjM5azRSWXU0M29KVDY3bXJCSFJyck1pZ0Z6WExoSzI5dnFwVi1DV1d1RlpILW4xRXdQdGt1UnBZaEk?oc=5",
+   "ek": "ayni olayin varyanti: posco|hat|Galvaniz hatti (CGL)|Belirsiz"
+  },
+  {
    "sebep": "pencere_disi",
    "baslik": "Chugai Ro, Romanya merkezli Otelinox'a elektrikli parlak tavlama hattı teslim etti",
    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQQnBuNEJtd19CeVF1VzRIWk0wdm9SNFJ0anRLTXM3dkJ3U1RFYm9GMUowWThmRzItMTNxdlZyVm5CdkxiQTE4N0FKRmVjOEEwX29ETnZnWFhjRXU5VDNvbzZCNE1XN2o0MU8tVDFXUTNwdkloUTBqekdRN3V0VDRZUnVuTkpYZG1FNHRoc3JuR0hiZ2NYclR2ZGllNHJEZ0FWRjVtRG9MYXhOenNkM2Fmb241UUc5QzQ0VGJWUmFqLWoxNV8wZXJ4MzNudFduWV9rdFRvd0dNOUtwV0hzLW9OQ0VULS0?oc=5",
    "ek": "2026-09-01"
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "POSCO to Build State-of-the-Art Galvanized Automotive Steel Sheet Plant, Bringing Together the Latest Automotive Steel Technologies",
-   "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNRjdQdkp3TTgyQXluR1JnM29pUmoyT3NoUDZBenBrZk81RVZwNHo5NEZsVmpLVlVYNlZobEJVT0RPWWZTNno3NmM2X2FRNUpMazlkUG9HQzhRMmI5SktOYnVfa3ZSbzc2QlBwazd2V3NmS09LbUlXVW9rY0x0QXhBUklaUnN3RGVRUHQzb0laeXU3Q0FtZHlFYWlpRU5YSlg2Q19UMDNFdHZRS0U0aDRpTUZpOHZQUk9vUUU2dW00akUtOU9KTVhnbldUY00zbW96dnBfX2VRaFFRTGs3Ymx2QWs5UVhzSFFpY1dWY2JqcjdMV2s?oc=5",
-   "ek": ""
   },
   {
    "sebep": "tekrar",
@@ -2667,16 +2673,22 @@
    "ek": ""
   },
   {
-   "sebep": "pencere_disi",
-   "baslik": "RRM starts up new cold-mill complex with Danieli technology",
-   "url": "https://news.mesteel.com/rrm-starts-up-new-cold-mill-complex-with-danieli-technology/",
-   "ek": "2026-02-12"
+   "sebep": "tekrar",
+   "baslik": "POSCO : to Build State-of-the-Art Galvanized Automotive Steel Sheet Plant, Bringing Together the Latest Automotive Steel Technologies",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQcTVDYVRnNnFDZUZobkNaZnhiWkxUTHF6eUI4eFNNTjJuTGRxTFdLVGMwLXBvbC1kU2VJNklvQzNFaW41NnJnbjlHdEF6NmEyMFY1X25TTjlnMFdWc0tycVp0MHMxWWJJaGJrbG5OZUpFQnk1azJsMGNFQk1Ld1FycFZzX1NRbGZOMHZmOG5XN2hNczRPM2ZaU2xNVVhDMVFLekpCV1ZzSUtKVjM5azRSWXU0M29KVDY3bXJCSFJyck1pZ0Z6WExoSzI5dnFwVi1DV1d1RlpILW4xRXdQdGt1UnBZaEk?oc=5",
+   "ek": "ayni olayin varyanti: posco|hat|Galvaniz hatti (CGL)|Belirsiz"
   },
   {
-   "sebep": "pencere_disi",
+   "sebep": "tarihsiz_elendi",
+   "baslik": "RRM starts up new cold-mill complex with Danieli technology",
+   "url": "https://news.mesteel.com/rrm-starts-up-new-cold-mill-complex-with-danieli-technology/",
+   "ek": ""
+  },
+  {
+   "sebep": "tarihsiz_elendi",
    "baslik": "Marcegaglia upgrades pickling line at Gazoldo degli Ippoliti stainless steel plant",
    "url": "https://news.mesteel.com/marcegaglia-upgrades-pickling-line-at-gazoldo-degli-ippoliti-stainless-steel-plant/",
-   "ek": "2026-07-13"
+   "ek": ""
   },
   {
    "sebep": "pencere_disi",
@@ -2730,13 +2742,19 @@
    "sebep": "tekrar",
    "baslik": "POSCO : to Build State-of-the-Art Galvanized Automotive Steel Sheet Plant, Bringing Together the Latest Automotive Steel Technologies",
    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQcTVDYVRnNnFDZUZobkNaZnhiWkxUTHF6eUI4eFNNTjJuTGRxTFdLVGMwLXBvbC1kU2VJNklvQzNFaW41NnJnbjlHdEF6NmEyMFY1X25TTjlnMFdWc0tycVp0MHMxWWJJaGJrbG5OZUpFQnk1azJsMGNFQk1Ld1FycFZzX1NRbGZOMHZmOG5XN2hNczRPM2ZaU2xNVVhDMVFLekpCV1ZzSUtKVjM5azRSWXU0M29KVDY3bXJCSFJyck1pZ0Z6WExoSzI5dnFwVi1DV1d1RlpILW4xRXdQdGt1UnBZaEk?oc=5",
-   "ek": ""
+   "ek": "ayni olayin varyanti: posco|hat|Galvaniz hatti (CGL)|Belirsiz"
   },
   {
    "sebep": "pencere_disi",
    "baslik": "Galvalume Steel Market Trends",
    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSnZKZThUVmFxcmZkR3NXbDNobnlLYnY1a0xsT1RMR0hoS1RPNFZ5cnNTUV9HQjJyajFVZC02Z3diZ29xMFdzUFlpRXFkc1p5aHZnbi1JSFdscnh4Y3YtSGgxY2kwSmNjcXdJQXRfelhoXzhxM3pHdXYyY2tVejRHUjhNZ2dZQ00?oc=5",
    "ek": "2026-08-28"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "The European Commission has introduced temporary protective measures for the import of electrical steel",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZkduSnMzckhvVDNKbnFEVVNTU052Q3JSRnh1R0RxOEI4WllFbU5ubGE1b2Z1LUJVYjFPV19vRWZmWEhUdkF2dGN2THhMOW4wQ1NsTVNRbGxiQ0ktWk1yZWVMVEN1Q3FGZWRtRjh5bC0xRk44Z0VSMVVaeWZLcFBoUTRodGdZUGZlSGlNam9EMzJCUU9YanRYMXNCS1VQZ0tPejZWZ3ZORkwyN0RreXdxSno4UWtiLVk0U0hJNnNQSldGZ0hjbTZ4U1lCTE9GMzFYT0NV0gHkAUFVX3lxTE5lVFJMV1ZLdlBFNDlOMHhJYktCN3ZNakQ0TU92cmpNZ01OVXJmMmhwUmNfckFRNzlYdmpHQkZpc2lFTHJ6Zlk1YktPTHNHS0hUWW15eFpITGYwYm5sWTRtSW9fa2I5RU9BVHJrU20tU1pKaUxtaDdoMWJEeXVWZVZneHFLM1FxTDJMdnlsbEhBX2EteTV1VHB6RFhYRjlPMExfSHBhSXJOa1M1WnNTZVBTZVF2WXJsUXFzcmw5ekprT2U4azlnN2h2dEhDZGNFUmtXTTZYQWdvQmY5YU55eVVSZnlNdQ?oc=5",
+   "ek": ""
   },
   {
    "sebep": "tekrar",
@@ -2752,7 +2770,7 @@
   },
   {
    "sebep": "pencere_disi",
-   "baslik": "Fuxin Special Steel orders coil handling system from AMOVA - sms-group.com",
+   "baslik": "Fuxin Special Steel orders coil handling system from AMOVA - SMS group",
    "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxOenRCWmxMc1d4US1qWHh6WXRLc2hsX25KY2YyN3NBb1pWSXQ2bUlKV0w0VWt1Rkc2aGtuUWI1bko1TlYyWmY2STBmTGk4NHBsR0NvTGpqRUNTQVMxUDhuTFJSUjNBdEFjbkg0ank0ZVFvc0t2U1cwWWdaVzN2ZHJmQTBtWE5FSmlhdVoxbHg3UldGNkstVXdfSVA0RVNkb1dsZExCLW1YaGRQZzdkd0pmQWFhX0FtSzVuQ1BIdUQxSnVETmxPclNMWjVWRlRfdGF5bUxWS2dXbFJOUlVWOV91ZDloSDBVajljQUt6X0pkdTVmd2tFQUpZMFhwY3VsWk9YNWdyeUM2ZS1DLU9XcktGN3JZSExTZHg1V0t0ZndoR181ejg3em9WYnl0SU5pd2xEOEVwMg?oc=5",
    "ek": "on eleme: 2024-09-18"
   },
@@ -2773,12 +2791,6 @@
    "baslik": "Yıldız Demir Çelik soğuk haddeleme hattı yatırımıyla üretim kapasitesini arttırdı - ST Endüstri Haber",
    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPV0pOblhUMGplRkQ1aTBqQl9XTlhEUk5FaHpjenNCYkluTVdOMXdaS2FVV2R1Y2hvOUFQSE1zdlRNZkNGN3haalpTcGNOZ3hSLWZZTGhxZHNvMHFKdk1wQmpFSG03N2x3NjRBblROVUVwSjNFSm5WMlpVZ1Q4bHdjSWI5MG1LbTktV0NISWl0M2lzaVpIU2s3RE1ONEJySTRWckN5N21ZOWFaZ1hpY3FzMNIBtgFBVV95cUxQTzF0S2R4NWlyRUMza0RCclUxSU9DWVE5X2dkTlF0LW1pZGkxSnRtdm9HT3RydUdEdDNZNVpaa25VMnBLbm9SSWZUclIyQV9oaVI4OTNKdUszTFd3Z2hnSXUxS2JzUW5MTDNwYkdHS05HRm5sdEhBQnZiLUdJUHBYdWNtcjJ0aWpaSWp3eE56WHhyenhyUG1GUzJ4YVRRbEZWZlJXMzdsazFjREJKS0t3TXVaZ0wwdw?oc=5",
    "ek": "on eleme: 2018-12-27"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Yıldız Demir Çelik'den soğuk haddeleme hattı yatırımı - ST Endüstri Haber",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTXBlbnVtU3RaTXJuMGNONzEzcGZOS2pvRmJYckthcVUyVXM3U0YxeEo2ajlSOFE1Vk9zQ0g3YVQ1SDg1Tk1jeGxtblBoQkJzY2tJS2ZBWVduRU1hTm5VQnFBcXFwOVJfN2hJdGJYTU9uakcxSWhvMUpmcEx4OGRuTmVmU3FWMEVCT1E?oc=5",
-   "ek": "on eleme: 2018-12-10"
   },
   {
    "sebep": "pencere_disi",
@@ -2806,13 +2818,13 @@
   },
   {
    "sebep": "pencere_disi",
-   "baslik": "Tezcan Galvaniz’in GES projesi ÇED tarafından onaylandı - SteelRadar",
+   "baslik": "Tezcan Galvaniz’in GES projesi ÇED tarafından onaylandı - steelradar.com",
    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQNWRvbmxSZDBJOGlOOVJCRFBFbkpRd0ExQXR4MV9lLURKSWhxcmRid1l3RHp5bm1XMzRSTDVSM2gxQThyVUx4ZGdlLURVX0dzTko4cFg1empsdGRQbk5ZTm1zemt0TmszaVU2Yy1SMTF0LU9DYzZXTUZFTkZ5LW5MeWhPX0FvTEluNUE?oc=5",
    "ek": "on eleme: 2024-09-02"
   },
   {
    "sebep": "pencere_disi",
-   "baslik": "Tezcan Galvaniz işçileri baskı ve mobbinge uğruyor - Evrensel",
+   "baslik": "Tezcan Galvaniz işçileri baskı ve mobbinge uğruyor - Evrensel.net",
    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVU91QWRPZ2NITm1SRnNxVWg1bFphSU91bkhrajhGQlQ4emJDaExNcjFJRE5BM083TXR6ZkN3R0Nhc2E0OW1uYjFWbTJKS2hSd1Q1Z1hpRFd0SU54V2I2WGxNbFgxR2RXaEg3aXljaGlWSm12Q24wSG1CbUwzRDFQZGtJVVI1ak5YZzNtRUpMUjJIZw?oc=5",
    "ek": "on eleme: 2025-10-02"
   },
@@ -2848,7 +2860,7 @@
   },
   {
    "sebep": "pencere_disi",
-   "baslik": "Tezcan Galvaniz’de patronun komik zam teklifine işçiler grevle karşılık verdi! - Kocaeli Barış Gazetesi",
+   "baslik": "Tezcan Galvaniz’de patronun komik zam teklifine işçiler grevle karşılık verdi! - kocaelibarisgazetesi.com",
    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcXJVS1kyUUJPUUpiWkJEa250NlVRWGhmVEllZmJ4dllMaFNpdGVqeVNJRFJFM05SNmU0Tk5BVmVra0Rzb05LV29TTVd0UXRlVGdsSFVMS2xaNEUtNmR3YkNGTFd1NmlzOFZNQ0ZtRXlYblRHZUZnM280Uk1ZenlWbWo1eVVqakoyQmNiOXJpVWNHbU5VS3k5SzdHbmdVcHZSX1ptNVNGczRpV2toYkh1LXU5eG9Zd1p4Z1hVa0dpbHlMc2R0Y2U40gHMAUFVX3lxTE9EYlVFdmdFMlhybmptRDNwRDNlQV9FOUdRSUJ5RklYM0FRdG5CM3FiQVE5akJNTWZkZ3QtLVFadE81TTk3OUZaX1NLNGk5a0tYYkV0ZVlWakhFenhSR1hvcEtPaTRwSVgxbWhNRDltLWhKaVB5Q1UwWXQzU3pvVjB2T3BXTHMtdHZPSlpBc0JCTU9FQU0ySW1aTk4yZmNTYkYxVzdwbUFHVVMycHdMTkNPSXpZR2twbi1iMjU3WmlYT014R2Rfd25DUUJfaw?oc=5",
    "ek": "on eleme: 2025-03-11"
   },
@@ -2872,7 +2884,7 @@
   },
   {
    "sebep": "pencere_disi",
-   "baslik": "Tezcan Galvaniz işçileri grevle kazandı: Patron yüzde 8 dayatmıştı, işçiler yüzde 71 zam aldı - Evrensel",
+   "baslik": "Tezcan Galvaniz işçileri grevle kazandı: Patron yüzde 8 dayatmıştı, işçiler yüzde 71 zam aldı - Evrensel.net",
    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMGFxdTduY0w5MmQzdnpNb0pJcUxCZ2I2V0hMMDFUVGRXWVZUbmpkM2tIZ3htX1o1dmkwMUZJci0zUkFBQzkwWFVSN3MzOTF0ekxmd3ctSldCLUtFanlYamFLbUpiSjBRZHRraFlqbW1oeUFTWUZYWU1ubWpoNm9kNjh1Vm1yNVF1eVd3Y3RGOVd0RE9FeTNOZDIydExGZjZ0VWVLSEdVdWRqNnRPaDBtU2V1dTNKeDlGY2l3UTJEYjVlNlQ5aDg2Wg?oc=5",
    "ek": "on eleme: 2025-04-27"
   },
@@ -2884,7 +2896,7 @@
   },
   {
    "sebep": "pencere_disi",
-   "baslik": "Fritolay işçileri grevdeki Tezcan Galvaniz işçilerini ziyaret etti - Evrensel",
+   "baslik": "Fritolay işçileri grevdeki Tezcan Galvaniz işçilerini ziyaret etti - Evrensel.net",
    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNU2pSc0tac0xwblhnbHNwMVJYd1M5Y080Vkl3dVRWVVBFQjZsVGVtZmozMEVhdWRuNnRCVFlaOWJfaDVqX09IN28tYk5QLXMwdUNOU1NIVlVWLXhyWjIxWXNyYzNYdmlhU0FiYjVRR002MURUbUFJNHYycG5rUEttZWIzNE9GUFdadWtNVGlqOFpxdWFjbGRQTGFCTkVBYlBvaG04RFh0Yw?oc=5",
    "ek": "on eleme: 2025-04-05"
   },
@@ -2896,7 +2908,7 @@
   },
   {
    "sebep": "pencere_disi",
-   "baslik": "Kocaeli'de kurulu Tezcan Galvaniz fabrikasında iş cinayeti! - Evrensel",
+   "baslik": "Kocaeli'de kurulu Tezcan Galvaniz fabrikasında iş cinayeti! - Evrensel.net",
    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRDVmOTNTVmpmZ0Q4eHFmLTN1ZjRLYUJ0OVJmR0JjMXhnSzZ6VVJ4LWNxWGl0RG1xcmh1OFJrWThlZEhiS0lhNVNTUW5ZSUphUkJndEsxX0diNkk0ejM2azVOSDZkcUNuaEtROGtGZDRrY3lpVWg3RWFJSDNVd1JFRVgyLXVDTzVpZlpKeEwtTkF4c3h0SF9xZmdzUQ?oc=5",
    "ek": "on eleme: 2018-05-12"
   },
@@ -2919,6 +2931,24 @@
    "ek": "on eleme: 2026-03-06"
   },
   {
+   "sebep": "pencere_disi",
+   "baslik": "Tezcan Galvaniz’de işçilere yönelik yeni uygulama! - Özgün Kocaeli Gazetesi",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQzlnNzBLdjZJdHUxbjRpeG5BVFh1czNCQ3MzNHFVQXloZUFoVFVCUkhfRHB1SHkxY21tX1RUdTFSaEY4VmRENzgxb2U1MEpXeVBWeW13U3BIZ1BTaGdjUm1ZWUxKS0ZJMV9POGpGb0ZKcGxxV1g5bEF3UXFVR2Zack5yY1AxdE0?oc=5",
+   "ek": "on eleme: 2026-03-05"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Tezcan Galvaniz'de 46 Gün Süren Grev Anlaşmayla Sona Erdi - Özgün Kocaeli Gazetesi",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPV2JLU0R6MWhSTlRkNDZxellRVHlQaWdQZG1VZlJKR3BqbkY5NE1NNjZBN2NnaEtZanJPYzdpRXBJakpnSVJHaEN4MXJrWFJDbFFKR05KUW4xUGFVd1dYNm1oU2pYM2xFR1ZWQkRiZGk4ellkSldBb3hmdWxYSkFTejFNMkdHZlJGUjRSR19VUnNKdw?oc=5",
+   "ek": "on eleme: 2026-03-11"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Tezcan Galvaniz’de grev bitti, işçi kıyımı başladı! - Kocaeli Halk Gazetesi",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNa0hubXM4ekpMc2FWdS1SbmtnOHg2cE10SFppRkNaS2hrOUQ1QUhpRFpHaFRaWVJ0N0Q0UHU3d2VmT2NNYkxOcTRiX2dleUY2OGphTWtSNmFmemFSQnhjekk1aktBY2VmcHFQS3o2al85MUJ0VEREZzJwQzRXZlBrUmN4VG1hakxBV3Aya2Jia2JjdGI4U3pkN2NRQdIBoAFBVV95cUxPRUhJZWgzUDJZZkRTT1pSbGVIcUkyUld5SmZ4UlV6dk81dUREVWpUZHpNTzVJMXlFTnR3UzQ2ZkswbVI5WmgzZ0R0T1ZHa2ctRUVaSG5COVZqcGw4eWU0NWlFZjNOYnlXeENJNE1HS1JnalZGSHZTOW9oLVBIQ1BkdjVSbENVRUNTbVJFWU9rLU1uMHo5blhoUkxvM3I2VTJY?oc=5",
+   "ek": "on eleme: 2025-11-29"
+  },
+  {
    "sebep": "tarihsiz_elendi",
    "baslik": "Direnişteki Tezcan Galvaniz İşçileri Fabrikayı İşgal Etti",
    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPMjQ5aGdqRG45OExrNEl6VHdSSkRqUUp2dkNZUFJQeGVrUk5kdXVycUhVdFlVRVVlQkJRZzNxc2x2Q1ZuYzg2aE5EV2ZoUkJpaVpXdmc1MFRrdGRtOE9YdHlXSTBsS0tHZUVOWFBaaEZHTmwyRmQwLU4tQjV5T2gwX3VEQUl1ekN5SFdyU2dWTW1IZzQ?oc=5",
@@ -2935,18 +2965,6 @@
    "baslik": "Nurten Erk: Borusan bayiliğinden galvaniz krallığına",
    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZEl6alFxNy1wSVN5ZWxXTFBUUDRrdGhkbmRSeGJiZWk1X3g4UXd1SGNRcVEtSDhMa3M5QTBzMnZwOTBCRmdDc2N6aFJkTXo5eUFpWmo4QlV4aVRMM1F5NEZGazZQdUVyRFVGdmM1a0p3RWJKR1AxaVdyWkJJQnVpZmt5cGpYMkhyaDBEbUlqUUgwNHExRlZnNXF6WjdxbzJ1eWV1Y3RxbmxHU21MNlNFSGtPcGRYb1E?oc=5",
    "ek": ""
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "Museveni unveils Shs 466bn steel ambition",
-   "url": "https://observer.ug/news/museveni-unveils-shs-466bn-steel-ambition/",
-   "ek": "ayni olayin varyanti: *|ulke-hat|Uganda|Soguk hadde|Ilk urun; danieli|fu|Uganda|Soguk hadde; danieli|hat|Soguk hadde|Ilk urun; danieli|ulke|Uganda|Ilk urun; museveni|fu|Uganda|Soguk hadde; museveni|hat|Soguk hadde|Ilk urun; museveni|ulke|Uganda|Ilk urun"
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "Museveni unveils Shs 466bn steel ambition",
-   "url": "https://observer.ug/news/museveni-unveils-shs-466bn-steel-ambition/",
-   "ek": "ayni olayin varyanti: *|ulke-hat|Uganda|Soguk hadde|Ilk urun; danieli|fu|Uganda|Soguk hadde; danieli|hat|Soguk hadde|Ilk urun; danieli|ulke|Uganda|Ilk urun; museveni|fu|Uganda|Soguk hadde; museveni|hat|Soguk hadde|Ilk urun; museveni|ulke|Uganda|Ilk urun"
   },
   {
    "sebep": "tekrar",
@@ -2974,27 +2992,45 @@
   },
   {
    "sebep": "tekrar",
-   "baslik": "Danieli Automation to Supply MES Platform for Ezz Flat Steel Plant",
-   "url": "https://themachinemaker.com/news/danieli-automation-to-supply-mes-platform-for-ezz-flat-steel-plant/",
-   "ek": ""
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "Museveni unveils Shs 466bn steel ambition",
-   "url": "https://observer.ug/news/museveni-unveils-shs-466bn-steel-ambition/",
-   "ek": "ayni olayin varyanti: *|ulke-hat|Uganda|Soguk hadde|Ilk urun; danieli|fu|Uganda|Soguk hadde; danieli|hat|Soguk hadde|Ilk urun; danieli|ulke|Uganda|Ilk urun; museveni|fu|Uganda|Soguk hadde; museveni|hat|Soguk hadde|Ilk urun; museveni|ulke|Uganda|Ilk urun"
-  },
-  {
-   "sebep": "tekrar",
    "baslik": "JSW Steel Selects ANDRITZ for New Galvanizing Line in Karnataka",
    "url": "https://themachinemaker.com/news/jsw-steel-selects-andritz-for-new-galvanizing-line-in-karnataka/",
    "ek": "ayni olayin varyanti: andritz|fu|Hindistan|Galvaniz hatti (CGL); andritz|hat|Galvaniz hatti (CGL)|Sozlesme; andritz|ulke|Hindistan|Sozlesme; jsw steel|fu|Hindistan|Galvaniz hatti (CGL); jsw steel|hat|Galvaniz hatti (CGL)|Sozlesme; jsw steel|ulke|Hindistan|Sozlesme"
   },
   {
    "sebep": "tekrar",
+   "baslik": "CSI selects Fives to provide new galvanizing line",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/california-supplier-adds-new-line-to-meet-growing-demand-0425/",
+   "ek": "benzer baslik (bu kosuda)"
+  },
+  {
+   "sebep": "tekrar",
    "baslik": "POSCO To Build Galvanized Automotive Steel Sheet Plant For Around KRW 480 Bln",
    "url": "https://www.rttnews.com/3692435/posco-to-build-galvanized-automotive-steel-sheet-plant-for-around-krw-480-bln.aspx",
    "ek": "ayni olayin varyanti: posco|fu|G. Kore|Galvaniz hatti (CGL); posco|hat|Galvaniz hatti (CGL)|Belirsiz; posco|ulke|G. Kore|Belirsiz"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "Posco expands production capacity for premium automotive steel",
+   "url": "https://www.just-auto.com/news/posco-expands-production-capacity-for-premium-automotive-steel/",
+   "ek": "ayni olayin varyanti: posco|fu|G. Kore|Galvaniz hatti (CGL); posco|hat|Galvaniz hatti (CGL)|Belirsiz; posco|ulke|G. Kore|Belirsiz"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "EZZ STEEL SELECTS DANIELI AUTOMATION FOR ADVANCED MES DIGITAL PLATFORM",
+   "url": "https://www.marketscreener.com/news/ezz-steel-selects-danieli-automation-for-advanced-mes-digital-platform-ce785adbdd8ff324",
+   "ek": "ayni olayin varyanti: danieli|fu|Misir|Belirsiz; danieli|hat|Belirsiz|Sozlesme; danieli|ulke|Misir|Sozlesme; ezz steel|fu|Misir|Belirsiz; ezz steel|hat|Belirsiz|Sozlesme; ezz steel|ulke|Misir|Sozlesme"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "Danieli & C Officine Meccaniche S p A : Ezz Steel selects Danieli Automation for advanced MES digital platform",
+   "url": "https://www.marketscreener.com/news/danieli-c-officine-meccaniche-s-p-a-ezz-steel-selects-danieli-automation-for-advanced-mes-digita-ce785adadd88f725",
+   "ek": "ayni olayin varyanti: danieli|fu|Misir|Belirsiz; danieli|hat|Belirsiz|Sozlesme; danieli|ulke|Misir|Sozlesme"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "Danieli Automation to Supply MES Platform for Ezz Flat Steel Plant",
+   "url": "https://themachinemaker.com/news/danieli-automation-to-supply-mes-platform-for-ezz-flat-steel-plant/",
+   "ek": ""
   },
   {
    "sebep": "tekrar",
@@ -3006,6 +3042,12 @@
    "sebep": "tekrar",
    "baslik": "Flux Steel Works Secures Ohio Plant to Produce Power Transformer Core Steel",
    "url": "https://finance.yahoo.com/energy/articles/flux-steel-works-secures-ohio-120300709.html",
+   "ek": ""
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "Xinyu inaugurates electrical steel production facility",
+   "url": "https://www.steeltimesint.com/news/xinyu-inaugurates-electrical-steel-production-facility",
    "ek": ""
   }
  ]

@@ -1,7 +1,7 @@
 {
  "rows": [
   {
-   "tarih": "2026-09-23",
+   "tarih": "2026-09-24",
    "firma": "Chengde Steel",
    "ulke": "",
    "hat": "Asitleme hatti",
@@ -27,31 +27,28 @@
    "puan": 59.0
   },
   {
-   "tarih": "2026-09-04",
-   "firma": "Primetals Technologies",
+   "tarih": "2026-09-03",
+   "firma": "Primetals",
    "ulke": "Cin",
    "hat": "Tandem soguk hadde (TCM)",
    "asama": "Sozlesme",
    "tedarikci": "Primetals",
    "kapasite": "",
    "tutar": "",
-   "baslik": "Primetals Technologies Wins PLTCM Project in China",
+   "baslik": "Primetals secures PLTCM automation order",
    "kaynak": "Bing News",
-   "kaynak_id": "bgx_q_auto",
-   "url": "https://note.com/sankituushin/n/nebe64a6ad351?hl=en",
+   "kaynak_id": "bgs_sti",
+   "url": "https://www.steeltimesint.com/news/primetals-secures-pltcm-automation-order",
    "tarih_kaynagi": "rss",
    "eksik": [],
-   "anahtar": "0bfa599743c7ee24",
+   "anahtar": "dde7adab1615e8c7",
    "kategori": "Hat",
    "olaylar": [
-    "primetals technologies|fu|Cin|Tandem soguk hadde (TCM)",
-    "primetals technologies|hat|Tandem soguk hadde (TCM)|Sozlesme",
-    "primetals technologies|ulke|Cin|Sozlesme",
     "primetals|fu|Cin|Tandem soguk hadde (TCM)",
     "primetals|hat|Tandem soguk hadde (TCM)|Sozlesme",
     "primetals|ulke|Cin|Sozlesme"
    ],
-   "puan": 57.4
+   "puan": 56.6
   },
   {
    "tarih": "2026-09-15",
@@ -75,7 +72,7 @@
     "flux steel works|hat|Elektrik celigi hatti|Sozlesme",
     "flux steel works|ulke|ABD|Sozlesme"
    ],
-   "puan": 56.8
+   "puan": 56.4
   },
   {
    "tarih": "2026-09-17",
@@ -99,7 +96,31 @@
     "am/ns india|hat|Zn-Al-Mg / Galvalume kaplama|Sozlesme",
     "am/ns india|ulke|Hindistan|Sozlesme"
    ],
-   "puan": 56.6
+   "puan": 56.2
+  },
+  {
+   "tarih": "2026-09-23",
+   "firma": "European",
+   "ulke": "Hindistan",
+   "hat": "Elektrik celigi hatti",
+   "asama": "Modernizasyon",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "300 million eur",
+   "baslik": "The European Commission has introduced temporary protective measures for the import of electrical steel",
+   "kaynak": "Metallurgprom",
+   "kaynak_id": "metallurgprom",
+   "url": "https://metallurgprom.org/en/news/europe/21800-evrokomissija-vvela-vremennye-zaschitnye-mery-dlja-importa-jelektrotehnicheskoj-stali.html",
+   "tarih_kaynagi": "json-ld",
+   "eksik": [],
+   "anahtar": "9a0e4948eeca27d9",
+   "kategori": "Hat",
+   "olaylar": [
+    "european|fu|Hindistan|Elektrik celigi hatti",
+    "european|hat|Elektrik celigi hatti|Modernizasyon",
+    "european|ulke|Hindistan|Modernizasyon"
+   ],
+   "puan": 51.6
   },
   {
    "tarih": "2026-09-23",
@@ -125,7 +146,7 @@
     "danieli|hat|Belirsiz|Sozlesme",
     "ezz flat steel plant|hat|Belirsiz|Sozlesme"
    ],
-   "puan": 52.0
+   "puan": 51.6
   },
   {
    "tarih": "2026-09-08",
@@ -149,7 +170,7 @@
    "olaylar": [
     "posco|hat|Galvaniz hatti (CGL)|Sozlesme"
    ],
-   "puan": 50.0
+   "puan": 49.6
   },
   {
    "tarih": "2026-09-10",
@@ -162,7 +183,7 @@
    "tutar": "",
    "baslik": "Xinyu inaugurates electrical steel production facility",
    "kaynak": "Bing News",
-   "kaynak_id": "bgx_q_commis",
+   "kaynak_id": "bgq_sup06",
    "url": "https://www.steeltimesint.com/news/xinyu-inaugurates-electrical-steel-production-facility",
    "tarih_kaynagi": "rss",
    "eksik": [
@@ -173,31 +194,7 @@
    "olaylar": [
     "xinyu|hat|Elektrik celigi hatti|Ilk urun"
    ],
-   "puan": 49.8
-  },
-  {
-   "tarih": "2026-09-09",
-   "firma": "POSCO",
-   "ulke": "",
-   "hat": "Galvaniz hatti (CGL)",
-   "asama": "Insaat",
-   "tedarikci": "",
-   "kapasite": "",
-   "tutar": "$358 million",
-   "baslik": "POSCO breaks ground on 480 bn won auto steel plant",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgq_urun01",
-   "url": "https://pulse.mk.co.kr/news/english/12147942",
-   "tarih_kaynagi": "rss",
-   "eksik": [
-    "ulke"
-   ],
-   "anahtar": "9305d46b567c46f4",
-   "kategori": "Hat",
-   "olaylar": [
-    "posco|hat|Galvaniz hatti (CGL)|Insaat"
-   ],
-   "puan": 46.4
+   "puan": 49.4
   },
   {
    "tarih": "2026-09-15",
@@ -221,7 +218,7 @@
    "olaylar": [
     "flux steel|hat|Elektrik celigi hatti|Modernizasyon"
    ],
-   "puan": 41.8
+   "puan": 41.4
   },
   {
    "tarih": "2026-09-21",
@@ -246,7 +243,33 @@
    "olaylar": [
     "posco|hat|Galvaniz hatti (CGL)|Teknoloji"
    ],
-   "puan": 41.2
+   "puan": 40.8
+  },
+  {
+   "tarih": "2026-09-16",
+   "firma": "Nippon Steel Backs",
+   "ulke": "Slovakya",
+   "hat": "Belirsiz",
+   "asama": "Modernizasyon",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "900 Million Eur",
+   "baslik": "Nippon Steel Backs 900 Million Euro Slovakia Steel Upgrade",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgx_eurometal_q",
+   "url": "https://jp.ibtimes.com/nippon-steel-backs-900-million-euro-slovakia-steel-upgrade-104450",
+   "tarih_kaynagi": "rss",
+   "eksik": [
+    "hat"
+   ],
+   "anahtar": "287abe7add2ec96e",
+   "kategori": "Hat",
+   "olaylar": [
+    "nippon steel backs|fu|Slovakya|Belirsiz",
+    "nippon steel backs|hat|Belirsiz|Modernizasyon",
+    "nippon steel backs|ulke|Slovakya|Modernizasyon"
+   ],
+   "puan": 34.8
   },
   {
    "tarih": "2026-09-09",
@@ -271,7 +294,7 @@
    "olaylar": [
     "posco will|hat|Galvaniz hatti (CGL)|Belirsiz"
    ],
-   "puan": 28.4
+   "puan": 28.0
   },
   {
    "tarih": "2026-09-10",
@@ -296,7 +319,33 @@
    "olaylar": [
     "hyundai steel|hat|Soguk hadde|Belirsiz"
    ],
-   "puan": 26.8
+   "puan": 26.4
+  },
+  {
+   "tarih": "2026-09-24",
+   "firma": "POSCO",
+   "ulke": "",
+   "hat": "Galvaniz hatti (CGL)",
+   "asama": "Belirsiz",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "POSCO, Otomotiv Çeliği İçin 359 Milyon Dolarlık Yeni Galvanizleme Hattı Kuruyor",
+   "kaynak": "SteelTurk",
+   "kaynak_id": "steelturk",
+   "url": "https://www.steelturk.com.tr/posco-otomotiv-celigi-icin-359-milyon-dolarlik-yeni-galvanizleme-hatti-kuruyor/",
+   "tarih_kaynagi": "metin",
+   "eksik": [
+    "ulke",
+    "asama",
+    "tarih?"
+   ],
+   "anahtar": "3c6ddad628eeb8ca",
+   "kategori": "Yatirim",
+   "olaylar": [
+    "posco|hat|Galvaniz hatti (CGL)|Belirsiz"
+   ],
+   "puan": 5.0
   },
   {
    "tarih": "2026-09-20",
@@ -321,72 +370,48 @@
    "olaylar": [
     "did electrical steel|hat|Elektrik celigi hatti|Belirsiz"
    ],
-   "puan": 4.8
+   "puan": 4.4
   },
   {
-   "tarih": "2026-09-21",
-   "firma": "POSCO",
-   "ulke": "",
-   "hat": "Galvaniz hatti (CGL)",
+   "tarih": "2026-09-24",
+   "firma": "",
+   "ulke": "Hindistan",
+   "hat": "Soguk hadde",
    "asama": "Belirsiz",
    "tedarikci": "",
    "kapasite": "",
    "tutar": "",
-   "baslik": "POSCO to Build State-of-the-Art Galvanized Automotive Steel Sheet Plant, Bringing Together the Latest Automotive Steel Technologies",
-   "kaynak": "포스코그룹 뉴스룸",
-   "kaynak_id": "gq_hat04",
-   "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNRjdQdkp3TTgyQXluR1JnM29pUmoyT3NoUDZBenBrZk81RVZwNHo5NEZsVmpLVlVYNlZobEJVT0RPWWZTNno3NmM2X2FRNUpMazlkUG9HQzhRMmI5SktOYnVfa3ZSbzc2QlBwazd2V3NmS09LbUlXVW9rY0x0QXhBUklaUnN3RGVRUHQzb0laeXU3Q0FtZHlFYWlpRU5YSlg2Q19UMDNFdHZRS0U0aDRpTUZpOHZQUk9vUUU2dW00akUtOU9KTVhnbldUY00zbW96dnBfX2VRaFFRTGs3Ymx2QWs5UVhzSFFpY1dWY2JqcjdMV2s?oc=5",
-   "tarih_kaynagi": "rss",
+   "baslik": "India extends AD investigation deadline on stainless steel cold-rolled flat products from 3 Asian nations",
+   "kaynak": "Yieh Corp",
+   "kaynak_id": "yieh",
+   "url": "https://www.yieh.com/en/News/india-extends-ad-investigation-deadline-on-stainless-steel-cold-rolled-flat-products-from-3-asian-nations/162696",
+   "tarih_kaynagi": "metin",
    "eksik": [
-    "ulke",
-    "asama"
+    "firma",
+    "asama",
+    "tarih?"
    ],
-   "anahtar": "6b9163d81507db69",
+   "anahtar": "ead1e2985beceddf",
    "kategori": "Yatirim",
    "olaylar": [
-    "posco|hat|Galvaniz hatti (CGL)|Belirsiz"
+    "|fu|Hindistan|Soguk hadde",
+    "|hat|Soguk hadde|Belirsiz",
+    "|ulke|Hindistan|Belirsiz"
    ],
-   "puan": 4.2
-  },
-  {
-   "tarih": "2026-09-22",
-   "firma": "EMSTEEL",
-   "ulke": "Birlesik Krallik",
-   "hat": "Belirsiz",
-   "asama": "Belirsiz",
-   "tedarikci": "",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "EMSTEEL supplies sheet piles for UK highway expansion project",
-   "kaynak": "MEsteel",
-   "kaynak_id": "mesteel",
-   "url": "https://news.mesteel.com/emsteel-supplies-sheet-piles-for-uk-highway-expansion-project/",
-   "tarih_kaynagi": "meta:datepublished",
-   "eksik": [
-    "hat",
-    "asama"
-   ],
-   "anahtar": "53755e2c0db4a5a0",
-   "kategori": "Yatirim",
-   "olaylar": [
-    "emsteel|fu|Birlesik Krallik|Belirsiz",
-    "emsteel|hat|Belirsiz|Belirsiz",
-    "emsteel|ulke|Birlesik Krallik|Belirsiz"
-   ],
-   "puan": -5.4
+   "puan": 3.0
   }
  ],
  "stats": {
   "kaynak": 291,
-  "erisilemeyen": 9,
-  "ham": 3388,
-  "on_eleme_gecti": 311,
-  "makale_acildi": 214,
-  "tarihsiz_elendi": 84,
-  "pencere_disi": 259,
-  "kapsam_disi": 3013,
-  "tekrar": 17,
-  "kabul": 15,
+  "erisilemeyen": 10,
+  "ham": 3660,
+  "on_eleme_gecti": 350,
+  "makale_acildi": 221,
+  "tarihsiz_elendi": 87,
+  "pencere_disi": 276,
+  "kapsam_disi": 3260,
+  "tekrar": 21,
+  "kabul": 16,
   "gnews_tarih": 0
  },
  "unreachable": [
@@ -421,6 +446,10 @@
   [
    "MetalForming Magazine",
    "HTTP 404"
+  ],
+  [
+   "MEsteel",
+   "URLError: <urlopen error [Errno -2] Name or service not known>"
   ],
   [
    "Sanayi Gazetesi",
@@ -720,7 +749,7 @@
   "bgtek_jc": "arama",
   "bgtek_danieli": "arama"
  },
- "today": "2026-09-23",
+ "today": "2026-09-24",
  "host_saglik": {
   "news.google.com": {
    "istek": 112,
@@ -746,20 +775,22 @@
  "tech_pool": [],
  "kaynak_katki": {
   "POSCO": 1,
-  "MEsteel": 1,
-  "Google News": 5,
+  "SteelTurk": 1,
+  "Yieh Corp": 1,
+  "Metallurgprom": 1,
+  "Google News": 4,
   "Elle besleme": 1,
   "Bing News": 7
  },
  "window": [
-  "2026-09-02",
-  "2026-09-23"
+  "2026-09-03",
+  "2026-09-24"
  ],
  "bulunan_kullanilan": 0,
- "bulunan_havuz": 21,
+ "bulunan_havuz": 23,
  "rezerv_kullanilan": 0,
- "rezerv_havuz": 21,
+ "rezerv_havuz": 23,
  "period": "2026-W39",
- "generated": "2026-09-23 08:46 UTC",
+ "generated": "2026-09-24 08:35 UTC",
  "version": "3.0.0"
 }
