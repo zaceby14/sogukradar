@@ -1,6 +1,31 @@
 {
  "bulunan": [
   {
+   "anahtar": "3705534b48675072",
+   "asama": "Ilk urun",
+   "baslik": "Italy's ABS Opens Special Steel Service Center in Sweden",
+   "eksik": [],
+   "firma": "ABS",
+   "hat": "Dilme / boy kesme / SSC",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "SMM (Shanghai Metals)",
+   "kaynak_id": "smm",
+   "olaylar": [
+    "*|ulke-hat|Italya|Dilme / boy kesme / SSC|Ilk urun",
+    "abs|fu|Italya|Dilme / boy kesme / SSC",
+    "abs|hat|Dilme / boy kesme / SSC|Ilk urun",
+    "abs|ulke|Italya|Ilk urun"
+   ],
+   "puan": 47.0,
+   "tarih": "2026-09-25",
+   "tarih_kaynagi": "json-ld",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Italya",
+   "url": "https://news.metal.com/en/newscontent/104134675-italys-abs-opens-special-steel-service-center-in-sweden"
+  },
+  {
    "anahtar": "3c6ddad628eeb8ca",
    "asama": "Belirsiz",
    "baslik": "POSCO, Otomotiv Çeliği İçin 359 Milyon Dolarlık Yeni Galvanizleme Hattı Kuruyor",
@@ -53,6 +78,82 @@
    "tutar": "",
    "ulke": "Hindistan",
    "url": "https://www.yieh.com/en/News/india-extends-ad-investigation-deadline-on-stainless-steel-cold-rolled-flat-products-from-3-asian-nations/162696"
+  },
+  {
+   "anahtar": "7b2685775084bf64",
+   "asama": "Insaat",
+   "baslik": "POSCO Breaks Ground on New Continuous Galvanizing Line",
+   "eksik": [
+    "ulke"
+   ],
+   "firma": "POSCO Breaks Ground",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "AIST Association for Iron & Steel Technology",
+   "kaynak_id": "gs_aist",
+   "olaylar": [
+    "posco breaks ground|hat|Galvaniz hatti (CGL)|Insaat"
+   ],
+   "puan": 47.6,
+   "tarih": "2026-09-24",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQeEd0MGtnVjRKUFQwamNlOWV4YmVUZ1Uxc3pFMVh6Q3BEOW9YX1JoY3UyRklSbjFEZ0hDZTVLaW9zd09Dc2I4clYtU3Rsc3dZYmtUV2RHaVQxZ21OTXd5NWVaTlE0Q0RPV29RV3I1eUZOMXltSDVaTl9NZDUyQ3hiTw?oc=5"
+  },
+  {
+   "anahtar": "3a5f3e821a7ebf92",
+   "asama": "Belirsiz",
+   "baslik": "OYAK is planning new investments in the production of electrical steel in Rom...",
+   "eksik": [
+    "ulke",
+    "asama",
+    "tarih?"
+   ],
+   "firma": "OYAK",
+   "hat": "Elektrik celigi hatti",
+   "kapasite": "",
+   "kategori": "Yatirim",
+   "kaynak": "GMK Center",
+   "kaynak_id": "gmk",
+   "olaylar": [
+    "oyak|hat|Elektrik celigi hatti|Belirsiz"
+   ],
+   "puan": 5.6,
+   "tarih": "2026-09-24",
+   "tarih_kaynagi": "liste",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://gmk.center/en/news/oyak-is-planning-new-investments-in-the-production-of-electrical-steel-in-romania/"
+  },
+  {
+   "anahtar": "4b961e91d96f2c3f",
+   "asama": "Belirsiz",
+   "baslik": "Erdemir Plans Romania Electrical Steel Capacity Expansion",
+   "eksik": [
+    "asama"
+   ],
+   "firma": "Erdemir",
+   "hat": "Elektrik celigi hatti",
+   "kapasite": "",
+   "kategori": "Yatirim",
+   "kaynak": "IndexBox",
+   "kaynak_id": "gq_hat08",
+   "olaylar": [
+    "erdemir|fu|Romanya|Elektrik celigi hatti",
+    "erdemir|hat|Elektrik celigi hatti|Belirsiz",
+    "erdemir|ulke|Romanya|Belirsiz"
+   ],
+   "puan": 5.6,
+   "tarih": "2026-09-24",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Romanya",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSmxzNlIwb1ZJNjFKQmRmdmtmNVRCTkEzRU9IZFVuUGJ4X1hsOTZoQnRNN2ZTVFhfLVU5cG9uOWRpUC1rSDVqSWtnLVd2ZmwyRGVvaDE0RTV3TjJtY3hOQ1Rfa1BLOEdMWC12TmgxTDUzdmE0NUc4S0NGZlJ0RG9mOVN0c1ZMS2JIY2tnVlBYQUZCbDAwTUt6czY4eGJYcTkyOGc?oc=5"
   },
   {
    "anahtar": "24c572c3d06c307e",
@@ -2132,6 +2233,24 @@
     "tekrar": 21
    },
    "uretim": "2026-09-24 08:35 UTC"
+  },
+  {
+   "donem": "2026-W39",
+   "satir": 11,
+   "stats": {
+    "erisilemeyen": 9,
+    "gnews_tarih": 0,
+    "ham": 3358,
+    "kabul": 11,
+    "kapsam_disi": 2981,
+    "kaynak": 291,
+    "makale_acildi": 225,
+    "on_eleme_gecti": 314,
+    "pencere_disi": 259,
+    "tarihsiz_elendi": 86,
+    "tekrar": 21
+   },
+   "uretim": "2026-09-25 08:57 UTC"
   }
  ],
  "rezerv": [

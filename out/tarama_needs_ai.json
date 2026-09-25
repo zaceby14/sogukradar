@@ -32,45 +32,17 @@
    }
   },
   {
-   "anahtar": "541377035ee6148a",
-   "baslik": "POSCO Invests 480 Billion Won in New Auto Steel Coating Plant",
-   "url": "https://en.sedaily.com/finance/2026/09/08/posco-invests-480-billion-won-in-new-auto-steel-plant",
+   "anahtar": "7b2685775084bf64",
+   "baslik": "POSCO Breaks Ground on New Continuous Galvanizing Line",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQeEd0MGtnVjRKUFQwamNlOWV4YmVUZ1Uxc3pFMVh6Q3BEOW9YX1JoY3UyRklSbjFEZ0hDZTVLaW9zd09Dc2I4clYtU3Rsc3dZYmtUV2RHaVQxZ21OTXd5NWVaTlE0Q0RPV29RV3I1eUZOMXltSDVaTl9NZDUyQ3hiTw?oc=5",
    "eksik": [
     "ulke"
    ],
    "mevcut": {
-    "firma": "POSCO",
+    "firma": "POSCO Breaks Ground",
     "ulke": "",
     "hat": "Galvaniz hatti (CGL)",
-    "asama": "Sozlesme"
-   }
-  },
-  {
-   "anahtar": "f8b35bb2fde97335",
-   "baslik": "Xinyu inaugurates electrical steel production facility",
-   "url": "https://www.steeltimesint.com/news/xinyu-inaugurates-electrical-steel-production-facility",
-   "eksik": [
-    "ulke"
-   ],
-   "mevcut": {
-    "firma": "Xinyu",
-    "ulke": "",
-    "hat": "Elektrik celigi hatti",
-    "asama": "Ilk urun"
-   }
-  },
-  {
-   "anahtar": "756f723a3d321269",
-   "baslik": "Flux Steel to retrofit Stark County mill, challenge Cleveland-Cliffs' dominance in key transformer steel market",
-   "url": "https://www.bizjournals.com/cleveland/news/2026/09/15/flux-steel-works-grain-oriented-cleveland-cliffs.html",
-   "eksik": [
-    "ulke"
-   ],
-   "mevcut": {
-    "firma": "Flux Steel",
-    "ulke": "",
-    "hat": "Elektrik celigi hatti",
-    "asama": "Modernizasyon"
+    "asama": "Insaat"
    }
   },
   {
@@ -89,20 +61,6 @@
    }
   },
   {
-   "anahtar": "287abe7add2ec96e",
-   "baslik": "Nippon Steel Backs 900 Million Euro Slovakia Steel Upgrade",
-   "url": "https://jp.ibtimes.com/nippon-steel-backs-900-million-euro-slovakia-steel-upgrade-104450",
-   "eksik": [
-    "hat"
-   ],
-   "mevcut": {
-    "firma": "Nippon Steel Backs",
-    "ulke": "Slovakya",
-    "hat": "Belirsiz",
-    "asama": "Modernizasyon"
-   }
-  },
-  {
    "anahtar": "31f1f76c17af6d14",
    "baslik": "POSCO will invest $359 million to build a continuous galvanizing line",
    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNUJiY0ZtNGRLc0pRZ0hWb3hYRzZGNjZsM1VIcW5UZ19NME5NRUpZRFd5eHQ5VWd4S1AycHdFZ25GUjlGaTlpcTlVN3VZV3FYTXdELU9rUnNESGVJeWszTWJUbFpUbUZXM0FGVFZjVTNHUEt3Nnpjd0I0QTlkVEtEWHVyM2g0dGFmWDZrSEwwRXJYdEoxb3hIeHVodzk5UFFnTHNvY3NYbw?oc=5",
@@ -118,17 +76,32 @@
    }
   },
   {
-   "anahtar": "725f7a83cfe053d1",
-   "baslik": "Hyundai Steel plans to open steel plant in Louisiana",
-   "url": "https://www.plantservices.com/industry-news/news/55404410/hyundai-steel-plans-to-open-steel-plant-in-louisiana",
+   "anahtar": "3a5f3e821a7ebf92",
+   "baslik": "OYAK is planning new investments in the production of electrical steel in Rom...",
+   "url": "https://gmk.center/en/news/oyak-is-planning-new-investments-in-the-production-of-electrical-steel-in-romania/",
    "eksik": [
     "ulke",
+    "asama",
+    "tarih?"
+   ],
+   "mevcut": {
+    "firma": "OYAK",
+    "ulke": "",
+    "hat": "Elektrik celigi hatti",
+    "asama": "Belirsiz"
+   }
+  },
+  {
+   "anahtar": "4b961e91d96f2c3f",
+   "baslik": "Erdemir Plans Romania Electrical Steel Capacity Expansion",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSmxzNlIwb1ZJNjFKQmRmdmtmNVRCTkEzRU9IZFVuUGJ4X1hsOTZoQnRNN2ZTVFhfLVU5cG9uOWRpUC1rSDVqSWtnLVd2ZmwyRGVvaDE0RTV3TjJtY3hOQ1Rfa1BLOEdMWC12TmgxTDUzdmE0NUc4S0NGZlJ0RG9mOVN0c1ZMS2JIY2tnVlBYQUZCbDAwTUt6czY4eGJYcTkyOGc?oc=5",
+   "eksik": [
     "asama"
    ],
    "mevcut": {
-    "firma": "Hyundai Steel",
-    "ulke": "",
-    "hat": "Soguk hadde",
+    "firma": "Erdemir",
+    "ulke": "Romanya",
+    "hat": "Elektrik celigi hatti",
     "asama": "Belirsiz"
    }
   },
@@ -145,21 +118,6 @@
     "firma": "POSCO",
     "ulke": "",
     "hat": "Galvaniz hatti (CGL)",
-    "asama": "Belirsiz"
-   }
-  },
-  {
-   "anahtar": "fa9153c7d7a93635",
-   "baslik": "Did Electrical Steel Expansion Just Shift Worthington Steel (WS) Investment Narrative?",
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZzJnQkFHSnNNVDVBU1VSZnZIMXF4WG4wYjRyOHZQdkdfakxLU3lrZ2YxOC1acVU5V1dsU1RLcFhVZmpOMUZhZUJLa25vampucWVNTnlFODlTUXVrQ0Z1SGRDb29KNi0yVEkzUy0ta1dFQU1QOVdUSjY3QlUxT0ZQR0NwWXVOLWxNTHRQZmw4MklTNmpIb0NjMS1yeVBTVThtWkx5dmlNalBUeEN5bmdOVUdyRldESHRQY3JicTlHN29CVmxnaWpRQ2d1TkfSAdIBQVVfeXFMTlZwRFBaWEk3a0YyWFM0dzJySEZRT2daSHU3WWFYRjVpRFdTYjdxSW1GTnF3QUl1ZWpzVXlKTWM4VldXeTRzZGphQWZTQ2ZnNUhVMjc5Qlc4dGxNUmNWbmNZVElfdGFjd2lBUmhZUk5xMElnYk5KV3Z6cjV4cFl5N1p3NWxlcWh0VWw0VnVyVm4tUFRhR2sxd0hIbEthb08zMktzTjBuWGFscnU1cWk3eHhGM2lHRW9RMlhUMm5GdURhdlBaVGY1RjYxa1ZsWjJrNUJR?oc=5",
-   "eksik": [
-    "ulke",
-    "asama"
-   ],
-   "mevcut": {
-    "firma": "Did Electrical Steel",
-    "ulke": "",
-    "hat": "Elektrik celigi hatti",
     "asama": "Belirsiz"
    }
   },
@@ -192,26 +150,6 @@
    "url": "https://www.primetals.com/press-media/news/primetals-technologies-to-supply-continuous-galvanizing-and-pickling-line-to-chengde-steel"
   },
   {
-   "anahtar": "dde7adab1615e8c7",
-   "tarih": "2026-09-03",
-   "firma": "Primetals",
-   "ulke": "Cin",
-   "hat": "Tandem soguk hadde (TCM)",
-   "asama": "Sozlesme",
-   "baslik": "Primetals secures PLTCM automation order",
-   "url": "https://www.steeltimesint.com/news/primetals-secures-pltcm-automation-order"
-  },
-  {
-   "anahtar": "103151f7f2661a28",
-   "tarih": "2026-09-15",
-   "firma": "Flux Steel Works",
-   "ulke": "ABD",
-   "hat": "Elektrik celigi hatti",
-   "asama": "Sozlesme",
-   "baslik": "Flux Steel Works Secures Ohio Plant to Produce Power Transformer Core Steel",
-   "url": "https://finance.yahoo.com/energy/articles/flux-steel-works-secures-ohio-120300709.html"
-  },
-  {
    "anahtar": "86ebab9307e0afe1",
    "tarih": "2026-09-17",
    "firma": "AM/NS India",
@@ -220,16 +158,6 @@
    "asama": "Sozlesme",
    "baslik": "AM/NS India Secures Two New BIS Licences for Advanced Q&T and Zn-Al-Mg Coated Steel",
    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNLWxqSTJweGtTTVRfaGJWcnVrWEd0aU9rUkFHMnA5MzVZU1pvNkFpUWZySVc4Yll2NFNfazBwZlI1dFZpVWpYT2cxa1RCNnloLW93Y2pPTnc2VllOV2FrU0VpMUJiSC1paVpTWlFpMmtCb3dMcnhSNGVnYlBULTd2S1BwWHJidVcxamJqbnEtM0NEMXY5amx1dU9YOGhleHJtdl9aQW4wVzkzTkpfY3BsOTdFWlZ4X0gwZXVMR082RWZSMXJnQ0E?oc=5"
-  },
-  {
-   "anahtar": "9a0e4948eeca27d9",
-   "tarih": "2026-09-23",
-   "firma": "European",
-   "ulke": "Hindistan",
-   "hat": "Elektrik celigi hatti",
-   "asama": "Modernizasyon",
-   "baslik": "The European Commission has introduced temporary protective measures for the import of electrical steel",
-   "url": "https://metallurgprom.org/en/news/europe/21800-evrokomissija-vvela-vremennye-zaschitnye-mery-dlja-importa-jelektrotehnicheskoj-stali.html"
   },
   {
    "anahtar": "24c572c3d06c307e",
@@ -242,34 +170,24 @@
    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdU1RMmRXLVpqaWEzNHN4cnhuUlhZajdIMjFfc1VFY0tIT1dQNFlucGVBVGZ0MkpVcW91RHlsREwyUFltVW0yWGlNQzNwVDVUSy1ETXUzNG41TXFGTHJncmI1TXNhS2tVYXJEcDV4Mmt4Mm9KdWJoczNyeDNPWWNqY0FDUU1mUnF1NEZxWm9IQnNoNmtDZnh5U25iMml2TFVGN1E?oc=5"
   },
   {
-   "anahtar": "541377035ee6148a",
-   "tarih": "2026-09-08",
-   "firma": "POSCO",
+   "anahtar": "7b2685775084bf64",
+   "tarih": "2026-09-24",
+   "firma": "POSCO Breaks Ground",
    "ulke": "",
    "hat": "Galvaniz hatti (CGL)",
-   "asama": "Sozlesme",
-   "baslik": "POSCO Invests 480 Billion Won in New Auto Steel Coating Plant",
-   "url": "https://en.sedaily.com/finance/2026/09/08/posco-invests-480-billion-won-in-new-auto-steel-plant"
+   "asama": "Insaat",
+   "baslik": "POSCO Breaks Ground on New Continuous Galvanizing Line",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQeEd0MGtnVjRKUFQwamNlOWV4YmVUZ1Uxc3pFMVh6Q3BEOW9YX1JoY3UyRklSbjFEZ0hDZTVLaW9zd09Dc2I4clYtU3Rsc3dZYmtUV2RHaVQxZ21OTXd5NWVaTlE0Q0RPV29RV3I1eUZOMXltSDVaTl9NZDUyQ3hiTw?oc=5"
   },
   {
-   "anahtar": "f8b35bb2fde97335",
-   "tarih": "2026-09-10",
-   "firma": "Xinyu",
-   "ulke": "",
-   "hat": "Elektrik celigi hatti",
+   "anahtar": "3705534b48675072",
+   "tarih": "2026-09-25",
+   "firma": "ABS",
+   "ulke": "Italya",
+   "hat": "Dilme / boy kesme / SSC",
    "asama": "Ilk urun",
-   "baslik": "Xinyu inaugurates electrical steel production facility",
-   "url": "https://www.steeltimesint.com/news/xinyu-inaugurates-electrical-steel-production-facility"
-  },
-  {
-   "anahtar": "756f723a3d321269",
-   "tarih": "2026-09-15",
-   "firma": "Flux Steel",
-   "ulke": "",
-   "hat": "Elektrik celigi hatti",
-   "asama": "Modernizasyon",
-   "baslik": "Flux Steel to retrofit Stark County mill, challenge Cleveland-Cliffs' dominance in key transformer steel market",
-   "url": "https://www.bizjournals.com/cleveland/news/2026/09/15/flux-steel-works-grain-oriented-cleveland-cliffs.html"
+   "baslik": "Italy's ABS Opens Special Steel Service Center in Sweden",
+   "url": "https://news.metal.com/en/newscontent/104134675-italys-abs-opens-special-steel-service-center-in-sweden"
   },
   {
    "anahtar": "6452945ec70270a7",
@@ -282,16 +200,6 @@
    "url": "https://newsroom.posco.com/en/posco-to-build-state-of-the-art-galvanized-automotive-steel-sheet-plant-bringing-together-the-latest-automotive-steel-technologies/"
   },
   {
-   "anahtar": "287abe7add2ec96e",
-   "tarih": "2026-09-16",
-   "firma": "Nippon Steel Backs",
-   "ulke": "Slovakya",
-   "hat": "Belirsiz",
-   "asama": "Modernizasyon",
-   "baslik": "Nippon Steel Backs 900 Million Euro Slovakia Steel Upgrade",
-   "url": "https://jp.ibtimes.com/nippon-steel-backs-900-million-euro-slovakia-steel-upgrade-104450"
-  },
-  {
    "anahtar": "31f1f76c17af6d14",
    "tarih": "2026-09-09",
    "firma": "POSCO will",
@@ -300,16 +208,6 @@
    "asama": "Belirsiz",
    "baslik": "POSCO will invest $359 million to build a continuous galvanizing line",
    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNUJiY0ZtNGRLc0pRZ0hWb3hYRzZGNjZsM1VIcW5UZ19NME5NRUpZRFd5eHQ5VWd4S1AycHdFZ25GUjlGaTlpcTlVN3VZV3FYTXdELU9rUnNESGVJeWszTWJUbFpUbUZXM0FGVFZjVTNHUEt3Nnpjd0I0QTlkVEtEWHVyM2g0dGFmWDZrSEwwRXJYdEoxb3hIeHVodzk5UFFnTHNvY3NYbw?oc=5"
-  },
-  {
-   "anahtar": "725f7a83cfe053d1",
-   "tarih": "2026-09-10",
-   "firma": "Hyundai Steel",
-   "ulke": "",
-   "hat": "Soguk hadde",
-   "asama": "Belirsiz",
-   "baslik": "Hyundai Steel plans to open steel plant in Louisiana",
-   "url": "https://www.plantservices.com/industry-news/news/55404410/hyundai-steel-plans-to-open-steel-plant-in-louisiana"
   }
  ],
  "teknoloji_adaylari": []
