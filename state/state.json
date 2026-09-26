@@ -26,6 +26,59 @@
    "url": "https://news.metal.com/en/newscontent/104134675-italys-abs-opens-special-steel-service-center-in-sweden"
   },
   {
+   "anahtar": "d6c5a8a6a6758c8c",
+   "asama": "Belirsiz",
+   "baslik": "OYAK Plans New Electrical Steel Investments at Erdemir Romania",
+   "eksik": [
+    "asama"
+   ],
+   "firma": "OYAK",
+   "hat": "Elektrik celigi hatti",
+   "kapasite": "",
+   "kategori": "Yatirim",
+   "kaynak": "SMM (Shanghai Metals)",
+   "kaynak_id": "smm",
+   "olaylar": [
+    "oyak|fu|Romanya|Elektrik celigi hatti",
+    "oyak|hat|Elektrik celigi hatti|Belirsiz",
+    "oyak|ulke|Romanya|Belirsiz"
+   ],
+   "puan": 5.6,
+   "tarih": "2026-09-25",
+   "tarih_kaynagi": "json-ld",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Romanya",
+   "url": "https://news.metal.com/en/newscontent/104134673-oyak-plans-new-electrical-steel-investments-at-erdemir-romania"
+  },
+  {
+   "anahtar": "cdea092dff7b1ff5",
+   "asama": "Belirsiz",
+   "baslik": "Severstal: primo coil sulla terza linea del nuovo laminatoio barre - Il mill 170 di Cherepovets raggiungerà una capacità di 900mila t/anno. Investimento da oltre 15 miliardi di rubli",
+   "eksik": [
+    "ulke",
+    "hat",
+    "asama"
+   ],
+   "firma": "Severstal",
+   "hat": "Belirsiz",
+   "kapasite": "",
+   "kategori": "Yatirim",
+   "kaynak": "Siderweb",
+   "kaynak_id": "siderweb",
+   "olaylar": [
+    "abb|hat|Belirsiz|Belirsiz",
+    "severstal|hat|Belirsiz|Belirsiz"
+   ],
+   "puan": 0.6,
+   "tarih": "2026-09-25",
+   "tarih_kaynagi": "json-ld",
+   "tedarikci": "ABB",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://www.siderweb.com/articoli/news/731998-severstal-primo-coil-sulla-terza-linea-del-nuovo-laminatoio-barre"
+  },
+  {
    "anahtar": "3c6ddad628eeb8ca",
    "asama": "Belirsiz",
    "baslik": "POSCO, Otomotiv Çeliği İçin 359 Milyon Dolarlık Yeni Galvanizleme Hattı Kuruyor",
@@ -2251,9 +2304,78 @@
     "tekrar": 21
    },
    "uretim": "2026-09-25 08:57 UTC"
+  },
+  {
+   "donem": "2026-W39",
+   "satir": 15,
+   "stats": {
+    "erisilemeyen": 10,
+    "gnews_tarih": 0,
+    "ham": 3676,
+    "kabul": 15,
+    "kapsam_disi": 3278,
+    "kaynak": 291,
+    "makale_acildi": 224,
+    "on_eleme_gecti": 334,
+    "pencere_disi": 267,
+    "tarihsiz_elendi": 86,
+    "tekrar": 30
+   },
+   "uretim": "2026-09-26 08:51 UTC"
   }
  ],
  "rezerv": [
+  {
+   "anahtar": "a116c7d2cd9568bd",
+   "asama": "Sozlesme",
+   "baslik": "JSW Steel Selects ANDRITZ for New Galvanizing Line in Karnataka",
+   "eksik": [],
+   "firma": "JSW Steel",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_sup03",
+   "olaylar": [
+    "andritz|fu|Hindistan|Galvaniz hatti (CGL)",
+    "andritz|hat|Galvaniz hatti (CGL)|Sozlesme",
+    "andritz|ulke|Hindistan|Sozlesme",
+    "jsw steel|fu|Hindistan|Galvaniz hatti (CGL)",
+    "jsw steel|hat|Galvaniz hatti (CGL)|Sozlesme",
+    "jsw steel|ulke|Hindistan|Sozlesme"
+   ],
+   "rezerv": true,
+   "tarih": "2026-09-03",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "Andritz",
+   "tutar": "",
+   "ulke": "Hindistan",
+   "url": "https://themachinemaker.com/news/jsw-steel-selects-andritz-for-new-galvanizing-line-in-karnataka/"
+  },
+  {
+   "anahtar": "dde7adab1615e8c7",
+   "asama": "Sozlesme",
+   "baslik": "Primetals secures PLTCM automation order",
+   "eksik": [],
+   "firma": "Primetals",
+   "hat": "Tandem soguk hadde (TCM)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgs_sti",
+   "olaylar": [
+    "primetals|fu|Cin|Tandem soguk hadde (TCM)",
+    "primetals|hat|Tandem soguk hadde (TCM)|Sozlesme",
+    "primetals|ulke|Cin|Sozlesme"
+   ],
+   "rezerv": true,
+   "tarih": "2026-09-03",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "Primetals",
+   "tutar": "",
+   "ulke": "Cin",
+   "url": "https://www.steeltimesint.com/news/primetals-secures-pltcm-automation-order"
+  },
   {
    "anahtar": "f78620ad28390d6c",
    "asama": "Belirsiz",
