@@ -24,31 +24,7 @@
     "chengde steel|hat|Asitleme hatti|Sozlesme",
     "primetals|hat|Asitleme hatti|Sozlesme"
    ],
-   "puan": 58.6
-  },
-  {
-   "tarih": "2026-09-15",
-   "firma": "Flux Steel Works",
-   "ulke": "ABD",
-   "hat": "Elektrik celigi hatti",
-   "asama": "Sozlesme",
-   "tedarikci": "",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "Flux Steel Works Secures Ohio Plant to Produce Power Transformer Core Steel",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgq_hat12",
-   "url": "https://finance.yahoo.com/energy/articles/flux-steel-works-secures-ohio-120300709.html",
-   "tarih_kaynagi": "rss",
-   "eksik": [],
-   "anahtar": "103151f7f2661a28",
-   "kategori": "Hat",
-   "olaylar": [
-    "flux steel works|fu|ABD|Elektrik celigi hatti",
-    "flux steel works|hat|Elektrik celigi hatti|Sozlesme",
-    "flux steel works|ulke|ABD|Sozlesme"
-   ],
-   "puan": 55.6
+   "puan": 58.2
   },
   {
    "tarih": "2026-09-17",
@@ -72,7 +48,7 @@
     "am/ns india|hat|Zn-Al-Mg / Galvalume kaplama|Sozlesme",
     "am/ns india|ulke|Hindistan|Sozlesme"
    ],
-   "puan": 55.4
+   "puan": 55.0
   },
   {
    "tarih": "2026-09-23",
@@ -98,7 +74,7 @@
     "danieli|hat|Belirsiz|Sozlesme",
     "ezz flat steel plant|hat|Belirsiz|Sozlesme"
    ],
-   "puan": 50.8
+   "puan": 50.4
   },
   {
    "tarih": "2026-09-08",
@@ -122,7 +98,7 @@
    "olaylar": [
     "posco|hat|Galvaniz hatti (CGL)|Sozlesme"
    ],
-   "puan": 48.8
+   "puan": 48.4
   },
   {
    "tarih": "2026-09-24",
@@ -146,32 +122,7 @@
    "olaylar": [
     "posco breaks ground|hat|Galvaniz hatti (CGL)|Insaat"
    ],
-   "puan": 47.2
-  },
-  {
-   "tarih": "2026-09-25",
-   "firma": "ABS",
-   "ulke": "Italya",
-   "hat": "Dilme / boy kesme / SSC",
-   "asama": "Ilk urun",
-   "tedarikci": "",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "Italy's ABS Opens Special Steel Service Center in Sweden",
-   "kaynak": "SMM (Shanghai Metals)",
-   "kaynak_id": "smm",
-   "url": "https://news.metal.com/en/newscontent/104134675-italys-abs-opens-special-steel-service-center-in-sweden",
-   "tarih_kaynagi": "json-ld",
-   "eksik": [],
-   "anahtar": "3705534b48675072",
-   "kategori": "Hat",
-   "olaylar": [
-    "*|ulke-hat|Italya|Dilme / boy kesme / SSC|Ilk urun",
-    "abs|fu|Italya|Dilme / boy kesme / SSC",
-    "abs|hat|Dilme / boy kesme / SSC|Ilk urun",
-    "abs|ulke|Italya|Ilk urun"
-   ],
-   "puan": 46.6
+   "puan": 46.8
   },
   {
    "tarih": "2026-09-15",
@@ -195,7 +146,7 @@
    "olaylar": [
     "flux steel|hat|Elektrik celigi hatti|Modernizasyon"
    ],
-   "puan": 40.6
+   "puan": 40.2
   },
   {
    "tarih": "2026-09-21",
@@ -220,7 +171,7 @@
    "olaylar": [
     "posco|hat|Galvaniz hatti (CGL)|Teknoloji"
    ],
-   "puan": 40.0
+   "puan": 39.6
   },
   {
    "tarih": "2026-09-16",
@@ -246,7 +197,7 @@
     "nippon steel backs|hat|Belirsiz|Modernizasyon",
     "nippon steel backs|ulke|Slovakya|Modernizasyon"
    ],
-   "puan": 34.0
+   "puan": 33.6
   },
   {
    "tarih": "2026-09-09",
@@ -258,7 +209,7 @@
    "kapasite": "",
    "tutar": "$359 million",
    "baslik": "POSCO will invest $359 million to build a continuous galvanizing line",
-   "kaynak": "news.metal.com",
+   "kaynak": "Shanghai Metals Market",
    "kaynak_id": "gq_hat04",
    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNUJiY0ZtNGRLc0pRZ0hWb3hYRzZGNjZsM1VIcW5UZ19NME5NRUpZRFd5eHQ5VWd4S1AycHdFZ25GUjlGaTlpcTlVN3VZV3FYTXdELU9rUnNESGVJeWszTWJUbFpUbUZXM0FGVFZjVTNHUEt3Nnpjd0I0QTlkVEtEWHVyM2g0dGFmWDZrSEwwRXJYdEoxb3hIeHVodzk5UFFnTHNvY3NYbw?oc=5",
    "tarih_kaynagi": "rss",
@@ -271,33 +222,33 @@
    "olaylar": [
     "posco will|hat|Galvaniz hatti (CGL)|Belirsiz"
    ],
-   "puan": 27.2
+   "puan": 26.8
   },
   {
-   "tarih": "2026-09-25",
-   "firma": "OYAK",
+   "tarih": "2026-09-24",
+   "firma": "Erdemir",
    "ulke": "Romanya",
    "hat": "Elektrik celigi hatti",
    "asama": "Belirsiz",
    "tedarikci": "",
    "kapasite": "",
    "tutar": "",
-   "baslik": "OYAK Plans New Electrical Steel Investments at Erdemir Romania",
-   "kaynak": "SMM (Shanghai Metals)",
-   "kaynak_id": "smm",
-   "url": "https://news.metal.com/en/newscontent/104134673-oyak-plans-new-electrical-steel-investments-at-erdemir-romania",
-   "tarih_kaynagi": "json-ld",
+   "baslik": "Erdemir Plans Romania Electrical Steel Capacity Expansion",
+   "kaynak": "IndexBox",
+   "kaynak_id": "gq_hat08",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSmxzNlIwb1ZJNjFKQmRmdmtmNVRCTkEzRU9IZFVuUGJ4X1hsOTZoQnRNN2ZTVFhfLVU5cG9uOWRpUC1rSDVqSWtnLVd2ZmwyRGVvaDE0RTV3TjJtY3hOQ1Rfa1BLOEdMWC12TmgxTDUzdmE0NUc4S0NGZlJ0RG9mOVN0c1ZMS2JIY2tnVlBYQUZCbDAwTUt6czY4eGJYcTkyOGc?oc=5",
+   "tarih_kaynagi": "rss",
    "eksik": [
     "asama"
    ],
-   "anahtar": "d6c5a8a6a6758c8c",
+   "anahtar": "4b961e91d96f2c3f",
    "kategori": "Yatirim",
    "olaylar": [
-    "oyak|fu|Romanya|Elektrik celigi hatti",
-    "oyak|hat|Elektrik celigi hatti|Belirsiz",
-    "oyak|ulke|Romanya|Belirsiz"
+    "erdemir|fu|Romanya|Elektrik celigi hatti",
+    "erdemir|hat|Elektrik celigi hatti|Belirsiz",
+    "erdemir|ulke|Romanya|Belirsiz"
    ],
-   "puan": 5.6
+   "puan": 4.8
   },
   {
    "tarih": "2026-09-24",
@@ -323,7 +274,7 @@
    "olaylar": [
     "posco|hat|Galvaniz hatti (CGL)|Belirsiz"
    ],
-   "puan": 4.2
+   "puan": 3.8
   },
   {
    "tarih": "2026-09-24",
@@ -351,7 +302,7 @@
     "|hat|Soguk hadde|Belirsiz",
     "|ulke|Hindistan|Belirsiz"
    ],
-   "puan": 2.2
+   "puan": 1.8
   },
   {
    "tarih": "2026-09-25",
@@ -378,20 +329,20 @@
     "abb|hat|Belirsiz|Belirsiz",
     "severstal|hat|Belirsiz|Belirsiz"
    ],
-   "puan": 0.6
+   "puan": 0.2
   }
  ],
  "stats": {
   "kaynak": 291,
-  "erisilemeyen": 10,
-  "ham": 3676,
-  "on_eleme_gecti": 334,
-  "makale_acildi": 224,
+  "erisilemeyen": 9,
+  "ham": 3626,
+  "on_eleme_gecti": 341,
+  "makale_acildi": 222,
   "tarihsiz_elendi": 86,
-  "pencere_disi": 267,
-  "kapsam_disi": 3278,
-  "tekrar": 30,
-  "kabul": 15,
+  "pencere_disi": 288,
+  "kapsam_disi": 3213,
+  "tekrar": 26,
+  "kabul": 13,
   "gnews_tarih": 0
  },
  "unreachable": [
@@ -414,10 +365,6 @@
   [
    "Steel Radar",
    "HTTP 403"
-  ],
-  [
-   "SteelGuru",
-   "URLError: <urlopen error timed out>"
   ],
   [
    "BigMint (SteelMint)",
@@ -729,7 +676,7 @@
   "bgtek_jc": "arama",
   "bgtek_danieli": "arama"
  },
- "today": "2026-09-26",
+ "today": "2026-09-27",
  "host_saglik": {
   "news.google.com": {
    "istek": 112,
@@ -749,7 +696,7 @@
   "www.cognex.com": {
    "istek": 2,
    "hiz_siniri": 2,
-   "sogutmada": false
+   "sogutmada": true
   }
  },
  "tech_pool": [],
@@ -757,21 +704,20 @@
   "POSCO": 1,
   "SteelTurk": 1,
   "Yieh Corp": 1,
-  "SMM (Shanghai Metals)": 2,
   "Siderweb": 1,
-  "Google News": 4,
+  "Google News": 5,
   "Elle besleme": 1,
-  "Bing News": 4
+  "Bing News": 3
  },
  "window": [
-  "2026-09-05",
-  "2026-09-26"
+  "2026-09-06",
+  "2026-09-27"
  ],
  "bulunan_kullanilan": 0,
- "bulunan_havuz": 29,
+ "bulunan_havuz": 30,
  "rezerv_kullanilan": 0,
  "rezerv_havuz": 25,
  "period": "2026-W39",
- "generated": "2026-09-26 08:51 UTC",
+ "generated": "2026-09-27 09:24 UTC",
  "version": "3.0.0"
 }
