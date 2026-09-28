@@ -1,5 +1,5 @@
 {
- "donem": "2026-W39",
+ "donem": "2026-W40",
  "duzelt": [
   {
    "anahtar": "861fe83cb05ff9be",
@@ -13,6 +13,21 @@
     "firma": "Chengde Steel",
     "ulke": "",
     "hat": "Asitleme hatti",
+    "asama": "Sozlesme"
+   }
+  },
+  {
+   "anahtar": "24c572c3d06c307e",
+   "baslik": "Danieli Automation to Supply MES Platform for Ezz Flat Steel Plant",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdU1RMmRXLVpqaWEzNHN4cnhuUlhZajdIMjFfc1VFY0tIT1dQNFlucGVBVGZ0MkpVcW91RHlsREwyUFltVW0yWGlNQzNwVDVUSy1ETXUzNG41TXFGTHJncmI1TXNhS2tVYXJEcDV4Mmt4Mm9KdWJoczNyeDNPWWNqY0FDUU1mUnF1NEZxWm9IQnNoNmtDZnh5U25iMml2TFVGN1E?oc=5",
+   "eksik": [
+    "ulke",
+    "hat"
+   ],
+   "mevcut": {
+    "firma": "Ezz Flat Steel Plant",
+    "ulke": "",
+    "hat": "Belirsiz",
     "asama": "Sozlesme"
    }
   },
@@ -31,60 +46,17 @@
    }
   },
   {
-   "anahtar": "22b595b15125f4b7",
-   "baslik": "Danieli & C Officine Meccaniche S p A : Ezz Steel selects Danieli Automation for advanced MES digital platform",
-   "url": "https://www.marketscreener.com/news/danieli-c-officine-meccaniche-s-p-a-ezz-steel-selects-danieli-automation-for-advanced-mes-digita-ce785adadd88f725",
-   "eksik": [
-    "hat"
-   ],
-   "mevcut": {
-    "firma": "Danieli",
-    "ulke": "Misir",
-    "hat": "Belirsiz",
-    "asama": "Sozlesme"
-   }
-  },
-  {
-   "anahtar": "f8b35bb2fde97335",
-   "baslik": "Xinyu inaugurates electrical steel production facility",
-   "url": "https://www.steeltimesint.com/news/xinyu-inaugurates-electrical-steel-production-facility",
+   "anahtar": "7b2685775084bf64",
+   "baslik": "POSCO Breaks Ground on New Continuous Galvanizing Line",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQeEd0MGtnVjRKUFQwamNlOWV4YmVUZ1Uxc3pFMVh6Q3BEOW9YX1JoY3UyRklSbjFEZ0hDZTVLaW9zd09Dc2I4clYtU3Rsc3dZYmtUV2RHaVQxZ21OTXd5NWVaTlE0Q0RPV29RV3I1eUZOMXltSDVaTl9NZDUyQ3hiTw?oc=5",
    "eksik": [
     "ulke"
    ],
    "mevcut": {
-    "firma": "Xinyu",
-    "ulke": "",
-    "hat": "Elektrik celigi hatti",
-    "asama": "Ilk urun"
-   }
-  },
-  {
-   "anahtar": "76de8e87fe54c6be",
-   "baslik": "Posco breaks ground on first new auto-steel coating line in 9 years, investing W480b in Gwangyang",
-   "url": "https://biz.heraldcorp.com/article/10865917",
-   "eksik": [
-    "ulke"
-   ],
-   "mevcut": {
-    "firma": "Posco",
+    "firma": "POSCO Breaks Ground",
     "ulke": "",
     "hat": "Galvaniz hatti (CGL)",
     "asama": "Insaat"
-   }
-  },
-  {
-   "anahtar": "866a901347e29691",
-   "baslik": "唐山市晟鑫冷轧薄板生产线升级改造项目生态环境影响报告书获批",
-   "url": "https://news.mysteel.com/a/26092109/0A0B14F6D5801083.html",
-   "eksik": [
-    "firma",
-    "ulke"
-   ],
-   "mevcut": {
-    "firma": "",
-    "ulke": "",
-    "hat": "Elektrik celigi hatti",
-    "asama": "Modernizasyon"
    }
   },
   {
@@ -117,20 +89,6 @@
    }
   },
   {
-   "anahtar": "0954fe1112c05394",
-   "baslik": "The European Commission is reviewing the purchase of Arvedi steel distributor AMCLN",
-   "url": "https://metallurgprom.org/en/news/europe/21764-evrokomissija-proverjaet-sdelku-po-pokupke-arvedi-distribjutora-stali-amcln.html",
-   "eksik": [
-    "hat"
-   ],
-   "mevcut": {
-    "firma": "European",
-    "ulke": "Hindistan",
-    "hat": "Belirsiz",
-    "asama": "Modernizasyon"
-   }
-  },
-  {
    "anahtar": "287abe7add2ec96e",
    "baslik": "Nippon Steel Backs 900 Million Euro Slovakia Steel Upgrade",
    "url": "https://jp.ibtimes.com/nippon-steel-backs-900-million-euro-slovakia-steel-upgrade-104450",
@@ -145,27 +103,42 @@
    }
   },
   {
-   "anahtar": "fa9153c7d7a93635",
-   "baslik": "Did Electrical Steel Expansion Just Shift Worthington Steel (WS) Investment Narrative?",
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZzJnQkFHSnNNVDVBU1VSZnZIMXF4WG4wYjRyOHZQdkdfakxLU3lrZ2YxOC1acVU5V1dsU1RLcFhVZmpOMUZhZUJLa25vampucWVNTnlFODlTUXVrQ0Z1SGRDb29KNi0yVEkzUy0ta1dFQU1QOVdUSjY3QlUxT0ZQR0NwWXVOLWxNTHRQZmw4MklTNmpIb0NjMS1yeVBTVThtWkx5dmlNalBUeEN5bmdOVUdyRldESHRQY3JicTlHN29CVmxnaWpRQ2d1TkfSAdIBQVVfeXFMTlZwRFBaWEk3a0YyWFM0dzJySEZRT2daSHU3WWFYRjVpRFdTYjdxSW1GTnF3QUl1ZWpzVXlKTWM4VldXeTRzZGphQWZTQ2ZnNUhVMjc5Qlc4dGxNUmNWbmNZVElfdGFjd2lBUmhZUk5xMElnYk5KV3Z6cjV4cFl5N1p3NWxlcWh0VWw0VnVyVm4tUFRhR2sxd0hIbEthb08zMktzTjBuWGFscnU1cWk3eHhGM2lHRW9RMlhUMm5GdURhdlBaVGY1RjYxa1ZsWjJrNUJR?oc=5",
+   "anahtar": "31f1f76c17af6d14",
+   "baslik": "POSCO will invest $359 million to build a continuous galvanizing line",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNUJiY0ZtNGRLc0pRZ0hWb3hYRzZGNjZsM1VIcW5UZ19NME5NRUpZRFd5eHQ5VWd4S1AycHdFZ25GUjlGaTlpcTlVN3VZV3FYTXdELU9rUnNESGVJeWszTWJUbFpUbUZXM0FGVFZjVTNHUEt3Nnpjd0I0QTlkVEtEWHVyM2g0dGFmWDZrSEwwRXJYdEoxb3hIeHVodzk5UFFnTHNvY3NYbw?oc=5",
    "eksik": [
     "ulke",
     "asama"
    ],
    "mevcut": {
-    "firma": "Did Electrical Steel",
+    "firma": "POSCO will",
     "ulke": "",
+    "hat": "Galvaniz hatti (CGL)",
+    "asama": "Belirsiz"
+   }
+  },
+  {
+   "anahtar": "4b961e91d96f2c3f",
+   "baslik": "Erdemir Plans Romania Electrical Steel Capacity Expansion",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSmxzNlIwb1ZJNjFKQmRmdmtmNVRCTkEzRU9IZFVuUGJ4X1hsOTZoQnRNN2ZTVFhfLVU5cG9uOWRpUC1rSDVqSWtnLVd2ZmwyRGVvaDE0RTV3TjJtY3hOQ1Rfa1BLOEdMWC12TmgxTDUzdmE0NUc4S0NGZlJ0RG9mOVN0c1ZMS2JIY2tnVlBYQUZCbDAwTUt6czY4eGJYcTkyOGc?oc=5",
+   "eksik": [
+    "asama"
+   ],
+   "mevcut": {
+    "firma": "Erdemir",
+    "ulke": "Romanya",
     "hat": "Elektrik celigi hatti",
     "asama": "Belirsiz"
    }
   },
   {
-   "anahtar": "6b9163d81507db69",
-   "baslik": "POSCO to Build State-of-the-Art Galvanized Automotive Steel Sheet Plant, Bringing Together the Latest Automotive Steel Technologies",
-   "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNRjdQdkp3TTgyQXluR1JnM29pUmoyT3NoUDZBenBrZk81RVZwNHo5NEZsVmpLVlVYNlZobEJVT0RPWWZTNno3NmM2X2FRNUpMazlkUG9HQzhRMmI5SktOYnVfa3ZSbzc2QlBwazd2V3NmS09LbUlXVW9rY0x0QXhBUklaUnN3RGVRUHQzb0laeXU3Q0FtZHlFYWlpRU5YSlg2Q19UMDNFdHZRS0U0aDRpTUZpOHZQUk9vUUU2dW00akUtOU9KTVhnbldUY00zbW96dnBfX2VRaFFRTGs3Ymx2QWs5UVhzSFFpY1dWY2JqcjdMV2s?oc=5",
+   "anahtar": "3c6ddad628eeb8ca",
+   "baslik": "POSCO, Otomotiv Çeliği İçin 359 Milyon Dolarlık Yeni Galvanizleme Hattı Kuruyor",
+   "url": "https://www.steelturk.com.tr/posco-otomotiv-celigi-icin-359-milyon-dolarlik-yeni-galvanizleme-hatti-kuruyor/",
    "eksik": [
     "ulke",
-    "asama"
+    "asama",
+    "tarih?"
    ],
    "mevcut": {
     "firma": "POSCO",
@@ -173,18 +146,50 @@
     "hat": "Galvaniz hatti (CGL)",
     "asama": "Belirsiz"
    }
+  },
+  {
+   "anahtar": "ead1e2985beceddf",
+   "baslik": "India extends AD investigation deadline on stainless steel cold-rolled flat products from 3 Asian nations",
+   "url": "https://www.yieh.com/en/News/india-extends-ad-investigation-deadline-on-stainless-steel-cold-rolled-flat-products-from-3-asian-nations/162696",
+   "eksik": [
+    "firma",
+    "asama",
+    "tarih?"
+   ],
+   "mevcut": {
+    "firma": "",
+    "ulke": "Hindistan",
+    "hat": "Soguk hadde",
+    "asama": "Belirsiz"
+   }
+  },
+  {
+   "anahtar": "cdea092dff7b1ff5",
+   "baslik": "Severstal: primo coil sulla terza linea del nuovo laminatoio barre - Il mill 170 di Cherepovets raggiungerà una capacità di 900mila t/anno. Investimento da oltre 15 miliardi di rubli",
+   "url": "https://www.siderweb.com/articoli/news/731998-severstal-primo-coil-sulla-terza-linea-del-nuovo-laminatoio-barre",
+   "eksik": [
+    "ulke",
+    "hat",
+    "asama"
+   ],
+   "mevcut": {
+    "firma": "Severstal",
+    "ulke": "",
+    "hat": "Belirsiz",
+    "asama": "Belirsiz"
+   }
   }
  ],
  "cumle_yaz": [
   {
-   "anahtar": "0bfa599743c7ee24",
-   "tarih": "2026-09-04",
-   "firma": "Primetals Technologies",
-   "ulke": "Cin",
-   "hat": "Tandem soguk hadde (TCM)",
+   "anahtar": "861fe83cb05ff9be",
+   "tarih": "2026-09-28",
+   "firma": "Chengde Steel",
+   "ulke": "",
+   "hat": "Asitleme hatti",
    "asama": "Sozlesme",
-   "baslik": "Primetals Technologies Wins PLTCM Project in China",
-   "url": "https://note.com/sankituushin/n/nebe64a6ad351?hl=en"
+   "baslik": "Primetals Technologies to supply continuous galvanizing and pickling line to Chengde Steel",
+   "url": "https://www.primetals.com/press-media/news/primetals-technologies-to-supply-continuous-galvanizing-and-pickling-line-to-chengde-steel"
   },
   {
    "anahtar": "103151f7f2661a28",
@@ -207,14 +212,14 @@
    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNLWxqSTJweGtTTVRfaGJWcnVrWEd0aU9rUkFHMnA5MzVZU1pvNkFpUWZySVc4Yll2NFNfazBwZlI1dFZpVWpYT2cxa1RCNnloLW93Y2pPTnc2VllOV2FrU0VpMUJiSC1paVpTWlFpMmtCb3dMcnhSNGVnYlBULTd2S1BwWHJidVcxamJqbnEtM0NEMXY5amx1dU9YOGhleHJtdl9aQW4wVzkzTkpfY3BsOTdFWlZ4X0gwZXVMR082RWZSMXJnQ0E?oc=5"
   },
   {
-   "anahtar": "861fe83cb05ff9be",
-   "tarih": "2026-09-16",
-   "firma": "Chengde Steel",
+   "anahtar": "24c572c3d06c307e",
+   "tarih": "2026-09-23",
+   "firma": "Ezz Flat Steel Plant",
    "ulke": "",
-   "hat": "Asitleme hatti",
+   "hat": "Belirsiz",
    "asama": "Sozlesme",
-   "baslik": "Primetals Technologies to supply continuous galvanizing and pickling line to Chengde Steel",
-   "url": "https://www.primetals.com/press-media/news/primetals-technologies-to-supply-continuous-galvanizing-and-pickling-line-to-chengde-steel"
+   "baslik": "Danieli Automation to Supply MES Platform for Ezz Flat Steel Plant",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdU1RMmRXLVpqaWEzNHN4cnhuUlhZajdIMjFfc1VFY0tIT1dQNFlucGVBVGZ0MkpVcW91RHlsREwyUFltVW0yWGlNQzNwVDVUSy1ETXUzNG41TXFGTHJncmI1TXNhS2tVYXJEcDV4Mmt4Mm9KdWJoczNyeDNPWWNqY0FDUU1mUnF1NEZxWm9IQnNoNmtDZnh5U25iMml2TFVGN1E?oc=5"
   },
   {
    "anahtar": "541377035ee6148a",
@@ -227,44 +232,14 @@
    "url": "https://en.sedaily.com/finance/2026/09/08/posco-invests-480-billion-won-in-new-auto-steel-plant"
   },
   {
-   "anahtar": "22b595b15125f4b7",
-   "tarih": "2026-09-18",
-   "firma": "Danieli",
-   "ulke": "Misir",
-   "hat": "Belirsiz",
-   "asama": "Sozlesme",
-   "baslik": "Danieli & C Officine Meccaniche S p A : Ezz Steel selects Danieli Automation for advanced MES digital platform",
-   "url": "https://www.marketscreener.com/news/danieli-c-officine-meccaniche-s-p-a-ezz-steel-selects-danieli-automation-for-advanced-mes-digita-ce785adadd88f725"
-  },
-  {
-   "anahtar": "f8b35bb2fde97335",
-   "tarih": "2026-09-10",
-   "firma": "Xinyu",
-   "ulke": "",
-   "hat": "Elektrik celigi hatti",
-   "asama": "Ilk urun",
-   "baslik": "Xinyu inaugurates electrical steel production facility",
-   "url": "https://www.steeltimesint.com/news/xinyu-inaugurates-electrical-steel-production-facility"
-  },
-  {
-   "anahtar": "76de8e87fe54c6be",
-   "tarih": "2026-09-07",
-   "firma": "Posco",
+   "anahtar": "7b2685775084bf64",
+   "tarih": "2026-09-24",
+   "firma": "POSCO Breaks Ground",
    "ulke": "",
    "hat": "Galvaniz hatti (CGL)",
    "asama": "Insaat",
-   "baslik": "Posco breaks ground on first new auto-steel coating line in 9 years, investing W480b in Gwangyang",
-   "url": "https://biz.heraldcorp.com/article/10865917"
-  },
-  {
-   "anahtar": "866a901347e29691",
-   "tarih": "2026-09-21",
-   "firma": "",
-   "ulke": "",
-   "hat": "Elektrik celigi hatti",
-   "asama": "Modernizasyon",
-   "baslik": "唐山市晟鑫冷轧薄板生产线升级改造项目生态环境影响报告书获批",
-   "url": "https://news.mysteel.com/a/26092109/0A0B14F6D5801083.html"
+   "baslik": "POSCO Breaks Ground on New Continuous Galvanizing Line",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQeEd0MGtnVjRKUFQwamNlOWV4YmVUZ1Uxc3pFMVh6Q3BEOW9YX1JoY3UyRklSbjFEZ0hDZTVLaW9zd09Dc2I4clYtU3Rsc3dZYmtUV2RHaVQxZ21OTXd5NWVaTlE0Q0RPV29RV3I1eUZOMXltSDVaTl9NZDUyQ3hiTw?oc=5"
   },
   {
    "anahtar": "756f723a3d321269",
@@ -287,16 +262,6 @@
    "url": "https://newsroom.posco.com/en/posco-to-build-state-of-the-art-galvanized-automotive-steel-sheet-plant-bringing-together-the-latest-automotive-steel-technologies/"
   },
   {
-   "anahtar": "0954fe1112c05394",
-   "tarih": "2026-09-18",
-   "firma": "European",
-   "ulke": "Hindistan",
-   "hat": "Belirsiz",
-   "asama": "Modernizasyon",
-   "baslik": "The European Commission is reviewing the purchase of Arvedi steel distributor AMCLN",
-   "url": "https://metallurgprom.org/en/news/europe/21764-evrokomissija-proverjaet-sdelku-po-pokupke-arvedi-distribjutora-stali-amcln.html"
-  },
-  {
    "anahtar": "287abe7add2ec96e",
    "tarih": "2026-09-16",
    "firma": "Nippon Steel Backs",
@@ -305,16 +270,17 @@
    "asama": "Modernizasyon",
    "baslik": "Nippon Steel Backs 900 Million Euro Slovakia Steel Upgrade",
    "url": "https://jp.ibtimes.com/nippon-steel-backs-900-million-euro-slovakia-steel-upgrade-104450"
+  },
+  {
+   "anahtar": "31f1f76c17af6d14",
+   "tarih": "2026-09-09",
+   "firma": "POSCO will",
+   "ulke": "",
+   "hat": "Galvaniz hatti (CGL)",
+   "asama": "Belirsiz",
+   "baslik": "POSCO will invest $359 million to build a continuous galvanizing line",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNUJiY0ZtNGRLc0pRZ0hWb3hYRzZGNjZsM1VIcW5UZ19NME5NRUpZRFd5eHQ5VWd4S1AycHdFZ25GUjlGaTlpcTlVN3VZV3FYTXdELU9rUnNESGVJeWszTWJUbFpUbUZXM0FGVFZjVTNHUEt3Nnpjd0I0QTlkVEtEWHVyM2g0dGFmWDZrSEwwRXJYdEoxb3hIeHVodzk5UFFnTHNvY3NYbw?oc=5"
   }
  ],
- "teknoloji_adaylari": [
-  {
-   "anahtar": "tech:b56ca34c38e3c8eb",
-   "tarih": "2026-09-16",
-   "baslik": "Steel inspection system uses machine vision to increase line speed and precision",
-   "url": "https://www.imveurope.com/article/steel-inspection-system-uses-machine-vision-increase-line-speed-precision",
-   "kaynak": "Bing News",
-   "hat": "Yuzey muayene (SIS)"
-  }
- ]
+ "teknoloji_adaylari": []
 }
