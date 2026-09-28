@@ -1,7 +1,7 @@
 {
  "rows": [
   {
-   "tarih": "2026-09-25",
+   "tarih": "2026-09-28",
    "firma": "Chengde Steel",
    "ulke": "",
    "hat": "Asitleme hatti",
@@ -24,7 +24,7 @@
     "chengde steel|hat|Asitleme hatti|Sozlesme",
     "primetals|hat|Asitleme hatti|Sozlesme"
    ],
-   "puan": 58.2
+   "puan": 59.0
   },
   {
    "tarih": "2026-09-17",
@@ -48,7 +48,7 @@
     "am/ns india|hat|Zn-Al-Mg / Galvalume kaplama|Sozlesme",
     "am/ns india|ulke|Hindistan|Sozlesme"
    ],
-   "puan": 55.0
+   "puan": 54.6
   },
   {
    "tarih": "2026-09-23",
@@ -74,7 +74,7 @@
     "danieli|hat|Belirsiz|Sozlesme",
     "ezz flat steel plant|hat|Belirsiz|Sozlesme"
    ],
-   "puan": 50.4
+   "puan": 50.0
   },
   {
    "tarih": "2026-09-08",
@@ -87,7 +87,7 @@
    "tutar": "",
    "baslik": "POSCO Invests 480 Billion Won in New Auto Steel Coating Plant",
    "kaynak": "Bing News",
-   "kaynak_id": "bgq_urun01",
+   "kaynak_id": "bgx_q_znalmg",
    "url": "https://en.sedaily.com/finance/2026/09/08/posco-invests-480-billion-won-in-new-auto-steel-plant",
    "tarih_kaynagi": "rss",
    "eksik": [
@@ -98,7 +98,7 @@
    "olaylar": [
     "posco|hat|Galvaniz hatti (CGL)|Sozlesme"
    ],
-   "puan": 48.4
+   "puan": 48.0
   },
   {
    "tarih": "2026-09-24",
@@ -122,7 +122,7 @@
    "olaylar": [
     "posco breaks ground|hat|Galvaniz hatti (CGL)|Insaat"
    ],
-   "puan": 46.8
+   "puan": 46.4
   },
   {
    "tarih": "2026-09-15",
@@ -146,7 +146,7 @@
    "olaylar": [
     "flux steel|hat|Elektrik celigi hatti|Modernizasyon"
    ],
-   "puan": 40.2
+   "puan": 39.8
   },
   {
    "tarih": "2026-09-21",
@@ -171,7 +171,7 @@
    "olaylar": [
     "posco|hat|Galvaniz hatti (CGL)|Teknoloji"
    ],
-   "puan": 39.6
+   "puan": 39.2
   },
   {
    "tarih": "2026-09-16",
@@ -197,7 +197,7 @@
     "nippon steel backs|hat|Belirsiz|Modernizasyon",
     "nippon steel backs|ulke|Slovakya|Modernizasyon"
    ],
-   "puan": 33.6
+   "puan": 33.2
   },
   {
    "tarih": "2026-09-09",
@@ -222,7 +222,7 @@
    "olaylar": [
     "posco will|hat|Galvaniz hatti (CGL)|Belirsiz"
    ],
-   "puan": 26.8
+   "puan": 26.4
   },
   {
    "tarih": "2026-09-24",
@@ -248,7 +248,7 @@
     "erdemir|hat|Elektrik celigi hatti|Belirsiz",
     "erdemir|ulke|Romanya|Belirsiz"
    ],
-   "puan": 4.8
+   "puan": 4.4
   },
   {
    "tarih": "2026-09-24",
@@ -274,7 +274,7 @@
    "olaylar": [
     "posco|hat|Galvaniz hatti (CGL)|Belirsiz"
    ],
-   "puan": 3.8
+   "puan": 3.4
   },
   {
    "tarih": "2026-09-24",
@@ -302,7 +302,7 @@
     "|hat|Soguk hadde|Belirsiz",
     "|ulke|Hindistan|Belirsiz"
    ],
-   "puan": 1.8
+   "puan": 1.4
   },
   {
    "tarih": "2026-09-25",
@@ -329,19 +329,19 @@
     "abb|hat|Belirsiz|Belirsiz",
     "severstal|hat|Belirsiz|Belirsiz"
    ],
-   "puan": 0.2
+   "puan": -0.2
   }
  ],
  "stats": {
   "kaynak": 291,
   "erisilemeyen": 9,
-  "ham": 3626,
-  "on_eleme_gecti": 341,
-  "makale_acildi": 222,
-  "tarihsiz_elendi": 86,
-  "pencere_disi": 288,
-  "kapsam_disi": 3213,
-  "tekrar": 26,
+  "ham": 3644,
+  "on_eleme_gecti": 342,
+  "makale_acildi": 220,
+  "tarihsiz_elendi": 85,
+  "pencere_disi": 290,
+  "kapsam_disi": 3231,
+  "tekrar": 25,
   "kabul": 13,
   "gnews_tarih": 0
  },
@@ -676,7 +676,7 @@
   "bgtek_jc": "arama",
   "bgtek_danieli": "arama"
  },
- "today": "2026-09-27",
+ "today": "2026-09-28",
  "host_saglik": {
   "news.google.com": {
    "istek": 112,
@@ -710,14 +710,14 @@
   "Bing News": 3
  },
  "window": [
-  "2026-09-06",
-  "2026-09-27"
+  "2026-09-07",
+  "2026-09-28"
  ],
  "bulunan_kullanilan": 0,
  "bulunan_havuz": 30,
  "rezerv_kullanilan": 0,
  "rezerv_havuz": 25,
- "period": "2026-W39",
- "generated": "2026-09-27 09:24 UTC",
+ "period": "2026-W40",
+ "generated": "2026-09-28 09:55 UTC",
  "version": "3.0.0"
 }
