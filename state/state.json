@@ -1,6 +1,110 @@
 {
  "bulunan": [
   {
+   "anahtar": "1c737651eb6c0083",
+   "asama": "Ilk urun",
+   "baslik": "Jindal India Commissions Revamped Galvanising Line, Boosts Capacity",
+   "eksik": [],
+   "firma": "Jindal India",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Rediff MoneyWiz",
+   "kaynak_id": "gx_bigmint_q",
+   "olaylar": [
+    "*|ulke-hat|Hindistan|Galvaniz hatti (CGL)|Ilk urun",
+    "jindal india|fu|Hindistan|Galvaniz hatti (CGL)",
+    "jindal india|hat|Galvaniz hatti (CGL)|Ilk urun",
+    "jindal india|ulke|Hindistan|Ilk urun"
+   ],
+   "puan": 54.6,
+   "tarih": "2026-10-27",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Hindistan",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbzh5Xzk5UzhnUU1VZ2w2TUYtLTU1VTZyM1psT1NpSGZIQ1NoMVlwSklORlhpeWVaWUVjNWdHaGNaWUg4SFp6ekE1dW5ockRPT3VsLWRFOTdMYmo3RXJ2eFBNdElZbFloUzNhdWNFRXQyYkZPcmVkQ3pRNV9vREJ2RTA5Nkp0NUZZM2YtS1dVU210enhwWEdkaHAtYVV6VXVOZkdEaEpoU25saEVFN1FFZ1J1YXp0S0lXMHfSAb8BQVVfeXFMTk1pazRMWW9aRm9kUnVsTlA4SzN3bFZKcGJsOGlYOHZRbXIzM0tlQURRTlpTTFhLT25fZkl3U2tHUWZma3JpSTdkOXhSM2Z4Y2dqcE1lNnZjM0dzTUhrbWVlQmlkZnlOc3IySU5qZ3A2RHRWMDJCUlF3bFdzWW1MRlotMG5SdDliWkFIZ0pBS0NDSldCSVV5NWFoQnZDOEUzRHg3QmRaZEMzTXQ5S09oM3o1MDc0SGVsQzNadEt1UHM?oc=5"
+  },
+  {
+   "anahtar": "cc4db9bd733fdee7",
+   "asama": "Modernizasyon",
+   "baslik": "BC Jindal Group’s Jindal (India) Limited Achieves 1.6 MTPA Downstream Steel Capacity with Successful CGL-5 Revamp",
+   "eksik": [],
+   "firma": "BC Jindal Group",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "1.6 MTPA",
+   "kategori": "Hat",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgx_bigmint_q",
+   "olaylar": [
+    "bc jindal group|fu|Hindistan|Galvaniz hatti (CGL)",
+    "bc jindal group|hat|Galvaniz hatti (CGL)|Modernizasyon",
+    "bc jindal group|ulke|Hindistan|Modernizasyon"
+   ],
+   "puan": 48.6,
+   "tarih": "2026-10-27",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Hindistan",
+   "url": "https://newspatrolling.com/bc-jindal-groups-jindal-india-limited-achieves-1-6-mtpa-downstream-steel-capacity-with-successful-cgl-5-revamp/"
+  },
+  {
+   "anahtar": "81afdce4c6c25e28",
+   "asama": "Belirsiz",
+   "baslik": "Tenova supplies processing lines for JSW JFE’s electrical steel plant in India",
+   "eksik": [
+    "asama"
+   ],
+   "firma": "JSW JFE",
+   "hat": "Elektrik celigi hatti",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Yieh Corp.",
+   "kaynak_id": "gq_hat08",
+   "olaylar": [
+    "jsw jfe|fu|Hindistan|Elektrik celigi hatti",
+    "jsw jfe|hat|Elektrik celigi hatti|Belirsiz",
+    "jsw jfe|ulke|Hindistan|Belirsiz",
+    "tenova|fu|Hindistan|Elektrik celigi hatti",
+    "tenova|hat|Elektrik celigi hatti|Belirsiz",
+    "tenova|ulke|Hindistan|Belirsiz"
+   ],
+   "puan": 31.8,
+   "tarih": "2026-10-20",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "Tenova",
+   "tutar": "",
+   "ulke": "Hindistan",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObnZFSDNsYV9qV0ZSbk1JUU5rV29LeS1DZGMtbmFMUDREcHZHeHNCWVkzQjl2TnhKWmVjeXloUy1qNWd6dmdSVzQtTVhwM1pzUTB5akFtcjZVc0NjZVF6T3MxZzdmZWhpaHJrNFQ5SFEtQk9KaUF1cWVzTmVMY3Zpb2tIM2xwVjZLUTdiY2RHajUyZkZsd3BpT3VZUGs4YzJRWW9uSmYyUmNiQUxCTHJBb0Mycw?oc=5"
+  },
+  {
+   "anahtar": "2796f3c7472bcf14",
+   "asama": "Ilk urun",
+   "baslik": "ANDRITZ continuous galvanizing line at BlueScope Steel produces first galvanized coil",
+   "eksik": [
+    "ulke",
+    "tarih?"
+   ],
+   "firma": "BlueScope Steel",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Andritz Metals",
+   "kaynak_id": "andritz",
+   "olaylar": [
+    "andritz|hat|Galvaniz hatti (CGL)|Ilk urun",
+    "bluescope steel|hat|Galvaniz hatti (CGL)|Ilk urun"
+   ],
+   "puan": 55.0,
+   "tarih": "2026-10-13",
+   "tarih_kaynagi": "url",
+   "tedarikci": "Andritz",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://www.andritz.com/newsroom-en/metals/2026-10-13-bluescope-group"
+  },
+  {
    "anahtar": "3705534b48675072",
    "asama": "Ilk urun",
    "baslik": "Italy's ABS Opens Special Steel Service Center in Sweden",
@@ -410,617 +514,6 @@
    "tutar": "",
    "ulke": "ABD",
    "url": "https://www.steelradar.com/en/haber/flux-steel-works-to-build-goes-production-facility-in-ohio/"
-  },
-  {
-   "anahtar": "86ebab9307e0afe1",
-   "asama": "Sozlesme",
-   "baslik": "AM/NS India Secures Two New BIS Licences for Advanced Q&T and Zn-Al-Mg Coated Steel",
-   "eksik": [],
-   "firma": "AM/NS India",
-   "hat": "Zn-Al-Mg / Galvalume kaplama",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "Ahmedabad Mirror",
-   "kaynak_id": "gx_arcelor",
-   "olaylar": [
-    "am/ns india|fu|Hindistan|Zn-Al-Mg / Galvalume kaplama",
-    "am/ns india|hat|Zn-Al-Mg / Galvalume kaplama|Sozlesme",
-    "am/ns india|ulke|Hindistan|Sozlesme"
-   ],
-   "puan": 57.4,
-   "tarih": "2026-09-17",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "Hindistan",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNLWxqSTJweGtTTVRfaGJWcnVrWEd0aU9rUkFHMnA5MzVZU1pvNkFpUWZySVc4Yll2NFNfazBwZlI1dFZpVWpYT2cxa1RCNnloLW93Y2pPTnc2VllOV2FrU0VpMUJiSC1paVpTWlFpMmtCb3dMcnhSNGVnYlBULTd2S1BwWHJidVcxamJqbnEtM0NEMXY5amx1dU9YOGhleHJtdl9aQW4wVzkzTkpfY3BsOTdFWlZ4X0gwZXVMR082RWZSMXJnQ0E?oc=5"
-  },
-  {
-   "anahtar": "861fe83cb05ff9be",
-   "asama": "Sozlesme",
-   "baslik": "Primetals Technologies to supply continuous galvanizing and pickling line to Chengde Steel",
-   "eksik": [
-    "ulke",
-    "tarih?"
-   ],
-   "firma": "Chengde Steel",
-   "hat": "Asitleme hatti",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "Primetals Technologies",
-   "kaynak_id": "elle",
-   "olaylar": [
-    "chengde steel|hat|Asitleme hatti|Sozlesme",
-    "primetals|hat|Asitleme hatti|Sozlesme"
-   ],
-   "puan": 59.0,
-   "tarih": "2026-09-16",
-   "tarih_kaynagi": "last-modified",
-   "tedarikci": "Primetals",
-   "tutar": "",
-   "ulke": "",
-   "url": "https://www.primetals.com/press-media/news/primetals-technologies-to-supply-continuous-galvanizing-and-pickling-line-to-chengde-steel"
-  },
-  {
-   "anahtar": "6bafb498d8e38fb4",
-   "asama": "Ilk urun",
-   "baslik": "Daido Steel completes new forged steel processing line at Chita No. 2 plant",
-   "eksik": [
-    "ulke"
-   ],
-   "firma": "Daido Steel",
-   "hat": "Serit isleme hatti",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "SteelOrbis",
-   "kaynak_id": "steelorbis",
-   "olaylar": [
-    "daido steel|hat|Serit isleme hatti|Ilk urun"
-   ],
-   "puan": 47.6,
-   "tarih": "2026-09-16",
-   "tarih_kaynagi": "json-ld",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/daido-steel-completes-new-forged-steel-processing-line-at-chita-no-2-plant-1477689.htm"
-  },
-  {
-   "anahtar": "d6fc492ada265b4b",
-   "asama": "Belirsiz",
-   "baslik": "ArcelorMittal & China Oriental's joint venture to produce electrical steel in Changzhou, China",
-   "eksik": [
-    "asama"
-   ],
-   "firma": "ArcelorMittal",
-   "hat": "Elektrik celigi hatti",
-   "kapasite": "",
-   "kategori": "Yatirim",
-   "kaynak": "Yieh Corp.",
-   "kaynak_id": "gq_hat08",
-   "olaylar": [
-    "arcelormittal|fu|Cin|Elektrik celigi hatti",
-    "arcelormittal|hat|Elektrik celigi hatti|Belirsiz",
-    "arcelormittal|ulke|Cin|Belirsiz"
-   ],
-   "puan": 5.6,
-   "tarih": "2026-09-15",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "Cin",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxON1V3ZFNGd2RsUXV1QTJNbFU3aWQyNDFVV0FJdVRxSTA1WGMtRTFJa2QxdXg0RlNQbkNWTjJWQXRYN1FwRzZzVllBYVZ4T2d3NHNFQmdKN1lHZ2VMXzFoN29kRmg0dmNmRnBIRkFMU2ZRNTB5UzdmUFFSU0xNeTNjV29Ka2Y3QXNGT2JPT0prRnl5aEM4SGNwaE5MeFFXbEY0Z3BpY1otUnNVUUFFYV9iODBzcVBPQ05HQ1NFeW0tWQ?oc=5"
-  },
-  {
-   "anahtar": "ee101f4da5b277ec",
-   "asama": "Modernizasyon",
-   "baslik": "[Rizhao Steel No.7 Pickling and Rolling Line Upgrade and Transformation]",
-   "eksik": [
-    "firma",
-    "tarih?"
-   ],
-   "firma": "",
-   "hat": "Asitleme hatti",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "SMM (Shanghai Metals)",
-   "kaynak_id": "smm",
-   "olaylar": [
-    "|fu|Malezya|Asitleme hatti",
-    "|hat|Asitleme hatti|Modernizasyon",
-    "|ulke|Malezya|Modernizasyon"
-   ],
-   "puan": 41.0,
-   "tarih": "2026-09-14",
-   "tarih_kaynagi": "metin",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "Malezya",
-   "url": "https://news.metal.com/en/newscontent/104112659-rizhao-steel-no7-pickling-and-rolling-line-upgrade-and-transformation"
-  },
-  {
-   "anahtar": "f8b35bb2fde97335",
-   "asama": "Ilk urun",
-   "baslik": "Xinyu inaugurates electrical steel production facility",
-   "eksik": [
-    "ulke"
-   ],
-   "firma": "Xinyu",
-   "hat": "Elektrik celigi hatti",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgx_q_commis",
-   "olaylar": [
-    "xinyu|hat|Elektrik celigi hatti|Ilk urun"
-   ],
-   "puan": 51.4,
-   "tarih": "2026-09-10",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "",
-   "url": "https://www.steeltimesint.com/news/xinyu-inaugurates-electrical-steel-production-facility"
-  },
-  {
-   "anahtar": "529c0fb9c048632c",
-   "asama": "Belirsiz",
-   "baslik": "Kocaeli PS: Küresel kapasite fazlası, korumacılık ve karbon maliyetleri yassı çelik sektörünün hareket alanını daraltıyor",
-   "eksik": [
-    "ulke",
-    "hat",
-    "asama"
-   ],
-   "firma": "Kocaeli PS",
-   "hat": "Belirsiz",
-   "kapasite": "",
-   "kategori": "Yatirim",
-   "kaynak": "SteelOrbis",
-   "kaynak_id": "gq_tr06",
-   "olaylar": [
-    "kocaeli ps|hat|Belirsiz|Belirsiz"
-   ],
-   "puan": -5.4,
-   "tarih": "2026-09-09",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "",
-   "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNM25GdzB0bUUyMVo3V29WSEYyandNdU5oLUdwVmRHVXZIcVdDRVRCQ0FOQW45Z0ZZVGlPS09pYmtYODNISm14d3YtNnctMzBHMTZYM2xDdjBXaC1McU96a0tCYkFvcTFuY0VkM1pSSjNJNFZUNjRTdW4yMlF4T2VxUGh0amVMTHNWOHNHS3FscTVnOVY1bUxrd1dGYjlUYV9QdTdRNDktd1RFMGZKMzJQa3RJRnlpZXlzVmdLOTUzY1BtTVhhaGlSVHZUdjBYVFRla3h4Z0Q0M0RtOS1ZaU9jd1BQcHc3NWd2N3hrYXh4ZnFmbVhEX296U2t4ZDA3ZnNod3pEejBoQWNwQQ?oc=5"
-  },
-  {
-   "anahtar": "31f1f76c17af6d14",
-   "asama": "Belirsiz",
-   "baslik": "POSCO will invest $359 million to build a continuous galvanizing line",
-   "eksik": [
-    "ulke",
-    "asama"
-   ],
-   "firma": "POSCO will",
-   "hat": "Galvaniz hatti (CGL)",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "Shanghai Metals Market",
-   "kaynak_id": "gq_hat04",
-   "olaylar": [
-    "posco will|hat|Galvaniz hatti (CGL)|Belirsiz"
-   ],
-   "puan": 28.4,
-   "tarih": "2026-09-09",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "",
-   "tutar": "$359 million",
-   "ulke": "",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNUJiY0ZtNGRLc0pRZ0hWb3hYRzZGNjZsM1VIcW5UZ19NME5NRUpZRFd5eHQ5VWd4S1AycHdFZ25GUjlGaTlpcTlVN3VZV3FYTXdELU9rUnNESGVJeWszTWJUbFpUbUZXM0FGVFZjVTNHUEt3Nnpjd0I0QTlkVEtEWHVyM2g0dGFmWDZrSEwwRXJYdEoxb3hIeHVodzk5UFFnTHNvY3NYbw?oc=5"
-  },
-  {
-   "anahtar": "495456be16726ffc",
-   "asama": "Seri uretim",
-   "baslik": "Rizhao Steel Coating Lines Reach Full Production Across the Board",
-   "eksik": [
-    "ulke",
-    "tarih?"
-   ],
-   "firma": "Rizhao Steel Coating",
-   "hat": "Galvaniz hatti (CGL)",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "SMM (Shanghai Metals)",
-   "kaynak_id": "smm",
-   "olaylar": [
-    "rizhao steel coating|hat|Galvaniz hatti (CGL)|Seri uretim"
-   ],
-   "puan": 41.6,
-   "tarih": "2026-09-07",
-   "tarih_kaynagi": "metin",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "",
-   "url": "https://news.metal.com/en/newscontent/104101348-rizhao-steel-coating-lines-reach-full-production-across-the-board"
-  },
-  {
-   "anahtar": "76de8e87fe54c6be",
-   "asama": "Insaat",
-   "baslik": "Posco breaks ground on first new auto-steel coating line in 9 years, investing W480b in Gwangyang",
-   "eksik": [
-    "ulke"
-   ],
-   "firma": "Posco",
-   "hat": "Galvaniz hatti (CGL)",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgq_hat04",
-   "olaylar": [
-    "posco|hat|Galvaniz hatti (CGL)|Insaat"
-   ],
-   "puan": 51.2,
-   "tarih": "2026-09-07",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "",
-   "tutar": "$354 million",
-   "ulke": "",
-   "url": "https://biz.heraldcorp.com/article/10865917"
-  },
-  {
-   "anahtar": "0bfa599743c7ee24",
-   "asama": "Sozlesme",
-   "baslik": "Primetals Technologies Wins PLTCM Project in China",
-   "eksik": [],
-   "firma": "Primetals Technologies",
-   "hat": "Tandem soguk hadde (TCM)",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgx_q_auto",
-   "olaylar": [
-    "primetals technologies|fu|Cin|Tandem soguk hadde (TCM)",
-    "primetals technologies|hat|Tandem soguk hadde (TCM)|Sozlesme",
-    "primetals technologies|ulke|Cin|Sozlesme",
-    "primetals|fu|Cin|Tandem soguk hadde (TCM)",
-    "primetals|hat|Tandem soguk hadde (TCM)|Sozlesme",
-    "primetals|ulke|Cin|Sozlesme"
-   ],
-   "puan": 58.2,
-   "tarih": "2026-09-04",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "Primetals",
-   "tutar": "",
-   "ulke": "Cin",
-   "url": "https://note.com/sankituushin/n/nebe64a6ad351?hl=en"
-  },
-  {
-   "anahtar": "dde7adab1615e8c7",
-   "asama": "Sozlesme",
-   "baslik": "Primetals secures PLTCM automation order",
-   "eksik": [
-    "ulke"
-   ],
-   "firma": "Primetals",
-   "hat": "Tandem soguk hadde (TCM)",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "Steel Times International",
-   "kaynak_id": "gq_hat00",
-   "olaylar": [
-    "primetals|hat|Tandem soguk hadde (TCM)|Sozlesme"
-   ],
-   "puan": 61.6,
-   "tarih": "2026-09-03",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "Primetals",
-   "tutar": "",
-   "ulke": "",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOVFV4U0VJZ0hYZUVGOGQzMkc0TnZyX3BRa3JaYVVqejZ4dW42SEhGNlItT1FZcHIzUUxrejJMai1zUDhGMXhHUFdPZktOWnZyQkhpODJzVnJMN2xNaDFDRXpPd1ZKREhZN1hld2NRTGtGLW43NWxLRkRsYzZQelUwcw?oc=5"
-  },
-  {
-   "anahtar": "5f96f7156d345f49",
-   "asama": "Ilk urun",
-   "baslik": "Metallus Commissions Furnaces for Defense Steel Production",
-   "eksik": [
-    "ulke",
-    "hat"
-   ],
-   "firma": "Metallus",
-   "hat": "Belirsiz",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "Heat Treat Today",
-   "kaynak_id": "heattreat",
-   "olaylar": [
-    "metallus|hat|Belirsiz|Ilk urun"
-   ],
-   "puan": 43.6,
-   "tarih": "2026-09-02",
-   "tarih_kaynagi": "json-ld",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "",
-   "url": "https://www.heattreattoday.com/metallus-commissions-furnaces-for-defense-steel-production/"
-  },
-  {
-   "anahtar": "6b5ba9496b3d7d58",
-   "asama": "Belirsiz",
-   "baslik": "Konya'da 430 milyon dolarlık çifte yatırım: Haddehane gün sayıyor, yeni hat geliyor",
-   "eksik": [
-    "ulke",
-    "asama"
-   ],
-   "firma": "Konya'da",
-   "hat": "Soguk hadde",
-   "kapasite": "",
-   "kategori": "Yatirim",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgq_tr00",
-   "olaylar": [
-    "konya'da|hat|Soguk hadde|Belirsiz"
-   ],
-   "puan": 2.6,
-   "tarih": "2026-09-02",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "",
-   "url": "https://www.yenihaberden.com/konya-da-430-milyon-dolarlik-cifte-yatirim-haddehane-gun-sayiyor-yeni-hat-geliyor/1859098/"
-  },
-  {
-   "anahtar": "5ddafe54499a1936",
-   "asama": "Belirsiz",
-   "baslik": "ArcelorMittal Brasil to invest in new cold rolling mill and coating lines",
-   "eksik": [
-    "ulke",
-    "asama"
-   ],
-   "firma": "ArcelorMittal Brasil",
-   "hat": "Soguk hadde",
-   "kapasite": "",
-   "kategori": "Yatirim",
-   "kaynak": "SteelOrbis",
-   "kaynak_id": "steelorbis",
-   "olaylar": [
-    "arcelormittal brasil|hat|Soguk hadde|Belirsiz"
-   ],
-   "puan": 3.0,
-   "tarih": "2026-09-01",
-   "tarih_kaynagi": "json-ld",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/arcelormittal-brasil-to-invest-in-new-cold-rolling-mill-and-coating-lines-1474267.htm"
-  },
-  {
-   "anahtar": "f78620ad28390d6c",
-   "asama": "Ilk urun",
-   "baslik": "Japan's Chugai Ro delivers electric bright annealing line to Romania's Otelinox",
-   "eksik": [],
-   "firma": "Chugai Ro",
-   "hat": "Surekli tavlama (CAL)",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "SteelOrbis",
-   "kaynak_id": "steelorbis",
-   "olaylar": [
-    "*|ulke-hat|Japonya|Surekli tavlama (CAL)|Ilk urun",
-    "chugai ro|fu|Japonya|Surekli tavlama (CAL)",
-    "chugai ro|hat|Surekli tavlama (CAL)|Ilk urun",
-    "chugai ro|ulke|Japonya|Ilk urun"
-   ],
-   "puan": 55.6,
-   "tarih": "2026-09-01",
-   "tarih_kaynagi": "json-ld",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "Japonya",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/japans-chugai-ro-delivers-electric-bright-annealing-line-to-romanias-otelinox-1474287.htm"
-  },
-  {
-   "anahtar": "cae1022dd02a793f",
-   "asama": "Belirsiz",
-   "baslik": "Xinyu Steel, elektrik çeliği üretim kapasitesini 250 bin tona çıkardı",
-   "eksik": [
-    "ulke",
-    "asama"
-   ],
-   "firma": "Xinyu Steel",
-   "hat": "Elektrik celigi hatti",
-   "kapasite": "",
-   "kategori": "Yatirim",
-   "kaynak": "SteelRadar",
-   "kaynak_id": "gx_q_tr2",
-   "olaylar": [
-    "xinyu steel|hat|Elektrik celigi hatti|Belirsiz"
-   ],
-   "puan": 5.6,
-   "tarih": "2026-09-01",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUERkVDlfM1NRTG81c0RlSHZWWksxRGx1MEVaN3lReHNxaTdRcEllaUdCZjVBZWFLeWhWc1dvcnU2aVNuLUIxVVRtaXgwRFlEeTN3ckRiZTZjbnd2SnlrNjNjSUx5MUszMi03TkJ3bFByMklzWS1BRVJ3clh4YncwTjhKX2ZNQ0MwUUc2QlAzNDNxVng5U0hfakIyVkk4YzVxNm54NQ?oc=5"
-  },
-  {
-   "anahtar": "6e45c036c75edf5b",
-   "asama": "Sozlesme",
-   "baslik": "John Cockerill Signs Contract with A1 Iron & Steel for Integrated Cold Rolling Complex in Tanzania",
-   "eksik": [],
-   "firma": "Integrated Cold Rolling Complex",
-   "hat": "Soguk hadde",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "johncockerill.com",
-   "kaynak_id": "gtek_jc",
-   "olaylar": [
-    "integrated cold rolling complex|fu|Tanzanya|Soguk hadde",
-    "integrated cold rolling complex|hat|Soguk hadde|Sozlesme",
-    "integrated cold rolling complex|ulke|Tanzanya|Sozlesme",
-    "john cockerill|fu|Tanzanya|Soguk hadde",
-    "john cockerill|hat|Soguk hadde|Sozlesme",
-    "john cockerill|ulke|Tanzanya|Sozlesme"
-   ],
-   "puan": 62.6,
-   "tarih": "2026-08-31",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "John Cockerill",
-   "tutar": "",
-   "ulke": "Tanzanya",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYWhzdjdOTS1scDR4azVuN0JiaHM1bm5FNTdGUlczOHgzYkwtNzZtVEhFY3VBRld1bWVPOTB0OXA1bHY4Z2l1UHNKbS1rLXlmNmNnbnV6eGxuUWRoYWw5X2FrMkJnV0g0Q1V2a3BVeHBTUTk0d2RRN29iNHdYaEFlVHQ2VXVITWVJZUlpSmgyTHhYdXNRWDhROA?oc=5"
-  },
-  {
-   "anahtar": "323761b5cf24e21b",
-   "asama": "Belirsiz",
-   "baslik": "ArcelorMittal Confirms Up to R$ 5 Billion for New Cold Rolling Mill in Tubarão, Espírito Santo, with 560,000 Tonnes Annually, 3,000 Jobs at Peak, Operations by 2030",
-   "eksik": [
-    "ulke",
-    "asama"
-   ],
-   "firma": "R",
-   "hat": "Soguk hadde",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "CPG Click Oil and Gas",
-   "kaynak_id": "gq_hat02",
-   "olaylar": [
-    "r|hat|Soguk hadde|Belirsiz"
-   ],
-   "puan": 31.6,
-   "tarih": "2026-08-30",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "",
-   "tutar": "$ 5 Billion",
-   "ulke": "",
-   "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPdE9Sa2dwY2VrTTk5YlVVMmJ5SFR2YzUyNnN0X1Y3UmZja2I0eXNKTUNKcU1PRWJWZmFLRXU0bkdHR3NjSXR0dGNaWXIzMDNyTmd0RERRc2hJYkZHVFFNRjJIRUFoSUk3LVh1TWhzVEhmRVJNTmhlX0JzQWZZU1JfOFlQc0JoNi1OVHlibDNtZkFkRkFyUlpyNFNMVVV4THdIV09mNmxSSFYya3NJN3BZdVlrOFZ5ZlJsZS02cXBiRjFZeFZ4bVA4Z0J2RXFnYzVieEc4VlBMZWU5eGlJN3Vmak1NRld3U3V5ZnRnaWtWbHA3ZU9yOHd4ZktEVjRfTGdnVW9pR3dn?oc=5"
-  },
-  {
-   "anahtar": "98a2950f8f9b76b6",
-   "asama": "Sozlesme",
-   "baslik": "USSK orders new electrical steel plant from Tenova",
-   "eksik": [],
-   "firma": "USSK",
-   "hat": "Elektrik celigi hatti",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgq_sup05",
-   "olaylar": [
-    "tenova|fu|Turkiye|Elektrik celigi hatti",
-    "tenova|hat|Elektrik celigi hatti|Sozlesme",
-    "tenova|ulke|Turkiye|Sozlesme",
-    "ussk|fu|Turkiye|Elektrik celigi hatti",
-    "ussk|hat|Elektrik celigi hatti|Sozlesme",
-    "ussk|ulke|Turkiye|Sozlesme"
-   ],
-   "puan": 71.6,
-   "tarih": "2026-08-30",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "Tenova",
-   "tutar": "",
-   "ulke": "Turkiye",
-   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/ussk-orders-new-electrical-steel-plant-tenova-0619/"
-  },
-  {
-   "anahtar": "f1860f395525b68a",
-   "asama": "Belirsiz",
-   "baslik": "NS-SUS Completes Installation of New Danieli Coil-Handling Cranes",
-   "eksik": [
-    "ulke",
-    "asama"
-   ],
-   "firma": "NS-SUS",
-   "hat": "Bobin tasima / paketleme",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "AIST Association for Iron & Steel Technology",
-   "kaynak_id": "gs_aist",
-   "olaylar": [
-    "danieli|hat|Bobin tasima / paketleme|Belirsiz",
-    "ns sus|hat|Bobin tasima / paketleme|Belirsiz"
-   ],
-   "puan": 23.2,
-   "tarih": "2026-08-24",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "Danieli",
-   "tutar": "",
-   "ulke": "",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNejhtT3VSU2JqekN5bVh3bnhHdmFMbEtfWmxzQ0hFNXFhV2U5TklNWkhsbXYwQ3JnWEpNOGNyS2ZHRGZjYzViWmtDSEpZZnFiMDUxdktCWnpIWGJtNXNEaDNMUE5zRzIzNFFGZkRQc0RjNjdxOS15d0JpT2o2SFMyaUU4c0xMSU5QdG11YW14UQ?oc=5"
-  },
-  {
-   "anahtar": "730bd1f322f11f09",
-   "asama": "Belirsiz",
-   "baslik": "Jindal Stainless to invest ₹900 crore to expand cold rolling capacity",
-   "eksik": [
-    "asama"
-   ],
-   "firma": "Jindal Stainless",
-   "hat": "Soguk hadde",
-   "kapasite": "",
-   "kategori": "Yatirim",
-   "kaynak": "Manufacturing Today India",
-   "kaynak_id": "gx_bigmint_q",
-   "olaylar": [
-    "jindal stainless|fu|Hindistan|Soguk hadde",
-    "jindal stainless|hat|Soguk hadde|Belirsiz",
-    "jindal stainless|ulke|Hindistan|Belirsiz"
-   ],
-   "puan": -2.2,
-   "tarih": "2026-08-17",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "Hindistan",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUE5DeTEtaUxlSFZvVEJGbTd1X3N1SE5YZm5EaVlBZkwxOVNVYkZtTHFtdFFDeTM0UWZrVjdaYkhHTXE5UkpqNGp5aEJCUi1QSUM0cFhHMmZXb1hCa3dFZGswaTRJY21tUFpKYVlGbkZoc0Q5YnljTW5KY2E1WVdqa2VueW5VR3JnQ2ZMQ1BGU1ZHZFM1SGpwMFBOaTNmS2tHWWNaSGV5YU5kMFJKZ2R4d0p3b0FvYkxt?oc=5"
-  },
-  {
-   "anahtar": "24e2dda77f2e84e9",
-   "asama": "Belirsiz",
-   "baslik": "Jindal Stainless investing Rs 900 crore to increase cold rolling capacity to 2.67 MT by FY28: MD",
-   "eksik": [
-    "asama"
-   ],
-   "firma": "FY28",
-   "hat": "Soguk hadde",
-   "kapasite": "2.67 MT",
-   "kategori": "Yatirim",
-   "kaynak": "The Economic Times",
-   "kaynak_id": "gx_bigmint_q",
-   "olaylar": [
-    "fy28|fu|Hindistan|Soguk hadde",
-    "fy28|hat|Soguk hadde|Belirsiz",
-    "fy28|ulke|Hindistan|Belirsiz"
-   ],
-   "puan": 5.0,
-   "tarih": "2026-08-16",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "",
-   "tutar": "Rs 900 crore",
-   "ulke": "Hindistan",
-   "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNM2hmV0lKLTRuT0d6ODZXbllZLVczcTBBUGFUbnh0RWRldnptUlJHYkdmTkVheU1fc2xLRGtfUENvazhTeUQ2cTFMVEcxckFIZmhtWFZDQ2psTDBuak1MVVdaVUlZXzB4YmgzZFh3UkdkRXdpbVZ5WTM1QVhWVnpYS2t6SWxWUmI4Tnk3QlVqQkx5YlJRQ2VzeERVVlcxV2QwdGpfTU05TDZ5WnotNGZtRklMUklzMzltbkFwX2tkMkxNNDhERmRObWVDY2ZucGp5Qm5QTFV0UEI2S28wN3AtTllOT0E4S3dvcWxTWmVZcnNaNHZxc0RhVmhLMDg3bGJlcF9yTXBGMDFzSFnSAZACQVVfeXFMTWh5Q3hBcFRSZkFrUmJfUkZURjFKYXNVbzRZY3pnNGVWZG1uSFVQa2V5R3JWQkhJRHR2U0luTE1IbTJIdVNycERGVERXNFN4Y0NsX3lWeXk3aGtoNkgzTlVHeTNlWVZnSEZLclJrd1FQSXVtc2FadjJmWEdKMU9tVkpER0NDOFhhWEJveFU5VUFiekFvNlpjR1FCR1E4cXpTN2RBSEFIZ3Jpb3JXWEhqZnBHM0ZYS1NOSzlTbU5wTnFiOTF6MHJSNnc2d1BoS0xWeGV2WXAyTFVBT1FjTWZWWlpuQWJYOEViT0RWQ2xCQVlNcU5qRVJhbE5sektENGFHUXpDZXJ4VWtZX094V0RXWDg?oc=5"
-  },
-  {
-   "anahtar": "5057cc8359f58ba5",
-   "asama": "Belirsiz",
-   "baslik": "India's Manaksia Steel to invest $84 million to expand value-added flats capacities",
-   "eksik": [
-    "hat",
-    "asama"
-   ],
-   "firma": "Manaksia Steel",
-   "hat": "Belirsiz",
-   "kapasite": "",
-   "kategori": "Yatirim",
-   "kaynak": "SteelOrbis",
-   "kaynak_id": "steelorbis",
-   "olaylar": [
-    "manaksia steel|fu|Hindistan|Belirsiz",
-    "manaksia steel|hat|Belirsiz|Belirsiz",
-    "manaksia steel|ulke|Hindistan|Belirsiz"
-   ],
-   "puan": -7.0,
-   "tarih": "2026-08-14",
-   "tarih_kaynagi": "json-ld",
-   "tedarikci": "",
-   "tutar": "$84 million",
-   "ulke": "Hindistan",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/indias-manaksia-steel-to-invest-84-million-to-expand-value-added-flats-capacities-1470867.htm"
   }
  ],
  "events": {
@@ -2376,9 +1869,174 @@
     "tekrar": 28
    },
    "uretim": "2026-09-28 11:29 UTC"
+  },
+  {
+   "donem": "2026-W45",
+   "satir": 8,
+   "stats": {
+    "erisilemeyen": 11,
+    "gnews_tarih": 0,
+    "ham": 3216,
+    "kabul": 8,
+    "kapsam_disi": 2853,
+    "kaynak": 291,
+    "makale_acildi": 202,
+    "on_eleme_gecti": 314,
+    "pencere_disi": 252,
+    "tarihsiz_elendi": 77,
+    "tekrar": 26
+   },
+   "uretim": "2026-11-02 12:27 UTC"
   }
  ],
  "rezerv": [
+  {
+   "anahtar": "aac00b6a794a93b5",
+   "asama": "Sozlesme",
+   "baslik": "IMS expands its portfolio with force transducers for precise force measurement under demanding conditions in hot and cold rolling mills",
+   "eksik": [
+    "ulke"
+   ],
+   "firma": "IMS",
+   "hat": "Soguk hadde",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "IMS Messsysteme",
+   "kaynak_id": "ims",
+   "olaylar": [
+    "ims|hat|Soguk hadde|Sozlesme"
+   ],
+   "rezerv": true,
+   "tarih": "2026-10-06",
+   "tarih_kaynagi": "json-ld",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://www.ims-gmbh.de/en/2026/10/06/ims-expands-its-portfolio-with-force-transducers-forprecise-force-measurement-under-demandingconditions-in-hot-and-cold-rolling-mills/"
+  },
+  {
+   "anahtar": "7fd7261209402c52",
+   "asama": "Ilk urun",
+   "baslik": "Gopani Industries Successfully Rolls First Prime Coil from New Cold Rolling Mill",
+   "eksik": [],
+   "firma": "Gopani Industries Successfully",
+   "hat": "Soguk hadde",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Tube & Pipe India",
+   "kaynak_id": "gq_hat02",
+   "olaylar": [
+    "*|ulke-hat|Hindistan|Soguk hadde|Ilk urun",
+    "gopani industries successfully|fu|Hindistan|Soguk hadde",
+    "gopani industries successfully|hat|Soguk hadde|Ilk urun",
+    "gopani industries successfully|ulke|Hindistan|Ilk urun"
+   ],
+   "rezerv": true,
+   "tarih": "2026-10-05",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Hindistan",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zb1JoVG1BQ1FSRlp3Qk02Zl9CaTZ3ME9XLTktbW1rcXhBR0pkMDhLOTZfT0V5LWdwcXZScW5rYzFpS1FjVXhhWU53UzNXeHozRTBpWG12T3R0XzdiZ1BIN1hVeVo2VnV4?oc=5"
+  },
+  {
+   "anahtar": "fc85b1f699b4de4f",
+   "asama": "Ilk urun",
+   "baslik": "BMW Industries Commissions Colour Coating Line, Marking First Phase of Greenfield Downstream Steel Complex at Bokaro",
+   "eksik": [],
+   "firma": "BMW Industries",
+   "hat": "Boyama hatti (CCL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Tube & Pipe India",
+   "kaynak_id": "gq_hat06",
+   "olaylar": [
+    "*|ulke-hat|Hindistan|Boyama hatti (CCL)|Ilk urun",
+    "bmw industries|fu|Hindistan|Boyama hatti (CCL)",
+    "bmw industries|hat|Boyama hatti (CCL)|Ilk urun",
+    "bmw industries|ulke|Hindistan|Ilk urun"
+   ],
+   "rezerv": true,
+   "tarih": "2026-10-05",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Hindistan",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0xUWZ2dUI0QWtjcWU3dlRuNExaUWRGRGdtM0hwa25jZ0JOV2ZJdllYQVVydDFPWjliWWRpeF9WSURrWUszVlBiQk50MVpGUkJZdHhYeVE2N1hwam5LN1o3ZGRzZw?oc=5"
+  },
+  {
+   "anahtar": "e8fff0117f866b1e",
+   "asama": "Ilk urun",
+   "baslik": "BMW Industries Ltd commissions the Colour Coating Line of the first phase of its Greenfield Downstream Steel Complex at Bokaro",
+   "eksik": [
+    "ulke"
+   ],
+   "firma": "BMW Industries Ltd",
+   "hat": "Boyama hatti (CCL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "EquityBulls",
+   "kaynak_id": "gq_hat06",
+   "olaylar": [
+    "bmw industries ltd|hat|Boyama hatti (CCL)|Ilk urun"
+   ],
+   "rezerv": true,
+   "tarih": "2026-10-05",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNLVV0eTVMS0VNWlA3SFZfRncwQ2laall4Z0ZrWlU3UTBBT1lIUXp4ZGN6NnhER0pxQ3FvM0d2ZWRveGRHM1MtOWRzQU5yNzFsaGNBVnhoUE5wcC1sRWpqN0VWU21pb2QzOWE3VEdaZlZxQXZEdE43YzRfc1dvNVQ5QXdKMTRuQ1R2dGVwSFV4ZWp3alo0RnpTOGhhekFUb09FcmZkVW5IWG5mV3RlY21aMFdaazc1YUZ2ZUtNcQ?oc=5"
+  },
+  {
+   "anahtar": "e82b221fc2986888",
+   "asama": "Teknoloji",
+   "baslik": "Turkey's Isdemir develops high-quality steel production for defense industry and electrical steel",
+   "eksik": [],
+   "firma": "Isdemir",
+   "hat": "Elektrik celigi hatti",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Steel Orbis",
+   "kaynak_id": "gq_hat08",
+   "olaylar": [
+    "isdemir|fu|Turkiye|Elektrik celigi hatti",
+    "isdemir|hat|Elektrik celigi hatti|Teknoloji",
+    "isdemir|ulke|Turkiye|Teknoloji"
+   ],
+   "rezerv": true,
+   "tarih": "2026-10-05",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Turkiye",
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMW13SGRFangyUGg2dkFBMDJ0aUFSSVljX0gxbXFZMng2OWRYY1hqLThqYVNtaDJzMUlvanBROE02MXZMTktNNG4zU3AzdHZzVUlxRVpXUlZRVzQ0eUhKamhRU2dyMHh4RkdDcGEtYXMzRmQ1eEE5aV9GWTJkZmhCeTZCRzE3ZG5VZS1pdEZnaXBGNzZ1WGl1WUxTeUNIVEY2UzJTN1MtZ0RvbnFNc0NzNUJtWl9YX0J6Y0FMQlh1cTUzRzdMZ3dNbE9zQXU2a1NTVGVUeEwybnR1M2VQcmtaaEFQb2RhWTVSTjdxMXdGRQ?oc=5"
+  },
+  {
+   "anahtar": "3c6ddad628eeb8ca",
+   "asama": "Belirsiz",
+   "baslik": "POSCO, Otomotiv Çeliği İçin 359 Milyon Dolarlık Yeni Galvanizleme Hattı Kuruyor",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "firma": "POSCO",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "SteelTurk",
+   "kaynak_id": "steelturk",
+   "olaylar": [
+    "posco|hat|Galvaniz hatti (CGL)|Belirsiz"
+   ],
+   "rezerv": true,
+   "tarih": "2026-09-24",
+   "tarih_kaynagi": "metin",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://www.steelturk.com.tr/posco-otomotiv-celigi-icin-359-milyon-dolarlik-yeni-galvanizleme-hatti-kuruyor/"
+  },
   {
    "anahtar": "a116c7d2cd9568bd",
    "asama": "Sozlesme",
@@ -3140,6 +2798,22 @@
  ],
  "source_health": {},
  "tech_rezerv": [
+  {
+   "anahtar": "tech:39cef9f2a80a7302",
+   "baslik": "R&D Update: Lubrication and galling in stamping of galvanized AHSS - Part III",
+   "hat": "Galvaniz hatti (CGL)",
+   "kaynak": "Google News",
+   "tarih": "2026-10-28",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObFNJdUNpQXFUajVzUHFLbTlPdVd1MHFOcDlGU3d4czJlMlptTURvNTZFTEJETXVSRWZKQ19XWTd5RWI4S0VPdTYxMEZ1aXkwb01fT1hiazJ6U2Etbzd4VkRTRGp2TkJjU0RybEZQTVlHZ0pkTXRtLW8wY0hyNEpKYjhhY19LOGNqSGZqcmhtcFN1eHJ4UVZBMzc4di0xb1VILTlHb2NiRy1MNnVXU2RIXzRZSDc?oc=5"
+  },
+  {
+   "anahtar": "tech:e82b221fc2986888",
+   "baslik": "Turkey's Isdemir develops high-quality steel production for defense industry and electrical steel",
+   "hat": "Elektrik celigi hatti",
+   "kaynak": "Google News",
+   "tarih": "2026-10-05",
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMW13SGRFangyUGg2dkFBMDJ0aUFSSVljX0gxbXFZMng2OWRYY1hqLThqYVNtaDJzMUlvanBROE02MXZMTktNNG4zU3AzdHZzVUlxRVpXUlZRVzQ0eUhKamhRU2dyMHh4RkdDcGEtYXMzRmQ1eEE5aV9GWTJkZmhCeTZCRzE3ZG5VZS1pdEZnaXBGNzZ1WGl1WUxTeUNIVEY2UzJTN1MtZ0RvbnFNc0NzNUJtWl9YX0J6Y0FMQlh1cTUzRzdMZ3dNbE9zQXU2a1NTVGVUeEwybnR1M2VQcmtaaEFQb2RhWTVSTjdxMXdGRQ?oc=5"
+  },
   {
    "anahtar": "tech:b56ca34c38e3c8eb",
    "baslik": "Steel inspection system uses machine vision to increase line speed and precision",

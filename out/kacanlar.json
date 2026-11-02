@@ -1,10 +1,10 @@
 {
  "donem": "2026-W40",
  "pencere": [
-  "2026-09-07",
-  "2026-09-28"
+  "2026-10-12",
+  "2026-11-02"
  ],
- "uretim": "2026-09-28 11:29 UTC",
+ "uretim": "2026-11-02 12:37 UTC",
  "kaynaklar": {
   "steeltimesint": {
    "publisher": "Steel Times International",
@@ -19,32 +19,53 @@
   "mysteel": {
    "publisher": "Mysteel",
    "durum": "erisilemedi",
-   "hata": "HTTP 404"
+   "hata": "URLError: <urlopen error timed out>"
   }
  },
- "adet": 1,
+ "adet": 2,
  "kacanlar": [
   {
-   "tarih": "2026-09-16",
+   "tarih": "2026-10-27",
    "tarih_kaynagi": "json-ld",
-   "baslik": "Daido Steel completes new forged steel processing line at Chita No. 2 plant",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/daido-steel-completes-new-forged-steel-processing-line-at-chita-no-2-plant-1477689.htm",
+   "baslik": "POSCO Steeleon to supply a US home appliance manufacturer with anti-fingerprint color-coated steel sheets",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/posco-steeleon-to-supply-a-us-home-appliance-manufacturer-with-anti-fingerprint-color-coated-steel-sheets-1486902.htm",
    "kaynak": "SteelOrbis",
    "katman": "Hat",
-   "hat": "Serit isleme hatti",
-   "asama": "Belirsiz",
-   "anahtar": "6bafb498d8e38fb4"
+   "hat": "Boyama hatti (CCL)",
+   "asama": "Sozlesme",
+   "anahtar": "6bc10ade8d2cadf1"
+  },
+  {
+   "tarih": "2026-10-14",
+   "tarih_kaynagi": "json-ld",
+   "baslik": "BlueScope produces first galvanized coil on new ANDRITZ line in Australia",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/bluescope-produces-first-galvanized-coil-on-new-andritz-line-in-australia-1483504.htm",
+   "kaynak": "SteelOrbis",
+   "katman": "Hat",
+   "hat": "Galvaniz hatti (CGL)",
+   "asama": "Ilk urun",
+   "anahtar": "ea581249119e5a4e"
   }
  ],
  "dogrulanamayan": [],
  "acildi_elendi": [
   {
-   "baslik": "Japan's Chugai Ro delivers electric bright annealing line to Romania's Otelinox",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/japans-chugai-ro-delivers-electric-bright-annealing-line-to-romanias-otelinox-1474287.htm",
-   "sebep": "pencere disi (2026-09-01)"
+   "baslik": "UAE's Embosal plans 1.2 million mt HRC plant",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/baeli-embosal-12-milyon-mt-kapasiteli-sicak-rulo-sac-tesisi-kurmayi-planliyor-1485164.htm",
+   "sebep": "gercek baslikta kapsam_disi"
+  },
+  {
+   "baslik": "India's BMWIL launches color coating line amid downstream expansion",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/indias-bmwil-launches-color-coating-line-amid-downstream-expansion-1482236.htm",
+   "sebep": "pencere disi (2026-10-08)"
+  },
+  {
+   "baslik": "US continues AD orders on CTL plate from China and Russia",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/us-continues-ad-orders-on-ctl-plate-from-china-and-russia-1481929.htm",
+   "sebep": "pencere disi (2026-10-06)"
   }
  ],
- "kapiyi_gecen": 2,
+ "kapiyi_gecen": 5,
  "sitemap_adayi": 400,
- "elenen": 398
+ "elenen": 395
 }
