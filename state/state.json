@@ -11,6 +11,7 @@
    "kategori": "Hat",
    "kaynak": "Rediff MoneyWiz",
    "kaynak_id": "gx_bigmint_q",
+   "lead": "Jindal India Commissions Revamped Galvanising Line, Boosts Capacity &nbsp;&nbsp; Rediff MoneyWiz",
    "olaylar": [
     "*|ulke-hat|Hindistan|Galvaniz hatti (CGL)|Ilk urun",
     "jindal india|fu|Hindistan|Galvaniz hatti (CGL)",
@@ -26,30 +27,6 @@
    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbzh5Xzk5UzhnUU1VZ2w2TUYtLTU1VTZyM1psT1NpSGZIQ1NoMVlwSklORlhpeWVaWUVjNWdHaGNaWUg4SFp6ekE1dW5ockRPT3VsLWRFOTdMYmo3RXJ2eFBNdElZbFloUzNhdWNFRXQyYkZPcmVkQ3pRNV9vREJ2RTA5Nkp0NUZZM2YtS1dVU210enhwWEdkaHAtYVV6VXVOZkdEaEpoU25saEVFN1FFZ1J1YXp0S0lXMHfSAb8BQVVfeXFMTk1pazRMWW9aRm9kUnVsTlA4SzN3bFZKcGJsOGlYOHZRbXIzM0tlQURRTlpTTFhLT25fZkl3U2tHUWZma3JpSTdkOXhSM2Z4Y2dqcE1lNnZjM0dzTUhrbWVlQmlkZnlOc3IySU5qZ3A2RHRWMDJCUlF3bFdzWW1MRlotMG5SdDliWkFIZ0pBS0NDSldCSVV5NWFoQnZDOEUzRHg3QmRaZEMzTXQ5S09oM3o1MDc0SGVsQzNadEt1UHM?oc=5"
   },
   {
-   "anahtar": "cc4db9bd733fdee7",
-   "asama": "Modernizasyon",
-   "baslik": "BC Jindal Group’s Jindal (India) Limited Achieves 1.6 MTPA Downstream Steel Capacity with Successful CGL-5 Revamp",
-   "eksik": [],
-   "firma": "BC Jindal Group",
-   "hat": "Galvaniz hatti (CGL)",
-   "kapasite": "1.6 MTPA",
-   "kategori": "Hat",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgx_bigmint_q",
-   "olaylar": [
-    "bc jindal group|fu|Hindistan|Galvaniz hatti (CGL)",
-    "bc jindal group|hat|Galvaniz hatti (CGL)|Modernizasyon",
-    "bc jindal group|ulke|Hindistan|Modernizasyon"
-   ],
-   "puan": 48.6,
-   "tarih": "2026-10-27",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "Hindistan",
-   "url": "https://newspatrolling.com/bc-jindal-groups-jindal-india-limited-achieves-1-6-mtpa-downstream-steel-capacity-with-successful-cgl-5-revamp/"
-  },
-  {
    "anahtar": "81afdce4c6c25e28",
    "asama": "Belirsiz",
    "baslik": "Tenova supplies processing lines for JSW JFE’s electrical steel plant in India",
@@ -62,6 +39,7 @@
    "kategori": "Hat",
    "kaynak": "Yieh Corp.",
    "kaynak_id": "gq_hat08",
+   "lead": "Tenova supplies processing lines for JSW JFE’s electrical steel plant in India &nbsp;&nbsp; Yieh Corp.",
    "olaylar": [
     "jsw jfe|fu|Hindistan|Elektrik celigi hatti",
     "jsw jfe|hat|Elektrik celigi hatti|Belirsiz",
@@ -92,6 +70,7 @@
    "kategori": "Hat",
    "kaynak": "Andritz Metals",
    "kaynak_id": "andritz",
+   "lead": "Skip to main content en English Deutsch Site directory Newsroom Menu Search en English Deutsch Site directory Newsroom Menu Search Annual Report 2025 published Turning progress into industrial impact. FOR GROWTH THAT MATTERS. Discover more ANDRITZ GROUP ANDRITZ GROUP Newsroom Careers Sustainability OUR BUSINESS AREAS PULP & PAPER METALS HYDROPOWER ENVIRONMENT & ENERGY MORE ANDRITZ SOLUTIONS Automation Cyber security ",
    "olaylar": [
     "andritz|hat|Galvaniz hatti (CGL)|Ilk urun",
     "bluescope steel|hat|Galvaniz hatti (CGL)|Ilk urun"
@@ -103,6 +82,31 @@
    "tutar": "",
    "ulke": "",
    "url": "https://www.andritz.com/newsroom-en/metals/2026-10-13-bluescope-group"
+  },
+  {
+   "anahtar": "0974a592e27b2b6f",
+   "asama": "Modernizasyon",
+   "baslik": "Fives upgrades Hyundai Steel's galvanising line",
+   "eksik": [],
+   "firma": "Fives",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_sup06",
+   "lead": "CRC / N America Ex-Works USD/s.ton 2.05% Plate / N America Ex-Works USD/s.ton 0.00% HRC / N America Ex-Works USD/s.ton 0.00% E2 & E3 Shipbreaking scrap /Turkey / Delivered basis / USD/t 0.00% E3 ...",
+   "olaylar": [
+    "fives|fu|Turkiye|Galvaniz hatti (CGL)",
+    "fives|hat|Galvaniz hatti (CGL)|Modernizasyon",
+    "fives|ulke|Turkiye|Modernizasyon"
+   ],
+   "puan": 53.0,
+   "tarih": "2026-10-13",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "Fives",
+   "tutar": "",
+   "ulke": "Turkiye",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/fives-upgrades-hyundai-steels-galvanising-line-0926/"
   },
   {
    "anahtar": "3705534b48675072",
@@ -156,33 +160,6 @@
    "url": "https://news.metal.com/en/newscontent/104134673-oyak-plans-new-electrical-steel-investments-at-erdemir-romania"
   },
   {
-   "anahtar": "cdea092dff7b1ff5",
-   "asama": "Belirsiz",
-   "baslik": "Severstal: primo coil sulla terza linea del nuovo laminatoio barre - Il mill 170 di Cherepovets raggiungerà una capacità di 900mila t/anno. Investimento da oltre 15 miliardi di rubli",
-   "eksik": [
-    "ulke",
-    "hat",
-    "asama"
-   ],
-   "firma": "Severstal",
-   "hat": "Belirsiz",
-   "kapasite": "",
-   "kategori": "Yatirim",
-   "kaynak": "Siderweb",
-   "kaynak_id": "siderweb",
-   "olaylar": [
-    "abb|hat|Belirsiz|Belirsiz",
-    "severstal|hat|Belirsiz|Belirsiz"
-   ],
-   "puan": 0.6,
-   "tarih": "2026-09-25",
-   "tarih_kaynagi": "json-ld",
-   "tedarikci": "ABB",
-   "tutar": "",
-   "ulke": "",
-   "url": "https://www.siderweb.com/articoli/news/731998-severstal-primo-coil-sulla-terza-linea-del-nuovo-laminatoio-barre"
-  },
-  {
    "anahtar": "3c6ddad628eeb8ca",
    "asama": "Belirsiz",
    "baslik": "POSCO, Otomotiv Çeliği İçin 359 Milyon Dolarlık Yeni Galvanizleme Hattı Kuruyor",
@@ -207,34 +184,6 @@
    "tutar": "",
    "ulke": "",
    "url": "https://www.steelturk.com.tr/posco-otomotiv-celigi-icin-359-milyon-dolarlik-yeni-galvanizleme-hatti-kuruyor/"
-  },
-  {
-   "anahtar": "ead1e2985beceddf",
-   "asama": "Belirsiz",
-   "baslik": "India extends AD investigation deadline on stainless steel cold-rolled flat products from 3 Asian nations",
-   "eksik": [
-    "firma",
-    "asama",
-    "tarih?"
-   ],
-   "firma": "",
-   "hat": "Soguk hadde",
-   "kapasite": "",
-   "kategori": "Yatirim",
-   "kaynak": "Yieh Corp",
-   "kaynak_id": "yieh",
-   "olaylar": [
-    "|fu|Hindistan|Soguk hadde",
-    "|hat|Soguk hadde|Belirsiz",
-    "|ulke|Hindistan|Belirsiz"
-   ],
-   "puan": 3.0,
-   "tarih": "2026-09-24",
-   "tarih_kaynagi": "metin",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "Hindistan",
-   "url": "https://www.yieh.com/en/News/india-extends-ad-investigation-deadline-on-stainless-steel-cold-rolled-flat-products-from-3-asian-nations/162696"
   },
   {
    "anahtar": "7b2685775084bf64",
@@ -572,6 +521,7 @@
   "|hat|Dilme / boy kesme / SSC|Ilk urun": "2026-08-05",
   "|hat|Elektrik celigi hatti|Ilk urun": "2026-08-26"
  },
+ "gonderilen_donemler": [],
  "periods": [
   {
    "donem": "2026-08 (aylik, v2.0)",
@@ -1872,21 +1822,21 @@
   },
   {
    "donem": "2026-W45",
-   "satir": 8,
+   "satir": 7,
    "stats": {
-    "erisilemeyen": 11,
+    "erisilemeyen": 12,
     "gnews_tarih": 0,
-    "ham": 3216,
-    "kabul": 8,
-    "kapsam_disi": 2853,
+    "ham": 3304,
+    "kabul": 7,
+    "kapsam_disi": 2930,
     "kaynak": 291,
     "makale_acildi": 202,
-    "on_eleme_gecti": 314,
-    "pencere_disi": 252,
+    "on_eleme_gecti": 327,
+    "pencere_disi": 262,
     "tarihsiz_elendi": 77,
-    "tekrar": 26
+    "tekrar": 28
    },
-   "uretim": "2026-11-02 12:27 UTC"
+   "uretim": "2026-11-02 12:49 UTC"
   }
  ],
  "rezerv": [
@@ -1903,6 +1853,7 @@
    "kategori": "Hat",
    "kaynak": "IMS Messsysteme",
    "kaynak_id": "ims",
+   "lead": "Skip to content IMS expands its portfolio with force transducers for precise force measurement under demanding conditions in hot and cold rolling mills With the RollKraft product family, IMS Messsysteme GmbH is expanding its portfolio with force transducers designed for use in hot and cold rolling mills. The measurement systems provide precise measurement data for the control, analysis and optimisation of rolling pro",
    "olaylar": [
     "ims|hat|Soguk hadde|Sozlesme"
    ],
@@ -1925,6 +1876,7 @@
    "kategori": "Hat",
    "kaynak": "Tube & Pipe India",
    "kaynak_id": "gq_hat02",
+   "lead": "Gopani Industries Successfully Rolls First Prime Coil from New Cold Rolling Mill &nbsp;&nbsp; Tube & Pipe India",
    "olaylar": [
     "*|ulke-hat|Hindistan|Soguk hadde|Ilk urun",
     "gopani industries successfully|fu|Hindistan|Soguk hadde",
@@ -1950,6 +1902,7 @@
    "kategori": "Hat",
    "kaynak": "Tube & Pipe India",
    "kaynak_id": "gq_hat06",
+   "lead": "BMW Industries Commissions Colour Coating Line, Marking First Phase of Greenfield Downstream Steel Complex at Bokaro &nbsp;&nbsp; Tube & Pipe India",
    "olaylar": [
     "*|ulke-hat|Hindistan|Boyama hatti (CCL)|Ilk urun",
     "bmw industries|fu|Hindistan|Boyama hatti (CCL)",
@@ -1977,6 +1930,7 @@
    "kategori": "Hat",
    "kaynak": "EquityBulls",
    "kaynak_id": "gq_hat06",
+   "lead": "BMW Industries Ltd commissions the Colour Coating Line of the first phase of its Greenfield Downstream Steel Complex at Bokaro &nbsp;&nbsp; EquityBulls",
    "olaylar": [
     "bmw industries ltd|hat|Boyama hatti (CCL)|Ilk urun"
    ],
@@ -1999,6 +1953,7 @@
    "kategori": "Hat",
    "kaynak": "Steel Orbis",
    "kaynak_id": "gq_hat08",
+   "lead": "Turkey's Isdemir develops high-quality steel production for defense industry and electrical steel &nbsp;&nbsp; Steel Orbis",
    "olaylar": [
     "isdemir|fu|Turkiye|Elektrik celigi hatti",
     "isdemir|hat|Elektrik celigi hatti|Teknoloji",
@@ -2026,6 +1981,7 @@
    "kategori": "Hat",
    "kaynak": "SteelTurk",
    "kaynak_id": "steelturk",
+   "lead": "Hakkımızda Reklam Bize Ulaşın Demir Çelik Çelik Sektörü Yassı Çelik Yeşil Çelik Vasıflı Çelik Paslanmaz Çelik Alüminyum Boru & Profil Uzun Çelik Mamülleri Yapısal çelik Nervürlü Demir & Çelik Hasır Hammadde & Yarımamül Diğer Metaller Global Çelik Haberleri Röportajlar Metal & Sac İşleme Endüstriyel Sektörler Vinç Makina Çimento & Maden Güç Aktarım Sistemleri Hidrolik & Pnömatik Endüstriyel Kalıp Otomasyon & Robot Tek",
    "olaylar": [
     "posco|hat|Galvaniz hatti (CGL)|Belirsiz"
    ],

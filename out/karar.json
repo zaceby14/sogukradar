@@ -1,0 +1,36 @@
+{
+ "donem": "2026-W45",
+ "gonder": false,
+ "deneme": true,
+ "satir": 5,
+ "nedenler": [],
+ "yazar": {
+  "saglayici": null,
+  "llm_hatalar": [
+   "github yanit okunamadi: Expecting value: line 1 column 1 (char 0)"
+  ],
+  "reddedilen_cumle": [],
+  "cumle_llm": 0,
+  "cumle_kuralsal": 5,
+  "supheli_cikarilan": 0
+ },
+ "elenen_satirlar": [
+  {
+   "baslik": "Nippon Steel to spend $3B to upgrade US Steel Pennsylvania mill",
+   "neden": "guncel kapiyi gecmiyor"
+  },
+  {
+   "baslik": "ArcelorMittal commits €300 million to Dunkirk steel project, targets spring 2027 tests for",
+   "neden": "guncel kapiyi gecmiyor"
+  }
+ ],
+ "email": "/home/runner/work/sogukradar/sogukradar/out/deneme_email.html",
+ "uretildi": "2026-11-02T12:49:28.503925Z",
+ "basliklar": [
+  "Primetals Technologies to supply continuous galvanizing and pickling line to Chengde Steel",
+  "ANDRITZ continuous galvanizing line at BlueScope Steel produces first galvanized coil",
+  "Jindal India Commissions Revamped Galvanising Line, Boosts Capacity",
+  "Fives upgrades Hyundai Steel's galvanising line",
+  "Tenova supplies processing lines for JSW JFE’s electrical steel plant in India"
+ ]
+}
