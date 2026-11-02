@@ -338,57 +338,6 @@
    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdU1RMmRXLVpqaWEzNHN4cnhuUlhZajdIMjFfc1VFY0tIT1dQNFlucGVBVGZ0MkpVcW91RHlsREwyUFltVW0yWGlNQzNwVDVUSy1ETXUzNG41TXFGTHJncmI1TXNhS2tVYXJEcDV4Mmt4Mm9KdWJoczNyeDNPWWNqY0FDUU1mUnF1NEZxWm9IQnNoNmtDZnh5U25iMml2TFVGN1E?oc=5"
   },
   {
-   "anahtar": "9a0e4948eeca27d9",
-   "asama": "Modernizasyon",
-   "baslik": "The European Commission has introduced temporary protective measures for the import of electrical steel",
-   "eksik": [],
-   "firma": "European",
-   "hat": "Elektrik celigi hatti",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "Metallurgprom",
-   "kaynak_id": "metallurgprom",
-   "olaylar": [
-    "european|fu|Hindistan|Elektrik celigi hatti",
-    "european|hat|Elektrik celigi hatti|Modernizasyon",
-    "european|ulke|Hindistan|Modernizasyon"
-   ],
-   "puan": 51.6,
-   "tarih": "2026-09-23",
-   "tarih_kaynagi": "json-ld",
-   "tedarikci": "",
-   "tutar": "300 million eur",
-   "ulke": "Hindistan",
-   "url": "https://metallurgprom.org/en/news/europe/21800-evrokomissija-vvela-vremennye-zaschitnye-mery-dlja-importa-jelektrotehnicheskoj-stali.html"
-  },
-  {
-   "anahtar": "53755e2c0db4a5a0",
-   "asama": "Belirsiz",
-   "baslik": "EMSTEEL supplies sheet piles for UK highway expansion project",
-   "eksik": [
-    "hat",
-    "asama"
-   ],
-   "firma": "EMSTEEL",
-   "hat": "Belirsiz",
-   "kapasite": "",
-   "kategori": "Yatirim",
-   "kaynak": "MEsteel",
-   "kaynak_id": "mesteel",
-   "olaylar": [
-    "emsteel|fu|Birlesik Krallik|Belirsiz",
-    "emsteel|hat|Belirsiz|Belirsiz",
-    "emsteel|ulke|Birlesik Krallik|Belirsiz"
-   ],
-   "puan": -5.4,
-   "tarih": "2026-09-22",
-   "tarih_kaynagi": "meta:datepublished",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "Birlesik Krallik",
-   "url": "https://news.mesteel.com/emsteel-supplies-sheet-piles-for-uk-highway-expansion-project/"
-  },
-  {
    "anahtar": "866a901347e29691",
    "asama": "Modernizasyon",
    "baslik": "唐山市晟鑫冷轧薄板生产线升级改造项目生态环境影响报告书获批",
@@ -462,31 +411,6 @@
    "tutar": "",
    "ulke": "",
    "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNRjdQdkp3TTgyQXluR1JnM29pUmoyT3NoUDZBenBrZk81RVZwNHo5NEZsVmpLVlVYNlZobEJVT0RPWWZTNno3NmM2X2FRNUpMazlkUG9HQzhRMmI5SktOYnVfa3ZSbzc2QlBwazd2V3NmS09LbUlXVW9rY0x0QXhBUklaUnN3RGVRUHQzb0laeXU3Q0FtZHlFYWlpRU5YSlg2Q19UMDNFdHZRS0U0aDRpTUZpOHZQUk9vUUU2dW00akUtOU9KTVhnbldUY00zbW96dnBfX2VRaFFRTGs3Ymx2QWs5UVhzSFFpY1dWY2JqcjdMV2s?oc=5"
-  },
-  {
-   "anahtar": "fa9153c7d7a93635",
-   "asama": "Belirsiz",
-   "baslik": "Did Electrical Steel Expansion Just Shift Worthington Steel (WS) Investment Narrative?",
-   "eksik": [
-    "ulke",
-    "asama"
-   ],
-   "firma": "Did Electrical Steel",
-   "hat": "Elektrik celigi hatti",
-   "kapasite": "",
-   "kategori": "Yatirim",
-   "kaynak": "simplywall.st",
-   "kaynak_id": "gx_q_elec2",
-   "olaylar": [
-    "did electrical steel|hat|Elektrik celigi hatti|Belirsiz"
-   ],
-   "puan": 5.6,
-   "tarih": "2026-09-20",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "",
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZzJnQkFHSnNNVDVBU1VSZnZIMXF4WG4wYjRyOHZQdkdfakxLU3lrZ2YxOC1acVU5V1dsU1RLcFhVZmpOMUZhZUJLa25vampucWVNTnlFODlTUXVrQ0Z1SGRDb29KNi0yVEkzUy0ta1dFQU1QOVdUSjY3QlUxT0ZQR0NwWXVOLWxNTHRQZmw4MklTNmpIb0NjMS1yeVBTVThtWkx5dmlNalBUeEN5bmdOVUdyRldESHRQY3JicTlHN29CVmxnaWpRQ2d1TkfSAdIBQVVfeXFMTlZwRFBaWEk3a0YyWFM0dzJySEZRT2daSHU3WWFYRjVpRFdTYjdxSW1GTnF3QUl1ZWpzVXlKTWM4VldXeTRzZGphQWZTQ2ZnNUhVMjc5Qlc4dGxNUmNWbmNZVElfdGFjd2lBUmhZUk5xMElnYk5KV3Z6cjV4cFl5N1p3NWxlcWh0VWw0VnVyVm4tUFRhR2sxd0hIbEthb08zMktzTjBuWGFscnU1cWk3eHhGM2lHRW9RMlhUMm5GdURhdlBaVGY1RjYxa1ZsWjJrNUJR?oc=5"
   },
   {
    "anahtar": "6bb3535ceff2b463",
@@ -1923,6 +1847,24 @@
     "tekrar": 25
    },
    "uretim": "2026-11-02 13:34 UTC"
+  },
+  {
+   "donem": "2026-W45",
+   "satir": 6,
+   "stats": {
+    "erisilemeyen": 11,
+    "gnews_tarih": 0,
+    "ham": 3416,
+    "kabul": 7,
+    "kapsam_disi": 3020,
+    "kaynak": 291,
+    "makale_acildi": 202,
+    "on_eleme_gecti": 329,
+    "pencere_disi": 252,
+    "tarihsiz_elendi": 103,
+    "tekrar": 34
+   },
+   "uretim": "2026-11-02 13:47 UTC"
   }
  ],
  "rezerv": [

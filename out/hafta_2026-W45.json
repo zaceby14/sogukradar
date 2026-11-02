@@ -64,7 +64,7 @@
    "tutar": "",
    "baslik": "BC Jindal Group’s Jindal (India) Limited Achieves 1.6 MTPA Downstream Steel Capacity with Successful CGL-5 Revamp",
    "kaynak": "Bing News",
-   "kaynak_id": "bgx_bigmint_q",
+   "kaynak_id": "bgq_hat18",
    "url": "https://newspatrolling.com/bc-jindal-groups-jindal-india-limited-achieves-1-6-mtpa-downstream-steel-capacity-with-successful-cgl-5-revamp/",
    "tarih_kaynagi": "rss",
    "lead": "Revamped CGL-5 line at Ranihati increases production capacity by over 50%, from 590 TPD to 889 TPD Bengaluru, 27th October 2026: Jindal (India) Limited, part of the BC Jindal Group and one of the ...",
@@ -79,31 +79,29 @@
    "puan": 48.6
   },
   {
-   "tarih": "2026-10-22",
-   "firma": "Nippon Steel",
-   "ulke": "ABD",
-   "hat": "Belirsiz",
+   "tarih": "2026-10-13",
+   "firma": "Fives",
+   "ulke": "",
+   "hat": "Galvaniz hatti (CGL)",
    "asama": "Modernizasyon",
-   "tedarikci": "",
+   "tedarikci": "Fives",
    "kapasite": "",
-   "tutar": "$3 Billion",
-   "baslik": "Nippon Steel Raises US Mill Upgrade to $3 Billion as Costs Climb",
+   "tutar": "",
+   "baslik": "Fives upgrades Hyundai Steel's galvanising line",
    "kaynak": "Bing News",
-   "kaynak_id": "bgq_hat01",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-23/nippon-steel-raises-us-mill-upgrade-to-3-billion-as-costs-climb",
+   "kaynak_id": "bgq_sup06",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/fives-upgrades-hyundai-steels-galvanising-line-0926/",
    "tarih_kaynagi": "rss",
-   "lead": "Nippon Steel Corp. will spend $3 billion building a hot-strip mill in Pennsylvania, part of its $11 billion investment plan in newly-acquired US Steel.",
+   "lead": "",
    "eksik": [
-    "hat"
+    "ulke"
    ],
-   "anahtar": "e78669efb805f0bb",
+   "anahtar": "0974a592e27b2b6f",
    "kategori": "Hat",
    "olaylar": [
-    "nippon steel|fu|ABD|Belirsiz",
-    "nippon steel|hat|Belirsiz|Modernizasyon",
-    "nippon steel|ulke|ABD|Modernizasyon"
+    "fives|hat|Galvaniz hatti (CGL)|Modernizasyon"
    ],
-   "puan": 33.6
+   "puan": 42.0
   },
   {
    "tarih": "2026-10-20",
@@ -136,44 +134,42 @@
    "puan": 31.8
   },
   {
-   "tarih": "2026-10-15",
-   "firma": "ArcelorMittal",
-   "ulke": "Fransa",
-   "hat": "Elektrik celigi hatti",
-   "asama": "Belirsiz",
-   "tedarikci": "",
+   "anahtar": "0b386546c836c574",
+   "asama": "Sozlesme",
+   "baslik": "Red Bud Industries Installs Cut-to-Length Line at McNeilus Steel’s Tennessee Facility",
+   "eksik": [],
+   "firma": "Red Bud Industries",
+   "hat": "Dilme / boy kesme / SSC",
    "kapasite": "",
-   "tutar": "€300 million",
-   "baslik": "ArcelorMittal commits €300 million to Dunkirk steel project, targets spring 2027 tests for new line in Mardyck",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgs_orbis2",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/arcelormittal-advances-dunkirk-eaf-and-mardyck-electrical-steel-projects-1483903.htm",
-   "tarih_kaynagi": "rss",
-   "lead": "ArcelorMittal has announced progress on its €1.3 billion low-carbon steelmaking project at Dunkirk and €500 million electrical steel expansion at Mardyck, France, supporting emissions reductions ...",
-   "eksik": [
-    "asama"
-   ],
-   "anahtar": "45c439b08bc58b50",
    "kategori": "Hat",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_hat10",
+   "lead": "Red Bud Industries has installed a heavy-gauge cut-to-length line equipped with a T3 stretcher leveler at McNeilus Steel Inc.’s facility in Morrison, Tennessee, USA. The new system is designed to ...",
    "olaylar": [
-    "arcelormittal|fu|Fransa|Elektrik celigi hatti",
-    "arcelormittal|hat|Elektrik celigi hatti|Belirsiz",
-    "arcelormittal|ulke|Fransa|Belirsiz"
+    "red bud industries|fu|ABD|Dilme / boy kesme / SSC",
+    "red bud industries|hat|Dilme / boy kesme / SSC|Sozlesme",
+    "red bud industries|ulke|ABD|Sozlesme"
    ],
-   "puan": 27.8
+   "puan": 46.2,
+   "tarih": "2026-10-26",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "ABD",
+   "url": "https://themachinemaker.com/news/red-bud-industries-installs-cut-to-length-line-at-mcneilus-steels-tennessee-facility/"
   }
  ],
  "stats": {
   "kaynak": 291,
   "erisilemeyen": 11,
-  "ham": 3314,
-  "on_eleme_gecti": 313,
-  "makale_acildi": 201,
+  "ham": 3416,
+  "on_eleme_gecti": 329,
+  "makale_acildi": 202,
   "tarihsiz_elendi": 103,
-  "pencere_disi": 255,
-  "kapsam_disi": 2925,
-  "tekrar": 25,
-  "kabul": 6,
+  "pencere_disi": 252,
+  "kapsam_disi": 3020,
+  "tekrar": 34,
+  "kabul": 7,
   "gnews_tarih": 0
  },
  "unreachable": [
@@ -561,17 +557,17 @@
  "kaynak_katki": {
   "Andritz Metals": 1,
   "Google News": 2,
-  "Bing News": 3
+  "Bing News": 4
  },
  "window": [
   "2026-10-12",
   "2026-11-02"
  ],
- "bulunan_kullanilan": 0,
- "bulunan_havuz": 16,
+ "bulunan_kullanilan": 1,
+ "bulunan_havuz": 11,
  "rezerv_kullanilan": 0,
  "rezerv_havuz": 32,
  "period": "2026-W45",
- "generated": "2026-11-02 13:34 UTC",
+ "generated": "2026-11-02 13:47 UTC",
  "version": "3.0.0"
 }

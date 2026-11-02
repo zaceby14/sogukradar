@@ -11,14 +11,14 @@
 3. **BC Jindal Group** (Hindistan, 2026-10-27) &mdash; Galvaniz hatti (CGL) / Modernizasyon  
    BC Jindal Group’s Jindal (India) Limited Achieves 1.6 MTPA Downstream Steel Capacity with Successful CGL-5 Revamp  
    https://newspatrolling.com/bc-jindal-groups-jindal-india-limited-achieves-1-6-mtpa-downstream-steel-capacity-with-successful-cgl-5-revamp/
-4. **Nippon Steel** (ABD, 2026-10-22) &mdash; Belirsiz / Modernizasyon  
-   Nippon Steel Raises US Mill Upgrade to $3 Billion as Costs Climb  
-   https://www.bloomberg.com/news/articles/2026-10-23/nippon-steel-raises-us-mill-upgrade-to-3-billion-as-costs-climb
+4. **Fives** (-, 2026-10-13) &mdash; Galvaniz hatti (CGL) / Modernizasyon  
+   Fives upgrades Hyundai Steel's galvanising line  
+   https://www.kallanish.com/en/news/steel/market-reports/article-details/fives-upgrades-hyundai-steels-galvanising-line-0926/
 5. **JSW JFE** (Hindistan, 2026-10-20) &mdash; Elektrik celigi hatti / Belirsiz  
    Tenova supplies processing lines for JSW JFE’s electrical steel plant in India  
    https://news.google.com/rss/articles/CBMiswFBVV95cUxObnZFSDNsYV9qV0ZSbk1JUU5rV29LeS1DZGMtbmFMUDREcHZHeHNCWVkzQjl2TnhKWmVjeXloUy1qNWd6dmdSVzQtTVhwM1pzUTB5akFtcjZVc0NjZVF6T3MxZzdmZWhpaHJrNFQ5SFEtQk9KaUF1cWVzTmVMY3Zpb2tIM2xwVjZLUTdiY2RHajUyZkZsd3BpT3VZUGs4YzJRWW9uSmYyUmNiQUxCTHJBb0Mycw?oc=5
-6. **ArcelorMittal** (Fransa, 2026-10-15) &mdash; Elektrik celigi hatti / Belirsiz  
-   ArcelorMittal commits €300 million to Dunkirk steel project, targets spring 2027 tests for new line in Mardyck  
-   https://www.steelorbis.com/steel-news/latest-news/arcelormittal-advances-dunkirk-eaf-and-mardyck-electrical-steel-projects-1483903.htm
+6. **Red Bud Industries** (ABD, 2026-10-26) &mdash; Dilme / boy kesme / SSC / Sozlesme  
+   Red Bud Industries Installs Cut-to-Length Line at McNeilus Steel’s Tennessee Facility  
+   https://themachinemaker.com/news/red-bud-industries-installs-cut-to-length-line-at-mcneilus-steels-tennessee-facility/
 
 > Erisilemeyen kaynaklar: SMS group, Cognex, ArcelorMittal, POSCO, Steel Radar, GMK Center, BigMint (SteelMint), MetalMiner, Furnaces International, MetalForming Magazine, Sanayi Gazetesi

@@ -17,16 +17,16 @@
    }
   },
   {
-   "anahtar": "e78669efb805f0bb",
-   "baslik": "Nippon Steel Raises US Mill Upgrade to $3 Billion as Costs Climb",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-23/nippon-steel-raises-us-mill-upgrade-to-3-billion-as-costs-climb",
+   "anahtar": "0974a592e27b2b6f",
+   "baslik": "Fives upgrades Hyundai Steel's galvanising line",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/fives-upgrades-hyundai-steels-galvanising-line-0926/",
    "eksik": [
-    "hat"
+    "ulke"
    ],
    "mevcut": {
-    "firma": "Nippon Steel",
-    "ulke": "ABD",
-    "hat": "Belirsiz",
+    "firma": "Fives",
+    "ulke": "",
+    "hat": "Galvaniz hatti (CGL)",
     "asama": "Modernizasyon"
    }
   },
@@ -40,20 +40,6 @@
    "mevcut": {
     "firma": "JSW JFE",
     "ulke": "Hindistan",
-    "hat": "Elektrik celigi hatti",
-    "asama": "Belirsiz"
-   }
-  },
-  {
-   "anahtar": "45c439b08bc58b50",
-   "baslik": "ArcelorMittal commits €300 million to Dunkirk steel project, targets spring 2027 tests for new line in Mardyck",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/arcelormittal-advances-dunkirk-eaf-and-mardyck-electrical-steel-projects-1483903.htm",
-   "eksik": [
-    "asama"
-   ],
-   "mevcut": {
-    "firma": "ArcelorMittal",
-    "ulke": "Fransa",
     "hat": "Elektrik celigi hatti",
     "asama": "Belirsiz"
    }
@@ -91,14 +77,14 @@
    "url": "https://newspatrolling.com/bc-jindal-groups-jindal-india-limited-achieves-1-6-mtpa-downstream-steel-capacity-with-successful-cgl-5-revamp/"
   },
   {
-   "anahtar": "e78669efb805f0bb",
-   "tarih": "2026-10-22",
-   "firma": "Nippon Steel",
-   "ulke": "ABD",
-   "hat": "Belirsiz",
+   "anahtar": "0974a592e27b2b6f",
+   "tarih": "2026-10-13",
+   "firma": "Fives",
+   "ulke": "",
+   "hat": "Galvaniz hatti (CGL)",
    "asama": "Modernizasyon",
-   "baslik": "Nippon Steel Raises US Mill Upgrade to $3 Billion as Costs Climb",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-23/nippon-steel-raises-us-mill-upgrade-to-3-billion-as-costs-climb"
+   "baslik": "Fives upgrades Hyundai Steel's galvanising line",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/fives-upgrades-hyundai-steels-galvanising-line-0926/"
   },
   {
    "anahtar": "81afdce4c6c25e28",
@@ -111,14 +97,14 @@
    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObnZFSDNsYV9qV0ZSbk1JUU5rV29LeS1DZGMtbmFMUDREcHZHeHNCWVkzQjl2TnhKWmVjeXloUy1qNWd6dmdSVzQtTVhwM1pzUTB5akFtcjZVc0NjZVF6T3MxZzdmZWhpaHJrNFQ5SFEtQk9KaUF1cWVzTmVMY3Zpb2tIM2xwVjZLUTdiY2RHajUyZkZsd3BpT3VZUGs4YzJRWW9uSmYyUmNiQUxCTHJBb0Mycw?oc=5"
   },
   {
-   "anahtar": "45c439b08bc58b50",
-   "tarih": "2026-10-15",
-   "firma": "ArcelorMittal",
-   "ulke": "Fransa",
-   "hat": "Elektrik celigi hatti",
-   "asama": "Belirsiz",
-   "baslik": "ArcelorMittal commits €300 million to Dunkirk steel project, targets spring 2027 tests for new line in Mardyck",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/arcelormittal-advances-dunkirk-eaf-and-mardyck-electrical-steel-projects-1483903.htm"
+   "anahtar": "0b386546c836c574",
+   "tarih": "2026-10-26",
+   "firma": "Red Bud Industries",
+   "ulke": "ABD",
+   "hat": "Dilme / boy kesme / SSC",
+   "asama": "Sozlesme",
+   "baslik": "Red Bud Industries Installs Cut-to-Length Line at McNeilus Steel’s Tennessee Facility",
+   "url": "https://themachinemaker.com/news/red-bud-industries-installs-cut-to-length-line-at-mcneilus-steels-tennessee-facility/"
   }
  ],
  "teknoloji_adaylari": [

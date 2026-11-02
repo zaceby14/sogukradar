@@ -65,7 +65,7 @@
    "tutar": "",
    "baslik": "BC Jindal Group’s Jindal (India) Limited Achieves 1.6 MTPA Downstream Steel Capacity with Successful CGL-5 Revamp",
    "kaynak": "Bing News",
-   "kaynak_id": "bgx_bigmint_q",
+   "kaynak_id": "bgq_hat18",
    "url": "https://newspatrolling.com/bc-jindal-groups-jindal-india-limited-achieves-1-6-mtpa-downstream-steel-capacity-with-successful-cgl-5-revamp/",
    "tarih_kaynagi": "rss",
    "lead": "Revamped CGL-5 line at Ranihati increases production capacity by over 50%, from 590 TPD to 889 TPD Bengaluru, 27th October 2026: Jindal (India) Limited, part of the BC Jindal Group and one of the ...",
@@ -78,6 +78,31 @@
     "bc jindal group|ulke|Hindistan|Modernizasyon"
    ],
    "puan": 48.6
+  },
+  {
+   "tarih": "2026-10-13",
+   "firma": "Fives",
+   "ulke": "",
+   "hat": "Galvaniz hatti (CGL)",
+   "asama": "Modernizasyon",
+   "tedarikci": "Fives",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "Fives upgrades Hyundai Steel's galvanising line",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_sup06",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/fives-upgrades-hyundai-steels-galvanising-line-0926/",
+   "tarih_kaynagi": "rss",
+   "lead": "",
+   "eksik": [
+    "ulke"
+   ],
+   "anahtar": "0974a592e27b2b6f",
+   "kategori": "Hat",
+   "olaylar": [
+    "fives|hat|Galvaniz hatti (CGL)|Modernizasyon"
+   ],
+   "puan": 42.0
   },
   {
    "tarih": "2026-10-20",
@@ -108,6 +133,31 @@
     "tenova|ulke|Hindistan|Belirsiz"
    ],
    "puan": 31.8
+  },
+  {
+   "anahtar": "0b386546c836c574",
+   "asama": "Sozlesme",
+   "baslik": "Red Bud Industries Installs Cut-to-Length Line at McNeilus Steel’s Tennessee Facility",
+   "eksik": [],
+   "firma": "Red Bud Industries",
+   "hat": "Dilme / boy kesme / SSC",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_hat10",
+   "lead": "Red Bud Industries has installed a heavy-gauge cut-to-length line equipped with a T3 stretcher leveler at McNeilus Steel Inc.’s facility in Morrison, Tennessee, USA. The new system is designed to ...",
+   "olaylar": [
+    "red bud industries|fu|ABD|Dilme / boy kesme / SSC",
+    "red bud industries|hat|Dilme / boy kesme / SSC|Sozlesme",
+    "red bud industries|ulke|ABD|Sozlesme"
+   ],
+   "puan": 46.2,
+   "tarih": "2026-10-26",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "ABD",
+   "url": "https://themachinemaker.com/news/red-bud-industries-installs-cut-to-length-line-at-mcneilus-steels-tennessee-facility/"
   }
  ],
  "tech": [
