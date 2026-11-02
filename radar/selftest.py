@@ -1866,6 +1866,24 @@ def test_iki_haftalik_dongu_ve_yayinci_linki():
     eq(rep[0]["asama"], "Ilk urun", "temsilci asamasi korunur")
 
 
+def test_gemini_model_secimi():
+    """2026-11-02: sabit model adlari (2.5/2.0-flash) Google'da kaldirilmisti (404).
+    Model artik listeden secilir."""
+    from . import llm
+    liste = {"models": [
+        {"name": "models/gemini-2.0-flash", "supportedGenerationMethods": ["generateContent"]},
+        {"name": "models/gemini-3.5-flash", "supportedGenerationMethods": ["generateContent"]},
+        {"name": "models/gemini-3.5-flash-lite", "supportedGenerationMethods": ["generateContent"]},
+        {"name": "models/gemini-3.5-flash-image", "supportedGenerationMethods": ["generateContent"]},
+        {"name": "models/gemini-3.5-pro", "supportedGenerationMethods": ["generateContent"]},
+        {"name": "models/text-embedding-005", "supportedGenerationMethods": ["embedContent"]},
+        {"name": "models/gemini-3.6-flash-preview", "supportedGenerationMethods": ["generateContent"]}]}
+    eq(llm.gemini_modelleri(liste),
+       ["gemini-3.6-flash-preview", "gemini-3.5-flash", "gemini-3.5-flash-lite", "gemini-2.0-flash"],
+       "en yeni flash once; image/pro/embedding yok")
+    eq(llm.gemini_modelleri({}), [], "bos liste")
+
+
 def test_w40_editorsuz_cop_kumeleme():
     """2026-11-02: editorsuz cikan ilk bulten (2026-W40) 14 satirdi, yarisi cop.
 
@@ -3376,6 +3394,7 @@ def run():
                test_v20_indiana_hindistan_degil,
                test_w40_editorsuz_cop_kumeleme,
                test_yazar_dogrulayici_ve_llm_yedegi,
+               test_gemini_model_secimi,
                test_iki_haftalik_dongu_ve_yayinci_linki,
                test_w45_jindal_cifti_ve_yenileme_iddiasi,
                test_w45_havuz_deliklerinin_kapanisi,

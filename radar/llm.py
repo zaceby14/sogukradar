@@ -35,9 +35,8 @@ import urllib.request
 TIMEOUT = int(os.environ.get("RADAR_LLM_TIMEOUT", "90"))
 
 ANTHROPIC_MODEL = os.environ.get("RADAR_ANTHROPIC_MODEL", "claude-haiku-5-5")
-GEMINI_MODELLER = ([os.environ["RADAR_GEMINI_MODEL"]]
-                   if os.environ.get("RADAR_GEMINI_MODEL")
-                   else ["gemini-2.5-flash", "gemini-2.0-flash"])
+GEMINI_MODELLER_ZORLA = ([os.environ["RADAR_GEMINI_MODEL"]]
+                         if os.environ.get("RADAR_GEMINI_MODEL") else [])
 GITHUB_MODEL = os.environ.get("RADAR_GITHUB_MODEL", "openai/gpt-4o-mini")
 
 
@@ -112,12 +111,64 @@ def _anthropic(sistem, kullanici):
         return None, "anthropic yanit okunamadi: %s | govde: %r" % (e, m[:160])
 
 
+def _get(url):
+    """(durum, metin) - GET, istisna firlatmaz."""
+    try:
+        with urllib.request.urlopen(urllib.request.Request(url), timeout=TIMEOUT) as r:
+            return r.status, r.read().decode("utf-8", "replace")
+    except urllib.error.HTTPError as e:
+        return e.code, ""
+    except Exception as e:
+        return 0, str(e)[:120]
+
+
+_gemini_secim = None
+
+
+def gemini_modelleri(liste_json):
+    """Model listesinden metin ureten 'flash' modellerini YENIDEN ESKIYE siralar.
+
+    NEDEN (2026-11-02): koddaki sabit adlar (gemini-2.5-flash, gemini-2.0-flash)
+    Google tarafinda kaldirilmisti - HTTP 404 "no longer available". Sabit ad
+    her model yenilemesinde sistemi bozar; liste her kosuda sorulur.
+    """
+    adaylar = []
+    for m in (liste_json or {}).get("models", []):
+        ad = (m.get("name") or "").replace("models/", "")
+        yontem = m.get("supportedGenerationMethods") or []
+        if "generateContent" not in yontem or "gemini" not in ad:
+            continue
+        if re.search(r"image|tts|audio|live|embed|vision|thinking-exp|robotics|computer", ad):
+            continue
+        if "flash" not in ad:
+            continue
+        v = re.search(r"gemini-(\d+(?:\.\d+)?)", ad)
+        surum = float(v.group(1)) if v else 0.0
+        ceza = (1 if "lite" in ad else 0) + (1 if re.search(r"preview|exp", ad) else 0)
+        adaylar.append((-surum, ceza, ad))
+    return [a[2] for a in sorted(adaylar)]
+
+
 def _gemini(sistem, kullanici):
+    global _gemini_secim
+    anahtar = os.environ["GEMINI_API_KEY"]
+    if _gemini_secim is None:
+        if GEMINI_MODELLER_ZORLA:
+            _gemini_secim = GEMINI_MODELLER_ZORLA
+        else:
+            d, m = _get("https://generativelanguage.googleapis.com/v1beta/models?pageSize=200&key="
+                        + anahtar)
+            try:
+                _gemini_secim = gemini_modelleri(json.loads(m))[:3] if d == 200 else []
+            except Exception:
+                _gemini_secim = []
+            if not _gemini_secim:
+                return None, "gemini model listesi alinamadi (HTTP %s)" % d
     hatalar = []
-    for model in GEMINI_MODELLER:
+    for model in _gemini_secim:
         d, m = _post(
             "https://generativelanguage.googleapis.com/v1beta/models/%s:generateContent?key=%s"
-            % (model, os.environ["GEMINI_API_KEY"]), {},
+            % (model, anahtar), {},
             {"systemInstruction": {"parts": [{"text": sistem}]},
              "contents": [{"role": "user", "parts": [{"text": kullanici}]}],
              "generationConfig": {"temperature": 0.2,
@@ -197,6 +248,8 @@ def baglanti_testi(log=print):
         ham, hata = _CAGRI[ad]("Yalnizca JSON dondur.",
                                'Su JSON nesnesini aynen dondur: {"durum": "tamam"}')
         sonuc[ad] = hata or ("tamam" if "tamam" in (ham or "") else "yanit beklenmedik: %r" % (ham or "")[:60])
+        if ad == "gemini" and _gemini_secim:
+            sonuc[ad] += " (model: %s)" % _gemini_secim[0]
         log("  %-10s %s" % (ad, sonuc[ad]))
     if not sonuc:
         log("  (kimlik bilgisi tanimli degil - kuralsal yola dusulecek)")
