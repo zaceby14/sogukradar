@@ -32,7 +32,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
-TIMEOUT = int(os.environ.get("RADAR_LLM_TIMEOUT", "90"))
+TIMEOUT = int(os.environ.get("RADAR_LLM_TIMEOUT", "300"))
 
 ANTHROPIC_MODEL = os.environ.get("RADAR_ANTHROPIC_MODEL", "claude-haiku-5-5")
 GEMINI_MODELLER_ZORLA = ([os.environ["RADAR_GEMINI_MODEL"]]
