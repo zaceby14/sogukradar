@@ -1428,6 +1428,112 @@ def test_v20_indiana_hindistan_degil():
             "rolling capacity"), "Hindistan", "crore Hindistan sinyalidir")
 
 
+def test_w40_editorsuz_cop_kumeleme():
+    """2026-11-02: editorsuz cikan ilk bulten (2026-W40) 14 satirdi, yarisi cop.
+
+    Claude editoru 21 Eylul'den beri calismiyor; W40 koseye sikismis tek
+    otomatik kosuydu ve gercek dunya savunmasini olctu. POSCO'nun TEK yatirimi
+    BES satir olarak girdi (480 milyar won ~ 359 milyon dolar), Flux Steel iki
+    kez, ve uc satir kapsam disiydi. Hepsi gercek W40 satirlaridir.
+
+    KOK SEBEP: olay parmak izi firma adiyla kurulur ve firma alani fiil
+    artiklariyla kirliydi - 'POSCO Breaks Ground', 'POSCO will', 'Nippon Steel
+    Backs', 'Flux Steel Works' ile 'Flux Steel'. Izler hic kesismedi. Asama
+    da her yayinda farkli okunuyordu ve izin parcasiydi.
+    """
+    from . import classify, kume
+
+    # --- Firma ayristirma: fiil artigi firma adina yapismamali
+    for t, bek in (
+        ("POSCO Breaks Ground on New Continuous Galvanizing Line", "POSCO"),
+        ("POSCO will invest $359 million to build a continuous galvanizing line", "POSCO"),
+        ("Nippon Steel Backs 900 Million Euro Slovakia Steel Upgrade", "Nippon Steel"),
+        # KORUNMALI
+        ("KG Steel selects Primetals for Dangjin PLTCM upgrade", "KG Steel"),
+        ("Tosyali Algerie launches cold-rolled steel production", "Tosyali Algerie"),
+        ("ArcelorMittal approves Tubarao flat steel expansion", "ArcelorMittal"),
+        ("John Cockerill Signs Contract with A1 Iron & Steel for Integrated "
+         "Cold Rolling Complex", "John Cockerill"),
+    ):
+        eq(classify.detect_firm(t), bek, "firma: " + t[:44])
+
+    # --- Firma koku: kurumsal son ek ve fiil artigi atilir, gercek ad kalir
+    eq(kume.firma_kok("Flux Steel Works"), kume.firma_kok("Flux Steel"),
+       "Works eki kume anahtarini bozmamali")
+    eq(kume.firma_kok("POSCO Breaks Ground"), "posco", "fiil artigi atilmali")
+    eq(kume.firma_kok("The"), "", "genel sozcuk firma degildir")
+
+    # --- W40'IN GERCEK SATIRLARI (alanlar kosunun urettigi gibi)
+    def S(tarih, kat, firma, hat, asama, baslik, ulke="", ted="", tutar=""):
+        return {"tarih": tarih, "kategori": kat, "firma": firma, "hat": hat,
+                "asama": asama, "baslik": baslik, "ulke": ulke, "tedarikci": ted,
+                "tutar": tutar, "kapasite": "", "olaylar": [], "url": "u",
+                "anahtar": baslik[:12]}
+    cgl = "Galvaniz hatti (CGL)"
+    w40 = [
+        S("2026-09-28", "Hat", "Chengde Steel", "Asitleme hatti", "Sozlesme",
+          "Primetals Technologies to supply continuous galvanizing and pickling line to Chengde Steel", ted="Primetals"),
+        S("2026-09-15", "Hat", "Flux Steel Works", "Elektrik celigi hatti", "Sozlesme",
+          "Flux Steel Works Secures Ohio Plant to Produce Power Transformer Core Steel", "ABD"),
+        S("2026-09-08", "Hat", "POSCO", cgl, "Sozlesme",
+          "POSCO Invests 480 Billion Won in New Auto Steel Coating Plant"),
+        S("2026-09-24", "Hat", "POSCO Breaks Ground", cgl, "Insaat",
+          "POSCO Breaks Ground on New Continuous Galvanizing Line"),
+        S("2026-09-15", "Hat", "Flux Steel", "Elektrik celigi hatti", "Modernizasyon",
+          "Flux Steel to retrofit Stark County mill, challenge Cleveland-Cliffs' dominance"),
+        S("2026-09-21", "Hat", "POSCO", cgl, "Teknoloji",
+          "POSCO to Build State-of-the-Art Galvanized Automotive Steel Sheet Plant"),
+        S("2026-09-09", "Hat", "POSCO will", cgl, "Belirsiz",
+          "POSCO will invest $359 million to build a continuous galvanizing line", tutar="$359 million"),
+        S("2026-09-24", "Yatirim", "POSCO", cgl, "Belirsiz",
+          "POSCO, Otomotiv Celigi Icin 359 Milyon Dolarlik Yeni Galvanizleme Hatti Kuruyor"),
+        S("2026-09-24", "Yatirim", "Erdemir", "Elektrik celigi hatti", "Belirsiz",
+          "Erdemir Plans Romania Electrical Steel Capacity Expansion", "Romanya"),
+    ]
+    out, n = kume.kumele(w40)
+    eq(len(out), 4, "9 satir -> 4: Chengde, Flux, POSCO, Erdemir")
+    posco = [r for r in out if r["firma"].startswith("POSCO")]
+    eq(len(posco), 1, "POSCO'nun BES satiri tek satira inmeli")
+    eq(posco[0]["asama"], "Insaat",
+       "temsilci en ILERI asamadaki satir (temel atma) olmali")
+    eq(len(posco[0]["ilgili"]), 4, "diger dort uye 'ilgili' listesinde durmali")
+    eq(posco[0]["tutar"], "$359 million",
+       "eksik tutar kumenin DOGRULANMIS uyesinden doldurulmali")
+    eq(len([r for r in out if r["firma"].startswith("Flux")]), 1,
+       "Flux Steel Works + Flux Steel tek satir")
+
+    # AYNI FIRMA, FARKLI HAT = FARKLI IS: kumelenmemeli
+    a = S("2026-09-10", "Hat", "POSCO", cgl, "Sozlesme", "POSCO CGL order")
+    b = S("2026-09-11", "Hat", "POSCO", "Elektrik celigi hatti", "Sozlesme",
+          "POSCO electrical steel line order")
+    eq(len(kume.kumele([a, b])[0]), 2, "ayni firma farkli hat ayri istir")
+    # FARKLI FIRMA, AYNI HAT = FARKLI IS
+    c = S("2026-09-10", "Hat", "Hyundai Steel", cgl, "Sozlesme", "Hyundai CGL order")
+    eq(len(kume.kumele([a, c])[0]), 2, "farkli firma ayri istir")
+
+    # --- GONDERILMIS HABERE KARSI: yalniz DAHA ILERI asama gecer
+    gecmis = [{"b": "KG Steel selects Primetals for Dangjin PLTCM upgrade and "
+                    "capacity expansion", "t": "2026-08-11", "a": "Modernizasyon"}]
+    kg_ayni = S("2026-09-20", "Hat", "KG Steel", "Tandem soguk hadde (TCM)",
+                "Modernizasyon", "KG Steel PLTCM revamp by Primetals")
+    kg_ileri = dict(kg_ayni, asama="Ilk urun")
+    eq(kume.gecmis_tekrari(kg_ayni, gecmis), True,
+       "gonderilmis olayin ayni asamasi tekrardir")
+    eq(kume.gecmis_tekrari(kg_ileri, gecmis), False,
+       "ayni olayin DAHA ILERI asamasi (ilk uretim) gercek gelismedir")
+
+    # --- Kapsam delikleri: W40'ta sizan uc satir
+    for t in ("India extends AD investigation deadline on stainless steel "
+              "cold-rolled flat products from 3 Asian nations",
+              "Severstal: primo coil sulla terza linea del nuovo laminatoio "
+              "barre - Il mill 170 di Cherepovets",
+              "AM/NS India Secures Two New BIS Licences for Advanced Q&T and "
+              "Zn-Al-Mg Coated Steel"):
+        eq(taxonomy.in_scope(t)[0], False, "kapsam disi: " + t[:44])
+        eq(bool(taxonomy.genel_yatirim(t)), False,
+           "Katman 2'ye de girmemeli: " + t[:44])
+
+
 def test_w36_girisim_turu_hat_haberi_degil():
     """2026-09-01: tohum/seri yatirim turu bir hat gelismesi degildir.
 
@@ -2830,6 +2936,7 @@ def run():
                test_v20_gonderilmis_hafiza,
                test_v20_gunluk_tarama_arsivi_ezmez,
                test_v20_indiana_hindistan_degil,
+               test_w40_editorsuz_cop_kumeleme,
                test_w36_girisim_turu_hat_haberi_degil,
                test_w36_ocak_parcasi_tavlama_firini_degildir,
                test_w36_pencere_uc_hafta,

@@ -278,6 +278,22 @@ MATERIAL_BLOCK = re.compile(
 # alakasiz satirlarin tamami buradan sizdi: HARD_REJECT sadece Katman 1'de
 # calisiyordu, "genel yatirim" etiketi alan satir denetimi atliyordu.
 _NOISE = (
+    # TICARET DAVASI KISALTMASI (2026-11-02). "India extends AD investigation
+    # deadline on stainless steel cold-rolled flat products from 3 Asian
+    # nations" 2026-W40'ta Yatirim katmanina girdi: _NOISE 'anti-dumping'i
+    # taniyordu ama baslik 'AD' kisaltmasini kullaniyordu. Konu yassi celik
+    # ama haber ticaret onlemi - kapsam disi.
+    r"\bad (investigation|duty|duties|probe|review|case|margin)\b|"
+    r"\bantidumping\b|dumping (probe|investigation|duty|case|margin)|"
+    r"investigation deadline|\bqco\b|quality control orders?|"
+    r"\bbis licen[cs]es?\b|bis certification|"
+    # UZUN URUN - DIGER DILLER (2026-11-02). "Severstal: primo coil sulla
+    # terza linea del nuovo LAMINATOIO BARRE" (Italyanca: CUBUK haddesi)
+    # 2026-W40'ta girdi; 'primo coil' ilk bobin sanildi. Uzun urun
+    # sozlugu yalniz Ingilizce ve Turkceydi.
+    r"laminatoio (per )?(barre|vergella|travi|rotaie|profili)|"
+    r"\bbar mills?\b|\bbar rolling\b|laminador de (barras|alambron)|"
+    r"walzdraht|stabstahl|\balambron\b|barras corrugadas|"
     # GENEL/POTA GALVANIZ - YASSI HAT DEGILDIR (2026-08-31).
     #
     # "KEZAD galvanising facility moves closer to commissioning" satiri

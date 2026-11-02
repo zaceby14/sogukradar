@@ -21,7 +21,19 @@ VERB = (r"(?:awards?|awarded|orders?|selects?|selected|contracts?|chooses?|picks
         # Fiil listesi genis tutulur: "to Revamp CSP Mill" kalibinda fiil,
         # musteri adi sanilip firma alanina yaziliyordu.
         r"revamps?|rebuilds?|refurbish(?:es)?|retrofits?|delivers?|provides?|equips?|"
-        r"supplies|supply|moderni[sz]e|upgrade|construct|develop|design|build|install)\b")
+        r"supplies|supply|moderni[sz]e|upgrade|construct|develop|design|build|install|"
+        # HABER FIILLERI (2026-11-02). Liste yalniz siparis/devreye alma
+        # fiillerini taniyordu; 'POSCO Breaks Ground', 'POSCO will invest',
+        # 'Nippon Steel Backs ...' firma alanina fiille birlikte yaziliyor
+        # ve ekranda 'Firma: POSCO Breaks Ground' cikiyordu. Ayrica olay
+        # parmak izi firma adiyla kuruldugu icin ayni firmanin satirlari
+        # birbirini hic gormuyordu.
+        r"breaks? ground|backs?|will|approves?|confirms?|announces?|extends?|"
+        r"unveils?|targets?|eyes|kicks? off|ramps?|reaches|partners?|teams?|"
+        r"enters|agrees?|greenlights?|mulls?|considers?|boosts?|raises?|"
+        r"commits?|pledges?|earmarks?|allocates?|resumes?|restarts?|reopens?|"
+        r"gets|gains?|joins?|reveals?|takes|makes|puts|brings|goes|"
+        r"aims?|seeks?|expects?|proposes?|files?|submits?|moves?)\b")
 
 TAIL = re.compile(
     r"\s+(Awarded|Awards?|Wins?|Won|Selects?|Orders?|Secures?|Inaugurates?|Commissions?|"

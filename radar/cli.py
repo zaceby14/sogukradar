@@ -15,7 +15,7 @@ import json
 import os
 import sys
 
-from . import collect, render, score, state, taxonomy
+from . import collect, kume, render, score, state, taxonomy
 from .config import (HEDEF_SATIR, OUT, REZERV_DAR_GUN, REZERV_ESIK,
                      REZERV_KULLANIM_GUN, REZERV_MAX, TARGET_ROWS,
                      VERSION)
@@ -73,6 +73,22 @@ def cmd_run(a):
 
     payload = collect.collect(today=today)
     rows = score.rank(payload["rows"], payload["kinds"], today)
+
+    # OLAY KUMELEME (2026-11-02). Ayni olayin birden cok satiri tek satira
+    # iner; gonderilmis habere karsi yalniz DAHA ILERI asama gecer. Gerekce
+    # ve olcum icin radar/kume.py bas yorumuna bakiniz (2026-W40: POSCO'nun
+    # tek yatirimi bes satir olarak girmisti).
+    from . import kume
+    st_k = state.load()
+    gecmis_k = [b for b in (st_k.get("son_basliklar") or [])
+                if not taxonomy.is_junk_title(b.get("b", ""))]
+    onceki_n = len(rows)
+    rows = [r for r in rows if not kume.gecmis_tekrari(r, gecmis_k)]
+    gecmisten = onceki_n - len(rows)
+    rows, kume_n = kume.kumele(rows)
+    if gecmisten or kume_n:
+        print("kumeleme: %d satir gecmiste gonderilmis olaya ayni/geri asama, "
+              "%d kume birlestirildi -> %d satir" % (gecmisten, kume_n, len(rows)))
 
     # REZERV (2026-08-27). Bulten ortalama 7-8 gelisme tasimali ama taze arz
     # bunu her hafta karsilamiyor (olcum: haftada ~1-3 kapsam ici haber).
@@ -372,6 +388,13 @@ def _rezervden_sec(rezerv, rows, st, eksik):
         if any(taxonomy.similar_titles(r.get("baslik", ""), x.get("baslik", ""))
                for x in secili):
             continue                                   # bu listede benzeri var
+        # AYNI FIRMA + AYNI HAT = AYNI OLAY (kume.py): havuzdan gelen satir
+        # listede zaten o olayin temsilcisi varsa girmez, gonderilmisse de
+        # yalniz daha ileri asama girer.
+        if any(kume._ayni_kume(r, x) for x in secili):
+            continue
+        if kume.gecmis_tekrari(r, gecmis):
+            continue
         if any(taxonomy.similar_titles(r.get("baslik", ""), b.get("b", ""))
                for b in gecmis):
             continue                                   # gecmiste gonderilmis
