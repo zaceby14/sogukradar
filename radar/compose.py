@@ -9,12 +9,30 @@ yazarsa (ozet.json), o metin bununkinin yerine gecer.
 """
 
 STAGE_PHRASE = {
-    "Ilk urun": "%s, %s tesisinde ilk uretimi gerceklestirdi",
-    "Insaat": "%s, %s insaatina basladi",
-    "Test": "%s, %s hattinda test uretimine gecti",
-    "Seri uretim": "%s, %s hattinda tam kapasiteye ulasti",
-    "Teknoloji": "%s, %s alaninda yeni teknoloji duyurdu",
+    "Ilk urun": "%s, %s alanında ilk üretimi gerçekleştirdi",
+    "Seri uretim": "%s, %s hattında tam kapasiteye ulaştı",
+    "Insaat": "%s, %s yatırımında inşaata başladı",
+    "Test": "%s, %s hattında test üretimine geçti",
+    "Teknoloji": "%s, %s alanında yeni teknoloji duyurdu",
 }
+
+# Ekrana ASCII etiketle gelen ulke adlari: okuyucu 'Turkiye' degil 'Türkiye' gorur.
+ULKE_GOSTER = {
+    "Turkiye": "Türkiye", "Cin": "Çin", "Almanya": "Almanya", "Italya": "İtalya",
+    "Ispanya": "İspanya", "Misir": "Mısır", "Belcika": "Belçika", "Avusturya": "Avusturya",
+    "Isvec": "İsveç", "Isvicre": "İsviçre", "Cezayir": "Cezayir", "Fas": "Fas",
+    "Romanya": "Romanya", "Slovakya": "Slovakya", "Hindistan": "Hindistan",
+    "Endonezya": "Endonezya", "Filipinler": "Filipinler", "Banglades": "Bangladeş",
+    "Umman": "Umman", "BAE": "BAE", "Katar": "Katar", "S. Arabistan": "S. Arabistan",
+    "Ozbekistan": "Özbekistan", "Kazakistan": "Kazakistan", "Rusya": "Rusya",
+    "Ukrayna": "Ukrayna", "Polonya": "Polonya", "Fransa": "Fransa",
+    "Portekiz": "Portekiz", "G. Afrika": "G. Afrika", "Nijerya": "Nijerya",
+    "Etiyopya": "Etiyopya", "Tanzanya": "Tanzanya", "Gana": "Gana",
+}
+
+
+def ulke_goster(u):
+    return ULKE_GOSTER.get(u or "", u or "")
 
 
 def _top_countries(rows, n=3):
@@ -35,72 +53,94 @@ def _top(rows, key, n=2):
     return sorted(d.items(), key=lambda kv: -kv[1])[:n]
 
 
+def _hat_tr(r):
+    """Hat adinin okunabilir Turkce karsiligi; yoksa hat adi kucuk harfle."""
+    h = r.get("hat") or ""
+    if not h or h == "Belirsiz":
+        return "işleme hattı"
+    return HAT_TR.get(h, h.lower())
+
+
 def row_sentence(r):
+    """KURALSAL satir cumlesi - yalniz dogrulanmis alanlardan.
+
+    EK KULLANMAZ. Dinamik ozel isimlere (firma, tedarikci) Turkce hal eki
+    (-e/-a, -nin/-nun) dogru takilamaz: 'POSCO'ya' mi 'POSCO'e' mi,
+    'Danieli'ye' mi, hepsi ünlü uyumuna bagli. Kural yanlis ek uretmektense
+    ekten kacinir: 'tedarikçi: X' kalibi hep dogrudur.
+    """
     if r.get("kategori") == "Yatirim":
+        # Yatirim satiri yalniz baslikla gelir; Turkce cumle LLM'e ya da
+        # editore birakilir. Kuralsal yolda baslik oldugu gibi gosterilir
+        # (ceviri uydurulmaz).
         return r.get("baslik", "")
-    firma = r.get("firma") or r.get("kaynak") or "Ilgili uretici"
-    hat = (r.get("hat") or "hat").lower()
+    firma = r.get("firma") or r.get("kaynak") or "İlgili üretici"
+    hat = _hat_tr(r)
     asama = r.get("asama") or "Belirsiz"
     ted = r.get("tedarikci") or ""
     # Ozne tedarikcinin kendisiyse "X isini X'e verdi" denmez (2026-08-12)
     self_award = ted and (ted.lower() in firma.lower() or firma.lower() in ted.lower())
     if asama == "Sozlesme":
         if self_award:
-            s = "%s, %s icin yeni bir sozlesme aldi" % (ted, hat)
+            s = "%s, %s için yeni bir sözleşme aldı" % (ted, hat)
         elif ted:
-            s = "%s, %s yatirimini %s'e siparis etti" % (firma, hat, ted)
+            s = "%s, %s için sipariş verdi (tedarikçi: %s)" % (firma, hat, ted)
         else:
-            s = "%s, %s icin siparis verdi" % (firma, hat)
+            s = "%s, %s için sipariş verdi" % (firma, hat)
     elif asama == "Modernizasyon":
         if self_award:
-            s = "%s, %s yenileme isini ustlendi" % (ted, hat)
+            s = "%s, %s yenileme işini üstlendi" % (ted, hat)
         elif ted:
-            s = "%s, %s yenileme isini %s'e verdi" % (firma, hat, ted)
+            s = "%s, %s yenileme projesine başladı (tedarikçi: %s)" % (firma, hat, ted)
         else:
-            s = "%s, %s yenileme isini baslatti" % (firma, hat)
+            s = "%s, %s yenileme projesine başladı" % (firma, hat)
     elif asama in STAGE_PHRASE:
         s = STAGE_PHRASE[asama] % (firma, hat)
     else:
-        s = "%s: %s" % (firma, r.get("baslik", ""))
+        # Asama okunamadi: iddia kurulmaz, yalniz konu ve kaynak soylenir.
+        s = "%s: %s ile ilgili gelişme" % (firma, hat)
     if r.get("tutar"):
         s += " (%s)" % r["tutar"]
     return s + "."
 
 
 def exec_summary(rows, stats):
-    """Kurallı 'AI Ozeti' paragrafi - sadece dogrulanmis alanlardan."""
+    """Kurallı 'AI Özeti' paragrafı - sadece doğrulanmış alanlardan."""
     n = len(rows)
     if n == 0:
         er = stats.get("erisilemeyen", 0)
-        return ("Bu hafta tarih dogrulamasindan gecen gelisme kaydedilmedi. "
-                "%d kaynak tarandi, %d kaynaga erisilemedi; sifir sonuc cogu zaman "
-                "sektorel durgunluk degil erisim sorunudur, detay kapsam tablosundadir."
+        return ("Bu hafta tarih doğrulamasından geçen gelişme kaydedilmedi. "
+                "%d kaynak tarandı, %d kaynağa erişilemedi; sıfır sonuç çoğu zaman "
+                "sektörel durgunluk değil erişim sorunudur, ayrıntı kapsam tablosundadır."
                 % (stats.get("kaynak", 0), er))
     parts = []
     cs = _top_countries(rows)
     if cs:
         if len(cs) == 1:
-            parts.append("Bu haftanin %d dogrulanmis gelismesinin tamami %s kaynakli."
-                         % (n, cs[0][0]))
+            parts.append("Bu haftanın %d doğrulanmış gelişmesinin tamamı %s kaynaklı."
+                         % (n, ulke_goster(cs[0][0])))
         else:
             lead = cs[0]
-            rest = ", ".join(c for c, _ in cs[1:])
-            parts.append("Bu hafta %d dogrulanmis gelisme kaydedildi; %s %d gelismeyle "
-                         "one cikarken %s takip ediyor." % (n, lead[0], lead[1], rest))
+            rest = ", ".join(ulke_goster(c) for c, _ in cs[1:])
+            parts.append("Bu hafta %d doğrulanmış gelişme kaydedildi; %s %d gelişmeyle "
+                         "öne çıkarken %s takip ediyor." % (n, ulke_goster(lead[0]),
+                                                           lead[1], rest))
+    else:
+        parts.append("Bu hafta %d doğrulanmış gelişme kaydedildi." % n)
     hl = _top(rows, "hat", 2)
     if hl:
-        parts.append("Hat tarafinda agirlik %s." % " ve ".join(h.lower() for h, _ in hl))
+        parts.append("Hat tarafında ağırlık %s." % " ve ".join(h.lower() for h, _ in hl))
     st = _top(rows, "asama", 2)
     if st:
-        parts.append("Asama dagiliminda %s onde." %
+        parts.append("Aşama dağılımında %s önde." %
                      " ve ".join(("%s (%d)" % (a.lower(), k)) for a, k in st))
     tr = [r for r in rows if r.get("ulke") == "Turkiye" or "tosyali" in
           (r.get("firma") or "").lower()]
     if tr:
-        parts.append("Turkiye baglantili gelisme: " + row_sentence(tr[0]))
+        parts.append("Türkiye bağlantılı gelişme: " + row_sentence(tr[0]))
     top = rows[0]
     if not tr or top is not tr[0]:
-        parts.append("Haftanin one cikan olayi: " + row_sentence(top))
+        parts.append("Haftanın öne çıkan olayı: " + row_sentence(top))
     return " ".join(parts)
 
 
@@ -124,6 +164,12 @@ HAT_TR = {
     "Yuzey muayene (SIS)": "otomatik yüzey muayene sistemleri",
     "Otomasyon / dijital": "hat otomasyonu ve dijitalleşme",
     "Serit isleme hatti": "şerit işleme hatları",
+    "Bobin tasima / paketleme": "bobin taşıma ve paketleme sistemleri",
+    "Dilme / boy kesme / SSC": "dilme, boy kesme ve servis merkezi hatları",
+    "Olcum / kalite kontrol": "ölçüm ve kalite kontrol sistemleri",
+    "Serit birlestirme (kaynak)": "şerit birleştirme (kaynak) sistemleri",
+    "Temizleme hatti (ECL)": "elektrolitik temizleme hatları",
+    "Yuzey islem / pasivasyon": "yüzey işlem ve pasivasyon hatları",
 }
 
 

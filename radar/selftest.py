@@ -384,7 +384,7 @@ def test_w33c_regresyon():
                               "hat": "Asitleme hatti", "asama": "Modernizasyon",
                               "baslik": "x"})
     eq("Primetals'e verdi" in s, False, "kendi kendine ihale cumlesi yasak")
-    eq("ustlendi" in s, True, "tedarikci bakis acisiyla yazilmali")
+    eq("üstlendi" in s, True, "tedarikci bakis acisiyla yazilmali")
     # POSCO Ar-Ge basligi teknoloji sayilmali ('to Develop' kalibi kacmisti)
     eq(taxonomy.match_stage(
         "POSCO Partners with Hyundai Motor and 8 Organizations to Develop "
@@ -1426,6 +1426,137 @@ def test_v20_indiana_hindistan_degil():
     # gecmeyen Hint haberinde tek sinyal olabiliyor (2026-08-29 taramasi)
     eq(ulke("Jindal Stainless investing Rs 900 crore to increase cold "
             "rolling capacity"), "Hindistan", "crore Hindistan sinyalidir")
+
+
+def test_yazar_dogrulayici_ve_llm_yedegi():
+    """2026-11-02: editor Claude rutininden Actions'a tasindi (radar/yazar.py).
+
+    LLM serbest metin yazar; 'haber uydurma' kurali LLM'e emanet EDILEMEZ. Bu
+    test dogrulayicinin gercek uydurma desenlerini reddettigini ve LLM
+    yoksa/bozuksa sistemin kuralsal yola dustugunu kanitlar. LLM cagrisi sahte
+    (ag cikisi yok); gercek HTTP Actions'taki `llm-test` ile denenir.
+    """
+    import os
+    from . import llm, yazar
+
+    kaynak = ("POSCO plans 480 billion won investment in electrical steel line "
+              "Pohang POSCO Insaat 359 milyon dolar")
+    iyi = "POSCO, Pohang'da elektrik çeliği hattı için 480 milyar won tutarında yatırım yapacak."
+    ok, n = yazar.cumle_dogrula(iyi, kaynak, "Insaat")
+    eq((ok, n), (True, ""), "gecerli cumle kabul")
+    # kaynakta olmayan sayi
+    ok, n = yazar.cumle_dogrula(iyi.replace("480", "520"), kaynak, "Insaat")
+    eq(ok, False, "uydurma sayi reddedilir")
+    # kaynakta olmayan ozel ad
+    ok, n = yazar.cumle_dogrula(
+        "POSCO, Pohang'da Siemens ile elektrik çeliği hattı için 480 milyar won yatırım yapacak.",
+        kaynak, "Insaat")
+    eq(ok, False, "uydurma ozel ad reddedilir")
+    # Ingilizce
+    ok, n = yazar.cumle_dogrula(
+        "POSCO plans the new line with the investment of 480 billion won for the plant.",
+        kaynak, "Insaat")
+    eq(ok, False, "Ingilizce reddedilir")
+    # asama Belirsiz/Insaat iken uretim iddiasi
+    uretim = "POSCO, Pohang'daki elektrik çeliği hattında ilk üretime başladı ve 480 milyar won harcadı."
+    eq(yazar.cumle_dogrula(uretim, kaynak, "Insaat")[0], False, "insaatta uretim iddiasi reddedilir")
+    eq(yazar.cumle_dogrula(uretim, kaynak, None)[0], False, "belirsizde uretim iddiasi reddedilir")
+    eq(yazar.cumle_dogrula(uretim, kaynak, "Ilk urun")[0], True, "ilk urunde uretim iddiasi serbest")
+    eq(yazar.cumle_dogrula("POSCO yatırım.", kaynak)[0], False, "cok kisa reddedilir")
+    # Turkce ekli ozel ad (POSCO'nun) kaynaktaki sozcuge dayanir
+    eq(yazar.cumle_dogrula("POSCO'nun Pohang'daki hattı için 480 milyar won ayrıldı, proje sürüyor.",
+                              kaynak, "Insaat")[0], True, "ekli ozel ad kabul")
+
+    rows = [
+        {"anahtar": "a1", "baslik": "POSCO plans 480 billion won investment in electrical steel line",
+         "lead": "POSCO Pohang electrical steel", "firma": "POSCO", "ulke": "Güney Kore",
+         "hat": "Elektrik celigi", "asama": "Insaat", "kaynak": "x", "kategori": "Hat",
+         "tutar": "480 milyar won", "kapasite": "", "tedarikci": "", "url": "u1",
+         "tarih": "2026-10-20"},
+        {"anahtar": "a2", "baslik": "Danieli wins pickling line order from Acme Steel",
+         "lead": "", "firma": "Acme Steel", "ulke": "", "hat": "Asitleme", "asama": "Sozlesme",
+         "kaynak": "y", "kategori": "Hat", "tutar": "", "kapasite": "", "tedarikci": "Danieli",
+         "url": "u2", "tarih": "2026-10-21"},
+        {"anahtar": "a3", "baslik": "Foo mill expands rebar output with new line",
+         "lead": "", "firma": "Foo", "ulke": "", "hat": "Belirsiz", "asama": "Belirsiz",
+         "kaynak": "z", "kategori": "Hat", "tutar": "", "kapasite": "", "tedarikci": "",
+         "url": "u3", "tarih": "2026-10-22"},
+    ]
+    payload = {"rows": rows, "stats": {"ham": 600, "pencere": 3, "erisilemeyen": 10},
+               "tech_pool": []}
+
+    eski_env = {k: os.environ.get(k) for k in
+                ("ANTHROPIC_API_KEY", "GEMINI_API_KEY", "GITHUB_TOKEN", "RADAR_LLM")}
+    eski_iste = llm.json_iste
+    try:
+        for k in eski_env:
+            os.environ.pop(k, None)
+        # 1) saglayici yok -> kuralsal, her satirin cumlesi var
+        oz = yazar.ozet_hazirla(payload, log=lambda *a: None)
+        eq(sorted(oz["cumleler"]), ["a1", "a2", "a3"], "saglayicisiz: her satirin cumlesi var")
+        eq(oz["_rapor"]["cumle_llm"], 0, "saglayicisiz: LLM cumlesi yok")
+        eq(oz["cikar"], [], "saglayicisiz: cikarma yok")
+
+        # 2) saglayici var ama yanit yok -> yine kuralsal
+        os.environ["ANTHROPIC_API_KEY"] = "sahte"
+        llm.json_iste = lambda s, k, log=print: (None, None, ["anthropic HTTP 401"])
+        oz = yazar.ozet_hazirla(payload, log=lambda *a: None)
+        eq(oz["_rapor"]["cumle_llm"], 0, "LLM cevapsiz: kuralsala dustu")
+        eq("ulaşılamadı" in " ".join(oz["ai_kontrol"]), True, "LLM cevapsiz: sebep bultende")
+
+        # 3) karisik yanit: a1 iyi, a2 uydurma sayi, a3 supheli (kapsam disi)
+        yanit = {"cumleler": {
+                    "a1": iyi,
+                    "a2": "Danieli, Acme Steel'e 900 milyon dolarlık asitleme hattı kuracak.",
+                    "zzz": "Bilinmeyen kimlik cümlesi, bunun hiçbir yere girmemesi gerekir."},
+                 "ozet": "Bu hafta 3 haber var: POSCO yatırım yapacak, Danieli sipariş aldı.",
+                 "supheli": [{"id": "a3", "neden": "inşaat demiri, kapsam dışı"}]}
+        llm.json_iste = lambda s, k, log=print: (yanit, "anthropic", [])
+        oz = yazar.ozet_hazirla(payload, log=lambda *a: None)
+        eq(oz["cumleler"]["a1"], iyi, "iyi cumle LLM'den")
+        eq(oz["cumleler"]["a2"], __import__("radar.compose", fromlist=["x"]).row_sentence(rows[1]), "uydurma sayili cumle kuralsala dondu")
+        eq("zzz" in oz["cumleler"], False, "bilinmeyen kimlik girmedi")
+        eq(len(oz["_rapor"]["reddedilen_cumle"]) >= 1, True, "reddedilen bildirildi")
+        # 3 satirdan 1'i = %33 <= %40 sinir -> cikarilir ve gerekce bultende
+        eq(oz["cikar"], ["a3"], "supheli satir cikarildi")
+        eq("kapsam dışı" in oz["ai_cikarilan"][0]["neden"], True, "cikarma gerekcesi var")
+
+        # 4) toplu silme siniri: 3 satirdan 2'si supheli -> HICBIRI cikarilmaz
+        yanit2 = {"cumleler": {}, "supheli": [{"id": "a2", "neden": "x"}, {"id": "a3", "neden": "y"}]}
+        llm.json_iste = lambda s, k, log=print: (yanit2, "gemini", [])
+        oz = yazar.ozet_hazirla(payload, log=lambda *a: None)
+        eq(oz["cikar"], [], "toplu silme siniri: hicbiri cikmadi")
+        # LLM'in ekleyemeyecegi sey: bilinmeyen id supheli listesinde yok sayilir
+        llm.json_iste = lambda s, k, log=print: ({"cumleler": {}, "supheli": [{"id": "yok", "neden": "x"}]}, "gemini", [])
+        oz = yazar.ozet_hazirla(payload, log=lambda *a: None)
+        eq(oz["cikar"], [], "bilinmeyen id suphelisi yok sayilir")
+    finally:
+        llm.json_iste = eski_iste
+        for k, v in eski_env.items():
+            if v is None:
+                os.environ.pop(k, None)
+            else:
+                os.environ[k] = v
+
+    # saglayici secimi ve JSON ayiklama
+    try:
+        for k in eski_env:
+            os.environ.pop(k, None)
+        eq(llm.saglayicilar(), [], "kimliksiz saglayici yok")
+        os.environ["GEMINI_API_KEY"] = "g"
+        os.environ["GITHUB_TOKEN"] = "t"
+        eq(llm.saglayicilar(), ["gemini", "github"], "oncelik gemini > github")
+        os.environ["RADAR_LLM"] = "yok"
+        eq(llm.saglayicilar(), [], "RADAR_LLM=yok kapatir")
+    finally:
+        for k, v in eski_env.items():
+            if v is None:
+                os.environ.pop(k, None)
+            else:
+                os.environ[k] = v
+    eq(llm.json_ayikla('```json\n{"a": 1}\n```'), {"a": 1}, "json cit ayiklama")
+    eq(llm.json_ayikla('Tamam: {"a": 2} bitti'), {"a": 2}, "json onsoz ayiklama")
+    eq(llm.json_ayikla("merhaba"), None, "json bozuk -> None")
 
 
 def test_w40_editorsuz_cop_kumeleme():
@@ -2937,6 +3068,7 @@ def run():
                test_v20_gunluk_tarama_arsivi_ezmez,
                test_v20_indiana_hindistan_degil,
                test_w40_editorsuz_cop_kumeleme,
+               test_yazar_dogrulayici_ve_llm_yedegi,
                test_w36_girisim_turu_hat_haberi_degil,
                test_w36_ocak_parcasi_tavlama_firini_degildir,
                test_w36_pencere_uc_hafta,

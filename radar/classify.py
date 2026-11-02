@@ -193,6 +193,11 @@ def build(cand):
         "kaynak_id": cand.get("source_id", ""),
         "url": cand.get("url", ""),
         "tarih_kaynagi": cand.get("date_src", ""),
+        # KAYNAK METIN (2026-11-02). Otomatik editor (yazar.py) Turkce cumleyi
+        # YALNIZ bu metinden kurar ve uretilen cumledeki her sayi/ozel adi
+        # bu metinle dogrular. Metin saklanmazsa dogrulama yapilamaz, yani
+        # uydurma riskini sifirlayan sey bu alandir.
+        "lead": re.sub(r"\s+", " ", (cand.get("text") or "")).strip()[:420],
     }
     row["eksik"] = [k for k in ("firma", "ulke") if not row[k]]
     if line == "Belirsiz":

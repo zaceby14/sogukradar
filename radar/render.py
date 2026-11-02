@@ -357,8 +357,8 @@ def email_html(payload, ozet=None, tech_items=None, sayi=1):
         for r in rows:
             is_tr = r.get("ulke") == "Turkiye" or "tosyali" in (r.get("firma") or "").lower()
             bg = "background:#fdf6ec;" if is_tr else ""
-            sub = " · ".join(x for x in (r.get("ulke"), r.get("tedarikci"),
-                                         r.get("tutar")) if x)
+            sub = " · ".join(x for x in (compose.ulke_goster(r.get("ulke")),
+                                         r.get("tedarikci"), r.get("tutar")) if x)
             cum = cumleler.get(r.get("anahtar")) or compose.row_sentence(r)
             h.append('<tr><td style="padding:9px;border-bottom:1px solid #e8eaee;%s'
                      'white-space:nowrap;">%s</td>'
