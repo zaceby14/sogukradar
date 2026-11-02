@@ -7,6 +7,7 @@ ulke, hat, asama) kurallı Turkce cumleler kurar - ozgur metin uretmez,
 dolayisiyla uydurma riski sifirdir. Yapay zeka oturumu daha iyi bir ozet
 yazarsa (ozet.json), o metin bununkinin yerine gecer.
 """
+import re
 
 STAGE_PHRASE = {
     "Ilk urun": "%s, %s alanında ilk üretimi gerçekleştirdi",
@@ -57,6 +58,9 @@ def _top(rows, key, n=2):
     return sorted(d.items(), key=lambda kv: -kv[1])[:n]
 
 
+_YENILEME = re.compile(r"revamp|upgrad|moderni[sz]|refurbish|rebuil|retrofit|overhaul|yenilen", re.I)
+
+
 def _hat_tr(r):
     """Hat adinin okunabilir Turkce karsiligi; yoksa hat adi kucuk harfle."""
     h = r.get("hat") or ""
@@ -98,6 +102,10 @@ def row_sentence(r):
             s = "%s, %s yenileme projesine başladı (tedarikçi: %s)" % (firma, hat, ted)
         else:
             s = "%s, %s yenileme projesine başladı" % (firma, hat)
+    elif asama == "Ilk urun" and _YENILEME.search(r.get("baslik") or ""):
+        # "Commissions REVAMPED line" ilk uretim degildir: hat yenilenip yeniden
+        # devreye alindi (2026-11-02, Jindal vakasi). Iddia daraltilir.
+        s = "%s: yenilenen %s yeniden devreye alındı" % (firma, hat)
     elif asama in STAGE_PHRASE:
         s = STAGE_PHRASE[asama] % (firma, hat)
     else:

@@ -1814,6 +1814,33 @@ def test_w45_havuz_deliklerinin_kapanisi():
         eq(bool(taxonomy.in_scope(b)[0]), True, "gercek hat haberi gecmeli: " + b[:40])
 
 
+def test_w45_jindal_cifti_ve_yenileme_iddiasi():
+    """2026-11-02 W45 denemesi: (1) ayni Jindal olayi iki farkli firma yazimiyla
+    ('Jindal India', 'BC Jindal Group') iki satir oldu; (2) 'Commissions REVAMPED
+    Galvanising Line' haberi 'ilk uretimi gerceklestirdi' diye yazildi - yanlis iddia."""
+    from . import kume, compose
+    a = {"firma": "Jindal India", "hat": "Galvaniz hatti (CGL)", "asama": "Ilk urun",
+         "tarih": "2026-10-27", "baslik": "Jindal India Commissions Revamped Galvanising Line, Boosts Capacity"}
+    b = {"firma": "BC Jindal Group", "hat": "Galvaniz hatti (CGL)", "asama": "Modernizasyon",
+         "tarih": "2026-10-27", "baslik": "BC Jindal Group's Jindal (India) Limited Achieves 1.6 MTPA Downstream Steel Capacity"}
+    rep, n = kume.kumele([dict(a), dict(b)])
+    eq(len(rep), 1, "Jindal cifti tek satira iner")
+    eq(rep[0]["asama"], "Ilk urun", "ust asama temsilci olur")
+    # ayni grup ama FARKLI hat ya da uzak tarih: ayri olay
+    c = dict(b, hat="Asitleme hatti")
+    eq(len(kume.kumele([dict(a), c])[0]), 2, "farkli hat ayri olay")
+    d = dict(b, tarih="2026-08-01")
+    eq(len(kume.kumele([dict(a), d])[0]), 2, "uzak tarih ayri olay")
+    # genel sozcuk ('Steel', 'Group') tek basina birlestirmez
+    e = dict(b, firma="Acme Steel Group")
+    eq(len(kume.kumele([dict(a, firma="Other Steel Group"), e])[0]), 2, "genel sozcuk birlestirmez")
+    cum = compose.row_sentence(dict(a, kategori="Hat"))
+    eq("ilk üretim" in cum, False, "revamp 'ilk uretim' iddiasi kurmaz")
+    eq("yeniden devreye alındı" in cum, True, "revamp: yeniden devreye alindi")
+    yeni = dict(a, baslik="BlueScope CGL produces first galvanized coil", kategori="Hat")
+    eq("ilk üretim" in compose.row_sentence(yeni), True, "gercek ilk urun korunur")
+
+
 def test_w40_editorsuz_cop_kumeleme():
     """2026-11-02: editorsuz cikan ilk bulten (2026-W40) 14 satirdi, yarisi cop.
 
@@ -3324,6 +3351,7 @@ def run():
                test_v20_indiana_hindistan_degil,
                test_w40_editorsuz_cop_kumeleme,
                test_yazar_dogrulayici_ve_llm_yedegi,
+               test_w45_jindal_cifti_ve_yenileme_iddiasi,
                test_w45_havuz_deliklerinin_kapanisi,
                test_w45_baglanti_dogrulama_ve_sitemap_tarihi,
                test_llm_post_yonlendirmeyi_post_olarak_izler,

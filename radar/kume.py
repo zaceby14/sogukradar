@@ -89,11 +89,40 @@ def _hat(r):
     return "" if h in ("", "Belirsiz") else h
 
 
+_FIRMA_GENEL = {"group", "steel", "steels", "india", "limited", "ltd", "corp", "corporation",
+                "industries", "industry", "metal", "metals", "company", "holding", "works",
+                "stainless", "special", "international", "global", "europe", "america"}
+
+
+def _ortak_firma_sozcugu(fa, fb):
+    """Iki firma adi en az bir AYIRT EDICI sozcugu paylasiyor mu (>=5 harf, genel degil)."""
+    if not fa or not fb:
+        return False
+    ta = {w for w in taxonomy.fold(fa).split() if len(w) >= 5 and w not in _FIRMA_GENEL}
+    tb = {w for w in taxonomy.fold(fb).split() if len(w) >= 5 and w not in _FIRMA_GENEL}
+    return bool(ta & tb)
+
+
+def _ayni_hat_yakin_tarih(a, b):
+    ha, hb = _hat(a), _hat(b)
+    if not (ha and hb and ha == hb):
+        return False
+    try:
+        import datetime as _dt
+        g = abs((_dt.date.fromisoformat(a.get("tarih", "")) -
+                 _dt.date.fromisoformat(b.get("tarih", ""))).days)
+    except ValueError:
+        return False
+    return g <= 10
+
+
 def _ayni_kume(a, b):
     fa, fb = firma_kok(a.get("firma")), firma_kok(b.get("firma"))
     if not fa or fa != fb:
-        # firma okunamadiysa yalniz cok guclu baslik ortusmesi
-        return False
+        # FARKLI YAZILMIS AYNI FIRMA (2026-11-02, W45): "Jindal India" ile
+        # "BC Jindal Group" ayni olayi iki satir yapti. Ayirt edici ortak
+        # firma sozcugu + AYNI (bilinen) hat + 10 gun icinde ise ayni olay.
+        return _ortak_firma_sozcugu(fa, fb) and _ayni_hat_yakin_tarih(a, b)
     ha, hb = _hat(a), _hat(b)
     if ha and hb:
         return ha == hb
