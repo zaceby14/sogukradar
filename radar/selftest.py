@@ -1932,16 +1932,43 @@ def test_w36_editor_bulur_makine_dogrular():
             eq(kap in k["url"], False,
                "kapali yayinin adresi aday olamaz (%s)" % kap)
 
-    # Ag yokken cokmez ve HICBIR SEY eklemez
-    eski = D.http.fetch
+    # Ag yokken cokmez ve HICBIR SEY eklemez.
+    #
+    # TAMAMEN YALITILMIS (2026-11-02). Bu test onceden GERCEK state.json'u
+    # okuyup yaziyordu ve iki kusuru vardi:
+    #   (1) ZAMANA BAGLIYDI: dogrula() state.prune() cagirir; budama 45 gun
+    #       gibi yas sinirlari kullanir, havuzdaki satirlar yaslandikca
+    #       "once" ile "sonra" farkli cikti. 28 Eylul'den sonra test
+    #       KIRMIZIYA dondu.
+    #   (2) GERCEK STATE'E YAZIYORDU: CI'da her selftest, state'i testin
+    #       icinden budayip kaydediyordu.
+    # Test kirmizi olunca gunluk tarama ve haftalik kosu "birim testleri
+    # kirmizi ise baslamaz" kuraliyla durdu - bes hafta boyunca, kimse
+    # fark etmeden. Artik hicbir gercek dosyaya dokunmuyor.
+    import tempfile as _tf
+    import types as _types
+    kayit = {"saved": 0}
+    sahte_state = _types.SimpleNamespace(
+        load=lambda: {"seen": {}, "events": {}, "son_basliklar": [],
+                      "bulunan": [], "rezerv": []},
+        save=lambda st: kayit.__setitem__("saved", kayit["saved"] + 1),
+        prune=lambda st: st,
+        norm_key=state.norm_key)
+    eski_fetch, eski_state, eski_out = D.http.fetch, D.state, D.OUT
     try:
-        D.http.fetch = lambda u, **kw: (False, "", {"hata": "ag yok"})
-        st_once = _json.dumps(state.load().get("bulunan", []), sort_keys=True)
-        D.dogrula(log=lambda *a: None)
-        eq(_json.dumps(state.load().get("bulunan", []), sort_keys=True), st_once,
-           "sayfa acilamiyorsa havuza hicbir sey eklenmez")
+        with _tf.TemporaryDirectory() as tmp:
+            D.OUT = tmp
+            D.state = sahte_state
+            D.http.fetch = lambda u, **kw: (False, "", {"hata": "ag yok"})
+            sonuc = D.dogrula(log=lambda *a: None)
+            eq(sonuc, 0, "ag yokken cokmeden bitmeli")
+            rapor = _json.load(open(os.path.join(tmp, "dogrulama.json"),
+                                    encoding="utf-8"))
+            eq(rapor["eklenen"], [], "sayfa acilamiyorsa havuza hicbir sey eklenmez")
+            eq(len(rapor["reddedilen"]) >= 1, True,
+               "acilamayan her aday reddedilenlerde gorunmeli")
     finally:
-        D.http.fetch = eski
+        D.http.fetch, D.state, D.OUT = eski_fetch, eski_state, eski_out
 
 
 def test_w36_adres_ve_teknoloji_havuzu():
