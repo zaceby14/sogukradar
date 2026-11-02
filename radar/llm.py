@@ -89,7 +89,7 @@ def _anthropic(sistem, kullanici):
         j = json.loads(m)
         return "".join(b.get("text", "") for b in j["content"]), None
     except Exception as e:
-        return None, "anthropic yanit okunamadi: %s" % e
+        return None, "anthropic yanit okunamadi: %s | govde: %r" % (e, m[:160])
 
 
 def _gemini(sistem, kullanici):
@@ -108,7 +108,7 @@ def _gemini(sistem, kullanici):
                 return "".join(p.get("text", "")
                                for p in j["candidates"][0]["content"]["parts"]), None
             except Exception as e:
-                hatalar.append("%s yanit okunamadi: %s" % (model, e))
+                hatalar.append("%s yanit okunamadi: %s | govde: %r" % (model, e, m[:160]))
                 continue
         hatalar.append("%s HTTP %s %s" % (model, d, m[:100]))
         if d in (401, 403, 429):         # anahtar/kota sorunu: baska model yardim etmez
@@ -129,7 +129,7 @@ def _github(sistem, kullanici):
     try:
         return json.loads(m)["choices"][0]["message"]["content"], None
     except Exception as e:
-        return None, "github yanit okunamadi: %s" % e
+        return None, "github yanit okunamadi: %s | govde: %r" % (e, m[:200])
 
 
 _CAGRI = {"anthropic": _anthropic, "gemini": _gemini, "github": _github}

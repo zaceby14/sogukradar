@@ -1,0 +1,32 @@
+name: SogukRadar LLM baglanti testi
+
+# Yalniz dil modeli saglayicilarini dener (tarama YOK, hafiza YOK, posta YOK).
+# Anahtar/izin ayarlarini dogrulamak icin: Actions > bu is akisi > Run workflow.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  models: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Saglayicilari dene
+        run: |
+          {
+            echo '### LLM saglayicilari'
+            echo '```'
+            python -m radar llm-test
+            echo '```'
+          } 2>&1 | tee -a $GITHUB_STEP_SUMMARY

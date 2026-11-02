@@ -147,6 +147,15 @@ def build(cand):
     # Sadece GIRIS metni kullanilir. Sayfanin tamamina bakinca OEM
     # sitelerindeki menu/urun metinleri hat tipini yanlis belirliyordu.
     body = (cand.get("text") or "")[:700]
+    # FIYAT PANOSU GOVDE DEGILDIR (2026-11-02, W45 denemesi): Kallanish'in
+    # "Fives upgrades Hyundai Steel's galvanising line" sayfasinda ilk 700
+    # karakter fiyat tablosuydu ("CRC / N America Ex-Works USD/s.ton ...
+    # Shipbreaking scrap /Turkey / Delivered basis") ve Kore haberi
+    # "Turkiye" ulkesiyle cikti; haftalik ozet "Turkiye baglantili gelisme"
+    # diye YANLIS bir iddia kurdu. Panoya benzeyen govde ulke/ozet kaynagi
+    # olarak kullanilmaz.
+    if re.search(r"USD/|EUR/|Ex-Works|Delivered basis|\bCFR\b|\bFOB\b|\d\.\d+%", body):
+        body = ""
     blob = title + " . " + body
 
     line = tx.match_line(blob)
@@ -197,7 +206,7 @@ def build(cand):
         # YALNIZ bu metinden kurar ve uretilen cumledeki her sayi/ozel adi
         # bu metinle dogrular. Metin saklanmazsa dogrulama yapilamaz, yani
         # uydurma riskini sifirlayan sey bu alandir.
-        "lead": re.sub(r"\s+", " ", (cand.get("text") or "")).strip()[:420],
+        "lead": re.sub(r"\s+", " ", body).strip()[:420],
     }
     row["eksik"] = [k for k in ("firma", "ulke") if not row[k]]
     if line == "Belirsiz":

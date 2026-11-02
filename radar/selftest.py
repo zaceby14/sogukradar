@@ -1693,6 +1693,29 @@ def test_otomatik_hat_deneme_hafizaya_yazmaz():
                 os.environ[kk] = v
 
 
+def test_w45_fiyat_panosu_ulke_kirletmez():
+    """2026-11-02 W45 denemesi: Kallanish sayfasinin ilk 700 karakteri fiyat
+    panosuydu ('Shipbreaking scrap /Turkey / Delivered basis / USD/t'); Kore'deki
+    Hyundai Steel haberi 'Turkiye' ulkesiyle cikti ve haftalik ozet 'Turkiye
+    baglantili gelisme' diye YANLIS iddia kurdu. Ayrica musteri tarafi
+    baski/sekillendirme haberi teknoloji kosesine girdi."""
+    from . import classify
+    cand = {"title": "Fives upgrades Hyundai Steel's galvanising line",
+            "url": "https://x.example/a", "source": "Bing News", "source_kind": "agregator",
+            "source_country": "", "date": "2026-10-13", "date_src": "json-ld",
+            "text": "CRC / N America Ex-Works USD/s.ton 2.05% HRC / N America Ex-Works "
+                    "E2 & E3 Shipbreaking scrap /Turkey / Delivered basis / USD/t 0.00%"}
+    row = classify.build(cand)
+    eq(row.get("ulke"), "", "fiyat panosundaki 'Turkey' ulke olmaz")
+    eq(row.get("lead"), "", "fiyat panosu lead olmaz")
+    cand2 = dict(cand, text="Fives will modernise the galvanising line at the Turkish plant.")
+    eq(classify.build(cand2).get("ulke"), "Turkiye", "temiz govdeden ulke yine okunur")
+    eq(taxonomy.tech_kapsam("R&D Update: Lubrication and galling in stamping of galvanized AHSS - Part III"),
+       False, "baski/sekillendirme teknoloji kosesine girmez")
+    eq(bool(taxonomy.tech_kapsam("Tenova launches new pickling line control technology")), True,
+       "gercek hat teknolojisi kosede kalir")
+
+
 def test_w40_editorsuz_cop_kumeleme():
     """2026-11-02: editorsuz cikan ilk bulten (2026-W40) 14 satirdi, yarisi cop.
 
@@ -3203,6 +3226,7 @@ def run():
                test_v20_indiana_hindistan_degil,
                test_w40_editorsuz_cop_kumeleme,
                test_yazar_dogrulayici_ve_llm_yedegi,
+               test_w45_fiyat_panosu_ulke_kirletmez,
                test_otomatik_hat_deneme_hafizaya_yazmaz,
                test_w36_girisim_turu_hat_haberi_degil,
                test_w36_ocak_parcasi_tavlama_firini_degildir,

@@ -886,6 +886,14 @@ ASAGI_AKIS = re.compile(
     r"\bcgl\b|\bcal\b|\bbaf\b|\bccl\b|\betl\b|\bctl\b|\bpltcm\b)")
 
 
+# Musteri tarafi isleme (baski/sekillendirme): bobini TUKETEN taraf, bobin
+# isleme hatti degil. 2026-11-02 W45: "Lubrication and galling in stamping of
+# galvanized AHSS" teknoloji kosesine girdi.
+SONRAKI_ISLEME = re.compile(
+    r"\bstamping\b|\bgalling\b|press[- ]hardening|press shop|deep[- ]draw|"
+    r"hot stamping|forming limit|spot[- ]weld|rulo sekillendirme|sac sekillendirme")
+
+
 def tech_kapsam(title, lead=""):
     """Kose adayi kapsam ici mi? in_scope'tan tek farki: hat ISMI sart degil.
 
@@ -897,6 +905,8 @@ def tech_kapsam(title, lead=""):
     ft = fold(title)
     blob = ft + " " + fold(lead)
     if NOISE_REJECT.search(ft) or POTA_GALVANIZ.search(blob):
+        return False
+    if SONRAKI_ISLEME.search(ft):
         return False
     if MATERIAL_BLOCK.search(ft) and not re.search(r"(steel|celik)", ft):
         return False
