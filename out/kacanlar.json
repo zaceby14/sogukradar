@@ -1,10 +1,10 @@
 {
- "donem": "2026-W40",
+ "donem": "2026-W45",
  "pencere": [
-  "2026-09-07",
-  "2026-09-28"
+  "2026-10-12",
+  "2026-11-02"
  ],
- "uretim": "2026-09-28 11:29 UTC",
+ "uretim": "2026-11-02 17:57 UTC",
  "kaynaklar": {
   "steeltimesint": {
    "publisher": "Steel Times International",
@@ -22,29 +22,45 @@
    "hata": "HTTP 404"
   }
  },
- "adet": 1,
+ "adet": 2,
  "kacanlar": [
   {
-   "tarih": "2026-09-16",
+   "tarih": "2026-10-27",
    "tarih_kaynagi": "json-ld",
-   "baslik": "Daido Steel completes new forged steel processing line at Chita No. 2 plant",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/daido-steel-completes-new-forged-steel-processing-line-at-chita-no-2-plant-1477689.htm",
+   "baslik": "POSCO Steeleon to supply a US home appliance manufacturer with anti-fingerprint color-coated steel sheets",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/posco-steeleon-to-supply-a-us-home-appliance-manufacturer-with-anti-fingerprint-color-coated-steel-sheets-1486902.htm",
    "kaynak": "SteelOrbis",
    "katman": "Hat",
-   "hat": "Serit isleme hatti",
+   "hat": "Boyama hatti (CCL)",
+   "asama": "Sozlesme",
+   "anahtar": "6bc10ade8d2cadf1"
+  },
+  {
+   "tarih": "2026-10-12",
+   "tarih_kaynagi": "json-ld",
+   "baslik": "Tata Steel Colors launches pre-painted steel products in India",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/tata-steel-colors-launches-pre-painted-steel-products-in-india-1483048.htm",
+   "kaynak": "SteelOrbis",
+   "katman": "Hat",
+   "hat": "Boyama hatti (CCL)",
    "asama": "Belirsiz",
-   "anahtar": "6bafb498d8e38fb4"
+   "anahtar": "478f44659f175cda"
   }
  ],
  "dogrulanamayan": [],
  "acildi_elendi": [
   {
-   "baslik": "Japan's Chugai Ro delivers electric bright annealing line to Romania's Otelinox",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/japans-chugai-ro-delivers-electric-bright-annealing-line-to-romanias-otelinox-1474287.htm",
-   "sebep": "pencere disi (2026-09-01)"
+   "baslik": "UAE's Embosal plans 1.2 million mt HRC plant",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/baeli-embosal-12-milyon-mt-kapasiteli-sicak-rulo-sac-tesisi-kurmayi-planliyor-1485164.htm",
+   "sebep": "gercek baslikta kapsam_disi"
+  },
+  {
+   "baslik": "US continues AD orders on CTL plate from China and Russia",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/us-continues-ad-orders-on-ctl-plate-from-china-and-russia-1481929.htm",
+   "sebep": "pencere disi (2026-10-06)"
   }
  ],
- "kapiyi_gecen": 2,
+ "kapiyi_gecen": 4,
  "sitemap_adayi": 400,
- "elenen": 398
+ "elenen": 396
 }
