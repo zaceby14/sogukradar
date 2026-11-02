@@ -1,6 +1,6 @@
 # SogukRadar &mdash; 2026-W45
 
-**6 dogrulanmis gelisme** | pencere 2026-10-12 - 2026-11-02 | 291 kaynak tarandi
+**6 dogrulanmis gelisme** | pencere 2026-10-12 - 2026-11-02 | 293 kaynak tarandi
 
 1. **POSCO** (-, 2026-09-24) &mdash; Galvaniz hatti (CGL) / Belirsiz  
    POSCO, Otomotiv Çeliği İçin 359 Milyon Dolarlık Yeni Galvanizleme Hattı Kuruyor  
@@ -21,4 +21,4 @@
    Primetals secures PLTCM automation order  
    https://www.steeltimesint.com/news/primetals-secures-pltcm-automation-order
 
-> Erisilemeyen kaynaklar: SMS group, Cognex, ArcelorMittal, POSCO, Steel Radar, GMK Center, SteelGuru, BigMint (SteelMint), MetalMiner, Furnaces International, MetalForming Magazine, Sanayi Gazetesi, Celik Ihracatcilari Birligi
+> Erisilemeyen kaynaklar: SMS group, Cognex, ArcelorMittal, POSCO, Steel Radar, SteelGuru, BigMint (SteelMint), MetalMiner, Furnaces International, MetalForming Magazine

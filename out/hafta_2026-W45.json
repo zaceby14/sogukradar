@@ -154,15 +154,15 @@
   }
  ],
  "stats": {
-  "kaynak": 291,
-  "erisilemeyen": 13,
-  "ham": 3646,
-  "on_eleme_gecti": 355,
-  "makale_acildi": 201,
+  "kaynak": 293,
+  "erisilemeyen": 10,
+  "ham": 3874,
+  "on_eleme_gecti": 366,
+  "makale_acildi": 205,
   "tarihsiz_elendi": 103,
-  "pencere_disi": 258,
-  "kapsam_disi": 3228,
-  "tekrar": 54,
+  "pencere_disi": 261,
+  "kapsam_disi": 3451,
+  "tekrar": 56,
   "kabul": 3,
   "gnews_tarih": 0
  },
@@ -188,10 +188,6 @@
    "HTTP 403"
   ],
   [
-   "GMK Center",
-   "HTTP 403"
-  ],
-  [
    "SteelGuru",
    "URLError: <urlopen error timed out>"
   ],
@@ -210,14 +206,6 @@
   [
    "MetalForming Magazine",
    "HTTP 404"
-  ],
-  [
-   "Sanayi Gazetesi",
-   "HTTP 403"
-  ],
-  [
-   "Celik Ihracatcilari Birligi",
-   "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)>"
   ]
  ],
  "kinds": {
@@ -270,6 +258,8 @@
   "steelorbis": "dergi",
   "eurometal": "dergi",
   "canmaker": "dergi",
+  "steelnewsbiz": "dergi",
+  "dunya": "dergi",
   "kallanish": "dergi",
   "gmk": "dergi",
   "meps": "dergi",
@@ -559,6 +549,6 @@
  "rezerv_kullanilan": 2,
  "rezerv_havuz": 29,
  "period": "2026-W45",
- "generated": "2026-11-02 17:29 UTC",
+ "generated": "2026-11-02 19:31 UTC",
  "version": "3.0.0"
 }
