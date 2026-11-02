@@ -1723,6 +1723,24 @@
     "tekrar": 26
    },
    "uretim": "2026-11-02 14:46 UTC"
+  },
+  {
+   "donem": "2026-W45",
+   "satir": 6,
+   "stats": {
+    "erisilemeyen": 13,
+    "gnews_tarih": 0,
+    "ham": 3691,
+    "kabul": 3,
+    "kapsam_disi": 3275,
+    "kaynak": 291,
+    "makale_acildi": 200,
+    "on_eleme_gecti": 353,
+    "pencere_disi": 257,
+    "tarihsiz_elendi": 104,
+    "tekrar": 52
+   },
+   "uretim": "2026-11-02 16:52 UTC"
   }
  ],
  "rezerv": [
@@ -1827,31 +1845,6 @@
    "tutar": "",
    "ulke": "",
    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNLVV0eTVMS0VNWlA3SFZfRncwQ2laall4Z0ZrWlU3UTBBT1lIUXp4ZGN6NnhER0pxQ3FvM0d2ZWRveGRHM1MtOWRzQU5yNzFsaGNBVnhoUE5wcC1sRWpqN0VWU21pb2QzOWE3VEdaZlZxQXZEdE43YzRfc1dvNVQ5QXdKMTRuQ1R2dGVwSFV4ZWp3alo0RnpTOGhhekFUb09FcmZkVW5IWG5mV3RlY21aMFdaazc1YUZ2ZUtNcQ?oc=5"
-  },
-  {
-   "anahtar": "e82b221fc2986888",
-   "asama": "Teknoloji",
-   "baslik": "Turkey's Isdemir develops high-quality steel production for defense industry and electrical steel",
-   "eksik": [],
-   "firma": "Isdemir",
-   "hat": "Elektrik celigi hatti",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "Steel Orbis",
-   "kaynak_id": "gq_hat08",
-   "lead": "Turkey's Isdemir develops high-quality steel production for defense industry and electrical steel &nbsp;&nbsp; Steel Orbis",
-   "olaylar": [
-    "isdemir|fu|Turkiye|Elektrik celigi hatti",
-    "isdemir|hat|Elektrik celigi hatti|Teknoloji",
-    "isdemir|ulke|Turkiye|Teknoloji"
-   ],
-   "rezerv": true,
-   "tarih": "2026-10-05",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "Turkiye",
-   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMW13SGRFangyUGg2dkFBMDJ0aUFSSVljX0gxbXFZMng2OWRYY1hqLThqYVNtaDJzMUlvanBROE02MXZMTktNNG4zU3AzdHZzVUlxRVpXUlZRVzQ0eUhKamhRU2dyMHh4RkdDcGEtYXMzRmQ1eEE5aV9GWTJkZmhCeTZCRzE3ZG5VZS1pdEZnaXBGNzZ1WGl1WUxTeUNIVEY2UzJTN1MtZ0RvbnFNc0NzNUJtWl9YX0J6Y0FMQlh1cTUzRzdMZ3dNbE9zQXU2a1NTVGVUeEwybnR1M2VQcmtaaEFQb2RhWTVSTjdxMXdGRQ?oc=5"
   },
   {
    "anahtar": "be1f81111a9b43a1",
@@ -2722,14 +2715,6 @@
    "kaynak": "Google News",
    "tarih": "2026-10-28",
    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObFNJdUNpQXFUajVzUHFLbTlPdVd1MHFOcDlGU3d4czJlMlptTURvNTZFTEJETXVSRWZKQ19XWTd5RWI4S0VPdTYxMEZ1aXkwb01fT1hiazJ6U2Etbzd4VkRTRGp2TkJjU0RybEZQTVlHZ0pkTXRtLW8wY0hyNEpKYjhhY19LOGNqSGZqcmhtcFN1eHJ4UVZBMzc4di0xb1VILTlHb2NiRy1MNnVXU2RIXzRZSDc?oc=5"
-  },
-  {
-   "anahtar": "tech:e82b221fc2986888",
-   "baslik": "Turkey's Isdemir develops high-quality steel production for defense industry and electrical steel",
-   "hat": "Elektrik celigi hatti",
-   "kaynak": "Google News",
-   "tarih": "2026-10-05",
-   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMW13SGRFangyUGg2dkFBMDJ0aUFSSVljX0gxbXFZMng2OWRYY1hqLThqYVNtaDJzMUlvanBROE02MXZMTktNNG4zU3AzdHZzVUlxRVpXUlZRVzQ0eUhKamhRU2dyMHh4RkdDcGEtYXMzRmQ1eEE5aV9GWTJkZmhCeTZCRzE3ZG5VZS1pdEZnaXBGNzZ1WGl1WUxTeUNIVEY2UzJTN1MtZ0RvbnFNc0NzNUJtWl9YX0J6Y0FMQlh1cTUzRzdMZ3dNbE9zQXU2a1NTVGVUeEwybnR1M2VQcmtaaEFQb2RhWTVSTjdxMXdGRQ?oc=5"
   },
   {
    "anahtar": "tech:b56ca34c38e3c8eb",

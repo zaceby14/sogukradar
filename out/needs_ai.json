@@ -2,123 +2,121 @@
  "donem": "2026-W45",
  "duzelt": [
   {
-   "anahtar": "2796f3c7472bcf14",
-   "baslik": "ANDRITZ continuous galvanizing line at BlueScope Steel produces first galvanized coil",
-   "url": "https://www.andritz.com/newsroom-en/metals/2026-10-13-bluescope-group",
+   "anahtar": "3c6ddad628eeb8ca",
+   "baslik": "POSCO, Otomotiv Çeliği İçin 359 Milyon Dolarlık Yeni Galvanizleme Hattı Kuruyor",
+   "url": "https://www.steelturk.com.tr/posco-otomotiv-celigi-icin-359-milyon-dolarlik-yeni-galvanizleme-hatti-kuruyor/",
    "eksik": [
     "ulke",
+    "asama",
     "tarih?"
    ],
    "mevcut": {
-    "firma": "BlueScope Steel",
+    "firma": "POSCO",
     "ulke": "",
     "hat": "Galvaniz hatti (CGL)",
-    "asama": "Ilk urun"
+    "asama": "Belirsiz"
    }
   },
   {
-   "anahtar": "0974a592e27b2b6f",
-   "baslik": "Fives upgrades Hyundai Steel's galvanising line",
-   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/fives-upgrades-hyundai-steels-galvanising-line-0926/",
+   "anahtar": "24c572c3d06c307e",
+   "baslik": "Danieli Automation to Supply MES Platform for Ezz Flat Steel Plant",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdU1RMmRXLVpqaWEzNHN4cnhuUlhZajdIMjFfc1VFY0tIT1dQNFlucGVBVGZ0MkpVcW91RHlsREwyUFltVW0yWGlNQzNwVDVUSy1ETXUzNG41TXFGTHJncmI1TXNhS2tVYXJEcDV4Mmt4Mm9KdWJoczNyeDNPWWNqY0FDUU1mUnF1NEZxWm9IQnNoNmtDZnh5U25iMml2TFVGN1E?oc=5",
    "eksik": [
+    "ulke",
+    "hat"
+   ],
+   "mevcut": {
+    "firma": "Ezz Flat Steel Plant",
+    "ulke": "",
+    "hat": "Belirsiz",
+    "asama": "Sozlesme"
+   }
+  },
+  {
+   "anahtar": "866a901347e29691",
+   "baslik": "唐山市晟鑫冷轧薄板生产线升级改造项目生态环境影响报告书获批",
+   "url": "https://news.mysteel.com/a/26092109/0A0B14F6D5801083.html",
+   "eksik": [
+    "firma",
     "ulke"
    ],
    "mevcut": {
-    "firma": "Fives",
+    "firma": "",
     "ulke": "",
-    "hat": "Galvaniz hatti (CGL)",
+    "hat": "Elektrik celigi hatti",
     "asama": "Modernizasyon"
    }
   },
   {
-   "anahtar": "81afdce4c6c25e28",
-   "baslik": "Tenova supplies processing lines for JSW JFE’s electrical steel plant in India",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObnZFSDNsYV9qV0ZSbk1JUU5rV29LeS1DZGMtbmFMUDREcHZHeHNCWVkzQjl2TnhKWmVjeXloUy1qNWd6dmdSVzQtTVhwM1pzUTB5akFtcjZVc0NjZVF6T3MxZzdmZWhpaHJrNFQ5SFEtQk9KaUF1cWVzTmVMY3Zpb2tIM2xwVjZLUTdiY2RHajUyZkZsd3BpT3VZUGs4YzJRWW9uSmYyUmNiQUxCTHJBb0Mycw?oc=5",
+   "anahtar": "6bb3535ceff2b463",
+   "baslik": "Flux Steel Works to build GOES production facility in Ohio",
+   "url": "https://www.steelradar.com/en/haber/flux-steel-works-to-build-goes-production-facility-in-ohio/",
    "eksik": [
     "asama"
    ],
    "mevcut": {
-    "firma": "JSW JFE",
-    "ulke": "Hindistan",
+    "firma": "Flux Steel Works",
+    "ulke": "ABD",
     "hat": "Elektrik celigi hatti",
     "asama": "Belirsiz"
    }
   },
   {
-   "anahtar": "d6c5a8a6a6758c8c",
-   "baslik": "OYAK Plans New Electrical Steel Investments at Erdemir Romania",
-   "url": "https://news.metal.com/en/newscontent/104134673-oyak-plans-new-electrical-steel-investments-at-erdemir-romania",
+   "anahtar": "aac00b6a794a93b5",
+   "baslik": "IMS expands its portfolio with force transducers for precise force measurement under demanding conditions in hot and cold rolling mills",
+   "url": "https://www.ims-gmbh.de/en/2026/10/06/ims-expands-its-portfolio-with-force-transducers-forprecise-force-measurement-under-demandingconditions-in-hot-and-cold-rolling-mills/",
    "eksik": [
-    "asama"
+    "ulke"
    ],
    "mevcut": {
-    "firma": "OYAK",
-    "ulke": "Romanya",
-    "hat": "Elektrik celigi hatti",
-    "asama": "Belirsiz"
+    "firma": "IMS",
+    "ulke": "",
+    "hat": "Soguk hadde",
+    "asama": "Sozlesme"
    }
   }
  ],
  "cumle_yaz": [
   {
-   "anahtar": "2796f3c7472bcf14",
-   "tarih": "2026-10-13",
-   "firma": "BlueScope Steel",
+   "anahtar": "24c572c3d06c307e",
+   "tarih": "2026-09-23",
+   "firma": "Ezz Flat Steel Plant",
    "ulke": "",
-   "hat": "Galvaniz hatti (CGL)",
-   "asama": "Ilk urun",
-   "baslik": "ANDRITZ continuous galvanizing line at BlueScope Steel produces first galvanized coil",
-   "url": "https://www.andritz.com/newsroom-en/metals/2026-10-13-bluescope-group"
-  },
-  {
-   "anahtar": "1c737651eb6c0083",
-   "tarih": "2026-10-27",
-   "firma": "Jindal India",
-   "ulke": "Hindistan",
-   "hat": "Galvaniz hatti (CGL)",
-   "asama": "Ilk urun",
-   "baslik": "Jindal India Commissions Revamped Galvanising Line, Boosts Capacity",
-   "url": "https://newspatrolling.com/bc-jindal-groups-jindal-india-limited-achieves-1-6-mtpa-downstream-steel-capacity-with-successful-cgl-5-revamp/"
-  },
-  {
-   "anahtar": "0974a592e27b2b6f",
-   "tarih": "2026-10-13",
-   "firma": "Fives",
-   "ulke": "",
-   "hat": "Galvaniz hatti (CGL)",
-   "asama": "Modernizasyon",
-   "baslik": "Fives upgrades Hyundai Steel's galvanising line",
-   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/fives-upgrades-hyundai-steels-galvanising-line-0926/"
-  },
-  {
-   "anahtar": "81afdce4c6c25e28",
-   "tarih": "2026-10-20",
-   "firma": "JSW JFE",
-   "ulke": "Hindistan",
-   "hat": "Elektrik celigi hatti",
-   "asama": "Belirsiz",
-   "baslik": "Tenova supplies processing lines for JSW JFE’s electrical steel plant in India",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObnZFSDNsYV9qV0ZSbk1JUU5rV29LeS1DZGMtbmFMUDREcHZHeHNCWVkzQjl2TnhKWmVjeXloUy1qNWd6dmdSVzQtTVhwM1pzUTB5akFtcjZVc0NjZVF6T3MxZzdmZWhpaHJrNFQ5SFEtQk9KaUF1cWVzTmVMY3Zpb2tIM2xwVjZLUTdiY2RHajUyZkZsd3BpT3VZUGs4YzJRWW9uSmYyUmNiQUxCTHJBb0Mycw?oc=5"
-  },
-  {
-   "anahtar": "0b386546c836c574",
-   "tarih": "2026-10-26",
-   "firma": "Red Bud Industries",
-   "ulke": "ABD",
-   "hat": "Dilme / boy kesme / SSC",
+   "hat": "Belirsiz",
    "asama": "Sozlesme",
-   "baslik": "Red Bud Industries Installs Cut-to-Length Line at McNeilus Steel’s Tennessee Facility",
-   "url": "https://themachinemaker.com/news/red-bud-industries-installs-cut-to-length-line-at-mcneilus-steels-tennessee-facility/"
+   "baslik": "Danieli Automation to Supply MES Platform for Ezz Flat Steel Plant",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdU1RMmRXLVpqaWEzNHN4cnhuUlhZajdIMjFfc1VFY0tIT1dQNFlucGVBVGZ0MkpVcW91RHlsREwyUFltVW0yWGlNQzNwVDVUSy1ETXUzNG41TXFGTHJncmI1TXNhS2tVYXJEcDV4Mmt4Mm9KdWJoczNyeDNPWWNqY0FDUU1mUnF1NEZxWm9IQnNoNmtDZnh5U25iMml2TFVGN1E?oc=5"
+  },
+  {
+   "anahtar": "866a901347e29691",
+   "tarih": "2026-09-21",
+   "firma": "",
+   "ulke": "",
+   "hat": "Elektrik celigi hatti",
+   "asama": "Modernizasyon",
+   "baslik": "唐山市晟鑫冷轧薄板生产线升级改造项目生态环境影响报告书获批",
+   "url": "https://news.mysteel.com/a/26092109/0A0B14F6D5801083.html"
+  },
+  {
+   "anahtar": "aac00b6a794a93b5",
+   "tarih": "2026-10-06",
+   "firma": "IMS",
+   "ulke": "",
+   "hat": "Soguk hadde",
+   "asama": "Sozlesme",
+   "baslik": "IMS expands its portfolio with force transducers for precise force measurement under demanding conditions in hot and cold rolling mills",
+   "url": "https://www.ims-gmbh.de/en/2026/10/06/ims-expands-its-portfolio-with-force-transducers-forprecise-force-measurement-under-demandingconditions-in-hot-and-cold-rolling-mills/"
+  },
+  {
+   "anahtar": "dde7adab1615e8c7",
+   "tarih": "2026-09-03",
+   "firma": "Primetals",
+   "ulke": "Cin",
+   "hat": "Tandem soguk hadde (TCM)",
+   "asama": "Sozlesme",
+   "baslik": "Primetals secures PLTCM automation order",
+   "url": "https://www.steeltimesint.com/news/primetals-secures-pltcm-automation-order"
   }
  ],
- "teknoloji_adaylari": [
-  {
-   "anahtar": "tech:e82b221fc2986888",
-   "tarih": "2026-10-05",
-   "baslik": "Turkey's Isdemir develops high-quality steel production for defense industry and electrical steel",
-   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMW13SGRFangyUGg2dkFBMDJ0aUFSSVljX0gxbXFZMng2OWRYY1hqLThqYVNtaDJzMUlvanBROE02MXZMTktNNG4zU3AzdHZzVUlxRVpXUlZRVzQ0eUhKamhRU2dyMHh4RkdDcGEtYXMzRmQ1eEE5aV9GWTJkZmhCeTZCRzE3ZG5VZS1pdEZnaXBGNzZ1WGl1WUxTeUNIVEY2UzJTN1MtZ0RvbnFNc0NzNUJtWl9YX0J6Y0FMQlh1cTUzRzdMZ3dNbE9zQXU2a1NTVGVUeEwybnR1M2VQcmtaaEFQb2RhWTVSTjdxMXdGRQ?oc=5",
-   "kaynak": "Google News",
-   "hat": "Elektrik celigi hatti"
-  }
- ]
+ "teknoloji_adaylari": []
 }

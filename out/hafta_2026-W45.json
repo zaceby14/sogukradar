@@ -1,191 +1,169 @@
 {
  "rows": [
   {
-   "tarih": "2026-10-13",
-   "firma": "BlueScope Steel",
-   "ulke": "",
-   "hat": "Galvaniz hatti (CGL)",
-   "asama": "Ilk urun",
-   "tedarikci": "Andritz",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "ANDRITZ continuous galvanizing line at BlueScope Steel produces first galvanized coil",
-   "kaynak": "Andritz Metals",
-   "kaynak_id": "andritz",
-   "url": "https://www.andritz.com/newsroom-en/metals/2026-10-13-bluescope-group",
-   "tarih_kaynagi": "url",
-   "lead": "Skip to main content en English Deutsch Site directory Newsroom Menu Search en English Deutsch Site directory Newsroom Menu Search Annual Report 2025 published Turning progress into industrial impact. FOR GROWTH THAT MATTERS. Discover more ANDRITZ GROUP ANDRITZ GROUP Newsroom Careers Sustainability OUR BUSINESS AREAS PULP & PAPER METALS HYDROPOWER ENVIRONMENT & ENERGY MORE ANDRITZ SOLUTIONS Automation Cyber security ",
+   "anahtar": "3c6ddad628eeb8ca",
+   "asama": "Belirsiz",
+   "baslik": "POSCO, Otomotiv Çeliği İçin 359 Milyon Dolarlık Yeni Galvanizleme Hattı Kuruyor",
    "eksik": [
     "ulke",
+    "asama",
     "tarih?"
    ],
-   "anahtar": "2796f3c7472bcf14",
-   "kategori": "Hat",
-   "olaylar": [
-    "andritz|hat|Galvaniz hatti (CGL)|Ilk urun",
-    "bluescope steel|hat|Galvaniz hatti (CGL)|Ilk urun"
-   ],
-   "puan": 55.0
-  },
-  {
-   "tarih": "2026-10-27",
-   "firma": "Jindal India",
-   "ulke": "Hindistan",
+   "firma": "POSCO",
    "hat": "Galvaniz hatti (CGL)",
-   "asama": "Ilk urun",
-   "tedarikci": "",
-   "kapasite": "1.6 MTPA",
-   "tutar": "",
-   "baslik": "Jindal India Commissions Revamped Galvanising Line, Boosts Capacity",
-   "kaynak": "Rediff MoneyWiz",
-   "kaynak_id": "gx_bigmint_q",
-   "url": "https://newspatrolling.com/bc-jindal-groups-jindal-india-limited-achieves-1-6-mtpa-downstream-steel-capacity-with-successful-cgl-5-revamp/",
-   "tarih_kaynagi": "rss",
-   "lead": "Jindal India Commissions Revamped Galvanising Line, Boosts Capacity &nbsp;&nbsp; Rediff MoneyWiz",
-   "eksik": [],
-   "anahtar": "1c737651eb6c0083",
-   "kategori": "Hat",
-   "olaylar": [
-    "*|ulke-hat|Hindistan|Galvaniz hatti (CGL)|Ilk urun",
-    "bc jindal group|fu|Hindistan|Galvaniz hatti (CGL)",
-    "bc jindal group|hat|Galvaniz hatti (CGL)|Modernizasyon",
-    "bc jindal group|ulke|Hindistan|Modernizasyon",
-    "jindal india|fu|Hindistan|Galvaniz hatti (CGL)",
-    "jindal india|hat|Galvaniz hatti (CGL)|Ilk urun",
-    "jindal india|ulke|Hindistan|Ilk urun"
-   ],
-   "puan": 54.6,
-   "ilgili": [
-    {
-     "baslik": "BC Jindal Group’s Jindal (India) Limited Achieves 1.6 MTPA Downstream Steel Capacity with Successful CGL-5 Revamp",
-     "url": "https://newspatrolling.com/bc-jindal-groups-jindal-india-limited-achieves-1-6-mtpa-downstream-steel-capacity-with-successful-cgl-5-revamp/",
-     "kaynak": "Bing News",
-     "tarih": "2026-10-27"
-    }
-   ],
-   "kume_anahtarlari": [
-    "1c737651eb6c0083",
-    "cc4db9bd733fdee7"
-   ]
-  },
-  {
-   "tarih": "2026-10-13",
-   "firma": "Fives",
-   "ulke": "",
-   "hat": "Galvaniz hatti (CGL)",
-   "asama": "Modernizasyon",
-   "tedarikci": "Fives",
    "kapasite": "",
+   "kategori": "Yatirim",
+   "kaynak": "SteelTurk",
+   "kaynak_id": "steelturk",
+   "olaylar": [
+    "posco|hat|Galvaniz hatti (CGL)|Belirsiz"
+   ],
+   "puan": 5.0,
+   "tarih": "2026-09-24",
+   "tarih_kaynagi": "metin",
+   "tedarikci": "",
    "tutar": "",
-   "baslik": "Fives upgrades Hyundai Steel's galvanising line",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgq_sup06",
-   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/fives-upgrades-hyundai-steels-galvanising-line-0926/",
-   "tarih_kaynagi": "rss",
-   "lead": "",
+   "ulke": "",
+   "url": "https://www.steelturk.com.tr/posco-otomotiv-celigi-icin-359-milyon-dolarlik-yeni-galvanizleme-hatti-kuruyor/"
+  },
+  {
+   "anahtar": "24c572c3d06c307e",
+   "asama": "Sozlesme",
+   "baslik": "Danieli Automation to Supply MES Platform for Ezz Flat Steel Plant",
    "eksik": [
+    "ulke",
+    "hat"
+   ],
+   "firma": "Ezz Flat Steel Plant",
+   "hat": "Belirsiz",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Machine Maker",
+   "kaynak_id": "gq_sup02",
+   "olaylar": [
+    "danieli|hat|Belirsiz|Sozlesme",
+    "ezz flat steel plant|hat|Belirsiz|Sozlesme"
+   ],
+   "puan": 52.0,
+   "tarih": "2026-09-23",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "Danieli",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdU1RMmRXLVpqaWEzNHN4cnhuUlhZajdIMjFfc1VFY0tIT1dQNFlucGVBVGZ0MkpVcW91RHlsREwyUFltVW0yWGlNQzNwVDVUSy1ETXUzNG41TXFGTHJncmI1TXNhS2tVYXJEcDV4Mmt4Mm9KdWJoczNyeDNPWWNqY0FDUU1mUnF1NEZxWm9IQnNoNmtDZnh5U25iMml2TFVGN1E?oc=5"
+  },
+  {
+   "anahtar": "866a901347e29691",
+   "asama": "Modernizasyon",
+   "baslik": "唐山市晟鑫冷轧薄板生产线升级改造项目生态环境影响报告书获批",
+   "eksik": [
+    "firma",
     "ulke"
    ],
-   "anahtar": "0974a592e27b2b6f",
+   "firma": "",
+   "hat": "Elektrik celigi hatti",
+   "kapasite": "",
    "kategori": "Hat",
+   "kaynak": "Mysteel (haber)",
+   "kaynak_id": "mysteel_news",
    "olaylar": [
-    "fives|hat|Galvaniz hatti (CGL)|Modernizasyon"
+    "|hat|Elektrik celigi hatti|Modernizasyon"
    ],
-   "puan": 42.0
+   "puan": 45.0,
+   "tarih": "2026-09-21",
+   "tarih_kaynagi": "json-ld",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.mysteel.com/a/26092109/0A0B14F6D5801083.html"
   },
   {
-   "tarih": "2026-10-20",
-   "firma": "JSW JFE",
-   "ulke": "Hindistan",
-   "hat": "Elektrik celigi hatti",
+   "anahtar": "6bb3535ceff2b463",
    "asama": "Belirsiz",
-   "tedarikci": "Tenova",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "Tenova supplies processing lines for JSW JFE’s electrical steel plant in India",
-   "kaynak": "Yieh Corp.",
-   "kaynak_id": "gq_hat08",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObnZFSDNsYV9qV0ZSbk1JUU5rV29LeS1DZGMtbmFMUDREcHZHeHNCWVkzQjl2TnhKWmVjeXloUy1qNWd6dmdSVzQtTVhwM1pzUTB5akFtcjZVc0NjZVF6T3MxZzdmZWhpaHJrNFQ5SFEtQk9KaUF1cWVzTmVMY3Zpb2tIM2xwVjZLUTdiY2RHajUyZkZsd3BpT3VZUGs4YzJRWW9uSmYyUmNiQUxCTHJBb0Mycw?oc=5",
-   "tarih_kaynagi": "rss",
-   "lead": "Tenova supplies processing lines for JSW JFE’s electrical steel plant in India &nbsp;&nbsp; Yieh Corp.",
+   "baslik": "Flux Steel Works to build GOES production facility in Ohio",
    "eksik": [
     "asama"
    ],
-   "anahtar": "81afdce4c6c25e28",
-   "kategori": "Hat",
-   "olaylar": [
-    "jsw jfe|fu|Hindistan|Elektrik celigi hatti",
-    "jsw jfe|hat|Elektrik celigi hatti|Belirsiz",
-    "jsw jfe|ulke|Hindistan|Belirsiz",
-    "tenova|fu|Hindistan|Elektrik celigi hatti",
-    "tenova|hat|Elektrik celigi hatti|Belirsiz",
-    "tenova|ulke|Hindistan|Belirsiz"
-   ],
-   "puan": 31.8
-  },
-  {
-   "anahtar": "0b386546c836c574",
-   "asama": "Sozlesme",
-   "baslik": "Red Bud Industries Installs Cut-to-Length Line at McNeilus Steel’s Tennessee Facility",
-   "eksik": [],
-   "firma": "Red Bud Industries",
-   "hat": "Dilme / boy kesme / SSC",
+   "firma": "Flux Steel Works",
+   "hat": "Elektrik celigi hatti",
    "kapasite": "",
-   "kategori": "Hat",
+   "kategori": "Yatirim",
    "kaynak": "Bing News",
-   "kaynak_id": "bgq_hat10",
-   "lead": "Red Bud Industries has installed a heavy-gauge cut-to-length line equipped with a T3 stretcher leveler at McNeilus Steel Inc.’s facility in Morrison, Tennessee, USA. The new system is designed to ...",
+   "kaynak_id": "bgx_sti_q",
    "olaylar": [
-    "red bud industries|fu|ABD|Dilme / boy kesme / SSC",
-    "red bud industries|hat|Dilme / boy kesme / SSC|Sozlesme",
-    "red bud industries|ulke|ABD|Sozlesme"
+    "flux steel works|fu|ABD|Elektrik celigi hatti",
+    "flux steel works|hat|Elektrik celigi hatti|Belirsiz",
+    "flux steel works|ulke|ABD|Belirsiz"
    ],
-   "puan": 46.2,
-   "tarih": "2026-10-26",
+   "puan": 5.6,
+   "tarih": "2026-09-18",
    "tarih_kaynagi": "rss",
    "tedarikci": "",
    "tutar": "",
    "ulke": "ABD",
-   "url": "https://themachinemaker.com/news/red-bud-industries-installs-cut-to-length-line-at-mcneilus-steels-tennessee-facility/"
+   "url": "https://www.steelradar.com/en/haber/flux-steel-works-to-build-goes-production-facility-in-ohio/"
   },
   {
-   "anahtar": "d6c5a8a6a6758c8c",
-   "asama": "Belirsiz",
-   "baslik": "OYAK Plans New Electrical Steel Investments at Erdemir Romania",
+   "anahtar": "aac00b6a794a93b5",
+   "asama": "Sozlesme",
+   "baslik": "IMS expands its portfolio with force transducers for precise force measurement under demanding conditions in hot and cold rolling mills",
    "eksik": [
-    "asama"
+    "ulke"
    ],
-   "firma": "OYAK",
-   "hat": "Elektrik celigi hatti",
+   "firma": "IMS",
+   "hat": "Soguk hadde",
    "kapasite": "",
-   "kategori": "Yatirim",
-   "kaynak": "SMM (Shanghai Metals)",
-   "kaynak_id": "smm",
+   "kategori": "Hat",
+   "kaynak": "IMS Messsysteme",
+   "kaynak_id": "ims",
+   "lead": "Skip to content IMS expands its portfolio with force transducers for precise force measurement under demanding conditions in hot and cold rolling mills With the RollKraft product family, IMS Messsysteme GmbH is expanding its portfolio with force transducers designed for use in hot and cold rolling mills. The measurement systems provide precise measurement data for the control, analysis and optimisation of rolling pro",
    "olaylar": [
-    "oyak|fu|Romanya|Elektrik celigi hatti",
-    "oyak|hat|Elektrik celigi hatti|Belirsiz",
-    "oyak|ulke|Romanya|Belirsiz"
+    "ims|hat|Soguk hadde|Sozlesme"
    ],
-   "puan": 5.6,
-   "tarih": "2026-09-25",
+   "rezerv": true,
+   "tarih": "2026-10-06",
    "tarih_kaynagi": "json-ld",
    "tedarikci": "",
    "tutar": "",
-   "ulke": "Romanya",
-   "url": "https://news.metal.com/en/newscontent/104134673-oyak-plans-new-electrical-steel-investments-at-erdemir-romania"
+   "ulke": "",
+   "url": "https://www.ims-gmbh.de/en/2026/10/06/ims-expands-its-portfolio-with-force-transducers-forprecise-force-measurement-under-demandingconditions-in-hot-and-cold-rolling-mills/"
+  },
+  {
+   "anahtar": "dde7adab1615e8c7",
+   "asama": "Sozlesme",
+   "baslik": "Primetals secures PLTCM automation order",
+   "eksik": [],
+   "firma": "Primetals",
+   "hat": "Tandem soguk hadde (TCM)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgs_sti",
+   "olaylar": [
+    "primetals|fu|Cin|Tandem soguk hadde (TCM)",
+    "primetals|hat|Tandem soguk hadde (TCM)|Sozlesme",
+    "primetals|ulke|Cin|Sozlesme"
+   ],
+   "rezerv": true,
+   "tarih": "2026-09-03",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "Primetals",
+   "tutar": "",
+   "ulke": "Cin",
+   "url": "https://www.steeltimesint.com/news/primetals-secures-pltcm-automation-order"
   }
  ],
  "stats": {
   "kaynak": 291,
-  "erisilemeyen": 12,
-  "ham": 3278,
-  "on_eleme_gecti": 314,
-  "makale_acildi": 201,
-  "tarihsiz_elendi": 103,
-  "pencere_disi": 239,
-  "kapsam_disi": 2903,
-  "tekrar": 26,
-  "kabul": 7,
+  "erisilemeyen": 13,
+  "ham": 3691,
+  "on_eleme_gecti": 353,
+  "makale_acildi": 200,
+  "tarihsiz_elendi": 104,
+  "pencere_disi": 257,
+  "kapsam_disi": 3275,
+  "tekrar": 52,
+  "kabul": 3,
   "gnews_tarih": 0
  },
  "unreachable": [
@@ -232,6 +210,10 @@
   [
    "MetalForming Magazine",
    "HTTP 404"
+  ],
+  [
+   "Metallurgprom",
+   "TimeoutError: The read operation timed out"
   ],
   [
    "Sanayi Gazetesi",
@@ -564,30 +546,19 @@
    "sogutmada": false
   }
  },
- "tech_pool": [
-  {
-   "anahtar": "tech:e82b221fc2986888",
-   "tarih": "2026-10-05",
-   "baslik": "Turkey's Isdemir develops high-quality steel production for defense industry and electrical steel",
-   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMW13SGRFangyUGg2dkFBMDJ0aUFSSVljX0gxbXFZMng2OWRYY1hqLThqYVNtaDJzMUlvanBROE02MXZMTktNNG4zU3AzdHZzVUlxRVpXUlZRVzQ0eUhKamhRU2dyMHh4RkdDcGEtYXMzRmQ1eEE5aV9GWTJkZmhCeTZCRzE3ZG5VZS1pdEZnaXBGNzZ1WGl1WUxTeUNIVEY2UzJTN1MtZ0RvbnFNc0NzNUJtWl9YX0J6Y0FMQlh1cTUzRzdMZ3dNbE9zQXU2a1NTVGVUeEwybnR1M2VQcmtaaEFQb2RhWTVSTjdxMXdGRQ?oc=5",
-   "kaynak": "Google News",
-   "hat": "Elektrik celigi hatti"
-  }
- ],
+ "tech_pool": [],
  "kaynak_katki": {
-  "Andritz Metals": 1,
-  "Google News": 2,
-  "Bing News": 4
+  "Bing News": 3
  },
  "window": [
   "2026-10-12",
   "2026-11-02"
  ],
- "bulunan_kullanilan": 2,
- "bulunan_havuz": 11,
- "rezerv_kullanilan": 0,
- "rezerv_havuz": 32,
+ "bulunan_kullanilan": 4,
+ "bulunan_havuz": 6,
+ "rezerv_kullanilan": 2,
+ "rezerv_havuz": 29,
  "period": "2026-W45",
- "generated": "2026-11-02 14:46 UTC",
+ "generated": "2026-11-02 16:52 UTC",
  "version": "3.0.0"
 }
