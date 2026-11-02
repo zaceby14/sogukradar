@@ -1914,6 +1914,25 @@ def test_gemini_yogunlukta_yeniden_dener():
             os.environ["GEMINI_API_KEY"] = eski[3]
 
 
+def test_ayni_tedarikci_farkli_musteri_tekrar_degil():
+    """2026-11-02: 'Fives revamps Lusosider galvanizing line' (Portekiz),
+    gonderilmis 'Fives upgrades Hyundai Steel's galvanising line' (Kore) yuzunden
+    TEKRAR sayildi. Ayni tedarikci + ayni hat, farkli musteri = farkli olay."""
+    from . import collect, kume
+    a = {"baslik": "Fives upgrades Hyundai Steel's galvanising line", "firma": "Fives",
+         "tedarikci": "Fives", "hat": "Galvaniz hatti (CGL)", "asama": "Modernizasyon", "ulke": "",
+         "tarih": "2026-10-13"}
+    b = dict(a, baslik="Fives revamps Lusosider galvanizing line", tarih="2026-10-20")
+    eq(collect.event_keys(a) & collect.event_keys(b), set(), "farkli musteri: olay izleri kesismez")
+    eq(kume._ayni_kume(a, b), False, "farkli musteri: ayni kume degil")
+    eq(kume.gecmis_tekrari(b, [{"b": a["baslik"], "a": "Modernizasyon"}]), False,
+       "farkli musteri: gonderilmis tekrari degil")
+    c = dict(a, baslik="Fives completes Hyundai Steel galvanizing line upgrade", tarih="2026-10-15")
+    eq(bool(collect.event_keys(a) & collect.event_keys(c)), True, "ayni musteri: ayni olay")
+    eq(kume.gecmis_tekrari(c, [{"b": a["baslik"], "a": "Modernizasyon"}]), True,
+       "ayni musteri ayni asama: tekrar")
+
+
 def test_w40_editorsuz_cop_kumeleme():
     """2026-11-02: editorsuz cikan ilk bulten (2026-W40) 14 satirdi, yarisi cop.
 
@@ -3424,6 +3443,7 @@ def run():
                test_v20_indiana_hindistan_degil,
                test_w40_editorsuz_cop_kumeleme,
                test_yazar_dogrulayici_ve_llm_yedegi,
+               test_ayni_tedarikci_farkli_musteri_tekrar_degil,
                test_gemini_yogunlukta_yeniden_dener,
                test_gemini_model_secimi,
                test_iki_haftalik_dongu_ve_yayinci_linki,

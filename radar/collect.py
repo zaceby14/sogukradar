@@ -21,6 +21,22 @@ from .config import (MAX_ARTICLE_FETCH, MAX_LINKS_PER_SOURCE, MAX_SITEMAP_LINKS,
 US_STYLE = {"cognex", "butechbliss", "delta", "bronx", "aist", "magnetics", "worldsteel"}
 
 
+_IZ_GENEL = {"steel", "steels", "group", "line", "lines", "mill", "plant", "works", "new",
+             "galvanizing", "galvanising", "pickling", "annealing", "cold", "rolling",
+             "coating", "tinplate", "electrical", "continuous", "technologies", "technology",
+             "automation", "metals", "india", "china", "the", "for", "and", "with"}
+
+
+def _musteri_izi(baslik, ted):
+    """Basliktaki buyuk harfli, tedarikci ve genel olmayan ilk ozel ad (musteri)."""
+    tedk = set(ted.split())
+    for w in re.findall(r"\b([A-Z][\w&\-]{2,})", baslik or "")[1:]:
+        f = taxonomy.fold(re.sub(r"['’]s$", "", w))
+        if f and f not in tedk and f not in _IZ_GENEL:
+            return f
+    return ""
+
+
 def event_keys(row):
     """Olay parmak izleri - COK BACAKLI. Tek anahtar yetmiyor:
     2026-08-12'de ayni KG Steel/Primetals olayi uc gazetede uc farkli hat
@@ -35,8 +51,21 @@ def event_keys(row):
     # yayin firma-bazli anahtar uretiyor ve iki anahtar hic kesismiyordu.
     kimler = {taxonomy.fold(row.get("tedarikci") or ""),
               taxonomy.fold(row.get("firma") or "")} - {""}
+    # MUSTERISIZ TEDARIKCI BACAGI (2026-11-02). "Fives upgrades Hyundai Steel's
+    # galvanising line" (Kore) gonderildikten sonra "Fives revamps Lusosider
+    # galvanizing line" (Portekiz) TEKRAR sayilip elendi: ulke okunamayinca tek
+    # anahtar "fives|hat|CGL|Modernizasyon" kaliyordu ve Fives'in 120 gun icindeki
+    # HER galvaniz yenilemesini yutuyordu. Musteri okunamadiysa (firma yok ya da
+    # firma = tedarikci) tedarikci bacagina basliktaki MUSTERI izi eklenir.
+    ted = taxonomy.fold(row.get("tedarikci") or "")
+    firma_f = taxonomy.fold(row.get("firma") or "")
+    musterisiz = bool(ted) and (not firma_f or firma_f == ted) and not ulke
+    iz = _musteri_izi(row.get("baslik") or "", ted) if musterisiz else ""
     keys = set()
     for who in (kimler or {""}):
+        if musterisiz and who == ted and iz:
+            keys.add(who + "@" + iz + "|hat|" + hat + "|" + asama)
+            continue
         keys.add(who + "|hat|" + hat + "|" + asama)
         if ulke:
             keys.add(who + "|ulke|" + ulke + "|" + asama)

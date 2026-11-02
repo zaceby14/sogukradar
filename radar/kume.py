@@ -124,6 +124,12 @@ def _ayni_kume(a, b):
         # firma sozcugu + AYNI (bilinen) hat + 10 gun icinde ise ayni olay.
         return _ortak_firma_sozcugu(fa, fb) and _ayni_hat_yakin_tarih(a, b)
     ha, hb = _hat(a), _hat(b)
+    from .collect import _musteri_izi
+    ted = taxonomy.fold(a.get("tedarikci") or b.get("tedarikci") or "")
+    if ted and taxonomy.fold(a.get("firma") or "") == ted:
+        i1, i2 = _musteri_izi(a.get("baslik", ""), ted), _musteri_izi(b.get("baslik", ""), ted)
+        if i1 and i2 and i1 != i2:
+            return False                 # ayni tedarikci, FARKLI musteri
     if ha and hb:
         return ha == hb
     # biri ya da ikisi hatsiz: baslik benzerligi sart
@@ -209,6 +215,15 @@ def gecmis_tekrari(r, son_basliklar):
             continue
         if taxonomy.match_line(b.get("b", "")) != h:
             continue
+        # TEDARIKCI "FIRMA" OLARAK OKUNDUYSA musteri farkli olabilir (2026-11-02:
+        # Fives/Hyundai gonderildi, Fives/Lusosider elendi). O zaman musteri izi
+        # de eslesmeli.
+        from .collect import _musteri_izi
+        ted = taxonomy.fold(r.get("tedarikci") or "")
+        if ted and taxonomy.fold(r.get("firma") or "") == ted:
+            i1, i2 = _musteri_izi(r.get("baslik", ""), ted), _musteri_izi(b.get("b", ""), ted)
+            if i1 and i2 and i1 != i2:
+                continue
         eski = ASAMA_SIRA.get(b.get("a") or "Belirsiz", 0)
         if yeni <= eski:
             return True
