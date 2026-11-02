@@ -42,7 +42,7 @@
    "kaynak_id": "andritz",
    "url": "https://www.andritz.com/newsroom-en/metals/2026-10-13-bluescope-group",
    "tarih_kaynagi": "url",
-   "lead": "Skip to main content en English Deutsch Site directory Newsroom Menu Search en English Deutsch Site directory Newsroom Menu Search Annual Report 2025 published Turning progress into industrial impact. FOR GROWTH THAT MATTERS. Discover more ANDRITZ GROUP ANDRITZ GROUP Newsroom Careers Sustainability OUR BUSINESS AREAS PULP & PAPER METALS HYDROPOWER ENVIRONMENT & ENERGY MORE ANDRITZ SOLUTIONS Automation Cyber security ",
+   "lead": "Skip to main content en Deutsch English Site directory Newsroom Menu Search en Deutsch English Site directory Newsroom Menu Search Annual Report 2025 published Turning progress into industrial impact. FOR GROWTH THAT MATTERS. Discover more ANDRITZ GROUP ANDRITZ GROUP Newsroom Careers Sustainability OUR BUSINESS AREAS PULP & PAPER METALS HYDROPOWER ENVIRONMENT & ENERGY MORE ANDRITZ SOLUTIONS Automation Cyber security ",
    "eksik": [
     "ulke",
     "tarih?"
@@ -82,9 +82,34 @@
    "puan": 54.6
   },
   {
+   "tarih": "2026-10-26",
+   "firma": "Red Bud Industries",
+   "ulke": "ABD",
+   "hat": "Dilme / boy kesme / SSC",
+   "asama": "Sozlesme",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "Red Bud Industries Installs Cut-to-Length Line at McNeilus Steel’s Tennessee Facility",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_hat10",
+   "url": "https://themachinemaker.com/news/red-bud-industries-installs-cut-to-length-line-at-mcneilus-steels-tennessee-facility/",
+   "tarih_kaynagi": "rss",
+   "lead": "Red Bud Industries has installed a heavy-gauge cut-to-length line equipped with a T3 stretcher leveler at McNeilus Steel Inc.’s facility in Morrison, Tennessee, USA. The new system is designed to ...",
+   "eksik": [],
+   "anahtar": "0b386546c836c574",
+   "kategori": "Hat",
+   "olaylar": [
+    "red bud industries|fu|ABD|Dilme / boy kesme / SSC",
+    "red bud industries|hat|Dilme / boy kesme / SSC|Sozlesme",
+    "red bud industries|ulke|ABD|Sozlesme"
+   ],
+   "puan": 46.2
+  },
+  {
    "tarih": "2026-10-13",
    "firma": "Fives",
-   "ulke": "Turkiye",
+   "ulke": "",
    "hat": "Galvaniz hatti (CGL)",
    "asama": "Modernizasyon",
    "tedarikci": "Fives",
@@ -95,16 +120,16 @@
    "kaynak_id": "bgq_sup06",
    "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/fives-upgrades-hyundai-steels-galvanising-line-0926/",
    "tarih_kaynagi": "rss",
-   "lead": "CRC / N America Ex-Works USD/s.ton 2.05% Plate / N America Ex-Works USD/s.ton 0.00% HRC / N America Ex-Works USD/s.ton 0.00% E2 & E3 Shipbreaking scrap /Turkey / Delivered basis / USD/t 0.00% E3 ...",
-   "eksik": [],
+   "lead": "",
+   "eksik": [
+    "ulke"
+   ],
    "anahtar": "0974a592e27b2b6f",
    "kategori": "Hat",
    "olaylar": [
-    "fives|fu|Turkiye|Galvaniz hatti (CGL)",
-    "fives|hat|Galvaniz hatti (CGL)|Modernizasyon",
-    "fives|ulke|Turkiye|Modernizasyon"
+    "fives|hat|Galvaniz hatti (CGL)|Modernizasyon"
    ],
-   "puan": 53.0
+   "puan": 42.0
   },
   {
    "tarih": "2026-10-20",
@@ -139,11 +164,11 @@
  ],
  "tech": [
   {
-   "anahtar": "tech:39cef9f2a80a7302",
-   "tarih": "2026-10-28",
-   "konu": "R&D Update: Lubrication and galling in stamping of galvanized AHSS - Part III",
-   "metin": "Sıcak daldırma galvaniz hatları alanında yeni bir geliştirme duyuruldu (Google News, 2026-10-28). Ayrıntı kaynak bağlantısında.",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObFNJdUNpQXFUajVzUHFLbTlPdVd1MHFOcDlGU3d4czJlMlptTURvNTZFTEJETXVSRWZKQ19XWTd5RWI4S0VPdTYxMEZ1aXkwb01fT1hiazJ6U2Etbzd4VkRTRGp2TkJjU0RybEZQTVlHZ0pkTXRtLW8wY0hyNEpKYjhhY19LOGNqSGZqcmhtcFN1eHJ4UVZBMzc4di0xb1VILTlHb2NiRy1MNnVXU2RIXzRZSDc?oc=5"
+   "anahtar": "tech:e82b221fc2986888",
+   "tarih": "2026-10-05",
+   "konu": "Turkey's Isdemir develops high-quality steel production for defense industry and electrical steel",
+   "metin": "Elektrik çeliği (trafo/motor sacı) üretim hatları alanında yeni bir geliştirme duyuruldu (Google News, 2026-10-05). Ayrıntı kaynak bağlantısında.",
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMW13SGRFangyUGg2dkFBMDJ0aUFSSVljX0gxbXFZMng2OWRYY1hqLThqYVNtaDJzMUlvanBROE02MXZMTktNNG4zU3AzdHZzVUlxRVpXUlZRVzQ0eUhKamhRU2dyMHh4RkdDcGEtYXMzRmQ1eEE5aV9GWTJkZmhCeTZCRzE3ZG5VZS1pdEZnaXBGNzZ1WGl1WUxTeUNIVEY2UzJTN1MtZ0RvbnFNc0NzNUJtWl9YX0J6Y0FMQlh1cTUzRzdMZ3dNbE9zQXU2a1NTVGVUeEwybnR1M2VQcmtaaEFQb2RhWTVSTjdxMXdGRQ?oc=5"
   }
  ]
 }

@@ -32,14 +32,28 @@
    }
   },
   {
-   "anahtar": "a6946dd1b448e55b",
-   "baslik": "Nippon Steel to spend $3B to upgrade US Steel Pennsylvania mill",
-   "url": "https://seekingalpha.com/news/4656367-nippon-steel-to-spend-3b-to-upgrade-us-steel-pennsylvania-mill",
+   "anahtar": "0974a592e27b2b6f",
+   "baslik": "Fives upgrades Hyundai Steel's galvanising line",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/fives-upgrades-hyundai-steels-galvanising-line-0926/",
+   "eksik": [
+    "ulke"
+   ],
+   "mevcut": {
+    "firma": "Fives",
+    "ulke": "",
+    "hat": "Galvaniz hatti (CGL)",
+    "asama": "Modernizasyon"
+   }
+  },
+  {
+   "anahtar": "e78669efb805f0bb",
+   "baslik": "Nippon Steel Raises US Mill Upgrade to $3 Billion as Costs Climb",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-23/nippon-steel-raises-us-mill-upgrade-to-3-billion-as-costs-climb",
    "eksik": [
     "hat"
    ],
    "mevcut": {
-    "firma": "Nippon Steel to spend $3B",
+    "firma": "Nippon Steel",
     "ulke": "ABD",
     "hat": "Belirsiz",
     "asama": "Modernizasyon"
@@ -106,24 +120,54 @@
    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbzh5Xzk5UzhnUU1VZ2w2TUYtLTU1VTZyM1psT1NpSGZIQ1NoMVlwSklORlhpeWVaWUVjNWdHaGNaWUg4SFp6ekE1dW5ockRPT3VsLWRFOTdMYmo3RXJ2eFBNdElZbFloUzNhdWNFRXQyYkZPcmVkQ3pRNV9vREJ2RTA5Nkp0NUZZM2YtS1dVU210enhwWEdkaHAtYVV6VXVOZkdEaEpoU25saEVFN1FFZ1J1YXp0S0lXMHfSAb8BQVVfeXFMTk1pazRMWW9aRm9kUnVsTlA4SzN3bFZKcGJsOGlYOHZRbXIzM0tlQURRTlpTTFhLT25fZkl3U2tHUWZma3JpSTdkOXhSM2Z4Y2dqcE1lNnZjM0dzTUhrbWVlQmlkZnlOc3IySU5qZ3A2RHRWMDJCUlF3bFdzWW1MRlotMG5SdDliWkFIZ0pBS0NDSldCSVV5NWFoQnZDOEUzRHg3QmRaZEMzTXQ5S09oM3o1MDc0SGVsQzNadEt1UHM?oc=5"
   },
   {
+   "anahtar": "2f18a1bfdf4a07d4",
+   "tarih": "2026-10-16",
+   "firma": "Tata Steel",
+   "ulke": "Hindistan",
+   "hat": "Surekli tavlama (CAL)",
+   "asama": "Ilk urun",
+   "baslik": "Tata Steel commissions ₹9,067 crore facilities at Kalinganagar plant",
+   "url": "https://www.business-standard.com/industry/news/tata-steel-commissions-9-067-crore-facilities-at-kalinganagar-plant-126101601179_1.html"
+  },
+  {
+   "anahtar": "74e2fe7760f15126",
+   "tarih": "2026-10-16",
+   "firma": "Xuanli Steel",
+   "ulke": "Cin",
+   "hat": "Dilme / boy kesme / SSC",
+   "asama": "Sozlesme",
+   "baslik": "China's Xuanli Steel orders SMS equipment for 2 million mt plate mill",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/chinas-xuanli-steel-orders-sms-equipment-for-2-million-mt-plate-mill-1484146.htm"
+  },
+  {
+   "anahtar": "0b386546c836c574",
+   "tarih": "2026-10-26",
+   "firma": "Red Bud Industries",
+   "ulke": "ABD",
+   "hat": "Dilme / boy kesme / SSC",
+   "asama": "Sozlesme",
+   "baslik": "Red Bud Industries Installs Cut-to-Length Line at McNeilus Steel’s Tennessee Facility",
+   "url": "https://themachinemaker.com/news/red-bud-industries-installs-cut-to-length-line-at-mcneilus-steels-tennessee-facility/"
+  },
+  {
    "anahtar": "0974a592e27b2b6f",
    "tarih": "2026-10-13",
    "firma": "Fives",
-   "ulke": "Turkiye",
+   "ulke": "",
    "hat": "Galvaniz hatti (CGL)",
    "asama": "Modernizasyon",
    "baslik": "Fives upgrades Hyundai Steel's galvanising line",
    "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/fives-upgrades-hyundai-steels-galvanising-line-0926/"
   },
   {
-   "anahtar": "a6946dd1b448e55b",
+   "anahtar": "e78669efb805f0bb",
    "tarih": "2026-10-22",
-   "firma": "Nippon Steel to spend $3B",
+   "firma": "Nippon Steel",
    "ulke": "ABD",
    "hat": "Belirsiz",
    "asama": "Modernizasyon",
-   "baslik": "Nippon Steel to spend $3B to upgrade US Steel Pennsylvania mill",
-   "url": "https://seekingalpha.com/news/4656367-nippon-steel-to-spend-3b-to-upgrade-us-steel-pennsylvania-mill"
+   "baslik": "Nippon Steel Raises US Mill Upgrade to $3 Billion as Costs Climb",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-23/nippon-steel-raises-us-mill-upgrade-to-3-billion-as-costs-climb"
   },
   {
    "anahtar": "81afdce4c6c25e28",
@@ -147,14 +191,6 @@
   }
  ],
  "teknoloji_adaylari": [
-  {
-   "anahtar": "tech:39cef9f2a80a7302",
-   "tarih": "2026-10-28",
-   "baslik": "R&D Update: Lubrication and galling in stamping of galvanized AHSS - Part III",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObFNJdUNpQXFUajVzUHFLbTlPdVd1MHFOcDlGU3d4czJlMlptTURvNTZFTEJETXVSRWZKQ19XWTd5RWI4S0VPdTYxMEZ1aXkwb01fT1hiazJ6U2Etbzd4VkRTRGp2TkJjU0RybEZQTVlHZ0pkTXRtLW8wY0hyNEpKYjhhY19LOGNqSGZqcmhtcFN1eHJ4UVZBMzc4di0xb1VILTlHb2NiRy1MNnVXU2RIXzRZSDc?oc=5",
-   "kaynak": "Google News",
-   "hat": "Galvaniz hatti (CGL)"
-  },
   {
    "anahtar": "tech:e82b221fc2986888",
    "tarih": "2026-10-05",

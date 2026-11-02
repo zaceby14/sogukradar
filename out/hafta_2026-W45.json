@@ -41,7 +41,7 @@
    "kaynak_id": "andritz",
    "url": "https://www.andritz.com/newsroom-en/metals/2026-10-13-bluescope-group",
    "tarih_kaynagi": "url",
-   "lead": "Skip to main content en English Deutsch Site directory Newsroom Menu Search en English Deutsch Site directory Newsroom Menu Search Annual Report 2025 published Turning progress into industrial impact. FOR GROWTH THAT MATTERS. Discover more ANDRITZ GROUP ANDRITZ GROUP Newsroom Careers Sustainability OUR BUSINESS AREAS PULP & PAPER METALS HYDROPOWER ENVIRONMENT & ENERGY MORE ANDRITZ SOLUTIONS Automation Cyber security ",
+   "lead": "Skip to main content en Deutsch English Site directory Newsroom Menu Search en Deutsch English Site directory Newsroom Menu Search Annual Report 2025 published Turning progress into industrial impact. FOR GROWTH THAT MATTERS. Discover more ANDRITZ GROUP ANDRITZ GROUP Newsroom Careers Sustainability OUR BUSINESS AREAS PULP & PAPER METALS HYDROPOWER ENVIRONMENT & ENERGY MORE ANDRITZ SOLUTIONS Automation Cyber security ",
    "eksik": [
     "ulke",
     "tarih?"
@@ -81,9 +81,88 @@
    "puan": 54.6
   },
   {
+   "tarih": "2026-10-16",
+   "firma": "Tata Steel",
+   "ulke": "Hindistan",
+   "hat": "Surekli tavlama (CAL)",
+   "asama": "Ilk urun",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "Tata Steel commissions ₹9,067 crore facilities at Kalinganagar plant",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_urun02",
+   "url": "https://www.business-standard.com/industry/news/tata-steel-commissions-9-067-crore-facilities-at-kalinganagar-plant-126101601179_1.html",
+   "tarih_kaynagi": "rss",
+   "lead": "The new facilities include galvanising and annealing lines, a slurry pipeline and an air separation unit, while the NINL expansion aims to boost steelmaking capacity in Odisha.",
+   "eksik": [],
+   "anahtar": "2f18a1bfdf4a07d4",
+   "kategori": "Hat",
+   "olaylar": [
+    "*|ulke-hat|Hindistan|Surekli tavlama (CAL)|Ilk urun",
+    "tata steel|fu|Hindistan|Surekli tavlama (CAL)",
+    "tata steel|hat|Surekli tavlama (CAL)|Ilk urun",
+    "tata steel|ulke|Hindistan|Ilk urun"
+   ],
+   "puan": 49.2
+  },
+  {
+   "tarih": "2026-10-16",
+   "firma": "Xuanli Steel",
+   "ulke": "Cin",
+   "hat": "Dilme / boy kesme / SSC",
+   "asama": "Sozlesme",
+   "tedarikci": "SMS group",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "China's Xuanli Steel orders SMS equipment for 2 million mt plate mill",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_sup00",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/chinas-xuanli-steel-orders-sms-equipment-for-2-million-mt-plate-mill-1484146.htm",
+   "tarih_kaynagi": "rss",
+   "lead": "Germany-based plantmaker SMS group has announced that China's Anhui Xuanli Steel has awarded it a contract to supply a five-meter plate finishing stand, trimming shear and slitting shear for its new ...",
+   "eksik": [],
+   "anahtar": "74e2fe7760f15126",
+   "kategori": "Hat",
+   "olaylar": [
+    "sms group|fu|Cin|Dilme / boy kesme / SSC",
+    "sms group|hat|Dilme / boy kesme / SSC|Sozlesme",
+    "sms group|ulke|Cin|Sozlesme",
+    "xuanli steel|fu|Cin|Dilme / boy kesme / SSC",
+    "xuanli steel|hat|Dilme / boy kesme / SSC|Sozlesme",
+    "xuanli steel|ulke|Cin|Sozlesme"
+   ],
+   "puan": 48.2
+  },
+  {
+   "tarih": "2026-10-26",
+   "firma": "Red Bud Industries",
+   "ulke": "ABD",
+   "hat": "Dilme / boy kesme / SSC",
+   "asama": "Sozlesme",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "Red Bud Industries Installs Cut-to-Length Line at McNeilus Steel’s Tennessee Facility",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_hat10",
+   "url": "https://themachinemaker.com/news/red-bud-industries-installs-cut-to-length-line-at-mcneilus-steels-tennessee-facility/",
+   "tarih_kaynagi": "rss",
+   "lead": "Red Bud Industries has installed a heavy-gauge cut-to-length line equipped with a T3 stretcher leveler at McNeilus Steel Inc.’s facility in Morrison, Tennessee, USA. The new system is designed to ...",
+   "eksik": [],
+   "anahtar": "0b386546c836c574",
+   "kategori": "Hat",
+   "olaylar": [
+    "red bud industries|fu|ABD|Dilme / boy kesme / SSC",
+    "red bud industries|hat|Dilme / boy kesme / SSC|Sozlesme",
+    "red bud industries|ulke|ABD|Sozlesme"
+   ],
+   "puan": 46.2
+  },
+  {
    "tarih": "2026-10-13",
    "firma": "Fives",
-   "ulke": "Turkiye",
+   "ulke": "",
    "hat": "Galvaniz hatti (CGL)",
    "asama": "Modernizasyon",
    "tedarikci": "Fives",
@@ -94,41 +173,41 @@
    "kaynak_id": "bgq_sup06",
    "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/fives-upgrades-hyundai-steels-galvanising-line-0926/",
    "tarih_kaynagi": "rss",
-   "lead": "CRC / N America Ex-Works USD/s.ton 2.05% Plate / N America Ex-Works USD/s.ton 0.00% HRC / N America Ex-Works USD/s.ton 0.00% E2 & E3 Shipbreaking scrap /Turkey / Delivered basis / USD/t 0.00% E3 ...",
-   "eksik": [],
+   "lead": "",
+   "eksik": [
+    "ulke"
+   ],
    "anahtar": "0974a592e27b2b6f",
    "kategori": "Hat",
    "olaylar": [
-    "fives|fu|Turkiye|Galvaniz hatti (CGL)",
-    "fives|hat|Galvaniz hatti (CGL)|Modernizasyon",
-    "fives|ulke|Turkiye|Modernizasyon"
+    "fives|hat|Galvaniz hatti (CGL)|Modernizasyon"
    ],
-   "puan": 53.0
+   "puan": 42.0
   },
   {
    "tarih": "2026-10-22",
-   "firma": "Nippon Steel to spend $3B",
+   "firma": "Nippon Steel",
    "ulke": "ABD",
    "hat": "Belirsiz",
    "asama": "Modernizasyon",
    "tedarikci": "",
    "kapasite": "",
-   "tutar": "$3",
-   "baslik": "Nippon Steel to spend $3B to upgrade US Steel Pennsylvania mill",
+   "tutar": "$3 Billion",
+   "baslik": "Nippon Steel Raises US Mill Upgrade to $3 Billion as Costs Climb",
    "kaynak": "Bing News",
-   "kaynak_id": "bgq_hat03",
-   "url": "https://seekingalpha.com/news/4656367-nippon-steel-to-spend-3b-to-upgrade-us-steel-pennsylvania-mill",
+   "kaynak_id": "bgq_hat00",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-23/nippon-steel-raises-us-mill-upgrade-to-3-billion-as-costs-climb",
    "tarih_kaynagi": "rss",
-   "lead": "Nippon Steel said it plans to spend nearly $3B on a new hot strip mill at the US Steel-operated Mon Valley works in Pennsylvania.",
+   "lead": "Nippon Steel Corp. will spend $3 billion building a hot-strip mill in Pennsylvania, part of its $11 billion investment plan in newly-acquired US Steel.",
    "eksik": [
     "hat"
    ],
-   "anahtar": "a6946dd1b448e55b",
+   "anahtar": "e78669efb805f0bb",
    "kategori": "Hat",
    "olaylar": [
-    "nippon steel to spend $3b|fu|ABD|Belirsiz",
-    "nippon steel to spend $3b|hat|Belirsiz|Modernizasyon",
-    "nippon steel to spend $3b|ulke|ABD|Modernizasyon"
+    "nippon steel|fu|ABD|Belirsiz",
+    "nippon steel|hat|Belirsiz|Modernizasyon",
+    "nippon steel|ulke|ABD|Modernizasyon"
    ],
    "puan": 33.6
   },
@@ -173,7 +252,7 @@
    "tutar": "€300 million",
    "baslik": "ArcelorMittal commits €300 million to Dunkirk steel project, targets spring 2027 tests for new line in Mardyck",
    "kaynak": "Bing News",
-   "kaynak_id": "bgs_orbis2",
+   "kaynak_id": "bgq_hat00",
    "url": "https://www.steelorbis.com/steel-news/latest-news/arcelormittal-advances-dunkirk-eaf-and-mardyck-electrical-steel-projects-1483903.htm",
    "tarih_kaynagi": "rss",
    "lead": "ArcelorMittal has announced progress on its €1.3 billion low-carbon steelmaking project at Dunkirk and €500 million electrical steel expansion at Mardyck, France, supporting emissions reductions ...",
@@ -192,15 +271,15 @@
  ],
  "stats": {
   "kaynak": 291,
-  "erisilemeyen": 12,
-  "ham": 3304,
-  "on_eleme_gecti": 327,
+  "erisilemeyen": 11,
+  "ham": 3630,
+  "on_eleme_gecti": 354,
   "makale_acildi": 202,
   "tarihsiz_elendi": 77,
-  "pencere_disi": 262,
-  "kapsam_disi": 2930,
-  "tekrar": 28,
-  "kabul": 7,
+  "pencere_disi": 266,
+  "kapsam_disi": 3233,
+  "tekrar": 44,
+  "kabul": 10,
   "gnews_tarih": 0
  },
  "unreachable": [
@@ -227,10 +306,6 @@
   [
    "GMK Center",
    "HTTP 403"
-  ],
-  [
-   "Magnetics Magazine",
-   "TimeoutError: The read operation timed out"
   ],
   [
    "BigMint (SteelMint)",
@@ -581,14 +656,6 @@
  },
  "tech_pool": [
   {
-   "anahtar": "tech:39cef9f2a80a7302",
-   "tarih": "2026-10-28",
-   "baslik": "R&D Update: Lubrication and galling in stamping of galvanized AHSS - Part III",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObFNJdUNpQXFUajVzUHFLbTlPdVd1MHFOcDlGU3d4czJlMlptTURvNTZFTEJETXVSRWZKQ19XWTd5RWI4S0VPdTYxMEZ1aXkwb01fT1hiazJ6U2Etbzd4VkRTRGp2TkJjU0RybEZQTVlHZ0pkTXRtLW8wY0hyNEpKYjhhY19LOGNqSGZqcmhtcFN1eHJ4UVZBMzc4di0xb1VILTlHb2NiRy1MNnVXU2RIXzRZSDc?oc=5",
-   "kaynak": "Google News",
-   "hat": "Galvaniz hatti (CGL)"
-  },
-  {
    "anahtar": "tech:e82b221fc2986888",
    "tarih": "2026-10-05",
    "baslik": "Turkey's Isdemir develops high-quality steel production for defense industry and electrical steel",
@@ -601,17 +668,17 @@
   "Andritz Metals": 1,
   "Google News": 2,
   "Elle besleme": 1,
-  "Bing News": 3
+  "Bing News": 6
  },
  "window": [
   "2026-10-12",
   "2026-11-02"
  ],
  "bulunan_kullanilan": 0,
- "bulunan_havuz": 36,
+ "bulunan_havuz": 14,
  "rezerv_kullanilan": 0,
- "rezerv_havuz": 31,
+ "rezerv_havuz": 32,
  "period": "2026-W45",
- "generated": "2026-11-02 12:49 UTC",
+ "generated": "2026-11-02 13:03 UTC",
  "version": "3.0.0"
 }
