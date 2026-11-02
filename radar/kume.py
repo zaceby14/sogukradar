@@ -137,6 +137,11 @@ def _puan(r):
             r.get("tarih") or "")
 
 
+def _toplayici(url):
+    u = (url or "").lower()
+    return "news.google.com" in u or "bing.com/news" in u or "msn.com" in u
+
+
 def kumele(rows):
     """(temsilciler, kume_sayisi) - sira korunur, temsilci ilk uyenin yerinde."""
     kumeler = []                       # her kume: satir listesi
@@ -160,6 +165,16 @@ def kumele(rows):
                     if m.get(alan):
                         temsilci[alan] = m[alan]
                         break
+        # YAYINCI LINKI TERCIH EDILIR (2026-11-02): temsilcinin adresi Google/
+        # Bing yonlendirmesiyse ve kumede yayincinin kendi adresi varsa o
+        # kullanilir. Okuyucu yonlendirme linkini dogrulayamaz, sistem de acamaz.
+        if _toplayici(temsilci.get("url")):
+            for m in sorted(k, key=_puan, reverse=True):
+                if m.get("url") and not _toplayici(m.get("url")):
+                    temsilci["url"] = m["url"]
+                    if m.get("kaynak") and m["kaynak"] not in ("Bing News", "Google News"):
+                        temsilci["kaynak"] = m["kaynak"]
+                    break
         temsilci["ilgili"] = [
             {"baslik": m.get("baslik", ""), "url": m.get("url", ""),
              "kaynak": m.get("kaynak", ""), "tarih": m.get("tarih", "")}

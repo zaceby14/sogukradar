@@ -1841,6 +1841,31 @@ def test_w45_jindal_cifti_ve_yenileme_iddiasi():
     eq("ilk üretim" in compose.row_sentence(yeni), True, "gercek ilk urun korunur")
 
 
+def test_iki_haftalik_dongu_ve_yayinci_linki():
+    """2026-11-02: bulten 2 haftada bir (kullanici karari); kumede yayincinin
+    kendi linki Google yonlendirmesine tercih edilir."""
+    import radar.cli as C
+    from . import kume
+    bugun = dt.date.today()
+    per = lambda d: "%04d-W%02d" % d.isocalendar()[:2]
+    eq(C._son_gonderim({"gonderilen_donemler": []}), None, "kayit yoksa son gonderim yok")
+    gecen = bugun - dt.timedelta(days=7)
+    son = C._son_gonderim({"gonderilen_donemler": [per(gecen)]})
+    eq((bugun - son).days < C.DONGU_GUN - 1, True, "gecen hafta gonderildi -> bu hafta atla")
+    iki = bugun - dt.timedelta(days=14)
+    son = C._son_gonderim({"gonderilen_donemler": [per(iki)]})
+    eq((bugun - son).days < C.DONGU_GUN - 1, False, "iki hafta once gonderildi -> bu hafta gonder")
+    a = {"firma": "Jindal India", "hat": "Galvaniz hatti (CGL)", "asama": "Ilk urun",
+         "tarih": "2026-10-27", "baslik": "Jindal India Commissions Revamped Galvanising Line",
+         "url": "https://news.google.com/rss/articles/XYZ", "kaynak": "Rediff", "anahtar": "a"}
+    b = {"firma": "BC Jindal Group", "hat": "Galvaniz hatti (CGL)", "asama": "Modernizasyon",
+         "tarih": "2026-10-27", "baslik": "BC Jindal Group Achieves 1.6 MTPA with CGL-5 revamp",
+         "url": "https://newspatrolling.com/bc-jindal", "kaynak": "Bing News", "anahtar": "b"}
+    rep, _ = kume.kumele([a, b])
+    eq(rep[0]["url"], "https://newspatrolling.com/bc-jindal", "yayinci linki secildi")
+    eq(rep[0]["asama"], "Ilk urun", "temsilci asamasi korunur")
+
+
 def test_w40_editorsuz_cop_kumeleme():
     """2026-11-02: editorsuz cikan ilk bulten (2026-W40) 14 satirdi, yarisi cop.
 
@@ -3351,6 +3376,7 @@ def run():
                test_v20_indiana_hindistan_degil,
                test_w40_editorsuz_cop_kumeleme,
                test_yazar_dogrulayici_ve_llm_yedegi,
+               test_iki_haftalik_dongu_ve_yayinci_linki,
                test_w45_jindal_cifti_ve_yenileme_iddiasi,
                test_w45_havuz_deliklerinin_kapanisi,
                test_w45_baglanti_dogrulama_ve_sitemap_tarihi,

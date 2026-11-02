@@ -736,6 +736,23 @@ MIN_HAM = 500
 MAX_YAS_GUN = 100            # rezerv kullanimi 90 gun + pay
 
 
+DONGU_GUN = int(os.environ.get("RADAR_DONGU_GUN", "14"))
+
+
+def _son_gonderim(st):
+    """Son GERCEK gonderimin Pazartesi tarihi (gonderilen_donemler'den) ya da None."""
+    son = None
+    for d in st.get("gonderilen_donemler") or []:
+        try:
+            y, w = d.split("-W")
+            g = dt.date.fromisocalendar(int(y), int(w), 1)
+        except Exception:
+            continue
+        if son is None or g > son:
+            son = g
+    return son
+
+
 def _satir_suzgeci(payload, bugun, st):
     """Satir bazli SON denetim: kusurlu satiri CIKARIR (tum bulteni durdurmaz).
 
@@ -845,6 +862,11 @@ def cmd_otomatik(a):
             and t.get("anahtar", "") not in (st.get("tech_seen") or {})]
 
     nedenler = _kalite_kapisi(payload, per)
+    # IKI HAFTALIK DONGU (2026-11-02, kullanici karari): son gercek gonderimden
+    # bu yana DONGU_GUN dolmadiysa bu hafta gonderilmez - hata degil, plan.
+    # Tarama yine calisir ve havuzu besler; haber kaybolmaz, sonraki bultene kalir.
+    son = _son_gonderim(st)
+    atla = bool(son and (bugun - son).days < DONGU_GUN - 1)
     deneme = bool(a.deneme)
     ek = "deneme_" if deneme else ""
     base = os.path.join(OUT, "%shafta_%s" % (ek, per))
@@ -857,7 +879,8 @@ def cmd_otomatik(a):
         base = os.path.join(OUT, "deneme_hafta_%s" % per)
     _yaz(payload, doc, tech, base, email_yolu)
 
-    karar = {"donem": per, "gonder": (not nedenler) and (not deneme),
+    karar = {"donem": per, "gonder": (not nedenler) and (not deneme) and not atla,
+             "atla": atla, "son_gonderim": son.isoformat() if son else None,
              "deneme": deneme, "satir": len(payload["rows"]),
              "nedenler": nedenler, "yazar": rapor,
              "elenen_satirlar": [{"baslik": b[:90], "neden": n} for b, n in elenen],
@@ -873,13 +896,15 @@ def cmd_otomatik(a):
           % (per, len(payload["rows"]), rapor.get("saglayici") or "kuralsal",
              rapor.get("cumle_llm", 0), rapor.get("cumle_kuralsal", 0),
              len(rapor.get("reddedilen_cumle", []))))
+    if atla:
+        print("IKI HAFTALIK DONGU: son gonderim %s, bu hafta gonderim yok (plan)." % son)
     if nedenler:
         print("GONDERILMEZ - kalite kapisi:")
         for n in nedenler:
             print("  - " + n)
     elif deneme:
         print("DENEME: kapi gecti ama gonderilmeyecek, hafiza yazilmadi.")
-    else:
+    elif not atla:
         print("KAPI GECTI: gonderilebilir.")
     return 0
 
@@ -937,7 +962,7 @@ def cmd_nobet(a):
         if son is None or gun > son:
             son = gun
     gecen = (bugun - son).days if son else None
-    sessiz = son is None or gecen > 14
+    sessiz = son is None or gecen > DONGU_GUN + 7
     print("nobet: son gonderim donemi=%s, gecen=%s gun, sessiz=%s"
           % (max(donemler) if donemler else "yok", gecen, sessiz))
     cikti = os.environ.get("GITHUB_OUTPUT")

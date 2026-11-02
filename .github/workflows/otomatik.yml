@@ -23,6 +23,9 @@ name: SogukRadar otomatik bulten
 #   GEMINI_API_KEY    Google AI Studio'dan ucretsiz
 #   ANTHROPIC_API_KEY console.anthropic.com (ucretli; Claude Pro'dan AYRI)
 #   GitHub Models     anahtarsiz: asagidaki 'models: read' izni + GITHUB_TOKEN
+# IKI HAFTALIK DONGU (2026-11-02): is akisi her Pazartesi tarar (havuz beslenir)
+# ama posta yalniz son gercek gonderimden 14 gun gectiyse gider
+# (cli.DONGU_GUN). Ara hafta "atla" karari normaldir, uyari uretmez.
 on:
   schedule:
     - cron: "41 5 * * 1"          # Pazartesi 05:41 UTC = 08:41 TSI
@@ -119,7 +122,7 @@ jobs:
             echo '### SogukRadar otomatik bulten'
             echo "- deneme modu: $DENEME"
             echo "- testler: ${{ steps.test.outcome }}"
-            echo "- gonderilecek mi: ${{ steps.karar.outputs.gonder }}"
+            echo "- gonderilecek mi: ${{ steps.karar.outputs.gonder }} (ara hafta ise iki haftalik dongu geregi atlanir)"
             echo '```json'
             cat out/karar.json 2>/dev/null || echo '(karar.json yok)'
             echo '```'
