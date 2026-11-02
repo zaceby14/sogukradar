@@ -35,6 +35,10 @@ def ulke_goster(u):
     return ULKE_GOSTER.get(u or "", u or "")
 
 
+ASAMA_TR = {"Sozlesme": "sözleşme", "Insaat": "inşaat", "Ilk urun": "ilk ürün",
+            "Seri uretim": "seri üretim", "Modernizasyon": "modernizasyon"}
+
+
 def _top_countries(rows, n=3):
     d = {}
     for r in rows:
@@ -115,25 +119,31 @@ def exec_summary(rows, stats):
                 % (stats.get("kaynak", 0), er))
     parts = []
     cs = _top_countries(rows)
-    if cs:
-        if len(cs) == 1:
-            parts.append("Bu haftanın %d doğrulanmış gelişmesinin tamamı %s kaynaklı."
-                         % (n, ulke_goster(cs[0][0])))
-        else:
-            lead = cs[0]
-            rest = ", ".join(ulke_goster(c) for c, _ in cs[1:])
-            parts.append("Bu hafta %d doğrulanmış gelişme kaydedildi; %s %d gelişmeyle "
-                         "öne çıkarken %s takip ediyor." % (n, ulke_goster(lead[0]),
-                                                           lead[1], rest))
-    else:
+    bilinen = sum(k for _, k in cs)
+    if not cs:
         parts.append("Bu hafta %d doğrulanmış gelişme kaydedildi." % n)
+    elif len(cs) == 1 and cs[0][1] == n:
+        parts.append("Bu haftanın %d doğrulanmış gelişmesinin tamamı %s kaynaklı."
+                     % (n, ulke_goster(cs[0][0])))
+    elif len(cs) == 1:
+        # Ulkesi okunamayan satirlar var: 'tamami' DENEMEZ (haberin ulkesi
+        # bilinmiyorsa onu o ulkeye yazmak uydurmadir).
+        parts.append("Bu hafta %d doğrulanmış gelişme kaydedildi; ülkesi belirlenenlerin "
+                     "%d'i %s kaynaklı." % (n, cs[0][1], ulke_goster(cs[0][0])))
+    else:
+        lead = cs[0]
+        rest = ", ".join(ulke_goster(c) for c, _ in cs[1:])
+        parts.append("Bu hafta %d doğrulanmış gelişme kaydedildi; ülkesi belirlenenler "
+                     "arasında %s %d gelişmeyle öne çıkarken %s takip ediyor."
+                     % (n, ulke_goster(lead[0]), lead[1], rest))
     hl = _top(rows, "hat", 2)
     if hl:
-        parts.append("Hat tarafında ağırlık %s." % " ve ".join(h.lower() for h, _ in hl))
+        parts.append("Hat tarafında ağırlık %s." %
+                     " ve ".join(HAT_TR.get(h, h.lower()) for h, _ in hl))
     st = _top(rows, "asama", 2)
     if st:
         parts.append("Aşama dağılımında %s önde." %
-                     " ve ".join(("%s (%d)" % (a.lower(), k)) for a, k in st))
+                     " ve ".join(("%s (%d)" % (ASAMA_TR.get(a, a.lower()), k)) for a, k in st))
     tr = [r for r in rows if r.get("ulke") == "Turkiye" or "tosyali" in
           (r.get("firma") or "").lower()]
     if tr:

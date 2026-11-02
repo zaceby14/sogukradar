@@ -68,8 +68,32 @@ jobs:
           PY
           echo '```' >> $GITHUB_STEP_SUMMARY
 
+      # SESSIZLIK BEKCISI (2026-11-02): bulten 14 gunden fazladir gitmediyse
+      # (Carsamba gunleri) MAIL_USER'a uyari yollar. 5 haftalik sessizlik
+      # kimse fark etmeden gecmisti.
+      - name: Sessizlik bekcisi
+        id: nobet
+        continue-on-error: true
+        run: python -m radar nobet
+
+      - name: Sessizlik uyarisi
+        if: steps.nobet.outputs.uyari == 'true'
+        continue-on-error: true
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.MAIL_USER }}
+          password: ${{ secrets.MAIL_PASS }}
+          subject: "SogukRadar UYARI — bulten uzun suredir gitmedi"
+          to: ${{ secrets.MAIL_USER }}
+          from: SogukRadar Bulten
+          body: file://out/uyari.txt
+
       - name: Ciktilari repoya isle
         run: |
+          rm -f out/uyari.txt
           git config user.name  "sogukradar-bot"
           git config user.email "bot@users.noreply.github.com"
           for i in 1 2 3; do

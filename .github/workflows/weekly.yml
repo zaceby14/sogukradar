@@ -1,9 +1,10 @@
 name: SogukRadar haftalik
 
 on:
-  schedule:
-    # Pazartesi 04:05 UTC = 07:05 TSI. Actions kuyrugu gecikebilir, sorun degil.
-    - cron: "37 4 * * 1"
+  # ZAMANLAMA KALDIRILDI (2026-11-02): ayni taramayi otomatik.yml yapiyor
+  # (testler -> tarama -> otomatik editor -> kalite kapisi -> posta). Ikisi
+  # birlikte calisirsa tarama iki kez kosar ve havuz bozulur. Bu is akisi
+  # artik yalniz ELLE (editor yolu: tarama -> editor -> ONAY -> gonder.yml).
   # PUSH TETIKLEYICISI KALDIRILDI (2026-08-17 karari). Her kod push'u tam
   # tarama baslatiyordu; tarama out/ dosyalarini eziyor, ayrica program disi
   # posta zincirine yol aciyordu (2026-W34'te tek gunde dort tarama kostu ve

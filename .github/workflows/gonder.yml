@@ -30,7 +30,23 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # CIFT POSTA KORUMASI (2026-11-02): otomatik hat (otomatik.yml) bu
+      # donemi zaten gonderdiyse editor ONAY'i ikinci posta yollamaz.
+      - name: Donem zaten gonderildi mi
+        id: guard
+        run: |
+          ONAY_DONEM=$(head -1 out/ONAY 2>/dev/null | tr -d '[:space:]')
+          python - "$ONAY_DONEM" <<'PY' >> $GITHUB_OUTPUT
+          import json, sys
+          st = json.load(open("state/state.json", encoding="utf-8"))
+          zaten = sys.argv[1] in (st.get("gonderilen_donemler") or [])
+          print("atla=%s" % str(zaten).lower())
+          if zaten:
+              print("::notice::%s bulteni otomatik hat tarafindan zaten gonderilmis, posta atlandi" % sys.argv[1], file=sys.stderr)
+          PY
+
       - name: ONAY guncel kosuya ait mi
+        if: steps.guard.outputs.atla != 'true'
         run: |
           test -f out/ONAY || { echo "out/ONAY yok"; exit 1; }
           test -s out/email.html || { echo "out/email.html bos"; exit 1; }
@@ -52,6 +68,7 @@ jobs:
       # ATLANIYOR, is akisi YESIL bitiyor ve "posta gonderildi" ozeti yine
       # yaziliyordu. Gonderilmeyen bulten, gonderilmis gibi gorunuyordu.
       - name: Sirlar tanimli mi
+        if: steps.guard.outputs.atla != 'true'
         run: |
           eksik=""
           [ -n "${{ secrets.MAIL_USER }}" ] || eksik="$eksik MAIL_USER"
@@ -65,6 +82,7 @@ jobs:
 
       - name: E-posta gonder
         id: posta
+        if: steps.guard.outputs.atla != 'true'
         uses: dawidd6/action-send-mail@v3
         with:
           server_address: smtp.gmail.com
@@ -81,6 +99,7 @@ jobs:
       # disinda elimizde delil yoktu ve haftalarca postanin gidip gitmedigi
       # anlasilamadi. Ozet artik NE gonderildigini yaziyor.
       - name: Ozet
+        if: steps.guard.outputs.atla != 'true'
         run: |
           {
             echo "### SogukRadar posta"

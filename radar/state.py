@@ -85,6 +85,10 @@ def load():
     # Teknoloji kosesi aday havuzu - kalici. Aday cikmayan haftada kose
     # buradan doldurulur; tanitilan madde tech_seen ile bir daha cikmaz.
     st.setdefault("tech_rezerv", [])
+    # Postasi GERCEKTEN giden donemler (otomatik hat SMTP basarisindan sonra
+    # yazar). gonder.yml ayni donemi ikinci kez gondermez; nobet komutu
+    # sessizligi buradan olcer.
+    st.setdefault("gonderilen_donemler", [])
     st["version"] = VERSION
     return st
 

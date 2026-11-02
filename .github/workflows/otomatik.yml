@@ -1,0 +1,241 @@
+name: SogukRadar otomatik bulten
+
+# EDITORSUZ, CLAUDE PRO'YA BAGLI OLMAYAN BULTEN HATTI (2026-11-02).
+#
+# Neden: editor adimi Claude Code rutinine baglıydi; rutinler 21-23 Eylul'den
+# beri hic atesllenmedi ve bulten 5 hafta gitmedi. Bu is akisi tum zinciri
+# Actions icinde yapar:
+#
+#   testler -> tam tarama -> yazar (kuralsal; LLM varsa onunla, dogrulamali)
+#   -> kalite kapisi -> POSTA -> (yalniz posta basariliysa) hafizaya isle
+#
+# DENEME / GERCEK AYRIMI (kullanici karari): deneme kosusu haber TUKETMEZ.
+# Deneme modunda posta gitmez, 'gonderildi' hafizasi yazilmaz; denemede
+# kullanilan haber gercek gonderimde yine kullanilabilir. Gercek gonderimden
+# sonra ayni haber bir daha kullanilmaz. Elle (workflow_dispatch) calistirinca
+# varsayilan DENEME'dir; zamanlanmis kosu GERCEKTIR.
+#
+# KALITE KAPISI posta gonderimini durdurabilir (bozuk bulten gondermektense
+# gondermemek yegdir); durdurunca MAIL_USER adresine nedenini yazan uyari
+# postasi gider. Tum nedenler is akisi ozetindedir.
+#
+# OPSIYONEL LLM ANAHTARLARI (hicbiri zorunlu degil; yoksa kuralsal metin):
+#   GEMINI_API_KEY    Google AI Studio'dan ucretsiz
+#   ANTHROPIC_API_KEY console.anthropic.com (ucretli; Claude Pro'dan AYRI)
+#   GitHub Models     anahtarsiz: asagidaki 'models: read' izni + GITHUB_TOKEN
+on:
+  schedule:
+    - cron: "41 5 * * 1"          # Pazartesi 05:41 UTC = 08:41 TSI
+  workflow_dispatch:
+    inputs:
+      deneme:
+        description: "Deneme (posta YOK, hafiza yazilmaz). Gercek gonderim icin false"
+        required: false
+        default: "true"
+      today:
+        description: "Kosuyu bu tarihe gore yap (YYYY-MM-DD, bos = bugun)"
+        required: false
+
+permissions:
+  contents: write
+  models: read
+
+concurrency:
+  group: sogukradar              # gunluk tarama ve haftalik kosuyla ayni grup
+  cancel-in-progress: false
+
+jobs:
+  bulten:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      DENEME: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.deneme != 'false' }}
+      BUGUN: ${{ github.event.inputs.today }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Onceki kosunun karar dosyalarini temizle
+        run: rm -f out/karar.json out/karar_satirlar.json out/uyari.txt out/deneme_* out/llm_test.json
+
+      # Testler POSTAYI keser, taramayi degil: kirmizi test yine taramayi
+      # calistirir (5 haftalik sessizlik tam bu yuzden basladi) ama gonderimi
+      # engeller ve uyari yollar.
+      - name: Birim testleri
+        id: test
+        continue-on-error: true
+        run: |
+          python -m radar selftest
+          python tests/e2e_offline.py
+
+      - name: LLM baglanti testi
+        continue-on-error: true
+        run: |
+          {
+            echo '### LLM saglayicilari'
+            echo '```'
+            python -m radar llm-test
+            echo '```'
+          } 2>&1 | tee -a $GITHUB_STEP_SUMMARY
+
+      - name: Tam tarama
+        env:
+          RADAR_WINDOW_DAYS: "21"
+          RADAR_MAX_ARTICLES: "220"
+          RADAR_PAUSE: "0.5"
+        run: |
+          if [ -n "$BUGUN" ]; then
+            python -m radar run --commit-state --today "$BUGUN"
+          else
+            python -m radar run --commit-state
+          fi
+
+      - name: Otomatik editor ve kalite kapisi
+        id: karar
+        run: |
+          ARGS=""
+          if [ "$DENEME" = "true" ] || [ "${{ steps.test.outcome }}" != "success" ]; then
+            ARGS="--deneme"
+          fi
+          if [ -n "$BUGUN" ]; then ARGS="$ARGS --today $BUGUN"; fi
+          python -m radar otomatik $ARGS
+          python - <<'PY' >> $GITHUB_OUTPUT
+          import json
+          k = json.load(open("out/karar.json", encoding="utf-8"))
+          print("gonder=%s" % str(bool(k["gonder"])).lower())
+          print("donem=%s" % k["donem"])
+          PY
+
+      - name: Karar ozeti
+        if: always()
+        run: |
+          {
+            echo '### SogukRadar otomatik bulten'
+            echo "- deneme modu: $DENEME"
+            echo "- testler: ${{ steps.test.outcome }}"
+            echo "- gonderilecek mi: ${{ steps.karar.outputs.gonder }}"
+            echo '```json'
+            cat out/karar.json 2>/dev/null || echo '(karar.json yok)'
+            echo '```'
+          } >> $GITHUB_STEP_SUMMARY
+
+      - name: Sirlar tanimli mi
+        if: steps.karar.outputs.gonder == 'true'
+        run: |
+          eksik=""
+          [ -n "${{ secrets.MAIL_USER }}" ] || eksik="$eksik MAIL_USER"
+          [ -n "${{ secrets.MAIL_PASS }}" ] || eksik="$eksik MAIL_PASS"
+          [ -n "${{ secrets.MAIL_TO }}"   ] || eksik="$eksik MAIL_TO"
+          if [ -n "$eksik" ]; then
+            echo "POSTA GONDERILEMEZ - tanimli olmayan sir(lar):$eksik"
+            exit 1
+          fi
+
+      - name: E-posta gonder
+        id: posta
+        if: steps.karar.outputs.gonder == 'true'
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.MAIL_USER }}
+          password: ${{ secrets.MAIL_PASS }}
+          subject: "Soguk Haddehane ve Nihai Hatlarda Sektor & Teknoloji Takibi — Haftalik Bulten"
+          to: ${{ secrets.MAIL_TO }}
+          from: SogukRadar Bulten
+          html_body: file://out/email.html
+
+      # HAFIZA YALNIZ POSTA BASARILIYSA YAZILIR. Posta gitmediyse haber
+      # tuketilmez; ertesi hafta yine kullanilabilir.
+      - name: Gonderilenleri hafizaya isle
+        if: steps.posta.outcome == 'success'
+        run: python -m radar isaretle
+
+      - name: Uyari metni
+        if: always()
+        run: |
+          python - <<'PY'
+          import json, os
+          k = {}
+          try:
+              k = json.load(open("out/karar.json", encoding="utf-8"))
+          except Exception:
+              pass
+          gercek = os.environ.get("DENEME") != "true"
+          gonder_ok = "${{ steps.posta.outcome }}" == "success"
+          sorun = []
+          if "${{ steps.test.outcome }}" not in ("success", "skipped"):
+              sorun.append("birim testleri KIRMIZI - gonderim durduruldu")
+          if "${{ steps.karar.outcome }}" != "success":
+              sorun.append("tarama veya otomatik editor adimi hata verdi / atlandi")
+          elif not k.get("gonder") and gercek and k.get("nedenler"):
+              sorun.append("kalite kapisi gonderimi durdurdu: " + "; ".join(k.get("nedenler", [])) )
+          if k.get("gonder") and not gonder_ok:
+              sorun.append("posta adimi basarisiz: ${{ steps.posta.outcome }}")
+          if sorun and gercek:
+              with open("out/uyari.txt", "w", encoding="utf-8") as f:
+                  f.write("SogukRadar: bu haftanin bulteni GONDERILEMEDI.\n\n"
+                          + "\n".join("- " + s for s in sorun)
+                          + "\n\nAyrinti: Actions > SogukRadar otomatik bulten > son calisma ozeti.\n")
+              print("uyari=true")
+          PY
+          if [ -f out/uyari.txt ]; then echo "UYARI=true" >> $GITHUB_ENV; fi
+
+      - name: Uyari postasi
+        if: always() && env.UYARI == 'true'
+        continue-on-error: true
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.MAIL_USER }}
+          password: ${{ secrets.MAIL_PASS }}
+          subject: "SogukRadar UYARI — bu haftanin bulteni gonderilemedi"
+          to: ${{ secrets.MAIL_USER }}
+          from: SogukRadar Bulten
+          body: file://out/uyari.txt
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: sogukradar-otomatik
+          path: |
+            out/karar.json
+            out/karar_satirlar.json
+            out/email.html
+            out/deneme_*
+            out/hafta_*_taslak.html
+            out/hafta_*.json
+            out/llm_test.json
+            out/uyari.txt
+          retention-days: 90
+
+      - name: Ciktilari repoya isle
+        if: always()
+        run: |
+          rm -f out/uyari.txt          # tek seferlik dosya, repoya girmez
+          git config user.name  "sogukradar-bot"
+          git config user.email "bot@users.noreply.github.com"
+          # Hafiza (state/) kaybolursa ayni haberler bir daha gonderilir; bu
+          # yuzden 5 deneme. Yalniz out/ ve state/ sahnelenir (kod geri alinmaz).
+          for i in 1 2 3 4 5; do
+            git fetch origin main
+            git reset --quiet origin/main
+            git add out state
+            if git diff --staged --quiet; then
+              echo "degisiklik yok"
+              break
+            fi
+            git commit -q -m "otomatik bulten $(date -u +%Y-W%V) [skip ci]"
+            git push && break
+            echo "push reddedildi, yeniden ($i/5)"
+            sleep 5
+          done

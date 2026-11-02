@@ -887,7 +887,7 @@ def test_w34_sifir_satir_teshisi():
     # yakiyordu (olcum: gonderilen 3 satira karsilik 21 satir "gonderilmis"
     # isaretliydi). Bu yuzden cop-baslik suzgeci de finalize tarafinda.
     import inspect as _i
-    fin = _i.getsource(C.cmd_finalize)
+    fin = _i.getsource(C._isaretle)
     eq('taxonomy.is_junk_title(r.get("baslik", ""))' in fin, True,
        "cop baslik son_basliklar'a yazilmamali (finalize tarafinda)")
     eq('st["seen"][r["anahtar"]]' in kaynak, False,
@@ -1165,7 +1165,12 @@ def test_gunluk_tarama_modu():
     if _os.path.exists(yol):
         y = open(yol, encoding="utf-8").read()
         eq("--sadece-tarama" in y, True, "gunluk kosu --sadece-tarama kullanmali")
-        eq("send-mail" in y or "ONAY" in y, False, "gunluk kosu posta gondermemeli")
+        # BULTEN postasi gonderemez (alici listesi MAIL_TO ve ONAY yok). Tek
+        # istisna: sessizlik bekcisinin kendi adresine (MAIL_USER) yolladigi
+        # uyari postasi (2026-11-02).
+        eq("MAIL_TO" in y or "ONAY" in y, False, "gunluk kosu posta gondermemeli")
+        eq(all(("to: ${{ secrets.MAIL_USER }}" in blok) for blok in y.split("action-send-mail")[1:]),
+           True, "gunluk kosunun tek postasi sahibe giden uyari olabilir")
 
 
 def test_rezerv_tekrar_denetimi():
@@ -1557,6 +1562,135 @@ def test_yazar_dogrulayici_ve_llm_yedegi():
     eq(llm.json_ayikla('```json\n{"a": 1}\n```'), {"a": 1}, "json cit ayiklama")
     eq(llm.json_ayikla('Tamam: {"a": 2} bitti'), {"a": 2}, "json onsoz ayiklama")
     eq(llm.json_ayikla("merhaba"), None, "json bozuk -> None")
+
+
+def test_otomatik_hat_deneme_hafizaya_yazmaz():
+    """2026-11-02: editor rutinsiz otomatik hat (cmd_otomatik/isaretle).
+
+    Kullanici kurali: deneme kosularinda kullanilan haber sonra yine
+    kullanilabilmeli, gercek gonderimden sonra kullanilamamali. Ayrica kalite
+    kapisi kusurlu satiri cikarmali, bozuk haftayi hic gondermemeli.
+    """
+    import copy, json, os, shutil, tempfile, types
+    import radar.cli as C
+    from . import llm
+
+    bugun = dt.date.today()
+    gun = lambda n: (bugun - dt.timedelta(days=n)).isoformat()
+
+    def satir(k, baslik, firma, hat, asama, n, url=None, **ek):
+        r = {"anahtar": k, "baslik": baslik, "firma": firma, "hat": hat,
+             "asama": asama, "tarih": gun(n), "url": url or "https://x.example/" + k,
+             "kategori": "Hat", "ulke": "", "tedarikci": "", "tutar": "", "kapasite": "",
+             "kaynak": "Kaynak", "olaylar": ["ev|" + k], "puan": 50, "lead": ""}
+        r.update(ek)
+        return r
+
+    iyi1 = satir("k1", "Primetals to supply continuous galvanizing line to Chengde Steel",
+                 "Chengde Steel", "Galvaniz hatti (CGL)", "Sozlesme", 5, tedarikci="Primetals")
+    iyi2 = satir("k2", "Danieli wins pickling line order from Acme Steel",
+                 "Acme Steel", "Asitleme hatti", "Sozlesme", 6, tedarikci="Danieli")
+    eski = satir("k3", "Danieli installs cold rolling mill at Old Works", "Old Works",
+                 "Soguk hadde", "Ilk urun", 200)
+    gelecek = satir("k4", "SMS group delivers annealing line to Fut Steel", "Fut Steel",
+                    "Surekli tavlama (CAL)", "Sozlesme", -10)
+    gonderilmis = satir("k5", "Fives supplies skin pass mill to Seen Steel", "Seen Steel",
+                        "Temper / skin pass", "Sozlesme", 4)
+    ayni_olay = satir("k6", "Chengde Steel orders galvanizing line from Primetals",
+                      "Chengde Steel", "Galvaniz hatti (CGL)", "Sozlesme", 5,
+                      tedarikci="Primetals")
+    hot = satir("k7", "Acme hot strip mill revamp by Danieli", "Acme", "Belirsiz", "Sozlesme", 3)
+
+    st = {"seen": {"k5": gun(30)}, "events": {}, "son_basliklar": [], "tech_seen": {},
+          "periods": [], "gonderilen_donemler": []}
+    payload = {"period": C._period(bugun), "rows": [copy.deepcopy(x) for x in
+               (iyi1, iyi2, eski, gelecek, gonderilmis, ayni_olay, hot)],
+               "stats": {"ham": 3000, "kaynak": 291, "erisilemeyen": 10},
+               "window": [gun(21), gun(0)], "tech_pool": []}
+    elenen = C._satir_suzgeci(payload, bugun, st)
+    kalan = [r["anahtar"] for r in payload["rows"]]
+    eq(kalan, ["k1", "k2"], "suzgec: yalniz iyi iki satir kalir")
+    nedenler = {b[:20]: n for b, n in elenen}
+    eq(len(elenen), 5, "suzgec: bes satir cikarildi")
+    eq(any("eski" in n for n in nedenler.values()), True, "suzgec: eski tarih gerekcesi")
+    eq(any("gelecekte" in n for n in nedenler.values()), True, "suzgec: gelecek tarih")
+    eq(any("daha once" in n for n in nedenler.values()), True, "suzgec: gonderilmis")
+    eq(any("ayni olay" in n for n in nedenler.values()), True, "suzgec: kume tekrari")
+    eq(any("kapi" in n for n in nedenler.values()), True, "suzgec: kapi disi (sicak hadde)")
+
+    # --- global kapi
+    p = {"period": C._period(bugun), "rows": [1, 2], "stats": {"ham": 3000, "kaynak": 291, "erisilemeyen": 10}}
+    eq(C._kalite_kapisi(p, C._period(bugun)), [], "kapi: saglikli hafta gecer")
+    eq(len(C._kalite_kapisi(p, "1999-W01")) >= 1, True, "kapi: yanlis donem durdurur")
+    p2 = dict(p, stats={"ham": 100, "kaynak": 291, "erisilemeyen": 10})
+    eq(len(C._kalite_kapisi(p2, C._period(bugun))), 1, "kapi: az ham sonuc durdurur")
+    p3 = dict(p, stats={"ham": 3000, "kaynak": 291, "erisilemeyen": 200})
+    eq(len(C._kalite_kapisi(p3, C._period(bugun))), 1, "kapi: cok erisilemeyen durdurur")
+    p4 = dict(p, rows=[1])
+    eq(len(C._kalite_kapisi(p4, C._period(bugun))), 1, "kapi: tek satir durdurur")
+
+    # --- tam akis: sahte state + gecici OUT; hafiza yalniz isaretle'de yazilir
+    sahte = types.SimpleNamespace()
+    kayitlar = []
+    cur = copy.deepcopy(st)
+    sahte.load = lambda: copy.deepcopy(cur)
+    sahte.save = lambda s: (kayitlar.append(1), cur.update(copy.deepcopy(s)))
+    sahte.prune = lambda s: None
+    sahte.dedup_basliklar = lambda l: l
+    sahte.norm_key = C.state.norm_key
+    eski_state, eski_out = C.state, C.OUT
+    gecici = tempfile.mkdtemp()
+    eski_env = {k: os.environ.get(k) for k in ("RADAR_LLM",)}
+    try:
+        C.state, C.OUT = sahte, gecici
+        os.environ["RADAR_LLM"] = "yok"
+        pl = {"period": C._period(bugun), "version": "t", "today": gun(0),
+              "rows": [copy.deepcopy(x) for x in (iyi1, iyi2)],
+              "stats": {"ham": 3000, "kaynak": 291, "erisilemeyen": 10, "kabul": 2,
+                        "on_eleme_gecti": 1, "makale_acildi": 1, "tarihsiz_elendi": 0,
+                        "pencere_disi": 0, "kapsam_disi": 0, "tekrar": 0},
+              "window": [gun(21), gun(0)], "unreachable": [], "tech_pool": [], "kinds": {}}
+        json.dump(pl, open(os.path.join(gecici, "hafta_%s.json" % pl["period"]), "w", encoding="utf-8"))
+
+        def arg(**k):
+            return types.SimpleNamespace(**dict({"today": None, "period": None, "deneme": False}, **k))
+
+        # DENEME: hafiza ve out/email.html'e dokunmaz, gonder=False
+        eq(C.cmd_otomatik(arg(deneme=True)), 0, "deneme: basarili cikis")
+        eq(kayitlar, [], "deneme: state.save HIC cagrilmadi")
+        eq(cur["seen"], st["seen"], "deneme: seen degismedi")
+        eq(os.path.exists(os.path.join(gecici, "email.html")), False, "deneme: email.html yazilmadi")
+        k = json.load(open(os.path.join(gecici, "karar.json"), encoding="utf-8"))
+        eq((k["deneme"], k["gonder"]), (True, False), "deneme: gonderim karari yok")
+        eq(C.cmd_isaretle(arg()), 1, "isaretle deneme kararini REDDEDER")
+        eq(kayitlar, [], "isaretle reddetti: hafiza yine yazilmadi")
+
+        # GERCEK: kapi gecer, ama hafiza hala yazilmadi (posta gitmeden)
+        eq(C.cmd_otomatik(arg()), 0, "gercek: basarili cikis")
+        k = json.load(open(os.path.join(gecici, "karar.json"), encoding="utf-8"))
+        eq((k["deneme"], k["gonder"], k["satir"]), (False, True, 2), "gercek: gonder karari")
+        eq(os.path.exists(os.path.join(gecici, "email.html")), True, "gercek: email.html yazildi")
+        eq(kayitlar, [], "gercek: posta gitmeden hafiza yazilmadi")
+
+        # POSTA GITTI -> isaretle
+        eq(C.cmd_isaretle(arg()), 0, "isaretle basarili")
+        eq(sorted(cur["seen"]) , ["k1", "k2", "k5"], "isaretle: seen yazildi")
+        eq(cur["gonderilen_donemler"], [pl["period"]], "isaretle: donem yazildi")
+        eq(len(cur["son_basliklar"]), 2, "isaretle: son_basliklar yazildi")
+        eq("ev|k1" in cur["events"], True, "isaretle: olay anahtari yazildi")
+
+        # ayni haber ikinci kez: tum satirlar daha once gonderilmis -> gonderilmez
+        eq(C.cmd_otomatik(arg()), 0, "tekrar: cikis")
+        k = json.load(open(os.path.join(gecici, "karar.json"), encoding="utf-8"))
+        eq(k["gonder"], False, "gonderilmis haftanin ikinci kez gonderimi engellenir")
+    finally:
+        C.state, C.OUT = eski_state, eski_out
+        shutil.rmtree(gecici, ignore_errors=True)
+        for kk, v in eski_env.items():
+            if v is None:
+                os.environ.pop(kk, None)
+            else:
+                os.environ[kk] = v
 
 
 def test_w40_editorsuz_cop_kumeleme():
@@ -3069,6 +3203,7 @@ def run():
                test_v20_indiana_hindistan_degil,
                test_w40_editorsuz_cop_kumeleme,
                test_yazar_dogrulayici_ve_llm_yedegi,
+               test_otomatik_hat_deneme_hafizaya_yazmaz,
                test_w36_girisim_turu_hat_haberi_degil,
                test_w36_ocak_parcasi_tavlama_firini_degildir,
                test_w36_pencere_uc_hafta,

@@ -593,6 +593,21 @@ def cmd_finalize(a):
               "      kararlarini atlar ve satirlari 'gonderildi' isaretler." % ozet_yolu)
         return 1
     doc = json.load(open(ozet_yolu, encoding="utf-8"))
+    _ozet_uygula(payload, doc)
+    tech = doc.get("teknolojiler", [])
+    _yaz(payload, doc, tech, base, os.path.join(OUT, "email.html"))
+    # Editor yolunda hafiza finalize aninda yazilir (eski davranis); posta
+    # ONAY ile gonder.yml'den gider. Donem 'gonderilen_donemler'e YAZILMAZ:
+    # onu yalniz otomatik hat, SMTP basarisindan sonra yazar.
+    _isaretle(payload, tech)
+    pdf_ok = render.to_pdf(base + ".html", base + ".pdf")
+    print("final: %s.html (%d satir), pdf=%s, email.html yenilendi"
+          % (base, len(payload["rows"]), pdf_ok))
+    return 0
+
+
+def _ozet_uygula(payload, doc):
+    """Editor/otomatik yazar ozetini payload'a isler (yerinde degistirir)."""
     fixes = doc.get("duzeltmeler", {})
     for r in payload["rows"]:
         for k, v in (fixes.get(r["anahtar"]) or {}).items():
@@ -638,33 +653,41 @@ def cmd_finalize(a):
         # satirlarin score.rank'ten gelen sirasini bozmaz.
         payload["rows"].sort(key=lambda r: r.get("kategori") == "Yatirim")
 
+    return payload
+
+
+def _yaz(payload, doc, tech, base, email_yolu):
+    """html + csv + posta govdesini diske yazar. HAFIZAYA DOKUNMAZ."""
     html = render.html_report(payload, doc.get("cumleler", {}), doc.get("exec", ""))
     with open(base + ".html", "w", encoding="utf-8") as f:
         f.write(html)
     render.write_csv(base + ".csv", payload["rows"])
-
-    # Posta govdesi: yapay zeka ozetiyle yeniden uretilir.
-    # ozet.json "teknolojiler" alani: [{"anahtar","konu","metin","url","tarih"}]
-    tech = doc.get("teknolojiler", [])
     sayi = len(state.load().get("periods", [])) or 1
-    with open(os.path.join(OUT, "email.html"), "w", encoding="utf-8") as f:
+    with open(email_yolu, "w", encoding="utf-8") as f:
         f.write(render.email_html(payload, doc, tech, sayi))
-    if tech:
-        st2 = state.load()
-        for t in tech:
-            if t.get("anahtar"):
-                st2["tech_seen"][t["anahtar"]] = t.get("tarih", "")
-        state.save(st2)
 
-    # GIDEN BULTEN HAFIZAYA YAZILIR (2026-08-27). Onceden yalniz `run
-    # --commit-state` seen'i guncelliyordu; editorun finalize ettigi liste
-    # (elle eklenen satirlar dahil) hicbir yere islenmiyordu. Sonuc: 2026-W34
-    # bulteniyle GIDEN "Jindal Stainless" satiri bir sonraki hafta yeniden
-    # listeye girdi. Postaya giren satir bir daha girmemeli.
+
+def _isaretle(payload, tech, donem=None):
+    """Giden bulteni hafizaya yazar: seen, events, son_basliklar, tech_seen.
+
+    donem verilirse 'gonderilen_donemler'e de eklenir - YALNIZ otomatik hat
+    bunu SMTP basarisindan sonra yapar; gonder.yml ayni donemi ikinci kez
+    gondermesin diye buna bakar. DENEME kosulari bu fonksiyonu HIC
+    cagirmaz: deneme sirasinda kullanilan haber sonraki gercek gonderimde
+    yine kullanilabilir (kullanici karari, 2026-11-02).
+    """
     st3 = state.load()
+    for t in tech or []:
+        if t.get("anahtar"):
+            st3["tech_seen"][t["anahtar"]] = t.get("tarih", "")
     for r in payload["rows"]:
         if r.get("anahtar"):
             st3["seen"][r["anahtar"]] = r.get("tarih", "")
+        # Kumelenmis (ayni olayi anlatan) diger yayinlar da 'gonderildi' sayilir;
+        # yoksa ertesi hafta havuzdan ayni olay ikinci yayiniyla geri doner.
+        for k in r.get("kume_anahtarlari") or []:
+            if k:
+                st3["seen"][k] = r.get("tarih", "")
         for k in r.get("olaylar", []):
             st3["events"][k] = r.get("tarih", "")
         if not taxonomy.is_junk_title(r.get("baslik", "")):
@@ -680,13 +703,235 @@ def cmd_finalize(a):
                                          "ted": r.get("tedarikci", ""),
                                          "u": r.get("ulke", "")})
     st3["son_basliklar"] = state.dedup_basliklar(st3["son_basliklar"])
+    if donem:
+        d = st3.setdefault("gonderilen_donemler", [])
+        if donem not in d:
+            d.append(donem)
+        st3["gonderilen_donemler"] = d[-60:]
     state.prune(st3)
     state.save(st3)
     print("hafiza: %d satir 'gonderildi' olarak isaretlendi" % len(payload["rows"]))
 
-    pdf_ok = render.to_pdf(base + ".html", base + ".pdf")
-    print("final: %s.html (%d satir), pdf=%s, email.html yenilendi"
-          % (base, len(payload["rows"]), pdf_ok))
+
+
+# ----------------------------------------------------------------------
+# OTOMATIK HAT (2026-11-02): editor rutini olmadan bulten
+# ----------------------------------------------------------------------
+MIN_SATIR = int(os.environ.get("RADAR_MIN_SATIR", "2"))
+MAX_ERISILEMEYEN_ORAN = 0.4
+MIN_HAM = 500
+MAX_YAS_GUN = 100            # rezerv kullanimi 90 gun + pay
+
+
+def _satir_suzgeci(payload, bugun, st):
+    """Satir bazli SON denetim: kusurlu satiri CIKARIR (tum bulteni durdurmaz).
+
+    Taze bir `run` ciktisinda bunlarin hicbiri tetiklenmemelidir (kapi ve
+    kumeleme zaten uygulanmistir); tetiklenirse eski/bozuk veri vardir ve
+    cikarilan satir gerekcesiyle karar.json'a yazilir. Donus: [(baslik, neden)].
+    """
+    from . import kume
+    seen = st.get("seen") or {}
+    events = st.get("events") or {}
+    elenen, kalan = [], []
+    for r in payload["rows"]:
+        ad = r.get("baslik", "")
+        neden = None
+        if not (r.get("url") or "").startswith("http"):
+            neden = "adresi yok"
+        else:
+            try:
+                gun = (bugun - dt.date.fromisoformat(r.get("tarih", ""))).days
+                if gun < -1:
+                    neden = "tarihi gelecekte"
+                elif gun > MAX_YAS_GUN:
+                    neden = "tarih %d gun eski" % gun
+            except ValueError:
+                neden = "tarihi gecersiz"
+        if not neden and not _rezerv_hala_gecerli(r):
+            neden = "guncel kapiyi gecmiyor"
+        if not neden and (r.get("anahtar") in seen
+                          or any(k in events for k in r.get("olaylar") or [])):
+            neden = "daha once gonderilmis"
+        if not neden and kume.gecmis_tekrari(r, st.get("son_basliklar") or []):
+            neden = "gonderilmis olayin tekrari"
+        if not neden:
+            for k in kalan:
+                if kume._ayni_kume(k, r):
+                    neden = "ayni olay: " + k.get("baslik", "")[:50]
+                    break
+        if neden:
+            elenen.append((ad, neden))
+        else:
+            kalan.append(r)
+    payload["rows"] = kalan
+    return elenen
+
+
+def _kalite_kapisi(payload, per):
+    """Otomatik gonderimin SON kapisi: GLOBAL kosullar. Bos liste = gonderilebilir.
+
+    'Bozuk bulten gondermektense gondermemek yegdir' kurali: bu kapi editor
+    onayinin yerini tutan MAKINE denetimidir. Her kosul tek basina gondermeyi
+    durdurur; neden karar.json'a ve is akisi ozetine yazilir.
+    """
+    nedenler = []
+    if payload.get("period") != per:
+        nedenler.append("tarama donemi %s, beklenen %s" % (payload.get("period"), per))
+    s = payload.get("stats") or {}
+    if s.get("ham", 0) < MIN_HAM:
+        nedenler.append("ham sonuc cok az (%d < %d): tarama saglikli degil"
+                        % (s.get("ham", 0), MIN_HAM))
+    kay = max(1, s.get("kaynak", 0))
+    if s.get("erisilemeyen", 0) / kay > MAX_ERISILEMEYEN_ORAN:
+        nedenler.append("kaynaklarin %%%d'i erisilemedi" % round(100 * s["erisilemeyen"] / kay))
+    if len(payload["rows"]) < MIN_SATIR:
+        nedenler.append("yetersiz satir: %d < %d" % (len(payload["rows"]), MIN_SATIR))
+    return nedenler
+
+
+def cmd_otomatik(a):
+    """Editor olmadan bulteni uretir ve gonderilebilir olup olmadigina karar verir.
+
+    Girdi : out/hafta_<donem>.json (ayni is akisinda `run --commit-state` ile
+            uretilmis olmali).
+    Cikti : out/karar.json + (gercek) out/email.html, hafta_<donem>.html/.csv
+            (deneme) out/deneme_email.html, deneme_hafta_<donem>.html
+    DENEME modu hafizaya HICBIR sey yazmaz ve out/email.html'e dokunmaz:
+    deneme sirasinda gorulen haberler sonraki gercek gonderimde yine
+    kullanilabilir. Gercek modda da hafiza BURADA yazilmaz - yalniz posta
+    gittikten sonra `isaretle` yazar.
+    """
+    from . import yazar
+    bugun = dt.date.fromisoformat(a.today) if a.today else dt.date.today()
+    per = a.period or _period(bugun)
+    yol = os.path.join(OUT, "hafta_%s.json" % per)
+    if not os.path.exists(yol):
+        print("HATA: %s yok - once `radar run --commit-state` calismali" % yol)
+        return 1
+    payload = json.load(open(yol, encoding="utf-8"))
+    st = state.load()
+
+    elenen = _satir_suzgeci(payload, bugun, st)
+    for ad, neden in elenen:
+        print("  satir cikarildi (%s): %s" % (neden, ad[:70]))
+    doc = yazar.ozet_hazirla(payload)
+    rapor = doc.pop("_rapor", {})
+    _ozet_uygula(payload, doc)
+    tech = doc.get("teknolojiler", [])
+    # teknoloji koseleri de 'gonderildi'ysa cikar
+    tech = [t for t in tech if ("tech:" + t.get("anahtar", "")) not in (st.get("tech_seen") or {})
+            and t.get("anahtar", "") not in (st.get("tech_seen") or {})]
+
+    nedenler = _kalite_kapisi(payload, per)
+    deneme = bool(a.deneme)
+    ek = "deneme_" if deneme else ""
+    base = os.path.join(OUT, "%shafta_%s" % (ek, per))
+    email_yolu = os.path.join(OUT, "deneme_email.html" if deneme else "email.html")
+    if nedenler and not deneme:
+        # gonderilmeyecek hafta icin eski email.html'i EZME - eski bulten
+        # yanlislikla yeni gibi gonderilmesin diye zaten gonderme adimi
+        # karar.json'a bakar.
+        email_yolu = os.path.join(OUT, "deneme_email.html")
+        base = os.path.join(OUT, "deneme_hafta_%s" % per)
+    _yaz(payload, doc, tech, base, email_yolu)
+
+    karar = {"donem": per, "gonder": (not nedenler) and (not deneme),
+             "deneme": deneme, "satir": len(payload["rows"]),
+             "nedenler": nedenler, "yazar": rapor,
+             "elenen_satirlar": [{"baslik": b[:90], "neden": n} for b, n in elenen],
+             "email": email_yolu, "uretildi": dt.datetime.utcnow().isoformat() + "Z",
+             "basliklar": [r.get("baslik", "")[:90] for r in payload["rows"]]}
+    _w(os.path.join(OUT, "karar.json"), karar)
+    # isaretleme icin bu hafta KESINLESEN satirlar + teknoloji
+    _w(os.path.join(OUT, "karar_satirlar.json"),
+       {"donem": per, "rows": payload["rows"], "tech": tech})
+    print("\notomatik %s: %d satir | yazar: %s (LLM cumle %d, kuralsal %d, reddedilen %d)"
+          % (per, len(payload["rows"]), rapor.get("saglayici") or "kuralsal",
+             rapor.get("cumle_llm", 0), rapor.get("cumle_kuralsal", 0),
+             len(rapor.get("reddedilen_cumle", []))))
+    if nedenler:
+        print("GONDERILMEZ - kalite kapisi:")
+        for n in nedenler:
+            print("  - " + n)
+    elif deneme:
+        print("DENEME: kapi gecti ama gonderilmeyecek, hafiza yazilmadi.")
+    else:
+        print("KAPI GECTI: gonderilebilir.")
+    return 0
+
+
+def cmd_isaretle(a):
+    """Posta GITTIKTEN sonra hafizayi yazar (karar_satirlar.json'dan)."""
+    yol = os.path.join(OUT, "karar_satirlar.json")
+    kyol = os.path.join(OUT, "karar.json")
+    if not (os.path.exists(yol) and os.path.exists(kyol)):
+        print("HATA: karar dosyalari yok")
+        return 1
+    karar = json.load(open(kyol, encoding="utf-8"))
+    if karar.get("deneme") or not karar.get("gonder"):
+        print("HATA: bu karar gonderim karari degil (deneme=%s gonder=%s) - isaretlenmedi"
+              % (karar.get("deneme"), karar.get("gonder")))
+        return 1
+    d = json.load(open(yol, encoding="utf-8"))
+    if d.get("donem") != karar.get("donem"):
+        print("HATA: karar ve satir dosyasi farkli donemlerden")
+        return 1
+    _isaretle({"rows": d["rows"]}, d.get("tech") or [], donem=d["donem"])
+    return 0
+
+
+def cmd_llm_test(a):
+    """Tanimli LLM saglayicilarini KISA bir istekle dener (Actions'ta)."""
+    from . import llm
+    sag = llm.saglayicilar()
+    print("saglayicilar (oncelik sirasiyla): %s" % (", ".join(sag) or "YOK"))
+    sonuc = llm.baglanti_testi()
+    _w(os.path.join(OUT, "llm_test.json"), sonuc)
+    return 0
+
+
+def cmd_nobet(a):
+    """SESSIZLIK BEKCISI: bulten uzun suredir gitmediyse uyari yazar.
+
+    2026-09 sonu-11-02 arasi bulten 5 hafta gitmedi ve kimse fark etmedi:
+    kirmizi test taramayi, olu rutin editoru durdurmustu; is akislari ya
+    atlandi ya da sessiz kaldi. Bu komut gunluk is akisindan calisir; son
+    gonderimden bu yana 14 gunden fazla gectiyse out/uyari.txt yazar ve
+    GITHUB_OUTPUT'a uyari=true koyar (is akisi bundan posta uyarisi yollar).
+    Her gun degil, Carsamba gunleri uyarir.
+    """
+    bugun = dt.date.fromisoformat(a.today) if a.today else dt.date.today()
+    st = state.load()
+    donemler = st.get("gonderilen_donemler") or []
+    son = None
+    for d in donemler:
+        try:
+            y, w = d.split("-W")
+            gun = dt.date.fromisocalendar(int(y), int(w), 1)
+        except Exception:
+            continue
+        if son is None or gun > son:
+            son = gun
+    gecen = (bugun - son).days if son else None
+    sessiz = son is None or gecen > 14
+    print("nobet: son gonderim donemi=%s, gecen=%s gun, sessiz=%s"
+          % (max(donemler) if donemler else "yok", gecen, sessiz))
+    cikti = os.environ.get("GITHUB_OUTPUT")
+    if sessiz and (bugun.weekday() == 2 or a.her_zaman):
+        metin = ("SogukRadar uyarisi: bulten %s.\n\n"
+                 "Otomatik hat (otomatik.yml) calismiyor, hata veriyor ya da kalite kapisi\n"
+                 "her hafta gonderimi durduruyor olabilir. Actions sekmesinde 'SogukRadar\n"
+                 "otomatik bulten' calismalarina bakin; karar.json ve is akisi ozeti\n"
+                 "durdurma nedenini yazar.\n"
+                 % ("hic gonderilmedi (kayit yok)" if son is None
+                    else "%d gundur gonderilmedi (son: %s)" % (gecen, max(donemler))))
+        with open(os.path.join(OUT, "uyari.txt"), "w", encoding="utf-8") as f:
+            f.write(metin)
+        if cikti:
+            with open(cikti, "a", encoding="utf-8") as f:
+                f.write("uyari=true\n")
+        print("UYARI uretildi: out/uyari.txt")
     return 0
 
 
@@ -768,6 +1013,19 @@ def main(argv=None):
     dg = sub.add_parser("dogrula")
     dg.add_argument("--today")
     dg.set_defaults(fn=cmd_dogrula)
+
+    o = sub.add_parser("otomatik")
+    o.add_argument("--today")
+    o.add_argument("-p", "--period")
+    o.add_argument("--deneme", action="store_true",
+                   help="hafizaya yazmaz, out/email.html'e dokunmaz, gonderim karari vermez")
+    o.set_defaults(fn=cmd_otomatik)
+    sub.add_parser("isaretle").set_defaults(fn=cmd_isaretle)
+    sub.add_parser("llm-test").set_defaults(fn=cmd_llm_test)
+    nb = sub.add_parser("nobet")
+    nb.add_argument("--today")
+    nb.add_argument("--her-zaman", action="store_true")
+    nb.set_defaults(fn=cmd_nobet)
 
     sub.add_parser("selftest").set_defaults(fn=cmd_selftest)
 
