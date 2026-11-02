@@ -151,7 +151,7 @@ jobs:
           password: ${{ secrets.MAIL_PASS }}
           subject: "Soguk Haddehane ve Nihai Hatlarda Sektor & Teknoloji Takibi — Haftalik Bulten"
           to: ${{ secrets.MAIL_TO }}
-          from: SogukRadar Bulten
+          from: SogukRadar Bulten <${{ secrets.MAIL_USER }}>
           html_body: file://out/email.html
 
       # HAFIZA YALNIZ POSTA BASARILIYSA YAZILIR. Posta gitmediyse haber
@@ -202,7 +202,7 @@ jobs:
           password: ${{ secrets.MAIL_PASS }}
           subject: "SogukRadar UYARI — bu haftanin bulteni gonderilemedi"
           to: ${{ secrets.MAIL_USER }}
-          from: SogukRadar Bulten
+          from: SogukRadar Bulten <${{ secrets.MAIL_USER }}>
           body: file://out/uyari.txt
 
       - uses: actions/upload-artifact@v4

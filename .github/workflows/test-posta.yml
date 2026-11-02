@@ -1,0 +1,50 @@
+name: SogukRadar test postasi
+
+# Posta teslimini dogrulamak icin: MAIL_TO alicilarina ve MAIL_USER'a ayri
+# ayri kisa bir test postasi yollar. Haber/hafiza ile ilgisi yoktur.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Alici bilgisi (adresler gizli, yalniz yapi)
+        run: |
+          TO='${{ secrets.MAIL_TO }}'
+          USER='${{ secrets.MAIL_USER }}'
+          echo "MAIL_TO alici sayisi: $(echo "$TO" | tr ',;' '\n\n' | grep -c @)"
+          echo "MAIL_TO alan adlari: $(echo "$TO" | tr ',;' '\n\n' | sed 's/.*@//' | tr -d ' ' | sort -u | tr '\n' ' ')"
+          echo "MAIL_USER alan adi: ${USER#*@}"
+          [ "$TO" = "$USER" ] && echo "UYARI: MAIL_TO ile MAIL_USER AYNI adres (Gmail kendine gonderimi yalniz Gonderilenler'de gosterebilir)" || true
+          { echo "### Test postasi"; echo "- MAIL_TO alici sayisi: $(echo "$TO" | tr ',;' '\n\n' | grep -c @)"; echo "- alan adlari: $(echo "$TO" | tr ',;' '\n\n' | sed 's/.*@//' | tr -d ' ' | sort -u | tr '\n' ' ')"; } >> $GITHUB_STEP_SUMMARY
+
+      - name: MAIL_TO alicilarina test
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.MAIL_USER }}
+          password: ${{ secrets.MAIL_PASS }}
+          subject: "SogukRadar TEST (alici listesi) — bu postayi gorduyseniz teslim calisiyor"
+          to: ${{ secrets.MAIL_TO }}
+          from: SogukRadar Bulten <${{ secrets.MAIL_USER }}>
+          body: "Bu bir test postasidir. Haftalik bulten bu alici listesine gidiyor."
+
+      - name: Gonderen adrese test
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.MAIL_USER }}
+          password: ${{ secrets.MAIL_PASS }}
+          subject: "SogukRadar TEST (gonderen hesap)"
+          to: ${{ secrets.MAIL_USER }}
+          from: SogukRadar Bulten <${{ secrets.MAIL_USER }}>
+          body: "Bu bir test postasidir (gonderen hesaba)."

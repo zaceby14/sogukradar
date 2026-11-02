@@ -88,7 +88,7 @@ jobs:
           password: ${{ secrets.MAIL_PASS }}
           subject: "SogukRadar UYARI — bulten uzun suredir gitmedi"
           to: ${{ secrets.MAIL_USER }}
-          from: SogukRadar Bulten
+          from: SogukRadar Bulten <${{ secrets.MAIL_USER }}>
           body: file://out/uyari.txt
 
       - name: Ciktilari repoya isle
