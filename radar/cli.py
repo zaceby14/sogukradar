@@ -736,7 +736,9 @@ MIN_HAM = 500
 MAX_YAS_GUN = 100            # rezerv kullanimi 90 gun + pay
 
 
-DONGU_GUN = int(os.environ.get("RADAR_DONGU_GUN", "14"))
+# HAFTALIK (2026-11-02 son karar: "haftalik calisan bir sistem"). Ayni hafta
+# icinde ikinci gonderimi engeller (elle tetikleme + zamanlanmis kosu).
+DONGU_GUN = int(os.environ.get("RADAR_DONGU_GUN", "7"))
 
 
 def _son_gonderim(st):
@@ -862,7 +864,7 @@ def cmd_otomatik(a):
             and t.get("anahtar", "") not in (st.get("tech_seen") or {})]
 
     nedenler = _kalite_kapisi(payload, per)
-    # IKI HAFTALIK DONGU (2026-11-02, kullanici karari): son gercek gonderimden
+    # GONDERIM DONGUSU (DONGU_GUN, varsayilan 7 = haftalik): son gercek gonderimden
     # bu yana DONGU_GUN dolmadiysa bu hafta gonderilmez - hata degil, plan.
     # Tarama yine calisir ve havuzu besler; haber kaybolmaz, sonraki bultene kalir.
     son = _son_gonderim(st)
@@ -1070,6 +1072,7 @@ def main(argv=None):
     o.set_defaults(fn=cmd_otomatik)
     sub.add_parser("isaretle").set_defaults(fn=cmd_isaretle)
     sub.add_parser("llm-test").set_defaults(fn=cmd_llm_test)
+    sub.add_parser("yoklama").set_defaults(fn=lambda a: (__import__("radar.yoklama", fromlist=["x"]).yokla(), 0)[1])
     nb = sub.add_parser("nobet")
     nb.add_argument("--today")
     nb.add_argument("--her-zaman", action="store_true")

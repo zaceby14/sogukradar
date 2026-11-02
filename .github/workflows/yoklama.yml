@@ -1,0 +1,36 @@
+name: SogukRadar kaynak yoklamasi
+
+# Kapali yayincilarin resmi acik kapilarini (RSS, wp-json, haber sitemap'i)
+# olcer -> out/yoklama.json. Hafizaya/postaya dokunmaz.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  yokla:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      RADAR_PAUSE: "0.3"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Yokla
+        run: |
+          { echo '### Kaynak yoklamasi'; echo '```'; python -m radar yoklama; echo '```'; } 2>&1 | tee -a $GITHUB_STEP_SUMMARY
+      - name: Sonucu isle
+        run: |
+          git config user.name  "sogukradar-bot"
+          git config user.email "bot@users.noreply.github.com"
+          for i in 1 2 3; do
+            git fetch origin main; git reset --quiet origin/main
+            git add out/yoklama.json
+            git diff --staged --quiet && break
+            git commit -q -m "kaynak yoklamasi [skip ci]"
+            git push && break
+            sleep 5
+          done

@@ -1849,12 +1849,12 @@ def test_iki_haftalik_dongu_ve_yayinci_linki():
     bugun = dt.date.today()
     per = lambda d: "%04d-W%02d" % d.isocalendar()[:2]
     eq(C._son_gonderim({"gonderilen_donemler": []}), None, "kayit yoksa son gonderim yok")
+    eq(C.DONGU_GUN, 7, "bulten haftalik")
+    son = C._son_gonderim({"gonderilen_donemler": [per(bugun)]})
+    eq((bugun - son).days < C.DONGU_GUN - 1, True, "bu hafta gonderildi -> ayni hafta ikinci posta yok")
     gecen = bugun - dt.timedelta(days=7)
     son = C._son_gonderim({"gonderilen_donemler": [per(gecen)]})
-    eq((bugun - son).days < C.DONGU_GUN - 1, True, "gecen hafta gonderildi -> bu hafta atla")
-    iki = bugun - dt.timedelta(days=14)
-    son = C._son_gonderim({"gonderilen_donemler": [per(iki)]})
-    eq((bugun - son).days < C.DONGU_GUN - 1, False, "iki hafta once gonderildi -> bu hafta gonder")
+    eq((bugun - son).days < C.DONGU_GUN - 1, False, "gecen hafta gonderildi -> bu hafta gonder")
     a = {"firma": "Jindal India", "hat": "Galvaniz hatti (CGL)", "asama": "Ilk urun",
          "tarih": "2026-10-27", "baslik": "Jindal India Commissions Revamped Galvanising Line",
          "url": "https://news.google.com/rss/articles/XYZ", "kaynak": "Rediff", "anahtar": "a"}

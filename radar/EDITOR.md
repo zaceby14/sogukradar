@@ -349,12 +349,12 @@ DENEME, zamanlanmış koşu GERÇEK. Gerçekte de hafıza yalnız `isaretle` ile
 **Bilinen sınır:** kuralsal modda Yatırım satırları özgün (çoğu İngilizce) başlıkla görünür; Belirsiz-hat
 satırlar ancak LLM kapsam süzgeciyle ayıklanır.
 
-## 4m. İki haftalık döngü (2026-11-02, kullanıcı kararı)
+## 4m. Döngü: HAFTALIK (2026-11-02 son karar; kısa süre iki haftalık denendi)
 
-Bülten iki haftada bir gider. Tarama her gün ve her Pazartesi sürer, havuz beslenir.
-Posta yalnız son gerçek gönderimden 14 gün geçince gider (`cli.DONGU_GUN`,
+Bülten her hafta gider (`DONGU_GUN=7`); aynı hafta ikinci posta gitmez. Tarama her gün ve her Pazartesi sürer, havuz beslenir.
+Posta yalnız son gerçek gönderimden 7 gün geçince gider (`cli.DONGU_GUN`,
 `state.gonderilen_donemler`). Ara hafta kararı `atla` olarak geçer, uyarı üretmez.
-Sessizlik bekçisi eşiği 21 gün. Kümede yayıncının kendi linki Google/Bing
+Sessizlik bekçisi eşiği 14 gün. Kümede yayıncının kendi linki Google/Bing
 yönlendirmesine tercih edilir.
 
 ## 4e. Otonomi: sistem sensiz çalışır
