@@ -1,0 +1,831 @@
+{
+ "www.steeltimesint.com": {
+  "ana_sayfa": "HTTP 403",
+  "kapilar": []
+ },
+ "www.sms-group.com": {
+  "ana_sayfa": "HTTP 403",
+  "kapilar": []
+ },
+ "corporate.arcelormittal.com": {
+  "ana_sayfa": "HTTP 403",
+  "kapilar": []
+ },
+ "www.bigmint.co": {
+  "ana_sayfa": "HTTP 403",
+  "kapilar": []
+ },
+ "www.kallanish.com": {
+  "ana_sayfa": "acik",
+  "kapilar": [
+   {
+    "tur": "rss",
+    "oge": 100,
+    "url": 0,
+    "en_yeni": "",
+    "sitemaps": [],
+    "adres": "https://www.kallanish.com/en/steel/feed/"
+   },
+   {
+    "tur": "rss",
+    "oge": 100,
+    "url": 0,
+    "en_yeni": "",
+    "sitemaps": [],
+    "adres": "https://www.kallanish.com/en/steel/feed/"
+   }
+  ]
+ },
+ "www.furnaces-international.com": {
+  "ana_sayfa": "HTTP 403",
+  "kapilar": []
+ },
+ "www.metalformingmagazine.com": {
+  "ana_sayfa": "HTTP 404",
+  "kapilar": []
+ },
+ "sanayigazetesi.com.tr": {
+  "ana_sayfa": "HTTP 403",
+  "kapilar": [
+   {
+    "tur": "rss",
+    "oge": 10,
+    "url": 0,
+    "en_yeni": "",
+    "sitemaps": [],
+    "adres": "https://sanayigazetesi.com.tr/feed/"
+   },
+   {
+    "tur": "rss",
+    "oge": 10,
+    "url": 0,
+    "en_yeni": "",
+    "sitemaps": [],
+    "adres": "https://sanayigazetesi.com.tr/feed/"
+   }
+  ]
+ },
+ "www.steelradar.com": {
+  "ana_sayfa": "HTTP 403",
+  "kapilar": []
+ },
+ "www.steelguru.com": {
+  "ana_sayfa": "acik",
+  "kapilar": []
+ },
+ "www.steelorbis.com": {
+  "ana_sayfa": "acik",
+  "kapilar": [
+   {
+    "tur": "sitemap",
+    "oge": 0,
+    "url": 4,
+    "en_yeni": "2026-11-02",
+    "sitemaps": [],
+    "adres": "https://www.steelorbis.com/sitemap-en.xml"
+   },
+   {
+    "tur": "sitemap",
+    "oge": 0,
+    "url": 6,
+    "en_yeni": "2026-11-02",
+    "sitemaps": [],
+    "adres": "https://www.steelorbis.com/sitemap-news-en-archive.xml"
+   },
+   {
+    "tur": "sitemap",
+    "oge": 0,
+    "url": 1,
+    "en_yeni": "2026-11-02",
+    "sitemaps": [],
+    "adres": "https://www.steelorbis.com/sitemap-news-en-free.xml"
+   }
+  ]
+ },
+ "www.cognex.com": {
+  "ana_sayfa": "HTTP 429",
+  "kapilar": []
+ },
+ "www.primetals.com": {
+  "ana_sayfa": "acik",
+  "kapilar": [
+   {
+    "tur": "sitemap",
+    "oge": 0,
+    "url": 1320,
+    "en_yeni": "2026-10-30",
+    "sitemaps": [],
+    "adres": "https://www.primetals.com/en/sitemap.xml"
+   },
+   {
+    "tur": "sitemap",
+    "oge": 0,
+    "url": 1320,
+    "en_yeni": "2026-10-30",
+    "sitemaps": [],
+    "adres": "https://www.primetals.com/ja/sitemap.xml"
+   },
+   {
+    "tur": "sitemap",
+    "oge": 0,
+    "url": 1320,
+    "en_yeni": "2026-10-30",
+    "sitemaps": [],
+    "adres": "https://www.primetals.cn/zh/sitemap.xml"
+   }
+  ]
+ },
+ "www.danieli.com": {
+  "ana_sayfa": "acik",
+  "kapilar": [
+   {
+    "tur": "sitemap",
+    "oge": 0,
+    "url": 871,
+    "en_yeni": "2025-04-29",
+    "sitemaps": [],
+    "adres": "https://www.danieli.com/sitemap.xml"
+   }
+  ]
+ },
+ "www.tenova.com": {
+  "ana_sayfa": "acik",
+  "kapilar": [
+   {
+    "tur": "sitemap",
+    "oge": 0,
+    "url": 702,
+    "en_yeni": "2026-10-30",
+    "sitemaps": [],
+    "adres": "https://tenova.com/sitemap.xml"
+   }
+  ]
+ },
+ "www.fivesgroup.com": {
+  "ana_sayfa": "acik",
+  "kapilar": [
+   {
+    "tur": "sitemap",
+    "oge": 0,
+    "url": 1,
+    "en_yeni": "2026-11-02",
+    "sitemaps": [],
+    "adres": "https://www.fivesgroup.com/sitemap.xml"
+   },
+   {
+    "tur": "sitemap",
+    "oge": 0,
+    "url": 1,
+    "en_yeni": "2026-11-02",
+    "sitemaps": [],
+    "adres": "https://www.fivesgroup.com/sitemap.xml"
+   },
+   {
+    "tur": "sitemap",
+    "oge": 0,
+    "url": 1,
+    "en_yeni": "2026-10-26",
+    "sitemaps": [],
+    "adres": "https://www.fivesgroup.com/fr/sitemap.xml"
+   }
+  ]
+ },
+ "johncockerill.com": {
+  "ana_sayfa": "acik",
+  "kapilar": [
+   {
+    "tur": "sitemap",
+    "oge": 0,
+    "url": 774,
+    "en_yeni": "2026-10-29",
+    "sitemaps": [],
+    "adres": "https://johncockerill.com/news-sitemap.xml"
+   },
+   {
+    "tur": "sitemap",
+    "oge": 0,
+    "url": 4,
+    "en_yeni": "2026-10-29",
+    "sitemaps": [],
+    "adres": "https://johncockerill.com/sitemap_index.xml"
+   },
+   {
+    "tur": "sitemap",
+    "oge": 0,
+    "url": 4,
+    "en_yeni": "2026-10-29",
+    "sitemaps": [],
+    "adres": "https://johncockerill.com/en/sitemap_index.xml"
+   }
+  ]
+ },
+ "www.andritz.com": {
+  "ana_sayfa": "acik",
+  "kapilar": [
+   {
+    "tur": "sitemap",
+    "oge": 0,
+    "url": 1,
+    "en_yeni": "2026-11-02",
+    "sitemaps": [],
+    "adres": "https://www.andritz.com/sitemap_index.xml"
+   },
+   {
+    "tur": "sitemap",
+    "oge": 0,
+    "url": 1,
+    "en_yeni": "2026-11-02",
+    "sitemaps": [],
+    "adres": "https://www.andritz.com/sitemap.xml"
+   },
+   {
+    "tur": "sitemap",
+    "oge": 0,
+    "url": 1,
+    "en_yeni": "2026-11-02",
+    "sitemaps": [],
+    "adres": "https://www.andritz.com/service/sitemap/hydro-en/sitemap_index.xml"
+   },
+   {
+    "tur": "sitemap",
+    "oge": 0,
+    "url": 1,
+    "en_yeni": "2026-11-02",
+    "sitemaps": [],
+    "adres": "https://www.andritz.com/service/sitemap/pulp-and-paper-en/sitemap_index.xml"
+   },
+   {
+    "tur": "sitemap",
+    "oge": 0,
+    "url": 1,
+    "en_yeni": "2026-11-02",
+    "sitemaps": [],
+    "adres": "https://www.andritz.com/service/sitemap/separation-en/sitemap_index.xml"
+   }
+  ]
+ },
+ "gmk.center": {
+  "ana_sayfa": "HTTP 403",
+  "kapilar": [
+   {
+    "tur": "rss",
+    "oge": 45,
+    "url": 0,
+    "en_yeni": "",
+    "sitemaps": [],
+    "adres": "https://gmk.center/feed/"
+   }
+  ]
+ },
+ "www.yieh.com": {
+  "ana_sayfa": "acik",
+  "kapilar": [
+   {
+    "tur": "sitemap",
+    "oge": 0,
+    "url": 207,
+    "en_yeni": "",
+    "sitemaps": [],
+    "adres": "https://www.yieh.com/sitemap.xml"
+   }
+  ]
+ },
+ "www.eurofer.eu": {
+  "ana_sayfa": "acik",
+  "kapilar": [
+   {
+    "tur": "sitemap",
+    "oge": 0,
+    "url": 1,
+    "en_yeni": "2026-10-27",
+    "sitemaps": [],
+    "adres": "https://www.eurofer.eu/sitemap.xml"
+   }
+  ]
+ },
+ "www.fastmarkets.com": {
+  "ana_sayfa": "acik",
+  "kapilar": [
+   {
+    "tur": "wp-json",
+    "oge": 0,
+    "url": 0,
+    "en_yeni": "2026-11-02",
+    "sitemaps": [],
+    "adres": "https://www.fastmarkets.com/wp-json/wp/v2/posts?per_page=5&_fields=date,link,title"
+   },
+   {
+    "tur": "sitemap",
+    "oge": 0,
+    "url": 1000,
+    "en_yeni": "2026-11-02",
+    "sitemaps": [],
+    "adres": "https://www.fastmarkets.com/post-sitemap.xml"
+   },
+   {
+    "tur": "sitemap",
+    "oge": 0,
+    "url": 21,
+    "en_yeni": "2026-11-02",
+    "sitemaps": [],
+    "adres": "https://www.fastmarkets.com/sitemap_index.xml"
+   },
+   {
+    "tur": "sitemap",
+    "oge": 0,
+    "url": 21,
+    "en_yeni": "2026-11-02",
+    "sitemaps": [],
+    "adres": "https://www.fastmarkets.com/sitemap_index.xml"
+   },
+   {
+    "tur": "sitemap",
+    "oge": 0,
+    "url": 21,
+    "en_yeni": "2026-11-02",
+    "sitemaps": [],
+    "adres": "https://www.fastmarkets.com/sitemap_index.xml"
+   }
+  ]
+ },
+ "www.mysteel.net": {
+  "ana_sayfa": "acik",
+  "kapilar": [
+   {
+    "tur": "sitemap",
+    "oge": 0,
+    "url": 245,
+    "en_yeni": "2026-11-02",
+    "sitemaps": [],
+    "adres": "https://www.mysteel.net/sitemap.xml"
+   },
+   {
+    "tur": "sitemap",
+    "oge": 0,
+    "url": 245,
+    "en_yeni": "2026-11-02",
+    "sitemaps": [],
+    "adres": "https://www.mysteel.net/sitemap.xml"
+   }
+  ]
+ },
+ "www.steel-plantech.co.jp": {
+  "ana_sayfa": "URLError",
+  "kapilar": []
+ },
+ "www.redbudindustries.com": {
+  "ana_sayfa": "HTTP 403",
+  "kapilar": []
+ },
+ "www.danieli-wean.com": {
+  "ana_sayfa": "URLError",
+  "kapilar": []
+ },
+ "www.stamco.co.jp": {
+  "ana_sayfa": "URLError",
+  "kapilar": []
+ },
+ "www.ims-gmbh.de": {
+  "ana_sayfa": "acik",
+  "kapilar": [
+   {
+    "tur": "rss",
+    "oge": 10,
+    "url": 0,
+    "en_yeni": "",
+    "sitemaps": [],
+    "adres": "https://www.ims-gmbh.de/feed/"
+   },
+   {
+    "tur": "rss",
+    "oge": 10,
+    "url": 0,
+    "en_yeni": "",
+    "sitemaps": [],
+    "adres": "https://www.ims-gmbh.de/feed/"
+   },
+   {
+    "tur": "rss",
+    "oge": 10,
+    "url": 0,
+    "en_yeni": "",
+    "sitemaps": [],
+    "adres": "https://www.ims-gmbh.de/feed/"
+   },
+   {
+    "tur": "rss",
+    "oge": 10,
+    "url": 0,
+    "en_yeni": "",
+    "sitemaps": [],
+    "adres": "https://www.ims-gmbh.de/feed/"
+   },
+   {
+    "tur": "rss",
+    "oge": 10,
+    "url": 0,
+    "en_yeni": "",
+    "sitemaps": [],
+    "adres": "https://www.ims-gmbh.de/en/feed/"
+   },
+   {
+    "tur": "wp-json",
+    "oge": 0,
+    "url": 0,
+    "en_yeni": "2026-10-06",
+    "sitemaps": [],
+    "adres": "https://www.ims-gmbh.de/wp-json/wp/v2/posts?per_page=5&_fields=date,link,title"
+   },
+   {
+    "tur": "sitemap",
+    "oge": 0,
+    "url": 40,
+    "en_yeni": "2026-10-06",
+    "sitemaps": [],
+    "adres": "https://www.ims-gmbh.de/post-sitemap.xml"
+   },
+   {
+    "tur": "sitemap",
+    "oge": 0,
+    "url": 3,
+    "en_yeni": "2026-10-06",
+    "sitemaps": [],
+    "adres": "https://www.ims-gmbh.de/sitemap_index.xml"
+   },
+   {
+    "tur": "sitemap",
+    "oge": 0,
+    "url": 3,
+    "en_yeni": "2026-10-06",
+    "sitemaps": [],
+    "adres": "https://www.ims-gmbh.de/sitemap_index.xml"
+   },
+   {
+    "tur": "sitemap",
+    "oge": 0,
+    "url": 3,
+    "en_yeni": "2026-10-06",
+    "sitemaps": [],
+    "adres": "https://www.ims-gmbh.de/sitemap_index.xml"
+   }
+  ]
+ },
+ "www.isra-vision.com": {
+  "ana_sayfa": "URLError",
+  "kapilar": []
+ },
+ "www.parsytec.de": {
+  "ana_sayfa": "URLError",
+  "kapilar": []
+ },
+ "www.achenbach.de": {
+  "ana_sayfa": "acik",
+  "kapilar": [
+   {
+    "tur": "sitemap",
+    "oge": 0,
+    "url": 2,
+    "en_yeni": "2026-10-29",
+    "sitemaps": [],
+    "adres": "https://www.achenbach.de/de/sitemap.xml"
+   },
+   {
+    "tur": "sitemap",
+    "oge": 0,
+    "url": 2,
+    "en_yeni": "2026-10-29",
+    "sitemaps": [],
+    "adres": "https://www.achenbach.de/en/sitemap.xml"
+   }
+  ]
+ },
+ "www.bwg-online.com": {
+  "ana_sayfa": "HTTP 403",
+  "kapilar": []
+ },
+ "www.drever.be": {
+  "ana_sayfa": "HTTP 403",
+  "kapilar": []
+ },
+ "www.ebner.cc": {
+  "ana_sayfa": "acik",
+  "kapilar": [
+   {
+    "tur": "wp-json",
+    "oge": 0,
+    "url": 0,
+    "en_yeni": "",
+    "sitemaps": [],
+    "adres": "https://www.ebner.cc/wp-json/wp/v2/posts?per_page=5&_fields=date,link,title"
+   },
+   {
+    "tur": "sitemap",
+    "oge": 0,
+    "url": 1,
+    "en_yeni": "2026-10-29",
+    "sitemaps": [],
+    "adres": "https://www.ebner.cc/sitemap_index.xml"
+   },
+   {
+    "tur": "sitemap",
+    "oge": 0,
+    "url": 1,
+    "en_yeni": "2026-10-29",
+    "sitemaps": [],
+    "adres": "https://www.ebner.cc/sitemap_index.xml"
+   },
+   {
+    "tur": "sitemap",
+    "oge": 0,
+    "url": 1,
+    "en_yeni": "2026-10-29",
+    "sitemaps": [],
+    "adres": "https://www.ebner.cc/sitemap_index.xml"
+   }
+  ]
+ },
+ "www.loi-italimpianti.com": {
+  "ana_sayfa": "URLError",
+  "kapilar": []
+ },
+ "www.steelplantech.com": {
+  "ana_sayfa": "HTTP 403",
+  "kapilar": []
+ },
+ "www.siemens.com": {
+  "ana_sayfa": "acik",
+  "kapilar": [
+   {
+    "tur": "sitemap",
+    "oge": 0,
+    "url": 38,
+    "en_yeni": "2026-11-01",
+    "sitemaps": [],
+    "adres": "https://www.siemens.com/sitemap.xml"
+   },
+   {
+    "tur": "sitemap",
+    "oge": 0,
+    "url": 38,
+    "en_yeni": "2026-11-01",
+    "sitemaps": [],
+    "adres": "https://www.siemens.com/sitemap.xml"
+   }
+  ]
+ },
+ "www.abb.com": {
+  "ana_sayfa": "acik",
+  "kapilar": [
+   {
+    "tur": "sitemap",
+    "oge": 0,
+    "url": 3,
+    "en_yeni": "2026-11-02",
+    "sitemaps": [],
+    "adres": "https://www.abb.com/global/sitemap-index.xml"
+   },
+   {
+    "tur": "sitemap",
+    "oge": 0,
+    "url": 2,
+    "en_yeni": "2026-11-02",
+    "sitemaps": [],
+    "adres": "https://www.abb.com/gb/sitemap-index.xml"
+   }
+  ]
+ },
+ "www.vdeh.de": {
+  "ana_sayfa": "acik",
+  "kapilar": [
+   {
+    "tur": "sitemap",
+    "oge": 0,
+    "url": 175,
+    "en_yeni": "2026-10-28",
+    "sitemaps": [],
+    "adres": "https://vdeh.de/sitemap.xml"
+   },
+   {
+    "tur": "sitemap",
+    "oge": 0,
+    "url": 175,
+    "en_yeni": "2026-10-28",
+    "sitemaps": [],
+    "adres": "https://vdeh.de/sitemap.xml"
+   }
+  ]
+ },
+ "www.aist.org": {
+  "ana_sayfa": "acik",
+  "kapilar": [
+   {
+    "tur": "sitemap",
+    "oge": 0,
+    "url": 19367,
+    "en_yeni": "2026-11-02",
+    "sitemaps": [],
+    "adres": "https://www.aist.org/sitemap.xml"
+   }
+  ]
+ },
+ "www.worldsteel.org": {
+  "ana_sayfa": "acik",
+  "kapilar": [
+   {
+    "tur": "rss",
+    "oge": 10,
+    "url": 0,
+    "en_yeni": "2026-11-02",
+    "sitemaps": [],
+    "adres": "https://worldsteel.org/feed/"
+   },
+   {
+    "tur": "rss",
+    "oge": 10,
+    "url": 0,
+    "en_yeni": "2026-11-02",
+    "sitemaps": [],
+    "adres": "https://worldsteel.org/feed/"
+   },
+   {
+    "tur": "rss",
+    "oge": 10,
+    "url": 0,
+    "en_yeni": "2026-11-02",
+    "sitemaps": [],
+    "adres": "https://worldsteel.org/feed/"
+   },
+   {
+    "tur": "rss",
+    "oge": 10,
+    "url": 0,
+    "en_yeni": "2026-11-02",
+    "sitemaps": [],
+    "adres": "https://worldsteel.org/feed/"
+   },
+   {
+    "tur": "wp-json",
+    "oge": 0,
+    "url": 0,
+    "en_yeni": "2026-05-20",
+    "sitemaps": [],
+    "adres": "https://worldsteel.org/wp-json/wp/v2/posts?per_page=5&_fields=date,link,title"
+   },
+   {
+    "tur": "sitemap",
+    "oge": 0,
+    "url": 79,
+    "en_yeni": "2026-11-02",
+    "sitemaps": [],
+    "adres": "https://worldsteel.org/post-sitemap.xml"
+   },
+   {
+    "tur": "sitemap",
+    "oge": 0,
+    "url": 20,
+    "en_yeni": "2026-11-02",
+    "sitemaps": [],
+    "adres": "https://worldsteel.org/sitemap_index.xml"
+   },
+   {
+    "tur": "sitemap",
+    "oge": 0,
+    "url": 20,
+    "en_yeni": "2026-11-02",
+    "sitemaps": [],
+    "adres": "https://worldsteel.org/sitemap_index.xml"
+   },
+   {
+    "tur": "sitemap",
+    "oge": 0,
+    "url": 20,
+    "en_yeni": "2026-11-02",
+    "sitemaps": [],
+    "adres": "https://worldsteel.org/sitemap_index.xml"
+   }
+  ]
+ },
+ "www.steelnews.biz": {
+  "ana_sayfa": "acik",
+  "kapilar": [
+   {
+    "tur": "rss",
+    "oge": 10,
+    "url": 0,
+    "en_yeni": "",
+    "sitemaps": [],
+    "adres": "https://steelnews.biz/feed/"
+   },
+   {
+    "tur": "rss",
+    "oge": 10,
+    "url": 0,
+    "en_yeni": "",
+    "sitemaps": [],
+    "adres": "https://steelnews.biz/feed/"
+   },
+   {
+    "tur": "rss",
+    "oge": 10,
+    "url": 0,
+    "en_yeni": "",
+    "sitemaps": [],
+    "adres": "https://steelnews.biz/feed/"
+   },
+   {
+    "tur": "rss",
+    "oge": 10,
+    "url": 0,
+    "en_yeni": "",
+    "sitemaps": [],
+    "adres": "https://steelnews.biz/feed/"
+   },
+   {
+    "tur": "wp-json",
+    "oge": 0,
+    "url": 0,
+    "en_yeni": "2026-11-02",
+    "sitemaps": [],
+    "adres": "https://www.steelnews.biz/wp-json/wp/v2/posts?per_page=5&_fields=date,link,title"
+   },
+   {
+    "tur": "sitemap",
+    "oge": 0,
+    "url": 2,
+    "en_yeni": "2026-10-07",
+    "sitemaps": [],
+    "adres": "https://www.steelnews.biz/news-sitemap.xml"
+   },
+   {
+    "tur": "sitemap",
+    "oge": 0,
+    "url": 202,
+    "en_yeni": "2026-11-02",
+    "sitemaps": [],
+    "adres": "https://www.steelnews.biz/post-sitemap.xml"
+   },
+   {
+    "tur": "sitemap",
+    "oge": 0,
+    "url": 12,
+    "en_yeni": "2026-11-02",
+    "sitemaps": [],
+    "adres": "https://www.steelnews.biz/sitemap_index.xml"
+   },
+   {
+    "tur": "sitemap",
+    "oge": 0,
+    "url": 12,
+    "en_yeni": "2026-11-02",
+    "sitemaps": [],
+    "adres": "https://steelnews.biz/sitemap_index.xml"
+   }
+  ]
+ },
+ "www.metalbulletin.com": {
+  "ana_sayfa": "acik",
+  "kapilar": []
+ },
+ "www.dunya.com": {
+  "ana_sayfa": "HTTP 403",
+  "kapilar": [
+   {
+    "tur": "rss",
+    "oge": 25,
+    "url": 0,
+    "en_yeni": "2026-11-02",
+    "sitemaps": [],
+    "adres": "https://www.dunya.com/rss"
+   },
+   {
+    "tur": "rss",
+    "oge": 25,
+    "url": 0,
+    "en_yeni": "2026-11-02",
+    "sitemaps": [],
+    "adres": "https://www.dunya.com/rss"
+   }
+  ]
+ },
+ "www.ekonomim.com": {
+  "ana_sayfa": "HTTP 403",
+  "kapilar": [
+   {
+    "tur": "rss",
+    "oge": 25,
+    "url": 0,
+    "en_yeni": "",
+    "sitemaps": [],
+    "adres": "https://www.ekonomim.com/rss"
+   },
+   {
+    "tur": "rss",
+    "oge": 25,
+    "url": 0,
+    "en_yeni": "",
+    "sitemaps": [],
+    "adres": "https://www.ekonomim.com/rss"
+   }
+  ]
+ }
+}
