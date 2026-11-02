@@ -31,7 +31,7 @@ on:
   workflow_dispatch:
     inputs:
       deneme:
-        description: "Deneme (posta YOK, hafiza yazilmaz). Gercek gonderim icin false"
+        description: "true = DENEME: bulten yalniz sana gelir, haber tuketilmez. false = GERCEK: tum alicilara"
         required: false
         default: "true"
       today:
@@ -153,6 +153,24 @@ jobs:
           to: ${{ secrets.MAIL_TO }}
           from: SogukRadar Bulten <${{ secrets.MAIL_USER }}>
           html_body: file://out/email.html
+
+      # DENEME ONIZLEMESI (2026-11-02): deneme bulteni YALNIZ sahibine
+      # (MAIL_USER) "DENEME" basligiyla gider. Alici listesine gitmez, hafizaya
+      # yazilmaz - haber tuketilmez.
+      - name: Deneme bultenini sahibine gonder
+        if: env.DENEME == 'true' && steps.karar.outcome == 'success' && hashFiles('out/deneme_email.html') != ''
+        continue-on-error: true
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.MAIL_USER }}
+          password: ${{ secrets.MAIL_PASS }}
+          subject: "[DENEME] Soguk Haddehane ve Nihai Hatlarda Sektor & Teknoloji Takibi"
+          to: ${{ secrets.MAIL_USER }}
+          from: SogukRadar Bulten <${{ secrets.MAIL_USER }}>
+          html_body: file://out/deneme_email.html
 
       # HAFIZA YALNIZ POSTA BASARILIYSA YAZILIR. Posta gitmediyse haber
       # tuketilmez; ertesi hafta yine kullanilabilir.
