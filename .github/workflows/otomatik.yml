@@ -31,7 +31,7 @@ on:
   workflow_dispatch:
     inputs:
       deneme:
-        description: "true = DENEME: bulten yalniz sana gelir, haber tuketilmez. false = GERCEK: tum alicilara"
+        description: "true = DENEME: [DENEME] basligiyla tum alicilara, haber tuketilmez. false = GERCEK bulten"
         required: false
         default: "true"
       today:
@@ -154,10 +154,10 @@ jobs:
           from: SogukRadar Bulten <${{ secrets.MAIL_USER }}>
           html_body: file://out/email.html
 
-      # DENEME ONIZLEMESI (2026-11-02): deneme bulteni YALNIZ sahibine
-      # (MAIL_USER) "DENEME" basligiyla gider. Alici listesine gitmez, hafizaya
-      # yazilmaz - haber tuketilmez.
-      - name: Deneme bultenini sahibine gonder
+      # DENEME ONIZLEMESI (2026-11-02, kullanici: "erdemire de gidecek"): deneme
+      # bulteni TUM alicilara (MAIL_TO) "[DENEME]" basligiyla gider. Hafizaya
+      # yazilmaz - haber tuketilmez, gercek bultende yine kullanilabilir.
+      - name: Deneme bultenini alicilara gonder
         if: env.DENEME == 'true' && steps.karar.outcome == 'success' && hashFiles('out/deneme_email.html') != ''
         continue-on-error: true
         uses: dawidd6/action-send-mail@v3
@@ -168,7 +168,7 @@ jobs:
           username: ${{ secrets.MAIL_USER }}
           password: ${{ secrets.MAIL_PASS }}
           subject: "[DENEME] Soguk Haddehane ve Nihai Hatlarda Sektor & Teknoloji Takibi"
-          to: ${{ secrets.MAIL_USER }}
+          to: ${{ secrets.MAIL_TO }}
           from: SogukRadar Bulten <${{ secrets.MAIL_USER }}>
           html_body: file://out/deneme_email.html
 
