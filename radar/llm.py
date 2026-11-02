@@ -28,6 +28,7 @@ is akisi ozetinde gorunur. Test, ag cagrisini sahte yanitlarla dogrular.
 import json
 import os
 import re
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -123,6 +124,8 @@ def _get(url):
 
 
 _gemini_secim = None
+GEMINI_BEKLE = int(os.environ.get("RADAR_GEMINI_BEKLE", "30"))
+GEMINI_TOPLAM_SN = int(os.environ.get("RADAR_GEMINI_TOPLAM_SN", "900"))
 
 
 def gemini_modelleri(liste_json):
@@ -159,13 +162,24 @@ def _gemini(sistem, kullanici):
             d, m = _get("https://generativelanguage.googleapis.com/v1beta/models?pageSize=200&key="
                         + anahtar)
             try:
-                _gemini_secim = gemini_modelleri(json.loads(m))[:3] if d == 200 else []
+                _gemini_secim = gemini_modelleri(json.loads(m))[:5] if d == 200 else []
             except Exception:
                 _gemini_secim = []
             if not _gemini_secim:
                 return None, "gemini model listesi alinamadi (HTTP %s)" % d
     hatalar = []
+    bitis = time.time() + GEMINI_TOPLAM_SN      # is akisi zaman sinirini korur
     for model in _gemini_secim:
+      if time.time() > bitis:
+          hatalar.append("toplam sure (%d sn) doldu" % GEMINI_TOPLAM_SN)
+          break
+      # YOGUNLUK (503) GECICIDIR (2026-11-02: uc flash modelin ucu de "high
+      # demand" dondu). Ayni modeli bekleyerek iki kez daha dene.
+      for deneme in range(3):
+        if deneme:
+            if time.time() + GEMINI_BEKLE * deneme > bitis:
+                break
+            time.sleep(GEMINI_BEKLE * deneme)
         d, m = _post(
             "https://generativelanguage.googleapis.com/v1beta/models/%s:generateContent?key=%s"
             % (model, anahtar), {},
@@ -180,10 +194,13 @@ def _gemini(sistem, kullanici):
                                for p in j["candidates"][0]["content"]["parts"]), None
             except Exception as e:
                 hatalar.append("%s yanit okunamadi: %s | govde: %r" % (model, e, m[:160]))
-                continue
-        hatalar.append("%s HTTP %s %s" % (model, d, m[:100]))
-        if d in (401, 403, 429):         # anahtar/kota sorunu: baska model yardim etmez
-            break
+                break
+        hatalar.append("%s HTTP %s" % (model, d))
+        if d in (500, 502, 503, 504, 0):
+            continue                     # gecici: ayni modeli bekleyip yeniden dene
+        break                            # 4xx: bu model olmaz, siradakine gec
+      if hatalar and re.search(r"HTTP (401|403)$", hatalar[-1]):
+          break                          # anahtar sorunu: baska model yardim etmez
     return None, "gemini " + " | ".join(hatalar)
 
 

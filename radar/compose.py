@@ -82,7 +82,9 @@ def row_sentence(r):
         # editore birakilir. Kuralsal yolda baslik oldugu gibi gosterilir
         # (ceviri uydurulmaz).
         return r.get("baslik", "")
-    firma = r.get("firma") or r.get("kaynak") or "İlgili üretici"
+    # Firma okunamadiysa KAYNAK ADI firma yerine yazilmaz (2026-11-02: "Mysteel,
+    # ... yenileme projesine basladi" - yayinci, yatirimci gibi gorundu).
+    firma = r.get("firma") or "Bir üretici"
     hat = _hat_tr(r)
     asama = r.get("asama") or "Belirsiz"
     ted = r.get("tedarikci") or ""

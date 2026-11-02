@@ -1507,7 +1507,7 @@ def test_yazar_dogrulayici_ve_llm_yedegi():
         llm.json_iste = lambda s, k, log=print: (None, None, ["anthropic HTTP 401"])
         oz = yazar.ozet_hazirla(payload, log=lambda *a: None)
         eq(oz["_rapor"]["cumle_llm"], 0, "LLM cevapsiz: kuralsala dustu")
-        eq("ulaşılamadı" in " ".join(oz["ai_kontrol"]), True, "LLM cevapsiz: sebep bultende")
+        eq("yanıt vermedi" in " ".join(oz["ai_kontrol"]), True, "LLM cevapsiz: sebep bultende")
 
         # 3) karisik yanit: a1 iyi, a2 uydurma sayi, a3 supheli (kapsam disi)
         yanit = {"cumleler": {
@@ -1882,6 +1882,36 @@ def test_gemini_model_secimi():
        ["gemini-3.6-flash-preview", "gemini-3.5-flash", "gemini-3.5-flash-lite", "gemini-2.0-flash"],
        "en yeni flash once; image/pro/embedding yok")
     eq(llm.gemini_modelleri({}), [], "bos liste")
+
+
+def test_gemini_yogunlukta_yeniden_dener():
+    """2026-11-02: Gemini 'high demand' (503) dondu ve bulten kuralsala dustu.
+    503 gecicidir: ayni model bekleyip yeniden denenir; 401'de durulur."""
+    import os
+    from . import llm
+    eski = (llm._post, llm._gemini_secim, llm.GEMINI_BEKLE, os.environ.get("GEMINI_API_KEY"))
+    try:
+        os.environ["GEMINI_API_KEY"] = "x"
+        llm.GEMINI_BEKLE = 0
+        llm._gemini_secim = ["m1", "m2"]
+        cagri = []
+        yanit = iter([(503, ""), (503, ""),
+                      (200, '{"candidates":[{"content":{"parts":[{"text":"{}"}]}}]}')])
+        llm._post = lambda u, h, g: (cagri.append(u), next(yanit))[1]
+        metin, hata = llm._gemini("s", "k")
+        eq((metin, hata), ("{}", None), "uc deneme sonunda yanit alindi")
+        eq(len(cagri), 3, "ayni model 3 kez denendi")
+        cagri.clear()
+        llm._post = lambda u, h, g: (cagri.append(u), (401, ""))[1]
+        metin, hata = llm._gemini("s", "k")
+        eq(metin, None, "401 yanit yok")
+        eq(len(cagri), 1, "401'de baska model/yeniden deneme yok")
+    finally:
+        llm._post, llm._gemini_secim, llm.GEMINI_BEKLE = eski[:3]
+        if eski[3] is None:
+            os.environ.pop("GEMINI_API_KEY", None)
+        else:
+            os.environ["GEMINI_API_KEY"] = eski[3]
 
 
 def test_w40_editorsuz_cop_kumeleme():
@@ -3394,6 +3424,7 @@ def run():
                test_v20_indiana_hindistan_degil,
                test_w40_editorsuz_cop_kumeleme,
                test_yazar_dogrulayici_ve_llm_yedegi,
+               test_gemini_yogunlukta_yeniden_dener,
                test_gemini_model_secimi,
                test_iki_haftalik_dongu_ve_yayinci_linki,
                test_w45_jindal_cifti_ve_yenileme_iddiasi,

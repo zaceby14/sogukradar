@@ -198,9 +198,11 @@ def ozet_hazirla(payload, log=print):
     veri, saglayici, hatalar = llm.json_iste(SISTEM, _kullanici(rows, stats), log=log)
     rapor["llm_hatalar"] = hatalar
     if not veri:
+        # Ham hata metni bultene GIRMEZ (okuyucu icin anlamsiz); ayrinti
+        # karar.json'daki _rapor.llm_hatalar'dadir.
         ozet["ai_kontrol"].append(
-            "Dil modeline ulaşılamadı (%s); metinler kurallı yolla üretildi."
-            % ("; ".join(hatalar)[:200] or "bilinmeyen sebep"))
+            "Dil modeli bu hafta yanıt vermedi; metinler yalnızca doğrulanmış "
+            "alanlardan kurallı yolla üretildi.")
         ozet["_rapor"] = rapor
         return ozet
 
