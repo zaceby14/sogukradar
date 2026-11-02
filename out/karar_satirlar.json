@@ -35,12 +35,12 @@
    "hat": "Galvaniz hatti (CGL)",
    "asama": "Ilk urun",
    "tedarikci": "",
-   "kapasite": "",
+   "kapasite": "1.6 MTPA",
    "tutar": "",
    "baslik": "Jindal India Commissions Revamped Galvanising Line, Boosts Capacity",
    "kaynak": "Rediff MoneyWiz",
    "kaynak_id": "gx_bigmint_q",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbzh5Xzk5UzhnUU1VZ2w2TUYtLTU1VTZyM1psT1NpSGZIQ1NoMVlwSklORlhpeWVaWUVjNWdHaGNaWUg4SFp6ekE1dW5ockRPT3VsLWRFOTdMYmo3RXJ2eFBNdElZbFloUzNhdWNFRXQyYkZPcmVkQ3pRNV9vREJ2RTA5Nkp0NUZZM2YtS1dVU210enhwWEdkaHAtYVV6VXVOZkdEaEpoU25saEVFN1FFZ1J1YXp0S0lXMHfSAb8BQVVfeXFMTk1pazRMWW9aRm9kUnVsTlA4SzN3bFZKcGJsOGlYOHZRbXIzM0tlQURRTlpTTFhLT25fZkl3U2tHUWZma3JpSTdkOXhSM2Z4Y2dqcE1lNnZjM0dzTUhrbWVlQmlkZnlOc3IySU5qZ3A2RHRWMDJCUlF3bFdzWW1MRlotMG5SdDliWkFIZ0pBS0NDSldCSVV5NWFoQnZDOEUzRHg3QmRaZEMzTXQ5S09oM3o1MDc0SGVsQzNadEt1UHM?oc=5",
+   "url": "https://newspatrolling.com/bc-jindal-groups-jindal-india-limited-achieves-1-6-mtpa-downstream-steel-capacity-with-successful-cgl-5-revamp/",
    "tarih_kaynagi": "rss",
    "lead": "Jindal India Commissions Revamped Galvanising Line, Boosts Capacity &nbsp;&nbsp; Rediff MoneyWiz",
    "eksik": [],
@@ -48,36 +48,26 @@
    "kategori": "Hat",
    "olaylar": [
     "*|ulke-hat|Hindistan|Galvaniz hatti (CGL)|Ilk urun",
+    "bc jindal group|fu|Hindistan|Galvaniz hatti (CGL)",
+    "bc jindal group|hat|Galvaniz hatti (CGL)|Modernizasyon",
+    "bc jindal group|ulke|Hindistan|Modernizasyon",
     "jindal india|fu|Hindistan|Galvaniz hatti (CGL)",
     "jindal india|hat|Galvaniz hatti (CGL)|Ilk urun",
     "jindal india|ulke|Hindistan|Ilk urun"
    ],
-   "puan": 54.6
-  },
-  {
-   "tarih": "2026-10-27",
-   "firma": "BC Jindal Group",
-   "ulke": "Hindistan",
-   "hat": "Galvaniz hatti (CGL)",
-   "asama": "Modernizasyon",
-   "tedarikci": "",
-   "kapasite": "1.6 MTPA",
-   "tutar": "",
-   "baslik": "BC Jindal Group’s Jindal (India) Limited Achieves 1.6 MTPA Downstream Steel Capacity with Successful CGL-5 Revamp",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgq_hat18",
-   "url": "https://newspatrolling.com/bc-jindal-groups-jindal-india-limited-achieves-1-6-mtpa-downstream-steel-capacity-with-successful-cgl-5-revamp/",
-   "tarih_kaynagi": "rss",
-   "lead": "Revamped CGL-5 line at Ranihati increases production capacity by over 50%, from 590 TPD to 889 TPD Bengaluru, 27th October 2026: Jindal (India) Limited, part of the BC Jindal Group and one of the ...",
-   "eksik": [],
-   "anahtar": "cc4db9bd733fdee7",
-   "kategori": "Hat",
-   "olaylar": [
-    "bc jindal group|fu|Hindistan|Galvaniz hatti (CGL)",
-    "bc jindal group|hat|Galvaniz hatti (CGL)|Modernizasyon",
-    "bc jindal group|ulke|Hindistan|Modernizasyon"
+   "puan": 54.6,
+   "ilgili": [
+    {
+     "baslik": "BC Jindal Group’s Jindal (India) Limited Achieves 1.6 MTPA Downstream Steel Capacity with Successful CGL-5 Revamp",
+     "url": "https://newspatrolling.com/bc-jindal-groups-jindal-india-limited-achieves-1-6-mtpa-downstream-steel-capacity-with-successful-cgl-5-revamp/",
+     "kaynak": "Bing News",
+     "tarih": "2026-10-27"
+    }
    ],
-   "puan": 48.6
+   "kume_anahtarlari": [
+    "1c737651eb6c0083",
+    "cc4db9bd733fdee7"
+   ]
   },
   {
    "tarih": "2026-10-13",
@@ -158,6 +148,32 @@
    "tutar": "",
    "ulke": "ABD",
    "url": "https://themachinemaker.com/news/red-bud-industries-installs-cut-to-length-line-at-mcneilus-steels-tennessee-facility/"
+  },
+  {
+   "anahtar": "d6c5a8a6a6758c8c",
+   "asama": "Belirsiz",
+   "baslik": "OYAK Plans New Electrical Steel Investments at Erdemir Romania",
+   "eksik": [
+    "asama"
+   ],
+   "firma": "OYAK",
+   "hat": "Elektrik celigi hatti",
+   "kapasite": "",
+   "kategori": "Yatirim",
+   "kaynak": "SMM (Shanghai Metals)",
+   "kaynak_id": "smm",
+   "olaylar": [
+    "oyak|fu|Romanya|Elektrik celigi hatti",
+    "oyak|hat|Elektrik celigi hatti|Belirsiz",
+    "oyak|ulke|Romanya|Belirsiz"
+   ],
+   "puan": 5.6,
+   "tarih": "2026-09-25",
+   "tarih_kaynagi": "json-ld",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Romanya",
+   "url": "https://news.metal.com/en/newscontent/104134673-oyak-plans-new-electrical-steel-investments-at-erdemir-romania"
   }
  ],
  "tech": [

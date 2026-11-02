@@ -1,7 +1,9 @@
 {
  "donem": "2026-W45",
- "gonder": false,
- "deneme": true,
+ "gonder": true,
+ "atla": false,
+ "son_gonderim": null,
+ "deneme": false,
  "satir": 6,
  "nedenler": [],
  "yazar": {
@@ -16,14 +18,14 @@
  },
  "elenen_satirlar": [],
  "baglanti_dogrulanamayan": [],
- "email": "/home/runner/work/sogukradar/sogukradar/out/deneme_email.html",
- "uretildi": "2026-11-02T13:47:29.152173Z",
+ "email": "/home/runner/work/sogukradar/sogukradar/out/email.html",
+ "uretildi": "2026-11-02T14:46:52.754773Z",
  "basliklar": [
   "ANDRITZ continuous galvanizing line at BlueScope Steel produces first galvanized coil",
   "Jindal India Commissions Revamped Galvanising Line, Boosts Capacity",
-  "BC Jindal Group’s Jindal (India) Limited Achieves 1.6 MTPA Downstream Steel Capacity with ",
   "Fives upgrades Hyundai Steel's galvanising line",
   "Tenova supplies processing lines for JSW JFE’s electrical steel plant in India",
-  "Red Bud Industries Installs Cut-to-Length Line at McNeilus Steel’s Tennessee Facility"
+  "Red Bud Industries Installs Cut-to-Length Line at McNeilus Steel’s Tennessee Facility",
+  "OYAK Plans New Electrical Steel Investments at Erdemir Romania"
  ]
 }
