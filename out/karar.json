@@ -7,14 +7,16 @@
  "satir": 6,
  "nedenler": [],
  "yazar": {
-  "saglayici": null,
-  "llm_hatalar": [
-   "gemini gemini-3.8-flash HTTP 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Sp | gemini-3.7-flash HTTP 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Sp | gemini-3.6-flash HTTP 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Sp",
-   "github yanit okunamadi: Expecting value: line 1 column 1 (char 0) | govde: 'OK\\r\\n'"
+  "saglayici": "gemini",
+  "llm_hatalar": [],
+  "reddedilen_cumle": [
+   {
+    "baslik": "唐山市晟鑫冷轧薄板生产线升级改造项目生态环境影响报告书获批",
+    "neden": "kaynakta olmayan ozel ad: Shengxin"
+   }
   ],
-  "reddedilen_cumle": [],
-  "cumle_llm": 0,
-  "cumle_kuralsal": 6,
+  "cumle_llm": 5,
+  "cumle_kuralsal": 1,
   "supheli_cikarilan": 0
  },
  "elenen_satirlar": [],
@@ -29,7 +31,7 @@
   }
  ],
  "email": "/home/runner/work/sogukradar/sogukradar/out/deneme_email.html",
- "uretildi": "2026-11-02T16:54:08.729582Z",
+ "uretildi": "2026-11-02T17:34:24.376590Z",
  "basliklar": [
   "POSCO, Otomotiv Çeliği İçin 359 Milyon Dolarlık Yeni Galvanizleme Hattı Kuruyor",
   "Danieli Automation to Supply MES Platform for Ezz Flat Steel Plant",

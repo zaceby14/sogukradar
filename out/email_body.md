@@ -21,4 +21,4 @@
    Primetals secures PLTCM automation order  
    https://www.steeltimesint.com/news/primetals-secures-pltcm-automation-order
 
-> Erisilemeyen kaynaklar: SMS group, Cognex, ArcelorMittal, POSCO, Steel Radar, GMK Center, SteelGuru, BigMint (SteelMint), MetalMiner, Furnaces International, MetalForming Magazine, Metallurgprom, Sanayi Gazetesi
+> Erisilemeyen kaynaklar: SMS group, Cognex, ArcelorMittal, POSCO, Steel Radar, GMK Center, SteelGuru, BigMint (SteelMint), MetalMiner, Furnaces International, MetalForming Magazine, Sanayi Gazetesi, Celik Ihracatcilari Birligi
