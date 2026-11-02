@@ -682,6 +682,11 @@ def collect(today=None, log=print):
                         gt = (doc.get("title") or "").strip()
                         if len(gt.split()) >= 4 and not taxonomy.is_junk_title(gt):
                             it["title"] = gt
+                        else:
+                            # Sayfa gercek bir haber basligi vermedi: yer
+                            # tutucu/404 sablonu olabilir (W45 Primetals vakasi).
+                            drop("tarihsiz_elendi", it, "sitemap: sayfa basligi yok")
+                            continue
                 if not date_iso:
                     # ACI 5: ayni adres baska bir beslemede gecti mi.
                     # Last-Modified'dan ONCE denenir: capraz besleme yayincinin
@@ -691,11 +696,11 @@ def collect(today=None, log=print):
                     od = url_dates.get(it["url"].split("?")[0])
                     if od:
                         date_iso, src = od, "capraz-rss"
-                if not date_iso:
-                    # ACI 6: sunucunun Last-Modified basligi - en zayif aci
-                    lm = dates.parse_date_text(info.get("last_modified", ""), False, today)
-                    if lm:
-                        date_iso, src = lm, "last-modified"
+                # ACI 6 (HTTP Last-Modified) KALDIRILDI (2026-11-02). Tum gecmiste
+                # bu yoldan giren 3 satirin ucu de AYNI Primetals sayfasiydi ve
+                # "tarihi" her cekilisle degisti (16 Eyl, 28 Eyl, 2 Kas): sunucu
+                # her istekte "simdi"yi dondurdu. Yayin tarihi olmayan haber
+                # girmez - degismez kural.
                 if not date_iso and not it.get("_sitemap"):
                     date_iso = it.get("_rough")
                     # Beslemeden gelen tarih yapisaldir - "tarih?" isareti gerekmez

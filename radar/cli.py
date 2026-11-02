@@ -497,6 +497,10 @@ def _rezerv_hala_gecerli(r):
     t = r.get("baslik") or ""
     if not t:
         return False
+    # Last-Modified'dan gelen tarih havuzda da GECERSIZ (2026-11-02): kaynak
+    # kaldirildi, havuzdaki eski kayitlar da dusmeli (Primetals vakasi).
+    if r.get("tarih_kaynagi") == "last-modified":
+        return False
     ok, _ = taxonomy.in_scope(t)
     if ok and taxonomy.haber_olayi(t):
         return True
@@ -813,6 +817,14 @@ def cmd_otomatik(a):
     st = state.load()
 
     elenen = _satir_suzgeci(payload, bugun, st)
+    # BAGLANTI DOGRULAMA (2026-11-02, "ilk link hatali"): satirlar postaya
+    # girmeden adresleri acilir; 404/yer tutucu/ana sayfa kanitli olanlar cikar.
+    from . import baglanti
+    if os.environ.get("RADAR_BAGLANTI", "1") != "0":
+        payload["rows"], bg_elenen, bg_belirsiz = baglanti.dogrula(payload["rows"])
+        elenen += bg_elenen
+    else:
+        bg_belirsiz = []
     for ad, neden in elenen:
         print("  satir cikarildi (%s): %s" % (neden, ad[:70]))
     doc = yazar.ozet_hazirla(payload)
@@ -840,6 +852,8 @@ def cmd_otomatik(a):
              "deneme": deneme, "satir": len(payload["rows"]),
              "nedenler": nedenler, "yazar": rapor,
              "elenen_satirlar": [{"baslik": b[:90], "neden": n} for b, n in elenen],
+             "baglanti_dogrulanamayan": [{"baslik": b[:90], "neden": n[:100]}
+                                         for b, n in bg_belirsiz],
              "email": email_yolu, "uretildi": dt.datetime.utcnow().isoformat() + "Z",
              "basliklar": [r.get("baslik", "")[:90] for r in payload["rows"]]}
     _w(os.path.join(OUT, "karar.json"), karar)

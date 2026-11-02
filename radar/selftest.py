@@ -1640,10 +1640,11 @@ def test_otomatik_hat_deneme_hafizaya_yazmaz():
     sahte.norm_key = C.state.norm_key
     eski_state, eski_out = C.state, C.OUT
     gecici = tempfile.mkdtemp()
-    eski_env = {k: os.environ.get(k) for k in ("RADAR_LLM",)}
+    eski_env = {k: os.environ.get(k) for k in ("RADAR_LLM", "RADAR_BAGLANTI")}
     try:
         C.state, C.OUT = sahte, gecici
         os.environ["RADAR_LLM"] = "yok"
+        os.environ["RADAR_BAGLANTI"] = "0"
         pl = {"period": C._period(bugun), "version": "t", "today": gun(0),
               "rows": [copy.deepcopy(x) for x in (iyi1, iyi2)],
               "stats": {"ham": 3000, "kaynak": 291, "erisilemeyen": 10, "kabul": 2,
@@ -1754,6 +1755,50 @@ def test_llm_post_yonlendirmeyi_post_olarak_izler():
         eq(alinan[1][2], b'{"x": 1}', "govde ikinci istekte de gitti")
     finally:
         sv.shutdown()
+
+
+def test_w45_baglanti_dogrulama_ve_sitemap_tarihi():
+    """2026-11-02 W45: Primetals satiri bos/bozuk sayfayla ve BUGUNUN tarihiyle
+    postaya hazirlandi ('ilk link hatali'). Sitemap adayi Last-Modified'a
+    dusuyordu ve adres hic dogrulanmiyordu."""
+    import inspect
+    from . import baglanti, collect
+    src = inspect.getsource(collect)
+    eq('src = "last-modified"' in src, False, "Last-Modified tarih kaynagi olarak kullanilmaz")
+    import radar.cli as _C
+    eq(_C._rezerv_hala_gecerli({"baslik": "Danieli wins pickling line order from Acme Steel",
+                                "tarih_kaynagi": "last-modified"}), False,
+       "havuzdaki last-modified satiri dusurulur")
+    eq(_C._rezerv_hala_gecerli({"baslik": "Danieli wins pickling line order from Acme Steel",
+                                "tarih_kaynagi": "rss"}), True, "rss tarihli satir kalir")
+    eq("sitemap: sayfa basligi yok" in src, True, "sitemap: gercek baslik yoksa elenir")
+
+    eski = baglanti.fetch
+    sayfalar = {
+        "https://p.example/news/a-galv-line-chengde": (True, "<html><head><title>Primetals to supply continuous galvanizing line to Chengde Steel</title></head><body><h1>Primetals to supply continuous galvanizing and pickling line to Chengde Steel</h1></body></html>", {"status": 200, "final": "https://p.example/news/a-galv-line-chengde"}),
+        "https://p.example/news/yok": (False, "", {"status": 0, "hata": "HTTP 404"}),
+        "https://p.example/news/korumali": (False, "", {"status": 0, "hata": "HTTP 403"}),
+        "https://p.example/news/ana": (True, "<html><title>Home</title></html>", {"status": 200, "final": "https://p.example/"}),
+        "https://p.example/news/yer-tutucu": (True, "<html><head><title>Latest news</title></head><body>Welcome. Subscribe to our newsletter.</body></html>", {"status": 200, "final": "https://p.example/news/yer-tutucu"}),
+    }
+    baglanti.fetch = lambda u, *a, **k: sayfalar[u]
+    try:
+        r = lambda u, b: {"url": u, "baslik": b}
+        B = "Primetals Technologies to supply continuous galvanizing and pickling line to Chengde Steel"
+        eq(baglanti.kontrol(r("https://p.example/news/a-galv-line-chengde", B))[0], "tamam", "gercek sayfa gecer")
+        eq(baglanti.kontrol(r("https://p.example/news/yok", B))[0], "kotu", "404 elenir")
+        eq(baglanti.kontrol(r("https://p.example/news/korumali", B))[0], "dogrulanamadi",
+           "403 kanit degildir, elenmez")
+        eq(baglanti.kontrol(r("https://p.example/news/ana", B))[0], "kotu", "ana sayfaya yonlendirme elenir")
+        eq(baglanti.kontrol(r("https://p.example/news/yer-tutucu", B))[0], "kotu", "baska icerik elenir")
+        eq(baglanti.kontrol(r("https://news.google.com/rss/articles/XYZ", B))[0], "atlandi",
+           "toplayici adresi acilmaz")
+        kalan, elenen, belirsiz = baglanti.dogrula(
+            [r("https://p.example/news/a-galv-line-chengde", B), r("https://p.example/news/yok", B),
+             r("https://p.example/news/korumali", B)], log=lambda *a: None)
+        eq((len(kalan), len(elenen), len(belirsiz)), (2, 1, 1), "dogrula: 1 elendi, 1 belirsiz, 2 kaldi")
+    finally:
+        baglanti.fetch = eski
 
 
 def test_w40_editorsuz_cop_kumeleme():
@@ -3266,6 +3311,7 @@ def run():
                test_v20_indiana_hindistan_degil,
                test_w40_editorsuz_cop_kumeleme,
                test_yazar_dogrulayici_ve_llm_yedegi,
+               test_w45_baglanti_dogrulama_ve_sitemap_tarihi,
                test_llm_post_yonlendirmeyi_post_olarak_izler,
                test_w45_fiyat_panosu_ulke_kirletmez,
                test_otomatik_hat_deneme_hafizaya_yazmaz,
