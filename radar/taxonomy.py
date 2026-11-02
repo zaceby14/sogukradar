@@ -278,6 +278,11 @@ MATERIAL_BLOCK = re.compile(
 # alakasiz satirlarin tamami buradan sizdi: HARD_REJECT sadece Katman 1'de
 # calisiyordu, "genel yatirim" etiketi alan satir denetimi atliyordu.
 _NOISE = (
+    # 2026-11-02 (W45 havuz denetimi): palplans, AB koruma onlemi, borsa
+    # analizi bu kapidan geciyordu.
+    r"sheet pil(e|es|ing)\b|\bpiles?\b|protective measures|safeguard (measure|duty|duties|"
+    r"investigation|quota)|tariff[- ]rate quota|investment narrative|simply wall|"
+    r"fiyat hedefi|price target|"
     # TICARET DAVASI KISALTMASI (2026-11-02). "India extends AD investigation
     # deadline on stainless steel cold-rolled flat products from 3 Asian
     # nations" 2026-W40'ta Yatirim katmanina girdi: _NOISE 'anti-dumping'i

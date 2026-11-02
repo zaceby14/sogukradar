@@ -111,6 +111,15 @@ def cmd_run(a):
     # pencere ici), sonra rezerve bakilir (pencere disi, "GEC YAKALANDI").
     # Kapi GEVSEMEZ: satirlar zaten ayni kapidan gecmistir, degisen tek sey
     # unutulmamalaridir.
+    # TAZE SATIRLAR DA HAVUZ KAPISINDAN GECER (2026-11-02, W45): tarama kapisi
+    # govdeyi de okuyor, havuz/otomatik denetim yalniz BASLIGI. Tutarsizlik
+    # sonucu taze bir satir ("Nippon Steel Raises US Mill Upgrade to $3 Billion")
+    # listede sayilip sonradan elendi ve liste havuzdan TAMAMLANAMADI. Burada
+    # elenirse havuz/rezerv bosluk icin devreye girer.
+    once = len(rows)
+    rows = [r for r in rows if _rezerv_hala_gecerli(r)]
+    if len(rows) != once:
+        print("havuz kapisi: %d taze satir basliga gore elendi" % (once - len(rows)))
     bulunan = _bulunan_guncelle(st_r, rows)
     rezerv = _rezerv_guncelle(st_r, payload.pop("rezerv", []), rows)
 

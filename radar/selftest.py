@@ -1801,6 +1801,19 @@ def test_w45_baglanti_dogrulama_ve_sitemap_tarihi():
         baglanti.fetch = eski
 
 
+def test_w45_havuz_deliklerinin_kapanisi():
+    """2026-11-02 W45 havuz denetimi: palplans (uzun urun), AB koruma onlemi
+    ve borsa analizi 'Hat'/'Yatirim' kapisindan geciyordu."""
+    for b in ("EMSTEEL supplies sheet piles for UK highway expansion project",
+              "The European Commission has introduced temporary protective measures for the import of steel products",
+              "Did Electrical Steel Expansion Just Shift Worthington Steel (WS) Investment Narrative?"):
+        eq((bool(taxonomy.in_scope(b)[0]), bool(taxonomy.genel_yatirim(b))), (False, False),
+           "kapi disi kalmali: " + b[:50])
+    for b in ("Primetals to supply continuous galvanizing line to Chengde Steel",
+              "Fives upgrades Hyundai Steel's galvanising line"):
+        eq(bool(taxonomy.in_scope(b)[0]), True, "gercek hat haberi gecmeli: " + b[:40])
+
+
 def test_w40_editorsuz_cop_kumeleme():
     """2026-11-02: editorsuz cikan ilk bulten (2026-W40) 14 satirdi, yarisi cop.
 
@@ -3311,6 +3324,7 @@ def run():
                test_v20_indiana_hindistan_degil,
                test_w40_editorsuz_cop_kumeleme,
                test_yazar_dogrulayici_ve_llm_yedegi,
+               test_w45_havuz_deliklerinin_kapanisi,
                test_w45_baglanti_dogrulama_ve_sitemap_tarihi,
                test_llm_post_yonlendirmeyi_post_olarak_izler,
                test_w45_fiyat_panosu_ulke_kirletmez,
