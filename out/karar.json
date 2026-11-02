@@ -2,7 +2,7 @@
  "donem": "2026-W45",
  "gonder": false,
  "deneme": true,
- "satir": 6,
+ "satir": 4,
  "nedenler": [],
  "yazar": {
   "saglayici": null,
@@ -11,18 +11,10 @@
   ],
   "reddedilen_cumle": [],
   "cumle_llm": 0,
-  "cumle_kuralsal": 6,
+  "cumle_kuralsal": 4,
   "supheli_cikarilan": 0
  },
  "elenen_satirlar": [
-  {
-   "baslik": "Tata Steel commissions ₹9,067 crore facilities at Kalinganagar plant",
-   "neden": "guncel kapiyi gecmiyor"
-  },
-  {
-   "baslik": "China's Xuanli Steel orders SMS equipment for 2 million mt plate mill",
-   "neden": "guncel kapiyi gecmiyor"
-  },
   {
    "baslik": "Nippon Steel Raises US Mill Upgrade to $3 Billion as Costs Climb",
    "neden": "guncel kapiyi gecmiyor"
@@ -32,14 +24,13 @@
    "neden": "guncel kapiyi gecmiyor"
   }
  ],
+ "baglanti_dogrulanamayan": [],
  "email": "/home/runner/work/sogukradar/sogukradar/out/deneme_email.html",
- "uretildi": "2026-11-02T13:03:57.265459Z",
+ "uretildi": "2026-11-02T13:34:40.968599Z",
  "basliklar": [
-  "Primetals Technologies to supply continuous galvanizing and pickling line to Chengde Steel",
   "ANDRITZ continuous galvanizing line at BlueScope Steel produces first galvanized coil",
   "Jindal India Commissions Revamped Galvanising Line, Boosts Capacity",
-  "Red Bud Industries Installs Cut-to-Length Line at McNeilus Steel’s Tennessee Facility",
-  "Fives upgrades Hyundai Steel's galvanising line",
+  "BC Jindal Group’s Jindal (India) Limited Achieves 1.6 MTPA Downstream Steel Capacity with ",
   "Tenova supplies processing lines for JSW JFE’s electrical steel plant in India"
  ]
 }

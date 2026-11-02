@@ -1,33 +1,6 @@
 {
  "bulunan": [
   {
-   "anahtar": "861fe83cb05ff9be",
-   "asama": "Sozlesme",
-   "baslik": "Primetals Technologies to supply continuous galvanizing and pickling line to Chengde Steel",
-   "eksik": [
-    "ulke",
-    "tarih?"
-   ],
-   "firma": "Chengde Steel",
-   "hat": "Asitleme hatti",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "Primetals Technologies",
-   "kaynak_id": "elle",
-   "lead": "Contact Us News & Insights Press Releases Browse Primetals Technologies' Latest Press Releases on News Updates and Innovations More Press Releases Browse through our full collection of press releases Discover more Feel free to contact us anytime! Do you have any questions about our solutions or services? Contact us—we're here for you! Contact us With Primetals Technologies always up-to-date! Subscribe to the Primetal",
-   "olaylar": [
-    "chengde steel|hat|Asitleme hatti|Sozlesme",
-    "primetals|hat|Asitleme hatti|Sozlesme"
-   ],
-   "puan": 59.0,
-   "tarih": "2026-11-02",
-   "tarih_kaynagi": "last-modified",
-   "tedarikci": "Primetals",
-   "tutar": "",
-   "ulke": "",
-   "url": "https://www.primetals.com/press-media/news/primetals-technologies-to-supply-continuous-galvanizing-and-pickling-line-to-chengde-steel"
-  },
-  {
    "anahtar": "1c737651eb6c0083",
    "asama": "Ilk urun",
    "baslik": "Jindal India Commissions Revamped Galvanising Line, Boosts Capacity",
@@ -52,6 +25,31 @@
    "tutar": "",
    "ulke": "Hindistan",
    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbzh5Xzk5UzhnUU1VZ2w2TUYtLTU1VTZyM1psT1NpSGZIQ1NoMVlwSklORlhpeWVaWUVjNWdHaGNaWUg4SFp6ekE1dW5ockRPT3VsLWRFOTdMYmo3RXJ2eFBNdElZbFloUzNhdWNFRXQyYkZPcmVkQ3pRNV9vREJ2RTA5Nkp0NUZZM2YtS1dVU210enhwWEdkaHAtYVV6VXVOZkdEaEpoU25saEVFN1FFZ1J1YXp0S0lXMHfSAb8BQVVfeXFMTk1pazRMWW9aRm9kUnVsTlA4SzN3bFZKcGJsOGlYOHZRbXIzM0tlQURRTlpTTFhLT25fZkl3U2tHUWZma3JpSTdkOXhSM2Z4Y2dqcE1lNnZjM0dzTUhrbWVlQmlkZnlOc3IySU5qZ3A2RHRWMDJCUlF3bFdzWW1MRlotMG5SdDliWkFIZ0pBS0NDSldCSVV5NWFoQnZDOEUzRHg3QmRaZEMzTXQ5S09oM3o1MDc0SGVsQzNadEt1UHM?oc=5"
+  },
+  {
+   "anahtar": "cc4db9bd733fdee7",
+   "asama": "Modernizasyon",
+   "baslik": "BC Jindal Group’s Jindal (India) Limited Achieves 1.6 MTPA Downstream Steel Capacity with Successful CGL-5 Revamp",
+   "eksik": [],
+   "firma": "BC Jindal Group",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "1.6 MTPA",
+   "kategori": "Hat",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgx_bigmint_q",
+   "lead": "Revamped CGL-5 line at Ranihati increases production capacity by over 50%, from 590 TPD to 889 TPD Bengaluru, 27th October 2026: Jindal (India) Limited, part of the BC Jindal Group and one of the ...",
+   "olaylar": [
+    "bc jindal group|fu|Hindistan|Galvaniz hatti (CGL)",
+    "bc jindal group|hat|Galvaniz hatti (CGL)|Modernizasyon",
+    "bc jindal group|ulke|Hindistan|Modernizasyon"
+   ],
+   "puan": 48.6,
+   "tarih": "2026-10-27",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Hindistan",
+   "url": "https://newspatrolling.com/bc-jindal-groups-jindal-india-limited-achieves-1-6-mtpa-downstream-steel-capacity-with-successful-cgl-5-revamp/"
   },
   {
    "anahtar": "0b386546c836c574",
@@ -1907,6 +1905,24 @@
     "tekrar": 44
    },
    "uretim": "2026-11-02 13:03 UTC"
+  },
+  {
+   "donem": "2026-W45",
+   "satir": 6,
+   "stats": {
+    "erisilemeyen": 11,
+    "gnews_tarih": 0,
+    "ham": 3314,
+    "kabul": 6,
+    "kapsam_disi": 2925,
+    "kaynak": 291,
+    "makale_acildi": 201,
+    "on_eleme_gecti": 313,
+    "pencere_disi": 255,
+    "tarihsiz_elendi": 103,
+    "tekrar": 25
+   },
+   "uretim": "2026-11-02 13:34 UTC"
   }
  ],
  "rezerv": [

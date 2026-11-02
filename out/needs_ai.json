@@ -2,21 +2,6 @@
  "donem": "2026-W45",
  "duzelt": [
   {
-   "anahtar": "861fe83cb05ff9be",
-   "baslik": "Primetals Technologies to supply continuous galvanizing and pickling line to Chengde Steel",
-   "url": "https://www.primetals.com/press-media/news/primetals-technologies-to-supply-continuous-galvanizing-and-pickling-line-to-chengde-steel",
-   "eksik": [
-    "ulke",
-    "tarih?"
-   ],
-   "mevcut": {
-    "firma": "Chengde Steel",
-    "ulke": "",
-    "hat": "Asitleme hatti",
-    "asama": "Sozlesme"
-   }
-  },
-  {
    "anahtar": "2796f3c7472bcf14",
    "baslik": "ANDRITZ continuous galvanizing line at BlueScope Steel produces first galvanized coil",
    "url": "https://www.andritz.com/newsroom-en/metals/2026-10-13-bluescope-group",
@@ -29,20 +14,6 @@
     "ulke": "",
     "hat": "Galvaniz hatti (CGL)",
     "asama": "Ilk urun"
-   }
-  },
-  {
-   "anahtar": "0974a592e27b2b6f",
-   "baslik": "Fives upgrades Hyundai Steel's galvanising line",
-   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/fives-upgrades-hyundai-steels-galvanising-line-0926/",
-   "eksik": [
-    "ulke"
-   ],
-   "mevcut": {
-    "firma": "Fives",
-    "ulke": "",
-    "hat": "Galvaniz hatti (CGL)",
-    "asama": "Modernizasyon"
    }
   },
   {
@@ -90,16 +61,6 @@
  ],
  "cumle_yaz": [
   {
-   "anahtar": "861fe83cb05ff9be",
-   "tarih": "2026-11-02",
-   "firma": "Chengde Steel",
-   "ulke": "",
-   "hat": "Asitleme hatti",
-   "asama": "Sozlesme",
-   "baslik": "Primetals Technologies to supply continuous galvanizing and pickling line to Chengde Steel",
-   "url": "https://www.primetals.com/press-media/news/primetals-technologies-to-supply-continuous-galvanizing-and-pickling-line-to-chengde-steel"
-  },
-  {
    "anahtar": "2796f3c7472bcf14",
    "tarih": "2026-10-13",
    "firma": "BlueScope Steel",
@@ -120,44 +81,14 @@
    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbzh5Xzk5UzhnUU1VZ2w2TUYtLTU1VTZyM1psT1NpSGZIQ1NoMVlwSklORlhpeWVaWUVjNWdHaGNaWUg4SFp6ekE1dW5ockRPT3VsLWRFOTdMYmo3RXJ2eFBNdElZbFloUzNhdWNFRXQyYkZPcmVkQ3pRNV9vREJ2RTA5Nkp0NUZZM2YtS1dVU210enhwWEdkaHAtYVV6VXVOZkdEaEpoU25saEVFN1FFZ1J1YXp0S0lXMHfSAb8BQVVfeXFMTk1pazRMWW9aRm9kUnVsTlA4SzN3bFZKcGJsOGlYOHZRbXIzM0tlQURRTlpTTFhLT25fZkl3U2tHUWZma3JpSTdkOXhSM2Z4Y2dqcE1lNnZjM0dzTUhrbWVlQmlkZnlOc3IySU5qZ3A2RHRWMDJCUlF3bFdzWW1MRlotMG5SdDliWkFIZ0pBS0NDSldCSVV5NWFoQnZDOEUzRHg3QmRaZEMzTXQ5S09oM3o1MDc0SGVsQzNadEt1UHM?oc=5"
   },
   {
-   "anahtar": "2f18a1bfdf4a07d4",
-   "tarih": "2026-10-16",
-   "firma": "Tata Steel",
+   "anahtar": "cc4db9bd733fdee7",
+   "tarih": "2026-10-27",
+   "firma": "BC Jindal Group",
    "ulke": "Hindistan",
-   "hat": "Surekli tavlama (CAL)",
-   "asama": "Ilk urun",
-   "baslik": "Tata Steel commissions ₹9,067 crore facilities at Kalinganagar plant",
-   "url": "https://www.business-standard.com/industry/news/tata-steel-commissions-9-067-crore-facilities-at-kalinganagar-plant-126101601179_1.html"
-  },
-  {
-   "anahtar": "74e2fe7760f15126",
-   "tarih": "2026-10-16",
-   "firma": "Xuanli Steel",
-   "ulke": "Cin",
-   "hat": "Dilme / boy kesme / SSC",
-   "asama": "Sozlesme",
-   "baslik": "China's Xuanli Steel orders SMS equipment for 2 million mt plate mill",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/chinas-xuanli-steel-orders-sms-equipment-for-2-million-mt-plate-mill-1484146.htm"
-  },
-  {
-   "anahtar": "0b386546c836c574",
-   "tarih": "2026-10-26",
-   "firma": "Red Bud Industries",
-   "ulke": "ABD",
-   "hat": "Dilme / boy kesme / SSC",
-   "asama": "Sozlesme",
-   "baslik": "Red Bud Industries Installs Cut-to-Length Line at McNeilus Steel’s Tennessee Facility",
-   "url": "https://themachinemaker.com/news/red-bud-industries-installs-cut-to-length-line-at-mcneilus-steels-tennessee-facility/"
-  },
-  {
-   "anahtar": "0974a592e27b2b6f",
-   "tarih": "2026-10-13",
-   "firma": "Fives",
-   "ulke": "",
    "hat": "Galvaniz hatti (CGL)",
    "asama": "Modernizasyon",
-   "baslik": "Fives upgrades Hyundai Steel's galvanising line",
-   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/fives-upgrades-hyundai-steels-galvanising-line-0926/"
+   "baslik": "BC Jindal Group’s Jindal (India) Limited Achieves 1.6 MTPA Downstream Steel Capacity with Successful CGL-5 Revamp",
+   "url": "https://newspatrolling.com/bc-jindal-groups-jindal-india-limited-achieves-1-6-mtpa-downstream-steel-capacity-with-successful-cgl-5-revamp/"
   },
   {
    "anahtar": "e78669efb805f0bb",

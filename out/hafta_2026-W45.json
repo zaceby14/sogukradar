@@ -1,33 +1,6 @@
 {
  "rows": [
   {
-   "tarih": "2026-11-02",
-   "firma": "Chengde Steel",
-   "ulke": "",
-   "hat": "Asitleme hatti",
-   "asama": "Sozlesme",
-   "tedarikci": "Primetals",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "Primetals Technologies to supply continuous galvanizing and pickling line to Chengde Steel",
-   "kaynak": "Primetals Technologies",
-   "kaynak_id": "elle",
-   "url": "https://www.primetals.com/press-media/news/primetals-technologies-to-supply-continuous-galvanizing-and-pickling-line-to-chengde-steel",
-   "tarih_kaynagi": "last-modified",
-   "lead": "Contact Us News & Insights Press Releases Browse Primetals Technologies' Latest Press Releases on News Updates and Innovations More Press Releases Browse through our full collection of press releases Discover more Feel free to contact us anytime! Do you have any questions about our solutions or services? Contact us—we're here for you! Contact us With Primetals Technologies always up-to-date! Subscribe to the Primetal",
-   "eksik": [
-    "ulke",
-    "tarih?"
-   ],
-   "anahtar": "861fe83cb05ff9be",
-   "kategori": "Hat",
-   "olaylar": [
-    "chengde steel|hat|Asitleme hatti|Sozlesme",
-    "primetals|hat|Asitleme hatti|Sozlesme"
-   ],
-   "puan": 59.0
-  },
-  {
    "tarih": "2026-10-13",
    "firma": "BlueScope Steel",
    "ulke": "",
@@ -41,7 +14,7 @@
    "kaynak_id": "andritz",
    "url": "https://www.andritz.com/newsroom-en/metals/2026-10-13-bluescope-group",
    "tarih_kaynagi": "url",
-   "lead": "Skip to main content en Deutsch English Site directory Newsroom Menu Search en Deutsch English Site directory Newsroom Menu Search Annual Report 2025 published Turning progress into industrial impact. FOR GROWTH THAT MATTERS. Discover more ANDRITZ GROUP ANDRITZ GROUP Newsroom Careers Sustainability OUR BUSINESS AREAS PULP & PAPER METALS HYDROPOWER ENVIRONMENT & ENERGY MORE ANDRITZ SOLUTIONS Automation Cyber security ",
+   "lead": "Skip to main content en English Deutsch Site directory Newsroom Menu Search en English Deutsch Site directory Newsroom Menu Search Annual Report 2025 published Turning progress into industrial impact. FOR GROWTH THAT MATTERS. Discover more ANDRITZ GROUP ANDRITZ GROUP Newsroom Careers Sustainability OUR BUSINESS AREAS PULP & PAPER METALS HYDROPOWER ENVIRONMENT & ENERGY MORE ANDRITZ SOLUTIONS Automation Cyber security ",
    "eksik": [
     "ulke",
     "tarih?"
@@ -81,108 +54,29 @@
    "puan": 54.6
   },
   {
-   "tarih": "2026-10-16",
-   "firma": "Tata Steel",
+   "tarih": "2026-10-27",
+   "firma": "BC Jindal Group",
    "ulke": "Hindistan",
-   "hat": "Surekli tavlama (CAL)",
-   "asama": "Ilk urun",
-   "tedarikci": "",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "Tata Steel commissions ₹9,067 crore facilities at Kalinganagar plant",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgq_urun02",
-   "url": "https://www.business-standard.com/industry/news/tata-steel-commissions-9-067-crore-facilities-at-kalinganagar-plant-126101601179_1.html",
-   "tarih_kaynagi": "rss",
-   "lead": "The new facilities include galvanising and annealing lines, a slurry pipeline and an air separation unit, while the NINL expansion aims to boost steelmaking capacity in Odisha.",
-   "eksik": [],
-   "anahtar": "2f18a1bfdf4a07d4",
-   "kategori": "Hat",
-   "olaylar": [
-    "*|ulke-hat|Hindistan|Surekli tavlama (CAL)|Ilk urun",
-    "tata steel|fu|Hindistan|Surekli tavlama (CAL)",
-    "tata steel|hat|Surekli tavlama (CAL)|Ilk urun",
-    "tata steel|ulke|Hindistan|Ilk urun"
-   ],
-   "puan": 49.2
-  },
-  {
-   "tarih": "2026-10-16",
-   "firma": "Xuanli Steel",
-   "ulke": "Cin",
-   "hat": "Dilme / boy kesme / SSC",
-   "asama": "Sozlesme",
-   "tedarikci": "SMS group",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "China's Xuanli Steel orders SMS equipment for 2 million mt plate mill",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgq_sup00",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/chinas-xuanli-steel-orders-sms-equipment-for-2-million-mt-plate-mill-1484146.htm",
-   "tarih_kaynagi": "rss",
-   "lead": "Germany-based plantmaker SMS group has announced that China's Anhui Xuanli Steel has awarded it a contract to supply a five-meter plate finishing stand, trimming shear and slitting shear for its new ...",
-   "eksik": [],
-   "anahtar": "74e2fe7760f15126",
-   "kategori": "Hat",
-   "olaylar": [
-    "sms group|fu|Cin|Dilme / boy kesme / SSC",
-    "sms group|hat|Dilme / boy kesme / SSC|Sozlesme",
-    "sms group|ulke|Cin|Sozlesme",
-    "xuanli steel|fu|Cin|Dilme / boy kesme / SSC",
-    "xuanli steel|hat|Dilme / boy kesme / SSC|Sozlesme",
-    "xuanli steel|ulke|Cin|Sozlesme"
-   ],
-   "puan": 48.2
-  },
-  {
-   "tarih": "2026-10-26",
-   "firma": "Red Bud Industries",
-   "ulke": "ABD",
-   "hat": "Dilme / boy kesme / SSC",
-   "asama": "Sozlesme",
-   "tedarikci": "",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "Red Bud Industries Installs Cut-to-Length Line at McNeilus Steel’s Tennessee Facility",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgq_hat10",
-   "url": "https://themachinemaker.com/news/red-bud-industries-installs-cut-to-length-line-at-mcneilus-steels-tennessee-facility/",
-   "tarih_kaynagi": "rss",
-   "lead": "Red Bud Industries has installed a heavy-gauge cut-to-length line equipped with a T3 stretcher leveler at McNeilus Steel Inc.’s facility in Morrison, Tennessee, USA. The new system is designed to ...",
-   "eksik": [],
-   "anahtar": "0b386546c836c574",
-   "kategori": "Hat",
-   "olaylar": [
-    "red bud industries|fu|ABD|Dilme / boy kesme / SSC",
-    "red bud industries|hat|Dilme / boy kesme / SSC|Sozlesme",
-    "red bud industries|ulke|ABD|Sozlesme"
-   ],
-   "puan": 46.2
-  },
-  {
-   "tarih": "2026-10-13",
-   "firma": "Fives",
-   "ulke": "",
    "hat": "Galvaniz hatti (CGL)",
    "asama": "Modernizasyon",
-   "tedarikci": "Fives",
-   "kapasite": "",
+   "tedarikci": "",
+   "kapasite": "1.6 MTPA",
    "tutar": "",
-   "baslik": "Fives upgrades Hyundai Steel's galvanising line",
+   "baslik": "BC Jindal Group’s Jindal (India) Limited Achieves 1.6 MTPA Downstream Steel Capacity with Successful CGL-5 Revamp",
    "kaynak": "Bing News",
-   "kaynak_id": "bgq_sup06",
-   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/fives-upgrades-hyundai-steels-galvanising-line-0926/",
+   "kaynak_id": "bgx_bigmint_q",
+   "url": "https://newspatrolling.com/bc-jindal-groups-jindal-india-limited-achieves-1-6-mtpa-downstream-steel-capacity-with-successful-cgl-5-revamp/",
    "tarih_kaynagi": "rss",
-   "lead": "",
-   "eksik": [
-    "ulke"
-   ],
-   "anahtar": "0974a592e27b2b6f",
+   "lead": "Revamped CGL-5 line at Ranihati increases production capacity by over 50%, from 590 TPD to 889 TPD Bengaluru, 27th October 2026: Jindal (India) Limited, part of the BC Jindal Group and one of the ...",
+   "eksik": [],
+   "anahtar": "cc4db9bd733fdee7",
    "kategori": "Hat",
    "olaylar": [
-    "fives|hat|Galvaniz hatti (CGL)|Modernizasyon"
+    "bc jindal group|fu|Hindistan|Galvaniz hatti (CGL)",
+    "bc jindal group|hat|Galvaniz hatti (CGL)|Modernizasyon",
+    "bc jindal group|ulke|Hindistan|Modernizasyon"
    ],
-   "puan": 42.0
+   "puan": 48.6
   },
   {
    "tarih": "2026-10-22",
@@ -195,7 +89,7 @@
    "tutar": "$3 Billion",
    "baslik": "Nippon Steel Raises US Mill Upgrade to $3 Billion as Costs Climb",
    "kaynak": "Bing News",
-   "kaynak_id": "bgq_hat00",
+   "kaynak_id": "bgq_hat01",
    "url": "https://www.bloomberg.com/news/articles/2026-10-23/nippon-steel-raises-us-mill-upgrade-to-3-billion-as-costs-climb",
    "tarih_kaynagi": "rss",
    "lead": "Nippon Steel Corp. will spend $3 billion building a hot-strip mill in Pennsylvania, part of its $11 billion investment plan in newly-acquired US Steel.",
@@ -252,7 +146,7 @@
    "tutar": "€300 million",
    "baslik": "ArcelorMittal commits €300 million to Dunkirk steel project, targets spring 2027 tests for new line in Mardyck",
    "kaynak": "Bing News",
-   "kaynak_id": "bgq_hat00",
+   "kaynak_id": "bgs_orbis2",
    "url": "https://www.steelorbis.com/steel-news/latest-news/arcelormittal-advances-dunkirk-eaf-and-mardyck-electrical-steel-projects-1483903.htm",
    "tarih_kaynagi": "rss",
    "lead": "ArcelorMittal has announced progress on its €1.3 billion low-carbon steelmaking project at Dunkirk and €500 million electrical steel expansion at Mardyck, France, supporting emissions reductions ...",
@@ -272,14 +166,14 @@
  "stats": {
   "kaynak": 291,
   "erisilemeyen": 11,
-  "ham": 3630,
-  "on_eleme_gecti": 354,
-  "makale_acildi": 202,
-  "tarihsiz_elendi": 77,
-  "pencere_disi": 266,
-  "kapsam_disi": 3233,
-  "tekrar": 44,
-  "kabul": 10,
+  "ham": 3314,
+  "on_eleme_gecti": 313,
+  "makale_acildi": 201,
+  "tarihsiz_elendi": 103,
+  "pencere_disi": 255,
+  "kapsam_disi": 2925,
+  "tekrar": 25,
+  "kabul": 6,
   "gnews_tarih": 0
  },
  "unreachable": [
@@ -667,18 +561,17 @@
  "kaynak_katki": {
   "Andritz Metals": 1,
   "Google News": 2,
-  "Elle besleme": 1,
-  "Bing News": 6
+  "Bing News": 3
  },
  "window": [
   "2026-10-12",
   "2026-11-02"
  ],
  "bulunan_kullanilan": 0,
- "bulunan_havuz": 14,
+ "bulunan_havuz": 16,
  "rezerv_kullanilan": 0,
  "rezerv_havuz": 32,
  "period": "2026-W45",
- "generated": "2026-11-02 13:03 UTC",
+ "generated": "2026-11-02 13:34 UTC",
  "version": "3.0.0"
 }
