@@ -56,36 +56,60 @@ def _ozet(metin, yol):
             "sitemaps": re.findall(r"(?im)^sitemap:\s*(\S+)", m)[:6] if "robots" in yol else []}
 
 
+def _al(url):
+    """Tek deneme, kisa zaman asimi, yeniden deneme YOK (yoklama hizli olmali)."""
+    import urllib.request, urllib.error
+    try:
+        req = urllib.request.Request(url, headers=http.HEADERS)
+        with urllib.request.urlopen(req, timeout=12, context=http._ctx) as r:
+            raw = r.read(3_000_000)
+            raw = http._decompress(raw, (r.headers.get("Content-Encoding") or "").lower())
+            return True, raw.decode("utf-8", "replace"), {"final": r.geturl()}
+    except urllib.error.HTTPError as e:
+        return False, "", {"hata": "HTTP %s" % e.code}
+    except Exception as e:
+        return False, "", {"hata": type(e).__name__}
+
+
+def _alan(kok):
+    bulunan, kapali = [], 0
+    ok, _, info = _al(kok + "/")
+    ana = "acik" if ok else info.get("hata")
+    for y in YOLLAR:
+        ok, metin, info = _al(kok + y)
+        if not ok:
+            if info.get("hata") in ("HTTP 403", "HTTP 429"):
+                kapali += 1
+                if kapali >= 6:          # tum alan kapali: bosuna istek atma
+                    break
+            continue
+        oz = _ozet(metin, y)
+        if oz["tur"]:
+            oz["adres"] = info.get("final") or kok + y
+            bulunan.append(oz)
+    for b in [b for b in bulunan if b["tur"] == "robots"]:
+        for sm in b["sitemaps"][:3]:
+            ok, metin, info = _al(sm)
+            if ok:
+                oz = _ozet(metin, sm)
+                if oz["tur"]:
+                    oz["adres"] = sm
+                    bulunan.append(oz)
+    return urlparse(kok).netloc, {"ana_sayfa": ana,
+                                  "kapilar": [b for b in bulunan if b["tur"] != "robots"]}
+
+
 def yokla(log=print):
+    from concurrent.futures import ThreadPoolExecutor
     sonuc = {}
-    for kok in ALANLAR:
-        bulunan = []
-        for y in YOLLAR:
-            ok, metin, info = http.fetch(kok + y, use_cache=False)
-            if not ok:
-                continue
-            oz = _ozet(metin, y)
-            if oz["tur"]:
-                oz["adres"] = info.get("final") or kok + y
-                bulunan.append(oz)
-        # robots'taki sitemap'ler de bir kez denenir
-        for b in [b for b in bulunan if b["tur"] == "robots"]:
-            for sm in b["sitemaps"][:3]:
-                ok, metin, info = http.fetch(sm, use_cache=False)
-                if ok:
-                    oz = _ozet(metin, sm)
-                    if oz["tur"]:
-                        oz["adres"] = sm
-                        bulunan.append(oz)
-        # ana sayfa ve bir makale denemesi: koruma var mi
-        ok, _, info = http.fetch(kok + "/", use_cache=False)
-        sonuc[urlparse(kok).netloc] = {"ana_sayfa": "acik" if ok else info.get("hata"),
-                                       "kapilar": [b for b in bulunan if b["tur"] != "robots"]}
-        k = sonuc[urlparse(kok).netloc]
-        log("%-34s ana:%-10s %s" % (urlparse(kok).netloc, str(k["ana_sayfa"])[:10],
-            ", ".join("%s(%s %s)" % (b["tur"], b["oge"] or b["url"], b["en_yeni"])
-                      for b in k["kapilar"][:4]) or "-"))
     os.makedirs("out", exist_ok=True)
-    with open("out/yoklama.json", "w", encoding="utf-8") as f:
-        json.dump(sonuc, f, ensure_ascii=False, indent=1)
+    with ThreadPoolExecutor(max_workers=10) as ex:
+        for ad, k in ex.map(_alan, ALANLAR):
+            sonuc[ad] = k
+            log("%-34s ana:%-10s %s" % (ad, str(k["ana_sayfa"])[:10],
+                ", ".join("%s(%s %s) %s" % (b["tur"], b["oge"] or b["url"], b["en_yeni"],
+                                             b["adres"][-45:]) for b in k["kapilar"][:4]) or "-"),
+                flush=True)
+            with open("out/yoklama.json", "w", encoding="utf-8") as f:
+                json.dump(sonuc, f, ensure_ascii=False, indent=1)
     return sonuc

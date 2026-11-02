@@ -11,7 +11,7 @@ permissions:
 jobs:
   yokla:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 25
     env:
       RADAR_PAUSE: "0.3"
     steps:
@@ -21,8 +21,9 @@ jobs:
           python-version: "3.11"
       - name: Yokla
         run: |
-          { echo '### Kaynak yoklamasi'; echo '```'; python -m radar yoklama; echo '```'; } 2>&1 | tee -a $GITHUB_STEP_SUMMARY
+          { echo '### Kaynak yoklamasi'; echo '```'; python -u -m radar yoklama; echo '```'; } 2>&1 | tee -a $GITHUB_STEP_SUMMARY
       - name: Sonucu isle
+        if: always()
         run: |
           git config user.name  "sogukradar-bot"
           git config user.email "bot@users.noreply.github.com"
