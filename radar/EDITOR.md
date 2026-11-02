@@ -312,6 +312,43 @@ farklı başlık vardı, W34'te gönderilen "tk accelis" satırı düşmüştü 
 haberin Yieh varyantı ile W35'te giden KG Steel/Primetals olayının STI
 varyantı rezervden listeye girdi.
 
+## 4l. Otomatik hat — Claude Pro'ya bağlı değil (2026-11-02)
+
+**Neden:** Editör adımı Claude Code rutinlerine bağlıydı; rutinler 21-23 Eylül'den
+beri ateşlenmedi, kırmızı birim testi de taramayı durdurdu → bülten 5 hafta gitmedi.
+Kullanıcı talebi: "claude proya bağlı kalmadan halledebilmeni istiyorum".
+
+**Hat (`.github/workflows/otomatik.yml`, Pazartesi 05:41 UTC):**
+testler → `radar run --commit-state` → `radar otomatik` (yazar + satır süzgeci +
+kalite kapısı) → posta → `radar isaretle` (YALNIZ posta başarılıysa hafızaya yazar).
+
+**İki katmanlı yazar (`radar/yazar.py`):**
+1. Kuralsal (her zaman): `compose.py`, doğrulanmış alanlardan Türkçe cümle kurar. Uydurma riski yok.
+2. LLM (varsa, sadece iyileştirir): `radar/llm.py` sağlayıcıları — `ANTHROPIC_API_KEY` (ücretli, Pro'dan AYRI),
+   `GEMINI_API_KEY` (AI Studio, ücretsiz), GitHub Models (anahtarsız, `models: read` izni + `GITHUB_TOKEN`).
+   Her LLM cümlesi `cumle_dogrula` ile kaynağa karşı denetlenir: kaynakta olmayan sayı/özel ad,
+   İngilizce yanıt, "ilk üretim/devreye aldı" iddiası (aşama alanı Ilk urun/Seri uretim değilse) → RED,
+   kuralsal cümle kalır. LLM satır YARATAMAZ; yalnız kapsam dışı satırı ÇIKARABİLİR (üst sınır %40).
+   LLM HTTP çağrıları geliştirme oturumundan denenemez → `radar llm-test` Actions'ta, sonuç iş akışı özetinde.
+
+**Kalite kapısı (`cli._satir_suzgeci` + `_kalite_kapisi`):** kusurlu satır tek tek ÇIKARILIR
+(adres yok, tarih geçersiz/gelecek/>100 gün, güncel kapıyı geçmiyor, daha önce gönderilmiş,
+gönderilmiş olayın tekrarı, aynı olay kümesi); bülten şu hâllerde HİÇ gitmez: dönem uyuşmuyor,
+ham sonuç <500, kaynakların >%40'ı erişilemedi, <2 satır, testler kırmızı. Durdurunca `MAIL_USER`'a
+nedenini yazan uyarı postası gider.
+
+**Deneme / gerçek (kullanıcı kuralı):** `radar otomatik --deneme` hafızaya (`state`) HİÇ yazmaz ve
+`out/email.html`'e dokunmaz — denemede görülen haber sonra yine kullanılabilir. Elle çalıştırmada varsayılan
+DENEME, zamanlanmış koşu GERÇEK. Gerçekte de hafıza yalnız `isaretle` ile, SMTP başarısından SONRA yazılır;
+`state.gonderilen_donemler` dönemi kaydeder. Gönderilen haber bir daha kullanılmaz.
+
+**Çift posta koruması:** `gonder.yml` (editör ONAY yolu) dönem `gonderilen_donemler`deyse göndermez.
+`weekly.yml` zamanlaması kaldırıldı (aynı taramayı otomatik.yml yapıyor); yalnız elle editör yolu için duruyor.
+**Sessizlik bekçisi:** `radar nobet` (gunluk.yml) son gönderimden >14 gün geçtiyse Çarşamba günleri uyarı yollar.
+
+**Bilinen sınır:** kuralsal modda Yatırım satırları özgün (çoğu İngilizce) başlıkla görünür; Belirsiz-hat
+satırlar ancak LLM kapsam süzgeciyle ayıklanır.
+
 ## 4e. Otonomi: sistem sensiz çalışır
 
 ```
