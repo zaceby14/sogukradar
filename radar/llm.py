@@ -29,6 +29,7 @@ import json
 import os
 import re
 import urllib.error
+import urllib.parse
 import urllib.request
 
 TIMEOUT = int(os.environ.get("RADAR_LLM_TIMEOUT", "90"))
@@ -57,23 +58,42 @@ def saglayicilar():
     return tum
 
 
+class _YonlendirmeYok(urllib.request.HTTPRedirectHandler):
+    """urllib 301/302'de POST'u sessizce GET'e cevirir ve govdeyi atar; sunucu
+    da 'OK' gibi alakasiz bir 200 doner (2026-11-02, GitHub Models denemesi:
+    HTTP 200, govde 'OK'). Yonlendirmeyi KENDIMIZ, POST olarak izleriz."""
+
+    def redirect_request(self, *a, **k):
+        return None
+
+
+_ACIK = urllib.request.build_opener(_YonlendirmeYok)
+
+
 def _post(url, basliklar, govde):
-    """(durum, metin). Ag hatasi durum=0 ile doner, istisna firlatmaz."""
+    """(durum, metin). Ag hatasi durum=0 ile doner, istisna firlatmaz.
+    3xx yonlendirmesi POST olarak (en cok 3 kez) izlenir."""
     veri = json.dumps(govde).encode("utf-8")
-    istek = urllib.request.Request(url, data=veri, method="POST",
-                                   headers=dict(basliklar,
-                                                **{"Content-Type": "application/json"}))
-    try:
-        with urllib.request.urlopen(istek, timeout=TIMEOUT) as r:
-            return r.status, r.read().decode("utf-8", "replace")
-    except urllib.error.HTTPError as e:
+    hedef = url
+    for _ in range(4):
+        istek = urllib.request.Request(hedef, data=veri, method="POST",
+                                       headers=dict(basliklar,
+                                                    **{"Content-Type": "application/json"}))
         try:
-            ek = e.read().decode("utf-8", "replace")[:300]
-        except Exception:
-            ek = ""
-        return e.code, ek
-    except Exception as e:                              # ag/zaman asimi/TLS
-        return 0, "%s: %s" % (type(e).__name__, str(e)[:160])
+            with _ACIK.open(istek, timeout=TIMEOUT) as r:
+                return r.status, r.read().decode("utf-8", "replace")
+        except urllib.error.HTTPError as e:
+            if e.code in (301, 302, 303, 307, 308) and e.headers.get("Location"):
+                hedef = urllib.parse.urljoin(hedef, e.headers["Location"])
+                continue
+            try:
+                ek = e.read().decode("utf-8", "replace")[:300]
+            except Exception:
+                ek = ""
+            return e.code, ek
+        except Exception as e:                          # ag/zaman asimi/TLS
+            return 0, "%s: %s" % (type(e).__name__, str(e)[:160])
+    return 0, "cok fazla yonlendirme"
 
 
 def _anthropic(sistem, kullanici):

@@ -1716,6 +1716,46 @@ def test_w45_fiyat_panosu_ulke_kirletmez():
        "gercek hat teknolojisi kosede kalir")
 
 
+def test_llm_post_yonlendirmeyi_post_olarak_izler():
+    """2026-11-02: GitHub Models HTTP 200 + govde 'OK' dondu. urllib 301/302'de
+    POST'u GET'e cevirir; yonlendirme artik POST olarak izlenir."""
+    import http.server, threading
+    from . import llm
+    alinan = []
+
+    class H(http.server.BaseHTTPRequestHandler):
+        def log_message(self, *a):
+            pass
+
+        def do_GET(self):
+            alinan.append(("GET", self.path))
+            self.send_response(200); self.end_headers(); self.wfile.write(b"OK\r\n")
+
+        def do_POST(self):
+            n = int(self.headers.get("Content-Length") or 0)
+            govde = self.rfile.read(n)
+            alinan.append(("POST", self.path, govde))
+            if self.path == "/a":
+                self.send_response(302)
+                self.send_header("Location", "/b")
+                self.end_headers()
+            else:
+                self.send_response(200); self.end_headers()
+                self.wfile.write(b'{"durum": "tamam"}')
+
+    sv = http.server.HTTPServer(("127.0.0.1", 0), H)
+    th = threading.Thread(target=sv.serve_forever, daemon=True)
+    th.start()
+    try:
+        port = sv.server_address[1]
+        d, m = llm._post("http://127.0.0.1:%d/a" % port, {}, {"x": 1})
+        eq((d, m), (200, '{"durum": "tamam"}'), "302 sonrasi POST govdesi korunarak izlendi")
+        eq([a[0] for a in alinan], ["POST", "POST"], "yonlendirme GET'e donusmedi")
+        eq(alinan[1][2], b'{"x": 1}', "govde ikinci istekte de gitti")
+    finally:
+        sv.shutdown()
+
+
 def test_w40_editorsuz_cop_kumeleme():
     """2026-11-02: editorsuz cikan ilk bulten (2026-W40) 14 satirdi, yarisi cop.
 
@@ -3226,6 +3266,7 @@ def run():
                test_v20_indiana_hindistan_degil,
                test_w40_editorsuz_cop_kumeleme,
                test_yazar_dogrulayici_ve_llm_yedegi,
+               test_llm_post_yonlendirmeyi_post_olarak_izler,
                test_w45_fiyat_panosu_ulke_kirletmez,
                test_otomatik_hat_deneme_hafizaya_yazmaz,
                test_w36_girisim_turu_hat_haberi_degil,
