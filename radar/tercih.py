@@ -131,10 +131,74 @@ def imap_oku(kullanici, sifre, gun=45, log=print):
     return oylar
 
 
-def mailto(adres, madde, isaret):
+def mailto(adres, madde, isaret):  # eski kanal (kapali)
     from urllib.parse import quote
     k = kod(madde.get("anahtar"))
     konu = "SR%s %s" % (isaret, k)
     govde = ("Bu e-postayi oldugu gibi gonderin; sistem tercihinizi ogrenecek.\n\nMadde: %s"
              % (madde.get("baslik") or madde.get("konu") or "")[:120])
     return "mailto:%s?subject=%s&body=%s" % (adres, quote(konu), quote(govde))
+
+
+# ----------------------------------------------------------------------
+# GOOGLE FORM KANALI (2026-11-03): mailto posta programini aciyordu.
+# Oy baglantisi formResponse adresine GET'tir: tiklayinca tarayicida yalniz
+# Google'in "Yanitiniz kaydedildi" sayfasi acilir. Yanitlar formun bagli
+# tablosundan (Web'de yayinla -> CSV) okunur. Form kimligi bilinmeyen kimse
+# icin anlamsizdir; entry kimligi formun sayfasindan calisma aninda bulunur.
+# ----------------------------------------------------------------------
+FORM_ID = os.environ.get("RADAR_FORM_ID", "1FAIpQLScpiVNw2tsnceyk-rImYOrZaKTDlW3egy0UxbbCz-i5afcDTw")
+FORM_CSV = os.environ.get("RADAR_FORM_CSV", "")
+KOD_BASINA_OY_SINIRI = 3          # form kimin tikladigini bilmez: tekrar tiklamaya sinir
+
+
+def form_entry(fetch=None):
+    """Formun ilk sorusunun entry kimligi (FB_PUBLIC_LOAD_DATA_ icinden)."""
+    from . import http
+    ok, page, _ = (fetch or http.fetch)(
+        "https://docs.google.com/forms/d/e/%s/viewform" % FORM_ID)
+    if not ok:
+        return ""
+    m = re.search(r"FB_PUBLIC_LOAD_DATA_\s*=\s*(.*?);\s*</script>", page, re.S)
+    if not m:
+        return ""
+    n = re.search(r"\[\[(\d{6,}),null,", m.group(1))
+    return n.group(1) if n else ""
+
+
+def form_link(entry, madde, isaret):
+    from urllib.parse import quote
+    deger = "SR%s %s" % (isaret, kod(madde.get("anahtar")))
+    return ("https://docs.google.com/forms/d/e/%s/formResponse?entry.%s=%s&submit=Submit"
+            % (FORM_ID, entry, quote(deger)))
+
+
+def form_oku(csv_url, fetch=None):
+    """Yayinlanmis yanit tablosu (CSV) -> [(isaret, kod, zaman)]."""
+    import csv, io
+    from . import http
+    ok, metin, _ = (fetch or http.fetch)(csv_url, use_cache=False) if fetch is None else fetch(csv_url)
+    if not ok:
+        return []
+    oylar = []
+    for satir in csv.reader(io.StringIO(metin)):
+        if len(satir) < 2:
+            continue
+        for isaret, k in _KOD.findall(" ".join(satir[1:])):
+            oylar.append((isaret, k.lower(), "form:" + satir[0]))
+    return oylar
+
+
+def uygula_form(st, oylar):
+    """Form oylari: zaman damgasi kimlik yerine; kod basina en fazla N oy sayilir."""
+    sayac = st.setdefault("gb_form_sayac", {})
+    secili = []
+    for isaret, k, kimlik in oylar:
+        anahtar = k + isaret
+        if (k + "|" + kimlik) in (st.get("gb_oy") or {}):
+            continue
+        if sayac.get(anahtar, 0) >= KOD_BASINA_OY_SINIRI:
+            continue
+        sayac[anahtar] = sayac.get(anahtar, 0) + 1
+        secili.append((isaret, k, kimlik))
+    return uygula(st, secili)

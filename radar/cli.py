@@ -957,6 +957,12 @@ def cmd_otomatik(a):
     payload["piyasa_adaylari"] = _piyasa.sirala(
         _piyasa.havuz_guncelle(_st_kopya, payload.get("piyasa_pool") or [], bugun), bugun, st)
     payload["tercih_ozeti"] = _tercih.ozet_metni(st)
+    # Oy baglantilari yalniz form ve yanit tablosu HAZIRSA basilir.
+    if _tercih.FORM_CSV and os.environ.get("RADAR_BAGLANTI", "1") != "0":
+        _e = _tercih.form_entry()
+        if _e:
+            os.environ["RADAR_FORM_ENTRY"] = _e
+        print("oy formu: %s" % ("hazir (entry.%s)" % _e if _e else "entry bulunamadi - oy baglantisi yok"))
     doc = yazar.ozet_hazirla(payload)
     rapor = doc.pop("_rapor", {})
     # CINCE/JAPONCA BASLIKLI SATIR yalniz DOGRULANMIS Turkce cumleyle girer
@@ -1047,17 +1053,14 @@ def cmd_isaretle(a):
 def cmd_geri_bildirim(a):
     """Gonderen Gmail kutusundan SR+/SR- oylarini okur ve tercih agirliklarini gunceller."""
     from . import tercih
-    u, p = os.environ.get("MAIL_USER"), os.environ.get("MAIL_PASS")
-    if not (u and p):
-        print("geri bildirim: MAIL_USER/MAIL_PASS yok, atlandi")
-        return 0
-    try:
-        oylar = tercih.imap_oku(u, p)
-    except Exception as e:
-        print("geri bildirim okunamadi (IMAP): %s: %s" % (type(e).__name__, str(e)[:120]))
-        return 0
     st = state.load()
-    n = tercih.uygula(st, oylar)
+    n = 0
+    if tercih.FORM_CSV:
+        oylar = tercih.form_oku(tercih.FORM_CSV)
+        print("geri bildirim (form): %d satir oy okundu" % len(oylar))
+        n += tercih.uygula_form(st, oylar)
+    else:
+        print("geri bildirim: form yanit tablosu (RADAR_FORM_CSV) tanimli degil")
     state.save(st)
     w = st.get("tercih") or {}
     print("geri bildirim: %d yeni oy islendi; en guclu tercihler: %s" % (n, ", ".join(

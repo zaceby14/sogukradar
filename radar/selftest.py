@@ -2051,19 +2051,37 @@ def test_piyasa_gundemi_ve_geri_bildirim():
             else:
                 os.environ[k] = v
     # --- posta: piyasa bolumu ve oy baglantilari
-    eski_a = os.environ.get("RADAR_GERI_ADRES")
+    eski_a = os.environ.get("RADAR_FORM_ENTRY")
     try:
-        os.environ["RADAR_GERI_ADRES"] = "bulten@example.com"
         pl = {"rows": payload["rows"], "stats": {"kaynak": 1}, "window": [g(21), g(0)], "period": "x"}
+        os.environ.pop("RADAR_FORM_ENTRY", None)
+        html_ = render.email_html(pl, {"piyasa": oz["piyasa"], "cumleler": {}, "exec": "e"}, [], 1)
+        eq("Faydalı" in html_ or "mailto:" in html_, False, "form hazir degilse oy baglantisi YOK (mailto hic yok)")
+        os.environ["RADAR_FORM_ENTRY"] = "123456789"
         html_ = render.email_html(pl, {"piyasa": oz["piyasa"], "cumleler": {}, "exec": "e"}, [], 1)
         eq("Piyasa Gündemi" in html_, True, "piyasa bolumu var")
-        eq(("mailto:bulten@example.com?subject=SR%2B%20" + k1) in html_, True, "haber satirinda Faydali baglantisi")
-        eq("SR-%20" in html_, True, "Ilgisiz baglantisi")
+        eq(("formResponse?entry.123456789=SR%2B%20" + k1) in html_, True, "haber satirinda Faydali form baglantisi")
+        eq("=SR-%20" in html_, True, "Ilgisiz form baglantisi")
+        eq("mailto:" in html_, False, "posta programi acan baglanti yok")
     finally:
         if eski_a is None:
-            os.environ.pop("RADAR_GERI_ADRES", None)
+            os.environ.pop("RADAR_FORM_ENTRY", None)
         else:
-            os.environ["RADAR_GERI_ADRES"] = eski_a
+            os.environ["RADAR_FORM_ENTRY"] = eski_a
+    # --- form: entry kesfi ve yanit tablosu
+    sayfa = ('<script>var FB_PUBLIC_LOAD_DATA_ = [null,["SogukRadar Oy",[[987654,"oy",null,0,'
+             '[[1122334455,null,0]]]]]];</script>')
+    eq(tercih.form_entry(fetch=lambda u, *a, **k: (True, sayfa, {})), "1122334455", "entry kimligi sayfadan bulunur")
+    csv_ = ("Zaman damgasi,oy\n03.11.2026 10:00:01,SR+ %s\n03.11.2026 10:00:05,SR+ %s\n"
+            "03.11.2026 10:01:00,SR+ %s\n03.11.2026 10:02:00,SR+ %s\n03.11.2026 10:03:00,SR+ %s\n"
+            "03.11.2026 10:04:00,SR- %s\n" % (k1, k1, k1, k1, k1, k2))
+    oylar = tercih.form_oku("u", fetch=lambda u, *a, **k: (True, csv_, {}))
+    eq(len(oylar), 6, "CSV'den 6 oy")
+    st2 = {}
+    tercih.kaydet_gonderilen(st2, [(r1, "haber"), (r2, "haber")])
+    eq(tercih.uygula_form(st2, oylar), tercih.KOD_BASINA_OY_SINIRI + 1,
+       "ayni maddeye 5 tiklama: en fazla 3 sayilir (+1 ilgisiz)")
+    eq(tercih.uygula_form(st2, oylar), 0, "ayni yanitlar ikinci okumada tekrar sayilmaz")
 
 
 def test_dogrulayici_ulke_kaynakta_olmali():

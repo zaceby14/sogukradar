@@ -265,13 +265,14 @@ def _oy(madde):
     """Faydali/Ilgisiz mailto baglantilari (RADAR_GERI_ADRES tanimliysa)."""
     import os
     from . import tercih
-    adres = os.environ.get("RADAR_GERI_ADRES") or ""
-    if not adres or not madde.get("anahtar"):
+    entry = os.environ.get("RADAR_FORM_ENTRY") or ""
+    if not entry or not madde.get("anahtar"):
         return ""
     return ('<span style="white-space:nowrap;font-size:11px;"> &nbsp;'
             '<a href="%s" style="color:#2e7d32;text-decoration:none;">&#128077; Faydalı</a>'
             ' &nbsp;<a href="%s" style="color:#9a3b3b;text-decoration:none;">&#128078; İlgisiz</a>'
-            '</span>' % (_e(tercih.mailto(adres, madde, "+")), _e(tercih.mailto(adres, madde, "-"))))
+            '</span>' % (_e(tercih.form_link(entry, madde, "+")),
+                         _e(tercih.form_link(entry, madde, "-"))))
 
 
 def email_html(payload, ozet=None, tech_items=None, sayi=1):
@@ -408,10 +409,10 @@ def email_html(payload, ozet=None, tech_items=None, sayi=1):
                         _e(m.get("metin") or m.get("baslik", "")), _e(m.get("url", "")), _oy(m)))
         h.append('</table></td></tr>')
 
-    if os.environ.get("RADAR_GERI_ADRES"):
+    if os.environ.get("RADAR_FORM_ENTRY"):
         h.append('<tr><td style="padding:10px 28px 0;font-size:11px;color:#6b7480;">'
-                 'Her maddenin yanındaki <b>Faydalı / İlgisiz</b> bağlantısı hazır bir e-posta '
-                 'açar; göndermeniz yeterli. Sistem bu oylarla hangi haberlerin daha değerli '
+                 'Her maddenin yanındaki <b>Faydalı / İlgisiz</b> bağlantısına tek tıklamanız '
+                 'yeterli (tarayıcıda "yanıtınız kaydedildi" sayfası açılır). Sistem bu oylarla hangi haberlerin daha değerli '
                  'olduğunu öğrenir ve sonraki bültenlerde onlara öncelik verir.</td></tr>')
 
     # AI KONTROLU VE EKLEMELERI - KALICI bolum (2026-08-17).
