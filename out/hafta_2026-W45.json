@@ -104,6 +104,33 @@
    "url": "https://www.steelradar.com/en/haber/flux-steel-works-to-build-goes-production-facility-in-ohio/"
   },
   {
+   "tarih": "2026-10-12",
+   "firma": "Tata Steel Colors",
+   "ulke": "Hindistan",
+   "hat": "Boyama hatti (CCL)",
+   "asama": "Belirsiz",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "Tata Steel Colors launches Colorcoat pre-painted steel in India",
+   "kaynak": "Manufacturing Today India",
+   "kaynak_id": "gq_hat06",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQNnFIZU9NZWN0ejJBbWllanlhYXpYaGI0TExkQl9waTVXbFNEMGNUOWk1dnhFa1d0LUtCTlRxd1U4M3VkNVBHMVpuRGg3UzJXWEczeGlNUFd2OE5ES0lNUXdHQk51d2sxdmxkeWlWSkJNZkZGOUN4R2NaaHFPYVU?oc=5",
+   "tarih_kaynagi": "rss",
+   "lead": "Tata Steel Colors launches Colorcoat pre-painted steel in India &nbsp;&nbsp; Manufacturing Today India",
+   "eksik": [
+    "asama"
+   ],
+   "anahtar": "a9d0c1485ce1a321",
+   "kategori": "Hat",
+   "olaylar": [
+    "tata steel colors|fu|Hindistan|Boyama hatti (CCL)",
+    "tata steel colors|hat|Boyama hatti (CCL)|Belirsiz",
+    "tata steel colors|ulke|Hindistan|Belirsiz"
+   ],
+   "rezerv": true
+  },
+  {
    "anahtar": "aac00b6a794a93b5",
    "asama": "Sozlesme",
    "baslik": "IMS expands its portfolio with force transducers for precise force measurement under demanding conditions in hot and cold rolling mills",
@@ -127,41 +154,17 @@
    "tutar": "",
    "ulke": "",
    "url": "https://www.ims-gmbh.de/en/2026/10/06/ims-expands-its-portfolio-with-force-transducers-forprecise-force-measurement-under-demandingconditions-in-hot-and-cold-rolling-mills/"
-  },
-  {
-   "anahtar": "dde7adab1615e8c7",
-   "asama": "Sozlesme",
-   "baslik": "Primetals secures PLTCM automation order",
-   "eksik": [],
-   "firma": "Primetals",
-   "hat": "Tandem soguk hadde (TCM)",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgs_sti",
-   "olaylar": [
-    "primetals|fu|Cin|Tandem soguk hadde (TCM)",
-    "primetals|hat|Tandem soguk hadde (TCM)|Sozlesme",
-    "primetals|ulke|Cin|Sozlesme"
-   ],
-   "rezerv": true,
-   "tarih": "2026-09-03",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "Primetals",
-   "tutar": "",
-   "ulke": "Cin",
-   "url": "https://www.steeltimesint.com/news/primetals-secures-pltcm-automation-order"
   }
  ],
  "stats": {
-  "kaynak": 293,
-  "erisilemeyen": 10,
-  "ham": 3874,
-  "on_eleme_gecti": 366,
-  "makale_acildi": 205,
+  "kaynak": 305,
+  "erisilemeyen": 11,
+  "ham": 3833,
+  "on_eleme_gecti": 384,
+  "makale_acildi": 203,
   "tarihsiz_elendi": 103,
-  "pencere_disi": 261,
-  "kapsam_disi": 3451,
+  "pencere_disi": 267,
+  "kapsam_disi": 3404,
   "tekrar": 56,
   "kabul": 3,
   "gnews_tarih": 0
@@ -172,6 +175,10 @@
    "HTTP 403"
   ],
   [
+   "Ebner Industrieofenbau",
+   "TimeoutError: The read operation timed out"
+  ],
+  [
    "Cognex",
    "HTTP 429"
   ],
@@ -180,16 +187,16 @@
    "HTTP 403"
   ],
   [
+   "thyssenkrupp Steel",
+   "TimeoutError: The read operation timed out"
+  ],
+  [
    "POSCO",
    "HTTP 502"
   ],
   [
    "Steel Radar",
    "HTTP 403"
-  ],
-  [
-   "SteelGuru",
-   "URLError: <urlopen error timed out>"
   ],
   [
    "BigMint (SteelMint)",
@@ -398,6 +405,12 @@
   "gtr_habas": "arama",
   "gtr_atakas": "arama",
   "gtr_borusan": "arama",
+  "gtek_cold": "arama",
+  "gtek_galv": "arama",
+  "gtek_anneal": "arama",
+  "gtek_insp": "arama",
+  "gtek_es": "arama",
+  "gtek_roll": "arama",
   "gtek_prime": "arama",
   "gtek_jc": "arama",
   "gtek_danieli": "arama",
@@ -499,19 +512,25 @@
   "bgtr_habas": "arama",
   "bgtr_atakas": "arama",
   "bgtr_borusan": "arama",
+  "bgtek_cold": "arama",
+  "bgtek_galv": "arama",
+  "bgtek_anneal": "arama",
+  "bgtek_insp": "arama",
+  "bgtek_es": "arama",
+  "bgtek_roll": "arama",
   "bgtek_prime": "arama",
   "bgtek_jc": "arama",
   "bgtek_danieli": "arama"
  },
- "today": "2026-11-02",
+ "today": "2026-11-03",
  "host_saglik": {
   "news.google.com": {
-   "istek": 112,
+   "istek": 118,
    "hiz_siniri": 0,
    "sogutmada": false
   },
   "www.bing.com": {
-   "istek": 101,
+   "istek": 107,
    "hiz_siniri": 0,
    "sogutmada": false
   },
@@ -523,12 +542,12 @@
   "new.abb.com": {
    "istek": 3,
    "hiz_siniri": 2,
-   "sogutmada": false
+   "sogutmada": true
   },
   "www.cognex.com": {
    "istek": 2,
    "hiz_siniri": 2,
-   "sogutmada": false
+   "sogutmada": true
   },
   "newsroom.posco.com": {
    "istek": 1,
@@ -541,14 +560,14 @@
   "Bing News": 3
  },
  "window": [
-  "2026-10-12",
-  "2026-11-02"
+  "2026-10-13",
+  "2026-11-03"
  ],
  "bulunan_kullanilan": 4,
  "bulunan_havuz": 6,
  "rezerv_kullanilan": 2,
- "rezerv_havuz": 29,
+ "rezerv_havuz": 32,
  "period": "2026-W45",
- "generated": "2026-11-02 19:31 UTC",
+ "generated": "2026-11-03 05:07 UTC",
  "version": "3.0.0"
 }

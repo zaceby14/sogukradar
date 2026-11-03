@@ -227,32 +227,6 @@
    "tutar": "",
    "ulke": "",
    "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNRjdQdkp3TTgyQXluR1JnM29pUmoyT3NoUDZBenBrZk81RVZwNHo5NEZsVmpLVlVYNlZobEJVT0RPWWZTNno3NmM2X2FRNUpMazlkUG9HQzhRMmI5SktOYnVfa3ZSbzc2QlBwazd2V3NmS09LbUlXVW9rY0x0QXhBUklaUnN3RGVRUHQzb0laeXU3Q0FtZHlFYWlpRU5YSlg2Q19UMDNFdHZRS0U0aDRpTUZpOHZQUk9vUUU2dW00akUtOU9KTVhnbldUY00zbW96dnBfX2VRaFFRTGs3Ymx2QWs5UVhzSFFpY1dWY2JqcjdMV2s?oc=5"
-  },
-  {
-   "anahtar": "6bb3535ceff2b463",
-   "asama": "Belirsiz",
-   "baslik": "Flux Steel Works to build GOES production facility in Ohio",
-   "eksik": [
-    "asama"
-   ],
-   "firma": "Flux Steel Works",
-   "hat": "Elektrik celigi hatti",
-   "kapasite": "",
-   "kategori": "Yatirim",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgx_sti_q",
-   "olaylar": [
-    "flux steel works|fu|ABD|Elektrik celigi hatti",
-    "flux steel works|hat|Elektrik celigi hatti|Belirsiz",
-    "flux steel works|ulke|ABD|Belirsiz"
-   ],
-   "puan": 5.6,
-   "tarih": "2026-09-18",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "ABD",
-   "url": "https://www.steelradar.com/en/haber/flux-steel-works-to-build-goes-production-facility-in-ohio/"
   }
  ],
  "events": {
@@ -1795,9 +1769,54 @@
     "tekrar": 56
    },
    "uretim": "2026-11-02 19:31 UTC"
+  },
+  {
+   "donem": "2026-W45",
+   "satir": 6,
+   "stats": {
+    "erisilemeyen": 11,
+    "gnews_tarih": 0,
+    "ham": 3833,
+    "kabul": 3,
+    "kapsam_disi": 3404,
+    "kaynak": 305,
+    "makale_acildi": 203,
+    "on_eleme_gecti": 384,
+    "pencere_disi": 267,
+    "tarihsiz_elendi": 103,
+    "tekrar": 56
+   },
+   "uretim": "2026-11-03 05:07 UTC"
   }
  ],
  "rezerv": [
+  {
+   "anahtar": "a9d0c1485ce1a321",
+   "asama": "Belirsiz",
+   "baslik": "Tata Steel Colors launches Colorcoat pre-painted steel in India",
+   "eksik": [
+    "asama"
+   ],
+   "firma": "Tata Steel Colors",
+   "hat": "Boyama hatti (CCL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Manufacturing Today India",
+   "kaynak_id": "gq_hat06",
+   "lead": "Tata Steel Colors launches Colorcoat pre-painted steel in India &nbsp;&nbsp; Manufacturing Today India",
+   "olaylar": [
+    "tata steel colors|fu|Hindistan|Boyama hatti (CCL)",
+    "tata steel colors|hat|Boyama hatti (CCL)|Belirsiz",
+    "tata steel colors|ulke|Hindistan|Belirsiz"
+   ],
+   "rezerv": true,
+   "tarih": "2026-10-12",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Hindistan",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQNnFIZU9NZWN0ejJBbWllanlhYXpYaGI0TExkQl9waTVXbFNEMGNUOWk1dnhFa1d0LUtCTlRxd1U4M3VkNVBHMVpuRGg3UzJXWEczeGlNUFd2OE5ES0lNUXdHQk51d2sxdmxkeWlWSkJNZkZGOUN4R2NaaHFPYVU?oc=5"
+  },
   {
    "anahtar": "aac00b6a794a93b5",
    "asama": "Sozlesme",
@@ -1927,6 +1946,31 @@
    "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/electrical-steel-job-brightens-andritz-q3-performance-1024/"
   },
   {
+   "anahtar": "55862486462fe6dc",
+   "asama": "Ilk urun",
+   "baslik": "EU electrical steel curbs raise stakes for Europe’s grid and cleantech startups",
+   "eksik": [
+    "ulke"
+   ],
+   "firma": "EU electrical steel curbs",
+   "hat": "Elektrik celigi hatti",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "150sec",
+   "kaynak_id": "gtek_es",
+   "lead": "EU electrical steel curbs raise stakes for Europe’s grid and cleantech startups &nbsp;&nbsp; 150sec",
+   "olaylar": [
+    "eu electrical steel curbs|hat|Elektrik celigi hatti|Ilk urun"
+   ],
+   "rezerv": true,
+   "tarih": "2026-09-29",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUFZZcm8tZ2hVcjd5M250M3hxWDlFMXhVWTVMWnJfU09aOGU3dV9TSXludHdBRzZJUjR6Z1h2VjB5el8tajl4RGtLWGJLd01zRjFhLTJwWTRrT3AwbGt3VmM4NlZmclJmR2dnZTJOWnluM0RkSDVqS3JXM0FJcHM0M2xEbno0QWZpZUpjanZoRUVhMGt5aFhuRXluSW9xbGM?oc=5"
+  },
+  {
    "anahtar": "3c6ddad628eeb8ca",
    "asama": "Belirsiz",
    "baslik": "POSCO, Otomotiv Çeliği İçin 359 Milyon Dolarlık Yeni Galvanizleme Hattı Kuruyor",
@@ -1951,6 +1995,33 @@
    "tutar": "",
    "ulke": "",
    "url": "https://www.steelturk.com.tr/posco-otomotiv-celigi-icin-359-milyon-dolarlik-yeni-galvanizleme-hatti-kuruyor/"
+  },
+  {
+   "anahtar": "d3b41fd13b8063ad",
+   "asama": "Belirsiz",
+   "baslik": "Flux Steel Works Unveils Ohio Plant for Grain-Oriented Electrical Steel Production",
+   "eksik": [
+    "asama"
+   ],
+   "firma": "Flux Steel Works",
+   "hat": "Elektrik celigi hatti",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Machine Maker",
+   "kaynak_id": "gtek_es",
+   "lead": "Flux Steel Works Unveils Ohio Plant for Grain-Oriented Electrical Steel Production &nbsp;&nbsp; Machine Maker",
+   "olaylar": [
+    "flux steel works|fu|ABD|Elektrik celigi hatti",
+    "flux steel works|hat|Elektrik celigi hatti|Belirsiz",
+    "flux steel works|ulke|ABD|Belirsiz"
+   ],
+   "rezerv": true,
+   "tarih": "2026-09-21",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "ABD",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNOHVpTDNnb19iazU5a0VtZ3hqQmtyWk9HWk5zX3R0c1NtWXpsUHBQS1pxTTRHalRubERlSmpvZ3gwaVI0Ykw3LUFWMkp6c0pmXy1PYk5JOFRydUpXXzFsRTRPTjIyanBIaWUtZUdiVy00ZWhtUWZkYVVFTTNVRUhqMmhtVFY1eFUyRUVJNV93aWpZcWdVYWNkREVGSm02d2llMVJxNHF0U0hxQTI4b3ltbHNrcmZKeU0?oc=5"
   },
   {
    "anahtar": "a116c7d2cd9568bd",

@@ -105,6 +105,33 @@
    "url": "https://www.steelradar.com/en/haber/flux-steel-works-to-build-goes-production-facility-in-ohio/"
   },
   {
+   "tarih": "2026-10-12",
+   "firma": "Tata Steel Colors",
+   "ulke": "Hindistan",
+   "hat": "Boyama hatti (CCL)",
+   "asama": "Belirsiz",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "Tata Steel Colors launches Colorcoat pre-painted steel in India",
+   "kaynak": "Manufacturing Today India",
+   "kaynak_id": "gq_hat06",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQNnFIZU9NZWN0ejJBbWllanlhYXpYaGI0TExkQl9waTVXbFNEMGNUOWk1dnhFa1d0LUtCTlRxd1U4M3VkNVBHMVpuRGg3UzJXWEczeGlNUFd2OE5ES0lNUXdHQk51d2sxdmxkeWlWSkJNZkZGOUN4R2NaaHFPYVU?oc=5",
+   "tarih_kaynagi": "rss",
+   "lead": "Tata Steel Colors launches Colorcoat pre-painted steel in India &nbsp;&nbsp; Manufacturing Today India",
+   "eksik": [
+    "asama"
+   ],
+   "anahtar": "a9d0c1485ce1a321",
+   "kategori": "Hat",
+   "olaylar": [
+    "tata steel colors|fu|Hindistan|Boyama hatti (CCL)",
+    "tata steel colors|hat|Boyama hatti (CCL)|Belirsiz",
+    "tata steel colors|ulke|Hindistan|Belirsiz"
+   ],
+   "rezerv": true
+  },
+  {
    "anahtar": "aac00b6a794a93b5",
    "asama": "Sozlesme",
    "baslik": "IMS expands its portfolio with force transducers for precise force measurement under demanding conditions in hot and cold rolling mills",
@@ -128,31 +155,15 @@
    "tutar": "",
    "ulke": "",
    "url": "https://www.ims-gmbh.de/en/2026/10/06/ims-expands-its-portfolio-with-force-transducers-forprecise-force-measurement-under-demandingconditions-in-hot-and-cold-rolling-mills/"
-  },
-  {
-   "anahtar": "dde7adab1615e8c7",
-   "asama": "Sozlesme",
-   "baslik": "Primetals secures PLTCM automation order",
-   "eksik": [],
-   "firma": "Primetals",
-   "hat": "Tandem soguk hadde (TCM)",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgs_sti",
-   "olaylar": [
-    "primetals|fu|Cin|Tandem soguk hadde (TCM)",
-    "primetals|hat|Tandem soguk hadde (TCM)|Sozlesme",
-    "primetals|ulke|Cin|Sozlesme"
-   ],
-   "rezerv": true,
-   "tarih": "2026-09-03",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "Primetals",
-   "tutar": "",
-   "ulke": "Cin",
-   "url": "https://www.steeltimesint.com/news/primetals-secures-pltcm-automation-order"
   }
  ],
- "tech": []
+ "tech": [
+  {
+   "anahtar": "tech:b56ca34c38e3c8eb",
+   "tarih": "2026-09-16",
+   "konu": "Steel inspection system uses machine vision to increase line speed and precision",
+   "metin": "Yapay görme (machine vision) teknolojisi kullanan çelik muayene sistemi, üretim hatlarında işlem hızını ve ölçüm hassasiyetini artırmak amacıyla geliştirilmiş bir yüzey kalite kontrol çözümüdür.",
+   "url": "https://www.imveurope.com/article/steel-inspection-system-uses-machine-vision-increase-line-speed-precision"
+  }
+ ]
 }
