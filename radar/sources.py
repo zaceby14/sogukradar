@@ -645,6 +645,27 @@ SOURCES = [
     # - proses modelleri, dijitallesme, kaplama teknigi - ve bunlar kosenin
     # tam konusu. Kendi sayfalari liste/urun sayfasi oldugu icin haber
     # akisina girmiyorlardi; arama katmani teknik yazilari da indeksliyor.
+    # GENEL TEKNOLOJI ARAMALARI (2026-11-02, kullanici: "teknoloji bulamadi,
+    # genel aramada yapmamis"). Kose yalniz site:primetals aramasina ve haber
+    # akisindan dusen maddelere bagliydi. Bing aynalari otomatik uretilir.
+    dict(id="gtek_cold", publisher="Google News", kind="arama", country="XX",
+         url="https://news.google.com/rss/search?q=%28%22cold%20rolling%22%20OR%20%22cold%20mill%22%20OR%20%22tandem%20mill%22%29%20%28technology%20OR%20innovation%20OR%20digital%20OR%20%22artificial%20intelligence%22%20OR%20%22machine%20learning%22%29%20steel%20when%3A60d&hl=en-US&gl=US&ceid=US:en",
+         rss="https://news.google.com/rss/search?q=%28%22cold%20rolling%22%20OR%20%22cold%20mill%22%20OR%20%22tandem%20mill%22%29%20%28technology%20OR%20innovation%20OR%20digital%20OR%20%22artificial%20intelligence%22%20OR%20%22machine%20learning%22%29%20steel%20when%3A60d&hl=en-US&gl=US&ceid=US:en", verified=False),
+    dict(id="gtek_galv", publisher="Google News", kind="arama", country="XX",
+         url="https://news.google.com/rss/search?q=%28%22galvanizing%20line%22%20OR%20%22galvanising%20line%22%20OR%20%22coating%20line%22%20OR%20%22zinc%20coating%22%29%20%28technology%20OR%20innovation%20OR%20%22new%20system%22%20OR%20digital%29%20when%3A60d&hl=en-US&gl=US&ceid=US:en",
+         rss="https://news.google.com/rss/search?q=%28%22galvanizing%20line%22%20OR%20%22galvanising%20line%22%20OR%20%22coating%20line%22%20OR%20%22zinc%20coating%22%29%20%28technology%20OR%20innovation%20OR%20%22new%20system%22%20OR%20digital%29%20when%3A60d&hl=en-US&gl=US&ceid=US:en", verified=False),
+    dict(id="gtek_anneal", publisher="Google News", kind="arama", country="XX",
+         url="https://news.google.com/rss/search?q=%28%22annealing%20furnace%22%20OR%20%22annealing%20line%22%20OR%20%22pickling%20line%22%29%20%28hydrogen%20OR%20technology%20OR%20innovation%20OR%20%22new%20process%22%29%20when%3A60d&hl=en-US&gl=US&ceid=US:en",
+         rss="https://news.google.com/rss/search?q=%28%22annealing%20furnace%22%20OR%20%22annealing%20line%22%20OR%20%22pickling%20line%22%29%20%28hydrogen%20OR%20technology%20OR%20innovation%20OR%20%22new%20process%22%29%20when%3A60d&hl=en-US&gl=US&ceid=US:en", verified=False),
+    dict(id="gtek_insp", publisher="Google News", kind="arama", country="XX",
+         url="https://news.google.com/rss/search?q=%28%22surface%20inspection%22%20OR%20%22flatness%20measurement%22%20OR%20%22thickness%20gauge%22%20OR%20%22machine%20vision%22%29%20%28steel%20strip%20OR%20%22rolling%20mill%22%29%20when%3A60d&hl=en-US&gl=US&ceid=US:en",
+         rss="https://news.google.com/rss/search?q=%28%22surface%20inspection%22%20OR%20%22flatness%20measurement%22%20OR%20%22thickness%20gauge%22%20OR%20%22machine%20vision%22%29%20%28steel%20strip%20OR%20%22rolling%20mill%22%29%20when%3A60d&hl=en-US&gl=US&ceid=US:en", verified=False),
+    dict(id="gtek_es", publisher="Google News", kind="arama", country="XX",
+         url="https://news.google.com/rss/search?q=%28%22electrical%20steel%22%20OR%20%22grain%20oriented%22%20OR%20%22non-oriented%22%29%20%28technology%20OR%20%22new%20grade%22%20OR%20develops%20OR%20innovation%29%20when%3A60d&hl=en-US&gl=US&ceid=US:en",
+         rss="https://news.google.com/rss/search?q=%28%22electrical%20steel%22%20OR%20%22grain%20oriented%22%20OR%20%22non-oriented%22%29%20%28technology%20OR%20%22new%20grade%22%20OR%20develops%20OR%20innovation%29%20when%3A60d&hl=en-US&gl=US&ceid=US:en", verified=False),
+    dict(id="gtek_roll", publisher="Google News", kind="arama", country="XX",
+         url="https://news.google.com/rss/search?q=%28%22roll%20grinding%22%20OR%20%22work%20roll%22%20OR%20%22roll%20shop%22%20OR%20%22roll%20coating%22%29%20%28technology%20OR%20innovation%20OR%20new%29%20steel%20when%3A60d&hl=en-US&gl=US&ceid=US:en",
+         rss="https://news.google.com/rss/search?q=%28%22roll%20grinding%22%20OR%20%22work%20roll%22%20OR%20%22roll%20shop%22%20OR%20%22roll%20coating%22%29%20%28technology%20OR%20innovation%20OR%20new%29%20steel%20when%3A60d&hl=en-US&gl=US&ceid=US:en", verified=False),
     dict(id="gtek_prime", publisher="Google News", kind="arama", country="XX",
          url="https://news.google.com/rss/search?q=site%3Aprimetals.com%20%28technology%20OR%20%22metals%20magazine%22%20OR%20digitalization%20OR%20%22process%20model%22%20OR%20automation%29%20%28strip%20OR%20%22cold%20rolling%22%20OR%20galvanizing%20OR%20annealing%29%20when%3A30d&hl=en-US&gl=US&ceid=US:en",
          rss="https://news.google.com/rss/search?q=site%3Aprimetals.com%20%28technology%20OR%20%22metals%20magazine%22%20OR%20digitalization%20OR%20%22process%20model%22%20OR%20automation%29%20%28strip%20OR%20%22cold%20rolling%22%20OR%20galvanizing%20OR%20annealing%29%20when%3A30d&hl=en-US&gl=US&ceid=US:en", verified=False),

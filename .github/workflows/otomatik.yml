@@ -31,7 +31,7 @@ on:
   workflow_dispatch:
     inputs:
       deneme:
-        description: "true = DENEME: [DENEME] basligiyla tum alicilara, haber tuketilmez. false = GERCEK bulten"
+        description: "true = DENEME: tum alicilara gider ama haber tuketilmez. false = GERCEK bulten (haberler gonderildi isaretlenir)"
         required: false
         default: "true"
       today:
@@ -155,7 +155,7 @@ jobs:
           html_body: file://out/email.html
 
       # DENEME ONIZLEMESI (2026-11-02, kullanici: "erdemire de gidecek"): deneme
-      # bulteni TUM alicilara (MAIL_TO) "[DENEME]" basligiyla gider. Hafizaya
+      # bulteni TUM alicilara (MAIL_TO) GERCEK bultenle AYNI baslikla gider (kullanici: 'deneme yazmamali'). Hafizaya
       # yazilmaz - haber tuketilmez, gercek bultende yine kullanilabilir.
       - name: Deneme bultenini alicilara gonder
         if: env.DENEME == 'true' && steps.karar.outcome == 'success' && hashFiles('out/deneme_email.html') != ''
@@ -167,7 +167,7 @@ jobs:
           secure: true
           username: ${{ secrets.MAIL_USER }}
           password: ${{ secrets.MAIL_PASS }}
-          subject: "[DENEME] Soguk Haddehane ve Nihai Hatlarda Sektor & Teknoloji Takibi"
+          subject: "Soguk Haddehane ve Nihai Hatlarda Sektor & Teknoloji Takibi — Haftalik Bulten"
           to: ${{ secrets.MAIL_TO }}
           from: SogukRadar Bulten <${{ secrets.MAIL_USER }}>
           html_body: file://out/deneme_email.html

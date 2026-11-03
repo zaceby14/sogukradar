@@ -825,6 +825,8 @@ def haber_olayi(title):
 # ile satir asamasi AYNI SEY DEGIL - kose biraz daha genis olmali, cunku
 # oradaki madde editor tarafindan elle okunup tanitiliyor.
 TECH_ADAY = re.compile(
+    r"expands? (its )?(product )?portfolio|new product (family|range)|"
+    r"uses machine vision|machine learning|artificial intelligence|\bai[- ]based|digital twin|"
     r"new technology|technolog\w* (for|to|that)|patent|licen[cs]e|"
     r"joint(ly)? develop|next[- ]generation|\br&d\b|"
     r"research (project|partnership|collaboration)|world first|"
@@ -874,6 +876,11 @@ TECH_KAPSAM = re.compile(
     r"thickness (gauge|profile|measur)|flatness|planarite|kalinlik olcum|"
     r"duzluk olcum|profile measuring|width (gauge|measur)|serit genislik|"
     r"surface inspect|yuzey muayene|coating weight|kaplama agirlig|"
+    # 2026-11-02: "Steel inspection system uses machine vision to increase line
+    # speed" kapidan donuyordu. Celik/serit baglamli muayene ve makine gorusu.
+    r"(steel|strip|coil|sheet|serit|bobin)\b.{0,25}(inspection|machine vision)|"
+    r"machine vision.{0,40}(steel|strip|coil)|"
+    r"(force|tension|strip tension) (measur|transducer|sensor)|"
     r"\bcgl\b|\bcal\b|\bbaf\b|\bccl\b|\betl\b|\bctl\b|\bpltcm\b|"
     r"(steel|celik) (strip|serit|coil|bobin|sheet|sac))")
 

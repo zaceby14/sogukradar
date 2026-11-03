@@ -144,10 +144,10 @@ KESİN KURALLAR (ihlal edilen cümle otomatik reddedilir ve yerine kuralsal cüm
 6. Bir haber kapsam dışıysa cümle yazma, 'supheli' listesine gerekçesiyle ekle. SADECE açıkça kapsam dışı olanı işaretle; emin değilsen işaretleme.
 
 ÇIKTI: yalnızca şu JSON nesnesi, başka hiçbir şey:
-{"cumleler": {"<id>": "Türkçe cümle"}, "ozet": "Haftanın 2-4 cümlelik Türkçe özeti (yalnızca verilen haberlerden)", "supheli": [{"id": "<id>", "neden": "kısa gerekçe"}]}"""
+{"cumleler": {"<id>": "Türkçe cümle"}, "ozet": "Haftanın 2-4 cümlelik Türkçe özeti (yalnızca verilen haberlerden)", "supheli": [{"id": "<id>", "neden": "kısa gerekçe"}], "teknoloji": "Teknoloji köşesi maddesi varsa: 1-2 cümle, yalnızca başlıktaki bilgiyle, ne olduğunu ve hangi hat/prosese yönelik olduğunu anlatan Türkçe tanıtım; yoksa boş"}"""
 
 
-def _kullanici(rows, stats):
+def _kullanici(rows, stats, tech=None):
     liste = []
     for r in rows:
         liste.append({
@@ -159,8 +159,13 @@ def _kullanici(rows, stats):
             "hat": compose._hat_tr(r), "asama": r.get("asama", ""),
             "tutar": r.get("tutar", ""), "kapasite": r.get("kapasite", ""),
             "katman": r.get("kategori", "")})
-    return ("Bu haftanın haberleri (%d adet):\n%s" %
-            (len(liste), json.dumps(liste, ensure_ascii=False, indent=1)))
+    metin = ("Bu haftanın haberleri (%d adet):\n%s" %
+             (len(liste), json.dumps(liste, ensure_ascii=False, indent=1)))
+    if tech:
+        metin += ("\n\nTeknoloji köşesi maddesi:\n" + json.dumps(
+            {"baslik": tech.get("baslik", ""), "ozet_metin": (tech.get("lead") or "")[:420],
+             "kaynak": tech.get("kaynak", "")}, ensure_ascii=False))
+    return metin
 
 
 # ----------------------------------------------------------------------
@@ -195,7 +200,8 @@ def ozet_hazirla(payload, log=print):
         ozet["_rapor"] = rapor
         return ozet
 
-    veri, saglayici, hatalar = llm.json_iste(SISTEM, _kullanici(rows, stats), log=log)
+    veri, saglayici, hatalar = llm.json_iste(SISTEM, _kullanici(rows, stats, tech[0] if tech else None),
+                                             log=log)
     rapor["llm_hatalar"] = hatalar
     if not veri:
         # Ham hata metni bultene GIRMEZ (okuyucu icin anlamsiz); ayrinti
@@ -223,6 +229,16 @@ def ozet_hazirla(payload, log=print):
             rapor["reddedilen_cumle"].append(
                 {"baslik": r.get("baslik", "")[:80], "neden": neden})
             log("    cumle reddedildi (%s): %s" % (neden, r.get("baslik", "")[:50]))
+
+    # --- teknoloji kosesi metni: yalniz basliga/ozete SADIK ise
+    tk = veri.get("teknoloji")
+    if tech and isinstance(tk, str) and tk.strip():
+        kay = " ".join([tech[0].get("baslik", ""), tech[0].get("lead", ""), tech[0].get("kaynak", "")])
+        ok, neden = cumle_dogrula(tk, kay)
+        if ok:
+            ozet["teknolojiler"][0]["metin"] = tk.strip()
+        else:
+            rapor["reddedilen_cumle"].append({"baslik": "(teknoloji kosesi)", "neden": neden})
 
     # --- ozet
     ex = veri.get("ozet")

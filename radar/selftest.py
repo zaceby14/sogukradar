@@ -1933,6 +1933,28 @@ def test_ayni_tedarikci_farkli_musteri_tekrar_degil():
        "ayni musteri ayni asama: tekrar")
 
 
+def test_kose_havuzu_ve_urun_duyurusu():
+    """2026-11-02: kose 'teknoloji cikmadi' dedi - otomatik bulten kalici havuzu
+    (tech_rezerv) hic gormuyordu; IMS urun duyurusu ise satir olarak girmisti."""
+    import radar.cli as C
+    st = {"tech_seen": {"tech:eski": "2026-01-01"},
+          "tech_rezerv": [{"anahtar": "tech:a", "tarih": "2026-09-16",
+                           "baslik": "Steel inspection system uses machine vision to increase line speed and precision"},
+                          {"anahtar": "tech:eski", "tarih": "2026-09-01",
+                           "baslik": "New surface inspection technology for cold strip"},
+                          {"anahtar": "tech:b", "tarih": "2026-10-28",
+                           "baslik": "R&D Update: Lubrication and galling in stamping of galvanized AHSS"}]}
+    p = {"rows": [{"anahtar": "r%d" % i, "baslik": "x"} for i in range(4)], "tech_pool": []}
+    eq([t["anahtar"] for t in C._kose_adaylari(p, st)], ["tech:a"],
+       "havuz okunur; gorulen ve kapsam disi dusulur")
+    ims = {"anahtar": "ims", "baslik": "IMS expands its portfolio with force transducers for precise force measurement in rolling mills",
+           "asama": "Sozlesme", "tarih": "2026-10-06", "url": "u", "kaynak": "IMS"}
+    p2 = {"rows": [ims] + [{"anahtar": "r%d" % i, "baslik": "Danieli wins pickling line order", "asama": "Sozlesme"} for i in range(3)],
+          "tech_pool": []}
+    k = C._kose_adaylari(p2, {"tech_seen": {}, "tech_rezerv": []})
+    eq((len(k), len(p2["rows"])), (1, 3), "aday yoksa urun duyurusu koseye tasinir")
+
+
 def test_w40_editorsuz_cop_kumeleme():
     """2026-11-02: editorsuz cikan ilk bulten (2026-W40) 14 satirdi, yarisi cop.
 
@@ -3443,6 +3465,7 @@ def run():
                test_v20_indiana_hindistan_degil,
                test_w40_editorsuz_cop_kumeleme,
                test_yazar_dogrulayici_ve_llm_yedegi,
+               test_kose_havuzu_ve_urun_duyurusu,
                test_ayni_tedarikci_farkli_musteri_tekrar_degil,
                test_gemini_yogunlukta_yeniden_dener,
                test_gemini_model_secimi,

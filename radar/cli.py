@@ -822,6 +822,41 @@ def _kalite_kapisi(payload, per):
     return nedenler
 
 
+def _kose_adaylari(payload, st):
+    """Teknoloji kosesi adaylari: bu taramanin adaylari + KALICI havuz.
+
+    2026-11-02: otomatik bulten yalniz hafta_*.json'daki taze adaylara
+    bakiyordu; havuz (state.tech_rezerv) o dosyaya yazilmadan ONCE kaydedildigi
+    icin hic ulasmiyordu - kose "yeni teknoloji cikmadi" dedi. Havuz da
+    GUNCEL kose kapisiyla yeniden denetlenir. Hic aday yoksa listedeki bir
+    URUN/TEKNOLOJI duyurusu (ornek: IMS'in yeni kuvvet olcer ailesi) koseye
+    tasinir - liste en az MIN_SATIR+1 satirsa.
+    """
+    gorulen = st.get("tech_seen") or {}
+    havuz, anahtarlar = [], set()
+    for t in list(payload.get("tech_pool") or []) + list(st.get("tech_rezerv") or []):
+        k = t.get("anahtar")
+        if not k or k in anahtarlar or k in gorulen:
+            continue
+        if not taxonomy.tech_kapsam(t.get("baslik", "")):
+            continue
+        anahtarlar.add(k)
+        havuz.append(t)
+    havuz.sort(key=lambda t: t.get("tarih", ""), reverse=True)
+    if havuz or len(payload["rows"]) <= MIN_SATIR:
+        return havuz
+    for r in payload["rows"]:
+        b = r.get("baslik", "")
+        if (taxonomy.TECH_ADAY.search(taxonomy.fold(b)) and taxonomy.tech_kapsam(b)
+                and r.get("asama") not in ("Ilk urun", "Seri uretim")):
+            payload["rows"] = [x for x in payload["rows"] if x is not r]
+            print("  teknoloji kosesine tasindi: " + b[:70])
+            return [{"anahtar": "tech:" + r.get("anahtar", ""), "tarih": r.get("tarih", ""),
+                     "baslik": b, "url": r.get("url", ""), "kaynak": r.get("kaynak", ""),
+                     "hat": r.get("hat", ""), "lead": r.get("lead", "")}]
+    return havuz
+
+
 def cmd_otomatik(a):
     """Editor olmadan bulteni uretir ve gonderilebilir olup olmadigina karar verir.
 
@@ -855,6 +890,7 @@ def cmd_otomatik(a):
         bg_belirsiz = []
     for ad, neden in elenen:
         print("  satir cikarildi (%s): %s" % (neden, ad[:70]))
+    payload["tech_pool"] = _kose_adaylari(payload, st)
     doc = yazar.ozet_hazirla(payload)
     rapor = doc.pop("_rapor", {})
     _ozet_uygula(payload, doc)
