@@ -937,6 +937,15 @@ def cmd_otomatik(a):
     payload["tech_pool"] = _kose_adaylari(payload, st)
     doc = yazar.ozet_hazirla(payload)
     rapor = doc.pop("_rapor", {})
+    # CINCE/JAPONCA BASLIKLI SATIR yalniz DOGRULANMIS Turkce cumleyle girer
+    # (2026-11-03): okuyucu basligi okuyamaz; kuralsal cumle "Bir uretici..."
+    # demekten oteye gecemiyor. LLM cumlesi dogrulamadan gecmediyse satir cikar.
+    from . import compose
+    for r in list(payload["rows"]):
+        if taxonomy.CJK.search(r.get("baslik", "")) and \
+                doc["cumleler"].get(r["anahtar"]) == compose.row_sentence(r):
+            doc.setdefault("cikar", []).append(r["anahtar"])
+            elenen.append((r.get("baslik", ""), "Cince baslik, dogrulanmis Turkce cumle yok"))
     _ozet_uygula(payload, doc)
     tech = doc.get("teknolojiler", [])
     # teknoloji koseleri de 'gonderildi'ysa cikar

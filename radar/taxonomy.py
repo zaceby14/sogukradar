@@ -282,7 +282,7 @@ _NOISE = (
     # analizi bu kapidan geciyordu.
     r"sheet pil(e|es|ing)\b|\bpiles?\b|protective measures|safeguard (measure|duty|duties|"
     r"investigation|quota)|tariff[- ]rate quota|investment narrative|simply wall|"
-    r"fiyat hedefi|price target|"
+    r"fiyat hedefi|price target|\bcurbs?\b|import (quota|restriction)s?|trade (measure|defen[cs]e)s?|"
     # TICARET DAVASI KISALTMASI (2026-11-02). "India extends AD investigation
     # deadline on stainless steel cold-rolled flat products from 3 Asian
     # nations" 2026-W40'ta Yatirim katmanina girdi: _NOISE 'anti-dumping'i
