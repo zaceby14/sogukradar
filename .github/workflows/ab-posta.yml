@@ -1,0 +1,41 @@
+name: SogukRadar A/B teslim testi
+
+# Kurumsal filtre teshisi: ayni bulten, (A) oy baglantisiz ve (B) Google Form
+# oy baglantili olarak MAIL_TO'ya gider. Hangisinin ulastigi filtrenin neye
+# takildigini gosterir.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: A - oy baglantisiz
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.MAIL_USER }}
+          password: ${{ secrets.MAIL_PASS }}
+          subject: "SogukRadar teslim testi A (oy baglantisiz)"
+          to: ${{ secrets.MAIL_TO }}
+          from: SogukRadar Bulten <${{ secrets.MAIL_USER }}>
+          html_body: file://out/ab_formsuz.html
+      - name: B - Google Form oy baglantili
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.MAIL_USER }}
+          password: ${{ secrets.MAIL_PASS }}
+          subject: "SogukRadar teslim testi B (oy baglantili)"
+          to: ${{ secrets.MAIL_TO }}
+          from: SogukRadar Bulten <${{ secrets.MAIL_USER }}>
+          html_body: file://out/ab_formlu.html
