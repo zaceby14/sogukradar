@@ -1,6 +1,32 @@
 {
  "bulunan": [
   {
+   "anahtar": "872b860afdafbe17",
+   "asama": "Belirsiz",
+   "baslik": "Rotherham steel firm goes greener with £160K investment in panels and batteries",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "firma": "Rotherham steel firm",
+   "hat": "Elektrik celigi hatti",
+   "kapasite": "",
+   "kategori": "Yatirim",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_sup02",
+   "lead": "‘We recognise the importance of taking practical steps to reduce emissions’ ...",
+   "olaylar": [
+    "rotherham steel firm|hat|Elektrik celigi hatti|Belirsiz"
+   ],
+   "puan": 9.6,
+   "tarih": "2026-11-02",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "£160",
+   "ulke": "",
+   "url": "https://www.msn.com/en-gb/money/general/rotherham-steel-firm-goes-greener-with-160k-investment-in-panels-and-batteries/ar-AA2gEidN"
+  },
+  {
    "anahtar": "3705534b48675072",
    "asama": "Ilk urun",
    "baslik": "Italy's ABS Opens Special Steel Service Center in Sweden",
@@ -229,11 +255,129 @@
    "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNRjdQdkp3TTgyQXluR1JnM29pUmoyT3NoUDZBenBrZk81RVZwNHo5NEZsVmpLVlVYNlZobEJVT0RPWWZTNno3NmM2X2FRNUpMazlkUG9HQzhRMmI5SktOYnVfa3ZSbzc2QlBwazd2V3NmS09LbUlXVW9rY0x0QXhBUklaUnN3RGVRUHQzb0laeXU3Q0FtZHlFYWlpRU5YSlg2Q19UMDNFdHZRS0U0aDRpTUZpOHZQUk9vUUU2dW00akUtOU9KTVhnbldUY00zbW96dnBfX2VRaFFRTGs3Ymx2QWs5UVhzSFFpY1dWY2JqcjdMV2s?oc=5"
   }
  ],
- "events": {},
- "gb_form_sayac": {},
+ "events": {
+  "*|ulke-hat|Hindistan|Galvaniz hatti (CGL)|Ilk urun": "2026-10-27",
+  "andritz|hat|Galvaniz hatti (CGL)|Ilk urun": "2026-10-13",
+  "bluescope steel|hat|Galvaniz hatti (CGL)|Ilk urun": "2026-10-13",
+  "fives@hyundai|hat|Galvaniz hatti (CGL)|Modernizasyon": "2026-10-13",
+  "jindal india|fu|Hindistan|Galvaniz hatti (CGL)": "2026-10-27",
+  "jindal india|hat|Galvaniz hatti (CGL)|Ilk urun": "2026-10-27",
+  "jindal india|ulke|Hindistan|Ilk urun": "2026-10-27",
+  "jsw jfe|fu|Hindistan|Elektrik celigi hatti": "2026-10-20",
+  "jsw jfe|hat|Elektrik celigi hatti|Belirsiz": "2026-10-20",
+  "jsw jfe|ulke|Hindistan|Belirsiz": "2026-10-20",
+  "red bud industries|fu|ABD|Dilme / boy kesme / SSC": "2026-10-26",
+  "red bud industries|hat|Dilme / boy kesme / SSC|Sozlesme": "2026-10-26",
+  "red bud industries|ulke|ABD|Sozlesme": "2026-10-26",
+  "tenova|fu|Hindistan|Elektrik celigi hatti": "2026-10-20",
+  "tenova|hat|Elektrik celigi hatti|Belirsiz": "2026-10-20",
+  "tenova|ulke|Hindistan|Belirsiz": "2026-10-20"
+ },
+ "gb_form_sayac": {
+  "490fe88208+": 2,
+  "490fe88208-": 2,
+  "561ca32fc1+": 2,
+  "561ca32fc1-": 2,
+  "57d5af2902+": 2,
+  "57d5af2902-": 2,
+  "65ac0bac8b+": 2,
+  "65ac0bac8b-": 2,
+  "a06acce312+": 1,
+  "testkod000+": 1
+ },
  "gb_oy": {},
- "gonderilen_donemler": [],
- "gonderilen_ozellik": {},
+ "gonderilen_donemler": [
+  "2026-W45"
+ ],
+ "gonderilen_ozellik": {
+  "3ffa8c22f8": {
+   "b": "Jindal India Commissions Revamped Galvanising Line, Boosts Capacity",
+   "f": [
+    "bolum:haber",
+    "hat:Galvaniz hatti (CGL)",
+    "asama:Ilk urun",
+    "ulke:Hindistan",
+    "kaynak:Rediff MoneyWiz",
+    "kat:Hat"
+   ],
+   "t": "2026-11-03"
+  },
+  "9f687e6101": {
+   "b": "Fives upgrades Hyundai Steel's galvanising line",
+   "f": [
+    "bolum:haber",
+    "hat:Galvaniz hatti (CGL)",
+    "asama:Modernizasyon",
+    "kaynak:Bing News",
+    "kat:Hat"
+   ],
+   "t": "2026-11-03"
+  },
+  "a06acce312": {
+   "b": "US HRC, CRC prices climb amid tight supply",
+   "f": [
+    "bolum:piyasa",
+    "kaynak:Kallanish",
+    "urun:soguk hadde",
+    "konu:fiyat"
+   ],
+   "t": "2026-11-03"
+  },
+  "b1114a2a22": {
+   "b": "ANDRITZ continuous galvanizing line at BlueScope Steel produces first galvanized coil",
+   "f": [
+    "bolum:haber",
+    "hat:Galvaniz hatti (CGL)",
+    "asama:Ilk urun",
+    "kaynak:Andritz Metals",
+    "kat:Hat"
+   ],
+   "t": "2026-11-03"
+  },
+  "b1400796e4": {
+   "b": "Red Bud Industries Installs Cut-to-Length Line at McNeilus Steel’s Tennessee Facility",
+   "f": [
+    "bolum:haber",
+    "hat:Dilme / boy kesme / SSC",
+    "asama:Sozlesme",
+    "ulke:ABD",
+    "kaynak:Bing News",
+    "kat:Hat"
+   ],
+   "t": "2026-11-03"
+  },
+  "b7501e8890": {
+   "b": "EU backs AD duties on CRC from five countries",
+   "f": [
+    "bolum:piyasa",
+    "kaynak:EUROMETAL",
+    "urun:soguk hadde",
+    "konu:koruma"
+   ],
+   "t": "2026-11-03"
+  },
+  "bfdb938bde": {
+   "b": "India: Coated flat steel prices ease w-o-w; further correction may support demand",
+   "f": [
+    "bolum:piyasa",
+    "kaynak:Bing News",
+    "urun:kaplamali",
+    "konu:fiyat"
+   ],
+   "t": "2026-11-03"
+  },
+  "d52308a78a": {
+   "b": "Tenova supplies processing lines for JSW JFE’s electrical steel plant in India",
+   "f": [
+    "bolum:haber",
+    "hat:Elektrik celigi hatti",
+    "ulke:Hindistan",
+    "kaynak:Yieh Corp.",
+    "kat:Hat"
+   ],
+   "t": "2026-11-03"
+  }
+ },
  "periods": [
   {
    "donem": "2026-08 (aylik, v2.0)",
@@ -1783,6 +1927,24 @@
     "tekrar": 39
    },
    "uretim": "2026-11-03 07:49 UTC"
+  },
+  {
+   "donem": "2026-W45",
+   "satir": 6,
+   "stats": {
+    "erisilemeyen": 10,
+    "gnews_tarih": 0,
+    "ham": 3878,
+    "kabul": 9,
+    "kapsam_disi": 3473,
+    "kaynak": 305,
+    "makale_acildi": 220,
+    "on_eleme_gecti": 408,
+    "pencere_disi": 239,
+    "tarihsiz_elendi": 104,
+    "tekrar": 49
+   },
+   "uretim": "2026-11-03 08:57 UTC"
   }
  ],
  "piyasa_rezerv": [
@@ -1875,7 +2037,11 @@
    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOZktQR3hjZWZ1WHl1d09PQlRXWlBmb0RMSTNDQUNjVE1WUzkxT1pKVXVKMkJkaEU2aHBpMzNLUmM0N2FCNjI2eUhSdWpkcGc1eXRnOG1WbVMwa25Xd2NjOWdJUmFMQ3h6cXdGVDA0aDZIX1ZldFNVNlpXMjNRSDZyTGVLdXFsOV9ZanpLcWJtM2ZRdFdXYkg2Z1lmNVRCeHNZSVhwb2pmWjZld1RSbjJvc1g4SVRCRHpydkwzUHQ0ck8wbWIzWDFuWHBHTHlnNHlyMGtwWTdkWEM0UzQ4RG56RUJR?oc=5"
   }
  ],
- "piyasa_seen": {},
+ "piyasa_seen": {
+  "piyasa:3e4b4481b0cc035c": "2026-11-02",
+  "piyasa:a3b301404961402b": "2026-11-02",
+  "piyasa:db67f98fb4dd717b": "2026-11-02"
+ },
  "rezerv": [
   {
    "anahtar": "a9d0c1485ce1a321",
@@ -2005,6 +2171,31 @@
    "tutar": "",
    "ulke": "",
    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNLVV0eTVMS0VNWlA3SFZfRncwQ2laall4Z0ZrWlU3UTBBT1lIUXp4ZGN6NnhER0pxQ3FvM0d2ZWRveGRHM1MtOWRzQU5yNzFsaGNBVnhoUE5wcC1sRWpqN0VWU21pb2QzOWE3VEdaZlZxQXZEdE43YzRfc1dvNVQ5QXdKMTRuQ1R2dGVwSFV4ZWp3alo0RnpTOGhhekFUb09FcmZkVW5IWG5mV3RlY21aMFdaazc1YUZ2ZUtNcQ?oc=5"
+  },
+  {
+   "anahtar": "e82b221fc2986888",
+   "asama": "Teknoloji",
+   "baslik": "Turkey's Isdemir develops high-quality steel production for defense industry and electrical steel",
+   "eksik": [],
+   "firma": "Isdemir",
+   "hat": "Elektrik celigi hatti",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Steel Orbis",
+   "kaynak_id": "gq_hat08",
+   "lead": "Turkey's Isdemir develops high-quality steel production for defense industry and electrical steel &nbsp;&nbsp; Steel Orbis",
+   "olaylar": [
+    "isdemir|fu|Turkiye|Elektrik celigi hatti",
+    "isdemir|hat|Elektrik celigi hatti|Teknoloji",
+    "isdemir|ulke|Turkiye|Teknoloji"
+   ],
+   "rezerv": true,
+   "tarih": "2026-10-05",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Turkiye",
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMW13SGRFangyUGg2dkFBMDJ0aUFSSVljX0gxbXFZMng2OWRYY1hqLThqYVNtaDJzMUlvanBROE02MXZMTktNNG4zU3AzdHZzVUlxRVpXUlZRVzQ0eUhKamhRU2dyMHh4RkdDcGEtYXMzRmQ1eEE5aV9GWTJkZmhCeTZCRzE3ZG5VZS1pdEZnaXBGNzZ1WGl1WUxTeUNIVEY2UzJTN1MtZ0RvbnFNc0NzNUJtWl9YX0J6Y0FMQlh1cTUzRzdMZ3dNbE9zQXU2a1NTVGVUeEwybnR1M2VQcmtaaEFQb2RhWTVSTjdxMXdGRQ?oc=5"
   },
   {
    "anahtar": "be1f81111a9b43a1",
@@ -2348,6 +2539,34 @@
    "url": "https://www.steelorbis.com/steel-news/latest-news/jsw-steel-orders-andritz-galvanizing-line-for-advanced-automotive-steels-1472727.htm"
   },
   {
+   "anahtar": "1d40f81689c438c8",
+   "asama": "Sozlesme",
+   "baslik": "JSW Steel, India, orders ANDRITZ galvanizing line for advanced automotive steels",
+   "eksik": [],
+   "firma": "JSW Steel, India",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Andritz Metals",
+   "kaynak_id": "andritz",
+   "lead": "Skip to main content en Deutsch English Site directory Newsroom Menu Search en Deutsch English Site directory Newsroom Menu Search Annual Report 2025 published Turning progress into industrial impact. FOR GROWTH THAT MATTERS. Discover more ANDRITZ GROUP ANDRITZ GROUP Newsroom Careers Sustainability OUR BUSINESS AREAS PULP & PAPER METALS HYDROPOWER ENVIRONMENT & ENERGY MORE ANDRITZ SOLUTIONS Automation Cyber security ",
+   "olaylar": [
+    "andritz|fu|Hindistan|Galvaniz hatti (CGL)",
+    "andritz|hat|Galvaniz hatti (CGL)|Sozlesme",
+    "andritz|ulke|Hindistan|Sozlesme",
+    "jsw steel, india|fu|Hindistan|Galvaniz hatti (CGL)",
+    "jsw steel, india|hat|Galvaniz hatti (CGL)|Sozlesme",
+    "jsw steel, india|ulke|Hindistan|Sozlesme"
+   ],
+   "rezerv": true,
+   "tarih": "2026-08-25",
+   "tarih_kaynagi": "url",
+   "tedarikci": "Andritz",
+   "tutar": "",
+   "ulke": "Hindistan",
+   "url": "https://www.andritz.com/newsroom-en/metals/2026-08-25-jsw-steel-group"
+  },
+  {
    "anahtar": "8f6043a18acdc49f",
    "asama": "Modernizasyon",
    "baslik": "Primetals Technologies to Modernize PLTCM for KG Steel in South Korea",
@@ -2603,6 +2822,33 @@
    "url": "https://www.steelorbis.com/steel-news/latest-news/indias-jil-commissions-continuous-color-coating-line-completing-155-million-capex-program-1454553.htm"
   },
   {
+   "anahtar": "dbf500463fb21d96",
+   "asama": "Belirsiz",
+   "baslik": "U. S. Steel Announces Plans to Restart Gary Tin Mill",
+   "eksik": [
+    "asama"
+   ],
+   "firma": "U. S. Steel",
+   "hat": "Teneke hatti (ETL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "U.S. Steel",
+   "kaynak_id": "ussteel",
+   "lead": "Skip to Main Content UssteelNavOverlay Back to Home U. S. Steel Logo Gear SteelTrack® About Us Overview Big River Steel Overview Mini Mill Technology ResponsibleSteel™ Become a Customer Products Resources People Innovation Overview Research & Technology Center: Process Technology Research & Technology Center: Product Technology Automotive Research & Technology Center Ethics & Compliance Community Engagement Overview ",
+   "olaylar": [
+    "u. s. steel|fu|ABD|Teneke hatti (ETL)",
+    "u. s. steel|hat|Teneke hatti (ETL)|Belirsiz",
+    "u. s. steel|ulke|ABD|Belirsiz"
+   ],
+   "rezerv": true,
+   "tarih": "2026-04-16",
+   "tarih_kaynagi": "liste",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "ABD",
+   "url": "https://www.ussteel.com:443/media/newsroom/-/blogs/u-s-steel-announces-plans-to-restart-gary-tin-mill?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fwww.ussteel.com%3A443%2Fmedia%2Fnewsroom%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26_com_liferay_blogs_web_portlet_BlogsPortlet_cur%3D1%26_com_liferay_blogs_web_portlet_BlogsPortlet_delta%3D20"
+  },
+  {
    "anahtar": "971c858c2cf021dc",
    "asama": "Ilk urun",
    "baslik": "New MINO Double-Stand Six-High Cold Reversing Mill in North America",
@@ -2711,6 +2957,32 @@
    "url": "https://metallurgprom.org/en/news/europe/18814-arcelormittal-poland-zavershaet-stroitelstvo-linii-nanesenija-pokrytija-na-rulony-zam.html"
   },
   {
+   "anahtar": "461b3854272908ae",
+   "asama": "Sozlesme",
+   "baslik": "Tata Steel awards ANDRITZ order for acid regeneration plant",
+   "eksik": [
+    "ulke"
+   ],
+   "firma": "Tata Steel",
+   "hat": "Asit rejenerasyonu (ARP)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Andritz Metals",
+   "kaynak_id": "andritz",
+   "lead": "Skip to main content en Deutsch English Site directory Newsroom Menu Search en Deutsch English Site directory Newsroom Menu Search Annual Report 2025 published Turning progress into industrial impact. FOR GROWTH THAT MATTERS. Discover more ANDRITZ GROUP ANDRITZ GROUP Newsroom Careers Sustainability OUR BUSINESS AREAS PULP & PAPER METALS HYDROPOWER ENVIRONMENT & ENERGY MORE ANDRITZ SOLUTIONS Automation Cyber security ",
+   "olaylar": [
+    "andritz|hat|Asit rejenerasyonu (ARP)|Sozlesme",
+    "tata steel|hat|Asit rejenerasyonu (ARP)|Sozlesme"
+   ],
+   "rezerv": true,
+   "tarih": "2025-12-09",
+   "tarih_kaynagi": "url",
+   "tedarikci": "Andritz",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://www.andritz.com/newsroom-en/metals/2025-12-09-tata-steel-group"
+  },
+  {
    "anahtar": "8f594cb2da2f00c0",
    "asama": "Sozlesme",
    "baslik": "Primetals Technologies awarded contract for hot-dip galvanizing line at JFE Steel",
@@ -2738,8 +3010,50 @@
    "url": "https://www.primetals.com/en/news/primetals-technologies-awarded-contract-for-hot-dip-galvanizing-line-at-jfe-steel/"
   }
  ],
- "seen": {},
- "son_basliklar": [],
+ "seen": {
+  "0974a592e27b2b6f": "2026-10-13",
+  "0b386546c836c574": "2026-10-26",
+  "1c737651eb6c0083": "2026-10-27",
+  "2796f3c7472bcf14": "2026-10-13",
+  "81afdce4c6c25e28": "2026-10-20"
+ },
+ "son_basliklar": [
+  {
+   "a": "Ilk urun",
+   "b": "ANDRITZ continuous galvanizing line at BlueScope Steel produces first galvanized coil",
+   "t": "2026-10-13",
+   "ted": "Andritz",
+   "u": ""
+  },
+  {
+   "a": "Ilk urun",
+   "b": "Jindal India Commissions Revamped Galvanising Line, Boosts Capacity",
+   "t": "2026-10-27",
+   "ted": "",
+   "u": "Hindistan"
+  },
+  {
+   "a": "Sozlesme",
+   "b": "Red Bud Industries Installs Cut-to-Length Line at McNeilus Steel’s Tennessee Facility",
+   "t": "2026-10-26",
+   "ted": "",
+   "u": "ABD"
+  },
+  {
+   "a": "Modernizasyon",
+   "b": "Fives upgrades Hyundai Steel's galvanising line",
+   "t": "2026-10-13",
+   "ted": "Fives",
+   "u": ""
+  },
+  {
+   "a": "Belirsiz",
+   "b": "Tenova supplies processing lines for JSW JFE’s electrical steel plant in India",
+   "t": "2026-10-20",
+   "ted": "Tenova",
+   "u": "Hindistan"
+  }
+ ],
  "source_health": {},
  "tech_rezerv": [
   {
@@ -2749,6 +3063,14 @@
    "kaynak": "Google News",
    "tarih": "2026-10-28",
    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObFNJdUNpQXFUajVzUHFLbTlPdVd1MHFOcDlGU3d4czJlMlptTURvNTZFTEJETXVSRWZKQ19XWTd5RWI4S0VPdTYxMEZ1aXkwb01fT1hiazJ6U2Etbzd4VkRTRGp2TkJjU0RybEZQTVlHZ0pkTXRtLW8wY0hyNEpKYjhhY19LOGNqSGZqcmhtcFN1eHJ4UVZBMzc4di0xb1VILTlHb2NiRy1MNnVXU2RIXzRZSDc?oc=5"
+  },
+  {
+   "anahtar": "tech:e82b221fc2986888",
+   "baslik": "Turkey's Isdemir develops high-quality steel production for defense industry and electrical steel",
+   "hat": "Elektrik celigi hatti",
+   "kaynak": "Google News",
+   "tarih": "2026-10-05",
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMW13SGRFangyUGg2dkFBMDJ0aUFSSVljX0gxbXFZMng2OWRYY1hqLThqYVNtaDJzMUlvanBROE02MXZMTktNNG4zU3AzdHZzVUlxRVpXUlZRVzQ0eUhKamhRU2dyMHh4RkdDcGEtYXMzRmQ1eEE5aV9GWTJkZmhCeTZCRzE3ZG5VZS1pdEZnaXBGNzZ1WGl1WUxTeUNIVEY2UzJTN1MtZ0RvbnFNc0NzNUJtWl9YX0J6Y0FMQlh1cTUzRzdMZ3dNbE9zQXU2a1NTVGVUeEwybnR1M2VQcmtaaEFQb2RhWTVSTjdxMXdGRQ?oc=5"
   },
   {
    "anahtar": "tech:b56ca34c38e3c8eb",

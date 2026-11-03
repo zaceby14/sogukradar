@@ -2,124 +2,146 @@
  "donem": "2026-W45",
  "rows": [
   {
-   "anahtar": "3c6ddad628eeb8ca",
-   "asama": "Belirsiz",
-   "baslik": "POSCO, Otomotiv Çeliği İçin 359 Milyon Dolarlık Yeni Galvanizleme Hattı Kuruyor",
+   "tarih": "2026-10-13",
+   "firma": "BlueScope Steel",
+   "ulke": "",
+   "hat": "Galvaniz hatti (CGL)",
+   "asama": "Ilk urun",
+   "tedarikci": "Andritz",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "ANDRITZ continuous galvanizing line at BlueScope Steel produces first galvanized coil",
+   "kaynak": "Andritz Metals",
+   "kaynak_id": "andritz",
+   "url": "https://www.andritz.com/newsroom-en/metals/2026-10-13-bluescope-group",
+   "tarih_kaynagi": "url",
+   "lead": "Skip to main content en Deutsch English Site directory Newsroom Menu Search en Deutsch English Site directory Newsroom Menu Search Annual Report 2025 published Turning progress into industrial impact. FOR GROWTH THAT MATTERS. Discover more ANDRITZ GROUP ANDRITZ GROUP Newsroom Careers Sustainability OUR BUSINESS AREAS PULP & PAPER METALS HYDROPOWER ENVIRONMENT & ENERGY MORE ANDRITZ SOLUTIONS Automation Cyber security ",
    "eksik": [
     "ulke",
-    "asama",
     "tarih?"
    ],
-   "firma": "POSCO",
-   "hat": "Galvaniz hatti (CGL)",
-   "kapasite": "",
-   "kategori": "Yatirim",
-   "kaynak": "SteelTurk",
-   "kaynak_id": "steelturk",
-   "olaylar": [
-    "posco|hat|Galvaniz hatti (CGL)|Belirsiz"
-   ],
-   "puan": 5.0,
-   "tarih": "2026-09-24",
-   "tarih_kaynagi": "metin",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "",
-   "url": "https://www.steelturk.com.tr/posco-otomotiv-celigi-icin-359-milyon-dolarlik-yeni-galvanizleme-hatti-kuruyor/"
-  },
-  {
-   "anahtar": "24c572c3d06c307e",
-   "asama": "Sozlesme",
-   "baslik": "Danieli Automation to Supply MES Platform for Ezz Flat Steel Plant",
-   "eksik": [
-    "ulke",
-    "hat"
-   ],
-   "firma": "Ezz Flat Steel Plant",
-   "hat": "Belirsiz",
-   "kapasite": "",
+   "anahtar": "2796f3c7472bcf14",
    "kategori": "Hat",
-   "kaynak": "Machine Maker",
-   "kaynak_id": "gq_sup02",
    "olaylar": [
-    "danieli|hat|Belirsiz|Sozlesme",
-    "ezz flat steel plant|hat|Belirsiz|Sozlesme"
+    "andritz|hat|Galvaniz hatti (CGL)|Ilk urun",
+    "bluescope steel|hat|Galvaniz hatti (CGL)|Ilk urun"
    ],
-   "puan": 52.0,
-   "tarih": "2026-09-23",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "Danieli",
-   "tutar": "",
-   "ulke": "",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdU1RMmRXLVpqaWEzNHN4cnhuUlhZajdIMjFfc1VFY0tIT1dQNFlucGVBVGZ0MkpVcW91RHlsREwyUFltVW0yWGlNQzNwVDVUSy1ETXUzNG41TXFGTHJncmI1TXNhS2tVYXJEcDV4Mmt4Mm9KdWJoczNyeDNPWWNqY0FDUU1mUnF1NEZxWm9IQnNoNmtDZnh5U25iMml2TFVGN1E?oc=5"
+   "puan": 54.6
   },
   {
-   "anahtar": "a9d0c1485ce1a321",
+   "tarih": "2026-10-27",
+   "firma": "Jindal India",
+   "ulke": "Hindistan",
+   "hat": "Galvaniz hatti (CGL)",
+   "asama": "Ilk urun",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "Jindal India Commissions Revamped Galvanising Line, Boosts Capacity",
+   "kaynak": "Rediff MoneyWiz",
+   "kaynak_id": "gx_bigmint_q",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbzh5Xzk5UzhnUU1VZ2w2TUYtLTU1VTZyM1psT1NpSGZIQ1NoMVlwSklORlhpeWVaWUVjNWdHaGNaWUg4SFp6ekE1dW5ockRPT3VsLWRFOTdMYmo3RXJ2eFBNdElZbFloUzNhdWNFRXQyYkZPcmVkQ3pRNV9vREJ2RTA5Nkp0NUZZM2YtS1dVU210enhwWEdkaHAtYVV6VXVOZkdEaEpoU25saEVFN1FFZ1J1YXp0S0lXMHfSAb8BQVVfeXFMTk1pazRMWW9aRm9kUnVsTlA4SzN3bFZKcGJsOGlYOHZRbXIzM0tlQURRTlpTTFhLT25fZkl3U2tHUWZma3JpSTdkOXhSM2Z4Y2dqcE1lNnZjM0dzTUhrbWVlQmlkZnlOc3IySU5qZ3A2RHRWMDJCUlF3bFdzWW1MRlotMG5SdDliWkFIZ0pBS0NDSldCSVV5NWFoQnZDOEUzRHg3QmRaZEMzTXQ5S09oM3o1MDc0SGVsQzNadEt1UHM?oc=5",
+   "tarih_kaynagi": "rss",
+   "lead": "Jindal India Commissions Revamped Galvanising Line, Boosts Capacity &nbsp;&nbsp; Rediff MoneyWiz",
+   "eksik": [],
+   "anahtar": "1c737651eb6c0083",
+   "kategori": "Hat",
+   "olaylar": [
+    "*|ulke-hat|Hindistan|Galvaniz hatti (CGL)|Ilk urun",
+    "jindal india|fu|Hindistan|Galvaniz hatti (CGL)",
+    "jindal india|hat|Galvaniz hatti (CGL)|Ilk urun",
+    "jindal india|ulke|Hindistan|Ilk urun"
+   ],
+   "puan": 54.2
+  },
+  {
+   "tarih": "2026-10-26",
+   "firma": "Red Bud Industries",
+   "ulke": "ABD",
+   "hat": "Dilme / boy kesme / SSC",
+   "asama": "Sozlesme",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "Red Bud Industries Installs Cut-to-Length Line at McNeilus Steel’s Tennessee Facility",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_hat10",
+   "url": "https://themachinemaker.com/news/red-bud-industries-installs-cut-to-length-line-at-mcneilus-steels-tennessee-facility/",
+   "tarih_kaynagi": "rss",
+   "lead": "Red Bud Industries has installed a heavy-gauge cut-to-length line equipped with a T3 stretcher leveler at McNeilus Steel Inc.’s facility in Morrison, Tennessee, USA. The new system is designed to ...",
+   "eksik": [],
+   "anahtar": "0b386546c836c574",
+   "kategori": "Hat",
+   "olaylar": [
+    "red bud industries|fu|ABD|Dilme / boy kesme / SSC",
+    "red bud industries|hat|Dilme / boy kesme / SSC|Sozlesme",
+    "red bud industries|ulke|ABD|Sozlesme"
+   ],
+   "puan": 45.8
+  },
+  {
+   "tarih": "2026-10-13",
+   "firma": "Fives",
+   "ulke": "",
+   "hat": "Galvaniz hatti (CGL)",
+   "asama": "Modernizasyon",
+   "tedarikci": "Fives",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "Fives upgrades Hyundai Steel's galvanising line",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_sup06",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/fives-upgrades-hyundai-steels-galvanising-line-0926/",
+   "tarih_kaynagi": "rss",
+   "lead": "",
+   "eksik": [
+    "ulke"
+   ],
+   "anahtar": "0974a592e27b2b6f",
+   "kategori": "Hat",
+   "olaylar": [
+    "fives@hyundai|hat|Galvaniz hatti (CGL)|Modernizasyon"
+   ],
+   "puan": 41.6
+  },
+  {
+   "tarih": "2026-10-20",
+   "firma": "JSW JFE",
+   "ulke": "Hindistan",
+   "hat": "Elektrik celigi hatti",
    "asama": "Belirsiz",
-   "baslik": "Tata Steel Colors launches Colorcoat pre-painted steel in India",
+   "tedarikci": "Tenova",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "Tenova supplies processing lines for JSW JFE’s electrical steel plant in India",
+   "kaynak": "Yieh Corp.",
+   "kaynak_id": "gq_hat08",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObnZFSDNsYV9qV0ZSbk1JUU5rV29LeS1DZGMtbmFMUDREcHZHeHNCWVkzQjl2TnhKWmVjeXloUy1qNWd6dmdSVzQtTVhwM1pzUTB5akFtcjZVc0NjZVF6T3MxZzdmZWhpaHJrNFQ5SFEtQk9KaUF1cWVzTmVMY3Zpb2tIM2xwVjZLUTdiY2RHajUyZkZsd3BpT3VZUGs4YzJRWW9uSmYyUmNiQUxCTHJBb0Mycw?oc=5",
+   "tarih_kaynagi": "rss",
+   "lead": "Tenova supplies processing lines for JSW JFE’s electrical steel plant in India &nbsp;&nbsp; Yieh Corp.",
    "eksik": [
     "asama"
    ],
-   "firma": "Tata Steel Colors",
-   "hat": "Boyama hatti (CCL)",
-   "kapasite": "",
+   "anahtar": "81afdce4c6c25e28",
    "kategori": "Hat",
-   "kaynak": "Manufacturing Today India",
-   "kaynak_id": "gq_hat06",
-   "lead": "Tata Steel Colors launches Colorcoat pre-painted steel in India &nbsp;&nbsp; Manufacturing Today India",
    "olaylar": [
-    "tata steel colors|fu|Hindistan|Boyama hatti (CCL)",
-    "tata steel colors|hat|Boyama hatti (CCL)|Belirsiz",
-    "tata steel colors|ulke|Hindistan|Belirsiz"
+    "jsw jfe|fu|Hindistan|Elektrik celigi hatti",
+    "jsw jfe|hat|Elektrik celigi hatti|Belirsiz",
+    "jsw jfe|ulke|Hindistan|Belirsiz",
+    "tenova|fu|Hindistan|Elektrik celigi hatti",
+    "tenova|hat|Elektrik celigi hatti|Belirsiz",
+    "tenova|ulke|Hindistan|Belirsiz"
    ],
-   "rezerv": true,
-   "tarih": "2026-10-12",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "Hindistan",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQNnFIZU9NZWN0ejJBbWllanlhYXpYaGI0TExkQl9waTVXbFNEMGNUOWk1dnhFa1d0LUtCTlRxd1U4M3VkNVBHMVpuRGg3UzJXWEczeGlNUFd2OE5ES0lNUXdHQk51d2sxdmxkeWlWSkJNZkZGOUN4R2NaaHFPYVU?oc=5"
-  },
-  {
-   "anahtar": "dde7adab1615e8c7",
-   "asama": "Sozlesme",
-   "baslik": "Primetals secures PLTCM automation order",
-   "eksik": [],
-   "firma": "Primetals",
-   "hat": "Tandem soguk hadde (TCM)",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgs_sti",
-   "olaylar": [
-    "primetals|fu|Cin|Tandem soguk hadde (TCM)",
-    "primetals|hat|Tandem soguk hadde (TCM)|Sozlesme",
-    "primetals|ulke|Cin|Sozlesme"
-   ],
-   "rezerv": true,
-   "tarih": "2026-09-03",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "Primetals",
-   "tutar": "",
-   "ulke": "Cin",
-   "url": "https://www.steeltimesint.com/news/primetals-secures-pltcm-automation-order"
+   "puan": 31.4
   }
  ],
- "tech": [
-  {
-   "anahtar": "tech:aac00b6a794a93b5",
-   "tarih": "2026-10-06",
-   "konu": "IMS expands its portfolio with force transducers for precise force measurement under demanding conditions in hot and cold rolling mills",
-   "metin": "IMS Messsysteme, sıcak ve soğuk haddehanelerde zorlu koşullar altında hassas kuvvet ölçümü sağlayan RollKraft ürün ailesi yük hücrelerini (force transducers) tanıttı.",
-   "url": "https://www.ims-gmbh.de/en/2026/10/06/ims-expands-its-portfolio-with-force-transducers-forprecise-force-measurement-under-demandingconditions-in-hot-and-cold-rolling-mills/"
-  }
- ],
+ "tech": [],
  "piyasa": [
   {
    "anahtar": "piyasa:3e4b4481b0cc035c",
    "tarih": "2026-11-02",
    "baslik": "EU backs AD duties on CRC from five countries",
-   "metin": "AB üye ülkeleri; Türkiye, Hindistan, Japonya, Vietnam ve Tayvan menşeli soğuk haddelenmiş yassı çelik ithalatına nihai anti-damping vergisi uygulanmasını onayladı.",
+   "metin": "AB üyesi ülkeler; Türkiye, Hindistan, Japonya, Vietnam ve Tayvan çıkışlı soğuk haddelenmiş yassı çelik ithalatına nihai anti-damping vergisi uygulanması yönünde oy kullandı.",
    "url": "https://eurometal.net/eu-backs-ad-duties-on-crc-from-five-countries/?utm_source=rss&utm_medium=rss&utm_campaign=eu-backs-ad-duties-on-crc-from-five-countries",
    "kaynak": "EUROMETAL",
    "konu": "koruma",
@@ -129,21 +151,21 @@
    "anahtar": "piyasa:a3b301404961402b",
    "tarih": "2026-11-02",
    "baslik": "US HRC, CRC prices climb amid tight supply",
-   "metin": "ABD'de sıcak ve soğuk haddelenmiş rulo fiyatları, sıkılaşan arz ve Nucor'un fiyat artışının ardından yükseldi.",
+   "metin": "ABD'de sıcak ve soğuk haddelenmiş rulo fiyatları, kısıtlı arz ve üretici fiyat artışlarının etkisiyle yükseldi.",
    "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/us-hrc-crc-prices-climb-amid-tight-supply-1026/",
    "kaynak": "Kallanish",
    "konu": "fiyat",
    "urun": "soguk hadde"
   },
   {
-   "anahtar": "piyasa:58a6686e74ff2a17",
+   "anahtar": "piyasa:db67f98fb4dd717b",
    "tarih": "2026-11-02",
-   "baslik": "European green flat steel demand remains subdued; construction provides pockets of interest",
-   "metin": "Avrupa'da yeşil yassı çelik talebi otomotiv sektöründeki zayıflamanın etkisiyle zayıf seyrini koruyor.",
-   "url": "https://eurometal.net/european-green-flat-steel-demand-remains-subdued-construction-provides-pockets-of-interest/?utm_source=rss&utm_medium=rss&utm_campaign=european-green-flat-steel-demand-remains-subdued-construction-provides-pockets-of-interest",
-   "kaynak": "EUROMETAL",
-   "konu": "talep",
-   "urun": "yassi"
+   "baslik": "India: Coated flat steel prices ease w-o-w; further correction may support demand",
+   "metin": "Hindistan'da kaplamalı yassı çelik fiyatları haftalık bazda gevşeyerek talebi destekleyebilecek bir düzeltme sergiledi.",
+   "url": "https://www.bigmint.co/insights/detail/india-coated-flat-steel-prices-ease-w-o-w-further-correction-may-support-demand-803955",
+   "kaynak": "Bing News",
+   "konu": "fiyat",
+   "urun": "kaplamali"
   }
  ]
 }

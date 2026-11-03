@@ -1,42 +1,33 @@
 {
  "donem": "2026-W45",
- "gonder": false,
- "atla": true,
- "son_gonderim": "2026-11-02",
- "deneme": true,
- "satir": 4,
+ "gonder": true,
+ "atla": false,
+ "son_gonderim": null,
+ "deneme": false,
+ "satir": 5,
  "nedenler": [],
  "yazar": {
   "saglayici": "gemini",
   "llm_hatalar": [],
   "reddedilen_cumle": [
    {
-    "baslik": "唐山市晟鑫冷轧薄板生产线升级改造项目生态环境影响报告书获批",
-    "neden": "kaynakta olmayan ozel ad: Shengxin"
+    "baslik": "(haftalik ozet)",
+    "neden": "asama Belirsiz iken uretim iddiasi"
    }
   ],
-  "cumle_llm": 4,
+  "cumle_llm": 5,
   "cumle_kuralsal": 1,
-  "supheli_cikarilan": 0
+  "supheli_cikarilan": 1
  },
- "elenen_satirlar": [
-  {
-   "baslik": "唐山市晟鑫冷轧薄板生产线升级改造项目生态环境影响报告书获批",
-   "neden": "Cince baslik, dogrulanmis Turkce cumle yok"
-  }
- ],
- "baglanti_dogrulanamayan": [
-  {
-   "baslik": "Primetals secures PLTCM automation order",
-   "neden": "HTTP 403"
-  }
- ],
- "email": "/home/runner/work/sogukradar/sogukradar/out/deneme_email.html",
- "uretildi": "2026-11-03T07:52:41.974014Z",
+ "elenen_satirlar": [],
+ "baglanti_dogrulanamayan": [],
+ "email": "/home/runner/work/sogukradar/sogukradar/out/email.html",
+ "uretildi": "2026-11-03T09:06:49.645506Z",
  "basliklar": [
-  "POSCO, Otomotiv Çeliği İçin 359 Milyon Dolarlık Yeni Galvanizleme Hattı Kuruyor",
-  "Danieli Automation to Supply MES Platform for Ezz Flat Steel Plant",
-  "Tata Steel Colors launches Colorcoat pre-painted steel in India",
-  "Primetals secures PLTCM automation order"
+  "ANDRITZ continuous galvanizing line at BlueScope Steel produces first galvanized coil",
+  "Jindal India Commissions Revamped Galvanising Line, Boosts Capacity",
+  "Red Bud Industries Installs Cut-to-Length Line at McNeilus Steel’s Tennessee Facility",
+  "Fives upgrades Hyundai Steel's galvanising line",
+  "Tenova supplies processing lines for JSW JFE’s electrical steel plant in India"
  ]
 }
