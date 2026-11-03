@@ -1,0 +1,21 @@
+name: SogukRadar oy formu testi
+
+# Uctan uca: form entry kimligini bulur, bir TEST oyu gonderir ve yayinlanmis
+# yanit tablosunda (CSV) gorur. Hafizaya/postaya dokunmaz.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Form testi
+        run: python -u -m radar form-test 2>&1 | tee -a $GITHUB_STEP_SUMMARY; exit ${PIPESTATUS[0]}

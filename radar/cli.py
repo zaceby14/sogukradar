@@ -1210,6 +1210,8 @@ def main(argv=None):
     sub.add_parser("isaretle").set_defaults(fn=cmd_isaretle)
     sub.add_parser("llm-test").set_defaults(fn=cmd_llm_test)
     sub.add_parser("geri-bildirim").set_defaults(fn=cmd_geri_bildirim)
+    sub.add_parser("form-test").set_defaults(
+        fn=lambda a: 0 if __import__("radar.tercih", fromlist=["x"]).form_testi() else 1)
     sub.add_parser("yoklama").set_defaults(fn=lambda a: (__import__("radar.yoklama", fromlist=["x"]).yokla(), 0)[1])
     nb = sub.add_parser("nobet")
     nb.add_argument("--today")

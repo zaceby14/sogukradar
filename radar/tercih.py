@@ -148,7 +148,10 @@ def mailto(adres, madde, isaret):  # eski kanal (kapali)
 # icin anlamsizdir; entry kimligi formun sayfasindan calisma aninda bulunur.
 # ----------------------------------------------------------------------
 FORM_ID = os.environ.get("RADAR_FORM_ID", "1FAIpQLScpiVNw2tsnceyk-rImYOrZaKTDlW3egy0UxbbCz-i5afcDTw")
-FORM_CSV = os.environ.get("RADAR_FORM_CSV", "")
+# Yanit tablosu "Web'de yayinla" ile SALT OKUNUR CSV olarak yayinlandi (2026-11-03).
+FORM_CSV = os.environ.get("RADAR_FORM_CSV", "https://docs.google.com/spreadsheets/d/e/"
+                          "2PACX-1vREgMxfMmwX08k0yb0rx_SxQ6cgiFjPL9dGK3QjIadQQvY572HINJnj-f3HRVReR3rmQCinSVOI_H1a"
+                          "/pub?gid=1110406152&single=true&output=csv")
 KOD_BASINA_OY_SINIRI = 3          # form kimin tikladigini bilmez: tekrar tiklamaya sinir
 
 
@@ -202,3 +205,31 @@ def uygula_form(st, oylar):
         sayac[anahtar] = sayac.get(anahtar, 0) + 1
         secili.append((isaret, k, kimlik))
     return uygula(st, secili)
+
+
+def form_testi(log=print):
+    """Uctan uca: entry bul -> test oyu gonder -> CSV'de gor. Actions'ta calisir."""
+    import time, urllib.request
+    from . import http
+    e = form_entry()
+    log("entry: %s" % (e or "BULUNAMADI"))
+    if not e:
+        return False
+    test_kod = "testkod000"
+    url = ("https://docs.google.com/forms/d/e/%s/formResponse?entry.%s=SR%%2B%%20%s&submit=Submit"
+           % (FORM_ID, e, test_kod))
+    try:
+        with urllib.request.urlopen(urllib.request.Request(url, headers=http.HEADERS), timeout=30) as r:
+            sayfa = r.read().decode("utf-8", "replace")
+        log("gonderim: HTTP %s, kaydedildi sayfasi: %s" % (r.status, "freebirdFormviewerViewResponseConfirmationMessage" in sayfa or "kaydedildi" in sayfa.lower() or "recorded" in sayfa.lower()))
+    except Exception as ex:
+        log("gonderim HATA: %s" % ex)
+        return False
+    for i in range(6):
+        time.sleep(20)
+        oylar = form_oku(FORM_CSV)
+        if any(k == test_kod for _, k, _ in oylar):
+            log("CSV: test oyu goruldu (%d. deneme), toplam %d oy satiri" % (i + 1, len(oylar)))
+            return True
+    log("CSV: test oyu 2 dakikada gorunmedi (yayinlanmis tablo gecikmeli guncellenebilir)")
+    return False
