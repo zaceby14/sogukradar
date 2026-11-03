@@ -1,10 +1,10 @@
 {
  "donem": "2026-W45",
  "pencere": [
-  "2026-10-12",
-  "2026-11-02"
+  "2026-10-13",
+  "2026-11-03"
  ],
- "uretim": "2026-11-02 17:57 UTC",
+ "uretim": "2026-11-03 11:06 UTC",
  "kaynaklar": {
   "steeltimesint": {
    "publisher": "Steel Times International",
@@ -22,7 +22,7 @@
    "hata": "HTTP 404"
   }
  },
- "adet": 2,
+ "adet": 1,
  "kacanlar": [
   {
    "tarih": "2026-10-27",
@@ -34,17 +34,6 @@
    "hat": "Boyama hatti (CCL)",
    "asama": "Sozlesme",
    "anahtar": "6bc10ade8d2cadf1"
-  },
-  {
-   "tarih": "2026-10-12",
-   "tarih_kaynagi": "json-ld",
-   "baslik": "Tata Steel Colors launches pre-painted steel products in India",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/tata-steel-colors-launches-pre-painted-steel-products-in-india-1483048.htm",
-   "kaynak": "SteelOrbis",
-   "katman": "Hat",
-   "hat": "Boyama hatti (CCL)",
-   "asama": "Belirsiz",
-   "anahtar": "478f44659f175cda"
   }
  ],
  "dogrulanamayan": [],
@@ -55,12 +44,12 @@
    "sebep": "gercek baslikta kapsam_disi"
   },
   {
-   "baslik": "US continues AD orders on CTL plate from China and Russia",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/us-continues-ad-orders-on-ctl-plate-from-china-and-russia-1481929.htm",
-   "sebep": "pencere disi (2026-10-06)"
+   "baslik": "Tata Steel Colors launches pre-painted steel products in India",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/tata-steel-colors-launches-pre-painted-steel-products-in-india-1483048.htm",
+   "sebep": "pencere disi (2026-10-12)"
   }
  ],
- "kapiyi_gecen": 4,
+ "kapiyi_gecen": 3,
  "sitemap_adayi": 400,
- "elenen": 396
+ "elenen": 397
 }

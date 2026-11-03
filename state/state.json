@@ -300,6 +300,8 @@
   "tenova|ulke|Hindistan|Belirsiz": "2026-10-20"
  },
  "gb_form_sayac": {
+  "3b181632bc+": 1,
+  "3b181632bc-": 1,
   "3ffa8c22f8+": 1,
   "3ffa8c22f8-": 1,
   "490fe88208+": 3,
@@ -313,11 +315,15 @@
   "9f687e6101+": 1,
   "9f687e6101-": 1,
   "a06acce312+": 2,
+  "aa7adc9b79+": 1,
+  "aa7adc9b79-": 1,
   "b1114a2a22+": 1,
   "b1114a2a22-": 1,
   "b1400796e4+": 1,
   "b1400796e4-": 1,
-  "testkod000+": 2
+  "bfab4a70f8+": 1,
+  "bfab4a70f8-": 1,
+  "testkod000+": 3
  },
  "gb_oy": {
   "3ffa8c22f8|form:03.11.2026 12:07:53": "-",
@@ -327,7 +333,9 @@
   "b1114a2a22|form:03.11.2026 12:07:53": "+",
   "b1400796e4|form:03.11.2026 12:07:53": "+"
  },
- "gonderilen_donemler": [],
+ "gonderilen_donemler": [
+  "2026-W45"
+ ],
  "gonderilen_ozellik": {
   "3ffa8c22f8": {
    "b": "Jindal India Commissions Revamped Galvanising Line, Boosts Capacity",
@@ -2002,6 +2010,24 @@
     "tekrar": 55
    },
    "uretim": "2026-11-03 10:38 UTC"
+  },
+  {
+   "donem": "2026-W45",
+   "satir": 6,
+   "stats": {
+    "erisilemeyen": 9,
+    "gnews_tarih": 0,
+    "ham": 4040,
+    "kabul": 5,
+    "kapsam_disi": 3580,
+    "kaynak": 315,
+    "makale_acildi": 227,
+    "on_eleme_gecti": 445,
+    "pencere_disi": 298,
+    "tarihsiz_elendi": 105,
+    "tekrar": 52
+   },
+   "uretim": "2026-11-03 11:05 UTC"
   }
  ],
  "piyasa_rezerv": [
@@ -2731,6 +2757,32 @@
    "url": "https://www.steelradar.com/en/haber/primetals-technologies-to-modernize-kg-steels-cold-rolling-mill-in-south-korea/"
   },
   {
+   "anahtar": "baf0c358200b0d6c",
+   "asama": "Belirsiz",
+   "baslik": "Jindal Stainless to invest ₹900 cr to raise cold rolling capacity to 2.67 MT by FY28: Managing Director",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "firma": "Jindal Stainless",
+   "hat": "Soguk hadde",
+   "kapasite": "2.67 MT",
+   "kategori": "Hat",
+   "kaynak": "ET Infra",
+   "kaynak_id": "gtek_hidrojen",
+   "lead": "Jindal Stainless to invest ₹900 cr to raise cold rolling capacity to 2.67 MT by FY28: Managing Director &nbsp;&nbsp; ET Infra",
+   "olaylar": [
+    "jindal stainless|hat|Soguk hadde|Belirsiz"
+   ],
+   "rezerv": true,
+   "tarih": "2026-08-16",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPeDJuY19YRUFPSEVqeE9fbkpELTVUaW95Z2RuMFNYTkEwRG43SWRYaEhTRWZQN2h0U25hQUNqVzVrUmI3WlJTZnNFX0NURUFFT2hKcmlySWVxZV90N3pGN2puYjFNR1Zybld2U1FLVW5MRDFnai04Y3Q4UUUyN3RXbjhPQmRsUUhlc0dZeXJOZXNCajJuam5ubHg2Y19lSW4wcEtjbzFHZ01HT3lWd1lMQktzY2pzRUxhLUhfbU5iSC1oUzMyazl3S1dpSjhGT2FTYzRmVjZyeG9zMmYtUGdHd19Yc1poaU8xSkMxMnV0V1o5Nk0xZVpLdGk3RFd4Um1oNnfSAYcCQVVfeXFMTjFmVlA1WHlyX1EwWGh5QnRXOEZ5bVY4Xy0zUTlHU014Rl9NOVMtYVNvSElOeGY2b1dxbHJyc3FYSGNvMXhJMlllN3h0WWVnQ1E0eWJ3T3I2N2NyMGJmQV9VTVFzRlA5TDhqWWt3eDNFMW9XYkFuUEJQVEtXVkl6WnlIOGQyM2t6cDMydklQbjExWk4wLUd2TDJiemd2M0pRclcyanFpWFI5dmtVSkNtYkdjOC1nUGxwbDlVaVJWZWpmWERBUVo2ZlFHa0FVcVFRWjQycTRYZDlZSWJGRUFKaFBwQ0I3R1FRZkJ0RnF5Tkp4eDUzcURrSDZhaWI0aWlzS19SZ1RXUU0?oc=5"
+  },
+  {
    "anahtar": "2dd71ceba3d095f7",
    "asama": "Belirsiz",
    "baslik": "US Steel Targets 2027 Restart of Ind. Tin Mill Amid Demand for Domestic Steel",
@@ -3066,6 +3118,33 @@
    "url": "https://www.steelorbis.com/steel-news/latest-news/indias-jil-commissions-continuous-color-coating-line-completing-155-million-capex-program-1454553.htm"
   },
   {
+   "anahtar": "7c2f78d60ac4067c",
+   "asama": "Belirsiz",
+   "baslik": "AM/NS India launches advanced PLTCM in Hazira",
+   "eksik": [
+    "asama"
+   ],
+   "firma": "AM/NS India",
+   "hat": "Tandem soguk hadde (TCM)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Manufacturing Today India",
+   "kaynak_id": "gtek_cold",
+   "lead": "AM/NS India launches advanced PLTCM in Hazira &nbsp;&nbsp; Manufacturing Today India",
+   "olaylar": [
+    "am/ns india|fu|Hindistan|Tandem soguk hadde (TCM)",
+    "am/ns india|hat|Tandem soguk hadde (TCM)|Belirsiz",
+    "am/ns india|ulke|Hindistan|Belirsiz"
+   ],
+   "rezerv": true,
+   "tarih": "2026-05-14",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Hindistan",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0wT0dDNGRocWNIUlpGbERqdG5kZTBRRVhTcWVPSjM1VUxjbkVMWlk4MjF0cE9qeU9NWW9idVRmUmsyY3hQcG02WTRTbXFwUnAxRFNMblV1RUxNMUkzNmZpMzJpcE9TMGZXYUxUTVg4WDBWZG5s?oc=5"
+  },
+  {
    "anahtar": "9e23d30ba4744635",
    "asama": "Ilk urun",
    "baslik": "ArcelorMittal Nippon Steel India commissions 2 mtpa cold rolling line at Hazira, Gujarat",
@@ -3336,6 +3415,32 @@
    "tutar": "",
    "ulke": "Turkiye",
    "url": "https://news.mesteel.com/rrm-starts-up-new-cold-mill-complex-with-danieli-technology/"
+  },
+  {
+   "anahtar": "34273f7c31b947f8",
+   "asama": "Ilk urun",
+   "baslik": "Danieli announces successful startup of Roofings Rolling Mills’ cold mill complex in Uganda",
+   "eksik": [],
+   "firma": "Danieli",
+   "hat": "Soguk hadde",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "SteelOrbis",
+   "kaynak_id": "gtek_cold",
+   "lead": "Danieli announces successful startup of Roofings Rolling Mills’ cold mill complex in Uganda &nbsp;&nbsp; SteelOrbis",
+   "olaylar": [
+    "*|ulke-hat|Uganda|Soguk hadde|Ilk urun",
+    "danieli|fu|Uganda|Soguk hadde",
+    "danieli|hat|Soguk hadde|Ilk urun",
+    "danieli|ulke|Uganda|Ilk urun"
+   ],
+   "rezerv": true,
+   "tarih": "2026-02-12",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "Danieli",
+   "tutar": "",
+   "ulke": "Uganda",
+   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPSnVMM2RKcHBFaVZrbXRWR1l4SDJEbXAtY1dyeG4ydFczR1FfcW02eXVvaDcwQVVBa3hmaWd0NjNZcnJqQXdObDc1cFozSkJ6UmdNamViaEt2dzl5YXZrdW16VWZMOEhGbnNZWWV5NnRJVjYzU0dQYXNuSHNPNXoyX0dVaDVyck9GRUJLYV9pR0tIbm5pRDRYSlRjb3ZFRmFQVzhYa0dQYlY1UkI4bGtWMktlWks4TGhpNUFsRUc3QWFiMmJya29oVGI0d1FidVl4ZWFISU53OXIxa21NSkdUYXQ1a3ZVSWM?oc=5"
   },
   {
    "anahtar": "ce2eda1e3f215e41",
@@ -3620,6 +3725,22 @@
    "url": "https://www.steelorbis.com/steel-news/latest-news/arcelormittal-advances-dunkirk-eaf-and-mardyck-electrical-steel-projects-1483903.htm"
   },
   {
+   "anahtar": "tech:6bff1f3f9ec2ba5b",
+   "baslik": "KCC develops color steel coating that lasts up to 30 years",
+   "hat": "Belirsiz",
+   "kaynak": "헤럴드경제",
+   "tarih": "2026-10-15",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5PRmZ2MXNtUkQ1RXBFT283c2UyRHlUTEdYcVl3bFVaYldmZGVSUWlzcmxMUGJnSzhLcW9SSndUa3VhOUk4SXVNZjlEUkdpbHJsRGRmMDdR?oc=5"
+  },
+  {
+   "anahtar": "tech:f809e9cc4543b4aa",
+   "baslik": "KG Steel pushes to expand AI usage rate at annealing furnace to over 80%",
+   "hat": "Surekli tavlama (CAL)",
+   "kaynak": "헤럴드경제",
+   "tarih": "2026-10-14",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB1dExHc2VaMEVwUWh5dkt2ZmlNSWFUS1l5eGtjVnRlYWpSTGxKZFpBaEZRY3NaSmV3eGZlZVZhNjYzWnVnYVBVYmtxQTJxR04xQ2dETUNR?oc=5"
+  },
+  {
    "anahtar": "tech:21b8b17f2932d529",
    "baslik": "Ten Reputable Electrical Steel Companies in China 2026: Advancing Motor Efficiency and Industrial Performance",
    "hat": "Elektrik celigi hatti",
@@ -3652,6 +3773,14 @@
    "url": "https://www.galvanizingeurope.org/egga-supports-the-european-convoy-for-industrial-competitiveness/"
   },
   {
+   "anahtar": "tech:8384bd252bd440d2",
+   "baslik": "Vietnam's Hoa Sen launches new alloy-coated steel with enhanced corrosion resistance",
+   "hat": "Belirsiz",
+   "kaynak": "SteelOrbis",
+   "tarih": "2026-08-20",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxONTQ5NWhFSl9fd0xXVTk3UjNhakc1NE5XYUJfQWdkdEJGUV9FeUZhakVKdERZRWJUZjg2ck5yM0Nlb0JmU3FvczJQdGZhYy1CdVduWDBjdXJxX25ZY3duOENieFhTUzQzTGsxWDg4ZjJTaTFJSzd4UXdyNTd3VWtBaEFoeHBvZ0g1Y2htVlRScFB2Q3pEV0NubFdjdzdIbnYwbVJjRHdHYWpvS3NlUW1jNmM1bU05Y3J2Mk9RMlVuamFwRl9XQkpwWDhDUm5LVzBUYUEzUjFnNzhHZkdTbnc?oc=5"
+  },
+  {
    "anahtar": "tech:28459cdd0c32da5c",
    "baslik": "Primetals Technologies to modernize KG Steel's Dangjin cold mill with AI-driven automation upgrade",
    "hat": "Soguk hadde",
@@ -3682,6 +3811,14 @@
    "kaynak": "Charged EVs",
    "tarih": "2026-07-07",
    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWENTOUgzZFMzQjhaRlJnWmdEY3RMVmhLR25rYnFHd1JrLTQtRDJ3NVZvWTN6UjN2QUpfVXBuM1c5QklYQlNJYUQwY1pVdjhKb19xTEZXX3NRYmZNUVRyVEFuX3RNSm15N3ZrWm5nTm1XMExRUDBpVElLQ0Z2dzFjcmRkQ0xva1ktQTJZTlRnemg0NzVsZ3pUVGNUT3YyNGYweXdVRUdZdVpDX2ZEY19PdGlB?oc=5"
+  },
+  {
+   "anahtar": "tech:467101f419b87401",
+   "baslik": "YEST Expected to Benefit as High-Pressure Hydrogen Annealing Is Considered for 1d-Nanometer DRAM",
+   "hat": "Belirsiz",
+   "kaynak": "THE ELEC, Korea Electronics Industry Media",
+   "tarih": "2026-06-23",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5VTGdkNHpKakxDbGFfbmQwYmlndWp6T1lNdERfRHBIaElQWGhic3dDU2lvYWpYVmIyX1M3XzJqOHJrRWVyWTdqQlAzSzI2N2t2bW8xN3JtMTFjU1Q2N01FdVdQQmkwQkk?oc=5"
   }
  ],
  "tech_seen": {},

@@ -1,6 +1,83 @@
 {
  "rows": [
   {
+   "tarih": "2026-11-03",
+   "firma": "Kıraç Galvaniz",
+   "ulke": "",
+   "hat": "Galvaniz hatti (CGL)",
+   "asama": "Teknoloji",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "Kıraç Galvaniz, MSB Askeri Fabrikalar Genel Müdürlüğü’nün Onaylı Tedarikçisi Oldu",
+   "kaynak": "SteelTurk",
+   "kaynak_id": "steelturk",
+   "url": "https://www.steelturk.com.tr/kirac-galvaniz-msb-askeri-fabrikalar-genel-mudurlugunun-onayli-tedarikcisi-oldu/",
+   "tarih_kaynagi": "metin",
+   "lead": "Hakkımızda Reklam Bize Ulaşın Demir Çelik Çelik Sektörü Yassı Çelik Yeşil Çelik Vasıflı Çelik Paslanmaz Çelik Alüminyum Boru & Profil Uzun Çelik Mamülleri Yapısal çelik Nervürlü Demir & Çelik Hasır Hammadde & Yarımamül Diğer Metaller Global Çelik Haberleri Röportajlar Metal & Sac İşleme Endüstriyel Sektörler Vinç Makina Çimento & Maden Güç Aktarım Sistemleri Hidrolik & Pnömatik Endüstriyel Kalıp Otomasyon & Robot Tek",
+   "eksik": [
+    "ulke",
+    "tarih?"
+   ],
+   "anahtar": "3a4b6e2a6c086c5e",
+   "kategori": "Yatirim",
+   "olaylar": [
+    "kirac galvaniz|hat|Galvaniz hatti (CGL)|Teknoloji"
+   ],
+   "puan": 16.5
+  },
+  {
+   "tarih": "2026-11-02",
+   "firma": "Rotherham steel firm",
+   "ulke": "",
+   "hat": "Elektrik celigi hatti",
+   "asama": "Belirsiz",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "£160",
+   "baslik": "Rotherham steel firm goes greener with £160K investment in panels and batteries",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_sup02",
+   "url": "https://www.msn.com/en-gb/money/general/rotherham-steel-firm-goes-greener-with-160k-investment-in-panels-and-batteries/ar-AA2gEidN",
+   "tarih_kaynagi": "rss",
+   "lead": "‘We recognise the importance of taking practical steps to reduce emissions’ ...",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "anahtar": "872b860afdafbe17",
+   "kategori": "Yatirim",
+   "olaylar": [
+    "rotherham steel firm|hat|Elektrik celigi hatti|Belirsiz"
+   ],
+   "puan": 12.6
+  },
+  {
+   "anahtar": "3705534b48675072",
+   "asama": "Ilk urun",
+   "baslik": "Italy's ABS Opens Special Steel Service Center in Sweden",
+   "eksik": [],
+   "firma": "ABS",
+   "hat": "Dilme / boy kesme / SSC",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "SMM (Shanghai Metals)",
+   "kaynak_id": "smm",
+   "olaylar": [
+    "*|ulke-hat|Italya|Dilme / boy kesme / SSC|Ilk urun",
+    "abs|fu|Italya|Dilme / boy kesme / SSC",
+    "abs|hat|Dilme / boy kesme / SSC|Ilk urun",
+    "abs|ulke|Italya|Ilk urun"
+   ],
+   "puan": 47.0,
+   "tarih": "2026-09-25",
+   "tarih_kaynagi": "json-ld",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Italya",
+   "url": "https://news.metal.com/en/newscontent/104134675-italys-abs-opens-special-steel-service-center-in-sweden"
+  },
+  {
    "anahtar": "3c6ddad628eeb8ca",
    "asama": "Belirsiz",
    "baslik": "POSCO, Otomotiv Çeliği İçin 359 Milyon Dolarlık Yeni Galvanizleme Hattı Kuruyor",
@@ -27,143 +104,69 @@
    "url": "https://www.steelturk.com.tr/posco-otomotiv-celigi-icin-359-milyon-dolarlik-yeni-galvanizleme-hatti-kuruyor/"
   },
   {
-   "anahtar": "24c572c3d06c307e",
-   "asama": "Sozlesme",
-   "baslik": "Danieli Automation to Supply MES Platform for Ezz Flat Steel Plant",
+   "anahtar": "3a5f3e821a7ebf92",
+   "asama": "Belirsiz",
+   "baslik": "OYAK is planning new investments in the production of electrical steel in Rom...",
    "eksik": [
     "ulke",
-    "hat"
+    "asama",
+    "tarih?"
    ],
-   "firma": "Ezz Flat Steel Plant",
-   "hat": "Belirsiz",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "Machine Maker",
-   "kaynak_id": "gq_sup02",
-   "olaylar": [
-    "danieli|hat|Belirsiz|Sozlesme",
-    "ezz flat steel plant|hat|Belirsiz|Sozlesme"
-   ],
-   "puan": 52.0,
-   "tarih": "2026-09-23",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "Danieli",
-   "tutar": "",
-   "ulke": "",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdU1RMmRXLVpqaWEzNHN4cnhuUlhZajdIMjFfc1VFY0tIT1dQNFlucGVBVGZ0MkpVcW91RHlsREwyUFltVW0yWGlNQzNwVDVUSy1ETXUzNG41TXFGTHJncmI1TXNhS2tVYXJEcDV4Mmt4Mm9KdWJoczNyeDNPWWNqY0FDUU1mUnF1NEZxWm9IQnNoNmtDZnh5U25iMml2TFVGN1E?oc=5"
-  },
-  {
-   "anahtar": "866a901347e29691",
-   "asama": "Modernizasyon",
-   "baslik": "唐山市晟鑫冷轧薄板生产线升级改造项目生态环境影响报告书获批",
-   "eksik": [
-    "firma",
-    "ulke"
-   ],
-   "firma": "",
-   "hat": "Elektrik celigi hatti",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "Mysteel (haber)",
-   "kaynak_id": "mysteel_news",
-   "olaylar": [
-    "|hat|Elektrik celigi hatti|Modernizasyon"
-   ],
-   "puan": 45.0,
-   "tarih": "2026-09-21",
-   "tarih_kaynagi": "json-ld",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "",
-   "url": "https://news.mysteel.com/a/26092109/0A0B14F6D5801083.html"
-  },
-  {
-   "anahtar": "6bb3535ceff2b463",
-   "asama": "Belirsiz",
-   "baslik": "Flux Steel Works to build GOES production facility in Ohio",
-   "eksik": [
-    "asama"
-   ],
-   "firma": "Flux Steel Works",
+   "firma": "OYAK",
    "hat": "Elektrik celigi hatti",
    "kapasite": "",
    "kategori": "Yatirim",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgx_sti_q",
+   "kaynak": "GMK Center",
+   "kaynak_id": "gmk",
    "olaylar": [
-    "flux steel works|fu|ABD|Elektrik celigi hatti",
-    "flux steel works|hat|Elektrik celigi hatti|Belirsiz",
-    "flux steel works|ulke|ABD|Belirsiz"
+    "oyak|hat|Elektrik celigi hatti|Belirsiz"
    ],
    "puan": 5.6,
-   "tarih": "2026-09-18",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "ABD",
-   "url": "https://www.steelradar.com/en/haber/flux-steel-works-to-build-goes-production-facility-in-ohio/"
-  },
-  {
-   "anahtar": "aac00b6a794a93b5",
-   "asama": "Sozlesme",
-   "baslik": "IMS expands its portfolio with force transducers for precise force measurement under demanding conditions in hot and cold rolling mills",
-   "eksik": [
-    "ulke"
-   ],
-   "firma": "IMS",
-   "hat": "Soguk hadde",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "IMS Messsysteme",
-   "kaynak_id": "ims",
-   "lead": "Skip to content IMS expands its portfolio with force transducers for precise force measurement under demanding conditions in hot and cold rolling mills With the RollKraft product family, IMS Messsysteme GmbH is expanding its portfolio with force transducers designed for use in hot and cold rolling mills. The measurement systems provide precise measurement data for the control, analysis and optimisation of rolling pro",
-   "olaylar": [
-    "ims|hat|Soguk hadde|Sozlesme"
-   ],
-   "rezerv": true,
-   "tarih": "2026-10-06",
-   "tarih_kaynagi": "json-ld",
+   "tarih": "2026-09-24",
+   "tarih_kaynagi": "liste",
    "tedarikci": "",
    "tutar": "",
    "ulke": "",
-   "url": "https://www.ims-gmbh.de/en/2026/10/06/ims-expands-its-portfolio-with-force-transducers-forprecise-force-measurement-under-demandingconditions-in-hot-and-cold-rolling-mills/"
+   "url": "https://gmk.center/en/news/oyak-is-planning-new-investments-in-the-production-of-electrical-steel-in-romania/"
   },
   {
-   "anahtar": "dde7adab1615e8c7",
-   "asama": "Sozlesme",
-   "baslik": "Primetals secures PLTCM automation order",
-   "eksik": [],
-   "firma": "Primetals",
-   "hat": "Tandem soguk hadde (TCM)",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgs_sti",
-   "olaylar": [
-    "primetals|fu|Cin|Tandem soguk hadde (TCM)",
-    "primetals|hat|Tandem soguk hadde (TCM)|Sozlesme",
-    "primetals|ulke|Cin|Sozlesme"
+   "anahtar": "4b961e91d96f2c3f",
+   "asama": "Belirsiz",
+   "baslik": "Erdemir Plans Romania Electrical Steel Capacity Expansion",
+   "eksik": [
+    "asama"
    ],
-   "rezerv": true,
-   "tarih": "2026-09-03",
+   "firma": "Erdemir",
+   "hat": "Elektrik celigi hatti",
+   "kapasite": "",
+   "kategori": "Yatirim",
+   "kaynak": "IndexBox",
+   "kaynak_id": "gq_hat08",
+   "olaylar": [
+    "erdemir|fu|Romanya|Elektrik celigi hatti",
+    "erdemir|hat|Elektrik celigi hatti|Belirsiz",
+    "erdemir|ulke|Romanya|Belirsiz"
+   ],
+   "puan": 5.6,
+   "tarih": "2026-09-24",
    "tarih_kaynagi": "rss",
-   "tedarikci": "Primetals",
+   "tedarikci": "",
    "tutar": "",
-   "ulke": "Cin",
-   "url": "https://www.steeltimesint.com/news/primetals-secures-pltcm-automation-order"
+   "ulke": "Romanya",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSmxzNlIwb1ZJNjFKQmRmdmtmNVRCTkEzRU9IZFVuUGJ4X1hsOTZoQnRNN2ZTVFhfLVU5cG9uOWRpUC1rSDVqSWtnLVd2ZmwyRGVvaDE0RTV3TjJtY3hOQ1Rfa1BLOEdMWC12TmgxTDUzdmE0NUc4S0NGZlJ0RG9mOVN0c1ZMS2JIY2tnVlBYQUZCbDAwTUt6czY4eGJYcTkyOGc?oc=5"
   }
  ],
  "stats": {
-  "kaynak": 293,
+  "kaynak": 315,
   "erisilemeyen": 9,
-  "ham": 3894,
-  "on_eleme_gecti": 360,
-  "makale_acildi": 204,
-  "tarihsiz_elendi": 103,
-  "pencere_disi": 246,
-  "kapsam_disi": 3495,
-  "tekrar": 47,
-  "kabul": 3,
+  "ham": 4040,
+  "on_eleme_gecti": 445,
+  "makale_acildi": 227,
+  "tarihsiz_elendi": 105,
+  "pencere_disi": 298,
+  "kapsam_disi": 3580,
+  "tekrar": 52,
+  "kabul": 5,
   "gnews_tarih": 0
  },
  "unreachable": [
@@ -394,6 +397,17 @@
   "gtr_habas": "arama",
   "gtr_atakas": "arama",
   "gtr_borusan": "arama",
+  "gtek_cold": "arama",
+  "gtek_galv": "arama",
+  "gtek_anneal": "arama",
+  "gtek_insp": "arama",
+  "gtek_es": "arama",
+  "gtek_roll": "arama",
+  "gtek_yenilik1": "arama",
+  "gtek_yenilik2": "arama",
+  "gtek_hidrojen": "arama",
+  "gtek_yz": "arama",
+  "gtek_kaplama": "arama",
   "gtek_prime": "arama",
   "gtek_jc": "arama",
   "gtek_danieli": "arama",
@@ -495,19 +509,35 @@
   "bgtr_habas": "arama",
   "bgtr_atakas": "arama",
   "bgtr_borusan": "arama",
+  "bgtek_cold": "arama",
+  "bgtek_galv": "arama",
+  "bgtek_anneal": "arama",
+  "bgtek_insp": "arama",
+  "bgtek_es": "arama",
+  "bgtek_roll": "arama",
+  "bgtek_yenilik1": "arama",
+  "bgtek_yenilik2": "arama",
+  "bgtek_hidrojen": "arama",
+  "bgtek_yz": "arama",
+  "bgtek_kaplama": "arama",
   "bgtek_prime": "arama",
   "bgtek_jc": "arama",
   "bgtek_danieli": "arama"
  },
- "today": "2026-11-02",
+ "today": "2026-11-03",
  "host_saglik": {
   "news.google.com": {
-   "istek": 112,
+   "istek": 123,
    "hiz_siniri": 0,
    "sogutmada": false
   },
   "www.bing.com": {
-   "istek": 101,
+   "istek": 112,
+   "hiz_siniri": 0,
+   "sogutmada": false
+  },
+  "www.aist.org": {
+   "istek": 21,
    "hiz_siniri": 0,
    "sogutmada": false
   },
@@ -519,7 +549,7 @@
   "new.abb.com": {
    "istek": 3,
    "hiz_siniri": 2,
-   "sogutmada": true
+   "sogutmada": false
   },
   "www.cognex.com": {
    "istek": 2,
@@ -532,19 +562,231 @@
    "sogutmada": false
   }
  },
- "tech_pool": [],
+ "tech_pool": [
+  {
+   "anahtar": "tech:3a4b6e2a6c086c5e",
+   "tarih": "2026-11-03",
+   "baslik": "Kıraç Galvaniz, MSB Askeri Fabrikalar Genel Müdürlüğü’nün Onaylı Tedarikçisi Oldu",
+   "url": "https://www.steelturk.com.tr/kirac-galvaniz-msb-askeri-fabrikalar-genel-mudurlugunun-onayli-tedarikcisi-oldu/",
+   "kaynak": "SteelTurk",
+   "hat": "Galvaniz hatti (CGL)"
+  },
+  {
+   "anahtar": "tech:3bb113dd1d100448",
+   "tarih": "2026-10-19",
+   "baslik": "European coil and green steel round-up: EU coil largely stable on slow apparent demand",
+   "url": "https://eurometal.net/european-coil-and-green-steel-round-up-eu-coil-largely-stable-on-slow-apparent-demand/",
+   "kaynak": "Bing News",
+   "hat": "Belirsiz"
+  },
+  {
+   "anahtar": "tech:6bff1f3f9ec2ba5b",
+   "tarih": "2026-10-15",
+   "baslik": "KCC develops color steel coating that lasts up to 30 years",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5PRmZ2MXNtUkQ1RXBFT283c2UyRHlUTEdYcVl3bFVaYldmZGVSUWlzcmxMUGJnSzhLcW9SSndUa3VhOUk4SXVNZjlEUkdpbHJsRGRmMDdR?oc=5",
+   "kaynak": "헤럴드경제",
+   "hat": "Belirsiz"
+  },
+  {
+   "anahtar": "tech:45c439b08bc58b50",
+   "tarih": "2026-10-15",
+   "baslik": "ArcelorMittal commits €300 million to Dunkirk steel project, targets spring 2027 tests for new line in Mardyck",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/arcelormittal-advances-dunkirk-eaf-and-mardyck-electrical-steel-projects-1483903.htm",
+   "kaynak": "Bing News",
+   "hat": "Elektrik celigi hatti"
+  },
+  {
+   "anahtar": "tech:f809e9cc4543b4aa",
+   "tarih": "2026-10-14",
+   "baslik": "KG Steel pushes to expand AI usage rate at annealing furnace to over 80%",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB1dExHc2VaMEVwUWh5dkt2ZmlNSWFUS1l5eGtjVnRlYWpSTGxKZFpBaEZRY3NaSmV3eGZlZVZhNjYzWnVnYVBVYmtxQTJxR04xQ2dETUNR?oc=5",
+   "kaynak": "헤럴드경제",
+   "hat": "Surekli tavlama (CAL)"
+  },
+  {
+   "anahtar": "tech:e82b221fc2986888",
+   "tarih": "2026-10-05",
+   "baslik": "Turkey's Isdemir develops high-quality steel production for defense industry and electrical steel",
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMW13SGRFangyUGg2dkFBMDJ0aUFSSVljX0gxbXFZMng2OWRYY1hqLThqYVNtaDJzMUlvanBROE02MXZMTktNNG4zU3AzdHZzVUlxRVpXUlZRVzQ0eUhKamhRU2dyMHh4RkdDcGEtYXMzRmQ1eEE5aV9GWTJkZmhCeTZCRzE3ZG5VZS1pdEZnaXBGNzZ1WGl1WUxTeUNIVEY2UzJTN1MtZ0RvbnFNc0NzNUJtWl9YX0J6Y0FMQlh1cTUzRzdMZ3dNbE9zQXU2a1NTVGVUeEwybnR1M2VQcmtaaEFQb2RhWTVSTjdxMXdGRQ?oc=5",
+   "kaynak": "Steel Orbis",
+   "hat": "Elektrik celigi hatti"
+  },
+  {
+   "anahtar": "tech:291e32d7546a5fb3",
+   "tarih": "2026-09-08",
+   "baslik": "EGGA Supports the European Convoy for Industrial CompetitivenessEGGA-Galvanizing Europe had supported the “European Convoy for Industrial Competitiveness” in Brussels on",
+   "url": "https://www.galvanizingeurope.org/egga-supports-the-european-convoy-for-industrial-competitiveness/",
+   "kaynak": "Galvanizing Europe",
+   "hat": "Galvaniz hatti (CGL)"
+  },
+  {
+   "anahtar": "tech:8384bd252bd440d2",
+   "tarih": "2026-08-20",
+   "baslik": "Vietnam's Hoa Sen launches new alloy-coated steel with enhanced corrosion resistance",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxONTQ5NWhFSl9fd0xXVTk3UjNhakc1NE5XYUJfQWdkdEJGUV9FeUZhakVKdERZRWJUZjg2ck5yM0Nlb0JmU3FvczJQdGZhYy1CdVduWDBjdXJxX25ZY3duOENieFhTUzQzTGsxWDg4ZjJTaTFJSzd4UXdyNTd3VWtBaEFoeHBvZ0g1Y2htVlRScFB2Q3pEV0NubFdjdzdIbnYwbVJjRHdHYWpvS3NlUW1jNmM1bU05Y3J2Mk9RMlVuamFwRl9XQkpwWDhDUm5LVzBUYUEzUjFnNzhHZkdTbnc?oc=5",
+   "kaynak": "SteelOrbis",
+   "hat": "Belirsiz"
+  },
+  {
+   "anahtar": "tech:28459cdd0c32da5c",
+   "tarih": "2026-08-12",
+   "baslik": "Primetals Technologies to modernize KG Steel's Dangjin cold mill with AI-driven automation upgrade",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNalhvamNnNE1IYTlnbFBWLVEtZXNmNWhmeEFuaFN3Qk1oOExtSmN6NWYxSURMdm9kcWNJNTFlcDBvN21FUUFQbFJSOEM2ZzA1NE1OTWZDekJWYm5UNklGaWc1QmRvOEhyS0lBbDdQUFN6WTZYQnQ5RVdEai1ZV1lWZVByZVBBWmkzblg3eTFiYXN0R3FIVF9EUHdqQndWSlMzcmg2TU9KNkJIRG5UNU9oc1lsREN4eE9fZTMwS0dxLUhPT3U1YXpYQ1hmN3VjZw?oc=5",
+   "kaynak": "Yieh Corp.",
+   "hat": "Soguk hadde"
+  },
+  {
+   "anahtar": "tech:3b9e0ba3d7e53ee3",
+   "tarih": "2026-07-09",
+   "baslik": "Posco and Hyundai develop novel electrical steel for more efficient electric motors",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNVV0U1otMkFRbUphNHRvMDBVdWFEVjVKN0FYV2tNdWZhWVB0TldhN0QxeDJtLU51ci1CLVFid0NTT21DSFVCMmw3a2ZyUTB6YUxkQ1hmcGZ5T05pOUdLbUxjMDdTX2IyZ0tfdnZaSVA5aW41dHhURFpvZUJKbUxiVDBjTUNCMXdfLUJIMXdsdl9VNktxeXVDeFlyNThjZHFXVUJwRXctZTJuWjduaEE3NFBmclFyYTdMNzNzM2lR?oc=5",
+   "kaynak": "electrive.com",
+   "hat": "Elektrik celigi hatti"
+  },
+  {
+   "anahtar": "tech:598247fd0170db4b",
+   "tarih": "2026-07-07",
+   "baslik": "POSCO and Hyundai partner to develop 6.5% silicon electrical steel for EV motors",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWENTOUgzZFMzQjhaRlJnWmdEY3RMVmhLR25rYnFHd1JrLTQtRDJ3NVZvWTN6UjN2QUpfVXBuM1c5QklYQlNJYUQwY1pVdjhKb19xTEZXX3NRYmZNUVRyVEFuX3RNSm15N3ZrWm5nTm1XMExRUDBpVElLQ0Z2dzFjcmRkQ0xva1ktQTJZTlRnemg0NzVsZ3pUVGNUT3YyNGYweXdVRUdZdVpDX2ZEY19PdGlB?oc=5",
+   "kaynak": "Charged EVs",
+   "hat": "Elektrik celigi hatti"
+  },
+  {
+   "anahtar": "tech:467101f419b87401",
+   "tarih": "2026-06-23",
+   "baslik": "YEST Expected to Benefit as High-Pressure Hydrogen Annealing Is Considered for 1d-Nanometer DRAM",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5VTGdkNHpKakxDbGFfbmQwYmlndWp6T1lNdERfRHBIaElQWGhic3dDU2lvYWpYVmIyX1M3XzJqOHJrRWVyWTdqQlAzSzI2N2t2bW8xN3JtMTFjU1Q2N01FdVdQQmkwQkk?oc=5",
+   "kaynak": "THE ELEC, Korea Electronics Industry Media",
+   "hat": "Belirsiz"
+  }
+ ],
  "kaynak_katki": {
-  "Bing News": 3
+  "SteelTurk": 1,
+  "Bing News": 4
  },
+ "piyasa_pool": [
+  {
+   "anahtar": "piyasa:57bd0bd0b81ffff8",
+   "tarih": "2026-11-03",
+   "baslik": "Hoa Phat exports 8,000 tons of galvanized steel to Japan for the first time",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxORmFaOHNRejlLbHNZWEdDc3B1VUNVbk5BMDhxci1sSGhPaXFGNnJBSGVqSlMwZjVXS04wX1pQNmt3dVR2Ulh4QXhFbzJRWVJYRzFCa01ETzhjeEl4OEs4TFE5M0xkWW9aLXliYjF4eWhoTHRoTWpWZDlldXRFVHBzSWdibUhZZVVyeXVUT0dCZTJWUE1OeXZIX0lUVXBkSnhHQmlBR3lQMndRZw?oc=5",
+   "kaynak": "Yieh Corp.",
+   "lead": "Hoa Phat exports 8,000 tons of galvanized steel to Japan for the first time &nbsp;&nbsp; Yieh Corp."
+  },
+  {
+   "anahtar": "piyasa:58a6686e74ff2a17",
+   "tarih": "2026-11-02",
+   "baslik": "European green flat steel demand remains subdued; construction provides pockets of interest",
+   "url": "https://eurometal.net/european-green-flat-steel-demand-remains-subdued-construction-provides-pockets-of-interest/?utm_source=rss&utm_medium=rss&utm_campaign=european-green-flat-steel-demand-remains-subdued-construction-provides-pockets-of-interest",
+   "kaynak": "EUROMETAL",
+   "lead": "Demand for green steel in Europe remained muted in October, with the construction industry showing some selective interest while interest from the automotive industry softened, according to market participants. A flat steel producer in Northern Europe said there was a lack of buying activity in the "
+  },
+  {
+   "anahtar": "piyasa:a7dffa13a828b745",
+   "tarih": "2026-11-02",
+   "baslik": "EU backs duties on cold-rolled steel from five countries",
+   "url": "https://metallurgprom.org/en/news/europe/22149-eu-backs-duties-on-cold-rolled-steel-from-five-countries.html",
+   "kaynak": "Metallurgprom",
+   "lead": "EU countries voted to impose definitive anti-dumping duties on imports of cold-rolled flat steel from five countries."
+  },
+  {
+   "anahtar": "piyasa:380785546277695a",
+   "tarih": "2026-11-02",
+   "baslik": "Hoa Phat exports 8,000 tons of galvanized steel sheets to Japan, expanding its international market.",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOa0dIVGQ5Rk9jb09ycmFMSHRkaWlzbngtcmNpX0FIZXNtU2VTNk81d1JyNTdfN2JnV0htakh5VTJybWdENXQ0OTlrN2thdW1qbFdBb21aUy1aV2h0OFdNQ0tzeXRudHZNUXNTVWZQaTAxRFFkMmc3ZmxfTU9ZSzFNdVJqSlFIMzVRQVROT01UWGdVczlZUExUX0RWcVBMTm5kaW5nMg?oc=5",
+   "kaynak": "Vietnam.vn",
+   "lead": "Hoa Phat exports 8,000 tons of galvanized steel sheets to Japan, expanding its international market. &nbsp;&nbsp; Vietnam.vn"
+  },
+  {
+   "anahtar": "piyasa:2a00d4372823eae3",
+   "tarih": "2026-11-02",
+   "baslik": "SunSirs: Constrained by Costs and Weakened Demand, the Market for Color Coated Sheets Was in a Narrow, Stagnant Range Last Week",
+   "url": "https://www.sunsirs.com/commodity-news/petail-37313.html",
+   "kaynak": "Bing News",
+   "lead": "Price Trends According to the commodity market analysis system of SunSirs, the domestic color coated steel sheet market last week remained ..."
+  },
+  {
+   "anahtar": "piyasa:a283e8550a5387e3",
+   "tarih": "2026-11-01",
+   "baslik": "Flat Steel Gets Cheaper as Aisha Steel Slashes Prices",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZWxxdzhEQ0VkM1djSVdGenZCQkJXa1ZsaXpBVTk5dER1cDhDMGpJVGpNemhESHBOWkhRWDZMNk9XajRPZVZrSFQ4NHljYnVkcjBaOHhwblJSeGF1cThubnRqWVRwcjNsXzk5VmktUzVFOWxfcnRrREdGa1JPMFNXT1JiWFlaU0g3LXfSAYoBQVVfeXFMUGVscXc4RENFZDNXY0lXRnp2QkJCV2tWbGl6QVU5OXREdXA4QzBqSVRqTXpoREhwTlpIUVg2TDZPV2o0T2VWa0hUODR5Y2J1ZHIwWjh4cG5SUnhhdXE4bm50allUcHIzbF85OVZpLVM1RTlsX3J0a0RHRmtSTzBTV09SYlhZWlNINy13?oc=5",
+   "kaynak": "ProPakistani",
+   "lead": "Flat Steel Gets Cheaper as Aisha Steel Slashes Prices &nbsp;&nbsp; ProPakistani"
+  },
+  {
+   "anahtar": "piyasa:3f62c43fbeca3704",
+   "tarih": "2026-10-30",
+   "baslik": "Top Players in the Galvanized Steel Silo Market: Fact MR Forecasts US$2.85 Billion by 2036",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNHZPSHE3Zk1SSjk0WmRuUW5VRGo1b1puaFVEUGhTRTB4M0NvU1B3OHBvbERfUTZvdGVXcURFdDVuV3BMcWY3ZFM5ZF81MUNtY1E4QXdlZ2xKX0RxRWk1NEFLcDduX2V0WjUydmFta3NjcTR0aks3VC00SG5yNEh4OV93cVdiYmVZYUpSQXNjWUIzVUc4WUE?oc=5",
+   "kaynak": "openPR.com",
+   "lead": "Top Players in the Galvanized Steel Silo Market: Fact MR Forecasts US$2.85 Billion by 2036 &nbsp;&nbsp; openPR.com"
+  },
+  {
+   "anahtar": "piyasa:2d22b9537430156d",
+   "tarih": "2026-10-29",
+   "baslik": "Grain-Oriented Electrical Steel Market to Reach US$ 15.60",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaTNFVF9ab1pkX0xRaVdYOEZMMUdrYTBpOVU4ckdpNHVTTFkwWExPeWlYNzJCSWRaeVpUN2s0cllFbUczT0U2WHowdFZ6VlNKZ1ZEWWVDNXhGU25ScklPWFE2NTZDVmZKZG93eGUzQ0p4VG9mS0tuMWRpVkFhd0RPR1RCeUNDZkRqV2NuX25tWWxKWGNCcE9R?oc=5",
+   "kaynak": "openPR.com",
+   "lead": "Grain-Oriented Electrical Steel Market to Reach US$ 15.60 &nbsp;&nbsp; openPR.com"
+  },
+  {
+   "anahtar": "piyasa:df2e7719dead4f70",
+   "tarih": "2026-10-27",
+   "baslik": "US tin plate exports down 10.9 percent in August 2026 from July",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/us-tin-plate-exports-down-109-percent-in-august-2026-from-july-1486620.htm",
+   "kaynak": "Bing News",
+   "lead": "According to export data from the US Department of Commerce, US exports of tin plate totaled 2,804 mt in August this year, down 10.9 percent from July and down 24.0 percent from August 2025. By value, ..."
+  },
+  {
+   "anahtar": "piyasa:ff0954b1473979b7",
+   "tarih": "2026-10-22",
+   "baslik": "Tenova advances electrical steel project in India",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOaXBMVzBGTDNldHl4ZVhjYnJ0SS1melljRll4RkpLbW8wNllFLXFDOWJrQmE3MTY0Zm0xNm5aUUcydDNGOGRMTW9VajJZd3R3eWdsVEJWQlRKNHdtNTQ2Y1U4U0VxWDZ5T3hrXzk3V1F4RE4xUHBVOG5pZUcwaGJBdUhZUGN6Z2wxNjdqMWZtX2NYNC1IbTRpdkNYRQ?oc=5",
+   "kaynak": "Machinery Market",
+   "lead": "Tenova advances electrical steel project in India &nbsp;&nbsp; Machinery Market"
+  },
+  {
+   "anahtar": "piyasa:bf2ae0f0e2c552e4",
+   "tarih": "2026-10-22",
+   "baslik": "Apparent consumption of polymer-coated steel is expected to rise by 3% y/y in 2026",
+   "url": "https://gmk.center/en/news/apparent-consumption-of-polymer-coated-steel-is-expected-to-rise-by-3-y-y-in-2026/",
+   "kaynak": "Bing News",
+   "lead": "In the first three quarters of 2026, the figure stood at 264,000 tonnes, whilst imports totalled 163,500 tonnes ..."
+  },
+  {
+   "anahtar": "piyasa:8561001e822ca3e1",
+   "tarih": "2026-10-21",
+   "baslik": "Cleveland-Cliffs links Stelco layoffs in Canada to galvanized steel imports",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObUE5ajFDRGxvNVJGeWtPN3BHc1kwNlZrcVBnckQzRXM3cXFrN3dwSWE1NnJsZkZjRVU3SEliaENoOWMwTHFDRUQ0QXFXRWp6VUVaZDRqSW5YSFZZbmdJODA0MWRvbm12WjVzU1hHa0pLaWJyS01GSjh0T0JjM1llZElfekxxMmJFMTRVNGN5ZlRwd0hOUkpNWjBzMkREdWt5ZE5DekdYbW1ya01CM2stcQ?oc=5",
+   "kaynak": "Yieh Corp.",
+   "lead": "Cleveland-Cliffs links Stelco layoffs in Canada to galvanized steel imports &nbsp;&nbsp; Yieh Corp."
+  },
+  {
+   "anahtar": "piyasa:7028f5fe092413a8",
+   "tarih": "2026-10-16",
+   "baslik": "[SMM Weekly Summary] Weak Demand and Flat Baowu Pricing Policy May Keep Grain-Oriented Silicon Steel Prices in the Doldrums Next Week",
+   "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQVGVJbXlnVGZUenk3ZV9DU1BHTnQ4UEZERi1QX1owN3B2bDV3RlI3REFIQjFoOGZSSXI5YmJmUUtPNC1rQWFyS0xYNXRuTFBzazdqa1hwb1FhVjBQRWV6UXBnWk43WGlDUkhJYi1YM014MkVFT3B0Q09fWkk0RlBIaUVTRTJDMEdTUXBPLTNsa1FfX0ZmSHVkVGoxX3NuaXdmWUxYbUVrZTJHT3k2ZTZEQW51RkZzTE5QVEY5TG1Ocm5IU2ZQOHNEWGVLQk1ZbUxSYVVQTkpXWmNPUldQZnhRX2twQkhMcmxTWXgzV1p3UGVMMzE0ck9HMHVweTd3RG9OSEZrWFBhdw?oc=5",
+   "kaynak": "Shanghai Metals Market",
+   "lead": "[SMM Weekly Summary] Weak Demand and Flat Baowu Pricing Policy May Keep Grain-Oriented Silicon Steel Prices in the Doldrums Next Week &nbsp;&nbsp; Shanghai Metals Market"
+  },
+  {
+   "anahtar": "piyasa:7d13db7cc8732fd4",
+   "tarih": "2026-10-15",
+   "baslik": "[SMM Weekly Summary] Post-Holiday Demand Falls Short of Expectations; Grain-Oriented Silicon Steel Prices May Remain in the Doldrums Next Week",
+   "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNMFBtS2tORS1xbUVuSFF4YnJjMFJxcVZ4aEYxSjZ6YmcyLWdXT0lucWRDSENaN09SWDQ4bnZNQURGSUVNX2JPMVR1NTJiWXNIWG5BNE1YaG9VNDVDX19sMDRIT3dJdEo0S1MzUUtaUU9DQm5LYVpoMXphYzR2bHo3ODRNNllfS3pqYkh6MS1ucnpMVmIyWUJqTTU1RVFrVkRfRFN5SXFZZlJDa1pEVnNEU0Z0TlM3aG5LTjJZNWhBT0xGQTl4bGYyNkxNWEM3QmMxcjRnTUk1a3lHNFh4WUd4OEEycjFfZEhQS2ZDVWlSZzZqUjM3QzJKSU9DOTlqTmRjaVptVEtFRmtQZ2hZSjRIR0Zn?oc=5",
+   "kaynak": "Shanghai Metals Market",
+   "lead": "[SMM Weekly Summary] Post-Holiday Demand Falls Short of Expectations; Grain-Oriented Silicon Steel Prices May Remain in the Doldrums Next Week &nbsp;&nbsp; Shanghai Metals Market"
+  }
+ ],
  "window": [
-  "2026-10-12",
-  "2026-11-02"
+  "2026-10-13",
+  "2026-11-03"
  ],
  "bulunan_kullanilan": 4,
- "bulunan_havuz": 6,
- "rezerv_kullanilan": 2,
- "rezerv_havuz": 29,
+ "bulunan_havuz": 5,
+ "rezerv_kullanilan": 0,
+ "rezerv_havuz": 57,
  "period": "2026-W45",
- "generated": "2026-11-02 17:56 UTC",
+ "generated": "2026-11-03 11:05 UTC",
  "version": "3.0.0"
 }

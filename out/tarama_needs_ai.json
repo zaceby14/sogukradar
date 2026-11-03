@@ -2,6 +2,36 @@
  "donem": "2026-W45",
  "duzelt": [
   {
+   "anahtar": "3a4b6e2a6c086c5e",
+   "baslik": "Kıraç Galvaniz, MSB Askeri Fabrikalar Genel Müdürlüğü’nün Onaylı Tedarikçisi Oldu",
+   "url": "https://www.steelturk.com.tr/kirac-galvaniz-msb-askeri-fabrikalar-genel-mudurlugunun-onayli-tedarikcisi-oldu/",
+   "eksik": [
+    "ulke",
+    "tarih?"
+   ],
+   "mevcut": {
+    "firma": "Kıraç Galvaniz",
+    "ulke": "",
+    "hat": "Galvaniz hatti (CGL)",
+    "asama": "Teknoloji"
+   }
+  },
+  {
+   "anahtar": "872b860afdafbe17",
+   "baslik": "Rotherham steel firm goes greener with £160K investment in panels and batteries",
+   "url": "https://www.msn.com/en-gb/money/general/rotherham-steel-firm-goes-greener-with-160k-investment-in-panels-and-batteries/ar-AA2gEidN",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "mevcut": {
+    "firma": "Rotherham steel firm",
+    "ulke": "",
+    "hat": "Elektrik celigi hatti",
+    "asama": "Belirsiz"
+   }
+  },
+  {
    "anahtar": "3c6ddad628eeb8ca",
    "baslik": "POSCO, Otomotiv Çeliği İçin 359 Milyon Dolarlık Yeni Galvanizleme Hattı Kuruyor",
    "url": "https://www.steelturk.com.tr/posco-otomotiv-celigi-icin-359-milyon-dolarlik-yeni-galvanizleme-hatti-kuruyor/",
@@ -18,105 +48,144 @@
    }
   },
   {
-   "anahtar": "24c572c3d06c307e",
-   "baslik": "Danieli Automation to Supply MES Platform for Ezz Flat Steel Plant",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdU1RMmRXLVpqaWEzNHN4cnhuUlhZajdIMjFfc1VFY0tIT1dQNFlucGVBVGZ0MkpVcW91RHlsREwyUFltVW0yWGlNQzNwVDVUSy1ETXUzNG41TXFGTHJncmI1TXNhS2tVYXJEcDV4Mmt4Mm9KdWJoczNyeDNPWWNqY0FDUU1mUnF1NEZxWm9IQnNoNmtDZnh5U25iMml2TFVGN1E?oc=5",
+   "anahtar": "3a5f3e821a7ebf92",
+   "baslik": "OYAK is planning new investments in the production of electrical steel in Rom...",
+   "url": "https://gmk.center/en/news/oyak-is-planning-new-investments-in-the-production-of-electrical-steel-in-romania/",
    "eksik": [
     "ulke",
-    "hat"
+    "asama",
+    "tarih?"
    ],
    "mevcut": {
-    "firma": "Ezz Flat Steel Plant",
+    "firma": "OYAK",
     "ulke": "",
-    "hat": "Belirsiz",
-    "asama": "Sozlesme"
-   }
-  },
-  {
-   "anahtar": "866a901347e29691",
-   "baslik": "唐山市晟鑫冷轧薄板生产线升级改造项目生态环境影响报告书获批",
-   "url": "https://news.mysteel.com/a/26092109/0A0B14F6D5801083.html",
-   "eksik": [
-    "firma",
-    "ulke"
-   ],
-   "mevcut": {
-    "firma": "",
-    "ulke": "",
-    "hat": "Elektrik celigi hatti",
-    "asama": "Modernizasyon"
-   }
-  },
-  {
-   "anahtar": "6bb3535ceff2b463",
-   "baslik": "Flux Steel Works to build GOES production facility in Ohio",
-   "url": "https://www.steelradar.com/en/haber/flux-steel-works-to-build-goes-production-facility-in-ohio/",
-   "eksik": [
-    "asama"
-   ],
-   "mevcut": {
-    "firma": "Flux Steel Works",
-    "ulke": "ABD",
     "hat": "Elektrik celigi hatti",
     "asama": "Belirsiz"
    }
   },
   {
-   "anahtar": "aac00b6a794a93b5",
-   "baslik": "IMS expands its portfolio with force transducers for precise force measurement under demanding conditions in hot and cold rolling mills",
-   "url": "https://www.ims-gmbh.de/en/2026/10/06/ims-expands-its-portfolio-with-force-transducers-forprecise-force-measurement-under-demandingconditions-in-hot-and-cold-rolling-mills/",
+   "anahtar": "4b961e91d96f2c3f",
+   "baslik": "Erdemir Plans Romania Electrical Steel Capacity Expansion",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSmxzNlIwb1ZJNjFKQmRmdmtmNVRCTkEzRU9IZFVuUGJ4X1hsOTZoQnRNN2ZTVFhfLVU5cG9uOWRpUC1rSDVqSWtnLVd2ZmwyRGVvaDE0RTV3TjJtY3hOQ1Rfa1BLOEdMWC12TmgxTDUzdmE0NUc4S0NGZlJ0RG9mOVN0c1ZMS2JIY2tnVlBYQUZCbDAwTUt6czY4eGJYcTkyOGc?oc=5",
    "eksik": [
-    "ulke"
+    "asama"
    ],
    "mevcut": {
-    "firma": "IMS",
-    "ulke": "",
-    "hat": "Soguk hadde",
-    "asama": "Sozlesme"
+    "firma": "Erdemir",
+    "ulke": "Romanya",
+    "hat": "Elektrik celigi hatti",
+    "asama": "Belirsiz"
    }
   }
  ],
  "cumle_yaz": [
   {
-   "anahtar": "24c572c3d06c307e",
-   "tarih": "2026-09-23",
-   "firma": "Ezz Flat Steel Plant",
-   "ulke": "",
-   "hat": "Belirsiz",
-   "asama": "Sozlesme",
-   "baslik": "Danieli Automation to Supply MES Platform for Ezz Flat Steel Plant",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdU1RMmRXLVpqaWEzNHN4cnhuUlhZajdIMjFfc1VFY0tIT1dQNFlucGVBVGZ0MkpVcW91RHlsREwyUFltVW0yWGlNQzNwVDVUSy1ETXUzNG41TXFGTHJncmI1TXNhS2tVYXJEcDV4Mmt4Mm9KdWJoczNyeDNPWWNqY0FDUU1mUnF1NEZxWm9IQnNoNmtDZnh5U25iMml2TFVGN1E?oc=5"
-  },
-  {
-   "anahtar": "866a901347e29691",
-   "tarih": "2026-09-21",
-   "firma": "",
-   "ulke": "",
-   "hat": "Elektrik celigi hatti",
-   "asama": "Modernizasyon",
-   "baslik": "唐山市晟鑫冷轧薄板生产线升级改造项目生态环境影响报告书获批",
-   "url": "https://news.mysteel.com/a/26092109/0A0B14F6D5801083.html"
-  },
-  {
-   "anahtar": "aac00b6a794a93b5",
-   "tarih": "2026-10-06",
-   "firma": "IMS",
-   "ulke": "",
-   "hat": "Soguk hadde",
-   "asama": "Sozlesme",
-   "baslik": "IMS expands its portfolio with force transducers for precise force measurement under demanding conditions in hot and cold rolling mills",
-   "url": "https://www.ims-gmbh.de/en/2026/10/06/ims-expands-its-portfolio-with-force-transducers-forprecise-force-measurement-under-demandingconditions-in-hot-and-cold-rolling-mills/"
-  },
-  {
-   "anahtar": "dde7adab1615e8c7",
-   "tarih": "2026-09-03",
-   "firma": "Primetals",
-   "ulke": "Cin",
-   "hat": "Tandem soguk hadde (TCM)",
-   "asama": "Sozlesme",
-   "baslik": "Primetals secures PLTCM automation order",
-   "url": "https://www.steeltimesint.com/news/primetals-secures-pltcm-automation-order"
+   "anahtar": "3705534b48675072",
+   "tarih": "2026-09-25",
+   "firma": "ABS",
+   "ulke": "Italya",
+   "hat": "Dilme / boy kesme / SSC",
+   "asama": "Ilk urun",
+   "baslik": "Italy's ABS Opens Special Steel Service Center in Sweden",
+   "url": "https://news.metal.com/en/newscontent/104134675-italys-abs-opens-special-steel-service-center-in-sweden"
   }
  ],
- "teknoloji_adaylari": []
+ "teknoloji_adaylari": [
+  {
+   "anahtar": "tech:3a4b6e2a6c086c5e",
+   "tarih": "2026-11-03",
+   "baslik": "Kıraç Galvaniz, MSB Askeri Fabrikalar Genel Müdürlüğü’nün Onaylı Tedarikçisi Oldu",
+   "url": "https://www.steelturk.com.tr/kirac-galvaniz-msb-askeri-fabrikalar-genel-mudurlugunun-onayli-tedarikcisi-oldu/",
+   "kaynak": "SteelTurk",
+   "hat": "Galvaniz hatti (CGL)"
+  },
+  {
+   "anahtar": "tech:3bb113dd1d100448",
+   "tarih": "2026-10-19",
+   "baslik": "European coil and green steel round-up: EU coil largely stable on slow apparent demand",
+   "url": "https://eurometal.net/european-coil-and-green-steel-round-up-eu-coil-largely-stable-on-slow-apparent-demand/",
+   "kaynak": "Bing News",
+   "hat": "Belirsiz"
+  },
+  {
+   "anahtar": "tech:6bff1f3f9ec2ba5b",
+   "tarih": "2026-10-15",
+   "baslik": "KCC develops color steel coating that lasts up to 30 years",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5PRmZ2MXNtUkQ1RXBFT283c2UyRHlUTEdYcVl3bFVaYldmZGVSUWlzcmxMUGJnSzhLcW9SSndUa3VhOUk4SXVNZjlEUkdpbHJsRGRmMDdR?oc=5",
+   "kaynak": "헤럴드경제",
+   "hat": "Belirsiz"
+  },
+  {
+   "anahtar": "tech:45c439b08bc58b50",
+   "tarih": "2026-10-15",
+   "baslik": "ArcelorMittal commits €300 million to Dunkirk steel project, targets spring 2027 tests for new line in Mardyck",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/arcelormittal-advances-dunkirk-eaf-and-mardyck-electrical-steel-projects-1483903.htm",
+   "kaynak": "Bing News",
+   "hat": "Elektrik celigi hatti"
+  },
+  {
+   "anahtar": "tech:f809e9cc4543b4aa",
+   "tarih": "2026-10-14",
+   "baslik": "KG Steel pushes to expand AI usage rate at annealing furnace to over 80%",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB1dExHc2VaMEVwUWh5dkt2ZmlNSWFUS1l5eGtjVnRlYWpSTGxKZFpBaEZRY3NaSmV3eGZlZVZhNjYzWnVnYVBVYmtxQTJxR04xQ2dETUNR?oc=5",
+   "kaynak": "헤럴드경제",
+   "hat": "Surekli tavlama (CAL)"
+  },
+  {
+   "anahtar": "tech:e82b221fc2986888",
+   "tarih": "2026-10-05",
+   "baslik": "Turkey's Isdemir develops high-quality steel production for defense industry and electrical steel",
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMW13SGRFangyUGg2dkFBMDJ0aUFSSVljX0gxbXFZMng2OWRYY1hqLThqYVNtaDJzMUlvanBROE02MXZMTktNNG4zU3AzdHZzVUlxRVpXUlZRVzQ0eUhKamhRU2dyMHh4RkdDcGEtYXMzRmQ1eEE5aV9GWTJkZmhCeTZCRzE3ZG5VZS1pdEZnaXBGNzZ1WGl1WUxTeUNIVEY2UzJTN1MtZ0RvbnFNc0NzNUJtWl9YX0J6Y0FMQlh1cTUzRzdMZ3dNbE9zQXU2a1NTVGVUeEwybnR1M2VQcmtaaEFQb2RhWTVSTjdxMXdGRQ?oc=5",
+   "kaynak": "Steel Orbis",
+   "hat": "Elektrik celigi hatti"
+  },
+  {
+   "anahtar": "tech:291e32d7546a5fb3",
+   "tarih": "2026-09-08",
+   "baslik": "EGGA Supports the European Convoy for Industrial CompetitivenessEGGA-Galvanizing Europe had supported the “European Convoy for Industrial Competitiveness” in Brussels on",
+   "url": "https://www.galvanizingeurope.org/egga-supports-the-european-convoy-for-industrial-competitiveness/",
+   "kaynak": "Galvanizing Europe",
+   "hat": "Galvaniz hatti (CGL)"
+  },
+  {
+   "anahtar": "tech:8384bd252bd440d2",
+   "tarih": "2026-08-20",
+   "baslik": "Vietnam's Hoa Sen launches new alloy-coated steel with enhanced corrosion resistance",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxONTQ5NWhFSl9fd0xXVTk3UjNhakc1NE5XYUJfQWdkdEJGUV9FeUZhakVKdERZRWJUZjg2ck5yM0Nlb0JmU3FvczJQdGZhYy1CdVduWDBjdXJxX25ZY3duOENieFhTUzQzTGsxWDg4ZjJTaTFJSzd4UXdyNTd3VWtBaEFoeHBvZ0g1Y2htVlRScFB2Q3pEV0NubFdjdzdIbnYwbVJjRHdHYWpvS3NlUW1jNmM1bU05Y3J2Mk9RMlVuamFwRl9XQkpwWDhDUm5LVzBUYUEzUjFnNzhHZkdTbnc?oc=5",
+   "kaynak": "SteelOrbis",
+   "hat": "Belirsiz"
+  },
+  {
+   "anahtar": "tech:28459cdd0c32da5c",
+   "tarih": "2026-08-12",
+   "baslik": "Primetals Technologies to modernize KG Steel's Dangjin cold mill with AI-driven automation upgrade",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNalhvamNnNE1IYTlnbFBWLVEtZXNmNWhmeEFuaFN3Qk1oOExtSmN6NWYxSURMdm9kcWNJNTFlcDBvN21FUUFQbFJSOEM2ZzA1NE1OTWZDekJWYm5UNklGaWc1QmRvOEhyS0lBbDdQUFN6WTZYQnQ5RVdEai1ZV1lWZVByZVBBWmkzblg3eTFiYXN0R3FIVF9EUHdqQndWSlMzcmg2TU9KNkJIRG5UNU9oc1lsREN4eE9fZTMwS0dxLUhPT3U1YXpYQ1hmN3VjZw?oc=5",
+   "kaynak": "Yieh Corp.",
+   "hat": "Soguk hadde"
+  },
+  {
+   "anahtar": "tech:3b9e0ba3d7e53ee3",
+   "tarih": "2026-07-09",
+   "baslik": "Posco and Hyundai develop novel electrical steel for more efficient electric motors",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNVV0U1otMkFRbUphNHRvMDBVdWFEVjVKN0FYV2tNdWZhWVB0TldhN0QxeDJtLU51ci1CLVFid0NTT21DSFVCMmw3a2ZyUTB6YUxkQ1hmcGZ5T05pOUdLbUxjMDdTX2IyZ0tfdnZaSVA5aW41dHhURFpvZUJKbUxiVDBjTUNCMXdfLUJIMXdsdl9VNktxeXVDeFlyNThjZHFXVUJwRXctZTJuWjduaEE3NFBmclFyYTdMNzNzM2lR?oc=5",
+   "kaynak": "electrive.com",
+   "hat": "Elektrik celigi hatti"
+  },
+  {
+   "anahtar": "tech:598247fd0170db4b",
+   "tarih": "2026-07-07",
+   "baslik": "POSCO and Hyundai partner to develop 6.5% silicon electrical steel for EV motors",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWENTOUgzZFMzQjhaRlJnWmdEY3RMVmhLR25rYnFHd1JrLTQtRDJ3NVZvWTN6UjN2QUpfVXBuM1c5QklYQlNJYUQwY1pVdjhKb19xTEZXX3NRYmZNUVRyVEFuX3RNSm15N3ZrWm5nTm1XMExRUDBpVElLQ0Z2dzFjcmRkQ0xva1ktQTJZTlRnemg0NzVsZ3pUVGNUT3YyNGYweXdVRUdZdVpDX2ZEY19PdGlB?oc=5",
+   "kaynak": "Charged EVs",
+   "hat": "Elektrik celigi hatti"
+  },
+  {
+   "anahtar": "tech:467101f419b87401",
+   "tarih": "2026-06-23",
+   "baslik": "YEST Expected to Benefit as High-Pressure Hydrogen Annealing Is Considered for 1d-Nanometer DRAM",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5VTGdkNHpKakxDbGFfbmQwYmlndWp6T1lNdERfRHBIaElQWGhic3dDU2lvYWpYVmIyX1M3XzJqOHJrRWVyWTdqQlAzSzI2N2t2bW8xN3JtMTFjU1Q2N01FdVdQQmkwQkk?oc=5",
+   "kaynak": "THE ELEC, Korea Electronics Industry Media",
+   "hat": "Belirsiz"
+  }
+ ]
 }
