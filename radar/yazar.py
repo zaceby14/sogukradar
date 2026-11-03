@@ -141,13 +141,15 @@ KESİN KURALLAR (ihlal edilen cümle otomatik reddedilir ve yerine kuralsal cüm
 3. Özel adları (firma, tedarikçi) kaynakta yazıldığı gibi koru; Türkçe ek alacaksa kesme işaretiyle ayır.
 4. Tarih yazma (tarih ayrı bir sütunda). Yorum, tahmin, pazarlama dili ekleme.
 5. Haberin birden çok kaynağı varsa ('ilgili_basliklar') bunları tek olay olarak, kaynaklardaki bilgileri birleştirerek anlat.
+7. PİYASA GÜNDEMİ: 'piyasa_adaylari' listesinden, Türkiye'deki bir soğuk haddehane yöneticisi için EN ÖNEMLİ en fazla 3 tanesini seç (önem sırasıyla): Türkiye/AB'yi doğrudan etkileyen ticaret önlemleri, soğuk taraf ürün fiyat/talep değişimleri, kapasite/arz şokları. Aynı konuyu iki kez seçme. Yalnızca listedeki id'leri kullan; özet yalnız başlık ve özet metindeki bilgiye dayansın.
+8. Okuyucu geri bildirimi verildiyse ('tercih_ozeti') seçim ve vurguda dikkate al.
 6. Bir haber kapsam dışıysa cümle yazma, 'supheli' listesine gerekçesiyle ekle. SADECE açıkça kapsam dışı olanı işaretle; emin değilsen işaretleme.
 
 ÇIKTI: yalnızca şu JSON nesnesi, başka hiçbir şey:
-{"cumleler": {"<id>": "Türkçe cümle"}, "ozet": "Haftanın 2-4 cümlelik Türkçe özeti (yalnızca verilen haberlerden)", "supheli": [{"id": "<id>", "neden": "kısa gerekçe"}], "teknoloji": "Teknoloji köşesi maddesi varsa: 1-2 cümle, yalnızca başlıktaki bilgiyle, ne olduğunu ve hangi hat/prosese yönelik olduğunu anlatan Türkçe tanıtım; yoksa boş"}"""
+{"cumleler": {"<id>": "Türkçe cümle"}, "ozet": "Haftanın 2-4 cümlelik Türkçe özeti (yalnızca verilen haberlerden)", "supheli": [{"id": "<id>", "neden": "kısa gerekçe"}], "piyasa": [{"id": "<piyasa id>", "cumle": "1-2 cümlelik Türkçe özet"}], "teknoloji": "Teknoloji köşesi maddesi varsa: 1-2 cümle, yalnızca başlıktaki bilgiyle, ne olduğunu ve hangi hat/prosese yönelik olduğunu anlatan Türkçe tanıtım; yoksa boş"}"""
 
 
-def _kullanici(rows, stats, tech=None):
+def _kullanici(rows, stats, tech=None, piyasa_ad=None, tercih_ozeti=""):
     liste = []
     for r in rows:
         liste.append({
@@ -161,6 +163,13 @@ def _kullanici(rows, stats, tech=None):
             "katman": r.get("kategori", "")})
     metin = ("Bu haftanın haberleri (%d adet):\n%s" %
              (len(liste), json.dumps(liste, ensure_ascii=False, indent=1)))
+    if piyasa_ad:
+        metin += "\n\npiyasa_adaylari:\n" + json.dumps(
+            [{"id": m["anahtar"], "baslik": m.get("baslik", ""), "ozet_metin": (m.get("lead") or "")[:300],
+              "kaynak": m.get("kaynak", ""), "tarih": m.get("tarih", ""), "konu": m.get("konu", ""),
+              "on_puan": m.get("puan")} for m in piyasa_ad], ensure_ascii=False, indent=1)
+    if tercih_ozeti:
+        metin += "\n\ntercih_ozeti: " + tercih_ozeti
     if tech:
         metin += ("\n\nTeknoloji köşesi maddesi:\n" + json.dumps(
             {"baslik": tech.get("baslik", ""), "ozet_metin": (tech.get("lead") or "")[:420],
@@ -171,6 +180,15 @@ def _kullanici(rows, stats, tech=None):
 # ----------------------------------------------------------------------
 # ANA AKIS
 # ----------------------------------------------------------------------
+PIYASA_N = 3
+
+
+def _piyasa_maddesi(m, metin):
+    return {"anahtar": m["anahtar"], "tarih": m.get("tarih", ""), "baslik": m.get("baslik", ""),
+            "metin": metin, "url": m.get("url", ""), "kaynak": m.get("kaynak", ""),
+            "konu": m.get("konu", ""), "urun": m.get("urun", "")}
+
+
 def ozet_hazirla(payload, log=print):
     """ozet.json uyumlu sozluk dondurur. LLM yoksa ya da basarisizsa kuralsal."""
     rows = payload["rows"]
@@ -192,6 +210,9 @@ def ozet_hazirla(payload, log=print):
             "konu": t.get("baslik", ""), "metin": compose.tech_blurb(t),
             "url": t.get("url", "")})
 
+    piyasa_ad = payload.get("piyasa_adaylari") or []
+    ozet["piyasa"] = [_piyasa_maddesi(m, m.get("baslik", "")) for m in piyasa_ad[:PIYASA_N]]
+
     if not rows or not llm.saglayicilar():
         if rows:
             ozet["ai_kontrol"].append(
@@ -200,8 +221,9 @@ def ozet_hazirla(payload, log=print):
         ozet["_rapor"] = rapor
         return ozet
 
-    veri, saglayici, hatalar = llm.json_iste(SISTEM, _kullanici(rows, stats, tech[0] if tech else None),
-                                             log=log)
+    veri, saglayici, hatalar = llm.json_iste(
+        SISTEM, _kullanici(rows, stats, tech[0] if tech else None, piyasa_ad,
+                           payload.get("tercih_ozeti", "")), log=log)
     rapor["llm_hatalar"] = hatalar
     if not veri:
         # Ham hata metni bultene GIRMEZ (okuyucu icin anlamsiz); ayrinti
@@ -229,6 +251,25 @@ def ozet_hazirla(payload, log=print):
             rapor["reddedilen_cumle"].append(
                 {"baslik": r.get("baslik", "")[:80], "neden": neden})
             log("    cumle reddedildi (%s): %s" % (neden, r.get("baslik", "")[:50]))
+
+    # --- piyasa gundemi: LLM SECER (yalniz verilen id'ler), ozet dogrulanir
+    secim = [x for x in (veri.get("piyasa") or []) if isinstance(x, dict)]
+    by_p = {m["anahtar"]: m for m in piyasa_ad}
+    yeni = []
+    for x in secim:
+        m = by_p.get(x.get("id"))
+        if not m or any(y["anahtar"] == m["anahtar"] for y in yeni):
+            continue
+        cum = x.get("cumle") if isinstance(x.get("cumle"), str) else ""
+        kay = " ".join([m.get("baslik", ""), m.get("lead", ""), m.get("kaynak", "")])
+        ok, neden = cumle_dogrula(cum, kay) if cum else (False, "bos")
+        if not ok and cum:
+            rapor["reddedilen_cumle"].append({"baslik": "(piyasa) " + m.get("baslik", "")[:60], "neden": neden})
+        yeni.append(_piyasa_maddesi(m, cum.strip() if ok else m.get("baslik", "")))
+        if len(yeni) >= PIYASA_N:
+            break
+    if yeni:
+        ozet["piyasa"] = yeni
 
     # --- teknoloji kosesi metni: yalniz basliga/ozete SADIK ise
     tk = veri.get("teknoloji")

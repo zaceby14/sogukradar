@@ -1986,6 +1986,86 @@ def test_kose_adayi_soguk_taraf_kaniti():
             os.environ["RADAR_BAGLANTI"] = eski
 
 
+def test_piyasa_gundemi_ve_geri_bildirim():
+    """2026-11-03: piyasa gundemi bolumu (2-3 madde, en onemliler) ve okuyucu
+    geri bildirimi (Faydali/Ilgisiz -> tercih agirligi -> siralama bonusu)."""
+    import os
+    from . import piyasa, tercih, yazar, llm, render
+    bugun = dt.date.today()
+    g = lambda n: (bugun - dt.timedelta(days=n)).isoformat()
+    # --- kapi
+    eq(piyasa.piyasa_mi("EU electrical steel curbs raise stakes for Europe's grid"), True, "AB elektrik celigi onlemi")
+    eq(piyasa.piyasa_mi("Turkish HDG prices stable amid weak demand"), True, "Turkiye HDG fiyat")
+    eq(piyasa.piyasa_mi("China rebar prices fall"), False, "uzun urun degil")
+    eq(piyasa.piyasa_mi("POSCO shares rise after galvanizing plant news"), False, "borsa degil")
+    eq(piyasa.piyasa_mi("Electrical steel market size to reach USD 60 billion by 2030"), False, "pazar raporu degil")
+    # --- onem: Turkiye + koruma onlemi, Cin fiyat haberinin onunde
+    ad = [{"anahtar": "p1", "tarih": g(2), "baslik": "China CRC prices edge up", "kaynak": "Google News"},
+          {"anahtar": "p2", "tarih": g(3), "baslik": "EU safeguard quota for cold rolled coil exhausted for Turkey", "kaynak": "Kallanish"}]
+    sira = piyasa.sirala([dict(x) for x in ad], bugun, {})
+    eq(sira[0]["anahtar"], "p2", "Turkiye/AB koruma onlemi once")
+    # --- havuz: gonderilmis ve eski dusulur, tekrarsiz
+    st = {"piyasa_seen": {"p3": g(10)}, "piyasa_rezerv": [
+        {"anahtar": "p3", "tarih": g(5), "baslik": "Turkish galvanized coil prices rise"},
+        {"anahtar": "p4", "tarih": g(40), "baslik": "EU HDG prices fall on weak demand"}]}
+    h = piyasa.havuz_guncelle(st, ad, bugun)
+    eq(sorted(m["anahtar"] for m in h), ["p1", "p2"], "gonderilen ve eski piyasa maddesi dusulur")
+    # --- geri bildirim: kod -> ozellik -> agirlik -> bonus
+    st = {}
+    r1 = {"anahtar": "h1", "baslik": "x", "hat": "Galvaniz hatti (CGL)", "asama": "Sozlesme", "ulke": "Turkiye"}
+    r2 = {"anahtar": "h2", "baslik": "y", "hat": "Asitleme hatti", "asama": "Sozlesme"}
+    tercih.kaydet_gonderilen(st, [(r1, "haber"), (r2, "haber")])
+    k1, k2 = tercih.kod("h1"), tercih.kod("h2")
+    n = tercih.uygula(st, [("+", k1, "a@erdemir.com.tr"), ("+", k1, "b@gmail.com"),
+                           ("+", k1, "a@erdemir.com.tr"), ("-", k2, "a@erdemir.com.tr"), ("+", "yokkod0000", "x@y")])
+    eq(n, 3, "ayni kisinin ikinci oyu ve bilinmeyen kod sayilmaz; FARKLI kisiler ayri sayilir")
+    yeni_galv = {"hat": "Galvaniz hatti (CGL)", "asama": "Insaat", "ulke": "Turkiye"}
+    yeni_asit = {"hat": "Asitleme hatti", "asama": "Insaat"}
+    eq(tercih.bonus(yeni_galv, "haber", st) > 0 > tercih.bonus(yeni_asit, "haber", st) - 0.01, True,
+       "begenilen tur artar, begenilmeyen azalir")
+    st["tercih"]["hat:Galvaniz hatti (CGL)"] = 10
+    st["tercih"]["ulke:Turkiye"] = 10
+    eq(tercih.bonus(yeni_galv, "haber", st) <= tercih.BONUS_SINIR, True, "bonus sinirli (kapsami bozamaz)")
+    eq(tercih._KOD.findall("Re: SR+ " + k1), [("+", k1)], "konu satirindan kod okunur")
+    # --- yazar: LLM yalniz verilen id'leri secer; yoksa kuralsal ilk 3
+    payload = {"rows": [dict(r1, kategori="Hat", kaynak="k", url="u", tarih=g(1), lead="")],
+               "stats": {"ham": 999}, "tech_pool": [], "piyasa_adaylari": sira}
+    eski = (llm.json_iste, os.environ.get("RADAR_LLM"), os.environ.get("ANTHROPIC_API_KEY"))
+    try:
+        os.environ["RADAR_LLM"] = "yok"
+        oz = yazar.ozet_hazirla(payload, log=lambda *a: None)
+        eq([m["anahtar"] for m in oz["piyasa"]], ["p2", "p1"], "LLM yokken kural sirasi")
+        os.environ.pop("RADAR_LLM", None)
+        os.environ["ANTHROPIC_API_KEY"] = "x"
+        llm.json_iste = lambda s_, k, log=print: ({"cumleler": {}, "piyasa": [
+            {"id": "uydurma", "cumle": "Uydurma bir piyasa haberi, bunun bultene girmemesi gerekir."},
+            {"id": "p1", "cumle": "Çin'de soğuk haddelenmiş sac (CRC) fiyatları hafif yükseldi."}]}, "anthropic", [])
+        oz = yazar.ozet_hazirla(payload, log=lambda *a: None)
+        eq([m["anahtar"] for m in oz["piyasa"]], ["p1"], "LLM yalniz listedeki id'yi secebilir")
+        eq("fiyatları" in oz["piyasa"][0]["metin"], True, "dogrulanan Turkce ozet kullanildi")
+    finally:
+        llm.json_iste = eski[0]
+        for k, v in (("RADAR_LLM", eski[1]), ("ANTHROPIC_API_KEY", eski[2])):
+            if v is None:
+                os.environ.pop(k, None)
+            else:
+                os.environ[k] = v
+    # --- posta: piyasa bolumu ve oy baglantilari
+    eski_a = os.environ.get("RADAR_GERI_ADRES")
+    try:
+        os.environ["RADAR_GERI_ADRES"] = "bulten@example.com"
+        pl = {"rows": payload["rows"], "stats": {"kaynak": 1}, "window": [g(21), g(0)], "period": "x"}
+        html_ = render.email_html(pl, {"piyasa": oz["piyasa"], "cumleler": {}, "exec": "e"}, [], 1)
+        eq("Piyasa Gündemi" in html_, True, "piyasa bolumu var")
+        eq(("mailto:bulten@example.com?subject=SR%2B%20" + k1) in html_, True, "haber satirinda Faydali baglantisi")
+        eq("SR-%20" in html_, True, "Ilgisiz baglantisi")
+    finally:
+        if eski_a is None:
+            os.environ.pop("RADAR_GERI_ADRES", None)
+        else:
+            os.environ["RADAR_GERI_ADRES"] = eski_a
+
+
 def test_w40_editorsuz_cop_kumeleme():
     """2026-11-02: editorsuz cikan ilk bulten (2026-W40) 14 satirdi, yarisi cop.
 
@@ -3496,6 +3576,7 @@ def run():
                test_v20_indiana_hindistan_degil,
                test_w40_editorsuz_cop_kumeleme,
                test_yazar_dogrulayici_ve_llm_yedegi,
+               test_piyasa_gundemi_ve_geri_bildirim,
                test_kose_adayi_soguk_taraf_kaniti,
                test_kose_havuzu_ve_urun_duyurusu,
                test_ayni_tedarikci_farkli_musteri_tekrar_degil,

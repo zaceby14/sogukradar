@@ -36,6 +36,13 @@ jobs:
           python -m radar selftest
           python tests/e2e_offline.py
 
+      - name: Geri bildirimleri oku
+        continue-on-error: true
+        env:
+          MAIL_USER: ${{ secrets.MAIL_USER }}
+          MAIL_PASS: ${{ secrets.MAIL_PASS }}
+        run: python -m radar geri-bildirim
+
       - name: Gunluk tarama
         env:
           RADAR_WINDOW_DAYS: "21"

@@ -74,6 +74,14 @@ def cmd_run(a):
 
     payload = collect.collect(today=today)
     rows = score.rank(payload["rows"], payload["kinds"], today)
+    # OKUYUCU TERCIHI (2026-11-03): begeni/begenmeme agirliklari SINIRLI bonus
+    # olarak eklenir; kapsam degismez, yalniz sira (ve dolayisiyla secim).
+    from . import tercih as _tercih
+    _st_t = state.load()
+    if _st_t.get("tercih"):
+        for r in rows:
+            r["puan"] = round(r.get("puan", 0) + _tercih.bonus(r, "haber", _st_t), 2)
+        rows.sort(key=lambda r: -r.get("puan", 0))
 
     # OLAY KUMELEME (2026-11-02). Ayni olayin birden cok satiri tek satira
     # iner; gonderilmis habere karsi yalniz DAHA ILERI asama gecer. Gerekce
@@ -198,6 +206,8 @@ def cmd_run(a):
                          if r["anahtar"] not in st["seen"]]
         st["tech_rezerv"] = [t for t in (st_r.get("tech_rezerv") or [])
                              if t["anahtar"] not in st.get("tech_seen", {})]
+        from . import piyasa as _piyasa
+        _piyasa.havuz_guncelle(st, payload.get("piyasa_pool") or [], today)
         st["periods"] = (st.get("periods") or []) + [{
             "donem": per, "satir": len(payload["rows"]),
             "uretim": payload["generated"], "stats": payload["stats"]}]
@@ -681,7 +691,7 @@ def _yaz(payload, doc, tech, base, email_yolu):
         f.write(render.email_html(payload, doc, tech, sayi))
 
 
-def _isaretle(payload, tech, donem=None):
+def _isaretle(payload, tech, donem=None, piyasa=None):
     """Giden bulteni hafizaya yazar: seen, events, son_basliklar, tech_seen.
 
     donem verilirse 'gonderilen_donemler'e de eklenir - YALNIZ otomatik hat
@@ -694,6 +704,13 @@ def _isaretle(payload, tech, donem=None):
     for t in tech or []:
         if t.get("anahtar"):
             st3["tech_seen"][t["anahtar"]] = t.get("tarih", "")
+    for m in piyasa or []:
+        if m.get("anahtar"):
+            st3.setdefault("piyasa_seen", {})[m["anahtar"]] = m.get("tarih", "")
+    from . import tercih as _tercih
+    _tercih.kaydet_gonderilen(st3, [(r, "haber") for r in payload["rows"]]
+                              + [(t, "teknoloji") for t in (tech or [])]
+                              + [(m, "piyasa") for m in (piyasa or [])])
     for r in payload["rows"]:
         if r.get("anahtar"):
             st3["seen"][r["anahtar"]] = r.get("tarih", "")
@@ -935,6 +952,11 @@ def cmd_otomatik(a):
     for ad, neden in elenen:
         print("  satir cikarildi (%s): %s" % (neden, ad[:70]))
     payload["tech_pool"] = _kose_adaylari(payload, st)
+    from . import piyasa as _piyasa, tercih as _tercih
+    _st_kopya = json.loads(json.dumps(st))          # deneme hafizaya yazmasin
+    payload["piyasa_adaylari"] = _piyasa.sirala(
+        _piyasa.havuz_guncelle(_st_kopya, payload.get("piyasa_pool") or [], bugun), bugun, st)
+    payload["tercih_ozeti"] = _tercih.ozet_metni(st)
     doc = yazar.ozet_hazirla(payload)
     rapor = doc.pop("_rapor", {})
     # CINCE/JAPONCA BASLIKLI SATIR yalniz DOGRULANMIS Turkce cumleyle girer
@@ -982,7 +1004,8 @@ def cmd_otomatik(a):
     _w(os.path.join(OUT, "karar.json"), karar)
     # isaretleme icin bu hafta KESINLESEN satirlar + teknoloji
     _w(os.path.join(OUT, "karar_satirlar.json"),
-       {"donem": per, "rows": payload["rows"], "tech": tech})
+       {"donem": per, "rows": payload["rows"], "tech": tech,
+        "piyasa": doc.get("piyasa") or []})
     print("\notomatik %s: %d satir | yazar: %s (LLM cumle %d, kuralsal %d, reddedilen %d)"
           % (per, len(payload["rows"]), rapor.get("saglayici") or "kuralsal",
              rapor.get("cumle_llm", 0), rapor.get("cumle_kuralsal", 0),
@@ -1016,7 +1039,29 @@ def cmd_isaretle(a):
     if d.get("donem") != karar.get("donem"):
         print("HATA: karar ve satir dosyasi farkli donemlerden")
         return 1
-    _isaretle({"rows": d["rows"]}, d.get("tech") or [], donem=d["donem"])
+    _isaretle({"rows": d["rows"]}, d.get("tech") or [], donem=d["donem"],
+              piyasa=d.get("piyasa") or [])
+    return 0
+
+
+def cmd_geri_bildirim(a):
+    """Gonderen Gmail kutusundan SR+/SR- oylarini okur ve tercih agirliklarini gunceller."""
+    from . import tercih
+    u, p = os.environ.get("MAIL_USER"), os.environ.get("MAIL_PASS")
+    if not (u and p):
+        print("geri bildirim: MAIL_USER/MAIL_PASS yok, atlandi")
+        return 0
+    try:
+        oylar = tercih.imap_oku(u, p)
+    except Exception as e:
+        print("geri bildirim okunamadi (IMAP): %s: %s" % (type(e).__name__, str(e)[:120]))
+        return 0
+    st = state.load()
+    n = tercih.uygula(st, oylar)
+    state.save(st)
+    w = st.get("tercih") or {}
+    print("geri bildirim: %d yeni oy islendi; en guclu tercihler: %s" % (n, ", ".join(
+        "%s=%+d" % kv for kv in sorted(w.items(), key=lambda kv: -abs(kv[1]))[:8]) or "-"))
     return 0
 
 
@@ -1161,6 +1206,7 @@ def main(argv=None):
     o.set_defaults(fn=cmd_otomatik)
     sub.add_parser("isaretle").set_defaults(fn=cmd_isaretle)
     sub.add_parser("llm-test").set_defaults(fn=cmd_llm_test)
+    sub.add_parser("geri-bildirim").set_defaults(fn=cmd_geri_bildirim)
     sub.add_parser("yoklama").set_defaults(fn=lambda a: (__import__("radar.yoklama", fromlist=["x"]).yokla(), 0)[1])
     nb = sub.add_parser("nobet")
     nb.add_argument("--today")

@@ -357,6 +357,21 @@ Posta yalnız son gerçek gönderimden 7 gün geçince gider (`cli.DONGU_GUN`,
 Sessizlik bekçisi eşiği 14 gün. Kümede yayıncının kendi linki Google/Bing
 yönlendirmesine tercih edilir.
 
+## 4n. Piyasa Gündemi ve okuyucu geri bildirimi (2026-11-03)
+
+**Piyasa Gündemi** (`radar/piyasa.py`): ana listenin kapsamı değişmez. Soğuk taraf ÜRÜNÜ
+(CRC, HDG/kaplamalı, boyalı, teneke, elektrik çeliği, yassı) + piyasa KONUSU (koruma önlemi,
+fiyat, talep, ithalat/ihracat) içeren, tarihi beslemeden gelen başlıklar ayrı havuza
+(`state.piyasa_rezerv`, 21 gün) alınır. Önem puanı: ürün + konu + bölge (Türkiye 5, AB 3)
++ kaynak + tazelik + okuyucu tercihi. Gemini en önemli 3'ünü yalnız listeden seçer ve
+doğrulamalı özetler; yoksa kural sırası. Gönderilen madde `piyasa_seen`.
+
+**Geri bildirim** (`radar/tercih.py`): her maddede "Faydalı / İlgisiz" mailto bağlantısı
+(konu `SR+ <kod>` / `SR- <kod>`). Herkes tıklayabilir; kişi başı madde başı bir oy.
+`radar geri-bildirim` gönderen Gmail kutusunu IMAP ile okur, oyu maddenin özelliklerine
+(bölüm, hat, aşama, ülke, kaynak, ürün, konu) dağıtır (`state.tercih`, ±10). Sıralamaya
+en fazla ±12 puan bonus; kapsamı değiştiremez. Tercih özeti Gemini'ye de verilir.
+
 ## 4e. Otonomi: sistem sensiz çalışır
 
 ```

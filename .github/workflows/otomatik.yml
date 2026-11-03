@@ -86,6 +86,15 @@ jobs:
             echo '```'
           } 2>&1 | tee -a $GITHUB_STEP_SUMMARY
 
+      # OKUYUCU GERI BILDIRIMI (2026-11-03): bultendeki Faydali/Ilgisiz oylari
+      # gonderen Gmail kutusundan okunur, tercih agirliklari guncellenir.
+      - name: Geri bildirimleri oku
+        continue-on-error: true
+        env:
+          MAIL_USER: ${{ secrets.MAIL_USER }}
+          MAIL_PASS: ${{ secrets.MAIL_PASS }}
+        run: python -m radar geri-bildirim | tee -a $GITHUB_STEP_SUMMARY
+
       - name: Tam tarama
         env:
           RADAR_WINDOW_DAYS: "21"
@@ -100,6 +109,8 @@ jobs:
 
       - name: Otomatik editor ve kalite kapisi
         id: karar
+        env:
+          RADAR_GERI_ADRES: ${{ secrets.MAIL_USER }}
         run: |
           ARGS=""
           if [ "$DENEME" = "true" ] || [ "${{ steps.test.outcome }}" != "success" ]; then

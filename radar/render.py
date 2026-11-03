@@ -261,6 +261,19 @@ def _dmy(iso):
         return iso
 
 
+def _oy(madde):
+    """Faydali/Ilgisiz mailto baglantilari (RADAR_GERI_ADRES tanimliysa)."""
+    import os
+    from . import tercih
+    adres = os.environ.get("RADAR_GERI_ADRES") or ""
+    if not adres or not madde.get("anahtar"):
+        return ""
+    return ('<span style="white-space:nowrap;font-size:11px;"> &nbsp;'
+            '<a href="%s" style="color:#2e7d32;text-decoration:none;">&#128077; Faydalı</a>'
+            ' &nbsp;<a href="%s" style="color:#9a3b3b;text-decoration:none;">&#128078; İlgisiz</a>'
+            '</span>' % (_e(tercih.mailto(adres, madde, "+")), _e(tercih.mailto(adres, madde, "-"))))
+
+
 def email_html(payload, ozet=None, tech_items=None, sayi=1):
     """Posta govdesi. Tum stiller satir icidir (posta istemcileri harici
     CSS'i budar). ozet: {'exec':..., 'cumleler':{anahtar:cumle}} - yoksa
@@ -329,10 +342,11 @@ def email_html(payload, ozet=None, tech_items=None, sayi=1):
         for t in tech_items:
             h.append('<tr><td style="padding:0 0 10px;"><b>%s</b><br>'
                      '<span style="color:#3d4450;">%s</span> '
-                     '<a href="%s" style="color:#12457a;font-size:11px;">kaynak →</a>'
+                     '<a href="%s" style="color:#12457a;font-size:11px;">kaynak →</a>%s'
                      '</td></tr>'
                      % (_e(t.get("konu") or t.get("baslik", "")),
-                        _e(t.get("metin", "")), _e(t.get("url", ""))))
+                        _e(t.get("metin", "")), _e(t.get("url", "")),
+                        _oy(dict(t, baslik=t.get("konu") or t.get("baslik", "")))))
         h.append('</table><div style="font-size:11px;color:#8b93a0;margin-top:8px;">'
                  'Bu bölümde bir teknoloji yalnızca bir kez tanıtılır; son 6 aydan '
                  'eski duyurular köşeye alınmaz.</div>')
@@ -365,10 +379,10 @@ def email_html(payload, ozet=None, tech_items=None, sayi=1):
                      '<td style="padding:9px;border-bottom:1px solid #e8eaee;%s">'
                      '<b>%s</b><br><span style="color:#6b7480;font-size:11px;">%s</span></td>'
                      '<td style="padding:9px;border-bottom:1px solid #e8eaee;%s">%s '
-                     '<a href="%s" style="color:#12457a;font-size:11px;">%s →</a></td>'
+                     '<a href="%s" style="color:#12457a;font-size:11px;">%s →</a>%s</td>'
                      '<td style="padding:9px;border-bottom:1px solid #e8eaee;%s">%s</td></tr>'
                      % (bg, _dmy(r["tarih"]), bg, _firma_hucresi(r), _e(sub),
-                        bg, _e(cum), _e(r.get("url")), _e(r.get("kaynak")),
+                        bg, _e(cum), _e(r.get("url")), _e(r.get("kaynak")), _oy(r),
                         bg, (_ROZET_YAT if r.get("kategori") == "Yatirim"
                              else _badge(r.get("asama")))))
         h.append("</table>")
@@ -378,6 +392,27 @@ def email_html(payload, ozet=None, tech_items=None, sayi=1):
                  'geçen gelişme kaydedilmedi. Alt bilgideki tarama istatistiği erişim '
                  'sorununu gösterir.</div>')
     h.append("</td></tr>")
+
+    # PIYASA GUNDEMI (2026-11-03, kullanici talebi): soguk taraf urunlerinin
+    # piyasa/ticaret haberleri - en onemli 2-3 madde. Ana listeden AYRI.
+    piy = (ozet or {}).get("piyasa") or []
+    if piy:
+        h.append('<tr><td style="padding:20px 28px 0;">' + _baslik("Piyasa Gündemi"))
+        h.append('<table role="presentation" width="100%" cellpadding="0" '
+                 'cellspacing="0" style="font-size:13px;line-height:1.55;">')
+        for m in piy:
+            h.append('<tr><td style="padding:0 0 10px;"><span style="color:#6b7480;'
+                     'font-size:11px;">%s · %s</span><br>%s '
+                     '<a href="%s" style="color:#12457a;font-size:11px;">kaynak →</a>%s</td></tr>'
+                     % (_dmy(m.get("tarih", "")), _e(m.get("kaynak", "")),
+                        _e(m.get("metin") or m.get("baslik", "")), _e(m.get("url", "")), _oy(m)))
+        h.append('</table></td></tr>')
+
+    if os.environ.get("RADAR_GERI_ADRES"):
+        h.append('<tr><td style="padding:10px 28px 0;font-size:11px;color:#6b7480;">'
+                 'Her maddenin yanındaki <b>Faydalı / İlgisiz</b> bağlantısı hazır bir e-posta '
+                 'açar; göndermeniz yeterli. Sistem bu oylarla hangi haberlerin daha değerli '
+                 'olduğunu öğrenir ve sonraki bültenlerde onlara öncelik verir.</td></tr>')
 
     # AI KONTROLU VE EKLEMELERI - KALICI bolum (2026-08-17).
     # Okuyucuya "bu listenin neresi yazilim, neresi editor" sorusunun cevabini

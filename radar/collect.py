@@ -13,7 +13,7 @@ import datetime as dt
 import os
 import re
 
-from . import classify, dates, feeds, htmlx, http, sources, state, taxonomy
+from . import classify, dates, feeds, htmlx, http, piyasa, sources, state, taxonomy
 from .config import (MAX_ARTICLE_FETCH, MAX_LINKS_PER_SOURCE, MAX_SITEMAP_LINKS,
                      REJECT_SEBEP_KOTA, REJECT_TOPLAM, REZERV_GUN,
                      TECH_WINDOW_DAYS, WINDOW_DAYS)
@@ -489,11 +489,13 @@ def collect(today=None, log=print):
                  tarihsiz_elendi=0, pencere_disi=0, kapsam_disi=0, tekrar=0, kabul=0,
                  gnews_tarih=0)
     unreachable, rows, kinds, rejects, tech_pool = [], [], {}, [], []
+    piyasa_pool = []
     rezerv, rezerv_keys = [], set()
     rezerv_floor = (today - dt.timedelta(days=REZERV_GUN)).isoformat()
     sb_floor = (today - dt.timedelta(days=21)).isoformat()
     katki = {}
     tech_seen = st.get("tech_seen", {})
+    piyasa_seen = st.get("piyasa_seen", {})
     gonderilmis = [b for b in (st.get("son_basliklar") or [])
                    if not taxonomy.is_junk_title(b.get("b", ""))]
     # Ayni kosuda ayni haberin ikinci kopyasi (iki gnews sorgusu ayni sonucu
@@ -653,6 +655,23 @@ def collect(today=None, log=print):
                     taxonomy.fold(it.get("url", "") + " " + (it.get("_pub") or ""))):
                 drop("kapsam_disi", it, "rapor/bulten dagitim sitesi")
                 continue
+            # PIYASA GUNDEMI ADAYI (2026-11-03): ana kapsam disi kalan soguk taraf
+            # urun PIYASA haberleri ayri bolume aday olur. Tarih YALNIZ beslemeden
+            # (yapisal) alinir - makale acilmaz, maliyet yok.
+            if piyasa.piyasa_mi(title) and (it.get("from_feed") or s["kind"] == "arama"):
+                pd = dates.parse_date_text(it.get("date_raw", ""), df, today)
+                if pd and floor.isoformat() <= pd <= today.isoformat():
+                    pt, pub = title, s["publisher"]
+                    if s["kind"] == "arama" and " - " in pt:
+                        t2, _, p2 = pt.rpartition(" - ")
+                        if t2 and len(p2) < 45:
+                            pt, pub = t2.strip(), p2.strip()
+                    pk = "piyasa:" + state.norm_key(pt, it["url"])
+                    if pk not in piyasa_seen and not any(x["anahtar"] == pk for x in piyasa_pool):
+                        piyasa_pool.append({"anahtar": pk, "tarih": pd, "baslik": pt,
+                                            "url": it["url"], "kaynak": pub,
+                                            "lead": re.sub(r"<[^>]+>|\s+", " ",
+                                                           it.get("summary") or "").strip()[:300]})
             watchable = taxonomy.genel_yatirim(title)
             if taxonomy.HARD_REJECT.search(taxonomy.fold(title)) and not watchable:
                 drop("kapsam_disi", it, "sert red (baslik)")
@@ -899,4 +918,5 @@ def collect(today=None, log=print):
             "kinds": kinds, "today": today.isoformat(), "rejects": rejects,
             "rezerv": rezerv, "host_saglik": hs,
             "tech_pool": tech_pool[:12], "kaynak_katki": katki,
+            "piyasa_pool": sorted(piyasa_pool, key=lambda m: m["tarih"], reverse=True)[:40],
             "window": [floor.isoformat(), today.isoformat()]}
