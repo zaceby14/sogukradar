@@ -64,7 +64,7 @@ _ULKE_ES = {taxonomy.fold(k): v for k, v in {
     "Çin": ["cin", "china", "chinese"], "Hindistan": ["hindistan", "india", "indian"],
     "Japonya": ["japonya", "japan", "japanese"], "Kore": ["kore", "korea", "korean"],
     "ABD": ["abd", "us", "u\\.s", "usa", "united states", "america", "american"],
-    "AB": ["ab", "eu", "european union", "europe"], "Avrupa": ["avrupa", "europe", "european", "eu"],
+    "AB": ["ab", "eu", "european union", "europe"], "Birliği": ["eu", "european union", "birligi", "union"], "Avrupa": ["avrupa", "europe", "european", "eu"],
     "Almanya": ["almanya", "germany", "german"], "İtalya": ["italya", "italy", "italian"],
     "Fransa": ["fransa", "france", "french"], "İspanya": ["ispanya", "spain", "spanish"],
     "Rusya": ["rusya", "russia", "russian"], "Ukrayna": ["ukrayna", "ukraine", "ukrainian"],

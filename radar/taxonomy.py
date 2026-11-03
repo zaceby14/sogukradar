@@ -960,7 +960,16 @@ def tech_kapsam(title, lead=""):
     # kapsam ici yapan sey HANGI HATTA oldugudur.
     if UPSTREAM_RE.search(ft) and not ASAGI_AKIS.search(ft):
         return False
-    return bool(TECH_KAPSAM.search(blob))
+    m = TECH_KAPSAM.search(ft) or TECH_KAPSAM.search(blob)
+    if not m:
+        return False
+    # KAPLAMA TEK BASINA YETMEZ (2026-11-03): "organic solar cell coating",
+    # "acrylic coatings" koseye aday oldu. Kaplama terimi yalniz celik/serit/
+    # bobin/sac baglaminda sayilir.
+    if re.fullmatch(r"kaplama|coating|coated", m.group(0)) and not re.search(
+            r"steel|strip|coil|sheet|celik|serit|bobin|\bsac\b|galvan|zinc|zn", ft):
+        return False
+    return True
 
 
 # CJK karakter araligi (Cince/Japonca). Bu dillerde kelime sinirı yoktur.
