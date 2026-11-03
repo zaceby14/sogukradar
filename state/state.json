@@ -229,100 +229,11 @@
    "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNRjdQdkp3TTgyQXluR1JnM29pUmoyT3NoUDZBenBrZk81RVZwNHo5NEZsVmpLVlVYNlZobEJVT0RPWWZTNno3NmM2X2FRNUpMazlkUG9HQzhRMmI5SktOYnVfa3ZSbzc2QlBwazd2V3NmS09LbUlXVW9rY0x0QXhBUklaUnN3RGVRUHQzb0laeXU3Q0FtZHlFYWlpRU5YSlg2Q19UMDNFdHZRS0U0aDRpTUZpOHZQUk9vUUU2dW00akUtOU9KTVhnbldUY00zbW96dnBfX2VRaFFRTGs3Ymx2QWs5UVhzSFFpY1dWY2JqcjdMV2s?oc=5"
   }
  ],
- "events": {
-  "*|ulke-hat|Cezayir|Soguk hadde|Ilk urun": "2026-07-29",
-  "*|ulke-hat|Hindistan|Galvaniz hatti (CGL)|Ilk urun": "2026-10-27",
-  "*|ulke-hat|Hindistan|Soguk hadde|Ilk urun": "2026-08-17",
-  "*|ulke-hat|Uganda|Soguk hadde|Ilk urun": "2026-08-25",
-  "*|ulke-hat|Çin|Elektrik celigi hatti|Ilk urun": "2026-08-26",
-  "andritz|fu|Hindistan|Galvaniz hatti (CGL)": "2026-08-25",
-  "andritz|hat|Galvaniz hatti (CGL)|Ilk urun": "2026-10-13",
-  "andritz|hat|Galvaniz hatti (CGL)|Sozlesme": "2026-08-25",
-  "andritz|ulke|Hindistan|Sozlesme": "2026-08-25",
-  "arcelormittal|fu|Turkiye|Belirsiz": "2026-08-31",
-  "arcelormittal|hat|Belirsiz|Belirsiz": "2026-08-31",
-  "arcelormittal|ulke|Turkiye|Belirsiz": "2026-08-31",
-  "bc jindal group|fu|Hindistan|Galvaniz hatti (CGL)": "2026-10-27",
-  "bc jindal group|hat|Galvaniz hatti (CGL)|Modernizasyon": "2026-10-27",
-  "bc jindal group|ulke|Hindistan|Modernizasyon": "2026-10-27",
-  "bluescope steel|hat|Galvaniz hatti (CGL)|Ilk urun": "2026-10-13",
-  "danieli|fu|Uganda|Soguk hadde": "2026-08-25",
-  "danieli|hat|Soguk hadde|Ilk urun": "2026-08-25",
-  "danieli|ulke|Uganda|Ilk urun": "2026-08-25",
-  "domestic|fu|Turkiye|Belirsiz": "2026-08-12",
-  "domestic|hat|Belirsiz|Belirsiz": "2026-08-12",
-  "domestic|ulke|Turkiye|Belirsiz": "2026-08-12",
-  "fives / xinyu|fu|Çin|Elektrik celigi hatti": "2026-08-28",
-  "fives / xinyu|hat|Elektrik celigi hatti|Sozlesme": "2026-08-28",
-  "fives / xinyu|ulke|Çin|Sozlesme": "2026-08-28",
-  "fives|fu|Çin|Elektrik celigi hatti": "2026-08-28",
-  "fives|hat|Elektrik celigi hatti|Ilk urun": "2026-08-28",
-  "fives|hat|Elektrik celigi hatti|Sozlesme": "2026-08-28",
-  "fives|hat|Galvaniz hatti (CGL)|Modernizasyon": "2026-10-13",
-  "fives|ulke|Çin|Sozlesme": "2026-08-28",
-  "fy28|fu|Hindistan|Soguk hadde": "2026-08-16",
-  "fy28|hat|Soguk hadde|Belirsiz": "2026-08-16",
-  "fy28|ulke|Hindistan|Belirsiz": "2026-08-16",
-  "hoa binh|hat|Belirsiz|Ilk urun": "2026-08-05",
-  "jindal india|fu|Hindistan|Galvaniz hatti (CGL)": "2026-10-27",
-  "jindal india|hat|Galvaniz hatti (CGL)|Ilk urun": "2026-10-27",
-  "jindal india|ulke|Hindistan|Ilk urun": "2026-10-27",
-  "jindal stainless limited|fu|Hindistan|Soguk hadde": "2026-08-17",
-  "jindal stainless limited|hat|Soguk hadde|Ilk urun": "2026-08-17",
-  "jindal stainless limited|ulke|Hindistan|Ilk urun": "2026-08-17",
-  "jsw jfe|fu|Hindistan|Elektrik celigi hatti": "2026-10-20",
-  "jsw jfe|hat|Elektrik celigi hatti|Belirsiz": "2026-10-20",
-  "jsw jfe|ulke|Hindistan|Belirsiz": "2026-10-20",
-  "jsw steel|fu|Hindistan|Galvaniz hatti (CGL)": "2026-08-25",
-  "jsw steel|hat|Galvaniz hatti (CGL)|Sozlesme": "2026-08-25",
-  "jsw steel|ulke|Hindistan|Sozlesme": "2026-08-25",
-  "kg steel|fu|G. Kore|Tandem soguk hadde (TCM)": "2026-08-11",
-  "kg steel|hat|Tandem soguk hadde (TCM)|Modernizasyon": "2026-08-11",
-  "kg steel|ulke|G. Kore|Modernizasyon": "2026-08-11",
-  "oyak|fu|Romanya|Elektrik celigi hatti": "2026-09-25",
-  "oyak|hat|Elektrik celigi hatti|Belirsiz": "2026-09-25",
-  "oyak|ulke|Romanya|Belirsiz": "2026-09-25",
-  "primetals|fu|G. Kore|Tandem soguk hadde (TCM)": "2026-08-11",
-  "primetals|hat|Tandem soguk hadde (TCM)|Modernizasyon": "2026-08-11",
-  "primetals|ulke|G. Kore|Modernizasyon": "2026-08-11",
-  "red bud industries|fu|ABD|Dilme / boy kesme / SSC": "2026-10-26",
-  "red bud industries|hat|Dilme / boy kesme / SSC|Sozlesme": "2026-10-26",
-  "red bud industries|ulke|ABD|Sozlesme": "2026-10-26",
-  "roofings group|fu|Uganda|Soguk hadde": "2026-08-25",
-  "roofings group|hat|Soguk hadde|Ilk urun": "2026-08-25",
-  "roofings group|ulke|Uganda|Ilk urun": "2026-08-25",
-  "roofings unveils|hat|Soguk hadde|Belirsiz": "2026-08-25",
-  "russian|fu|Rusya|Belirsiz": "2026-08-12",
-  "russian|hat|Belirsiz|Belirsiz": "2026-08-12",
-  "russian|ulke|Rusya|Belirsiz": "2026-08-12",
-  "sanbao grubu|fu|Çin|Elektrik celigi hatti": "2026-08-26",
-  "sanbao grubu|hat|Elektrik celigi hatti|Ilk urun": "2026-08-26",
-  "sanbao grubu|ulke|Çin|Ilk urun": "2026-08-26",
-  "tenova|fu|Hindistan|Elektrik celigi hatti": "2026-10-20",
-  "tenova|hat|Elektrik celigi hatti|Belirsiz": "2026-10-20",
-  "tenova|ulke|Hindistan|Belirsiz": "2026-10-20",
-  "tosyali algerie|fu|Cezayir|Soguk hadde": "2026-07-29",
-  "tosyali algerie|hat|Soguk hadde|Ilk urun": "2026-07-29",
-  "tosyali algerie|ulke|Cezayir|Ilk urun": "2026-07-29",
-  "|hat|Dilme / boy kesme / SSC|Ilk urun": "2026-08-05",
-  "|hat|Elektrik celigi hatti|Ilk urun": "2026-08-26"
- },
- "gb_form_sayac": {
-  "490fe88208+": 1,
-  "490fe88208-": 1,
-  "561ca32fc1+": 1,
-  "561ca32fc1-": 1,
-  "57d5af2902+": 1,
-  "57d5af2902-": 1,
-  "65ac0bac8b+": 1,
-  "65ac0bac8b-": 1,
-  "a06acce312+": 1,
-  "testkod000+": 2
- },
+ "events": {},
+ "gb_form_sayac": {},
  "gb_oy": {},
- "gonderilen_donemler": [
-  "2026-W45"
- ],
+ "gonderilen_donemler": [],
+ "gonderilen_ozellik": {},
  "periods": [
   {
    "donem": "2026-08 (aylik, v2.0)",
@@ -1964,6 +1875,7 @@
    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOZktQR3hjZWZ1WHl1d09PQlRXWlBmb0RMSTNDQUNjVE1WUzkxT1pKVXVKMkJkaEU2aHBpMzNLUmM0N2FCNjI2eUhSdWpkcGc1eXRnOG1WbVMwa25Xd2NjOWdJUmFMQ3h6cXdGVDA0aDZIX1ZldFNVNlpXMjNRSDZyTGVLdXFsOV9ZanpLcWJtM2ZRdFdXYkg2Z1lmNVRCeHNZSVhwb2pmWjZld1RSbjJvc1g4SVRCRHpydkwzUHQ0ck8wbWIzWDFuWHBHTHlnNHlyMGtwWTdkWEM0UzQ4RG56RUJR?oc=5"
   }
  ],
+ "piyasa_seen": {},
  "rezerv": [
   {
    "anahtar": "a9d0c1485ce1a321",
@@ -2826,161 +2738,8 @@
    "url": "https://www.primetals.com/en/news/primetals-technologies-awarded-contract-for-hot-dip-galvanizing-line-at-jfe-steel/"
   }
  ],
- "seen": {
-  "05ee3ccfafa36b08": "2026-08-11",
-  "0974a592e27b2b6f": "2026-10-13",
-  "0b386546c836c574": "2026-10-26",
-  "1457ad47e4e48f43": "2026-08-31",
-  "1733ff02c2b335cf": "2026-08-05",
-  "1c737651eb6c0083": "2026-10-27",
-  "1d40f81689c438c8": "2026-08-25",
-  "2796f3c7472bcf14": "2026-10-13",
-  "43d668b85bed5aed": "2026-08-17",
-  "4d1d032a9f8bfc20": "2026-08-26",
-  "81afdce4c6c25e28": "2026-10-20",
-  "92e4a5a31f19b487": "2026-07-29",
-  "9e26740970742b85": "2026-08-28",
-  "c0b5f864813ba8fd": "2026-08-17",
-  "cc4db9bd733fdee7": "2026-10-27",
-  "d6c5a8a6a6758c8c": "2026-09-25",
-  "dbf500463fb21d96": "2026-04-16",
-  "fb51c908b538f5ec": "2026-08-25"
- },
- "son_basliklar": [
-  {
-   "a": "Sozlesme",
-   "b": "JSW Steel, India, orders ANDRITZ galvanizing line for advanced automotive steels",
-   "t": "2026-08-25",
-   "ted": "Andritz",
-   "u": "Hindistan"
-  },
-  {
-   "a": "Sozlesme",
-   "b": "Fives supplies technologies for Xinyu's new electrical steel facility",
-   "t": "2026-08-28",
-   "ted": "Fives",
-   "u": "Çin"
-  },
-  {
-   "a": "Ilk urun",
-   "b": "三宝集团SACL3#新能源高牌号无取向硅钢退火炉顺利投产",
-   "t": "2026-08-26",
-   "ted": "",
-   "u": "Çin"
-  },
-  {
-   "a": "Ilk urun",
-   "b": "Roofings Unveils $125m Steel Mill, Doubles Cold-Rolled Capacity to 300,000 Tonnes",
-   "t": "2026-08-25",
-   "ted": "Danieli",
-   "u": "Uganda"
-  },
-  {
-   "a": "Modernizasyon",
-   "b": "KG Steel selects Primetals for Dangjin PLTCM upgrade and capacity expansion",
-   "t": "2026-08-11",
-   "ted": "Primetals",
-   "u": "G. Kore"
-  },
-  {
-   "a": "Ilk urun",
-   "b": "TOSYALI ALGÉRİE, SOĞUK HADDELEME KOMPLEKSİNDE İLK ÜRETİMİ YAPTI",
-   "t": "2026-07-29",
-   "ted": "",
-   "u": "Cezayir"
-  },
-  {
-   "a": "Ilk urun",
-   "b": "India's Jindal Stainless Limited to invest $94 million to ramp up cold rolling capacity",
-   "t": "2026-08-17",
-   "ted": "",
-   "u": "Hindistan"
-  },
-  {
-   "a": "Ilk urun",
-   "b": "tk accelis announces milestone at Stuttgart steel service center",
-   "t": "2026-08-05",
-   "ted": "",
-   "u": ""
-  },
-  {
-   "a": "Ilk urun",
-   "b": "Hoa Binh and Pomina Steel partner on 1.2 million mt flat steel plant expansion",
-   "t": "2026-08-05",
-   "ted": "",
-   "u": ""
-  },
-  {
-   "a": "Belirsiz",
-   "b": "Domestic steel capacity expansion to boost higher-grade iron ore demand – report",
-   "t": "2026-08-12",
-   "ted": "",
-   "u": "Turkiye"
-  },
-  {
-   "a": "Belirsiz",
-   "b": "Russian strike halts Metinvest’s Zaporizhstal steel production",
-   "t": "2026-08-12",
-   "ted": "",
-   "u": "Rusya"
-  },
-  {
-   "a": "Belirsiz",
-   "b": "ArcelorMittal approves Tubarao flat steel expansion",
-   "t": "2026-08-31",
-   "ted": "",
-   "u": "Brezilya"
-  },
-  {
-   "a": "Belirsiz",
-   "b": "U. S. Steel Announces Plans to Restart Gary Tin Mill",
-   "t": "2026-04-16",
-   "ted": "",
-   "u": "ABD"
-  },
-  {
-   "a": "Ilk urun",
-   "b": "ANDRITZ continuous galvanizing line at BlueScope Steel produces first galvanized coil",
-   "t": "2026-10-13",
-   "ted": "Andritz",
-   "u": ""
-  },
-  {
-   "a": "Ilk urun",
-   "b": "Jindal India Commissions Revamped Galvanising Line, Boosts Capacity",
-   "t": "2026-10-27",
-   "ted": "",
-   "u": "Hindistan"
-  },
-  {
-   "a": "Modernizasyon",
-   "b": "Fives upgrades Hyundai Steel's galvanising line",
-   "t": "2026-10-13",
-   "ted": "Fives",
-   "u": ""
-  },
-  {
-   "a": "Belirsiz",
-   "b": "Tenova supplies processing lines for JSW JFE’s electrical steel plant in India",
-   "t": "2026-10-20",
-   "ted": "Tenova",
-   "u": "Hindistan"
-  },
-  {
-   "a": "Sozlesme",
-   "b": "Red Bud Industries Installs Cut-to-Length Line at McNeilus Steel’s Tennessee Facility",
-   "t": "2026-10-26",
-   "ted": "",
-   "u": "ABD"
-  },
-  {
-   "a": "Belirsiz",
-   "b": "OYAK Plans New Electrical Steel Investments at Erdemir Romania",
-   "t": "2026-09-25",
-   "ted": "",
-   "u": "Romanya"
-  }
- ],
+ "seen": {},
+ "son_basliklar": [],
  "source_health": {},
  "tech_rezerv": [
   {
@@ -3000,12 +2759,7 @@
    "url": "https://www.imveurope.com/article/steel-inspection-system-uses-machine-vision-increase-line-speed-precision"
   }
  ],
- "tech_seen": {
-  "tech:c1e20af1f2d7d31b": "2026-06-15",
-  "tech:e82b221fc2986888": "2026-10-05",
-  "tech:ed3b87951b013f72": "2026-07-13",
-  "tech:severstal-chermk-dijital-montaj": "2026-07-28"
- },
+ "tech_seen": {},
  "tercih": {},
  "version": "3.0.0"
 }
