@@ -13,9 +13,10 @@ import argparse
 import datetime as dt
 import json
 import os
+import re
 import sys
 
-from . import collect, kume, render, score, state, taxonomy
+from . import collect, http, kume, render, score, state, taxonomy
 from .config import (HEDEF_SATIR, OUT, REZERV_DAR_GUN, REZERV_ESIK,
                      REZERV_KULLANIM_GUN, REZERV_MAX, TARGET_ROWS,
                      VERSION)
@@ -822,6 +823,49 @@ def _kalite_kapisi(payload, per):
     return nedenler
 
 
+_SOGUK_TARAF = re.compile(
+    r"cold[- ]roll|cold mill|cold strip|tandem|pickl|anneal|galvani|coil coat|colou?r coat|"
+    r"pre[- ]?paint|tinplate|tin mill|skin[- ]?pass|temper mill|slitting|cut[- ]to[- ]length|"
+    r"electrical steel|silicon steel|grain[- ]oriented|strip|coil|flat steel|flat[- ]rolled|"
+    r"sheet steel|steel sheet|processing line|serit|bobin|soguk hadde|galvaniz|tavlama|asitleme")
+
+
+_SICAK_IFADE = re.compile(r"hot[- ](strip|rolled|rolling)\w*( (strip|coil|mill)s?)?|plate mill|hot mill")
+
+
+def _soguk_kanit(metin):
+    """'hot strip mill' gibi ifadeler atildiktan sonra soguk taraf terimi var mi."""
+    return bool(_SOGUK_TARAF.search(_SICAK_IFADE.sub(" ", taxonomy.fold(metin or ""))))
+
+
+def _kose_dogrula(t, fetch=None):
+    """Kose adayi GERCEKTEN soguk taraf mi? Baslik yetmiyorsa sayfa okunur.
+
+    2026-11-03: "Steel inspection system uses machine vision..." koseye girdi;
+    baslik hangi hat oldugunu soylemiyordu. Kural: kose kapisi (tech_kapsam)
+    basligi gecmeli VE baslik ya da sayfa metni soguk taraf terimi icermeli.
+    Sayfa acilirsa metni 'lead' olarak saklanir (LLM tanitimi makaleden yazar).
+    Sayfa acilamazsa yalniz baslik karar verir.
+    """
+    b = t.get("baslik", "")
+    if not taxonomy.tech_kapsam(b):
+        return False
+    if _soguk_kanit(b):
+        return True
+    url = t.get("url") or ""
+    if not url or _aggregator_adresi(url) or os.environ.get("RADAR_BAGLANTI", "1") == "0":
+        return False
+    from . import htmlx
+    ok, page, _ = (fetch or http.fetch)(url)
+    if not ok:
+        return False
+    metin = re.sub(r"\s+", " ", htmlx.parse_article(page).get("text") or "")[:3000]
+    if not _soguk_kanit(metin):
+        return False
+    t["lead"] = metin[:420]
+    return True
+
+
 def _kose_adaylari(payload, st):
     """Teknoloji kosesi adaylari: bu taramanin adaylari + KALICI havuz.
 
@@ -838,7 +882,7 @@ def _kose_adaylari(payload, st):
         k = t.get("anahtar")
         if not k or k in anahtarlar or k in gorulen:
             continue
-        if not taxonomy.tech_kapsam(t.get("baslik", "")):
+        if not _kose_dogrula(t):
             continue
         anahtarlar.add(k)
         havuz.append(t)

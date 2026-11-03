@@ -1945,6 +1945,7 @@ def test_kose_havuzu_ve_urun_duyurusu():
                           {"anahtar": "tech:b", "tarih": "2026-10-28",
                            "baslik": "R&D Update: Lubrication and galling in stamping of galvanized AHSS"}]}
     p = {"rows": [{"anahtar": "r%d" % i, "baslik": "x"} for i in range(4)], "tech_pool": []}
+    st["tech_rezerv"][0]["baslik"] = "Strip inspection system uses machine vision to increase line speed"
     eq([t["anahtar"] for t in C._kose_adaylari(p, st)], ["tech:a"],
        "havuz okunur; gorulen ve kapsam disi dusulur")
     ims = {"anahtar": "ims", "baslik": "IMS expands its portfolio with force transducers for precise force measurement in rolling mills",
@@ -1953,6 +1954,36 @@ def test_kose_havuzu_ve_urun_duyurusu():
           "tech_pool": []}
     k = C._kose_adaylari(p2, {"tech_seen": {}, "tech_rezerv": []})
     eq((len(k), len(p2["rows"])), (1, 3), "aday yoksa urun duyurusu koseye tasinir")
+
+
+def test_kose_adayi_soguk_taraf_kaniti():
+    """2026-11-03: 'Steel inspection system uses machine vision...' koseye girdi;
+    hangi hat oldugu belli degildi. Baslik soguk taraf demiyorsa sayfa okunur."""
+    import os
+    import radar.cli as C
+    eski = os.environ.get("RADAR_BAGLANTI")
+    os.environ["RADAR_BAGLANTI"] = "1"
+    try:
+        sayfa = lambda metin: (lambda u, *a, **k: (True, "<html><body><p>%s</p></body></html>" % metin, {}))
+        t = {"baslik": "New surface inspection technology for steel producers", "url": "https://x.example/a"}
+        eq(C._kose_dogrula(dict(t), fetch=sayfa("The system inspects cold rolled strip at 1500 m/min on a galvanizing line.")),
+           True, "sayfa soguk tarafi soyluyor: kabul")
+        eq(C._kose_dogrula(dict(t), fetch=sayfa("The system inspects hot rolled plates and billets in the hot strip mill.")),
+           False, "sayfa sicak taraf: red")
+        eq(C._kose_dogrula(dict(t), fetch=sayfa("A new camera for inspecting steel tubes and bars.")),
+           False, "soguk taraf kaniti yok: red")
+        eq(C._kose_dogrula(dict(t), fetch=lambda u, *a, **k: (False, "", {"hata": "HTTP 403"})),
+           False, "sayfa acilamadi ve baslik belirsiz: red")
+        eq(C._kose_dogrula({"baslik": "New surface inspection system for cold strip", "url": ""}),
+           True, "baslik zaten soguk taraf: sayfa gerekmez")
+        tt = dict(t)
+        C._kose_dogrula(tt, fetch=sayfa("Inspects cold rolled strip on a galvanizing line."))
+        eq("galvanizing" in tt.get("lead", ""), True, "sayfa metni LLM icin lead olarak saklanir")
+    finally:
+        if eski is None:
+            os.environ.pop("RADAR_BAGLANTI", None)
+        else:
+            os.environ["RADAR_BAGLANTI"] = eski
 
 
 def test_w40_editorsuz_cop_kumeleme():
@@ -3465,6 +3496,7 @@ def run():
                test_v20_indiana_hindistan_degil,
                test_w40_editorsuz_cop_kumeleme,
                test_yazar_dogrulayici_ve_llm_yedegi,
+               test_kose_adayi_soguk_taraf_kaniti,
                test_kose_havuzu_ve_urun_duyurusu,
                test_ayni_tedarikci_farkli_musteri_tekrar_degil,
                test_gemini_yogunlukta_yeniden_dener,

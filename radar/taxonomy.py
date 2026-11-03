@@ -878,8 +878,11 @@ TECH_KAPSAM = re.compile(
     r"surface inspect|yuzey muayene|coating weight|kaplama agirlig|"
     # 2026-11-02: "Steel inspection system uses machine vision to increase line
     # speed" kapidan donuyordu. Celik/serit baglamli muayene ve makine gorusu.
-    r"(steel|strip|coil|sheet|serit|bobin)\b.{0,25}(inspection|machine vision)|"
-    r"machine vision.{0,40}(steel|strip|coil)|"
+    # "steel" tek basina YETMEZ (2026-11-03: "Steel inspection system uses machine
+    # vision" hangi hat oldugunu soylemiyordu). Serit/bobin/sac sart; aksi halde
+    # kose adayinin sayfasi acilip soguk taraf terimi aranir (cli._kose_adaylari).
+    r"(strip|coil|sheet|serit|bobin)\b.{0,25}(inspection|machine vision)|"
+    r"machine vision.{0,40}(strip|coil)|"
     r"(force|tension|strip tension) (measur|transducer|sensor)|"
     r"\bcgl\b|\bcal\b|\bbaf\b|\bccl\b|\betl\b|\bctl\b|\bpltcm\b|"
     r"(steel|celik) (strip|serit|coil|bobin|sheet|sac))")
