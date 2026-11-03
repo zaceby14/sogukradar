@@ -13,24 +13,30 @@
    {
     "baslik": "唐山市晟鑫冷轧薄板生产线升级改造项目生态环境影响报告书获批",
     "neden": "kaynakta olmayan ozel ad: Shengxin"
-   },
-   {
-    "baslik": "(haftalik ozet)",
-    "neden": "kaynakta olmayan ozel ad: Shengxin"
    }
   ],
-  "cumle_llm": 3,
-  "cumle_kuralsal": 2,
-  "supheli_cikarilan": 1
+  "cumle_llm": 4,
+  "cumle_kuralsal": 1,
+  "supheli_cikarilan": 0
  },
- "elenen_satirlar": [],
- "baglanti_dogrulanamayan": [],
+ "elenen_satirlar": [
+  {
+   "baslik": "唐山市晟鑫冷轧薄板生产线升级改造项目生态环境影响报告书获批",
+   "neden": "Cince baslik, dogrulanmis Turkce cumle yok"
+  }
+ ],
+ "baglanti_dogrulanamayan": [
+  {
+   "baslik": "Primetals secures PLTCM automation order",
+   "neden": "HTTP 403"
+  }
+ ],
  "email": "/home/runner/work/sogukradar/sogukradar/out/deneme_email.html",
- "uretildi": "2026-11-03T05:39:20.131804Z",
+ "uretildi": "2026-11-03T06:04:45.010049Z",
  "basliklar": [
   "POSCO, Otomotiv Çeliği İçin 359 Milyon Dolarlık Yeni Galvanizleme Hattı Kuruyor",
   "Danieli Automation to Supply MES Platform for Ezz Flat Steel Plant",
-  "唐山市晟鑫冷轧薄板生产线升级改造项目生态环境影响报告书获批",
-  "Tata Steel Colors launches Colorcoat pre-painted steel in India"
+  "Tata Steel Colors launches Colorcoat pre-painted steel in India",
+  "Primetals secures PLTCM automation order"
  ]
 }

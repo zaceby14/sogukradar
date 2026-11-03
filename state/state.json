@@ -307,6 +307,7 @@
   "|hat|Dilme / boy kesme / SSC|Ilk urun": "2026-08-05",
   "|hat|Elektrik celigi hatti|Ilk urun": "2026-08-26"
  },
+ "gb_oy": {},
  "gonderilen_donemler": [
   "2026-W45"
  ],
@@ -1805,6 +1806,90 @@
     "tekrar": 51
    },
    "uretim": "2026-11-03 05:38 UTC"
+  },
+  {
+   "donem": "2026-W45",
+   "satir": 6,
+   "stats": {
+    "erisilemeyen": 10,
+    "gnews_tarih": 0,
+    "ham": 3766,
+    "kabul": 3,
+    "kapsam_disi": 3355,
+    "kaynak": 305,
+    "makale_acildi": 205,
+    "on_eleme_gecti": 371,
+    "pencere_disi": 252,
+    "tarihsiz_elendi": 104,
+    "tekrar": 52
+   },
+   "uretim": "2026-11-03 06:03 UTC"
+  }
+ ],
+ "piyasa_rezerv": [
+  {
+   "anahtar": "piyasa:58a6686e74ff2a17",
+   "baslik": "European green flat steel demand remains subdued; construction provides pockets of interest",
+   "kaynak": "EUROMETAL",
+   "lead": "Demand for green steel in Europe remained muted in October, with the construction industry showing some selective interest while interest from the automotive industry softened, according to market participants. A flat steel producer in Northern Europe said there was a lack of buying activity in the ",
+   "tarih": "2026-11-02",
+   "url": "https://eurometal.net/european-green-flat-steel-demand-remains-subdued-construction-provides-pockets-of-interest/?utm_source=rss&utm_medium=rss&utm_campaign=european-green-flat-steel-demand-remains-subdued-construction-provides-pockets-of-interest"
+  },
+  {
+   "anahtar": "piyasa:3e4b4481b0cc035c",
+   "baslik": "EU backs AD duties on CRC from five countries",
+   "kaynak": "EUROMETAL",
+   "lead": "EU member states voted in favour of definitive anti-dumping duties on cold-rolled flat steel imports from five countries – India, Japan, Turkey, Vietnam and Taiwan, China – on 29 October, market sources told McCloskey. Fifteen member states voted in favour of the measures, nine abstained and three v",
+   "tarih": "2026-11-02",
+   "url": "https://eurometal.net/eu-backs-ad-duties-on-crc-from-five-countries/?utm_source=rss&utm_medium=rss&utm_campaign=eu-backs-ad-duties-on-crc-from-five-countries"
+  },
+  {
+   "anahtar": "piyasa:a3b301404961402b",
+   "baslik": "US HRC, CRC prices climb amid tight supply",
+   "kaynak": "Kallanish",
+   "lead": "US hot-rolled and cold-rolled coil prices have edged higher last week following another Nucor price increase,...",
+   "tarih": "2026-11-02",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/us-hrc-crc-prices-climb-amid-tight-supply-1026/"
+  },
+  {
+   "anahtar": "piyasa:380785546277695a",
+   "baslik": "Hoa Phat exports 8,000 tons of galvanized steel sheets to Japan, expanding its international market.",
+   "kaynak": "Vietnam.vn",
+   "lead": "Hoa Phat exports 8,000 tons of galvanized steel sheets to Japan, expanding its international market. &nbsp;&nbsp; Vietnam.vn",
+   "tarih": "2026-11-02",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOa0dIVGQ5Rk9jb09ycmFMSHRkaWlzbngtcmNpX0FIZXNtU2VTNk81d1JyNTdfN2JnV0htakh5VTJybWdENXQ0OTlrN2thdW1qbFdBb21aUy1aV2h0OFdNQ0tzeXRudHZNUXNTVWZQaTAxRFFkMmc3ZmxfTU9ZSzFNdVJqSlFIMzVRQVROT01UWGdVczlZUExUX0RWcVBMTm5kaW5nMg?oc=5"
+  },
+  {
+   "anahtar": "piyasa:db67f98fb4dd717b",
+   "baslik": "India: Coated flat steel prices ease w-o-w; further correction may support demand",
+   "kaynak": "Bing News",
+   "lead": "hidden Disclaimer: BigMint Technologies Private Limited has taken due care and caution in compilation of content for its web site. Information is just for reference not intended for trading purpose or ...",
+   "tarih": "2026-11-02",
+   "url": "https://www.bigmint.co/insights/detail/india-coated-flat-steel-prices-ease-w-o-w-further-correction-may-support-demand-803955"
+  },
+  {
+   "anahtar": "piyasa:df2e7719dead4f70",
+   "baslik": "US tin plate exports down 10.9 percent in August 2026 from July",
+   "kaynak": "Bing News",
+   "lead": "According to export data from the US Department of Commerce, US exports of tin plate totaled 2,804 mt in August this year, down 10.9 percent from July and down 24.0 percent from August 2025. By value, ...",
+   "tarih": "2026-10-27",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/us-tin-plate-exports-down-109-percent-in-august-2026-from-july-1486620.htm"
+  },
+  {
+   "anahtar": "piyasa:bf2ae0f0e2c552e4",
+   "baslik": "Apparent consumption of polymer-coated steel is expected to rise by 3% y/y in 2026",
+   "kaynak": "Bing News",
+   "lead": "In the first three quarters of 2026, the figure stood at 264,000 tonnes, whilst imports totalled 163,500 tonnes ...",
+   "tarih": "2026-10-22",
+   "url": "https://gmk.center/en/news/apparent-consumption-of-polymer-coated-steel-is-expected-to-rise-by-3-y-y-in-2026/"
+  },
+  {
+   "anahtar": "piyasa:8561001e822ca3e1",
+   "baslik": "Cleveland-Cliffs links Stelco layoffs in Canada to galvanized steel imports",
+   "kaynak": "Yieh Corp.",
+   "lead": "Cleveland-Cliffs links Stelco layoffs in Canada to galvanized steel imports &nbsp;&nbsp; Yieh Corp.",
+   "tarih": "2026-10-21",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObUE5ajFDRGxvNVJGeWtPN3BHc1kwNlZrcVBnckQzRXM3cXFrN3dwSWE1NnJsZkZjRVU3SEliaENoOWMwTHFDRUQ0QXFXRWp6VUVaZDRqSW5YSFZZbmdJODA0MWRvbm12WjVzU1hHa0pLaWJyS01GSjh0T0JjM1llZElfekxxMmJFMTRVNGN5ZlRwd0hOUkpNWjBzMkREdWt5ZE5DekdYbW1ya01CM2stcQ?oc=5"
   }
  ],
  "rezerv": [
@@ -1962,31 +2047,6 @@
    "tutar": "",
    "ulke": "",
    "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/electrical-steel-job-brightens-andritz-q3-performance-1024/"
-  },
-  {
-   "anahtar": "55862486462fe6dc",
-   "asama": "Ilk urun",
-   "baslik": "EU electrical steel curbs raise stakes for Europe’s grid and cleantech startups",
-   "eksik": [
-    "ulke"
-   ],
-   "firma": "EU electrical steel curbs",
-   "hat": "Elektrik celigi hatti",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "150sec",
-   "kaynak_id": "gtek_es",
-   "lead": "EU electrical steel curbs raise stakes for Europe’s grid and cleantech startups &nbsp;&nbsp; 150sec",
-   "olaylar": [
-    "eu electrical steel curbs|hat|Elektrik celigi hatti|Ilk urun"
-   ],
-   "rezerv": true,
-   "tarih": "2026-09-29",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUFZZcm8tZ2hVcjd5M250M3hxWDlFMXhVWTVMWnJfU09aOGU3dV9TSXludHdBRzZJUjR6Z1h2VjB5el8tajl4RGtLWGJLd01zRjFhLTJwWTRrT3AwbGt3VmM4NlZmclJmR2dnZTJOWnluM0RkSDVqS3JXM0FJcHM0M2xEbno0QWZpZUpjanZoRUVhMGt5aFhuRXluSW9xbGM?oc=5"
   },
   {
    "anahtar": "3c6ddad628eeb8ca",
@@ -2874,5 +2934,6 @@
   "tech:ed3b87951b013f72": "2026-07-13",
   "tech:severstal-chermk-dijital-montaj": "2026-07-28"
  },
+ "tercih": {},
  "version": "3.0.0"
 }

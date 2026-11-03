@@ -130,41 +130,40 @@
    "url": "https://www.ims-gmbh.de/en/2026/10/06/ims-expands-its-portfolio-with-force-transducers-forprecise-force-measurement-under-demandingconditions-in-hot-and-cold-rolling-mills/"
   },
   {
-   "anahtar": "55862486462fe6dc",
-   "asama": "Ilk urun",
-   "baslik": "EU electrical steel curbs raise stakes for Europe’s grid and cleantech startups",
-   "eksik": [
-    "ulke"
-   ],
-   "firma": "EU electrical steel curbs",
-   "hat": "Elektrik celigi hatti",
+   "anahtar": "dde7adab1615e8c7",
+   "asama": "Sozlesme",
+   "baslik": "Primetals secures PLTCM automation order",
+   "eksik": [],
+   "firma": "Primetals",
+   "hat": "Tandem soguk hadde (TCM)",
    "kapasite": "",
    "kategori": "Hat",
-   "kaynak": "150sec",
-   "kaynak_id": "gtek_es",
-   "lead": "EU electrical steel curbs raise stakes for Europe’s grid and cleantech startups &nbsp;&nbsp; 150sec",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgs_sti",
    "olaylar": [
-    "eu electrical steel curbs|hat|Elektrik celigi hatti|Ilk urun"
+    "primetals|fu|Cin|Tandem soguk hadde (TCM)",
+    "primetals|hat|Tandem soguk hadde (TCM)|Sozlesme",
+    "primetals|ulke|Cin|Sozlesme"
    ],
    "rezerv": true,
-   "tarih": "2026-09-29",
+   "tarih": "2026-09-03",
    "tarih_kaynagi": "rss",
-   "tedarikci": "",
+   "tedarikci": "Primetals",
    "tutar": "",
-   "ulke": "",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUFZZcm8tZ2hVcjd5M250M3hxWDlFMXhVWTVMWnJfU09aOGU3dV9TSXludHdBRzZJUjR6Z1h2VjB5el8tajl4RGtLWGJLd01zRjFhLTJwWTRrT3AwbGt3VmM4NlZmclJmR2dnZTJOWnluM0RkSDVqS3JXM0FJcHM0M2xEbno0QWZpZUpjanZoRUVhMGt5aFhuRXluSW9xbGM?oc=5"
+   "ulke": "Cin",
+   "url": "https://www.steeltimesint.com/news/primetals-secures-pltcm-automation-order"
   }
  ],
  "stats": {
   "kaynak": 305,
   "erisilemeyen": 10,
-  "ham": 3928,
+  "ham": 3766,
   "on_eleme_gecti": 371,
-  "makale_acildi": 206,
+  "makale_acildi": 205,
   "tarihsiz_elendi": 104,
   "pencere_disi": 252,
-  "kapsam_disi": 3518,
-  "tekrar": 51,
+  "kapsam_disi": 3355,
+  "tekrar": 52,
   "kabul": 3,
   "gnews_tarih": 0
  },
@@ -554,6 +553,112 @@
  "kaynak_katki": {
   "Bing News": 3
  },
+ "piyasa_pool": [
+  {
+   "anahtar": "piyasa:58a6686e74ff2a17",
+   "tarih": "2026-11-02",
+   "baslik": "European green flat steel demand remains subdued; construction provides pockets of interest",
+   "url": "https://eurometal.net/european-green-flat-steel-demand-remains-subdued-construction-provides-pockets-of-interest/?utm_source=rss&utm_medium=rss&utm_campaign=european-green-flat-steel-demand-remains-subdued-construction-provides-pockets-of-interest",
+   "kaynak": "EUROMETAL",
+   "lead": "Demand for green steel in Europe remained muted in October, with the construction industry showing some selective interest while interest from the automotive industry softened, according to market participants. A flat steel producer in Northern Europe said there was a lack of buying activity in the "
+  },
+  {
+   "anahtar": "piyasa:3e4b4481b0cc035c",
+   "tarih": "2026-11-02",
+   "baslik": "EU backs AD duties on CRC from five countries",
+   "url": "https://eurometal.net/eu-backs-ad-duties-on-crc-from-five-countries/?utm_source=rss&utm_medium=rss&utm_campaign=eu-backs-ad-duties-on-crc-from-five-countries",
+   "kaynak": "EUROMETAL",
+   "lead": "EU member states voted in favour of definitive anti-dumping duties on cold-rolled flat steel imports from five countries – India, Japan, Turkey, Vietnam and Taiwan, China – on 29 October, market sources told McCloskey. Fifteen member states voted in favour of the measures, nine abstained and three v"
+  },
+  {
+   "anahtar": "piyasa:a3b301404961402b",
+   "tarih": "2026-11-02",
+   "baslik": "US HRC, CRC prices climb amid tight supply",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/us-hrc-crc-prices-climb-amid-tight-supply-1026/",
+   "kaynak": "Kallanish",
+   "lead": "US hot-rolled and cold-rolled coil prices have edged higher last week following another Nucor price increase,..."
+  },
+  {
+   "anahtar": "piyasa:a7dffa13a828b745",
+   "tarih": "2026-11-02",
+   "baslik": "EU backs duties on cold-rolled steel from five countries",
+   "url": "https://metallurgprom.org/en/news/europe/22149-eu-backs-duties-on-cold-rolled-steel-from-five-countries.html",
+   "kaynak": "Metallurgprom",
+   "lead": "EU countries voted to impose definitive anti-dumping duties on imports of cold-rolled flat steel from five countries."
+  },
+  {
+   "anahtar": "piyasa:380785546277695a",
+   "tarih": "2026-11-02",
+   "baslik": "Hoa Phat exports 8,000 tons of galvanized steel sheets to Japan, expanding its international market.",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOa0dIVGQ5Rk9jb09ycmFMSHRkaWlzbngtcmNpX0FIZXNtU2VTNk81d1JyNTdfN2JnV0htakh5VTJybWdENXQ0OTlrN2thdW1qbFdBb21aUy1aV2h0OFdNQ0tzeXRudHZNUXNTVWZQaTAxRFFkMmc3ZmxfTU9ZSzFNdVJqSlFIMzVRQVROT01UWGdVczlZUExUX0RWcVBMTm5kaW5nMg?oc=5",
+   "kaynak": "Vietnam.vn",
+   "lead": "Hoa Phat exports 8,000 tons of galvanized steel sheets to Japan, expanding its international market. &nbsp;&nbsp; Vietnam.vn"
+  },
+  {
+   "anahtar": "piyasa:8efcc36bee1524bb",
+   "tarih": "2026-11-02",
+   "baslik": "European green flat steel demand subdued; construction offers pockets of interest",
+   "url": "https://news.metal.com/newscontent/104200766-european-green-flat-steel-demand-subdued-construction-offers-pockets-of-interest",
+   "kaynak": "Bing News",
+   "lead": "Europe's green flat steel demand stayed muted in October: automotive interest softened, while Dutch bridge reconstruction supported construction. A Northern European producer saw no carmaker ..."
+  },
+  {
+   "anahtar": "piyasa:db67f98fb4dd717b",
+   "tarih": "2026-11-02",
+   "baslik": "India: Coated flat steel prices ease w-o-w; further correction may support demand",
+   "url": "https://www.bigmint.co/insights/detail/india-coated-flat-steel-prices-ease-w-o-w-further-correction-may-support-demand-803955",
+   "kaynak": "Bing News",
+   "lead": "hidden Disclaimer: BigMint Technologies Private Limited has taken due care and caution in compilation of content for its web site. Information is just for reference not intended for trading purpose or ..."
+  },
+  {
+   "anahtar": "piyasa:a283e8550a5387e3",
+   "tarih": "2026-11-01",
+   "baslik": "Flat Steel Gets Cheaper as Aisha Steel Slashes Prices",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZWxxdzhEQ0VkM1djSVdGenZCQkJXa1ZsaXpBVTk5dER1cDhDMGpJVGpNemhESHBOWkhRWDZMNk9XajRPZVZrSFQ4NHljYnVkcjBaOHhwblJSeGF1cThubnRqWVRwcjNsXzk5VmktUzVFOWxfcnRrREdGa1JPMFNXT1JiWFlaU0g3LXfSAYoBQVVfeXFMUGVscXc4RENFZDNXY0lXRnp2QkJCV2tWbGl6QVU5OXREdXA4QzBqSVRqTXpoREhwTlpIUVg2TDZPV2o0T2VWa0hUODR5Y2J1ZHIwWjh4cG5SUnhhdXE4bm50allUcHIzbF85OVZpLVM1RTlsX3J0a0RHRmtSTzBTV09SYlhZWlNINy13?oc=5",
+   "kaynak": "ProPakistani",
+   "lead": "Flat Steel Gets Cheaper as Aisha Steel Slashes Prices &nbsp;&nbsp; ProPakistani"
+  },
+  {
+   "anahtar": "piyasa:3f62c43fbeca3704",
+   "tarih": "2026-10-30",
+   "baslik": "Top Players in the Galvanized Steel Silo Market: Fact MR Forecasts US$2.85 Billion by 2036",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNHZPSHE3Zk1SSjk0WmRuUW5VRGo1b1puaFVEUGhTRTB4M0NvU1B3OHBvbERfUTZvdGVXcURFdDVuV3BMcWY3ZFM5ZF81MUNtY1E4QXdlZ2xKX0RxRWk1NEFLcDduX2V0WjUydmFta3NjcTR0aks3VC00SG5yNEh4OV93cVdiYmVZYUpSQXNjWUIzVUc4WUE?oc=5",
+   "kaynak": "openPR.com",
+   "lead": "Top Players in the Galvanized Steel Silo Market: Fact MR Forecasts US$2.85 Billion by 2036 &nbsp;&nbsp; openPR.com"
+  },
+  {
+   "anahtar": "piyasa:df2e7719dead4f70",
+   "tarih": "2026-10-27",
+   "baslik": "US tin plate exports down 10.9 percent in August 2026 from July",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/us-tin-plate-exports-down-109-percent-in-august-2026-from-july-1486620.htm",
+   "kaynak": "Bing News",
+   "lead": "According to export data from the US Department of Commerce, US exports of tin plate totaled 2,804 mt in August this year, down 10.9 percent from July and down 24.0 percent from August 2025. By value, ..."
+  },
+  {
+   "anahtar": "piyasa:ff0954b1473979b7",
+   "tarih": "2026-10-22",
+   "baslik": "Tenova advances electrical steel project in India",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOaXBMVzBGTDNldHl4ZVhjYnJ0SS1melljRll4RkpLbW8wNllFLXFDOWJrQmE3MTY0Zm0xNm5aUUcydDNGOGRMTW9VajJZd3R3eWdsVEJWQlRKNHdtNTQ2Y1U4U0VxWDZ5T3hrXzk3V1F4RE4xUHBVOG5pZUcwaGJBdUhZUGN6Z2wxNjdqMWZtX2NYNC1IbTRpdkNYRQ?oc=5",
+   "kaynak": "Machinery Market",
+   "lead": "Tenova advances electrical steel project in India &nbsp;&nbsp; Machinery Market"
+  },
+  {
+   "anahtar": "piyasa:bf2ae0f0e2c552e4",
+   "tarih": "2026-10-22",
+   "baslik": "Apparent consumption of polymer-coated steel is expected to rise by 3% y/y in 2026",
+   "url": "https://gmk.center/en/news/apparent-consumption-of-polymer-coated-steel-is-expected-to-rise-by-3-y-y-in-2026/",
+   "kaynak": "Bing News",
+   "lead": "In the first three quarters of 2026, the figure stood at 264,000 tonnes, whilst imports totalled 163,500 tonnes ..."
+  },
+  {
+   "anahtar": "piyasa:8561001e822ca3e1",
+   "tarih": "2026-10-21",
+   "baslik": "Cleveland-Cliffs links Stelco layoffs in Canada to galvanized steel imports",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObUE5ajFDRGxvNVJGeWtPN3BHc1kwNlZrcVBnckQzRXM3cXFrN3dwSWE1NnJsZkZjRVU3SEliaENoOWMwTHFDRUQ0QXFXRWp6VUVaZDRqSW5YSFZZbmdJODA0MWRvbm12WjVzU1hHa0pLaWJyS01GSjh0T0JjM1llZElfekxxMmJFMTRVNGN5ZlRwd0hOUkpNWjBzMkREdWt5ZE5DekdYbW1ya01CM2stcQ?oc=5",
+   "kaynak": "Yieh Corp.",
+   "lead": "Cleveland-Cliffs links Stelco layoffs in Canada to galvanized steel imports &nbsp;&nbsp; Yieh Corp."
+  }
+ ],
  "window": [
   "2026-10-13",
   "2026-11-03"
@@ -561,8 +666,8 @@
  "bulunan_kullanilan": 3,
  "bulunan_havuz": 6,
  "rezerv_kullanilan": 3,
- "rezerv_havuz": 31,
+ "rezerv_havuz": 30,
  "period": "2026-W45",
- "generated": "2026-11-03 05:38 UTC",
+ "generated": "2026-11-03 06:03 UTC",
  "version": "3.0.0"
 }

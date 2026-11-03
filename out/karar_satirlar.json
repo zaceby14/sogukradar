@@ -54,31 +54,6 @@
    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdU1RMmRXLVpqaWEzNHN4cnhuUlhZajdIMjFfc1VFY0tIT1dQNFlucGVBVGZ0MkpVcW91RHlsREwyUFltVW0yWGlNQzNwVDVUSy1ETXUzNG41TXFGTHJncmI1TXNhS2tVYXJEcDV4Mmt4Mm9KdWJoczNyeDNPWWNqY0FDUU1mUnF1NEZxWm9IQnNoNmtDZnh5U25iMml2TFVGN1E?oc=5"
   },
   {
-   "anahtar": "866a901347e29691",
-   "asama": "Modernizasyon",
-   "baslik": "唐山市晟鑫冷轧薄板生产线升级改造项目生态环境影响报告书获批",
-   "eksik": [
-    "firma",
-    "ulke"
-   ],
-   "firma": "",
-   "hat": "Elektrik celigi hatti",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "Mysteel (haber)",
-   "kaynak_id": "mysteel_news",
-   "olaylar": [
-    "|hat|Elektrik celigi hatti|Modernizasyon"
-   ],
-   "puan": 45.0,
-   "tarih": "2026-09-21",
-   "tarih_kaynagi": "json-ld",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "",
-   "url": "https://news.mysteel.com/a/26092109/0A0B14F6D5801083.html"
-  },
-  {
    "anahtar": "a9d0c1485ce1a321",
    "asama": "Belirsiz",
    "baslik": "Tata Steel Colors launches Colorcoat pre-painted steel in India",
@@ -104,6 +79,30 @@
    "tutar": "",
    "ulke": "Hindistan",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQNnFIZU9NZWN0ejJBbWllanlhYXpYaGI0TExkQl9waTVXbFNEMGNUOWk1dnhFa1d0LUtCTlRxd1U4M3VkNVBHMVpuRGg3UzJXWEczeGlNUFd2OE5ES0lNUXdHQk51d2sxdmxkeWlWSkJNZkZGOUN4R2NaaHFPYVU?oc=5"
+  },
+  {
+   "anahtar": "dde7adab1615e8c7",
+   "asama": "Sozlesme",
+   "baslik": "Primetals secures PLTCM automation order",
+   "eksik": [],
+   "firma": "Primetals",
+   "hat": "Tandem soguk hadde (TCM)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgs_sti",
+   "olaylar": [
+    "primetals|fu|Cin|Tandem soguk hadde (TCM)",
+    "primetals|hat|Tandem soguk hadde (TCM)|Sozlesme",
+    "primetals|ulke|Cin|Sozlesme"
+   ],
+   "rezerv": true,
+   "tarih": "2026-09-03",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "Primetals",
+   "tutar": "",
+   "ulke": "Cin",
+   "url": "https://www.steeltimesint.com/news/primetals-secures-pltcm-automation-order"
   }
  ],
  "tech": [
@@ -111,8 +110,30 @@
    "anahtar": "tech:aac00b6a794a93b5",
    "tarih": "2026-10-06",
    "konu": "IMS expands its portfolio with force transducers for precise force measurement under demanding conditions in hot and cold rolling mills",
-   "metin": "IMS Messsysteme, sıcak ve soğuk haddehanelerde zorlu koşullar altında hassas kuvvet ölçümü sağlayan RollKraft ürün ailesi kuvvet dönüştürücülerini tanıttı. Bu sistemler, haddeleme proseslerinin kontrolü, analizi ve optimizasyonu için veri sunmaktadır.",
+   "metin": "IMS Messsysteme, sıcak ve soğuk haddehanelerde hassas kuvvet ölçümü ve haddeleme süreçlerinin optimizasyonu için geliştirdiği RollKraft ürün ailesiyle yük hücresi portföyünü genişletti.",
    "url": "https://www.ims-gmbh.de/en/2026/10/06/ims-expands-its-portfolio-with-force-transducers-forprecise-force-measurement-under-demandingconditions-in-hot-and-cold-rolling-mills/"
+  }
+ ],
+ "piyasa": [
+  {
+   "anahtar": "piyasa:3e4b4481b0cc035c",
+   "tarih": "2026-11-02",
+   "baslik": "EU backs AD duties on CRC from five countries",
+   "metin": "AB üyesi ülkeler, aralarında Türkiye'nin de bulunduğu beş ülkeden yapılan soğuk haddelenmiş yassı çelik ithalatına kesin anti-damping vergileri uygulanması yönünde oy kullandı.",
+   "url": "https://eurometal.net/eu-backs-ad-duties-on-crc-from-five-countries/?utm_source=rss&utm_medium=rss&utm_campaign=eu-backs-ad-duties-on-crc-from-five-countries",
+   "kaynak": "EUROMETAL",
+   "konu": "koruma",
+   "urun": "soguk hadde"
+  },
+  {
+   "anahtar": "piyasa:a3b301404961402b",
+   "tarih": "2026-11-02",
+   "baslik": "US HRC, CRC prices climb amid tight supply",
+   "metin": "ABD'de sıcak ve soğuk haddelenmiş rulo fiyatları, sıkışık arz koşullarının etkisiyle yükseliş gösterdi.",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/us-hrc-crc-prices-climb-amid-tight-supply-1026/",
+   "kaynak": "Kallanish",
+   "konu": "fiyat",
+   "urun": "soguk hadde"
   }
  ]
 }

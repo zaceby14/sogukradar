@@ -17,8 +17,8 @@
 5. **IMS** (-, 2026-10-06) &mdash; Soguk hadde / Sozlesme  
    IMS expands its portfolio with force transducers for precise force measurement under demanding conditions in hot and cold rolling mills  
    https://www.ims-gmbh.de/en/2026/10/06/ims-expands-its-portfolio-with-force-transducers-forprecise-force-measurement-under-demandingconditions-in-hot-and-cold-rolling-mills/
-6. **EU electrical steel curbs** (-, 2026-09-29) &mdash; Elektrik celigi hatti / Ilk urun  
-   EU electrical steel curbs raise stakes for Europe’s grid and cleantech startups  
-   https://news.google.com/rss/articles/CBMinwFBVV95cUxNUFZZcm8tZ2hVcjd5M250M3hxWDlFMXhVWTVMWnJfU09aOGU3dV9TSXludHdBRzZJUjR6Z1h2VjB5el8tajl4RGtLWGJLd01zRjFhLTJwWTRrT3AwbGt3VmM4NlZmclJmR2dnZTJOWnluM0RkSDVqS3JXM0FJcHM0M2xEbno0QWZpZUpjanZoRUVhMGt5aFhuRXluSW9xbGM?oc=5
+6. **Primetals** (Cin, 2026-09-03) &mdash; Tandem soguk hadde (TCM) / Sozlesme  
+   Primetals secures PLTCM automation order  
+   https://www.steeltimesint.com/news/primetals-secures-pltcm-automation-order
 
 > Erisilemeyen kaynaklar: SMS group, Cognex, ArcelorMittal, POSCO, Steel Radar, SteelGuru, BigMint (SteelMint), MetalMiner, Furnaces International, MetalForming Magazine
