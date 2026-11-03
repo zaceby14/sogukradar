@@ -1,6 +1,32 @@
 {
  "bulunan": [
   {
+   "anahtar": "3a4b6e2a6c086c5e",
+   "asama": "Teknoloji",
+   "baslik": "Kıraç Galvaniz, MSB Askeri Fabrikalar Genel Müdürlüğü’nün Onaylı Tedarikçisi Oldu",
+   "eksik": [
+    "ulke",
+    "tarih?"
+   ],
+   "firma": "Kıraç Galvaniz",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "",
+   "kategori": "Yatirim",
+   "kaynak": "SteelTurk",
+   "kaynak_id": "steelturk",
+   "lead": "Hakkımızda Reklam Bize Ulaşın Demir Çelik Çelik Sektörü Yassı Çelik Yeşil Çelik Vasıflı Çelik Paslanmaz Çelik Alüminyum Boru & Profil Uzun Çelik Mamülleri Yapısal çelik Nervürlü Demir & Çelik Hasır Hammadde & Yarımamül Diğer Metaller Global Çelik Haberleri Röportajlar Metal & Sac İşleme Endüstriyel Sektörler Vinç Makina Çimento & Maden Güç Aktarım Sistemleri Hidrolik & Pnömatik Endüstriyel Kalıp Otomasyon & Robot Tek",
+   "olaylar": [
+    "kirac galvaniz|hat|Galvaniz hatti (CGL)|Teknoloji"
+   ],
+   "puan": 16.5,
+   "tarih": "2026-11-03",
+   "tarih_kaynagi": "metin",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://www.steelturk.com.tr/kirac-galvaniz-msb-askeri-fabrikalar-genel-mudurlugunun-onayli-tedarikcisi-oldu/"
+  },
+  {
    "anahtar": "872b860afdafbe17",
    "asama": "Belirsiz",
    "baslik": "Rotherham steel firm goes greener with £160K investment in panels and batteries",
@@ -274,18 +300,33 @@
   "tenova|ulke|Hindistan|Belirsiz": "2026-10-20"
  },
  "gb_form_sayac": {
-  "490fe88208+": 2,
-  "490fe88208-": 2,
-  "561ca32fc1+": 2,
-  "561ca32fc1-": 2,
-  "57d5af2902+": 2,
-  "57d5af2902-": 2,
-  "65ac0bac8b+": 2,
-  "65ac0bac8b-": 2,
-  "a06acce312+": 1,
-  "testkod000+": 1
+  "3ffa8c22f8+": 1,
+  "3ffa8c22f8-": 1,
+  "490fe88208+": 3,
+  "490fe88208-": 3,
+  "561ca32fc1+": 3,
+  "561ca32fc1-": 3,
+  "57d5af2902+": 3,
+  "57d5af2902-": 3,
+  "65ac0bac8b+": 3,
+  "65ac0bac8b-": 3,
+  "9f687e6101+": 1,
+  "9f687e6101-": 1,
+  "a06acce312+": 2,
+  "b1114a2a22+": 1,
+  "b1114a2a22-": 1,
+  "b1400796e4+": 1,
+  "b1400796e4-": 1,
+  "testkod000+": 2
  },
- "gb_oy": {},
+ "gb_oy": {
+  "3ffa8c22f8|form:03.11.2026 12:07:53": "-",
+  "9f687e6101|form:03.11.2026 12:07:52": "+",
+  "9f687e6101|form:03.11.2026 12:07:53": "-",
+  "a06acce312|form:03.11.2026 10:06:04": "+",
+  "b1114a2a22|form:03.11.2026 12:07:53": "+",
+  "b1400796e4|form:03.11.2026 12:07:53": "+"
+ },
  "gonderilen_donemler": [
   "2026-W45"
  ],
@@ -1945,6 +1986,24 @@
     "tekrar": 49
    },
    "uretim": "2026-11-03 08:57 UTC"
+  },
+  {
+   "donem": "2026-W45",
+   "satir": 6,
+   "stats": {
+    "erisilemeyen": 10,
+    "gnews_tarih": 0,
+    "ham": 4161,
+    "kabul": 5,
+    "kapsam_disi": 3684,
+    "kaynak": 315,
+    "makale_acildi": 220,
+    "on_eleme_gecti": 470,
+    "pencere_disi": 306,
+    "tarihsiz_elendi": 104,
+    "tekrar": 55
+   },
+   "uretim": "2026-11-03 10:38 UTC"
   }
  ],
  "piyasa_rezerv": [
@@ -1957,22 +2016,6 @@
    "url": "https://eurometal.net/european-green-flat-steel-demand-remains-subdued-construction-provides-pockets-of-interest/?utm_source=rss&utm_medium=rss&utm_campaign=european-green-flat-steel-demand-remains-subdued-construction-provides-pockets-of-interest"
   },
   {
-   "anahtar": "piyasa:3e4b4481b0cc035c",
-   "baslik": "EU backs AD duties on CRC from five countries",
-   "kaynak": "EUROMETAL",
-   "lead": "EU member states voted in favour of definitive anti-dumping duties on cold-rolled flat steel imports from five countries – India, Japan, Turkey, Vietnam and Taiwan, China – on 29 October, market sources told McCloskey. Fifteen member states voted in favour of the measures, nine abstained and three v",
-   "tarih": "2026-11-02",
-   "url": "https://eurometal.net/eu-backs-ad-duties-on-crc-from-five-countries/?utm_source=rss&utm_medium=rss&utm_campaign=eu-backs-ad-duties-on-crc-from-five-countries"
-  },
-  {
-   "anahtar": "piyasa:a3b301404961402b",
-   "baslik": "US HRC, CRC prices climb amid tight supply",
-   "kaynak": "Kallanish",
-   "lead": "US hot-rolled and cold-rolled coil prices have edged higher last week following another Nucor price increase,...",
-   "tarih": "2026-11-02",
-   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/us-hrc-crc-prices-climb-amid-tight-supply-1026/"
-  },
-  {
    "anahtar": "piyasa:380785546277695a",
    "baslik": "Hoa Phat exports 8,000 tons of galvanized steel sheets to Japan, expanding its international market.",
    "kaynak": "Vietnam.vn",
@@ -1981,12 +2024,28 @@
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOa0dIVGQ5Rk9jb09ycmFMSHRkaWlzbngtcmNpX0FIZXNtU2VTNk81d1JyNTdfN2JnV0htakh5VTJybWdENXQ0OTlrN2thdW1qbFdBb21aUy1aV2h0OFdNQ0tzeXRudHZNUXNTVWZQaTAxRFFkMmc3ZmxfTU9ZSzFNdVJqSlFIMzVRQVROT01UWGdVczlZUExUX0RWcVBMTm5kaW5nMg?oc=5"
   },
   {
-   "anahtar": "piyasa:db67f98fb4dd717b",
-   "baslik": "India: Coated flat steel prices ease w-o-w; further correction may support demand",
-   "kaynak": "Bing News",
-   "lead": "hidden Disclaimer: BigMint Technologies Private Limited has taken due care and caution in compilation of content for its web site. Information is just for reference not intended for trading purpose or ...",
+   "anahtar": "piyasa:a7dffa13a828b745",
+   "baslik": "EU backs duties on cold-rolled steel from five countries",
+   "kaynak": "Metallurgprom",
+   "lead": "EU countries voted to impose definitive anti-dumping duties on imports of cold-rolled flat steel from five countries.",
    "tarih": "2026-11-02",
-   "url": "https://www.bigmint.co/insights/detail/india-coated-flat-steel-prices-ease-w-o-w-further-correction-may-support-demand-803955"
+   "url": "https://metallurgprom.org/en/news/europe/22149-eu-backs-duties-on-cold-rolled-steel-from-five-countries.html"
+  },
+  {
+   "anahtar": "piyasa:2a00d4372823eae3",
+   "baslik": "SunSirs: Constrained by Costs and Weakened Demand, the Market for Color Coated Sheets Was in a Narrow, Stagnant Range Last Week",
+   "kaynak": "Bing News",
+   "lead": "Price Trends According to the commodity market analysis system of SunSirs, the domestic color coated steel sheet market last week remained ...",
+   "tarih": "2026-11-02",
+   "url": "https://www.sunsirs.com/commodity-news/petail-37313.html"
+  },
+  {
+   "anahtar": "piyasa:a283e8550a5387e3",
+   "baslik": "Flat Steel Gets Cheaper as Aisha Steel Slashes Prices",
+   "kaynak": "ProPakistani",
+   "lead": "Flat Steel Gets Cheaper as Aisha Steel Slashes Prices &nbsp;&nbsp; ProPakistani",
+   "tarih": "2026-11-01",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZWxxdzhEQ0VkM1djSVdGenZCQkJXa1ZsaXpBVTk5dER1cDhDMGpJVGpNemhESHBOWkhRWDZMNk9XajRPZVZrSFQ4NHljYnVkcjBaOHhwblJSeGF1cThubnRqWVRwcjNsXzk5VmktUzVFOWxfcnRrREdGa1JPMFNXT1JiWFlaU0g3LXfSAYoBQVVfeXFMUGVscXc4RENFZDNXY0lXRnp2QkJCV2tWbGl6QVU5OXREdXA4QzBqSVRqTXpoREhwTlpIUVg2TDZPV2o0T2VWa0hUODR5Y2J1ZHIwWjh4cG5SUnhhdXE4bm50allUcHIzbF85OVZpLVM1RTlsX3J0a0RHRmtSTzBTV09SYlhZWlNINy13?oc=5"
   },
   {
    "anahtar": "piyasa:2d22b9537430156d",
@@ -2594,6 +2653,33 @@
    "url": "https://note.com/sankituushin/n/n4cc3fa0e878e?hl=en"
   },
   {
+   "anahtar": "730bd1f322f11f09",
+   "asama": "Belirsiz",
+   "baslik": "Jindal Stainless to invest ₹900 crore to expand cold rolling capacity",
+   "eksik": [
+    "asama"
+   ],
+   "firma": "Jindal Stainless",
+   "hat": "Soguk hadde",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Manufacturing Today India",
+   "kaynak_id": "gtek_hidrojen",
+   "lead": "Jindal Stainless to invest ₹900 crore to expand cold rolling capacity &nbsp;&nbsp; Manufacturing Today India",
+   "olaylar": [
+    "jindal stainless|fu|Hindistan|Soguk hadde",
+    "jindal stainless|hat|Soguk hadde|Belirsiz",
+    "jindal stainless|ulke|Hindistan|Belirsiz"
+   ],
+   "rezerv": true,
+   "tarih": "2026-08-17",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Hindistan",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUE5DeTEtaUxlSFZvVEJGbTd1X3N1SE5YZm5EaVlBZkwxOVNVYkZtTHFtdFFDeTM0UWZrVjdaYkhHTXE5UkpqNGp5aEJCUi1QSUM0cFhHMmZXb1hCa3dFZGswaTRJY21tUFpKYVlGbkZoc0Q5YnljTW5KY2E1WVdqa2VueW5VR3JnQ2ZMQ1BGU1ZHZFM1SGpwMFBOaTNmS2tHWWNaSGV5YU5kMFJKZ2R4d0p3b0FvYkxt?oc=5"
+  },
+  {
    "anahtar": "b15f62afd23fd1d1",
    "asama": "Belirsiz",
    "baslik": "Jindal Stainless Invests Rs 900 Crore to Expand Cold Rolling Capacity",
@@ -2670,6 +2756,32 @@
    "tutar": "",
    "ulke": "",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9IUmt5bnEwYkszNUZ1SXBuNFpsaW95Q2syZjE0STdIUmo4N2trS1M2M3lPMTZCXzRjaUhiRUg0VTNLQlctUk9NeTFPQWNkbmJrYWIzSm5qZVdtNEs0ZDNvM2VvSWhIMDZxeXRxbU9lRlpRUDZLVm1uVDU3YjVQT1E?oc=5"
+  },
+  {
+   "anahtar": "28459cdd0c32da5c",
+   "asama": "Modernizasyon",
+   "baslik": "Primetals Technologies to modernize KG Steel's Dangjin cold mill with AI-driven automation upgrade",
+   "eksik": [
+    "ulke"
+   ],
+   "firma": "Primetals Technologies",
+   "hat": "Soguk hadde",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Yieh Corp.",
+   "kaynak_id": "gtek_cold",
+   "lead": "Primetals Technologies to modernize KG Steel's Dangjin cold mill with AI-driven automation upgrade &nbsp;&nbsp; Yieh Corp.",
+   "olaylar": [
+    "primetals technologies|hat|Soguk hadde|Modernizasyon",
+    "primetals|hat|Soguk hadde|Modernizasyon"
+   ],
+   "rezerv": true,
+   "tarih": "2026-08-12",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "Primetals",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNalhvamNnNE1IYTlnbFBWLVEtZXNmNWhmeEFuaFN3Qk1oOExtSmN6NWYxSURMdm9kcWNJNTFlcDBvN21FUUFQbFJSOEM2ZzA1NE1OTWZDekJWYm5UNklGaWc1QmRvOEhyS0lBbDdQUFN6WTZYQnQ5RVdEai1ZV1lWZVByZVBBWmkzblg3eTFiYXN0R3FIVF9EUHdqQndWSlMzcmg2TU9KNkJIRG5UNU9oc1lsREN4eE9fZTMwS0dxLUhPT3U1YXpYQ1hmN3VjZw?oc=5"
   },
   {
    "anahtar": "88fbd0c6b1f6aac5",
@@ -2797,6 +2909,140 @@
    "url": "https://news.mesteel.com/marcegaglia-upgrades-pickling-line-at-gazoldo-degli-ippoliti-stainless-steel-plant/"
   },
   {
+   "anahtar": "3b9e0ba3d7e53ee3",
+   "asama": "Teknoloji",
+   "baslik": "Posco and Hyundai develop novel electrical steel for more efficient electric motors",
+   "eksik": [
+    "ulke"
+   ],
+   "firma": "Posco and Hyundai",
+   "hat": "Elektrik celigi hatti",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "electrive.com",
+   "kaynak_id": "gtek_es",
+   "lead": "Posco and Hyundai develop novel electrical steel for more efficient electric motors &nbsp;&nbsp; electrive.com",
+   "olaylar": [
+    "posco and hyundai|hat|Elektrik celigi hatti|Teknoloji"
+   ],
+   "rezerv": true,
+   "tarih": "2026-07-09",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNVV0U1otMkFRbUphNHRvMDBVdWFEVjVKN0FYV2tNdWZhWVB0TldhN0QxeDJtLU51ci1CLVFid0NTT21DSFVCMmw3a2ZyUTB6YUxkQ1hmcGZ5T05pOUdLbUxjMDdTX2IyZ0tfdnZaSVA5aW41dHhURFpvZUJKbUxiVDBjTUNCMXdfLUJIMXdsdl9VNktxeXVDeFlyNThjZHFXVUJwRXctZTJuWjduaEE3NFBmclFyYTdMNzNzM2lR?oc=5"
+  },
+  {
+   "anahtar": "598247fd0170db4b",
+   "asama": "Teknoloji",
+   "baslik": "POSCO and Hyundai partner to develop 6.5% silicon electrical steel for EV motors",
+   "eksik": [
+    "ulke"
+   ],
+   "firma": "POSCO and Hyundai",
+   "hat": "Elektrik celigi hatti",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Charged EVs",
+   "kaynak_id": "gtek_es",
+   "lead": "",
+   "olaylar": [
+    "posco and hyundai|hat|Elektrik celigi hatti|Teknoloji"
+   ],
+   "rezerv": true,
+   "tarih": "2026-07-07",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWENTOUgzZFMzQjhaRlJnWmdEY3RMVmhLR25rYnFHd1JrLTQtRDJ3NVZvWTN6UjN2QUpfVXBuM1c5QklYQlNJYUQwY1pVdjhKb19xTEZXX3NRYmZNUVRyVEFuX3RNSm15N3ZrWm5nTm1XMExRUDBpVElLQ0Z2dzFjcmRkQ0xva1ktQTJZTlRnemg0NzVsZ3pUVGNUT3YyNGYweXdVRUdZdVpDX2ZEY19PdGlB?oc=5"
+  },
+  {
+   "anahtar": "32492387471c43f5",
+   "asama": "Sozlesme",
+   "baslik": "John Cockerill India Ltd receives order from JSW JFE Electrical Steel Nashik Pvt Ltd",
+   "eksik": [],
+   "firma": "John Cockerill India Ltd",
+   "hat": "Elektrik celigi hatti",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "EquityBulls",
+   "kaynak_id": "gtek_es",
+   "lead": "John Cockerill India Ltd receives order from JSW JFE Electrical Steel Nashik Pvt Ltd &nbsp;&nbsp; EquityBulls",
+   "olaylar": [
+    "john cockerill india ltd|fu|Hindistan|Elektrik celigi hatti",
+    "john cockerill india ltd|hat|Elektrik celigi hatti|Sozlesme",
+    "john cockerill india ltd|ulke|Hindistan|Sozlesme",
+    "john cockerill|fu|Hindistan|Elektrik celigi hatti",
+    "john cockerill|hat|Elektrik celigi hatti|Sozlesme",
+    "john cockerill|ulke|Hindistan|Sozlesme"
+   ],
+   "rezerv": true,
+   "tarih": "2026-06-19",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "John Cockerill",
+   "tutar": "",
+   "ulke": "Hindistan",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQY0wtT1k1ZVVZLUdhNDlVejQ1TmxPRFRQX1NUbVlVaTRTb2p5ZlhPUnB6OUM5TEtvalNjd2h5SHNpbVE0SjJOWjRnR0M3cjUxZml3Y0RwTEVQNlhfWGZmTjhiVEVjNVNEMEJOMXRGbUItUi0yZzBYS3g3QTAyYjN4SVd5MFdKdUNISTVoSnlRWmNRbm0teTh3RnFlZlZOZ2Ztbk5kVG00ZWp6VTVYZll4WEJUbllITmFlSmxkag?oc=5"
+  },
+  {
+   "anahtar": "2d7578e0e0541771",
+   "asama": "Sozlesme",
+   "baslik": "Fives to supply annealing furnaces for JSW Steel’s new electrical steel lines in India",
+   "eksik": [],
+   "firma": "JSW Steel",
+   "hat": "Elektrik celigi hatti",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "SteelOrbis",
+   "kaynak_id": "gtek_es",
+   "lead": "Fives to supply annealing furnaces for JSW Steel’s new electrical steel lines in India &nbsp;&nbsp; SteelOrbis",
+   "olaylar": [
+    "fives|fu|Hindistan|Elektrik celigi hatti",
+    "fives|hat|Elektrik celigi hatti|Sozlesme",
+    "fives|ulke|Hindistan|Sozlesme",
+    "jsw steel|fu|Hindistan|Elektrik celigi hatti",
+    "jsw steel|hat|Elektrik celigi hatti|Sozlesme",
+    "jsw steel|ulke|Hindistan|Sozlesme"
+   ],
+   "rezerv": true,
+   "tarih": "2026-06-05",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "Fives",
+   "tutar": "",
+   "ulke": "Hindistan",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNMVRGNXo4Z01NMjZ5UUt6djZ1eGlJOWVIQjBBQldUNk9mSUJxYnVYZ2g3YTcyMy1GYXpoZlNBY3NDaEs2azNjalNrYUdiT0tkSUlzb1RWaFhlVlE5cHFOQmU2N0UxNFhnS2xlQUY1eUZuRjJwRnZNNjZ0dDNVOTF4bmVielRJTE81dXgtMVRpSTVoX1Nxb0RJVVpkRXdCdWUyTERsWWZrbHBNQjNrUmNCZWIzZXFXRlhFSnVOYTF0ZFA4Sk1IeTczTy1MOU83Y1owam1ibG0xUzAwT3pFcjRtOQ?oc=5"
+  },
+  {
+   "anahtar": "72ab6998382ec63b",
+   "asama": "Sozlesme",
+   "baslik": "JSW Steel Coated Products Awards John Cockerill India Rajpura Cold Rolling Complex Contract",
+   "eksik": [],
+   "firma": "JSW Steel Coated Products",
+   "hat": "Soguk hadde",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Machine Maker",
+   "kaynak_id": "gtek_cold",
+   "lead": "JSW Steel Coated Products Awards John Cockerill India Rajpura Cold Rolling Complex Contract &nbsp;&nbsp; Machine Maker",
+   "olaylar": [
+    "john cockerill|fu|Hindistan|Soguk hadde",
+    "john cockerill|hat|Soguk hadde|Sozlesme",
+    "john cockerill|ulke|Hindistan|Sozlesme",
+    "jsw steel coated products|fu|Hindistan|Soguk hadde",
+    "jsw steel coated products|hat|Soguk hadde|Sozlesme",
+    "jsw steel coated products|ulke|Hindistan|Sozlesme"
+   ],
+   "rezerv": true,
+   "tarih": "2026-05-28",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "John Cockerill",
+   "tutar": "",
+   "ulke": "Hindistan",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZG1ldWFDb2J0aUdtNUswblJkTlFaYmFVckpjVFBrVTdfM2M4UHBfTll2a25Ia3IwdU1FekJnU1dyNEY4QWxsQVpvcUY4ZFYyMzZkNmgxNk9rQWwxNkdpb3N0YTBmSWxmM2FuZWtkaG91dFNNRktQekRlX1c3cUpDRUxVcTNRWlE0cENRamR6eFFmRW5hZU00NGg5NHFSUE5DRHI4LXR0cUQxUllPbW5xVW10bXdNdXJIa3RWYmw3X3kzWjg?oc=5"
+  },
+  {
    "anahtar": "89a81bc39203a100",
    "asama": "Ilk urun",
    "baslik": "India's JIL commissions continuous color coating line completing $155 million capex program",
@@ -2820,6 +3066,32 @@
    "tutar": "$155 million",
    "ulke": "Hindistan",
    "url": "https://www.steelorbis.com/steel-news/latest-news/indias-jil-commissions-continuous-color-coating-line-completing-155-million-capex-program-1454553.htm"
+  },
+  {
+   "anahtar": "9e23d30ba4744635",
+   "asama": "Ilk urun",
+   "baslik": "ArcelorMittal Nippon Steel India commissions 2 mtpa cold rolling line at Hazira, Gujarat",
+   "eksik": [],
+   "firma": "ArcelorMittal Nippon Steel India",
+   "hat": "Soguk hadde",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "ET Infra",
+   "kaynak_id": "gtek_cold",
+   "lead": "ArcelorMittal Nippon Steel India commissions 2 mtpa cold rolling line at Hazira, Gujarat &nbsp;&nbsp; ET Infra",
+   "olaylar": [
+    "*|ulke-hat|Hindistan|Soguk hadde|Ilk urun",
+    "arcelormittal nippon steel india|fu|Hindistan|Soguk hadde",
+    "arcelormittal nippon steel india|hat|Soguk hadde|Ilk urun",
+    "arcelormittal nippon steel india|ulke|Hindistan|Ilk urun"
+   ],
+   "rezerv": true,
+   "tarih": "2026-05-01",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Hindistan",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNcHJNOHhQQWhmaDdMbndtZS1lMVBXUnZSTUxWNXVfUnF5VUgwd2lNb2xiYV8tU2VvWF9hbDc2VzBvRkJ6V0dqd19WTGIybW5zT3RtSW9jMFIwUm42ajZZc0h5WUxmZTFOX25BZlJvLXBPTjgwV1U1Mnl0X0Q4U1hnVjg5RVlUQTR0c1FwVjdpemVJXzEwU0labTVOdmZkaEtNSUZmM0VnZG1wYU9fUkJFLTZfQzNULVdha3ZDV2hhZWFNSkszeGhRQ2hLaXp0ZGVEdHU4N2M1ZVFJeHdO0gHiAUFVX3lxTE9ZUWJaRlRKTDIyVno4aFpobzVQN0U1c3NZWjVsQ2ZhRUpqazljNjVMNXJNenVCc193NHRLSGJ6SUo2bkFwOF9ETmJ1ajMyZGhwNWNhbWdxVEZYQ0hiWkZWODFFWk5tSmc1bzNSTEotLXU5aTJBT1lvVTJpR214Q0NFZURELXFINkNkRVRidjZOeUVEZUtrMmRaUmJwM3Y1TmpBLXliTU5zU3ZERGZ6ZlNvbGozeWtETUdfbXk5TE9rTG5VdkJCdzBnd0lnZTBDOXlSaHpjRlZieEF0WVNJSGN1SXc?oc=5"
   },
   {
    "anahtar": "dbf500463fb21d96",
@@ -2847,6 +3119,62 @@
    "tutar": "",
    "ulke": "ABD",
    "url": "https://www.ussteel.com:443/media/newsroom/-/blogs/u-s-steel-announces-plans-to-restart-gary-tin-mill?_com_liferay_blogs_web_portlet_BlogsPortlet_redirect=https%3A%2F%2Fwww.ussteel.com%3A443%2Fmedia%2Fnewsroom%3Fp_p_id%3Dcom_liferay_blogs_web_portlet_BlogsPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26_com_liferay_blogs_web_portlet_BlogsPortlet_cur%3D1%26_com_liferay_blogs_web_portlet_BlogsPortlet_delta%3D20"
+  },
+  {
+   "anahtar": "7ad7d332908eeb41",
+   "asama": "Sozlesme",
+   "baslik": "John Cockerill India Bags ₹300 Crore Order From JSW Steel For Galvanizing Line",
+   "eksik": [],
+   "firma": "John Cockerill India",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "scanx.trade",
+   "kaynak_id": "gtek_galv",
+   "lead": "John Cockerill India Bags ₹300 Crore Order From JSW Steel For Galvanizing Line &nbsp;&nbsp; scanx.trade",
+   "olaylar": [
+    "john cockerill india|fu|Hindistan|Galvaniz hatti (CGL)",
+    "john cockerill india|hat|Galvaniz hatti (CGL)|Sozlesme",
+    "john cockerill india|ulke|Hindistan|Sozlesme",
+    "john cockerill|fu|Hindistan|Galvaniz hatti (CGL)",
+    "john cockerill|hat|Galvaniz hatti (CGL)|Sozlesme",
+    "john cockerill|ulke|Hindistan|Sozlesme"
+   ],
+   "rezerv": true,
+   "tarih": "2026-04-15",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "John Cockerill",
+   "tutar": "",
+   "ulke": "Hindistan",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNOGwtUUJwMGVUbmx6OWw5WTd2bVpwM2V4QWM0VE1lLVlaZG1xTmRDN1c3SDQxRF9ENlFQQy1DcmZ3cXBCR0dTTEJKYV93SlphQ2ZMc0hfY3ZRbXVTR3lTYW9NZUpkWExvQklROU93V24ycXBjNFpnbGk5Wkk4WC1Odkx6ZW1XMW43RVF3dGthT2liTG44b1QxcTZtQ3RnTm9VdHRtb0VpSHUtZmtvUUlsOHJPb2xhLUJXWVJxdGh3UjR6MlN6TGZTc2d5X3ZodTZrVDJkbjRRSG5oVGdvOURTS1ZvT1FHbFVm?oc=5"
+  },
+  {
+   "anahtar": "b632c0fd1804b7ab",
+   "asama": "Sozlesme",
+   "baslik": "John Cockerill India bags ₹300 crore JSW Steel order for galvanising line at Khopoli plant",
+   "eksik": [],
+   "firma": "Khopoli",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "CNBC TV18",
+   "kaynak_id": "gtek_galv",
+   "lead": "John Cockerill India bags ₹300 crore JSW Steel order for galvanising line at Khopoli plant &nbsp;&nbsp; CNBC TV18",
+   "olaylar": [
+    "john cockerill|fu|Hindistan|Galvaniz hatti (CGL)",
+    "john cockerill|hat|Galvaniz hatti (CGL)|Sozlesme",
+    "john cockerill|ulke|Hindistan|Sozlesme",
+    "khopoli|fu|Hindistan|Galvaniz hatti (CGL)",
+    "khopoli|hat|Galvaniz hatti (CGL)|Sozlesme",
+    "khopoli|ulke|Hindistan|Sozlesme"
+   ],
+   "rezerv": true,
+   "tarih": "2026-04-15",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "John Cockerill",
+   "tutar": "",
+   "ulke": "Hindistan",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQN1JtVWotVGRNODJ0RnRVaEI2aWpSYnpHaThWR3UzYXZDOTl6SzlhV3lBZ05zdlRFWUVkSnQxNkJqajVXQnBWLVdCbGNlNkpzWlB1aklfU0pyMFdzdjN2Q1FxaU1rWXpGcWlQZV9jcVUxdkdrTEhyUnhXZGhMSnFMSmk5RDROMUtSWHJIZmVvaVNDRVg5V1pPNzFfOEVXVDZ0RXotRGdmaGx4aWhHWnc0VnlwVGRaSXFYRURYWDlTM05INUZ6bFRB0gHMAUFVX3lxTE9hMGlLaVpFNVd0NGhDUVpwMk1zd1c1V3pheXRIQW1TQVEtcHlGUi1qUmF3dDBudHNaTl8wQldxcjZQZEZSeEtIUGk3UjVnQmM3M04zTWszdlFzMEQ5RkVRd1ViTW5Hem45T0FnaW5US3JHcW5iUlRIQXVPdDR4SlBraE04LVZwMVJjb3BkQVJzNWdrOUsybjZvcUtkUVJwV2NZcGpZMlVJSE4tTXRBejNaREZWZk1sZ1RGRFRQX2ZXb09wc3N4VXVHeGxtUA?oc=5"
   },
   {
    "anahtar": "971c858c2cf021dc",
@@ -2879,6 +3207,31 @@
    "url": "https://mino.it/new-mino-double-stand-six-high-cold-reversing-mill-in-north-america/"
   },
   {
+   "anahtar": "8d2532bf9c27b4b2",
+   "asama": "Sozlesme",
+   "baslik": "John Cockerill signs deal with Shandong Zhongxin to supply galvanizing and annealing lines",
+   "eksik": [
+    "ulke"
+   ],
+   "firma": "John Cockerill",
+   "hat": "Surekli tavlama (CAL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Defensehere",
+   "kaynak_id": "gtek_galv",
+   "lead": "John Cockerill signs deal with Shandong Zhongxin to supply galvanizing and annealing lines &nbsp;&nbsp; Defensehere",
+   "olaylar": [
+    "john cockerill@shandong|hat|Surekli tavlama (CAL)|Sozlesme"
+   ],
+   "rezerv": true,
+   "tarih": "2026-02-27",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "John Cockerill",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSUkyTFpfd0RWeW9NWko5d0RWQ2FpdEJzV3U0RjdRVldLQWN4Q3BqakR0SEZ5YzdnNVNPaFQzdWFyS2VBSHIwUjZUZVFENVRPZkp6cGk3d2ZYMUczZ0dWajhudEJrNDFwS3VjSVdSSS1qRmlTbmtHNjd2cDBsYnVCXzJaMGkxRmhLbmd1Q1ZPb1NFcU1iNVVVWk9ZM3NNb1R5c1dZemJUTTAyTkpPdXlIS2dNSGsxblN1a0E?oc=5"
+  },
+  {
    "anahtar": "46ec3b1d88adc8d6",
    "asama": "Belirsiz",
    "baslik": "Partnering with Shandong Zhongxin to Deliver High-End Galvanizing and Continuous Annealing Lines for Automotive Steel Upgrading",
@@ -2903,6 +3256,60 @@
    "tutar": "",
    "ulke": "",
    "url": "https://johncockerill.com/en/press-and-news/news/cgl-cal-shandong-zhongxin/"
+  },
+  {
+   "anahtar": "cf3d3188df9e5735",
+   "asama": "Belirsiz",
+   "baslik": "Ternium starts cold rolling and galvanizing lines in Mexico",
+   "eksik": [
+    "asama"
+   ],
+   "firma": "Ternium",
+   "hat": "Soguk hadde",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "SteelOrbis",
+   "kaynak_id": "gtek_hidrojen",
+   "lead": "Ternium starts cold rolling and galvanizing lines in Mexico &nbsp;&nbsp; SteelOrbis",
+   "olaylar": [
+    "ternium|fu|Meksika|Soguk hadde",
+    "ternium|hat|Soguk hadde|Belirsiz",
+    "ternium|ulke|Meksika|Belirsiz"
+   ],
+   "rezerv": true,
+   "tarih": "2026-02-20",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Meksika",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNTld6M083LTFyUlF4anRuTU1QWnhFVjhuRVNYVlhxQUxsQjF0ekxyRzVIa1p4MFoyZktYTlJYSFdLMlNYVjI2cl9aTUZULS1EMWNfYmcxNDlod2FEZTdwYXFwTWJTUk55cHpHUExmTXJGX1F1ZXhpb05oT2ZyLWpEVFVsQ2drSXE0V3B3QUh2eDNtZDBhOXd3c3FkeVJkWVhkMFRDVnhMQXVaaWkxX0FBS1g4enpoNWxXMW1lV2lR?oc=5"
+  },
+  {
+   "anahtar": "8d0d106a4cd35c05",
+   "asama": "Belirsiz",
+   "baslik": "Roofings Rolling Mills launched new cold mill complex in Uganda",
+   "eksik": [
+    "asama"
+   ],
+   "firma": "Roofings Rolling Mills",
+   "hat": "Soguk hadde",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "megaproject.com",
+   "kaynak_id": "gtek_hidrojen",
+   "lead": "Roofings Rolling Mills launched new cold mill complex in Uganda &nbsp;&nbsp; megaproject.com",
+   "olaylar": [
+    "roofings rolling mills|fu|Uganda|Soguk hadde",
+    "roofings rolling mills|hat|Soguk hadde|Belirsiz",
+    "roofings rolling mills|ulke|Uganda|Belirsiz"
+   ],
+   "rezerv": true,
+   "tarih": "2026-02-13",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Uganda",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOeEFVSzVuREJWNEh1S0ZRaTl4NUQ1a0Q2Y0oxQVBUMlNuSk1hSzhCa2lCSDZ1RlNIeGxRNXFJQk5vOTZHWjJxT25NVFVaY1pBcktLZUk4dFBraHJ1bl83d2xOWDNsTi1zRGRQX09GOXhkVFB6MkhmdHJxcnVsMUpsei1Rbk9xamdyQWFBLUVVYkotYmEySm5zeFNOMU5Ja3c?oc=5"
   },
   {
    "anahtar": "4b43a2343a38c4e0",
@@ -2931,6 +3338,62 @@
    "tutar": "",
    "ulke": "Turkiye",
    "url": "https://news.mesteel.com/rrm-starts-up-new-cold-mill-complex-with-danieli-technology/"
+  },
+  {
+   "anahtar": "ce2eda1e3f215e41",
+   "asama": "Ilk urun",
+   "baslik": "Jindal (India) Commissions INR 1,100 Crore Steel Coating Line in West Bengal",
+   "eksik": [
+    "hat"
+   ],
+   "firma": "Jindal (India)",
+   "hat": "Belirsiz",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Tube & Pipe India",
+   "kaynak_id": "gtek_galv",
+   "lead": "Jindal (India) Commissions INR 1,100 Crore Steel Coating Line in West Bengal &nbsp;&nbsp; Tube & Pipe India",
+   "olaylar": [
+    "*|ulke-hat|Hindistan|Belirsiz|Ilk urun",
+    "jindal (india)|fu|Hindistan|Belirsiz",
+    "jindal (india)|hat|Belirsiz|Ilk urun",
+    "jindal (india)|ulke|Hindistan|Ilk urun"
+   ],
+   "rezerv": true,
+   "tarih": "2026-02-09",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "INR 1,100 Crore",
+   "ulke": "Hindistan",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9lRjlxNkRlMlBsdWhkWEJlZFFuZU52ZUt1cHBudV9vNUdTWnZ0M1d1TllxX1hmTmh5amlueDVGSFBVRTA5OTRucEdMYkFCazYxMnZSeGh0VFdyMDJ1U200cE9SZw?oc=5"
+  },
+  {
+   "anahtar": "4be92234b4055d9c",
+   "asama": "Modernizasyon",
+   "baslik": "Primetals Technologies Secures Pickling Line Modernization Order from Toyo Kohan",
+   "eksik": [],
+   "firma": "Primetals Technologies",
+   "hat": "Asitleme hatti",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Tube & Pipe India",
+   "kaynak_id": "gtek_yenilik1",
+   "lead": "Primetals Technologies Secures Pickling Line Modernization Order from Toyo Kohan &nbsp;&nbsp; Tube & Pipe India",
+   "olaylar": [
+    "primetals technologies|fu|Hindistan|Asitleme hatti",
+    "primetals technologies|hat|Asitleme hatti|Modernizasyon",
+    "primetals technologies|ulke|Hindistan|Modernizasyon",
+    "primetals|fu|Hindistan|Asitleme hatti",
+    "primetals|hat|Asitleme hatti|Modernizasyon",
+    "primetals|ulke|Hindistan|Modernizasyon"
+   ],
+   "rezerv": true,
+   "tarih": "2025-12-16",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "Primetals",
+   "tutar": "",
+   "ulke": "Hindistan",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ka0EtNmVhSVJMOHNVcUc0MjRreU9xUUFpTmo4cVZlbWxHdGFoU0ZCLVExU25TODV4UkJaWDBZX2VVeG9wc082Qk1oaGJpYUFmTy1LdnY4dTdpWlE1WDB6NDhseWVQVTJw?oc=5"
   },
   {
    "anahtar": "ea36f7854d6f030b",
@@ -3008,6 +3471,60 @@
    "tutar": "",
    "ulke": "Japonya",
    "url": "https://www.primetals.com/en/news/primetals-technologies-awarded-contract-for-hot-dip-galvanizing-line-at-jfe-steel/"
+  },
+  {
+   "anahtar": "1eba9929284bf795",
+   "asama": "Sozlesme",
+   "baslik": "Muir Audio's Silicon Steel Distortion is a gorgeous sounding multi-layered full range harmonic distortion - augmented by Transformer and specially selected Silicon Diodes",
+   "eksik": [
+    "ulke"
+   ],
+   "firma": "Transformer",
+   "hat": "Elektrik celigi hatti",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Guitar Pedal X",
+   "kaynak_id": "gtek_yenilik2",
+   "lead": "Muir Audio's Silicon Steel Distortion is a gorgeous sounding multi-layered full range harmonic distortion - augmented by Transformer and specially selected Silicon Diodes &nbsp;&nbsp; Guitar Pedal X",
+   "olaylar": [
+    "transformer|hat|Elektrik celigi hatti|Sozlesme"
+   ],
+   "rezerv": true,
+   "tarih": "2025-11-25",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxOdk9iLWlwcWtrdkRZUkRfY0h0Y3lTXzFybEFiTmNVY2RzdDJJRTQyVDlmMGVGdk92Mng1OEpZdk5fV1RGaE52RGlGOHF1dWFXZjlyRGNuSVRwVmIydFNPeGFlLVlSbDI5R2NBQ0tUZk05UWI4TDQ3WXF1S3Q4Z0htRmZZRTZUd2ZfMTEyWFVhcWkxZm9ieFNlek5JTW50VlRNUFZFV1I2TjFSdHppYmtmdGpka3BGQ00ySUh0Q0xzd21uZWR0Wmp6OURsQWotd0ZLOWk4MGdBRUR4WjR2TnZNWXpDRE1GeHhMMkxfb092SlppdXV1aFlxajJJWllHcWYwQ2pKVEw1Zk91RS1sRjl1LTllUjRLUXcyaERTTWJmVVd0LXFWeVRiLW1FYV9Nd2c?oc=5"
+  },
+  {
+   "anahtar": "cbd810c71632f637",
+   "asama": "Ilk urun",
+   "baslik": "The Bronx Group Strengthens Partnership with Hoa Phat Steel Sheet Co. in Vietnam Through a New High-Speed Colour Coating Line",
+   "eksik": [],
+   "firma": "Bronx Group",
+   "hat": "Boyama hatti (CCL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "The Bronx Group",
+   "kaynak_id": "bronx",
+   "lead": "salesteam@thebronxgroup.com +44 1384 913005 MENU Information About Us Company History News Case Studies Technologies Products Colour Coating Lines Regenerative Thermal Oxidisers (RTOs) Recuperative Thermal Oxidisers (Incinerators) Paint Curing Ovens Roll Coater Machines Metal Coil Embossing Machines & Lines Uncoilers and Recoilers Precision Levellers Tension Levellers Strip Joiners Cut to Length Lines Slitting Lines ",
+   "olaylar": [
+    "*|ulke-hat|Vietnam|Boyama hatti (CCL)|Ilk urun",
+    "bronx group|fu|Vietnam|Boyama hatti (CCL)",
+    "bronx group|hat|Boyama hatti (CCL)|Ilk urun",
+    "bronx group|ulke|Vietnam|Ilk urun",
+    "bronx|fu|Vietnam|Boyama hatti (CCL)",
+    "bronx|hat|Boyama hatti (CCL)|Ilk urun",
+    "bronx|ulke|Vietnam|Ilk urun"
+   ],
+   "rezerv": true,
+   "tarih": "2025-11-11",
+   "tarih_kaynagi": "json-ld",
+   "tedarikci": "Bronx",
+   "tutar": "",
+   "ulke": "Vietnam",
+   "url": "https://thebronxgroup.com/bronx-coil-coating-line-for-hoa-phat/"
   }
  ],
  "seen": {
@@ -3057,12 +3574,60 @@
  "source_health": {},
  "tech_rezerv": [
   {
+   "anahtar": "tech:3a4b6e2a6c086c5e",
+   "baslik": "Kıraç Galvaniz, MSB Askeri Fabrikalar Genel Müdürlüğü’nün Onaylı Tedarikçisi Oldu",
+   "hat": "Galvaniz hatti (CGL)",
+   "kaynak": "SteelTurk",
+   "tarih": "2026-11-03",
+   "url": "https://www.steelturk.com.tr/kirac-galvaniz-msb-askeri-fabrikalar-genel-mudurlugunun-onayli-tedarikcisi-oldu/"
+  },
+  {
+   "anahtar": "tech:d9181dd30cb6e332",
+   "baslik": "New coating approach aligns molecules upright to boost organic solar cell efficiency",
+   "hat": "Belirsiz",
+   "kaynak": "Bing News",
+   "tarih": "2026-11-02",
+   "url": "https://techxplore.com/news/2026-10-coating-approach-aligns-molecules-upright.html"
+  },
+  {
+   "anahtar": "tech:ab08df3c70a674d7",
+   "baslik": "UPM Adhesive Materials to open first India factory targeting acrylic coatings",
+   "hat": "Belirsiz",
+   "kaynak": "Packaging Insights",
+   "tarih": "2026-10-29",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAtZjd4OHcxWW9JQWdsMTBHV3VxLVZXNmpRbEV6M212N1V5WFM1Qld1UHVBUlJuZzlpbklXX1Z0NlF2Q3d6djVVdmlLODVNaVJWb0R6bjNIOXVSX2ZLbDVzUkc2aks3NExQaTVqRVBnZDBqUTdyM2c?oc=5"
+  },
+  {
    "anahtar": "tech:39cef9f2a80a7302",
    "baslik": "R&D Update: Lubrication and galling in stamping of galvanized AHSS - Part III",
    "hat": "Galvaniz hatti (CGL)",
    "kaynak": "Google News",
    "tarih": "2026-10-28",
    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObFNJdUNpQXFUajVzUHFLbTlPdVd1MHFOcDlGU3d4czJlMlptTURvNTZFTEJETXVSRWZKQ19XWTd5RWI4S0VPdTYxMEZ1aXkwb01fT1hiazJ6U2Etbzd4VkRTRGp2TkJjU0RybEZQTVlHZ0pkTXRtLW8wY0hyNEpKYjhhY19LOGNqSGZqcmhtcFN1eHJ4UVZBMzc4di0xb1VILTlHb2NiRy1MNnVXU2RIXzRZSDc?oc=5"
+  },
+  {
+   "anahtar": "tech:3bb113dd1d100448",
+   "baslik": "European coil and green steel round-up: EU coil largely stable on slow apparent demand",
+   "hat": "Belirsiz",
+   "kaynak": "Bing News",
+   "tarih": "2026-10-19",
+   "url": "https://eurometal.net/european-coil-and-green-steel-round-up-eu-coil-largely-stable-on-slow-apparent-demand/"
+  },
+  {
+   "anahtar": "tech:45c439b08bc58b50",
+   "baslik": "ArcelorMittal commits €300 million to Dunkirk steel project, targets spring 2027 tests for new line in Mardyck",
+   "hat": "Elektrik celigi hatti",
+   "kaynak": "Bing News",
+   "tarih": "2026-10-15",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/arcelormittal-advances-dunkirk-eaf-and-mardyck-electrical-steel-projects-1483903.htm"
+  },
+  {
+   "anahtar": "tech:21b8b17f2932d529",
+   "baslik": "Ten Reputable Electrical Steel Companies in China 2026: Advancing Motor Efficiency and Industrial Performance",
+   "hat": "Elektrik celigi hatti",
+   "kaynak": "Bing News",
+   "tarih": "2026-10-09",
+   "url": "https://www.jsonline.com/press-release/story/254311/ten-reputable-electrical-steel-companies-in-china-2026-advancing-motor-efficiency-and-industrial-performance/"
   },
   {
    "anahtar": "tech:e82b221fc2986888",
@@ -3079,9 +3644,66 @@
    "kaynak": "Bing News",
    "tarih": "2026-09-16",
    "url": "https://www.imveurope.com/article/steel-inspection-system-uses-machine-vision-increase-line-speed-precision"
+  },
+  {
+   "anahtar": "tech:291e32d7546a5fb3",
+   "baslik": "EGGA Supports the European Convoy for Industrial CompetitivenessEGGA-Galvanizing Europe had supported the “European Convoy for Industrial Competitiveness” in Brussels on",
+   "hat": "Galvaniz hatti (CGL)",
+   "kaynak": "Galvanizing Europe",
+   "tarih": "2026-09-08",
+   "url": "https://www.galvanizingeurope.org/egga-supports-the-european-convoy-for-industrial-competitiveness/"
+  },
+  {
+   "anahtar": "tech:28459cdd0c32da5c",
+   "baslik": "Primetals Technologies to modernize KG Steel's Dangjin cold mill with AI-driven automation upgrade",
+   "hat": "Soguk hadde",
+   "kaynak": "Yieh Corp.",
+   "tarih": "2026-08-12",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNalhvamNnNE1IYTlnbFBWLVEtZXNmNWhmeEFuaFN3Qk1oOExtSmN6NWYxSURMdm9kcWNJNTFlcDBvN21FUUFQbFJSOEM2ZzA1NE1OTWZDekJWYm5UNklGaWc1QmRvOEhyS0lBbDdQUFN6WTZYQnQ5RVdEai1ZV1lWZVByZVBBWmkzblg3eTFiYXN0R3FIVF9EUHdqQndWSlMzcmg2TU9KNkJIRG5UNU9oc1lsREN4eE9fZTMwS0dxLUhPT3U1YXpYQ1hmN3VjZw?oc=5"
+  },
+  {
+   "anahtar": "tech:2a81095235098448",
+   "baslik": "Posco and Hyundai are developing innovative electrical steel to improve the efficiency of electric vehicles",
+   "hat": "Elektrik celigi hatti",
+   "kaynak": "GMK Center",
+   "tarih": "2026-07-12",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQSGtGOHBERUpYUkpjbW4tQVEweXVNUzYtcU1DNjB2bWhQamNzYTlPZFNtMXBNeXRvLXJwS2hwaEcxN3VNNFg0RTd1UVhZYmZPNEZRT0YxUlQ4VThJcG0ycXRJOGVEVWVLOFZmUHVNZ2hPYzFwY0FxOGhydjdTRmEtUmtwbFZKUlB5WTRqb2l5V2NxN0hoY0o2NExOaEg3dHdPLXZrUG1Zc3laakRVR3dLQi0yRnR1elZ6NUVvc0swRHczUEtNNHRZM2VaZV9FaUdz0gHWAUFVX3lxTE5mbGJMX0V1bE15SmhZdE05VDM2OG9POEVzc2g1bExqcHIzZGw3S3dvS291M252VUllVHB6THlfR1E0MnlPRTFRVlRzV2phMldEV0lKSWJJenRsdkxWbkRyTkpicFdLMFYzNUk4WnZvcGJZbFAyRGpDMURMUGNLaWhRTk81MVZ5NnlvamRLdnd2dXBPMElaT19OQ2dwaEFmOHZjYjh3dlJpQk1xQkhxQjlGMVlyWlZCdVRXbVR0MlhpNE9wNHg4UFVONThfVXBtSG5rNFlUWVE?oc=5"
+  },
+  {
+   "anahtar": "tech:3b9e0ba3d7e53ee3",
+   "baslik": "Posco and Hyundai develop novel electrical steel for more efficient electric motors",
+   "hat": "Elektrik celigi hatti",
+   "kaynak": "electrive.com",
+   "tarih": "2026-07-09",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNVV0U1otMkFRbUphNHRvMDBVdWFEVjVKN0FYV2tNdWZhWVB0TldhN0QxeDJtLU51ci1CLVFid0NTT21DSFVCMmw3a2ZyUTB6YUxkQ1hmcGZ5T05pOUdLbUxjMDdTX2IyZ0tfdnZaSVA5aW41dHhURFpvZUJKbUxiVDBjTUNCMXdfLUJIMXdsdl9VNktxeXVDeFlyNThjZHFXVUJwRXctZTJuWjduaEE3NFBmclFyYTdMNzNzM2lR?oc=5"
+  },
+  {
+   "anahtar": "tech:598247fd0170db4b",
+   "baslik": "POSCO and Hyundai partner to develop 6.5% silicon electrical steel for EV motors",
+   "hat": "Elektrik celigi hatti",
+   "kaynak": "Charged EVs",
+   "tarih": "2026-07-07",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWENTOUgzZFMzQjhaRlJnWmdEY3RMVmhLR25rYnFHd1JrLTQtRDJ3NVZvWTN6UjN2QUpfVXBuM1c5QklYQlNJYUQwY1pVdjhKb19xTEZXX3NRYmZNUVRyVEFuX3RNSm15N3ZrWm5nTm1XMExRUDBpVElLQ0Z2dzFjcmRkQ0xva1ktQTJZTlRnemg0NzVsZ3pUVGNUT3YyNGYweXdVRUdZdVpDX2ZEY19PdGlB?oc=5"
   }
  ],
  "tech_seen": {},
- "tercih": {},
+ "tercih": {
+  "asama:Ilk urun": 0,
+  "asama:Modernizasyon": 0,
+  "asama:Sozlesme": 1,
+  "bolum:haber": 1,
+  "bolum:piyasa": 1,
+  "hat:Dilme / boy kesme / SSC": 1,
+  "hat:Galvaniz hatti (CGL)": 0,
+  "kat:Hat": 1,
+  "kaynak:Andritz Metals": 1,
+  "kaynak:Bing News": 1,
+  "kaynak:Kallanish": 1,
+  "kaynak:Rediff MoneyWiz": -1,
+  "konu:fiyat": 1,
+  "ulke:ABD": 1,
+  "ulke:Hindistan": -1,
+  "urun:soguk hadde": 1
+ },
  "version": "3.0.0"
 }

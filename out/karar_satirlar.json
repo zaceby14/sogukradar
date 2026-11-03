@@ -2,170 +2,174 @@
  "donem": "2026-W45",
  "rows": [
   {
-   "tarih": "2026-10-13",
-   "firma": "BlueScope Steel",
+   "tarih": "2026-11-03",
+   "firma": "Kıraç Galvaniz",
    "ulke": "",
    "hat": "Galvaniz hatti (CGL)",
-   "asama": "Ilk urun",
-   "tedarikci": "Andritz",
+   "asama": "Teknoloji",
+   "tedarikci": "",
    "kapasite": "",
    "tutar": "",
-   "baslik": "ANDRITZ continuous galvanizing line at BlueScope Steel produces first galvanized coil",
-   "kaynak": "Andritz Metals",
-   "kaynak_id": "andritz",
-   "url": "https://www.andritz.com/newsroom-en/metals/2026-10-13-bluescope-group",
-   "tarih_kaynagi": "url",
-   "lead": "Skip to main content en Deutsch English Site directory Newsroom Menu Search en Deutsch English Site directory Newsroom Menu Search Annual Report 2025 published Turning progress into industrial impact. FOR GROWTH THAT MATTERS. Discover more ANDRITZ GROUP ANDRITZ GROUP Newsroom Careers Sustainability OUR BUSINESS AREAS PULP & PAPER METALS HYDROPOWER ENVIRONMENT & ENERGY MORE ANDRITZ SOLUTIONS Automation Cyber security ",
+   "baslik": "Kıraç Galvaniz, MSB Askeri Fabrikalar Genel Müdürlüğü’nün Onaylı Tedarikçisi Oldu",
+   "kaynak": "SteelTurk",
+   "kaynak_id": "steelturk",
+   "url": "https://www.steelturk.com.tr/kirac-galvaniz-msb-askeri-fabrikalar-genel-mudurlugunun-onayli-tedarikcisi-oldu/",
+   "tarih_kaynagi": "metin",
+   "lead": "Hakkımızda Reklam Bize Ulaşın Demir Çelik Çelik Sektörü Yassı Çelik Yeşil Çelik Vasıflı Çelik Paslanmaz Çelik Alüminyum Boru & Profil Uzun Çelik Mamülleri Yapısal çelik Nervürlü Demir & Çelik Hasır Hammadde & Yarımamül Diğer Metaller Global Çelik Haberleri Röportajlar Metal & Sac İşleme Endüstriyel Sektörler Vinç Makina Çimento & Maden Güç Aktarım Sistemleri Hidrolik & Pnömatik Endüstriyel Kalıp Otomasyon & Robot Tek",
    "eksik": [
     "ulke",
     "tarih?"
    ],
-   "anahtar": "2796f3c7472bcf14",
-   "kategori": "Hat",
+   "anahtar": "3a4b6e2a6c086c5e",
+   "kategori": "Yatirim",
    "olaylar": [
-    "andritz|hat|Galvaniz hatti (CGL)|Ilk urun",
-    "bluescope steel|hat|Galvaniz hatti (CGL)|Ilk urun"
+    "kirac galvaniz|hat|Galvaniz hatti (CGL)|Teknoloji"
    ],
-   "puan": 54.6
+   "puan": 16.5
   },
   {
-   "tarih": "2026-10-27",
-   "firma": "Jindal India",
-   "ulke": "Hindistan",
-   "hat": "Galvaniz hatti (CGL)",
+   "anahtar": "3705534b48675072",
    "asama": "Ilk urun",
-   "tedarikci": "",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "Jindal India Commissions Revamped Galvanising Line, Boosts Capacity",
-   "kaynak": "Rediff MoneyWiz",
-   "kaynak_id": "gx_bigmint_q",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbzh5Xzk5UzhnUU1VZ2w2TUYtLTU1VTZyM1psT1NpSGZIQ1NoMVlwSklORlhpeWVaWUVjNWdHaGNaWUg4SFp6ekE1dW5ockRPT3VsLWRFOTdMYmo3RXJ2eFBNdElZbFloUzNhdWNFRXQyYkZPcmVkQ3pRNV9vREJ2RTA5Nkp0NUZZM2YtS1dVU210enhwWEdkaHAtYVV6VXVOZkdEaEpoU25saEVFN1FFZ1J1YXp0S0lXMHfSAb8BQVVfeXFMTk1pazRMWW9aRm9kUnVsTlA4SzN3bFZKcGJsOGlYOHZRbXIzM0tlQURRTlpTTFhLT25fZkl3U2tHUWZma3JpSTdkOXhSM2Z4Y2dqcE1lNnZjM0dzTUhrbWVlQmlkZnlOc3IySU5qZ3A2RHRWMDJCUlF3bFdzWW1MRlotMG5SdDliWkFIZ0pBS0NDSldCSVV5NWFoQnZDOEUzRHg3QmRaZEMzTXQ5S09oM3o1MDc0SGVsQzNadEt1UHM?oc=5",
-   "tarih_kaynagi": "rss",
-   "lead": "Jindal India Commissions Revamped Galvanising Line, Boosts Capacity &nbsp;&nbsp; Rediff MoneyWiz",
+   "baslik": "Italy's ABS Opens Special Steel Service Center in Sweden",
    "eksik": [],
-   "anahtar": "1c737651eb6c0083",
-   "kategori": "Hat",
-   "olaylar": [
-    "*|ulke-hat|Hindistan|Galvaniz hatti (CGL)|Ilk urun",
-    "jindal india|fu|Hindistan|Galvaniz hatti (CGL)",
-    "jindal india|hat|Galvaniz hatti (CGL)|Ilk urun",
-    "jindal india|ulke|Hindistan|Ilk urun"
-   ],
-   "puan": 54.2
-  },
-  {
-   "tarih": "2026-10-26",
-   "firma": "Red Bud Industries",
-   "ulke": "ABD",
+   "firma": "ABS",
    "hat": "Dilme / boy kesme / SSC",
-   "asama": "Sozlesme",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "SMM (Shanghai Metals)",
+   "kaynak_id": "smm",
+   "olaylar": [
+    "*|ulke-hat|Italya|Dilme / boy kesme / SSC|Ilk urun",
+    "abs|fu|Italya|Dilme / boy kesme / SSC",
+    "abs|hat|Dilme / boy kesme / SSC|Ilk urun",
+    "abs|ulke|Italya|Ilk urun"
+   ],
+   "puan": 47.0,
+   "tarih": "2026-09-25",
+   "tarih_kaynagi": "json-ld",
    "tedarikci": "",
-   "kapasite": "",
    "tutar": "",
-   "baslik": "Red Bud Industries Installs Cut-to-Length Line at McNeilus Steel’s Tennessee Facility",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgq_hat10",
-   "url": "https://themachinemaker.com/news/red-bud-industries-installs-cut-to-length-line-at-mcneilus-steels-tennessee-facility/",
-   "tarih_kaynagi": "rss",
-   "lead": "Red Bud Industries has installed a heavy-gauge cut-to-length line equipped with a T3 stretcher leveler at McNeilus Steel Inc.’s facility in Morrison, Tennessee, USA. The new system is designed to ...",
-   "eksik": [],
-   "anahtar": "0b386546c836c574",
-   "kategori": "Hat",
-   "olaylar": [
-    "red bud industries|fu|ABD|Dilme / boy kesme / SSC",
-    "red bud industries|hat|Dilme / boy kesme / SSC|Sozlesme",
-    "red bud industries|ulke|ABD|Sozlesme"
-   ],
-   "puan": 45.8
+   "ulke": "Italya",
+   "url": "https://news.metal.com/en/newscontent/104134675-italys-abs-opens-special-steel-service-center-in-sweden"
   },
   {
-   "tarih": "2026-10-13",
-   "firma": "Fives",
-   "ulke": "",
-   "hat": "Galvaniz hatti (CGL)",
-   "asama": "Modernizasyon",
-   "tedarikci": "Fives",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "Fives upgrades Hyundai Steel's galvanising line",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgq_sup06",
-   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/fives-upgrades-hyundai-steels-galvanising-line-0926/",
-   "tarih_kaynagi": "rss",
-   "lead": "",
-   "eksik": [
-    "ulke"
-   ],
-   "anahtar": "0974a592e27b2b6f",
-   "kategori": "Hat",
-   "olaylar": [
-    "fives@hyundai|hat|Galvaniz hatti (CGL)|Modernizasyon"
-   ],
-   "puan": 41.6
-  },
-  {
-   "tarih": "2026-10-20",
-   "firma": "JSW JFE",
-   "ulke": "Hindistan",
-   "hat": "Elektrik celigi hatti",
+   "anahtar": "3c6ddad628eeb8ca",
    "asama": "Belirsiz",
-   "tedarikci": "Tenova",
+   "baslik": "POSCO, Otomotiv Çeliği İçin 359 Milyon Dolarlık Yeni Galvanizleme Hattı Kuruyor",
+   "eksik": [
+    "ulke",
+    "asama",
+    "tarih?"
+   ],
+   "firma": "POSCO",
+   "hat": "Galvaniz hatti (CGL)",
    "kapasite": "",
+   "kategori": "Yatirim",
+   "kaynak": "SteelTurk",
+   "kaynak_id": "steelturk",
+   "olaylar": [
+    "posco|hat|Galvaniz hatti (CGL)|Belirsiz"
+   ],
+   "puan": 5.0,
+   "tarih": "2026-09-24",
+   "tarih_kaynagi": "metin",
+   "tedarikci": "",
    "tutar": "",
-   "baslik": "Tenova supplies processing lines for JSW JFE’s electrical steel plant in India",
-   "kaynak": "Yieh Corp.",
-   "kaynak_id": "gq_hat08",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObnZFSDNsYV9qV0ZSbk1JUU5rV29LeS1DZGMtbmFMUDREcHZHeHNCWVkzQjl2TnhKWmVjeXloUy1qNWd6dmdSVzQtTVhwM1pzUTB5akFtcjZVc0NjZVF6T3MxZzdmZWhpaHJrNFQ5SFEtQk9KaUF1cWVzTmVMY3Zpb2tIM2xwVjZLUTdiY2RHajUyZkZsd3BpT3VZUGs4YzJRWW9uSmYyUmNiQUxCTHJBb0Mycw?oc=5",
-   "tarih_kaynagi": "rss",
-   "lead": "Tenova supplies processing lines for JSW JFE’s electrical steel plant in India &nbsp;&nbsp; Yieh Corp.",
+   "ulke": "",
+   "url": "https://www.steelturk.com.tr/posco-otomotiv-celigi-icin-359-milyon-dolarlik-yeni-galvanizleme-hatti-kuruyor/"
+  },
+  {
+   "anahtar": "3a5f3e821a7ebf92",
+   "asama": "Belirsiz",
+   "baslik": "OYAK is planning new investments in the production of electrical steel in Rom...",
+   "eksik": [
+    "ulke",
+    "asama",
+    "tarih?"
+   ],
+   "firma": "OYAK",
+   "hat": "Elektrik celigi hatti",
+   "kapasite": "",
+   "kategori": "Yatirim",
+   "kaynak": "GMK Center",
+   "kaynak_id": "gmk",
+   "olaylar": [
+    "oyak|hat|Elektrik celigi hatti|Belirsiz"
+   ],
+   "puan": 5.6,
+   "tarih": "2026-09-24",
+   "tarih_kaynagi": "liste",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://gmk.center/en/news/oyak-is-planning-new-investments-in-the-production-of-electrical-steel-in-romania/"
+  },
+  {
+   "anahtar": "4b961e91d96f2c3f",
+   "asama": "Belirsiz",
+   "baslik": "Erdemir Plans Romania Electrical Steel Capacity Expansion",
    "eksik": [
     "asama"
    ],
-   "anahtar": "81afdce4c6c25e28",
-   "kategori": "Hat",
+   "firma": "Erdemir",
+   "hat": "Elektrik celigi hatti",
+   "kapasite": "",
+   "kategori": "Yatirim",
+   "kaynak": "IndexBox",
+   "kaynak_id": "gq_hat08",
    "olaylar": [
-    "jsw jfe|fu|Hindistan|Elektrik celigi hatti",
-    "jsw jfe|hat|Elektrik celigi hatti|Belirsiz",
-    "jsw jfe|ulke|Hindistan|Belirsiz",
-    "tenova|fu|Hindistan|Elektrik celigi hatti",
-    "tenova|hat|Elektrik celigi hatti|Belirsiz",
-    "tenova|ulke|Hindistan|Belirsiz"
+    "erdemir|fu|Romanya|Elektrik celigi hatti",
+    "erdemir|hat|Elektrik celigi hatti|Belirsiz",
+    "erdemir|ulke|Romanya|Belirsiz"
    ],
-   "puan": 31.4
+   "puan": 5.6,
+   "tarih": "2026-09-24",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Romanya",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSmxzNlIwb1ZJNjFKQmRmdmtmNVRCTkEzRU9IZFVuUGJ4X1hsOTZoQnRNN2ZTVFhfLVU5cG9uOWRpUC1rSDVqSWtnLVd2ZmwyRGVvaDE0RTV3TjJtY3hOQ1Rfa1BLOEdMWC12TmgxTDUzdmE0NUc4S0NGZlJ0RG9mOVN0c1ZMS2JIY2tnVlBYQUZCbDAwTUt6czY4eGJYcTkyOGc?oc=5"
   }
  ],
- "tech": [],
+ "tech": [
+  {
+   "anahtar": "tech:598247fd0170db4b",
+   "tarih": "2026-07-07",
+   "konu": "POSCO and Hyundai partner to develop 6.5% silicon electrical steel for EV motors",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWENTOUgzZFMzQjhaRlJnWmdEY3RMVmhLR25rYnFHd1JrLTQtRDJ3NVZvWTN6UjN2QUpfVXBuM1c5QklYQlNJYUQwY1pVdjhKb19xTEZXX3NRYmZNUVRyVEFuX3RNSm15N3ZrWm5nTm1XMExRUDBpVElLQ0Z2dzFjcmRkQ0xva1ktQTJZTlRnemg0NzVsZ3pUVGNUT3YyNGYweXdVRUdZdVpDX2ZEY19PdGlB?oc=5",
+   "metin": "POSCO ve Hyundai, elektrikli araç motorlarının verimliliğini artırmak amacıyla %6,5 silis içerikli yenilikçi elektrik çeliği geliştirmek üzere ortaklık kurdu."
+  }
+ ],
  "piyasa": [
   {
-   "anahtar": "piyasa:3e4b4481b0cc035c",
+   "anahtar": "piyasa:a7dffa13a828b745",
    "tarih": "2026-11-02",
-   "baslik": "EU backs AD duties on CRC from five countries",
-   "metin": "AB üyesi ülkeler; Türkiye, Hindistan, Japonya, Vietnam ve Tayvan çıkışlı soğuk haddelenmiş yassı çelik ithalatına nihai anti-damping vergisi uygulanması yönünde oy kullandı.",
-   "url": "https://eurometal.net/eu-backs-ad-duties-on-crc-from-five-countries/?utm_source=rss&utm_medium=rss&utm_campaign=eu-backs-ad-duties-on-crc-from-five-countries",
-   "kaynak": "EUROMETAL",
+   "baslik": "EU backs duties on cold-rolled steel from five countries",
+   "metin": "EU backs duties on cold-rolled steel from five countries",
+   "url": "https://metallurgprom.org/en/news/europe/22149-eu-backs-duties-on-cold-rolled-steel-from-five-countries.html",
+   "kaynak": "Metallurgprom",
    "konu": "koruma",
    "urun": "soguk hadde"
   },
   {
-   "anahtar": "piyasa:a3b301404961402b",
+   "anahtar": "piyasa:2a00d4372823eae3",
    "tarih": "2026-11-02",
-   "baslik": "US HRC, CRC prices climb amid tight supply",
-   "metin": "ABD'de sıcak ve soğuk haddelenmiş rulo fiyatları, kısıtlı arz ve üretici fiyat artışlarının etkisiyle yükseldi.",
-   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/us-hrc-crc-prices-climb-amid-tight-supply-1026/",
-   "kaynak": "Kallanish",
-   "konu": "fiyat",
-   "urun": "soguk hadde"
+   "baslik": "SunSirs: Constrained by Costs and Weakened Demand, the Market for Color Coated Sheets Was in a Narrow, Stagnant Range Last Week",
+   "metin": "Maliyet baskıları ve zayıflayan talep nedeniyle boyalı sac piyasası yatay ve durgun bir seyir izledi.",
+   "url": "https://www.sunsirs.com/commodity-news/petail-37313.html",
+   "kaynak": "Bing News",
+   "konu": "talep",
+   "urun": "kaplamali"
   },
   {
-   "anahtar": "piyasa:db67f98fb4dd717b",
+   "anahtar": "piyasa:58a6686e74ff2a17",
    "tarih": "2026-11-02",
-   "baslik": "India: Coated flat steel prices ease w-o-w; further correction may support demand",
-   "metin": "Hindistan'da kaplamalı yassı çelik fiyatları haftalık bazda gevşeyerek talebi destekleyebilecek bir düzeltme sergiledi.",
-   "url": "https://www.bigmint.co/insights/detail/india-coated-flat-steel-prices-ease-w-o-w-further-correction-may-support-demand-803955",
-   "kaynak": "Bing News",
-   "konu": "fiyat",
-   "urun": "kaplamali"
+   "baslik": "European green flat steel demand remains subdued; construction provides pockets of interest",
+   "metin": "Avrupa'da yeşil yassı çelik talebi zayıf kalmayı sürdürürken, otomotiv sektöründen gelen talep yumuşadı.",
+   "url": "https://eurometal.net/european-green-flat-steel-demand-remains-subdued-construction-provides-pockets-of-interest/?utm_source=rss&utm_medium=rss&utm_campaign=european-green-flat-steel-demand-remains-subdued-construction-provides-pockets-of-interest",
+   "kaynak": "EUROMETAL",
+   "konu": "talep",
+   "urun": "yassi"
   }
  ]
 }
