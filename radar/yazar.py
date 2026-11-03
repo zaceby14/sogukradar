@@ -327,7 +327,12 @@ def ozet_hazirla(payload, log=print):
     if isinstance(ex, str):
         butun_kaynak = " ".join(kaynak_metni(r) for r in rows)
         # sayi izni: kaynaktakiler + satir sayisi
-        ok, neden = cumle_dogrula(ex, butun_kaynak + " %d" % len(rows))
+        # Ozet butun satirlari anlatir: listede ilk urun/seri uretim satiri VARSA
+        # uretim iddiasi kurulabilir (2026-11-03: BlueScope ilk bobin haberi varken
+        # ozet "asama Belirsiz" sayilip reddedildi).
+        en_ileri = next((r.get("asama") for r in rows
+                         if r.get("asama") in ("Ilk urun", "Seri uretim")), None)
+        ok, neden = cumle_dogrula(ex, butun_kaynak + " %d" % len(rows), en_ileri)
         if ok and len(ex) <= EXEC_MAX:
             ozet["exec"] = ex.strip()
         else:
