@@ -109,8 +109,8 @@ jobs:
 
       - name: Otomatik editor ve kalite kapisi
         id: karar
-        env:
-          RADAR_GERI_ADRES: ${{ secrets.MAIL_USER }}
+        # mailto oy baglantilari KAPALI (2026-11-03, kullanici: "otomatik mail
+        # uygulamasi acti, bu yaramaz"). Web tabanli oy kanali kurulunca acilir.
         run: |
           ARGS=""
           if [ "$DENEME" = "true" ] || [ "${{ steps.test.outcome }}" != "success" ]; then
