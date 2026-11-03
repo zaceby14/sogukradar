@@ -157,13 +157,13 @@
  "stats": {
   "kaynak": 305,
   "erisilemeyen": 10,
-  "ham": 3766,
-  "on_eleme_gecti": 371,
-  "makale_acildi": 205,
+  "ham": 3532,
+  "on_eleme_gecti": 362,
+  "makale_acildi": 203,
   "tarihsiz_elendi": 104,
-  "pencere_disi": 252,
-  "kapsam_disi": 3355,
-  "tekrar": 52,
+  "pencere_disi": 258,
+  "kapsam_disi": 3126,
+  "tekrar": 41,
   "kabul": 3,
   "gnews_tarih": 0
  },
@@ -555,6 +555,14 @@
  },
  "piyasa_pool": [
   {
+   "anahtar": "piyasa:57bd0bd0b81ffff8",
+   "tarih": "2026-11-03",
+   "baslik": "Hoa Phat exports 8,000 tons of galvanized steel to Japan for the first time",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxORmFaOHNRejlLbHNZWEdDc3B1VUNVbk5BMDhxci1sSGhPaXFGNnJBSGVqSlMwZjVXS04wX1pQNmt3dVR2Ulh4QXhFbzJRWVJYRzFCa01ETzhjeEl4OEs4TFE5M0xkWW9aLXliYjF4eWhoTHRoTWpWZDlldXRFVHBzSWdibUhZZVVyeXVUT0dCZTJWUE1OeXZIX0lUVXBkSnhHQmlBR3lQMndRZw?oc=5",
+   "kaynak": "Yieh Corp.",
+   "lead": "Hoa Phat exports 8,000 tons of galvanized steel to Japan for the first time &nbsp;&nbsp; Yieh Corp."
+  },
+  {
    "anahtar": "piyasa:58a6686e74ff2a17",
    "tarih": "2026-11-02",
    "baslik": "European green flat steel demand remains subdued; construction provides pockets of interest",
@@ -595,28 +603,20 @@
    "lead": "Hoa Phat exports 8,000 tons of galvanized steel sheets to Japan, expanding its international market. &nbsp;&nbsp; Vietnam.vn"
   },
   {
-   "anahtar": "piyasa:8efcc36bee1524bb",
-   "tarih": "2026-11-02",
-   "baslik": "European green flat steel demand subdued; construction offers pockets of interest",
-   "url": "https://news.metal.com/newscontent/104200766-european-green-flat-steel-demand-subdued-construction-offers-pockets-of-interest",
-   "kaynak": "Bing News",
-   "lead": "Europe's green flat steel demand stayed muted in October: automotive interest softened, while Dutch bridge reconstruction supported construction. A Northern European producer saw no carmaker ..."
-  },
-  {
-   "anahtar": "piyasa:db67f98fb4dd717b",
-   "tarih": "2026-11-02",
-   "baslik": "India: Coated flat steel prices ease w-o-w; further correction may support demand",
-   "url": "https://www.bigmint.co/insights/detail/india-coated-flat-steel-prices-ease-w-o-w-further-correction-may-support-demand-803955",
-   "kaynak": "Bing News",
-   "lead": "hidden Disclaimer: BigMint Technologies Private Limited has taken due care and caution in compilation of content for its web site. Information is just for reference not intended for trading purpose or ..."
-  },
-  {
    "anahtar": "piyasa:a283e8550a5387e3",
    "tarih": "2026-11-01",
    "baslik": "Flat Steel Gets Cheaper as Aisha Steel Slashes Prices",
    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZWxxdzhEQ0VkM1djSVdGenZCQkJXa1ZsaXpBVTk5dER1cDhDMGpJVGpNemhESHBOWkhRWDZMNk9XajRPZVZrSFQ4NHljYnVkcjBaOHhwblJSeGF1cThubnRqWVRwcjNsXzk5VmktUzVFOWxfcnRrREdGa1JPMFNXT1JiWFlaU0g3LXfSAYoBQVVfeXFMUGVscXc4RENFZDNXY0lXRnp2QkJCV2tWbGl6QVU5OXREdXA4QzBqSVRqTXpoREhwTlpIUVg2TDZPV2o0T2VWa0hUODR5Y2J1ZHIwWjh4cG5SUnhhdXE4bm50allUcHIzbF85OVZpLVM1RTlsX3J0a0RHRmtSTzBTV09SYlhZWlNINy13?oc=5",
    "kaynak": "ProPakistani",
    "lead": "Flat Steel Gets Cheaper as Aisha Steel Slashes Prices &nbsp;&nbsp; ProPakistani"
+  },
+  {
+   "anahtar": "piyasa:db67f98fb4dd717b",
+   "tarih": "2026-11-01",
+   "baslik": "India: Coated flat steel prices ease w-o-w; further correction may support demand",
+   "url": "https://www.bigmint.co/insights/detail/india-coated-flat-steel-prices-ease-w-o-w-further-correction-may-support-demand-803955",
+   "kaynak": "Bing News",
+   "lead": "hidden Disclaimer: BigMint Technologies Private Limited has taken due care and caution in compilation of content for its web site. Information is just for reference not intended for trading purpose or ..."
   },
   {
    "anahtar": "piyasa:3f62c43fbeca3704",
@@ -627,12 +627,36 @@
    "lead": "Top Players in the Galvanized Steel Silo Market: Fact MR Forecasts US$2.85 Billion by 2036 &nbsp;&nbsp; openPR.com"
   },
   {
+   "anahtar": "piyasa:2d22b9537430156d",
+   "tarih": "2026-10-29",
+   "baslik": "Grain-Oriented Electrical Steel Market to Reach US$ 15.60",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaTNFVF9ab1pkX0xRaVdYOEZMMUdrYTBpOVU4ckdpNHVTTFkwWExPeWlYNzJCSWRaeVpUN2s0cllFbUczT0U2WHowdFZ6VlNKZ1ZEWWVDNXhGU25ScklPWFE2NTZDVmZKZG93eGUzQ0p4VG9mS0tuMWRpVkFhd0RPR1RCeUNDZkRqV2NuX25tWWxKWGNCcE9R?oc=5",
+   "kaynak": "openPR.com",
+   "lead": "Grain-Oriented Electrical Steel Market to Reach US$ 15.60 &nbsp;&nbsp; openPR.com"
+  },
+  {
    "anahtar": "piyasa:df2e7719dead4f70",
    "tarih": "2026-10-27",
    "baslik": "US tin plate exports down 10.9 percent in August 2026 from July",
    "url": "https://www.steelorbis.com/steel-news/latest-news/us-tin-plate-exports-down-109-percent-in-august-2026-from-july-1486620.htm",
    "kaynak": "Bing News",
    "lead": "According to export data from the US Department of Commerce, US exports of tin plate totaled 2,804 mt in August this year, down 10.9 percent from July and down 24.0 percent from August 2025. By value, ..."
+  },
+  {
+   "anahtar": "piyasa:0504c06b5f9ee32d",
+   "tarih": "2026-10-23",
+   "baslik": "[SMM Weekly Review] Market Sentiment Grows More Cautious; Non-Oriented Silicon Steel Prices Likely to Remain in the Doldrums Next Week",
+   "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNQXZQY2JqRDd5RWFoMVE1aUU0clREd1BYTmlXYnExTkpGUXRIY2ROZzhnYkF3V01rQmJVVC05UUNmOHJkcXBJSUJiVUw2aDlYamg3SUFkQWZBNy1zdTJnMjdIWlhLLVc0cG40ZmF5MUQ1RFRneVpIRk9aY2pJN1BVS3hfczRxbXg0bm5pblk2VlZZOHFKUUVuM2gtbW1ac01yNFIyZlRJNC1GSUJKMnFiUTRrdk1icTVsQ0RXdVVmaEl1Yzh0dEd3TVRNY1RWbjZGRzFiVzJVa0p5MGhfdzMyYWlrZF9nMHlpVmFTZERGUjVmWkt4WWx1QlVBazZFS1NuNlZHemltWQ?oc=5",
+   "kaynak": "Shanghai Metals Market",
+   "lead": "[SMM Weekly Review] Market Sentiment Grows More Cautious; Non-Oriented Silicon Steel Prices Likely to Remain in the Doldrums Next Week &nbsp;&nbsp; Shanghai Metals Market"
+  },
+  {
+   "anahtar": "piyasa:bf2ae0f0e2c552e4",
+   "tarih": "2026-10-22",
+   "baslik": "Apparent consumption of polymer-coated steel is expected to rise by 3% y/y in 2026",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSVBpVEFkSUtKbDhCdjJJbmc5Zm9KUDlELWRvc3BhUzd0eWdOZGtpRFRKUWMzUlRnWERIX29JTjNGaHFNMVFiV0RGYVRtdUtsbFBYNVgwZ21pYVdjNi1abkFzY19JUU96S2lVZzJaY0IwZFl5aTVaN0RSUzUtV0sybTJUZHVDVlliQkg5WE05MkI0aExpSkctZDhJMU9SWERlOFVjbGhzblNlbVB1MFHSAbMBQVVfeXFMTW5EYWptTlR2bnpJVnkwYWpoUnE5a05NQzJ2OVFLU290TWFTSkt3aE1ibmZOSTZTNjVnNHdCRDRWQzZocGNuenUxbm1vNHU1UDFmQm5LalNfV0JtRDBPcU1kemE0Q3lRNjV6cFNrR0NQSmp6T1F1c29yUUk4b0tuQk5Ya1cxbDBNR251OFdrZXRnajhFbUgzUnFETm9POUUyY2xxWGRXaEJFZUIyeVZWZmNsazg?oc=5",
+   "kaynak": "GMK Center",
+   "lead": "Apparent consumption of polymer-coated steel is expected to rise by 3% y/y in 2026 &nbsp;&nbsp; GMK Center"
   },
   {
    "anahtar": "piyasa:ff0954b1473979b7",
@@ -643,20 +667,28 @@
    "lead": "Tenova advances electrical steel project in India &nbsp;&nbsp; Machinery Market"
   },
   {
-   "anahtar": "piyasa:bf2ae0f0e2c552e4",
-   "tarih": "2026-10-22",
-   "baslik": "Apparent consumption of polymer-coated steel is expected to rise by 3% y/y in 2026",
-   "url": "https://gmk.center/en/news/apparent-consumption-of-polymer-coated-steel-is-expected-to-rise-by-3-y-y-in-2026/",
-   "kaynak": "Bing News",
-   "lead": "In the first three quarters of 2026, the figure stood at 264,000 tonnes, whilst imports totalled 163,500 tonnes ..."
-  },
-  {
    "anahtar": "piyasa:8561001e822ca3e1",
    "tarih": "2026-10-21",
    "baslik": "Cleveland-Cliffs links Stelco layoffs in Canada to galvanized steel imports",
    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObUE5ajFDRGxvNVJGeWtPN3BHc1kwNlZrcVBnckQzRXM3cXFrN3dwSWE1NnJsZkZjRVU3SEliaENoOWMwTHFDRUQ0QXFXRWp6VUVaZDRqSW5YSFZZbmdJODA0MWRvbm12WjVzU1hHa0pLaWJyS01GSjh0T0JjM1llZElfekxxMmJFMTRVNGN5ZlRwd0hOUkpNWjBzMkREdWt5ZE5DekdYbW1ya01CM2stcQ?oc=5",
    "kaynak": "Yieh Corp.",
    "lead": "Cleveland-Cliffs links Stelco layoffs in Canada to galvanized steel imports &nbsp;&nbsp; Yieh Corp."
+  },
+  {
+   "anahtar": "piyasa:26c8cfbe648bcc7b",
+   "tarih": "2026-10-16",
+   "baslik": "[SMM Analysis] Insufficient Momentum for Change, Grain-Oriented Silicon Steel Prices May Remain in the Doldrums in October",
+   "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQc1ZIVlNDR212c1E2Q1BUWVRXSW1LM1h1dk1oVTV3STVuZTZ5TTd4TjY4MXZNTnhyVjBBREhkOWt4aFVqR3dYd0xDQ2VkZjM2cnBjUHNPRzZvSncwZDFMSFE5c2EwYUIzYjB5Y2JNSXdYejBkbHlzb0toQ2Y0QWFjTUZDOWpqYjlWOW94YW0xeXpvNVJMSm1aRllHVDJYZ2N5LUVQdXVJRUpmd2U0YTYyb2JHSXFEMlp3VFNvVW1NUUZoNXNaREM4OHVFTXhGTHI1dVVqeVpuRFBGbmJUMTBTVVV0RWVhdWU2ekRjUkliSExaaF91d1Fv?oc=5",
+   "kaynak": "Shanghai Metals Market",
+   "lead": "[SMM Analysis] Insufficient Momentum for Change, Grain-Oriented Silicon Steel Prices May Remain in the Doldrums in October &nbsp;&nbsp; Shanghai Metals Market"
+  },
+  {
+   "anahtar": "piyasa:7d13db7cc8732fd4",
+   "tarih": "2026-10-15",
+   "baslik": "[SMM Weekly Summary] Post-Holiday Demand Falls Short of Expectations; Grain-Oriented Silicon Steel Prices May Remain in the Doldrums Next Week",
+   "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNMFBtS2tORS1xbUVuSFF4YnJjMFJxcVZ4aEYxSjZ6YmcyLWdXT0lucWRDSENaN09SWDQ4bnZNQURGSUVNX2JPMVR1NTJiWXNIWG5BNE1YaG9VNDVDX19sMDRIT3dJdEo0S1MzUUtaUU9DQm5LYVpoMXphYzR2bHo3ODRNNllfS3pqYkh6MS1ucnpMVmIyWUJqTTU1RVFrVkRfRFN5SXFZZlJDa1pEVnNEU0Z0TlM3aG5LTjJZNWhBT0xGQTl4bGYyNkxNWEM3QmMxcjRnTUk1a3lHNFh4WUd4OEEycjFfZEhQS2ZDVWlSZzZqUjM3QzJKSU9DOTlqTmRjaVptVEtFRmtQZ2hZSjRIR0Zn?oc=5",
+   "kaynak": "Shanghai Metals Market",
+   "lead": "[SMM Weekly Summary] Post-Holiday Demand Falls Short of Expectations; Grain-Oriented Silicon Steel Prices May Remain in the Doldrums Next Week &nbsp;&nbsp; Shanghai Metals Market"
   }
  ],
  "window": [
@@ -668,6 +700,6 @@
  "rezerv_kullanilan": 3,
  "rezerv_havuz": 30,
  "period": "2026-W45",
- "generated": "2026-11-03 06:03 UTC",
+ "generated": "2026-11-03 07:04 UTC",
  "version": "3.0.0"
 }

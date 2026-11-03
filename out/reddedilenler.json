@@ -1,6 +1,6 @@
 {
  "donem": "2026-W45",
- "adet": 556,
+ "adet": 545,
  "kayitlar": [
   {
    "sebep": "kapsam_disi",
@@ -2493,12 +2493,6 @@
    "ek": ""
   },
   {
-   "sebep": "tekrar",
-   "baslik": "Jindal (India) commissions upgraded continuous galvanizing line in West Bengal",
-   "url": "https://www.yieh.com/en/News/jindal-india-commissions-upgraded-continuous-galvanizing-line-in-west-bengal/163206",
-   "ek": "ayni olayin varyanti: *|ulke-hat|Hindistan|Soguk hadde|Ilk urun; jindal (india)|fu|Hindistan|Soguk hadde; jindal (india)|hat|Soguk hadde|Ilk urun; jindal (india)|ulke|Hindistan|Ilk urun"
-  },
-  {
    "sebep": "pencere_disi",
    "baslik": "U S Steel to Restart Gary Tin Mill, Boosting Domes",
    "url": "https://www.aist.org/Steel-News/2026/April/13-17-April-2026/U-S-Steel-to-Restart-Gary-Tin-Mill,-Boosting-Domes",
@@ -2805,10 +2799,22 @@
    "ek": "ayni olayin varyanti: *|ulke-hat|Hindistan|Galvaniz hatti (CGL)|Ilk urun; jindal india|fu|Hindistan|Galvaniz hatti (CGL); jindal india|hat|Galvaniz hatti (CGL)|Ilk urun; jindal india|ulke|Hindistan|Ilk urun"
   },
   {
+   "sebep": "pencere_disi",
+   "baslik": "Tata Steel Colors Launches Colorcoat Pre-Painted Steel in India",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWWk0S1BiczFnakJ6QnN2a1NDWnJVTFQ0eWVVbnpJVlByNXF6dG55QUhCNE5uNkx0LVRaWVVfQ2hEcWROZEhEYy03Zl9WU2xRbVVXS2NWdWl1M2IzSHlLRlgwdUhsdm9TR3VlcUZOcXd5V0g2TThiaklGcUhpRWp4MGVBQkx3eWdKZnpCdjcwUjRfNUI3UmpPN1RMRllLWnowQnJlZ3R0MU1ESFhlcFJlUG1hQQ?oc=5",
+   "ek": "2026-10-12"
+  },
+  {
    "sebep": "tekrar",
    "baslik": "Tenova supplies processing lines for JSW JFE’s electrical steel plant in India",
    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObnZFSDNsYV9qV0ZSbk1JUU5rV29LeS1DZGMtbmFMUDREcHZHeHNCWVkzQjl2TnhKWmVjeXloUy1qNWd6dmdSVzQtTVhwM1pzUTB5akFtcjZVc0NjZVF6T3MxZzdmZWhpaHJrNFQ5SFEtQk9KaUF1cWVzTmVMY3Zpb2tIM2xwVjZLUTdiY2RHajUyZkZsd3BpT3VZUGs4YzJRWW9uSmYyUmNiQUxCTHJBb0Mycw?oc=5",
    "ek": ""
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "[SMM Stainless Steel Flash] Taiwan (PoC)'s YC INOX shifts to high-value pipes as Turkish cold-rolling line ramps up",
+   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOUXlWRmlUUVFNbndvVTV0b2piTUlVeXAxVGFQTnEzWTVqaFBsbWtsVFkzZERvZjNXTW04SS1QcU01SkhYSHZVYW5XX1FqcjJxeDVJNndYblZtWWZ4SFNzUTl1TTMyMGx2aGEzcnZaUUJxRWNDUExSaEw2SkxESzR4THQ4MlZXZnVNV05jNlJKd2pSMEFzSGxINkZDZjVkVnZpb0VRMlpZMmlfTlNVOFBkb0VjUEZEaXdOcC0yYkxWYzJEM0s3akMwTXFrNzU3cGdBdXA2WWhiOXlBTm0wcUl2dC1KYmo1cmE4eDdR?oc=5",
+   "ek": "2026-10-05"
   },
   {
    "sebep": "pencere_disi",
@@ -2926,6 +2932,12 @@
   },
   {
    "sebep": "pencere_disi",
+   "baslik": "BMW Industries starts colour coated steel production to cater demand",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQZFhIaVJweVh5ZVQtOEpRbV8zWGRYajk1SEpIRXY2UVJsbDBFdEwxbU1sYVdPa29oYlVXelBmb3Z1SnRTdzM4OC04V3hrdGFWT2FBLWREMWFwUktocHVOTzQ2YkV5LW5ZQ0Z6cGdpU0pKamdlc0Vyb1g3VDBFMk5sbko1SExvdU9SRmhVU0dlX3htd0xWYllYNGpTeUQwVGczLXFYOXkyVTdSVTh6NWxvWkhqaHNvdTdycWZKY0E4ZXlDWW9zUjU0Tll1V0ZxX0dibmtr0gHYAUFVX3lxTE9SY1NfcXFkNm45OWlpdU1qMGtsUDFxejlaUTl5ck82SE51YXpXZXZfLVZGZnFneDc5NTUza2llVXRDSlpIREF5WUxFV1B4Q0llUnV6dDZJcXpOaXY5WUEyTzZicWxCS3NaMnduUV92ZEtLUWFSS3d2THBDeERYSWczR0M3NHdmbVFYbGtQNDd0bWsyeVNmX0pLeTBydnBXSjZDYi1PdmlfLXo2WTNNNDRfdFU3SWtZRlNXUmd1TVFPS01SOXFBdVA5cFMwVG42eEtwSmZoVWcyMw?oc=5",
+   "ek": "2026-10-11"
+  },
+  {
+   "sebep": "pencere_disi",
    "baslik": "BMW Industries Ltd commissions the Colour Coating Line of the first phase of its Greenfield Downstream Steel Complex at Bokaro",
    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNLVV0eTVMS0VNWlA3SFZfRncwQ2laall4Z0ZrWlU3UTBBT1lIUXp4ZGN6NnhER0pxQ3FvM0d2ZWRveGRHM1MtOWRzQU5yNzFsaGNBVnhoUE5wcC1sRWpqN0VWU21pb2QzOWE3VEdaZlZxQXZEdE43YzRfc1dvNVQ5QXdKMTRuQ1R2dGVwSFV4ZWp3alo0RnpTOGhhekFUb09FcmZkVW5IWG5mV3RlY21aMFdaazc1YUZ2ZUtNcQ?oc=5",
    "ek": "2026-10-05"
@@ -3034,15 +3046,15 @@
   },
   {
    "sebep": "pencere_disi",
-   "baslik": "Tezcan Galvaniz, Afrika pazarını gözüne kestirdi - Dünya Gazetesi",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNjBKbVJ3RW53Rmc5UWwzYnp2aHhDQ0Z6TjdYb0NsUVU4SktKd0ZyYVkxTVV1cDlXcmpYWlZjelNOaUFMYzN0Rm1wQm42amxIWVVPdVdJNk9iSnZPNWJVYklaWGhVR3ZLcFNEYmhDYmtEQkNxZlowSDZNX1lVY0dkcE15SENUVEVUNnVFb0tDaHZoeWhzRlZ4cg?oc=5",
-   "ek": "on eleme: 2017-04-17"
-  },
-  {
-   "sebep": "pencere_disi",
    "baslik": "Tezcan Galvaniz kimin, sahibi kim? Sadettin Tezcan kimdir? - www.gazeteilksayfa.com",
    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOR2VEbG5QelBwUlhXWTFNZEFMcWFRWml6VEd5c2FmZm1PZTdmZGowSFhMRGU0S1ZmRkhtSERWRW44eEdBaEpNb25kWXlEZUp1VkNreWs5UzNzZXdFWDhIcGlKeU9GbHJGQVJzeEFUUGpuY3VicDg1SUx0MjVxR2t2NlB4MEVwSE5WMHZmVlRYRmVIem5acUZXWlc2S3RQWG8?oc=5",
    "ek": "on eleme: 2024-01-02"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Tezcan Galvaniz, Afrika pazarını gözüne kestirdi - Dünya Gazetesi",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNjBKbVJ3RW53Rmc5UWwzYnp2aHhDQ0Z6TjdYb0NsUVU4SktKd0ZyYVkxTVV1cDlXcmpYWlZjelNOaUFMYzN0Rm1wQm42amxIWVVPdVdJNk9iSnZPNWJVYklaWGhVR3ZLcFNEYmhDYmtEQkNxZlowSDZNX1lVY0dkcE15SENUVEVUNnVFb0tDaHZoeWhzRlZ4cg?oc=5",
+   "ek": "on eleme: 2017-04-17"
   },
   {
    "sebep": "pencere_disi",
@@ -3067,24 +3079,6 @@
    "baslik": "Kocaeli Haber - Haluk Tamyüksel: “Tezcan Galvaniz İşçilerinin Sesini Duyun!” - Bugün Kocaeli Gazetesi",
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbzBBa2hnRlhodnc3dVNfdkRDMjdJZVhfMThyaUp2WUdzemZ5MEI4S1FkUTVjVGt5TUN3NGkxTEQ1dTJTeGdGSlpIcG9iTlM1TlE2WkwtdGxnZEVxbFlkeHdHWXpHSlk4Smx0SHpFMGRWdHhETW16el9GcFUzSy0zd1ZMcGoyelFSSENQZk5ZdHY3MUgwbXVNMHRoOVRWRkdzTnlsNQ?oc=5",
    "ek": "on eleme: 2023-12-18"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Grev kırıcılığının faturası yine işçiye kesildi: Tezcan Galvaniz’de sevkiyat personeli iş kazası geçirdi - Evrensel.net",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOMXFnNTdFWnBNWXJ4T090bV9senpZSDhjamRHTGV2NGdaRTFwa3VyTThZdTFiMFlGZ2g3WWd6cndqYVBkckdYWW5KT09qekthZWlVNldFZXNVYVlFcHRKWWJvV2EyVndhR3k3U3NLcUVVRF96Wk5DWEpFd1FBNlF0UUlKYUVnQjlFc3ljQ1FOX2l0aUhfOG00bThZSUpCQnNCMGZSSTZoR3hyZ0ctVEhhRU41SXNHTUV4NnRuWks4aG95Y2FOSmY2VEdISS0xM081Q1lZLUFHWQ?oc=5",
-   "ek": "on eleme: 2025-03-18"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Tezcan Galvaniz'de skandallar bitmiyor: Patron bu kez de bir işçiye saldırdı! - soL Haber",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOT2hEam40UExYVTJhVUZqYUpJSUpDWjg5Yy1VcEVENDE4eUVWcGtRWHJUU1JWVjJ0MDNrOGs3YXJWYjhKNXhQRXpfNG01S3dYWFA2cXRNTWxuamY3WG5rQmlKTEk5MmhaN0t6NlB6VFg3eUcxeFBuV3ZFZnNUUC1INk0xT1hiQlcwZmtMYUFFZ3lZVHMwS0g5Y0pBZ0o0d0hzZk1iSU5iakdqeWptaTZsaHN3?oc=5",
-   "ek": "on eleme: 2024-01-02"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Tezcan Galvaniz’de patron yüzde 8 dayattı, işçiler greve çıktı - Evrensel",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRHJjRkRsM3o3OTM2ZFZzeldwYVE0akpONEFjWWxQZHNpckR4aXEwY1cyTU1DX2R3RExPZ2dMZVhkS29Qd0xpSzM3U2dSMHdDT3Q4VDF4TEFUa1UwdGh5cUQyZGIzMm13eVdTcVZ3cGRuaUhUbFJDbjdxMi1DX09MdnotMmNIaElDd0JIYWNRS3BkMDZYdWNCY0E3THIwWGc?oc=5",
-   "ek": "on eleme: 2025-03-11"
   },
   {
    "sebep": "tarihsiz_elendi",
@@ -3118,24 +3112,6 @@
   },
   {
    "sebep": "tekrar",
-   "baslik": "Nippon Steel Raises US Mill Upgrade to $3 Billion as Costs Climb",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-23/nippon-steel-raises-us-mill-upgrade-to-3-billion-as-costs-climb",
-   "ek": ""
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "ANDRITZ : continuous galvanizing line at BlueScope Steel produces first galvanized coil",
-   "url": "https://www.marketscreener.com/news/andritz-continuous-galvanizing-line-at-bluescope-steel-produces-first-galvanized-coil-ce785ddddd8ff020",
-   "ek": ""
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "Nippon Steel Raises US Mill Upgrade to $3 Billion as Costs Climb",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-23/nippon-steel-raises-us-mill-upgrade-to-3-billion-as-costs-climb",
-   "ek": ""
-  },
-  {
-   "sebep": "tekrar",
    "baslik": "ANDRITZ : continuous galvanizing line at BlueScope Steel produces first galvanized coil",
    "url": "https://www.marketscreener.com/news/andritz-continuous-galvanizing-line-at-bluescope-steel-produces-first-galvanized-coil-ce785ddddd8ff020",
    "ek": ""
@@ -3148,9 +3124,9 @@
   },
   {
    "sebep": "tekrar",
-   "baslik": "BlueScope produces first galvanized coil on new ANDRITZ line in Australia",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/bluescope-produces-first-galvanized-coil-on-new-andritz-line-in-australia-1483504.htm",
-   "ek": "ayni olayin varyanti: *|ulke-hat|Avustralya|Galvaniz hatti (CGL)|Ilk urun; andritz|fu|Avustralya|Galvaniz hatti (CGL); andritz|hat|Galvaniz hatti (CGL)|Ilk urun; andritz|ulke|Avustralya|Ilk urun; bluescope|fu|Avustralya|Galvaniz hatti (CGL); bluescope|hat|Galvaniz hatti (CGL)|Ilk urun; bluescope|ulke|Avustralya|Ilk urun"
+   "baslik": "Red Bud Industries Installs Cut-to-Length Line at McNeilus Steel’s Tennessee Facility",
+   "url": "https://themachinemaker.com/news/red-bud-industries-installs-cut-to-length-line-at-mcneilus-steels-tennessee-facility/",
+   "ek": ""
   },
   {
    "sebep": "tekrar",
@@ -3163,23 +3139,17 @@
    "baslik": "Nippon Steel Raises US Mill Upgrade to $3 Billion as Costs Climb",
    "url": "https://www.bloomberg.com/news/articles/2026-10-23/nippon-steel-raises-us-mill-upgrade-to-3-billion-as-costs-climb",
    "ek": ""
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "Nippon Steel Raises US Mill Upgrade to $3 Billion as Costs Climb",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-23/nippon-steel-raises-us-mill-upgrade-to-3-billion-as-costs-climb",
-   "ek": ""
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "Nippon Steel to spend $3B to upgrade US Steel Pennsylvania mill",
-   "url": "https://seekingalpha.com/news/4656367-nippon-steel-to-spend-3b-to-upgrade-us-steel-pennsylvania-mill",
-   "ek": "benzer baslik (bu kosuda)"
   },
   {
    "sebep": "tekrar",
    "baslik": "Jindal India commissions revamped galvanising line at Bengal plant",
    "url": "https://www.constructionweekonline.in/business/jindal-india-commissions-revamped-galvanising-line-at-bengal-plant",
+   "ek": "ayni olayin varyanti: *|ulke-hat|Hindistan|Galvaniz hatti (CGL)|Ilk urun; jindal india|fu|Hindistan|Galvaniz hatti (CGL); jindal india|hat|Galvaniz hatti (CGL)|Ilk urun; jindal india|ulke|Hindistan|Ilk urun"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "Jindal India commissions galvanizing line in West Bengal",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/jindal-india-limited-commissions-continuous-galvanizing-line-at-its-west-bengal-steel-mill-1486940.htm",
    "ek": "ayni olayin varyanti: *|ulke-hat|Hindistan|Galvaniz hatti (CGL)|Ilk urun; jindal india|fu|Hindistan|Galvaniz hatti (CGL); jindal india|hat|Galvaniz hatti (CGL)|Ilk urun; jindal india|ulke|Hindistan|Ilk urun"
   },
   {
@@ -3199,12 +3169,6 @@
    "baslik": "BlueScope produces first galvanized coil on new ANDRITZ line in Australia",
    "url": "https://www.steelorbis.com/steel-news/latest-news/bluescope-produces-first-galvanized-coil-on-new-andritz-line-in-australia-1483504.htm",
    "ek": "ayni olayin varyanti: *|ulke-hat|Avustralya|Galvaniz hatti (CGL)|Ilk urun; andritz|fu|Avustralya|Galvaniz hatti (CGL); andritz|hat|Galvaniz hatti (CGL)|Ilk urun; andritz|ulke|Avustralya|Ilk urun; bluescope|fu|Avustralya|Galvaniz hatti (CGL); bluescope|hat|Galvaniz hatti (CGL)|Ilk urun; bluescope|ulke|Avustralya|Ilk urun"
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "[BlueScope Starts Up New 240,000 mt/yr Galvanizing Line in Sydney]",
-   "url": "https://news.metal.com/newscontent/104159780-bluescope-starts-up-new-240000-mtyr-galvanizing-line-in-sydney",
-   "ek": "ayni olayin varyanti: *|ulke-hat|Avustralya|Galvaniz hatti (CGL)|Ilk urun; andritz|fu|Avustralya|Galvaniz hatti (CGL); andritz|hat|Galvaniz hatti (CGL)|Ilk urun; andritz|ulke|Avustralya|Ilk urun"
   },
   {
    "sebep": "tekrar",
@@ -3238,12 +3202,6 @@
   },
   {
    "sebep": "tekrar",
-   "baslik": "BC Jindal Group’s Jindal (India) Limited Achieves 1.6 MTPA Downstream Steel Capacity with Successful CGL-5 Revamp",
-   "url": "https://newspatrolling.com/bc-jindal-groups-jindal-india-limited-achieves-1-6-mtpa-downstream-steel-capacity-with-successful-cgl-5-revamp/",
-   "ek": ""
-  },
-  {
-   "sebep": "tekrar",
    "baslik": "Jindal India commissions revamped galvanising line at Bengal plant",
    "url": "https://www.constructionweekonline.in/business/jindal-india-commissions-revamped-galvanising-line-at-bengal-plant",
    "ek": "ayni olayin varyanti: *|ulke-hat|Hindistan|Galvaniz hatti (CGL)|Ilk urun; jindal india|fu|Hindistan|Galvaniz hatti (CGL); jindal india|hat|Galvaniz hatti (CGL)|Ilk urun; jindal india|ulke|Hindistan|Ilk urun"
@@ -3262,15 +3220,9 @@
   },
   {
    "sebep": "tekrar",
-   "baslik": "Jindal India commissions revamped galvanising line at Bengal plant",
-   "url": "https://www.constructionweekonline.in/business/jindal-india-commissions-revamped-galvanising-line-at-bengal-plant",
-   "ek": "ayni olayin varyanti: *|ulke-hat|Hindistan|Galvaniz hatti (CGL)|Ilk urun; jindal india|fu|Hindistan|Galvaniz hatti (CGL); jindal india|hat|Galvaniz hatti (CGL)|Ilk urun; jindal india|ulke|Hindistan|Ilk urun"
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "BC Jindal Group’s Jindal (India) Limited Achieves 1.6 MTPA Downstream Steel Capacity with Successful CGL-5 Revamp",
-   "url": "https://newspatrolling.com/bc-jindal-groups-jindal-india-limited-achieves-1-6-mtpa-downstream-steel-capacity-with-successful-cgl-5-revamp/",
-   "ek": ""
+   "baslik": "BlueScope produces first galvanized coil on new ANDRITZ line in Australia",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/bluescope-produces-first-galvanized-coil-on-new-andritz-line-in-australia-1483504.htm",
+   "ek": "ayni olayin varyanti: *|ulke-hat|Avustralya|Galvaniz hatti (CGL)|Ilk urun; andritz|fu|Avustralya|Galvaniz hatti (CGL); andritz|hat|Galvaniz hatti (CGL)|Ilk urun; andritz|ulke|Avustralya|Ilk urun; bluescope|fu|Avustralya|Galvaniz hatti (CGL); bluescope|hat|Galvaniz hatti (CGL)|Ilk urun; bluescope|ulke|Avustralya|Ilk urun"
   },
   {
    "sebep": "tekrar",
@@ -3280,27 +3232,15 @@
   },
   {
    "sebep": "tekrar",
+   "baslik": "Jindal (India) commissions revamped galvanising line at Bengal plant",
+   "url": "https://theprint.in/economy/jindal-india-commissions-revamped-galvanising-line-at-bengal-plant/3083247/",
+   "ek": "ayni olayin varyanti: *|ulke-hat|Hindistan|Galvaniz hatti (CGL)|Ilk urun; jindal (india)|fu|Hindistan|Galvaniz hatti (CGL); jindal (india)|hat|Galvaniz hatti (CGL)|Ilk urun; jindal (india)|ulke|Hindistan|Ilk urun"
+  },
+  {
+   "sebep": "tekrar",
    "baslik": "Nippon Steel to spend $3B to upgrade US Steel Pennsylvania mill",
    "url": "https://seekingalpha.com/news/4656367-nippon-steel-to-spend-3b-to-upgrade-us-steel-pennsylvania-mill",
    "ek": "benzer baslik (bu kosuda)"
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "Nippon Steel Raises US Mill Upgrade to $3 Billion as Costs Climb",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-23/nippon-steel-raises-us-mill-upgrade-to-3-billion-as-costs-climb",
-   "ek": ""
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "Nippon Steel Raises US Mill Upgrade to $3 Billion as Costs Climb",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-23/nippon-steel-raises-us-mill-upgrade-to-3-billion-as-costs-climb",
-   "ek": ""
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "Nippon Steel Raises US Mill Upgrade to $3 Billion as Costs Climb",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-23/nippon-steel-raises-us-mill-upgrade-to-3-billion-as-costs-climb",
-   "ek": ""
   },
   {
    "sebep": "tekrar",
@@ -3330,12 +3270,6 @@
    "sebep": "tekrar",
    "baslik": "ArcelorMittal commits €300 million to Dunkirk steel project, targets spring 2027 tests for new line in Mardyck",
    "url": "https://www.steelorbis.com/steel-news/latest-news/arcelormittal-advances-dunkirk-eaf-and-mardyck-electrical-steel-projects-1483903.htm",
-   "ek": ""
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "Nippon Steel Raises US Mill Upgrade to $3 Billion as Costs Climb",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-23/nippon-steel-raises-us-mill-upgrade-to-3-billion-as-costs-climb",
    "ek": ""
   }
  ]

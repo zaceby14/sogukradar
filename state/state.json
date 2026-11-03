@@ -307,6 +307,9 @@
   "|hat|Dilme / boy kesme / SSC|Ilk urun": "2026-08-05",
   "|hat|Elektrik celigi hatti|Ilk urun": "2026-08-26"
  },
+ "gb_form_sayac": {
+  "testkod000+": 1
+ },
  "gb_oy": {},
  "gonderilen_donemler": [
   "2026-W45"
@@ -1824,6 +1827,24 @@
     "tekrar": 52
    },
    "uretim": "2026-11-03 06:03 UTC"
+  },
+  {
+   "donem": "2026-W45",
+   "satir": 6,
+   "stats": {
+    "erisilemeyen": 10,
+    "gnews_tarih": 0,
+    "ham": 3532,
+    "kabul": 3,
+    "kapsam_disi": 3126,
+    "kaynak": 305,
+    "makale_acildi": 203,
+    "on_eleme_gecti": 362,
+    "pencere_disi": 258,
+    "tarihsiz_elendi": 104,
+    "tekrar": 41
+   },
+   "uretim": "2026-11-03 07:04 UTC"
   }
  ],
  "piyasa_rezerv": [
@@ -1866,6 +1887,14 @@
    "lead": "hidden Disclaimer: BigMint Technologies Private Limited has taken due care and caution in compilation of content for its web site. Information is just for reference not intended for trading purpose or ...",
    "tarih": "2026-11-02",
    "url": "https://www.bigmint.co/insights/detail/india-coated-flat-steel-prices-ease-w-o-w-further-correction-may-support-demand-803955"
+  },
+  {
+   "anahtar": "piyasa:2d22b9537430156d",
+   "baslik": "Grain-Oriented Electrical Steel Market to Reach US$ 15.60",
+   "kaynak": "openPR.com",
+   "lead": "Grain-Oriented Electrical Steel Market to Reach US$ 15.60 &nbsp;&nbsp; openPR.com",
+   "tarih": "2026-10-29",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaTNFVF9ab1pkX0xRaVdYOEZMMUdrYTBpOVU4ckdpNHVTTFkwWExPeWlYNzJCSWRaeVpUN2s0cllFbUczT0U2WHowdFZ6VlNKZ1ZEWWVDNXhGU25ScklPWFE2NTZDVmZKZG93eGUzQ0p4VG9mS0tuMWRpVkFhd0RPR1RCeUNDZkRqV2NuX25tWWxKWGNCcE9R?oc=5"
   },
   {
    "anahtar": "piyasa:df2e7719dead4f70",

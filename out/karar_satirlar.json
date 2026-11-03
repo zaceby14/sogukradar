@@ -110,7 +110,7 @@
    "anahtar": "tech:aac00b6a794a93b5",
    "tarih": "2026-10-06",
    "konu": "IMS expands its portfolio with force transducers for precise force measurement under demanding conditions in hot and cold rolling mills",
-   "metin": "IMS Messsysteme, sıcak ve soğuk haddehanelerde hassas kuvvet ölçümü ve haddeleme süreçlerinin optimizasyonu için geliştirdiği RollKraft ürün ailesiyle yük hücresi portföyünü genişletti.",
+   "metin": "IMS Messsysteme, sıcak ve soğuk haddehanelerde zorlu koşullar altında hassas kuvvet ölçümü sağlayan RollKraft ürün ailesini tanıtarak kuvvet dönüştürücü portföyünü genişletti.",
    "url": "https://www.ims-gmbh.de/en/2026/10/06/ims-expands-its-portfolio-with-force-transducers-forprecise-force-measurement-under-demandingconditions-in-hot-and-cold-rolling-mills/"
   }
  ],
@@ -119,7 +119,7 @@
    "anahtar": "piyasa:3e4b4481b0cc035c",
    "tarih": "2026-11-02",
    "baslik": "EU backs AD duties on CRC from five countries",
-   "metin": "AB üyesi ülkeler, aralarında Türkiye'nin de bulunduğu beş ülkeden yapılan soğuk haddelenmiş yassı çelik ithalatına kesin anti-damping vergileri uygulanması yönünde oy kullandı.",
+   "metin": "AB üye ülkeleri; Türkiye, Hindistan, Japonya, Vietnam ve Tayvan menşeli soğuk haddelenmiş yassı çelik ithalatına kesin anti-damping vergileri uygulanması yönünde oy kullandı.",
    "url": "https://eurometal.net/eu-backs-ad-duties-on-crc-from-five-countries/?utm_source=rss&utm_medium=rss&utm_campaign=eu-backs-ad-duties-on-crc-from-five-countries",
    "kaynak": "EUROMETAL",
    "konu": "koruma",
@@ -129,11 +129,21 @@
    "anahtar": "piyasa:a3b301404961402b",
    "tarih": "2026-11-02",
    "baslik": "US HRC, CRC prices climb amid tight supply",
-   "metin": "ABD'de sıcak ve soğuk haddelenmiş rulo fiyatları, sıkışık arz koşullarının etkisiyle yükseliş gösterdi.",
+   "metin": "ABD'de sıcak ve soğuk haddelenmiş rulo fiyatları, sıkı arz koşulları ve üretici fiyat artışlarının ardından yükseliş kaydetti.",
    "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/us-hrc-crc-prices-climb-amid-tight-supply-1026/",
    "kaynak": "Kallanish",
    "konu": "fiyat",
    "urun": "soguk hadde"
+  },
+  {
+   "anahtar": "piyasa:58a6686e74ff2a17",
+   "tarih": "2026-11-02",
+   "baslik": "European green flat steel demand remains subdued; construction provides pockets of interest",
+   "metin": "Avrupa'da yeşil yassı çelik talebi durgun seyrini korurken, otomotiv sektöründen gelen talep zayıfladı ve ilgi inşaat sektörüyle sınırlı kaldı.",
+   "url": "https://eurometal.net/european-green-flat-steel-demand-remains-subdued-construction-provides-pockets-of-interest/?utm_source=rss&utm_medium=rss&utm_campaign=european-green-flat-steel-demand-remains-subdued-construction-provides-pockets-of-interest",
+   "kaynak": "EUROMETAL",
+   "konu": "talep",
+   "urun": "yassi"
   }
  ]
 }
