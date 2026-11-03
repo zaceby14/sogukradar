@@ -156,14 +156,14 @@
  ],
  "stats": {
   "kaynak": 305,
-  "erisilemeyen": 10,
-  "ham": 3532,
-  "on_eleme_gecti": 362,
-  "makale_acildi": 203,
+  "erisilemeyen": 9,
+  "ham": 3543,
+  "on_eleme_gecti": 357,
+  "makale_acildi": 202,
   "tarihsiz_elendi": 104,
-  "pencere_disi": 258,
-  "kapsam_disi": 3126,
-  "tekrar": 41,
+  "pencere_disi": 269,
+  "kapsam_disi": 3128,
+  "tekrar": 39,
   "kabul": 3,
   "gnews_tarih": 0
  },
@@ -187,10 +187,6 @@
   [
    "Steel Radar",
    "HTTP 403"
-  ],
-  [
-   "SteelGuru",
-   "URLError: <urlopen error timed out>"
   ],
   [
    "BigMint (SteelMint)",
@@ -563,6 +559,14 @@
    "lead": "Hoa Phat exports 8,000 tons of galvanized steel to Japan for the first time &nbsp;&nbsp; Yieh Corp."
   },
   {
+   "anahtar": "piyasa:d6d9a6aa185309c6",
+   "tarih": "2026-11-03",
+   "baslik": "Hoa Phat ships 8,000 tonnes of galvanized steel to demanding Japanese market",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPamlRWmtVOHdsTmhwMVRMMlI3MURnNExaTXpUU2VmbHkyVXlTMmhKa0VwY0NjaHdwZ0MwVVdfeUVZRWl3Z0M4b3ljaHdfVWNnMHVVM0RuV2ZKcms5d3pJcTRRYW1nUkhUQ0Q4b00zOU1OSEZvdEtFQjZZSXNlSUJiOVdlNFpBbFlDeE9BMFdaY0l1OS0xRUtydVNoVXBTbDVPU2RQZlhwRTlEYllIckllclJYSVVwSHlOUTVlOHUzRV81Mjg?oc=5",
+   "kaynak": "VOV.VN",
+   "lead": "Hoa Phat ships 8,000 tonnes of galvanized steel to demanding Japanese market &nbsp;&nbsp; VOV.VN"
+  },
+  {
    "anahtar": "piyasa:58a6686e74ff2a17",
    "tarih": "2026-11-02",
    "baslik": "European green flat steel demand remains subdued; construction provides pockets of interest",
@@ -643,20 +647,20 @@
    "lead": "According to export data from the US Department of Commerce, US exports of tin plate totaled 2,804 mt in August this year, down 10.9 percent from July and down 24.0 percent from August 2025. By value, ..."
   },
   {
+   "anahtar": "piyasa:89da757ae315d119",
+   "tarih": "2026-10-23",
+   "baslik": "【SMM Analysis】Silicon Steel Import and Export Performance in September: Imports Surge, Exports Diverge",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPOUIzUXh5eW5meW9EQ1NTUVR1MklVUzVCMEJMNTBqZ05veF8xWFlTYXhGVFRGTGtEX1pwU1lVZkI5cUxWekRxd2Jja0liNF9oblpVWUMwMEpIb2d5Qy14UFZ5aWlfc3pLbWlVSWg3ODEyRU9vcU56SUI3QzlLSWViX1d2dUk2TC1zVGpRMEJiajJ6dTBZa0lSRUp3M3hCTG1vbHpGbmFod3piXzBZaUQ1Ul9TMGFCQUVkbXlBek8xbGlUNXRSTVpWYXNmbXhFa0Y1NDg0alduXzFLa1k?oc=5",
+   "kaynak": "Shanghai Metals Market",
+   "lead": "【SMM Analysis】Silicon Steel Import and Export Performance in September: Imports Surge, Exports Diverge &nbsp;&nbsp; Shanghai Metals Market"
+  },
+  {
    "anahtar": "piyasa:0504c06b5f9ee32d",
    "tarih": "2026-10-23",
    "baslik": "[SMM Weekly Review] Market Sentiment Grows More Cautious; Non-Oriented Silicon Steel Prices Likely to Remain in the Doldrums Next Week",
    "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNQXZQY2JqRDd5RWFoMVE1aUU0clREd1BYTmlXYnExTkpGUXRIY2ROZzhnYkF3V01rQmJVVC05UUNmOHJkcXBJSUJiVUw2aDlYamg3SUFkQWZBNy1zdTJnMjdIWlhLLVc0cG40ZmF5MUQ1RFRneVpIRk9aY2pJN1BVS3hfczRxbXg0bm5pblk2VlZZOHFKUUVuM2gtbW1ac01yNFIyZlRJNC1GSUJKMnFiUTRrdk1icTVsQ0RXdVVmaEl1Yzh0dEd3TVRNY1RWbjZGRzFiVzJVa0p5MGhfdzMyYWlrZF9nMHlpVmFTZERGUjVmWkt4WWx1QlVBazZFS1NuNlZHemltWQ?oc=5",
    "kaynak": "Shanghai Metals Market",
    "lead": "[SMM Weekly Review] Market Sentiment Grows More Cautious; Non-Oriented Silicon Steel Prices Likely to Remain in the Doldrums Next Week &nbsp;&nbsp; Shanghai Metals Market"
-  },
-  {
-   "anahtar": "piyasa:bf2ae0f0e2c552e4",
-   "tarih": "2026-10-22",
-   "baslik": "Apparent consumption of polymer-coated steel is expected to rise by 3% y/y in 2026",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSVBpVEFkSUtKbDhCdjJJbmc5Zm9KUDlELWRvc3BhUzd0eWdOZGtpRFRKUWMzUlRnWERIX29JTjNGaHFNMVFiV0RGYVRtdUtsbFBYNVgwZ21pYVdjNi1abkFzY19JUU96S2lVZzJaY0IwZFl5aTVaN0RSUzUtV0sybTJUZHVDVlliQkg5WE05MkI0aExpSkctZDhJMU9SWERlOFVjbGhzblNlbVB1MFHSAbMBQVVfeXFMTW5EYWptTlR2bnpJVnkwYWpoUnE5a05NQzJ2OVFLU290TWFTSkt3aE1ibmZOSTZTNjVnNHdCRDRWQzZocGNuenUxbm1vNHU1UDFmQm5LalNfV0JtRDBPcU1kemE0Q3lRNjV6cFNrR0NQSmp6T1F1c29yUUk4b0tuQk5Ya1cxbDBNR251OFdrZXRnajhFbUgzUnFETm9POUUyY2xxWGRXaEJFZUIyeVZWZmNsazg?oc=5",
-   "kaynak": "GMK Center",
-   "lead": "Apparent consumption of polymer-coated steel is expected to rise by 3% y/y in 2026 &nbsp;&nbsp; GMK Center"
   },
   {
    "anahtar": "piyasa:ff0954b1473979b7",
@@ -667,6 +671,14 @@
    "lead": "Tenova advances electrical steel project in India &nbsp;&nbsp; Machinery Market"
   },
   {
+   "anahtar": "piyasa:bf2ae0f0e2c552e4",
+   "tarih": "2026-10-22",
+   "baslik": "Apparent consumption of polymer-coated steel is expected to rise by 3% y/y in 2026",
+   "url": "https://gmk.center/en/news/apparent-consumption-of-polymer-coated-steel-is-expected-to-rise-by-3-y-y-in-2026/",
+   "kaynak": "Bing News",
+   "lead": "In the first three quarters of 2026, the figure stood at 264,000 tonnes, whilst imports totalled 163,500 tonnes ..."
+  },
+  {
    "anahtar": "piyasa:8561001e822ca3e1",
    "tarih": "2026-10-21",
    "baslik": "Cleveland-Cliffs links Stelco layoffs in Canada to galvanized steel imports",
@@ -675,12 +687,36 @@
    "lead": "Cleveland-Cliffs links Stelco layoffs in Canada to galvanized steel imports &nbsp;&nbsp; Yieh Corp."
   },
   {
+   "anahtar": "piyasa:9cc6a1bf4fc34aee",
+   "tarih": "2026-10-16",
+   "baslik": "[SMM Analysis] With Few Upside or Downside Catalysts, GO Silicon Steel Prices to Remain Subdued in October",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOZktQR3hjZWZ1WHl1d09PQlRXWlBmb0RMSTNDQUNjVE1WUzkxT1pKVXVKMkJkaEU2aHBpMzNLUmM0N2FCNjI2eUhSdWpkcGc1eXRnOG1WbVMwa25Xd2NjOWdJUmFMQ3h6cXdGVDA0aDZIX1ZldFNVNlpXMjNRSDZyTGVLdXFsOV9ZanpLcWJtM2ZRdFdXYkg2Z1lmNVRCeHNZSVhwb2pmWjZld1RSbjJvc1g4SVRCRHpydkwzUHQ0ck8wbWIzWDFuWHBHTHlnNHlyMGtwWTdkWEM0UzQ4RG56RUJR?oc=5",
+   "kaynak": "Shanghai Metals Market",
+   "lead": "[SMM Analysis] With Few Upside or Downside Catalysts, GO Silicon Steel Prices to Remain Subdued in October &nbsp;&nbsp; Shanghai Metals Market"
+  },
+  {
    "anahtar": "piyasa:26c8cfbe648bcc7b",
    "tarih": "2026-10-16",
    "baslik": "[SMM Analysis] Insufficient Momentum for Change, Grain-Oriented Silicon Steel Prices May Remain in the Doldrums in October",
    "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQc1ZIVlNDR212c1E2Q1BUWVRXSW1LM1h1dk1oVTV3STVuZTZ5TTd4TjY4MXZNTnhyVjBBREhkOWt4aFVqR3dYd0xDQ2VkZjM2cnBjUHNPRzZvSncwZDFMSFE5c2EwYUIzYjB5Y2JNSXdYejBkbHlzb0toQ2Y0QWFjTUZDOWpqYjlWOW94YW0xeXpvNVJMSm1aRllHVDJYZ2N5LUVQdXVJRUpmd2U0YTYyb2JHSXFEMlp3VFNvVW1NUUZoNXNaREM4OHVFTXhGTHI1dVVqeVpuRFBGbmJUMTBTVVV0RWVhdWU2ekRjUkliSExaaF91d1Fv?oc=5",
    "kaynak": "Shanghai Metals Market",
    "lead": "[SMM Analysis] Insufficient Momentum for Change, Grain-Oriented Silicon Steel Prices May Remain in the Doldrums in October &nbsp;&nbsp; Shanghai Metals Market"
+  },
+  {
+   "anahtar": "piyasa:7028f5fe092413a8",
+   "tarih": "2026-10-16",
+   "baslik": "[SMM Weekly Summary] Weak Demand and Flat Baowu Pricing Policy May Keep Grain-Oriented Silicon Steel Prices in the Doldrums Next Week",
+   "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQVGVJbXlnVGZUenk3ZV9DU1BHTnQ4UEZERi1QX1owN3B2bDV3RlI3REFIQjFoOGZSSXI5YmJmUUtPNC1rQWFyS0xYNXRuTFBzazdqa1hwb1FhVjBQRWV6UXBnWk43WGlDUkhJYi1YM014MkVFT3B0Q09fWkk0RlBIaUVTRTJDMEdTUXBPLTNsa1FfX0ZmSHVkVGoxX3NuaXdmWUxYbUVrZTJHT3k2ZTZEQW51RkZzTE5QVEY5TG1Ocm5IU2ZQOHNEWGVLQk1ZbUxSYVVQTkpXWmNPUldQZnhRX2twQkhMcmxTWXgzV1p3UGVMMzE0ck9HMHVweTd3RG9OSEZrWFBhdw?oc=5",
+   "kaynak": "Shanghai Metals Market",
+   "lead": "[SMM Weekly Summary] Weak Demand and Flat Baowu Pricing Policy May Keep Grain-Oriented Silicon Steel Prices in the Doldrums Next Week &nbsp;&nbsp; Shanghai Metals Market"
+  },
+  {
+   "anahtar": "piyasa:fa4a15cbca9b49ce",
+   "tarih": "2026-10-16",
+   "baslik": "[SMM Analysis]Mills hike prices on weak demand; non-oriented silicon steel may firm then steady in Oct",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPMkZ2bDh6LUFsNmRyRWZVbV84Q1JLTjhuUW5xQVRrcXpCTjBMZDVOcHk5VHVpZkNuS2Rkcmh0OHZCYktKUUpycENYM3BlSjVybWZEMl9zbU5lSm40VGhxRnpKNHNNUldGb2tFSWE1Q19kaWJldnUwYk53ZjVZTGs4NDBtTGRGVDdDckFsYVB1c0VHMmVzeFdLR3RNWHJmSUxGSGVKdS1WSWQ0RUc0UTg2S0h0TkpxakhSSDRIa3ZTT1UzdDJPMDJUUzJxd2dwWmg5X0d3RWZpb3d5cUUt?oc=5",
+   "kaynak": "Shanghai Metals Market",
+   "lead": "[SMM Analysis]Mills hike prices on weak demand; non-oriented silicon steel may firm then steady in Oct &nbsp;&nbsp; Shanghai Metals Market"
   },
   {
    "anahtar": "piyasa:7d13db7cc8732fd4",
@@ -700,6 +736,6 @@
  "rezerv_kullanilan": 3,
  "rezerv_havuz": 30,
  "period": "2026-W45",
- "generated": "2026-11-03 07:04 UTC",
+ "generated": "2026-11-03 07:49 UTC",
  "version": "3.0.0"
 }
