@@ -1,6 +1,6 @@
 {
  "donem": "2026-W45",
- "adet": 559,
+ "adet": 555,
  "kayitlar": [
   {
    "sebep": "kapsam_disi",
@@ -889,6 +889,30 @@
    "baslik": "OPTIFOIL Foil Slitting Machines",
    "url": "https://www.achenbach.de/en/machines-equipment/optifoil-foil-slitting-machines/",
    "ek": ""
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Horizontale Kontiglühlinien",
+   "url": "https://www.ebner.cc/horizontale-kontigluehlinien-stahl-de",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "> Vertretungen. Weltweit.",
+   "url": "https://www.ebner.cc/vertretung-de",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Glüh-& Beschichtungslinie (ACL)",
+   "url": "https://www.ebner.cc/glueh-und-beschichtungslinie-acl-stahl-de",
+   "ek": "2020-07-15"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Erforderlichen Service akzeptieren und Inhalte entsperren",
+   "url": "https://www.ebner.cc/news-08-05-2025-ebner-staerkt-marktposition-in-asien-mit-rollenherdofen-projekt",
+   "ek": "2025-08-06"
   },
   {
    "sebep": "tarihsiz_elendi",
@@ -1894,6 +1918,336 @@
   },
   {
    "sebep": "kapsam_disi",
+   "baslik": "engineering. tomorrow. together.",
+   "url": "https://www.thyssenkrupp-steel.com/",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Unalloyed and alloyed quenched and tempered steel",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/hot-strip/c-steel/unalloyed-and-alloyed-quenched-and-tempered-steel/unlegierter-und-legierter-verguetungsstahl.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Hardenable manganese-boron steel",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/hot-strip/c-steel/hardenable-manganese-boron-steel/haertbarer-mangan-bor-stahl.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Hardenable boron steel TBL",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/hot-strip/c-steel/hardenable-boron-steel-tbl/haertbarer-bor-stahl-tbl.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Steel for pressure vessels",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/hot-strip/steel-for-pressure-vessels/steel-for-pressure-vessels.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Ferrite-bainite-phase steel",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/hot-strip/multiphase-steel/ferrite-bainite-phase-steel/ferrite-bainite-phase-steel.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Manganese-boron steel for hot forming",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/hot-strip/manganese-boron-steel-for-hot-form-curing/Manganese-boron-steel-for-hot-form-curing.html",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Overview delivery options",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/hot-strip/overview-delivery-options/overview-delivery-options.html",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Micro-alloyed fine-grain structural steel",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/precision-steel-strip/product-details/fine-grain-structural-steel/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Boron-alloyed case-hardening and heat-treatable steel",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/precision-steel-strip/product-details/boron-alloyed-special-structural-steel/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Tempered steel and spring steel",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/precision-steel-strip/product-details/quenched-and-tempered-steel/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Everything about Business Unit Precision Steel",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/precision-strip/everything-about-business-unit-precision-steel/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Ferrite-bainite-phase steel",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/sheet-coated-products/multiphase-steel/ferrite-bainite-phase-steel/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Manganese-boron steel for hot forming",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/sheet-coated-products/manganese-boron-steel-for-hot-forming/",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "MBW® – Manganese-boron steel for hot forming",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/sheet-coated-products/manganese-boron-steel-for-hot-forming/mbw-manganese-boron-steel-for-hot-forming/",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Hot-dip galvanized narrow strip",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/sheet-coated-products/hot-dip-galvanized-steel-strip/",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Hot-dip galvanized corrugated and roofing sheet",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/sheet-coated-products/hot-dip-galvanized-corrugated-and-roofing-sheet/",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Surface finish and surface types",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/sheet-coated-products/surface-finish-and-surface-types/surface-finish-and-surface-types.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Chromium-free passivation",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/sheet-coated-products/surface-treatment/chromium-free-passivation/Chromium-free-passivation.html",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "ZM Ecoprotect® Solar (ZM Solar)",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/sheet-coated-products/surface-finishing/zm-ecoprotect-solar-zm-solar/zm-ecoprotect-solar.html",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Delivery forms and dimensions",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/sheet-coated-products/delivery-forms-and-dimensions/delivery-forms-and-dimensions.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Organic coated strip and sheet",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/organic-coated-strip-and-sheet/",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "pladur® Relief Icecrystal",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/organic-coated-strip-and-sheet/pladur-relief-icecrystal/",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Electrical steel, non grain oriented",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/electrical-steel/electrical-steel-non-grain-oriented/electrical-steel-non-grain-oriented.html",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "powercore® traction for high frequencies and e-mobility",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/electrical-steel/electrical-steel-non-grain-oriented/powercore-traction-for-high-frequencies-and-e-mobility/powercore-a-3.html",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "powercore® traction NGO 025-125Y420",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/electrical-steel/electrical-steel-non-grain-oriented/powercore-traction-for-high-frequencies-and-e-mobility/powercore-traction-ngo-025-125y420/powercore-traction-ngo025-125y420.html",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Electrical steel, grain oriented",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/electrical-steel/electrical-steel-grain-oriented/electrical-steel-grain-oriented.html",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Typical physical properties",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/electrical-steel/electrical-steel-grain-oriented/powercore/typical-physical-properties/typical-properties-and-tolerances.html",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "powercore according to BIS standard 3024",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/electrical-steel/electrical-steel-grain-oriented/powercore-according-to-bis-standard-3024/powercore-according-to-bis-standard-3024.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Chassis: Hot strip in motion",
+   "url": "https://www.thyssenkrupp-steel.com/en/industries/automotivetrucks/chassis-hot-strip-in-motion/chassis-hot-strip-in-motion.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Seat: Lightweight steel seat structures",
+   "url": "https://www.thyssenkrupp-steel.com/en/industries/automotivetrucks/seat-lightweight-steel-seat-structures/lightweight-steel-seat-structures.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Lightweight steels for vehicle construction",
+   "url": "https://www.thyssenkrupp-steel.com/en/industries/automotivetrucks/lightweight-steels-for-vehicle-construction/lightweight-steels-for-vehicle-construction.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Surfaces for car body panels",
+   "url": "https://www.thyssenkrupp-steel.com/en/industries/automotivetrucks/surfaces-for-car-body-panels/best-surfaces.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Mechanical/Plant Engineering",
+   "url": "https://www.thyssenkrupp-steel.com/en/industries/mechanicalplant-engineering/plant-engineering.html",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Electrical Steel - the employer",
+   "url": "https://www.thyssenkrupp-steel.com/en/company/business-units/electrical-steel/electrical-steel-the-employer/electrical-steel-als-arbeitgeber.html",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Executive and Supervisory Board, Works Council",
+   "url": "https://www.thyssenkrupp-steel.com/en/company/business-units/packaging-steel/organization/executive-and-supervisory-board-works-council/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Supply Chain Due Diligence Act (LkSG)",
+   "url": "https://www.thyssenkrupp-steel.com/en/company/business-units/packaging-steel/purchasing/supply-chain-due-diligence-act-lksg/supply-chain-due-diligence-act.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Packaging Steel the employer",
+   "url": "https://www.thyssenkrupp-steel.com/en/company/business-units/packaging-steel/rasselstein-the-employer/",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Precision Steel - the employer",
+   "url": "https://www.thyssenkrupp-steel.com/en/company/business-units/precision-steel/thyssenkrupp-hohenlimburg-the-employer/",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Arbeitsmedizinischer Dienst",
+   "url": "https://www.thyssenkrupp-steel.com/en/company/business-units/precision-steel/thyssenkrupp-hohenlimburg-the-employer/arbeitsmedizinischer-dienst/",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "thyssenkrupp Steel Business Services GmbH",
+   "url": "https://www.thyssenkrupp-steel.com/en/company/services/thyssenkrupp-steel-business-services-gmbh/tksbs.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Employee and Human Rights",
+   "url": "https://www.thyssenkrupp-steel.com/en/company/sustainability/employee-and-human-rights/employee-and-human-rights.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Responsibility and due diligence obligations",
+   "url": "https://www.thyssenkrupp-steel.com/en/company/sustainability/responsibility-and-due-diligence-obligations/responsibility-and-due-diligence-obligations.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Mikhail Sergeyevich Gorbachev",
+   "url": "https://www.thyssenkrupp-steel.com/en/company/history/highlights/mikhail-sergeyevich-gorbachev/mikhail-sergeyevich-gorbachev.html",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Transformation & Sustainability",
+   "url": "https://www.thyssenkrupp-steel.com/en/stories/transformation-and-sustainability/",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Working at thyssenkrupp Steel Europe",
+   "url": "https://www.thyssenkrupp-steel.com/en/career/working-at-thyssenkrupp-steel-europe/",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Electrical Steel as emplyer",
+   "url": "https://www.thyssenkrupp-steel.com/en/career/working-at-thyssenkrupp-steel-europe/our-subsidiaries/electrical-steel-as-emplyer/electrical-steel-als-arbeitgeber.html",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Packaging Steel as Employer",
+   "url": "https://www.thyssenkrupp-steel.com/en/career/working-at-thyssenkrupp-steel-europe/our-subsidiaries/packaging-steel-as-employer/packaging-steel-as-employer.html",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Precision Steel as employer",
+   "url": "https://www.thyssenkrupp-steel.com/en/career/working-at-thyssenkrupp-steel-europe/our-subsidiaries/precision-steel-as-employer/precision-steel-as-employer.html",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Occupational health service",
+   "url": "https://www.thyssenkrupp-steel.com/en/career/working-at-thyssenkrupp-steel-europe/our-subsidiaries/precision-steel-as-employer/occupational-health-service/occupational-health-service.html",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Interviews and field reports",
+   "url": "https://www.thyssenkrupp-steel.com/en/career/working-at-thyssenkrupp-steel-europe/interviews-and-field-reports/interviews-and-field-reports.html",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Apprenticeship and Studies",
+   "url": "https://www.thyssenkrupp-steel.com/en/career/school-students/apprenticeship-and-studies/ausbildung-plus-studium.html",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Application for advertised positions",
+   "url": "https://www.thyssenkrupp-steel.com/en/career/the-application/application-for-advertised-positions/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Information for neighbors",
+   "url": "https://www.thyssenkrupp-steel.com/en/informationen-fuer-nachbarn.html",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "Cut-to-length sheet products",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/cut-to-length-sheet-products/cut-to-length-sheets-overview.html",
+   "ek": ""
+  },
+  {
+   "sebep": "kapsam_disi",
    "baslik": "Building a culture of Safety",
    "url": "https://www.tatasteel.com/corporate/our-organisation/safety/building-a-culture-of-safety/",
    "ek": "kapsam kapisi (baslik)"
@@ -2023,342 +2377,6 @@
    "baslik": "Taskforce on Nature Related Financial Disclosures (TNFD) Reports",
    "url": "https://www.tatasteel.com/investors/financial-performance/taskforce-on-nature-related-financial-disclosures-tnfd-reports/",
    "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Integrated Report/Annual Report",
-   "url": "https://www.tatasteel.com/investors/integrated-reportannual-report/",
-   "ek": "haber degil (menu/e-posta/kisa)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Integrated Report & Annual Accounts 2025-26 (119th Year) and related documents",
-   "url": "https://www.tatasteel.com/investors/integrated-reportannual-report/integrated-report-annual-accounts-2025-26-119th-year-and-related-documents/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Financial Statements of Subsidiary Companies-FY 2025-26",
-   "url": "https://www.tatasteel.com/investors/integrated-reportannual-report/integrated-report-annual-accounts-2025-26-119th-year-and-related-documents/financial-statements-of-subsidiary-companies-fy-2025-26/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Integrated Report & Annual Accounts 2024-25 (118th year) and related documents",
-   "url": "https://www.tatasteel.com/investors/integrated-reportannual-report/integrated-report-annual-accounts-2024-25-118th-year-and-related-documents/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Financial Statements of Subsidiary Companies-FY 2024-25",
-   "url": "https://www.tatasteel.com/investors/integrated-reportannual-report/integrated-report-annual-accounts-2024-25-118th-year-and-related-documents/financial-statements-of-subsidiary-companies-fy-2024-25/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Integrated Report & Annual Accounts 2023-24 (117th Year) and related documents",
-   "url": "https://www.tatasteel.com/investors/integrated-reportannual-report/integrated-report-annual-accounts-2023-24-117th-year-and-related-documents/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Financial Statements of Subsidiary Companies-FY 2023-24",
-   "url": "https://www.tatasteel.com/investors/integrated-reportannual-report/integrated-report-annual-accounts-2023-24-117th-year-and-related-documents/financial-statements-of-subsidiary-companies-fy-2023-24/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Integrated Report & Annual Accounts 2022-23 (116th year) and related documents",
-   "url": "https://www.tatasteel.com/investors/integrated-reportannual-report/integrated-report-annual-accounts-2022-23-116th-year-and-related-documents/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Financial Statements of Subsidiary Companies-FY 2022-23",
-   "url": "https://www.tatasteel.com/investors/integrated-reportannual-report/integrated-report-annual-accounts-2022-23-116th-year-and-related-documents/financial-statements-of-subsidiary-companies-fy-2022-23/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Integrated Report & Annual Accounts 2021-22 (115th year) and related documents",
-   "url": "https://www.tatasteel.com/investors/integrated-reportannual-report/integrated-report-annual-accounts-2021-22-115th-year-and-related-documents/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Financial Statements of Subsidiary Companies-FY 2021-22",
-   "url": "https://www.tatasteel.com/investors/integrated-reportannual-report/integrated-report-annual-accounts-2021-22-115th-year-and-related-documents/financial-statements-of-subsidiary-companies-fy-2021-22/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Integrated Report & Annual Accounts 2020-21 (114th Year) and related documents",
-   "url": "https://www.tatasteel.com/investors/integrated-reportannual-report/integrated-report-annual-accounts-2020-21-114th-year-and-related-documents/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Integrated Report & Annual Accounts 2019-20 (113th Year) and related documents",
-   "url": "https://www.tatasteel.com/investors/integrated-reportannual-report/integrated-report-annual-accounts-2019-20-113th-year-and-related-documents/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Integrated Report & Annual Accounts 2018-19 (112th Year) and related documents",
-   "url": "https://www.tatasteel.com/investors/integrated-reportannual-report/integrated-report-annual-accounts-2018-19-112th-year-and-related-documents/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Integrated Report & Annual Accounts 2017-18 (111th Year) and related documents",
-   "url": "https://www.tatasteel.com/investors/integrated-reportannual-report/integrated-report-annual-accounts-2017-18-111th-year-and-related-documents/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Integrated Report & Annual Accounts 2016-17 (110th Year) and related documents",
-   "url": "https://www.tatasteel.com/investors/integrated-reportannual-report/integrated-report-annual-accounts-2016-17-110th-year-and-related-documents/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Bonds Information 2018-19",
-   "url": "https://www.tatasteel.com/investors/investor-information/bonds-information/bonds-information-2018-19/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Bonds Information 2019-20",
-   "url": "https://www.tatasteel.com/investors/investor-information/bonds-information/bonds-information-2019-20/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Bonds Information 2020-2021",
-   "url": "https://www.tatasteel.com/investors/investor-information/bonds-information/bonds-information-2020-2021/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Record date/book closure date for equity shares",
-   "url": "https://www.tatasteel.com/investors/investor-information/record-datebook-closure-date-for-equity-shares/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Schedule of Analyst/Institutional Investor Meet",
-   "url": "https://www.tatasteel.com/investors/investor-information/schedule-of-analystinstitutional-investor-meet/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Frequently Asked Questions",
-   "url": "https://www.tatasteel.com/investors/investor-information/frequently-asked-questions/",
-   "ek": "haber degil (menu/e-posta/kisa)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Extraordinary General Meeting",
-   "url": "https://www.tatasteel.com/investors/investor-information/extraordinary-general-meeting/",
-   "ek": "haber degil (menu/e-posta/kisa)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Registrars & Transfer Agents",
-   "url": "https://www.tatasteel.com/investors/investor-information/registrars-transfer-agents/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Subscribe for Investor Relations Alerts",
-   "url": "https://www.tatasteel.com/investors/investor-information/subscribe-for-investor-relations-alerts/",
-   "ek": "haber degil (menu/e-posta/kisa)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Transfer of Equity Shares",
-   "url": "https://www.tatasteel.com/investors/investor-information/transfer-of-equity-shares/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Rights Issue – First and Final Call",
-   "url": "https://www.tatasteel.com/investors/investor-information/rights-issue-first-and-final-call/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Intimation under Regulation 39(3) of SEBI (Listing Obligations and Disclosure Requirements), Regulations, 2015",
-   "url": "https://www.tatasteel.com/investors/investor-information/intimation-under-regulation-39-3-of-sebi-listing-obligations-and-disclosure-requirements-regulations-2015/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Information Memorandum – Commercial Papers",
-   "url": "https://www.tatasteel.com/investors/investor-information/information-memorandum-commercial-papers/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Corporate Governance Report",
-   "url": "https://www.tatasteel.com/investors/corporate-governance/corporate-governance-report/",
-   "ek": "haber degil (menu/e-posta/kisa)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Stock Exchange Compliances",
-   "url": "https://www.tatasteel.com/investors/stock-exchange-compliances/",
-   "ek": "haber degil (menu/e-posta/kisa)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Stock Exchange Information",
-   "url": "https://www.tatasteel.com/investors/stock-exchange-compliances/stock-exchange-information/",
-   "ek": "haber degil (menu/e-posta/kisa)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Compliance Report on Corporate Governance",
-   "url": "https://www.tatasteel.com/investors/stock-exchange-compliances/compliance-report-on-corporate-governance/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Reconciliation of Share Capital Audit Reports",
-   "url": "https://www.tatasteel.com/investors/stock-exchange-compliances/reconciliation-of-share-capital-audit-reports/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Certificate from PCS under Regulation 40(9) and 61(4)",
-   "url": "https://www.tatasteel.com/investors/stock-exchange-compliances/certificate-from-pcs-under-regulation-40-9-and-61-4/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Certificate under Regulation 7(3)",
-   "url": "https://www.tatasteel.com/investors/stock-exchange-compliances/certificate-under-regulation-7-3/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Investor Complaints Report",
-   "url": "https://www.tatasteel.com/investors/stock-exchange-compliances/investor-complaints-report/",
-   "ek": "haber degil (menu/e-posta/kisa)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Related Party Transaction Disclosures",
-   "url": "https://www.tatasteel.com/investors/stock-exchange-compliances/related-party-transaction-disclosures/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Annual Secretarial Compliance Report",
-   "url": "https://www.tatasteel.com/investors/stock-exchange-compliances/annual-secretarial-compliance-report/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Integrated Filing (Governance)",
-   "url": "https://www.tatasteel.com/investors/stock-exchange-compliances/integrated-filing-governance/",
-   "ek": "haber degil (menu/e-posta/kisa)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Integrated Filing (Financials)",
-   "url": "https://www.tatasteel.com/investors/stock-exchange-compliances/integrated-filing-financials/",
-   "ek": "haber degil (menu/e-posta/kisa)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Amalgamation of Bamnipal Steel Limited and Tata Steel BSL Limited into and with Tata Steel Limited",
-   "url": "https://www.tatasteel.com/investors/amalgamation/amalgamation-of-bamnipal-steel-limited-and-tata-steel-bsl-limited-into-and-with-tata-steel-limited/",
-   "ek": "sert red (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Amalgamation of Rujuvalika Investments Limited into and with Tata Steel Limited",
-   "url": "https://www.tatasteel.com/investors/amalgamation/amalgamation-of-rujuvalika-investments-limited-into-and-with-tata-steel-limited/",
-   "ek": "sert red (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Amalgamation of Tata Steel Long Products into and with Tata Steel Limited",
-   "url": "https://www.tatasteel.com/investors/amalgamation/amalgamation-of-tata-steel-long-products-into-and-with-tata-steel-limited/",
-   "ek": "sert red (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Amalgamation of The Tinplate Company of India Limited into and with Tata Steel Limited",
-   "url": "https://www.tatasteel.com/investors/amalgamation/amalgamation-of-the-tinplate-company-of-india-limited-into-and-with-tata-steel-limited/",
-   "ek": "sert red (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Amalgamation of Tata Metaliks Limited into and with Tata Steel Limited",
-   "url": "https://www.tatasteel.com/investors/amalgamation/amalgamation-of-tata-metaliks-limited-into-and-with-tata-steel-limited/",
-   "ek": "sert red (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Amalgamation of TRF Limited into and with Tata Steel Limited",
-   "url": "https://www.tatasteel.com/investors/amalgamation/amalgamation-of-trf-limited-into-and-with-tata-steel-limited/",
-   "ek": "sert red (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Amalgamation of The Indian Steel & Wire Products Limited into and with Tata Steel Limited",
-   "url": "https://www.tatasteel.com/investors/amalgamation/amalgamation-of-the-indian-steel-wire-products-limited-into-and-with-tata-steel-limited/",
-   "ek": "sert red (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Amalgamation of Tata Steel Mining Limited into and with Tata Steel Limited",
-   "url": "https://www.tatasteel.com/investors/amalgamation/amalgamation-of-tata-steel-mining-limited-into-and-with-tata-steel-limited/",
-   "ek": "sert red (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Amalgamation of S & T Mining Company Limited into and with Tata Steel Limited",
-   "url": "https://www.tatasteel.com/investors/amalgamation/amalgamation-of-s-t-mining-company-limited-into-and-with-tata-steel-limited/",
-   "ek": "sert red (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Amalgamation of Angul Energy Limited into and with Tata Steel Limited",
-   "url": "https://www.tatasteel.com/investors/amalgamation/amalgamation-of-angul-energy-limited-into-and-with-tata-steel-limited/",
-   "ek": "sert red (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Amalgamation of Bhubaneshwar Power Private Limited into and with Tata Steel Limited",
-   "url": "https://www.tatasteel.com/investors/amalgamation/amalgamation-of-bhubaneshwar-power-private-limited-into-and-with-tata-steel-limited/",
-   "ek": "sert red (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Amalgamation of Neelachal Ispat Nigam Limited into and with Tata Steel Limited",
-   "url": "https://www.tatasteel.com/investors/amalgamation/amalgamation-of-neelachal-ispat-nigam-limited-into-and-with-tata-steel-limited/",
-   "ek": "sert red (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Financial Performance summary",
-   "url": "https://www.tatasteel.com/investors/financial-performance-summary/",
-   "ek": "haber degil (menu/e-posta/kisa)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Information Pursuant to Regulation 46(2) and 62(1) of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
-   "url": "https://www.tatasteel.com/investors/information-pursuant-to-regulation-46-2-and-62-1-of-the-securities-and-exchange-board-of-india-listing-obligations-and-disclosure-requirements-regulations-2015/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Locational/Regional Showcase",
-   "url": "https://www.tatasteel.com/careers/culture-at-tata-steel/locationalregional-showcase/",
-   "ek": "haber degil (menu/e-posta/kisa)"
   },
   {
    "sebep": "pencere_disi",
@@ -2787,12 +2805,6 @@
    "ek": "ayni olayin varyanti: *|ulke-hat|Hindistan|Galvaniz hatti (CGL)|Ilk urun; jindal india|fu|Hindistan|Galvaniz hatti (CGL); jindal india|hat|Galvaniz hatti (CGL)|Ilk urun; jindal india|ulke|Hindistan|Ilk urun"
   },
   {
-   "sebep": "pencere_disi",
-   "baslik": "Tata Steel Colors Launches Colorcoat Pre-Painted Steel in India",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWWk0S1BiczFnakJ6QnN2a1NDWnJVTFQ0eWVVbnpJVlByNXF6dG55QUhCNE5uNkx0LVRaWVVfQ2hEcWROZEhEYy03Zl9WU2xRbVVXS2NWdWl1M2IzSHlLRlgwdUhsdm9TR3VlcUZOcXd5V0g2TThiaklGcUhpRWp4MGVBQkx3eWdKZnpCdjcwUjRfNUI3UmpPN1RMRllLWnowQnJlZ3R0MU1ESFhlcFJlUG1hQQ?oc=5",
-   "ek": "2026-10-12"
-  },
-  {
    "sebep": "tekrar",
    "baslik": "Tenova supplies processing lines for JSW JFE’s electrical steel plant in India",
    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObnZFSDNsYV9qV0ZSbk1JUU5rV29LeS1DZGMtbmFMUDREcHZHeHNCWVkzQjl2TnhKWmVjeXloUy1qNWd6dmdSVzQtTVhwM1pzUTB5akFtcjZVc0NjZVF6T3MxZzdmZWhpaHJrNFQ5SFEtQk9KaUF1cWVzTmVMY3Zpb2tIM2xwVjZLUTdiY2RHajUyZkZsd3BpT3VZUGs4YzJRWW9uSmYyUmNiQUxCTHJBb0Mycw?oc=5",
@@ -2859,6 +2871,12 @@
    "ek": "2024-08-01"
   },
   {
+   "sebep": "pencere_disi",
+   "baslik": "Tata Steel Colors Launches Colorcoat Pre-Painted Steel in India",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWWk0S1BiczFnakJ6QnN2a1NDWnJVTFQ0eWVVbnpJVlByNXF6dG55QUhCNE5uNkx0LVRaWVVfQ2hEcWROZEhEYy03Zl9WU2xRbVVXS2NWdWl1M2IzSHlLRlgwdUhsdm9TR3VlcUZOcXd5V0g2TThiaklGcUhpRWp4MGVBQkx3eWdKZnpCdjcwUjRfNUI3UmpPN1RMRllLWnowQnJlZ3R0MU1ESFhlcFJlUG1hQQ?oc=5",
+   "ek": "2026-10-12"
+  },
+  {
    "sebep": "tekrar",
    "baslik": "Jindal (India) commissions upgraded continuous galvanizing line in West Bengal",
    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNc3h4emRwbmRPR3hpUnhwdFpXQWFnSkY4bENya24zdDAwVDJUWDJzUEVtaEF3TDl6aHBvdkZOQWZmVXlrVWx3aFUwVGgtcEcxWncyQS1jMGxsaG92ckZVdm9xWWNROEp2cFQtRGx6bFltcHMxaWFPdjNmYW9GTU5rdmNkYnBaTmprVkdEUmhnZ0dVZ3UyUXZsTXdHb1UtZEhKZU0ya0RyMWxWeGM0?oc=5",
@@ -2877,10 +2895,28 @@
    "ek": ""
   },
   {
+   "sebep": "pencere_disi",
+   "baslik": "BMW Industries forays into colour coated steel manufacturing to cater domestic demand",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZGstY1plQTFDNXVOMVQ5dGNraUpud1NiYXp6VjlqTlA1bnBPeWlPTzdfTFZtV29YZFRHdS1jUEd2XzV1OE9wUTRXWWczTS1EWDVmeXhCQTJ3TUs3WUwyUUh2OTRQSDhvZWpWM01pc2JmR29VVzI2Q19MRTZ3NGdDVU9TQnRBY1pwZlFDSmszTWRjdXBYSlRfZFRMb21lejZiaUlnanNCdWlwVGt2V2dMN3U3MEtBZmFkQTBVQW5B0gHLAUFVX3lxTFA3T3VUcHlRTjNxSHAzaG1lY2djQW1yejhhQnhFbEg5ZEp5eGkxV2JSZ0xPdGtFOEQtdy1ob2J5dHpvMVFxWXNJdjdNWmo1VmpvVkgxYW1HemctNTZaZTJFRzlJZHA0akZ5UGJwRlo2TWNmQVI5ZEpST2plZWJWdGUtdTBQRFE1cnRpQkU3US14ZXQ1ZW5naDZ3SUpCXzE3RmpUWWZHWkxZbm93cFl1RzZ4VXZwSGNTRlBPQzJiTVhxWkZwX1pJNGtPalJz?oc=5",
+   "ek": "2026-10-11"
+  },
+  {
    "sebep": "tekrar",
    "baslik": "Jindal India Commissions Continuous Galvanizing Line in West Bengal",
    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9yekFtbHFNMHVjb3VMODFsR09EemdFaVFCS1RFSFZ0QmZMNnRlSnV6bHFZUU1MMDFIdDVOV0dTc0VhNDZ2V1FnS0dXLTF5MjVE?oc=5",
    "ek": "ayni olayin varyanti: *|ulke-hat|Hindistan|Galvaniz hatti (CGL)|Ilk urun; jindal india|fu|Hindistan|Galvaniz hatti (CGL); jindal india|hat|Galvaniz hatti (CGL)|Ilk urun; jindal india|ulke|Hindistan|Ilk urun"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "BMW Industries Commissions Colour Coating Line, Marking First Phase of Greenfield Downstream Steel Complex at Bokaro",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0xUWZ2dUI0QWtjcWU3dlRuNExaUWRGRGdtM0hwa25jZ0JOV2ZJdllYQVVydDFPWjliWWRpeF9WSURrWUszVlBiQk50MVpGUkJZdHhYeVE2N1hwam5LN1o3ZGRzZw?oc=5",
+   "ek": "2026-10-05"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "BMW Industries Ltd commissions the Colour Coating Line of the first phase of its Greenfield Downstream Steel Complex at Bokaro",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNLVV0eTVMS0VNWlA3SFZfRncwQ2laall4Z0ZrWlU3UTBBT1lIUXp4ZGN6NnhER0pxQ3FvM0d2ZWRveGRHM1MtOWRzQU5yNzFsaGNBVnhoUE5wcC1sRWpqN0VWU21pb2QzOWE3VEdaZlZxQXZEdE43YzRfc1dvNVQ5QXdKMTRuQ1R2dGVwSFV4ZWp3alo0RnpTOGhhekFUb09FcmZkVW5IWG5mV3RlY21aMFdaazc1YUZ2ZUtNcQ?oc=5",
+   "ek": "2026-10-05"
   },
   {
    "sebep": "tekrar",
@@ -2974,12 +3010,6 @@
   },
   {
    "sebep": "pencere_disi",
-   "baslik": "Yıldız Demir Çelik Kallanish Global Flat Steel 2025'te yer aldı - Sabır Gazetesi",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOa3JMYzZvN3VZQWhtOEtSeG02Q3lxaHAtQjJxWmg2Z0JYWlBNMlJ1ZjEzZjNnazVyTHY1aGtRTURUTXNJamdBa0hlQmtHMndZS2YxakQtTnlJeDdSTHpJNGl6Q295UURrRHFFcE9OMHN4Qlc0d1JQcUUzdHhtWkM3QzBXQ2FNVjhCN2xQVDhsXzFPUTBqMERj?oc=5",
-   "ek": "on eleme: 2025-10-18"
-  },
-  {
-   "sebep": "pencere_disi",
    "baslik": "Tezcan Galvaniz’de grev sonuçlandı: Patronun dayatmasına direnen işçiler kazandı - soL Haber",
    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTHQ2eWhMa0pIMmVxU3pVdERyd1hrcGF5dVhOS0FuTVltUU9vRUJ1MDZ5VGRqX0ljUmR4M2lsQ3lDb2M1OV9tV2RkYTdsQ0NTT25iTjdQRVlkYW41Uy04ODhvU1R6QzFIWndEUlQzSGIxOVVkNEYwOXhhSWQtanRQVkVXNXFFWE1DbDR6cmFFd3c4QlhMT1BqNWJrQWdDYjBPc3IxS3QyZC1WU0JER2JNaWVTSjJiY2s?oc=5",
    "ek": "on eleme: 2025-04-27"
@@ -3016,15 +3046,15 @@
   },
   {
    "sebep": "pencere_disi",
-   "baslik": "Tezcan Galvaniz kimin, sahibi kim? Sadettin Tezcan kimdir? - www.gazeteilksayfa.com",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOR2VEbG5QelBwUlhXWTFNZEFMcWFRWml6VEd5c2FmZm1PZTdmZGowSFhMRGU0S1ZmRkhtSERWRW44eEdBaEpNb25kWXlEZUp1VkNreWs5UzNzZXdFWDhIcGlKeU9GbHJGQVJzeEFUUGpuY3VicDg1SUx0MjVxR2t2NlB4MEVwSE5WMHZmVlRYRmVIem5acUZXWlc2S3RQWG8?oc=5",
-   "ek": "on eleme: 2024-01-02"
-  },
-  {
-   "sebep": "pencere_disi",
    "baslik": "Tezcan Galvaniz, Afrika pazarını gözüne kestirdi - Dünya Gazetesi",
    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNjBKbVJ3RW53Rmc5UWwzYnp2aHhDQ0Z6TjdYb0NsUVU4SktKd0ZyYVkxTVV1cDlXcmpYWlZjelNOaUFMYzN0Rm1wQm42amxIWVVPdVdJNk9iSnZPNWJVYklaWGhVR3ZLcFNEYmhDYmtEQkNxZlowSDZNX1lVY0dkcE15SENUVEVUNnVFb0tDaHZoeWhzRlZ4cg?oc=5",
    "ek": "on eleme: 2017-04-17"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Tezcan Galvaniz kimin, sahibi kim? Sadettin Tezcan kimdir? - www.gazeteilksayfa.com",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOR2VEbG5QelBwUlhXWTFNZEFMcWFRWml6VEd5c2FmZm1PZTdmZGowSFhMRGU0S1ZmRkhtSERWRW44eEdBaEpNb25kWXlEZUp1VkNreWs5UzNzZXdFWDhIcGlKeU9GbHJGQVJzeEFUUGpuY3VicDg1SUx0MjVxR2t2NlB4MEVwSE5WMHZmVlRYRmVIem5acUZXWlc2S3RQWG8?oc=5",
+   "ek": "on eleme: 2024-01-02"
   },
   {
    "sebep": "pencere_disi",
@@ -3055,30 +3085,6 @@
    "baslik": "Grev kırıcılığının faturası yine işçiye kesildi: Tezcan Galvaniz’de sevkiyat personeli iş kazası geçirdi - Evrensel.net",
    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOMXFnNTdFWnBNWXJ4T090bV9senpZSDhjamRHTGV2NGdaRTFwa3VyTThZdTFiMFlGZ2g3WWd6cndqYVBkckdYWW5KT09qekthZWlVNldFZXNVYVlFcHRKWWJvV2EyVndhR3k3U3NLcUVVRF96Wk5DWEpFd1FBNlF0UUlKYUVnQjlFc3ljQ1FOX2l0aUhfOG00bThZSUpCQnNCMGZSSTZoR3hyZ0ctVEhhRU41SXNHTUV4NnRuWks4aG95Y2FOSmY2VEdISS0xM081Q1lZLUFHWQ?oc=5",
    "ek": "on eleme: 2025-03-18"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Tezcan Galvaniz'de skandallar bitmiyor: Patron bu kez de bir işçiye saldırdı! - soL Haber",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOT2hEam40UExYVTJhVUZqYUpJSUpDWjg5Yy1VcEVENDE4eUVWcGtRWHJUU1JWVjJ0MDNrOGs3YXJWYjhKNXhQRXpfNG01S3dYWFA2cXRNTWxuamY3WG5rQmlKTEk5MmhaN0t6NlB6VFg3eUcxeFBuV3ZFZnNUUC1INk0xT1hiQlcwZmtMYUFFZ3lZVHMwS0g5Y0pBZ0o0d0hzZk1iSU5iakdqeWptaTZsaHN3?oc=5",
-   "ek": "on eleme: 2024-01-02"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Tezcan Galvaniz’de patron yüzde 8 dayattı, işçiler greve çıktı - Evrensel",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRHJjRkRsM3o3OTM2ZFZzeldwYVE0akpONEFjWWxQZHNpckR4aXEwY1cyTU1DX2R3RExPZ2dMZVhkS29Qd0xpSzM3U2dSMHdDT3Q4VDF4TEFUa1UwdGh5cUQyZGIzMm13eVdTcVZ3cGRuaUhUbFJDbjdxMi1DX09MdnotMmNIaElDd0JIYWNRS3BkMDZYdWNCY0E3THIwWGc?oc=5",
-   "ek": "on eleme: 2025-03-11"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Kocaeli'de Tezcan Galvaniz Fabrikasında iş cinayeti - soL Haber",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaTJVdnpQdTA3S0ota3plbTJoQldIWnJqY2NWc2wwRWJrSUthdENtZENCbDZlQWNadndxUXFTTWNwbU9zOFpYUFpqdTRDVEYzdDBZbWVvcTdCU2FnNG9nTnVlams2cGM2U2VJU01PaWdSUHk3SV9xdlVKTEo2RzR3UTBsS3BCMW00RXRMVFl6ajdORXVGVzMw?oc=5",
-   "ek": "on eleme: 2018-05-12"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Tezcan Galvaniz işçileri baskı ve mobbinge uğruyor - Evrensel.net",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVU91QWRPZ2NITm1SRnNxVWg1bFphSU91bkhrajhGQlQ4emJDaExNcjFJRE5BM083TXR6ZkN3R0Nhc2E0OW1uYjFWbTJKS2hSd1Q1Z1hpRFd0SU54V2I2WGxNbFgxR2RXaEg3aXljaGlWSm12Q24wSG1CbUwzRDFQZGtJVVI1ak5YZzNtRUpMUjJIZw?oc=5",
-   "ek": "on eleme: 2025-10-02"
   },
   {
    "sebep": "tarihsiz_elendi",
@@ -3118,14 +3124,8 @@
   },
   {
    "sebep": "tekrar",
-   "baslik": "Nippon Steel Raises US Mill Upgrade to $3 Billion as Costs Climb",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-23/nippon-steel-raises-us-mill-upgrade-to-3-billion-as-costs-climb",
-   "ek": ""
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "Nippon Steel Raises US Mill Upgrade to $3 Billion as Costs Climb",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-23/nippon-steel-raises-us-mill-upgrade-to-3-billion-as-costs-climb",
+   "baslik": "ANDRITZ : continuous galvanizing line at BlueScope Steel produces first galvanized coil",
+   "url": "https://www.marketscreener.com/news/andritz-continuous-galvanizing-line-at-bluescope-steel-produces-first-galvanized-coil-ce785ddddd8ff020",
    "ek": ""
   },
   {
@@ -3160,9 +3160,9 @@
   },
   {
    "sebep": "tekrar",
-   "baslik": "Nippon Steel Raises US Mill Upgrade to $3 Billion as Costs Climb",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-23/nippon-steel-raises-us-mill-upgrade-to-3-billion-as-costs-climb",
-   "ek": ""
+   "baslik": "Nippon Steel to spend $3B to upgrade US Steel Pennsylvania mill",
+   "url": "https://seekingalpha.com/news/4656367-nippon-steel-to-spend-3b-to-upgrade-us-steel-pennsylvania-mill",
+   "ek": "benzer baslik (bu kosuda)"
   },
   {
    "sebep": "tekrar",
@@ -3172,9 +3172,9 @@
   },
   {
    "sebep": "tekrar",
-   "baslik": "Nippon Steel Raises US Mill Upgrade to $3 Billion as Costs Climb",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-23/nippon-steel-raises-us-mill-upgrade-to-3-billion-as-costs-climb",
-   "ek": ""
+   "baslik": "Nippon Steel to spend $3B to upgrade US Steel Pennsylvania mill",
+   "url": "https://seekingalpha.com/news/4656367-nippon-steel-to-spend-3b-to-upgrade-us-steel-pennsylvania-mill",
+   "ek": "benzer baslik (bu kosuda)"
   },
   {
    "sebep": "tekrar",
@@ -3192,6 +3192,18 @@
    "sebep": "tekrar",
    "baslik": "Jindal India commissions revamped galvanising line at Bengal plant",
    "url": "https://www.constructionweekonline.in/business/jindal-india-commissions-revamped-galvanising-line-at-bengal-plant",
+   "ek": "ayni olayin varyanti: *|ulke-hat|Hindistan|Galvaniz hatti (CGL)|Ilk urun; jindal india|fu|Hindistan|Galvaniz hatti (CGL); jindal india|hat|Galvaniz hatti (CGL)|Ilk urun; jindal india|ulke|Hindistan|Ilk urun"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "BC Jindal Group’s Jindal (India) Limited Achieves 1.6 MTPA Downstream Steel Capacity with Successful CGL-5 Revamp",
+   "url": "https://newspatrolling.com/bc-jindal-groups-jindal-india-limited-achieves-1-6-mtpa-downstream-steel-capacity-with-successful-cgl-5-revamp/",
+   "ek": ""
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "Jindal India commissions galvanizing line in West Bengal",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/jindal-india-limited-commissions-continuous-galvanizing-line-at-its-west-bengal-steel-mill-1486940.htm",
    "ek": "ayni olayin varyanti: *|ulke-hat|Hindistan|Galvaniz hatti (CGL)|Ilk urun; jindal india|fu|Hindistan|Galvaniz hatti (CGL); jindal india|hat|Galvaniz hatti (CGL)|Ilk urun; jindal india|ulke|Hindistan|Ilk urun"
   },
   {
@@ -3250,6 +3262,12 @@
   },
   {
    "sebep": "tekrar",
+   "baslik": "BC Jindal Group’s Jindal (India) Limited Achieves 1.6 MTPA Downstream Steel Capacity with Successful CGL-5 Revamp",
+   "url": "https://newspatrolling.com/bc-jindal-groups-jindal-india-limited-achieves-1-6-mtpa-downstream-steel-capacity-with-successful-cgl-5-revamp/",
+   "ek": ""
+  },
+  {
+   "sebep": "tekrar",
    "baslik": "Jindal India commissions revamped galvanising line at Bengal plant",
    "url": "https://www.constructionweekonline.in/business/jindal-india-commissions-revamped-galvanising-line-at-bengal-plant",
    "ek": "ayni olayin varyanti: *|ulke-hat|Hindistan|Galvaniz hatti (CGL)|Ilk urun; jindal india|fu|Hindistan|Galvaniz hatti (CGL); jindal india|hat|Galvaniz hatti (CGL)|Ilk urun; jindal india|ulke|Hindistan|Ilk urun"
@@ -3268,27 +3286,15 @@
   },
   {
    "sebep": "tekrar",
-   "baslik": "Nippon Steel Raises US Mill Upgrade to $3 Billion as Costs Climb",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-23/nippon-steel-raises-us-mill-upgrade-to-3-billion-as-costs-climb",
-   "ek": ""
-  },
-  {
-   "sebep": "tekrar",
    "baslik": "ANDRITZ : continuous galvanizing line at BlueScope Steel produces first galvanized coil",
    "url": "https://www.marketscreener.com/news/andritz-continuous-galvanizing-line-at-bluescope-steel-produces-first-galvanized-coil-ce785ddddd8ff020",
    "ek": ""
   },
   {
    "sebep": "tekrar",
-   "baslik": "Nippon Steel Raises US Mill Upgrade to $3 Billion as Costs Climb",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-23/nippon-steel-raises-us-mill-upgrade-to-3-billion-as-costs-climb",
-   "ek": ""
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "Nippon Steel Raises US Mill Upgrade to $3 Billion as Costs Climb",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-23/nippon-steel-raises-us-mill-upgrade-to-3-billion-as-costs-climb",
-   "ek": ""
+   "baslik": "BlueScope produces first galvanized coil on new ANDRITZ line in Australia",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/bluescope-produces-first-galvanized-coil-on-new-andritz-line-in-australia-1483504.htm",
+   "ek": "ayni olayin varyanti: *|ulke-hat|Avustralya|Galvaniz hatti (CGL)|Ilk urun; andritz|fu|Avustralya|Galvaniz hatti (CGL); andritz|hat|Galvaniz hatti (CGL)|Ilk urun; andritz|ulke|Avustralya|Ilk urun; bluescope|fu|Avustralya|Galvaniz hatti (CGL); bluescope|hat|Galvaniz hatti (CGL)|Ilk urun; bluescope|ulke|Avustralya|Ilk urun"
   },
   {
    "sebep": "tekrar",
@@ -3298,27 +3304,9 @@
   },
   {
    "sebep": "tekrar",
-   "baslik": "Nippon Steel Raises US Mill Upgrade to $3 Billion as Costs Climb",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-23/nippon-steel-raises-us-mill-upgrade-to-3-billion-as-costs-climb",
-   "ek": ""
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "Nippon Steel Raises US Mill Upgrade to $3 Billion as Costs Climb",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-23/nippon-steel-raises-us-mill-upgrade-to-3-billion-as-costs-climb",
-   "ek": ""
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "Nippon Steel Raises US Mill Upgrade to $3 Billion as Costs Climb",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-23/nippon-steel-raises-us-mill-upgrade-to-3-billion-as-costs-climb",
-   "ek": ""
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "Nippon Steel Raises US Mill Upgrade to $3 Billion as Costs Climb",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-23/nippon-steel-raises-us-mill-upgrade-to-3-billion-as-costs-climb",
-   "ek": ""
+   "baslik": "Nippon Steel to spend $3B to upgrade US Steel Pennsylvania mill",
+   "url": "https://seekingalpha.com/news/4656367-nippon-steel-to-spend-3b-to-upgrade-us-steel-pennsylvania-mill",
+   "ek": "benzer baslik (bu kosuda)"
   },
   {
    "sebep": "tekrar",
@@ -3342,18 +3330,6 @@
    "sebep": "tekrar",
    "baslik": "ArcelorMittal commits €300 million to Dunkirk steel project, targets spring 2027 tests for new line in Mardyck",
    "url": "https://www.steelorbis.com/steel-news/latest-news/arcelormittal-advances-dunkirk-eaf-and-mardyck-electrical-steel-projects-1483903.htm",
-   "ek": ""
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "Nippon Steel Raises US Mill Upgrade to $3 Billion as Costs Climb",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-23/nippon-steel-raises-us-mill-upgrade-to-3-billion-as-costs-climb",
-   "ek": ""
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "Nippon Steel Raises US Mill Upgrade to $3 Billion as Costs Climb",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-23/nippon-steel-raises-us-mill-upgrade-to-3-billion-as-costs-climb",
    "ek": ""
   }
  ]

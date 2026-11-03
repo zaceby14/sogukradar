@@ -48,20 +48,6 @@
    }
   },
   {
-   "anahtar": "6bb3535ceff2b463",
-   "baslik": "Flux Steel Works to build GOES production facility in Ohio",
-   "url": "https://www.steelradar.com/en/haber/flux-steel-works-to-build-goes-production-facility-in-ohio/",
-   "eksik": [
-    "asama"
-   ],
-   "mevcut": {
-    "firma": "Flux Steel Works",
-    "ulke": "ABD",
-    "hat": "Elektrik celigi hatti",
-    "asama": "Belirsiz"
-   }
-  },
-  {
    "anahtar": "a9d0c1485ce1a321",
    "baslik": "Tata Steel Colors launches Colorcoat pre-painted steel in India",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQNnFIZU9NZWN0ejJBbWllanlhYXpYaGI0TExkQl9waTVXbFNEMGNUOWk1dnhFa1d0LUtCTlRxd1U4M3VkNVBHMVpuRGg3UzJXWEczeGlNUFd2OE5ES0lNUXdHQk51d2sxdmxkeWlWSkJNZkZGOUN4R2NaaHFPYVU?oc=5",
@@ -87,6 +73,20 @@
     "ulke": "",
     "hat": "Soguk hadde",
     "asama": "Sozlesme"
+   }
+  },
+  {
+   "anahtar": "55862486462fe6dc",
+   "baslik": "EU electrical steel curbs raise stakes for Europe’s grid and cleantech startups",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUFZZcm8tZ2hVcjd5M250M3hxWDlFMXhVWTVMWnJfU09aOGU3dV9TSXludHdBRzZJUjR6Z1h2VjB5el8tajl4RGtLWGJLd01zRjFhLTJwWTRrT3AwbGt3VmM4NlZmclJmR2dnZTJOWnluM0RkSDVqS3JXM0FJcHM0M2xEbno0QWZpZUpjanZoRUVhMGt5aFhuRXluSW9xbGM?oc=5",
+   "eksik": [
+    "ulke"
+   ],
+   "mevcut": {
+    "firma": "EU electrical steel curbs",
+    "ulke": "",
+    "hat": "Elektrik celigi hatti",
+    "asama": "Ilk urun"
    }
   }
  ],
@@ -130,6 +130,16 @@
    "asama": "Sozlesme",
    "baslik": "IMS expands its portfolio with force transducers for precise force measurement under demanding conditions in hot and cold rolling mills",
    "url": "https://www.ims-gmbh.de/en/2026/10/06/ims-expands-its-portfolio-with-force-transducers-forprecise-force-measurement-under-demandingconditions-in-hot-and-cold-rolling-mills/"
+  },
+  {
+   "anahtar": "55862486462fe6dc",
+   "tarih": "2026-09-29",
+   "firma": "EU electrical steel curbs",
+   "ulke": "",
+   "hat": "Elektrik celigi hatti",
+   "asama": "Ilk urun",
+   "baslik": "EU electrical steel curbs raise stakes for Europe’s grid and cleantech startups",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUFZZcm8tZ2hVcjd5M250M3hxWDlFMXhVWTVMWnJfU09aOGU3dV9TSXludHdBRzZJUjR6Z1h2VjB5el8tajl4RGtLWGJLd01zRjFhLTJwWTRrT3AwbGt3VmM4NlZmclJmR2dnZTJOWnluM0RkSDVqS3JXM0FJcHM0M2xEbno0QWZpZUpjanZoRUVhMGt5aFhuRXluSW9xbGM?oc=5"
   }
  ],
  "teknoloji_adaylari": []

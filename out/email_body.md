@@ -11,14 +11,14 @@
 3. **-** (-, 2026-09-21) &mdash; Elektrik celigi hatti / Modernizasyon  
    唐山市晟鑫冷轧薄板生产线升级改造项目生态环境影响报告书获批  
    https://news.mysteel.com/a/26092109/0A0B14F6D5801083.html
-4. **Flux Steel Works** (ABD, 2026-09-18) &mdash; Elektrik celigi hatti / Belirsiz  
-   Flux Steel Works to build GOES production facility in Ohio  
-   https://www.steelradar.com/en/haber/flux-steel-works-to-build-goes-production-facility-in-ohio/
-5. **Tata Steel Colors** (Hindistan, 2026-10-12) &mdash; Boyama hatti (CCL) / Belirsiz  
+4. **Tata Steel Colors** (Hindistan, 2026-10-12) &mdash; Boyama hatti (CCL) / Belirsiz  
    Tata Steel Colors launches Colorcoat pre-painted steel in India  
    https://news.google.com/rss/articles/CBMif0FVX3lxTFBQNnFIZU9NZWN0ejJBbWllanlhYXpYaGI0TExkQl9waTVXbFNEMGNUOWk1dnhFa1d0LUtCTlRxd1U4M3VkNVBHMVpuRGg3UzJXWEczeGlNUFd2OE5ES0lNUXdHQk51d2sxdmxkeWlWSkJNZkZGOUN4R2NaaHFPYVU?oc=5
-6. **IMS** (-, 2026-10-06) &mdash; Soguk hadde / Sozlesme  
+5. **IMS** (-, 2026-10-06) &mdash; Soguk hadde / Sozlesme  
    IMS expands its portfolio with force transducers for precise force measurement under demanding conditions in hot and cold rolling mills  
    https://www.ims-gmbh.de/en/2026/10/06/ims-expands-its-portfolio-with-force-transducers-forprecise-force-measurement-under-demandingconditions-in-hot-and-cold-rolling-mills/
+6. **EU electrical steel curbs** (-, 2026-09-29) &mdash; Elektrik celigi hatti / Ilk urun  
+   EU electrical steel curbs raise stakes for Europe’s grid and cleantech startups  
+   https://news.google.com/rss/articles/CBMinwFBVV95cUxNUFZZcm8tZ2hVcjd5M250M3hxWDlFMXhVWTVMWnJfU09aOGU3dV9TSXludHdBRzZJUjR6Z1h2VjB5el8tajl4RGtLWGJLd01zRjFhLTJwWTRrT3AwbGt3VmM4NlZmclJmR2dnZTJOWnluM0RkSDVqS3JXM0FJcHM0M2xEbno0QWZpZUpjanZoRUVhMGt5aFhuRXluSW9xbGM?oc=5
 
-> Erisilemeyen kaynaklar: SMS group, Ebner Industrieofenbau, Cognex, ArcelorMittal, thyssenkrupp Steel, POSCO, Steel Radar, BigMint (SteelMint), MetalMiner, Furnaces International, MetalForming Magazine
+> Erisilemeyen kaynaklar: SMS group, Cognex, ArcelorMittal, POSCO, Steel Radar, SteelGuru, BigMint (SteelMint), MetalMiner, Furnaces International, MetalForming Magazine

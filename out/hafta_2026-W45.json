@@ -78,57 +78,31 @@
    "url": "https://news.mysteel.com/a/26092109/0A0B14F6D5801083.html"
   },
   {
-   "anahtar": "6bb3535ceff2b463",
+   "anahtar": "a9d0c1485ce1a321",
    "asama": "Belirsiz",
-   "baslik": "Flux Steel Works to build GOES production facility in Ohio",
+   "baslik": "Tata Steel Colors launches Colorcoat pre-painted steel in India",
    "eksik": [
     "asama"
    ],
-   "firma": "Flux Steel Works",
-   "hat": "Elektrik celigi hatti",
-   "kapasite": "",
-   "kategori": "Yatirim",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgx_sti_q",
-   "olaylar": [
-    "flux steel works|fu|ABD|Elektrik celigi hatti",
-    "flux steel works|hat|Elektrik celigi hatti|Belirsiz",
-    "flux steel works|ulke|ABD|Belirsiz"
-   ],
-   "puan": 5.6,
-   "tarih": "2026-09-18",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "ABD",
-   "url": "https://www.steelradar.com/en/haber/flux-steel-works-to-build-goes-production-facility-in-ohio/"
-  },
-  {
-   "tarih": "2026-10-12",
    "firma": "Tata Steel Colors",
-   "ulke": "Hindistan",
    "hat": "Boyama hatti (CCL)",
-   "asama": "Belirsiz",
-   "tedarikci": "",
    "kapasite": "",
-   "tutar": "",
-   "baslik": "Tata Steel Colors launches Colorcoat pre-painted steel in India",
+   "kategori": "Hat",
    "kaynak": "Manufacturing Today India",
    "kaynak_id": "gq_hat06",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQNnFIZU9NZWN0ejJBbWllanlhYXpYaGI0TExkQl9waTVXbFNEMGNUOWk1dnhFa1d0LUtCTlRxd1U4M3VkNVBHMVpuRGg3UzJXWEczeGlNUFd2OE5ES0lNUXdHQk51d2sxdmxkeWlWSkJNZkZGOUN4R2NaaHFPYVU?oc=5",
-   "tarih_kaynagi": "rss",
    "lead": "Tata Steel Colors launches Colorcoat pre-painted steel in India &nbsp;&nbsp; Manufacturing Today India",
-   "eksik": [
-    "asama"
-   ],
-   "anahtar": "a9d0c1485ce1a321",
-   "kategori": "Hat",
    "olaylar": [
     "tata steel colors|fu|Hindistan|Boyama hatti (CCL)",
     "tata steel colors|hat|Boyama hatti (CCL)|Belirsiz",
     "tata steel colors|ulke|Hindistan|Belirsiz"
    ],
-   "rezerv": true
+   "rezerv": true,
+   "tarih": "2026-10-12",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Hindistan",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQNnFIZU9NZWN0ejJBbWllanlhYXpYaGI0TExkQl9waTVXbFNEMGNUOWk1dnhFa1d0LUtCTlRxd1U4M3VkNVBHMVpuRGg3UzJXWEczeGlNUFd2OE5ES0lNUXdHQk51d2sxdmxkeWlWSkJNZkZGOUN4R2NaaHFPYVU?oc=5"
   },
   {
    "anahtar": "aac00b6a794a93b5",
@@ -154,18 +128,43 @@
    "tutar": "",
    "ulke": "",
    "url": "https://www.ims-gmbh.de/en/2026/10/06/ims-expands-its-portfolio-with-force-transducers-forprecise-force-measurement-under-demandingconditions-in-hot-and-cold-rolling-mills/"
+  },
+  {
+   "anahtar": "55862486462fe6dc",
+   "asama": "Ilk urun",
+   "baslik": "EU electrical steel curbs raise stakes for Europe’s grid and cleantech startups",
+   "eksik": [
+    "ulke"
+   ],
+   "firma": "EU electrical steel curbs",
+   "hat": "Elektrik celigi hatti",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "150sec",
+   "kaynak_id": "gtek_es",
+   "lead": "EU electrical steel curbs raise stakes for Europe’s grid and cleantech startups &nbsp;&nbsp; 150sec",
+   "olaylar": [
+    "eu electrical steel curbs|hat|Elektrik celigi hatti|Ilk urun"
+   ],
+   "rezerv": true,
+   "tarih": "2026-09-29",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUFZZcm8tZ2hVcjd5M250M3hxWDlFMXhVWTVMWnJfU09aOGU3dV9TSXludHdBRzZJUjR6Z1h2VjB5el8tajl4RGtLWGJLd01zRjFhLTJwWTRrT3AwbGt3VmM4NlZmclJmR2dnZTJOWnluM0RkSDVqS3JXM0FJcHM0M2xEbno0QWZpZUpjanZoRUVhMGt5aFhuRXluSW9xbGM?oc=5"
   }
  ],
  "stats": {
   "kaynak": 305,
-  "erisilemeyen": 11,
-  "ham": 3833,
-  "on_eleme_gecti": 384,
-  "makale_acildi": 203,
-  "tarihsiz_elendi": 103,
-  "pencere_disi": 267,
-  "kapsam_disi": 3404,
-  "tekrar": 56,
+  "erisilemeyen": 10,
+  "ham": 3928,
+  "on_eleme_gecti": 371,
+  "makale_acildi": 206,
+  "tarihsiz_elendi": 104,
+  "pencere_disi": 252,
+  "kapsam_disi": 3518,
+  "tekrar": 51,
   "kabul": 3,
   "gnews_tarih": 0
  },
@@ -173,10 +172,6 @@
   [
    "SMS group",
    "HTTP 403"
-  ],
-  [
-   "Ebner Industrieofenbau",
-   "TimeoutError: The read operation timed out"
   ],
   [
    "Cognex",
@@ -187,16 +182,16 @@
    "HTTP 403"
   ],
   [
-   "thyssenkrupp Steel",
-   "TimeoutError: The read operation timed out"
-  ],
-  [
    "POSCO",
    "HTTP 502"
   ],
   [
    "Steel Radar",
    "HTTP 403"
+  ],
+  [
+   "SteelGuru",
+   "URLError: <urlopen error timed out>"
   ],
   [
    "BigMint (SteelMint)",
@@ -542,12 +537,12 @@
   "new.abb.com": {
    "istek": 3,
    "hiz_siniri": 2,
-   "sogutmada": true
+   "sogutmada": false
   },
   "www.cognex.com": {
    "istek": 2,
    "hiz_siniri": 2,
-   "sogutmada": true
+   "sogutmada": false
   },
   "newsroom.posco.com": {
    "istek": 1,
@@ -563,11 +558,11 @@
   "2026-10-13",
   "2026-11-03"
  ],
- "bulunan_kullanilan": 4,
+ "bulunan_kullanilan": 3,
  "bulunan_havuz": 6,
- "rezerv_kullanilan": 2,
- "rezerv_havuz": 32,
+ "rezerv_kullanilan": 3,
+ "rezerv_havuz": 31,
  "period": "2026-W45",
- "generated": "2026-11-03 05:07 UTC",
+ "generated": "2026-11-03 05:38 UTC",
  "version": "3.0.0"
 }
