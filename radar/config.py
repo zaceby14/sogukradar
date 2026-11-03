@@ -18,7 +18,8 @@ CACHE = os.path.join(ROOT, ".cache")
 WINDOW_DAYS = int(os.environ.get("RADAR_WINDOW_DAYS", "21"))
 # Teknoloji kosesi icin ayri, genis pencere: bir teknoloji haberi 6 aya kadar
 # "yeni" sayilir. Tekrar engeli state.tech_seen ile saglanir.
-TECH_WINDOW_DAYS = int(os.environ.get("RADAR_TECH_WINDOW_DAYS", "180"))
+# 1 YIL (2026-11-03, kullanici: "1 yillik baksin gerekirse")
+TECH_WINDOW_DAYS = int(os.environ.get("RADAR_TECH_WINDOW_DAYS", "365"))
 TARGET_ROWS = int(os.environ.get("RADAR_TARGET_ROWS", "20"))
 MIN_ROWS = int(os.environ.get("RADAR_MIN_ROWS", "5"))
 

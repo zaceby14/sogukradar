@@ -855,6 +855,17 @@ def _soguk_kanit(metin):
     return bool(_SOGUK_TARAF.search(_SICAK_IFADE.sub(" ", taxonomy.fold(metin or ""))))
 
 
+def _kose_son_karar(t, baslik, metin):
+    """AŞIRI ELEYICI OLMASIN (2026-11-03): yenilik kelimesi ZORUNLU degil.
+    Tanitim/tedarik basligi elenir; kalanlar adaydir ve 'yenilik isareti'
+    siralamada one alir. 'Yenilik mi' son kararini LLM verir; LLM yoksa
+    yazar yalniz yenilik isaretli adayi koyar."""
+    if taxonomy.TANITIM.search(taxonomy.fold(baslik)):
+        return False
+    t["yenilik"] = bool(taxonomy.yenilik_mi(baslik, metin))
+    return True
+
+
 def _kose_dogrula(t, fetch=None):
     """Kose adayi GERCEKTEN soguk taraf mi? Baslik yetmiyorsa sayfa okunur.
 
@@ -868,7 +879,7 @@ def _kose_dogrula(t, fetch=None):
     if not taxonomy.tech_kapsam(b):
         return False
     if _soguk_kanit(b):
-        return taxonomy.yenilik_mi(b, t.get("lead", ""))
+        return _kose_son_karar(t, b, t.get("lead", ""))
     url = t.get("url") or ""
     if not url or _aggregator_adresi(url) or os.environ.get("RADAR_BAGLANTI", "1") == "0":
         return False
@@ -880,7 +891,7 @@ def _kose_dogrula(t, fetch=None):
     if not _soguk_kanit(metin):
         return False
     t["lead"] = metin[:420]
-    return taxonomy.yenilik_mi(b, metin)
+    return _kose_son_karar(t, b, metin)
 
 
 def _kose_adaylari(payload, st):
@@ -903,7 +914,7 @@ def _kose_adaylari(payload, st):
             continue
         anahtarlar.add(k)
         havuz.append(t)
-    havuz.sort(key=lambda t: t.get("tarih", ""), reverse=True)
+    havuz.sort(key=lambda t: (bool(t.get("yenilik")), t.get("tarih", "")), reverse=True)
     # Liste satirini (urun duyurusu) koseye TASIMA kurali kaldirildi (2026-11-03):
     # "IMS urun yelpazesini genisletti" yenilik degildi.
     return havuz

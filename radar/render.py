@@ -349,7 +349,7 @@ def email_html(payload, ozet=None, tech_items=None, sayi=1):
                         _e(t.get("metin", "")), _e(t.get("url", "")),
                         _oy(dict(t, baslik=t.get("konu") or t.get("baslik", "")))))
         h.append('</table><div style="font-size:11px;color:#8b93a0;margin-top:8px;">'
-                 'Bu bölümde bir teknoloji yalnızca bir kez tanıtılır; son 6 aydan '
+                 'Bu bölümde bir teknoloji yalnızca bir kez tanıtılır; son 1 yıldan '
                  'eski duyurular köşeye alınmaz.</div>')
     else:
         h.append('<div style="background:#f6f8fa;border-left:4px solid #b9c2cd;'

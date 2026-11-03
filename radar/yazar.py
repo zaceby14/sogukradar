@@ -234,8 +234,9 @@ def ozet_hazirla(payload, log=print):
         ozet["cumleler"][r["anahtar"]] = compose.row_sentence(r)
         rapor["cumle_kuralsal"] += 1
 
-    tech_ad = (payload.get("tech_pool") or [])[:6]
-    tech = tech_ad[:1]
+    tech_ad = (payload.get("tech_pool") or [])[:8]
+    # LLM yoksa (ya da cevap vermezse) kose YALNIZ yenilik isaretli adayla dolar.
+    tech = [t for t in tech_ad if t.get("yenilik", True)][:1]
     for t in tech:
         ozet["teknolojiler"].append({
             "anahtar": t.get("anahtar", ""), "tarih": t.get("tarih", ""),

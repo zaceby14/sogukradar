@@ -1980,8 +1980,11 @@ def test_kose_adayi_soguk_taraf_kaniti():
            False, "sayfa acilamadi ve baslik belirsiz: red")
         eq(C._kose_dogrula({"baslik": "Novel surface inspection technology developed for cold strip", "url": ""}),
            True, "baslik zaten soguk taraf: sayfa gerekmez")
-        eq(C._kose_dogrula({"baslik": "Strip inspection system uses machine vision to increase line speed", "url": ""}),
-           False, "yenilik isareti yok: koseye girmez")
+        _t = {"baslik": "Strip inspection system uses machine vision to increase line speed", "url": ""}
+        eq((C._kose_dogrula(_t), _t.get("yenilik")), (True, False),
+           "yenilik isareti yoksa ADAY olur ama isaretsiz (karar LLM'de; asiri eleme yok)")
+        eq(C._kose_dogrula({"baslik": "Primetals to supply new strip inspection technology", "url": ""}),
+           False, "tedarik/tanitim basligi aday bile olmaz")
         tt = dict(t)
         C._kose_dogrula(tt, fetch=sayfa("Inspects cold rolled strip on a galvanizing line."))
         eq("galvanizing" in tt.get("lead", ""), True, "sayfa metni LLM icin lead olarak saklanir")
