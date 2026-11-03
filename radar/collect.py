@@ -520,7 +520,8 @@ def collect(today=None, log=print):
         # daraltilinca kose havuzu kurumustu (aday 0). Kose biraz daha genis
         # olabilir: oradaki madde editor tarafindan elle okunup tanitiliyor.
         if not (taxonomy.match_stage(it["title"]) == "Teknoloji"
-                or taxonomy.TECH_ADAY.search(taxonomy.fold(it["title"]))):
+                or taxonomy.TECH_ADAY.search(taxonomy.fold(it["title"]))
+                or taxonomy.yenilik_mi(it["title"])):
             return
         # KOSENIN KENDI KAPSAM KAPISI (2026-08-31). in_scope hat ISMI ariyor
         # ("annealing line"); kosenin konusu hattin kendisi degil PROSES
@@ -672,6 +673,19 @@ def collect(today=None, log=print):
                                             "url": it["url"], "kaynak": pub,
                                             "lead": re.sub(r"<[^>]+>|\s+", " ",
                                                            it.get("summary") or "").strip()[:300]})
+            # TEKNOLOJI ADAYI ON ELEMEDEN ONCE (2026-11-03). On eleme hat adi
+            # gecmeyen ve 90 gunden eski basliklari atiyordu; kose 1 yila
+            # acilmisti ama aday hic ulasmiyordu (kose ust uste bos). Tarihi
+            # beslemeden gelen basliklar burada kose kapisina sorulur.
+            if it.get("from_feed") or s["kind"] == "arama":
+                td = dates.parse_date_text(it.get("date_raw", ""), df, today)
+                if td and td <= today.isoformat():
+                    tt, tpub = title, s["publisher"]
+                    if s["kind"] == "arama" and " - " in tt:
+                        t2, _, p2 = tt.rpartition(" - ")
+                        if t2 and len(p2) < 45:
+                            tt, tpub = t2.strip(), p2.strip()
+                    maybe_tech(dict(it, title=tt), td, it.get("summary") or "", tpub)
             watchable = taxonomy.genel_yatirim(title)
             if taxonomy.HARD_REJECT.search(taxonomy.fold(title)) and not watchable:
                 drop("kapsam_disi", it, "sert red (baslik)")
