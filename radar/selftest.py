@@ -2066,6 +2066,19 @@ def test_piyasa_gundemi_ve_geri_bildirim():
             os.environ["RADAR_GERI_ADRES"] = eski_a
 
 
+def test_dogrulayici_ulke_kaynakta_olmali():
+    """2026-11-03: ulke adi kaynakta gecmeden kabul ediliyordu."""
+    from . import yazar
+    kay = "EU backs AD duties on CRC from five countries India, Japan, Turkey, Vietnam and Taiwan"
+    eq(yazar.cumle_dogrula("AB, Türkiye'nin de aralarında bulunduğu beş ülkeye vergi uygulayacak.", kay)[0],
+       True, "kaynakta Turkey var: Turkiye kabul")
+    eq(yazar.cumle_dogrula("AB, Türkiye'nin de aralarında bulunduğu beş ülkeye vergi uygulayacak.",
+                           "EU backs AD duties on CRC from five countries")[0],
+       False, "kaynakta Turkiye yok: red")
+    eq(yazar.cumle_dogrula("Çin'de soğuk haddelenmiş sac (CRC) fiyatları hafif yükseldi.", "China CRC prices edge up")[0],
+       True, "China -> Cin")
+
+
 def test_w40_editorsuz_cop_kumeleme():
     """2026-11-02: editorsuz cikan ilk bulten (2026-W40) 14 satirdi, yarisi cop.
 
@@ -3576,6 +3589,7 @@ def run():
                test_v20_indiana_hindistan_degil,
                test_w40_editorsuz_cop_kumeleme,
                test_yazar_dogrulayici_ve_llm_yedegi,
+               test_dogrulayici_ulke_kaynakta_olmali,
                test_piyasa_gundemi_ve_geri_bildirim,
                test_kose_adayi_soguk_taraf_kaniti,
                test_kose_havuzu_ve_urun_duyurusu,

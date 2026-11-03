@@ -59,6 +59,26 @@ for _v in compose.ULKE_GOSTER.values():
     for _p in _v.replace(".", " ").split():
         _TR_AD.add(taxonomy.fold(_p))
 
+_ULKE_ES = {taxonomy.fold(k): v for k, v in {
+    "Türkiye": ["turkiye", "turkey", "turkish", "turk"], "Türk": ["turkiye", "turkey", "turkish", "turk"],
+    "Çin": ["cin", "china", "chinese"], "Hindistan": ["hindistan", "india", "indian"],
+    "Japonya": ["japonya", "japan", "japanese"], "Kore": ["kore", "korea", "korean"],
+    "ABD": ["abd", "us", "u\\.s", "usa", "united states", "america", "american"],
+    "AB": ["ab", "eu", "european union", "europe"], "Avrupa": ["avrupa", "europe", "european", "eu"],
+    "Almanya": ["almanya", "germany", "german"], "İtalya": ["italya", "italy", "italian"],
+    "Fransa": ["fransa", "france", "french"], "İspanya": ["ispanya", "spain", "spanish"],
+    "Rusya": ["rusya", "russia", "russian"], "Ukrayna": ["ukrayna", "ukraine", "ukrainian"],
+    "Vietnam": ["vietnam", "vietnamese"], "Tayvan": ["tayvan", "taiwan"],
+    "Mısır": ["misir", "egypt", "egyptian"], "Brezilya": ["brezilya", "brazil"],
+    "Meksika": ["meksika", "mexico"], "Kanada": ["kanada", "canada", "canadian"],
+    "Pakistan": ["pakistan"], "Endonezya": ["endonezya", "indonesia"],
+    "Polonya": ["polonya", "poland", "polish"], "Romanya": ["romanya", "romania"],
+    "Slovakya": ["slovakya", "slovakia"], "İran": ["iran"], "Kazakistan": ["kazakistan", "kazakhstan"],
+    "Avustralya": ["avustralya", "australia"], "Suudi": ["suudi", "saudi"],
+    "Portekiz": ["portekiz", "portugal"], "Belçika": ["belcika", "belgium"],
+    "Hollanda": ["hollanda", "netherlands", "dutch"], "İngiltere": ["ingiltere", "uk", "britain", "england"],
+}.items()}
+
 _ING = {"the", "and", "for", "with", "has", "have", "will", "from", "this",
         "that", "its", "are", "was", "were", "into", "plans", "said"}
 _URETIM_IDDIASI = re.compile(
@@ -109,6 +129,14 @@ def cumle_dogrula(cumle, kaynak, asama=None):
         if i > 0 and kelimeler[i - 1].endswith((".", "!", "?")):
             continue
         f = taxonomy.fold(kok)
+        # ULKE ADI KAYNAKTA GECMELI (2026-11-03): Turkce ulke adi listesi
+        # (_TR_AD) ulkeyi kaynaga bakmadan kabul ediyordu; model kaynakta
+        # olmayan "Turkiye"yi ekleseydi yakalanmazdi. Ulke adi icin kaynakta
+        # Ingilizce ya da Turkce karsiligi aranir.
+        if f in _ULKE_ES:
+            if any(re.search(r"\b" + v + r"\b", kay_fold) for v in _ULKE_ES[f]):
+                continue
+            return False, "kaynakta olmayan ulke: %s" % kok
         if f in kay_fold or f in _TR_AD:
             continue
         # kaynaktaki bir sozcugun TURKCE EKLI hali ('POSCO'nun', 'Danieli'ye')
