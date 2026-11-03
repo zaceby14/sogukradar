@@ -124,6 +124,9 @@ jobs:
           print("gonder=%s" % str(bool(k["gonder"])).lower())
           print("donem=%s" % k["donem"])
           PY
+          # Konu satiri her postada FARKLI (2026-11-03): ayni konu Gmail'de eski
+          # bultenlerle tek konusmada toplaniyor, yeni posta gorunmuyordu.
+          echo "etiket=$(TZ=Europe/Istanbul date +'%d.%m.%Y %H:%M')" >> $GITHUB_OUTPUT
 
       - name: Karar ozeti
         if: always()
@@ -160,7 +163,7 @@ jobs:
           secure: true
           username: ${{ secrets.MAIL_USER }}
           password: ${{ secrets.MAIL_PASS }}
-          subject: "Soguk Haddehane ve Nihai Hatlarda Sektor & Teknoloji Takibi — Haftalik Bulten"
+          subject: "Soguk Haddehane ve Nihai Hatlarda Sektor & Teknoloji Takibi — ${{ steps.karar.outputs.donem }} (${{ steps.karar.outputs.etiket }})"
           to: ${{ secrets.MAIL_TO }}
           from: SogukRadar Bulten <${{ secrets.MAIL_USER }}>
           html_body: file://out/email.html
@@ -178,7 +181,7 @@ jobs:
           secure: true
           username: ${{ secrets.MAIL_USER }}
           password: ${{ secrets.MAIL_PASS }}
-          subject: "Soguk Haddehane ve Nihai Hatlarda Sektor & Teknoloji Takibi — Haftalik Bulten"
+          subject: "Soguk Haddehane ve Nihai Hatlarda Sektor & Teknoloji Takibi — ${{ steps.karar.outputs.donem }} (${{ steps.karar.outputs.etiket }})"
           to: ${{ secrets.MAIL_TO }}
           from: SogukRadar Bulten <${{ secrets.MAIL_USER }}>
           html_body: file://out/deneme_email.html
