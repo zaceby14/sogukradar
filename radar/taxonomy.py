@@ -825,8 +825,7 @@ def haber_olayi(title):
 # ile satir asamasi AYNI SEY DEGIL - kose biraz daha genis olmali, cunku
 # oradaki madde editor tarafindan elle okunup tanitiliyor.
 TECH_ADAY = re.compile(
-    r"expands? (its )?(product )?portfolio|new product (family|range)|"
-    r"uses machine vision|machine learning|artificial intelligence|\bai[- ]based|digital twin|"
+    r"machine learning|artificial intelligence|\bai[- ]based|digital twin|"
     r"new technology|technolog\w* (for|to|that)|patent|licen[cs]e|"
     r"joint(ly)? develop|next[- ]generation|\br&d\b|"
     r"research (project|partnership|collaboration)|world first|"
@@ -907,6 +906,31 @@ ASAGI_AKIS = re.compile(
 SONRAKI_ISLEME = re.compile(
     r"\bstamping\b|\bgalling\b|press[- ]hardening|press shop|deep[- ]draw|"
     r"hot stamping|forming limit|spot[- ]weld|rulo sekillendirme|sac sekillendirme")
+
+
+# YENILIK SARTI (2026-11-03, kullanici: "teknoloji tarafi hic teknoloji gibi
+# degil, zaten var olan bir sey"). Kose yalniz GERCEK yenilik tasir: ilk
+# uygulama, yeni proses/yontem/kalite, Ar-Ge, pilot, patent, hidrojen/YZ.
+# Urun yelpazesi/tanitim/tedarik/siparis haberi koseye GIREMEZ.
+YENILIK = re.compile(
+    r"world[- ]first|first[- ]of[- ]its[- ]kind|industry[- ]first|\bfirst (ever|time|in the world)|"
+    r"new (technology|process|method|grade|generation|coating|alloy)|new .{0,30}technolog|"
+    r"next[- ]generation|novel|"
+    r"breakthrough|patent|\br&d\b|research|develop(s|ed|ing|ment)|pilot|trial|prototype|"
+    r"demonstrat|hydrogen|artificial intelligence|machine learning|\bai\b|digital twin|"
+    r"innovati|yeni teknoloji|yeni nesil|ar-?ge|gelistir|pilot|dunyada ilk|ilk kez")
+TANITIM = re.compile(
+    r"expands? (its )?(product )?portfolio|product (family|range|portfolio|line[- ]?up)|"
+    r"\bsuppl(y|ies|ied)\b|\border(s|ed)?\b|contract|\bwins?\b|awarded|commission|"
+    r"\bto (supply|deliver|install)\b|exhibit|trade fair|webinar|brochure|catalog")
+
+
+def yenilik_mi(title, lead=""):
+    """Kose icin: yenilik isareti VAR ve tanitim/tedarik isareti YOK (basliga gore)."""
+    ft = fold(title)
+    if TANITIM.search(ft):
+        return False
+    return bool(YENILIK.search(ft) or YENILIK.search(fold(lead or "")[:600]))
 
 
 def tech_kapsam(title, lead=""):

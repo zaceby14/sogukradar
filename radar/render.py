@@ -196,8 +196,8 @@ STAGE_COLORS = {"Sozlesme": ("#e3edfb", "#14457e", "SÖZLEŞME"),
 
 
 # Teknoloji kosesi aday cikmayan haftalarda da render edilir; metin budur.
-TEKNOLOJI_BOS = ("Bu hafta köşede tanıtılacak yeni bir teknoloji çıkmadı; "
-                 "altı aylık aday havuzu tarandı.")
+TEKNOLOJI_BOS = ("Bu hafta gerçek bir yenilik (ilk uygulama, yeni proses, Ar-Ge, pilot "
+                 "tesis) bulunamadı. Ürün tanıtımı ve tedarik haberleri köşeye alınmaz.")
 
 # Elle eklenen satirlarin gorunur isareti (2026-08-17). Okuyucu hangi satirin
 # yazilimdan, hangisinin editorden geldigini ayirt edebilmeli.

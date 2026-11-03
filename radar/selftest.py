@@ -1945,7 +1945,7 @@ def test_kose_havuzu_ve_urun_duyurusu():
                           {"anahtar": "tech:b", "tarih": "2026-10-28",
                            "baslik": "R&D Update: Lubrication and galling in stamping of galvanized AHSS"}]}
     p = {"rows": [{"anahtar": "r%d" % i, "baslik": "x"} for i in range(4)], "tech_pool": []}
-    st["tech_rezerv"][0]["baslik"] = "Strip inspection system uses machine vision to increase line speed"
+    st["tech_rezerv"][0]["baslik"] = "World-first AI-based strip inspection technology trialled on cold mill"
     eq([t["anahtar"] for t in C._kose_adaylari(p, st)], ["tech:a"],
        "havuz okunur; gorulen ve kapsam disi dusulur")
     ims = {"anahtar": "ims", "baslik": "IMS expands its portfolio with force transducers for precise force measurement in rolling mills",
@@ -1953,7 +1953,11 @@ def test_kose_havuzu_ve_urun_duyurusu():
     p2 = {"rows": [ims] + [{"anahtar": "r%d" % i, "baslik": "Danieli wins pickling line order", "asama": "Sozlesme"} for i in range(3)],
           "tech_pool": []}
     k = C._kose_adaylari(p2, {"tech_seen": {}, "tech_rezerv": []})
-    eq((len(k), len(p2["rows"])), (1, 3), "aday yoksa urun duyurusu koseye tasinir")
+    eq((len(k), len(p2["rows"])), (0, 4), "urun duyurusu koseye TASINMAZ (2026-11-03: yenilik degil)")
+    eq(taxonomy.yenilik_mi(ims["baslik"]), False, "urun yelpazesi genisletme yenilik degil")
+    eq(taxonomy.yenilik_mi("Primetals to supply new pickling line technology to X"), False, "tedarik haberi yenilik degil")
+    eq(taxonomy.yenilik_mi("Hydrogen-based annealing pilot line starts trials for cold strip"), True, "hidrojenli pilot yenilik")
+    eq(taxonomy.yenilik_mi("New zinc-magnesium coating grade developed for automotive sheet"), True, "yeni kaplama kalitesi yenilik")
 
 
 def test_kose_adayi_soguk_taraf_kaniti():
@@ -1965,7 +1969,7 @@ def test_kose_adayi_soguk_taraf_kaniti():
     os.environ["RADAR_BAGLANTI"] = "1"
     try:
         sayfa = lambda metin: (lambda u, *a, **k: (True, "<html><body><p>%s</p></body></html>" % metin, {}))
-        t = {"baslik": "New surface inspection technology for steel producers", "url": "https://x.example/a"}
+        t = {"baslik": "Novel surface inspection technology developed for steel producers", "url": "https://x.example/a"}
         eq(C._kose_dogrula(dict(t), fetch=sayfa("The system inspects cold rolled strip at 1500 m/min on a galvanizing line.")),
            True, "sayfa soguk tarafi soyluyor: kabul")
         eq(C._kose_dogrula(dict(t), fetch=sayfa("The system inspects hot rolled plates and billets in the hot strip mill.")),
@@ -1974,8 +1978,10 @@ def test_kose_adayi_soguk_taraf_kaniti():
            False, "soguk taraf kaniti yok: red")
         eq(C._kose_dogrula(dict(t), fetch=lambda u, *a, **k: (False, "", {"hata": "HTTP 403"})),
            False, "sayfa acilamadi ve baslik belirsiz: red")
-        eq(C._kose_dogrula({"baslik": "New surface inspection system for cold strip", "url": ""}),
+        eq(C._kose_dogrula({"baslik": "Novel surface inspection technology developed for cold strip", "url": ""}),
            True, "baslik zaten soguk taraf: sayfa gerekmez")
+        eq(C._kose_dogrula({"baslik": "Strip inspection system uses machine vision to increase line speed", "url": ""}),
+           False, "yenilik isareti yok: koseye girmez")
         tt = dict(t)
         C._kose_dogrula(tt, fetch=sayfa("Inspects cold rolled strip on a galvanizing line."))
         eq("galvanizing" in tt.get("lead", ""), True, "sayfa metni LLM icin lead olarak saklanir")
@@ -2095,6 +2101,37 @@ def test_dogrulayici_ulke_kaynakta_olmali():
        False, "kaynakta Turkiye yok: red")
     eq(yazar.cumle_dogrula("Çin'de soğuk haddelenmiş sac (CRC) fiyatları hafif yükseldi.", "China CRC prices edge up")[0],
        True, "China -> Cin")
+
+
+def test_kose_llm_yenilik_karari():
+    """2026-11-03: LLM tanitim haberini koseye koymaz (teknoloji_id bos -> kose bos);
+    yalniz adaylardan birini secebilir."""
+    import os
+    from . import llm, yazar
+    tp = [{"anahtar": "tech:1", "baslik": "IMS expands its portfolio with force transducers", "tarih": "2026-10-06", "url": "u"},
+          {"anahtar": "tech:2", "baslik": "Hydrogen annealing pilot line developed for cold strip", "tarih": "2026-10-10", "url": "v"}]
+    pl = {"rows": [{"anahtar": "a", "baslik": "Danieli wins pickling line order", "kategori": "Hat", "asama": "Sozlesme",
+                    "firma": "X", "hat": "Asitleme hatti", "kaynak": "k", "url": "u", "tarih": "2026-10-01", "lead": ""}],
+          "stats": {}, "tech_pool": tp}
+    eski = (llm.json_iste, os.environ.get("ANTHROPIC_API_KEY"), os.environ.get("RADAR_LLM"))
+    try:
+        os.environ.pop("RADAR_LLM", None)
+        os.environ["ANTHROPIC_API_KEY"] = "x"
+        llm.json_iste = lambda s_, k, log=print: ({"cumleler": {}, "teknoloji_id": "", "teknoloji": ""}, "anthropic", [])
+        eq(yazar.ozet_hazirla(pl, log=lambda *a: None)["teknolojiler"], [], "LLM yenilik bulmadi: kose bos")
+        llm.json_iste = lambda s_, k, log=print: ({"cumleler": {}, "teknoloji_id": "tech:2",
+            "teknoloji": "Soğuk şerit için hidrojenli tavlama pilot hattı geliştirildi."}, "anthropic", [])
+        k = yazar.ozet_hazirla(pl, log=lambda *a: None)["teknolojiler"]
+        eq((len(k), k[0]["anahtar"]), (1, "tech:2"), "LLM gercek yeniligi secti")
+        llm.json_iste = lambda s_, k, log=print: ({"cumleler": {}, "teknoloji_id": "uydurma"}, "anthropic", [])
+        eq(yazar.ozet_hazirla(pl, log=lambda *a: None)["teknolojiler"], [], "listede olmayan id secilemez")
+    finally:
+        llm.json_iste = eski[0]
+        for kk, v in (("ANTHROPIC_API_KEY", eski[1]), ("RADAR_LLM", eski[2])):
+            if v is None:
+                os.environ.pop(kk, None)
+            else:
+                os.environ[kk] = v
 
 
 def test_w40_editorsuz_cop_kumeleme():
@@ -3607,6 +3644,7 @@ def run():
                test_v20_indiana_hindistan_degil,
                test_w40_editorsuz_cop_kumeleme,
                test_yazar_dogrulayici_ve_llm_yedegi,
+               test_kose_llm_yenilik_karari,
                test_dogrulayici_ulke_kaynakta_olmali,
                test_piyasa_gundemi_ve_geri_bildirim,
                test_kose_adayi_soguk_taraf_kaniti,

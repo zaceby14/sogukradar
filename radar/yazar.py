@@ -174,7 +174,9 @@ KESİN KURALLAR (ihlal edilen cümle otomatik reddedilir ve yerine kuralsal cüm
 6. Bir haber kapsam dışıysa cümle yazma, 'supheli' listesine gerekçesiyle ekle. SADECE açıkça kapsam dışı olanı işaretle; emin değilsen işaretleme.
 
 ÇIKTI: yalnızca şu JSON nesnesi, başka hiçbir şey:
-{"cumleler": {"<id>": "Türkçe cümle"}, "ozet": "Haftanın 2-4 cümlelik Türkçe özeti (yalnızca verilen haberlerden)", "supheli": [{"id": "<id>", "neden": "kısa gerekçe"}], "piyasa": [{"id": "<piyasa id>", "cumle": "1-2 cümlelik Türkçe özet"}], "teknoloji": "Teknoloji köşesi maddesi varsa: 1-2 cümle, yalnızca başlıktaki bilgiyle, ne olduğunu ve hangi hat/prosese yönelik olduğunu anlatan Türkçe tanıtım; yoksa boş"}"""
+{"cumleler": {"<id>": "Türkçe cümle"}, "ozet": "Haftanın 2-4 cümlelik Türkçe özeti (yalnızca verilen haberlerden)", "supheli": [{"id": "<id>", "neden": "kısa gerekçe"}], "piyasa": [{"id": "<piyasa id>", "cumle": "1-2 cümlelik Türkçe özet"}], "teknoloji_id": "teknoloji adaylarından GERÇEK YENİLİK olanın id'si ya da boş", "teknoloji": "seçilen yenilik için 1-2 cümlelik Türkçe tanıtım (yalnızca başlık ve özet metindeki bilgiyle); seçim yoksa boş"}
+
+9. TEKNOLOJİ KÖŞESİ: adaylardan YALNIZCA gerçek bir yenilik olanı seç: ilk uygulama, yeni proses/yöntem/kalite/kaplama, Ar-Ge, pilot tesis, patent, hidrojen/yapay zekâ ile yeni yaklaşım. Mevcut ürünün tanıtımı, ürün yelpazesi genişletme, tedarik/sipariş haberi YENİLİK DEĞİLDİR - böyleyse teknoloji_id boş bırak. Emin değilsen boş bırak."""
 
 
 def _kullanici(rows, stats, tech=None, piyasa_ad=None, tercih_ozeti=""):
@@ -199,9 +201,10 @@ def _kullanici(rows, stats, tech=None, piyasa_ad=None, tercih_ozeti=""):
     if tercih_ozeti:
         metin += "\n\ntercih_ozeti: " + tercih_ozeti
     if tech:
-        metin += ("\n\nTeknoloji köşesi maddesi:\n" + json.dumps(
-            {"baslik": tech.get("baslik", ""), "ozet_metin": (tech.get("lead") or "")[:420],
-             "kaynak": tech.get("kaynak", "")}, ensure_ascii=False))
+        metin += ("\n\nteknoloji_adaylari:\n" + json.dumps(
+            [{"id": t.get("anahtar"), "baslik": t.get("baslik", ""),
+              "ozet_metin": (t.get("lead") or "")[:420], "kaynak": t.get("kaynak", "")}
+             for t in tech], ensure_ascii=False, indent=1))
     return metin
 
 
@@ -231,7 +234,8 @@ def ozet_hazirla(payload, log=print):
         ozet["cumleler"][r["anahtar"]] = compose.row_sentence(r)
         rapor["cumle_kuralsal"] += 1
 
-    tech = (payload.get("tech_pool") or [])[:1]
+    tech_ad = (payload.get("tech_pool") or [])[:6]
+    tech = tech_ad[:1]
     for t in tech:
         ozet["teknolojiler"].append({
             "anahtar": t.get("anahtar", ""), "tarih": t.get("tarih", ""),
@@ -250,7 +254,7 @@ def ozet_hazirla(payload, log=print):
         return ozet
 
     veri, saglayici, hatalar = llm.json_iste(
-        SISTEM, _kullanici(rows, stats, tech[0] if tech else None, piyasa_ad,
+        SISTEM, _kullanici(rows, stats, tech_ad, piyasa_ad,
                            payload.get("tercih_ozeti", "")), log=log)
     rapor["llm_hatalar"] = hatalar
     if not veri:
@@ -299,15 +303,23 @@ def ozet_hazirla(payload, log=print):
     if yeni:
         ozet["piyasa"] = yeni
 
-    # --- teknoloji kosesi metni: yalniz basliga/ozete SADIK ise
-    tk = veri.get("teknoloji")
-    if tech and isinstance(tk, str) and tk.strip():
-        kay = " ".join([tech[0].get("baslik", ""), tech[0].get("lead", ""), tech[0].get("kaynak", "")])
-        ok, neden = cumle_dogrula(tk, kay)
-        if ok:
-            ozet["teknolojiler"][0]["metin"] = tk.strip()
-        else:
-            rapor["reddedilen_cumle"].append({"baslik": "(teknoloji kosesi)", "neden": neden})
+    # --- teknoloji kosesi: LLM adaylardan GERCEK yeniligi secer ya da HICBIRINI.
+    # LLM yanit verdiyse karari ona aittir: bos secim = kose bos (tanitim
+    # haberi koseye girmez). Metin kaynaga karsi dogrulanir.
+    if tech_ad:
+        tid = veri.get("teknoloji_id")
+        secilen = next((t for t in tech_ad if tid and t.get("anahtar") == tid), None)
+        ozet["teknolojiler"] = []
+        if secilen:
+            tk = veri.get("teknoloji") if isinstance(veri.get("teknoloji"), str) else ""
+            kay = " ".join([secilen.get("baslik", ""), secilen.get("lead", ""), secilen.get("kaynak", "")])
+            ok, neden = cumle_dogrula(tk, kay) if tk.strip() else (False, "bos")
+            if not ok and tk.strip():
+                rapor["reddedilen_cumle"].append({"baslik": "(teknoloji kosesi)", "neden": neden})
+            ozet["teknolojiler"].append({
+                "anahtar": secilen.get("anahtar", ""), "tarih": secilen.get("tarih", ""),
+                "konu": secilen.get("baslik", ""), "url": secilen.get("url", ""),
+                "metin": tk.strip() if ok else compose.tech_blurb(secilen)})
 
     # --- ozet
     ex = veri.get("ozet")

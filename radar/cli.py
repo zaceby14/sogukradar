@@ -868,7 +868,7 @@ def _kose_dogrula(t, fetch=None):
     if not taxonomy.tech_kapsam(b):
         return False
     if _soguk_kanit(b):
-        return True
+        return taxonomy.yenilik_mi(b, t.get("lead", ""))
     url = t.get("url") or ""
     if not url or _aggregator_adresi(url) or os.environ.get("RADAR_BAGLANTI", "1") == "0":
         return False
@@ -880,7 +880,7 @@ def _kose_dogrula(t, fetch=None):
     if not _soguk_kanit(metin):
         return False
     t["lead"] = metin[:420]
-    return True
+    return taxonomy.yenilik_mi(b, metin)
 
 
 def _kose_adaylari(payload, st):
@@ -904,17 +904,8 @@ def _kose_adaylari(payload, st):
         anahtarlar.add(k)
         havuz.append(t)
     havuz.sort(key=lambda t: t.get("tarih", ""), reverse=True)
-    if havuz or len(payload["rows"]) <= MIN_SATIR:
-        return havuz
-    for r in payload["rows"]:
-        b = r.get("baslik", "")
-        if (taxonomy.TECH_ADAY.search(taxonomy.fold(b)) and taxonomy.tech_kapsam(b)
-                and r.get("asama") not in ("Ilk urun", "Seri uretim")):
-            payload["rows"] = [x for x in payload["rows"] if x is not r]
-            print("  teknoloji kosesine tasindi: " + b[:70])
-            return [{"anahtar": "tech:" + r.get("anahtar", ""), "tarih": r.get("tarih", ""),
-                     "baslik": b, "url": r.get("url", ""), "kaynak": r.get("kaynak", ""),
-                     "hat": r.get("hat", ""), "lead": r.get("lead", "")}]
+    # Liste satirini (urun duyurusu) koseye TASIMA kurali kaldirildi (2026-11-03):
+    # "IMS urun yelpazesini genisletti" yenilik degildi.
     return havuz
 
 
