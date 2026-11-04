@@ -2,6 +2,48 @@
  "donem": "2026-W45",
  "duzelt": [
   {
+   "anahtar": "81220ff3171fedb4",
+   "baslik": "Hindustan Zinc Expands Value-Added Zinc Product Offerings with Next-Gen Alloys ‘VedAZ’ & ‘VedAyush’ for the Galvanizing Industry",
+   "url": "https://www.republicworld.com/initiatives/hindustan-zinc-expands-value-added-zinc-product-offerings-with-next-gen-alloys-vedaz-and-vedayush-for-the-galvanizing-industry-2026-11-04-140415",
+   "eksik": [
+    "ulke"
+   ],
+   "mevcut": {
+    "firma": "Hindustan Zinc",
+    "ulke": "",
+    "hat": "Galvaniz hatti (CGL)",
+    "asama": "Sozlesme"
+   }
+  },
+  {
+   "anahtar": "9084e2ca3c770e78",
+   "baslik": "Nucor Steel Berkeley produces its first coil on the new Continuous Galvanizing Line",
+   "url": "https://www.clecim.com/nucor_first_coil/",
+   "eksik": [
+    "ulke"
+   ],
+   "mevcut": {
+    "firma": "Nucor Steel Berkeley",
+    "ulke": "",
+    "hat": "Galvaniz hatti (CGL)",
+    "asama": "Ilk urun"
+   }
+  },
+  {
+   "anahtar": "20b338e9e87b0de6",
+   "baslik": "Fives revamps Lusosider galvanizing line",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/fives-revamps-csn-lusosider-galvanizing-line-1118/",
+   "eksik": [
+    "ulke"
+   ],
+   "mevcut": {
+    "firma": "Fives",
+    "ulke": "",
+    "hat": "Galvaniz hatti (CGL)",
+    "asama": "Modernizasyon"
+   }
+  },
+  {
    "anahtar": "3a4b6e2a6c086c5e",
    "baslik": "Kıraç Galvaniz, MSB Askeri Fabrikalar Genel Müdürlüğü’nün Onaylı Tedarikçisi Oldu",
    "url": "https://www.steelturk.com.tr/kirac-galvaniz-msb-askeri-fabrikalar-genel-mudurlugunun-onayli-tedarikcisi-oldu/",
@@ -19,7 +61,7 @@
   {
    "anahtar": "872b860afdafbe17",
    "baslik": "Rotherham steel firm goes greener with £160K investment in panels and batteries",
-   "url": "https://www.msn.com/en-gb/money/general/rotherham-steel-firm-goes-greener-with-160k-investment-in-panels-and-batteries/ar-AA2gEidN",
+   "url": "https://www.msn.com/en-gb/technology/tech-companies/rotherham-steel-firm-goes-greener-with-160k-investment-in-panels-and-batteries/ar-AA2gEidN",
    "eksik": [
     "ulke",
     "asama"
@@ -32,62 +74,60 @@
    }
   },
   {
-   "anahtar": "3c6ddad628eeb8ca",
-   "baslik": "POSCO, Otomotiv Çeliği İçin 359 Milyon Dolarlık Yeni Galvanizleme Hattı Kuruyor",
-   "url": "https://www.steelturk.com.tr/posco-otomotiv-celigi-icin-359-milyon-dolarlik-yeni-galvanizleme-hatti-kuruyor/",
-   "eksik": [
-    "ulke",
-    "asama",
-    "tarih?"
-   ],
-   "mevcut": {
-    "firma": "POSCO",
-    "ulke": "",
-    "hat": "Galvaniz hatti (CGL)",
-    "asama": "Belirsiz"
-   }
-  },
-  {
-   "anahtar": "3a5f3e821a7ebf92",
-   "baslik": "OYAK is planning new investments in the production of electrical steel in Rom...",
-   "url": "https://gmk.center/en/news/oyak-is-planning-new-investments-in-the-production-of-electrical-steel-in-romania/",
-   "eksik": [
-    "ulke",
-    "asama",
-    "tarih?"
-   ],
-   "mevcut": {
-    "firma": "OYAK",
-    "ulke": "",
-    "hat": "Elektrik celigi hatti",
-    "asama": "Belirsiz"
-   }
-  },
-  {
-   "anahtar": "4b961e91d96f2c3f",
-   "baslik": "Erdemir Plans Romania Electrical Steel Capacity Expansion",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSmxzNlIwb1ZJNjFKQmRmdmtmNVRCTkEzRU9IZFVuUGJ4X1hsOTZoQnRNN2ZTVFhfLVU5cG9uOWRpUC1rSDVqSWtnLVd2ZmwyRGVvaDE0RTV3TjJtY3hOQ1Rfa1BLOEdMWC12TmgxTDUzdmE0NUc4S0NGZlJ0RG9mOVN0c1ZMS2JIY2tnVlBYQUZCbDAwTUt6czY4eGJYcTkyOGc?oc=5",
+   "anahtar": "a9d0c1485ce1a321",
+   "baslik": "Tata Steel Colors launches Colorcoat pre-painted steel in India",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQNnFIZU9NZWN0ejJBbWllanlhYXpYaGI0TExkQl9waTVXbFNEMGNUOWk1dnhFa1d0LUtCTlRxd1U4M3VkNVBHMVpuRGg3UzJXWEczeGlNUFd2OE5ES0lNUXdHQk51d2sxdmxkeWlWSkJNZkZGOUN4R2NaaHFPYVU?oc=5",
    "eksik": [
     "asama"
    ],
    "mevcut": {
-    "firma": "Erdemir",
-    "ulke": "Romanya",
-    "hat": "Elektrik celigi hatti",
+    "firma": "Tata Steel Colors",
+    "ulke": "Hindistan",
+    "hat": "Boyama hatti (CCL)",
     "asama": "Belirsiz"
    }
   }
  ],
  "cumle_yaz": [
   {
-   "anahtar": "3705534b48675072",
-   "tarih": "2026-09-25",
-   "firma": "ABS",
-   "ulke": "Italya",
-   "hat": "Dilme / boy kesme / SSC",
+   "anahtar": "81220ff3171fedb4",
+   "tarih": "2026-11-04",
+   "firma": "Hindustan Zinc",
+   "ulke": "",
+   "hat": "Galvaniz hatti (CGL)",
+   "asama": "Sozlesme",
+   "baslik": "Hindustan Zinc Expands Value-Added Zinc Product Offerings with Next-Gen Alloys ‘VedAZ’ & ‘VedAyush’ for the Galvanizing Industry",
+   "url": "https://www.republicworld.com/initiatives/hindustan-zinc-expands-value-added-zinc-product-offerings-with-next-gen-alloys-vedaz-and-vedayush-for-the-galvanizing-industry-2026-11-04-140415"
+  },
+  {
+   "anahtar": "9084e2ca3c770e78",
+   "tarih": "2026-11-04",
+   "firma": "Nucor Steel Berkeley",
+   "ulke": "",
+   "hat": "Galvaniz hatti (CGL)",
    "asama": "Ilk urun",
-   "baslik": "Italy's ABS Opens Special Steel Service Center in Sweden",
-   "url": "https://news.metal.com/en/newscontent/104134675-italys-abs-opens-special-steel-service-center-in-sweden"
+   "baslik": "Nucor Steel Berkeley produces its first coil on the new Continuous Galvanizing Line",
+   "url": "https://www.clecim.com/nucor_first_coil/"
+  },
+  {
+   "anahtar": "20b338e9e87b0de6",
+   "tarih": "2026-10-20",
+   "firma": "Fives",
+   "ulke": "",
+   "hat": "Galvaniz hatti (CGL)",
+   "asama": "Modernizasyon",
+   "baslik": "Fives revamps Lusosider galvanizing line",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/fives-revamps-csn-lusosider-galvanizing-line-1118/"
+  },
+  {
+   "anahtar": "a9d0c1485ce1a321",
+   "tarih": "2026-10-12",
+   "firma": "Tata Steel Colors",
+   "ulke": "Hindistan",
+   "hat": "Boyama hatti (CCL)",
+   "asama": "Belirsiz",
+   "baslik": "Tata Steel Colors launches Colorcoat pre-painted steel in India",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQNnFIZU9NZWN0ejJBbWllanlhYXpYaGI0TExkQl9waTVXbFNEMGNUOWk1dnhFa1d0LUtCTlRxd1U4M3VkNVBHMVpuRGg3UzJXWEczeGlNUFd2OE5ES0lNUXdHQk51d2sxdmxkeWlWSkJNZkZGOUN4R2NaaHFPYVU?oc=5"
   }
  ],
  "teknoloji_adaylari": [
@@ -97,6 +137,14 @@
    "baslik": "Kıraç Galvaniz, MSB Askeri Fabrikalar Genel Müdürlüğü’nün Onaylı Tedarikçisi Oldu",
    "url": "https://www.steelturk.com.tr/kirac-galvaniz-msb-askeri-fabrikalar-genel-mudurlugunun-onayli-tedarikcisi-oldu/",
    "kaynak": "SteelTurk",
+   "hat": "Galvaniz hatti (CGL)"
+  },
+  {
+   "anahtar": "tech:ee3ada124db6cc47",
+   "tarih": "2026-11-03",
+   "baslik": "Hoa Phat Japonya'ya ilk kez galvanizli sac ihraç etti",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVTV4cVpmX040N3dWR1lPVkxmMVVEUFFOUEQxanFxRjFPNHJGc2hybHFORXFXSmIxWFBJVzVMUVZUbHpuTlNibFl3c1dpS2NMcHNMX25ELVFyUGo1d1NDa1g5TkN3R2UyYURLVXZCM0VuMWJZLXlRZGx0aGZPakJZRnNtNGUzTGcxWEF2NDI3dlFhTndyTGJ4RkF1UTdpdG9HYjlrZnBvUW5IMl8yZjNJVGJMMEZUWWhjRnFuQVRUNA?oc=5",
+   "kaynak": "SteelOrbis",
    "hat": "Galvaniz hatti (CGL)"
   },
   {
@@ -124,19 +172,11 @@
    "hat": "Elektrik celigi hatti"
   },
   {
-   "anahtar": "tech:f809e9cc4543b4aa",
-   "tarih": "2026-10-14",
-   "baslik": "KG Steel pushes to expand AI usage rate at annealing furnace to over 80%",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB1dExHc2VaMEVwUWh5dkt2ZmlNSWFUS1l5eGtjVnRlYWpSTGxKZFpBaEZRY3NaSmV3eGZlZVZhNjYzWnVnYVBVYmtxQTJxR04xQ2dETUNR?oc=5",
-   "kaynak": "헤럴드경제",
-   "hat": "Surekli tavlama (CAL)"
-  },
-  {
    "anahtar": "tech:e82b221fc2986888",
    "tarih": "2026-10-05",
    "baslik": "Turkey's Isdemir develops high-quality steel production for defense industry and electrical steel",
    "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMW13SGRFangyUGg2dkFBMDJ0aUFSSVljX0gxbXFZMng2OWRYY1hqLThqYVNtaDJzMUlvanBROE02MXZMTktNNG4zU3AzdHZzVUlxRVpXUlZRVzQ0eUhKamhRU2dyMHh4RkdDcGEtYXMzRmQ1eEE5aV9GWTJkZmhCeTZCRzE3ZG5VZS1pdEZnaXBGNzZ1WGl1WUxTeUNIVEY2UzJTN1MtZ0RvbnFNc0NzNUJtWl9YX0J6Y0FMQlh1cTUzRzdMZ3dNbE9zQXU2a1NTVGVUeEwybnR1M2VQcmtaaEFQb2RhWTVSTjdxMXdGRQ?oc=5",
-   "kaynak": "Steel Orbis",
+   "kaynak": "SteelOrbis",
    "hat": "Elektrik celigi hatti"
   },
   {
@@ -148,20 +188,28 @@
    "hat": "Galvaniz hatti (CGL)"
   },
   {
-   "anahtar": "tech:8384bd252bd440d2",
-   "tarih": "2026-08-20",
-   "baslik": "Vietnam's Hoa Sen launches new alloy-coated steel with enhanced corrosion resistance",
-   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxONTQ5NWhFSl9fd0xXVTk3UjNhakc1NE5XYUJfQWdkdEJGUV9FeUZhakVKdERZRWJUZjg2ck5yM0Nlb0JmU3FvczJQdGZhYy1CdVduWDBjdXJxX25ZY3duOENieFhTUzQzTGsxWDg4ZjJTaTFJSzd4UXdyNTd3VWtBaEFoeHBvZ0g1Y2htVlRScFB2Q3pEV0NubFdjdzdIbnYwbVJjRHdHYWpvS3NlUW1jNmM1bU05Y3J2Mk9RMlVuamFwRl9XQkpwWDhDUm5LVzBUYUEzUjFnNzhHZkdTbnc?oc=5",
-   "kaynak": "SteelOrbis",
-   "hat": "Belirsiz"
-  },
-  {
    "anahtar": "tech:28459cdd0c32da5c",
    "tarih": "2026-08-12",
    "baslik": "Primetals Technologies to modernize KG Steel's Dangjin cold mill with AI-driven automation upgrade",
    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNalhvamNnNE1IYTlnbFBWLVEtZXNmNWhmeEFuaFN3Qk1oOExtSmN6NWYxSURMdm9kcWNJNTFlcDBvN21FUUFQbFJSOEM2ZzA1NE1OTWZDekJWYm5UNklGaWc1QmRvOEhyS0lBbDdQUFN6WTZYQnQ5RVdEai1ZV1lWZVByZVBBWmkzblg3eTFiYXN0R3FIVF9EUHdqQndWSlMzcmg2TU9KNkJIRG5UNU9oc1lsREN4eE9fZTMwS0dxLUhPT3U1YXpYQ1hmN3VjZw?oc=5",
    "kaynak": "Yieh Corp.",
    "hat": "Soguk hadde"
+  },
+  {
+   "anahtar": "tech:1550467e340cb8e0",
+   "tarih": "2026-07-29",
+   "baslik": "[SMM Analysis] Cold-Rolled and HRC Profits Continue to Shrink: Can the Peak Season Bring a Breakthrough?",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOSzlmN2FrMk01al8xRm5iSDNVdzl5Y3VwT1pnVTYwTk84aU1rT2dlaHhaMUF0WDM2RkozYmk3Zmt5aTZJcXVTQks2SXBhVXliU181UVdDTU9kMTFhOW5yTjRPZ2NQQUt4RFVBLWU1YTNWeG4zZVBGNjNoOXVJZ28wcmdaQnc3Z1RacF9ITWdxMFB2Yjd2bU1jaWl2MFFkUGRPaHBva2hHelRtU2dUUHR0QmViaWtpOXg4TjNxU09SY3NWcWJtOW9LTzdyMUMtSy16TkNORFlLMzBVODJXcVE?oc=5",
+   "kaynak": "Shanghai Metals Market",
+   "hat": "Soguk hadde"
+  },
+  {
+   "anahtar": "tech:2a81095235098448",
+   "tarih": "2026-07-12",
+   "baslik": "Posco and Hyundai are developing innovative electrical steel to improve the efficiency of electric vehicles",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQSGtGOHBERUpYUkpjbW4tQVEweXVNUzYtcU1DNjB2bWhQamNzYTlPZFNtMXBNeXRvLXJwS2hwaEcxN3VNNFg0RTd1UVhZYmZPNEZRT0YxUlQ4VThJcG0ycXRJOGVEVWVLOFZmUHVNZ2hPYzFwY0FxOGhydjdTRmEtUmtwbFZKUlB5WTRqb2l5V2NxN0hoY0o2NExOaEg3dHdPLXZrUG1Zc3laakRVR3dLQi0yRnR1elZ6NUVvc0swRHczUEtNNHRZM2VaZV9FaUdz0gHWAUFVX3lxTE5mbGJMX0V1bE15SmhZdE05VDM2OG9POEVzc2g1bExqcHIzZGw3S3dvS291M252VUllVHB6THlfR1E0MnlPRTFRVlRzV2phMldEV0lKSWJJenRsdkxWbkRyTkpicFdLMFYzNUk4WnZvcGJZbFAyRGpDMURMUGNLaWhRTk81MVZ5NnlvamRLdnd2dXBPMElaT19OQ2dwaEFmOHZjYjh3dlJpQk1xQkhxQjlGMVlyWlZCdVRXbVR0MlhpNE9wNHg4UFVONThfVXBtSG5rNFlUWVE?oc=5",
+   "kaynak": "GMK Center",
+   "hat": "Elektrik celigi hatti"
   },
   {
    "anahtar": "tech:3b9e0ba3d7e53ee3",
@@ -178,14 +226,6 @@
    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWENTOUgzZFMzQjhaRlJnWmdEY3RMVmhLR25rYnFHd1JrLTQtRDJ3NVZvWTN6UjN2QUpfVXBuM1c5QklYQlNJYUQwY1pVdjhKb19xTEZXX3NRYmZNUVRyVEFuX3RNSm15N3ZrWm5nTm1XMExRUDBpVElLQ0Z2dzFjcmRkQ0xva1ktQTJZTlRnemg0NzVsZ3pUVGNUT3YyNGYweXdVRUdZdVpDX2ZEY19PdGlB?oc=5",
    "kaynak": "Charged EVs",
    "hat": "Elektrik celigi hatti"
-  },
-  {
-   "anahtar": "tech:467101f419b87401",
-   "tarih": "2026-06-23",
-   "baslik": "YEST Expected to Benefit as High-Pressure Hydrogen Annealing Is Considered for 1d-Nanometer DRAM",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5VTGdkNHpKakxDbGFfbmQwYmlndWp6T1lNdERfRHBIaElQWGhic3dDU2lvYWpYVmIyX1M3XzJqOHJrRWVyWTdqQlAzSzI2N2t2bW8xN3JtMTFjU1Q2N01FdVdQQmkwQkk?oc=5",
-   "kaynak": "THE ELEC, Korea Electronics Industry Media",
-   "hat": "Belirsiz"
   }
  ]
 }

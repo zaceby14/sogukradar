@@ -1,6 +1,56 @@
 {
  "bulunan": [
   {
+   "anahtar": "81220ff3171fedb4",
+   "asama": "Sozlesme",
+   "baslik": "Hindustan Zinc Expands Value-Added Zinc Product Offerings with Next-Gen Alloys ‘VedAZ’ & ‘VedAyush’ for the Galvanizing Industry",
+   "eksik": [
+    "ulke"
+   ],
+   "firma": "Hindustan Zinc",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgtek_yenilik2",
+   "lead": "Hindustan Zinc has introduced VedAZ and VedAyush, two advanced zinc alloys designed to improve galvanising efficiency, coating quality and corrosion resistance across industries.",
+   "olaylar": [
+    "hindustan zinc|hat|Galvaniz hatti (CGL)|Sozlesme"
+   ],
+   "puan": 62.0,
+   "tarih": "2026-11-04",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://www.republicworld.com/initiatives/hindustan-zinc-expands-value-added-zinc-product-offerings-with-next-gen-alloys-vedaz-and-vedayush-for-the-galvanizing-industry-2026-11-04-140415"
+  },
+  {
+   "anahtar": "9084e2ca3c770e78",
+   "asama": "Ilk urun",
+   "baslik": "Nucor Steel Berkeley produces its first coil on the new Continuous Galvanizing Line",
+   "eksik": [
+    "ulke"
+   ],
+   "firma": "Nucor Steel Berkeley",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Clecim",
+   "kaynak_id": "clecim",
+   "lead": "Skip to content Linkedin FR Search for: About us Compliance Professional Gender Equality QSE safety policy Services Spares SIAS Catalog Options SIAS Catalog Training SIAS Catalog Products Lines Consulting Partners References Conferences Careers News Contact us Search for: About us Compliance Professional Gender Equality QSE safety policy Services Spares SIAS Catalog Options SIAS Catalog Training SIAS Catalog Products",
+   "olaylar": [
+    "nucor steel berkeley|hat|Galvaniz hatti (CGL)|Ilk urun"
+   ],
+   "puan": 60.0,
+   "tarih": "2026-11-04",
+   "tarih_kaynagi": "meta:article:published_time",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://www.clecim.com/nucor_first_coil/"
+  },
+  {
    "anahtar": "3a4b6e2a6c086c5e",
    "asama": "Teknoloji",
    "baslik": "Kıraç Galvaniz, MSB Askeri Fabrikalar Genel Müdürlüğü’nün Onaylı Tedarikçisi Oldu",
@@ -51,6 +101,31 @@
    "tutar": "£160",
    "ulke": "",
    "url": "https://www.msn.com/en-gb/money/general/rotherham-steel-firm-goes-greener-with-160k-investment-in-panels-and-batteries/ar-AA2gEidN"
+  },
+  {
+   "anahtar": "20b338e9e87b0de6",
+   "asama": "Modernizasyon",
+   "baslik": "Fives revamps Lusosider galvanizing line",
+   "eksik": [
+    "ulke"
+   ],
+   "firma": "Fives",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_sup06",
+   "lead": "",
+   "olaylar": [
+    "fives@lusosider|hat|Galvaniz hatti (CGL)|Modernizasyon"
+   ],
+   "puan": 48.5,
+   "tarih": "2026-10-20",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "Fives",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/fives-revamps-csn-lusosider-galvanizing-line-1118/"
   },
   {
    "anahtar": "3705534b48675072",
@@ -300,8 +375,8 @@
   "tenova|ulke|Hindistan|Belirsiz": "2026-10-20"
  },
  "gb_form_sayac": {
-  "3b181632bc+": 1,
-  "3b181632bc-": 1,
+  "3b181632bc+": 3,
+  "3b181632bc-": 2,
   "3ffa8c22f8+": 1,
   "3ffa8c22f8-": 1,
   "490fe88208+": 3,
@@ -312,17 +387,22 @@
   "57d5af2902-": 3,
   "65ac0bac8b+": 3,
   "65ac0bac8b-": 3,
+  "7364bc7da3+": 2,
+  "86bf58fb6c+": 2,
+  "990a90d18e+": 2,
   "9f687e6101+": 1,
   "9f687e6101-": 1,
   "a06acce312+": 2,
-  "aa7adc9b79+": 1,
-  "aa7adc9b79-": 1,
+  "a8d95ebe8d+": 3,
+  "aa7adc9b79+": 2,
+  "aa7adc9b79-": 3,
   "b1114a2a22+": 1,
   "b1114a2a22-": 1,
   "b1400796e4+": 1,
   "b1400796e4-": 1,
-  "bfab4a70f8+": 1,
-  "bfab4a70f8-": 1,
+  "bfab4a70f8+": 3,
+  "bfab4a70f8-": 2,
+  "f2174b9e9a+": 3,
   "testkod000+": 3
  },
  "gb_oy": {
@@ -2028,9 +2108,43 @@
     "tekrar": 52
    },
    "uretim": "2026-11-03 11:05 UTC"
+  },
+  {
+   "donem": "2026-W45",
+   "satir": 6,
+   "stats": {
+    "erisilemeyen": 8,
+    "gnews_tarih": 0,
+    "ham": 4308,
+    "kabul": 9,
+    "kapsam_disi": 3860,
+    "kaynak": 315,
+    "makale_acildi": 236,
+    "on_eleme_gecti": 477,
+    "pencere_disi": 299,
+    "tarihsiz_elendi": 105,
+    "tekrar": 35
+   },
+   "uretim": "2026-11-04 11:11 UTC"
   }
  ],
  "piyasa_rezerv": [
+  {
+   "anahtar": "piyasa:bd6e204eaa1c8929",
+   "baslik": "Korea recommends duties on Chinese galvanized steel",
+   "kaynak": "Kallanish",
+   "lead": "South Korea&#x27;s Trade Commission has recommended five-year anti-dumping measures on imports of Chinese cold-rolled galvanized steel...",
+   "tarih": "2026-11-04",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/korea-recommends-duties-on-chinese-galvanized-steel-1126/"
+  },
+  {
+   "anahtar": "piyasa:8988864688184b6f",
+   "baslik": "EU electrical steel safeguards threaten transformer makers, 26 MEPs warn",
+   "kaynak": "Shanghai Metals Market",
+   "lead": "EU electrical steel safeguards threaten transformer makers, 26 MEPs warn &nbsp;&nbsp; Shanghai Metals Market",
+   "tarih": "2026-11-04",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeFJzNERMdlNXNzlwdnJ2UnlaY3pZZm5fTHFZVmxyeHVaaGI3eHBHU0oyeUdGUlhUX1k1NG0xVTYxTExSVFp6d1BBYWpTaG9kWHd0UXk3c05lWGFkaHhKUmZQRnM0cHRCZVJBcmRlS0NNdnRkdGE3SzVvVlp1TXV0dVZVRktWNHdUNEJGeEY4Zm9HaHkzaXJqLWhBTjNDU2UyU0dLTC04Y3JrM3Y0anUzWndyX1QxeDA?oc=5"
+  },
   {
    "anahtar": "piyasa:58a6686e74ff2a17",
    "baslik": "European green flat steel demand remains subdued; construction provides pockets of interest",
@@ -2088,6 +2202,14 @@
    "url": "https://www.steelorbis.com/steel-news/latest-news/us-tin-plate-exports-down-109-percent-in-august-2026-from-july-1486620.htm"
   },
   {
+   "anahtar": "piyasa:885aed75f997198b",
+   "baslik": "Tin Plate Price Trend, Index, Chart and Forecast 2026",
+   "kaynak": "IMARC Group",
+   "lead": "Tin Plate Price Trend, Index, Chart and Forecast 2026 &nbsp;&nbsp; IMARC Group",
+   "tarih": "2026-10-27",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBhVEw0UnMwSU9RWkQ0OThJajd4bDdCNTF1V0U5N0JUSmt5MHQ1ZjlRbHFFVVlXckxORnFoc285NkhteXVZUGNVSGhibVYyd05sMkdaak8yU1lpZkVF?oc=5"
+  },
+  {
    "anahtar": "piyasa:89da757ae315d119",
    "baslik": "【SMM Analysis】Silicon Steel Import and Export Performance in September: Imports Surge, Exports Diverge",
    "kaynak": "Shanghai Metals Market",
@@ -2126,6 +2248,58 @@
   "piyasa:db67f98fb4dd717b": "2026-11-02"
  },
  "rezerv": [
+  {
+   "anahtar": "7ca54be6061ea324",
+   "asama": "Belirsiz",
+   "baslik": "BMW Industries starts colour-coated steel line at Bokaro",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "firma": "BMW Industries",
+   "hat": "Boyama hatti (CCL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Prop News Time",
+   "kaynak_id": "gtek_yenilik2",
+   "lead": "BMW Industries starts colour-coated steel line at Bokaro &nbsp;&nbsp; Prop News Time",
+   "olaylar": [
+    "bmw industries|hat|Boyama hatti (CCL)|Belirsiz"
+   ],
+   "rezerv": true,
+   "tarih": "2026-10-13",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOU1hhNV9RMDlMTi15UHBwanFNeVp2cnhJUEpVS1dRX3pJV2RWd2xvejZTUlc3Unc2ZTRETDBqS3pyU1ZtMnlwRGFSSmpSalB5YUM5bEVBOU0yZGJ4VC1DSTZTMjhHNjBkbFZjc0lZaGVuUUpRejc4dGhaQlp5dUVPdVlfTWJIYU4td2hSNkRNYWpjajFHQ1NJeEtGbDFNaG5UNi1MR3Rud0VUQTAy?oc=5"
+  },
+  {
+   "anahtar": "8c71e81574f7db5d",
+   "asama": "Ilk urun",
+   "baslik": "ANDRITZ reaches first-coil milestone at BlueScope Steel’s new galvanizing line in Sydney",
+   "eksik": [
+    "ulke"
+   ],
+   "firma": "BlueScope Steel",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_sup03",
+   "lead": "The new continuous galvanizing line produced its first galvanized coil on 3 August 2026, marking the move from commissioning into production and a step toward project completion and performance ...",
+   "olaylar": [
+    "andritz|hat|Galvaniz hatti (CGL)|Ilk urun",
+    "bluescope steel|hat|Galvaniz hatti (CGL)|Ilk urun"
+   ],
+   "rezerv": true,
+   "tarih": "2026-10-13",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "Andritz",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.europawire.eu/andritz-reaches-first-coil-milestone-at-bluescope-steels-new-galvanizing-line-in-sydney/eu-press-release/2026/10/13/09/40/04/182722/"
+  },
   {
    "anahtar": "a9d0c1485ce1a321",
    "asama": "Belirsiz",
@@ -2358,6 +2532,31 @@
    "tutar": "",
    "ulke": "ABD",
    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNOHVpTDNnb19iazU5a0VtZ3hqQmtyWk9HWk5zX3R0c1NtWXpsUHBQS1pxTTRHalRubERlSmpvZ3gwaVI0Ykw3LUFWMkp6c0pmXy1PYk5JOFRydUpXXzFsRTRPTjIyanBIaWUtZUdiVy00ZWhtUWZkYVVFTTNVRUhqMmhtVFY1eFUyRUVJNV93aWpZcWdVYWNkREVGSm02d2llMVJxNHF0U0hxQTI4b3ltbHNrcmZKeU0?oc=5"
+  },
+  {
+   "anahtar": "6452945ec70270a7",
+   "asama": "Teknoloji",
+   "baslik": "POSCO to Build State-of-the-Art Galvanized Automotive Steel Sheet Plant, Bringing Together the Latest Automotive Steel Technologies 2026/09/21",
+   "eksik": [
+    "ulke"
+   ],
+   "firma": "POSCO",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "POSCO",
+   "kaynak_id": "posco",
+   "lead": "Article Press Center Press Release Image Gallery Business Industry Report People & Culture Open Search window Search in the Newsroom Clear Search Recommended HyREX Steel Lithium Secondary Battery AI Robots Search Close Menu Search Layer Close Layer Close Minimum 2 characters required. Ok Home Press Center Press Release POSCO to Build State-of-the-Art Galvanized Automotive Steel Sheet Plant, Bringing Together the Late",
+   "olaylar": [
+    "posco|hat|Galvaniz hatti (CGL)|Teknoloji"
+   ],
+   "rezerv": true,
+   "tarih": "2026-09-21",
+   "tarih_kaynagi": "metin",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://newsroom.posco.com/en/posco-to-build-state-of-the-art-galvanized-automotive-steel-sheet-plant-bringing-together-the-latest-automotive-steel-technologies/"
   },
   {
    "anahtar": "a116c7d2cd9568bd",
@@ -3549,6 +3748,32 @@
    "url": "https://www.andritz.com/newsroom-en/metals/2025-12-09-tata-steel-group"
   },
   {
+   "anahtar": "2987f118cd7cf965",
+   "asama": "Ilk urun",
+   "baslik": "Nucor Prepares to Start Up New Galvanizing Line at Alabama Steel Mill",
+   "eksik": [],
+   "firma": "Nucor Prepares",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Industrial Info Resources",
+   "kaynak_id": "gtek_yz",
+   "lead": "Nucor Prepares to Start Up New Galvanizing Line at Alabama Steel Mill &nbsp;&nbsp; Industrial Info Resources",
+   "olaylar": [
+    "*|ulke-hat|ABD|Galvaniz hatti (CGL)|Ilk urun",
+    "nucor prepares|fu|ABD|Galvaniz hatti (CGL)",
+    "nucor prepares|hat|Galvaniz hatti (CGL)|Ilk urun",
+    "nucor prepares|ulke|ABD|Ilk urun"
+   ],
+   "rezerv": true,
+   "tarih": "2025-11-26",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "ABD",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQendESi1XRDNRMHFFUnF2X3JxRzNQMFFkLV9LXzdLOUVlelJTWUR5S2dNUldobWFhWXpVLXd4RmJtUERGZ0w5VElVeFNtejdEMXE4a1o2OHdRdXl4R05BSWZZbnk2VjRURHVwOWpLNTRkemM3clUwRWxhMWFIWFZxSm5FcThzZVRYZDZGWnR0dF8zTlhpNkhyVTJQVFVtOFF4SGh6SHUybzJWcjQ0Y3BFUGZpQm0zMWNzXzNVcllB?oc=5"
+  },
+  {
    "anahtar": "8f594cb2da2f00c0",
    "asama": "Sozlesme",
    "baslik": "Primetals Technologies awarded contract for hot-dip galvanizing line at JFE Steel",
@@ -3685,6 +3910,14 @@
    "url": "https://www.steelturk.com.tr/kirac-galvaniz-msb-askeri-fabrikalar-genel-mudurlugunun-onayli-tedarikcisi-oldu/"
   },
   {
+   "anahtar": "tech:ee3ada124db6cc47",
+   "baslik": "Hoa Phat Japonya'ya ilk kez galvanizli sac ihraç etti",
+   "hat": "Galvaniz hatti (CGL)",
+   "kaynak": "SteelOrbis",
+   "tarih": "2026-11-03",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVTV4cVpmX040N3dWR1lPVkxmMVVEUFFOUEQxanFxRjFPNHJGc2hybHFORXFXSmIxWFBJVzVMUVZUbHpuTlNibFl3c1dpS2NMcHNMX25ELVFyUGo1d1NDa1g5TkN3R2UyYURLVXZCM0VuMWJZLXlRZGx0aGZPakJZRnNtNGUzTGcxWEF2NDI3dlFhTndyTGJ4RkF1UTdpdG9HYjlrZnBvUW5IMl8yZjNJVGJMMEZUWWhjRnFuQVRUNA?oc=5"
+  },
+  {
    "anahtar": "tech:d9181dd30cb6e332",
    "baslik": "New coating approach aligns molecules upright to boost organic solar cell efficiency",
    "hat": "Belirsiz",
@@ -3787,6 +4020,14 @@
    "kaynak": "Yieh Corp.",
    "tarih": "2026-08-12",
    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNalhvamNnNE1IYTlnbFBWLVEtZXNmNWhmeEFuaFN3Qk1oOExtSmN6NWYxSURMdm9kcWNJNTFlcDBvN21FUUFQbFJSOEM2ZzA1NE1OTWZDekJWYm5UNklGaWc1QmRvOEhyS0lBbDdQUFN6WTZYQnQ5RVdEai1ZV1lWZVByZVBBWmkzblg3eTFiYXN0R3FIVF9EUHdqQndWSlMzcmg2TU9KNkJIRG5UNU9oc1lsREN4eE9fZTMwS0dxLUhPT3U1YXpYQ1hmN3VjZw?oc=5"
+  },
+  {
+   "anahtar": "tech:1550467e340cb8e0",
+   "baslik": "[SMM Analysis] Cold-Rolled and HRC Profits Continue to Shrink: Can the Peak Season Bring a Breakthrough?",
+   "hat": "Soguk hadde",
+   "kaynak": "Shanghai Metals Market",
+   "tarih": "2026-07-29",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOSzlmN2FrMk01al8xRm5iSDNVdzl5Y3VwT1pnVTYwTk84aU1rT2dlaHhaMUF0WDM2RkozYmk3Zmt5aTZJcXVTQks2SXBhVXliU181UVdDTU9kMTFhOW5yTjRPZ2NQQUt4RFVBLWU1YTNWeG4zZVBGNjNoOXVJZ28wcmdaQnc3Z1RacF9ITWdxMFB2Yjd2bU1jaWl2MFFkUGRPaHBva2hHelRtU2dUUHR0QmViaWtpOXg4TjNxU09SY3NWcWJtOW9LTzdyMUMtSy16TkNORFlLMzBVODJXcVE?oc=5"
   },
   {
    "anahtar": "tech:2a81095235098448",
