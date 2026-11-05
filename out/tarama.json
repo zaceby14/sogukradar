@@ -1,6 +1,61 @@
 {
  "rows": [
   {
+   "tarih": "2026-11-05",
+   "firma": "",
+   "ulke": "Vietnam",
+   "hat": "Galvaniz hatti (CGL)",
+   "asama": "Ilk urun",
+   "tedarikci": "Primetals",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】纽柯(Nucor)与普锐特冶金技术(Primetals Technologies)已在纽柯位于南卡罗来纳州伯克利县的板材厂新建连续镀锌线(CGL)上产出首卷优质卷板,标志着该产线完成调试阶段。普锐特与CLECIM…",
+   "kaynak": "SMM (Shanghai Metals)",
+   "kaynak_id": "smm",
+   "url": "https://news.metal.com/en/newscontent/104207357-%E7%BA%BD%E6%9F%AF%E5%9C%A8%E5%8D%97%E5%8D%A1%E7%BD%97%E6%9D%A5%E7%BA%B3%E5%B7%9E%E6%96%B0%E5%BB%BA50%E4%B8%87%E5%90%A8%E5%B9%B4%E6%B1%BD%E8%BD%A6%E6%9D%BF%E9%95%80%E9%94%8C%E7%BA%BF%E4%BA%A7%E5%87%BA%E9%A6%96%E5%8D%B7%E4%BC%98%E8%B4%A8%E5%8D%B7%E6%9D%BF",
+   "tarih_kaynagi": "json-ld",
+   "lead": "[SMM Announcement] SMM to Launch Southern Vietnam Rebar and Wire Rod Price Points Metrix Announcements About Us Careers Download App Sign In EN Markets Industry Data Center News and Reports Events Methodology Subscribe 【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】 Published : Nov 05, 2026 16:28 (GMT+8) Share Share Save 纽柯(Nucor)与普锐特冶金技术(Primetals Technologies)已在纽柯位于南卡罗来纳州伯克利县的板材厂新建连续镀锌线(CGL)上产出首卷优质卷板,标志着该产线完成调试阶段。普锐特与CLECIM SAS合",
+   "eksik": [
+    "firma"
+   ],
+   "anahtar": "8cdc84758f7bfd38",
+   "kategori": "Hat",
+   "olaylar": [
+    "*|ulke-hat|Vietnam|Galvaniz hatti (CGL)|Ilk urun",
+    "primetals|fu|Vietnam|Galvaniz hatti (CGL)",
+    "primetals|hat|Galvaniz hatti (CGL)|Ilk urun",
+    "primetals|ulke|Vietnam|Ilk urun"
+   ],
+   "puan": 63.0
+  },
+  {
+   "tarih": "2026-11-05",
+   "firma": "JSW Steel Coated Products",
+   "ulke": "",
+   "hat": "Asit rejenerasyonu (ARP)",
+   "asama": "Ilk urun",
+   "tedarikci": "Andritz",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "ANDRITZ commissions second acid regeneration plant for JSW Steel Coated Products",
+   "kaynak": "Andritz Metals",
+   "kaynak_id": "andritz",
+   "url": "https://www.andritz.com/newsroom-en/metals/2026-11-05-jsw-group",
+   "tarih_kaynagi": "url",
+   "lead": "Skip to main content en English Deutsch Site directory Newsroom Menu Search en English Deutsch Site directory Newsroom Menu Search Annual Report 2025 published Turning progress into industrial impact. FOR GROWTH THAT MATTERS. Discover more ANDRITZ GROUP ANDRITZ GROUP Newsroom Careers Sustainability OUR BUSINESS AREAS PULP & PAPER METALS HYDROPOWER ENVIRONMENT & ENERGY MORE ANDRITZ SOLUTIONS Automation Cyber security ",
+   "eksik": [
+    "ulke",
+    "tarih?"
+   ],
+   "anahtar": "953d55052b959bff",
+   "kategori": "Hat",
+   "olaylar": [
+    "andritz|hat|Asit rejenerasyonu (ARP)|Ilk urun",
+    "jsw steel coated products|hat|Asit rejenerasyonu (ARP)|Ilk urun"
+   ],
+   "puan": 62.5
+  },
+  {
    "tarih": "2026-11-04",
    "firma": "Hindustan Zinc",
    "ulke": "",
@@ -11,7 +66,7 @@
    "tutar": "",
    "baslik": "Hindustan Zinc Expands Value-Added Zinc Product Offerings with Next-Gen Alloys ‘VedAZ’ & ‘VedAyush’ for the Galvanizing Industry",
    "kaynak": "Bing News",
-   "kaynak_id": "bgtek_yenilik2",
+   "kaynak_id": "bgtek_kaplama",
    "url": "https://www.republicworld.com/initiatives/hindustan-zinc-expands-value-added-zinc-product-offerings-with-next-gen-alloys-vedaz-and-vedayush-for-the-galvanizing-industry-2026-11-04-140415",
    "tarih_kaynagi": "rss",
    "lead": "Hindustan Zinc has introduced VedAZ and VedAyush, two advanced zinc alloys designed to improve galvanising efficiency, coating quality and corrosion resistance across industries.",
@@ -23,7 +78,7 @@
    "olaylar": [
     "hindustan zinc|hat|Galvaniz hatti (CGL)|Sozlesme"
    ],
-   "puan": 62.0
+   "puan": 61.6
   },
   {
    "tarih": "2026-11-04",
@@ -48,7 +103,7 @@
    "olaylar": [
     "nucor steel berkeley|hat|Galvaniz hatti (CGL)|Ilk urun"
    ],
-   "puan": 60.0
+   "puan": 59.6
   },
   {
    "tarih": "2026-10-20",
@@ -73,7 +128,35 @@
    "olaylar": [
     "fives@lusosider|hat|Galvaniz hatti (CGL)|Modernizasyon"
    ],
-   "puan": 48.5
+   "puan": 48.1
+  },
+  {
+   "tarih": "2026-11-05",
+   "firma": "",
+   "ulke": "",
+   "hat": "Belirsiz",
+   "asama": "Ilk urun",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】",
+   "kaynak": "SMM (Shanghai Metals)",
+   "kaynak_id": "smm",
+   "url": "https://news.metal.com/en/newscontent/104207357-纽柯在南卡罗来纳州新建50万吨年汽车板镀锌线产出首卷优质卷板",
+   "tarih_kaynagi": "liste",
+   "lead": "",
+   "eksik": [
+    "firma",
+    "ulke",
+    "hat",
+    "tarih?"
+   ],
+   "anahtar": "90e30cb4756c40e2",
+   "kategori": "Hat",
+   "olaylar": [
+    "|hat|Belirsiz|Ilk urun"
+   ],
+   "puan": 47.0
   },
   {
    "tarih": "2026-11-03",
@@ -99,7 +182,7 @@
    "olaylar": [
     "kirac galvaniz|hat|Galvaniz hatti (CGL)|Teknoloji"
    ],
-   "puan": 16.1
+   "puan": 15.7
   },
   {
    "tarih": "2026-11-02",
@@ -113,7 +196,7 @@
    "baslik": "Rotherham steel firm goes greener with £160K investment in panels and batteries",
    "kaynak": "Bing News",
    "kaynak_id": "bgq_sup02",
-   "url": "https://www.msn.com/en-gb/technology/tech-companies/rotherham-steel-firm-goes-greener-with-160k-investment-in-panels-and-batteries/ar-AA2gEidN",
+   "url": "https://www.msn.com/en-gb/money/general/rotherham-steel-firm-goes-greener-with-160k-investment-in-panels-and-batteries/ar-AA2gEidN",
    "tarih_kaynagi": "rss",
    "lead": "‘We recognise the importance of taking practical steps to reduce emissions’ ...",
    "eksik": [
@@ -125,47 +208,20 @@
    "olaylar": [
     "rotherham steel firm|hat|Elektrik celigi hatti|Belirsiz"
    ],
-   "puan": 12.2
-  },
-  {
-   "anahtar": "a9d0c1485ce1a321",
-   "asama": "Belirsiz",
-   "baslik": "Tata Steel Colors launches Colorcoat pre-painted steel in India",
-   "eksik": [
-    "asama"
-   ],
-   "firma": "Tata Steel Colors",
-   "hat": "Boyama hatti (CCL)",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "Manufacturing Today India",
-   "kaynak_id": "gq_hat06",
-   "lead": "Tata Steel Colors launches Colorcoat pre-painted steel in India &nbsp;&nbsp; Manufacturing Today India",
-   "olaylar": [
-    "tata steel colors|fu|Hindistan|Boyama hatti (CCL)",
-    "tata steel colors|hat|Boyama hatti (CCL)|Belirsiz",
-    "tata steel colors|ulke|Hindistan|Belirsiz"
-   ],
-   "rezerv": true,
-   "tarih": "2026-10-12",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "Hindistan",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQNnFIZU9NZWN0ejJBbWllanlhYXpYaGI0TExkQl9waTVXbFNEMGNUOWk1dnhFa1d0LUtCTlRxd1U4M3VkNVBHMVpuRGg3UzJXWEczeGlNUFd2OE5ES0lNUXdHQk51d2sxdmxkeWlWSkJNZkZGOUN4R2NaaHFPYVU?oc=5"
+   "puan": 11.8
   }
  ],
  "stats": {
   "kaynak": 315,
   "erisilemeyen": 8,
-  "ham": 4308,
-  "on_eleme_gecti": 477,
-  "makale_acildi": 236,
-  "tarihsiz_elendi": 105,
-  "pencere_disi": 299,
-  "kapsam_disi": 3860,
-  "tekrar": 35,
-  "kabul": 9,
+  "ham": 3905,
+  "on_eleme_gecti": 433,
+  "makale_acildi": 230,
+  "tarihsiz_elendi": 104,
+  "pencere_disi": 268,
+  "kapsam_disi": 3475,
+  "tekrar": 47,
+  "kabul": 11,
   "gnews_tarih": 0
  },
  "unreachable": [
@@ -519,7 +575,7 @@
   "bgtek_jc": "arama",
   "bgtek_danieli": "arama"
  },
- "today": "2026-11-04",
+ "today": "2026-11-05",
  "host_saglik": {
   "news.google.com": {
    "istek": 123,
@@ -531,11 +587,6 @@
    "hiz_siniri": 0,
    "sogutmada": false
   },
-  "www.aist.org": {
-   "istek": 21,
-   "hiz_siniri": 0,
-   "sogutmada": false
-  },
   "www.otto-junker.com": {
    "istek": 21,
    "hiz_siniri": 0,
@@ -544,12 +595,12 @@
   "new.abb.com": {
    "istek": 3,
    "hiz_siniri": 2,
-   "sogutmada": false
+   "sogutmada": true
   },
   "www.cognex.com": {
    "istek": 2,
    "hiz_siniri": 2,
-   "sogutmada": false
+   "sogutmada": true
   }
  },
  "tech_pool": [
@@ -578,14 +629,6 @@
    "hat": "Belirsiz"
   },
   {
-   "anahtar": "tech:6bff1f3f9ec2ba5b",
-   "tarih": "2026-10-15",
-   "baslik": "KCC develops color steel coating that lasts up to 30 years",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5PRmZ2MXNtUkQ1RXBFT283c2UyRHlUTEdYcVl3bFVaYldmZGVSUWlzcmxMUGJnSzhLcW9SSndUa3VhOUk4SXVNZjlEUkdpbHJsRGRmMDdR?oc=5",
-   "kaynak": "헤럴드경제",
-   "hat": "Belirsiz"
-  },
-  {
    "anahtar": "tech:45c439b08bc58b50",
    "tarih": "2026-10-15",
    "baslik": "ArcelorMittal commits €300 million to Dunkirk steel project, targets spring 2027 tests for new line in Mardyck",
@@ -608,6 +651,14 @@
    "url": "https://www.galvanizingeurope.org/egga-supports-the-european-convoy-for-industrial-competitiveness/",
    "kaynak": "Galvanizing Europe",
    "hat": "Galvaniz hatti (CGL)"
+  },
+  {
+   "anahtar": "tech:784bcc674542a655",
+   "tarih": "2026-08-19",
+   "baslik": "Five Leading Silicon Steel Manufacturers in China 2026: Powering the Future of Electrical Steel Innovation",
+   "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPa2NMZVhHZGxOTTRDYUltajd6QW4tRVZBNlpid1BlUWNxVkx5YjlRaWNZQkJfS1dVNURTSEF3OS1xWDRvMEZ1QWZtcjN6bVRrVzQ1UUdhM00tY0dtODY1T0FBQUtVWktkZ25Ra1VmLVVmbUVtTGtoWTM2ZUJTaE1hdzdCV0pfX1drSC1XazlST3lEcmM1Z2N5d2FZWjhXRVFKamdaYTFwSVJCZmpYTGpqN3p6Y3ZObS1oaTRuTmhudmRLUUVMbm4wYUIyYWxzY1E2SmxzbnlqR0dPZE9aMTBQbkw4Q2ZTN3FiT0p2cU5qOWVVR1FaeEpNQzltZw?oc=5",
+   "kaynak": "The Des Moines Register",
+   "hat": "Elektrik celigi hatti"
   },
   {
    "anahtar": "tech:28459cdd0c32da5c",
@@ -651,9 +702,11 @@
   }
  ],
  "kaynak_katki": {
+  "Andritz Metals": 1,
   "Clecim": 1,
   "SteelTurk": 1,
-  "Bing News": 7
+  "SMM (Shanghai Metals)": 2,
+  "Bing News": 6
  },
  "piyasa_pool": [
   {
@@ -673,20 +726,20 @@
    "lead": "Strong US energy infrastructure demand supports galvanized steel market, lifting Taiwanese exporters &nbsp;&nbsp; Yieh Corp."
   },
   {
-   "anahtar": "piyasa:8988864688184b6f",
-   "tarih": "2026-11-04",
-   "baslik": "EU electrical steel safeguards threaten transformer makers, 26 MEPs warn",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeFJzNERMdlNXNzlwdnJ2UnlaY3pZZm5fTHFZVmxyeHVaaGI3eHBHU0oyeUdGUlhUX1k1NG0xVTYxTExSVFp6d1BBYWpTaG9kWHd0UXk3c05lWGFkaHhKUmZQRnM0cHRCZVJBcmRlS0NNdnRkdGE3SzVvVlp1TXV0dVZVRktWNHdUNEJGeEY4Zm9HaHkzaXJqLWhBTjNDU2UyU0dLTC04Y3JrM3Y0anUzWndyX1QxeDA?oc=5",
-   "kaynak": "Shanghai Metals Market",
-   "lead": "EU electrical steel safeguards threaten transformer makers, 26 MEPs warn &nbsp;&nbsp; Shanghai Metals Market"
-  },
-  {
    "anahtar": "piyasa:b48cd92e13b18fe0",
    "tarih": "2026-11-04",
    "baslik": "Hoa Phat exports 8,000 tonnes of galvanized steel coils to Japan, expanding international market",
    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQNnlaSU0yOEdqRzNrRWMyOFdGdGdpd195a2pxMHk4N3YtaGpORjJPZm40VE1sanhJS0x3RU1vM2xQRWhuVERXRWNmV0pUNDcyenFYY2FPY3BOY05nNEdkaXktZ3ZXUEtUVzlzcW85akxwOGxtQ0o4b1lIZDUwMDZMamxpdDRhakQ3TXFoLXgyWXFGQmlGa2tZZzBQQ3VBLUJvRnJ2QmRJZjc4WlBIZGNycldQS292MWN2a2w0ZHZtcTVEQ3p1Sl96ZUh2NG0?oc=5",
    "kaynak": "HoaPhat",
    "lead": "Hoa Phat exports 8,000 tonnes of galvanized steel coils to Japan, expanding international market &nbsp;&nbsp; HoaPhat"
+  },
+  {
+   "anahtar": "piyasa:c8d598485ca4f420",
+   "tarih": "2026-11-04",
+   "baslik": "India HRC and CRC prices rise w-o-w; festive slowdown limits further gains",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNU1JhT1o1ZTBKOUlJaG55b2xBUGM5cEp4aUU1aGc3cHdHcXVVMmJVSVNZRHNBeFR2Rm40bjhHemZaZS1JY1pWWHpOWTU5MFpWUUZkd0F5Ujd1VFd6b0U3Z3FXNDJPTFQ3cXpLVHItbW9JM096aGV1dUVITWlfRWV0UWp3d093N1p1OXdjaXVITlFELUktajVhZTJ4SXQwa2EwSGFKcVFub2MwOUVNQ2FqeEptYTQ4c0lUME1V?oc=5",
+   "kaynak": "BigMint",
+   "lead": "India HRC and CRC prices rise w-o-w; festive slowdown limits further gains &nbsp;&nbsp; BigMint"
   },
   {
    "anahtar": "piyasa:57bd0bd0b81ffff8",
@@ -705,52 +758,12 @@
    "lead": "Hoa Phat exports first 8,000 mt of galvanized steel coils to Japan &nbsp;&nbsp; SteelOrbis"
   },
   {
-   "anahtar": "piyasa:58a6686e74ff2a17",
-   "tarih": "2026-11-02",
-   "baslik": "European green flat steel demand remains subdued; construction provides pockets of interest",
-   "url": "https://eurometal.net/european-green-flat-steel-demand-remains-subdued-construction-provides-pockets-of-interest/?utm_source=rss&utm_medium=rss&utm_campaign=european-green-flat-steel-demand-remains-subdued-construction-provides-pockets-of-interest",
-   "kaynak": "EUROMETAL",
-   "lead": "Demand for green steel in Europe remained muted in October, with the construction industry showing some selective interest while interest from the automotive industry softened, according to market participants. A flat steel producer in Northern Europe said there was a lack of buying activity in the "
-  },
-  {
-   "anahtar": "piyasa:a7dffa13a828b745",
-   "tarih": "2026-11-02",
-   "baslik": "EU backs duties on cold-rolled steel from five countries",
-   "url": "https://metallurgprom.org/en/news/europe/22149-eu-backs-duties-on-cold-rolled-steel-from-five-countries.html",
-   "kaynak": "Metallurgprom",
-   "lead": "EU countries voted to impose definitive anti-dumping duties on imports of cold-rolled flat steel from five countries."
-  },
-  {
    "anahtar": "piyasa:380785546277695a",
    "tarih": "2026-11-02",
    "baslik": "Hoa Phat exports 8,000 tons of galvanized steel sheets to Japan, expanding its international market.",
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOa0dIVGQ5Rk9jb09ycmFMSHRkaWlzbngtcmNpX0FIZXNtU2VTNk81d1JyNTdfN2JnV0htakh5VTJybWdENXQ0OTlrN2thdW1qbFdBb21aUy1aV2h0OFdNQ0tzeXRudHZNUXNTVWZQaTAxRFFkMmc3ZmxfTU9ZSzFNdVJqSlFIMzVRQVROT01UWGdVczlZUExUX0RWcVBMTm5kaW5nMg?oc=5",
    "kaynak": "Vietnam.vn",
    "lead": "Hoa Phat exports 8,000 tons of galvanized steel sheets to Japan, expanding its international market. &nbsp;&nbsp; Vietnam.vn"
-  },
-  {
-   "anahtar": "piyasa:2a00d4372823eae3",
-   "tarih": "2026-11-02",
-   "baslik": "SunSirs: Constrained by Costs and Weakened Demand, the Market for Color Coated Sheets Was in a Narrow, Stagnant Range Last Week",
-   "url": "https://www.sunsirs.com/commodity-news/petail-37313.html",
-   "kaynak": "Bing News",
-   "lead": "Price Trends According to the commodity market analysis system of SunSirs, the domestic color coated steel sheet market last week remained ..."
-  },
-  {
-   "anahtar": "piyasa:a283e8550a5387e3",
-   "tarih": "2026-11-01",
-   "baslik": "Flat Steel Gets Cheaper as Aisha Steel Slashes Prices",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZWxxdzhEQ0VkM1djSVdGenZCQkJXa1ZsaXpBVTk5dER1cDhDMGpJVGpNemhESHBOWkhRWDZMNk9XajRPZVZrSFQ4NHljYnVkcjBaOHhwblJSeGF1cThubnRqWVRwcjNsXzk5VmktUzVFOWxfcnRrREdGa1JPMFNXT1JiWFlaU0g3LXfSAYoBQVVfeXFMUGVscXc4RENFZDNXY0lXRnp2QkJCV2tWbGl6QVU5OXREdXA4QzBqSVRqTXpoREhwTlpIUVg2TDZPV2o0T2VWa0hUODR5Y2J1ZHIwWjh4cG5SUnhhdXE4bm50allUcHIzbF85OVZpLVM1RTlsX3J0a0RHRmtSTzBTV09SYlhZWlNINy13?oc=5",
-   "kaynak": "ProPakistani",
-   "lead": "Flat Steel Gets Cheaper as Aisha Steel Slashes Prices &nbsp;&nbsp; ProPakistani"
-  },
-  {
-   "anahtar": "piyasa:3f62c43fbeca3704",
-   "tarih": "2026-10-30",
-   "baslik": "Top Players in the Galvanized Steel Silo Market: Fact MR Forecasts US$2.85 Billion by 2036",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNHZPSHE3Zk1SSjk0WmRuUW5VRGo1b1puaFVEUGhTRTB4M0NvU1B3OHBvbERfUTZvdGVXcURFdDVuV3BMcWY3ZFM5ZF81MUNtY1E4QXdlZ2xKX0RxRWk1NEFLcDduX2V0WjUydmFta3NjcTR0aks3VC00SG5yNEh4OV93cVdiYmVZYUpSQXNjWUIzVUc4WUE?oc=5",
-   "kaynak": "openPR.com",
-   "lead": "Top Players in the Galvanized Steel Silo Market: Fact MR Forecasts US$2.85 Billion by 2036 &nbsp;&nbsp; openPR.com"
   },
   {
    "anahtar": "piyasa:2d22b9537430156d",
@@ -777,30 +790,6 @@
    "lead": "According to export data from the US Department of Commerce, US exports of tin plate totaled 2,804 mt in August this year, down 10.9 percent from July and down 24.0 percent from August 2025. By value, ..."
   },
   {
-   "anahtar": "piyasa:89da757ae315d119",
-   "tarih": "2026-10-23",
-   "baslik": "【SMM Analysis】Silicon Steel Import and Export Performance in September: Imports Surge, Exports Diverge",
-   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPOUIzUXh5eW5meW9EQ1NTUVR1MklVUzVCMEJMNTBqZ05veF8xWFlTYXhGVFRGTGtEX1pwU1lVZkI5cUxWekRxd2Jja0liNF9oblpVWUMwMEpIb2d5Qy14UFZ5aWlfc3pLbWlVSWg3ODEyRU9vcU56SUI3QzlLSWViX1d2dUk2TC1zVGpRMEJiajJ6dTBZa0lSRUp3M3hCTG1vbHpGbmFod3piXzBZaUQ1Ul9TMGFCQUVkbXlBek8xbGlUNXRSTVpWYXNmbXhFa0Y1NDg0alduXzFLa1k?oc=5",
-   "kaynak": "Shanghai Metals Market",
-   "lead": "【SMM Analysis】Silicon Steel Import and Export Performance in September: Imports Surge, Exports Diverge &nbsp;&nbsp; Shanghai Metals Market"
-  },
-  {
-   "anahtar": "piyasa:0504c06b5f9ee32d",
-   "tarih": "2026-10-23",
-   "baslik": "[SMM Weekly Review] Market Sentiment Grows More Cautious; Non-Oriented Silicon Steel Prices Likely to Remain in the Doldrums Next Week",
-   "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNQXZQY2JqRDd5RWFoMVE1aUU0clREd1BYTmlXYnExTkpGUXRIY2ROZzhnYkF3V01rQmJVVC05UUNmOHJkcXBJSUJiVUw2aDlYamg3SUFkQWZBNy1zdTJnMjdIWlhLLVc0cG40ZmF5MUQ1RFRneVpIRk9aY2pJN1BVS3hfczRxbXg0bm5pblk2VlZZOHFKUUVuM2gtbW1ac01yNFIyZlRJNC1GSUJKMnFiUTRrdk1icTVsQ0RXdVVmaEl1Yzh0dEd3TVRNY1RWbjZGRzFiVzJVa0p5MGhfdzMyYWlrZF9nMHlpVmFTZERGUjVmWkt4WWx1QlVBazZFS1NuNlZHemltWQ?oc=5",
-   "kaynak": "Shanghai Metals Market",
-   "lead": "[SMM Weekly Review] Market Sentiment Grows More Cautious; Non-Oriented Silicon Steel Prices Likely to Remain in the Doldrums Next Week &nbsp;&nbsp; Shanghai Metals Market"
-  },
-  {
-   "anahtar": "piyasa:bf2ae0f0e2c552e4",
-   "tarih": "2026-10-22",
-   "baslik": "Apparent consumption of polymer-coated steel is expected to rise by 3% y/y in 2026",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSVBpVEFkSUtKbDhCdjJJbmc5Zm9KUDlELWRvc3BhUzd0eWdOZGtpRFRKUWMzUlRnWERIX29JTjNGaHFNMVFiV0RGYVRtdUtsbFBYNVgwZ21pYVdjNi1abkFzY19JUU96S2lVZzJaY0IwZFl5aTVaN0RSUzUtV0sybTJUZHVDVlliQkg5WE05MkI0aExpSkctZDhJMU9SWERlOFVjbGhzblNlbVB1MFHSAbMBQVVfeXFMTW5EYWptTlR2bnpJVnkwYWpoUnE5a05NQzJ2OVFLU290TWFTSkt3aE1ibmZOSTZTNjVnNHdCRDRWQzZocGNuenUxbm1vNHU1UDFmQm5LalNfV0JtRDBPcU1kemE0Q3lRNjV6cFNrR0NQSmp6T1F1c29yUUk4b0tuQk5Ya1cxbDBNR251OFdrZXRnajhFbUgzUnFETm9POUUyY2xxWGRXaEJFZUIyeVZWZmNsazg?oc=5",
-   "kaynak": "GMK Center",
-   "lead": "Apparent consumption of polymer-coated steel is expected to rise by 3% y/y in 2026 &nbsp;&nbsp; GMK Center"
-  },
-  {
    "anahtar": "piyasa:ff0954b1473979b7",
    "tarih": "2026-10-22",
    "baslik": "Tenova advances electrical steel project in India",
@@ -809,63 +798,31 @@
    "lead": "Tenova advances electrical steel project in India &nbsp;&nbsp; Machinery Market"
   },
   {
+   "anahtar": "piyasa:bf2ae0f0e2c552e4",
+   "tarih": "2026-10-22",
+   "baslik": "Apparent consumption of polymer-coated steel is expected to rise by 3% y/y in 2026",
+   "url": "https://gmk.center/en/news/apparent-consumption-of-polymer-coated-steel-is-expected-to-rise-by-3-y-y-in-2026/",
+   "kaynak": "Bing News",
+   "lead": "In the first three quarters of 2026, the figure stood at 264,000 tonnes, whilst imports totalled 163,500 tonnes ..."
+  },
+  {
    "anahtar": "piyasa:8561001e822ca3e1",
    "tarih": "2026-10-21",
    "baslik": "Cleveland-Cliffs links Stelco layoffs in Canada to galvanized steel imports",
    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObUE5ajFDRGxvNVJGeWtPN3BHc1kwNlZrcVBnckQzRXM3cXFrN3dwSWE1NnJsZkZjRVU3SEliaENoOWMwTHFDRUQ0QXFXRWp6VUVaZDRqSW5YSFZZbmdJODA0MWRvbm12WjVzU1hHa0pLaWJyS01GSjh0T0JjM1llZElfekxxMmJFMTRVNGN5ZlRwd0hOUkpNWjBzMkREdWt5ZE5DekdYbW1ya01CM2stcQ?oc=5",
    "kaynak": "Yieh Corp.",
    "lead": "Cleveland-Cliffs links Stelco layoffs in Canada to galvanized steel imports &nbsp;&nbsp; Yieh Corp."
-  },
-  {
-   "anahtar": "piyasa:9cc6a1bf4fc34aee",
-   "tarih": "2026-10-16",
-   "baslik": "[SMM Analysis] With Few Upside or Downside Catalysts, GO Silicon Steel Prices to Remain Subdued in October",
-   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOZktQR3hjZWZ1WHl1d09PQlRXWlBmb0RMSTNDQUNjVE1WUzkxT1pKVXVKMkJkaEU2aHBpMzNLUmM0N2FCNjI2eUhSdWpkcGc1eXRnOG1WbVMwa25Xd2NjOWdJUmFMQ3h6cXdGVDA0aDZIX1ZldFNVNlpXMjNRSDZyTGVLdXFsOV9ZanpLcWJtM2ZRdFdXYkg2Z1lmNVRCeHNZSVhwb2pmWjZld1RSbjJvc1g4SVRCRHpydkwzUHQ0ck8wbWIzWDFuWHBHTHlnNHlyMGtwWTdkWEM0UzQ4RG56RUJR?oc=5",
-   "kaynak": "Shanghai Metals Market",
-   "lead": "[SMM Analysis] With Few Upside or Downside Catalysts, GO Silicon Steel Prices to Remain Subdued in October &nbsp;&nbsp; Shanghai Metals Market"
-  },
-  {
-   "anahtar": "piyasa:26c8cfbe648bcc7b",
-   "tarih": "2026-10-16",
-   "baslik": "[SMM Analysis] Insufficient Momentum for Change, Grain-Oriented Silicon Steel Prices May Remain in the Doldrums in October",
-   "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQc1ZIVlNDR212c1E2Q1BUWVRXSW1LM1h1dk1oVTV3STVuZTZ5TTd4TjY4MXZNTnhyVjBBREhkOWt4aFVqR3dYd0xDQ2VkZjM2cnBjUHNPRzZvSncwZDFMSFE5c2EwYUIzYjB5Y2JNSXdYejBkbHlzb0toQ2Y0QWFjTUZDOWpqYjlWOW94YW0xeXpvNVJMSm1aRllHVDJYZ2N5LUVQdXVJRUpmd2U0YTYyb2JHSXFEMlp3VFNvVW1NUUZoNXNaREM4OHVFTXhGTHI1dVVqeVpuRFBGbmJUMTBTVVV0RWVhdWU2ekRjUkliSExaaF91d1Fv?oc=5",
-   "kaynak": "Shanghai Metals Market",
-   "lead": "[SMM Analysis] Insufficient Momentum for Change, Grain-Oriented Silicon Steel Prices May Remain in the Doldrums in October &nbsp;&nbsp; Shanghai Metals Market"
-  },
-  {
-   "anahtar": "piyasa:7028f5fe092413a8",
-   "tarih": "2026-10-16",
-   "baslik": "[SMM Weekly Summary] Weak Demand and Flat Baowu Pricing Policy May Keep Grain-Oriented Silicon Steel Prices in the Doldrums Next Week",
-   "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQVGVJbXlnVGZUenk3ZV9DU1BHTnQ4UEZERi1QX1owN3B2bDV3RlI3REFIQjFoOGZSSXI5YmJmUUtPNC1rQWFyS0xYNXRuTFBzazdqa1hwb1FhVjBQRWV6UXBnWk43WGlDUkhJYi1YM014MkVFT3B0Q09fWkk0RlBIaUVTRTJDMEdTUXBPLTNsa1FfX0ZmSHVkVGoxX3NuaXdmWUxYbUVrZTJHT3k2ZTZEQW51RkZzTE5QVEY5TG1Ocm5IU2ZQOHNEWGVLQk1ZbUxSYVVQTkpXWmNPUldQZnhRX2twQkhMcmxTWXgzV1p3UGVMMzE0ck9HMHVweTd3RG9OSEZrWFBhdw?oc=5",
-   "kaynak": "Shanghai Metals Market",
-   "lead": "[SMM Weekly Summary] Weak Demand and Flat Baowu Pricing Policy May Keep Grain-Oriented Silicon Steel Prices in the Doldrums Next Week &nbsp;&nbsp; Shanghai Metals Market"
-  },
-  {
-   "anahtar": "piyasa:fa4a15cbca9b49ce",
-   "tarih": "2026-10-16",
-   "baslik": "[SMM Analysis]Mills hike prices on weak demand; non-oriented silicon steel may firm then steady in Oct",
-   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPMkZ2bDh6LUFsNmRyRWZVbV84Q1JLTjhuUW5xQVRrcXpCTjBMZDVOcHk5VHVpZkNuS2Rkcmh0OHZCYktKUUpycENYM3BlSjVybWZEMl9zbU5lSm40VGhxRnpKNHNNUldGb2tFSWE1Q19kaWJldnUwYk53ZjVZTGs4NDBtTGRGVDdDckFsYVB1c0VHMmVzeFdLR3RNWHJmSUxGSGVKdS1WSWQ0RUc0UTg2S0h0TkpxakhSSDRIa3ZTT1UzdDJPMDJUUzJxd2dwWmg5X0d3RWZpb3d5cUUt?oc=5",
-   "kaynak": "Shanghai Metals Market",
-   "lead": "[SMM Analysis]Mills hike prices on weak demand; non-oriented silicon steel may firm then steady in Oct &nbsp;&nbsp; Shanghai Metals Market"
-  },
-  {
-   "anahtar": "piyasa:7d13db7cc8732fd4",
-   "tarih": "2026-10-15",
-   "baslik": "[SMM Weekly Summary] Post-Holiday Demand Falls Short of Expectations; Grain-Oriented Silicon Steel Prices May Remain in the Doldrums Next Week",
-   "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNMFBtS2tORS1xbUVuSFF4YnJjMFJxcVZ4aEYxSjZ6YmcyLWdXT0lucWRDSENaN09SWDQ4bnZNQURGSUVNX2JPMVR1NTJiWXNIWG5BNE1YaG9VNDVDX19sMDRIT3dJdEo0S1MzUUtaUU9DQm5LYVpoMXphYzR2bHo3ODRNNllfS3pqYkh6MS1ucnpMVmIyWUJqTTU1RVFrVkRfRFN5SXFZZlJDa1pEVnNEU0Z0TlM3aG5LTjJZNWhBT0xGQTl4bGYyNkxNWEM3QmMxcjRnTUk1a3lHNFh4WUd4OEEycjFfZEhQS2ZDVWlSZzZqUjM3QzJKSU9DOTlqTmRjaVptVEtFRmtQZ2hZSjRIR0Zn?oc=5",
-   "kaynak": "Shanghai Metals Market",
-   "lead": "[SMM Weekly Summary] Post-Holiday Demand Falls Short of Expectations; Grain-Oriented Silicon Steel Prices May Remain in the Doldrums Next Week &nbsp;&nbsp; Shanghai Metals Market"
   }
  ],
  "window": [
-  "2026-10-14",
-  "2026-11-04"
+  "2026-10-15",
+  "2026-11-05"
  ],
  "bulunan_kullanilan": 0,
  "bulunan_havuz": 9,
- "rezerv_kullanilan": 1,
- "rezerv_havuz": 60,
+ "rezerv_kullanilan": 0,
+ "rezerv_havuz": 64,
  "period": "2026-W45",
- "generated": "2026-11-04 11:11 UTC",
+ "generated": "2026-11-05 11:04 UTC",
  "version": "3.0.0"
 }

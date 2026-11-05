@@ -1,6 +1,89 @@
 {
  "bulunan": [
   {
+   "anahtar": "8cdc84758f7bfd38",
+   "asama": "Ilk urun",
+   "baslik": "【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】纽柯(Nucor)与普锐特冶金技术(Primetals Technologies)已在纽柯位于南卡罗来纳州伯克利县的板材厂新建连续镀锌线(CGL)上产出首卷优质卷板,标志着该产线完成调试阶段。普锐特与CLECIM…",
+   "eksik": [
+    "firma"
+   ],
+   "firma": "",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "SMM (Shanghai Metals)",
+   "kaynak_id": "smm",
+   "lead": "[SMM Announcement] SMM to Launch Southern Vietnam Rebar and Wire Rod Price Points Metrix Announcements About Us Careers Download App Sign In EN Markets Industry Data Center News and Reports Events Methodology Subscribe 【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】 Published : Nov 05, 2026 16:28 (GMT+8) Share Share Save 纽柯(Nucor)与普锐特冶金技术(Primetals Technologies)已在纽柯位于南卡罗来纳州伯克利县的板材厂新建连续镀锌线(CGL)上产出首卷优质卷板,标志着该产线完成调试阶段。普锐特与CLECIM SAS合",
+   "olaylar": [
+    "*|ulke-hat|Vietnam|Galvaniz hatti (CGL)|Ilk urun",
+    "primetals|fu|Vietnam|Galvaniz hatti (CGL)",
+    "primetals|hat|Galvaniz hatti (CGL)|Ilk urun",
+    "primetals|ulke|Vietnam|Ilk urun"
+   ],
+   "puan": 63.0,
+   "tarih": "2026-11-05",
+   "tarih_kaynagi": "json-ld",
+   "tedarikci": "Primetals",
+   "tutar": "",
+   "ulke": "Vietnam",
+   "url": "https://news.metal.com/en/newscontent/104207357-%E7%BA%BD%E6%9F%AF%E5%9C%A8%E5%8D%97%E5%8D%A1%E7%BD%97%E6%9D%A5%E7%BA%B3%E5%B7%9E%E6%96%B0%E5%BB%BA50%E4%B8%87%E5%90%A8%E5%B9%B4%E6%B1%BD%E8%BD%A6%E6%9D%BF%E9%95%80%E9%94%8C%E7%BA%BF%E4%BA%A7%E5%87%BA%E9%A6%96%E5%8D%B7%E4%BC%98%E8%B4%A8%E5%8D%B7%E6%9D%BF"
+  },
+  {
+   "anahtar": "953d55052b959bff",
+   "asama": "Ilk urun",
+   "baslik": "ANDRITZ commissions second acid regeneration plant for JSW Steel Coated Products",
+   "eksik": [
+    "ulke",
+    "tarih?"
+   ],
+   "firma": "JSW Steel Coated Products",
+   "hat": "Asit rejenerasyonu (ARP)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Andritz Metals",
+   "kaynak_id": "andritz",
+   "lead": "Skip to main content en English Deutsch Site directory Newsroom Menu Search en English Deutsch Site directory Newsroom Menu Search Annual Report 2025 published Turning progress into industrial impact. FOR GROWTH THAT MATTERS. Discover more ANDRITZ GROUP ANDRITZ GROUP Newsroom Careers Sustainability OUR BUSINESS AREAS PULP & PAPER METALS HYDROPOWER ENVIRONMENT & ENERGY MORE ANDRITZ SOLUTIONS Automation Cyber security ",
+   "olaylar": [
+    "andritz|hat|Asit rejenerasyonu (ARP)|Ilk urun",
+    "jsw steel coated products|hat|Asit rejenerasyonu (ARP)|Ilk urun"
+   ],
+   "puan": 62.5,
+   "tarih": "2026-11-05",
+   "tarih_kaynagi": "url",
+   "tedarikci": "Andritz",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://www.andritz.com/newsroom-en/metals/2026-11-05-jsw-group"
+  },
+  {
+   "anahtar": "90e30cb4756c40e2",
+   "asama": "Ilk urun",
+   "baslik": "【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】",
+   "eksik": [
+    "firma",
+    "ulke",
+    "hat",
+    "tarih?"
+   ],
+   "firma": "",
+   "hat": "Belirsiz",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "SMM (Shanghai Metals)",
+   "kaynak_id": "smm",
+   "lead": "",
+   "olaylar": [
+    "|hat|Belirsiz|Ilk urun"
+   ],
+   "puan": 47.0,
+   "tarih": "2026-11-05",
+   "tarih_kaynagi": "liste",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.metal.com/en/newscontent/104207357-纽柯在南卡罗来纳州新建50万吨年汽车板镀锌线产出首卷优质卷板"
+  },
+  {
    "anahtar": "81220ff3171fedb4",
    "asama": "Sozlesme",
    "baslik": "Hindustan Zinc Expands Value-Added Zinc Product Offerings with Next-Gen Alloys ‘VedAZ’ & ‘VedAyush’ for the Galvanizing Industry",
@@ -376,7 +459,7 @@
  },
  "gb_form_sayac": {
   "3b181632bc+": 3,
-  "3b181632bc-": 2,
+  "3b181632bc-": 3,
   "3ffa8c22f8+": 1,
   "3ffa8c22f8-": 1,
   "490fe88208+": 3,
@@ -387,21 +470,21 @@
   "57d5af2902-": 3,
   "65ac0bac8b+": 3,
   "65ac0bac8b-": 3,
-  "7364bc7da3+": 2,
-  "86bf58fb6c+": 2,
-  "990a90d18e+": 2,
+  "7364bc7da3+": 3,
+  "86bf58fb6c+": 3,
+  "990a90d18e+": 3,
   "9f687e6101+": 1,
   "9f687e6101-": 1,
   "a06acce312+": 2,
   "a8d95ebe8d+": 3,
-  "aa7adc9b79+": 2,
+  "aa7adc9b79+": 3,
   "aa7adc9b79-": 3,
   "b1114a2a22+": 1,
   "b1114a2a22-": 1,
   "b1400796e4+": 1,
   "b1400796e4-": 1,
   "bfab4a70f8+": 3,
-  "bfab4a70f8-": 2,
+  "bfab4a70f8-": 3,
   "f2174b9e9a+": 3,
   "testkod000+": 3
  },
@@ -2126,6 +2209,24 @@
     "tekrar": 35
    },
    "uretim": "2026-11-04 11:11 UTC"
+  },
+  {
+   "donem": "2026-W45",
+   "satir": 8,
+   "stats": {
+    "erisilemeyen": 8,
+    "gnews_tarih": 0,
+    "ham": 3905,
+    "kabul": 11,
+    "kapsam_disi": 3475,
+    "kaynak": 315,
+    "makale_acildi": 230,
+    "on_eleme_gecti": 433,
+    "pencere_disi": 268,
+    "tarihsiz_elendi": 104,
+    "tekrar": 47
+   },
+   "uretim": "2026-11-05 11:04 UTC"
   }
  ],
  "piyasa_rezerv": [
@@ -2144,6 +2245,14 @@
    "lead": "EU electrical steel safeguards threaten transformer makers, 26 MEPs warn &nbsp;&nbsp; Shanghai Metals Market",
    "tarih": "2026-11-04",
    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeFJzNERMdlNXNzlwdnJ2UnlaY3pZZm5fTHFZVmxyeHVaaGI3eHBHU0oyeUdGUlhUX1k1NG0xVTYxTExSVFp6d1BBYWpTaG9kWHd0UXk3c05lWGFkaHhKUmZQRnM0cHRCZVJBcmRlS0NNdnRkdGE3SzVvVlp1TXV0dVZVRktWNHdUNEJGeEY4Zm9HaHkzaXJqLWhBTjNDU2UyU0dLTC04Y3JrM3Y0anUzWndyX1QxeDA?oc=5"
+  },
+  {
+   "anahtar": "piyasa:c8d598485ca4f420",
+   "baslik": "India HRC and CRC prices rise w-o-w; festive slowdown limits further gains",
+   "kaynak": "BigMint",
+   "lead": "India HRC and CRC prices rise w-o-w; festive slowdown limits further gains &nbsp;&nbsp; BigMint",
+   "tarih": "2026-11-04",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNU1JhT1o1ZTBKOUlJaG55b2xBUGM5cEp4aUU1aGc3cHdHcXVVMmJVSVNZRHNBeFR2Rm40bjhHemZaZS1JY1pWWHpOWTU5MFpWUUZkd0F5Ujd1VFd6b0U3Z3FXNDJPTFQ3cXpLVHItbW9JM096aGV1dUVITWlfRWV0UWp3d093N1p1OXdjaXVITlFELUktajVhZTJ4SXQwa2EwSGFKcVFub2MwOUVNQ2FqeEptYTQ4c0lUME1V?oc=5"
   },
   {
    "anahtar": "piyasa:58a6686e74ff2a17",
@@ -2248,6 +2357,35 @@
   "piyasa:db67f98fb4dd717b": "2026-11-02"
  },
  "rezerv": [
+  {
+   "anahtar": "ea581249119e5a4e",
+   "asama": "Ilk urun",
+   "baslik": "BlueScope produces first galvanized coil on new ANDRITZ line in Australia",
+   "eksik": [],
+   "firma": "BlueScope",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_sup03",
+   "lead": "Austria-based technology group ANDRITZ has announced that Australian steelmaker BlueScope Steel's new continuous galvanizing line in Sydney, Australia, has produced its first galvanized coil, marking ...",
+   "olaylar": [
+    "*|ulke-hat|Avustralya|Galvaniz hatti (CGL)|Ilk urun",
+    "andritz|fu|Avustralya|Galvaniz hatti (CGL)",
+    "andritz|hat|Galvaniz hatti (CGL)|Ilk urun",
+    "andritz|ulke|Avustralya|Ilk urun",
+    "bluescope|fu|Avustralya|Galvaniz hatti (CGL)",
+    "bluescope|hat|Galvaniz hatti (CGL)|Ilk urun",
+    "bluescope|ulke|Avustralya|Ilk urun"
+   ],
+   "rezerv": true,
+   "tarih": "2026-10-14",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "Andritz",
+   "tutar": "",
+   "ulke": "Avustralya",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/bluescope-produces-first-galvanized-coil-on-new-andritz-line-in-australia-1483504.htm"
+  },
   {
    "anahtar": "7ca54be6061ea324",
    "asama": "Belirsiz",
@@ -2849,6 +2987,32 @@
    "url": "https://www.andritz.com/newsroom-en/metals/2026-08-25-jsw-steel-group"
   },
   {
+   "anahtar": "fb51c908b538f5ec",
+   "asama": "Belirsiz",
+   "baslik": "Roofings Unveils $125m Steel Mill, Doubles Cold-Rolled Capacity to 300,000 Tonnes",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "firma": "Roofings",
+   "hat": "Soguk hadde",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "SoftPower News",
+   "kaynak_id": "gtek_cold",
+   "lead": "Roofings Unveils $125m Steel Mill, Doubles Cold-Rolled Capacity to 300,000 Tonnes &nbsp;&nbsp; SoftPower News",
+   "olaylar": [
+    "roofings|hat|Soguk hadde|Belirsiz"
+   ],
+   "rezerv": true,
+   "tarih": "2026-08-25",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "$125m",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRWp3TW5taXBCVU10X0pUNE1UTEwtS0VQc2t2aXhPczd4alM3cERaWFN5Tmx0dnhycURTTG5wUWRKOHphSXhpQmNqWWNJTGtLakNVUnNsYkQ3alB6THRxVDVEaFp1M1l1VEpRUHVPQ2xHZ216TkVVNXVid24weWRrUmM4cS01Smp1aE5taFdjRjVxWVlqcWxidl81T1ljeF9WdUE?oc=5"
+  },
+  {
    "anahtar": "8f6043a18acdc49f",
    "asama": "Modernizasyon",
    "baslik": "Primetals Technologies to Modernize PLTCM for KG Steel in South Korea",
@@ -3206,6 +3370,31 @@
    "tutar": "",
    "ulke": "",
    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWENTOUgzZFMzQjhaRlJnWmdEY3RMVmhLR25rYnFHd1JrLTQtRDJ3NVZvWTN6UjN2QUpfVXBuM1c5QklYQlNJYUQwY1pVdjhKb19xTEZXX3NRYmZNUVRyVEFuX3RNSm15N3ZrWm5nTm1XMExRUDBpVElLQ0Z2dzFjcmRkQ0xva1ktQTJZTlRnemg0NzVsZ3pUVGNUT3YyNGYweXdVRUdZdVpDX2ZEY19PdGlB?oc=5"
+  },
+  {
+   "anahtar": "198c2819272298dd",
+   "asama": "Sozlesme",
+   "baslik": "Effwa Infra jumps after securing ₹44 Cr JSW JFE Electrical Steel order for Zero Liquid Discharge project",
+   "eksik": [
+    "ulke"
+   ],
+   "firma": "Zero Liquid Discharge",
+   "hat": "Elektrik celigi hatti",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Trade Brains",
+   "kaynak_id": "gtek_yenilik2",
+   "lead": "Effwa Infra jumps after securing ₹44 Cr JSW JFE Electrical Steel order for Zero Liquid Discharge project &nbsp;&nbsp; Trade Brains",
+   "olaylar": [
+    "zero liquid discharge|hat|Elektrik celigi hatti|Sozlesme"
+   ],
+   "rezerv": true,
+   "tarih": "2026-07-03",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNYXdPZVRxTkFqeXg1LU1TV3o1YTUwS2VnelZ2c1VCS3ZoZzJhNWxXOFJIdHBSekRGRXZvRnUwYVZLMTV6dnMwRUlMU3dvSm1CZUtWWUtjbHJUczRiVXdGSlVqNGlQVDlvSGNXWGpaZkF6UzZQMVpUb2tyeC14N1gzdXlGbUdnTk5KRUJIbjBjbE5FeDJjUGlGS2pJVTV0eldrSWM0aVgzXzJhQ0kzRFNoM3h1WjZKaUhDVUgtSFFtdkZNM3BNUFE?oc=5"
   },
   {
    "anahtar": "32492387471c43f5",
@@ -4012,6 +4201,14 @@
    "kaynak": "SteelOrbis",
    "tarih": "2026-08-20",
    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxONTQ5NWhFSl9fd0xXVTk3UjNhakc1NE5XYUJfQWdkdEJGUV9FeUZhakVKdERZRWJUZjg2ck5yM0Nlb0JmU3FvczJQdGZhYy1CdVduWDBjdXJxX25ZY3duOENieFhTUzQzTGsxWDg4ZjJTaTFJSzd4UXdyNTd3VWtBaEFoeHBvZ0g1Y2htVlRScFB2Q3pEV0NubFdjdzdIbnYwbVJjRHdHYWpvS3NlUW1jNmM1bU05Y3J2Mk9RMlVuamFwRl9XQkpwWDhDUm5LVzBUYUEzUjFnNzhHZkdTbnc?oc=5"
+  },
+  {
+   "anahtar": "tech:784bcc674542a655",
+   "baslik": "Five Leading Silicon Steel Manufacturers in China 2026: Powering the Future of Electrical Steel Innovation",
+   "hat": "Elektrik celigi hatti",
+   "kaynak": "The Des Moines Register",
+   "tarih": "2026-08-19",
+   "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPa2NMZVhHZGxOTTRDYUltajd6QW4tRVZBNlpid1BlUWNxVkx5YjlRaWNZQkJfS1dVNURTSEF3OS1xWDRvMEZ1QWZtcjN6bVRrVzQ1UUdhM00tY0dtODY1T0FBQUtVWktkZ25Ra1VmLVVmbUVtTGtoWTM2ZUJTaE1hdzdCV0pfX1drSC1XazlST3lEcmM1Z2N5d2FZWjhXRVFKamdaYTFwSVJCZmpYTGpqN3p6Y3ZObS1oaTRuTmhudmRLUUVMbm4wYUIyYWxzY1E2SmxzbnlqR0dPZE9aMTBQbkw4Q2ZTN3FiT0p2cU5qOWVVR1FaeEpNQzltZw?oc=5"
   },
   {
    "anahtar": "tech:28459cdd0c32da5c",
