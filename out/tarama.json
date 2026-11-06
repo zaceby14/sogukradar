@@ -1,32 +1,56 @@
 {
  "rows": [
   {
-   "tarih": "2026-11-05",
-   "firma": "",
-   "ulke": "Vietnam",
+   "tarih": "2026-11-04",
+   "firma": "Nucor",
+   "ulke": "ABD",
    "hat": "Galvaniz hatti (CGL)",
    "asama": "Ilk urun",
    "tedarikci": "Primetals",
    "kapasite": "",
    "tutar": "",
-   "baslik": "【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】纽柯(Nucor)与普锐特冶金技术(Primetals Technologies)已在纽柯位于南卡罗来纳州伯克利县的板材厂新建连续镀锌线(CGL)上产出首卷优质卷板,标志着该产线完成调试阶段。普锐特与CLECIM…",
-   "kaynak": "SMM (Shanghai Metals)",
-   "kaynak_id": "smm",
-   "url": "https://news.metal.com/en/newscontent/104207357-%E7%BA%BD%E6%9F%AF%E5%9C%A8%E5%8D%97%E5%8D%A1%E7%BD%97%E6%9D%A5%E7%BA%B3%E5%B7%9E%E6%96%B0%E5%BB%BA50%E4%B8%87%E5%90%A8%E5%B9%B4%E6%B1%BD%E8%BD%A6%E6%9D%BF%E9%95%80%E9%94%8C%E7%BA%BF%E4%BA%A7%E5%87%BA%E9%A6%96%E5%8D%B7%E4%BC%98%E8%B4%A8%E5%8D%B7%E6%9D%BF",
-   "tarih_kaynagi": "json-ld",
-   "lead": "[SMM Announcement] SMM to Launch Southern Vietnam Rebar and Wire Rod Price Points Metrix Announcements About Us Careers Download App Sign In EN Markets Industry Data Center News and Reports Events Methodology Subscribe 【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】 Published : Nov 05, 2026 16:28 (GMT+8) Share Share Save 纽柯(Nucor)与普锐特冶金技术(Primetals Technologies)已在纽柯位于南卡罗来纳州伯克利县的板材厂新建连续镀锌线(CGL)上产出首卷优质卷板,标志着该产线完成调试阶段。普锐特与CLECIM SAS合",
+   "baslik": "Nucor Begins Production on Primetals Technologies-Supplied CGL",
+   "kaynak": "Clecim",
+   "kaynak_id": "gs_aist",
+   "url": "https://www.clecim.com/nucor_first_coil/",
+   "tarih_kaynagi": "rss",
+   "lead": "Nucor Begins Production on Primetals Technologies-Supplied CGL &nbsp;&nbsp; AIST Association for Iron & Steel Technology",
    "eksik": [
-    "firma"
+    "ulke"
    ],
-   "anahtar": "8cdc84758f7bfd38",
+   "anahtar": "d083fd260733cebf",
    "kategori": "Hat",
    "olaylar": [
-    "*|ulke-hat|Vietnam|Galvaniz hatti (CGL)|Ilk urun",
-    "primetals|fu|Vietnam|Galvaniz hatti (CGL)",
+    "nucor corporation|fu|ABD|Galvaniz hatti (CGL)",
+    "nucor corporation|hat|Galvaniz hatti (CGL)|Belirsiz",
+    "nucor corporation|ulke|ABD|Belirsiz",
+    "nucor steel berkeley|hat|Galvaniz hatti (CGL)|Ilk urun",
+    "nucor|hat|Galvaniz hatti (CGL)|Ilk urun",
+    "primetals|fu|ABD|Galvaniz hatti (CGL)",
+    "primetals|hat|Galvaniz hatti (CGL)|Belirsiz",
     "primetals|hat|Galvaniz hatti (CGL)|Ilk urun",
-    "primetals|ulke|Vietnam|Ilk urun"
+    "primetals|ulke|ABD|Belirsiz"
    ],
-   "puan": 63.0
+   "puan": 62.2,
+   "ilgili": [
+    {
+     "baslik": "Nucor Steel Berkeley produces its first coil on the new Continuous Galvanizing Line",
+     "url": "https://www.clecim.com/nucor_first_coil/",
+     "kaynak": "Clecim",
+     "tarih": "2026-11-04"
+    },
+    {
+     "baslik": "New continuous galvanising line for Nucor Corporation",
+     "url": "https://www.steeltimesint.com/news/new-continuous-galvanising-line-for-nucor-corporation",
+     "kaynak": "Steel Times International",
+     "tarih": "2026-11-06"
+    }
+   ],
+   "kume_anahtarlari": [
+    "d083fd260733cebf",
+    "9084e2ca3c770e78",
+    "6ba68310a71973b4"
+   ]
   },
   {
    "tarih": "2026-11-05",
@@ -53,7 +77,7 @@
     "andritz|hat|Asit rejenerasyonu (ARP)|Ilk urun",
     "jsw steel coated products|hat|Asit rejenerasyonu (ARP)|Ilk urun"
    ],
-   "puan": 62.5
+   "puan": 62.1
   },
   {
    "tarih": "2026-11-04",
@@ -78,85 +102,35 @@
    "olaylar": [
     "hindustan zinc|hat|Galvaniz hatti (CGL)|Sozlesme"
    ],
-   "puan": 61.6
+   "puan": 61.2
   },
   {
-   "tarih": "2026-11-04",
-   "firma": "Nucor Steel Berkeley",
-   "ulke": "",
-   "hat": "Galvaniz hatti (CGL)",
-   "asama": "Ilk urun",
-   "tedarikci": "",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "Nucor Steel Berkeley produces its first coil on the new Continuous Galvanizing Line",
-   "kaynak": "Clecim",
-   "kaynak_id": "clecim",
-   "url": "https://www.clecim.com/nucor_first_coil/",
-   "tarih_kaynagi": "meta:article:published_time",
-   "lead": "Skip to content Linkedin FR Search for: About us Compliance Professional Gender Equality QSE safety policy Services Spares SIAS Catalog Options SIAS Catalog Training SIAS Catalog Products Lines Consulting Partners References Conferences Careers News Contact us Search for: About us Compliance Professional Gender Equality QSE safety policy Services Spares SIAS Catalog Options SIAS Catalog Training SIAS Catalog Products",
-   "eksik": [
-    "ulke"
-   ],
-   "anahtar": "9084e2ca3c770e78",
-   "kategori": "Hat",
-   "olaylar": [
-    "nucor steel berkeley|hat|Galvaniz hatti (CGL)|Ilk urun"
-   ],
-   "puan": 59.6
-  },
-  {
-   "tarih": "2026-10-20",
-   "firma": "Fives",
-   "ulke": "",
-   "hat": "Galvaniz hatti (CGL)",
-   "asama": "Modernizasyon",
-   "tedarikci": "Fives",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "Fives revamps Lusosider galvanizing line",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgq_sup06",
-   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/fives-revamps-csn-lusosider-galvanizing-line-1118/",
-   "tarih_kaynagi": "rss",
-   "lead": "",
-   "eksik": [
-    "ulke"
-   ],
-   "anahtar": "20b338e9e87b0de6",
-   "kategori": "Hat",
-   "olaylar": [
-    "fives@lusosider|hat|Galvaniz hatti (CGL)|Modernizasyon"
-   ],
-   "puan": 48.1
-  },
-  {
-   "tarih": "2026-11-05",
+   "tarih": "2026-11-03",
    "firma": "",
-   "ulke": "",
+   "ulke": "ABD",
    "hat": "Belirsiz",
-   "asama": "Ilk urun",
+   "asama": "Sozlesme",
    "tedarikci": "",
    "kapasite": "",
-   "tutar": "",
-   "baslik": "【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】",
-   "kaynak": "SMM (Shanghai Metals)",
-   "kaynak_id": "smm",
-   "url": "https://news.metal.com/en/newscontent/104207357-纽柯在南卡罗来纳州新建50万吨年汽车板镀锌线产出首卷优质卷板",
-   "tarih_kaynagi": "liste",
-   "lead": "",
+   "tutar": "$1.9 billion",
+   "baslik": "$1.9 billion US Steel plant to supply Arkansas furnaces",
+   "kaynak": "Furnaces International",
+   "kaynak_id": "furnacesint",
+   "url": "https://furnaces-international.com/news/1-9-billion-us-steel-plant-to-supply-arkansas-furnaces",
+   "tarih_kaynagi": "json-ld",
+   "lead": "Home News Features Events Upcoming events Directory Issues Latest Issue Issue Archive Media Pack Furnaces Media Pack Subscribe Publications Contact Us $1.9 billion US Steel plant to supply Arkansas furnaces Published 3rd November, 2026 by Hannah King The investment will create approximately 200 full-time jobs and an estimated 2,000 construction jobs at peak. US Steel has broken ground on a $1.9 billion direct reduced",
    "eksik": [
     "firma",
-    "ulke",
-    "hat",
-    "tarih?"
+    "hat"
    ],
-   "anahtar": "90e30cb4756c40e2",
+   "anahtar": "71b020c404ac2ebb",
    "kategori": "Hat",
    "olaylar": [
-    "|hat|Belirsiz|Ilk urun"
+    "|fu|ABD|Belirsiz",
+    "|hat|Belirsiz|Sozlesme",
+    "|ulke|ABD|Sozlesme"
    ],
-   "puan": 47.0
+   "puan": 54.8
   },
   {
    "tarih": "2026-11-03",
@@ -182,49 +156,53 @@
    "olaylar": [
     "kirac galvaniz|hat|Galvaniz hatti (CGL)|Teknoloji"
    ],
-   "puan": 15.7
+   "puan": 15.3
   },
   {
-   "tarih": "2026-11-02",
-   "firma": "Rotherham steel firm",
+   "tarih": "2026-11-03",
+   "firma": "Steel firm",
    "ulke": "",
    "hat": "Elektrik celigi hatti",
    "asama": "Belirsiz",
    "tedarikci": "",
    "kapasite": "",
    "tutar": "£160",
-   "baslik": "Rotherham steel firm goes greener with £160K investment in panels and batteries",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgq_sup02",
-   "url": "https://www.msn.com/en-gb/money/general/rotherham-steel-firm-goes-greener-with-160k-investment-in-panels-and-batteries/ar-AA2gEidN",
+   "baslik": "Steel firm goes greener with £160K investment in panels and batteries",
+   "kaynak": "Rotherham Advertiser",
+   "kaynak_id": "gq_sup02",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxObmV1anZVdzM4U3dqR1NxNkozTlNEalFEV19HTWVhR2dvcThLU2hWVmRzOFF4R1MwMTZ5aXNyNklyamhzYThyc0F2alpvNXdycFhGNUk4Ti0zWmFBLVRGakF2QmpEWGpPTjB2bnBMUzFGQnJOM3dTWThSbEtsTXlReUtkcm55TUVTZWl5Z2hHN3lYRy04WDlRNENqbFpRRHFYNDUyeDM4UmV0dlhHRURKU2luV1ZRVWNaMExnbl9QVTgzOGdQVUJtMzN3?oc=5",
    "tarih_kaynagi": "rss",
-   "lead": "‘We recognise the importance of taking practical steps to reduce emissions’ ...",
+   "lead": "Steel firm goes greener with £160K investment in panels and batteries &nbsp;&nbsp; Rotherham Advertiser",
    "eksik": [
     "ulke",
     "asama"
    ],
-   "anahtar": "872b860afdafbe17",
+   "anahtar": "d75a93c69169a293",
    "kategori": "Yatirim",
    "olaylar": [
-    "rotherham steel firm|hat|Elektrik celigi hatti|Belirsiz"
+    "steel firm|hat|Elektrik celigi hatti|Belirsiz"
    ],
-   "puan": 11.8
+   "puan": 10.3
   }
  ],
  "stats": {
   "kaynak": 315,
-  "erisilemeyen": 8,
-  "ham": 3905,
-  "on_eleme_gecti": 433,
-  "makale_acildi": 230,
-  "tarihsiz_elendi": 104,
-  "pencere_disi": 268,
-  "kapsam_disi": 3475,
-  "tekrar": 47,
-  "kabul": 11,
+  "erisilemeyen": 6,
+  "ham": 3984,
+  "on_eleme_gecti": 436,
+  "makale_acildi": 228,
+  "tarihsiz_elendi": 109,
+  "pencere_disi": 271,
+  "kapsam_disi": 3545,
+  "tekrar": 51,
+  "kabul": 8,
   "gnews_tarih": 0
  },
  "unreachable": [
+  [
+   "Danieli",
+   "HTTP 403"
+  ],
   [
    "SMS group",
    "HTTP 403"
@@ -234,28 +212,16 @@
    "HTTP 429"
   ],
   [
-   "ArcelorMittal",
-   "HTTP 403"
-  ],
-  [
    "Steel Radar",
    "HTTP 403"
   ],
   [
+   "SteelGuru",
+   "URLError: <urlopen error timed out>"
+  ],
+  [
    "BigMint (SteelMint)",
    "HTTP 403"
-  ],
-  [
-   "MetalMiner",
-   "HTTP 403"
-  ],
-  [
-   "Furnaces International",
-   "HTTP 403"
-  ],
-  [
-   "MetalForming Magazine",
-   "HTTP 404"
   ]
  ],
  "kinds": {
@@ -575,7 +541,7 @@
   "bgtek_jc": "arama",
   "bgtek_danieli": "arama"
  },
- "today": "2026-11-05",
+ "today": "2026-11-06",
  "host_saglik": {
   "news.google.com": {
    "istek": 123,
@@ -592,15 +558,10 @@
    "hiz_siniri": 0,
    "sogutmada": false
   },
-  "new.abb.com": {
-   "istek": 3,
-   "hiz_siniri": 2,
-   "sogutmada": true
-  },
   "www.cognex.com": {
    "istek": 2,
    "hiz_siniri": 2,
-   "sogutmada": true
+   "sogutmada": false
   }
  },
  "tech_pool": [
@@ -634,6 +595,14 @@
    "baslik": "ArcelorMittal commits €300 million to Dunkirk steel project, targets spring 2027 tests for new line in Mardyck",
    "url": "https://www.steelorbis.com/steel-news/latest-news/arcelormittal-advances-dunkirk-eaf-and-mardyck-electrical-steel-projects-1483903.htm",
    "kaynak": "Bing News",
+   "hat": "Elektrik celigi hatti"
+  },
+  {
+   "anahtar": "tech:21b8b17f2932d529",
+   "tarih": "2026-10-13",
+   "baslik": "Ten Reputable Electrical Steel Companies in China 2026: Advancing Motor Efficiency and Industrial Performance",
+   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPM3lUSXRjSHE2UURUTjB1NHppTTl4RnlLa3dnYlFxSG02WFBQd2tIYmt1UXpVbElhQVBtSEUtZTRZeW5SMkJHMjV5NzY5WlpmbHNtZWtFdy1KTlhTSzlXVmlOMWJ3Ymphc29aZXZwbWtvMDVWWm1oUF94NERtUEZ3WUhoOGRHcThacFRzRTlEUjBqempXRzNRTV9QZFdfUFBmVmtQLWJqQng4RGhuc0FKaFYtdUZoXzNlSDB6S2NBd19nVGx6LTVVNnlKT1RNcWJkNkN3VjRNSGV1RUM1VVU1NC1YZDNIZ3JObE8ySC0wVTFVYndZZFE?oc=5",
+   "kaynak": "The Tennessean",
    "hat": "Elektrik celigi hatti"
   },
   {
@@ -691,31 +660,25 @@
    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNVV0U1otMkFRbUphNHRvMDBVdWFEVjVKN0FYV2tNdWZhWVB0TldhN0QxeDJtLU51ci1CLVFid0NTT21DSFVCMmw3a2ZyUTB6YUxkQ1hmcGZ5T05pOUdLbUxjMDdTX2IyZ0tfdnZaSVA5aW41dHhURFpvZUJKbUxiVDBjTUNCMXdfLUJIMXdsdl9VNktxeXVDeFlyNThjZHFXVUJwRXctZTJuWjduaEE3NFBmclFyYTdMNzNzM2lR?oc=5",
    "kaynak": "electrive.com",
    "hat": "Elektrik celigi hatti"
-  },
-  {
-   "anahtar": "tech:598247fd0170db4b",
-   "tarih": "2026-07-07",
-   "baslik": "POSCO and Hyundai partner to develop 6.5% silicon electrical steel for EV motors",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWENTOUgzZFMzQjhaRlJnWmdEY3RMVmhLR25rYnFHd1JrLTQtRDJ3NVZvWTN6UjN2QUpfVXBuM1c5QklYQlNJYUQwY1pVdjhKb19xTEZXX3NRYmZNUVRyVEFuX3RNSm15N3ZrWm5nTm1XMExRUDBpVElLQ0Z2dzFjcmRkQ0xva1ktQTJZTlRnemg0NzVsZ3pUVGNUT3YyNGYweXdVRUdZdVpDX2ZEY19PdGlB?oc=5",
-   "kaynak": "Charged EVs",
-   "hat": "Elektrik celigi hatti"
   }
  ],
  "kaynak_katki": {
   "Andritz Metals": 1,
   "Clecim": 1,
+  "Steel Times International": 1,
   "SteelTurk": 1,
-  "SMM (Shanghai Metals)": 2,
-  "Bing News": 6
+  "Furnaces International": 1,
+  "Google News": 2,
+  "Bing News": 1
  },
  "piyasa_pool": [
   {
-   "anahtar": "piyasa:bd6e204eaa1c8929",
-   "tarih": "2026-11-04",
-   "baslik": "Korea recommends duties on Chinese galvanized steel",
-   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/korea-recommends-duties-on-chinese-galvanized-steel-1126/",
-   "kaynak": "Kallanish",
-   "lead": "South Korea&#x27;s Trade Commission has recommended five-year anti-dumping measures on imports of Chinese cold-rolled galvanized steel..."
+   "anahtar": "piyasa:57ac2bb7e1222d7b",
+   "tarih": "2026-11-05",
+   "baslik": "Electrical Steel Pricing Report: Explore Global Price Trends, Historical Data and Forecasts",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdmp1SGVTd19RaTEwRW56Q0tjb2x3eVFfTE4xLVpWZ2hmdXlHQnB2TDQ0Y1c1U2U4dS1tQTc4TXg3ZHE1RFhMYTlzZGVxd1pGZ1pCZlRCS2tuUjB5STZGNy0zWGRGRkdETElmaVQwMGRwczJwaHpJWERWclBIa0JJa2NOREU4Y1RvTnZKWVM0dVdSVHkwNVNMQmptdw?oc=5",
+   "kaynak": "openPR.com",
+   "lead": "Electrical Steel Pricing Report: Explore Global Price Trends, Historical Data and Forecasts &nbsp;&nbsp; openPR.com"
   },
   {
    "anahtar": "piyasa:d5efa79ea300d360",
@@ -734,14 +697,6 @@
    "lead": "Hoa Phat exports 8,000 tonnes of galvanized steel coils to Japan, expanding international market &nbsp;&nbsp; HoaPhat"
   },
   {
-   "anahtar": "piyasa:c8d598485ca4f420",
-   "tarih": "2026-11-04",
-   "baslik": "India HRC and CRC prices rise w-o-w; festive slowdown limits further gains",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNU1JhT1o1ZTBKOUlJaG55b2xBUGM5cEp4aUU1aGc3cHdHcXVVMmJVSVNZRHNBeFR2Rm40bjhHemZaZS1JY1pWWHpOWTU5MFpWUUZkd0F5Ujd1VFd6b0U3Z3FXNDJPTFQ3cXpLVHItbW9JM096aGV1dUVITWlfRWV0UWp3d093N1p1OXdjaXVITlFELUktajVhZTJ4SXQwa2EwSGFKcVFub2MwOUVNQ2FqeEptYTQ4c0lUME1V?oc=5",
-   "kaynak": "BigMint",
-   "lead": "India HRC and CRC prices rise w-o-w; festive slowdown limits further gains &nbsp;&nbsp; BigMint"
-  },
-  {
    "anahtar": "piyasa:57bd0bd0b81ffff8",
    "tarih": "2026-11-03",
    "baslik": "Hoa Phat exports 8,000 tons of galvanized steel to Japan for the first time",
@@ -750,20 +705,12 @@
    "lead": "Hoa Phat exports 8,000 tons of galvanized steel to Japan for the first time &nbsp;&nbsp; Yieh Corp."
   },
   {
-   "anahtar": "piyasa:4e53dcfb833f637b",
-   "tarih": "2026-11-03",
-   "baslik": "Hoa Phat exports first 8,000 mt of galvanized steel coils to Japan",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTTQwUnlNZjNWVmU5MXQxanFmVUxrT3UzYWZ3SEVVdmtwY1RkM01CaU5obWN2bHFoTXhBWTNwYzBTZzliNThRZDBidUVJR3pHbVFoR18tTUhMU1FWLXQtMjlPUkRDeGpaWHhNR0d6cXRMOEQtanhINjZBdjM3SzFFLUNDei1ySFJCLVhPWjBzNHJHNGR3WVlZSlFCWFQxSml0M0V3amo0em5Pb2tyZlVNeDgzOTRkUE5ONDhsb3E4UDR3aHJBVGc?oc=5",
-   "kaynak": "SteelOrbis",
-   "lead": "Hoa Phat exports first 8,000 mt of galvanized steel coils to Japan &nbsp;&nbsp; SteelOrbis"
-  },
-  {
-   "anahtar": "piyasa:380785546277695a",
-   "tarih": "2026-11-02",
-   "baslik": "Hoa Phat exports 8,000 tons of galvanized steel sheets to Japan, expanding its international market.",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOa0dIVGQ5Rk9jb09ycmFMSHRkaWlzbngtcmNpX0FIZXNtU2VTNk81d1JyNTdfN2JnV0htakh5VTJybWdENXQ0OTlrN2thdW1qbFdBb21aUy1aV2h0OFdNQ0tzeXRudHZNUXNTVWZQaTAxRFFkMmc3ZmxfTU9ZSzFNdVJqSlFIMzVRQVROT01UWGdVczlZUExUX0RWcVBMTm5kaW5nMg?oc=5",
-   "kaynak": "Vietnam.vn",
-   "lead": "Hoa Phat exports 8,000 tons of galvanized steel sheets to Japan, expanding its international market. &nbsp;&nbsp; Vietnam.vn"
+   "anahtar": "piyasa:3f62c43fbeca3704",
+   "tarih": "2026-10-30",
+   "baslik": "Top Players in the Galvanized Steel Silo Market: Fact MR Forecasts US$2.85 Billion by 2036",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNHZPSHE3Zk1SSjk0WmRuUW5VRGo1b1puaFVEUGhTRTB4M0NvU1B3OHBvbERfUTZvdGVXcURFdDVuV3BMcWY3ZFM5ZF81MUNtY1E4QXdlZ2xKX0RxRWk1NEFLcDduX2V0WjUydmFta3NjcTR0aks3VC00SG5yNEh4OV93cVdiYmVZYUpSQXNjWUIzVUc4WUE?oc=5",
+   "kaynak": "openPR.com",
+   "lead": "Top Players in the Galvanized Steel Silo Market: Fact MR Forecasts US$2.85 Billion by 2036 &nbsp;&nbsp; openPR.com"
   },
   {
    "anahtar": "piyasa:2d22b9537430156d",
@@ -798,31 +745,23 @@
    "lead": "Tenova advances electrical steel project in India &nbsp;&nbsp; Machinery Market"
   },
   {
-   "anahtar": "piyasa:bf2ae0f0e2c552e4",
-   "tarih": "2026-10-22",
-   "baslik": "Apparent consumption of polymer-coated steel is expected to rise by 3% y/y in 2026",
-   "url": "https://gmk.center/en/news/apparent-consumption-of-polymer-coated-steel-is-expected-to-rise-by-3-y-y-in-2026/",
-   "kaynak": "Bing News",
-   "lead": "In the first three quarters of 2026, the figure stood at 264,000 tonnes, whilst imports totalled 163,500 tonnes ..."
-  },
-  {
-   "anahtar": "piyasa:8561001e822ca3e1",
-   "tarih": "2026-10-21",
-   "baslik": "Cleveland-Cliffs links Stelco layoffs in Canada to galvanized steel imports",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObUE5ajFDRGxvNVJGeWtPN3BHc1kwNlZrcVBnckQzRXM3cXFrN3dwSWE1NnJsZkZjRVU3SEliaENoOWMwTHFDRUQ0QXFXRWp6VUVaZDRqSW5YSFZZbmdJODA0MWRvbm12WjVzU1hHa0pLaWJyS01GSjh0T0JjM1llZElfekxxMmJFMTRVNGN5ZlRwd0hOUkpNWjBzMkREdWt5ZE5DekdYbW1ya01CM2stcQ?oc=5",
-   "kaynak": "Yieh Corp.",
-   "lead": "Cleveland-Cliffs links Stelco layoffs in Canada to galvanized steel imports &nbsp;&nbsp; Yieh Corp."
+   "anahtar": "piyasa:26c8cfbe648bcc7b",
+   "tarih": "2026-10-16",
+   "baslik": "[SMM Analysis] Insufficient Momentum for Change, Grain-Oriented Silicon Steel Prices May Remain in the Doldrums in October",
+   "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQc1ZIVlNDR212c1E2Q1BUWVRXSW1LM1h1dk1oVTV3STVuZTZ5TTd4TjY4MXZNTnhyVjBBREhkOWt4aFVqR3dYd0xDQ2VkZjM2cnBjUHNPRzZvSncwZDFMSFE5c2EwYUIzYjB5Y2JNSXdYejBkbHlzb0toQ2Y0QWFjTUZDOWpqYjlWOW94YW0xeXpvNVJMSm1aRllHVDJYZ2N5LUVQdXVJRUpmd2U0YTYyb2JHSXFEMlp3VFNvVW1NUUZoNXNaREM4OHVFTXhGTHI1dVVqeVpuRFBGbmJUMTBTVVV0RWVhdWU2ekRjUkliSExaaF91d1Fv?oc=5",
+   "kaynak": "Shanghai Metals Market",
+   "lead": "[SMM Analysis] Insufficient Momentum for Change, Grain-Oriented Silicon Steel Prices May Remain in the Doldrums in October &nbsp;&nbsp; Shanghai Metals Market"
   }
  ],
  "window": [
-  "2026-10-15",
-  "2026-11-05"
+  "2026-10-16",
+  "2026-11-06"
  ],
  "bulunan_kullanilan": 0,
- "bulunan_havuz": 9,
+ "bulunan_havuz": 14,
  "rezerv_kullanilan": 0,
- "rezerv_havuz": 64,
+ "rezerv_havuz": 65,
  "period": "2026-W45",
- "generated": "2026-11-05 11:04 UTC",
+ "generated": "2026-11-06 11:11 UTC",
  "version": "3.0.0"
 }

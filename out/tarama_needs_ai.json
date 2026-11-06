@@ -2,15 +2,15 @@
  "donem": "2026-W45",
  "duzelt": [
   {
-   "anahtar": "8cdc84758f7bfd38",
-   "baslik": "【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】纽柯(Nucor)与普锐特冶金技术(Primetals Technologies)已在纽柯位于南卡罗来纳州伯克利县的板材厂新建连续镀锌线(CGL)上产出首卷优质卷板,标志着该产线完成调试阶段。普锐特与CLECIM…",
-   "url": "https://news.metal.com/en/newscontent/104207357-%E7%BA%BD%E6%9F%AF%E5%9C%A8%E5%8D%97%E5%8D%A1%E7%BD%97%E6%9D%A5%E7%BA%B3%E5%B7%9E%E6%96%B0%E5%BB%BA50%E4%B8%87%E5%90%A8%E5%B9%B4%E6%B1%BD%E8%BD%A6%E6%9D%BF%E9%95%80%E9%94%8C%E7%BA%BF%E4%BA%A7%E5%87%BA%E9%A6%96%E5%8D%B7%E4%BC%98%E8%B4%A8%E5%8D%B7%E6%9D%BF",
+   "anahtar": "d083fd260733cebf",
+   "baslik": "Nucor Begins Production on Primetals Technologies-Supplied CGL",
+   "url": "https://www.clecim.com/nucor_first_coil/",
    "eksik": [
-    "firma"
+    "ulke"
    ],
    "mevcut": {
-    "firma": "",
-    "ulke": "Vietnam",
+    "firma": "Nucor",
+    "ulke": "ABD",
     "hat": "Galvaniz hatti (CGL)",
     "asama": "Ilk urun"
    }
@@ -45,48 +45,18 @@
    }
   },
   {
-   "anahtar": "9084e2ca3c770e78",
-   "baslik": "Nucor Steel Berkeley produces its first coil on the new Continuous Galvanizing Line",
-   "url": "https://www.clecim.com/nucor_first_coil/",
-   "eksik": [
-    "ulke"
-   ],
-   "mevcut": {
-    "firma": "Nucor Steel Berkeley",
-    "ulke": "",
-    "hat": "Galvaniz hatti (CGL)",
-    "asama": "Ilk urun"
-   }
-  },
-  {
-   "anahtar": "20b338e9e87b0de6",
-   "baslik": "Fives revamps Lusosider galvanizing line",
-   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/fives-revamps-csn-lusosider-galvanizing-line-1118/",
-   "eksik": [
-    "ulke"
-   ],
-   "mevcut": {
-    "firma": "Fives",
-    "ulke": "",
-    "hat": "Galvaniz hatti (CGL)",
-    "asama": "Modernizasyon"
-   }
-  },
-  {
-   "anahtar": "90e30cb4756c40e2",
-   "baslik": "【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】",
-   "url": "https://news.metal.com/en/newscontent/104207357-纽柯在南卡罗来纳州新建50万吨年汽车板镀锌线产出首卷优质卷板",
+   "anahtar": "71b020c404ac2ebb",
+   "baslik": "$1.9 billion US Steel plant to supply Arkansas furnaces",
+   "url": "https://furnaces-international.com/news/1-9-billion-us-steel-plant-to-supply-arkansas-furnaces",
    "eksik": [
     "firma",
-    "ulke",
-    "hat",
-    "tarih?"
+    "hat"
    ],
    "mevcut": {
     "firma": "",
-    "ulke": "",
+    "ulke": "ABD",
     "hat": "Belirsiz",
-    "asama": "Ilk urun"
+    "asama": "Sozlesme"
    }
   },
   {
@@ -105,15 +75,15 @@
    }
   },
   {
-   "anahtar": "872b860afdafbe17",
-   "baslik": "Rotherham steel firm goes greener with £160K investment in panels and batteries",
-   "url": "https://www.msn.com/en-gb/money/general/rotherham-steel-firm-goes-greener-with-160k-investment-in-panels-and-batteries/ar-AA2gEidN",
+   "anahtar": "d75a93c69169a293",
+   "baslik": "Steel firm goes greener with £160K investment in panels and batteries",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxObmV1anZVdzM4U3dqR1NxNkozTlNEalFEV19HTWVhR2dvcThLU2hWVmRzOFF4R1MwMTZ5aXNyNklyamhzYThyc0F2alpvNXdycFhGNUk4Ti0zWmFBLVRGakF2QmpEWGpPTjB2bnBMUzFGQnJOM3dTWThSbEtsTXlReUtkcm55TUVTZWl5Z2hHN3lYRy04WDlRNENqbFpRRHFYNDUyeDM4UmV0dlhHRURKU2luV1ZRVWNaMExnbl9QVTgzOGdQVUJtMzN3?oc=5",
    "eksik": [
     "ulke",
     "asama"
    ],
    "mevcut": {
-    "firma": "Rotherham steel firm",
+    "firma": "Steel firm",
     "ulke": "",
     "hat": "Elektrik celigi hatti",
     "asama": "Belirsiz"
@@ -122,14 +92,14 @@
  ],
  "cumle_yaz": [
   {
-   "anahtar": "8cdc84758f7bfd38",
-   "tarih": "2026-11-05",
-   "firma": "",
-   "ulke": "Vietnam",
+   "anahtar": "d083fd260733cebf",
+   "tarih": "2026-11-04",
+   "firma": "Nucor",
+   "ulke": "ABD",
    "hat": "Galvaniz hatti (CGL)",
    "asama": "Ilk urun",
-   "baslik": "【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】纽柯(Nucor)与普锐特冶金技术(Primetals Technologies)已在纽柯位于南卡罗来纳州伯克利县的板材厂新建连续镀锌线(CGL)上产出首卷优质卷板,标志着该产线完成调试阶段。普锐特与CLECIM…",
-   "url": "https://news.metal.com/en/newscontent/104207357-%E7%BA%BD%E6%9F%AF%E5%9C%A8%E5%8D%97%E5%8D%A1%E7%BD%97%E6%9D%A5%E7%BA%B3%E5%B7%9E%E6%96%B0%E5%BB%BA50%E4%B8%87%E5%90%A8%E5%B9%B4%E6%B1%BD%E8%BD%A6%E6%9D%BF%E9%95%80%E9%94%8C%E7%BA%BF%E4%BA%A7%E5%87%BA%E9%A6%96%E5%8D%B7%E4%BC%98%E8%B4%A8%E5%8D%B7%E6%9D%BF"
+   "baslik": "Nucor Begins Production on Primetals Technologies-Supplied CGL",
+   "url": "https://www.clecim.com/nucor_first_coil/"
   },
   {
    "anahtar": "953d55052b959bff",
@@ -152,34 +122,14 @@
    "url": "https://www.republicworld.com/initiatives/hindustan-zinc-expands-value-added-zinc-product-offerings-with-next-gen-alloys-vedaz-and-vedayush-for-the-galvanizing-industry-2026-11-04-140415"
   },
   {
-   "anahtar": "9084e2ca3c770e78",
-   "tarih": "2026-11-04",
-   "firma": "Nucor Steel Berkeley",
-   "ulke": "",
-   "hat": "Galvaniz hatti (CGL)",
-   "asama": "Ilk urun",
-   "baslik": "Nucor Steel Berkeley produces its first coil on the new Continuous Galvanizing Line",
-   "url": "https://www.clecim.com/nucor_first_coil/"
-  },
-  {
-   "anahtar": "20b338e9e87b0de6",
-   "tarih": "2026-10-20",
-   "firma": "Fives",
-   "ulke": "",
-   "hat": "Galvaniz hatti (CGL)",
-   "asama": "Modernizasyon",
-   "baslik": "Fives revamps Lusosider galvanizing line",
-   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/fives-revamps-csn-lusosider-galvanizing-line-1118/"
-  },
-  {
-   "anahtar": "90e30cb4756c40e2",
-   "tarih": "2026-11-05",
+   "anahtar": "71b020c404ac2ebb",
+   "tarih": "2026-11-03",
    "firma": "",
-   "ulke": "",
+   "ulke": "ABD",
    "hat": "Belirsiz",
-   "asama": "Ilk urun",
-   "baslik": "【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】",
-   "url": "https://news.metal.com/en/newscontent/104207357-纽柯在南卡罗来纳州新建50万吨年汽车板镀锌线产出首卷优质卷板"
+   "asama": "Sozlesme",
+   "baslik": "$1.9 billion US Steel plant to supply Arkansas furnaces",
+   "url": "https://furnaces-international.com/news/1-9-billion-us-steel-plant-to-supply-arkansas-furnaces"
   }
  ],
  "teknoloji_adaylari": [
@@ -213,6 +163,14 @@
    "baslik": "ArcelorMittal commits €300 million to Dunkirk steel project, targets spring 2027 tests for new line in Mardyck",
    "url": "https://www.steelorbis.com/steel-news/latest-news/arcelormittal-advances-dunkirk-eaf-and-mardyck-electrical-steel-projects-1483903.htm",
    "kaynak": "Bing News",
+   "hat": "Elektrik celigi hatti"
+  },
+  {
+   "anahtar": "tech:21b8b17f2932d529",
+   "tarih": "2026-10-13",
+   "baslik": "Ten Reputable Electrical Steel Companies in China 2026: Advancing Motor Efficiency and Industrial Performance",
+   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPM3lUSXRjSHE2UURUTjB1NHppTTl4RnlLa3dnYlFxSG02WFBQd2tIYmt1UXpVbElhQVBtSEUtZTRZeW5SMkJHMjV5NzY5WlpmbHNtZWtFdy1KTlhTSzlXVmlOMWJ3Ymphc29aZXZwbWtvMDVWWm1oUF94NERtUEZ3WUhoOGRHcThacFRzRTlEUjBqempXRzNRTV9QZFdfUFBmVmtQLWJqQng4RGhuc0FKaFYtdUZoXzNlSDB6S2NBd19nVGx6LTVVNnlKT1RNcWJkNkN3VjRNSGV1RUM1VVU1NC1YZDNIZ3JObE8ySC0wVTFVYndZZFE?oc=5",
+   "kaynak": "The Tennessean",
    "hat": "Elektrik celigi hatti"
   },
   {
@@ -269,14 +227,6 @@
    "baslik": "Posco and Hyundai develop novel electrical steel for more efficient electric motors",
    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNVV0U1otMkFRbUphNHRvMDBVdWFEVjVKN0FYV2tNdWZhWVB0TldhN0QxeDJtLU51ci1CLVFid0NTT21DSFVCMmw3a2ZyUTB6YUxkQ1hmcGZ5T05pOUdLbUxjMDdTX2IyZ0tfdnZaSVA5aW41dHhURFpvZUJKbUxiVDBjTUNCMXdfLUJIMXdsdl9VNktxeXVDeFlyNThjZHFXVUJwRXctZTJuWjduaEE3NFBmclFyYTdMNzNzM2lR?oc=5",
    "kaynak": "electrive.com",
-   "hat": "Elektrik celigi hatti"
-  },
-  {
-   "anahtar": "tech:598247fd0170db4b",
-   "tarih": "2026-07-07",
-   "baslik": "POSCO and Hyundai partner to develop 6.5% silicon electrical steel for EV motors",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWENTOUgzZFMzQjhaRlJnWmdEY3RMVmhLR25rYnFHd1JrLTQtRDJ3NVZvWTN6UjN2QUpfVXBuM1c5QklYQlNJYUQwY1pVdjhKb19xTEZXX3NRYmZNUVRyVEFuX3RNSm15N3ZrWm5nTm1XMExRUDBpVElLQ0Z2dzFjcmRkQ0xva1ktQTJZTlRnemg0NzVsZ3pUVGNUT3YyNGYweXdVRUdZdVpDX2ZEY19PdGlB?oc=5",
-   "kaynak": "Charged EVs",
    "hat": "Elektrik celigi hatti"
   }
  ]

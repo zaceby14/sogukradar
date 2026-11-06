@@ -1,73 +1,7 @@
 {
  "donem": "2026-W45",
- "adet": 551,
+ "adet": 560,
  "kayitlar": [
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Manufacturing and Engineering",
-   "url": "https://www.danieli.com/en/worldwide/manufacturing-and-engineering.htm",
-   "ek": "haber degil (menu/e-posta/kisa)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "plants startup 2026, 2nd November First billet successfully cast at Deacero Ramos Arizpe",
-   "url": "https://www.danieli.com/en/First-billet-successfully-cast-at-Deacero-Ramos-Arizpe-_37_1111.htm",
-   "ek": "sert red (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "new orders 2026, 5th October Danieli technology will support Stomana's compact rebar coil production",
-   "url": "https://www.danieli.com/en/Danieli-technology-will-support-Stomana-s-compact-rebar-coil-production_37_1104.htm",
-   "ek": "sert red (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "new orders 2026, 28th September Maanshan Iron & Steel orders new Danieli continuous caster",
-   "url": "https://www.danieli.com/en/Maanshan-Iron-and-Steel-orders-new-Danieli-continuous-caster_37_1102.htm",
-   "ek": "sert red (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Copyright © Danieli & C. S.p.A. – All Right Reserved",
-   "url": "https://www.danieli.com/en/copyright.htm",
-   "ek": "haber degil (menu/e-posta/kisa)"
-  },
-  {
-   "sebep": "tarihsiz_elendi",
-   "baslik": "Plant and equipment solutions",
-   "url": "https://www.danieli.com/en/customer-service/plant-and-equipment-solutions.htm",
-   "ek": ""
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "corporate information 2026, 28th October European steel looks ahead as the 2026 European Steel Forum concludes",
-   "url": "https://www.danieli.com/en/_37_1110.htm",
-   "ek": "kapsam_disi"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "corporate information 2026, 27th October Danieli welcomes steel industry professionals to Udine for the 2026 AIST European Steel Forum",
-   "url": "https://www.danieli.com/en/_37_1109.htm",
-   "ek": "kapsam_disi"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Wieland selects Danieli for major copper rolling mill upgrade in the USA",
-   "url": "https://www.danieli.com/en/Wieland-selects-Danieli-for-major-copper-rolling-mill-upgrade-in-the-USA_37_1108.htm",
-   "ek": "baska_malzeme"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Megasa awards Danieli rolling-mill modernization project at SN Seixal, Portugal",
-   "url": "https://www.danieli.com/en/Megasa-awards-Danieli-rolling-mill-modernization-project-at-SN-Seixal-Portugal_37_1107.htm",
-   "ek": "kapsam_disi"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "new orders 2026, 14th October Ningbo Boway invests in next-generation, Danieli copper-alloy foil rolling technology",
-   "url": "https://www.danieli.com/en/Ningbo-Boway-invests-in-next-generation-Danieli-copper-alloy-foil-rolling-technology_37_1106.htm",
-   "ek": "2026-10-14"
-  },
   {
    "sebep": "kapsam_disi",
    "baslik": "Tenova Advanced Technologies",
@@ -460,12 +394,6 @@
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "SIM 2026 Conference: Fives will highlight its expertise in dry-process technologies for optimizing and recovering value from mineral resources",
-   "url": "https://www.fivesgroup.com/newspress/detail-view/sim-2026-conference-fives-will-highlight-its-expertise-in-dry-process-technologies-for-optimizing-and-recovering-value-from-mineral-resources",
-   "ek": "sert red (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
    "baslik": "Payer Transparency Mandate",
    "url": "https://transparency-in-coverage.uhc.com/",
    "ek": "haber degil (menu/e-posta/kisa)"
@@ -496,45 +424,51 @@
   },
   {
    "sebep": "kapsam_disi",
+   "baslik": "Committed to India’s growth at Metec India",
+   "url": "https://www.fivesgroup.com/newspress/detail-view/committed-to-indias-growth-at-metec-india",
+   "ek": "kapsam_disi"
+  },
+  {
+   "sebep": "kapsam_disi",
    "baslik": "Fives and AGITO extend strategic partnership to the UK and Ireland",
    "url": "https://www.fivesgroup.com/newspress/detail-view/fives-and-agito-extend-strategic-partnership-to-the-uk-and-ireland",
-   "ek": "baska_malzeme"
+   "ek": "kapsam_disi"
   },
   {
    "sebep": "kapsam_disi",
    "baslik": "Renault Maubeuge Entrusts Fives with the Maintenance of Its Filling Equipment",
    "url": "https://www.fivesgroup.com/newspress/detail-view/renault-maubeuge-entrusts-fives-with-the-maintenance-of-its-filling-equipment",
-   "ek": "baska_malzeme"
+   "ek": "kapsam_disi"
   },
   {
    "sebep": "kapsam_disi",
    "baslik": "Preventive Maintenance Inspections (PMI)",
    "url": "https://www.fivesgroup.com/newspress/detail-view/preventive-maintenance-inspections-pmi",
-   "ek": "baska_malzeme"
+   "ek": "kapsam_disi"
   },
   {
    "sebep": "kapsam_disi",
    "baslik": "Posti gains greater flexibility with Fives’ scalable AMR sorting solution",
    "url": "https://www.fivesgroup.com/newspress/detail-view/posti-gains-greater-flexibility-with-fives-scalable-amr-sorting-solution",
-   "ek": "baska_malzeme"
+   "ek": "kapsam_disi"
   },
   {
    "sebep": "kapsam_disi",
    "baslik": "Meet Our Industrial Expertise at CIIE 2026",
    "url": "https://www.fivesgroup.com/newspress/detail-view/meet-our-industrial-expertise-at-ciie-2026",
-   "ek": "baska_malzeme"
+   "ek": "kapsam_disi"
   },
   {
    "sebep": "kapsam_disi",
    "baslik": "Enabling China’s e-mobility and digitalization at CIIE",
    "url": "https://www.fivesgroup.com/newspress/detail-view/enabling-chinas-e-mobility-and-digitalization-at-ciie",
-   "ek": "baska_malzeme"
+   "ek": "kapsam_disi"
   },
   {
-   "sebep": "kapsam_disi",
+   "sebep": "pencere_disi",
    "baslik": "Turnkey solutions for high-value tube production",
    "url": "https://www.fivesgroup.com/newspress/detail-view/turnkey-solutions-for-high-value-tube-production",
-   "ek": "baska_malzeme"
+   "ek": "2026-10-15"
   },
   {
    "sebep": "pencere_disi",
@@ -1912,6 +1846,186 @@
   },
   {
    "sebep": "kapsam_disi",
+   "baslik": "Financial and regulatory reports",
+   "url": "https://corporate.arcelormittal.com/reports-and-policies/financial-and-regulatory-reports",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Sustainability and climate",
+   "url": "https://corporate.arcelormittal.com/reports-and-policies/sustainability-and-climate",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Notifications of transaction in ArcelorMittal shares",
+   "url": "https://corporate.arcelormittal.com/media/notifications-of-transaction-in-arcelormittal-shares",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "ArcelorMittal announces its financial calendar for 2026",
+   "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-announces-its-financial-calendar-for-2026",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Explore careers at ArcelorMittal",
+   "url": "https://corporate.arcelormittal.com/careers",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Global Research and Development",
+   "url": "https://corporate.arcelormittal.com/innovation/global-research-and-development",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Discover the different industries we operate in",
+   "url": "https://corporate.arcelormittal.com/industries",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Smarter, more sustainable steel solutions",
+   "url": "https://corporate.arcelormittal.com/sustainability",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Helping shape the future of the steel industry",
+   "url": "https://corporate.arcelormittal.com/innovation",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "2025 Sustainability Report",
+   "url": "https://corporate.arcelormittal.com/sustainability/2025-sustainability-report",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Reports and presentations",
+   "url": "https://corporate.arcelormittal.com/investors/reports-and-presentations",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Listing and listings agents",
+   "url": "https://corporate.arcelormittal.com/investors/equity-investors/listing-and-listings-agents",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Shares and mandatorily convertible subordinated notes offerings",
+   "url": "https://corporate.arcelormittal.com/investors/equity-investors/shares-and-mandatorily-convertible-subordinated-notes-offerings",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Share transactions by management",
+   "url": "https://corporate.arcelormittal.com/investors/corporate-governance/share-transactions-by-management",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Risk management and audit",
+   "url": "https://corporate.arcelormittal.com/investors/corporate-governance/risk-management-and-audit",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Current articles of association",
+   "url": "https://corporate.arcelormittal.com/investors/corporate-governance/current-articles-of-association",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Smarter steels for people and planet",
+   "url": "https://corporate.arcelormittal.com/about-us",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Learn more about life at ArcelorMittal",
+   "url": "https://corporate.arcelormittal.com/careers/life-at-arcelormittal",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "ArcelorMittal reports third quarter 2026 results",
+   "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-reports-third-quarter-2026-results",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "ArcelorMittal announces the publication of its third quarter 2026 sell-side analyst consensus figures",
+   "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-announces-the-publication-of-its-third-quarter-2026-sell-side-analyst-consensus-figures-021126",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "ArcelorMittal announces that it is unable to safely and sustainably restart operations at ArcelorMittal Kryvyi Rih following multiple recent missile strikes",
+   "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-announces-that-it-is-unable-to-safely-and-sustainably-restart-operations-at-arcelormittal-kryvyi-rih-following-multiple-recent-missile-strikes",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Statement regarding missile strike on ArcelorMittal Kryvyi Rih",
+   "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/statement-regarding-missile-strike-on-arcelormittal-kryvyi-rih",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "ArcelorMittal statement regarding missile strike on its Ukraine plant",
+   "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-statement-regarding-missile-strike-on-its-ukraine-plant",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "ArcelorMittal reshaping digital backbone with Microsoft Cloud and AI",
+   "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-reshaping-digital-backbone-with-microsoft-cloud-and-ai",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "ArcelorMittal publishes its 2026 half-year report",
+   "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-publishes-its-2026-half-year-report",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "ArcelorMittal reports second quarter 2026 results",
+   "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-reports-second-quarter-2026-results",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "ArcelorMittal announces the publication of its second quarter 2026 sell-side analyst consensus figures",
+   "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-announces-the-publication-of-its-second-quarter-2026-sell-side-analyst-consensus-figures",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Geert Van Poelvoorde to retire as CEO ArcelorMittal Europe",
+   "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/geert-van-poelvoorde-to-retire-as-ceo-arcelormittal-europe",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Board and Management Committee Changes",
+   "url": "https://corporate.arcelormittal.com/media/news/regulatory-news?topic=board-and-management-committee-changes",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Privacy and cookie notice",
+   "url": "https://corporate.arcelormittal.com/privacy-and-cookie-notice",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
    "baslik": "engineering. tomorrow. together.",
    "url": "https://www.thyssenkrupp-steel.com/",
    "ek": "haber degil (menu/e-posta/kisa)"
@@ -2271,126 +2385,6 @@
    "ek": "sert red (baslik)"
   },
   {
-   "sebep": "kapsam_disi",
-   "baslik": "Howrah Bridge 75 Years Anniversary",
-   "url": "https://www.tatasteel.com/corporate/our-organisation/campaigns/howrah-bridge-75-years-anniversary/",
-   "ek": "sert red (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Swachh Bharat and EzyNest",
-   "url": "https://www.tatasteel.com/corporate/our-organisation/campaigns/swachh-bharat-and-ezynest/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Sir Dorabji Tata Birth Anniversary",
-   "url": "https://www.tatasteel.com/corporate/our-organisation/campaigns/sir-dorabji-tata-birth-anniversary/",
-   "ek": "sert red (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "JRD Tata Birth Anniversary",
-   "url": "https://www.tatasteel.com/corporate/our-organisation/campaigns/jrd-tata-birth-anniversary/",
-   "ek": "sert red (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Business Model & Strategy",
-   "url": "https://www.tatasteel.com/corporate/our-value-chain/business-model-strategy/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Human Resource Management",
-   "url": "https://www.tatasteel.com/sustainability/social/human-resource-management/",
-   "ek": "haber degil (menu/e-posta/kisa)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Sustainability Governance",
-   "url": "https://www.tatasteel.com/sustainability/governance/sustainability-governance/",
-   "ek": "haber degil (menu/e-posta/kisa)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Building a Culture of Ethics",
-   "url": "https://www.tatasteel.com/sustainability/governance/building-a-culture-of-ethics/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Taskforce on Nature Related Financial Disclosures (TNFD) Reports",
-   "url": "https://www.tatasteel.com/sustainability/governance/taskforce-on-nature-related-financial-disclosures-tnfd-reports/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "UN Sustainability Development Goals",
-   "url": "https://www.tatasteel.com/sustainability/un-sustainability-development-goals/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Integrated Report/Annual Report",
-   "url": "https://www.tatasteel.com/sustainability/integrated-reportannual-report/",
-   "ek": "haber degil (menu/e-posta/kisa)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Tata Agrico | Agriculture, Construction & Hand Tools",
-   "url": "https://www.tatasteel.com/products-solutions/india/products/tata-agrico-agriculture-construction-hand-tools/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Tata Ferro Alloys and Minerals Division",
-   "url": "https://www.tatasteel.com/products-solutions/india/products/tata-ferro-alloys-and-minerals-division/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Tata Steel Industrial By-products Management Division (IBMD)",
-   "url": "https://www.tatasteel.com/products-solutions/india/products/tata-steel-industrial-by-products-management-division-ibmd/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Raw Materials and Responsible Mining",
-   "url": "https://www.tatasteel.com/products-solutions/india/products/raw-materials-and-responsible-mining/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Tata Steel Industrial Consulting",
-   "url": "https://www.tatasteel.com/products-solutions/india/tata-steel-industrial-consulting/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Taskforce on Nature Related Financial Disclosures (TNFD) Reports",
-   "url": "https://www.tatasteel.com/investors/financial-performance/taskforce-on-nature-related-financial-disclosures-tnfd-reports/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Integrated Report/Annual Report",
-   "url": "https://www.tatasteel.com/investors/integrated-reportannual-report/",
-   "ek": "haber degil (menu/e-posta/kisa)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Integrated Report & Annual Accounts 2025-26 (119th Year) and related documents",
-   "url": "https://www.tatasteel.com/investors/integrated-reportannual-report/integrated-report-annual-accounts-2025-26-119th-year-and-related-documents/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "Financial Statements of Subsidiary Companies-FY 2025-26",
-   "url": "https://www.tatasteel.com/investors/integrated-reportannual-report/integrated-report-annual-accounts-2025-26-119th-year-and-related-documents/financial-statements-of-subsidiary-companies-fy-2025-26/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
    "sebep": "pencere_disi",
    "baslik": "POSCO to Build State-of-the-Art Galvanized Automotive Steel Sheet Plant, Bringing Together the Latest Automotive Steel Technologies 2026/09/21",
    "url": "https://newsroom.posco.com/en/posco-to-build-state-of-the-art-galvanized-automotive-steel-sheet-plant-bringing-together-the-latest-automotive-steel-technologies/",
@@ -2439,10 +2433,10 @@
    "ek": "2026-09-24"
   },
   {
-   "sebep": "pencere_disi",
-   "baslik": "AB, Elektrik Çeliği İthalatına Geçici Koruma Önlemleri Getiriyor",
-   "url": "https://www.steelturk.com.tr/ab-elektrik-celigi-ithalatina-gecici-koruma-onlemleri-getiriyor/",
-   "ek": "2026-09-22"
+   "sebep": "tekrar",
+   "baslik": "Nucor produces first prime coil at new Berkeley galvanizing line",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/nucor-produces-first-prime-coil-at-new-berkeley-galvanizing-line-1488871.htm",
+   "ek": "benzer baslik (bu kosuda)"
   },
   {
    "sebep": "tarihsiz_elendi",
@@ -2515,12 +2509,6 @@
    "baslik": "Ungalvanized Steel Wire Ropes",
    "url": "https://www.yieh.com/en/Product/wire-rod/ungalvanized-steel-wire-ropes-2",
    "ek": ""
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "Nucor Produces First Prime Coil on New 500,000 t/yr Automotive Galvanizing Line in South Carolina",
-   "url": "https://news.metal.com/en/newscontent/104207354-nucor-produces-first-prime-coil-on-new-500000-tyr-automotive-galvanizing-line-in-south-carolina",
-   "ek": "ayni olayin varyanti: *|ulke-hat|Vietnam|Galvaniz hatti (CGL)|Ilk urun; nucor|fu|Vietnam|Galvaniz hatti (CGL); nucor|hat|Galvaniz hatti (CGL)|Ilk urun; nucor|ulke|Vietnam|Ilk urun; primetals|fu|Vietnam|Galvaniz hatti (CGL); primetals|hat|Galvaniz hatti (CGL)|Ilk urun; primetals|ulke|Vietnam|Ilk urun"
   },
   {
    "sebep": "tarihsiz_elendi",
@@ -2607,15 +2595,33 @@
    "ek": ""
   },
   {
+   "sebep": "pencere_disi",
+   "baslik": "Optimum Tool Steels and Coatings for Stamping Electrical Steel",
+   "url": "https://www.metalformingmagazine.com/article/?/finishing/coating/optimum-tool-steels-and-coatings-for-stamping-electrical-steel",
+   "ek": "2026-07-28"
+  },
+  {
    "sebep": "tarihsiz_elendi",
-   "baslik": "【钢之家调查】本周冷轧板卷市场消费量减少2.54万吨至150.52万吨(10月23日-10月29日)",
-   "url": "https://www.steelhome.com/24785446 ",
+   "baslik": "【钢之家调查】本周冷轧板卷市场消费量增加7.18万吨至157.7万吨(10月30日-11月5日)",
+   "url": "https://www.steelhome.com/24789278 ",
    "ek": ""
   },
   {
    "sebep": "tarihsiz_elendi",
-   "baslik": "钢之家：2026年11月份国内冷轧板卷市场策略报告",
-   "url": "https://www.steelhome.com/24787219 ",
+   "baslik": "【钢之家调查】本周国内镀锌管产能利用率90.15%保持平稳（10月30日-11月5日）",
+   "url": "https://www.steelhome.com/24789270 ",
+   "ek": ""
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "上海市场冷轧板卷一周综述(10月30日-11月6日)",
+   "url": "https://www.steelhome.com/24790005 ",
+   "ek": ""
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "钢之家：冷轧板卷一周策略报告（10月30日-11月6日)",
+   "url": "https://www.steelhome.com/24789895 ",
    "ek": ""
   },
   {
@@ -2751,22 +2757,16 @@
    "ek": "2026-09-10"
   },
   {
-   "sebep": "pencere_disi",
-   "baslik": "Chien Shing Stainless Steel, a cold-rolling mill in Taiwan (PoC), repo",
-   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNWEM5TDU0ZGNCZW1UNXRYNThvS1dpdS04WTQ4Rkxxa2xFa0hZbktGY3BPWW5UdGxHX3lOUDhnUjZwdk1zVGN0RHkxclBYVXI2S253UFZFVjlWd1hyVkkxazQyOWVIdmpITzJncmczLXY3WDM5MEtvdUUwQU15RGpral9BajdQUXdmVFB4LVp2UmpDZVNpNXhGeHJWNl9LcUtSY3VVWklpTTZkZ25kakxKVi1EaG1RcXlxMndXa2ZpR2d4ay1SOUFVdWhUTzQxTTktTUY2dnFNR3Y5ajBTTTM0MGd3?oc=5",
-   "ek": "2026-10-07"
+   "sebep": "tekrar",
+   "baslik": "[Nucor, Primetals Produce First Prime Coil on New Galvanizing Line in South Carolina]",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQXN0NUEzTHZfWjM0aWNzN3FpdHpsTmkxX2l2R09DQ0VLVTV5RklhME80Y0diZFlEekl5Y2pfN29TNXdBcmF1UmxwdGFUVnpwNGQ2MFF5QXkydFBsRUR4OHBNQWt5Q25xbFQ1NktYZ1ZfZ2E3V0dMWG0wTGlUZnFUOUJ5eFRiMm5RQ0NzdTFWdTNJUFB2RjlkbXJtbmtwamRDdzgzLXBGUGI1YlBvMTgyTG5zeU12cHVqZk9sU3NMMUE4MU1tOXc?oc=5",
+   "ek": "benzer baslik (bu kosuda)"
   },
   {
    "sebep": "tekrar",
    "baslik": "Nucor and Primetals Technologies Produce First Prime Coil on New Galvanizing Line in South Carolina",
    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPZ2pFbEo5MDJlNGdLVTM3UGxHSVJQUG1sTVN3OTFvUkZMeGl0QkJSQ3g2R01Qal9nS3JZUmJOZmM5RzVTNnZ2UktCQk5ubmNqTWR0N05TVEdqM2xFYV9JZkQ5SGhzdGw3bm5fREk4YVVlWFVYSDA1WGM0NnNHcGs2ZW9nZXZRd19BRVJ1Tk4zc2lpUVBxdGpWbXVCcEY2Mm1fT0E4eEVaSlhZcURvSVo3blFqM0FXcXhNM2hlTjRvTDQwSVFtcXl0NHctMzgyQQ?oc=5",
-   "ek": "ayni olayin varyanti: nucor and primetals technologies|hat|Galvaniz hatti (CGL)|Ilk urun; primetals|hat|Galvaniz hatti (CGL)|Ilk urun"
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "Jindal India Commissions Continuous Galvanizing Line in West Bengal",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9yekFtbHFNMHVjb3VMODFsR09EemdFaVFCS1RFSFZ0QmZMNnRlSnV6bHFZUU1MMDFIdDVOV0dTc0VhNDZ2V1FnS0dXLTF5MjVE?oc=5",
-   "ek": "ayni olayin varyanti: *|ulke-hat|Hindistan|Galvaniz hatti (CGL)|Ilk urun; jindal india|fu|Hindistan|Galvaniz hatti (CGL); jindal india|hat|Galvaniz hatti (CGL)|Ilk urun; jindal india|ulke|Hindistan|Ilk urun"
+   "ek": "benzer baslik (bu kosuda)"
   },
   {
    "sebep": "pencere_disi",
@@ -2781,52 +2781,76 @@
    "ek": "2026-10-11"
   },
   {
-   "sebep": "tekrar",
-   "baslik": "Tenova supplies processing lines for JSW JFE’s electrical steel plant in India",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObnZFSDNsYV9qV0ZSbk1JUU5rV29LeS1DZGMtbmFMUDREcHZHeHNCWVkzQjl2TnhKWmVjeXloUy1qNWd6dmdSVzQtTVhwM1pzUTB5akFtcjZVc0NjZVF6T3MxZzdmZWhpaHJrNFQ5SFEtQk9KaUF1cWVzTmVMY3Zpb2tIM2xwVjZLUTdiY2RHajUyZkZsd3BpT3VZUGs4YzJRWW9uSmYyUmNiQUxCTHJBb0Mycw?oc=5",
-   "ek": ""
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "Jindal India Commissions Continuous Galvanizing Line in West Bengal",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9yekFtbHFNMHVjb3VMODFsR09EemdFaVFCS1RFSFZ0QmZMNnRlSnV6bHFZUU1MMDFIdDVOV0dTc0VhNDZ2V1FnS0dXLTF5MjVE?oc=5",
-   "ek": "ayni olayin varyanti: *|ulke-hat|Hindistan|Galvaniz hatti (CGL)|Ilk urun; jindal india|fu|Hindistan|Galvaniz hatti (CGL); jindal india|hat|Galvaniz hatti (CGL)|Ilk urun; jindal india|ulke|Hindistan|Ilk urun"
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "Nucor and Primetals Technologies Produce First Prime Coil on New Galvanizing Line in South Carolina",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPZ2pFbEo5MDJlNGdLVTM3UGxHSVJQUG1sTVN3OTFvUkZMeGl0QkJSQ3g2R01Qal9nS3JZUmJOZmM5RzVTNnZ2UktCQk5ubmNqTWR0N05TVEdqM2xFYV9JZkQ5SGhzdGw3bm5fREk4YVVlWFVYSDA1WGM0NnNHcGs2ZW9nZXZRd19BRVJ1Tk4zc2lpUVBxdGpWbXVCcEY2Mm1fT0E4eEVaSlhZcURvSVo3blFqM0FXcXhNM2hlTjRvTDQwSVFtcXl0NHctMzgyQQ?oc=5",
-   "ek": "ayni olayin varyanti: nucor and primetals technologies|hat|Galvaniz hatti (CGL)|Ilk urun; primetals|hat|Galvaniz hatti (CGL)|Ilk urun"
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "Tenova supplies processing lines for JSW JFE’s electrical steel plant in India",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObnZFSDNsYV9qV0ZSbk1JUU5rV29LeS1DZGMtbmFMUDREcHZHeHNCWVkzQjl2TnhKWmVjeXloUy1qNWd6dmdSVzQtTVhwM1pzUTB5akFtcjZVc0NjZVF6T3MxZzdmZWhpaHJrNFQ5SFEtQk9KaUF1cWVzTmVMY3Zpb2tIM2xwVjZLUTdiY2RHajUyZkZsd3BpT3VZUGs4YzJRWW9uSmYyUmNiQUxCTHJBb0Mycw?oc=5",
-   "ek": ""
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "Nucor and Primetals Technologies Produce First Prime Coil on New Galvanizing Line in South Carolina",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPZ2pFbEo5MDJlNGdLVTM3UGxHSVJQUG1sTVN3OTFvUkZMeGl0QkJSQ3g2R01Qal9nS3JZUmJOZmM5RzVTNnZ2UktCQk5ubmNqTWR0N05TVEdqM2xFYV9JZkQ5SGhzdGw3bm5fREk4YVVlWFVYSDA1WGM0NnNHcGs2ZW9nZXZRd19BRVJ1Tk4zc2lpUVBxdGpWbXVCcEY2Mm1fT0E4eEVaSlhZcURvSVo3blFqM0FXcXhNM2hlTjRvTDQwSVFtcXl0NHctMzgyQQ?oc=5",
-   "ek": "ayni olayin varyanti: nucor and primetals technologies|hat|Galvaniz hatti (CGL)|Ilk urun; primetals|hat|Galvaniz hatti (CGL)|Ilk urun"
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "Nucor and Primetals Technologies Produce First Prime Coil on New Galvanizing Line in South Carolina",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPZ2pFbEo5MDJlNGdLVTM3UGxHSVJQUG1sTVN3OTFvUkZMeGl0QkJSQ3g2R01Qal9nS3JZUmJOZmM5RzVTNnZ2UktCQk5ubmNqTWR0N05TVEdqM2xFYV9JZkQ5SGhzdGw3bm5fREk4YVVlWFVYSDA1WGM0NnNHcGs2ZW9nZXZRd19BRVJ1Tk4zc2lpUVBxdGpWbXVCcEY2Mm1fT0E4eEVaSlhZcURvSVo3blFqM0FXcXhNM2hlTjRvTDQwSVFtcXl0NHctMzgyQQ?oc=5",
-   "ek": "ayni olayin varyanti: nucor and primetals technologies|hat|Galvaniz hatti (CGL)|Ilk urun; primetals|hat|Galvaniz hatti (CGL)|Ilk urun"
-  },
-  {
    "sebep": "pencere_disi",
+   "baslik": "Ten Reputable Electrical Steel Companies in China 2026: Advancing Motor Efficiency and Industrial Performance",
+   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPM3lUSXRjSHE2UURUTjB1NHppTTl4RnlLa3dnYlFxSG02WFBQd2tIYmt1UXpVbElhQVBtSEUtZTRZeW5SMkJHMjV5NzY5WlpmbHNtZWtFdy1KTlhTSzlXVmlOMWJ3Ymphc29aZXZwbWtvMDVWWm1oUF94NERtUEZ3WUhoOGRHcThacFRzRTlEUjBqempXRzNRTV9QZFdfUFBmVmtQLWJqQng4RGhuc0FKaFYtdUZoXzNlSDB6S2NBd19nVGx6LTVVNnlKT1RNcWJkNkN3VjRNSGV1RUM1VVU1NC1YZDNIZ3JObE8ySC0wVTFVYndZZFE?oc=5",
+   "ek": "2026-10-13"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "[Nucor, Primetals Produce First Prime Coil on New Galvanizing Line in South Carolina]",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQXN0NUEzTHZfWjM0aWNzN3FpdHpsTmkxX2l2R09DQ0VLVTV5RklhME80Y0diZFlEekl5Y2pfN29TNXdBcmF1UmxwdGFUVnpwNGQ2MFF5QXkydFBsRUR4OHBNQWt5Q25xbFQ1NktYZ1ZfZ2E3V0dMWG0wTGlUZnFUOUJ5eFRiMm5RQ0NzdTFWdTNJUFB2RjlkbXJtbmtwamRDdzgzLXBGUGI1YlBvMTgyTG5zeU12cHVqZk9sU3NMMUE4MU1tOXc?oc=5",
+   "ek": "benzer baslik (bu kosuda)"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "Nucor and Primetals Technologies Produce First Prime Coil on New Galvanizing Line in South Carolina",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPZ2pFbEo5MDJlNGdLVTM3UGxHSVJQUG1sTVN3OTFvUkZMeGl0QkJSQ3g2R01Qal9nS3JZUmJOZmM5RzVTNnZ2UktCQk5ubmNqTWR0N05TVEdqM2xFYV9JZkQ5SGhzdGw3bm5fREk4YVVlWFVYSDA1WGM0NnNHcGs2ZW9nZXZRd19BRVJ1Tk4zc2lpUVBxdGpWbXVCcEY2Mm1fT0E4eEVaSlhZcURvSVo3blFqM0FXcXhNM2hlTjRvTDQwSVFtcXl0NHctMzgyQQ?oc=5",
+   "ek": "benzer baslik (bu kosuda)"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "Nucor Produces First Prime Coil on New 500,000 t/yr Automotive Galvanizing Line in South Carolina",
+   "url": "https://news.google.com/rss/articles/CBMiqwNBVV95cUxPdjZIUjRra0xfNUZ5SVZSUW1TTzFwc180ejR5VVRIb21EdGIybjZlZWx6d2cxMXJ3TnVaRWNLVVV5Y3MzNXV1cTRneTZHOW55QzhzLTdVZHdOQm5YZ0dWZ2M1TkVZb1FPU1dIbS1qZktON2J2UUJSMFh1R1JyazkyQ0dPLVZ2Z3dDUDB4QTM1TmVwbnRlN1BoWUNQUDNWUW1BWHpqb1FrLUEzRTVMbXJ6ZDNXZlRpZ1pUenBtX1JvcGdHUERFYjJ4elFZenE5N0FXeFJmUnFyVmJxN1JPWndSX0FiRFBXUFpiT2pKXzdNaDJTb1VMT2dyNFJ6QXBfSmRGc1FxOTJaekZmUE5ZbDkxeW1rbTc5UlNHaWo4WXowQ1d3WkgzTmgwUktoTDRBOEtxNERJRUQ2bG1fdmZGSHZFRnE0Wm1pSUxsR2dOQzdMbkFxS201ZDhzbHNSR3FlTEVYdEVWVk1IZTJpWlA4eHFwMEJtMmRsR1BnNHhVbTlBdWV1OWZ1eXROUjNtV2JxdDRURHNxY2pNV2lHQ3FRd0llNnBCTFkyTTVLU3dV?oc=5",
+   "ek": "benzer baslik (bu kosuda)"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "Nucor Produces First Prime Coil on New 500,000 t/yr Automotive Galvanizing Line in South Carolina",
+   "url": "https://news.google.com/rss/articles/CBMiqwNBVV95cUxPdjZIUjRra0xfNUZ5SVZSUW1TTzFwc180ejR5VVRIb21EdGIybjZlZWx6d2cxMXJ3TnVaRWNLVVV5Y3MzNXV1cTRneTZHOW55QzhzLTdVZHdOQm5YZ0dWZ2M1TkVZb1FPU1dIbS1qZktON2J2UUJSMFh1R1JyazkyQ0dPLVZ2Z3dDUDB4QTM1TmVwbnRlN1BoWUNQUDNWUW1BWHpqb1FrLUEzRTVMbXJ6ZDNXZlRpZ1pUenBtX1JvcGdHUERFYjJ4elFZenE5N0FXeFJmUnFyVmJxN1JPWndSX0FiRFBXUFpiT2pKXzdNaDJTb1VMT2dyNFJ6QXBfSmRGc1FxOTJaekZmUE5ZbDkxeW1rbTc5UlNHaWo4WXowQ1d3WkgzTmgwUktoTDRBOEtxNERJRUQ2bG1fdmZGSHZFRnE0Wm1pSUxsR2dOQzdMbkFxS201ZDhzbHNSR3FlTEVYdEVWVk1IZTJpWlA4eHFwMEJtMmRsR1BnNHhVbTlBdWV1OWZ1eXROUjNtV2JxdDRURHNxY2pNV2lHQ3FRd0llNnBCTFkyTTVLU3dV?oc=5",
+   "ek": "benzer baslik (bu kosuda)"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "[Nucor, Primetals Produce First Prime Coil on New Galvanizing Line in South Carolina]",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQXN0NUEzTHZfWjM0aWNzN3FpdHpsTmkxX2l2R09DQ0VLVTV5RklhME80Y0diZFlEekl5Y2pfN29TNXdBcmF1UmxwdGFUVnpwNGQ2MFF5QXkydFBsRUR4OHBNQWt5Q25xbFQ1NktYZ1ZfZ2E3V0dMWG0wTGlUZnFUOUJ5eFRiMm5RQ0NzdTFWdTNJUFB2RjlkbXJtbmtwamRDdzgzLXBGUGI1YlBvMTgyTG5zeU12cHVqZk9sU3NMMUE4MU1tOXc?oc=5",
+   "ek": "benzer baslik (bu kosuda)"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "Nucor and Primetals Technologies Produce First Prime Coil on New Galvanizing Line in South Carolina",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPZ2pFbEo5MDJlNGdLVTM3UGxHSVJQUG1sTVN3OTFvUkZMeGl0QkJSQ3g2R01Qal9nS3JZUmJOZmM5RzVTNnZ2UktCQk5ubmNqTWR0N05TVEdqM2xFYV9JZkQ5SGhzdGw3bm5fREk4YVVlWFVYSDA1WGM0NnNHcGs2ZW9nZXZRd19BRVJ1Tk4zc2lpUVBxdGpWbXVCcEY2Mm1fT0E4eEVaSlhZcURvSVo3blFqM0FXcXhNM2hlTjRvTDQwSVFtcXl0NHctMzgyQQ?oc=5",
+   "ek": "benzer baslik (bu kosuda)"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "[Nucor, Primetals Produce First Prime Coil on New Galvanizing Line in South Carolina]",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQXN0NUEzTHZfWjM0aWNzN3FpdHpsTmkxX2l2R09DQ0VLVTV5RklhME80Y0diZFlEekl5Y2pfN29TNXdBcmF1UmxwdGFUVnpwNGQ2MFF5QXkydFBsRUR4OHBNQWt5Q25xbFQ1NktYZ1ZfZ2E3V0dMWG0wTGlUZnFUOUJ5eFRiMm5RQ0NzdTFWdTNJUFB2RjlkbXJtbmtwamRDdzgzLXBGUGI1YlBvMTgyTG5zeU12cHVqZk9sU3NMMUE4MU1tOXc?oc=5",
+   "ek": "benzer baslik (bu kosuda)"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "Nucor and Primetals Technologies Produce First Prime Coil on New Galvanizing Line in South Carolina",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPZ2pFbEo5MDJlNGdLVTM3UGxHSVJQUG1sTVN3OTFvUkZMeGl0QkJSQ3g2R01Qal9nS3JZUmJOZmM5RzVTNnZ2UktCQk5ubmNqTWR0N05TVEdqM2xFYV9JZkQ5SGhzdGw3bm5fREk4YVVlWFVYSDA1WGM0NnNHcGs2ZW9nZXZRd19BRVJ1Tk4zc2lpUVBxdGpWbXVCcEY2Mm1fT0E4eEVaSlhZcURvSVo3blFqM0FXcXhNM2hlTjRvTDQwSVFtcXl0NHctMzgyQQ?oc=5",
+   "ek": "benzer baslik (bu kosuda)"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "Nucor Produces First Prime Coil on New 500,000 t/yr Automotive Galvanizing Line in South Carolina",
+   "url": "https://news.google.com/rss/articles/CBMiqwNBVV95cUxPdjZIUjRra0xfNUZ5SVZSUW1TTzFwc180ejR5VVRIb21EdGIybjZlZWx6d2cxMXJ3TnVaRWNLVVV5Y3MzNXV1cTRneTZHOW55QzhzLTdVZHdOQm5YZ0dWZ2M1TkVZb1FPU1dIbS1qZktON2J2UUJSMFh1R1JyazkyQ0dPLVZ2Z3dDUDB4QTM1TmVwbnRlN1BoWUNQUDNWUW1BWHpqb1FrLUEzRTVMbXJ6ZDNXZlRpZ1pUenBtX1JvcGdHUERFYjJ4elFZenE5N0FXeFJmUnFyVmJxN1JPWndSX0FiRFBXUFpiT2pKXzdNaDJTb1VMT2dyNFJ6QXBfSmRGc1FxOTJaekZmUE5ZbDkxeW1rbTc5UlNHaWo4WXowQ1d3WkgzTmgwUktoTDRBOEtxNERJRUQ2bG1fdmZGSHZFRnE0Wm1pSUxsR2dOQzdMbkFxS201ZDhzbHNSR3FlTEVYdEVWVk1IZTJpWlA4eHFwMEJtMmRsR1BnNHhVbTlBdWV1OWZ1eXROUjNtV2JxdDRURHNxY2pNV2lHQ3FRd0llNnBCTFkyTTVLU3dV?oc=5",
+   "ek": "benzer baslik (bu kosuda)"
+  },
+  {
+   "sebep": "tarihsiz_elendi",
    "baslik": "RRM starts up new cold-mill complex with Danieli technology",
    "url": "https://news.mesteel.com/rrm-starts-up-new-cold-mill-complex-with-danieli-technology/",
-   "ek": "2026-02-12"
+   "ek": ""
   },
   {
-   "sebep": "pencere_disi",
+   "sebep": "tarihsiz_elendi",
    "baslik": "Marcegaglia upgrades pickling line at Gazoldo degli Ippoliti stainless steel plant",
    "url": "https://news.mesteel.com/marcegaglia-upgrades-pickling-line-at-gazoldo-degli-ippoliti-stainless-steel-plant/",
-   "ek": "2026-07-13"
+   "ek": ""
   },
   {
    "sebep": "pencere_disi",
@@ -2841,16 +2865,16 @@
    "ek": "2026-02-26"
   },
   {
-   "sebep": "pencere_disi",
+   "sebep": "tarihsiz_elendi",
    "baslik": "Tata Steel selects Danieli for a combined pickling and galvanizing line for hot-rolled coated products",
    "url": "https://www.danieli.com/en/news-media/news/tata-steel-selects-danieli-combined-pickling-and-galvanizing-line-hot-rolled-coated-products_37_876.htm",
-   "ek": "2024-03-11"
+   "ek": ""
   },
   {
-   "sebep": "pencere_disi",
+   "sebep": "tarihsiz_elendi",
    "baslik": "Borcelik endorses Danieli with order for cold-strip complex",
    "url": "https://www.danieli.com/en/news-media/news/borcelik-endorses-danieli-order-cold-strip-complex_37_912.htm",
-   "ek": "2024-07-29"
+   "ek": ""
   },
   {
    "sebep": "tarihsiz_elendi",
@@ -2883,18 +2907,6 @@
    "ek": ""
   },
   {
-   "sebep": "tekrar",
-   "baslik": "Jindal India Commissions Continuous Galvanizing Line in West Bengal",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9yekFtbHFNMHVjb3VMODFsR09EemdFaVFCS1RFSFZ0QmZMNnRlSnV6bHFZUU1MMDFIdDVOV0dTc0VhNDZ2V1FnS0dXLTF5MjVE?oc=5",
-   "ek": "ayni olayin varyanti: *|ulke-hat|Hindistan|Galvaniz hatti (CGL)|Ilk urun; jindal india|fu|Hindistan|Galvaniz hatti (CGL); jindal india|hat|Galvaniz hatti (CGL)|Ilk urun; jindal india|ulke|Hindistan|Ilk urun"
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "Jindal India Commissions Continuous Galvanizing Line in West Bengal",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9yekFtbHFNMHVjb3VMODFsR09EemdFaVFCS1RFSFZ0QmZMNnRlSnV6bHFZUU1MMDFIdDVOV0dTc0VhNDZ2V1FnS0dXLTF5MjVE?oc=5",
-   "ek": "ayni olayin varyanti: *|ulke-hat|Hindistan|Galvaniz hatti (CGL)|Ilk urun; jindal india|fu|Hindistan|Galvaniz hatti (CGL); jindal india|hat|Galvaniz hatti (CGL)|Ilk urun; jindal india|ulke|Hindistan|Ilk urun"
-  },
-  {
    "sebep": "pencere_disi",
    "baslik": "Tata Steel Colors launches Colorcoat pre-painted steel in India",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQNnFIZU9NZWN0ejJBbWllanlhYXpYaGI0TExkQl9waTVXbFNEMGNUOWk1dnhFa1d0LUtCTlRxd1U4M3VkNVBHMVpuRGg3UzJXWEczeGlNUFd2OE5ES0lNUXdHQk51d2sxdmxkeWlWSkJNZkZGOUN4R2NaaHFPYVU?oc=5",
@@ -2907,12 +2919,6 @@
    "ek": "2026-10-11"
   },
   {
-   "sebep": "tekrar",
-   "baslik": "Jindal India Commissions Continuous Galvanizing Line in West Bengal",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9yekFtbHFNMHVjb3VMODFsR09EemdFaVFCS1RFSFZ0QmZMNnRlSnV6bHFZUU1MMDFIdDVOV0dTc0VhNDZ2V1FnS0dXLTF5MjVE?oc=5",
-   "ek": "ayni olayin varyanti: *|ulke-hat|Hindistan|Galvaniz hatti (CGL)|Ilk urun; jindal india|fu|Hindistan|Galvaniz hatti (CGL); jindal india|hat|Galvaniz hatti (CGL)|Ilk urun; jindal india|ulke|Hindistan|Ilk urun"
-  },
-  {
    "sebep": "pencere_disi",
    "baslik": "Fuxin Special Steel orders coil handling system from AMOVA - SMS group",
    "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxOenRCWmxMc1d4US1qWHh6WXRLc2hsX25KY2YyN3NBb1pWSXQ2bUlKV0w0VWt1Rkc2aGtuUWI1bko1TlYyWmY2STBmTGk4NHBsR0NvTGpqRUNTQVMxUDhuTFJSUjNBdEFjbkg0ank0ZVFvc0t2U1cwWWdaVzN2ZHJmQTBtWE5FSmlhdVoxbHg3UldGNkstVXdfSVA0RVNkb1dsZExCLW1YaGRQZzdkd0pmQWFhX0FtSzVuQ1BIdUQxSnVETmxPclNMWjVWRlRfdGF5bUxWS2dXbFJOUlVWOV91ZDloSDBVajljQUt6X0pkdTVmd2tFQUpZMFhwY3VsWk9YNWdyeUM2ZS1DLU9XcktGN3JZSExTZHg1V0t0ZndoR181ejg3em9WYnl0SU5pd2xEOEVwMg?oc=5",
@@ -2920,9 +2926,9 @@
   },
   {
    "sebep": "tekrar",
-   "baslik": "Nucor Begins Production on Primetals Technologies-Supplied CGL",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVm9pcDE5NUNfSW5vVmxpOGxFVmRWc09pd0Y2bDV2R2FHZkNPTVVLUjJ1RVV5anFBQ3BKWU1QeDJ6dUtEc0VlbUNteTZfVTRwQy1fb3lHVW1xRm14cVcxS056M0ctSEVFRW1iNXFHLW96NVBhYWd6dGwwcHhDc19JNEtxbWZ2eDBsWFlz?oc=5",
-   "ek": "ayni olayin varyanti: nucor|hat|Galvaniz hatti (CGL)|Ilk urun; primetals|hat|Galvaniz hatti (CGL)|Ilk urun"
+   "baslik": "Nucor produces first prime coil at new Berkeley galvanizing line",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNYjRCWmtBWVI4MEkzZ0NVVDZRVE5MVTVSTmI3UGotVFNoOURJN2tXMUhuMlUtRVBlcDF6Ymx5VTE5RVNaRnYzdXM3eDRtTjdkNGo1d2JIaUt0UDZ6U0g3Z2U4S3U4bGNVaW9KTGlnTm1vaXc2WUFENThzNnk4dkRDeEtqUEVSNDM3eFhfbVlYbUZoTERNNTlmXzYtOFRSYXBXR2tLbUVqaHZVZW44ZkpwaUhmMW9hMThfNmp3Tm9UOGYyM2Rq?oc=5",
+   "ek": "ayni olayin varyanti: nucor|hat|Galvaniz hatti (CGL)|Ilk urun"
   },
   {
    "sebep": "pencere_disi",
@@ -2974,8 +2980,14 @@
   },
   {
    "sebep": "pencere_disi",
+   "baslik": "Tezcan Galvaniz patronundan işçiye saldırı ve hakaret - Gazete Duvar",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOYWRLOEExSjhSS0NCMzVlUVhOOGFILU5lTXI3N0tPME9qLTY1MXM2MThHNE1wb3YzTmVzYVpjUS1udkZNcDRFTU04dFgtbmNXWEJaM2YzS2hXVER6dUgwYk5ReWhQYXVfOFdwMmY5OE90QTZpMUY4NnhKMXJXLWZFc1pXWk41YWZsd0dETGVBZHJWT0MxU3BoenVaQ2lRLTQ?oc=5",
+   "ek": "on eleme: 2024-01-02"
+  },
+  {
+   "sebep": "pencere_disi",
    "baslik": "Tezcan Galvaniz’de patronun komik zam teklifine işçiler grevle karşılık verdi! - Kocaeli Barış Gazetesi",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcXJVS1kyUUJPUUpiWkJEa250NlVRWGhmVEllZmJ4dllMaFNpdGVqeVNJRFJFM05SNmU0Tk5BVmVra0Rzb05LV29TTVd0UXRlVGdsSFVMS2xaNEUtNmR3YkNGTFd1NmlzOFZNQ0ZtRXlYblRHZUZnM280Uk1ZenlWbWo1eVVqakoyQmNiOXJpVWNHbU5VS3k5SzdHbmdVcHZSX1ptNVNGczRpV2toYkh1LXU5eG9Zd1p4Z1hVa0dpbHlMc2R0Y2U40gHMAUFVX3lxTE9EYlVFdmdFMlhybmptRDNwRDNlQV9FOUdRSUJ5RklYM0FRdG5CM3FiQVE5akJNTWZkZ3QtLVFadE81TTk3OUZaX1NLNGk5a0tYYkV0ZVlWakhFenhSR1hvcEtPaTRwSVgxbWhNRDltLWhKaVB5Q1UwWXQzU3pvVjB2T3BXTHMtdHZPSlpBc0JCTU9FQU0ySW1aTk4yZmNTYkYxVzdwbUFHVVMycHdMTkNPSXpZR2twbi1iMjU3WmlYT014R2Rfd25DUUJfaw?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcXJVS1kyUUJPUUpiWkJEa250NlVRWGhmVEllZmJ4dllMaFNpdGVqeVNJRFJFM05SNmU0Tk5BVmVra0Rzb05LV29TTVd0UXRlVGdsSFVMS2xaNEUtNmR3YkNGTFd1NmlzOFZNQ0ZtRXlYblRHZUZnM280Uk1ZenlWbWo1eVVqakoyQmNiOXJpVWNHbU5VS3k5SzdHbmdVcHZSX1ptNVNGczRpV2toYkh1LXU5eG9Zd1p4Z1hVa0dpbHlMc2R0Y2U4?oc=5",
    "ek": "on eleme: 2025-03-11"
   },
   {
@@ -3025,12 +3037,6 @@
    "baslik": "Tezcan Galvaniz işçileri baskı ve mobbinge uğruyor - Evrensel.net",
    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVU91QWRPZ2NITm1SRnNxVWg1bFphSU91bkhrajhGQlQ4emJDaExNcjFJRE5BM083TXR6ZkN3R0Nhc2E0OW1uYjFWbTJKS2hSd1Q1Z1hpRFd0SU54V2I2WGxNbFgxR2RXaEg3aXljaGlWSm12Q24wSG1CbUwzRDFQZGtJVVI1ak5YZzNtRUpMUjJIZw?oc=5",
    "ek": "on eleme: 2025-10-02"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Tezcan Galvaniz patronu işçi dövdü - Evrensel.net",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9KcE80RWRJcHNZcEE4aXplY1ZPS2VHTEJoek92NUVZQ0V3S0JxdzI0dldMeWFFcDhzODZKbk9yc29Uems3aWdrZ0NkcmJMc0ZYdEVMUkdzTzRYWTFOcGdHRHFibU9ILUdlZjFLY0l2QlJPRHcydHY0aEtDSzM?oc=5",
-   "ek": "on eleme: 2024-01-02"
   },
   {
    "sebep": "pencere_disi",
@@ -3093,6 +3099,30 @@
    "ek": "on eleme: 2025-04-01"
   },
   {
+   "sebep": "pencere_disi",
+   "baslik": "Tezcan Galvaniz işçileri öfkeli: “Haklarımız verilmezse biz de huzur vermeyiz” - Özgür Kocaeli",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbVViSFhqS3JhWUpISXVKMkRxUzlsTVNaa1hFdmxPaEpvd256UkYzQ200NHhZelZFVWFwb1NPdlhyRFNBMlItd1RiMVFhRU9CVEtnZXlFVFg1eHhRa0FOYnBNclM5ZC1wNHZ1WVpHeUF5YTd3YXhncEw4Nk11RUMwdTVsUmVYb0FTTEJlOVRYQzlDNjZoNmY1RnBWWlhXUHBMM0F3bXo0VGNNSGlzMDNSUVdWMHJnbjBENnc5WW1CMNIBxAFBVV95cUxQUG1PdktkVEFVZXpzNlp5WFBkUEQxR1JFUGVVaW9SaXp4YUFVZnFhOFplX1hOUEFHekJ5T0JpY0pxTWxTcW80WFgyYkJkQl9LZnpvQ2VtTW9lY25KYnlmNktsQ3lXekhtZ090NnFLZUlJMVhnTHZUNi1RNXlMd1RSanNIcldieEl5SU1HOHFBeEJkZlhGTlRyc0tzblBNSHRUZmVKR1lKVEFnT2FDNnZ2NE9lMUdCbnRreENnYjFuR0R1Z2lG?oc=5",
+   "ek": "on eleme: 2023-08-18"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Tezcan Galvaniz işvereninden skandal karar - Özgür Kocaeli",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNWhCaXNRRXhNc3JLS2M1N0lqMHdSQksxcDNPNGxWQW5EcXJIazNqLVMtenhTZkJXNmdwYmE3eFpWQlhOQVVaMkxqWEtFZU9rSm9PREZoVm9kMGQ4MU1EZnBRRHJ3UEFjWHRSUGVjZ1R4V28tRWlYMVlwUUVDWjlLS2lMN1E4UDJDbDg2eE5UazRJQzjSAZgBQVVfeXFMT2hza1ljaGJtMGtCR1FEdmpvbnNxcHhNbmZXN3gtN2M1V2tCWDBBbEttb2dTZFdlYVJ1N0JoX2Z5bjZJaVBOVFdLYzE5WGJQSjdaTy1IUmdOV0J1bXRSUnlPY0F6ajVjOXoyZWYzMF90SmlnYUlYZGR0bkdKckVUcnNMN0JVN1ZuOXIyM2swNU9JMlY2NFN5a3Y?oc=5",
+   "ek": "on eleme: 2023-08-18"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "TİP Kocaeli, Tezcan Galvaniz önüne gitti! - Bağımsız Kocaeli",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZndwWVBzUEVaWExYTkthQVllUFhxRm44TkMtT0RqeGR3aXNOdWRiWWV6SzJ4UFhPLUVnTmRHaEZZQ01RbEViUGxqWjZTd0dPRUlKN0x0RUdyNEcxTG0tenlrYmhlOTlEa0l2SElNVzVvcms3eXFfeU45NTJZSjMzOWIwUW1Ick5oQlQ1Rlg2M3RsdllrTHVyN0hB?oc=5",
+   "ek": "on eleme: 2024-01-02"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Saadet Partisi Kocaeli İl Başkanı Recep Sarıdoğan, Grevdeki Tezcan Galvaniz İşçileriyle İftarda Buluştu. - Özgün Kocaeli Gazetesi",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxObFliVkhoZUE1dVcwSnV3QzJFMjE2Uk16bXhEOXBlTVFPQ1k2N1p4NlF4UnJ3X2duSGlsOEdLcU1tNDdaeFZhY2xBc01vSjFNT1hNT1NUbFpZbXZWc3N4OE1UOEtaWmFBNERVOWJLOVY4STJ5OHNRTzRuSk8xVUVvNWdnUzF0elpUWmJ5ek94dE8zeFhWXzF1RVYyYUlUSDhqNXNSeXNDQlVRYzJ0Wi1EZ2ZXdHBaS0t4TlpHb1B3Y1J6YzlaVkJkU3V4TnR5am8?oc=5",
+   "ek": "on eleme: 2025-03-17"
+  },
+  {
    "sebep": "tarihsiz_elendi",
    "baslik": "Direnişteki Tezcan Galvaniz İşçileri Fabrikayı İşgal Etti",
    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPMjQ5aGdqRG45OExrNEl6VHdSSkRqUUp2dkNZUFJQeGVrUk5kdXVycUhVdFlVRVVlQkJRZzNxc2x2Q1ZuYzg2aE5EV2ZoUkJpaVpXdmc1MFRrdGRtOE9YdHlXSTBsS0tHZUVOWFBaaEZHTmwyRmQwLU4tQjV5T2gwX3VEQUl1ekN5SFdyU2dWTW1IZzQ?oc=5",
@@ -3109,6 +3139,12 @@
    "baslik": "Nurten Erk: Borusan bayiliğinden galvaniz krallığına",
    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZEl6alFxNy1wSVN5ZWxXTFBUUDRrdGhkbmRSeGJiZWk1X3g4UXd1SGNRcVEtSDhMa3M5QTBzMnZwOTBCRmdDc2N6aFJkTXo5eUFpWmo4QlV4aVRMM1F5NEZGazZQdUVyRFVGdmM1a0p3RWJKR1AxaVdyWkJJQnVpZmt5cGpYMkhyaDBEbUlqUUgwNHExRlZnNXF6WjdxbzJ1eWV1Y3RxbmxHU21MNlNFSGtPcGRYb1E?oc=5",
    "ek": ""
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "[Nucor, Primetals Produce First Prime Coil on New Galvanizing Line in South Carolina]",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQXN0NUEzTHZfWjM0aWNzN3FpdHpsTmkxX2l2R09DQ0VLVTV5RklhME80Y0diZFlEekl5Y2pfN29TNXdBcmF1UmxwdGFUVnpwNGQ2MFF5QXkydFBsRUR4OHBNQWt5Q25xbFQ1NktYZ1ZfZ2E3V0dMWG0wTGlUZnFUOUJ5eFRiMm5RQ0NzdTFWdTNJUFB2RjlkbXJtbmtwamRDdzgzLXBGUGI1YlBvMTgyTG5zeU12cHVqZk9sU3NMMUE4MU1tOXc?oc=5",
+   "ek": "benzer baslik (bu kosuda)"
   },
   {
    "sebep": "tekrar",
@@ -3136,32 +3172,14 @@
   },
   {
    "sebep": "tekrar",
-   "baslik": "Nippon Steel Raises US Mill Upgrade to $3 Billion as Costs Climb",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-23/nippon-steel-raises-us-mill-upgrade-to-3-billion-as-costs-climb",
+   "baslik": "New continuous galvanising line for Nucor Corporation",
+   "url": "https://www.steeltimesint.com/news/new-continuous-galvanising-line-for-nucor-corporation",
    "ek": ""
   },
   {
    "sebep": "tekrar",
-   "baslik": "Nucor and Primetals Technologies Produce First Prime Coil on New Galvanizing Line in South Carolina",
-   "url": "https://themachinemaker.com/news/nucor-and-primetals-technologies-produce-first-prime-coil-on-new-galvanizing-line-in-south-carolina/",
-   "ek": "ayni olayin varyanti: nucor and primetals technologies|hat|Galvaniz hatti (CGL)|Ilk urun; primetals|hat|Galvaniz hatti (CGL)|Ilk urun"
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "Nippon Steel Raises US Mill Upgrade to $3 Billion as Costs Climb",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-23/nippon-steel-raises-us-mill-upgrade-to-3-billion-as-costs-climb",
-   "ek": ""
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "Nippon Steel to spend $3B to upgrade US Steel Pennsylvania mill",
-   "url": "https://seekingalpha.com/news/4656367-nippon-steel-to-spend-3b-to-upgrade-us-steel-pennsylvania-mill",
-   "ek": "benzer baslik (bu kosuda)"
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "Nippon Steel Raises US Mill Upgrade to $3 Billion as Costs Climb",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-23/nippon-steel-raises-us-mill-upgrade-to-3-billion-as-costs-climb",
+   "baslik": "Red Bud Industries Installs Cut-to-Length Line at McNeilus Steel’s Tennessee Facility",
+   "url": "https://themachinemaker.com/news/red-bud-industries-installs-cut-to-length-line-at-mcneilus-steels-tennessee-facility/",
    "ek": ""
   },
   {
@@ -3178,44 +3196,8 @@
   },
   {
    "sebep": "tekrar",
-   "baslik": "Nucor and Primetals Technologies Produce First Prime Coil on New Galvanizing Line in South Carolina",
-   "url": "https://themachinemaker.com/news/nucor-and-primetals-technologies-produce-first-prime-coil-on-new-galvanizing-line-in-south-carolina/",
-   "ek": "ayni olayin varyanti: nucor and primetals technologies|hat|Galvaniz hatti (CGL)|Ilk urun; primetals|hat|Galvaniz hatti (CGL)|Ilk urun"
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "[BlueScope Starts Up New 240,000 mt/yr Galvanizing Line in Sydney]",
-   "url": "https://news.metal.com/newscontent/104159780-bluescope-starts-up-new-240000-mtyr-galvanizing-line-in-sydney",
-   "ek": "ayni olayin varyanti: *|ulke-hat|Avustralya|Galvaniz hatti (CGL)|Ilk urun; andritz|fu|Avustralya|Galvaniz hatti (CGL); andritz|hat|Galvaniz hatti (CGL)|Ilk urun; andritz|ulke|Avustralya|Ilk urun"
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "Tenova supplies processing lines for JSW JFE’s electrical steel plant in India",
-   "url": "https://www.yieh.com/en/News/tenova-supplies-processing-lines-for-jsw-jfes-electrical-steel-plant-in-india/163027",
-   "ek": ""
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "Nucor and Primetals Technologies Produce First Prime Coil on New Galvanizing Line in South Carolina",
-   "url": "https://themachinemaker.com/news/nucor-and-primetals-technologies-produce-first-prime-coil-on-new-galvanizing-line-in-south-carolina/",
-   "ek": "ayni olayin varyanti: nucor and primetals technologies|hat|Galvaniz hatti (CGL)|Ilk urun; primetals|hat|Galvaniz hatti (CGL)|Ilk urun"
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "Nucor and Primetals Technologies Produce First Prime Coil on New Galvanizing Line in South Carolina",
-   "url": "https://themachinemaker.com/news/nucor-and-primetals-technologies-produce-first-prime-coil-on-new-galvanizing-line-in-south-carolina/",
-   "ek": "ayni olayin varyanti: nucor and primetals technologies|hat|Galvaniz hatti (CGL)|Ilk urun; primetals|hat|Galvaniz hatti (CGL)|Ilk urun"
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "BC Jindal Group’s Jindal (India) Limited Achieves 1.6 MTPA Downstream Steel Capacity with Successful CGL-5 Revamp",
-   "url": "https://newspatrolling.com/bc-jindal-groups-jindal-india-limited-achieves-1-6-mtpa-downstream-steel-capacity-with-successful-cgl-5-revamp/",
-   "ek": "benzer baslik (gecmis 21 gun)"
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "Jindal India commissions revamped galvanising line at Bengal plant",
-   "url": "https://www.constructionweekonline.in/business/jindal-india-commissions-revamped-galvanising-line-at-bengal-plant",
+   "baslik": "Jindal India commissions galvanizing line in West Bengal",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/jindal-india-limited-commissions-continuous-galvanizing-line-at-its-west-bengal-steel-mill-1486940.htm",
    "ek": "ayni olayin varyanti: *|ulke-hat|Hindistan|Galvaniz hatti (CGL)|Ilk urun; jindal india|fu|Hindistan|Galvaniz hatti (CGL); jindal india|hat|Galvaniz hatti (CGL)|Ilk urun; jindal india|ulke|Hindistan|Ilk urun"
   },
   {
@@ -3226,15 +3208,105 @@
   },
   {
    "sebep": "tekrar",
-   "baslik": "Nippon Steel Raises US Mill Upgrade to $3 Billion as Costs Climb",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-23/nippon-steel-raises-us-mill-upgrade-to-3-billion-as-costs-climb",
+   "baslik": "New continuous galvanising line for Nucor Corporation",
+   "url": "https://www.steeltimesint.com/news/new-continuous-galvanising-line-for-nucor-corporation",
    "ek": ""
   },
   {
    "sebep": "tekrar",
-   "baslik": "Nippon Steel Raises US Mill Upgrade to $3 Billion as Costs Climb",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-23/nippon-steel-raises-us-mill-upgrade-to-3-billion-as-costs-climb",
+   "baslik": "Nucor and Primetals Technologies Produce First Prime Coil on New Galvanizing Line in South Carolina",
+   "url": "https://themachinemaker.com/news/nucor-and-primetals-technologies-produce-first-prime-coil-on-new-galvanizing-line-in-south-carolina/",
+   "ek": "ayni olayin varyanti: nucor and primetals technologies|hat|Galvaniz hatti (CGL)|Ilk urun; primetals|hat|Galvaniz hatti (CGL)|Ilk urun"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "[Nucor Produces First Prime Coil on New 500,000 t/yr Automotive Galvanizing Line in South Carolina]",
+   "url": "https://news.metal.com/newscontent/104207354-nucor-produces-first-prime-coil-on-new-500000-tyr-automotive-galvanizing-line-in-south-carolina",
+   "ek": "benzer baslik (bu kosuda)"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "Rotherham steel firm goes greener with £160K investment in panels and batteries",
+   "url": "https://www.msn.com/en-gb/technology/tech-companies/rotherham-steel-firm-goes-greener-with-160k-investment-in-panels-and-batteries/ar-AA2gEidN",
+   "ek": "benzer baslik (bu kosuda)"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "New continuous galvanising line for Nucor Corporation",
+   "url": "https://www.steeltimesint.com/news/new-continuous-galvanising-line-for-nucor-corporation",
    "ek": ""
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "[Nucor Produces First Prime Coil on New 500,000 t/yr Automotive Galvanizing Line in South Carolina]",
+   "url": "https://news.metal.com/newscontent/104207357-nucor-produces-first-prime-coil-on-new-500000-tyr-automotive-galvanizing-line-in-south-carolina",
+   "ek": "benzer baslik (bu kosuda)"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "New continuous galvanising line for Nucor Corporation",
+   "url": "https://www.steeltimesint.com/news/new-continuous-galvanising-line-for-nucor-corporation",
+   "ek": ""
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "[Nucor Produces First Prime Coil on New 500,000 t/yr Automotive Galvanizing Line in South Carolina]",
+   "url": "https://news.metal.com/newscontent/104207357-nucor-produces-first-prime-coil-on-new-500000-tyr-automotive-galvanizing-line-in-south-carolina",
+   "ek": "benzer baslik (bu kosuda)"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "Nucor and Primetals Technologies Produce First Prime Coil on New Galvanizing Line in South Carolina",
+   "url": "https://themachinemaker.com/news/nucor-and-primetals-technologies-produce-first-prime-coil-on-new-galvanizing-line-in-south-carolina/",
+   "ek": "ayni olayin varyanti: nucor and primetals technologies|hat|Galvaniz hatti (CGL)|Ilk urun; primetals|hat|Galvaniz hatti (CGL)|Ilk urun"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "Nucor and Primetals Technologies Produce First Prime Coil on New Galvanizing Line in South Carolina",
+   "url": "https://themachinemaker.com/news/nucor-and-primetals-technologies-produce-first-prime-coil-on-new-galvanizing-line-in-south-carolina/",
+   "ek": "ayni olayin varyanti: nucor and primetals technologies|hat|Galvaniz hatti (CGL)|Ilk urun; primetals|hat|Galvaniz hatti (CGL)|Ilk urun"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "[Nucor Produces First Prime Coil on New 500,000 t/yr Automotive Galvanizing Line in South Carolina]",
+   "url": "https://news.metal.com/newscontent/104207357-nucor-produces-first-prime-coil-on-new-500000-tyr-automotive-galvanizing-line-in-south-carolina",
+   "ek": "benzer baslik (bu kosuda)"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "New continuous galvanising line for Nucor Corporation",
+   "url": "https://www.steeltimesint.com/news/new-continuous-galvanising-line-for-nucor-corporation",
+   "ek": ""
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "[Nucor Produces First Prime Coil on New 500,000 t/yr Automotive Galvanizing Line in South Carolina]",
+   "url": "https://news.metal.com/newscontent/104207357-nucor-produces-first-prime-coil-on-new-500000-tyr-automotive-galvanizing-line-in-south-carolina",
+   "ek": "benzer baslik (bu kosuda)"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "BC Jindal Group’s Jindal (India) Limited Achieves 1.6 MTPA Downstream Steel Capacity with Successful CGL-5 Revamp",
+   "url": "https://newspatrolling.com/bc-jindal-groups-jindal-india-limited-achieves-1-6-mtpa-downstream-steel-capacity-with-successful-cgl-5-revamp/",
+   "ek": "benzer baslik (gecmis 21 gun)"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "Jindal India commissions revamped galvanising line at Bengal plant",
+   "url": "https://www.constructionweekonline.in/business/jindal-india-commissions-revamped-galvanising-line-at-bengal-plant",
+   "ek": "ayni olayin varyanti: *|ulke-hat|Hindistan|Galvaniz hatti (CGL)|Ilk urun; jindal india|fu|Hindistan|Galvaniz hatti (CGL); jindal india|hat|Galvaniz hatti (CGL)|Ilk urun; jindal india|ulke|Hindistan|Ilk urun"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "New continuous galvanising line for Nucor Corporation",
+   "url": "https://www.steeltimesint.com/news/new-continuous-galvanising-line-for-nucor-corporation",
+   "ek": ""
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "[Nucor Produces First Prime Coil on New 500,000 t/yr Automotive Galvanizing Line in South Carolina]",
+   "url": "https://news.metal.com/newscontent/104207357-nucor-produces-first-prime-coil-on-new-500000-tyr-automotive-galvanizing-line-in-south-carolina",
+   "ek": "benzer baslik (bu kosuda)"
   },
   {
    "sebep": "tekrar",
@@ -3250,38 +3322,26 @@
   },
   {
    "sebep": "tekrar",
-   "baslik": "Nippon Steel to spend $3B to upgrade US Steel Pennsylvania mill",
-   "url": "https://seekingalpha.com/news/4656367-nippon-steel-to-spend-3b-to-upgrade-us-steel-pennsylvania-mill",
+   "baslik": "Jindal India commissions galvanizing line in West Bengal",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/jindal-india-limited-commissions-continuous-galvanizing-line-at-its-west-bengal-steel-mill-1486940.htm",
+   "ek": "ayni olayin varyanti: *|ulke-hat|Hindistan|Galvaniz hatti (CGL)|Ilk urun; jindal india|fu|Hindistan|Galvaniz hatti (CGL); jindal india|hat|Galvaniz hatti (CGL)|Ilk urun; jindal india|ulke|Hindistan|Ilk urun"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "Jindal India Commissions Revamped Galvanising Line, Boosts Capacity",
+   "url": "https://money.rediff.com/news/market/jindal-india-commissions-revamped-galvanising-line-boosts-capacity/56985120261027",
+   "ek": ""
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "[Nucor Produces First Prime Coil on New 500,000 t/yr Automotive Galvanizing Line in South Carolina]",
+   "url": "https://news.metal.com/newscontent/104207357-nucor-produces-first-prime-coil-on-new-500000-tyr-automotive-galvanizing-line-in-south-carolina",
    "ek": "benzer baslik (bu kosuda)"
   },
   {
    "sebep": "tekrar",
-   "baslik": "Nippon Steel Raises US Mill Upgrade to $3 Billion as Costs Climb",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-23/nippon-steel-raises-us-mill-upgrade-to-3-billion-as-costs-climb",
-   "ek": ""
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "Nippon Steel Raises US Mill Upgrade to $3 Billion as Costs Climb",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-23/nippon-steel-raises-us-mill-upgrade-to-3-billion-as-costs-climb",
-   "ek": ""
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "Nippon Steel Raises US Mill Upgrade to $3 Billion as Costs Climb",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-23/nippon-steel-raises-us-mill-upgrade-to-3-billion-as-costs-climb",
-   "ek": ""
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "Nippon Steel Raises US Mill Upgrade to $3 Billion as Costs Climb",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-23/nippon-steel-raises-us-mill-upgrade-to-3-billion-as-costs-climb",
-   "ek": ""
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "Nippon Steel Raises US Mill Upgrade to $3 Billion as Costs Climb",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-23/nippon-steel-raises-us-mill-upgrade-to-3-billion-as-costs-climb",
+   "baslik": "New continuous galvanising line for Nucor Corporation",
+   "url": "https://www.steeltimesint.com/news/new-continuous-galvanising-line-for-nucor-corporation",
    "ek": ""
   },
   {
@@ -3292,21 +3352,15 @@
   },
   {
    "sebep": "tekrar",
-   "baslik": "Nippon Steel Raises US Mill Upgrade to $3 Billion as Costs Climb",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-23/nippon-steel-raises-us-mill-upgrade-to-3-billion-as-costs-climb",
+   "baslik": "New continuous galvanising line for Nucor Corporation",
+   "url": "https://www.steeltimesint.com/news/new-continuous-galvanising-line-for-nucor-corporation",
    "ek": ""
   },
   {
    "sebep": "tekrar",
-   "baslik": "Nippon Steel Raises US Mill Upgrade to $3 Billion as Costs Climb",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-23/nippon-steel-raises-us-mill-upgrade-to-3-billion-as-costs-climb",
-   "ek": ""
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "Nucor and Primetals Technologies Produce First Prime Coil on New Galvanizing Line in South Carolina",
-   "url": "https://themachinemaker.com/news/nucor-and-primetals-technologies-produce-first-prime-coil-on-new-galvanizing-line-in-south-carolina/",
-   "ek": "ayni olayin varyanti: nucor and primetals technologies|hat|Galvaniz hatti (CGL)|Ilk urun; primetals|hat|Galvaniz hatti (CGL)|Ilk urun"
+   "baslik": "[Nucor Produces First Prime Coil on New 500,000 t/yr Automotive Galvanizing Line in South Carolina]",
+   "url": "https://news.metal.com/newscontent/104207357-nucor-produces-first-prime-coil-on-new-500000-tyr-automotive-galvanizing-line-in-south-carolina",
+   "ek": "benzer baslik (bu kosuda)"
   }
  ]
 }

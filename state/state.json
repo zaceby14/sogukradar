@@ -134,6 +134,58 @@
    "url": "https://www.clecim.com/nucor_first_coil/"
   },
   {
+   "anahtar": "d083fd260733cebf",
+   "asama": "Ilk urun",
+   "baslik": "Nucor Begins Production on Primetals Technologies-Supplied CGL",
+   "eksik": [
+    "ulke"
+   ],
+   "firma": "Nucor",
+   "hat": "Galvaniz hatti (CGL)",
+   "ilgili": [
+    {
+     "baslik": "Nucor Steel Berkeley produces its first coil on the new Continuous Galvanizing Line",
+     "kaynak": "Clecim",
+     "tarih": "2026-11-04",
+     "url": "https://www.clecim.com/nucor_first_coil/"
+    },
+    {
+     "baslik": "New continuous galvanising line for Nucor Corporation",
+     "kaynak": "Steel Times International",
+     "tarih": "2026-11-06",
+     "url": "https://www.steeltimesint.com/news/new-continuous-galvanising-line-for-nucor-corporation"
+    }
+   ],
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Clecim",
+   "kaynak_id": "gs_aist",
+   "kume_anahtarlari": [
+    "d083fd260733cebf",
+    "9084e2ca3c770e78",
+    "6ba68310a71973b4"
+   ],
+   "lead": "Nucor Begins Production on Primetals Technologies-Supplied CGL &nbsp;&nbsp; AIST Association for Iron & Steel Technology",
+   "olaylar": [
+    "nucor corporation|fu|ABD|Galvaniz hatti (CGL)",
+    "nucor corporation|hat|Galvaniz hatti (CGL)|Belirsiz",
+    "nucor corporation|ulke|ABD|Belirsiz",
+    "nucor steel berkeley|hat|Galvaniz hatti (CGL)|Ilk urun",
+    "nucor|hat|Galvaniz hatti (CGL)|Ilk urun",
+    "primetals|fu|ABD|Galvaniz hatti (CGL)",
+    "primetals|hat|Galvaniz hatti (CGL)|Belirsiz",
+    "primetals|hat|Galvaniz hatti (CGL)|Ilk urun",
+    "primetals|ulke|ABD|Belirsiz"
+   ],
+   "puan": 62.2,
+   "tarih": "2026-11-04",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "Primetals",
+   "tutar": "",
+   "ulke": "ABD",
+   "url": "https://www.clecim.com/nucor_first_coil/"
+  },
+  {
    "anahtar": "3a4b6e2a6c086c5e",
    "asama": "Teknoloji",
    "baslik": "Kıraç Galvaniz, MSB Askeri Fabrikalar Genel Müdürlüğü’nün Onaylı Tedarikçisi Oldu",
@@ -158,6 +210,60 @@
    "tutar": "",
    "ulke": "",
    "url": "https://www.steelturk.com.tr/kirac-galvaniz-msb-askeri-fabrikalar-genel-mudurlugunun-onayli-tedarikcisi-oldu/"
+  },
+  {
+   "anahtar": "71b020c404ac2ebb",
+   "asama": "Sozlesme",
+   "baslik": "$1.9 billion US Steel plant to supply Arkansas furnaces",
+   "eksik": [
+    "firma",
+    "hat"
+   ],
+   "firma": "",
+   "hat": "Belirsiz",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Furnaces International",
+   "kaynak_id": "furnacesint",
+   "lead": "Home News Features Events Upcoming events Directory Issues Latest Issue Issue Archive Media Pack Furnaces Media Pack Subscribe Publications Contact Us $1.9 billion US Steel plant to supply Arkansas furnaces Published 3rd November, 2026 by Hannah King The investment will create approximately 200 full-time jobs and an estimated 2,000 construction jobs at peak. US Steel has broken ground on a $1.9 billion direct reduced",
+   "olaylar": [
+    "|fu|ABD|Belirsiz",
+    "|hat|Belirsiz|Sozlesme",
+    "|ulke|ABD|Sozlesme"
+   ],
+   "puan": 54.8,
+   "tarih": "2026-11-03",
+   "tarih_kaynagi": "json-ld",
+   "tedarikci": "",
+   "tutar": "$1.9 billion",
+   "ulke": "ABD",
+   "url": "https://furnaces-international.com/news/1-9-billion-us-steel-plant-to-supply-arkansas-furnaces"
+  },
+  {
+   "anahtar": "d75a93c69169a293",
+   "asama": "Belirsiz",
+   "baslik": "Steel firm goes greener with £160K investment in panels and batteries",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "firma": "Steel firm",
+   "hat": "Elektrik celigi hatti",
+   "kapasite": "",
+   "kategori": "Yatirim",
+   "kaynak": "Rotherham Advertiser",
+   "kaynak_id": "gq_sup02",
+   "lead": "Steel firm goes greener with £160K investment in panels and batteries &nbsp;&nbsp; Rotherham Advertiser",
+   "olaylar": [
+    "steel firm|hat|Elektrik celigi hatti|Belirsiz"
+   ],
+   "puan": 10.3,
+   "tarih": "2026-11-03",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "£160",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxObmV1anZVdzM4U3dqR1NxNkozTlNEalFEV19HTWVhR2dvcThLU2hWVmRzOFF4R1MwMTZ5aXNyNklyamhzYThyc0F2alpvNXdycFhGNUk4Ti0zWmFBLVRGakF2QmpEWGpPTjB2bnBMUzFGQnJOM3dTWThSbEtsTXlReUtkcm55TUVTZWl5Z2hHN3lYRy04WDlRNENqbFpRRHFYNDUyeDM4UmV0dlhHRURKU2luV1ZRVWNaMExnbl9QVTgzOGdQVUJtMzN3?oc=5"
   },
   {
    "anahtar": "872b860afdafbe17",
@@ -362,81 +468,6 @@
    "tutar": "",
    "ulke": "",
    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdU1RMmRXLVpqaWEzNHN4cnhuUlhZajdIMjFfc1VFY0tIT1dQNFlucGVBVGZ0MkpVcW91RHlsREwyUFltVW0yWGlNQzNwVDVUSy1ETXUzNG41TXFGTHJncmI1TXNhS2tVYXJEcDV4Mmt4Mm9KdWJoczNyeDNPWWNqY0FDUU1mUnF1NEZxWm9IQnNoNmtDZnh5U25iMml2TFVGN1E?oc=5"
-  },
-  {
-   "anahtar": "866a901347e29691",
-   "asama": "Modernizasyon",
-   "baslik": "唐山市晟鑫冷轧薄板生产线升级改造项目生态环境影响报告书获批",
-   "eksik": [
-    "firma",
-    "ulke"
-   ],
-   "firma": "",
-   "hat": "Elektrik celigi hatti",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "Mysteel (haber)",
-   "kaynak_id": "mysteel_news",
-   "olaylar": [
-    "|hat|Elektrik celigi hatti|Modernizasyon"
-   ],
-   "puan": 45.0,
-   "tarih": "2026-09-21",
-   "tarih_kaynagi": "json-ld",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "",
-   "url": "https://news.mysteel.com/a/26092109/0A0B14F6D5801083.html"
-  },
-  {
-   "anahtar": "6452945ec70270a7",
-   "asama": "Teknoloji",
-   "baslik": "POSCO to Build State-of-the-Art Galvanized Automotive Steel Sheet Plant, Bringing Together the Latest Automotive Steel Technologies 2026/09/21",
-   "eksik": [
-    "ulke",
-    "tarih?"
-   ],
-   "firma": "POSCO",
-   "hat": "Galvaniz hatti (CGL)",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "POSCO",
-   "kaynak_id": "posco",
-   "olaylar": [
-    "posco|hat|Galvaniz hatti (CGL)|Teknoloji"
-   ],
-   "puan": 42.0,
-   "tarih": "2026-09-21",
-   "tarih_kaynagi": "metin",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "",
-   "url": "https://newsroom.posco.com/en/posco-to-build-state-of-the-art-galvanized-automotive-steel-sheet-plant-bringing-together-the-latest-automotive-steel-technologies/"
-  },
-  {
-   "anahtar": "6b9163d81507db69",
-   "asama": "Belirsiz",
-   "baslik": "POSCO to Build State-of-the-Art Galvanized Automotive Steel Sheet Plant, Bringing Together the Latest Automotive Steel Technologies",
-   "eksik": [
-    "ulke",
-    "asama"
-   ],
-   "firma": "POSCO",
-   "hat": "Galvaniz hatti (CGL)",
-   "kapasite": "",
-   "kategori": "Yatirim",
-   "kaynak": "포스코그룹 뉴스룸",
-   "kaynak_id": "gq_hat04",
-   "olaylar": [
-    "posco|hat|Galvaniz hatti (CGL)|Belirsiz"
-   ],
-   "puan": 5.0,
-   "tarih": "2026-09-21",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "",
-   "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNRjdQdkp3TTgyQXluR1JnM29pUmoyT3NoUDZBenBrZk81RVZwNHo5NEZsVmpLVlVYNlZobEJVT0RPWWZTNno3NmM2X2FRNUpMazlkUG9HQzhRMmI5SktOYnVfa3ZSbzc2QlBwazd2V3NmS09LbUlXVW9rY0x0QXhBUklaUnN3RGVRUHQzb0laeXU3Q0FtZHlFYWlpRU5YSlg2Q19UMDNFdHZRS0U0aDRpTUZpOHZQUk9vUUU2dW00akUtOU9KTVhnbldUY00zbW96dnBfX2VRaFFRTGs3Ymx2QWs5UVhzSFFpY1dWY2JqcjdMV2s?oc=5"
   }
  ],
  "events": {
@@ -2227,9 +2258,35 @@
     "tekrar": 47
    },
    "uretim": "2026-11-05 11:04 UTC"
+  },
+  {
+   "donem": "2026-W45",
+   "satir": 6,
+   "stats": {
+    "erisilemeyen": 6,
+    "gnews_tarih": 0,
+    "ham": 3984,
+    "kabul": 8,
+    "kapsam_disi": 3545,
+    "kaynak": 315,
+    "makale_acildi": 228,
+    "on_eleme_gecti": 436,
+    "pencere_disi": 271,
+    "tarihsiz_elendi": 109,
+    "tekrar": 51
+   },
+   "uretim": "2026-11-06 11:11 UTC"
   }
  ],
  "piyasa_rezerv": [
+  {
+   "anahtar": "piyasa:57ac2bb7e1222d7b",
+   "baslik": "Electrical Steel Pricing Report: Explore Global Price Trends, Historical Data and Forecasts",
+   "kaynak": "openPR.com",
+   "lead": "Electrical Steel Pricing Report: Explore Global Price Trends, Historical Data and Forecasts &nbsp;&nbsp; openPR.com",
+   "tarih": "2026-11-05",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdmp1SGVTd19RaTEwRW56Q0tjb2x3eVFfTE4xLVpWZ2hmdXlHQnB2TDQ0Y1c1U2U4dS1tQTc4TXg3ZHE1RFhMYTlzZGVxd1pGZ1pCZlRCS2tuUjB5STZGNy0zWGRGRkdETElmaVQwMGRwczJwaHpJWERWclBIa0JJa2NOREU4Y1RvTnZKWVM0dVdSVHkwNVNMQmptdw?oc=5"
+  },
   {
    "anahtar": "piyasa:bd6e204eaa1c8929",
    "baslik": "Korea recommends duties on Chinese galvanized steel",
@@ -2357,6 +2414,34 @@
   "piyasa:db67f98fb4dd717b": "2026-11-02"
  },
  "rezerv": [
+  {
+   "anahtar": "23bf13d96a97ad7c",
+   "asama": "Ilk urun",
+   "baslik": "[BlueScope Starts Up New 240,000 mt/yr Galvanizing Line in Sydney]",
+   "eksik": [
+    "firma"
+   ],
+   "firma": "",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "240,000 mt/yr",
+   "kategori": "Hat",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_hat03",
+   "lead": "BlueScope Steel's new continuous galvanizing line in Sydney, Australia, supplied by ANDRITZ, has produced its first galvanized coil. The line will produce galvanized steel strip for ...",
+   "olaylar": [
+    "*|ulke-hat|Avustralya|Galvaniz hatti (CGL)|Ilk urun",
+    "andritz|fu|Avustralya|Galvaniz hatti (CGL)",
+    "andritz|hat|Galvaniz hatti (CGL)|Ilk urun",
+    "andritz|ulke|Avustralya|Ilk urun"
+   ],
+   "rezerv": true,
+   "tarih": "2026-10-15",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "Andritz",
+   "tutar": "",
+   "ulke": "Avustralya",
+   "url": "https://news.metal.com/newscontent/104159780-bluescope-starts-up-new-240000-mtyr-galvanizing-line-in-sydney"
+  },
   {
    "anahtar": "ea581249119e5a4e",
    "asama": "Ilk urun",

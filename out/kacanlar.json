@@ -1,15 +1,15 @@
 {
  "donem": "2026-W45",
  "pencere": [
-  "2026-10-15",
-  "2026-11-05"
+  "2026-10-16",
+  "2026-11-06"
  ],
- "uretim": "2026-11-05 11:11 UTC",
+ "uretim": "2026-11-06 11:11 UTC",
  "kaynaklar": {
   "steeltimesint": {
    "publisher": "Steel Times International",
-   "durum": "erisilemedi",
-   "hata": "HTTP 403"
+   "durum": "ok",
+   "adres": 400
   },
   "steelorbis": {
    "publisher": "SteelOrbis",
@@ -39,17 +39,52 @@
  "dogrulanamayan": [],
  "acildi_elendi": [
   {
+   "baslik": "Primetals secures PLTCM automation order",
+   "url": "https://www.steeltimesint.com/news/primetals-secures-pltcm-automation-order",
+   "sebep": "pencere disi (2026-09-03)"
+  },
+  {
+   "baslik": "Primetals to modernise Korean pickling line",
+   "url": "https://www.steeltimesint.com/news/primetals-to-modernise-korean-pickling-line",
+   "sebep": "pencere disi (2026-08-11)"
+  },
+  {
+   "baslik": "Hyundai Steel installs robotic coil trimming system",
+   "url": "https://www.steeltimesint.com/news/hyundai-steel-installs-robotic-coil-trimming-system",
+   "sebep": "pencere disi (2026-07-17)"
+  },
+  {
+   "baslik": "Welsh contractor appointed for Pickle Line construction at Port Talbot",
+   "url": "https://www.steeltimesint.com/news/welsh-contractor-appointed-for-pickle-line-construction-at-port-talbot",
+   "sebep": "pencere disi (2026-07-03)"
+  },
+  {
+   "baslik": "Pomini Tenova and Siemens to deliver roll grinder revamping",
+   "url": "https://www.steeltimesint.com/news/pomini-tenova-and-siemens-to-deliver-roll-grinder-revamping",
+   "sebep": "pencere disi (2026-06-23)"
+  },
+  {
+   "baslik": "Fives signs annealing furnace contract with JSW Steel",
+   "url": "https://www.steeltimesint.com/news/fives-signs-annealing-furnace-contract-with-jsw-steel",
+   "sebep": "pencere disi (2026-06-10)"
+  },
+  {
+   "baslik": "US Steel to restart Gary Tin Mill",
+   "url": "https://www.steeltimesint.com/news/us-steel-to-restart-gary-tin-mill",
+   "sebep": "pencere disi (2026-04-20)"
+  },
+  {
+   "baslik": "Primetals modernises ArcelorMittal cold mill",
+   "url": "https://www.steeltimesint.com/news/primetals-modernises-arcelormittal-cold-mill",
+   "sebep": "pencere disi (2025-12-02)"
+  },
+  {
    "baslik": "UAE's Embosal plans 1.2 million mt HRC plant",
    "url": "https://www.steelorbis.com/steel-news/latest-news/baeli-embosal-12-milyon-mt-kapasiteli-sicak-rulo-sac-tesisi-kurmayi-planliyor-1485164.htm",
    "sebep": "gercek baslikta kapsam_disi"
-  },
-  {
-   "baslik": "Tata Steel Colors launches pre-painted steel products in India",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/tata-steel-colors-launches-pre-painted-steel-products-in-india-1483048.htm",
-   "sebep": "pencere disi (2026-10-12)"
   }
  ],
- "kapiyi_gecen": 3,
- "sitemap_adayi": 400,
- "elenen": 397
+ "kapiyi_gecen": 10,
+ "sitemap_adayi": 800,
+ "elenen": 790
 }
