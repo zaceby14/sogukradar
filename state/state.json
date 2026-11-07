@@ -2276,6 +2276,24 @@
     "tekrar": 51
    },
    "uretim": "2026-11-06 11:11 UTC"
+  },
+  {
+   "donem": "2026-W45",
+   "satir": 6,
+   "stats": {
+    "erisilemeyen": 4,
+    "gnews_tarih": 0,
+    "ham": 3885,
+    "kabul": 7,
+    "kapsam_disi": 3428,
+    "kaynak": 315,
+    "makale_acildi": 237,
+    "on_eleme_gecti": 460,
+    "pencere_disi": 276,
+    "tarihsiz_elendi": 106,
+    "tekrar": 68
+   },
+   "uretim": "2026-11-07 10:13 UTC"
   }
  ],
  "piyasa_rezerv": [
@@ -2398,14 +2416,6 @@
    "lead": "Cleveland-Cliffs links Stelco layoffs in Canada to galvanized steel imports &nbsp;&nbsp; Yieh Corp.",
    "tarih": "2026-10-21",
    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObUE5ajFDRGxvNVJGeWtPN3BHc1kwNlZrcVBnckQzRXM3cXFrN3dwSWE1NnJsZkZjRVU3SEliaENoOWMwTHFDRUQ0QXFXRWp6VUVaZDRqSW5YSFZZbmdJODA0MWRvbm12WjVzU1hHa0pLaWJyS01GSjh0T0JjM1llZElfekxxMmJFMTRVNGN5ZlRwd0hOUkpNWjBzMkREdWt5ZE5DekdYbW1ya01CM2stcQ?oc=5"
-  },
-  {
-   "anahtar": "piyasa:9cc6a1bf4fc34aee",
-   "baslik": "[SMM Analysis] With Few Upside or Downside Catalysts, GO Silicon Steel Prices to Remain Subdued in October",
-   "kaynak": "Shanghai Metals Market",
-   "lead": "[SMM Analysis] With Few Upside or Downside Catalysts, GO Silicon Steel Prices to Remain Subdued in October &nbsp;&nbsp; Shanghai Metals Market",
-   "tarih": "2026-10-16",
-   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOZktQR3hjZWZ1WHl1d09PQlRXWlBmb0RMSTNDQUNjVE1WUzkxT1pKVXVKMkJkaEU2aHBpMzNLUmM0N2FCNjI2eUhSdWpkcGc1eXRnOG1WbVMwa25Xd2NjOWdJUmFMQ3h6cXdGVDA0aDZIX1ZldFNVNlpXMjNRSDZyTGVLdXFsOV9ZanpLcWJtM2ZRdFdXYkg2Z1lmNVRCeHNZSVhwb2pmWjZld1RSbjJvc1g4SVRCRHpydkwzUHQ0ck8wbWIzWDFuWHBHTHlnNHlyMGtwWTdkWEM0UzQ4RG56RUJR?oc=5"
   }
  ],
  "piyasa_seen": {

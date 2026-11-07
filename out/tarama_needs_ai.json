@@ -31,20 +31,6 @@
    }
   },
   {
-   "anahtar": "81220ff3171fedb4",
-   "baslik": "Hindustan Zinc Expands Value-Added Zinc Product Offerings with Next-Gen Alloys ‘VedAZ’ & ‘VedAyush’ for the Galvanizing Industry",
-   "url": "https://www.republicworld.com/initiatives/hindustan-zinc-expands-value-added-zinc-product-offerings-with-next-gen-alloys-vedaz-and-vedayush-for-the-galvanizing-industry-2026-11-04-140415",
-   "eksik": [
-    "ulke"
-   ],
-   "mevcut": {
-    "firma": "Hindustan Zinc",
-    "ulke": "",
-    "hat": "Galvaniz hatti (CGL)",
-    "asama": "Sozlesme"
-   }
-  },
-  {
    "anahtar": "71b020c404ac2ebb",
    "baslik": "$1.9 billion US Steel plant to supply Arkansas furnaces",
    "url": "https://furnaces-international.com/news/1-9-billion-us-steel-plant-to-supply-arkansas-furnaces",
@@ -88,6 +74,23 @@
     "hat": "Elektrik celigi hatti",
     "asama": "Belirsiz"
    }
+  },
+  {
+   "anahtar": "90e30cb4756c40e2",
+   "baslik": "【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】",
+   "url": "https://news.metal.com/en/newscontent/104207357-纽柯在南卡罗来纳州新建50万吨年汽车板镀锌线产出首卷优质卷板",
+   "eksik": [
+    "firma",
+    "ulke",
+    "hat",
+    "tarih?"
+   ],
+   "mevcut": {
+    "firma": "",
+    "ulke": "",
+    "hat": "Belirsiz",
+    "asama": "Ilk urun"
+   }
   }
  ],
  "cumle_yaz": [
@@ -112,16 +115,6 @@
    "url": "https://www.andritz.com/newsroom-en/metals/2026-11-05-jsw-group"
   },
   {
-   "anahtar": "81220ff3171fedb4",
-   "tarih": "2026-11-04",
-   "firma": "Hindustan Zinc",
-   "ulke": "",
-   "hat": "Galvaniz hatti (CGL)",
-   "asama": "Sozlesme",
-   "baslik": "Hindustan Zinc Expands Value-Added Zinc Product Offerings with Next-Gen Alloys ‘VedAZ’ & ‘VedAyush’ for the Galvanizing Industry",
-   "url": "https://www.republicworld.com/initiatives/hindustan-zinc-expands-value-added-zinc-product-offerings-with-next-gen-alloys-vedaz-and-vedayush-for-the-galvanizing-industry-2026-11-04-140415"
-  },
-  {
    "anahtar": "71b020c404ac2ebb",
    "tarih": "2026-11-03",
    "firma": "",
@@ -130,6 +123,16 @@
    "asama": "Sozlesme",
    "baslik": "$1.9 billion US Steel plant to supply Arkansas furnaces",
    "url": "https://furnaces-international.com/news/1-9-billion-us-steel-plant-to-supply-arkansas-furnaces"
+  },
+  {
+   "anahtar": "90e30cb4756c40e2",
+   "tarih": "2026-11-05",
+   "firma": "",
+   "ulke": "",
+   "hat": "Belirsiz",
+   "asama": "Ilk urun",
+   "baslik": "【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】",
+   "url": "https://news.metal.com/en/newscontent/104207357-纽柯在南卡罗来纳州新建50万吨年汽车板镀锌线产出首卷优质卷板"
   }
  ],
  "teknoloji_adaylari": [

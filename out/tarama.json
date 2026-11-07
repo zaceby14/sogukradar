@@ -31,7 +31,7 @@
     "primetals|hat|Galvaniz hatti (CGL)|Ilk urun",
     "primetals|ulke|ABD|Belirsiz"
    ],
-   "puan": 62.2,
+   "puan": 61.8,
    "ilgili": [
     {
      "baslik": "Nucor Steel Berkeley produces its first coil on the new Continuous Galvanizing Line",
@@ -66,7 +66,7 @@
    "kaynak_id": "andritz",
    "url": "https://www.andritz.com/newsroom-en/metals/2026-11-05-jsw-group",
    "tarih_kaynagi": "url",
-   "lead": "Skip to main content en English Deutsch Site directory Newsroom Menu Search en English Deutsch Site directory Newsroom Menu Search Annual Report 2025 published Turning progress into industrial impact. FOR GROWTH THAT MATTERS. Discover more ANDRITZ GROUP ANDRITZ GROUP Newsroom Careers Sustainability OUR BUSINESS AREAS PULP & PAPER METALS HYDROPOWER ENVIRONMENT & ENERGY MORE ANDRITZ SOLUTIONS Automation Cyber security ",
+   "lead": "Skip to main content en Deutsch English Site directory Newsroom Menu Search en Deutsch English Site directory Newsroom Menu Search Annual Report 2025 published Turning progress into industrial impact. FOR GROWTH THAT MATTERS. Discover more ANDRITZ GROUP ANDRITZ GROUP Newsroom Careers Sustainability OUR BUSINESS AREAS PULP & PAPER METALS HYDROPOWER ENVIRONMENT & ENERGY MORE ANDRITZ SOLUTIONS Automation Cyber security ",
    "eksik": [
     "ulke",
     "tarih?"
@@ -77,32 +77,7 @@
     "andritz|hat|Asit rejenerasyonu (ARP)|Ilk urun",
     "jsw steel coated products|hat|Asit rejenerasyonu (ARP)|Ilk urun"
    ],
-   "puan": 62.1
-  },
-  {
-   "tarih": "2026-11-04",
-   "firma": "Hindustan Zinc",
-   "ulke": "",
-   "hat": "Galvaniz hatti (CGL)",
-   "asama": "Sozlesme",
-   "tedarikci": "",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "Hindustan Zinc Expands Value-Added Zinc Product Offerings with Next-Gen Alloys ‘VedAZ’ & ‘VedAyush’ for the Galvanizing Industry",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgtek_kaplama",
-   "url": "https://www.republicworld.com/initiatives/hindustan-zinc-expands-value-added-zinc-product-offerings-with-next-gen-alloys-vedaz-and-vedayush-for-the-galvanizing-industry-2026-11-04-140415",
-   "tarih_kaynagi": "rss",
-   "lead": "Hindustan Zinc has introduced VedAZ and VedAyush, two advanced zinc alloys designed to improve galvanising efficiency, coating quality and corrosion resistance across industries.",
-   "eksik": [
-    "ulke"
-   ],
-   "anahtar": "81220ff3171fedb4",
-   "kategori": "Hat",
-   "olaylar": [
-    "hindustan zinc|hat|Galvaniz hatti (CGL)|Sozlesme"
-   ],
-   "puan": 61.2
+   "puan": 61.7
   },
   {
    "tarih": "2026-11-03",
@@ -130,7 +105,7 @@
     "|hat|Belirsiz|Sozlesme",
     "|ulke|ABD|Sozlesme"
    ],
-   "puan": 54.8
+   "puan": 54.4
   },
   {
    "tarih": "2026-11-03",
@@ -156,7 +131,7 @@
    "olaylar": [
     "kirac galvaniz|hat|Galvaniz hatti (CGL)|Teknoloji"
    ],
-   "puan": 15.3
+   "puan": 14.9
   },
   {
    "tarih": "2026-11-03",
@@ -182,27 +157,51 @@
    "olaylar": [
     "steel firm|hat|Elektrik celigi hatti|Belirsiz"
    ],
-   "puan": 10.3
+   "puan": 9.9
+  },
+  {
+   "anahtar": "90e30cb4756c40e2",
+   "asama": "Ilk urun",
+   "baslik": "【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】",
+   "eksik": [
+    "firma",
+    "ulke",
+    "hat",
+    "tarih?"
+   ],
+   "firma": "",
+   "hat": "Belirsiz",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "SMM (Shanghai Metals)",
+   "kaynak_id": "smm",
+   "lead": "",
+   "olaylar": [
+    "|hat|Belirsiz|Ilk urun"
+   ],
+   "puan": 47.0,
+   "tarih": "2026-11-05",
+   "tarih_kaynagi": "liste",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.metal.com/en/newscontent/104207357-纽柯在南卡罗来纳州新建50万吨年汽车板镀锌线产出首卷优质卷板"
   }
  ],
  "stats": {
   "kaynak": 315,
-  "erisilemeyen": 6,
-  "ham": 3984,
-  "on_eleme_gecti": 436,
-  "makale_acildi": 228,
-  "tarihsiz_elendi": 109,
-  "pencere_disi": 271,
-  "kapsam_disi": 3545,
-  "tekrar": 51,
-  "kabul": 8,
+  "erisilemeyen": 4,
+  "ham": 3885,
+  "on_eleme_gecti": 460,
+  "makale_acildi": 237,
+  "tarihsiz_elendi": 106,
+  "pencere_disi": 276,
+  "kapsam_disi": 3428,
+  "tekrar": 68,
+  "kabul": 7,
   "gnews_tarih": 0
  },
  "unreachable": [
-  [
-   "Danieli",
-   "HTTP 403"
-  ],
   [
    "SMS group",
    "HTTP 403"
@@ -214,10 +213,6 @@
   [
    "Steel Radar",
    "HTTP 403"
-  ],
-  [
-   "SteelGuru",
-   "URLError: <urlopen error timed out>"
   ],
   [
    "BigMint (SteelMint)",
@@ -541,7 +536,7 @@
   "bgtek_jc": "arama",
   "bgtek_danieli": "arama"
  },
- "today": "2026-11-06",
+ "today": "2026-11-07",
  "host_saglik": {
   "news.google.com": {
    "istek": 123,
@@ -558,10 +553,15 @@
    "hiz_siniri": 0,
    "sogutmada": false
   },
+  "new.abb.com": {
+   "istek": 3,
+   "hiz_siniri": 2,
+   "sogutmada": true
+  },
   "www.cognex.com": {
    "istek": 2,
    "hiz_siniri": 2,
-   "sogutmada": false
+   "sogutmada": true
   }
  },
  "tech_pool": [
@@ -668,10 +668,17 @@
   "Steel Times International": 1,
   "SteelTurk": 1,
   "Furnaces International": 1,
-  "Google News": 2,
-  "Bing News": 1
+  "Google News": 2
  },
  "piyasa_pool": [
+  {
+   "anahtar": "piyasa:bf38469a57deb8a9",
+   "tarih": "2026-11-06",
+   "baslik": "India: Coated flat steel prices drop INR 100-400/t w-o-w on weak demand and slow trading",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNQ3ZrZVlBS1JoT2FUbnBCOWRmMFBnUGxvUjdWR2VHbUFYX0YwMU4yMk8wZHpqQTBhZ1E5cDIxTlhZelpFZWc4YkNiSEFpcnVZQWFPSzQ0NEFYT3hKcXVCUVVIVnU1Nk9XcmFINzczQmJWd1AzZUVXR013YjhFWDcyaHNJdVQ5SGsxRWI3RlRWSmlxd1NyNGpCelNCT1RIazBYbS1SekE4MlU3YlUwQjJjai1jM3k2bEdsdmtTMU9jSUlYUEFUMlh6M1dCdUZZUQ?oc=5",
+   "kaynak": "BigMint",
+   "lead": "India: Coated flat steel prices drop INR 100-400/t w-o-w on weak demand and slow trading &nbsp;&nbsp; BigMint"
+  },
   {
    "anahtar": "piyasa:57ac2bb7e1222d7b",
    "tarih": "2026-11-05",
@@ -689,12 +696,12 @@
    "lead": "Strong US energy infrastructure demand supports galvanized steel market, lifting Taiwanese exporters &nbsp;&nbsp; Yieh Corp."
   },
   {
-   "anahtar": "piyasa:b48cd92e13b18fe0",
+   "anahtar": "piyasa:8988864688184b6f",
    "tarih": "2026-11-04",
-   "baslik": "Hoa Phat exports 8,000 tonnes of galvanized steel coils to Japan, expanding international market",
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQNnlaSU0yOEdqRzNrRWMyOFdGdGdpd195a2pxMHk4N3YtaGpORjJPZm40VE1sanhJS0x3RU1vM2xQRWhuVERXRWNmV0pUNDcyenFYY2FPY3BOY05nNEdkaXktZ3ZXUEtUVzlzcW85akxwOGxtQ0o4b1lIZDUwMDZMamxpdDRhakQ3TXFoLXgyWXFGQmlGa2tZZzBQQ3VBLUJvRnJ2QmRJZjc4WlBIZGNycldQS292MWN2a2w0ZHZtcTVEQ3p1Sl96ZUh2NG0?oc=5",
-   "kaynak": "HoaPhat",
-   "lead": "Hoa Phat exports 8,000 tonnes of galvanized steel coils to Japan, expanding international market &nbsp;&nbsp; HoaPhat"
+   "baslik": "EU electrical steel safeguards threaten transformer makers, 26 MEPs warn",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeFJzNERMdlNXNzlwdnJ2UnlaY3pZZm5fTHFZVmxyeHVaaGI3eHBHU0oyeUdGUlhUX1k1NG0xVTYxTExSVFp6d1BBYWpTaG9kWHd0UXk3c05lWGFkaHhKUmZQRnM0cHRCZVJBcmRlS0NNdnRkdGE3SzVvVlp1TXV0dVZVRktWNHdUNEJGeEY4Zm9HaHkzaXJqLWhBTjNDU2UyU0dLTC04Y3JrM3Y0anUzWndyX1QxeDA?oc=5",
+   "kaynak": "Shanghai Metals Market",
+   "lead": "EU electrical steel safeguards threaten transformer makers, 26 MEPs warn &nbsp;&nbsp; Shanghai Metals Market"
   },
   {
    "anahtar": "piyasa:57bd0bd0b81ffff8",
@@ -703,6 +710,14 @@
    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxORmFaOHNRejlLbHNZWEdDc3B1VUNVbk5BMDhxci1sSGhPaXFGNnJBSGVqSlMwZjVXS04wX1pQNmt3dVR2Ulh4QXhFbzJRWVJYRzFCa01ETzhjeEl4OEs4TFE5M0xkWW9aLXliYjF4eWhoTHRoTWpWZDlldXRFVHBzSWdibUhZZVVyeXVUT0dCZTJWUE1OeXZIX0lUVXBkSnhHQmlBR3lQMndRZw?oc=5",
    "kaynak": "Yieh Corp.",
    "lead": "Hoa Phat exports 8,000 tons of galvanized steel to Japan for the first time &nbsp;&nbsp; Yieh Corp."
+  },
+  {
+   "anahtar": "piyasa:380785546277695a",
+   "tarih": "2026-11-02",
+   "baslik": "Hoa Phat exports 8,000 tons of galvanized steel sheets to Japan, expanding its international market.",
+   "url": "https://www.vietnam.vn/en/hoa-phat-xuat-khau-8-000-tan-ton-ma-sang-nhat-ban-mo-rong-thi-truong-quoc-te",
+   "kaynak": "Bing News",
+   "lead": "The shipment meets the Japanese JIS G 3302 standard, with strict requirements regarding specifications, a smooth plating surface, and environmentally friendly chromium-3+ or chromium-free surface ..."
   },
   {
    "anahtar": "piyasa:3f62c43fbeca3704",
@@ -743,25 +758,17 @@
    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOaXBMVzBGTDNldHl4ZVhjYnJ0SS1melljRll4RkpLbW8wNllFLXFDOWJrQmE3MTY0Zm0xNm5aUUcydDNGOGRMTW9VajJZd3R3eWdsVEJWQlRKNHdtNTQ2Y1U4U0VxWDZ5T3hrXzk3V1F4RE4xUHBVOG5pZUcwaGJBdUhZUGN6Z2wxNjdqMWZtX2NYNC1IbTRpdkNYRQ?oc=5",
    "kaynak": "Machinery Market",
    "lead": "Tenova advances electrical steel project in India &nbsp;&nbsp; Machinery Market"
-  },
-  {
-   "anahtar": "piyasa:26c8cfbe648bcc7b",
-   "tarih": "2026-10-16",
-   "baslik": "[SMM Analysis] Insufficient Momentum for Change, Grain-Oriented Silicon Steel Prices May Remain in the Doldrums in October",
-   "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQc1ZIVlNDR212c1E2Q1BUWVRXSW1LM1h1dk1oVTV3STVuZTZ5TTd4TjY4MXZNTnhyVjBBREhkOWt4aFVqR3dYd0xDQ2VkZjM2cnBjUHNPRzZvSncwZDFMSFE5c2EwYUIzYjB5Y2JNSXdYejBkbHlzb0toQ2Y0QWFjTUZDOWpqYjlWOW94YW0xeXpvNVJMSm1aRllHVDJYZ2N5LUVQdXVJRUpmd2U0YTYyb2JHSXFEMlp3VFNvVW1NUUZoNXNaREM4OHVFTXhGTHI1dVVqeVpuRFBGbmJUMTBTVVV0RWVhdWU2ekRjUkliSExaaF91d1Fv?oc=5",
-   "kaynak": "Shanghai Metals Market",
-   "lead": "[SMM Analysis] Insufficient Momentum for Change, Grain-Oriented Silicon Steel Prices May Remain in the Doldrums in October &nbsp;&nbsp; Shanghai Metals Market"
   }
  ],
  "window": [
-  "2026-10-16",
-  "2026-11-06"
+  "2026-10-17",
+  "2026-11-07"
  ],
- "bulunan_kullanilan": 0,
- "bulunan_havuz": 14,
+ "bulunan_kullanilan": 1,
+ "bulunan_havuz": 11,
  "rezerv_kullanilan": 0,
  "rezerv_havuz": 65,
  "period": "2026-W45",
- "generated": "2026-11-06 11:11 UTC",
+ "generated": "2026-11-07 10:13 UTC",
  "version": "3.0.0"
 }
