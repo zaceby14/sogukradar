@@ -37,6 +37,13 @@ on:
     - cron: "37 13 * * 1"         # Pazartesi 16:37 TSI (yedek)
     - cron: "19 5 * * 2"          # Sali 08:19 TSI (yedek)
     - cron: "47 11 * * 2"         # Sali 14:47 TSI (yedek)
+  # BEKCI AJAN YOLU (2026-11-09): out/BASLAT dosyasinin main'e push edilmesi
+  # bulteni GERCEK modda baslatir (GitHub API araci olmayan ajan icin). Bu hafta
+  # zaten gonderildiyse is akisi kendisi atlar.
+  push:
+    branches: [main]
+    paths:
+      - "out/BASLAT"
   workflow_dispatch:
     inputs:
       deneme:
