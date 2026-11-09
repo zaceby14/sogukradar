@@ -1,38 +1,50 @@
 {
  "donem": "2026-W46",
- "gonder": true,
- "atla": false,
- "son_gonderim": "2026-11-02",
+ "gonder": false,
+ "atla": true,
+ "son_gonderim": "2026-11-09",
  "deneme": false,
- "satir": 6,
+ "satir": 4,
  "nedenler": [],
  "yazar": {
   "saglayici": "gemini",
   "llm_hatalar": [],
   "reddedilen_cumle": [
    {
-    "baslik": "(piyasa) EU electrical steel safeguards threaten transformer makers, ",
-    "neden": "kaynakta olmayan ozel ad: Parlamentosu"
+    "baslik": "[Nucor, Primetals Produce First Prime Coil on New Galvanizing Line in South Caro",
+    "neden": "kaynakta olmayan ozel ad: Karolina"
    },
    {
-    "baslik": "(piyasa) Korea recommends duties on Chinese galvanized steel",
-    "neden": "kaynakta olmayan ozel ad: Ticaret"
+    "baslik": "【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】",
+    "neden": "kaynakta olmayan sayi: 500"
+   },
+   {
+    "baslik": "(haftalik ozet)",
+    "neden": "kaynakta olmayan ozel ad: Karolina"
    }
   ],
-  "cumle_llm": 2,
-  "cumle_kuralsal": 4,
-  "supheli_cikarilan": 0
+  "cumle_llm": 3,
+  "cumle_kuralsal": 3,
+  "supheli_cikarilan": 1
  },
- "elenen_satirlar": [],
- "baglanti_dogrulanamayan": [],
+ "elenen_satirlar": [
+  {
+   "baslik": "【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】",
+   "neden": "Cince baslik, dogrulanmis Turkce cumle yok"
+  }
+ ],
+ "baglanti_dogrulanamayan": [
+  {
+   "baslik": "【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】",
+   "neden": "UnicodeEncodeError: 'ascii' codec can't encode characters in position 30-40: ordinal not in range(12"
+  }
+ ],
  "email": "/home/runner/work/sogukradar/sogukradar/out/email.html",
- "uretildi": "2026-11-09T08:08:10.229348Z",
+ "uretildi": "2026-11-09T20:26:07.313212Z",
  "basliklar": [
-  "Nucor Begins Production on Primetals Technologies-Supplied CGL",
-  "ANDRITZ commissions second acid regeneration plant for JSW Steel Coated Products",
-  "GSM Tanzania orders Danieli furnace for longs mill",
-  "$1.9 billion US Steel plant to supply Arkansas furnaces",
-  "Kıraç Galvaniz, MSB Askeri Fabrikalar Genel Müdürlüğü’nün Onaylı Tedarikçisi Oldu",
-  "Rotherham steel firm goes greener with £160K investment in panels and batteries"
+  "[Nucor, Primetals Produce First Prime Coil on New Galvanizing Line in South Carolina]",
+  "Tata Steel launches pre-painted steel Colorcoat in India",
+  "IMS expands its portfolio with force transducers for precise force measurement under deman",
+  "Gopani Industries Successfully Rolls First Prime Coil from New Cold Rolling Mill"
  ]
 }

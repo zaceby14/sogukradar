@@ -2,134 +2,126 @@
  "donem": "2026-W46",
  "duzelt": [
   {
-   "anahtar": "d083fd260733cebf",
-   "baslik": "Nucor Begins Production on Primetals Technologies-Supplied CGL",
-   "url": "https://www.clecim.com/nucor_first_coil/",
+   "anahtar": "45ecc037d8bbc346",
+   "baslik": "[Nucor, Primetals Produce First Prime Coil on New Galvanizing Line in South Carolina]",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQXN0NUEzTHZfWjM0aWNzN3FpdHpsTmkxX2l2R09DQ0VLVTV5RklhME80Y0diZFlEekl5Y2pfN29TNXdBcmF1UmxwdGFUVnpwNGQ2MFF5QXkydFBsRUR4OHBNQWt5Q25xbFQ1NktYZ1ZfZ2E3V0dMWG0wTGlUZnFUOUJ5eFRiMm5RQ0NzdTFWdTNJUFB2RjlkbXJtbmtwamRDdzgzLXBGUGI1YlBvMTgyTG5zeU12cHVqZk9sU3NMMUE4MU1tOXc?oc=5",
+   "eksik": [
+    "firma",
+    "ulke"
+   ],
+   "mevcut": {
+    "firma": "",
+    "ulke": "",
+    "hat": "Galvaniz hatti (CGL)",
+    "asama": "Ilk urun"
+   }
+  },
+  {
+   "anahtar": "90e30cb4756c40e2",
+   "baslik": "【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】",
+   "url": "https://news.metal.com/en/newscontent/104207357-纽柯在南卡罗来纳州新建50万吨年汽车板镀锌线产出首卷优质卷板",
+   "eksik": [
+    "firma",
+    "ulke",
+    "hat",
+    "tarih?"
+   ],
+   "mevcut": {
+    "firma": "",
+    "ulke": "",
+    "hat": "Belirsiz",
+    "asama": "Ilk urun"
+   }
+  },
+  {
+   "anahtar": "16c1c1e154dad064",
+   "baslik": "Tata Steel launches pre-painted steel Colorcoat in India",
+   "url": "https://www.thehindubusinessline.com/companies/tata-steel-launches-pre-painted-steel-colorcoat-in-india/article71567926.ece",
+   "eksik": [
+    "asama"
+   ],
+   "mevcut": {
+    "firma": "Tata Steel",
+    "ulke": "Hindistan",
+    "hat": "Boyama hatti (CCL)",
+    "asama": "Belirsiz"
+   }
+  },
+  {
+   "anahtar": "aac00b6a794a93b5",
+   "baslik": "IMS expands its portfolio with force transducers for precise force measurement under demanding conditions in hot and cold rolling mills",
+   "url": "https://www.ims-gmbh.de/en/2026/10/06/ims-expands-its-portfolio-with-force-transducers-forprecise-force-measurement-under-demandingconditions-in-hot-and-cold-rolling-mills/",
    "eksik": [
     "ulke"
    ],
    "mevcut": {
-    "firma": "Nucor",
-    "ulke": "ABD",
-    "hat": "Galvaniz hatti (CGL)",
-    "asama": "Ilk urun"
-   }
-  },
-  {
-   "anahtar": "953d55052b959bff",
-   "baslik": "ANDRITZ commissions second acid regeneration plant for JSW Steel Coated Products",
-   "url": "https://www.andritz.com/newsroom-en/metals/2026-11-05-jsw-group",
-   "eksik": [
-    "ulke",
-    "tarih?"
-   ],
-   "mevcut": {
-    "firma": "JSW Steel Coated Products",
+    "firma": "IMS",
     "ulke": "",
-    "hat": "Asit rejenerasyonu (ARP)",
-    "asama": "Ilk urun"
-   }
-  },
-  {
-   "anahtar": "39a70e8d1ce2601d",
-   "baslik": "GSM Tanzania orders Danieli furnace for longs mill",
-   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/gsm-tanzania-orders-danieli-furnace-for-longs-mill-1126/",
-   "eksik": [
-    "hat"
-   ],
-   "mevcut": {
-    "firma": "GSM Tanzania",
-    "ulke": "Tanzanya",
-    "hat": "Belirsiz",
+    "hat": "Soguk hadde",
     "asama": "Sozlesme"
-   }
-  },
-  {
-   "anahtar": "71b020c404ac2ebb",
-   "baslik": "$1.9 billion US Steel plant to supply Arkansas furnaces",
-   "url": "https://furnaces-international.com/news/1-9-billion-us-steel-plant-to-supply-arkansas-furnaces",
-   "eksik": [
-    "firma",
-    "hat"
-   ],
-   "mevcut": {
-    "firma": "",
-    "ulke": "ABD",
-    "hat": "Belirsiz",
-    "asama": "Sozlesme"
-   }
-  },
-  {
-   "anahtar": "3a4b6e2a6c086c5e",
-   "baslik": "Kıraç Galvaniz, MSB Askeri Fabrikalar Genel Müdürlüğü’nün Onaylı Tedarikçisi Oldu",
-   "url": "https://www.steelturk.com.tr/kirac-galvaniz-msb-askeri-fabrikalar-genel-mudurlugunun-onayli-tedarikcisi-oldu/",
-   "eksik": [
-    "ulke",
-    "tarih?"
-   ],
-   "mevcut": {
-    "firma": "Kıraç Galvaniz",
-    "ulke": "",
-    "hat": "Galvaniz hatti (CGL)",
-    "asama": "Teknoloji"
-   }
-  },
-  {
-   "anahtar": "872b860afdafbe17",
-   "baslik": "Rotherham steel firm goes greener with £160K investment in panels and batteries",
-   "url": "https://www.msn.com/en-gb/money/general/rotherham-steel-firm-goes-greener-with-160k-investment-in-panels-and-batteries/ar-AA2gEidN",
-   "eksik": [
-    "ulke",
-    "asama"
-   ],
-   "mevcut": {
-    "firma": "Rotherham steel firm",
-    "ulke": "",
-    "hat": "Elektrik celigi hatti",
-    "asama": "Belirsiz"
    }
   }
  ],
  "cumle_yaz": [
   {
-   "anahtar": "d083fd260733cebf",
-   "tarih": "2026-11-04",
-   "firma": "Nucor",
-   "ulke": "ABD",
+   "anahtar": "45ecc037d8bbc346",
+   "tarih": "2026-11-06",
+   "firma": "",
+   "ulke": "",
    "hat": "Galvaniz hatti (CGL)",
    "asama": "Ilk urun",
-   "baslik": "Nucor Begins Production on Primetals Technologies-Supplied CGL",
-   "url": "https://www.clecim.com/nucor_first_coil/"
+   "baslik": "[Nucor, Primetals Produce First Prime Coil on New Galvanizing Line in South Carolina]",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQXN0NUEzTHZfWjM0aWNzN3FpdHpsTmkxX2l2R09DQ0VLVTV5RklhME80Y0diZFlEekl5Y2pfN29TNXdBcmF1UmxwdGFUVnpwNGQ2MFF5QXkydFBsRUR4OHBNQWt5Q25xbFQ1NktYZ1ZfZ2E3V0dMWG0wTGlUZnFUOUJ5eFRiMm5RQ0NzdTFWdTNJUFB2RjlkbXJtbmtwamRDdzgzLXBGUGI1YlBvMTgyTG5zeU12cHVqZk9sU3NMMUE4MU1tOXc?oc=5"
   },
   {
-   "anahtar": "953d55052b959bff",
+   "anahtar": "90e30cb4756c40e2",
    "tarih": "2026-11-05",
-   "firma": "JSW Steel Coated Products",
-   "ulke": "",
-   "hat": "Asit rejenerasyonu (ARP)",
-   "asama": "Ilk urun",
-   "baslik": "ANDRITZ commissions second acid regeneration plant for JSW Steel Coated Products",
-   "url": "https://www.andritz.com/newsroom-en/metals/2026-11-05-jsw-group"
-  },
-  {
-   "anahtar": "39a70e8d1ce2601d",
-   "tarih": "2026-11-09",
-   "firma": "GSM Tanzania",
-   "ulke": "Tanzanya",
-   "hat": "Belirsiz",
-   "asama": "Sozlesme",
-   "baslik": "GSM Tanzania orders Danieli furnace for longs mill",
-   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/gsm-tanzania-orders-danieli-furnace-for-longs-mill-1126/"
-  },
-  {
-   "anahtar": "71b020c404ac2ebb",
-   "tarih": "2026-11-03",
    "firma": "",
-   "ulke": "ABD",
+   "ulke": "",
    "hat": "Belirsiz",
+   "asama": "Ilk urun",
+   "baslik": "【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】",
+   "url": "https://news.metal.com/en/newscontent/104207357-纽柯在南卡罗来纳州新建50万吨年汽车板镀锌线产出首卷优质卷板"
+  },
+  {
+   "anahtar": "3705534b48675072",
+   "tarih": "2026-09-25",
+   "firma": "ABS",
+   "ulke": "Italya",
+   "hat": "Dilme / boy kesme / SSC",
+   "asama": "Ilk urun",
+   "baslik": "Italy's ABS Opens Special Steel Service Center in Sweden",
+   "url": "https://news.metal.com/en/newscontent/104134675-italys-abs-opens-special-steel-service-center-in-sweden"
+  },
+  {
+   "anahtar": "16c1c1e154dad064",
+   "tarih": "2026-10-16",
+   "firma": "Tata Steel",
+   "ulke": "Hindistan",
+   "hat": "Boyama hatti (CCL)",
+   "asama": "Belirsiz",
+   "baslik": "Tata Steel launches pre-painted steel Colorcoat in India",
+   "url": "https://www.thehindubusinessline.com/companies/tata-steel-launches-pre-painted-steel-colorcoat-in-india/article71567926.ece"
+  },
+  {
+   "anahtar": "aac00b6a794a93b5",
+   "tarih": "2026-10-06",
+   "firma": "IMS",
+   "ulke": "",
+   "hat": "Soguk hadde",
    "asama": "Sozlesme",
-   "baslik": "$1.9 billion US Steel plant to supply Arkansas furnaces",
-   "url": "https://furnaces-international.com/news/1-9-billion-us-steel-plant-to-supply-arkansas-furnaces"
+   "baslik": "IMS expands its portfolio with force transducers for precise force measurement under demanding conditions in hot and cold rolling mills",
+   "url": "https://www.ims-gmbh.de/en/2026/10/06/ims-expands-its-portfolio-with-force-transducers-forprecise-force-measurement-under-demandingconditions-in-hot-and-cold-rolling-mills/"
+  },
+  {
+   "anahtar": "7fd7261209402c52",
+   "tarih": "2026-10-05",
+   "firma": "Gopani Industries Successfully",
+   "ulke": "Hindistan",
+   "hat": "Soguk hadde",
+   "asama": "Ilk urun",
+   "baslik": "Gopani Industries Successfully Rolls First Prime Coil from New Cold Rolling Mill",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zb1JoVG1BQ1FSRlp3Qk02Zl9CaTZ3ME9XLTktbW1rcXhBR0pkMDhLOTZfT0V5LWdwcXZScW5rYzFpS1FjVXhhWU53UzNXeHozRTBpWG12T3R0XzdiZ1BIN1hVeVo2VnV4?oc=5"
   }
  ],
  "teknoloji_adaylari": [
@@ -140,14 +132,6 @@
    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1TQUplTC1uLWNhV20yUXlIaEtpVWNJWFp4alJ4bEZiMGRncVJocWdDZWgzYm1rbHZfNjNSUGdUOUdXMHlJSGp1b252eEZfeGRlRXRxNUVZRUVVZFlhM0UxUnU5dlRlMU5QR2RGNmRlN0hLRjM3Ulpwczd1QQ?oc=5",
    "kaynak": "Intelligent Living",
    "hat": "Elektrik celigi hatti"
-  },
-  {
-   "anahtar": "tech:3a4b6e2a6c086c5e",
-   "tarih": "2026-11-03",
-   "baslik": "Kıraç Galvaniz, MSB Askeri Fabrikalar Genel Müdürlüğü’nün Onaylı Tedarikçisi Oldu",
-   "url": "https://www.steelturk.com.tr/kirac-galvaniz-msb-askeri-fabrikalar-genel-mudurlugunun-onayli-tedarikcisi-oldu/",
-   "kaynak": "SteelTurk",
-   "hat": "Galvaniz hatti (CGL)"
   },
   {
    "anahtar": "tech:ee3ada124db6cc47",
@@ -206,14 +190,6 @@
    "hat": "Elektrik celigi hatti"
   },
   {
-   "anahtar": "tech:28459cdd0c32da5c",
-   "tarih": "2026-08-12",
-   "baslik": "Primetals Technologies to modernize KG Steel's Dangjin cold mill with AI-driven automation upgrade",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNalhvamNnNE1IYTlnbFBWLVEtZXNmNWhmeEFuaFN3Qk1oOExtSmN6NWYxSURMdm9kcWNJNTFlcDBvN21FUUFQbFJSOEM2ZzA1NE1OTWZDekJWYm5UNklGaWc1QmRvOEhyS0lBbDdQUFN6WTZYQnQ5RVdEai1ZV1lWZVByZVBBWmkzblg3eTFiYXN0R3FIVF9EUHdqQndWSlMzcmg2TU9KNkJIRG5UNU9oc1lsREN4eE9fZTMwS0dxLUhPT3U1YXpYQ1hmN3VjZw?oc=5",
-   "kaynak": "Yieh Corp.",
-   "hat": "Soguk hadde"
-  },
-  {
    "anahtar": "tech:1550467e340cb8e0",
    "tarih": "2026-07-29",
    "baslik": "[SMM Analysis] Cold-Rolled and HRC Profits Continue to Shrink: Can the Peak Season Bring a Breakthrough?",
@@ -227,6 +203,22 @@
    "baslik": "Posco and Hyundai are developing innovative electrical steel to improve the efficiency of electric vehicles",
    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQSGtGOHBERUpYUkpjbW4tQVEweXVNUzYtcU1DNjB2bWhQamNzYTlPZFNtMXBNeXRvLXJwS2hwaEcxN3VNNFg0RTd1UVhZYmZPNEZRT0YxUlQ4VThJcG0ycXRJOGVEVWVLOFZmUHVNZ2hPYzFwY0FxOGhydjdTRmEtUmtwbFZKUlB5WTRqb2l5V2NxN0hoY0o2NExOaEg3dHdPLXZrUG1Zc3laakRVR3dLQi0yRnR1elZ6NUVvc0swRHczUEtNNHRZM2VaZV9FaUdz0gHWAUFVX3lxTE5mbGJMX0V1bE15SmhZdE05VDM2OG9POEVzc2g1bExqcHIzZGw3S3dvS291M252VUllVHB6THlfR1E0MnlPRTFRVlRzV2phMldEV0lKSWJJenRsdkxWbkRyTkpicFdLMFYzNUk4WnZvcGJZbFAyRGpDMURMUGNLaWhRTk81MVZ5NnlvamRLdnd2dXBPMElaT19OQ2dwaEFmOHZjYjh3dlJpQk1xQkhxQjlGMVlyWlZCdVRXbVR0MlhpNE9wNHg4UFVONThfVXBtSG5rNFlUWVE?oc=5",
    "kaynak": "GMK Center",
+   "hat": "Elektrik celigi hatti"
+  },
+  {
+   "anahtar": "tech:3b9e0ba3d7e53ee3",
+   "tarih": "2026-07-09",
+   "baslik": "Posco and Hyundai develop novel electrical steel for more efficient electric motors",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNVV0U1otMkFRbUphNHRvMDBVdWFEVjVKN0FYV2tNdWZhWVB0TldhN0QxeDJtLU51ci1CLVFid0NTT21DSFVCMmw3a2ZyUTB6YUxkQ1hmcGZ5T05pOUdLbUxjMDdTX2IyZ0tfdnZaSVA5aW41dHhURFpvZUJKbUxiVDBjTUNCMXdfLUJIMXdsdl9VNktxeXVDeFlyNThjZHFXVUJwRXctZTJuWjduaEE3NFBmclFyYTdMNzNzM2lR?oc=5",
+   "kaynak": "electrive.com",
+   "hat": "Elektrik celigi hatti"
+  },
+  {
+   "anahtar": "tech:598247fd0170db4b",
+   "tarih": "2026-07-07",
+   "baslik": "POSCO and Hyundai partner to develop 6.5% silicon electrical steel for EV motors",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWENTOUgzZFMzQjhaRlJnWmdEY3RMVmhLR25rYnFHd1JrLTQtRDJ3NVZvWTN6UjN2QUpfVXBuM1c5QklYQlNJYUQwY1pVdjhKb19xTEZXX3NRYmZNUVRyVEFuX3RNSm15N3ZrWm5nTm1XMExRUDBpVElLQ0Z2dzFjcmRkQ0xva1ktQTJZTlRnemg0NzVsZ3pUVGNUT3YyNGYweXdVRUdZdVpDX2ZEY19PdGlB?oc=5",
+   "kaynak": "Charged EVs",
    "hat": "Elektrik celigi hatti"
   }
  ]

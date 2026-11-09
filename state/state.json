@@ -2159,6 +2159,24 @@
     "tekrar": 72
    },
    "uretim": "2026-11-09 11:39 UTC"
+  },
+  {
+   "donem": "2026-W46",
+   "satir": 6,
+   "stats": {
+    "erisilemeyen": 6,
+    "gnews_tarih": 0,
+    "ham": 3883,
+    "kabul": 1,
+    "kapsam_disi": 3427,
+    "kaynak": 315,
+    "makale_acildi": 220,
+    "on_eleme_gecti": 459,
+    "pencere_disi": 270,
+    "tarihsiz_elendi": 104,
+    "tekrar": 77
+   },
+   "uretim": "2026-11-09 20:14 UTC"
   }
  ],
  "piyasa_rezerv": [
@@ -2284,6 +2302,33 @@
   "piyasa:db67f98fb4dd717b": "2026-11-02"
  },
  "rezerv": [
+  {
+   "anahtar": "16c1c1e154dad064",
+   "asama": "Belirsiz",
+   "baslik": "Tata Steel launches pre-painted steel Colorcoat in India",
+   "eksik": [
+    "asama"
+   ],
+   "firma": "Tata Steel",
+   "hat": "Boyama hatti (CCL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgtek_kaplama",
+   "lead": "https://www.thehindubusinessline.com/companies/tata-steel-launches-pre-painted-steel-colorcoat-in-india/article71567926.ece Copy Tata Steel Colors has launched its ...",
+   "olaylar": [
+    "tata steel|fu|Hindistan|Boyama hatti (CCL)",
+    "tata steel|hat|Boyama hatti (CCL)|Belirsiz",
+    "tata steel|ulke|Hindistan|Belirsiz"
+   ],
+   "rezerv": true,
+   "tarih": "2026-10-16",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Hindistan",
+   "url": "https://www.thehindubusinessline.com/companies/tata-steel-launches-pre-painted-steel-colorcoat-in-india/article71567926.ece"
+  },
   {
    "anahtar": "23bf13d96a97ad7c",
    "asama": "Ilk urun",
@@ -3864,6 +3909,31 @@
    "tutar": "",
    "ulke": "",
    "url": "https://www.andritz.com/newsroom-en/metals/2025-12-09-tata-steel-group"
+  },
+  {
+   "anahtar": "c93950a14a919f61",
+   "asama": "Modernizasyon",
+   "baslik": "ArcelorMittal has invested PLN 40 million in the modernization of its galvanizing line in Krakow",
+   "eksik": [
+    "ulke"
+   ],
+   "firma": "ArcelorMittal",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "GMK Center",
+   "kaynak_id": "gtek_hidrojen",
+   "lead": "ArcelorMittal has invested PLN 40 million in the modernization of its galvanizing line in Krakow &nbsp;&nbsp; GMK Center",
+   "olaylar": [
+    "arcelormittal|hat|Galvaniz hatti (CGL)|Modernizasyon"
+   ],
+   "rezerv": true,
+   "tarih": "2025-12-09",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdFdHU0hLdm5HUkNCREVlTXBCSUo5TWdLTWxIZi0ybk8zQlJKNzBvTU9iREx6SGszR0s2N3FHTkc0NkJLVnBqNDBUYzVTM1JocEgwVlFKbFl4LXU1U1UxMGFZS2hzNV80bUN0akFETVl4ZjlRNTk3TnN3OFZadHpjRldYZXdhZjhSOFpjaG00N2N3NFpRcjNld1lJY0g5bXhKbnlyaDByVlozWU42bUhMYW1rbjA0SW55SWwyVHdJUmQ1QdIBxwFBVV95cUxNbGhqbXUzRHo1QjJ2bnpKM2hiX2xNS2drTEtEdXBvNGl2bXlPWXhZMW5xbnRiWW1RTFBRMXJRakZKYWpVWEFqSlJERHM0OGNGcnBWMlhWR200b1kzZWdqaW9QdGVvXzBLdGZtbXlpWm9wS0tWNkhVMGdZTkNSd2ktTWF5bGEyQ245dkVvVHZWTTlfeHJWTXBibmdkZlowWGdXQ3hxOGliV183eTJvLVQ4dXFsSUhiQXFwY2thYkdHV01nalJ3RkJv?oc=5"
   },
   {
    "anahtar": "2987f118cd7cf965",
