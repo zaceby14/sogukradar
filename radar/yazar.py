@@ -342,8 +342,24 @@ def ozet_hazirla(payload, log=print):
     # --- supheli satirlar: yalniz CIKARILIR, ust sinir var
     supheli = [x for x in (veri.get("supheli") or []) if isinstance(x, dict)
                and x.get("id") in by_id]
+    # ZAYIF SATIRLAR SINIRSIZ CIKARILIR (2026-11-09). W46'da LLM tam olarak 4 cop
+    # satiri isaretledi ama %40 siniri yuzunden HICBIRI cikarilmadi ve cop postaya
+    # gitti. Hatti ya da asamasi okunamayan (Belirsiz) ve 'Yatirim' katmanindaki
+    # satirlar zayif kanitlidir: LLM isaretlerse sinir uygulanmadan cikar. Siniri
+    # yalniz hatti VE asamasi kesin GUCLU satirlar korur.
+    def _zayif(r):
+        return (r.get("kategori") == "Yatirim" or (r.get("hat") or "Belirsiz") == "Belirsiz"
+                or (r.get("asama") or "Belirsiz") in ("Belirsiz", "Teknoloji"))
+    zayif = [x for x in supheli if _zayif(by_id[x["id"]])]
+    guclu = [x for x in supheli if not _zayif(by_id[x["id"]])]
+    if len(guclu) > max(1, int(len(rows) * KALDIRMA_USTSINIR)):
+        ozet["ai_kontrol"].append(
+            "Dil modeli %d güçlü satırı kapsam dışı işaretledi; güvenlik sınırı nedeniyle "
+            "bunlar çıkarılmadı." % len(guclu))
+        guclu = []
+    supheli = zayif + guclu
     if supheli:
-        if len(supheli) > max(1, int(len(rows) * KALDIRMA_USTSINIR)):
+        if False:
             ozet["ai_kontrol"].append(
                 "Dil modeli %d satırı kapsam dışı işaretledi; bu, güvenlik üst sınırını "
                 "(%%%d) aştığı için HİÇBİRİ çıkarılmadı." % (len(supheli),

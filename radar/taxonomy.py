@@ -42,8 +42,15 @@ _TRMAP = str.maketrans({
 _TIRE = re.compile(r"[-\u2010\u2011\u2012\u2013\u2014\u2015\u2212]")
 
 
+_GOES = re.compile(r"\bGOES\b")
+
+
 def fold(s):
-    return _TIRE.sub(" ", (s or "").translate(_TRMAP).lower())
+    # "GOES" (grain-oriented electrical steel) YALNIZ BUYUK HARFLE kisaltmadir;
+    # kucuk harfe indirince "goes" fiiliyle karisiyordu (2026-11-09: "Rotherham
+    # steel firm goes greener..." elektrik celigi sanildi ve postaya girdi).
+    s = _GOES.sub("grain oriented electrical steel", s or "")
+    return _TIRE.sub(" ", s.translate(_TRMAP).lower())
 
 
 # ----------------------------------------------------------------------
@@ -53,7 +60,7 @@ LINE_MAP = [
     # Cince hat terimleri (2026-08-27): "三宝集团...无取向硅钢退火炉顺利投产"
     # kapsam kapisindan geciyor ama hat "Belirsiz" kaliyordu - LINE_MAP'te
     # Cince yoktu.
-    (r"electrical steel|silicon steel|\bcrgo\b|\bcrno\b|\bngo\b|\bgoes\b|"
+    (r"electrical steel|silicon steel|\bcrgo\b|\bcrno\b|\bngo\b|"
      r"grain[- ]oriented|elektrik celigi|silisli celik|trafo saci|"
      r"\u7845\u94a2|\u65e0\u53d6\u5411|\u53d6\u5411\u7845\u94a2",
      "Elektrik celigi hatti"),
@@ -206,7 +213,7 @@ SCOPE_STRONG = re.compile(
     r"passivation line|chromating|phosphating|oiling machine|"
     r"electrolytic cleaning|alkaline cleaning|degreasing line|"
     # elektrik celigi ve urun
-    r"electrical steel|silicon steel|\bcrgo\b|\bcrno\b|\bngo\b|\bgoes\b|"
+    r"electrical steel|silicon steel|\bcrgo\b|\bcrno\b|\bngo\b|"
     r"grain[- ]oriented|press hardened|\bahss\b|\buhss\b|"
     # kisaltmalar
     r"\bcgl\b|\bhdgl\b|\bcal\b|\bbaf\b|\bcpl\b|\bppl\b|\btcm\b|\brcm\b|"
@@ -242,7 +249,11 @@ SCOPE_STRONG = re.compile(
 SCOPE_WEAK = re.compile(
     r"(roll shop|welder|welding machine|welding line|stitcher|\blooper\b|accumulator|"
     r"uncoiler|decoiler|payoff reel|tension reel|mandrel|"
-    r"cleaning line|degreasing|drying oven|annealing|furnace|"
+    # "furnace" TEK BASINA YETMEZ (2026-11-09: "Danieli furnace for longs mill",
+    # "US Steel plant to supply Arkansas furnaces" postaya girdi).
+    r"cleaning line|degreasing|drying oven|annealing|"
+    r"(strip|bell|batch|continuous|annealing|curing|drying|radiant tube|galvani[sz]\w*|coating|line)[ -]furnace|"
+    r"furnace.{0,30}(\bstrip|\bline\b|galvani|anneal|\bcoils?\b)|"
     r"slitting|blanking|level(l)?ing|leveler|leveller|\bshear|trimming|"
     r"\boiler\b|polishing|brushing|buffing|texturing|shot blast|scale breaker|"
     r"\bcrane|warehouse automation|packaging line|strapping|weighing|"
@@ -282,7 +293,8 @@ _NOISE = (
     # analizi bu kapidan geciyordu.
     r"sheet pil(e|es|ing)\b|\bpiles?\b|protective measures|safeguard (measure|duty|duties|"
     r"investigation|quota)|tariff[- ]rate quota|investment narrative|simply wall|"
-    r"fiyat hedefi|price target|\bcurbs?\b|import (quota|restriction)s?|trade (measure|defen[cs]e)s?|"
+    r"\blongs?\b mill|long products?|\blongs\b|rebar mill|onayli tedarikci|approved supplier|"
+    r"tedarikcisi oldu|fiyat hedefi|price target|\bcurbs?\b|import (quota|restriction)s?|trade (measure|defen[cs]e)s?|"
     # TICARET DAVASI KISALTMASI (2026-11-02). "India extends AD investigation
     # deadline on stainless steel cold-rolled flat products from 3 Asian
     # nations" 2026-W40'ta Yatirim katmanina girdi: _NOISE 'anti-dumping'i
@@ -922,7 +934,8 @@ YENILIK = re.compile(
 TANITIM = re.compile(
     r"expands? (its )?(product )?portfolio|product (family|range|portfolio|line[- ]?up)|"
     r"\bsuppl(y|ies|ied)\b|\border(s|ed)?\b|contract|\bwins?\b|awarded|commission|"
-    r"\bto (supply|deliver|install)\b|exhibit|trade fair|webinar|brochure|catalog")
+    r"\bto (supply|deliver|install|moderni[sz]e|upgrade|revamp|retrofit)\b|moderni[sz]ation|"
+    r"upgrade order|exhibit|trade fair|webinar|brochure|catalog")
 
 
 def yenilik_mi(title, lead=""):

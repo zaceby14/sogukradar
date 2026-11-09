@@ -1526,11 +1526,19 @@ def test_yazar_dogrulayici_ve_llm_yedegi():
         eq(oz["cikar"], ["a3"], "supheli satir cikarildi")
         eq("kapsam dışı" in oz["ai_cikarilan"][0]["neden"], True, "cikarma gerekcesi var")
 
-        # 4) toplu silme siniri: 3 satirdan 2'si supheli -> HICBIRI cikarilmaz
+        # 4) (2026-11-09) ZAYIF satir (hat/asama Belirsiz ya da Yatirim) sinirsiz
+        # cikar; GUCLU satirlar %40 siniriyla korunur.
         yanit2 = {"cumleler": {}, "supheli": [{"id": "a2", "neden": "x"}, {"id": "a3", "neden": "y"}]}
         llm.json_iste = lambda s, k, log=print: (yanit2, "gemini", [])
         oz = yazar.ozet_hazirla(payload, log=lambda *a: None)
-        eq(oz["cikar"], [], "toplu silme siniri: hicbiri cikmadi")
+        eq(sorted(oz["cikar"]), ["a2", "a3"], "zayif a3 + sinir icindeki tek guclu a2 cikar")
+        guclu_pl = {"rows": [dict(rows[1], anahtar="g%d" % i) for i in range(3)],
+                    "stats": payload["stats"], "tech_pool": []}
+        yanit3 = {"cumleler": {}, "supheli": [{"id": "g0", "neden": "x"}, {"id": "g1", "neden": "y"},
+                                              {"id": "g2", "neden": "z"}]}
+        llm.json_iste = lambda s, k, log=print: (yanit3, "gemini", [])
+        oz = yazar.ozet_hazirla(guclu_pl, log=lambda *a: None)
+        eq(oz["cikar"], [], "toplu silme siniri: 3 guclu satirin hicbiri cikmadi")
         # LLM'in ekleyemeyecegi sey: bilinmeyen id supheli listesinde yok sayilir
         llm.json_iste = lambda s, k, log=print: ({"cumleler": {}, "supheli": [{"id": "yok", "neden": "x"}]}, "gemini", [])
         oz = yazar.ozet_hazirla(payload, log=lambda *a: None)
@@ -2137,6 +2145,23 @@ def test_kose_llm_yenilik_karari():
                 os.environ.pop(kk, None)
             else:
                 os.environ[kk] = v
+
+
+def test_w46_goes_ve_firin_copu():
+    """2026-11-09 W46: 'Rotherham steel firm goes greener' (goes -> GOES sanildi),
+    'Danieli furnace for longs mill' ve 'Arkansas furnaces' (cıplak furnace) ve
+    'Kirac Galvaniz ... Onayli Tedarikcisi Oldu' postaya girdi."""
+    for b in ("Rotherham steel firm goes greener with £160K investment in panels and batteries",
+              "GSM Tanzania orders Danieli furnace for longs mill",
+              "$1.9 billion US Steel plant to supply Arkansas furnaces",
+              "Kıraç Galvaniz, MSB Askeri Fabrikalar Genel Müdürlüğü’nün Onaylı Tedarikçisi Oldu"):
+        eq((taxonomy.in_scope(b)[0], bool(taxonomy.genel_yatirim(b))), (False, False), "cop: " + b[:45])
+    for b in ("Flux Steel Works to build GOES production facility in Ohio",
+              "Ebner bell annealing furnace order for cold strip",
+              "Nucor Begins Production on Primetals Technologies-Supplied CGL"):
+        eq(taxonomy.in_scope(b)[0], True, "gercek: " + b[:45])
+    eq(taxonomy.yenilik_mi("Primetals Technologies to modernize KG Steel's Dangjin cold mill with AI-driven automation upgrade"),
+       False, "modernizasyon siparisi yenilik degil")
 
 
 def test_w40_editorsuz_cop_kumeleme():
@@ -3649,6 +3674,7 @@ def run():
                test_v20_indiana_hindistan_degil,
                test_w40_editorsuz_cop_kumeleme,
                test_yazar_dogrulayici_ve_llm_yedegi,
+               test_w46_goes_ve_firin_copu,
                test_kose_llm_yenilik_karari,
                test_dogrulayici_ulke_kaynakta_olmali,
                test_piyasa_gundemi_ve_geri_bildirim,
