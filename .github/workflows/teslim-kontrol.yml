@@ -1,0 +1,24 @@
+name: SogukRadar teslim kontrolu
+
+# Alici sunucularin reddettigi postalari (Gmail "teslim edilemedi" bildirimi)
+# listeler. Adreslerin yerel kismi maskelenir. Hafizaya/postaya dokunmaz.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  kontrol:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Bounce bildirimlerini oku
+        env:
+          MAIL_USER: ${{ secrets.MAIL_USER }}
+          MAIL_PASS: ${{ secrets.MAIL_PASS }}
+        run: python -u -m radar teslim-kontrol --gun 21 2>&1 | tee -a $GITHUB_STEP_SUMMARY

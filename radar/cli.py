@@ -759,6 +759,10 @@ MAX_YAS_GUN = 100            # rezerv kullanimi 90 gun + pay
 DONGU_GUN = int(os.environ.get("RADAR_DONGU_GUN", "7"))
 
 
+def _bu_hafta_gonderildi(st, per):
+    return per in (st.get("gonderilen_donemler") or [])
+
+
 def _son_gonderim(st):
     """Son GERCEK gonderimin Pazartesi tarihi (gonderilen_donemler'den) ya da None."""
     son = None
@@ -987,7 +991,10 @@ def cmd_otomatik(a):
     # bu yana DONGU_GUN dolmadiysa bu hafta gonderilmez - hata degil, plan.
     # Tarama yine calisir ve havuzu besler; haber kaybolmaz, sonraki bultene kalir.
     son = _son_gonderim(st)
-    atla = bool(son and (bugun - son).days < DONGU_GUN - 1)
+    # BU ISO HAFTASINDA GONDERILDI MI (2026-11-09). Onceki kural "son gonderimin
+    # Pazartesi'sinden 6 gunden az" idi: Pazar gunu 6 cikiyor, ayni hafta ikinci
+    # posta mumkun oluyordu ve tarihe bagli test 2026-11-08 Pazar kirmizi yandi.
+    atla = _bu_hafta_gonderildi(st, per)
     deneme = bool(a.deneme)
     ek = "deneme_" if deneme else ""
     base = os.path.join(OUT, "%shafta_%s" % (ek, per))
@@ -1067,6 +1074,29 @@ def cmd_geri_bildirim(a):
     w = st.get("tercih") or {}
     print("geri bildirim: %d yeni oy islendi; en guclu tercihler: %s" % (n, ", ".join(
         "%s=%+d" % kv for kv in sorted(w.items(), key=lambda kv: -abs(kv[1]))[:8]) or "-"))
+    return 0
+
+
+def cmd_teslim_kontrol(a):
+    """Gmail'e gelen teslim edilemedi (bounce) bildirimlerini okur. Varsa out/uyari.txt."""
+    from . import tercih
+    u, p = os.environ.get("MAIL_USER"), os.environ.get("MAIL_PASS")
+    if not (u and p):
+        print("teslim kontrolu: MAIL_USER/MAIL_PASS yok")
+        return 0
+    try:
+        b = tercih.teslim_kontrol(u, p, gun=a.gun)
+    except Exception as e:
+        print("teslim kontrolu yapilamadi (IMAP): %s: %s" % (type(e).__name__, str(e)[:160]))
+        return 0
+    if b:
+        with open(os.path.join(OUT, "uyari.txt"), "w", encoding="utf-8") as f:
+            f.write("SogukRadar: bir veya daha fazla alici postayi REDDETTI (teslim edilemedi).\n\n"
+                    + "\n".join("- %s | %s\n  %s" % (k["tarih"], k["konu"], k["ozet"]) for k in b)
+                    + "\n\nCozum: alicinin bilgi islem birimi gonderen adresi guvenilir gonderenlere eklemeli.\n")
+        if os.environ.get("GITHUB_OUTPUT"):
+            with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+                f.write("bounce=true\n")
     return 0
 
 
@@ -1212,6 +1242,9 @@ def main(argv=None):
     sub.add_parser("isaretle").set_defaults(fn=cmd_isaretle)
     sub.add_parser("llm-test").set_defaults(fn=cmd_llm_test)
     sub.add_parser("geri-bildirim").set_defaults(fn=cmd_geri_bildirim)
+    tk = sub.add_parser("teslim-kontrol")
+    tk.add_argument("--gun", type=int, default=14)
+    tk.set_defaults(fn=cmd_teslim_kontrol)
     sub.add_parser("form-test").set_defaults(
         fn=lambda a: 0 if __import__("radar.tercih", fromlist=["x"]).form_testi() else 1)
     sub.add_parser("yoklama").set_defaults(fn=lambda a: (__import__("radar.yoklama", fromlist=["x"]).yokla(), 0)[1])

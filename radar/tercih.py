@@ -233,3 +233,53 @@ def form_testi(log=print):
             return True
     log("CSV: test oyu 2 dakikada gorunmedi (yayinlanmis tablo gecikmeli guncellenebilir)")
     return False
+
+
+# ----------------------------------------------------------------------
+# TESLIM KONTROLU (2026-11-09): "Erdemir adresine hic gelmedi". Alici sunucu
+# reddederse Gmail gonderene "Mail Delivery Subsystem" bildirimi yollar.
+# Bu bildirimler okunur; alici adresinin yerel kismi maskelenir.
+# ----------------------------------------------------------------------
+def teslim_kontrol(kullanici, sifre, gun=14, log=print):
+    import email.utils
+    sonuc = []
+    m = imaplib.IMAP4_SSL("imap.gmail.com", 993, timeout=60)
+    try:
+        m.login(kullanici, sifre)
+        for kutu in ("INBOX", '"[Gmail]/Spam"', '"[Gmail]/All Mail"'):
+            try:
+                if m.select(kutu, readonly=True)[0] != "OK":
+                    continue
+            except Exception:
+                continue
+            once = (dt.date.today() - dt.timedelta(days=gun)).strftime("%d-%b-%Y")
+            _, veri = m.search(None, '(SINCE %s OR FROM "mailer-daemon" FROM "postmaster")' % once)
+            for num in (veri[0] or b"").split()[-40:]:
+                _, d = m.fetch(num, "(BODY.PEEK[])")
+                ham = d[0][1] if d and isinstance(d[0], tuple) else b""
+                msg = email.message_from_bytes(ham)
+                govde = ""
+                for part in msg.walk():
+                    if part.get_content_type() in ("text/plain", "message/delivery-status"):
+                        try:
+                            govde += part.get_payload(decode=True).decode("utf-8", "replace")
+                        except Exception:
+                            govde += str(part.get_payload())[:2000]
+                govde = re.sub(r"[\w.+-]+@", "***@", govde)
+                ozet = " | ".join(l.strip() for l in govde.splitlines()
+                                  if re.search(r"(?i)status|diagnostic|action|reason|550|554|553|552|421|451|blocked|reject|spam|policy|quarantin|@", l))[:700]
+                kayit = {"kutu": kutu, "tarih": msg.get("Date", ""), "konu": _coz(msg.get("Subject", ""))[:120],
+                         "ozet": ozet}
+                if kayit not in sonuc:
+                    sonuc.append(kayit)
+            if kutu == "INBOX" and sonuc:
+                break
+    finally:
+        try:
+            m.logout()
+        except Exception:
+            pass
+    log("teslim bildirimi (bounce): %d" % len(sonuc))
+    for k in sonuc:
+        log("- %s | %s | %s\n    %s" % (k["kutu"], k["tarih"], k["konu"], k["ozet"]))
+    return sonuc

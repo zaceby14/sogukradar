@@ -1850,11 +1850,13 @@ def test_iki_haftalik_dongu_ve_yayinci_linki():
     per = lambda d: "%04d-W%02d" % d.isocalendar()[:2]
     eq(C._son_gonderim({"gonderilen_donemler": []}), None, "kayit yoksa son gonderim yok")
     eq(C.DONGU_GUN, 7, "bulten haftalik")
-    son = C._son_gonderim({"gonderilen_donemler": [per(bugun)]})
-    eq((bugun - son).days < C.DONGU_GUN - 1, True, "bu hafta gonderildi -> ayni hafta ikinci posta yok")
-    gecen = bugun - dt.timedelta(days=7)
-    son = C._son_gonderim({"gonderilen_donemler": [per(gecen)]})
-    eq((bugun - son).days < C.DONGU_GUN - 1, False, "gecen hafta gonderildi -> bu hafta gonder")
+    # TARIHTEN BAGIMSIZ (2026-11-09: Pazar gunu kirmizi yanan saatli bomba)
+    for g in range(7):
+        gun = dt.date(2026, 11, 9) + dt.timedelta(days=g)          # Pzt..Paz
+        eq(C._bu_hafta_gonderildi({"gonderilen_donemler": [per(dt.date(2026, 11, 9))]}, per(gun)),
+           True, "ayni ISO hafta (%s) ikinci posta yok" % gun)
+    eq(C._bu_hafta_gonderildi({"gonderilen_donemler": ["2026-W45"]}, "2026-W46"), False,
+       "gecen hafta gonderildi -> bu hafta gonder")
     a = {"firma": "Jindal India", "hat": "Galvaniz hatti (CGL)", "asama": "Ilk urun",
          "tarih": "2026-10-27", "baslik": "Jindal India Commissions Revamped Galvanising Line",
          "url": "https://news.google.com/rss/articles/XYZ", "kaynak": "Rediff", "anahtar": "a"}

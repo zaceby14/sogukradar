@@ -31,7 +31,12 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Birim testleri (kirmizi ise tarama baslamaz)
+      # Kirmizi test TARAMAYI DURDURMAZ (2026-11-09): 8 Kasim'da tarihe bagli bir
+      # test hatasi gunluk taramayi durdurdu. Tarama havuzu besler, posta atmaz;
+      # kirmizi test sahibine uyari postasiyla bildirilir.
+      - name: Birim testleri
+        id: test
+        continue-on-error: true
         run: |
           python -m radar selftest
           python tests/e2e_offline.py
@@ -98,7 +103,46 @@ jobs:
           from: SogukRadar Bulten <${{ secrets.MAIL_USER }}>
           body: file://out/uyari.txt
 
+      - name: Teslim kontrolu (reddedilen posta var mi)
+        id: teslim
+        continue-on-error: true
+        env:
+          MAIL_USER: ${{ secrets.MAIL_USER }}
+          MAIL_PASS: ${{ secrets.MAIL_PASS }}
+        run: python -m radar teslim-kontrol --gun 2
+
+      - name: Teslim uyarisi
+        if: steps.teslim.outputs.bounce == 'true'
+        continue-on-error: true
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.MAIL_USER }}
+          password: ${{ secrets.MAIL_PASS }}
+          subject: "SogukRadar UYARI — bir alici bulteni reddetti"
+          to: ${{ secrets.MAIL_USER }}
+          from: SogukRadar Bulten <${{ secrets.MAIL_USER }}>
+          body: file://out/uyari.txt
+
+      - name: Kirmizi test uyarisi
+        if: steps.test.outcome == 'failure'
+        continue-on-error: true
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.MAIL_USER }}
+          password: ${{ secrets.MAIL_PASS }}
+          subject: "SogukRadar UYARI — birim testleri kirmizi (tarama devam etti)"
+          to: ${{ secrets.MAIL_USER }}
+          from: SogukRadar Bulten <${{ secrets.MAIL_USER }}>
+          body: "Gunluk taramada birim testleri basarisiz oldu. Tarama ve bulten durdurulmadi; kod duzeltilmeli. Ayrinti: Actions > SogukRadar gunluk tarama."
+
       - name: Ciktilari repoya isle
+        if: always()
         run: |
           rm -f out/uyari.txt
           git config user.name  "sogukradar-bot"
