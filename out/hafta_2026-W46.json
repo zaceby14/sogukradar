@@ -80,31 +80,31 @@
    "url": "https://news.metal.com/en/newscontent/104134675-italys-abs-opens-special-steel-service-center-in-sweden"
   },
   {
-   "tarih": "2026-10-16",
-   "firma": "Tata Steel",
-   "ulke": "Hindistan",
-   "hat": "Boyama hatti (CCL)",
+   "anahtar": "16c1c1e154dad064",
    "asama": "Belirsiz",
-   "tedarikci": "",
-   "kapasite": "",
-   "tutar": "",
    "baslik": "Tata Steel launches pre-painted steel Colorcoat in India",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgtek_kaplama",
-   "url": "https://www.thehindubusinessline.com/companies/tata-steel-launches-pre-painted-steel-colorcoat-in-india/article71567926.ece",
-   "tarih_kaynagi": "rss",
-   "lead": "https://www.thehindubusinessline.com/companies/tata-steel-launches-pre-painted-steel-colorcoat-in-india/article71567926.ece Copy Tata Steel Colors has launched its ...",
    "eksik": [
     "asama"
    ],
-   "anahtar": "16c1c1e154dad064",
+   "firma": "Tata Steel",
+   "hat": "Boyama hatti (CCL)",
+   "kapasite": "",
    "kategori": "Hat",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgtek_kaplama",
+   "lead": "https://www.thehindubusinessline.com/companies/tata-steel-launches-pre-painted-steel-colorcoat-in-india/article71567926.ece Copy Tata Steel Colors has launched its ...",
    "olaylar": [
     "tata steel|fu|Hindistan|Boyama hatti (CCL)",
     "tata steel|hat|Boyama hatti (CCL)|Belirsiz",
     "tata steel|ulke|Hindistan|Belirsiz"
    ],
-   "rezerv": true
+   "rezerv": true,
+   "tarih": "2026-10-16",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Hindistan",
+   "url": "https://www.thehindubusinessline.com/companies/tata-steel-launches-pre-painted-steel-colorcoat-in-india/article71567926.ece"
   },
   {
    "anahtar": "aac00b6a794a93b5",
@@ -161,13 +161,13 @@
  "stats": {
   "kaynak": 315,
   "erisilemeyen": 6,
-  "ham": 3883,
-  "on_eleme_gecti": 459,
+  "ham": 3870,
+  "on_eleme_gecti": 452,
   "makale_acildi": 220,
   "tarihsiz_elendi": 104,
   "pencere_disi": 270,
-  "kapsam_disi": 3427,
-  "tekrar": 77,
+  "kapsam_disi": 3415,
+  "tekrar": 76,
   "kabul": 1,
   "gnews_tarih": 0
  },
@@ -534,12 +534,12 @@
   "new.abb.com": {
    "istek": 3,
    "hiz_siniri": 2,
-   "sogutmada": false
+   "sogutmada": true
   },
   "www.cognex.com": {
    "istek": 2,
    "hiz_siniri": 2,
-   "sogutmada": false
+   "sogutmada": true
   }
  },
  "tech_pool": [
@@ -685,14 +685,6 @@
    "lead": "Hoa Phat exports 8,000 tons of galvanized steel to Japan for the first time &nbsp;&nbsp; Yieh Corp."
   },
   {
-   "anahtar": "piyasa:380785546277695a",
-   "tarih": "2026-11-02",
-   "baslik": "Hoa Phat exports 8,000 tons of galvanized steel sheets to Japan, expanding its international market.",
-   "url": "https://www.vietnam.vn/en/hoa-phat-xuat-khau-8-000-tan-ton-ma-sang-nhat-ban-mo-rong-thi-truong-quoc-te",
-   "kaynak": "Bing News",
-   "lead": "The shipment meets the Japanese JIS G 3302 standard, with strict requirements regarding specifications, a smooth plating surface, and environmentally friendly chromium-3+ or chromium-free surface ..."
-  },
-  {
    "anahtar": "piyasa:3f62c43fbeca3704",
    "tarih": "2026-10-30",
    "baslik": "Top Players in the Galvanized Steel Silo Market: Fact MR Forecasts US$2.85 Billion by 2036",
@@ -750,6 +742,6 @@
  "rezerv_kullanilan": 3,
  "rezerv_havuz": 63,
  "period": "2026-W46",
- "generated": "2026-11-09 20:14 UTC",
+ "generated": "2026-11-09 23:29 UTC",
  "version": "3.0.0"
 }

@@ -28,31 +28,56 @@
    "puan": 70.8
   },
   {
-   "tarih": "2026-10-16",
-   "firma": "Tata Steel",
-   "ulke": "Hindistan",
-   "hat": "Boyama hatti (CCL)",
-   "asama": "Belirsiz",
-   "tedarikci": "",
+   "anahtar": "3705534b48675072",
+   "asama": "Ilk urun",
+   "baslik": "Italy's ABS Opens Special Steel Service Center in Sweden",
+   "eksik": [],
+   "firma": "ABS",
+   "hat": "Dilme / boy kesme / SSC",
    "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "SMM (Shanghai Metals)",
+   "kaynak_id": "smm",
+   "olaylar": [
+    "*|ulke-hat|Italya|Dilme / boy kesme / SSC|Ilk urun",
+    "abs|fu|Italya|Dilme / boy kesme / SSC",
+    "abs|hat|Dilme / boy kesme / SSC|Ilk urun",
+    "abs|ulke|Italya|Ilk urun"
+   ],
+   "puan": 47.0,
+   "tarih": "2026-09-25",
+   "tarih_kaynagi": "json-ld",
+   "tedarikci": "",
    "tutar": "",
+   "ulke": "Italya",
+   "url": "https://news.metal.com/en/newscontent/104134675-italys-abs-opens-special-steel-service-center-in-sweden"
+  },
+  {
+   "anahtar": "16c1c1e154dad064",
+   "asama": "Belirsiz",
    "baslik": "Tata Steel launches pre-painted steel Colorcoat in India",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgtek_kaplama",
-   "url": "https://www.thehindubusinessline.com/companies/tata-steel-launches-pre-painted-steel-colorcoat-in-india/article71567926.ece",
-   "tarih_kaynagi": "rss",
-   "lead": "https://www.thehindubusinessline.com/companies/tata-steel-launches-pre-painted-steel-colorcoat-in-india/article71567926.ece Copy Tata Steel Colors has launched its ...",
    "eksik": [
     "asama"
    ],
-   "anahtar": "16c1c1e154dad064",
+   "firma": "Tata Steel",
+   "hat": "Boyama hatti (CCL)",
+   "kapasite": "",
    "kategori": "Hat",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgtek_kaplama",
+   "lead": "https://www.thehindubusinessline.com/companies/tata-steel-launches-pre-painted-steel-colorcoat-in-india/article71567926.ece Copy Tata Steel Colors has launched its ...",
    "olaylar": [
     "tata steel|fu|Hindistan|Boyama hatti (CCL)",
     "tata steel|hat|Boyama hatti (CCL)|Belirsiz",
     "tata steel|ulke|Hindistan|Belirsiz"
    ],
-   "rezerv": true
+   "rezerv": true,
+   "tarih": "2026-10-16",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Hindistan",
+   "url": "https://www.thehindubusinessline.com/companies/tata-steel-launches-pre-painted-steel-colorcoat-in-india/article71567926.ece"
   },
   {
    "anahtar": "aac00b6a794a93b5",
@@ -106,21 +131,13 @@
    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zb1JoVG1BQ1FSRlp3Qk02Zl9CaTZ3ME9XLTktbW1rcXhBR0pkMDhLOTZfT0V5LWdwcXZScW5rYzFpS1FjVXhhWU53UzNXeHozRTBpWG12T3R0XzdiZ1BIN1hVeVo2VnV4?oc=5"
   }
  ],
- "tech": [
-  {
-   "anahtar": "tech:e82b221fc2986888",
-   "tarih": "2026-10-05",
-   "konu": "Turkey's Isdemir develops high-quality steel production for defense industry and electrical steel",
-   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMW13SGRFangyUGg2dkFBMDJ0aUFSSVljX0gxbXFZMng2OWRYY1hqLThqYVNtaDJzMUlvanBROE02MXZMTktNNG4zU3AzdHZzVUlxRVpXUlZRVzQ0eUhKamhRU2dyMHh4RkdDcGEtYXMzRmQ1eEE5aV9GWTJkZmhCeTZCRzE3ZG5VZS1pdEZnaXBGNzZ1WGl1WUxTeUNIVEY2UzJTN1MtZ0RvbnFNc0NzNUJtWl9YX0J6Y0FMQlh1cTUzRzdMZ3dNbE9zQXU2a1NTVGVUeEwybnR1M2VQcmtaaEFQb2RhWTVSTjdxMXdGRQ?oc=5",
-   "metin": "İsdemir, savunma sanayisi ihtiyaçları ve elektrik çeliği üretimine yönelik yüksek katma değerli çelik kaliteleri geliştirme çalışmalarını sürdürüyor."
-  }
- ],
+ "tech": [],
  "piyasa": [
   {
    "anahtar": "piyasa:58a6686e74ff2a17",
    "tarih": "2026-11-02",
    "baslik": "European green flat steel demand remains subdued; construction provides pockets of interest",
-   "metin": "Avrupa'da yeşil yassı çelik talebi zayıf seyrini korurken, otomotiv sektöründen gelen talep yavaşladı ve inşaat sektöründe yalnızca sınırlı alanlarda hareketlilik görüldü.",
+   "metin": "Avrupa'da yeşil yassı çelik talebinin zayıf seyrettiği, inşaat sektöründe kısmi hareketlilik görülürken otomotiv talebinin yavaşladığı bildirildi.",
    "url": "https://eurometal.net/european-green-flat-steel-demand-remains-subdued-construction-provides-pockets-of-interest/?utm_source=rss&utm_medium=rss&utm_campaign=european-green-flat-steel-demand-remains-subdued-construction-provides-pockets-of-interest",
    "kaynak": "EUROMETAL",
    "konu": "talep",
@@ -130,21 +147,21 @@
    "anahtar": "piyasa:c8d598485ca4f420",
    "tarih": "2026-11-04",
    "baslik": "India HRC and CRC prices rise w-o-w; festive slowdown limits further gains",
-   "metin": "Hindistan'da sıcak ve soğuk haddelenmiş rulo fiyatları haftalık bazda yükselirken, festival kaynaklı talep durgunluğu ilave fiyat artışlarını sınırladı.",
+   "metin": "Hindistan'da sıcak ve soğuk haddelenmiş rulo fiyatları haftalık bazda yükseliş gösterirken, festival dönemi kaynaklı yavaşlama artışları sınırladı.",
    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNU1JhT1o1ZTBKOUlJaG55b2xBUGM5cEp4aUU1aGc3cHdHcXVVMmJVSVNZRHNBeFR2Rm40bjhHemZaZS1JY1pWWHpOWTU5MFpWUUZkd0F5Ujd1VFd6b0U3Z3FXNDJPTFQ3cXpLVHItbW9JM096aGV1dUVITWlfRWV0UWp3d093N1p1OXdjaXVITlFELUktajVhZTJ4SXQwa2EwSGFKcVFub2MwOUVNQ2FqeEptYTQ4c0lUME1V?oc=5",
    "kaynak": "BigMint",
    "konu": "fiyat",
    "urun": "soguk hadde"
   },
   {
-   "anahtar": "piyasa:c63a7f950e471960",
-   "tarih": "2026-11-08",
-   "baslik": "AI Is Queued Behind an Electrical Steel Transformer Shortage",
-   "metin": "Yapay zekâ altyapı yatırımları, küresel elektrik çeliği ve trafo tedarikindeki yetersizlik ve darboğaz engeline takılıyor.",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1TQUplTC1uLWNhV20yUXlIaEtpVWNJWFp4alJ4bEZiMGRncVJocWdDZWgzYm1rbHZfNjNSUGdUOUdXMHlJSGp1b252eEZfeGRlRXRxNUVZRUVVZFlhM0UxUnU5dlRlMU5QR2RGNmRlN0hLRjM3Ulpwczd1QQ?oc=5",
-   "kaynak": "Intelligent Living",
-   "konu": "talep",
-   "urun": "elektrik celigi"
+   "anahtar": "piyasa:8561001e822ca3e1",
+   "tarih": "2026-10-21",
+   "baslik": "Cleveland-Cliffs links Stelco layoffs in Canada to galvanized steel imports",
+   "metin": "Cleveland-Cliffs, Kanada'daki Stelco tesisinde gerçekleşen işten çıkarmaları artan galvanizli sac ithalatına bağladı.",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObUE5ajFDRGxvNVJGeWtPN3BHc1kwNlZrcVBnckQzRXM3cXFrN3dwSWE1NnJsZkZjRVU3SEliaENoOWMwTHFDRUQ0QXFXRWp6VUVaZDRqSW5YSFZZbmdJODA0MWRvbm12WjVzU1hHa0pLaWJyS01GSjh0T0JjM1llZElfekxxMmJFMTRVNGN5ZlRwd0hOUkpNWjBzMkREdWt5ZE5DekdYbW1ya01CM2stcQ?oc=5",
+   "kaynak": "Yieh Corp.",
+   "konu": "ticaret",
+   "urun": "kaplamali"
   }
  ]
 }

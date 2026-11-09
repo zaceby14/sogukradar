@@ -1,6 +1,6 @@
 {
  "donem": "2026-W46",
- "adet": 581,
+ "adet": 580,
  "kayitlar": [
   {
    "sebep": "kapsam_disi",
@@ -2758,15 +2758,15 @@
   },
   {
    "sebep": "tekrar",
-   "baslik": "Nucor produces first prime coil at new Berkeley continuous galvanizing line",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTzgySW5JWklNMDZsZzhSME9TQk1yRHNvUDJ1cEIzUFoyLWFHSDdTOGlneVRCWXM5MGdfSWxtbW81Q3ZwMW9icGNPM1Q1QTZFSG9BZ0JnMGFibEh2aUlpODJNUjM2MWtmZmVPNXBNQVo2UXdmdldFcl9wVW1oTWNmSHFYdmdqcV9mNXZZdXRDUHYwTmRuMFNGbE11b1FRVjhWNFhiQ1B4eTI0ck9NMU1EMQ?oc=5",
-   "ek": "ayni olayin varyanti: nucor|hat|Galvaniz hatti (CGL)|Ilk urun"
-  },
-  {
-   "sebep": "tekrar",
    "baslik": "Jindal India Commissions Continuous Galvanizing Line in West Bengal",
    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9yekFtbHFNMHVjb3VMODFsR09EemdFaVFCS1RFSFZ0QmZMNnRlSnV6bHFZUU1MMDFIdDVOV0dTc0VhNDZ2V1FnS0dXLTF5MjVE?oc=5",
    "ek": "ayni olayin varyanti: *|ulke-hat|Hindistan|Galvaniz hatti (CGL)|Ilk urun; jindal india|fu|Hindistan|Galvaniz hatti (CGL); jindal india|hat|Galvaniz hatti (CGL)|Ilk urun; jindal india|ulke|Hindistan|Ilk urun"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Taiwan moves to implement mandatory CNS inspection for hot-dip galvanized steel coils",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZE1YOVNucnJPZl9rWW1RUE5oa2doUlViSlJfN0J1YzFjYTZ5WUtSZlZ5VmVWT2VXNEZjQjFuTTByX0RxeG5kYWtCMnJGRG1YQnpDeTBhZHlVYTZSem10Q0JNRWVzNHMxV1FkRGlmR0pLaEFDclE3VldlTnQ2dHBoVjlheGJjeHc0RzNSSjhiZ1RxNzJmSE1YX3F0VnNFRFd4UWgyRTVOLXd1UEtHeDUtcEdfdklMcnFLWnBCQk93?oc=5",
+   "ek": "2026-10-13"
   },
   {
    "sebep": "tekrar",
@@ -3261,12 +3261,6 @@
    "ek": "on eleme: 2023-08-18"
   },
   {
-   "sebep": "pencere_disi",
-   "baslik": "TİP Kocaeli, Tezcan Galvaniz önüne gitti! - Bağımsız Kocaeli",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZndwWVBzUEVaWExYTkthQVllUFhxRm44TkMtT0RqeGR3aXNOdWRiWWV6SzJ4UFhPLUVnTmRHaEZZQ01RbEViUGxqWjZTd0dPRUlKN0x0RUdyNEcxTG0tenlrYmhlOTlEa0l2SElNVzVvcms3eXFfeU45NTJZSjMzOWIwUW1Ick5oQlQ1Rlg2M3RsdllrTHVyN0hB?oc=5",
-   "ek": "on eleme: 2024-01-02"
-  },
-  {
    "sebep": "tarihsiz_elendi",
    "baslik": "Direnişteki Tezcan Galvaniz İşçileri Fabrikayı İşgal Etti",
    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPMjQ5aGdqRG45OExrNEl6VHdSSkRqUUp2dkNZUFJQeGVrUk5kdXVycUhVdFlVRVVlQkJRZzNxc2x2Q1ZuYzg2aE5EV2ZoUkJpaVpXdmc1MFRrdGRtOE9YdHlXSTBsS0tHZUVOWFBaaEZHTmwyRmQwLU4tQjV5T2gwX3VEQUl1ekN5SFdyU2dWTW1IZzQ?oc=5",
@@ -3334,9 +3328,9 @@
   },
   {
    "sebep": "tekrar",
-   "baslik": "Jindal India commissions revamped galvanising line at Bengal plant",
-   "url": "https://www.constructionweekonline.in/business/jindal-india-commissions-revamped-galvanising-line-at-bengal-plant",
-   "ek": "ayni olayin varyanti: *|ulke-hat|Hindistan|Galvaniz hatti (CGL)|Ilk urun; jindal india|fu|Hindistan|Galvaniz hatti (CGL); jindal india|hat|Galvaniz hatti (CGL)|Ilk urun; jindal india|ulke|Hindistan|Ilk urun"
+   "baslik": "Jindal (India) commissions revamped galvanising line at Bengal plant",
+   "url": "https://www.msn.com/en-in/technology/general/jindal-india-commissions-revamped-galvanising-line-at-bengal-plant/ar-AA2gbdJ3",
+   "ek": "ayni olayin varyanti: *|ulke-hat|Hindistan|Galvaniz hatti (CGL)|Ilk urun; jindal (india)|fu|Hindistan|Galvaniz hatti (CGL); jindal (india)|hat|Galvaniz hatti (CGL)|Ilk urun; jindal (india)|ulke|Hindistan|Ilk urun"
   },
   {
    "sebep": "tekrar",
