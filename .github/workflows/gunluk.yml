@@ -16,6 +16,7 @@ on:
 
 permissions:
   contents: write
+  actions: write          # bulten gitmediyse otomatik.yml'yi tetikleyebilmek icin
 
 concurrency:
   group: sogukradar             # haftalik kosuyla ayni grup - cakismaz
@@ -140,6 +141,33 @@ jobs:
           to: ${{ secrets.MAIL_USER }}
           from: SogukRadar Bulten <${{ secrets.MAIL_USER }}>
           body: "Gunluk taramada birim testleri basarisiz oldu. Tarama ve bulten durdurulmadi; kod duzeltilmeli. Ayrinti: Actions > SogukRadar gunluk tarama."
+
+      # YEDEK GONDERIM YOLU (2026-11-09): GitHub zamanlayicisi bulteni saatlerce
+      # geciktirdi/atladi. Pazartesi-Carsamba arasi bu ISO haftasinin bulteni
+      # gitmediyse gunluk tarama bulten is akisini KENDISI baslatir. Ayni hafta
+      # ikinci posta gitmez (otomatik.yml 'bu hafta gonderildi' kontrolu yapar).
+      - name: Bu hafta bulten gitti mi - gitmediyse baslat
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          KARAR=$(python3 - <<'PY'
+          import datetime as dt, json
+          bugun = dt.datetime.utcnow() + dt.timedelta(hours=3)          # TSI
+          y, w, g = bugun.isocalendar()
+          per = "%04d-W%02d" % (y, w)
+          st = json.load(open("state/state.json", encoding="utf-8"))
+          gitti = per in (st.get("gonderilen_donemler") or [])
+          # Pazartesi 10:00 TSI'den sonra ya da Sali/Carsamba
+          vakit = (g == 1 and bugun.hour >= 10) or g in (2, 3)
+          print("baslat" if (vakit and not gitti) else "gerek-yok:%s gitti=%s" % (per, gitti))
+          PY
+          )
+          echo "karar: $KARAR"
+          if [ "$KARAR" = "baslat" ]; then
+            gh workflow run otomatik.yml -R "$GITHUB_REPOSITORY" -f deneme=false
+            echo "bulten is akisi baslatildi" >> $GITHUB_STEP_SUMMARY
+          fi
 
       - name: Ciktilari repoya isle
         if: always()
