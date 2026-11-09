@@ -1,6 +1,32 @@
 {
  "bulunan": [
   {
+   "anahtar": "45ecc037d8bbc346",
+   "asama": "Ilk urun",
+   "baslik": "[Nucor, Primetals Produce First Prime Coil on New Galvanizing Line in South Carolina]",
+   "eksik": [
+    "firma",
+    "ulke"
+   ],
+   "firma": "",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Shanghai Metals Market",
+   "kaynak_id": "gq_hat04",
+   "lead": "[Nucor, Primetals Produce First Prime Coil on New Galvanizing Line in South Carolina] &nbsp;&nbsp; Shanghai Metals Market",
+   "olaylar": [
+    "primetals@produce|hat|Galvaniz hatti (CGL)|Ilk urun"
+   ],
+   "puan": 70.8,
+   "tarih": "2026-11-06",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "Primetals",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQXN0NUEzTHZfWjM0aWNzN3FpdHpsTmkxX2l2R09DQ0VLVTV5RklhME80Y0diZFlEekl5Y2pfN29TNXdBcmF1UmxwdGFUVnpwNGQ2MFF5QXkydFBsRUR4OHBNQWt5Q25xbFQ1NktYZ1ZfZ2E3V0dMWG0wTGlUZnFUOUJ5eFRiMm5RQ0NzdTFWdTNJUFB2RjlkbXJtbmtwamRDdzgzLXBGUGI1YlBvMTgyTG5zeU12cHVqZk9sU3NMMUE4MU1tOXc?oc=5"
+  },
+  {
    "anahtar": "8cdc84758f7bfd38",
    "asama": "Ilk urun",
    "baslik": "【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】纽柯(Nucor)与普锐特冶金技术(Primetals Technologies)已在纽柯位于南卡罗来纳州伯克利县的板材厂新建连续镀锌线(CGL)上产出首卷优质卷板,标志着该产线完成调试阶段。普锐特与CLECIM…",
@@ -80,32 +106,6 @@
    "tutar": "",
    "ulke": "",
    "url": "https://www.republicworld.com/initiatives/hindustan-zinc-expands-value-added-zinc-product-offerings-with-next-gen-alloys-vedaz-and-vedayush-for-the-galvanizing-industry-2026-11-04-140415"
-  },
-  {
-   "anahtar": "d75a93c69169a293",
-   "asama": "Belirsiz",
-   "baslik": "Steel firm goes greener with £160K investment in panels and batteries",
-   "eksik": [
-    "ulke",
-    "asama"
-   ],
-   "firma": "Steel firm",
-   "hat": "Elektrik celigi hatti",
-   "kapasite": "",
-   "kategori": "Yatirim",
-   "kaynak": "Rotherham Advertiser",
-   "kaynak_id": "gq_sup02",
-   "lead": "Steel firm goes greener with £160K investment in panels and batteries &nbsp;&nbsp; Rotherham Advertiser",
-   "olaylar": [
-    "steel firm|hat|Elektrik celigi hatti|Belirsiz"
-   ],
-   "puan": 10.3,
-   "tarih": "2026-11-03",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "",
-   "tutar": "£160",
-   "ulke": "",
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxObmV1anZVdzM4U3dqR1NxNkozTlNEalFEV19HTWVhR2dvcThLU2hWVmRzOFF4R1MwMTZ5aXNyNklyamhzYThyc0F2alpvNXdycFhGNUk4Ti0zWmFBLVRGakF2QmpEWGpPTjB2bnBMUzFGQnJOM3dTWThSbEtsTXlReUtkcm55TUVTZWl5Z2hHN3lYRy04WDlRNENqbFpRRHFYNDUyeDM4UmV0dlhHRURKU2luV1ZRVWNaMExnbl9QVTgzOGdQVUJtMzN3?oc=5"
   },
   {
    "anahtar": "20b338e9e87b0de6",
@@ -209,10 +209,13 @@
   "3ffa8c22f8-": 1,
   "490fe88208+": 3,
   "490fe88208-": 3,
+  "543eede119+": 1,
   "561ca32fc1+": 3,
   "561ca32fc1-": 3,
   "57d5af2902+": 3,
   "57d5af2902-": 3,
+  "61e70c80bd+": 1,
+  "61e70c80bd-": 1,
   "65ac0bac8b+": 3,
   "65ac0bac8b-": 3,
   "7364bc7da3+": 3,
@@ -228,6 +231,8 @@
   "b1114a2a22-": 1,
   "b1400796e4+": 1,
   "b1400796e4-": 1,
+  "baad0fe5de+": 1,
+  "baad0fe5de-": 3,
   "bfab4a70f8+": 3,
   "bfab4a70f8-": 3,
   "f2174b9e9a+": 3,
@@ -235,11 +240,16 @@
  },
  "gb_oy": {
   "3ffa8c22f8|form:03.11.2026 12:07:53": "-",
+  "543eede119|form:09.11.2026 11:09:06": "+",
+  "61e70c80bd|form:09.11.2026 11:09:06": "+",
   "9f687e6101|form:03.11.2026 12:07:52": "+",
   "9f687e6101|form:03.11.2026 12:07:53": "-",
   "a06acce312|form:03.11.2026 10:06:04": "+",
   "b1114a2a22|form:03.11.2026 12:07:53": "+",
-  "b1400796e4|form:03.11.2026 12:07:53": "+"
+  "b1400796e4|form:03.11.2026 12:07:53": "+",
+  "baad0fe5de|form:09.11.2026 11:09:06": "+",
+  "baad0fe5de|form:09.11.2026 13:38:17": "-",
+  "baad0fe5de|form:09.11.2026 13:38:37": "-"
  },
  "gonderilen_donemler": [
   "2026-W45",
@@ -2131,9 +2141,35 @@
     "tekrar": 72
    },
    "uretim": "2026-11-09 08:02 UTC"
+  },
+  {
+   "donem": "2026-W46",
+   "satir": 6,
+   "stats": {
+    "erisilemeyen": 4,
+    "gnews_tarih": 0,
+    "ham": 3941,
+    "kabul": 2,
+    "kapsam_disi": 3492,
+    "kaynak": 315,
+    "makale_acildi": 225,
+    "on_eleme_gecti": 443,
+    "pencere_disi": 270,
+    "tarihsiz_elendi": 105,
+    "tekrar": 72
+   },
+   "uretim": "2026-11-09 11:39 UTC"
   }
  ],
  "piyasa_rezerv": [
+  {
+   "anahtar": "piyasa:c63a7f950e471960",
+   "baslik": "AI Is Queued Behind an Electrical Steel Transformer Shortage",
+   "kaynak": "Intelligent Living",
+   "lead": "AI Is Queued Behind an Electrical Steel Transformer Shortage &nbsp;&nbsp; Intelligent Living",
+   "tarih": "2026-11-08",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1TQUplTC1uLWNhV20yUXlIaEtpVWNJWFp4alJ4bEZiMGRncVJocWdDZWgzYm1rbHZfNjNSUGdUOUdXMHlJSGp1b252eEZfeGRlRXRxNUVZRUVVZFlhM0UxUnU5dlRlMU5QR2RGNmRlN0hLRjM3Ulpwczd1QQ?oc=5"
+  },
   {
    "anahtar": "piyasa:57ac2bb7e1222d7b",
    "baslik": "Electrical Steel Pricing Report: Explore Global Price Trends, Historical Data and Forecasts",
@@ -2141,22 +2177,6 @@
    "lead": "Electrical Steel Pricing Report: Explore Global Price Trends, Historical Data and Forecasts &nbsp;&nbsp; openPR.com",
    "tarih": "2026-11-05",
    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdmp1SGVTd19RaTEwRW56Q0tjb2x3eVFfTE4xLVpWZ2hmdXlHQnB2TDQ0Y1c1U2U4dS1tQTc4TXg3ZHE1RFhMYTlzZGVxd1pGZ1pCZlRCS2tuUjB5STZGNy0zWGRGRkdETElmaVQwMGRwczJwaHpJWERWclBIa0JJa2NOREU4Y1RvTnZKWVM0dVdSVHkwNVNMQmptdw?oc=5"
-  },
-  {
-   "anahtar": "piyasa:bd6e204eaa1c8929",
-   "baslik": "Korea recommends duties on Chinese galvanized steel",
-   "kaynak": "Kallanish",
-   "lead": "South Korea&#x27;s Trade Commission has recommended five-year anti-dumping measures on imports of Chinese cold-rolled galvanized steel...",
-   "tarih": "2026-11-04",
-   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/korea-recommends-duties-on-chinese-galvanized-steel-1126/"
-  },
-  {
-   "anahtar": "piyasa:8988864688184b6f",
-   "baslik": "EU electrical steel safeguards threaten transformer makers, 26 MEPs warn",
-   "kaynak": "Shanghai Metals Market",
-   "lead": "EU electrical steel safeguards threaten transformer makers, 26 MEPs warn &nbsp;&nbsp; Shanghai Metals Market",
-   "tarih": "2026-11-04",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeFJzNERMdlNXNzlwdnJ2UnlaY3pZZm5fTHFZVmxyeHVaaGI3eHBHU0oyeUdGUlhUX1k1NG0xVTYxTExSVFp6d1BBYWpTaG9kWHd0UXk3c05lWGFkaHhKUmZQRnM0cHRCZVJBcmRlS0NNdnRkdGE3SzVvVlp1TXV0dVZVRktWNHdUNEJGeEY4Zm9HaHkzaXJqLWhBTjNDU2UyU0dLTC04Y3JrM3Y0anUzWndyX1QxeDA?oc=5"
   },
   {
    "anahtar": "piyasa:c8d598485ca4f420",
@@ -2181,14 +2201,6 @@
    "lead": "Hoa Phat exports 8,000 tons of galvanized steel sheets to Japan, expanding its international market. &nbsp;&nbsp; Vietnam.vn",
    "tarih": "2026-11-02",
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOa0dIVGQ5Rk9jb09ycmFMSHRkaWlzbngtcmNpX0FIZXNtU2VTNk81d1JyNTdfN2JnV0htakh5VTJybWdENXQ0OTlrN2thdW1qbFdBb21aUy1aV2h0OFdNQ0tzeXRudHZNUXNTVWZQaTAxRFFkMmc3ZmxfTU9ZSzFNdVJqSlFIMzVRQVROT01UWGdVczlZUExUX0RWcVBMTm5kaW5nMg?oc=5"
-  },
-  {
-   "anahtar": "piyasa:a7dffa13a828b745",
-   "baslik": "EU backs duties on cold-rolled steel from five countries",
-   "kaynak": "Metallurgprom",
-   "lead": "EU countries voted to impose definitive anti-dumping duties on imports of cold-rolled flat steel from five countries.",
-   "tarih": "2026-11-02",
-   "url": "https://metallurgprom.org/en/news/europe/22149-eu-backs-duties-on-cold-rolled-steel-from-five-countries.html"
   },
   {
    "anahtar": "piyasa:2a00d4372823eae3",
@@ -3112,32 +3124,6 @@
    "tutar": "",
    "ulke": "",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9IUmt5bnEwYkszNUZ1SXBuNFpsaW95Q2syZjE0STdIUmo4N2trS1M2M3lPMTZCXzRjaUhiRUg0VTNLQlctUk9NeTFPQWNkbmJrYWIzSm5qZVdtNEs0ZDNvM2VvSWhIMDZxeXRxbU9lRlpRUDZLVm1uVDU3YjVQT1E?oc=5"
-  },
-  {
-   "anahtar": "28459cdd0c32da5c",
-   "asama": "Modernizasyon",
-   "baslik": "Primetals Technologies to modernize KG Steel's Dangjin cold mill with AI-driven automation upgrade",
-   "eksik": [
-    "ulke"
-   ],
-   "firma": "Primetals Technologies",
-   "hat": "Soguk hadde",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "Yieh Corp.",
-   "kaynak_id": "gtek_cold",
-   "lead": "Primetals Technologies to modernize KG Steel's Dangjin cold mill with AI-driven automation upgrade &nbsp;&nbsp; Yieh Corp.",
-   "olaylar": [
-    "primetals technologies|hat|Soguk hadde|Modernizasyon",
-    "primetals|hat|Soguk hadde|Modernizasyon"
-   ],
-   "rezerv": true,
-   "tarih": "2026-08-12",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "Primetals",
-   "tutar": "",
-   "ulke": "",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNalhvamNnNE1IYTlnbFBWLVEtZXNmNWhmeEFuaFN3Qk1oOExtSmN6NWYxSURMdm9kcWNJNTFlcDBvN21FUUFQbFJSOEM2ZzA1NE1OTWZDekJWYm5UNklGaWc1QmRvOEhyS0lBbDdQUFN6WTZYQnQ5RVdEai1ZV1lWZVByZVBBWmkzblg3eTFiYXN0R3FIVF9EUHdqQndWSlMzcmg2TU9KNkJIRG5UNU9oc1lsREN4eE9fZTMwS0dxLUhPT3U1YXpYQ1hmN3VjZw?oc=5"
   },
   {
    "anahtar": "88fbd0c6b1f6aac5",
@@ -4212,14 +4198,6 @@
    "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPa2NMZVhHZGxOTTRDYUltajd6QW4tRVZBNlpid1BlUWNxVkx5YjlRaWNZQkJfS1dVNURTSEF3OS1xWDRvMEZ1QWZtcjN6bVRrVzQ1UUdhM00tY0dtODY1T0FBQUtVWktkZ25Ra1VmLVVmbUVtTGtoWTM2ZUJTaE1hdzdCV0pfX1drSC1XazlST3lEcmM1Z2N5d2FZWjhXRVFKamdaYTFwSVJCZmpYTGpqN3p6Y3ZObS1oaTRuTmhudmRLUUVMbm4wYUIyYWxzY1E2SmxzbnlqR0dPZE9aMTBQbkw4Q2ZTN3FiT0p2cU5qOWVVR1FaeEpNQzltZw?oc=5"
   },
   {
-   "anahtar": "tech:28459cdd0c32da5c",
-   "baslik": "Primetals Technologies to modernize KG Steel's Dangjin cold mill with AI-driven automation upgrade",
-   "hat": "Soguk hadde",
-   "kaynak": "Yieh Corp.",
-   "tarih": "2026-08-12",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNalhvamNnNE1IYTlnbFBWLVEtZXNmNWhmeEFuaFN3Qk1oOExtSmN6NWYxSURMdm9kcWNJNTFlcDBvN21FUUFQbFJSOEM2ZzA1NE1OTWZDekJWYm5UNklGaWc1QmRvOEhyS0lBbDdQUFN6WTZYQnQ5RVdEai1ZV1lWZVByZVBBWmkzblg3eTFiYXN0R3FIVF9EUHdqQndWSlMzcmg2TU9KNkJIRG5UNU9oc1lsREN4eE9fZTMwS0dxLUhPT3U1YXpYQ1hmN3VjZw?oc=5"
-  },
-  {
    "anahtar": "tech:1550467e340cb8e0",
    "baslik": "[SMM Analysis] Cold-Rolled and HRC Profits Continue to Shrink: Can the Peak Season Bring a Breakthrough?",
    "hat": "Soguk hadde",
@@ -4264,20 +4242,24 @@
   "tech:28459cdd0c32da5c": "2026-08-12"
  },
  "tercih": {
-  "asama:Ilk urun": 0,
+  "asama:Ilk urun": 2,
   "asama:Modernizasyon": 0,
   "asama:Sozlesme": 1,
-  "bolum:haber": 1,
+  "bolum:haber": 3,
   "bolum:piyasa": 1,
+  "bolum:teknoloji": -1,
+  "hat:Asit rejenerasyonu (ARP)": 1,
   "hat:Dilme / boy kesme / SSC": 1,
-  "hat:Galvaniz hatti (CGL)": 0,
-  "kat:Hat": 1,
-  "kaynak:Andritz Metals": 1,
+  "hat:Galvaniz hatti (CGL)": 1,
+  "kat:Hat": 3,
+  "kaynak:Andritz Metals": 2,
   "kaynak:Bing News": 1,
+  "kaynak:Clecim": 1,
   "kaynak:Kallanish": 1,
   "kaynak:Rediff MoneyWiz": -1,
+  "konu:Primetals Technologies to modernize KG Steel's Dangjin cold mill with AI-driven automation upgrade": -1,
   "konu:fiyat": 1,
-  "ulke:ABD": 1,
+  "ulke:ABD": 2,
   "ulke:Hindistan": -1,
   "urun:soguk hadde": 1
  },

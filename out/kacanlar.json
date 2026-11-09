@@ -1,10 +1,10 @@
 {
- "donem": "2026-W45",
+ "donem": "2026-W46",
  "pencere": [
-  "2026-10-17",
-  "2026-11-07"
+  "2026-10-19",
+  "2026-11-09"
  ],
- "uretim": "2026-11-07 10:14 UTC",
+ "uretim": "2026-11-09 11:39 UTC",
  "kaynaklar": {
   "steeltimesint": {
    "publisher": "Steel Times International",
@@ -38,6 +38,11 @@
  ],
  "dogrulanamayan": [],
  "acildi_elendi": [
+  {
+   "baslik": "Xinyu inaugurates electrical steel production facility",
+   "url": "https://www.steeltimesint.com/news/xinyu-inaugurates-electrical-steel-production-facility",
+   "sebep": "pencere disi (2026-09-10)"
+  },
   {
    "baslik": "Primetals secures PLTCM automation order",
    "url": "https://www.steeltimesint.com/news/primetals-secures-pltcm-automation-order",
@@ -84,7 +89,7 @@
    "sebep": "gercek baslikta kapsam_disi"
   }
  ],
- "kapiyi_gecen": 10,
+ "kapiyi_gecen": 11,
  "sitemap_adayi": 800,
- "elenen": 790
+ "elenen": 789
 }
