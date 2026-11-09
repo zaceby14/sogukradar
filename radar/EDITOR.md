@@ -372,6 +372,16 @@ doğrulamalı özetler; yoksa kural sırası. Gönderilen madde `piyasa_seen`.
 (bölüm, hat, aşama, ülke, kaynak, ürün, konu) dağıtır (`state.tercih`, ±10). Sıralamaya
 en fazla ±12 puan bonus; kapsamı değiştiremez. Tercih özeti Gemini'ye de verilir.
 
+## 4o. Zamanlama ve bağımsızlık (2026-11-09)
+
+Bülten **Pazartesi 07:30 TSİ**'de gider. `otomatik.yml` gece 03:07'de (yedekler 04:17, 05:41)
+başlar, tarar ve yazar, posta adımından önce 07:30'u bekler (GitHub zamanlayıcısı saatlerce
+gecikebiliyor). Geç yedekler: Pzt 12:23/16:37, Salı 08:19/14:47; ayrıca `gunluk.yml`
+Pzt 10:00–Çarşamba arası bülten gitmediyse `otomatik.yml`'yi kendisi başlatır. Aynı ISO
+haftasında tek posta (`gonderilen_donemler`). Kırmızı birim testi tarama/postayı durdurmaz,
+sahibine uyarı yollar. Sistem Claude'a BAĞLI DEĞİLDİR: Claude rutinleri kaldırıldı; yalnız
+GitHub Actions + Gemini (+ Gmail SMTP, Google Form) kullanılır.
+
 ## 4e. Otonomi: sistem sensiz çalışır
 
 ```

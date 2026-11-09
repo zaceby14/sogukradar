@@ -29,14 +29,21 @@ name: SogukRadar otomatik bulten
 # (03:17'lik gunluk tarama hep ~10:00'da basladi; 05:41'lik bulten 07:44'te
 # hala baslamamisti). Pazartesi dort, Sali iki deneme var; ilk calisan gonderir,
 # digerleri "bu ISO haftasinda gonderildi" gorup atlar - cift posta GITMEZ.
+# GONDERIM SAATI: PAZARTESI 07:30 TSI (2026-11-09, kullanici karari).
+# GitHub zamanlayicisi saatlerce gecikebiliyor; bu yuzden is gece baslar,
+# taramayi ve yazimi bitirir, posta adimindan once 07:30 TSI'yi BEKLER.
+# Gece kosusu kacarsa 04:17 ve 05:41 yedekleri ayni sekilde 07:30'u bekler.
+# 07:30'dan sonra baslayan (gecikmis/yedek) kosu beklemeden gonderir.
+# Ayni ISO haftasinda tek posta: ikinci kosu "bu hafta gonderildi" gorup atlar.
 on:
   schedule:
-    - cron: "11 2 * * 1"          # Pazartesi 05:11 TSI
-    - cron: "41 5 * * 1"          # Pazartesi 08:41 TSI
-    - cron: "23 9 * * 1"          # Pazartesi 12:23 TSI (yedek)
-    - cron: "37 13 * * 1"         # Pazartesi 16:37 TSI (yedek)
-    - cron: "19 5 * * 2"          # Sali 08:19 TSI (yedek)
-    - cron: "47 11 * * 2"         # Sali 14:47 TSI (yedek)
+    - cron: "7 0 * * 1"           # Pazartesi 03:07 TSI  (ana kosu, 07:30'u bekler)
+    - cron: "17 1 * * 1"          # Pazartesi 04:17 TSI  (yedek, 07:30'u bekler)
+    - cron: "41 2 * * 1"          # Pazartesi 05:41 TSI  (yedek, 07:30'u bekler)
+    - cron: "23 9 * * 1"          # Pazartesi 12:23 TSI  (gec yedek)
+    - cron: "37 13 * * 1"         # Pazartesi 16:37 TSI  (gec yedek)
+    - cron: "19 5 * * 2"          # Sali 08:19 TSI       (gec yedek)
+    - cron: "47 11 * * 2"         # Sali 14:47 TSI       (gec yedek)
   # BEKCI AJAN YOLU (2026-11-09): out/BASLAT dosyasinin main'e push edilmesi
   # bulteni GERCEK modda baslatir (GitHub API araci olmayan ajan icin). Bu hafta
   # zaten gonderildiyse is akisi kendisi atlar.
@@ -65,7 +72,7 @@ concurrency:
 jobs:
   bulten:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 340
     env:
       DENEME: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.deneme != 'false' }}
       BUGUN: ${{ github.event.inputs.today }}
@@ -145,7 +152,7 @@ jobs:
           PY
           # Konu satiri her postada FARKLI (2026-11-03): ayni konu Gmail'de eski
           # bultenlerle tek konusmada toplaniyor, yeni posta gorunmuyordu.
-          echo "etiket=$(TZ=Europe/Istanbul date +'%d.%m.%Y %H:%M')" >> $GITHUB_OUTPUT
+          echo "etiket=$(TZ=Europe/Istanbul date +'%d.%m.%Y')" >> $GITHUB_OUTPUT
 
       - name: Karar ozeti
         if: always()
@@ -159,6 +166,21 @@ jobs:
             cat out/karar.json 2>/dev/null || echo '(karar.json yok)'
             echo '```'
           } >> $GITHUB_STEP_SUMMARY
+
+      - name: Gonderim saatini bekle (Pazartesi 07:30 TSI)
+        if: steps.karar.outputs.gonder == 'true' && github.event_name == 'schedule'
+        run: |
+          python3 - <<'PY'
+          import datetime as dt, time
+          simdi = dt.datetime.utcnow() + dt.timedelta(hours=3)            # TSI
+          hedef = simdi.replace(hour=7, minute=30, second=0, microsecond=0)
+          if simdi.weekday() == 0 and simdi < hedef:
+              sn = (hedef - simdi).total_seconds()
+              print("07:30 TSI bekleniyor: %d dakika" % (sn // 60), flush=True)
+              time.sleep(sn)
+          else:
+              print("bekleme yok (saat %s TSI)" % simdi.strftime("%a %H:%M"))
+          PY
 
       - name: Sirlar tanimli mi
         if: steps.karar.outputs.gonder == 'true'
