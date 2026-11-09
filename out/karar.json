@@ -1,46 +1,38 @@
 {
- "donem": "2026-W45",
- "gonder": false,
- "atla": true,
+ "donem": "2026-W46",
+ "gonder": true,
+ "atla": false,
  "son_gonderim": "2026-11-02",
- "deneme": true,
- "satir": 5,
+ "deneme": false,
+ "satir": 6,
  "nedenler": [],
  "yazar": {
   "saglayici": "gemini",
   "llm_hatalar": [],
   "reddedilen_cumle": [
    {
-    "baslik": "Kıraç Galvaniz, MSB Askeri Fabrikalar Genel Müdürlüğü’nün Onaylı Tedarikçisi Old",
-    "neden": "kaynakta olmayan ozel ad: Milli"
+    "baslik": "(piyasa) EU electrical steel safeguards threaten transformer makers, ",
+    "neden": "kaynakta olmayan ozel ad: Parlamentosu"
    },
    {
-    "baslik": "OYAK is planning new investments in the production of electrical steel in Rom...",
-    "neden": "kaynakta olmayan ulke: Romanya"
-   },
-   {
-    "baslik": "(piyasa) EU backs duties on cold-rolled steel from five countries",
-    "neden": "kaynakta olmayan ozel ad: Birliği"
+    "baslik": "(piyasa) Korea recommends duties on Chinese galvanized steel",
+    "neden": "kaynakta olmayan ozel ad: Ticaret"
    }
   ],
-  "cumle_llm": 3,
-  "cumle_kuralsal": 3,
-  "supheli_cikarilan": 1
+  "cumle_llm": 2,
+  "cumle_kuralsal": 4,
+  "supheli_cikarilan": 0
  },
  "elenen_satirlar": [],
- "baglanti_dogrulanamayan": [
-  {
-   "baslik": "OYAK is planning new investments in the production of electrical steel in Rom...",
-   "neden": "HTTP 403"
-  }
- ],
- "email": "/home/runner/work/sogukradar/sogukradar/out/deneme_email.html",
- "uretildi": "2026-11-03T10:45:50.817389Z",
+ "baglanti_dogrulanamayan": [],
+ "email": "/home/runner/work/sogukradar/sogukradar/out/email.html",
+ "uretildi": "2026-11-09T08:08:10.229348Z",
  "basliklar": [
+  "Nucor Begins Production on Primetals Technologies-Supplied CGL",
+  "ANDRITZ commissions second acid regeneration plant for JSW Steel Coated Products",
+  "GSM Tanzania orders Danieli furnace for longs mill",
+  "$1.9 billion US Steel plant to supply Arkansas furnaces",
   "Kıraç Galvaniz, MSB Askeri Fabrikalar Genel Müdürlüğü’nün Onaylı Tedarikçisi Oldu",
-  "Italy's ABS Opens Special Steel Service Center in Sweden",
-  "POSCO, Otomotiv Çeliği İçin 359 Milyon Dolarlık Yeni Galvanizleme Hattı Kuruyor",
-  "OYAK is planning new investments in the production of electrical steel in Rom...",
-  "Erdemir Plans Romania Electrical Steel Capacity Expansion"
+  "Rotherham steel firm goes greener with £160K investment in panels and batteries"
  ]
 }
