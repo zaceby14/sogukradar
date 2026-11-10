@@ -24,32 +24,7 @@
    "olaylar": [
     "primetals@produce|hat|Galvaniz hatti (CGL)|Ilk urun"
    ],
-   "puan": 70.8
-  },
-  {
-   "tarih": "2026-11-04",
-   "firma": "Hindustan Zinc",
-   "ulke": "",
-   "hat": "Galvaniz hatti (CGL)",
-   "asama": "Sozlesme",
-   "tedarikci": "",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "Hindustan Zinc Expands Value-Added Zinc Product Offerings with Next-Gen Alloys ‘VedAZ’ & ‘VedAyush’ for the Galvanizing Industry",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgtek_kaplama",
-   "url": "https://www.republicworld.com/initiatives/hindustan-zinc-expands-value-added-zinc-product-offerings-with-next-gen-alloys-vedaz-and-vedayush-for-the-galvanizing-industry-2026-11-04-140415",
-   "tarih_kaynagi": "rss",
-   "lead": "Hindustan Zinc has introduced VedAZ and VedAyush, two advanced zinc alloys designed to improve galvanising efficiency, coating quality and corrosion resistance across industries.",
-   "eksik": [
-    "ulke"
-   ],
-   "anahtar": "81220ff3171fedb4",
-   "kategori": "Hat",
-   "olaylar": [
-    "hindustan zinc|hat|Galvaniz hatti (CGL)|Sozlesme"
-   ],
-   "puan": 66.0
+   "puan": 70.4
   },
   {
    "anahtar": "90e30cb4756c40e2",
@@ -105,31 +80,31 @@
    "url": "https://news.metal.com/en/newscontent/104134675-italys-abs-opens-special-steel-service-center-in-sweden"
   },
   {
-   "anahtar": "a9d0c1485ce1a321",
+   "anahtar": "16c1c1e154dad064",
    "asama": "Belirsiz",
-   "baslik": "Tata Steel Colors launches Colorcoat pre-painted steel in India",
+   "baslik": "Tata Steel launches pre-painted steel Colorcoat in India",
    "eksik": [
     "asama"
    ],
-   "firma": "Tata Steel Colors",
+   "firma": "Tata Steel",
    "hat": "Boyama hatti (CCL)",
    "kapasite": "",
    "kategori": "Hat",
-   "kaynak": "Manufacturing Today India",
-   "kaynak_id": "gq_hat06",
-   "lead": "Tata Steel Colors launches Colorcoat pre-painted steel in India &nbsp;&nbsp; Manufacturing Today India",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgtek_kaplama",
+   "lead": "https://www.thehindubusinessline.com/companies/tata-steel-launches-pre-painted-steel-colorcoat-in-india/article71567926.ece Copy Tata Steel Colors has launched its ...",
    "olaylar": [
-    "tata steel colors|fu|Hindistan|Boyama hatti (CCL)",
-    "tata steel colors|hat|Boyama hatti (CCL)|Belirsiz",
-    "tata steel colors|ulke|Hindistan|Belirsiz"
+    "tata steel|fu|Hindistan|Boyama hatti (CCL)",
+    "tata steel|hat|Boyama hatti (CCL)|Belirsiz",
+    "tata steel|ulke|Hindistan|Belirsiz"
    ],
    "rezerv": true,
-   "tarih": "2026-10-12",
+   "tarih": "2026-10-16",
    "tarih_kaynagi": "rss",
    "tedarikci": "",
    "tutar": "",
    "ulke": "Hindistan",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQNnFIZU9NZWN0ejJBbWllanlhYXpYaGI0TExkQl9waTVXbFNEMGNUOWk1dnhFa1d0LUtCTlRxd1U4M3VkNVBHMVpuRGg3UzJXWEczeGlNUFd2OE5ES0lNUXdHQk51d2sxdmxkeWlWSkJNZkZGOUN4R2NaaHFPYVU?oc=5"
+   "url": "https://www.thehindubusinessline.com/companies/tata-steel-launches-pre-painted-steel-colorcoat-in-india/article71567926.ece"
   },
   {
    "anahtar": "aac00b6a794a93b5",
@@ -155,19 +130,45 @@
    "tutar": "",
    "ulke": "",
    "url": "https://www.ims-gmbh.de/en/2026/10/06/ims-expands-its-portfolio-with-force-transducers-forprecise-force-measurement-under-demandingconditions-in-hot-and-cold-rolling-mills/"
+  },
+  {
+   "anahtar": "7fd7261209402c52",
+   "asama": "Ilk urun",
+   "baslik": "Gopani Industries Successfully Rolls First Prime Coil from New Cold Rolling Mill",
+   "eksik": [],
+   "firma": "Gopani Industries Successfully",
+   "hat": "Soguk hadde",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Tube & Pipe India",
+   "kaynak_id": "gq_hat02",
+   "lead": "Gopani Industries Successfully Rolls First Prime Coil from New Cold Rolling Mill &nbsp;&nbsp; Tube & Pipe India",
+   "olaylar": [
+    "*|ulke-hat|Hindistan|Soguk hadde|Ilk urun",
+    "gopani industries successfully|fu|Hindistan|Soguk hadde",
+    "gopani industries successfully|hat|Soguk hadde|Ilk urun",
+    "gopani industries successfully|ulke|Hindistan|Ilk urun"
+   ],
+   "rezerv": true,
+   "tarih": "2026-10-05",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Hindistan",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zb1JoVG1BQ1FSRlp3Qk02Zl9CaTZ3ME9XLTktbW1rcXhBR0pkMDhLOTZfT0V5LWdwcXZScW5rYzFpS1FjVXhhWU53UzNXeHozRTBpWG12T3R0XzdiZ1BIN1hVeVo2VnV4?oc=5"
   }
  ],
  "stats": {
   "kaynak": 315,
-  "erisilemeyen": 4,
-  "ham": 3941,
+  "erisilemeyen": 5,
+  "ham": 3951,
   "on_eleme_gecti": 443,
-  "makale_acildi": 225,
+  "makale_acildi": 226,
   "tarihsiz_elendi": 105,
-  "pencere_disi": 270,
-  "kapsam_disi": 3492,
-  "tekrar": 72,
-  "kabul": 2,
+  "pencere_disi": 273,
+  "kapsam_disi": 3506,
+  "tekrar": 66,
+  "kabul": 1,
   "gnews_tarih": 0
  },
  "unreachable": [
@@ -182,6 +183,10 @@
   [
    "Steel Radar",
    "HTTP 403"
+  ],
+  [
+   "SteelGuru",
+   "URLError: <urlopen error timed out>"
   ],
   [
    "BigMint (SteelMint)",
@@ -505,7 +510,7 @@
   "bgtek_jc": "arama",
   "bgtek_danieli": "arama"
  },
- "today": "2026-11-09",
+ "today": "2026-11-10",
  "host_saglik": {
   "news.google.com": {
    "istek": 123,
@@ -525,12 +530,12 @@
   "new.abb.com": {
    "istek": 3,
    "hiz_siniri": 2,
-   "sogutmada": true
+   "sogutmada": false
   },
   "www.cognex.com": {
    "istek": 2,
    "hiz_siniri": 2,
-   "sogutmada": true
+   "sogutmada": false
   }
  },
  "tech_pool": [
@@ -632,10 +637,25 @@
   }
  ],
  "kaynak_katki": {
-  "Google News": 1,
-  "Bing News": 1
+  "Google News": 1
  },
  "piyasa_pool": [
+  {
+   "anahtar": "piyasa:192e476039a3dc9a",
+   "tarih": "2026-11-10",
+   "baslik": "Vietnam to launch cold-rolled stainless steel imports probe",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/vietnam-launches-probe-into-cold-rolled-stainless-steel-imports-1126/",
+   "kaynak": "Kallanish",
+   "lead": "Vietnam is preparing to launch an anti-dumping investigation into cold-rolled stainless steel imports from China, Indonesia..."
+  },
+  {
+   "anahtar": "piyasa:bf38469a57deb8a9",
+   "tarih": "2026-11-10",
+   "baslik": "India: Coated flat steel prices drop INR 100-400/t w-o-w on weak demand and slow trading",
+   "url": "https://www.bigmint.co/insights/detail/india-coated-flat-steel-prices-drop-inr-100-400-t-w-o-w-on-weak-demand-and-slow-trading-806744",
+   "kaynak": "Bing News",
+   "lead": "India: Coated flat steel prices drop INR 100-400/t w-o-w on weak demand and slow trading ..."
+  },
   {
    "anahtar": "piyasa:b07c1015e851e77d",
    "tarih": "2026-11-09",
@@ -677,6 +697,14 @@
    "lead": "Hoa Phat exports 8,000 tons of galvanized steel to Japan for the first time &nbsp;&nbsp; Yieh Corp."
   },
   {
+   "anahtar": "piyasa:380785546277695a",
+   "tarih": "2026-11-02",
+   "baslik": "Hoa Phat exports 8,000 tons of galvanized steel sheets to Japan, expanding its international market.",
+   "url": "https://www.vietnam.vn/en/hoa-phat-xuat-khau-8-000-tan-ton-ma-sang-nhat-ban-mo-rong-thi-truong-quoc-te",
+   "kaynak": "Bing News",
+   "lead": "The shipment meets the Japanese JIS G 3302 standard, with strict requirements regarding specifications, a smooth plating surface, and environmentally friendly chromium-3+ or chromium-free surface ..."
+  },
+  {
    "anahtar": "piyasa:3f62c43fbeca3704",
    "tarih": "2026-10-30",
    "baslik": "Top Players in the Galvanized Steel Silo Market: Fact MR Forecasts US$2.85 Billion by 2036",
@@ -701,14 +729,6 @@
    "lead": "Tin Plate Price Trend, Index, Chart and Forecast 2026 &nbsp;&nbsp; IMARC Group"
   },
   {
-   "anahtar": "piyasa:df2e7719dead4f70",
-   "tarih": "2026-10-27",
-   "baslik": "US tin plate exports down 10.9 percent in August 2026 from July",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/us-tin-plate-exports-down-109-percent-in-august-2026-from-july-1486620.htm",
-   "kaynak": "Bing News",
-   "lead": "According to export data from the US Department of Commerce, US exports of tin plate totaled 2,804 mt in August this year, down 10.9 percent from July and down 24.0 percent from August 2025. By value, ..."
-  },
-  {
    "anahtar": "piyasa:cdc612aac34be091",
    "tarih": "2026-10-23",
    "baslik": "[SMM Analysis] Indian flat steel demand supports sales as coal costs squeeze margins",
@@ -726,14 +746,14 @@
   }
  ],
  "window": [
-  "2026-10-19",
-  "2026-11-09"
+  "2026-10-20",
+  "2026-11-10"
  ],
  "bulunan_kullanilan": 2,
- "bulunan_havuz": 2,
- "rezerv_kullanilan": 2,
- "rezerv_havuz": 62,
+ "bulunan_havuz": 3,
+ "rezerv_kullanilan": 3,
+ "rezerv_havuz": 63,
  "period": "2026-W46",
- "generated": "2026-11-09 11:39 UTC",
+ "generated": "2026-11-10 11:26 UTC",
  "version": "3.0.0"
 }

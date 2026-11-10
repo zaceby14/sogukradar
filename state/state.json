@@ -131,31 +131,6 @@
    "tutar": "",
    "ulke": "",
    "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/fives-revamps-csn-lusosider-galvanizing-line-1118/"
-  },
-  {
-   "anahtar": "3705534b48675072",
-   "asama": "Ilk urun",
-   "baslik": "Italy's ABS Opens Special Steel Service Center in Sweden",
-   "eksik": [],
-   "firma": "ABS",
-   "hat": "Dilme / boy kesme / SSC",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "SMM (Shanghai Metals)",
-   "kaynak_id": "smm",
-   "olaylar": [
-    "*|ulke-hat|Italya|Dilme / boy kesme / SSC|Ilk urun",
-    "abs|fu|Italya|Dilme / boy kesme / SSC",
-    "abs|hat|Dilme / boy kesme / SSC|Ilk urun",
-    "abs|ulke|Italya|Ilk urun"
-   ],
-   "puan": 47.0,
-   "tarih": "2026-09-25",
-   "tarih_kaynagi": "json-ld",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "Italya",
-   "url": "https://news.metal.com/en/newscontent/104134675-italys-abs-opens-special-steel-service-center-in-sweden"
   }
  ],
  "events": {
@@ -2195,9 +2170,35 @@
     "tekrar": 76
    },
    "uretim": "2026-11-09 23:29 UTC"
+  },
+  {
+   "donem": "2026-W46",
+   "satir": 6,
+   "stats": {
+    "erisilemeyen": 5,
+    "gnews_tarih": 0,
+    "ham": 3951,
+    "kabul": 1,
+    "kapsam_disi": 3506,
+    "kaynak": 315,
+    "makale_acildi": 226,
+    "on_eleme_gecti": 443,
+    "pencere_disi": 273,
+    "tarihsiz_elendi": 105,
+    "tekrar": 66
+   },
+   "uretim": "2026-11-10 11:26 UTC"
   }
  ],
  "piyasa_rezerv": [
+  {
+   "anahtar": "piyasa:192e476039a3dc9a",
+   "baslik": "Vietnam to launch cold-rolled stainless steel imports probe",
+   "kaynak": "Kallanish",
+   "lead": "Vietnam is preparing to launch an anti-dumping investigation into cold-rolled stainless steel imports from China, Indonesia...",
+   "tarih": "2026-11-10",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/vietnam-launches-probe-into-cold-rolled-stainless-steel-imports-1126/"
+  },
   {
    "anahtar": "piyasa:c63a7f950e471960",
    "baslik": "AI Is Queued Behind an Electrical Steel Transformer Shortage",
