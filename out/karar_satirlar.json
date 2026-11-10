@@ -28,6 +28,33 @@
    "puan": 70.4
   },
   {
+   "tarih": "2026-11-09",
+   "firma": "Tata Steel Ijmuiden",
+   "ulke": "",
+   "hat": "Tandem soguk hadde (TCM)",
+   "asama": "Belirsiz",
+   "tedarikci": "SMS group",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "Man-less entry section and centralized control of the tandem cold mill at Tata Steel Ijmuiden",
+   "kaynak": "SMS group",
+   "kaynak_id": "gs_sms",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPMmZ5bFVjWDc2RnFZYnVSQmN1MXhQQ3hyVnhqRUpKR18zOS03OGpMTHdNajlMQTFUekUxM3ZSb3RybFFtTnQ0WmdNeExnS3Y1RVY3ZVAwb3hEb3d3RExMQXNzSXJBdS1nRmxJTXRSRGZPbjBOQmRiMkJhajc2Nl9CbkR3Um9LVG5UUjZNY3Z4dzJ5WEl6RWt0cmxyd00wVjJBQmE4aXZaenFTcDk4MEZ6MUE0ZHJCZEsxa3M1blZVWGNzQm00dmdqLTlVQnQ5Ty05RllFVE9nM2dnNy16Z0NoLQ?oc=5",
+   "tarih_kaynagi": "rss",
+   "lead": "Man-less entry section and centralized control of the tandem cold mill at Tata Steel Ijmuiden &nbsp;&nbsp; SMS group",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "anahtar": "f4884c93e0340d67",
+   "kategori": "Hat",
+   "olaylar": [
+    "sms group|hat|Tandem soguk hadde (TCM)|Belirsiz",
+    "tata steel ijmuiden|hat|Tandem soguk hadde (TCM)|Belirsiz"
+   ],
+   "puan": 44.6
+  },
+  {
    "anahtar": "16c1c1e154dad064",
    "asama": "Belirsiz",
    "baslik": "Tata Steel launches pre-painted steel Colorcoat in India",
@@ -104,40 +131,15 @@
    "tutar": "",
    "ulke": "Hindistan",
    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zb1JoVG1BQ1FSRlp3Qk02Zl9CaTZ3ME9XLTktbW1rcXhBR0pkMDhLOTZfT0V5LWdwcXZScW5rYzFpS1FjVXhhWU53UzNXeHozRTBpWG12T3R0XzdiZ1BIN1hVeVo2VnV4?oc=5"
-  },
-  {
-   "anahtar": "e82b221fc2986888",
-   "asama": "Teknoloji",
-   "baslik": "Turkey's Isdemir develops high-quality steel production for defense industry and electrical steel",
-   "eksik": [],
-   "firma": "Isdemir",
-   "hat": "Elektrik celigi hatti",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "Steel Orbis",
-   "kaynak_id": "gq_hat08",
-   "lead": "Turkey's Isdemir develops high-quality steel production for defense industry and electrical steel &nbsp;&nbsp; Steel Orbis",
-   "olaylar": [
-    "isdemir|fu|Turkiye|Elektrik celigi hatti",
-    "isdemir|hat|Elektrik celigi hatti|Teknoloji",
-    "isdemir|ulke|Turkiye|Teknoloji"
-   ],
-   "rezerv": true,
-   "tarih": "2026-10-05",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "Turkiye",
-   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMW13SGRFangyUGg2dkFBMDJ0aUFSSVljX0gxbXFZMng2OWRYY1hqLThqYVNtaDJzMUlvanBROE02MXZMTktNNG4zU3AzdHZzVUlxRVpXUlZRVzQ0eUhKamhRU2dyMHh4RkdDcGEtYXMzRmQ1eEE5aV9GWTJkZmhCeTZCRzE3ZG5VZS1pdEZnaXBGNzZ1WGl1WUxTeUNIVEY2UzJTN1MtZ0RvbnFNc0NzNUJtWl9YX0J6Y0FMQlh1cTUzRzdMZ3dNbE9zQXU2a1NTVGVUeEwybnR1M2VQcmtaaEFQb2RhWTVSTjdxMXdGRQ?oc=5"
   }
  ],
  "tech": [
   {
-   "anahtar": "tech:e82b221fc2986888",
-   "tarih": "2026-10-05",
-   "konu": "Turkey's Isdemir develops high-quality steel production for defense industry and electrical steel",
-   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMW13SGRFangyUGg2dkFBMDJ0aUFSSVljX0gxbXFZMng2OWRYY1hqLThqYVNtaDJzMUlvanBROE02MXZMTktNNG4zU3AzdHZzVUlxRVpXUlZRVzQ0eUhKamhRU2dyMHh4RkdDcGEtYXMzRmQ1eEE5aV9GWTJkZmhCeTZCRzE3ZG5VZS1pdEZnaXBGNzZ1WGl1WUxTeUNIVEY2UzJTN1MtZ0RvbnFNc0NzNUJtWl9YX0J6Y0FMQlh1cTUzRzdMZ3dNbE9zQXU2a1NTVGVUeEwybnR1M2VQcmtaaEFQb2RhWTVSTjdxMXdGRQ?oc=5",
-   "metin": "İsdemir, savunma sanayisi ihtiyaçlarına ve elektrik çeliği üretimine yönelik yüksek kaliteli özel çelik türlerinin geliştirilmesine odaklanıyor."
+   "anahtar": "tech:f809e9cc4543b4aa",
+   "tarih": "2026-10-14",
+   "konu": "KG Steel pushes to expand AI usage rate at annealing furnace to over 80%",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB1dExHc2VaMEVwUWh5dkt2ZmlNSWFUS1l5eGtjVnRlYWpSTGxKZFpBaEZRY3NaSmV3eGZlZVZhNjYzWnVnYVBVYmtxQTJxR04xQ2dETUNR?oc=5",
+   "metin": "KG Steel, tavlama fırınlarında yapay zekâ kullanım oranını %80'in üzerine çıkarmak için çalışmalar yürütüyor."
   }
  ],
  "piyasa": [
@@ -145,7 +147,7 @@
    "anahtar": "piyasa:192e476039a3dc9a",
    "tarih": "2026-11-10",
    "baslik": "Vietnam to launch cold-rolled stainless steel imports probe",
-   "metin": "Vietnam, Çin ve Endonezya'dan yapılan soğuk haddelenmiş paslanmaz çelik ithalatına yönelik anti-damping soruşturması başlatmaya hazırlanıyor.",
+   "metin": "Vietnam, Çin ve Endonezya menşeli soğuk haddelenmiş paslanmaz çelik ithalatına yönelik anti-damping soruşturması başlatmaya hazırlanıyor.",
    "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/vietnam-launches-probe-into-cold-rolled-stainless-steel-imports-1126/",
    "kaynak": "Kallanish",
    "konu": "ticaret",
@@ -155,21 +157,11 @@
    "anahtar": "piyasa:c8d598485ca4f420",
    "tarih": "2026-11-04",
    "baslik": "India HRC and CRC prices rise w-o-w; festive slowdown limits further gains",
-   "metin": "Hindistan'da sıcak ve soğuk haddelenmiş rulo fiyatları haftalık bazda yükselirken, tatil dönemi nedeniyle talepte yaşanan yavaşlama daha fazla artışı sınırladı.",
+   "metin": "Hindistan'da sıcak ve soğuk rulo sac fiyatları haftalık bazda artış gösterdi.",
    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNU1JhT1o1ZTBKOUlJaG55b2xBUGM5cEp4aUU1aGc3cHdHcXVVMmJVSVNZRHNBeFR2Rm40bjhHemZaZS1JY1pWWHpOWTU5MFpWUUZkd0F5Ujd1VFd6b0U3Z3FXNDJPTFQ3cXpLVHItbW9JM096aGV1dUVITWlfRWV0UWp3d093N1p1OXdjaXVITlFELUktajVhZTJ4SXQwa2EwSGFKcVFub2MwOUVNQ2FqeEptYTQ4c0lUME1V?oc=5",
    "kaynak": "BigMint",
    "konu": "fiyat",
    "urun": "soguk hadde"
-  },
-  {
-   "anahtar": "piyasa:c63a7f950e471960",
-   "tarih": "2026-11-08",
-   "baslik": "AI Is Queued Behind an Electrical Steel Transformer Shortage",
-   "metin": "Yapay zeka sektöründeki büyüme, elektrik çeliği trafo tedarikinde yaşanan küresel darboğaz nedeniyle gecikmelerle karşı karşıya kalıyor.",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1TQUplTC1uLWNhV20yUXlIaEtpVWNJWFp4alJ4bEZiMGRncVJocWdDZWgzYm1rbHZfNjNSUGdUOUdXMHlJSGp1b252eEZfeGRlRXRxNUVZRUVVZFlhM0UxUnU5dlRlMU5QR2RGNmRlN0hLRjM3Ulpwczd1QQ?oc=5",
-   "kaynak": "Intelligent Living",
-   "konu": "talep",
-   "urun": "elektrik celigi"
   }
  ]
 }

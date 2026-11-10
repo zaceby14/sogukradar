@@ -1,6 +1,33 @@
 {
  "bulunan": [
   {
+   "anahtar": "f4884c93e0340d67",
+   "asama": "Belirsiz",
+   "baslik": "Man-less entry section and centralized control of the tandem cold mill at Tata Steel Ijmuiden",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "firma": "Tata Steel Ijmuiden",
+   "hat": "Tandem soguk hadde (TCM)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "SMS group",
+   "kaynak_id": "gs_sms",
+   "lead": "Man-less entry section and centralized control of the tandem cold mill at Tata Steel Ijmuiden &nbsp;&nbsp; SMS group",
+   "olaylar": [
+    "sms group|hat|Tandem soguk hadde (TCM)|Belirsiz",
+    "tata steel ijmuiden|hat|Tandem soguk hadde (TCM)|Belirsiz"
+   ],
+   "puan": 44.6,
+   "tarih": "2026-11-09",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "SMS group",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPMmZ5bFVjWDc2RnFZYnVSQmN1MXhQQ3hyVnhqRUpKR18zOS03OGpMTHdNajlMQTFUekUxM3ZSb3RybFFtTnQ0WmdNeExnS3Y1RVY3ZVAwb3hEb3d3RExMQXNzSXJBdS1nRmxJTXRSRGZPbjBOQmRiMkJhajc2Nl9CbkR3Um9LVG5UUjZNY3Z4dzJ5WEl6RWt0cmxyd00wVjJBQmE4aXZaenFTcDk4MEZ6MUE0ZHJCZEsxa3M1blZVWGNzQm00dmdqLTlVQnQ5Ty05RllFVE9nM2dnNy16Z0NoLQ?oc=5"
+  },
+  {
    "anahtar": "45ecc037d8bbc346",
    "asama": "Ilk urun",
    "baslik": "[Nucor, Primetals Produce First Prime Coil on New Galvanizing Line in South Carolina]",
@@ -2206,6 +2233,24 @@
     "tekrar": 68
    },
    "uretim": "2026-11-10 13:48 UTC"
+  },
+  {
+   "donem": "2026-W46",
+   "satir": 6,
+   "stats": {
+    "erisilemeyen": 4,
+    "gnews_tarih": 0,
+    "ham": 4283,
+    "kabul": 2,
+    "kapsam_disi": 3837,
+    "kaynak": 315,
+    "makale_acildi": 220,
+    "on_eleme_gecti": 447,
+    "pencere_disi": 268,
+    "tarihsiz_elendi": 106,
+    "tekrar": 63
+   },
+   "uretim": "2026-11-10 19:19 UTC"
   }
  ],
  "piyasa_rezerv": [
@@ -3868,6 +3913,33 @@
    "tutar": "INR 1,100 Crore",
    "ulke": "Hindistan",
    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9lRjlxNkRlMlBsdWhkWEJlZFFuZU52ZUt1cHBudV9vNUdTWnZ0M1d1TllxX1hmTmh5amlueDVGSFBVRTA5OTRucEdMYkFCazYxMnZSeGh0VFdyMDJ1U200cE9SZw?oc=5"
+  },
+  {
+   "anahtar": "059372716e9275ec",
+   "asama": "Belirsiz",
+   "baslik": "Ready to roll: our new electrical steel production line in France | Case studies | Media",
+   "eksik": [
+    "asama"
+   ],
+   "firma": "Ready",
+   "hat": "Elektrik celigi hatti",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "ArcelorMittal",
+   "kaynak_id": "arcelormittal",
+   "lead": "Skip To Quicklinks Menu Skip To Page Menu Skip to Search Skip To Main Content Skip to Footer Open/Close main menu Reports and Policies Reports and Policies ArcelorMittal is committed to accurate and transparent corporate governance; our reports, policies and procedures play a key role in this. View Section Overview Financial and regulatory reports Corporate governance Sustainability and climate Country reports Media ",
+   "olaylar": [
+    "ready|fu|Fransa|Elektrik celigi hatti",
+    "ready|hat|Elektrik celigi hatti|Belirsiz",
+    "ready|ulke|Fransa|Belirsiz"
+   ],
+   "rezerv": true,
+   "tarih": "2026-01-06",
+   "tarih_kaynagi": "json-ld",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Fransa",
+   "url": "https://corporate.arcelormittal.com/media/case-studies/ready-to-roll-our-new-electrical-steel-production-line-in-france/"
   },
   {
    "anahtar": "4be92234b4055d9c",

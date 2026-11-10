@@ -5,20 +5,20 @@
 1. **-** (-, 2026-11-06) &mdash; Galvaniz hatti (CGL) / Ilk urun  
    [Nucor, Primetals Produce First Prime Coil on New Galvanizing Line in South Carolina]  
    https://news.google.com/rss/articles/CBMixgFBVV95cUxNQXN0NUEzTHZfWjM0aWNzN3FpdHpsTmkxX2l2R09DQ0VLVTV5RklhME80Y0diZFlEekl5Y2pfN29TNXdBcmF1UmxwdGFUVnpwNGQ2MFF5QXkydFBsRUR4OHBNQWt5Q25xbFQ1NktYZ1ZfZ2E3V0dMWG0wTGlUZnFUOUJ5eFRiMm5RQ0NzdTFWdTNJUFB2RjlkbXJtbmtwamRDdzgzLXBGUGI1YlBvMTgyTG5zeU12cHVqZk9sU3NMMUE4MU1tOXc?oc=5
-2. **-** (-, 2026-11-05) &mdash; Belirsiz / Ilk urun  
+2. **Tata Steel Ijmuiden** (-, 2026-11-09) &mdash; Tandem soguk hadde (TCM) / Belirsiz  
+   Man-less entry section and centralized control of the tandem cold mill at Tata Steel Ijmuiden  
+   https://news.google.com/rss/articles/CBMi4AFBVV95cUxPMmZ5bFVjWDc2RnFZYnVSQmN1MXhQQ3hyVnhqRUpKR18zOS03OGpMTHdNajlMQTFUekUxM3ZSb3RybFFtTnQ0WmdNeExnS3Y1RVY3ZVAwb3hEb3d3RExMQXNzSXJBdS1nRmxJTXRSRGZPbjBOQmRiMkJhajc2Nl9CbkR3Um9LVG5UUjZNY3Z4dzJ5WEl6RWt0cmxyd00wVjJBQmE4aXZaenFTcDk4MEZ6MUE0ZHJCZEsxa3M1blZVWGNzQm00dmdqLTlVQnQ5Ty05RllFVE9nM2dnNy16Z0NoLQ?oc=5
+3. **-** (-, 2026-11-05) &mdash; Belirsiz / Ilk urun  
    【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】  
    https://news.metal.com/en/newscontent/104207357-纽柯在南卡罗来纳州新建50万吨年汽车板镀锌线产出首卷优质卷板
-3. **Tata Steel** (Hindistan, 2026-10-16) &mdash; Boyama hatti (CCL) / Belirsiz  
+4. **Tata Steel** (Hindistan, 2026-10-16) &mdash; Boyama hatti (CCL) / Belirsiz  
    Tata Steel launches pre-painted steel Colorcoat in India  
    https://www.thehindubusinessline.com/companies/tata-steel-launches-pre-painted-steel-colorcoat-in-india/article71567926.ece
-4. **IMS** (-, 2026-10-06) &mdash; Soguk hadde / Sozlesme  
+5. **IMS** (-, 2026-10-06) &mdash; Soguk hadde / Sozlesme  
    IMS expands its portfolio with force transducers for precise force measurement under demanding conditions in hot and cold rolling mills  
    https://www.ims-gmbh.de/en/2026/10/06/ims-expands-its-portfolio-with-force-transducers-forprecise-force-measurement-under-demandingconditions-in-hot-and-cold-rolling-mills/
-5. **Gopani Industries Successfully** (Hindistan, 2026-10-05) &mdash; Soguk hadde / Ilk urun  
+6. **Gopani Industries Successfully** (Hindistan, 2026-10-05) &mdash; Soguk hadde / Ilk urun  
    Gopani Industries Successfully Rolls First Prime Coil from New Cold Rolling Mill  
    https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zb1JoVG1BQ1FSRlp3Qk02Zl9CaTZ3ME9XLTktbW1rcXhBR0pkMDhLOTZfT0V5LWdwcXZScW5rYzFpS1FjVXhhWU53UzNXeHozRTBpWG12T3R0XzdiZ1BIN1hVeVo2VnV4?oc=5
-6. **Isdemir** (Turkiye, 2026-10-05) &mdash; Elektrik celigi hatti / Teknoloji  
-   Turkey's Isdemir develops high-quality steel production for defense industry and electrical steel  
-   https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMW13SGRFangyUGg2dkFBMDJ0aUFSSVljX0gxbXFZMng2OWRYY1hqLThqYVNtaDJzMUlvanBROE02MXZMTktNNG4zU3AzdHZzVUlxRVpXUlZRVzQ0eUhKamhRU2dyMHh4RkdDcGEtYXMzRmQ1eEE5aV9GWTJkZmhCeTZCRzE3ZG5VZS1pdEZnaXBGNzZ1WGl1WUxTeUNIVEY2UzJTN1MtZ0RvbnFNc0NzNUJtWl9YX0J6Y0FMQlh1cTUzRzdMZ3dNbE9zQXU2a1NTVGVUeEwybnR1M2VQcmtaaEFQb2RhWTVSTjdxMXdGRQ?oc=5
 
-> Erisilemeyen kaynaklar: SMS group, Cognex, ArcelorMittal, Steel Radar, BigMint (SteelMint)
+> Erisilemeyen kaynaklar: SMS group, Cognex, Steel Radar, BigMint (SteelMint)

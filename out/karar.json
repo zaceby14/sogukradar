@@ -11,12 +11,16 @@
   "llm_hatalar": [],
   "reddedilen_cumle": [
    {
+    "baslik": "[Nucor, Primetals Produce First Prime Coil on New Galvanizing Line in South Caro",
+    "neden": "kaynakta olmayan ozel ad: Karolina"
+   },
+   {
     "baslik": "【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】",
-    "neden": "kaynakta olmayan sayi: 500"
+    "neden": "kaynakta olmayan ozel ad: Karolina"
    }
   ],
-  "cumle_llm": 5,
-  "cumle_kuralsal": 1,
+  "cumle_llm": 4,
+  "cumle_kuralsal": 2,
   "supheli_cikarilan": 0
  },
  "elenen_satirlar": [
@@ -32,12 +36,12 @@
   }
  ],
  "email": "/home/runner/work/sogukradar/sogukradar/out/email.html",
- "uretildi": "2026-11-10T13:57:49.115527Z",
+ "uretildi": "2026-11-10T19:27:54.097741Z",
  "basliklar": [
   "[Nucor, Primetals Produce First Prime Coil on New Galvanizing Line in South Carolina]",
+  "Man-less entry section and centralized control of the tandem cold mill at Tata Steel Ijmui",
   "Tata Steel launches pre-painted steel Colorcoat in India",
   "IMS expands its portfolio with force transducers for precise force measurement under deman",
-  "Gopani Industries Successfully Rolls First Prime Coil from New Cold Rolling Mill",
-  "Turkey's Isdemir develops high-quality steel production for defense industry and electrica"
+  "Gopani Industries Successfully Rolls First Prime Coil from New Cold Rolling Mill"
  ]
 }

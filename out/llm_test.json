@@ -1,4 +1,4 @@
 {
- "gemini": "tamam (model: gemini-3.8-flash)",
+ "gemini": "gemini gemini-3.8-flash HTTP 0 | gemini-3.8-flash HTTP 503 | gemini-3.8-flash HTTP 0 | gemini-3.7-flash HTTP 503 | gemini-3.7-flash HTTP 503 | gemini-3.7-flash HTTP 0 | toplam sure (900 sn) doldu (model: gemini-3.8-flash)",
  "github": "github yanit okunamadi: Expecting value: line 1 column 1 (char 0) | govde: 'OK\\r\\n'"
 }
