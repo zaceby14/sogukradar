@@ -24,7 +24,7 @@
    "olaylar": [
     "primetals@produce|hat|Galvaniz hatti (CGL)|Ilk urun"
    ],
-   "puan": 70.8
+   "puan": 70.4
   },
   {
    "anahtar": "90e30cb4756c40e2",
@@ -53,31 +53,6 @@
    "tutar": "",
    "ulke": "",
    "url": "https://news.metal.com/en/newscontent/104207357-纽柯在南卡罗来纳州新建50万吨年汽车板镀锌线产出首卷优质卷板"
-  },
-  {
-   "anahtar": "3705534b48675072",
-   "asama": "Ilk urun",
-   "baslik": "Italy's ABS Opens Special Steel Service Center in Sweden",
-   "eksik": [],
-   "firma": "ABS",
-   "hat": "Dilme / boy kesme / SSC",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "SMM (Shanghai Metals)",
-   "kaynak_id": "smm",
-   "olaylar": [
-    "*|ulke-hat|Italya|Dilme / boy kesme / SSC|Ilk urun",
-    "abs|fu|Italya|Dilme / boy kesme / SSC",
-    "abs|hat|Dilme / boy kesme / SSC|Ilk urun",
-    "abs|ulke|Italya|Ilk urun"
-   ],
-   "puan": 47.0,
-   "tarih": "2026-09-25",
-   "tarih_kaynagi": "json-ld",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "Italya",
-   "url": "https://news.metal.com/en/newscontent/104134675-italys-abs-opens-special-steel-service-center-in-sweden"
   },
   {
    "anahtar": "16c1c1e154dad064",
@@ -156,18 +131,43 @@
    "tutar": "",
    "ulke": "Hindistan",
    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zb1JoVG1BQ1FSRlp3Qk02Zl9CaTZ3ME9XLTktbW1rcXhBR0pkMDhLOTZfT0V5LWdwcXZScW5rYzFpS1FjVXhhWU53UzNXeHozRTBpWG12T3R0XzdiZ1BIN1hVeVo2VnV4?oc=5"
+  },
+  {
+   "anahtar": "e82b221fc2986888",
+   "asama": "Teknoloji",
+   "baslik": "Turkey's Isdemir develops high-quality steel production for defense industry and electrical steel",
+   "eksik": [],
+   "firma": "Isdemir",
+   "hat": "Elektrik celigi hatti",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Steel Orbis",
+   "kaynak_id": "gq_hat08",
+   "lead": "Turkey's Isdemir develops high-quality steel production for defense industry and electrical steel &nbsp;&nbsp; Steel Orbis",
+   "olaylar": [
+    "isdemir|fu|Turkiye|Elektrik celigi hatti",
+    "isdemir|hat|Elektrik celigi hatti|Teknoloji",
+    "isdemir|ulke|Turkiye|Teknoloji"
+   ],
+   "rezerv": true,
+   "tarih": "2026-10-05",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Turkiye",
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMW13SGRFangyUGg2dkFBMDJ0aUFSSVljX0gxbXFZMng2OWRYY1hqLThqYVNtaDJzMUlvanBROE02MXZMTktNNG4zU3AzdHZzVUlxRVpXUlZRVzQ0eUhKamhRU2dyMHh4RkdDcGEtYXMzRmQ1eEE5aV9GWTJkZmhCeTZCRzE3ZG5VZS1pdEZnaXBGNzZ1WGl1WUxTeUNIVEY2UzJTN1MtZ0RvbnFNc0NzNUJtWl9YX0J6Y0FMQlh1cTUzRzdMZ3dNbE9zQXU2a1NTVGVUeEwybnR1M2VQcmtaaEFQb2RhWTVSTjdxMXdGRQ?oc=5"
   }
  ],
  "stats": {
   "kaynak": 315,
-  "erisilemeyen": 6,
-  "ham": 3870,
-  "on_eleme_gecti": 452,
+  "erisilemeyen": 5,
+  "ham": 3927,
+  "on_eleme_gecti": 443,
   "makale_acildi": 220,
   "tarihsiz_elendi": 104,
   "pencere_disi": 270,
-  "kapsam_disi": 3415,
-  "tekrar": 76,
+  "kapsam_disi": 3478,
+  "tekrar": 68,
   "kabul": 1,
   "gnews_tarih": 0
  },
@@ -191,10 +191,6 @@
   [
    "BigMint (SteelMint)",
    "HTTP 403"
-  ],
-  [
-   "MetalForming Magazine",
-   "HTTP 404"
   ]
  ],
  "kinds": {
@@ -514,7 +510,7 @@
   "bgtek_jc": "arama",
   "bgtek_danieli": "arama"
  },
- "today": "2026-11-09",
+ "today": "2026-11-10",
  "host_saglik": {
   "news.google.com": {
    "istek": 123,
@@ -645,6 +641,14 @@
  },
  "piyasa_pool": [
   {
+   "anahtar": "piyasa:192e476039a3dc9a",
+   "tarih": "2026-11-10",
+   "baslik": "Vietnam to launch cold-rolled stainless steel imports probe",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/vietnam-launches-probe-into-cold-rolled-stainless-steel-imports-1126/",
+   "kaynak": "Kallanish",
+   "lead": "Vietnam is preparing to launch an anti-dumping investigation into cold-rolled stainless steel imports from China, Indonesia..."
+  },
+  {
    "anahtar": "piyasa:b07c1015e851e77d",
    "tarih": "2026-11-09",
    "baslik": "Aisha Steel lifts CRC prices: reports",
@@ -734,14 +738,14 @@
   }
  ],
  "window": [
-  "2026-10-19",
-  "2026-11-09"
+  "2026-10-20",
+  "2026-11-10"
  ],
- "bulunan_kullanilan": 2,
+ "bulunan_kullanilan": 1,
  "bulunan_havuz": 3,
- "rezerv_kullanilan": 3,
- "rezerv_havuz": 63,
+ "rezerv_kullanilan": 4,
+ "rezerv_havuz": 62,
  "period": "2026-W46",
- "generated": "2026-11-09 23:29 UTC",
+ "generated": "2026-11-10 13:48 UTC",
  "version": "3.0.0"
 }

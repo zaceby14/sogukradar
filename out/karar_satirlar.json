@@ -25,32 +25,7 @@
    "olaylar": [
     "primetals@produce|hat|Galvaniz hatti (CGL)|Ilk urun"
    ],
-   "puan": 70.8
-  },
-  {
-   "anahtar": "3705534b48675072",
-   "asama": "Ilk urun",
-   "baslik": "Italy's ABS Opens Special Steel Service Center in Sweden",
-   "eksik": [],
-   "firma": "ABS",
-   "hat": "Dilme / boy kesme / SSC",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "SMM (Shanghai Metals)",
-   "kaynak_id": "smm",
-   "olaylar": [
-    "*|ulke-hat|Italya|Dilme / boy kesme / SSC|Ilk urun",
-    "abs|fu|Italya|Dilme / boy kesme / SSC",
-    "abs|hat|Dilme / boy kesme / SSC|Ilk urun",
-    "abs|ulke|Italya|Ilk urun"
-   ],
-   "puan": 47.0,
-   "tarih": "2026-09-25",
-   "tarih_kaynagi": "json-ld",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "Italya",
-   "url": "https://news.metal.com/en/newscontent/104134675-italys-abs-opens-special-steel-service-center-in-sweden"
+   "puan": 70.4
   },
   {
    "anahtar": "16c1c1e154dad064",
@@ -129,39 +104,72 @@
    "tutar": "",
    "ulke": "Hindistan",
    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zb1JoVG1BQ1FSRlp3Qk02Zl9CaTZ3ME9XLTktbW1rcXhBR0pkMDhLOTZfT0V5LWdwcXZScW5rYzFpS1FjVXhhWU53UzNXeHozRTBpWG12T3R0XzdiZ1BIN1hVeVo2VnV4?oc=5"
+  },
+  {
+   "anahtar": "e82b221fc2986888",
+   "asama": "Teknoloji",
+   "baslik": "Turkey's Isdemir develops high-quality steel production for defense industry and electrical steel",
+   "eksik": [],
+   "firma": "Isdemir",
+   "hat": "Elektrik celigi hatti",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Steel Orbis",
+   "kaynak_id": "gq_hat08",
+   "lead": "Turkey's Isdemir develops high-quality steel production for defense industry and electrical steel &nbsp;&nbsp; Steel Orbis",
+   "olaylar": [
+    "isdemir|fu|Turkiye|Elektrik celigi hatti",
+    "isdemir|hat|Elektrik celigi hatti|Teknoloji",
+    "isdemir|ulke|Turkiye|Teknoloji"
+   ],
+   "rezerv": true,
+   "tarih": "2026-10-05",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Turkiye",
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMW13SGRFangyUGg2dkFBMDJ0aUFSSVljX0gxbXFZMng2OWRYY1hqLThqYVNtaDJzMUlvanBROE02MXZMTktNNG4zU3AzdHZzVUlxRVpXUlZRVzQ0eUhKamhRU2dyMHh4RkdDcGEtYXMzRmQ1eEE5aV9GWTJkZmhCeTZCRzE3ZG5VZS1pdEZnaXBGNzZ1WGl1WUxTeUNIVEY2UzJTN1MtZ0RvbnFNc0NzNUJtWl9YX0J6Y0FMQlh1cTUzRzdMZ3dNbE9zQXU2a1NTVGVUeEwybnR1M2VQcmtaaEFQb2RhWTVSTjdxMXdGRQ?oc=5"
   }
  ],
- "tech": [],
+ "tech": [
+  {
+   "anahtar": "tech:e82b221fc2986888",
+   "tarih": "2026-10-05",
+   "konu": "Turkey's Isdemir develops high-quality steel production for defense industry and electrical steel",
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMW13SGRFangyUGg2dkFBMDJ0aUFSSVljX0gxbXFZMng2OWRYY1hqLThqYVNtaDJzMUlvanBROE02MXZMTktNNG4zU3AzdHZzVUlxRVpXUlZRVzQ0eUhKamhRU2dyMHh4RkdDcGEtYXMzRmQ1eEE5aV9GWTJkZmhCeTZCRzE3ZG5VZS1pdEZnaXBGNzZ1WGl1WUxTeUNIVEY2UzJTN1MtZ0RvbnFNc0NzNUJtWl9YX0J6Y0FMQlh1cTUzRzdMZ3dNbE9zQXU2a1NTVGVUeEwybnR1M2VQcmtaaEFQb2RhWTVSTjdxMXdGRQ?oc=5",
+   "metin": "İsdemir, savunma sanayisi ihtiyaçlarına ve elektrik çeliği üretimine yönelik yüksek kaliteli özel çelik türlerinin geliştirilmesine odaklanıyor."
+  }
+ ],
  "piyasa": [
   {
-   "anahtar": "piyasa:58a6686e74ff2a17",
-   "tarih": "2026-11-02",
-   "baslik": "European green flat steel demand remains subdued; construction provides pockets of interest",
-   "metin": "Avrupa'da yeşil yassı çelik talebinin zayıf seyrettiği, inşaat sektöründe kısmi hareketlilik görülürken otomotiv talebinin yavaşladığı bildirildi.",
-   "url": "https://eurometal.net/european-green-flat-steel-demand-remains-subdued-construction-provides-pockets-of-interest/?utm_source=rss&utm_medium=rss&utm_campaign=european-green-flat-steel-demand-remains-subdued-construction-provides-pockets-of-interest",
-   "kaynak": "EUROMETAL",
-   "konu": "talep",
-   "urun": "yassi"
+   "anahtar": "piyasa:192e476039a3dc9a",
+   "tarih": "2026-11-10",
+   "baslik": "Vietnam to launch cold-rolled stainless steel imports probe",
+   "metin": "Vietnam, Çin ve Endonezya'dan yapılan soğuk haddelenmiş paslanmaz çelik ithalatına yönelik anti-damping soruşturması başlatmaya hazırlanıyor.",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/vietnam-launches-probe-into-cold-rolled-stainless-steel-imports-1126/",
+   "kaynak": "Kallanish",
+   "konu": "ticaret",
+   "urun": "soguk hadde"
   },
   {
    "anahtar": "piyasa:c8d598485ca4f420",
    "tarih": "2026-11-04",
    "baslik": "India HRC and CRC prices rise w-o-w; festive slowdown limits further gains",
-   "metin": "Hindistan'da sıcak ve soğuk haddelenmiş rulo fiyatları haftalık bazda yükseliş gösterirken, festival dönemi kaynaklı yavaşlama artışları sınırladı.",
+   "metin": "Hindistan'da sıcak ve soğuk haddelenmiş rulo fiyatları haftalık bazda yükselirken, tatil dönemi nedeniyle talepte yaşanan yavaşlama daha fazla artışı sınırladı.",
    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNU1JhT1o1ZTBKOUlJaG55b2xBUGM5cEp4aUU1aGc3cHdHcXVVMmJVSVNZRHNBeFR2Rm40bjhHemZaZS1JY1pWWHpOWTU5MFpWUUZkd0F5Ujd1VFd6b0U3Z3FXNDJPTFQ3cXpLVHItbW9JM096aGV1dUVITWlfRWV0UWp3d093N1p1OXdjaXVITlFELUktajVhZTJ4SXQwa2EwSGFKcVFub2MwOUVNQ2FqeEptYTQ4c0lUME1V?oc=5",
    "kaynak": "BigMint",
    "konu": "fiyat",
    "urun": "soguk hadde"
   },
   {
-   "anahtar": "piyasa:8561001e822ca3e1",
-   "tarih": "2026-10-21",
-   "baslik": "Cleveland-Cliffs links Stelco layoffs in Canada to galvanized steel imports",
-   "metin": "Cleveland-Cliffs, Kanada'daki Stelco tesisinde gerçekleşen işten çıkarmaları artan galvanizli sac ithalatına bağladı.",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObUE5ajFDRGxvNVJGeWtPN3BHc1kwNlZrcVBnckQzRXM3cXFrN3dwSWE1NnJsZkZjRVU3SEliaENoOWMwTHFDRUQ0QXFXRWp6VUVaZDRqSW5YSFZZbmdJODA0MWRvbm12WjVzU1hHa0pLaWJyS01GSjh0T0JjM1llZElfekxxMmJFMTRVNGN5ZlRwd0hOUkpNWjBzMkREdWt5ZE5DekdYbW1ya01CM2stcQ?oc=5",
-   "kaynak": "Yieh Corp.",
-   "konu": "ticaret",
-   "urun": "kaplamali"
+   "anahtar": "piyasa:c63a7f950e471960",
+   "tarih": "2026-11-08",
+   "baslik": "AI Is Queued Behind an Electrical Steel Transformer Shortage",
+   "metin": "Yapay zeka sektöründeki büyüme, elektrik çeliği trafo tedarikinde yaşanan küresel darboğaz nedeniyle gecikmelerle karşı karşıya kalıyor.",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1TQUplTC1uLWNhV20yUXlIaEtpVWNJWFp4alJ4bEZiMGRncVJocWdDZWgzYm1rbHZfNjNSUGdUOUdXMHlJSGp1b252eEZfeGRlRXRxNUVZRUVVZFlhM0UxUnU5dlRlMU5QR2RGNmRlN0hLRjM3Ulpwczd1QQ?oc=5",
+   "kaynak": "Intelligent Living",
+   "konu": "talep",
+   "urun": "elektrik celigi"
   }
  ]
 }
