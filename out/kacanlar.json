@@ -1,10 +1,10 @@
 {
  "donem": "2026-W46",
  "pencere": [
-  "2026-10-20",
-  "2026-11-10"
+  "2026-10-21",
+  "2026-11-11"
  ],
- "uretim": "2026-11-10 11:27 UTC",
+ "uretim": "2026-11-11 11:04 UTC",
  "kaynaklar": {
   "steeltimesint": {
    "publisher": "Steel Times International",
@@ -22,8 +22,19 @@
    "hata": "HTTP 404"
   }
  },
- "adet": 1,
+ "adet": 2,
  "kacanlar": [
+  {
+   "tarih": "2026-11-11",
+   "tarih_kaynagi": "json-ld",
+   "baslik": "Jastrzębska Spółka Węglowa secures loan from ARP for restructuring",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/jastrzbska-spka-wglowa-secures-loan-from-arp-for-restructuring-1490056.htm",
+   "kaynak": "SteelOrbis",
+   "katman": "Hat",
+   "hat": "Asit rejenerasyonu (ARP)",
+   "asama": "Sozlesme",
+   "anahtar": "a1e849bc52d2aca2"
+  },
   {
    "tarih": "2026-10-27",
    "tarih_kaynagi": "json-ld",
@@ -84,7 +95,7 @@
    "sebep": "gercek baslikta kapsam_disi"
   }
  ],
- "kapiyi_gecen": 10,
+ "kapiyi_gecen": 11,
  "sitemap_adayi": 800,
- "elenen": 790
+ "elenen": 789
 }

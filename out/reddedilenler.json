@@ -1,6 +1,6 @@
 {
  "donem": "2026-W46",
- "adet": 569,
+ "adet": 571,
  "kayitlar": [
   {
    "sebep": "kapsam_disi",
@@ -1119,10 +1119,10 @@
    "ek": "haber degil (menu/e-posta/kisa)"
   },
   {
-   "sebep": "kapsam_disi",
+   "sebep": "pencere_disi",
    "baslik": "First Coil Successfully Rolled on MINO’s Six-High Cold Mill at Huafon Aluminium",
    "url": "https://mino.it/mino-six-high-cold-mill-huafon-aluminium-first-coil/",
-   "ek": "baska_malzeme"
+   "ek": "2026-10-20"
   },
   {
    "sebep": "pencere_disi",
@@ -1210,6 +1210,18 @@
   },
   {
    "sebep": "kapsam_disi",
+   "baslik": "A Chinese partner has chosen SECO/WARWICK again for the addition of a semi-continuous CAB line for demanding tube-and-bar heat exchangers",
+   "url": "https://www.secowarwick.com/en/news/a-chinese-partner-has-chosen-secowarwick-again/",
+   "ek": "baska_malzeme"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "controlled atmosphere brazing of aluminum",
+   "url": "https://www.secowarwick.com/en/products/controlled-atmosphere-brazing-of-aluminum/cab-systems/",
+   "ek": "2019-12-12"
+  },
+  {
+   "sebep": "kapsam_disi",
    "baslik": "A Global Partner Chooses SECO/WARWICK for the Third Time",
    "url": "https://www.secowarwick.com/en/news/a-global-partner-chooses-secowarwick-for-the-third-time/",
    "ek": "baska_malzeme"
@@ -1231,12 +1243,6 @@
    "baslik": "The First Vacuum Furnace for a Croatian Aerospace Component Manufacturer",
    "url": "https://www.secowarwick.com/en/news/vacuum-furnace-for-a-croatian-aerospace-component-manufacturer/",
    "ek": "2026-10-13"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "SECO/WARWICK Expands Partnership with U.S. Bearing Manufacturer",
-   "url": "https://www.secowarwick.com/en/news/secowarwick-expands-partnership-with-us-bearing-manufacturer/",
-   "ek": "2026-10-07"
   },
   {
    "sebep": "pencere_disi",
@@ -1924,519 +1930,495 @@
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "arcelormittal announces brad davey to retire on 1st january",
-   "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-announces-brad-davey-to-retire-on-1st-january-2027/",
-   "ek": "sert red (baslik)"
+   "baslik": "engineering. tomorrow. together.",
+   "url": "https://www.thyssenkrupp-steel.com/",
+   "ek": "haber degil (menu/e-posta/kisa)"
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "2026 q3 results webcast",
-   "url": "https://corporate.arcelormittal.com/investors/latest-results/2026-q3-results-webcast/",
+   "baslik": "Unalloyed and alloyed quenched and tempered steel",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/hot-strip/c-steel/unalloyed-and-alloyed-quenched-and-tempered-steel/unlegierter-und-legierter-verguetungsstahl.html",
    "ek": "kapsam kapisi (baslik)"
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "arcelormittal reports third quarter 2026 results",
-   "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-reports-third-quarter-2026-results/",
+   "baslik": "Hardenable manganese-boron steel",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/hot-strip/c-steel/hardenable-manganese-boron-steel/haertbarer-mangan-bor-stahl.html",
    "ek": "kapsam kapisi (baslik)"
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "notification of share transactions by lumen investments sa rl",
-   "url": "https://corporate.arcelormittal.com/media/notifications-of-transaction-in-arcelormittal-shares/notification-of-share-transactions-by-lumen-investments-sa-rl-041126/",
+   "baslik": "Hardenable boron steel TBL",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/hot-strip/c-steel/hardenable-boron-steel-tbl/haertbarer-bor-stahl-tbl.html",
    "ek": "kapsam kapisi (baslik)"
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "share transactions by management",
-   "url": "https://corporate.arcelormittal.com/investors/corporate-governance/share-transactions-by-management/",
+   "baslik": "Steel for pressure vessels",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/hot-strip/steel-for-pressure-vessels/steel-for-pressure-vessels.html",
    "ek": "kapsam kapisi (baslik)"
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "arcelormittal announces the publication of its third quarter 2026 sell side analyst consensus figures",
-   "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-announces-the-publication-of-its-third-quarter-2026-sell-side-analyst-consensus-figures-021126/",
+   "baslik": "Ferrite-bainite-phase steel",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/hot-strip/multiphase-steel/ferrite-bainite-phase-steel/ferrite-bainite-phase-steel.html",
    "ek": "kapsam kapisi (baslik)"
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "notification of share transactions by lumen investments sa rl",
-   "url": "https://corporate.arcelormittal.com/media/notifications-of-transaction-in-arcelormittal-shares/notification-of-share-transactions-by-lumen-investments-sa-rl-281026/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "successful carbon capture trial at arcelormittal gent shows potential to significantly reduce co2 intensity in steel production",
-   "url": "https://corporate.arcelormittal.com/media/news/non-regulatory-news/successful-carbon-capture-trial-at-arcelormittal-gent-shows-potential-to-significantly-reduce-co2-intensity-in-steel-production/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "notifications of transaction in arcelormittal shares blackrock",
-   "url": "https://corporate.arcelormittal.com/media/notifications-of-transaction-in-arcelormittal-shares/notifications-of-transaction-in-arcelormittal-shares-blackrock-261026/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "notification of share transactions by lumen investments sa rl",
-   "url": "https://corporate.arcelormittal.com/media/notifications-of-transaction-in-arcelormittal-shares/notification-of-share-transactions-by-lumen-investments-sa-rl-211026/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "arcelormittal notification of share transactions by lumen investments sa rl",
-   "url": "https://corporate.arcelormittal.com/media/notifications-of-transaction-in-arcelormittal-shares/arcelormittal-notification-of-share-transactions-by-lumen-investments-sa-rl/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "notifications of transaction in arcelormittal shares",
-   "url": "https://corporate.arcelormittal.com/media/notifications-of-transaction-in-arcelormittal-shares/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "arcelormittal publishes less classifications for selected xcarb products",
-   "url": "https://corporate.arcelormittal.com/media/news/non-regulatory-news/arcelormittal-publishes-less-classifications-for-selected-xcarb-products/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "arcelormittal announces that it is unable to safely and sustainably restart operations at arcelormittal kryvyi rih following multiple recent missile strikes",
-   "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-announces-that-it-is-unable-to-safely-and-sustainably-restart-operations-at-arcelormittal-kryvyi-rih-following-multiple-recent-missile-strikes/",
-   "ek": "sert red (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "developing breakthrough process innovations",
-   "url": "https://corporate.arcelormittal.com/media/insights-and-podcasts/podcasts/developing-breakthrough-process-innovations/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "embracing the opportunity of ai",
-   "url": "https://corporate.arcelormittal.com/media/insights-and-podcasts/podcasts/embracing-the-opportunity-of-ai/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "beyond extraction how technology is making mining safer and more sustainable",
-   "url": "https://corporate.arcelormittal.com/media/insights-and-podcasts/podcasts/beyond-extraction-how-technology-is-making-mining-safer-and-more-sustainable/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "putting innovation at the heart of our success",
-   "url": "https://corporate.arcelormittal.com/media/insights-and-podcasts/podcasts/putting-innovation-at-the-heart-of-our-success/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "turning climate ambition into action",
-   "url": "https://corporate.arcelormittal.com/media/insights-and-podcasts/podcasts/turning-climate-ambition-into-action/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "steel talks transforming construction for a low carbon future",
-   "url": "https://corporate.arcelormittal.com/media/insights-and-podcasts/podcasts/steel-talks-transforming-construction-for-a-low-carbon-future/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "smarter people strategy for a future ready workforce",
-   "url": "https://corporate.arcelormittal.com/media/insights-and-podcasts/podcasts/smarter-people-strategy-for-a-future-ready-workforce/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "40 years of partnership and innovation in the automotive industry",
-   "url": "https://corporate.arcelormittal.com/media/insights-and-podcasts/podcasts/40-years-of-partnership-and-innovation-in-the-automotive-industry/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "our journey to world class safety performance",
-   "url": "https://corporate.arcelormittal.com/media/insights-and-podcasts/podcasts/our-journey-to-world-class-safety-performance/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "a conversation with mr lakshmi mittal and mr aditya mittal",
-   "url": "https://corporate.arcelormittal.com/media/insights-and-podcasts/podcasts/a-conversation-with-mr-lakshmi-mittal-and-mr-aditya-mittal/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "arcelormittal brazil long products recognised as brazils leading metallurgical company for occupational health and safety",
-   "url": "https://corporate.arcelormittal.com/media/news/non-regulatory-news/arcelormittal-brazil-long-products-recognised-as-brazils-leading-metallurgical-company-for-occupational-health-and-safety/",
-   "ek": "sert red (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "statement regarding missile strike on arcelormittal kryvyi rih",
-   "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/statement-regarding-missile-strike-on-arcelormittal-kryvyi-rih/",
-   "ek": "sert red (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "ariba supplier information portal",
-   "url": "https://corporate.arcelormittal.com/suppliers/ariba-supplier-information-portal/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "arcelormittal statement regarding missile strike on its ukraine plant",
-   "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-statement-regarding-missile-strike-on-its-ukraine-plant/",
-   "ek": "sert red (baslik)"
+   "baslik": "Manganese-boron steel for hot forming",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/hot-strip/manganese-boron-steel-for-hot-form-curing/Manganese-boron-steel-for-hot-form-curing.html",
+   "ek": "haber degil (menu/e-posta/kisa)"
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "2026 q2 results webcast",
-   "url": "https://corporate.arcelormittal.com/investors/latest-results/2026-q2-results-webcast/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "arcelormittal marks its 20th anniversary with special steel talks podcast featuring lakshmi and aditya mittal",
-   "url": "https://corporate.arcelormittal.com/media/news/non-regulatory-news/arcelormittal-marks-its-20th-anniversary-with-special-steel-talks-podcast-featuring-lakshmi-and-aditya-mittal/",
-   "ek": "sert red (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "arcelormittal reshaping digital backbone with microsoft cloud and ai",
-   "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-reshaping-digital-backbone-with-microsoft-cloud-and-ai/",
-   "ek": "kapsam kapisi (baslik)"
+   "baslik": "Overview delivery options",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/hot-strip/overview-delivery-options/overview-delivery-options.html",
+   "ek": "haber degil (menu/e-posta/kisa)"
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "arcelormittal publishes its 2026 half year report",
-   "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-publishes-its-2026-half-year-report/",
+   "baslik": "Micro-alloyed fine-grain structural steel",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/precision-steel-strip/product-details/fine-grain-structural-steel/",
    "ek": "kapsam kapisi (baslik)"
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "arcelormittal reports second quarter 2026 results",
-   "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-reports-second-quarter-2026-results/",
+   "baslik": "Boron-alloyed case-hardening and heat-treatable steel",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/precision-steel-strip/product-details/boron-alloyed-special-structural-steel/",
    "ek": "kapsam kapisi (baslik)"
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "arcelormittal announces the publication of its second quarter 2026 sell side analyst consensus figures",
-   "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-announces-the-publication-of-its-second-quarter-2026-sell-side-analyst-consensus-figures/",
+   "baslik": "Tempered steel and spring steel",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/precision-steel-strip/product-details/quenched-and-tempered-steel/",
    "ek": "kapsam kapisi (baslik)"
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "recognition for innovation how arcelormittal is helping shape the future of sustainable mobility",
-   "url": "https://corporate.arcelormittal.com/media/case-studies/recognition-for-innovation-how-arcelormittal-is-helping-shape-the-future-of-sustainable-mobility/",
+   "baslik": "Everything about Business Unit Precision Steel",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/precision-strip/everything-about-business-unit-precision-steel/",
    "ek": "kapsam kapisi (baslik)"
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "geert van poelvoorde to retire as ceo arcelormittal europe",
-   "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/geert-van-poelvoorde-to-retire-as-ceo-arcelormittal-europe/",
-   "ek": "sert red (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "reflections from our ceo on 20 years of arcelormittal",
-   "url": "https://corporate.arcelormittal.com/media/insights-and-podcasts/insights/reflections-from-our-ceo-on-20-years-of-arcelormittal/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "arcelormittal announces commencement of the second tranche of its 2025 to 2030 share buyback programme",
-   "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-announces-commencement-of-the-second-tranche-of-its-2025-to-2030-share-buyback-programme/",
+   "baslik": "Ferrite-bainite-phase steel",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/sheet-coated-products/multiphase-steel/ferrite-bainite-phase-steel/",
    "ek": "kapsam kapisi (baslik)"
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "arcelormittal publishes its 2025 payments to governments in respect of extractive activities report",
-   "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-publishes-its-2025-payments-to-governments-in-respect-of-extractive-activities-report/",
-   "ek": "kapsam kapisi (baslik)"
+   "baslik": "Manganese-boron steel for hot forming",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/sheet-coated-products/manganese-boron-steel-for-hot-forming/",
+   "ek": "haber degil (menu/e-posta/kisa)"
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "uk modern slavery act",
-   "url": "https://corporate.arcelormittal.com/uk-modern-slavery-act/",
-   "ek": "kapsam kapisi (baslik)"
+   "baslik": "MBW® – Manganese-boron steel for hot forming",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/sheet-coated-products/manganese-boron-steel-for-hot-forming/mbw-manganese-boron-steel-for-hot-forming/",
+   "ek": "haber degil (menu/e-posta/kisa)"
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "arcelormittal announces strategic collaboration with aws to drive industrial automation and lower carbon construction globally",
-   "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-announces-strategic-collaboration-with-aws-to-drive-industrial-automation-and-lower-carbon-construction-globally/",
-   "ek": "kapsam kapisi (baslik)"
+   "baslik": "Hot-dip galvanized narrow strip",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/sheet-coated-products/hot-dip-galvanized-steel-strip/",
+   "ek": "haber degil (menu/e-posta/kisa)"
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "arcelormittal marks 20th anniversary with video address from executive chairman lakshmi mittal",
-   "url": "https://corporate.arcelormittal.com/media/news/non-regulatory-news/arcelormittal-marks-20th-anniversary-with-video-address-from-executive-chairman-lakshmi-mittal/",
-   "ek": "sert red (baslik)"
+   "baslik": "Hot-dip galvanized corrugated and roofing sheet",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/sheet-coated-products/hot-dip-galvanized-corrugated-and-roofing-sheet/",
+   "ek": "haber degil (menu/e-posta/kisa)"
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "europe s emissions trading system is not working for industry",
-   "url": "https://corporate.arcelormittal.com/media/insights-and-podcasts/insights/europe-s-emissions-trading-system-is-not-working-for-industry/",
+   "baslik": "Surface finish and surface types",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/sheet-coated-products/surface-finish-and-surface-types/surface-finish-and-surface-types.html",
    "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "arcelormittal thyssenkrupp steel and voestalpine call for pragmatic ets reform to secure the competitiveness of european steelmaking and help to accelerate decarbonisation",
-   "url": "https://corporate.arcelormittal.com/media/news/non-regulatory-news/arcelormittal-thyssenkrupp-steel-and-voestalpine-call-for-pragmatic-ets-reform-to-secure-the-competitiveness-of-european-steelmaking-and-help-to-accelerate-decarbonisation/",
-   "ek": "sert red (baslik)"
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "renault group and arcelormittal bring lower co2 steel to next generation electric vehicles",
-   "url": "https://corporate.arcelormittal.com/media/case-studies/renault-group-and-arcelormittal-bring-lower-co2-steel-to-next-generation-electric-vehicles/",
-   "ek": "kapsam kapisi (baslik)"
+   "baslik": "Chromium-free passivation",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/sheet-coated-products/surface-treatment/chromium-free-passivation/Chromium-free-passivation.html",
+   "ek": "haber degil (menu/e-posta/kisa)"
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "statement re acciaierie ditalia",
-   "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/statement-re-acciaierie-ditalia/",
-   "ek": "kapsam kapisi (baslik)"
+   "baslik": "ZM Ecoprotect® Solar (ZM Solar)",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/sheet-coated-products/surface-finishing/zm-ecoprotect-solar-zm-solar/zm-ecoprotect-solar.html",
+   "ek": "haber degil (menu/e-posta/kisa)"
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "arcelormittal announces publication of the 2025 statutory financial statements of arcelormittal parent company",
-   "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-announces-publication-of-the-2025-statutory-financial-statements-of-arcelormittal-parent-company/",
+   "baslik": "Delivery forms and dimensions",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/sheet-coated-products/delivery-forms-and-dimensions/delivery-forms-and-dimensions.html",
    "ek": "kapsam kapisi (baslik)"
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "arcelormittal announces the publication of its first quarter 2026 sell side analyst consensus figures",
-   "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-announces-the-publication-of-its-first-quarter-2026-sell-side-analyst-consensus-figures/",
-   "ek": "kapsam kapisi (baslik)"
+   "baslik": "Organic coated strip and sheet",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/organic-coated-strip-and-sheet/",
+   "ek": "haber degil (menu/e-posta/kisa)"
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "arcelormittal announces results of its general meetings",
-   "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-announces-results-of-its-general-meetings/",
-   "ek": "kapsam kapisi (baslik)"
+   "baslik": "pladur® Relief Icecrystal",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/organic-coated-strip-and-sheet/pladur-relief-icecrystal/",
+   "ek": "haber degil (menu/e-posta/kisa)"
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "arcelormittal announces pricing of bond issue",
-   "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-announces-pricing-of-bond-issue-130526/",
-   "ek": "sert red (baslik)"
+   "baslik": "Electrical steel, non grain oriented",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/electrical-steel/electrical-steel-non-grain-oriented/electrical-steel-non-grain-oriented.html",
+   "ek": "haber degil (menu/e-posta/kisa)"
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "arcelormittal unlocks value through partial sell down of its shareholding in vallourec with proceeds allocated to share buybacks",
-   "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-unlocks-value-through-partial-sell-down-of-its-shareholding-in-vallourec-with-proceeds-allocated-to-share-buybacks/",
-   "ek": "kapsam kapisi (baslik)"
+   "baslik": "powercore® traction for high frequencies and e-mobility",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/electrical-steel/electrical-steel-non-grain-oriented/powercore-traction-for-high-frequencies-and-e-mobility/powercore-a-3.html",
+   "ek": "haber degil (menu/e-posta/kisa)"
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "arcelormittal announces results of its general meetings 1",
-   "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-announces-results-of-its-general-meetings-1/",
-   "ek": "kapsam kapisi (baslik)"
+   "baslik": "powercore® traction NGO 025-125Y420",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/electrical-steel/electrical-steel-non-grain-oriented/powercore-traction-for-high-frequencies-and-e-mobility/powercore-traction-ngo-025-125y420/powercore-traction-ngo025-125y420.html",
+   "ek": "haber degil (menu/e-posta/kisa)"
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "current articles of association",
-   "url": "https://corporate.arcelormittal.com/investors/corporate-governance/current-articles-of-association/",
-   "ek": "kapsam kapisi (baslik)"
+   "baslik": "Electrical steel, grain oriented",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/electrical-steel/electrical-steel-grain-oriented/electrical-steel-grain-oriented.html",
+   "ek": "haber degil (menu/e-posta/kisa)"
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "2026 q1 results webcast",
-   "url": "https://corporate.arcelormittal.com/investors/latest-results/2026-q1-results-webcast/",
-   "ek": "kapsam kapisi (baslik)"
+   "baslik": "Typical physical properties",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/electrical-steel/electrical-steel-grain-oriented/powercore/typical-physical-properties/typical-properties-and-tolerances.html",
+   "ek": "haber degil (menu/e-posta/kisa)"
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "2025 q1 results webcast",
-   "url": "https://corporate.arcelormittal.com/investors/latest-results/2025-q1-results-webcast/",
+   "baslik": "powercore according to BIS standard 3024",
+   "url": "https://www.thyssenkrupp-steel.com/en/products/electrical-steel/electrical-steel-grain-oriented/powercore-according-to-bis-standard-3024/powercore-according-to-bis-standard-3024.html",
    "ek": "kapsam kapisi (baslik)"
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "2025 q2 results webcast",
-   "url": "https://corporate.arcelormittal.com/investors/latest-results/2025-q2-results-webcast/",
+   "baslik": "Chassis: Hot strip in motion",
+   "url": "https://www.thyssenkrupp-steel.com/en/industries/automotivetrucks/chassis-hot-strip-in-motion/chassis-hot-strip-in-motion.html",
    "ek": "kapsam kapisi (baslik)"
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "2025 q3 results webcast",
-   "url": "https://corporate.arcelormittal.com/investors/latest-results/2025-q3-results-webcast/",
+   "baslik": "Seat: Lightweight steel seat structures",
+   "url": "https://www.thyssenkrupp-steel.com/en/industries/automotivetrucks/seat-lightweight-steel-seat-structures/lightweight-steel-seat-structures.html",
    "ek": "kapsam kapisi (baslik)"
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "2025 q4 and fy results webcast",
-   "url": "https://corporate.arcelormittal.com/investors/latest-results/2025-q4-and-fy-results-webcast/",
+   "baslik": "Lightweight steels for vehicle construction",
+   "url": "https://www.thyssenkrupp-steel.com/en/industries/automotivetrucks/lightweight-steels-for-vehicle-construction/lightweight-steels-for-vehicle-construction.html",
    "ek": "kapsam kapisi (baslik)"
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "arcelormittal reports first quarter 2026 results",
-   "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-reports-first-quarter-2026-results/",
+   "baslik": "Surfaces for car body panels",
+   "url": "https://www.thyssenkrupp-steel.com/en/industries/automotivetrucks/surfaces-for-car-body-panels/best-surfaces.html",
    "ek": "kapsam kapisi (baslik)"
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "arcelormittal publishes its 2025 sustainability report safer smarter growth",
-   "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-publishes-its-2025-sustainability-report-safer-smarter-growth/",
-   "ek": "sert red (baslik)"
-  },
-  {
-   "sebep": "kapsam_disi",
-   "baslik": "arcelormittal reports third quarter 2025 and nine months results",
-   "url": "https://corporate.arcelormittal.com/media/insights-and-podcasts/podcasts/arcelormittal-reports-third-quarter-2025-and-nine-months-results/",
-   "ek": "kapsam kapisi (baslik)"
+   "baslik": "Mechanical/Plant Engineering",
+   "url": "https://www.thyssenkrupp-steel.com/en/industries/mechanicalplant-engineering/plant-engineering.html",
+   "ek": "haber degil (menu/e-posta/kisa)"
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "arcelormittal has published a convening notice for its annual general meeting and extraordinary general meeting of shareholders to be held on 5 may",
-   "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-has-published-a-convening-notice-for-its-annual-general-meeting-and-extraordinary-general-meeting-of-shareholders-to-be-held-on-5-may-2026/",
-   "ek": "sert red (baslik)"
+   "baslik": "Electrical Steel - the employer",
+   "url": "https://www.thyssenkrupp-steel.com/en/company/business-units/electrical-steel/electrical-steel-the-employer/electrical-steel-als-arbeitgeber.html",
+   "ek": "haber degil (menu/e-posta/kisa)"
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "establishing a leading position in the world s fastest growing steel market",
-   "url": "https://corporate.arcelormittal.com/media/insights-and-podcasts/podcasts/establishing-a-leading-position-in-the-world-s-fastest-growing-steel-market/",
+   "baslik": "Executive and Supervisory Board, Works Council",
+   "url": "https://www.thyssenkrupp-steel.com/en/company/business-units/packaging-steel/organization/executive-and-supervisory-board-works-council/",
    "ek": "kapsam kapisi (baslik)"
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "arcelormittal reports fourth quarter 2025 and full year results",
-   "url": "https://corporate.arcelormittal.com/media/insights-and-podcasts/podcasts/arcelormittal-reports-fourth-quarter-2025-and-full-year-results/",
+   "baslik": "Supply Chain Due Diligence Act (LkSG)",
+   "url": "https://www.thyssenkrupp-steel.com/en/company/business-units/packaging-steel/purchasing/supply-chain-due-diligence-act-lksg/supply-chain-due-diligence-act.html",
    "ek": "kapsam kapisi (baslik)"
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "the role of steel in constructions transition to net zero",
-   "url": "https://corporate.arcelormittal.com/media/insights-and-podcasts/podcasts/the-role-of-steel-in-constructions-transition-to-net-zero/",
-   "ek": "kapsam kapisi (baslik)"
+   "baslik": "Packaging Steel the employer",
+   "url": "https://www.thyssenkrupp-steel.com/en/company/business-units/packaging-steel/rasselstein-the-employer/",
+   "ek": "haber degil (menu/e-posta/kisa)"
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "i see our ai innovation enabling assessment of diffuse dust emissions",
-   "url": "https://corporate.arcelormittal.com/media/case-studies/i-see-our-ai-innovation-enabling-assessment-of-diffuse-dust-emissions/",
-   "ek": "kapsam kapisi (baslik)"
+   "baslik": "Precision Steel - the employer",
+   "url": "https://www.thyssenkrupp-steel.com/en/company/business-units/precision-steel/thyssenkrupp-hohenlimburg-the-employer/",
+   "ek": "haber degil (menu/e-posta/kisa)"
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "arcelormittal announces the results of the invitation for offers to sell for cash",
-   "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-announces-the-results-of-the-invitation-for-offers-to-sell-for-cash/",
-   "ek": "sert red (baslik)"
+   "baslik": "Arbeitsmedizinischer Dienst",
+   "url": "https://www.thyssenkrupp-steel.com/en/company/business-units/precision-steel/thyssenkrupp-hohenlimburg-the-employer/arbeitsmedizinischer-dienst/",
+   "ek": "haber degil (menu/e-posta/kisa)"
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "arcelormittal reports second quarter 2017 and half year 2017 results",
-   "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-reports-second-quarter-2017-and-half-year-2017-results/",
+   "baslik": "thyssenkrupp Steel Business Services GmbH",
+   "url": "https://www.thyssenkrupp-steel.com/en/company/services/thyssenkrupp-steel-business-services-gmbh/tksbs.html",
    "ek": "kapsam kapisi (baslik)"
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "arcelormittal reports results for the first quarter",
-   "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-reports-results-for-the-first-quarter-2016/",
+   "baslik": "Employee and Human Rights",
+   "url": "https://www.thyssenkrupp-steel.com/en/company/sustainability/employee-and-human-rights/employee-and-human-rights.html",
    "ek": "kapsam kapisi (baslik)"
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "arcelormittal announces early tender results for its offers to purchase for cash the outstanding notes listed below",
-   "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-announces-early-tender-results-for-its-offers-to-purchase-for-cash-the-outstanding-notes-listed-below-2017/",
+   "baslik": "Responsibility and due diligence obligations",
+   "url": "https://www.thyssenkrupp-steel.com/en/company/sustainability/responsibility-and-due-diligence-obligations/responsibility-and-due-diligence-obligations.html",
    "ek": "kapsam kapisi (baslik)"
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "arcelormittal announces offers to purchase for cash up to 750 000 000 combined aggregate purchase price of the outstanding notes listed below",
-   "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-announces-offers-to-purchase-for-cash-up-to-750-000-000-combined-aggregate-purchase-price-of-the-outstanding-notes-listed-below/",
-   "ek": "sert red (baslik)"
+   "baslik": "Mikhail Sergeyevich Gorbachev",
+   "url": "https://www.thyssenkrupp-steel.com/en/company/history/highlights/mikhail-sergeyevich-gorbachev/mikhail-sergeyevich-gorbachev.html",
+   "ek": "haber degil (menu/e-posta/kisa)"
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "arcelormittal announces publication of its second quarter 2024 sell side analyst consensus figures",
-   "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-announces-publication-of-its-second-quarter-2024-sell-side-analyst-consensus-figures/",
-   "ek": "kapsam kapisi (baslik)"
+   "baslik": "Transformation & Sustainability",
+   "url": "https://www.thyssenkrupp-steel.com/en/stories/transformation-and-sustainability/",
+   "ek": "haber degil (menu/e-posta/kisa)"
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "arcelormittal announces results of the offer to purchase for cash any and all of its 9850 notes due june 1",
-   "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-announces-results-of-the-offer-to-purchase-for-cash-any-and-all-of-its-9850-notes-due-june-1-2019/",
-   "ek": "kapsam kapisi (baslik)"
+   "baslik": "Working at thyssenkrupp Steel Europe",
+   "url": "https://www.thyssenkrupp-steel.com/en/career/working-at-thyssenkrupp-steel-europe/",
+   "ek": "haber degil (menu/e-posta/kisa)"
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "arcelormittal announces the publication of its fourth quarter and full year 2024 sell side analyst consensus figures",
-   "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-announces-the-publication-of-its-fourth-quarter-and-full-year-2024-sell-side-analyst-consensus-figures/",
-   "ek": "kapsam kapisi (baslik)"
+   "baslik": "Electrical Steel as emplyer",
+   "url": "https://www.thyssenkrupp-steel.com/en/career/working-at-thyssenkrupp-steel-europe/our-subsidiaries/electrical-steel-as-emplyer/electrical-steel-als-arbeitgeber.html",
+   "ek": "haber degil (menu/e-posta/kisa)"
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "arcelormittal reports results for the first quarter",
-   "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-reports-results-for-the-first-quarter-2017/",
-   "ek": "kapsam kapisi (baslik)"
+   "baslik": "Packaging Steel as Employer",
+   "url": "https://www.thyssenkrupp-steel.com/en/career/working-at-thyssenkrupp-steel-europe/our-subsidiaries/packaging-steel-as-employer/packaging-steel-as-employer.html",
+   "ek": "haber degil (menu/e-posta/kisa)"
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "arcelormittal reports second quarter 2023 and half year 2023 results",
-   "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-reports-second-quarter-2023-and-half-year-2023-results/",
-   "ek": "kapsam kapisi (baslik)"
+   "baslik": "Precision Steel as employer",
+   "url": "https://www.thyssenkrupp-steel.com/en/career/working-at-thyssenkrupp-steel-europe/our-subsidiaries/precision-steel-as-employer/precision-steel-as-employer.html",
+   "ek": "haber degil (menu/e-posta/kisa)"
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "arcelormittal announces the results of the invitation for offers to sell for cash up to the maximum acceptance amount",
-   "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-announces-the-results-of-the-invitation-for-offers-to-sell-for-cash-up-to-the-maximum-acceptance-amount/",
-   "ek": "sert red (baslik)"
+   "baslik": "Occupational health service",
+   "url": "https://www.thyssenkrupp-steel.com/en/career/working-at-thyssenkrupp-steel-europe/our-subsidiaries/precision-steel-as-employer/occupational-health-service/occupational-health-service.html",
+   "ek": "haber degil (menu/e-posta/kisa)"
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "arcelormittal reports third quarter 2016 results",
-   "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-reports-third-quarter-2016-results/",
+   "baslik": "Interviews and field reports",
+   "url": "https://www.thyssenkrupp-steel.com/en/career/working-at-thyssenkrupp-steel-europe/interviews-and-field-reports/interviews-and-field-reports.html",
    "ek": "kapsam kapisi (baslik)"
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "arcelormittal reports fourth quarter and twelve months 2020 results",
-   "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-reports-fourth-quarter-and-twelve-months-2020-results/",
-   "ek": "kapsam kapisi (baslik)"
+   "baslik": "Apprenticeship and Studies",
+   "url": "https://www.thyssenkrupp-steel.com/en/career/school-students/apprenticeship-and-studies/ausbildung-plus-studium.html",
+   "ek": "haber degil (menu/e-posta/kisa)"
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "arcelormittal reports first quarter 2020 results",
-   "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-reports-first-quarter-2020-results/",
+   "baslik": "Application for advertised positions",
+   "url": "https://www.thyssenkrupp-steel.com/en/career/the-application/application-for-advertised-positions/",
    "ek": "kapsam kapisi (baslik)"
   },
   {
    "sebep": "kapsam_disi",
-   "baslik": "arcelormittal reports fourth quarter 2025 and full year 2025 results",
-   "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-reports-fourth-quarter-2025-and-full-year-2025-results/",
-   "ek": "kapsam kapisi (baslik)"
-  },
-  {
-   "sebep": "tarihsiz_elendi",
-   "baslik": "steel talks powering the energy transition with electrical steels",
-   "url": "https://corporate.arcelormittal.com/media/insights-and-podcasts/podcasts/steel-talks-powering-the-energy-transition-with-electrical-steels/",
-   "ek": ""
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "ArcelorMittal announces investment of €300 million in Mardyck, France, to produce electrical steels for industry and electromobility | Regulatory News | News | Media | ArcelorMitta",
-   "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-announces-investment-of-300-million-in-mardyck-france-to-produce-electrical-steels-for-industry-and-electromobility/",
-   "ek": "2022-03-17"
-  },
-  {
-   "sebep": "tarihsiz_elendi",
-   "baslik": "arcelormittal to move forward with construction of a new world class electrical steel facility in alabama",
-   "url": "https://corporate.arcelormittal.com/media/news/non-regulatory-news/arcelormittal-to-move-forward-with-construction-of-a-new-world-class-electrical-steel-facility-in-alabama/",
-   "ek": ""
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Ready to roll: our new electrical steel production line in France | Case studies | Media | ArcelorMittal",
-   "url": "https://corporate.arcelormittal.com/media/case-studies/ready-to-roll-our-new-electrical-steel-production-line-in-france/",
-   "ek": "2026-01-06"
+   "baslik": "Information for neighbors",
+   "url": "https://www.thyssenkrupp-steel.com/en/informationen-fuer-nachbarn.html",
+   "ek": "haber degil (menu/e-posta/kisa)"
   },
   {
    "sebep": "tarihsiz_elendi",
    "baslik": "Cut-to-length sheet products",
    "url": "https://www.thyssenkrupp-steel.com/en/products/cut-to-length-sheet-products/cut-to-length-sheets-overview.html",
    "ek": ""
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Building a culture of Safety",
+   "url": "https://www.tatasteel.com/corporate/our-organisation/safety/building-a-culture-of-safety/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Environment Compliance Reports",
+   "url": "https://www.tatasteel.com/corporate/our-organisation/environment/environment-compliance-reports/",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Environmental Certifications",
+   "url": "https://www.tatasteel.com/corporate/our-organisation/environment/environmental-certifications/",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Tata Steel Group Companies",
+   "url": "https://www.tatasteel.com/corporate/our-organisation/tata-steel-group-companies/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Celebrating 25 Glorious Years of the Tata Steel Archives",
+   "url": "https://www.tatasteel.com/corporate/our-organisation/campaigns/celebrating-25-glorious-years-of-the-tata-steel-archives/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Howrah Bridge 75 Years Anniversary",
+   "url": "https://www.tatasteel.com/corporate/our-organisation/campaigns/howrah-bridge-75-years-anniversary/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Swachh Bharat and EzyNest",
+   "url": "https://www.tatasteel.com/corporate/our-organisation/campaigns/swachh-bharat-and-ezynest/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Sir Dorabji Tata Birth Anniversary",
+   "url": "https://www.tatasteel.com/corporate/our-organisation/campaigns/sir-dorabji-tata-birth-anniversary/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "JRD Tata Birth Anniversary",
+   "url": "https://www.tatasteel.com/corporate/our-organisation/campaigns/jrd-tata-birth-anniversary/",
+   "ek": "sert red (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Business Model & Strategy",
+   "url": "https://www.tatasteel.com/corporate/our-value-chain/business-model-strategy/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Human Resource Management",
+   "url": "https://www.tatasteel.com/sustainability/social/human-resource-management/",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Sustainability Governance",
+   "url": "https://www.tatasteel.com/sustainability/governance/sustainability-governance/",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Building a Culture of Ethics",
+   "url": "https://www.tatasteel.com/sustainability/governance/building-a-culture-of-ethics/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Taskforce on Nature Related Financial Disclosures (TNFD) Reports",
+   "url": "https://www.tatasteel.com/sustainability/governance/taskforce-on-nature-related-financial-disclosures-tnfd-reports/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "UN Sustainability Development Goals",
+   "url": "https://www.tatasteel.com/sustainability/un-sustainability-development-goals/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Integrated Report/Annual Report",
+   "url": "https://www.tatasteel.com/sustainability/integrated-reportannual-report/",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Tata Agrico | Agriculture, Construction & Hand Tools",
+   "url": "https://www.tatasteel.com/products-solutions/india/products/tata-agrico-agriculture-construction-hand-tools/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Tata Ferro Alloys and Minerals Division",
+   "url": "https://www.tatasteel.com/products-solutions/india/products/tata-ferro-alloys-and-minerals-division/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Tata Steel Industrial By-products Management Division (IBMD)",
+   "url": "https://www.tatasteel.com/products-solutions/india/products/tata-steel-industrial-by-products-management-division-ibmd/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Raw Materials and Responsible Mining",
+   "url": "https://www.tatasteel.com/products-solutions/india/products/raw-materials-and-responsible-mining/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Tata Steel Industrial Consulting",
+   "url": "https://www.tatasteel.com/products-solutions/india/tata-steel-industrial-consulting/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Taskforce on Nature Related Financial Disclosures (TNFD) Reports",
+   "url": "https://www.tatasteel.com/investors/financial-performance/taskforce-on-nature-related-financial-disclosures-tnfd-reports/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Integrated Report/Annual Report",
+   "url": "https://www.tatasteel.com/investors/integrated-reportannual-report/",
+   "ek": "haber degil (menu/e-posta/kisa)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Integrated Report & Annual Accounts 2025-26 (119th Year) and related documents",
+   "url": "https://www.tatasteel.com/investors/integrated-reportannual-report/integrated-report-annual-accounts-2025-26-119th-year-and-related-documents/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Financial Statements of Subsidiary Companies-FY 2025-26",
+   "url": "https://www.tatasteel.com/investors/integrated-reportannual-report/integrated-report-annual-accounts-2025-26-119th-year-and-related-documents/financial-statements-of-subsidiary-companies-fy-2025-26/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Integrated Report & Annual Accounts 2024-25 (118th year) and related documents",
+   "url": "https://www.tatasteel.com/investors/integrated-reportannual-report/integrated-report-annual-accounts-2024-25-118th-year-and-related-documents/",
+   "ek": "kapsam kapisi (baslik)"
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "Financial Statements of Subsidiary Companies-FY 2024-25",
+   "url": "https://www.tatasteel.com/investors/integrated-reportannual-report/integrated-report-annual-accounts-2024-25-118th-year-and-related-documents/financial-statements-of-subsidiary-companies-fy-2024-25/",
+   "ek": "kapsam kapisi (baslik)"
   },
   {
    "sebep": "pencere_disi",
@@ -2619,12 +2601,6 @@
    "ek": ""
   },
   {
-   "sebep": "pencere_disi",
-   "baslik": "Optimum Tool Steels and Coatings for Stamping Electrical Steel",
-   "url": "https://www.metalformingmagazine.com/article/?/finishing/coating/optimum-tool-steels-and-coatings-for-stamping-electrical-steel",
-   "ek": "2026-07-28"
-  },
-  {
    "sebep": "tarihsiz_elendi",
    "baslik": "【钢之家调查】本周冷轧板卷市场消费量增加7.18万吨至157.7万吨(10月30日-11月5日)",
    "url": "https://www.steelhome.com/24789278 ",
@@ -2770,6 +2746,12 @@
   },
   {
    "sebep": "tekrar",
+   "baslik": "JTL Industries Advances Maharashtra Expansion with Successful Pickling Line Trial and GP Line Testing",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQlhUQkFxZ0p4LXQxYlFPWWY3bUozMGR4UEFqQ2NDVUN3bHdfVndpVVduV1VQQmxvblVVUWhJd0JxYndxSlhTY21TOURGR2I3TzVTMUxvYWJyOUZXaXAwajRaTHgwbVlBaWJxQ2JpUG0zbGNTdFhfT1B4Tk5KUUJjYkJxZEFvcEM5TkF4V3diQ3E0TG5iaURlRlBIeURwWnBnTHNmQlZnNmIzRlB3Vk5JQzFaVkp5RFR6Z1g5Qm5KN2N1YjNUakhsLXRhTVBYcHRO?oc=5",
+   "ek": "benzer baslik (gecmis 21 gun)"
+  },
+  {
+   "sebep": "tekrar",
    "baslik": "JTL Industries Advances Maharashtra Facility Expansion with Hot Trial of Pickling Line and Cold Trial of GP Line",
    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNci1tNHZYNEc3b3c0RGNRTFNLaUxNWDE4cXZqb00zV2txS2R1bVVabzNCejZhZWdLQ0c1RU15eElxTWRyOTBXTTNOOXdFLTg0eW1TMmdXaWFRa0c4N0hFTExKTC1lQUFVeHF4WXZWVTVtREVNeFcwam1TV2tQN0FIOTdYOEtYekRMcHJyeUYwRHZFYTB5UU5PX1BrbmRGLWh6T0pEQ3JkNFA0MzR0TDhnMUQ1eGV2dEdUQXpkVA?oc=5",
    "ek": "benzer baslik (gecmis 21 gun)"
@@ -2800,12 +2782,6 @@
   },
   {
    "sebep": "pencere_disi",
-   "baslik": "Tata Steel Colors launches Colorcoat pre-painted steel in India",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQNnFIZU9NZWN0ejJBbWllanlhYXpYaGI0TExkQl9waTVXbFNEMGNUOWk1dnhFa1d0LUtCTlRxd1U4M3VkNVBHMVpuRGg3UzJXWEczeGlNUFd2OE5ES0lNUXdHQk51d2sxdmxkeWlWSkJNZkZGOUN4R2NaaHFPYVU?oc=5",
-   "ek": "2026-10-12"
-  },
-  {
-   "sebep": "pencere_disi",
    "baslik": "Ten Reputable Electrical Steel Companies in China 2026: Advancing Motor Efficiency and Industrial Performance",
    "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPM3lUSXRjSHE2UURUTjB1NHppTTl4RnlLa3dnYlFxSG02WFBQd2tIYmt1UXpVbElhQVBtSEUtZTRZeW5SMkJHMjV5NzY5WlpmbHNtZWtFdy1KTlhTSzlXVmlOMWJ3Ymphc29aZXZwbWtvMDVWWm1oUF94NERtUEZ3WUhoOGRHcThacFRzRTlEUjBqempXRzNRTV9QZFdfUFBmVmtQLWJqQng4RGhuc0FKaFYtdUZoXzNlSDB6S2NBd19nVGx6LTVVNnlKT1RNcWJkNkN3VjRNSGV1RUM1VVU1NC1YZDNIZ3JObE8ySC0wVTFVYndZZFE?oc=5",
    "ek": "2026-10-13"
@@ -2817,10 +2793,16 @@
    "ek": "2026-10-16"
   },
   {
-   "sebep": "tekrar",
+   "sebep": "pencere_disi",
    "baslik": "Tenova supplies processing lines for JSW JFE’s electrical steel plant in India",
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcUJLSWN6X3NfVlY4R2UyaVdZa2FtektFWkNuT3JxRThRM3JCc3VVb3BaWndwMGFCVlQ4Vlc1X3VJdklPc0dZNU9acGY1LU5fX2FXOFBmTnNhaEVuWWNMbWdRamJHakZKX1htMkttaTlDc3ExQlBNY2pKSXI0a0RCZ3ROZ0NNa3BkS2t0Z1FQQVViOGtzNEt1YlVpNWcxbXgtejhRdjZmdkZlNlJaM3c?oc=5",
-   "ek": ""
+   "ek": "2026-10-20"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "BlueScope produces first galvanized coil on new ANDRITZ line in Australia",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOSzBkZTFxRFdYNVE5WlNtYmNIQXh5dkpkQWJVa0xQdU1GUkw4NXV5eEFjR1gwelZHMWFXUUVnMGxkQzBHUGdUUWxGSWUyNm96cm1wNVI2SEFGb1NfYUlmZEtXalR0X1FmSmxycDBLQlk2aUVsdVpNMGlWS2xaYWRrS1QzaVZkRDFiWkxzN2pnczNLekljd0JpZzd4aUNfenZmak1RNnF5Nzk3a1hUX0ZuWHNGNUYyUXRPZ0Z6dm5IdDBHZVpiUS1OR1NsVDVJT2FN?oc=5",
+   "ek": "2026-10-14"
   },
   {
    "sebep": "tekrar",
@@ -2854,15 +2836,21 @@
   },
   {
    "sebep": "pencere_disi",
+   "baslik": "BlueScope produces first galvanized coil on new ANDRITZ line in Australia",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOSzBkZTFxRFdYNVE5WlNtYmNIQXh5dkpkQWJVa0xQdU1GUkw4NXV5eEFjR1gwelZHMWFXUUVnMGxkQzBHUGdUUWxGSWUyNm96cm1wNVI2SEFGb1NfYUlmZEtXalR0X1FmSmxycDBLQlk2aUVsdVpNMGlWS2xaYWRrS1QzaVZkRDFiWkxzN2pnczNLekljd0JpZzd4aUNfenZmak1RNnF5Nzk3a1hUX0ZuWHNGNUYyUXRPZ0Z6dm5IdDBHZVpiUS1OR1NsVDVJT2FN?oc=5",
+   "ek": "2026-10-14"
+  },
+  {
+   "sebep": "pencere_disi",
    "baslik": "JSW JFE reviews engineering plans for electrical steel project with Tenova",
    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOU2xFbFdIVUl5cVpCaEpDZmZrVmI5ZXlwRDVpT2U3dEp0Qmk2R3N6ZTdhaldROHdVN0VHdjJCTHduTTMwejg5Y2l3MEQ3cDhZeG9KcW91dFRXZFduSlNnV2FQNkZ3c3dxZlVFR0JxV19rcnpnRWdfR2RIV2c5ZnlDSmJ5SXFjbjZndE1WRURGS0pBaElPdlQxVWQ5MkVXczVZajBtM1FNc2d2dUNvdzNDN3UzTTBydkFDakpnTkhFWWgtbVRSVXBaMTUxa3B6ZEs1S3c?oc=5",
    "ek": "2026-10-16"
   },
   {
-   "sebep": "tekrar",
+   "sebep": "pencere_disi",
    "baslik": "Tenova supplies processing lines for JSW JFE’s electrical steel plant in India",
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcUJLSWN6X3NfVlY4R2UyaVdZa2FtektFWkNuT3JxRThRM3JCc3VVb3BaWndwMGFCVlQ4Vlc1X3VJdklPc0dZNU9acGY1LU5fX2FXOFBmTnNhaEVuWWNMbWdRamJHakZKX1htMkttaTlDc3ExQlBNY2pKSXI0a0RCZ3ROZ0NNa3BkS2t0Z1FQQVViOGtzNEt1YlVpNWcxbXgtejhRdjZmdkZlNlJaM3c?oc=5",
-   "ek": ""
+   "ek": "2026-10-20"
   },
   {
    "sebep": "tekrar",
@@ -2899,6 +2887,12 @@
    "baslik": "Nucor Produces First Prime Coil on New 500,000 t/yr Automotive Galvanizing Line in South Carolina",
    "url": "https://news.google.com/rss/articles/CBMiqwNBVV95cUxPdjZIUjRra0xfNUZ5SVZSUW1TTzFwc180ejR5VVRIb21EdGIybjZlZWx6d2cxMXJ3TnVaRWNLVVV5Y3MzNXV1cTRneTZHOW55QzhzLTdVZHdOQm5YZ0dWZ2M1TkVZb1FPU1dIbS1qZktON2J2UUJSMFh1R1JyazkyQ0dPLVZ2Z3dDUDB4QTM1TmVwbnRlN1BoWUNQUDNWUW1BWHpqb1FrLUEzRTVMbXJ6ZDNXZlRpZ1pUenBtX1JvcGdHUERFYjJ4elFZenE5N0FXeFJmUnFyVmJxN1JPWndSX0FiRFBXUFpiT2pKXzdNaDJTb1VMT2dyNFJ6QXBfSmRGc1FxOTJaekZmUE5ZbDkxeW1rbTc5UlNHaWo4WXowQ1d3WkgzTmgwUktoTDRBOEtxNERJRUQ2bG1fdmZGSHZFRnE0Wm1pSUxsR2dOQzdMbkFxS201ZDhzbHNSR3FlTEVYdEVWVk1IZTJpWlA4eHFwMEJtMmRsR1BnNHhVbTlBdWV1OWZ1eXROUjNtV2JxdDRURHNxY2pNV2lHQ3FRd0llNnBCTFkyTTVLU3dV?oc=5",
    "ek": "ayni olayin varyanti: nucor|hat|Galvaniz hatti (CGL)|Ilk urun"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "BlueScope produces first galvanized coil on new ANDRITZ line in Australia",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOSzBkZTFxRFdYNVE5WlNtYmNIQXh5dkpkQWJVa0xQdU1GUkw4NXV5eEFjR1gwelZHMWFXUUVnMGxkQzBHUGdUUWxGSWUyNm96cm1wNVI2SEFGb1NfYUlmZEtXalR0X1FmSmxycDBLQlk2aUVsdVpNMGlWS2xaYWRrS1QzaVZkRDFiWkxzN2pnczNLekljd0JpZzd4aUNfenZmak1RNnF5Nzk3a1hUX0ZuWHNGNUYyUXRPZ0Z6dm5IdDBHZVpiUS1OR1NsVDVJT2FN?oc=5",
+   "ek": "2026-10-14"
   },
   {
    "sebep": "tekrar",
@@ -2941,6 +2935,48 @@
    "baslik": "ArcelorMittal Poland completes construction of ZAM roll coating line",
    "url": "https://metallurgprom.org/en/news/europe/18814-arcelormittal-poland-zavershaet-stroitelstvo-linii-nanesenija-pokrytija-na-rulony-zam.html",
    "ek": "2025-12-11"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Partnering with Shandong Zhongxin to Deliver High-End Galvanizing and Continuous Annealing Lines for Automotive Steel Upgrading",
+   "url": "https://johncockerill.com/en/press-and-news/news/cgl-cal-shandong-zhongxin/",
+   "ek": "2026-02-26"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Tata Steel selects Danieli for a combined pickling and galvanizing line for hot-rolled coated products",
+   "url": "https://www.danieli.com/en/news-media/news/tata-steel-selects-danieli-combined-pickling-and-galvanizing-line-hot-rolled-coated-products_37_876.htm",
+   "ek": "2024-03-11"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Borcelik endorses Danieli with order for cold-strip complex",
+   "url": "https://www.danieli.com/en/news-media/news/borcelik-endorses-danieli-order-cold-strip-complex_37_912.htm",
+   "ek": "2024-07-29"
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "Primetals Technologies to supply continuous galvanizing and pickling line to Chengde Steel",
+   "url": "https://www.primetals.com/press-media/news/primetals-technologies-to-supply-continuous-galvanizing-and-pickling-line-to-chengde-steel",
+   "ek": ""
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Primetals Technologies awarded contract for hot-dip galvanizing line at JFE Steel",
+   "url": "https://www.primetals.com/en/news/primetals-technologies-awarded-contract-for-hot-dip-galvanizing-line-at-jfe-steel/",
+   "ek": "2025-11-25"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "India's JIL commissions continuous color coating line completing $155 million capex program",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/indias-jil-commissions-continuous-color-coating-line-completing-155-million-capex-program-1454553.htm",
+   "ek": "2026-05-20"
+  },
+  {
+   "sebep": "pencere_disi",
+   "baslik": "Turkey's Borcelik partners with Danieli for cold-rolled strip complex",
+   "url": "https://www.yieh.com/en/NewsItem/149395",
+   "ek": "2024-08-01"
   },
   {
    "sebep": "tekrar",
@@ -2989,12 +3025,6 @@
    "baslik": "Jindal India Commissions Continuous Galvanizing Line in West Bengal",
    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9yekFtbHFNMHVjb3VMODFsR09EemdFaVFCS1RFSFZ0QmZMNnRlSnV6bHFZUU1MMDFIdDVOV0dTc0VhNDZ2V1FnS0dXLTF5MjVE?oc=5",
    "ek": "ayni olayin varyanti: *|ulke-hat|Hindistan|Galvaniz hatti (CGL)|Ilk urun; jindal india|fu|Hindistan|Galvaniz hatti (CGL); jindal india|hat|Galvaniz hatti (CGL)|Ilk urun; jindal india|ulke|Hindistan|Ilk urun"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Tata Steel Colors launches Colorcoat pre-painted steel in India",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQNnFIZU9NZWN0ejJBbWllanlhYXpYaGI0TExkQl9waTVXbFNEMGNUOWk1dnhFa1d0LUtCTlRxd1U4M3VkNVBHMVpuRGg3UzJXWEczeGlNUFd2OE5ES0lNUXdHQk51d2sxdmxkeWlWSkJNZkZGOUN4R2NaaHFPYVU?oc=5",
-   "ek": "2026-10-12"
   },
   {
    "sebep": "pencere_disi",
@@ -3058,6 +3088,12 @@
   },
   {
    "sebep": "pencere_disi",
+   "baslik": "BlueScope produces first galvanized coil on new ANDRITZ line in Australia",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOSzBkZTFxRFdYNVE5WlNtYmNIQXh5dkpkQWJVa0xQdU1GUkw4NXV5eEFjR1gwelZHMWFXUUVnMGxkQzBHUGdUUWxGSWUyNm96cm1wNVI2SEFGb1NfYUlmZEtXalR0X1FmSmxycDBLQlk2aUVsdVpNMGlWS2xaYWRrS1QzaVZkRDFiWkxzN2pnczNLekljd0JpZzd4aUNfenZmak1RNnF5Nzk3a1hUX0ZuWHNGNUYyUXRPZ0Z6dm5IdDBHZVpiUS1OR1NsVDVJT2FN?oc=5",
+   "ek": "2026-10-14"
+  },
+  {
+   "sebep": "pencere_disi",
    "baslik": "Yıldız Demir Çelik Şirketi Kartepe haddehane projesine karşı vatandaşlar çadır kurdu - Bağımsız Kocaeli Gazetesi",
    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPRVNjSWFzX0dQRjNFbXYtTnVVd3BlTnpHTUhGeGdEcnRoUXB5cHpEcjl0MTVwaHhqUmpEZkxwSEZQbVJKcEJZTWxpWmllbFFkMWR6SFJLc3hoMVRTMU5iQVFZSDRFQkFaX2pMTVNySV81c3h4dmhHUHNwVlpnc0VVd2hxOXZCMk9hNkwtQl9kcjhVTU5ETzRFU0VVekRjc0ZJN3JXV0VfWnRTRVNreExZX013ZTFmV1k1S0FTNGF5M3JFaDZTUHp5cFlXSlctajdZbWVIdmZR?oc=5",
    "ek": "on eleme: 2025-11-07"
@@ -3112,6 +3148,12 @@
   },
   {
    "sebep": "pencere_disi",
+   "baslik": "Tezcan Galvaniz patronundan işçiye saldırı ve hakaret - Gazete Duvar",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOYWRLOEExSjhSS0NCMzVlUVhOOGFILU5lTXI3N0tPME9qLTY1MXM2MThHNE1wb3YzTmVzYVpjUS1udkZNcDRFTU04dFgtbmNXWEJaM2YzS2hXVER6dUgwYk5ReWhQYXVfOFdwMmY5OE90QTZpMUY4NnhKMXJXLWZFc1pXWk41YWZsd0dETGVBZHJWT0MxU3BoenVaQ2lRLTQ?oc=5",
+   "ek": "on eleme: 2024-01-02"
+  },
+  {
+   "sebep": "pencere_disi",
    "baslik": "Tezcan Galvaniz işçileri grevle kazandı: Patron yüzde 8 dayatmıştı, işçiler yüzde 71 zam aldı - Evrensel.net",
    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMGFxdTduY0w5MmQzdnpNb0pJcUxCZ2I2V0hMMDFUVGRXWVZUbmpkM2tIZ3htX1o1dmkwMUZJci0zUkFBQzkwWFVSN3MzOTF0ekxmd3ctSldCLUtFanlYamFLbUpiSjBRZHRraFlqbW1oeUFTWUZYWU1ubWpoNm9kNjh1Vm1yNVF1eVd3Y3RGOVd0RE9FeTNOZDIydExGZjZ0VWVLSEdVdWRqNnRPaDBtU2V1dTNKeDlGY2l3UTJEYjVlNlQ5aDg2Wg?oc=5",
    "ek": "on eleme: 2025-04-27"
@@ -3148,27 +3190,15 @@
   },
   {
    "sebep": "pencere_disi",
-   "baslik": "Tezcan Galvaniz’de patron yüzde 8 dayattı, işçiler greve çıktı - Evrensel.net",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRHJjRkRsM3o3OTM2ZFZzeldwYVE0akpONEFjWWxQZHNpckR4aXEwY1cyTU1DX2R3RExPZ2dMZVhkS29Qd0xpSzM3U2dSMHdDT3Q4VDF4TEFUa1UwdGh5cUQyZGIzMm13eVdTcVZ3cGRuaUhUbFJDbjdxMi1DX09MdnotMmNIaElDd0JIYWNRS3BkMDZYdWNCY0E3THIwWGc?oc=5",
-   "ek": "on eleme: 2025-03-11"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Kocaeli'de Tezcan Galvaniz Fabrikasında iş cinayeti - soL Haber",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaTJVdnpQdTA3S0ota3plbTJoQldIWnJqY2NWc2wwRWJrSUthdENtZENCbDZlQWNadndxUXFTTWNwbU9zOFpYUFpqdTRDVEYzdDBZbWVvcTdCU2FnNG9nTnVlams2cGM2U2VJU01PaWdSUHk3SV9xdlVKTEo2RzR3UTBsS3BCMW00RXRMVFl6ajdORXVGVzMw?oc=5",
-   "ek": "on eleme: 2018-05-12"
-  },
-  {
-   "sebep": "pencere_disi",
    "baslik": "Tezcan Galvaniz işçileri baskı ve mobbinge uğruyor - Evrensel.net",
    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVU91QWRPZ2NITm1SRnNxVWg1bFphSU91bkhrajhGQlQ4emJDaExNcjFJRE5BM083TXR6ZkN3R0Nhc2E0OW1uYjFWbTJKS2hSd1Q1Z1hpRFd0SU54V2I2WGxNbFgxR2RXaEg3aXljaGlWSm12Q24wSG1CbUwzRDFQZGtJVVI1ak5YZzNtRUpMUjJIZw?oc=5",
    "ek": "on eleme: 2025-10-02"
   },
   {
    "sebep": "pencere_disi",
-   "baslik": "Tezcan Galvaniz patronu işçi dövdü - Evrensel.net",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9KcE80RWRJcHNZcEE4aXplY1ZPS2VHTEJoek92NUVZQ0V3S0JxdzI0dldMeWFFcDhzODZKbk9yc29Uems3aWdrZ0NkcmJMc0ZYdEVMUkdzTzRYWTFOcGdHRHFibU9ILUdlZjFLY0l2QlJPRHcydHY0aEtDSzM?oc=5",
-   "ek": "on eleme: 2024-01-02"
+   "baslik": "Kocaeli'de Tezcan Galvaniz Fabrikasında iş cinayeti - soL Haber",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaTJVdnpQdTA3S0ota3plbTJoQldIWnJqY2NWc2wwRWJrSUthdENtZENCbDZlQWNadndxUXFTTWNwbU9zOFpYUFpqdTRDVEYzdDBZbWVvcTdCU2FnNG9nTnVlams2cGM2U2VJU01PaWdSUHk3SV9xdlVKTEo2RzR3UTBsS3BCMW00RXRMVFl6ajdORXVGVzMw?oc=5",
+   "ek": "on eleme: 2018-05-12"
   },
   {
    "sebep": "pencere_disi",
@@ -3199,48 +3229,6 @@
    "baslik": "Tezcan Galvaniz’de anlaşma sağlandı! - Kocaeli Gazetesi",
    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNMGFoX2NiMEJUMzlKM3NxUzVjMXRmMDlkYURoNFh0Wm5KTTlYclBFcEY2NVIwYlpqRE4wZjlqX2ktVVB3ckVoSk84TGFqU1h6WFhWeDBpVTk2UkktRzN6VjE3cmY1NUdjbC1XNFpPWWNMZGZ0RDJ3ajI4ZTZwaERnQlAxWnJaQ1dURkxKWNIBkgFBVV95cUxNc1dsTWZUM3k0YUtTeWVJUkJwRUtoa0tQbHJFanY5MF9tZHV5V3Q2NnNsam1zcThqbnh6S2JzVUhHTjdwblJJZzhzR190WnJtd0xlVWQ2VmdRWUp3dVVQbEFLLXJ0TDBwMmE4bmFtT0x0TGJMaGFJMUZYYS1kZGRrUGVXNlZKZFo4Z0EwYzVuQk0tZw?oc=5",
    "ek": "on eleme: 2025-04-29"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Tezcan Galvaniz’de adım adım greve! - Kocaeli Gazetesi",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNWGdPeXE5T2p2cnAzYzB4TG1RYmdoQ3IxWXY3UVhqeFN2R1NmOWJsWEU4MUV4cXVFSF9STll3YXNrUEp4ZHRMMTN6b0lyWGtlTFB6aWM5dW1mYVd3SkxyUUZuY3dpN08tMy16X2EwTGxTOE03eWx6SlI1MGpxUk4wVFo5M0lCeEpMZk000gGQAUFVX3lxTE5rSWlIc3pHSy1rQy1ncEVHZG5TcTJONklROGZxejA4SUVGVXg0VlJvR1ZJZzV3SGJfbHhaMDVkbHN5eFYySUdmRWJyQ2pSZENYREwybFMyWFpfNHM0MUE5eXNURUlBOVBoZVVnMm1wS2hIeUM2QzhoLURuN093cnVjLWpIaEh5Z0toMG1UblNLRw?oc=5",
-   "ek": "on eleme: 2025-02-20"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Tezcan Galvaniz'de grev kırıcılığı... Sevkiyat personeli iş kazası geçirdi! - Nokta Gazetesi",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNUHNFdVl3NElsam1tdmdaZVNucEtETklUdE45ZTRMdFNYMU91RWpmRWdocTgxVU42RVhSeVF0RUd1Q19nbmVwYUZfLXpRM0FrY2FrTVNxVkpfMzI3a3Z2cVN3SWZfV0laSUh0QlhrbXBGeV85dGNxY3lHcWF4bUhVeFludVJmbWV5SVBaal9DWEhRRldsdlFlN0h2OHRVVG1yX1UyalRlMlZ5T3c1d2Vnei0zQXpvNVBIN2dOZFpR?oc=5",
-   "ek": "on eleme: 2025-03-18"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Tezcan Galvaniz’de işçiler greve çıktı! - Bağımsız Kocaeli Gazetesi",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSmlfbXlIWnVFVWJSaktOTTVBTFFuYUVtRnlFRjU1Ni1mUjVGQUVvbFliVEJZT0kzd2dhX2tUalV4YndCS1F3Xy10LTFlTU1nN2lRVmVzTG9HZ2RzSHQybXBXeWZiT2pyUm0xS3NsXzhVcS1uOV9TSVJMNVdGZWYxWG1yWDdxbW10dDlBcDc4ai1PZXpFa2dF?oc=5",
-   "ek": "on eleme: 2025-03-11"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Tezcan Galvaniz işçileri: Bu ilk değil - Özgür Kocaeli",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOVEpwZzNtT0hEcmRmMHhzOEdxR2J1YjR5NnpnYWxjMnk3Q1hmVWpSbURqeDlrY1FwMmY4OXNBUFU3Z0FDSktDMlkzU1RDQmN6dWg4UzlwYmhqNWNoVnkyMUwtd3o2WDJLcWU1b0M1MzBEWXpwSW5QVllXdDR1eGdpcExIWG9ybUsxVU44V9IBkgFBVV95cUxNUTFaWVJUb3FLZWVvUFRBMVF5cV9sRlY0RXl6MF9tRVdwUjNqYk9nTGp1bWg1UVhCY3V5emUyZlY4WlNKVDlkZXdwMkxvbHdDYnByWlhnX1pSN2NhQ0k2WG9YbnIxWG0zVTZTSVZSRTY3Q1VrR0RtaHFaMFhfa25rRmVtcjRQVHRXVlNxc21yRjlmZw?oc=5",
-   "ek": "on eleme: 2024-01-03"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Tezcan Galvaniz'den grev kararı - Kocaeli Gazetesi",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTnBkVjVoYUFXb2JTcmxOUVBHYzc3OTdpRDdLa0pqRXNSV3dCOWNjVndPVnJTeXlDSGN0d3NSOGJCVGhHbE1BYkU0dFhwLUxvX180UlUwRFNjRU9nZ05ITUhrT2RuWmdRZGZfOG5BWGd2NnJYQ0pjdnhHRW5IOHRxaHFVa3gwbW_SAYwBQVVfeXFMTm12TWxWNXVMUHZaTVk5U0lPTmRrd1VXc3h0Vy1Tc1JXWHdWVkp2YkZ5YUs5MmUySnNXQjdHTHUzS1AtN29WSW5yTkZ5T1ZkTzNqMXFHM2RSOEl5WC10U3pORHdEeEtOYkhzNXFxYWxUYVN3VHdCeWlma3hkQzFCcHZzSFZmQjVzYkFBN0M?oc=5",
-   "ek": "on eleme: 2025-02-26"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Tezcan Galvaniz işçinin kararlı mücadelesi bayramda da devam ediyor! - Kocaeli Gazetesi",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdnhETlBidGtBdGkzWHdMTmVKc0lfZzI2R2pEQlZrRU91VlZtTXUxRzdldTJiNC1sdzBzTjBacy0tYktoNE1nQkNjSXZPN3V5cmQ0MXo4RUJDUElRTHlDWjR6MDZTZU9KOGZYWkc2a29QcU1taDZRSGM1MjNFYnpISG5yNzlJRnoxUTJNcEMtQ2kzOG8wMlZFWHFTaHB4NjZuOERvYUdIbjREdDB5dGEtSzBSRlQ4X3hv0gG-AUFVX3lxTE1PczN6ek5WcjhzbGVtcHpMV0Nsc0ZJcGRCbTNNN3YyaWFzVE5GM1EyU3h2Z2M5ekl0VnpfNUs4dEhWVGN0TUFfaTJSaW9IM2hTMlMtQnI0SWFmWVBVY2FrV3VmUmlVN2hSejdMb2R3QVZyX0o5NzA2YWp5bEJ5R2E4dTFlUWVMdmpBYnBOR3BaSnNVN0IwNTUwV1lNQ3NFMkVOX2Q5U2VDUDJQWFIzY2g4YTZHcnZEVkw2S1ppS2c?oc=5",
-   "ek": "on eleme: 2025-04-01"
-  },
-  {
-   "sebep": "pencere_disi",
-   "baslik": "Tezcan Galvaniz işvereninden skandal karar - Özgür Kocaeli",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNWhCaXNRRXhNc3JLS2M1N0lqMHdSQksxcDNPNGxWQW5EcXJIazNqLVMtenhTZkJXNmdwYmE3eFpWQlhOQVVaMkxqWEtFZU9rSm9PREZoVm9kMGQ4MU1EZnBRRHJ3UEFjWHRSUGVjZ1R4V28tRWlYMVlwUUVDWjlLS2lMN1E4UDJDbDg2eE5UazRJQzjSAZgBQVVfeXFMT2hza1ljaGJtMGtCR1FEdmpvbnNxcHhNbmZXN3gtN2M1V2tCWDBBbEttb2dTZFdlYVJ1N0JoX2Z5bjZJaVBOVFdLYzE5WGJQSjdaTy1IUmdOV0J1bXRSUnlPY0F6ajVjOXoyZWYzMF90SmlnYUlYZGR0bkdKckVUcnNMN0JVN1ZuOXIyM2swNU9JMlY2NFN5a3Y?oc=5",
-   "ek": "on eleme: 2023-08-18"
   },
   {
    "sebep": "tarihsiz_elendi",
@@ -3274,6 +3262,12 @@
   },
   {
    "sebep": "tekrar",
+   "baslik": "JTL Industries Advances Maharashtra Expansion with Successful Pickling Line Trial and GP Line Testing",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQlhUQkFxZ0p4LXQxYlFPWWY3bUozMGR4UEFqQ2NDVUN3bHdfVndpVVduV1VQQmxvblVVUWhJd0JxYndxSlhTY21TOURGR2I3TzVTMUxvYWJyOUZXaXAwajRaTHgwbVlBaWJxQ2JpUG0zbGNTdFhfT1B4Tk5KUUJjYkJxZEFvcEM5TkF4V3diQ3E0TG5iaURlRlBIeURwWnBnTHNmQlZnNmIzRlB3Vk5JQzFaVkp5RFR6Z1g5Qm5KN2N1YjNUakhsLXRhTVBYcHRO?oc=5",
+   "ek": "benzer baslik (gecmis 21 gun)"
+  },
+  {
+   "sebep": "tekrar",
    "baslik": "Nucor and Primetals Technologies Produce First Prime Coil on New Galvanizing Line in South Carolina",
    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPZ2pFbEo5MDJlNGdLVTM3UGxHSVJQUG1sTVN3OTFvUkZMeGl0QkJSQ3g2R01Qal9nS3JZUmJOZmM5RzVTNnZ2UktCQk5ubmNqTWR0N05TVEdqM2xFYV9JZkQ5SGhzdGw3bm5fREk4YVVlWFVYSDA1WGM0NnNHcGs2ZW9nZXZRd19BRVJ1Tk4zc2lpUVBxdGpWbXVCcEY2Mm1fT0E4eEVaSlhZcURvSVo3blFqM0FXcXhNM2hlTjRvTDQwSVFtcXl0NHctMzgyQQ?oc=5",
    "ek": "ayni olayin varyanti: nucor and primetals technologies|hat|Galvaniz hatti (CGL)|Ilk urun; primetals|hat|Galvaniz hatti (CGL)|Ilk urun"
@@ -3286,6 +3280,12 @@
   },
   {
    "sebep": "tekrar",
+   "baslik": "JTL Industries Advances Maharashtra Facility Expansion with Hot Trial of Pickling Line and Cold Trial of GP Line",
+   "url": "https://www.equitybulls.com/news/378747/jtl-industries-advances-maharashtra-facility-expansion-with-hot-trial-of-picklin",
+   "ek": "benzer baslik (gecmis 21 gun)"
+  },
+  {
+   "sebep": "tekrar",
    "baslik": "New continuous galvanising line for Nucor Corporation",
    "url": "https://www.steeltimesint.com/news/new-continuous-galvanising-line-for-nucor-corporation",
    "ek": ""
@@ -3293,7 +3293,7 @@
   {
    "sebep": "tekrar",
    "baslik": "Jindal (India) commissions revamped galvanising line at Bengal plant",
-   "url": "https://www.msn.com/en-in/technology/general/jindal-india-commissions-revamped-galvanising-line-at-bengal-plant/ar-AA2gbdJ3",
+   "url": "https://www.msn.com/en-in/news/other/jindal-india-commissions-revamped-galvanising-line-at-bengal-plant/ar-AA2gbdJ3",
    "ek": "ayni olayin varyanti: *|ulke-hat|Hindistan|Galvaniz hatti (CGL)|Ilk urun; jindal (india)|fu|Hindistan|Galvaniz hatti (CGL); jindal (india)|hat|Galvaniz hatti (CGL)|Ilk urun; jindal (india)|ulke|Hindistan|Ilk urun"
   },
   {
@@ -3340,9 +3340,9 @@
   },
   {
    "sebep": "tekrar",
-   "baslik": "Nucor produces first prime coil at new Berkeley galvanizing line",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/nucor-produces-first-prime-coil-at-new-berkeley-galvanizing-line-1488871.htm",
-   "ek": "ayni olayin varyanti: *|ulke-hat|Birlesik Krallik|Galvaniz hatti (CGL)|Ilk urun; nucor|fu|Birlesik Krallik|Galvaniz hatti (CGL); nucor|hat|Galvaniz hatti (CGL)|Ilk urun; nucor|ulke|Birlesik Krallik|Ilk urun; primetals|fu|Birlesik Krallik|Galvaniz hatti (CGL); primetals|hat|Galvaniz hatti (CGL)|Ilk urun; primetals|ulke|Birlesik Krallik|Ilk urun"
+   "baslik": "New continuous galvanising line for Nucor Corporation",
+   "url": "https://www.steeltimesint.com/news/new-continuous-galvanising-line-for-nucor-corporation",
+   "ek": ""
   },
   {
    "sebep": "tekrar",
@@ -3358,6 +3358,12 @@
   },
   {
    "sebep": "tekrar",
+   "baslik": "Nucor and Primetals Technologies Produce First Prime Coil on New Galvanizing Line in South Carolina",
+   "url": "https://themachinemaker.com/news/nucor-and-primetals-technologies-produce-first-prime-coil-on-new-galvanizing-line-in-south-carolina/",
+   "ek": "ayni olayin varyanti: nucor and primetals technologies|hat|Galvaniz hatti (CGL)|Ilk urun; primetals|hat|Galvaniz hatti (CGL)|Ilk urun"
+  },
+  {
+   "sebep": "tekrar",
    "baslik": "New continuous galvanising line for Nucor Corporation",
    "url": "https://www.steeltimesint.com/news/new-continuous-galvanising-line-for-nucor-corporation",
    "ek": ""
@@ -3388,15 +3394,15 @@
   },
   {
    "sebep": "tekrar",
-   "baslik": "Jindal India commissions revamped galvanising line at Bengal plant",
-   "url": "https://www.constructionweekonline.in/business/jindal-india-commissions-revamped-galvanising-line-at-bengal-plant",
-   "ek": "ayni olayin varyanti: *|ulke-hat|Hindistan|Galvaniz hatti (CGL)|Ilk urun; jindal india|fu|Hindistan|Galvaniz hatti (CGL); jindal india|hat|Galvaniz hatti (CGL)|Ilk urun; jindal india|ulke|Hindistan|Ilk urun"
-  },
-  {
-   "sebep": "tekrar",
    "baslik": "Jindal India Commissions Revamped Galvanising Line, Boosts Capacity",
    "url": "https://money.rediff.com/news/market/jindal-india-commissions-revamped-galvanising-line-boosts-capacity/56985120261027",
    "ek": ""
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "Jindal (India) commissions revamped galvanising line at Bengal plant",
+   "url": "https://www.msn.com/en-in/news/other/jindal-india-commissions-revamped-galvanising-line-at-bengal-plant/ar-AA2gbdJ3",
+   "ek": "ayni olayin varyanti: *|ulke-hat|Hindistan|Galvaniz hatti (CGL)|Ilk urun; jindal (india)|fu|Hindistan|Galvaniz hatti (CGL); jindal (india)|hat|Galvaniz hatti (CGL)|Ilk urun; jindal (india)|ulke|Hindistan|Ilk urun"
   },
   {
    "sebep": "tekrar",
@@ -3415,6 +3421,12 @@
    "baslik": "Nucor produces first prime coil at new Berkeley galvanizing line",
    "url": "https://www.steelorbis.com/steel-news/latest-news/nucor-produces-first-prime-coil-at-new-berkeley-galvanizing-line-1488871.htm",
    "ek": "ayni olayin varyanti: *|ulke-hat|Birlesik Krallik|Galvaniz hatti (CGL)|Ilk urun; nucor|fu|Birlesik Krallik|Galvaniz hatti (CGL); nucor|hat|Galvaniz hatti (CGL)|Ilk urun; nucor|ulke|Birlesik Krallik|Ilk urun; primetals|fu|Birlesik Krallik|Galvaniz hatti (CGL); primetals|hat|Galvaniz hatti (CGL)|Ilk urun; primetals|ulke|Birlesik Krallik|Ilk urun"
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "Jindal India commissions galvanizing line in West Bengal",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/jindal-india-limited-commissions-continuous-galvanizing-line-at-its-west-bengal-steel-mill-1486940.htm",
+   "ek": "ayni olayin varyanti: *|ulke-hat|Hindistan|Galvaniz hatti (CGL)|Ilk urun; jindal india|fu|Hindistan|Galvaniz hatti (CGL); jindal india|hat|Galvaniz hatti (CGL)|Ilk urun; jindal india|ulke|Hindistan|Ilk urun"
   }
  ]
 }

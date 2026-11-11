@@ -1,6 +1,31 @@
 {
  "bulunan": [
   {
+   "anahtar": "a1e849bc52d2aca2",
+   "asama": "Sozlesme",
+   "baslik": "Jastrzębska Spółka Węglowa secures loan from ARP for restructuring",
+   "eksik": [
+    "ulke"
+   ],
+   "firma": "Jastrzębska Spółka Węglowa",
+   "hat": "Asit rejenerasyonu (ARP)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "SteelOrbis",
+   "kaynak_id": "steelorbis",
+   "lead": "English Türkçe Italiano 中文 | Login Menu Marketplace Global Marketplace Access to the listings of different steel products and bids without intermediaries and commissions. Steel Markets Steel Prices Daily Steel Prices Weekly Steel Prices Steel Price Analysis Tool Orbis Steel Index Futures Prices Steel Price Analyses Scrap & Raw Materials Tube and Pipe Flats and Slab Longs and Billet Products Scrap Iron ore Billet-Slab",
+   "olaylar": [
+    "jastrzębska społka węglowa|hat|Asit rejenerasyonu (ARP)|Sozlesme"
+   ],
+   "puan": 63.0,
+   "tarih": "2026-11-11",
+   "tarih_kaynagi": "json-ld",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/jastrzbska-spka-wglowa-secures-loan-from-arp-for-restructuring-1490056.htm"
+  },
+  {
    "anahtar": "f4884c93e0340d67",
    "asama": "Belirsiz",
    "baslik": "Man-less entry section and centralized control of the tandem cold mill at Tata Steel Ijmuiden",
@@ -2251,9 +2276,43 @@
     "tekrar": 63
    },
    "uretim": "2026-11-10 19:19 UTC"
+  },
+  {
+   "donem": "2026-W46",
+   "satir": 6,
+   "stats": {
+    "erisilemeyen": 6,
+    "gnews_tarih": 0,
+    "ham": 3882,
+    "kabul": 3,
+    "kapsam_disi": 3436,
+    "kaynak": 315,
+    "makale_acildi": 228,
+    "on_eleme_gecti": 445,
+    "pencere_disi": 272,
+    "tarihsiz_elendi": 105,
+    "tekrar": 66
+   },
+   "uretim": "2026-11-11 11:04 UTC"
   }
  ],
  "piyasa_rezerv": [
+  {
+   "anahtar": "piyasa:c9fcbc75a017ecc8",
+   "baslik": "Malaysia imposes provisional AD duties on coated steel",
+   "kaynak": "Kallanish",
+   "lead": "Malaysia has imposed provisional anti-dumping duties of 4.41-35.06% on imports of aluminium-zinc coated flat-rolled steel products...",
+   "tarih": "2026-11-11",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/malaysia-imposes-provisional-ad-duties-on-coated-steel-1126/"
+  },
+  {
+   "anahtar": "piyasa:df316110fb4a3d58",
+   "baslik": "3-Piece Tinplate Aerosol Cans Market Momentum: Advancing Packaging Stability and Manufacturing Efficiency",
+   "kaynak": "openPR.com",
+   "lead": "3-Piece Tinplate Aerosol Cans Market Momentum: Advancing Packaging Stability and Manufacturing Efficiency &nbsp;&nbsp; openPR.com",
+   "tarih": "2026-11-11",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQlAxZ09hRklrU3dMdzVDX3k1MXEwRzhXWVRFNnNKVm02RC1wUXVnSUkwMV94bUlPVkZyeHg5dXZwd2dDVjZYMmFmR1FNdllLalJNakNiYVgtdUtzVE5Ib2ZaWjlMTDA0VUlRVFBZTHdOaGE3U2VaX2tOZHhGZjhQZk5iOWhUcUhiYlk1RDd6YjlGdzFBaGc?oc=5"
+  },
   {
    "anahtar": "piyasa:192e476039a3dc9a",
    "baslik": "Vietnam to launch cold-rolled stainless steel imports probe",

@@ -24,7 +24,59 @@
    "olaylar": [
     "primetals@produce|hat|Galvaniz hatti (CGL)|Ilk urun"
    ],
-   "puan": 70.4
+   "puan": 70.0
+  },
+  {
+   "tarih": "2026-11-11",
+   "firma": "Jastrzębska Spółka Węglowa",
+   "ulke": "",
+   "hat": "Asit rejenerasyonu (ARP)",
+   "asama": "Sozlesme",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "Jastrzębska Spółka Węglowa secures loan from ARP for restructuring",
+   "kaynak": "SteelOrbis",
+   "kaynak_id": "steelorbis",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/jastrzbska-spka-wglowa-secures-loan-from-arp-for-restructuring-1490056.htm",
+   "tarih_kaynagi": "json-ld",
+   "lead": "English Türkçe Italiano 中文 | Login Menu Marketplace Global Marketplace Access to the listings of different steel products and bids without intermediaries and commissions. Steel Markets Steel Prices Daily Steel Prices Weekly Steel Prices Steel Price Analysis Tool Orbis Steel Index Futures Prices Steel Price Analyses Scrap & Raw Materials Tube and Pipe Flats and Slab Longs and Billet Products Scrap Iron ore Billet-Slab",
+   "eksik": [
+    "ulke"
+   ],
+   "anahtar": "a1e849bc52d2aca2",
+   "kategori": "Hat",
+   "olaylar": [
+    "jastrzębska społka węglowa|hat|Asit rejenerasyonu (ARP)|Sozlesme"
+   ],
+   "puan": 63.0
+  },
+  {
+   "tarih": "2026-11-09",
+   "firma": "Tata Steel Ijmuiden",
+   "ulke": "",
+   "hat": "Tandem soguk hadde (TCM)",
+   "asama": "Belirsiz",
+   "tedarikci": "SMS group",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "Man-less entry section and centralized control of the tandem cold mill at Tata Steel Ijmuiden",
+   "kaynak": "SMS group",
+   "kaynak_id": "gs_sms",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPMmZ5bFVjWDc2RnFZYnVSQmN1MXhQQ3hyVnhqRUpKR18zOS03OGpMTHdNajlMQTFUekUxM3ZSb3RybFFtTnQ0WmdNeExnS3Y1RVY3ZVAwb3hEb3d3RExMQXNzSXJBdS1nRmxJTXRSRGZPbjBOQmRiMkJhajc2Nl9CbkR3Um9LVG5UUjZNY3Z4dzJ5WEl6RWt0cmxyd00wVjJBQmE4aXZaenFTcDk4MEZ6MUE0ZHJCZEsxa3M1blZVWGNzQm00dmdqLTlVQnQ5Ty05RllFVE9nM2dnNy16Z0NoLQ?oc=5",
+   "tarih_kaynagi": "rss",
+   "lead": "Man-less entry section and centralized control of the tandem cold mill at Tata Steel Ijmuiden &nbsp;&nbsp; SMS group",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "anahtar": "f4884c93e0340d67",
+   "kategori": "Hat",
+   "olaylar": [
+    "sms group|hat|Tandem soguk hadde (TCM)|Belirsiz",
+    "tata steel ijmuiden|hat|Tandem soguk hadde (TCM)|Belirsiz"
+   ],
+   "puan": 44.2
   },
   {
    "anahtar": "90e30cb4756c40e2",
@@ -53,31 +105,6 @@
    "tutar": "",
    "ulke": "",
    "url": "https://news.metal.com/en/newscontent/104207357-纽柯在南卡罗来纳州新建50万吨年汽车板镀锌线产出首卷优质卷板"
-  },
-  {
-   "anahtar": "3705534b48675072",
-   "asama": "Ilk urun",
-   "baslik": "Italy's ABS Opens Special Steel Service Center in Sweden",
-   "eksik": [],
-   "firma": "ABS",
-   "hat": "Dilme / boy kesme / SSC",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "SMM (Shanghai Metals)",
-   "kaynak_id": "smm",
-   "olaylar": [
-    "*|ulke-hat|Italya|Dilme / boy kesme / SSC|Ilk urun",
-    "abs|fu|Italya|Dilme / boy kesme / SSC",
-    "abs|hat|Dilme / boy kesme / SSC|Ilk urun",
-    "abs|ulke|Italya|Ilk urun"
-   ],
-   "puan": 47.0,
-   "tarih": "2026-09-25",
-   "tarih_kaynagi": "json-ld",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "Italya",
-   "url": "https://news.metal.com/en/newscontent/104134675-italys-abs-opens-special-steel-service-center-in-sweden"
   },
   {
    "anahtar": "16c1c1e154dad064",
@@ -130,45 +157,19 @@
    "tutar": "",
    "ulke": "",
    "url": "https://www.ims-gmbh.de/en/2026/10/06/ims-expands-its-portfolio-with-force-transducers-forprecise-force-measurement-under-demandingconditions-in-hot-and-cold-rolling-mills/"
-  },
-  {
-   "anahtar": "7fd7261209402c52",
-   "asama": "Ilk urun",
-   "baslik": "Gopani Industries Successfully Rolls First Prime Coil from New Cold Rolling Mill",
-   "eksik": [],
-   "firma": "Gopani Industries Successfully",
-   "hat": "Soguk hadde",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "Tube & Pipe India",
-   "kaynak_id": "gq_hat02",
-   "lead": "Gopani Industries Successfully Rolls First Prime Coil from New Cold Rolling Mill &nbsp;&nbsp; Tube & Pipe India",
-   "olaylar": [
-    "*|ulke-hat|Hindistan|Soguk hadde|Ilk urun",
-    "gopani industries successfully|fu|Hindistan|Soguk hadde",
-    "gopani industries successfully|hat|Soguk hadde|Ilk urun",
-    "gopani industries successfully|ulke|Hindistan|Ilk urun"
-   ],
-   "rezerv": true,
-   "tarih": "2026-10-05",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "Hindistan",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zb1JoVG1BQ1FSRlp3Qk02Zl9CaTZ3ME9XLTktbW1rcXhBR0pkMDhLOTZfT0V5LWdwcXZScW5rYzFpS1FjVXhhWU53UzNXeHozRTBpWG12T3R0XzdiZ1BIN1hVeVo2VnV4?oc=5"
   }
  ],
  "stats": {
   "kaynak": 315,
-  "erisilemeyen": 5,
-  "ham": 3951,
-  "on_eleme_gecti": 443,
-  "makale_acildi": 226,
+  "erisilemeyen": 6,
+  "ham": 3882,
+  "on_eleme_gecti": 445,
+  "makale_acildi": 228,
   "tarihsiz_elendi": 105,
-  "pencere_disi": 273,
-  "kapsam_disi": 3506,
+  "pencere_disi": 272,
+  "kapsam_disi": 3436,
   "tekrar": 66,
-  "kabul": 1,
+  "kabul": 3,
   "gnews_tarih": 0
  },
  "unreachable": [
@@ -181,16 +182,20 @@
    "HTTP 429"
   ],
   [
+   "ArcelorMittal",
+   "HTTP 403"
+  ],
+  [
    "Steel Radar",
    "HTTP 403"
   ],
   [
-   "SteelGuru",
-   "URLError: <urlopen error timed out>"
-  ],
-  [
    "BigMint (SteelMint)",
    "HTTP 403"
+  ],
+  [
+   "MetalForming Magazine",
+   "HTTP 404"
   ]
  ],
  "kinds": {
@@ -510,7 +515,7 @@
   "bgtek_jc": "arama",
   "bgtek_danieli": "arama"
  },
- "today": "2026-11-10",
+ "today": "2026-11-11",
  "host_saglik": {
   "news.google.com": {
    "istek": 123,
@@ -530,12 +535,12 @@
   "new.abb.com": {
    "istek": 3,
    "hiz_siniri": 2,
-   "sogutmada": false
+   "sogutmada": true
   },
   "www.cognex.com": {
    "istek": 2,
    "hiz_siniri": 2,
-   "sogutmada": false
+   "sogutmada": true
   }
  },
  "tech_pool": [
@@ -604,14 +609,6 @@
    "hat": "Elektrik celigi hatti"
   },
   {
-   "anahtar": "tech:1550467e340cb8e0",
-   "tarih": "2026-07-29",
-   "baslik": "[SMM Analysis] Cold-Rolled and HRC Profits Continue to Shrink: Can the Peak Season Bring a Breakthrough?",
-   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOSzlmN2FrMk01al8xRm5iSDNVdzl5Y3VwT1pnVTYwTk84aU1rT2dlaHhaMUF0WDM2RkozYmk3Zmt5aTZJcXVTQks2SXBhVXliU181UVdDTU9kMTFhOW5yTjRPZ2NQQUt4RFVBLWU1YTNWeG4zZVBGNjNoOXVJZ28wcmdaQnc3Z1RacF9ITWdxMFB2Yjd2bU1jaWl2MFFkUGRPaHBva2hHelRtU2dUUHR0QmViaWtpOXg4TjNxU09SY3NWcWJtOW9LTzdyMUMtSy16TkNORFlLMzBVODJXcVE?oc=5",
-   "kaynak": "Shanghai Metals Market",
-   "hat": "Soguk hadde"
-  },
-  {
    "anahtar": "tech:2a81095235098448",
    "tarih": "2026-07-12",
    "baslik": "Posco and Hyundai are developing innovative electrical steel to improve the efficiency of electric vehicles",
@@ -634,12 +631,45 @@
    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWENTOUgzZFMzQjhaRlJnWmdEY3RMVmhLR25rYnFHd1JrLTQtRDJ3NVZvWTN6UjN2QUpfVXBuM1c5QklYQlNJYUQwY1pVdjhKb19xTEZXX3NRYmZNUVRyVEFuX3RNSm15N3ZrWm5nTm1XMExRUDBpVElLQ0Z2dzFjcmRkQ0xva1ktQTJZTlRnemg0NzVsZ3pUVGNUT3YyNGYweXdVRUdZdVpDX2ZEY19PdGlB?oc=5",
    "kaynak": "Charged EVs",
    "hat": "Elektrik celigi hatti"
+  },
+  {
+   "anahtar": "tech:467101f419b87401",
+   "tarih": "2026-06-23",
+   "baslik": "YEST Expected to Benefit as High-Pressure Hydrogen Annealing Is Considered for 1d-Nanometer DRAM",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5VTGdkNHpKakxDbGFfbmQwYmlndWp6T1lNdERfRHBIaElQWGhic3dDU2lvYWpYVmIyX1M3XzJqOHJrRWVyWTdqQlAzSzI2N2t2bW8xN3JtMTFjU1Q2N01FdVdQQmkwQkk?oc=5",
+   "kaynak": "THE ELEC, Korea Electronics Industry Media",
+   "hat": "Belirsiz"
   }
  ],
  "kaynak_katki": {
-  "Google News": 1
+  "SteelOrbis": 1,
+  "Google News": 2
  },
  "piyasa_pool": [
+  {
+   "anahtar": "piyasa:c9fcbc75a017ecc8",
+   "tarih": "2026-11-11",
+   "baslik": "Malaysia imposes provisional AD duties on coated steel",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/malaysia-imposes-provisional-ad-duties-on-coated-steel-1126/",
+   "kaynak": "Kallanish",
+   "lead": "Malaysia has imposed provisional anti-dumping duties of 4.41-35.06% on imports of aluminium-zinc coated flat-rolled steel products..."
+  },
+  {
+   "anahtar": "piyasa:df316110fb4a3d58",
+   "tarih": "2026-11-11",
+   "baslik": "3-Piece Tinplate Aerosol Cans Market Momentum: Advancing Packaging Stability and Manufacturing Efficiency",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQlAxZ09hRklrU3dMdzVDX3k1MXEwRzhXWVRFNnNKVm02RC1wUXVnSUkwMV94bUlPVkZyeHg5dXZwd2dDVjZYMmFmR1FNdllLalJNakNiYVgtdUtzVE5Ib2ZaWjlMTDA0VUlRVFBZTHdOaGE3U2VaX2tOZHhGZjhQZk5iOWhUcUhiYlk1RDd6YjlGdzFBaGc?oc=5",
+   "kaynak": "openPR.com",
+   "lead": "3-Piece Tinplate Aerosol Cans Market Momentum: Advancing Packaging Stability and Manufacturing Efficiency &nbsp;&nbsp; openPR.com"
+  },
+  {
+   "anahtar": "piyasa:5f6c539aad6de578",
+   "tarih": "2026-11-11",
+   "baslik": "Grain-Oriented Electrical Steel Market Gains Momentum as JFE",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPaThwOTBTWHZYX3J6YVJ1ekwwV2Zjc2ZPcjhyVFhnc1RNYkx2bk5hYkF3TElfVWl2WkdWT2VrRDdPRWdyN2gwTzNZT19kbm1zVXlUMVF1d1ppYmthUFZTZmkzV2RmUDBISUg4VGJfMk9lV0hSZnlxRllPQWhlUzIzMGkwYThzaW1rSldpLVVsSW82Y1lxMzBuV29DNG8?oc=5",
+   "kaynak": "openPR.com",
+   "lead": "Grain-Oriented Electrical Steel Market Gains Momentum as JFE &nbsp;&nbsp; openPR.com"
+  },
   {
    "anahtar": "piyasa:192e476039a3dc9a",
    "tarih": "2026-11-10",
@@ -649,12 +679,12 @@
    "lead": "Vietnam is preparing to launch an anti-dumping investigation into cold-rolled stainless steel imports from China, Indonesia..."
   },
   {
-   "anahtar": "piyasa:bf38469a57deb8a9",
+   "anahtar": "piyasa:327ed4eb5fe065bc",
    "tarih": "2026-11-10",
-   "baslik": "India: Coated flat steel prices drop INR 100-400/t w-o-w on weak demand and slow trading",
-   "url": "https://www.bigmint.co/insights/detail/india-coated-flat-steel-prices-drop-inr-100-400-t-w-o-w-on-weak-demand-and-slow-trading-806744",
-   "kaynak": "Bing News",
-   "lead": "India: Coated flat steel prices drop INR 100-400/t w-o-w on weak demand and slow trading ..."
+   "baslik": "Anti-dumping duty on electrical steel may push transformer costs, impact grid expansion: GTRI",
+   "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQNm5mM29KSU5ad1BKNFdUT0Y2dlNVXzNZYXJtbHBDVkhUNFRKZk9XOVlQbTV6b1g3eHJKa0ZmdjA4Z3NLLUIwNjNiOEtZeGNzWmVlVUctTm9DRTZ3Q0J3RHZqS3lsR18xcjVXeUlMOWdCMkk1eU9EcU1VbmpBMXJJTHU3Zm9SOTNXdGZiTTlDX1JWYUFVV2s4bmgxY0tIamJKaWdqV09iUzk3WWZKU2Z0bHo2LXZfTmp0RUlKTl9ONlJyVFAySUZxb3p4a2pwclRKUlNOZFB6RWdtU0x2MEZVVjc2dHIwbnRLRkxRUm5uZDRIOWF3SW5wTS1ITjEwM1hsUThz0gH-AUFVX3lxTE1UQlAwcWxteTkzcGtHUktUSDhzRzM0R01SazRaR2cwRjFHX19KQkNHQjNsek55SnBRcUc5NHBwZ2ZLNXF1MFBTNTRtN1Y0dmowRk5JMGExY2RmLVhYWGFyOWRvMm8xNjZ0Ym1nUUZrQmN1V05mVy1CZDB1UmxyVVZRTkswT0xpWE0wRUxSME9jQVNMQUhLal9PcnVncW5rTnFpelJGdHBsSjRhYXpMcUFNOF9zMHpzTi1qWUhNeDBjUWstSUxQLW9FcFMzR1pEX3ExZjExVFdKUk5NT09IMEFVVW1HR1pWT0dHUHRpQThNYlNxSC1OR2p5ZmxJNG1R?oc=5",
+   "kaynak": "ET Manufacturing",
+   "lead": "Anti-dumping duty on electrical steel may push transformer costs, impact grid expansion: GTRI &nbsp;&nbsp; ET Manufacturing"
   },
   {
    "anahtar": "piyasa:b07c1015e851e77d",
@@ -697,14 +727,6 @@
    "lead": "Hoa Phat exports 8,000 tons of galvanized steel to Japan for the first time &nbsp;&nbsp; Yieh Corp."
   },
   {
-   "anahtar": "piyasa:380785546277695a",
-   "tarih": "2026-11-02",
-   "baslik": "Hoa Phat exports 8,000 tons of galvanized steel sheets to Japan, expanding its international market.",
-   "url": "https://www.vietnam.vn/en/hoa-phat-xuat-khau-8-000-tan-ton-ma-sang-nhat-ban-mo-rong-thi-truong-quoc-te",
-   "kaynak": "Bing News",
-   "lead": "The shipment meets the Japanese JIS G 3302 standard, with strict requirements regarding specifications, a smooth plating surface, and environmentally friendly chromium-3+ or chromium-free surface ..."
-  },
-  {
    "anahtar": "piyasa:3f62c43fbeca3704",
    "tarih": "2026-10-30",
    "baslik": "Top Players in the Galvanized Steel Silo Market: Fact MR Forecasts US$2.85 Billion by 2036",
@@ -729,6 +751,14 @@
    "lead": "Tin Plate Price Trend, Index, Chart and Forecast 2026 &nbsp;&nbsp; IMARC Group"
   },
   {
+   "anahtar": "piyasa:df2e7719dead4f70",
+   "tarih": "2026-10-27",
+   "baslik": "US tin plate exports down 10.9 percent in August 2026 from July",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/us-tin-plate-exports-down-109-percent-in-august-2026-from-july-1486620.htm",
+   "kaynak": "Bing News",
+   "lead": "According to export data from the US Department of Commerce, US exports of tin plate totaled 2,804 mt in August this year, down 10.9 percent from July and down 24.0 percent from August 2025. By value, ..."
+  },
+  {
    "anahtar": "piyasa:cdc612aac34be091",
    "tarih": "2026-10-23",
    "baslik": "[SMM Analysis] Indian flat steel demand supports sales as coal costs squeeze margins",
@@ -746,14 +776,14 @@
   }
  ],
  "window": [
-  "2026-10-20",
-  "2026-11-10"
+  "2026-10-21",
+  "2026-11-11"
  ],
- "bulunan_kullanilan": 2,
+ "bulunan_kullanilan": 1,
  "bulunan_havuz": 3,
- "rezerv_kullanilan": 3,
- "rezerv_havuz": 63,
+ "rezerv_kullanilan": 2,
+ "rezerv_havuz": 65,
  "period": "2026-W46",
- "generated": "2026-11-10 11:26 UTC",
+ "generated": "2026-11-11 11:04 UTC",
  "version": "3.0.0"
 }
