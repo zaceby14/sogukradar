@@ -1,6 +1,56 @@
 {
  "bulunan": [
   {
+   "anahtar": "8b828b970d0ac702",
+   "asama": "Test",
+   "baslik": "Zhejiang Hengfeng hot tests cold rolling mill",
+   "eksik": [
+    "ulke"
+   ],
+   "firma": "Zhejiang Hengfeng",
+   "hat": "Soguk hadde",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Kallanish",
+   "kaynak_id": "kallanish",
+   "lead": "Login Kallanish articles are only available for active subscribers and clients currently on trial. If you already have login details, please login below to continue. Email address Password LOGIN Want to see what we offer? Why not sign up for a free trial and receive the Kallanish service for 2 full weeks. Registration only takes 1 minute, so you can start benefitting from our news and pricing coverage today! Gain acc",
+   "olaylar": [
+    "zhejiang hengfeng|hat|Soguk hadde|Test"
+   ],
+   "puan": 54.5,
+   "tarih": "2026-11-12",
+   "tarih_kaynagi": "capraz-rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/zhejiang-hengfeng-hot-tests-cold-rolling-mill-1126/"
+  },
+  {
+   "anahtar": "9459b798bb775291",
+   "asama": "Teknoloji",
+   "baslik": "Dongkuk CM Develops Color-Coated Steel Sheet to Tackle Condensation in AI Data Centers",
+   "eksik": [
+    "ulke"
+   ],
+   "firma": "Tackle Condensation",
+   "hat": "Boyama hatti (CCL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "아시아경제",
+   "kaynak_id": "gtek_yenilik2",
+   "lead": "Dongkuk CM Develops Color-Coated Steel Sheet to Tackle Condensation in AI Data Centers &nbsp;&nbsp; 아시아경제",
+   "olaylar": [
+    "tackle condensation|hat|Boyama hatti (CCL)|Teknoloji"
+   ],
+   "puan": 48.0,
+   "tarih": "2026-11-12",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1SYVVyZW4xdEs4QVdDd2NmN0FSdG9Ka0tlUjlnbHhjdExhbnhTMm9NUTNTcG1fTGJVekt1Mm5MbUFhVmktOHpGTno0WVZzd3ptcWdmeHVPbVhaZGxJNG1PS2xVcF83Tlpi?oc=5"
+  },
+  {
    "anahtar": "a1e849bc52d2aca2",
    "asama": "Sozlesme",
    "baslik": "Jastrzębska Spółka Węglowa secures loan from ARP for restructuring",
@@ -2294,6 +2344,24 @@
     "tekrar": 66
    },
    "uretim": "2026-11-11 11:04 UTC"
+  },
+  {
+   "donem": "2026-W46",
+   "satir": 6,
+   "stats": {
+    "erisilemeyen": 4,
+    "gnews_tarih": 0,
+    "ham": 3986,
+    "kabul": 5,
+    "kapsam_disi": 3542,
+    "kaynak": 315,
+    "makale_acildi": 231,
+    "on_eleme_gecti": 440,
+    "pencere_disi": 272,
+    "tarihsiz_elendi": 104,
+    "tekrar": 63
+   },
+   "uretim": "2026-11-12 11:17 UTC"
   }
  ],
  "piyasa_rezerv": [
@@ -2312,6 +2380,14 @@
    "lead": "3-Piece Tinplate Aerosol Cans Market Momentum: Advancing Packaging Stability and Manufacturing Efficiency &nbsp;&nbsp; openPR.com",
    "tarih": "2026-11-11",
    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQlAxZ09hRklrU3dMdzVDX3k1MXEwRzhXWVRFNnNKVm02RC1wUXVnSUkwMV94bUlPVkZyeHg5dXZwd2dDVjZYMmFmR1FNdllLalJNakNiYVgtdUtzVE5Ib2ZaWjlMTDA0VUlRVFBZTHdOaGE3U2VaX2tOZHhGZjhQZk5iOWhUcUhiYlk1RDd6YjlGdzFBaGc?oc=5"
+  },
+  {
+   "anahtar": "piyasa:47b541b9e4c33ce6",
+   "baslik": "【SMM Analysis】Peak Season Fades, Demand Disappoints; Non-Oriented Silicon Steel Prices May Weaken in Nov",
+   "kaynak": "Bing News",
+   "lead": "SMM analysis indicates non-oriented silicon steel prices in China may weaken in November 2026, as the peak season for motors and home appliances fades. Supply is expected to rise slightly, ...",
+   "tarih": "2026-11-11",
+   "url": "https://news.metal.com/newscontent/KO3JUXQNOUHJIJAIV2JQZRMA2UD6EBXBZJWOY7A-smm-analysispeak-season-fades-demand-disappoints-non-oriented-silicon-steel-prices-may-weaken-in-nov"
   },
   {
    "anahtar": "piyasa:192e476039a3dc9a",
@@ -2424,14 +2500,6 @@
    "lead": "In the first three quarters of 2026, the figure stood at 264,000 tonnes, whilst imports totalled 163,500 tonnes ...",
    "tarih": "2026-10-22",
    "url": "https://gmk.center/en/news/apparent-consumption-of-polymer-coated-steel-is-expected-to-rise-by-3-y-y-in-2026/"
-  },
-  {
-   "anahtar": "piyasa:8561001e822ca3e1",
-   "baslik": "Cleveland-Cliffs links Stelco layoffs in Canada to galvanized steel imports",
-   "kaynak": "Yieh Corp.",
-   "lead": "Cleveland-Cliffs links Stelco layoffs in Canada to galvanized steel imports &nbsp;&nbsp; Yieh Corp.",
-   "tarih": "2026-10-21",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObUE5ajFDRGxvNVJGeWtPN3BHc1kwNlZrcVBnckQzRXM3cXFrN3dwSWE1NnJsZkZjRVU3SEliaENoOWMwTHFDRUQ0QXFXRWp6VUVaZDRqSW5YSFZZbmdJODA0MWRvbm12WjVzU1hHa0pLaWJyS01GSjh0T0JjM1llZElfekxxMmJFMTRVNGN5ZlRwd0hOUkpNWjBzMkREdWt5ZE5DekdYbW1ya01CM2stcQ?oc=5"
   }
  ],
  "piyasa_seen": {
@@ -2836,6 +2904,32 @@
    "tutar": "",
    "ulke": "",
    "url": "https://newsroom.posco.com/en/posco-to-build-state-of-the-art-galvanized-automotive-steel-sheet-plant-bringing-together-the-latest-automotive-steel-technologies/"
+  },
+  {
+   "anahtar": "6b9163d81507db69",
+   "asama": "Belirsiz",
+   "baslik": "POSCO to Build State-of-the-Art Galvanized Automotive Steel Sheet Plant, Bringing Together the Latest Automotive Steel Technologies",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "firma": "POSCO",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "포스코그룹 뉴스룸",
+   "kaynak_id": "gtek_yz",
+   "lead": "POSCO to Build State-of-the-Art Galvanized Automotive Steel Sheet Plant, Bringing Together the Latest Automotive Steel Technologies &nbsp;&nbsp; 포스코그룹 뉴스룸",
+   "olaylar": [
+    "posco|hat|Galvaniz hatti (CGL)|Belirsiz"
+   ],
+   "rezerv": true,
+   "tarih": "2026-09-21",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNRjdQdkp3TTgyQXluR1JnM29pUmoyT3NoUDZBenBrZk81RVZwNHo5NEZsVmpLVlVYNlZobEJVT0RPWWZTNno3NmM2X2FRNUpMazlkUG9HQzhRMmI5SktOYnVfa3ZSbzc2QlBwazd2V3NmS09LbUlXVW9rY0x0QXhBUklaUnN3RGVRUHQzb0laeXU3Q0FtZHlFYWlpRU5YSlg2Q19UMDNFdHZRS0U0aDRpTUZpOHZQUk9vUUU2dW00akUtOU9KTVhnbldUY00zbW96dnBfX2VRaFFRTGs3Ymx2QWs5UVhzSFFpY1dWY2JqcjdMV2s?oc=5"
   },
   {
    "anahtar": "a116c7d2cd9568bd",
@@ -4307,6 +4401,46 @@
  ],
  "source_health": {},
  "tech_rezerv": [
+  {
+   "anahtar": "tech:17f0131037a9c23b",
+   "baslik": "Tangshan Yinghai advances AI-Zn coated steel project",
+   "hat": "Galvaniz hatti (CGL)",
+   "kaynak": "Kallanish",
+   "tarih": "2026-11-12",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/tangshan-yinghai-advances-in-ai-zn-coated-steel-project-1126/"
+  },
+  {
+   "anahtar": "tech:9459b798bb775291",
+   "baslik": "Dongkuk CM Develops Color-Coated Steel Sheet to Tackle Condensation in AI Data Centers",
+   "hat": "Boyama hatti (CCL)",
+   "kaynak": "아시아경제",
+   "tarih": "2026-11-12",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1SYVVyZW4xdEs4QVdDd2NmN0FSdG9Ka0tlUjlnbHhjdExhbnhTMm9NUTNTcG1fTGJVekt1Mm5MbUFhVmktOHpGTno0WVZzd3ptcWdmeHVPbVhaZGxJNG1PS2xVcF83Tlpi?oc=5"
+  },
+  {
+   "anahtar": "tech:ed573d481df8217a",
+   "baslik": "Dongkuk Coated Metal develops color steel sheet that fights condensation in AI data centers",
+   "hat": "Belirsiz",
+   "kaynak": "Bing News",
+   "tarih": "2026-11-12",
+   "url": "https://biz.heraldcorp.com/article/10934588"
+  },
+  {
+   "anahtar": "tech:3eff151da8f30d87",
+   "baslik": "Dongkuk CM develops color-coated steel sheet to prevent condensation in AI data centers",
+   "hat": "Boyama hatti (CCL)",
+   "kaynak": "Bing News",
+   "tarih": "2026-11-12",
+   "url": "https://www.mt.co.kr/en/industry/2026/11/12/2026111209050897200"
+  },
+  {
+   "anahtar": "tech:c6750ab7db92f3f5",
+   "baslik": "Dongkuk CM develops color-coated steel sheet with 10 times better condensation-delay performance",
+   "hat": "Boyama hatti (CCL)",
+   "kaynak": "Bing News",
+   "tarih": "2026-11-11",
+   "url": "https://en.fnnews.com/news/202611121502154436"
+  },
   {
    "anahtar": "tech:c63a7f950e471960",
    "baslik": "AI Is Queued Behind an Electrical Steel Transformer Shortage",

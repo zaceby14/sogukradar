@@ -31,6 +31,34 @@
    }
   },
   {
+   "anahtar": "8b828b970d0ac702",
+   "baslik": "Zhejiang Hengfeng hot tests cold rolling mill",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/zhejiang-hengfeng-hot-tests-cold-rolling-mill-1126/",
+   "eksik": [
+    "ulke"
+   ],
+   "mevcut": {
+    "firma": "Zhejiang Hengfeng",
+    "ulke": "",
+    "hat": "Soguk hadde",
+    "asama": "Test"
+   }
+  },
+  {
+   "anahtar": "9459b798bb775291",
+   "baslik": "Dongkuk CM Develops Color-Coated Steel Sheet to Tackle Condensation in AI Data Centers",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1SYVVyZW4xdEs4QVdDd2NmN0FSdG9Ka0tlUjlnbHhjdExhbnhTMm9NUTNTcG1fTGJVekt1Mm5MbUFhVmktOHpGTno0WVZzd3ptcWdmeHVPbVhaZGxJNG1PS2xVcF83Tlpi?oc=5",
+   "eksik": [
+    "ulke"
+   ],
+   "mevcut": {
+    "firma": "Tackle Condensation",
+    "ulke": "",
+    "hat": "Boyama hatti (CCL)",
+    "asama": "Teknoloji"
+   }
+  },
+  {
    "anahtar": "f4884c93e0340d67",
    "baslik": "Man-less entry section and centralized control of the tandem cold mill at Tata Steel Ijmuiden",
    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPMmZ5bFVjWDc2RnFZYnVSQmN1MXhQQ3hyVnhqRUpKR18zOS03OGpMTHdNajlMQTFUekUxM3ZSb3RybFFtTnQ0WmdNeExnS3Y1RVY3ZVAwb3hEb3d3RExMQXNzSXJBdS1nRmxJTXRSRGZPbjBOQmRiMkJhajc2Nl9CbkR3Um9LVG5UUjZNY3Z4dzJ5WEl6RWt0cmxyd00wVjJBQmE4aXZaenFTcDk4MEZ6MUE0ZHJCZEsxa3M1blZVWGNzQm00dmdqLTlVQnQ5Ty05RllFVE9nM2dnNy16Z0NoLQ?oc=5",
@@ -61,34 +89,6 @@
     "hat": "Belirsiz",
     "asama": "Ilk urun"
    }
-  },
-  {
-   "anahtar": "16c1c1e154dad064",
-   "baslik": "Tata Steel launches pre-painted steel Colorcoat in India",
-   "url": "https://www.thehindubusinessline.com/companies/tata-steel-launches-pre-painted-steel-colorcoat-in-india/article71567926.ece",
-   "eksik": [
-    "asama"
-   ],
-   "mevcut": {
-    "firma": "Tata Steel",
-    "ulke": "Hindistan",
-    "hat": "Boyama hatti (CCL)",
-    "asama": "Belirsiz"
-   }
-  },
-  {
-   "anahtar": "aac00b6a794a93b5",
-   "baslik": "IMS expands its portfolio with force transducers for precise force measurement under demanding conditions in hot and cold rolling mills",
-   "url": "https://www.ims-gmbh.de/en/2026/10/06/ims-expands-its-portfolio-with-force-transducers-forprecise-force-measurement-under-demandingconditions-in-hot-and-cold-rolling-mills/",
-   "eksik": [
-    "ulke"
-   ],
-   "mevcut": {
-    "firma": "IMS",
-    "ulke": "",
-    "hat": "Soguk hadde",
-    "asama": "Sozlesme"
-   }
   }
  ],
  "cumle_yaz": [
@@ -113,6 +113,26 @@
    "url": "https://www.steelorbis.com/steel-news/latest-news/jastrzbska-spka-wglowa-secures-loan-from-arp-for-restructuring-1490056.htm"
   },
   {
+   "anahtar": "8b828b970d0ac702",
+   "tarih": "2026-11-12",
+   "firma": "Zhejiang Hengfeng",
+   "ulke": "",
+   "hat": "Soguk hadde",
+   "asama": "Test",
+   "baslik": "Zhejiang Hengfeng hot tests cold rolling mill",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/zhejiang-hengfeng-hot-tests-cold-rolling-mill-1126/"
+  },
+  {
+   "anahtar": "9459b798bb775291",
+   "tarih": "2026-11-12",
+   "firma": "Tackle Condensation",
+   "ulke": "",
+   "hat": "Boyama hatti (CCL)",
+   "asama": "Teknoloji",
+   "baslik": "Dongkuk CM Develops Color-Coated Steel Sheet to Tackle Condensation in AI Data Centers",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1SYVVyZW4xdEs4QVdDd2NmN0FSdG9Ka0tlUjlnbHhjdExhbnhTMm9NUTNTcG1fTGJVekt1Mm5MbUFhVmktOHpGTno0WVZzd3ptcWdmeHVPbVhaZGxJNG1PS2xVcF83Tlpi?oc=5"
+  },
+  {
    "anahtar": "f4884c93e0340d67",
    "tarih": "2026-11-09",
    "firma": "Tata Steel Ijmuiden",
@@ -131,29 +151,49 @@
    "asama": "Ilk urun",
    "baslik": "【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】",
    "url": "https://news.metal.com/en/newscontent/104207357-纽柯在南卡罗来纳州新建50万吨年汽车板镀锌线产出首卷优质卷板"
-  },
-  {
-   "anahtar": "16c1c1e154dad064",
-   "tarih": "2026-10-16",
-   "firma": "Tata Steel",
-   "ulke": "Hindistan",
-   "hat": "Boyama hatti (CCL)",
-   "asama": "Belirsiz",
-   "baslik": "Tata Steel launches pre-painted steel Colorcoat in India",
-   "url": "https://www.thehindubusinessline.com/companies/tata-steel-launches-pre-painted-steel-colorcoat-in-india/article71567926.ece"
-  },
-  {
-   "anahtar": "aac00b6a794a93b5",
-   "tarih": "2026-10-06",
-   "firma": "IMS",
-   "ulke": "",
-   "hat": "Soguk hadde",
-   "asama": "Sozlesme",
-   "baslik": "IMS expands its portfolio with force transducers for precise force measurement under demanding conditions in hot and cold rolling mills",
-   "url": "https://www.ims-gmbh.de/en/2026/10/06/ims-expands-its-portfolio-with-force-transducers-forprecise-force-measurement-under-demandingconditions-in-hot-and-cold-rolling-mills/"
   }
  ],
  "teknoloji_adaylari": [
+  {
+   "anahtar": "tech:17f0131037a9c23b",
+   "tarih": "2026-11-12",
+   "baslik": "Tangshan Yinghai advances AI-Zn coated steel project",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/tangshan-yinghai-advances-in-ai-zn-coated-steel-project-1126/",
+   "kaynak": "Kallanish",
+   "hat": "Galvaniz hatti (CGL)"
+  },
+  {
+   "anahtar": "tech:9459b798bb775291",
+   "tarih": "2026-11-12",
+   "baslik": "Dongkuk CM Develops Color-Coated Steel Sheet to Tackle Condensation in AI Data Centers",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1SYVVyZW4xdEs4QVdDd2NmN0FSdG9Ka0tlUjlnbHhjdExhbnhTMm9NUTNTcG1fTGJVekt1Mm5MbUFhVmktOHpGTno0WVZzd3ptcWdmeHVPbVhaZGxJNG1PS2xVcF83Tlpi?oc=5",
+   "kaynak": "아시아경제",
+   "hat": "Boyama hatti (CCL)"
+  },
+  {
+   "anahtar": "tech:ed573d481df8217a",
+   "tarih": "2026-11-12",
+   "baslik": "Dongkuk Coated Metal develops color steel sheet that fights condensation in AI data centers",
+   "url": "https://biz.heraldcorp.com/article/10934588",
+   "kaynak": "Bing News",
+   "hat": "Belirsiz"
+  },
+  {
+   "anahtar": "tech:3eff151da8f30d87",
+   "tarih": "2026-11-12",
+   "baslik": "Dongkuk CM develops color-coated steel sheet to prevent condensation in AI data centers",
+   "url": "https://www.mt.co.kr/en/industry/2026/11/12/2026111209050897200",
+   "kaynak": "Bing News",
+   "hat": "Boyama hatti (CCL)"
+  },
+  {
+   "anahtar": "tech:c6750ab7db92f3f5",
+   "tarih": "2026-11-11",
+   "baslik": "Dongkuk CM develops color-coated steel sheet with 10 times better condensation-delay performance",
+   "url": "https://en.fnnews.com/news/202611121502154436",
+   "kaynak": "Bing News",
+   "hat": "Boyama hatti (CCL)"
+  },
   {
    "anahtar": "tech:c63a7f950e471960",
    "tarih": "2026-11-08",
@@ -190,8 +230,8 @@
    "anahtar": "tech:21b8b17f2932d529",
    "tarih": "2026-10-13",
    "baslik": "Ten Reputable Electrical Steel Companies in China 2026: Advancing Motor Efficiency and Industrial Performance",
-   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPM3lUSXRjSHE2UURUTjB1NHppTTl4RnlLa3dnYlFxSG02WFBQd2tIYmt1UXpVbElhQVBtSEUtZTRZeW5SMkJHMjV5NzY5WlpmbHNtZWtFdy1KTlhTSzlXVmlOMWJ3Ymphc29aZXZwbWtvMDVWWm1oUF94NERtUEZ3WUhoOGRHcThacFRzRTlEUjBqempXRzNRTV9QZFdfUFBmVmtQLWJqQng4RGhuc0FKaFYtdUZoXzNlSDB6S2NBd19nVGx6LTVVNnlKT1RNcWJkNkN3VjRNSGV1RUM1VVU1NC1YZDNIZ3JObE8ySC0wVTFVYndZZFE?oc=5",
-   "kaynak": "The Tennessean",
+   "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNRE9rLUt2NWZzT1Y4aXJvSkJHUlBtaDJoY21kbl9ER0tOTGkta1JDS0VwZjRkREdNRVI3SEs2dGNEdi16QklfR3EzbERsLVhxR0M1enY1U3RwOHBRLURhMEUzdlZmSzd0bURpX1ZWUkpqNloyS3FmZXU3LU5Jek9mNzgtZFQ0QUdWbzY0UlIyRVhYWFhIdTFQQ3l0dVJhdGJQZFRvZkdlVlNNNld6Vkh4aEdiRXhoSU10a0t5NEIzLTdnTkFQOGxnNWxIbGlLSFYxRUk3clZGY0tLNjRHSjVsdGpuVFFBZkhkcVJLRWhGTm5uMTJDYk5fNHZn?oc=5",
+   "kaynak": "Akron Beacon Journal",
    "hat": "Elektrik celigi hatti"
   },
   {
@@ -209,46 +249,6 @@
    "url": "https://www.galvanizingeurope.org/egga-supports-the-european-convoy-for-industrial-competitiveness/",
    "kaynak": "Galvanizing Europe",
    "hat": "Galvaniz hatti (CGL)"
-  },
-  {
-   "anahtar": "tech:784bcc674542a655",
-   "tarih": "2026-08-19",
-   "baslik": "Five Leading Silicon Steel Manufacturers in China 2026: Powering the Future of Electrical Steel Innovation",
-   "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPa2NMZVhHZGxOTTRDYUltajd6QW4tRVZBNlpid1BlUWNxVkx5YjlRaWNZQkJfS1dVNURTSEF3OS1xWDRvMEZ1QWZtcjN6bVRrVzQ1UUdhM00tY0dtODY1T0FBQUtVWktkZ25Ra1VmLVVmbUVtTGtoWTM2ZUJTaE1hdzdCV0pfX1drSC1XazlST3lEcmM1Z2N5d2FZWjhXRVFKamdaYTFwSVJCZmpYTGpqN3p6Y3ZObS1oaTRuTmhudmRLUUVMbm4wYUIyYWxzY1E2SmxzbnlqR0dPZE9aMTBQbkw4Q2ZTN3FiT0p2cU5qOWVVR1FaeEpNQzltZw?oc=5",
-   "kaynak": "The Des Moines Register",
-   "hat": "Elektrik celigi hatti"
-  },
-  {
-   "anahtar": "tech:2a81095235098448",
-   "tarih": "2026-07-12",
-   "baslik": "Posco and Hyundai are developing innovative electrical steel to improve the efficiency of electric vehicles",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQSGtGOHBERUpYUkpjbW4tQVEweXVNUzYtcU1DNjB2bWhQamNzYTlPZFNtMXBNeXRvLXJwS2hwaEcxN3VNNFg0RTd1UVhZYmZPNEZRT0YxUlQ4VThJcG0ycXRJOGVEVWVLOFZmUHVNZ2hPYzFwY0FxOGhydjdTRmEtUmtwbFZKUlB5WTRqb2l5V2NxN0hoY0o2NExOaEg3dHdPLXZrUG1Zc3laakRVR3dLQi0yRnR1elZ6NUVvc0swRHczUEtNNHRZM2VaZV9FaUdz0gHWAUFVX3lxTE5mbGJMX0V1bE15SmhZdE05VDM2OG9POEVzc2g1bExqcHIzZGw3S3dvS291M252VUllVHB6THlfR1E0MnlPRTFRVlRzV2phMldEV0lKSWJJenRsdkxWbkRyTkpicFdLMFYzNUk4WnZvcGJZbFAyRGpDMURMUGNLaWhRTk81MVZ5NnlvamRLdnd2dXBPMElaT19OQ2dwaEFmOHZjYjh3dlJpQk1xQkhxQjlGMVlyWlZCdVRXbVR0MlhpNE9wNHg4UFVONThfVXBtSG5rNFlUWVE?oc=5",
-   "kaynak": "GMK Center",
-   "hat": "Elektrik celigi hatti"
-  },
-  {
-   "anahtar": "tech:3b9e0ba3d7e53ee3",
-   "tarih": "2026-07-09",
-   "baslik": "Posco and Hyundai develop novel electrical steel for more efficient electric motors",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNVV0U1otMkFRbUphNHRvMDBVdWFEVjVKN0FYV2tNdWZhWVB0TldhN0QxeDJtLU51ci1CLVFid0NTT21DSFVCMmw3a2ZyUTB6YUxkQ1hmcGZ5T05pOUdLbUxjMDdTX2IyZ0tfdnZaSVA5aW41dHhURFpvZUJKbUxiVDBjTUNCMXdfLUJIMXdsdl9VNktxeXVDeFlyNThjZHFXVUJwRXctZTJuWjduaEE3NFBmclFyYTdMNzNzM2lR?oc=5",
-   "kaynak": "electrive.com",
-   "hat": "Elektrik celigi hatti"
-  },
-  {
-   "anahtar": "tech:598247fd0170db4b",
-   "tarih": "2026-07-07",
-   "baslik": "POSCO and Hyundai partner to develop 6.5% silicon electrical steel for EV motors",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWENTOUgzZFMzQjhaRlJnWmdEY3RMVmhLR25rYnFHd1JrLTQtRDJ3NVZvWTN6UjN2QUpfVXBuM1c5QklYQlNJYUQwY1pVdjhKb19xTEZXX3NRYmZNUVRyVEFuX3RNSm15N3ZrWm5nTm1XMExRUDBpVElLQ0Z2dzFjcmRkQ0xva1ktQTJZTlRnemg0NzVsZ3pUVGNUT3YyNGYweXdVRUdZdVpDX2ZEY19PdGlB?oc=5",
-   "kaynak": "Charged EVs",
-   "hat": "Elektrik celigi hatti"
-  },
-  {
-   "anahtar": "tech:467101f419b87401",
-   "tarih": "2026-06-23",
-   "baslik": "YEST Expected to Benefit as High-Pressure Hydrogen Annealing Is Considered for 1d-Nanometer DRAM",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5VTGdkNHpKakxDbGFfbmQwYmlndWp6T1lNdERfRHBIaElQWGhic3dDU2lvYWpYVmIyX1M3XzJqOHJrRWVyWTdqQlAzSzI2N2t2bW8xN3JtMTFjU1Q2N01FdVdQQmkwQkk?oc=5",
-   "kaynak": "THE ELEC, Korea Electronics Industry Media",
-   "hat": "Belirsiz"
   }
  ]
 }
