@@ -1,10 +1,10 @@
 {
  "donem": "2026-W46",
  "pencere": [
-  "2026-10-22",
-  "2026-11-12"
+  "2026-10-23",
+  "2026-11-13"
  ],
- "uretim": "2026-11-12 11:21 UTC",
+ "uretim": "2026-11-13 11:13 UTC",
  "kaynaklar": {
   "steeltimesint": {
    "publisher": "Steel Times International",
@@ -22,8 +22,19 @@
    "hata": "HTTP 404"
   }
  },
- "adet": 2,
+ "adet": 3,
  "kacanlar": [
+  {
+   "tarih": "2026-11-13",
+   "tarih_kaynagi": "json-ld",
+   "baslik": "Hunan Valin Steel plans to invest RMB 3.147 billion in the Phase III automotive sheet project",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/hunan-valin-steel-plans-to-invest-rmb-3147-billionin-the-phase-iii-automotive-sheet-project-1490689.htm",
+   "kaynak": "SteelOrbis",
+   "katman": "Yatirim",
+   "hat": "Belirsiz",
+   "asama": "Belirsiz",
+   "anahtar": "328819dc3af21ad5"
+  },
   {
    "tarih": "2026-11-11",
    "tarih_kaynagi": "json-ld",
@@ -95,7 +106,7 @@
    "sebep": "gercek baslikta kapsam_disi"
   }
  ],
- "kapiyi_gecen": 11,
+ "kapiyi_gecen": 12,
  "sitemap_adayi": 800,
- "elenen": 789
+ "elenen": 788
 }

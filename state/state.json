@@ -1,6 +1,63 @@
 {
  "bulunan": [
   {
+   "anahtar": "3b80f5aa8bcceb9c",
+   "asama": "Modernizasyon",
+   "baslik": "SMS group receives final acceptance for level 1 automation upgrade of cold plate leveler at Outokumpu’s heavy plate rolling mill in Sweden",
+   "eksik": [
+    "hat"
+   ],
+   "firma": "Outokumpu",
+   "hat": "Belirsiz",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "SEAISI",
+   "kaynak_id": "gx_sms_group",
+   "lead": "SMS group receives final acceptance for level 1 automation upgrade of cold plate leveler at Outokumpu’s heavy plate rolling mill in Sweden &nbsp;&nbsp; SEAISI",
+   "olaylar": [
+    "outokumpu|fu|Isvec|Belirsiz",
+    "outokumpu|hat|Belirsiz|Modernizasyon",
+    "outokumpu|ulke|Isvec|Modernizasyon",
+    "sms group|fu|Isvec|Belirsiz",
+    "sms group|hat|Belirsiz|Modernizasyon",
+    "sms group|ulke|Isvec|Modernizasyon"
+   ],
+   "puan": 49.0,
+   "tarih": "2026-11-13",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "SMS group",
+   "tutar": "",
+   "ulke": "Isvec",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBicnhXVDNRRVozeXlWR0UxYzJQNE9DSHZ0WFZucDI3TElEbWFNbFZOMlpMUGFHeE1zSy1lbUZvZnN3Rnl5SDNnOWxLQkpTTVF0QTVWMmliWGlxSFpMMFV3OU5R?oc=5"
+  },
+  {
+   "anahtar": "328819dc3af21ad5",
+   "asama": "Belirsiz",
+   "baslik": "Hunan Valin Steel plans to invest RMB 3.147 billion in the Phase III automotive sheet project",
+   "eksik": [
+    "ulke",
+    "hat",
+    "asama"
+   ],
+   "firma": "Hunan Valin Steel",
+   "hat": "Belirsiz",
+   "kapasite": "",
+   "kategori": "Yatirim",
+   "kaynak": "SteelOrbis",
+   "kaynak_id": "steelorbis",
+   "lead": "English Türkçe Italiano 中文 | Login Menu Marketplace Global Marketplace Access to the listings of different steel products and bids without intermediaries and commissions. Steel Markets Steel Prices Daily Steel Prices Weekly Steel Prices Steel Price Analysis Tool Orbis Steel Index Futures Prices Steel Price Analyses Scrap & Raw Materials Tube and Pipe Flats and Slab Longs and Billet Products Scrap Iron ore Billet-Slab",
+   "olaylar": [
+    "hunan valin steel|hat|Belirsiz|Belirsiz"
+   ],
+   "puan": -0.5,
+   "tarih": "2026-11-13",
+   "tarih_kaynagi": "json-ld",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/hunan-valin-steel-plans-to-invest-rmb-3147-billionin-the-phase-iii-automotive-sheet-project-1490689.htm"
+  },
+  {
    "anahtar": "8b828b970d0ac702",
    "asama": "Test",
    "baslik": "Zhejiang Hengfeng hot tests cold rolling mill",
@@ -49,6 +106,56 @@
    "tutar": "",
    "ulke": "",
    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1SYVVyZW4xdEs4QVdDd2NmN0FSdG9Ka0tlUjlnbHhjdExhbnhTMm9NUTNTcG1fTGJVekt1Mm5MbUFhVmktOHpGTno0WVZzd3ptcWdmeHVPbVhaZGxJNG1PS2xVcF83Tlpi?oc=5"
+  },
+  {
+   "anahtar": "4691ca1a24f28ece",
+   "asama": "Modernizasyon",
+   "baslik": "Electrical Steel Laminations Market To 2035: Grid Upgrades and EV Motors Fuel Growth",
+   "eksik": [
+    "ulke"
+   ],
+   "firma": "Electrical Steel Laminations",
+   "hat": "Elektrik celigi hatti",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "IndexBox",
+   "kaynak_id": "gx_arcelor",
+   "lead": "Electrical Steel Laminations Market To 2035: Grid Upgrades and EV Motors Fuel Growth - News and Statistics &nbsp;&nbsp; IndexBox",
+   "olaylar": [
+    "electrical steel laminations|hat|Elektrik celigi hatti|Modernizasyon"
+   ],
+   "puan": 53.6,
+   "tarih": "2026-11-12",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOSjJUdnpEd2hFNWpmQ3NtUkZaR2xMcGNITjBOSlN6cWxrX2VZRmpnNVhOamdMVGtxd28taTZHUVdUTnprY3dEVlR4V3BTWDZFdjZvNW5Bck0zLUdMRUNBYlhiT01oLS1IOEdvNHNFeTNSbmVUTkh3ekg3MlRVNEEtVE50X2Q2bXBjXzRYYnB2cUZjeTRuSFBfQjdTM3FBQ0JhdTdCZnhWcGVOWm5sdDVJVjNiaHZvSzNlSXZGOElPNTA0US1vRmV2TTJNWQ?oc=5"
+  },
+  {
+   "anahtar": "3eff151da8f30d87",
+   "asama": "Teknoloji",
+   "baslik": "Dongkuk CM develops color-coated steel sheet to prevent condensation in AI data centers",
+   "eksik": [
+    "ulke"
+   ],
+   "firma": "Dongkuk CM",
+   "hat": "Boyama hatti (CCL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgtek_kaplama",
+   "lead": "Dongkuk CM's 'DK Shield' / Photo provided by Dongkuk Steel Group Dongkuk CM, a specialized company for coated and color-coated steel sheets under the Dongkuk Steel Group, announced on ...",
+   "olaylar": [
+    "dongkuk cm|hat|Boyama hatti (CCL)|Teknoloji"
+   ],
+   "puan": 49.1,
+   "tarih": "2026-11-12",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://www.mt.co.kr/en/industry/2026/11/12/2026111209050897200"
   },
   {
    "anahtar": "a1e849bc52d2aca2",
@@ -2362,9 +2469,35 @@
     "tekrar": 63
    },
    "uretim": "2026-11-12 11:17 UTC"
+  },
+  {
+   "donem": "2026-W46",
+   "satir": 8,
+   "stats": {
+    "erisilemeyen": 5,
+    "gnews_tarih": 0,
+    "ham": 4138,
+    "kabul": 8,
+    "kapsam_disi": 3697,
+    "kaynak": 315,
+    "makale_acildi": 232,
+    "on_eleme_gecti": 426,
+    "pencere_disi": 268,
+    "tarihsiz_elendi": 109,
+    "tekrar": 56
+   },
+   "uretim": "2026-11-13 11:13 UTC"
   }
  ],
  "piyasa_rezerv": [
+  {
+   "anahtar": "piyasa:738776df9135ecde",
+   "baslik": "Thailand levies anti-dumping duty on tinplate, tin-free sheet",
+   "kaynak": "Kallanish",
+   "lead": "Thailand has imposed anti-dumping duties on tinplate and tin-free steel, both in coils and cut-to-length sheets,...",
+   "tarih": "2026-11-13",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/thailand-levies-ad-tinplate-tin-free-sheet-1126/"
+  },
   {
    "anahtar": "piyasa:c9fcbc75a017ecc8",
    "baslik": "Malaysia imposes provisional AD duties on coated steel",
@@ -2492,14 +2625,6 @@
    "lead": "Record shipments lifted JSW Steel’s Q2 FY27 earnings, but costs and weaker realisations absorbed 71% of the volume gain. Imports rose despite India’s safeguard duty, and coking coal costs are ...",
    "tarih": "2026-10-23",
    "url": "https://news.metal.com/newscontent/SW3J2766346I5MXGQOV7YDIEUA274E54XSML3NY-smm-analysis-indian-flat-steel-demand-supports-sales-as-coal-costs-squeeze-margins"
-  },
-  {
-   "anahtar": "piyasa:bf2ae0f0e2c552e4",
-   "baslik": "Apparent consumption of polymer-coated steel is expected to rise by 3% y/y in 2026",
-   "kaynak": "Bing News",
-   "lead": "In the first three quarters of 2026, the figure stood at 264,000 tonnes, whilst imports totalled 163,500 tonnes ...",
-   "tarih": "2026-10-22",
-   "url": "https://gmk.center/en/news/apparent-consumption-of-polymer-coated-steel-is-expected-to-rise-by-3-y-y-in-2026/"
   }
  ],
  "piyasa_seen": {
@@ -4520,6 +4645,14 @@
    "kaynak": "헤럴드경제",
    "tarih": "2026-10-14",
    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB1dExHc2VaMEVwUWh5dkt2ZmlNSWFUS1l5eGtjVnRlYWpSTGxKZFpBaEZRY3NaSmV3eGZlZVZhNjYzWnVnYVBVYmtxQTJxR04xQ2dETUNR?oc=5"
+  },
+  {
+   "anahtar": "tech:73868ce95fc942d1",
+   "baslik": "Electrical Steel Market Targets US$109.9 Billion by 2035 as",
+   "hat": "Elektrik celigi hatti",
+   "kaynak": "openPR.com",
+   "tarih": "2026-10-12",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNS1B1aGh5QWN0Z1NlMzNFaHV4WXdNWk9LNHFqai0tZmVBSnVad3dSemlLSm5BZmx2Z1gwWDJUUVpQLUVZMjF1UGhUN0hKVGVUb1d6LXJic0M1Q010bGc5d29pNWJtYXJycFBGcHJVaC1zcEZGZDRzaXNobGhmb2FQNlF0M2U1U3IyU3pGclllSllYQkNkRUJrSEsyVQ?oc=5"
   },
   {
    "anahtar": "tech:21b8b17f2932d529",
