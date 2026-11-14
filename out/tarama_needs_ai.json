@@ -2,9 +2,9 @@
  "donem": "2026-W46",
  "duzelt": [
   {
-   "anahtar": "45ecc037d8bbc346",
-   "baslik": "[Nucor, Primetals Produce First Prime Coil on New Galvanizing Line in South Carolina]",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQXN0NUEzTHZfWjM0aWNzN3FpdHpsTmkxX2l2R09DQ0VLVTV5RklhME80Y0diZFlEekl5Y2pfN29TNXdBcmF1UmxwdGFUVnpwNGQ2MFF5QXkydFBsRUR4OHBNQWt5Q25xbFQ1NktYZ1ZfZ2E3V0dMWG0wTGlUZnFUOUJ5eFRiMm5RQ0NzdTFWdTNJUFB2RjlkbXJtbmtwamRDdzgzLXBGUGI1YlBvMTgyTG5zeU12cHVqZk9sU3NMMUE4MU1tOXc?oc=5",
+   "anahtar": "26c4f1bffd99b708",
+   "baslik": "[Nucor Produces First Prime Coil on New 500,000 t/yr Automotive Galvanizing Line in South Carolina]",
+   "url": "https://news.metal.com/newscontent/SY6YFKNHRRR5K4T7RXLOESSWCZISHTAFI3TDGAY-nucor-produces-first-prime-coil-on-new-500000-tyr-automotive-galvanizing-line-in-south-carolina",
    "eksik": [
     "firma",
     "ulke"
@@ -14,20 +14,6 @@
     "ulke": "",
     "hat": "Galvaniz hatti (CGL)",
     "asama": "Ilk urun"
-   }
-  },
-  {
-   "anahtar": "a1e849bc52d2aca2",
-   "baslik": "Jastrzębska Spółka Węglowa secures loan from ARP for restructuring",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/jastrzbska-spka-wglowa-secures-loan-from-arp-for-restructuring-1490056.htm",
-   "eksik": [
-    "ulke"
-   ],
-   "mevcut": {
-    "firma": "Jastrzębska Spółka Węglowa",
-    "ulke": "",
-    "hat": "Asit rejenerasyonu (ARP)",
-    "asama": "Sozlesme"
    }
   },
   {
@@ -45,16 +31,16 @@
    }
   },
   {
-   "anahtar": "4691ca1a24f28ece",
-   "baslik": "Electrical Steel Laminations Market To 2035: Grid Upgrades and EV Motors Fuel Growth",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOSjJUdnpEd2hFNWpmQ3NtUkZaR2xMcGNITjBOSlN6cWxrX2VZRmpnNVhOamdMVGtxd28taTZHUVdUTnprY3dEVlR4V3BTWDZFdjZvNW5Bck0zLUdMRUNBYlhiT01oLS1IOEdvNHNFeTNSbmVUTkh3ekg3MlRVNEEtVE50X2Q2bXBjXzRYYnB2cUZjeTRuSFBfQjdTM3FBQ0JhdTdCZnhWcGVOWm5sdDVJVjNiaHZvSzNlSXZGOElPNTA0US1vRmV2TTJNWQ?oc=5",
+   "anahtar": "8f5c37cd5e281040",
+   "baslik": "Pickling Lines Market To 2035: Automotive Lightweighting and Green Upgrades Fuel Expansion",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPeGRLRktNMk9ETmFOU256UnJ4V1pVQjdVc2d2OVdISFkzTnVReUNDd1pSZGxRVy1QWEQ3d3BNQjBONWloY0lSV2p3Wk5rSUYxdkhQVjBjVnI1cFBYNzJFQnlTWG1nVEdVY1ZnQVR6Qm4zY24zX0VUMFBuWF8wci1yV0V6YWhJb1AtbWlTSVFSYmpLYktFMWt1aDAxNHl2bDd5NzljWkZrelJIc0RXTG9kd0c0d1dPM0YxcW1CaWVmaVNkd09DZHdDc0ZkTUZOR3BVWHNvSQ?oc=5",
    "eksik": [
     "ulke"
    ],
    "mevcut": {
-    "firma": "Electrical Steel Laminations",
+    "firma": "Pickling Lines Market",
     "ulke": "",
-    "hat": "Elektrik celigi hatti",
+    "hat": "Asitleme hatti",
     "asama": "Modernizasyon"
    }
   },
@@ -70,20 +56,6 @@
     "ulke": "",
     "hat": "Boyama hatti (CCL)",
     "asama": "Teknoloji"
-   }
-  },
-  {
-   "anahtar": "3b80f5aa8bcceb9c",
-   "baslik": "SMS group receives final acceptance for level 1 automation upgrade of cold plate leveler at Outokumpu’s heavy plate rolling mill in Sweden",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBicnhXVDNRRVozeXlWR0UxYzJQNE9DSHZ0WFZucDI3TElEbWFNbFZOMlpMUGFHeE1zSy1lbUZvZnN3Rnl5SDNnOWxLQkpTTVF0QTVWMmliWGlxSFpMMFV3OU5R?oc=5",
-   "eksik": [
-    "hat"
-   ],
-   "mevcut": {
-    "firma": "Outokumpu",
-    "ulke": "Isvec",
-    "hat": "Belirsiz",
-    "asama": "Modernizasyon"
    }
   },
   {
@@ -120,24 +92,14 @@
  ],
  "cumle_yaz": [
   {
-   "anahtar": "45ecc037d8bbc346",
-   "tarih": "2026-11-06",
+   "anahtar": "26c4f1bffd99b708",
+   "tarih": "2026-11-05",
    "firma": "",
    "ulke": "",
    "hat": "Galvaniz hatti (CGL)",
    "asama": "Ilk urun",
-   "baslik": "[Nucor, Primetals Produce First Prime Coil on New Galvanizing Line in South Carolina]",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQXN0NUEzTHZfWjM0aWNzN3FpdHpsTmkxX2l2R09DQ0VLVTV5RklhME80Y0diZFlEekl5Y2pfN29TNXdBcmF1UmxwdGFUVnpwNGQ2MFF5QXkydFBsRUR4OHBNQWt5Q25xbFQ1NktYZ1ZfZ2E3V0dMWG0wTGlUZnFUOUJ5eFRiMm5RQ0NzdTFWdTNJUFB2RjlkbXJtbmtwamRDdzgzLXBGUGI1YlBvMTgyTG5zeU12cHVqZk9sU3NMMUE4MU1tOXc?oc=5"
-  },
-  {
-   "anahtar": "a1e849bc52d2aca2",
-   "tarih": "2026-11-11",
-   "firma": "Jastrzębska Spółka Węglowa",
-   "ulke": "",
-   "hat": "Asit rejenerasyonu (ARP)",
-   "asama": "Sozlesme",
-   "baslik": "Jastrzębska Spółka Węglowa secures loan from ARP for restructuring",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/jastrzbska-spka-wglowa-secures-loan-from-arp-for-restructuring-1490056.htm"
+   "baslik": "[Nucor Produces First Prime Coil on New 500,000 t/yr Automotive Galvanizing Line in South Carolina]",
+   "url": "https://news.metal.com/newscontent/SY6YFKNHRRR5K4T7RXLOESSWCZISHTAFI3TDGAY-nucor-produces-first-prime-coil-on-new-500000-tyr-automotive-galvanizing-line-in-south-carolina"
   },
   {
    "anahtar": "8b828b970d0ac702",
@@ -150,14 +112,14 @@
    "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/zhejiang-hengfeng-hot-tests-cold-rolling-mill-1126/"
   },
   {
-   "anahtar": "4691ca1a24f28ece",
-   "tarih": "2026-11-12",
-   "firma": "Electrical Steel Laminations",
+   "anahtar": "8f5c37cd5e281040",
+   "tarih": "2026-11-13",
+   "firma": "Pickling Lines Market",
    "ulke": "",
-   "hat": "Elektrik celigi hatti",
+   "hat": "Asitleme hatti",
    "asama": "Modernizasyon",
-   "baslik": "Electrical Steel Laminations Market To 2035: Grid Upgrades and EV Motors Fuel Growth",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOSjJUdnpEd2hFNWpmQ3NtUkZaR2xMcGNITjBOSlN6cWxrX2VZRmpnNVhOamdMVGtxd28taTZHUVdUTnprY3dEVlR4V3BTWDZFdjZvNW5Bck0zLUdMRUNBYlhiT01oLS1IOEdvNHNFeTNSbmVUTkh3ekg3MlRVNEEtVE50X2Q2bXBjXzRYYnB2cUZjeTRuSFBfQjdTM3FBQ0JhdTdCZnhWcGVOWm5sdDVJVjNiaHZvSzNlSXZGOElPNTA0US1vRmV2TTJNWQ?oc=5"
+   "baslik": "Pickling Lines Market To 2035: Automotive Lightweighting and Green Upgrades Fuel Expansion",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPeGRLRktNMk9ETmFOU256UnJ4V1pVQjdVc2d2OVdISFkzTnVReUNDd1pSZGxRVy1QWEQ3d3BNQjBONWloY0lSV2p3Wk5rSUYxdkhQVjBjVnI1cFBYNzJFQnlTWG1nVEdVY1ZnQVR6Qm4zY24zX0VUMFBuWF8wci1yV0V6YWhJb1AtbWlTSVFSYmpLYktFMWt1aDAxNHl2bDd5NzljWkZrelJIc0RXTG9kd0c0d1dPM0YxcW1CaWVmaVNkd09DZHdDc0ZkTUZOR3BVWHNvSQ?oc=5"
   },
   {
    "anahtar": "3eff151da8f30d87",
@@ -168,16 +130,6 @@
    "asama": "Teknoloji",
    "baslik": "Dongkuk CM develops color-coated steel sheet to prevent condensation in AI data centers",
    "url": "https://www.mt.co.kr/en/industry/2026/11/12/2026111209050897200"
-  },
-  {
-   "anahtar": "3b80f5aa8bcceb9c",
-   "tarih": "2026-11-13",
-   "firma": "Outokumpu",
-   "ulke": "Isvec",
-   "hat": "Belirsiz",
-   "asama": "Modernizasyon",
-   "baslik": "SMS group receives final acceptance for level 1 automation upgrade of cold plate leveler at Outokumpu’s heavy plate rolling mill in Sweden",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBicnhXVDNRRVozeXlWR0UxYzJQNE9DSHZ0WFZucDI3TElEbWFNbFZOMlpMUGFHeE1zSy1lbUZvZnN3Rnl5SDNnOWxLQkpTTVF0QTVWMmliWGlxSFpMMFV3OU5R?oc=5"
   },
   {
    "anahtar": "f4884c93e0340d67",
@@ -280,11 +232,11 @@
    "hat": "Galvaniz hatti (CGL)"
   },
   {
-   "anahtar": "tech:784bcc674542a655",
-   "tarih": "2026-08-19",
-   "baslik": "Five Leading Silicon Steel Manufacturers in China 2026: Powering the Future of Electrical Steel Innovation",
-   "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPa2NMZVhHZGxOTTRDYUltajd6QW4tRVZBNlpid1BlUWNxVkx5YjlRaWNZQkJfS1dVNURTSEF3OS1xWDRvMEZ1QWZtcjN6bVRrVzQ1UUdhM00tY0dtODY1T0FBQUtVWktkZ25Ra1VmLVVmbUVtTGtoWTM2ZUJTaE1hdzdCV0pfX1drSC1XazlST3lEcmM1Z2N5d2FZWjhXRVFKamdaYTFwSVJCZmpYTGpqN3p6Y3ZObS1oaTRuTmhudmRLUUVMbm4wYUIyYWxzY1E2SmxzbnlqR0dPZE9aMTBQbkw4Q2ZTN3FiT0p2cU5qOWVVR1FaeEpNQzltZw?oc=5",
-   "kaynak": "The Des Moines Register",
+   "anahtar": "tech:2a81095235098448",
+   "tarih": "2026-07-12",
+   "baslik": "Posco and Hyundai are developing innovative electrical steel to improve the efficiency of electric vehicles",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQSGtGOHBERUpYUkpjbW4tQVEweXVNUzYtcU1DNjB2bWhQamNzYTlPZFNtMXBNeXRvLXJwS2hwaEcxN3VNNFg0RTd1UVhZYmZPNEZRT0YxUlQ4VThJcG0ycXRJOGVEVWVLOFZmUHVNZ2hPYzFwY0FxOGhydjdTRmEtUmtwbFZKUlB5WTRqb2l5V2NxN0hoY0o2NExOaEg3dHdPLXZrUG1Zc3laakRVR3dLQi0yRnR1elZ6NUVvc0swRHczUEtNNHRZM2VaZV9FaUdz0gHWAUFVX3lxTE5mbGJMX0V1bE15SmhZdE05VDM2OG9POEVzc2g1bExqcHIzZGw3S3dvS291M252VUllVHB6THlfR1E0MnlPRTFRVlRzV2phMldEV0lKSWJJenRsdkxWbkRyTkpicFdLMFYzNUk4WnZvcGJZbFAyRGpDMURMUGNLaWhRTk81MVZ5NnlvamRLdnd2dXBPMElaT19OQ2dwaEFmOHZjYjh3dlJpQk1xQkhxQjlGMVlyWlZCdVRXbVR0MlhpNE9wNHg4UFVONThfVXBtSG5rNFlUWVE?oc=5",
+   "kaynak": "GMK Center",
    "hat": "Elektrik celigi hatti"
   }
  ]

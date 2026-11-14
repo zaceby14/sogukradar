@@ -58,6 +58,31 @@
    "url": "https://www.steelorbis.com/steel-news/latest-news/hunan-valin-steel-plans-to-invest-rmb-3147-billionin-the-phase-iii-automotive-sheet-project-1490689.htm"
   },
   {
+   "anahtar": "8f5c37cd5e281040",
+   "asama": "Modernizasyon",
+   "baslik": "Pickling Lines Market To 2035: Automotive Lightweighting and Green Upgrades Fuel Expansion",
+   "eksik": [
+    "ulke"
+   ],
+   "firma": "Pickling Lines Market",
+   "hat": "Asitleme hatti",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "IndexBox",
+   "kaynak_id": "gq_hat01",
+   "lead": "Pickling Lines Market To 2035: Automotive Lightweighting and Green Upgrades Fuel Expansion - News and Statistics &nbsp;&nbsp; IndexBox",
+   "olaylar": [
+    "pickling lines market|hat|Asitleme hatti|Modernizasyon"
+   ],
+   "puan": 49.6,
+   "tarih": "2026-11-13",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPeGRLRktNMk9ETmFOU256UnJ4V1pVQjdVc2d2OVdISFkzTnVReUNDd1pSZGxRVy1QWEQ3d3BNQjBONWloY0lSV2p3Wk5rSUYxdkhQVjBjVnI1cFBYNzJFQnlTWG1nVEdVY1ZnQVR6Qm4zY24zX0VUMFBuWF8wci1yV0V6YWhJb1AtbWlTSVFSYmpLYktFMWt1aDAxNHl2bDd5NzljWkZrelJIc0RXTG9kd0c0d1dPM0YxcW1CaWVmaVNkd09DZHdDc0ZkTUZOR3BVWHNvSQ?oc=5"
+  },
+  {
    "anahtar": "8b828b970d0ac702",
    "asama": "Test",
    "baslik": "Zhejiang Hengfeng hot tests cold rolling mill",
@@ -290,6 +315,32 @@
    "tutar": "",
    "ulke": "",
    "url": "https://news.metal.com/en/newscontent/104207357-纽柯在南卡罗来纳州新建50万吨年汽车板镀锌线产出首卷优质卷板"
+  },
+  {
+   "anahtar": "26c4f1bffd99b708",
+   "asama": "Ilk urun",
+   "baslik": "[Nucor Produces First Prime Coil on New 500,000 t/yr Automotive Galvanizing Line in South Carolina]",
+   "eksik": [
+    "firma",
+    "ulke"
+   ],
+   "firma": "",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "500,000 t/yr",
+   "kategori": "Hat",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_sup07",
+   "lead": "Nucor and Primetals Technologies have produced the first prime coil on a new continuous galvanizing line (CGL) at Nucor's sheet mill in Berkeley County, South Carolina, completing the ...",
+   "olaylar": [
+    "primetals@produces|hat|Galvaniz hatti (CGL)|Ilk urun"
+   ],
+   "puan": 72.4,
+   "tarih": "2026-11-05",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "Primetals",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.metal.com/newscontent/SY6YFKNHRRR5K4T7RXLOESSWCZISHTAFI3TDGAY-nucor-produces-first-prime-coil-on-new-500000-tyr-automotive-galvanizing-line-in-south-carolina"
   },
   {
    "anahtar": "81220ff3171fedb4",
@@ -2487,6 +2538,24 @@
     "tekrar": 56
    },
    "uretim": "2026-11-13 11:13 UTC"
+  },
+  {
+   "donem": "2026-W46",
+   "satir": 6,
+   "stats": {
+    "erisilemeyen": 7,
+    "gnews_tarih": 0,
+    "ham": 3777,
+    "kabul": 6,
+    "kapsam_disi": 3353,
+    "kaynak": 315,
+    "makale_acildi": 223,
+    "on_eleme_gecti": 421,
+    "pencere_disi": 250,
+    "tarihsiz_elendi": 105,
+    "tekrar": 63
+   },
+   "uretim": "2026-11-14 10:49 UTC"
   }
  ],
  "piyasa_rezerv": [
@@ -2497,6 +2566,22 @@
    "lead": "Thailand has imposed anti-dumping duties on tinplate and tin-free steel, both in coils and cut-to-length sheets,...",
    "tarih": "2026-11-13",
    "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/thailand-levies-ad-tinplate-tin-free-sheet-1126/"
+  },
+  {
+   "anahtar": "piyasa:42c6911f8b4b2477",
+   "baslik": "Coils a freddo, via libera degli Stati Ue ai dazi antidumping - 15 Paesi favorevoli su 27. Atteso il regolamento definitivo, mentre sul mercato europeo i prezzi dei CRC si rafforzano",
+   "kaynak": "Siderweb",
+   "lead": "Quindici Stati membri dell&#039;Ue hanno votato a favore dell&#039;introduzione di dazi antidumping definitivi sulle importazioni di alcuni prodotti...-732720",
+   "tarih": "2026-11-13",
+   "url": "https://www.siderweb.com/articoli/news/732720-coils-a-freddo-via-libera-degli-stati-ue-ai-dazi-antidumping"
+  },
+  {
+   "anahtar": "piyasa:46ec69ffb1d5a590",
+   "baslik": "\"Yeni AB kota rejimi yassı çelikte Türkiye'ye rekabet avantajı sunuyor\"",
+   "kaynak": "A24.com.tr",
+   "lead": "\"Yeni AB kota rejimi yassı çelikte Türkiye'ye rekabet avantajı sunuyor\" &nbsp;&nbsp; A24.com.tr",
+   "tarih": "2026-11-13",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQX0RsUVZhdy1xdVUzbXBRaGZRRU5fQVN0NExWRjhTX3dYYUtGdTJ3RXNaWXAtLUpXVVVkcVhIdGRXNk9nN3o2X2UtX1ZFU1RNdWJnb19zdTI4OUhSajEtb1k3MjhCc19QVEc5LUlnZnFfMkZmT3RtUE5JcEx4emktWktKNG1IRGo0MmxraHIzTEFfVFJzR1BncldRYlJxd2dGYWxvZ1RvSzYwdV9KMmRmSWp30gGyAUFVX3lxTFBfRGxRVmF3LXF1VTNtcFFoZlFFTl9BU3Q0TFZGOFNfd1hhS0Z1MndFc1pZcC0tSldVVWRxWEh0ZFc2T2c3ejZfZS1fVkVTVE11YmdvX3N1Mjg5SFJqMS1vWTcyOEJzX1BURzktSWdmcV8yRmZPdG1QTklwTHh6aS1aS0o0bUhEajQybGtocjNMQV9UUnNHUGdyV1FiUnF3Z0ZhbG9nVG9LNjB1X0oyZGZJanc?oc=5"
   },
   {
    "anahtar": "piyasa:c9fcbc75a017ecc8",
@@ -2609,22 +2694,6 @@
    "lead": "Tin Plate Price Trend, Index, Chart and Forecast 2026 &nbsp;&nbsp; IMARC Group",
    "tarih": "2026-10-27",
    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBhVEw0UnMwSU9RWkQ0OThJajd4bDdCNTF1V0U5N0JUSmt5MHQ1ZjlRbHFFVVlXckxORnFoc285NkhteXVZUGNVSGhibVYyd05sMkdaak8yU1lpZkVF?oc=5"
-  },
-  {
-   "anahtar": "piyasa:89da757ae315d119",
-   "baslik": "【SMM Analysis】Silicon Steel Import and Export Performance in September: Imports Surge, Exports Diverge",
-   "kaynak": "Shanghai Metals Market",
-   "lead": "【SMM Analysis】Silicon Steel Import and Export Performance in September: Imports Surge, Exports Diverge &nbsp;&nbsp; Shanghai Metals Market",
-   "tarih": "2026-10-23",
-   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPOUIzUXh5eW5meW9EQ1NTUVR1MklVUzVCMEJMNTBqZ05veF8xWFlTYXhGVFRGTGtEX1pwU1lVZkI5cUxWekRxd2Jja0liNF9oblpVWUMwMEpIb2d5Qy14UFZ5aWlfc3pLbWlVSWg3ODEyRU9vcU56SUI3QzlLSWViX1d2dUk2TC1zVGpRMEJiajJ6dTBZa0lSRUp3M3hCTG1vbHpGbmFod3piXzBZaUQ1Ul9TMGFCQUVkbXlBek8xbGlUNXRSTVpWYXNmbXhFa0Y1NDg0alduXzFLa1k?oc=5"
-  },
-  {
-   "anahtar": "piyasa:cdc612aac34be091",
-   "baslik": "[SMM Analysis] Indian flat steel demand supports sales as coal costs squeeze margins",
-   "kaynak": "Bing News",
-   "lead": "Record shipments lifted JSW Steel’s Q2 FY27 earnings, but costs and weaker realisations absorbed 71% of the volume gain. Imports rose despite India’s safeguard duty, and coking coal costs are ...",
-   "tarih": "2026-10-23",
-   "url": "https://news.metal.com/newscontent/SW3J2766346I5MXGQOV7YDIEUA274E54XSML3NY-smm-analysis-indian-flat-steel-demand-supports-sales-as-coal-costs-squeeze-margins"
   }
  ],
  "piyasa_seen": {
