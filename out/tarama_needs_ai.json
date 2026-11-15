@@ -2,9 +2,9 @@
  "donem": "2026-W46",
  "duzelt": [
   {
-   "anahtar": "26c4f1bffd99b708",
-   "baslik": "[Nucor Produces First Prime Coil on New 500,000 t/yr Automotive Galvanizing Line in South Carolina]",
-   "url": "https://news.metal.com/newscontent/SY6YFKNHRRR5K4T7RXLOESSWCZISHTAFI3TDGAY-nucor-produces-first-prime-coil-on-new-500000-tyr-automotive-galvanizing-line-in-south-carolina",
+   "anahtar": "45ecc037d8bbc346",
+   "baslik": "[Nucor, Primetals Produce First Prime Coil on New Galvanizing Line in South Carolina]",
+   "url": "https://news.metal.com/newscontent/VMPIO4TOHDTW6D7TRCRLJTKDXCLGOFN2PGGL4QA-nucor-primetals-produce-first-prime-coil-on-new-galvanizing-line-in-south-carolina",
    "eksik": [
     "firma",
     "ulke"
@@ -31,20 +31,6 @@
    }
   },
   {
-   "anahtar": "8f5c37cd5e281040",
-   "baslik": "Pickling Lines Market To 2035: Automotive Lightweighting and Green Upgrades Fuel Expansion",
-   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPeGRLRktNMk9ETmFOU256UnJ4V1pVQjdVc2d2OVdISFkzTnVReUNDd1pSZGxRVy1QWEQ3d3BNQjBONWloY0lSV2p3Wk5rSUYxdkhQVjBjVnI1cFBYNzJFQnlTWG1nVEdVY1ZnQVR6Qm4zY24zX0VUMFBuWF8wci1yV0V6YWhJb1AtbWlTSVFSYmpLYktFMWt1aDAxNHl2bDd5NzljWkZrelJIc0RXTG9kd0c0d1dPM0YxcW1CaWVmaVNkd09DZHdDc0ZkTUZOR3BVWHNvSQ?oc=5",
-   "eksik": [
-    "ulke"
-   ],
-   "mevcut": {
-    "firma": "Pickling Lines Market",
-    "ulke": "",
-    "hat": "Asitleme hatti",
-    "asama": "Modernizasyon"
-   }
-  },
-  {
    "anahtar": "3eff151da8f30d87",
    "baslik": "Dongkuk CM develops color-coated steel sheet to prevent condensation in AI data centers",
    "url": "https://www.mt.co.kr/en/industry/2026/11/12/2026111209050897200",
@@ -61,7 +47,7 @@
   {
    "anahtar": "f4884c93e0340d67",
    "baslik": "Man-less entry section and centralized control of the tandem cold mill at Tata Steel Ijmuiden",
-   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQWmF4ckU4cld0cEZ3ZUlzbmt4Nk1jUF80alVNVzdXZXJPbHNjbWhDNE12eWVTVGZlOWJXTmIwWXRucUxNbGdkdFR1Q0RlZnN0NFpzQnFtMWFJakJVdGZNSFl4YncyUUUtTUV6X1BpVDhfMS1NaHF6ZmplMVVSb1dKY0VzaHVTaTFKOVA5eU5YX3JBdmhkYV9iSUl0S0IxNE9FS2d0VGN4a3R1ekR5c01XNmFvUnd1WnZhM0xlRFRvdHNfX0VsTmdJejQ3T1NnY2laNEppOFhXYUI?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPUjNjTDRyeTJrdHdtV1BOX1g3SkotV3hfQzVSSWVaQU9iQl9Cb01QQW5qbTl2eFNwYlQ5Y09VTzhRUi1hSFA0MVM0aDlwYmJEUWFhR29lUlE2LTZuTlBJLUxYaEdhdWlLTS1PRy04NTNtd2owckNnamh0UE1RMzVKQ3VNNmhxMjhJaEh6WXdXN1ZXV2R3a1R6ZllQRFBtV2taRTZVRG5xNHI0a2s1LVNzclgxdFJFd3J5X1ZmVHg5Q01qY0Q1UGlqdmpaVXpzeVJjRVJjMnZheTFJckxCclhoRA?oc=5",
    "eksik": [
     "ulke",
     "asama"
@@ -88,18 +74,32 @@
     "hat": "Belirsiz",
     "asama": "Belirsiz"
    }
+  },
+  {
+   "anahtar": "8f5c37cd5e281040",
+   "baslik": "Pickling Lines Market To 2035: Automotive Lightweighting and Green Upgrades Fuel Expansion",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPeGRLRktNMk9ETmFOU256UnJ4V1pVQjdVc2d2OVdISFkzTnVReUNDd1pSZGxRVy1QWEQ3d3BNQjBONWloY0lSV2p3Wk5rSUYxdkhQVjBjVnI1cFBYNzJFQnlTWG1nVEdVY1ZnQVR6Qm4zY24zX0VUMFBuWF8wci1yV0V6YWhJb1AtbWlTSVFSYmpLYktFMWt1aDAxNHl2bDd5NzljWkZrelJIc0RXTG9kd0c0d1dPM0YxcW1CaWVmaVNkd09DZHdDc0ZkTUZOR3BVWHNvSQ?oc=5",
+   "eksik": [
+    "ulke"
+   ],
+   "mevcut": {
+    "firma": "Pickling Lines Market",
+    "ulke": "",
+    "hat": "Asitleme hatti",
+    "asama": "Modernizasyon"
+   }
   }
  ],
  "cumle_yaz": [
   {
-   "anahtar": "26c4f1bffd99b708",
+   "anahtar": "45ecc037d8bbc346",
    "tarih": "2026-11-05",
    "firma": "",
    "ulke": "",
    "hat": "Galvaniz hatti (CGL)",
    "asama": "Ilk urun",
-   "baslik": "[Nucor Produces First Prime Coil on New 500,000 t/yr Automotive Galvanizing Line in South Carolina]",
-   "url": "https://news.metal.com/newscontent/SY6YFKNHRRR5K4T7RXLOESSWCZISHTAFI3TDGAY-nucor-produces-first-prime-coil-on-new-500000-tyr-automotive-galvanizing-line-in-south-carolina"
+   "baslik": "[Nucor, Primetals Produce First Prime Coil on New Galvanizing Line in South Carolina]",
+   "url": "https://news.metal.com/newscontent/VMPIO4TOHDTW6D7TRCRLJTKDXCLGOFN2PGGL4QA-nucor-primetals-produce-first-prime-coil-on-new-galvanizing-line-in-south-carolina"
   },
   {
    "anahtar": "8b828b970d0ac702",
@@ -110,16 +110,6 @@
    "asama": "Test",
    "baslik": "Zhejiang Hengfeng hot tests cold rolling mill",
    "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/zhejiang-hengfeng-hot-tests-cold-rolling-mill-1126/"
-  },
-  {
-   "anahtar": "8f5c37cd5e281040",
-   "tarih": "2026-11-13",
-   "firma": "Pickling Lines Market",
-   "ulke": "",
-   "hat": "Asitleme hatti",
-   "asama": "Modernizasyon",
-   "baslik": "Pickling Lines Market To 2035: Automotive Lightweighting and Green Upgrades Fuel Expansion",
-   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPeGRLRktNMk9ETmFOU256UnJ4V1pVQjdVc2d2OVdISFkzTnVReUNDd1pSZGxRVy1QWEQ3d3BNQjBONWloY0lSV2p3Wk5rSUYxdkhQVjBjVnI1cFBYNzJFQnlTWG1nVEdVY1ZnQVR6Qm4zY24zX0VUMFBuWF8wci1yV0V6YWhJb1AtbWlTSVFSYmpLYktFMWt1aDAxNHl2bDd5NzljWkZrelJIc0RXTG9kd0c0d1dPM0YxcW1CaWVmaVNkd09DZHdDc0ZkTUZOR3BVWHNvSQ?oc=5"
   },
   {
    "anahtar": "3eff151da8f30d87",
@@ -133,13 +123,23 @@
   },
   {
    "anahtar": "f4884c93e0340d67",
-   "tarih": "2026-11-09",
+   "tarih": "2026-11-10",
    "firma": "Tata Steel Ijmuiden",
    "ulke": "",
    "hat": "Tandem soguk hadde (TCM)",
    "asama": "Belirsiz",
    "baslik": "Man-less entry section and centralized control of the tandem cold mill at Tata Steel Ijmuiden",
-   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQWmF4ckU4cld0cEZ3ZUlzbmt4Nk1jUF80alVNVzdXZXJPbHNjbWhDNE12eWVTVGZlOWJXTmIwWXRucUxNbGdkdFR1Q0RlZnN0NFpzQnFtMWFJakJVdGZNSFl4YncyUUUtTUV6X1BpVDhfMS1NaHF6ZmplMVVSb1dKY0VzaHVTaTFKOVA5eU5YX3JBdmhkYV9iSUl0S0IxNE9FS2d0VGN4a3R1ekR5c01XNmFvUnd1WnZhM0xlRFRvdHNfX0VsTmdJejQ3T1NnY2laNEppOFhXYUI?oc=5"
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPUjNjTDRyeTJrdHdtV1BOX1g3SkotV3hfQzVSSWVaQU9iQl9Cb01QQW5qbTl2eFNwYlQ5Y09VTzhRUi1hSFA0MVM0aDlwYmJEUWFhR29lUlE2LTZuTlBJLUxYaEdhdWlLTS1PRy04NTNtd2owckNnamh0UE1RMzVKQ3VNNmhxMjhJaEh6WXdXN1ZXV2R3a1R6ZllQRFBtV2taRTZVRG5xNHI0a2s1LVNzclgxdFJFd3J5X1ZmVHg5Q01qY0Q1UGlqdmpaVXpzeVJjRVJjMnZheTFJckxCclhoRA?oc=5"
+  },
+  {
+   "anahtar": "8f5c37cd5e281040",
+   "tarih": "2026-11-13",
+   "firma": "Pickling Lines Market",
+   "ulke": "",
+   "hat": "Asitleme hatti",
+   "asama": "Modernizasyon",
+   "baslik": "Pickling Lines Market To 2035: Automotive Lightweighting and Green Upgrades Fuel Expansion",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPeGRLRktNMk9ETmFOU256UnJ4V1pVQjdVc2d2OVdISFkzTnVReUNDd1pSZGxRVy1QWEQ3d3BNQjBONWloY0lSV2p3Wk5rSUYxdkhQVjBjVnI1cFBYNzJFQnlTWG1nVEdVY1ZnQVR6Qm4zY24zX0VUMFBuWF8wci1yV0V6YWhJb1AtbWlTSVFSYmpLYktFMWt1aDAxNHl2bDd5NzljWkZrelJIc0RXTG9kd0c0d1dPM0YxcW1CaWVmaVNkd09DZHdDc0ZkTUZOR3BVWHNvSQ?oc=5"
   }
  ],
  "teknoloji_adaylari": [
@@ -168,12 +168,20 @@
    "hat": "Boyama hatti (CCL)"
   },
   {
-   "anahtar": "tech:c6750ab7db92f3f5",
-   "tarih": "2026-11-12",
-   "baslik": "Dongkuk CM develops color-coated steel sheet with 10 times better condensation-delay performance",
-   "url": "https://en.fnnews.com/news/202611121502154436",
+   "anahtar": "tech:45e7f994631a31a2",
+   "tarih": "2026-11-09",
+   "baslik": "Industrial Surface Defect Segmentation",
+   "url": "https://huggingface.co/Krrrrish/industrial-surface-defect-segmentation",
    "kaynak": "Bing News",
-   "hat": "Boyama hatti (CCL)"
+   "hat": "Yuzey muayene (SIS)"
+  },
+  {
+   "anahtar": "tech:c63a7f950e471960",
+   "tarih": "2026-11-08",
+   "baslik": "AI Is Queued Behind an Electrical Steel Transformer Shortage",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1TQUplTC1uLWNhV20yUXlIaEtpVWNJWFp4alJ4bEZiMGRncVJocWdDZWgzYm1rbHZfNjNSUGdUOUdXMHlJSGp1b252eEZfeGRlRXRxNUVZRUVVZFlhM0UxUnU5dlRlMU5QR2RGNmRlN0hLRjM3Ulpwczd1QQ?oc=5",
+   "kaynak": "Intelligent Living",
+   "hat": "Elektrik celigi hatti"
   },
   {
    "anahtar": "tech:ee3ada124db6cc47",
@@ -190,14 +198,6 @@
    "url": "https://eurometal.net/european-coil-and-green-steel-round-up-eu-coil-largely-stable-on-slow-apparent-demand/",
    "kaynak": "Bing News",
    "hat": "Belirsiz"
-  },
-  {
-   "anahtar": "tech:45c439b08bc58b50",
-   "tarih": "2026-10-15",
-   "baslik": "ArcelorMittal commits €300 million to Dunkirk steel project, targets spring 2027 tests for new line in Mardyck",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/arcelormittal-advances-dunkirk-eaf-and-mardyck-electrical-steel-projects-1483903.htm",
-   "kaynak": "Bing News",
-   "hat": "Elektrik celigi hatti"
   },
   {
    "anahtar": "tech:21b8b17f2932d529",

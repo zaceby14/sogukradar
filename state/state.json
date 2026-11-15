@@ -2556,6 +2556,24 @@
     "tekrar": 63
    },
    "uretim": "2026-11-14 10:49 UTC"
+  },
+  {
+   "donem": "2026-W46",
+   "satir": 6,
+   "stats": {
+    "erisilemeyen": 4,
+    "gnews_tarih": 0,
+    "ham": 4273,
+    "kabul": 5,
+    "kapsam_disi": 3853,
+    "kaynak": 315,
+    "makale_acildi": 226,
+    "on_eleme_gecti": 408,
+    "pencere_disi": 247,
+    "tarihsiz_elendi": 108,
+    "tekrar": 60
+   },
+   "uretim": "2026-11-15 10:59 UTC"
   }
  ],
  "piyasa_rezerv": [
@@ -4634,6 +4652,14 @@
    "kaynak": "Bing News",
    "tarih": "2026-11-11",
    "url": "https://en.fnnews.com/news/202611121502154436"
+  },
+  {
+   "anahtar": "tech:45e7f994631a31a2",
+   "baslik": "Industrial Surface Defect Segmentation",
+   "hat": "Yuzey muayene (SIS)",
+   "kaynak": "Bing News",
+   "tarih": "2026-11-09",
+   "url": "https://huggingface.co/Krrrrish/industrial-surface-defect-segmentation"
   },
   {
    "anahtar": "tech:c63a7f950e471960",

@@ -7,24 +7,24 @@
    "hat": "Galvaniz hatti (CGL)",
    "asama": "Ilk urun",
    "tedarikci": "Primetals",
-   "kapasite": "500,000 t/yr",
+   "kapasite": "",
    "tutar": "",
-   "baslik": "[Nucor Produces First Prime Coil on New 500,000 t/yr Automotive Galvanizing Line in South Carolina]",
+   "baslik": "[Nucor, Primetals Produce First Prime Coil on New Galvanizing Line in South Carolina]",
    "kaynak": "Bing News",
-   "kaynak_id": "bgq_sup07",
-   "url": "https://news.metal.com/newscontent/SY6YFKNHRRR5K4T7RXLOESSWCZISHTAFI3TDGAY-nucor-produces-first-prime-coil-on-new-500000-tyr-automotive-galvanizing-line-in-south-carolina",
+   "kaynak_id": "bgq_sup01",
+   "url": "https://news.metal.com/newscontent/VMPIO4TOHDTW6D7TRCRLJTKDXCLGOFN2PGGL4QA-nucor-primetals-produce-first-prime-coil-on-new-galvanizing-line-in-south-carolina",
    "tarih_kaynagi": "rss",
-   "lead": "Nucor and Primetals Technologies have produced the first prime coil on a new continuous galvanizing line (CGL) at Nucor's sheet mill in Berkeley County, South Carolina, completing the ...",
+   "lead": "Nucor and Primetals Technologies have produced the first prime coil on a new continuous galvanizing line (CGL) at Nucor's sheet steel mill in Berkeley County, South Carolina, completing the ...",
    "eksik": [
     "firma",
     "ulke"
    ],
-   "anahtar": "26c4f1bffd99b708",
+   "anahtar": "45ecc037d8bbc346",
    "kategori": "Hat",
    "olaylar": [
-    "primetals@produces|hat|Galvaniz hatti (CGL)|Ilk urun"
+    "primetals@produce|hat|Galvaniz hatti (CGL)|Ilk urun"
    ],
-   "puan": 72.4
+   "puan": 68.0
   },
   {
    "tarih": "2026-11-12",
@@ -49,32 +49,7 @@
    "olaylar": [
     "zhejiang hengfeng|hat|Soguk hadde|Test"
    ],
-   "puan": 53.7
-  },
-  {
-   "tarih": "2026-11-13",
-   "firma": "Pickling Lines Market",
-   "ulke": "",
-   "hat": "Asitleme hatti",
-   "asama": "Modernizasyon",
-   "tedarikci": "",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "Pickling Lines Market To 2035: Automotive Lightweighting and Green Upgrades Fuel Expansion",
-   "kaynak": "IndexBox",
-   "kaynak_id": "gq_hat01",
-   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPeGRLRktNMk9ETmFOU256UnJ4V1pVQjdVc2d2OVdISFkzTnVReUNDd1pSZGxRVy1QWEQ3d3BNQjBONWloY0lSV2p3Wk5rSUYxdkhQVjBjVnI1cFBYNzJFQnlTWG1nVEdVY1ZnQVR6Qm4zY24zX0VUMFBuWF8wci1yV0V6YWhJb1AtbWlTSVFSYmpLYktFMWt1aDAxNHl2bDd5NzljWkZrelJIc0RXTG9kd0c0d1dPM0YxcW1CaWVmaVNkd09DZHdDc0ZkTUZOR3BVWHNvSQ?oc=5",
-   "tarih_kaynagi": "rss",
-   "lead": "Pickling Lines Market To 2035: Automotive Lightweighting and Green Upgrades Fuel Expansion - News and Statistics &nbsp;&nbsp; IndexBox",
-   "eksik": [
-    "ulke"
-   ],
-   "anahtar": "8f5c37cd5e281040",
-   "kategori": "Hat",
-   "olaylar": [
-    "pickling lines market|hat|Asitleme hatti|Modernizasyon"
-   ],
-   "puan": 49.6
+   "puan": 53.3
   },
   {
    "tarih": "2026-11-12",
@@ -99,10 +74,10 @@
    "olaylar": [
     "dongkuk cm|hat|Boyama hatti (CCL)|Teknoloji"
    ],
-   "puan": 48.7
+   "puan": 48.3
   },
   {
-   "tarih": "2026-11-09",
+   "tarih": "2026-11-10",
    "firma": "Tata Steel Ijmuiden",
    "ulke": "",
    "hat": "Tandem soguk hadde (TCM)",
@@ -113,7 +88,7 @@
    "baslik": "Man-less entry section and centralized control of the tandem cold mill at Tata Steel Ijmuiden",
    "kaynak": "SMS group",
    "kaynak_id": "gs_sms",
-   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQWmF4ckU4cld0cEZ3ZUlzbmt4Nk1jUF80alVNVzdXZXJPbHNjbWhDNE12eWVTVGZlOWJXTmIwWXRucUxNbGdkdFR1Q0RlZnN0NFpzQnFtMWFJakJVdGZNSFl4YncyUUUtTUV6X1BpVDhfMS1NaHF6ZmplMVVSb1dKY0VzaHVTaTFKOVA5eU5YX3JBdmhkYV9iSUl0S0IxNE9FS2d0VGN4a3R1ekR5c01XNmFvUnd1WnZhM0xlRFRvdHNfX0VsTmdJejQ3T1NnY2laNEppOFhXYUI?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPUjNjTDRyeTJrdHdtV1BOX1g3SkotV3hfQzVSSWVaQU9iQl9Cb01QQW5qbTl2eFNwYlQ5Y09VTzhRUi1hSFA0MVM0aDlwYmJEUWFhR29lUlE2LTZuTlBJLUxYaEdhdWlLTS1PRy04NTNtd2owckNnamh0UE1RMzVKQ3VNNmhxMjhJaEh6WXdXN1ZXV2R3a1R6ZllQRFBtV2taRTZVRG5xNHI0a2s1LVNzclgxdFJFd3J5X1ZmVHg5Q01qY0Q1UGlqdmpaVXpzeVJjRVJjMnZheTFJckxCclhoRA?oc=5",
    "tarih_kaynagi": "rss",
    "lead": "Man-less entry section and centralized control of the tandem cold mill at Tata Steel Ijmuiden &nbsp;&nbsp; SMS group",
    "eksik": [
@@ -153,20 +128,45 @@
    "olaylar": [
     "hunan valin steel|hat|Belirsiz|Belirsiz"
    ],
-   "puan": -0.9
+   "puan": -1.3
+  },
+  {
+   "anahtar": "8f5c37cd5e281040",
+   "asama": "Modernizasyon",
+   "baslik": "Pickling Lines Market To 2035: Automotive Lightweighting and Green Upgrades Fuel Expansion",
+   "eksik": [
+    "ulke"
+   ],
+   "firma": "Pickling Lines Market",
+   "hat": "Asitleme hatti",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "IndexBox",
+   "kaynak_id": "gq_hat01",
+   "lead": "Pickling Lines Market To 2035: Automotive Lightweighting and Green Upgrades Fuel Expansion - News and Statistics &nbsp;&nbsp; IndexBox",
+   "olaylar": [
+    "pickling lines market|hat|Asitleme hatti|Modernizasyon"
+   ],
+   "puan": 49.6,
+   "tarih": "2026-11-13",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPeGRLRktNMk9ETmFOU256UnJ4V1pVQjdVc2d2OVdISFkzTnVReUNDd1pSZGxRVy1QWEQ3d3BNQjBONWloY0lSV2p3Wk5rSUYxdkhQVjBjVnI1cFBYNzJFQnlTWG1nVEdVY1ZnQVR6Qm4zY24zX0VUMFBuWF8wci1yV0V6YWhJb1AtbWlTSVFSYmpLYktFMWt1aDAxNHl2bDd5NzljWkZrelJIc0RXTG9kd0c0d1dPM0YxcW1CaWVmaVNkd09DZHdDc0ZkTUZOR3BVWHNvSQ?oc=5"
   }
  ],
  "stats": {
   "kaynak": 315,
-  "erisilemeyen": 7,
-  "ham": 3777,
-  "on_eleme_gecti": 421,
-  "makale_acildi": 223,
-  "tarihsiz_elendi": 105,
-  "pencere_disi": 250,
-  "kapsam_disi": 3353,
-  "tekrar": 63,
-  "kabul": 6,
+  "erisilemeyen": 4,
+  "ham": 4273,
+  "on_eleme_gecti": 408,
+  "makale_acildi": 226,
+  "tarihsiz_elendi": 108,
+  "pencere_disi": 247,
+  "kapsam_disi": 3853,
+  "tekrar": 60,
+  "kabul": 5,
   "gnews_tarih": 0
  },
  "unreachable": [
@@ -179,24 +179,12 @@
    "HTTP 429"
   ],
   [
-   "The Bronx Group",
-   "URLError: <urlopen error timed out>"
-  ],
-  [
-   "ArcelorMittal",
-   "HTTP 403"
-  ],
-  [
    "Steel Radar",
    "HTTP 403"
   ],
   [
    "BigMint (SteelMint)",
    "HTTP 403"
-  ],
-  [
-   "Mysteel (tesis/proje)",
-   "URLError: <urlopen error timed out>"
   ]
  ],
  "kinds": {
@@ -516,7 +504,7 @@
   "bgtek_jc": "arama",
   "bgtek_danieli": "arama"
  },
- "today": "2026-11-14",
+ "today": "2026-11-15",
  "host_saglik": {
   "news.google.com": {
    "istek": 123,
@@ -536,12 +524,12 @@
   "new.abb.com": {
    "istek": 3,
    "hiz_siniri": 2,
-   "sogutmada": false
+   "sogutmada": true
   },
   "www.cognex.com": {
    "istek": 2,
    "hiz_siniri": 2,
-   "sogutmada": false
+   "sogutmada": true
   }
  },
  "tech_pool": [
@@ -570,12 +558,20 @@
    "hat": "Boyama hatti (CCL)"
   },
   {
-   "anahtar": "tech:c6750ab7db92f3f5",
-   "tarih": "2026-11-12",
-   "baslik": "Dongkuk CM develops color-coated steel sheet with 10 times better condensation-delay performance",
-   "url": "https://en.fnnews.com/news/202611121502154436",
+   "anahtar": "tech:45e7f994631a31a2",
+   "tarih": "2026-11-09",
+   "baslik": "Industrial Surface Defect Segmentation",
+   "url": "https://huggingface.co/Krrrrish/industrial-surface-defect-segmentation",
    "kaynak": "Bing News",
-   "hat": "Boyama hatti (CCL)"
+   "hat": "Yuzey muayene (SIS)"
+  },
+  {
+   "anahtar": "tech:c63a7f950e471960",
+   "tarih": "2026-11-08",
+   "baslik": "AI Is Queued Behind an Electrical Steel Transformer Shortage",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1TQUplTC1uLWNhV20yUXlIaEtpVWNJWFp4alJ4bEZiMGRncVJocWdDZWgzYm1rbHZfNjNSUGdUOUdXMHlJSGp1b252eEZfeGRlRXRxNUVZRUVVZFlhM0UxUnU5dlRlMU5QR2RGNmRlN0hLRjM3Ulpwczd1QQ?oc=5",
+   "kaynak": "Intelligent Living",
+   "hat": "Elektrik celigi hatti"
   },
   {
    "anahtar": "tech:ee3ada124db6cc47",
@@ -592,14 +588,6 @@
    "url": "https://eurometal.net/european-coil-and-green-steel-round-up-eu-coil-largely-stable-on-slow-apparent-demand/",
    "kaynak": "Bing News",
    "hat": "Belirsiz"
-  },
-  {
-   "anahtar": "tech:45c439b08bc58b50",
-   "tarih": "2026-10-15",
-   "baslik": "ArcelorMittal commits €300 million to Dunkirk steel project, targets spring 2027 tests for new line in Mardyck",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/arcelormittal-advances-dunkirk-eaf-and-mardyck-electrical-steel-projects-1483903.htm",
-   "kaynak": "Bing News",
-   "hat": "Elektrik celigi hatti"
   },
   {
    "anahtar": "tech:21b8b17f2932d529",
@@ -645,7 +633,7 @@
  "kaynak_katki": {
   "SteelOrbis": 1,
   "Kallanish": 1,
-  "Google News": 2,
+  "Google News": 1,
   "Bing News": 2
  },
  "piyasa_pool": [
@@ -682,22 +670,6 @@
    "lead": "\"Yeni AB kota rejimi yassı çelikte Türkiye'ye rekabet avantajı sunuyor\" &nbsp;&nbsp; A24.com.tr"
   },
   {
-   "anahtar": "piyasa:303e22be4a03a882",
-   "tarih": "2026-11-12",
-   "baslik": "Electrical Steel Laminations Market To 2035: Grid Upgrades and EV Motors Fuel Growth - News and Statistics",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOSjJUdnpEd2hFNWpmQ3NtUkZaR2xMcGNITjBOSlN6cWxrX2VZRmpnNVhOamdMVGtxd28taTZHUVdUTnprY3dEVlR4V3BTWDZFdjZvNW5Bck0zLUdMRUNBYlhiT01oLS1IOEdvNHNFeTNSbmVUTkh3ekg3MlRVNEEtVE50X2Q2bXBjXzRYYnB2cUZjeTRuSFBfQjdTM3FBQ0JhdTdCZnhWcGVOWm5sdDVJVjNiaHZvSzNlSXZGOElPNTA0US1vRmV2TTJNWQ?oc=5",
-   "kaynak": "IndexBox",
-   "lead": "Electrical Steel Laminations Market To 2035: Grid Upgrades and EV Motors Fuel Growth - News and Statistics &nbsp;&nbsp; IndexBox"
-  },
-  {
-   "anahtar": "piyasa:d3a84e1070257f60",
-   "tarih": "2026-11-12",
-   "baslik": "Ex-India HDG prices stable, stray discounted offers not converted into sales",
-   "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPV1I3RGVCT3JXNVlrdXRwRkUwa3pZRGZjYy1Ub19WbmRQMVNxNlJ2UzNRQjFBRGphSEdXZVRRRFAwanVRTU9YQkFzcWxBQmxqUlNqNjhyYm0zWkdNVDZjWmlFd0NhaFh6b2F5eUZXV3Bsbnhfc3piSDI2ZVJrTGVaQzF2Q2hOeTd6TzR2UzU0UGNmTzVtbUt0Z25rT19wcnlQR0pzQTRxY0hwSWtQSzY5a2FBeWhCWlFGOFFiTmQ3QzlLQUNpNGhCblZKVVo3QThwTVRNWjRubUxNN0drQWJrcGRnOWVFY19aRnFJeWhPRk1FRU9fSzNkYjVSU2lrdTJj?oc=5",
-   "kaynak": "SteelOrbis",
-   "lead": "Ex-India HDG prices stable, stray discounted offers not converted into sales &nbsp;&nbsp; SteelOrbis"
-  },
-  {
    "anahtar": "piyasa:7c4e44a94dca63cf",
    "tarih": "2026-11-12",
    "baslik": "[US Antidumping Case Analysis] Cold-Rolled Steel Flat Products from South Korea (A-580-881) — POSCO's Margin Drops from 6.32% to 0%",
@@ -730,12 +702,12 @@
    "lead": "India: Coated flat steel prices drop INR 100-400/t w-o-w on weak demand and slow trading ..."
   },
   {
-   "anahtar": "piyasa:57ac2bb7e1222d7b",
-   "tarih": "2026-11-05",
-   "baslik": "Electrical Steel Pricing Report: Explore Global Price Trends, Historical Data and Forecasts",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdmp1SGVTd19RaTEwRW56Q0tjb2x3eVFfTE4xLVpWZ2hmdXlHQnB2TDQ0Y1c1U2U4dS1tQTc4TXg3ZHE1RFhMYTlzZGVxd1pGZ1pCZlRCS2tuUjB5STZGNy0zWGRGRkdETElmaVQwMGRwczJwaHpJWERWclBIa0JJa2NOREU4Y1RvTnZKWVM0dVdSVHkwNVNMQmptdw?oc=5",
-   "kaynak": "openPR.com",
-   "lead": "Electrical Steel Pricing Report: Explore Global Price Trends, Historical Data and Forecasts &nbsp;&nbsp; openPR.com"
+   "anahtar": "piyasa:c63a7f950e471960",
+   "tarih": "2026-11-08",
+   "baslik": "AI Is Queued Behind an Electrical Steel Transformer Shortage",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1TQUplTC1uLWNhV20yUXlIaEtpVWNJWFp4alJ4bEZiMGRncVJocWdDZWgzYm1rbHZfNjNSUGdUOUdXMHlJSGp1b252eEZfeGRlRXRxNUVZRUVVZFlhM0UxUnU5dlRlMU5QR2RGNmRlN0hLRjM3Ulpwczd1QQ?oc=5",
+   "kaynak": "Intelligent Living",
+   "lead": "AI Is Queued Behind an Electrical Steel Transformer Shortage &nbsp;&nbsp; Intelligent Living"
   },
   {
    "anahtar": "piyasa:d5efa79ea300d360",
@@ -752,14 +724,6 @@
    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxORmFaOHNRejlLbHNZWEdDc3B1VUNVbk5BMDhxci1sSGhPaXFGNnJBSGVqSlMwZjVXS04wX1pQNmt3dVR2Ulh4QXhFbzJRWVJYRzFCa01ETzhjeEl4OEs4TFE5M0xkWW9aLXliYjF4eWhoTHRoTWpWZDlldXRFVHBzSWdibUhZZVVyeXVUT0dCZTJWUE1OeXZIX0lUVXBkSnhHQmlBR3lQMndRZw?oc=5",
    "kaynak": "Yieh Corp.",
    "lead": "Hoa Phat exports 8,000 tons of galvanized steel to Japan for the first time &nbsp;&nbsp; Yieh Corp."
-  },
-  {
-   "anahtar": "piyasa:380785546277695a",
-   "tarih": "2026-11-02",
-   "baslik": "Hoa Phat exports 8,000 tons of galvanized steel sheets to Japan, expanding its international market.",
-   "url": "https://www.vietnam.vn/en/hoa-phat-xuat-khau-8-000-tan-ton-ma-sang-nhat-ban-mo-rong-thi-truong-quoc-te",
-   "kaynak": "Bing News",
-   "lead": "The shipment meets the Japanese JIS G 3302 standard, with strict requirements regarding specifications, a smooth plating surface, and environmentally friendly chromium-3+ or chromium-free surface ..."
   },
   {
    "anahtar": "piyasa:885aed75f997198b",
@@ -779,14 +743,14 @@
   }
  ],
  "window": [
-  "2026-10-24",
-  "2026-11-14"
+  "2026-10-25",
+  "2026-11-15"
  ],
- "bulunan_kullanilan": 0,
+ "bulunan_kullanilan": 1,
  "bulunan_havuz": 9,
  "rezerv_kullanilan": 0,
  "rezerv_havuz": 68,
  "period": "2026-W46",
- "generated": "2026-11-14 10:49 UTC",
+ "generated": "2026-11-15 10:59 UTC",
  "version": "3.0.0"
 }
