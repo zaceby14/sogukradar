@@ -19,8 +19,8 @@
     "neden": "kaynakta olmayan sayi: 500"
    }
   ],
-  "cumle_llm": 4,
-  "cumle_kuralsal": 2,
+  "cumle_llm": 5,
+  "cumle_kuralsal": 1,
   "supheli_cikarilan": 1
  },
  "elenen_satirlar": [
@@ -36,7 +36,7 @@
   }
  ],
  "email": "/home/runner/work/sogukradar/sogukradar/out/email.html",
- "uretildi": "2026-11-16T19:59:54.772839Z",
+ "uretildi": "2026-11-16T23:10:25.205722Z",
  "basliklar": [
   "Growth in the Hot-dip Galvanized Steel Market Driven by Increased Investment and Innovatio",
   "Pickling Lines Market To 2035: Automotive Lightweighting and Green Upgrades Fuel Expansion",

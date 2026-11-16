@@ -159,14 +159,14 @@
  ],
  "stats": {
   "kaynak": 315,
-  "erisilemeyen": 113,
-  "ham": 3289,
-  "on_eleme_gecti": 288,
+  "erisilemeyen": 109,
+  "ham": 3299,
+  "on_eleme_gecti": 308,
   "makale_acildi": 220,
   "tarihsiz_elendi": 100,
-  "pencere_disi": 157,
+  "pencere_disi": 161,
   "kapsam_disi": 2995,
-  "tekrar": 31,
+  "tekrar": 37,
   "kabul": 0,
   "gnews_tarih": 0
  },
@@ -178,6 +178,10 @@
   [
    "Cognex",
    "HTTP 429"
+  ],
+  [
+   "ArcelorMittal",
+   "HTTP 403"
   ],
   [
    "Steel Radar",
@@ -194,26 +198,6 @@
   [
    "Google News",
    "HTTP 429"
-  ],
-  [
-   "Google News",
-   "host sogutmada"
-  ],
-  [
-   "Google News",
-   "host sogutmada"
-  ],
-  [
-   "Google News",
-   "host sogutmada"
-  ],
-  [
-   "Google News",
-   "host sogutmada"
-  ],
-  [
-   "Google News",
-   "host sogutmada"
   ],
   [
    "Google News",
@@ -954,7 +938,7 @@
    "sogutmada": false
   },
   "news.google.com": {
-   "istek": 5,
+   "istek": 10,
    "hiz_siniri": 2,
    "sogutmada": true
   },
@@ -979,6 +963,14 @@
    "hat": "Yuzey muayene (SIS)"
   },
   {
+   "anahtar": "tech:c63a7f950e471960",
+   "tarih": "2026-11-08",
+   "baslik": "AI Is Queued Behind an Electrical Steel Transformer Shortage",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1TQUplTC1uLWNhV20yUXlIaEtpVWNJWFp4alJ4bEZiMGRncVJocWdDZWgzYm1rbHZfNjNSUGdUOUdXMHlJSGp1b252eEZfeGRlRXRxNUVZRUVVZFlhM0UxUnU5dlRlMU5QR2RGNmRlN0hLRjM3Ulpwczd1QQ?oc=5",
+   "kaynak": "Intelligent Living",
+   "hat": "Elektrik celigi hatti"
+  },
+  {
    "anahtar": "tech:3bb113dd1d100448",
    "tarih": "2026-10-19",
    "baslik": "European coil and green steel round-up: EU coil largely stable on slow apparent demand",
@@ -997,6 +989,14 @@
  ],
  "kaynak_katki": {},
  "piyasa_pool": [
+  {
+   "anahtar": "piyasa:bf38469a57deb8a9",
+   "tarih": "2026-11-15",
+   "baslik": "India: Coated flat steel prices drop INR 100-400/t w-o-w on weak demand and slow trading",
+   "url": "https://www.bigmint.co/insights/detail/india-coated-flat-steel-prices-drop-inr-100-400-t-w-o-w-on-weak-demand-and-slow-trading-806744",
+   "kaynak": "Bing News",
+   "lead": "India: Coated flat steel prices drop INR 100-400/t w-o-w on weak demand and slow trading ..."
+  },
   {
    "anahtar": "piyasa:cfb9a21be9492ece",
    "tarih": "2026-11-14",
@@ -1022,12 +1022,12 @@
    "lead": "Since 2016, the United States has imposed antidumping (AD) duties on cold-rolled steel flat products from South Korea. The margin for POSCO, South Korea's largest producer, has fallen from 6.32% in ..."
   },
   {
-   "anahtar": "piyasa:bf38469a57deb8a9",
-   "tarih": "2026-11-10",
-   "baslik": "India: Coated flat steel prices drop INR 100-400/t w-o-w on weak demand and slow trading",
-   "url": "https://www.bigmint.co/insights/detail/india-coated-flat-steel-prices-drop-inr-100-400-t-w-o-w-on-weak-demand-and-slow-trading-806744",
-   "kaynak": "Bing News",
-   "lead": "India: Coated flat steel prices drop INR 100-400/t w-o-w on weak demand and slow trading ..."
+   "anahtar": "piyasa:c63a7f950e471960",
+   "tarih": "2026-11-08",
+   "baslik": "AI Is Queued Behind an Electrical Steel Transformer Shortage",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1TQUplTC1uLWNhV20yUXlIaEtpVWNJWFp4alJ4bEZiMGRncVJocWdDZWgzYm1rbHZfNjNSUGdUOUdXMHlJSGp1b252eEZfeGRlRXRxNUVZRUVVZFlhM0UxUnU5dlRlMU5QR2RGNmRlN0hLRjM3Ulpwczd1QQ?oc=5",
+   "kaynak": "Intelligent Living",
+   "lead": "AI Is Queued Behind an Electrical Steel Transformer Shortage &nbsp;&nbsp; Intelligent Living"
   }
  ],
  "window": [
@@ -1039,6 +1039,6 @@
  "rezerv_kullanilan": 2,
  "rezerv_havuz": 66,
  "period": "2026-W47",
- "generated": "2026-11-16 19:59 UTC",
+ "generated": "2026-11-16 23:09 UTC",
  "version": "3.0.0"
 }
