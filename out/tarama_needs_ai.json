@@ -1,77 +1,18 @@
 {
- "donem": "2026-W46",
+ "donem": "2026-W47",
  "duzelt": [
   {
-   "anahtar": "45ecc037d8bbc346",
-   "baslik": "[Nucor, Primetals Produce First Prime Coil on New Galvanizing Line in South Carolina]",
-   "url": "https://news.metal.com/newscontent/VMPIO4TOHDTW6D7TRCRLJTKDXCLGOFN2PGGL4QA-nucor-primetals-produce-first-prime-coil-on-new-galvanizing-line-in-south-carolina",
+   "anahtar": "6f2e82975589a318",
+   "baslik": "Growth in the Hot-dip Galvanized Steel Market Driven by Increased Investment and Innovation",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPeFBJT3ZoQXFvOHBfazd0RkItSjN5dURzc2tkS0ozQUJkakRLNVh3aTloTjJjSjJVMVRXYTkwWUhpcDRLMWprd1d4LU02TFM2Nk1NenFPTXNGRDkyY0RkSjc2ZnBZT2FBS1UybWxUSklYMnhWT3ZhQ1JNc2hIY3JVY0JDR3A1RXFkT3J2NENmVHh3UQ?oc=5",
    "eksik": [
-    "firma",
-    "ulke"
+    "ulke",
+    "asama"
    ],
    "mevcut": {
-    "firma": "",
+    "firma": "Increased Investment",
     "ulke": "",
     "hat": "Galvaniz hatti (CGL)",
-    "asama": "Ilk urun"
-   }
-  },
-  {
-   "anahtar": "8b828b970d0ac702",
-   "baslik": "Zhejiang Hengfeng hot tests cold rolling mill",
-   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/zhejiang-hengfeng-hot-tests-cold-rolling-mill-1126/",
-   "eksik": [
-    "ulke"
-   ],
-   "mevcut": {
-    "firma": "Zhejiang Hengfeng",
-    "ulke": "",
-    "hat": "Soguk hadde",
-    "asama": "Test"
-   }
-  },
-  {
-   "anahtar": "3eff151da8f30d87",
-   "baslik": "Dongkuk CM develops color-coated steel sheet to prevent condensation in AI data centers",
-   "url": "https://www.mt.co.kr/en/industry/2026/11/12/2026111209050897200",
-   "eksik": [
-    "ulke"
-   ],
-   "mevcut": {
-    "firma": "Dongkuk CM",
-    "ulke": "",
-    "hat": "Boyama hatti (CCL)",
-    "asama": "Teknoloji"
-   }
-  },
-  {
-   "anahtar": "f4884c93e0340d67",
-   "baslik": "Man-less entry section and centralized control of the tandem cold mill at Tata Steel Ijmuiden",
-   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPUjNjTDRyeTJrdHdtV1BOX1g3SkotV3hfQzVSSWVaQU9iQl9Cb01QQW5qbTl2eFNwYlQ5Y09VTzhRUi1hSFA0MVM0aDlwYmJEUWFhR29lUlE2LTZuTlBJLUxYaEdhdWlLTS1PRy04NTNtd2owckNnamh0UE1RMzVKQ3VNNmhxMjhJaEh6WXdXN1ZXV2R3a1R6ZllQRFBtV2taRTZVRG5xNHI0a2s1LVNzclgxdFJFd3J5X1ZmVHg5Q01qY0Q1UGlqdmpaVXpzeVJjRVJjMnZheTFJckxCclhoRA?oc=5",
-   "eksik": [
-    "ulke",
-    "asama"
-   ],
-   "mevcut": {
-    "firma": "Tata Steel Ijmuiden",
-    "ulke": "",
-    "hat": "Tandem soguk hadde (TCM)",
-    "asama": "Belirsiz"
-   }
-  },
-  {
-   "anahtar": "328819dc3af21ad5",
-   "baslik": "Hunan Valin Steel plans to invest RMB 3.147 billion in the Phase III automotive sheet project",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/hunan-valin-steel-plans-to-invest-rmb-3147-billionin-the-phase-iii-automotive-sheet-project-1490689.htm",
-   "eksik": [
-    "ulke",
-    "hat",
-    "asama"
-   ],
-   "mevcut": {
-    "firma": "Hunan Valin Steel",
-    "ulke": "",
-    "hat": "Belirsiz",
     "asama": "Belirsiz"
    }
   },
@@ -88,49 +29,68 @@
     "hat": "Asitleme hatti",
     "asama": "Modernizasyon"
    }
+  },
+  {
+   "anahtar": "a1e849bc52d2aca2",
+   "baslik": "Jastrzębska Spółka Węglowa secures loan from ARP for restructuring",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/jastrzbska-spka-wglowa-secures-loan-from-arp-for-restructuring-1490056.htm",
+   "eksik": [
+    "ulke"
+   ],
+   "mevcut": {
+    "firma": "Jastrzębska Spółka Węglowa",
+    "ulke": "",
+    "hat": "Asit rejenerasyonu (ARP)",
+    "asama": "Sozlesme"
+   }
+  },
+  {
+   "anahtar": "90e30cb4756c40e2",
+   "baslik": "【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】",
+   "url": "https://news.metal.com/en/newscontent/104207357-纽柯在南卡罗来纳州新建50万吨年汽车板镀锌线产出首卷优质卷板",
+   "eksik": [
+    "firma",
+    "ulke",
+    "hat",
+    "tarih?"
+   ],
+   "mevcut": {
+    "firma": "",
+    "ulke": "",
+    "hat": "Belirsiz",
+    "asama": "Ilk urun"
+   }
+  },
+  {
+   "anahtar": "16c1c1e154dad064",
+   "baslik": "Tata Steel launches pre-painted steel Colorcoat in India",
+   "url": "https://www.thehindubusinessline.com/companies/tata-steel-launches-pre-painted-steel-colorcoat-in-india/article71567926.ece",
+   "eksik": [
+    "asama"
+   ],
+   "mevcut": {
+    "firma": "Tata Steel",
+    "ulke": "Hindistan",
+    "hat": "Boyama hatti (CCL)",
+    "asama": "Belirsiz"
+   }
+  },
+  {
+   "anahtar": "aac00b6a794a93b5",
+   "baslik": "IMS expands its portfolio with force transducers for precise force measurement under demanding conditions in hot and cold rolling mills",
+   "url": "https://www.ims-gmbh.de/en/2026/10/06/ims-expands-its-portfolio-with-force-transducers-forprecise-force-measurement-under-demandingconditions-in-hot-and-cold-rolling-mills/",
+   "eksik": [
+    "ulke"
+   ],
+   "mevcut": {
+    "firma": "IMS",
+    "ulke": "",
+    "hat": "Soguk hadde",
+    "asama": "Sozlesme"
+   }
   }
  ],
  "cumle_yaz": [
-  {
-   "anahtar": "45ecc037d8bbc346",
-   "tarih": "2026-11-05",
-   "firma": "",
-   "ulke": "",
-   "hat": "Galvaniz hatti (CGL)",
-   "asama": "Ilk urun",
-   "baslik": "[Nucor, Primetals Produce First Prime Coil on New Galvanizing Line in South Carolina]",
-   "url": "https://news.metal.com/newscontent/VMPIO4TOHDTW6D7TRCRLJTKDXCLGOFN2PGGL4QA-nucor-primetals-produce-first-prime-coil-on-new-galvanizing-line-in-south-carolina"
-  },
-  {
-   "anahtar": "8b828b970d0ac702",
-   "tarih": "2026-11-12",
-   "firma": "Zhejiang Hengfeng",
-   "ulke": "",
-   "hat": "Soguk hadde",
-   "asama": "Test",
-   "baslik": "Zhejiang Hengfeng hot tests cold rolling mill",
-   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/zhejiang-hengfeng-hot-tests-cold-rolling-mill-1126/"
-  },
-  {
-   "anahtar": "3eff151da8f30d87",
-   "tarih": "2026-11-12",
-   "firma": "Dongkuk CM",
-   "ulke": "",
-   "hat": "Boyama hatti (CCL)",
-   "asama": "Teknoloji",
-   "baslik": "Dongkuk CM develops color-coated steel sheet to prevent condensation in AI data centers",
-   "url": "https://www.mt.co.kr/en/industry/2026/11/12/2026111209050897200"
-  },
-  {
-   "anahtar": "f4884c93e0340d67",
-   "tarih": "2026-11-10",
-   "firma": "Tata Steel Ijmuiden",
-   "ulke": "",
-   "hat": "Tandem soguk hadde (TCM)",
-   "asama": "Belirsiz",
-   "baslik": "Man-less entry section and centralized control of the tandem cold mill at Tata Steel Ijmuiden",
-   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPUjNjTDRyeTJrdHdtV1BOX1g3SkotV3hfQzVSSWVaQU9iQl9Cb01QQW5qbTl2eFNwYlQ5Y09VTzhRUi1hSFA0MVM0aDlwYmJEUWFhR29lUlE2LTZuTlBJLUxYaEdhdWlLTS1PRy04NTNtd2owckNnamh0UE1RMzVKQ3VNNmhxMjhJaEh6WXdXN1ZXV2R3a1R6ZllQRFBtV2taRTZVRG5xNHI0a2s1LVNzclgxdFJFd3J5X1ZmVHg5Q01qY0Q1UGlqdmpaVXpzeVJjRVJjMnZheTFJckxCclhoRA?oc=5"
-  },
   {
    "anahtar": "8f5c37cd5e281040",
    "tarih": "2026-11-13",
@@ -140,32 +100,56 @@
    "asama": "Modernizasyon",
    "baslik": "Pickling Lines Market To 2035: Automotive Lightweighting and Green Upgrades Fuel Expansion",
    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPeGRLRktNMk9ETmFOU256UnJ4V1pVQjdVc2d2OVdISFkzTnVReUNDd1pSZGxRVy1QWEQ3d3BNQjBONWloY0lSV2p3Wk5rSUYxdkhQVjBjVnI1cFBYNzJFQnlTWG1nVEdVY1ZnQVR6Qm4zY24zX0VUMFBuWF8wci1yV0V6YWhJb1AtbWlTSVFSYmpLYktFMWt1aDAxNHl2bDd5NzljWkZrelJIc0RXTG9kd0c0d1dPM0YxcW1CaWVmaVNkd09DZHdDc0ZkTUZOR3BVWHNvSQ?oc=5"
+  },
+  {
+   "anahtar": "a1e849bc52d2aca2",
+   "tarih": "2026-11-11",
+   "firma": "Jastrzębska Spółka Węglowa",
+   "ulke": "",
+   "hat": "Asit rejenerasyonu (ARP)",
+   "asama": "Sozlesme",
+   "baslik": "Jastrzębska Spółka Węglowa secures loan from ARP for restructuring",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/jastrzbska-spka-wglowa-secures-loan-from-arp-for-restructuring-1490056.htm"
+  },
+  {
+   "anahtar": "90e30cb4756c40e2",
+   "tarih": "2026-11-05",
+   "firma": "",
+   "ulke": "",
+   "hat": "Belirsiz",
+   "asama": "Ilk urun",
+   "baslik": "【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】",
+   "url": "https://news.metal.com/en/newscontent/104207357-纽柯在南卡罗来纳州新建50万吨年汽车板镀锌线产出首卷优质卷板"
+  },
+  {
+   "anahtar": "16c1c1e154dad064",
+   "tarih": "2026-10-16",
+   "firma": "Tata Steel",
+   "ulke": "Hindistan",
+   "hat": "Boyama hatti (CCL)",
+   "asama": "Belirsiz",
+   "baslik": "Tata Steel launches pre-painted steel Colorcoat in India",
+   "url": "https://www.thehindubusinessline.com/companies/tata-steel-launches-pre-painted-steel-colorcoat-in-india/article71567926.ece"
+  },
+  {
+   "anahtar": "aac00b6a794a93b5",
+   "tarih": "2026-10-06",
+   "firma": "IMS",
+   "ulke": "",
+   "hat": "Soguk hadde",
+   "asama": "Sozlesme",
+   "baslik": "IMS expands its portfolio with force transducers for precise force measurement under demanding conditions in hot and cold rolling mills",
+   "url": "https://www.ims-gmbh.de/en/2026/10/06/ims-expands-its-portfolio-with-force-transducers-forprecise-force-measurement-under-demandingconditions-in-hot-and-cold-rolling-mills/"
   }
  ],
  "teknoloji_adaylari": [
   {
-   "anahtar": "tech:17f0131037a9c23b",
-   "tarih": "2026-11-12",
-   "baslik": "Tangshan Yinghai advances AI-Zn coated steel project",
-   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/tangshan-yinghai-advances-in-ai-zn-coated-steel-project-1126/",
-   "kaynak": "Kallanish",
+   "anahtar": "tech:6f2e82975589a318",
+   "tarih": "2026-11-16",
+   "baslik": "Growth in the Hot-dip Galvanized Steel Market Driven by Increased Investment and Innovation",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPeFBJT3ZoQXFvOHBfazd0RkItSjN5dURzc2tkS0ozQUJkakRLNVh3aTloTjJjSjJVMVRXYTkwWUhpcDRLMWprd1d4LU02TFM2Nk1NenFPTXNGRDkyY0RkSjc2ZnBZT2FBS1UybWxUSklYMnhWT3ZhQ1JNc2hIY3JVY0JDR3A1RXFkT3J2NENmVHh3UQ?oc=5",
+   "kaynak": "openPR.com",
    "hat": "Galvaniz hatti (CGL)"
-  },
-  {
-   "anahtar": "tech:ed573d481df8217a",
-   "tarih": "2026-11-12",
-   "baslik": "Dongkuk Coated Metal develops color steel sheet that fights condensation in AI data centers",
-   "url": "https://biz.heraldcorp.com/article/10934588",
-   "kaynak": "Bing News",
-   "hat": "Belirsiz"
-  },
-  {
-   "anahtar": "tech:3eff151da8f30d87",
-   "tarih": "2026-11-12",
-   "baslik": "Dongkuk CM develops color-coated steel sheet to prevent condensation in AI data centers",
-   "url": "https://www.mt.co.kr/en/industry/2026/11/12/2026111209050897200",
-   "kaynak": "Bing News",
-   "hat": "Boyama hatti (CCL)"
   },
   {
    "anahtar": "tech:45e7f994631a31a2",
@@ -200,14 +184,6 @@
    "hat": "Belirsiz"
   },
   {
-   "anahtar": "tech:21b8b17f2932d529",
-   "tarih": "2026-10-13",
-   "baslik": "Ten Reputable Electrical Steel Companies in China 2026: Advancing Motor Efficiency and Industrial Performance",
-   "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNRE9rLUt2NWZzT1Y4aXJvSkJHUlBtaDJoY21kbl9ER0tOTGkta1JDS0VwZjRkREdNRVI3SEs2dGNEdi16QklfR3EzbERsLVhxR0M1enY1U3RwOHBRLURhMEUzdlZmSzd0bURpX1ZWUkpqNloyS3FmZXU3LU5Jek9mNzgtZFQ0QUdWbzY0UlIyRVhYWFhIdTFQQ3l0dVJhdGJQZFRvZkdlVlNNNld6Vkh4aEdiRXhoSU10a0t5NEIzLTdnTkFQOGxnNWxIbGlLSFYxRUk3clZGY0tLNjRHSjVsdGpuVFFBZkhkcVJLRWhGTm5uMTJDYk5fNHZn?oc=5",
-   "kaynak": "Akron Beacon Journal",
-   "hat": "Elektrik celigi hatti"
-  },
-  {
    "anahtar": "tech:73868ce95fc942d1",
    "tarih": "2026-10-12",
    "baslik": "Electrical Steel Market Targets US$109.9 Billion by 2035 as",
@@ -232,12 +208,36 @@
    "hat": "Galvaniz hatti (CGL)"
   },
   {
-   "anahtar": "tech:2a81095235098448",
-   "tarih": "2026-07-12",
-   "baslik": "Posco and Hyundai are developing innovative electrical steel to improve the efficiency of electric vehicles",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQSGtGOHBERUpYUkpjbW4tQVEweXVNUzYtcU1DNjB2bWhQamNzYTlPZFNtMXBNeXRvLXJwS2hwaEcxN3VNNFg0RTd1UVhZYmZPNEZRT0YxUlQ4VThJcG0ycXRJOGVEVWVLOFZmUHVNZ2hPYzFwY0FxOGhydjdTRmEtUmtwbFZKUlB5WTRqb2l5V2NxN0hoY0o2NExOaEg3dHdPLXZrUG1Zc3laakRVR3dLQi0yRnR1elZ6NUVvc0swRHczUEtNNHRZM2VaZV9FaUdz0gHWAUFVX3lxTE5mbGJMX0V1bE15SmhZdE05VDM2OG9POEVzc2g1bExqcHIzZGw3S3dvS291M252VUllVHB6THlfR1E0MnlPRTFRVlRzV2phMldEV0lKSWJJenRsdkxWbkRyTkpicFdLMFYzNUk4WnZvcGJZbFAyRGpDMURMUGNLaWhRTk81MVZ5NnlvamRLdnd2dXBPMElaT19OQ2dwaEFmOHZjYjh3dlJpQk1xQkhxQjlGMVlyWlZCdVRXbVR0MlhpNE9wNHg4UFVONThfVXBtSG5rNFlUWVE?oc=5",
-   "kaynak": "GMK Center",
+   "anahtar": "tech:784bcc674542a655",
+   "tarih": "2026-08-19",
+   "baslik": "Five Leading Silicon Steel Manufacturers in China 2026: Powering the Future of Electrical Steel Innovation",
+   "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPa2NMZVhHZGxOTTRDYUltajd6QW4tRVZBNlpid1BlUWNxVkx5YjlRaWNZQkJfS1dVNURTSEF3OS1xWDRvMEZ1QWZtcjN6bVRrVzQ1UUdhM00tY0dtODY1T0FBQUtVWktkZ25Ra1VmLVVmbUVtTGtoWTM2ZUJTaE1hdzdCV0pfX1drSC1XazlST3lEcmM1Z2N5d2FZWjhXRVFKamdaYTFwSVJCZmpYTGpqN3p6Y3ZObS1oaTRuTmhudmRLUUVMbm4wYUIyYWxzY1E2SmxzbnlqR0dPZE9aMTBQbkw4Q2ZTN3FiT0p2cU5qOWVVR1FaeEpNQzltZw?oc=5",
+   "kaynak": "The Des Moines Register",
    "hat": "Elektrik celigi hatti"
+  },
+  {
+   "anahtar": "tech:3b9e0ba3d7e53ee3",
+   "tarih": "2026-07-09",
+   "baslik": "Posco and Hyundai develop novel electrical steel for more efficient electric motors",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNVV0U1otMkFRbUphNHRvMDBVdWFEVjVKN0FYV2tNdWZhWVB0TldhN0QxeDJtLU51ci1CLVFid0NTT21DSFVCMmw3a2ZyUTB6YUxkQ1hmcGZ5T05pOUdLbUxjMDdTX2IyZ0tfdnZaSVA5aW41dHhURFpvZUJKbUxiVDBjTUNCMXdfLUJIMXdsdl9VNktxeXVDeFlyNThjZHFXVUJwRXctZTJuWjduaEE3NFBmclFyYTdMNzNzM2lR?oc=5",
+   "kaynak": "electrive.com",
+   "hat": "Elektrik celigi hatti"
+  },
+  {
+   "anahtar": "tech:4d73ae5024a4349d",
+   "tarih": "2026-06-19",
+   "baslik": "YEST Wins Appeal in High-Pressure Hydrogen Annealing Patent Dispute With HPSP",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBkZEdOZmVlOVF5X1JTVTAzNFJWMUpSZXFDTTlOR3ZKZHJaYW9qZjJCSjM5MnJHMUUwU0dYVUZoUXN4ckFhNVBKV1haSVhFN3MyWTVQYXlEWkFydHVlcXF3ZTFsWG9zMkk?oc=5",
+   "kaynak": "THE ELEC, Korea Electronics Industry Media",
+   "hat": "Belirsiz"
+  },
+  {
+   "anahtar": "tech:4981815ffab304b6",
+   "tarih": "2026-06-03",
+   "baslik": "Understanding hydrogen permeation in zinc flake coatings for hydrogen embrittlement mitigation",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9RUlJyR2FaY0UyS1AtNkZDVjBTM3ZtTWUtOEF0X0FJRjlwRnVCeDVST0VwOC01ZVNXZ2o4M3plNHhkYjdER09kaXdkY3NpV2VoZ1NLQWlJSklCaFZDN1Bv?oc=5",
+   "kaynak": "Nature",
+   "hat": "Belirsiz"
   }
  ]
 }

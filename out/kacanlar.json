@@ -1,10 +1,10 @@
 {
- "donem": "2026-W46",
+ "donem": "2026-W47",
  "pencere": [
-  "2026-10-25",
-  "2026-11-15"
+  "2026-10-26",
+  "2026-11-16"
  ],
- "uretim": "2026-11-15 10:59 UTC",
+ "uretim": "2026-11-16 11:35 UTC",
  "kaynaklar": {
   "steeltimesint": {
    "publisher": "Steel Times International",
@@ -22,42 +22,8 @@
    "hata": "HTTP 404"
   }
  },
- "adet": 3,
- "kacanlar": [
-  {
-   "tarih": "2026-11-13",
-   "tarih_kaynagi": "json-ld",
-   "baslik": "Hunan Valin Steel plans to invest RMB 3.147 billion in the Phase III automotive sheet project",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/hunan-valin-steel-plans-to-invest-rmb-3147-billionin-the-phase-iii-automotive-sheet-project-1490689.htm",
-   "kaynak": "SteelOrbis",
-   "katman": "Yatirim",
-   "hat": "Belirsiz",
-   "asama": "Belirsiz",
-   "anahtar": "328819dc3af21ad5"
-  },
-  {
-   "tarih": "2026-11-11",
-   "tarih_kaynagi": "json-ld",
-   "baslik": "Jastrzębska Spółka Węglowa secures loan from ARP for restructuring",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/jastrzbska-spka-wglowa-secures-loan-from-arp-for-restructuring-1490056.htm",
-   "kaynak": "SteelOrbis",
-   "katman": "Hat",
-   "hat": "Asit rejenerasyonu (ARP)",
-   "asama": "Sozlesme",
-   "anahtar": "a1e849bc52d2aca2"
-  },
-  {
-   "tarih": "2026-10-27",
-   "tarih_kaynagi": "json-ld",
-   "baslik": "POSCO Steeleon to supply a US home appliance manufacturer with anti-fingerprint color-coated steel sheets",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/posco-steeleon-to-supply-a-us-home-appliance-manufacturer-with-anti-fingerprint-color-coated-steel-sheets-1486902.htm",
-   "kaynak": "SteelOrbis",
-   "katman": "Hat",
-   "hat": "Boyama hatti (CCL)",
-   "asama": "Sozlesme",
-   "anahtar": "6bc10ade8d2cadf1"
-  }
- ],
+ "adet": 0,
+ "kacanlar": [],
  "dogrulanamayan": [],
  "acildi_elendi": [
   {
@@ -101,12 +67,17 @@
    "sebep": "pencere disi (2026-04-20)"
   },
   {
+   "baslik": "Primetals modernises ArcelorMittal cold mill",
+   "url": "https://www.steeltimesint.com/news/primetals-modernises-arcelormittal-cold-mill",
+   "sebep": "pencere disi (2025-12-02)"
+  },
+  {
    "baslik": "UAE's Embosal plans 1.2 million mt HRC plant",
    "url": "https://www.steelorbis.com/steel-news/latest-news/baeli-embosal-12-milyon-mt-kapasiteli-sicak-rulo-sac-tesisi-kurmayi-planliyor-1485164.htm",
    "sebep": "gercek baslikta kapsam_disi"
   }
  ],
- "kapiyi_gecen": 12,
+ "kapiyi_gecen": 10,
  "sitemap_adayi": 800,
- "elenen": 788
+ "elenen": 790
 }
