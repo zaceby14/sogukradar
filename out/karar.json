@@ -4,7 +4,7 @@
  "atla": true,
  "son_gonderim": "2026-11-16",
  "deneme": false,
- "satir": 2,
+ "satir": 4,
  "nedenler": [],
  "yazar": {
   "saglayici": "gemini",
@@ -19,9 +19,9 @@
     "neden": "kaynakta olmayan sayi: 500"
    }
   ],
-  "cumle_llm": 2,
-  "cumle_kuralsal": 4,
-  "supheli_cikarilan": 3
+  "cumle_llm": 4,
+  "cumle_kuralsal": 2,
+  "supheli_cikarilan": 1
  },
  "elenen_satirlar": [
   {
@@ -36,8 +36,10 @@
   }
  ],
  "email": "/home/runner/work/sogukradar/sogukradar/out/email.html",
- "uretildi": "2026-11-16T10:42:10.800634Z",
+ "uretildi": "2026-11-16T19:59:54.772839Z",
  "basliklar": [
+  "Growth in the Hot-dip Galvanized Steel Market Driven by Increased Investment and Innovatio",
+  "Pickling Lines Market To 2035: Automotive Lightweighting and Green Upgrades Fuel Expansion",
   "Tata Steel launches pre-painted steel Colorcoat in India",
   "IMS expands its portfolio with force transducers for precise force measurement under deman"
  ]

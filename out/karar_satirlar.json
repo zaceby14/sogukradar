@@ -2,6 +2,57 @@
  "donem": "2026-W47",
  "rows": [
   {
+   "anahtar": "6f2e82975589a318",
+   "asama": "Belirsiz",
+   "baslik": "Growth in the Hot-dip Galvanized Steel Market Driven by Increased Investment and Innovation",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "firma": "Increased Investment",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "",
+   "kategori": "Yatirim",
+   "kaynak": "openPR.com",
+   "kaynak_id": "gx_arcelor",
+   "lead": "Growth in the Hot-dip Galvanized Steel Market Driven by Increased Investment and Innovation &nbsp;&nbsp; openPR.com",
+   "olaylar": [
+    "increased investment|hat|Galvaniz hatti (CGL)|Belirsiz"
+   ],
+   "puan": 14.0,
+   "tarih": "2026-11-16",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPeFBJT3ZoQXFvOHBfazd0RkItSjN5dURzc2tkS0ozQUJkakRLNVh3aTloTjJjSjJVMVRXYTkwWUhpcDRLMWprd1d4LU02TFM2Nk1NenFPTXNGRDkyY0RkSjc2ZnBZT2FBS1UybWxUSklYMnhWT3ZhQ1JNc2hIY3JVY0JDR3A1RXFkT3J2NENmVHh3UQ?oc=5"
+  },
+  {
+   "anahtar": "8f5c37cd5e281040",
+   "asama": "Modernizasyon",
+   "baslik": "Pickling Lines Market To 2035: Automotive Lightweighting and Green Upgrades Fuel Expansion",
+   "eksik": [
+    "ulke"
+   ],
+   "firma": "Pickling Lines Market",
+   "hat": "Asitleme hatti",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "IndexBox",
+   "kaynak_id": "gq_hat01",
+   "lead": "Pickling Lines Market To 2035: Automotive Lightweighting and Green Upgrades Fuel Expansion - News and Statistics &nbsp;&nbsp; IndexBox",
+   "olaylar": [
+    "pickling lines market|hat|Asitleme hatti|Modernizasyon"
+   ],
+   "puan": 49.6,
+   "tarih": "2026-11-13",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPeGRLRktNMk9ETmFOU256UnJ4V1pVQjdVc2d2OVdISFkzTnVReUNDd1pSZGxRVy1QWEQ3d3BNQjBONWloY0lSV2p3Wk5rSUYxdkhQVjBjVnI1cFBYNzJFQnlTWG1nVEdVY1ZnQVR6Qm4zY24zX0VUMFBuWF8wci1yV0V6YWhJb1AtbWlTSVFSYmpLYktFMWt1aDAxNHl2bDd5NzljWkZrelJIc0RXTG9kd0c0d1dPM0YxcW1CaWVmaVNkd09DZHdDc0ZkTUZOR3BVWHNvSQ?oc=5"
+  },
+  {
    "anahtar": "16c1c1e154dad064",
    "asama": "Belirsiz",
    "baslik": "Tata Steel launches pre-painted steel Colorcoat in India",
@@ -60,7 +111,7 @@
    "anahtar": "piyasa:738776df9135ecde",
    "tarih": "2026-11-13",
    "baslik": "Thailand levies anti-dumping duty on tinplate, tin-free sheet",
-   "metin": "Tayland, rulo ve boy kesilmiş teneke ile kalaysız sac ithalatına anti-damping vergisi getirdi.",
+   "metin": "Tayland, teneke ve tenekesiz sac ithalatına anti-damping vergisi uygulamaya koydu.",
    "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/thailand-levies-ad-tinplate-tin-free-sheet-1126/",
    "kaynak": "Kallanish",
    "konu": "koruma",
@@ -70,21 +121,21 @@
    "anahtar": "piyasa:192e476039a3dc9a",
    "tarih": "2026-11-10",
    "baslik": "Vietnam to launch cold-rolled stainless steel imports probe",
-   "metin": "Vietnam, Çin ve Endonezya menşeli soğuk haddelenmiş paslanmaz çelik ithalatına yönelik anti-damping soruşturması açmaya hazırlanıyor.",
+   "metin": "Vietnam, Çin ve Endonezya menşeli soğuk haddelenmiş paslanmaz çelik ithalatına karşı anti-damping soruşturması açmaya hazırlanıyor.",
    "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/vietnam-launches-probe-into-cold-rolled-stainless-steel-imports-1126/",
    "kaynak": "Kallanish",
    "konu": "ticaret",
    "urun": "soguk hadde"
   },
   {
-   "anahtar": "piyasa:58a6686e74ff2a17",
-   "tarih": "2026-11-02",
-   "baslik": "European green flat steel demand remains subdued; construction provides pockets of interest",
-   "metin": "Avrupa'da yeşil yassı çelik talebi otomotiv sektöründeki yavaşlama nedeniyle sönük kalırken, inşaat sektöründe sınırlı talep hareketleri gözleniyor.",
-   "url": "https://eurometal.net/european-green-flat-steel-demand-remains-subdued-construction-provides-pockets-of-interest/?utm_source=rss&utm_medium=rss&utm_campaign=european-green-flat-steel-demand-remains-subdued-construction-provides-pockets-of-interest",
-   "kaynak": "EUROMETAL",
-   "konu": "talep",
-   "urun": "yassi"
+   "anahtar": "piyasa:c8d598485ca4f420",
+   "tarih": "2026-11-04",
+   "baslik": "India HRC and CRC prices rise w-o-w; festive slowdown limits further gains",
+   "metin": "Hindistan'da sıcak ve soğuk haddelenmiş rulo fiyatları haftalık bazda artış gösterirken, festival dönemi sebebiyle talepteki yavaşlama daha fazla yükselişi sınırladı.",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNU1JhT1o1ZTBKOUlJaG55b2xBUGM5cEp4aUU1aGc3cHdHcXVVMmJVSVNZRHNBeFR2Rm40bjhHemZaZS1JY1pWWHpOWTU5MFpWUUZkd0F5Ujd1VFd6b0U3Z3FXNDJPTFQ3cXpLVHItbW9JM096aGV1dUVITWlfRWV0UWp3d093N1p1OXdjaXVITlFELUktajVhZTJ4SXQwa2EwSGFKcVFub2MwOUVNQ2FqeEptYTQ4c0lUME1V?oc=5",
+   "kaynak": "BigMint",
+   "konu": "fiyat",
+   "urun": "soguk hadde"
   }
  ]
 }
