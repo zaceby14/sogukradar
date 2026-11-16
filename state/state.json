@@ -1,6 +1,32 @@
 {
  "bulunan": [
   {
+   "anahtar": "6f2e82975589a318",
+   "asama": "Belirsiz",
+   "baslik": "Growth in the Hot-dip Galvanized Steel Market Driven by Increased Investment and Innovation",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "firma": "Increased Investment",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "",
+   "kategori": "Yatirim",
+   "kaynak": "openPR.com",
+   "kaynak_id": "gx_arcelor",
+   "lead": "Growth in the Hot-dip Galvanized Steel Market Driven by Increased Investment and Innovation &nbsp;&nbsp; openPR.com",
+   "olaylar": [
+    "increased investment|hat|Galvaniz hatti (CGL)|Belirsiz"
+   ],
+   "puan": 14.0,
+   "tarih": "2026-11-16",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPeFBJT3ZoQXFvOHBfazd0RkItSjN5dURzc2tkS0ozQUJkakRLNVh3aTloTjJjSjJVMVRXYTkwWUhpcDRLMWprd1d4LU02TFM2Nk1NenFPTXNGRDkyY0RkSjc2ZnBZT2FBS1UybWxUSklYMnhWT3ZhQ1JNc2hIY3JVY0JDR3A1RXFkT3J2NENmVHh3UQ?oc=5"
+  },
+  {
    "anahtar": "8f5c37cd5e281040",
    "asama": "Modernizasyon",
    "baslik": "Pickling Lines Market To 2035: Automotive Lightweighting and Green Upgrades Fuel Expansion",
@@ -314,6 +340,9 @@
   "|ulke|ABD|Sozlesme": "2026-11-03"
  },
  "gb_form_sayac": {
+  "0da1cda44c+": 1,
+  "0da1cda44c-": 1,
+  "345c4c6b22+": 1,
   "3b181632bc+": 3,
   "3b181632bc-": 3,
   "3ffa8c22f8+": 1,
@@ -331,7 +360,11 @@
   "65ac0bac8b-": 3,
   "7364bc7da3+": 3,
   "86bf58fb6c+": 3,
+  "8e69714f00+": 1,
+  "8e69714f00-": 1,
   "990a90d18e+": 3,
+  "9e1a712824+": 1,
+  "9e1a712824-": 1,
   "9f687e6101+": 1,
   "9f687e6101-": 1,
   "a06acce312+": 2,
@@ -346,13 +379,19 @@
   "baad0fe5de-": 3,
   "bfab4a70f8+": 3,
   "bfab4a70f8-": 3,
+  "c958467f99+": 1,
+  "c958467f99-": 1,
   "f2174b9e9a+": 3,
   "testkod000+": 3
  },
  "gb_oy": {
+  "0da1cda44c|form:16.11.2026 10:01:52": "+",
+  "345c4c6b22|form:16.11.2026 10:01:52": "+",
   "3ffa8c22f8|form:03.11.2026 12:07:53": "-",
   "543eede119|form:09.11.2026 11:09:06": "+",
   "61e70c80bd|form:09.11.2026 11:09:06": "+",
+  "8e69714f00|form:16.11.2026 10:01:52": "-",
+  "9e1a712824|form:16.11.2026 10:01:52": "+",
   "9f687e6101|form:03.11.2026 12:07:52": "+",
   "9f687e6101|form:03.11.2026 12:07:53": "-",
   "a06acce312|form:03.11.2026 10:06:04": "+",
@@ -360,7 +399,8 @@
   "b1400796e4|form:03.11.2026 12:07:53": "+",
   "baad0fe5de|form:09.11.2026 11:09:06": "+",
   "baad0fe5de|form:09.11.2026 13:38:17": "-",
-  "baad0fe5de|form:09.11.2026 13:38:37": "-"
+  "baad0fe5de|form:09.11.2026 13:38:37": "-",
+  "c958467f99|form:16.11.2026 10:01:52": "-"
  },
  "gonderilen_donemler": [
   "2026-W45",
@@ -2559,6 +2599,24 @@
     "tekrar": 59
    },
    "uretim": "2026-11-16 06:52 UTC"
+  },
+  {
+   "donem": "2026-W47",
+   "satir": 6,
+   "stats": {
+    "erisilemeyen": 5,
+    "gnews_tarih": 0,
+    "ham": 4222,
+    "kabul": 1,
+    "kapsam_disi": 3804,
+    "kaynak": 315,
+    "makale_acildi": 220,
+    "on_eleme_gecti": 400,
+    "pencere_disi": 240,
+    "tarihsiz_elendi": 106,
+    "tekrar": 65
+   },
+   "uretim": "2026-11-16 08:25 UTC"
   }
  ],
  "piyasa_rezerv": [
@@ -2569,30 +2627,6 @@
    "lead": "Thailand has imposed anti-dumping duties on tinplate and tin-free steel, both in coils and cut-to-length sheets,...",
    "tarih": "2026-11-13",
    "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/thailand-levies-ad-tinplate-tin-free-sheet-1126/"
-  },
-  {
-   "anahtar": "piyasa:42c6911f8b4b2477",
-   "baslik": "Coils a freddo, via libera degli Stati Ue ai dazi antidumping - 15 Paesi favorevoli su 27. Atteso il regolamento definitivo, mentre sul mercato europeo i prezzi dei CRC si rafforzano",
-   "kaynak": "Siderweb",
-   "lead": "Quindici Stati membri dell&#039;Ue hanno votato a favore dell&#039;introduzione di dazi antidumping definitivi sulle importazioni di alcuni prodotti...-732720",
-   "tarih": "2026-11-13",
-   "url": "https://www.siderweb.com/articoli/news/732720-coils-a-freddo-via-libera-degli-stati-ue-ai-dazi-antidumping"
-  },
-  {
-   "anahtar": "piyasa:46ec69ffb1d5a590",
-   "baslik": "\"Yeni AB kota rejimi yassı çelikte Türkiye'ye rekabet avantajı sunuyor\"",
-   "kaynak": "A24.com.tr",
-   "lead": "\"Yeni AB kota rejimi yassı çelikte Türkiye'ye rekabet avantajı sunuyor\" &nbsp;&nbsp; A24.com.tr",
-   "tarih": "2026-11-13",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQX0RsUVZhdy1xdVUzbXBRaGZRRU5fQVN0NExWRjhTX3dYYUtGdTJ3RXNaWXAtLUpXVVVkcVhIdGRXNk9nN3o2X2UtX1ZFU1RNdWJnb19zdTI4OUhSajEtb1k3MjhCc19QVEc5LUlnZnFfMkZmT3RtUE5JcEx4emktWktKNG1IRGo0MmxraHIzTEFfVFJzR1BncldRYlJxd2dGYWxvZ1RvSzYwdV9KMmRmSWp30gGyAUFVX3lxTFBfRGxRVmF3LXF1VTNtcFFoZlFFTl9BU3Q0TFZGOFNfd1hhS0Z1MndFc1pZcC0tSldVVWRxWEh0ZFc2T2c3ejZfZS1fVkVTVE11YmdvX3N1Mjg5SFJqMS1vWTcyOEJzX1BURzktSWdmcV8yRmZPdG1QTklwTHh6aS1aS0o0bUhEajQybGtocjNMQV9UUnNHUGdyV1FiUnF3Z0ZhbG9nVG9LNjB1X0oyZGZJanc?oc=5"
-  },
-  {
-   "anahtar": "piyasa:c9fcbc75a017ecc8",
-   "baslik": "Malaysia imposes provisional AD duties on coated steel",
-   "kaynak": "Kallanish",
-   "lead": "Malaysia has imposed provisional anti-dumping duties of 4.41-35.06% on imports of aluminium-zinc coated flat-rolled steel products...",
-   "tarih": "2026-11-11",
-   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/malaysia-imposes-provisional-ad-duties-on-coated-steel-1126/"
   },
   {
    "anahtar": "piyasa:df316110fb4a3d58",
@@ -4642,6 +4676,14 @@
  "source_health": {},
  "tech_rezerv": [
   {
+   "anahtar": "tech:6f2e82975589a318",
+   "baslik": "Growth in the Hot-dip Galvanized Steel Market Driven by Increased Investment and Innovation",
+   "hat": "Galvaniz hatti (CGL)",
+   "kaynak": "openPR.com",
+   "tarih": "2026-11-16",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPeFBJT3ZoQXFvOHBfazd0RkItSjN5dURzc2tkS0ozQUJkakRLNVh3aTloTjJjSjJVMVRXYTkwWUhpcDRLMWprd1d4LU02TFM2Nk1NenFPTXNGRDkyY0RkSjc2ZnBZT2FBS1UybWxUSklYMnhWT3ZhQ1JNc2hIY3JVY0JDR3A1RXFkT3J2NENmVHh3UQ?oc=5"
+  },
+  {
    "anahtar": "tech:17f0131037a9c23b",
    "baslik": "Tangshan Yinghai advances AI-Zn coated steel project",
    "hat": "Galvaniz hatti (CGL)",
@@ -4664,14 +4706,6 @@
    "kaynak": "Bing News",
    "tarih": "2026-11-12",
    "url": "https://biz.heraldcorp.com/article/10934588"
-  },
-  {
-   "anahtar": "tech:3eff151da8f30d87",
-   "baslik": "Dongkuk CM develops color-coated steel sheet to prevent condensation in AI data centers",
-   "hat": "Boyama hatti (CCL)",
-   "kaynak": "Bing News",
-   "tarih": "2026-11-12",
-   "url": "https://www.mt.co.kr/en/industry/2026/11/12/2026111209050897200"
   },
   {
    "anahtar": "tech:c6750ab7db92f3f5",
@@ -4864,6 +4898,14 @@
    "kaynak": "THE ELEC, Korea Electronics Industry Media",
    "tarih": "2026-06-23",
    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5VTGdkNHpKakxDbGFfbmQwYmlndWp6T1lNdERfRHBIaElQWGhic3dDU2lvYWpYVmIyX1M3XzJqOHJrRWVyWTdqQlAzSzI2N2t2bW8xN3JtMTFjU1Q2N01FdVdQQmkwQkk?oc=5"
+  },
+  {
+   "anahtar": "tech:4d73ae5024a4349d",
+   "baslik": "YEST Wins Appeal in High-Pressure Hydrogen Annealing Patent Dispute With HPSP",
+   "hat": "Belirsiz",
+   "kaynak": "THE ELEC, Korea Electronics Industry Media",
+   "tarih": "2026-06-19",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBkZEdOZmVlOVF5X1JTVTAzNFJWMUpSZXFDTTlOR3ZKZHJaYW9qZjJCSjM5MnJHMUUwU0dYVUZoUXN4ckFhNVBKV1haSVhFN3MyWTVQYXlEWkFydHVlcXF3ZTFsWG9zMkk?oc=5"
   }
  ],
  "tech_seen": {
@@ -4871,21 +4913,28 @@
   "tech:3eff151da8f30d87": "2026-11-12"
  },
  "tercih": {
-  "asama:Ilk urun": 2,
+  "asama:Ilk urun": 1,
   "asama:Modernizasyon": 0,
   "asama:Sozlesme": 1,
-  "bolum:haber": 3,
+  "asama:Teknoloji": 1,
+  "bolum:haber": 5,
   "bolum:piyasa": 1,
-  "bolum:teknoloji": -1,
+  "bolum:teknoloji": -2,
   "hat:Asit rejenerasyonu (ARP)": 1,
+  "hat:Boyama hatti (CCL)": 1,
   "hat:Dilme / boy kesme / SSC": 1,
-  "hat:Galvaniz hatti (CGL)": 1,
-  "kat:Hat": 3,
+  "hat:Galvaniz hatti (CGL)": 0,
+  "hat:Tandem soguk hadde (TCM)": 1,
+  "kat:Hat": 4,
+  "kat:Yatirim": 1,
   "kaynak:Andritz Metals": 2,
   "kaynak:Bing News": 1,
   "kaynak:Clecim": 1,
   "kaynak:Kallanish": 1,
   "kaynak:Rediff MoneyWiz": -1,
+  "kaynak:SMS group": 1,
+  "kaynak:SteelOrbis": 1,
+  "konu:Dongkuk CM develops color-coated steel sheet to prevent condensation in AI data centers": -1,
   "konu:Primetals Technologies to modernize KG Steel's Dangjin cold mill with AI-driven automation upgrade": -1,
   "konu:fiyat": 1,
   "ulke:ABD": 2,

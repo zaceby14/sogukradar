@@ -2,180 +2,173 @@
  "donem": "2026-W47",
  "rows": [
   {
-   "tarih": "2026-11-05",
-   "firma": "",
+   "tarih": "2026-11-16",
+   "firma": "Increased Investment",
    "ulke": "",
    "hat": "Galvaniz hatti (CGL)",
-   "asama": "Ilk urun",
-   "tedarikci": "Primetals",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "[Nucor, Primetals Produce First Prime Coil on New Galvanizing Line in South Carolina]",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgq_sup01",
-   "url": "https://news.metal.com/newscontent/VMPIO4TOHDTW6D7TRCRLJTKDXCLGOFN2PGGL4QA-nucor-primetals-produce-first-prime-coil-on-new-galvanizing-line-in-south-carolina",
-   "tarih_kaynagi": "rss",
-   "lead": "Nucor and Primetals Technologies have produced the first prime coil on a new continuous galvanizing line (CGL) at Nucor's sheet steel mill in Berkeley County, South Carolina, completing the ...",
-   "eksik": [
-    "firma",
-    "ulke"
-   ],
-   "anahtar": "45ecc037d8bbc346",
-   "kategori": "Hat",
-   "olaylar": [
-    "primetals@produce|hat|Galvaniz hatti (CGL)|Ilk urun"
-   ],
-   "puan": 67.6
-  },
-  {
-   "tarih": "2026-11-12",
-   "firma": "Dongkuk CM",
-   "ulke": "",
-   "hat": "Boyama hatti (CCL)",
-   "asama": "Teknoloji",
-   "tedarikci": "",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "Dongkuk CM develops color-coated steel sheet to prevent condensation in AI data centers",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgtek_kaplama",
-   "url": "https://www.mt.co.kr/en/industry/2026/11/12/2026111209050897200",
-   "tarih_kaynagi": "rss",
-   "lead": "Dongkuk CM's 'DK Shield' / Photo provided by Dongkuk Steel Group Dongkuk CM, a specialized company for coated and color-coated steel sheets under the Dongkuk Steel Group, announced on ...",
-   "eksik": [
-    "ulke"
-   ],
-   "anahtar": "3eff151da8f30d87",
-   "kategori": "Hat",
-   "olaylar": [
-    "dongkuk cm|hat|Boyama hatti (CCL)|Teknoloji"
-   ],
-   "puan": 47.9
-  },
-  {
-   "tarih": "2026-11-10",
-   "firma": "Tata Steel Ijmuiden",
-   "ulke": "",
-   "hat": "Tandem soguk hadde (TCM)",
-   "asama": "Belirsiz",
-   "tedarikci": "SMS group",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "Man-less entry section and centralized control of the tandem cold mill at Tata Steel Ijmuiden",
-   "kaynak": "SMS group",
-   "kaynak_id": "gs_sms",
-   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPUjNjTDRyeTJrdHdtV1BOX1g3SkotV3hfQzVSSWVaQU9iQl9Cb01QQW5qbTl2eFNwYlQ5Y09VTzhRUi1hSFA0MVM0aDlwYmJEUWFhR29lUlE2LTZuTlBJLUxYaEdhdWlLTS1PRy04NTNtd2owckNnamh0UE1RMzVKQ3VNNmhxMjhJaEh6WXdXN1ZXV2R3a1R6ZllQRFBtV2taRTZVRG5xNHI0a2s1LVNzclgxdFJFd3J5X1ZmVHg5Q01qY0Q1UGlqdmpaVXpzeVJjRVJjMnZheTFJckxCclhoRA?oc=5",
-   "tarih_kaynagi": "rss",
-   "lead": "Man-less entry section and centralized control of the tandem cold mill at Tata Steel Ijmuiden &nbsp;&nbsp; SMS group",
-   "eksik": [
-    "ulke",
-    "asama"
-   ],
-   "anahtar": "f4884c93e0340d67",
-   "kategori": "Hat",
-   "olaylar": [
-    "sms group|hat|Tandem soguk hadde (TCM)|Belirsiz",
-    "tata steel ijmuiden|hat|Tandem soguk hadde (TCM)|Belirsiz"
-   ],
-   "puan": 42.6
-  },
-  {
-   "tarih": "2026-11-13",
-   "firma": "Hunan Valin Steel",
-   "ulke": "",
-   "hat": "Belirsiz",
    "asama": "Belirsiz",
    "tedarikci": "",
    "kapasite": "",
    "tutar": "",
-   "baslik": "Hunan Valin Steel plans to invest RMB 3.147 billion in the Phase III automotive sheet project",
-   "kaynak": "SteelOrbis",
-   "kaynak_id": "steelorbis",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/hunan-valin-steel-plans-to-invest-rmb-3147-billionin-the-phase-iii-automotive-sheet-project-1490689.htm",
-   "tarih_kaynagi": "json-ld",
-   "lead": "English Türkçe Italiano 中文 | Login Menu Marketplace Global Marketplace Access to the listings of different steel products and bids without intermediaries and commissions. Steel Markets Steel Prices Daily Steel Prices Weekly Steel Prices Steel Price Analysis Tool Orbis Steel Index Futures Prices Steel Price Analyses Scrap & Raw Materials Tube and Pipe Flats and Slab Longs and Billet Products Scrap Iron ore Billet-Slab",
+   "baslik": "Growth in the Hot-dip Galvanized Steel Market Driven by Increased Investment and Innovation",
+   "kaynak": "openPR.com",
+   "kaynak_id": "gx_arcelor",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPeFBJT3ZoQXFvOHBfazd0RkItSjN5dURzc2tkS0ozQUJkakRLNVh3aTloTjJjSjJVMVRXYTkwWUhpcDRLMWprd1d4LU02TFM2Nk1NenFPTXNGRDkyY0RkSjc2ZnBZT2FBS1UybWxUSklYMnhWT3ZhQ1JNc2hIY3JVY0JDR3A1RXFkT3J2NENmVHh3UQ?oc=5",
+   "tarih_kaynagi": "rss",
+   "lead": "Growth in the Hot-dip Galvanized Steel Market Driven by Increased Investment and Innovation &nbsp;&nbsp; openPR.com",
    "eksik": [
     "ulke",
-    "hat",
     "asama"
    ],
-   "anahtar": "328819dc3af21ad5",
+   "anahtar": "6f2e82975589a318",
    "kategori": "Yatirim",
    "olaylar": [
-    "hunan valin steel|hat|Belirsiz|Belirsiz"
+    "increased investment|hat|Galvaniz hatti (CGL)|Belirsiz"
    ],
-   "puan": -1.7
+   "puan": 14.0
   },
   {
-   "anahtar": "3b80f5aa8bcceb9c",
+   "anahtar": "8f5c37cd5e281040",
    "asama": "Modernizasyon",
-   "baslik": "SMS group receives final acceptance for level 1 automation upgrade of cold plate leveler at Outokumpu’s heavy plate rolling mill in Sweden",
+   "baslik": "Pickling Lines Market To 2035: Automotive Lightweighting and Green Upgrades Fuel Expansion",
    "eksik": [
-    "hat"
+    "ulke"
    ],
-   "firma": "Outokumpu",
-   "hat": "Belirsiz",
+   "firma": "Pickling Lines Market",
+   "hat": "Asitleme hatti",
    "kapasite": "",
    "kategori": "Hat",
-   "kaynak": "SEAISI",
-   "kaynak_id": "gx_sms_group",
-   "lead": "SMS group receives final acceptance for level 1 automation upgrade of cold plate leveler at Outokumpu’s heavy plate rolling mill in Sweden &nbsp;&nbsp; SEAISI",
+   "kaynak": "IndexBox",
+   "kaynak_id": "gq_hat01",
+   "lead": "Pickling Lines Market To 2035: Automotive Lightweighting and Green Upgrades Fuel Expansion - News and Statistics &nbsp;&nbsp; IndexBox",
    "olaylar": [
-    "outokumpu|fu|Isvec|Belirsiz",
-    "outokumpu|hat|Belirsiz|Modernizasyon",
-    "outokumpu|ulke|Isvec|Modernizasyon",
-    "sms group|fu|Isvec|Belirsiz",
-    "sms group|hat|Belirsiz|Modernizasyon",
-    "sms group|ulke|Isvec|Modernizasyon"
+    "pickling lines market|hat|Asitleme hatti|Modernizasyon"
    ],
-   "puan": 49.0,
+   "puan": 49.6,
    "tarih": "2026-11-13",
    "tarih_kaynagi": "rss",
-   "tedarikci": "SMS group",
+   "tedarikci": "",
    "tutar": "",
-   "ulke": "Isvec",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBicnhXVDNRRVozeXlWR0UxYzJQNE9DSHZ0WFZucDI3TElEbWFNbFZOMlpMUGFHeE1zSy1lbUZvZnN3Rnl5SDNnOWxLQkpTTVF0QTVWMmliWGlxSFpMMFV3OU5R?oc=5"
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPeGRLRktNMk9ETmFOU256UnJ4V1pVQjdVc2d2OVdISFkzTnVReUNDd1pSZGxRVy1QWEQ3d3BNQjBONWloY0lSV2p3Wk5rSUYxdkhQVjBjVnI1cFBYNzJFQnlTWG1nVEdVY1ZnQVR6Qm4zY24zX0VUMFBuWF8wci1yV0V6YWhJb1AtbWlTSVFSYmpLYktFMWt1aDAxNHl2bDd5NzljWkZrelJIc0RXTG9kd0c0d1dPM0YxcW1CaWVmaVNkd09DZHdDc0ZkTUZOR3BVWHNvSQ?oc=5"
+  },
+  {
+   "anahtar": "a1e849bc52d2aca2",
+   "asama": "Sozlesme",
+   "baslik": "Jastrzębska Spółka Węglowa secures loan from ARP for restructuring",
+   "eksik": [
+    "ulke"
+   ],
+   "firma": "Jastrzębska Spółka Węglowa",
+   "hat": "Asit rejenerasyonu (ARP)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "SteelOrbis",
+   "kaynak_id": "steelorbis",
+   "lead": "English Türkçe Italiano 中文 | Login Menu Marketplace Global Marketplace Access to the listings of different steel products and bids without intermediaries and commissions. Steel Markets Steel Prices Daily Steel Prices Weekly Steel Prices Steel Price Analysis Tool Orbis Steel Index Futures Prices Steel Price Analyses Scrap & Raw Materials Tube and Pipe Flats and Slab Longs and Billet Products Scrap Iron ore Billet-Slab",
+   "olaylar": [
+    "jastrzębska społka węglowa|hat|Asit rejenerasyonu (ARP)|Sozlesme"
+   ],
+   "puan": 63.0,
+   "tarih": "2026-11-11",
+   "tarih_kaynagi": "json-ld",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/jastrzbska-spka-wglowa-secures-loan-from-arp-for-restructuring-1490056.htm"
+  },
+  {
+   "anahtar": "16c1c1e154dad064",
+   "asama": "Belirsiz",
+   "baslik": "Tata Steel launches pre-painted steel Colorcoat in India",
+   "eksik": [
+    "asama"
+   ],
+   "firma": "Tata Steel",
+   "hat": "Boyama hatti (CCL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgtek_kaplama",
+   "lead": "https://www.thehindubusinessline.com/companies/tata-steel-launches-pre-painted-steel-colorcoat-in-india/article71567926.ece Copy Tata Steel Colors has launched its ...",
+   "olaylar": [
+    "tata steel|fu|Hindistan|Boyama hatti (CCL)",
+    "tata steel|hat|Boyama hatti (CCL)|Belirsiz",
+    "tata steel|ulke|Hindistan|Belirsiz"
+   ],
+   "rezerv": true,
+   "tarih": "2026-10-16",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Hindistan",
+   "url": "https://www.thehindubusinessline.com/companies/tata-steel-launches-pre-painted-steel-colorcoat-in-india/article71567926.ece"
+  },
+  {
+   "anahtar": "aac00b6a794a93b5",
+   "asama": "Sozlesme",
+   "baslik": "IMS expands its portfolio with force transducers for precise force measurement under demanding conditions in hot and cold rolling mills",
+   "eksik": [
+    "ulke"
+   ],
+   "firma": "IMS",
+   "hat": "Soguk hadde",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "IMS Messsysteme",
+   "kaynak_id": "ims",
+   "lead": "Skip to content IMS expands its portfolio with force transducers for precise force measurement under demanding conditions in hot and cold rolling mills With the RollKraft product family, IMS Messsysteme GmbH is expanding its portfolio with force transducers designed for use in hot and cold rolling mills. The measurement systems provide precise measurement data for the control, analysis and optimisation of rolling pro",
+   "olaylar": [
+    "ims|hat|Soguk hadde|Sozlesme"
+   ],
+   "rezerv": true,
+   "tarih": "2026-10-06",
+   "tarih_kaynagi": "json-ld",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://www.ims-gmbh.de/en/2026/10/06/ims-expands-its-portfolio-with-force-transducers-forprecise-force-measurement-under-demandingconditions-in-hot-and-cold-rolling-mills/"
   }
  ],
  "tech": [
   {
-   "anahtar": "tech:3eff151da8f30d87",
-   "tarih": "2026-11-12",
-   "konu": "Dongkuk CM develops color-coated steel sheet to prevent condensation in AI data centers",
-   "url": "https://www.mt.co.kr/en/industry/2026/11/12/2026111209050897200",
-   "metin": "Boyalı sac hatları alanında yeni bir geliştirme duyuruldu (Bing News, 2026-11-12). Ayrıntı kaynak bağlantısında."
+   "anahtar": "tech:6f2e82975589a318",
+   "tarih": "2026-11-16",
+   "konu": "Growth in the Hot-dip Galvanized Steel Market Driven by Increased Investment and Innovation",
+   "metin": "Sıcak daldırma galvaniz hatları alanında yeni bir geliştirme duyuruldu (openPR.com, 2026-11-16). Ayrıntı kaynak bağlantısında.",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPeFBJT3ZoQXFvOHBfazd0RkItSjN5dURzc2tkS0ozQUJkakRLNVh3aTloTjJjSjJVMVRXYTkwWUhpcDRLMWprd1d4LU02TFM2Nk1NenFPTXNGRDkyY0RkSjc2ZnBZT2FBS1UybWxUSklYMnhWT3ZhQ1JNc2hIY3JVY0JDR3A1RXFkT3J2NENmVHh3UQ?oc=5"
   }
  ],
  "piyasa": [
   {
-   "anahtar": "piyasa:42c6911f8b4b2477",
+   "anahtar": "piyasa:738776df9135ecde",
    "tarih": "2026-11-13",
-   "baslik": "Coils a freddo, via libera degli Stati Ue ai dazi antidumping - 15 Paesi favorevoli su 27. Atteso il regolamento definitivo, mentre sul mercato europeo i prezzi dei CRC si rafforzano",
-   "metin": "Coils a freddo, via libera degli Stati Ue ai dazi antidumping - 15 Paesi favorevoli su 27. Atteso il regolamento definitivo, mentre sul mercato europeo i prezzi dei CRC si rafforzano",
-   "url": "https://www.siderweb.com/articoli/news/732720-coils-a-freddo-via-libera-degli-stati-ue-ai-dazi-antidumping",
-   "kaynak": "Siderweb",
+   "baslik": "Thailand levies anti-dumping duty on tinplate, tin-free sheet",
+   "metin": "Thailand levies anti-dumping duty on tinplate, tin-free sheet",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/thailand-levies-ad-tinplate-tin-free-sheet-1126/",
+   "kaynak": "Kallanish",
    "konu": "koruma",
+   "urun": "teneke"
+  },
+  {
+   "anahtar": "piyasa:192e476039a3dc9a",
+   "tarih": "2026-11-10",
+   "baslik": "Vietnam to launch cold-rolled stainless steel imports probe",
+   "metin": "Vietnam to launch cold-rolled stainless steel imports probe",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/vietnam-launches-probe-into-cold-rolled-stainless-steel-imports-1126/",
+   "kaynak": "Kallanish",
+   "konu": "ticaret",
    "urun": "soguk hadde"
   },
   {
-   "anahtar": "piyasa:46ec69ffb1d5a590",
-   "tarih": "2026-11-13",
-   "baslik": "\"Yeni AB kota rejimi yassı çelikte Türkiye'ye rekabet avantajı sunuyor\"",
-   "metin": "Yeni AB kota rejiminin yassı çelik ürünlerinde Türkiye'ye rekabet avantajı sağladığı ifade ediliyor.",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQX0RsUVZhdy1xdVUzbXBRaGZRRU5fQVN0NExWRjhTX3dYYUtGdTJ3RXNaWXAtLUpXVVVkcVhIdGRXNk9nN3o2X2UtX1ZFU1RNdWJnb19zdTI4OUhSajEtb1k3MjhCc19QVEc5LUlnZnFfMkZmT3RtUE5JcEx4emktWktKNG1IRGo0MmxraHIzTEFfVFJzR1BncldRYlJxd2dGYWxvZ1RvSzYwdV9KMmRmSWp30gGyAUFVX3lxTFBfRGxRVmF3LXF1VTNtcFFoZlFFTl9BU3Q0TFZGOFNfd1hhS0Z1MndFc1pZcC0tSldVVWRxWEh0ZFc2T2c3ejZfZS1fVkVTVE11YmdvX3N1Mjg5SFJqMS1vWTcyOEJzX1BURzktSWdmcV8yRmZPdG1QTklwTHh6aS1aS0o0bUhEajQybGtocjNMQV9UUnNHUGdyV1FiUnF3Z0ZhbG9nVG9LNjB1X0oyZGZJanc?oc=5",
-   "kaynak": "A24.com.tr",
-   "konu": "koruma",
-   "urun": "yassi"
-  },
-  {
-   "anahtar": "piyasa:c9fcbc75a017ecc8",
-   "tarih": "2026-11-11",
-   "baslik": "Malaysia imposes provisional AD duties on coated steel",
-   "metin": "Malezya, alüminyum-çinko kaplı yassı çelik ürünlerinin ithalatına %4,41 ile %35,06 arasında geçici anti-dumping vergisi uygulamaya başladı.",
-   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/malaysia-imposes-provisional-ad-duties-on-coated-steel-1126/",
-   "kaynak": "Kallanish",
-   "konu": "koruma",
-   "urun": "kaplamali"
+   "anahtar": "piyasa:c8d598485ca4f420",
+   "tarih": "2026-11-04",
+   "baslik": "India HRC and CRC prices rise w-o-w; festive slowdown limits further gains",
+   "metin": "India HRC and CRC prices rise w-o-w; festive slowdown limits further gains",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNU1JhT1o1ZTBKOUlJaG55b2xBUGM5cEp4aUU1aGc3cHdHcXVVMmJVSVNZRHNBeFR2Rm40bjhHemZaZS1JY1pWWHpOWTU5MFpWUUZkd0F5Ujd1VFd6b0U3Z3FXNDJPTFQ3cXpLVHItbW9JM096aGV1dUVITWlfRWV0UWp3d093N1p1OXdjaXVITlFELUktajVhZTJ4SXQwa2EwSGFKcVFub2MwOUVNQ2FqeEptYTQ4c0lUME1V?oc=5",
+   "kaynak": "BigMint",
+   "konu": "fiyat",
+   "urun": "soguk hadde"
   }
  ]
 }
