@@ -1,7 +1,7 @@
 {
- "donem": "2026-W46",
- "gonder": false,
- "atla": true,
+ "donem": "2026-W47",
+ "gonder": true,
+ "atla": false,
  "son_gonderim": "2026-11-09",
  "deneme": false,
  "satir": 5,
@@ -11,37 +11,39 @@
   "llm_hatalar": [],
   "reddedilen_cumle": [
    {
-    "baslik": "[Nucor, Primetals Produce First Prime Coil on New Galvanizing Line in South Caro",
-    "neden": "kaynakta olmayan ozel ad: Karolina"
+    "baslik": "Hunan Valin Steel plans to invest RMB 3.147 billion in the Phase III automotive ",
+    "neden": "kaynakta olmayan ozel ad: Faz"
    },
    {
-    "baslik": "【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】",
-    "neden": "kaynakta olmayan ozel ad: Karolina"
+    "baslik": "SMS group receives final acceptance for level 1 automation upgrade of cold plate",
+    "neden": "kaynakta olmayan ozel ad: Seviye"
+   },
+   {
+    "baslik": "(piyasa) Coils a freddo, via libera degli Stati Ue ai dazi antidumpin",
+    "neden": "kaynakta olmayan ulke: Avrupa"
+   },
+   {
+    "baslik": "(teknoloji kosesi)",
+    "neden": "kaynakta olmayan ozel ad: Shield"
+   },
+   {
+    "baslik": "(haftalik ozet)",
+    "neden": "uzunluk (438)"
    }
   ],
-  "cumle_llm": 4,
-  "cumle_kuralsal": 2,
-  "supheli_cikarilan": 0
+  "cumle_llm": 3,
+  "cumle_kuralsal": 3,
+  "supheli_cikarilan": 1
  },
- "elenen_satirlar": [
-  {
-   "baslik": "【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】",
-   "neden": "Cince baslik, dogrulanmis Turkce cumle yok"
-  }
- ],
- "baglanti_dogrulanamayan": [
-  {
-   "baslik": "【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】",
-   "neden": "UnicodeEncodeError: 'ascii' codec can't encode characters in position 30-40: ordinal not in range(12"
-  }
- ],
+ "elenen_satirlar": [],
+ "baglanti_dogrulanamayan": [],
  "email": "/home/runner/work/sogukradar/sogukradar/out/email.html",
- "uretildi": "2026-11-10T19:27:54.097741Z",
+ "uretildi": "2026-11-16T07:01:13.886574Z",
  "basliklar": [
   "[Nucor, Primetals Produce First Prime Coil on New Galvanizing Line in South Carolina]",
+  "Dongkuk CM develops color-coated steel sheet to prevent condensation in AI data centers",
   "Man-less entry section and centralized control of the tandem cold mill at Tata Steel Ijmui",
-  "Tata Steel launches pre-painted steel Colorcoat in India",
-  "IMS expands its portfolio with force transducers for precise force measurement under deman",
-  "Gopani Industries Successfully Rolls First Prime Coil from New Cold Rolling Mill"
+  "Hunan Valin Steel plans to invest RMB 3.147 billion in the Phase III automotive sheet proj",
+  "SMS group receives final acceptance for level 1 automation upgrade of cold plate leveler a"
  ]
 }

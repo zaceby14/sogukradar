@@ -1,63 +1,6 @@
 {
  "bulunan": [
   {
-   "anahtar": "3b80f5aa8bcceb9c",
-   "asama": "Modernizasyon",
-   "baslik": "SMS group receives final acceptance for level 1 automation upgrade of cold plate leveler at Outokumpu’s heavy plate rolling mill in Sweden",
-   "eksik": [
-    "hat"
-   ],
-   "firma": "Outokumpu",
-   "hat": "Belirsiz",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "SEAISI",
-   "kaynak_id": "gx_sms_group",
-   "lead": "SMS group receives final acceptance for level 1 automation upgrade of cold plate leveler at Outokumpu’s heavy plate rolling mill in Sweden &nbsp;&nbsp; SEAISI",
-   "olaylar": [
-    "outokumpu|fu|Isvec|Belirsiz",
-    "outokumpu|hat|Belirsiz|Modernizasyon",
-    "outokumpu|ulke|Isvec|Modernizasyon",
-    "sms group|fu|Isvec|Belirsiz",
-    "sms group|hat|Belirsiz|Modernizasyon",
-    "sms group|ulke|Isvec|Modernizasyon"
-   ],
-   "puan": 49.0,
-   "tarih": "2026-11-13",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "SMS group",
-   "tutar": "",
-   "ulke": "Isvec",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBicnhXVDNRRVozeXlWR0UxYzJQNE9DSHZ0WFZucDI3TElEbWFNbFZOMlpMUGFHeE1zSy1lbUZvZnN3Rnl5SDNnOWxLQkpTTVF0QTVWMmliWGlxSFpMMFV3OU5R?oc=5"
-  },
-  {
-   "anahtar": "328819dc3af21ad5",
-   "asama": "Belirsiz",
-   "baslik": "Hunan Valin Steel plans to invest RMB 3.147 billion in the Phase III automotive sheet project",
-   "eksik": [
-    "ulke",
-    "hat",
-    "asama"
-   ],
-   "firma": "Hunan Valin Steel",
-   "hat": "Belirsiz",
-   "kapasite": "",
-   "kategori": "Yatirim",
-   "kaynak": "SteelOrbis",
-   "kaynak_id": "steelorbis",
-   "lead": "English Türkçe Italiano 中文 | Login Menu Marketplace Global Marketplace Access to the listings of different steel products and bids without intermediaries and commissions. Steel Markets Steel Prices Daily Steel Prices Weekly Steel Prices Steel Price Analysis Tool Orbis Steel Index Futures Prices Steel Price Analyses Scrap & Raw Materials Tube and Pipe Flats and Slab Longs and Billet Products Scrap Iron ore Billet-Slab",
-   "olaylar": [
-    "hunan valin steel|hat|Belirsiz|Belirsiz"
-   ],
-   "puan": -0.5,
-   "tarih": "2026-11-13",
-   "tarih_kaynagi": "json-ld",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/hunan-valin-steel-plans-to-invest-rmb-3147-billionin-the-phase-iii-automotive-sheet-project-1490689.htm"
-  },
-  {
    "anahtar": "8f5c37cd5e281040",
    "asama": "Modernizasyon",
    "baslik": "Pickling Lines Market To 2035: Automotive Lightweighting and Green Upgrades Fuel Expansion",
@@ -158,31 +101,6 @@
    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOSjJUdnpEd2hFNWpmQ3NtUkZaR2xMcGNITjBOSlN6cWxrX2VZRmpnNVhOamdMVGtxd28taTZHUVdUTnprY3dEVlR4V3BTWDZFdjZvNW5Bck0zLUdMRUNBYlhiT01oLS1IOEdvNHNFeTNSbmVUTkh3ekg3MlRVNEEtVE50X2Q2bXBjXzRYYnB2cUZjeTRuSFBfQjdTM3FBQ0JhdTdCZnhWcGVOWm5sdDVJVjNiaHZvSzNlSXZGOElPNTA0US1vRmV2TTJNWQ?oc=5"
   },
   {
-   "anahtar": "3eff151da8f30d87",
-   "asama": "Teknoloji",
-   "baslik": "Dongkuk CM develops color-coated steel sheet to prevent condensation in AI data centers",
-   "eksik": [
-    "ulke"
-   ],
-   "firma": "Dongkuk CM",
-   "hat": "Boyama hatti (CCL)",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgtek_kaplama",
-   "lead": "Dongkuk CM's 'DK Shield' / Photo provided by Dongkuk Steel Group Dongkuk CM, a specialized company for coated and color-coated steel sheets under the Dongkuk Steel Group, announced on ...",
-   "olaylar": [
-    "dongkuk cm|hat|Boyama hatti (CCL)|Teknoloji"
-   ],
-   "puan": 49.1,
-   "tarih": "2026-11-12",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "",
-   "url": "https://www.mt.co.kr/en/industry/2026/11/12/2026111209050897200"
-  },
-  {
    "anahtar": "a1e849bc52d2aca2",
    "asama": "Sozlesme",
    "baslik": "Jastrzębska Spółka Węglowa secures loan from ARP for restructuring",
@@ -206,59 +124,6 @@
    "tutar": "",
    "ulke": "",
    "url": "https://www.steelorbis.com/steel-news/latest-news/jastrzbska-spka-wglowa-secures-loan-from-arp-for-restructuring-1490056.htm"
-  },
-  {
-   "anahtar": "f4884c93e0340d67",
-   "asama": "Belirsiz",
-   "baslik": "Man-less entry section and centralized control of the tandem cold mill at Tata Steel Ijmuiden",
-   "eksik": [
-    "ulke",
-    "asama"
-   ],
-   "firma": "Tata Steel Ijmuiden",
-   "hat": "Tandem soguk hadde (TCM)",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "SMS group",
-   "kaynak_id": "gs_sms",
-   "lead": "Man-less entry section and centralized control of the tandem cold mill at Tata Steel Ijmuiden &nbsp;&nbsp; SMS group",
-   "olaylar": [
-    "sms group|hat|Tandem soguk hadde (TCM)|Belirsiz",
-    "tata steel ijmuiden|hat|Tandem soguk hadde (TCM)|Belirsiz"
-   ],
-   "puan": 44.6,
-   "tarih": "2026-11-09",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "SMS group",
-   "tutar": "",
-   "ulke": "",
-   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPMmZ5bFVjWDc2RnFZYnVSQmN1MXhQQ3hyVnhqRUpKR18zOS03OGpMTHdNajlMQTFUekUxM3ZSb3RybFFtTnQ0WmdNeExnS3Y1RVY3ZVAwb3hEb3d3RExMQXNzSXJBdS1nRmxJTXRSRGZPbjBOQmRiMkJhajc2Nl9CbkR3Um9LVG5UUjZNY3Z4dzJ5WEl6RWt0cmxyd00wVjJBQmE4aXZaenFTcDk4MEZ6MUE0ZHJCZEsxa3M1blZVWGNzQm00dmdqLTlVQnQ5Ty05RllFVE9nM2dnNy16Z0NoLQ?oc=5"
-  },
-  {
-   "anahtar": "45ecc037d8bbc346",
-   "asama": "Ilk urun",
-   "baslik": "[Nucor, Primetals Produce First Prime Coil on New Galvanizing Line in South Carolina]",
-   "eksik": [
-    "firma",
-    "ulke"
-   ],
-   "firma": "",
-   "hat": "Galvaniz hatti (CGL)",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "Shanghai Metals Market",
-   "kaynak_id": "gq_hat04",
-   "lead": "[Nucor, Primetals Produce First Prime Coil on New Galvanizing Line in South Carolina] &nbsp;&nbsp; Shanghai Metals Market",
-   "olaylar": [
-    "primetals@produce|hat|Galvaniz hatti (CGL)|Ilk urun"
-   ],
-   "puan": 70.8,
-   "tarih": "2026-11-06",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "Primetals",
-   "tutar": "",
-   "ulke": "",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQXN0NUEzTHZfWjM0aWNzN3FpdHpsTmkxX2l2R09DQ0VLVTV5RklhME80Y0diZFlEekl5Y2pfN29TNXdBcmF1UmxwdGFUVnpwNGQ2MFF5QXkydFBsRUR4OHBNQWt5Q25xbFQ1NktYZ1ZfZ2E3V0dMWG0wTGlUZnFUOUJ5eFRiMm5RQ0NzdTFWdTNJUFB2RjlkbXJtbmtwamRDdzgzLXBGUGI1YlBvMTgyTG5zeU12cHVqZk9sU3NMMUE4MU1tOXc?oc=5"
   },
   {
    "anahtar": "8cdc84758f7bfd38",
@@ -402,10 +267,12 @@
   "danieli|fu|Tanzanya|Belirsiz": "2026-11-09",
   "danieli|hat|Belirsiz|Sozlesme": "2026-11-09",
   "danieli|ulke|Tanzanya|Sozlesme": "2026-11-09",
+  "dongkuk cm|hat|Boyama hatti (CCL)|Teknoloji": "2026-11-12",
   "fives@hyundai|hat|Galvaniz hatti (CGL)|Modernizasyon": "2026-10-13",
   "gsm tanzania|fu|Tanzanya|Belirsiz": "2026-11-09",
   "gsm tanzania|hat|Belirsiz|Sozlesme": "2026-11-09",
   "gsm tanzania|ulke|Tanzanya|Sozlesme": "2026-11-09",
+  "hunan valin steel|hat|Belirsiz|Belirsiz": "2026-11-13",
   "jindal india|fu|Hindistan|Galvaniz hatti (CGL)": "2026-10-27",
   "jindal india|hat|Galvaniz hatti (CGL)|Ilk urun": "2026-10-27",
   "jindal india|ulke|Hindistan|Ilk urun": "2026-10-27",
@@ -421,6 +288,10 @@
   "nucor|fu|ABD|Galvaniz hatti (CGL)": "2026-11-04",
   "nucor|hat|Galvaniz hatti (CGL)|Ilk urun": "2026-11-04",
   "nucor|ulke|ABD|Ilk urun": "2026-11-04",
+  "outokumpu|fu|Isvec|Belirsiz": "2026-11-13",
+  "outokumpu|hat|Belirsiz|Modernizasyon": "2026-11-13",
+  "outokumpu|ulke|Isvec|Modernizasyon": "2026-11-13",
+  "primetals@produce|hat|Galvaniz hatti (CGL)|Ilk urun": "2026-11-05",
   "primetals|fu|ABD|Galvaniz hatti (CGL)": "2026-11-04",
   "primetals|hat|Galvaniz hatti (CGL)|Belirsiz": "2026-11-04",
   "primetals|hat|Galvaniz hatti (CGL)|Ilk urun": "2026-11-04",
@@ -430,6 +301,11 @@
   "red bud industries|hat|Dilme / boy kesme / SSC|Sozlesme": "2026-10-26",
   "red bud industries|ulke|ABD|Sozlesme": "2026-10-26",
   "rotherham steel firm|hat|Elektrik celigi hatti|Belirsiz": "2026-11-02",
+  "sms group|fu|Isvec|Belirsiz": "2026-11-13",
+  "sms group|hat|Belirsiz|Modernizasyon": "2026-11-13",
+  "sms group|hat|Tandem soguk hadde (TCM)|Belirsiz": "2026-11-10",
+  "sms group|ulke|Isvec|Modernizasyon": "2026-11-13",
+  "tata steel ijmuiden|hat|Tandem soguk hadde (TCM)|Belirsiz": "2026-11-10",
   "tenova|fu|Hindistan|Elektrik celigi hatti": "2026-10-20",
   "tenova|hat|Elektrik celigi hatti|Belirsiz": "2026-10-20",
   "tenova|ulke|Hindistan|Belirsiz": "2026-10-20",
@@ -488,7 +364,8 @@
  },
  "gonderilen_donemler": [
   "2026-W45",
-  "2026-W46"
+  "2026-W46",
+  "2026-W47"
  ],
  "gonderilen_ozellik": {
   "0973a0b028": {
@@ -500,6 +377,46 @@
     "konu:koruma"
    ],
    "t": "2026-11-09"
+  },
+  "0da1cda44c": {
+   "b": "Dongkuk CM develops color-coated steel sheet to prevent condensation in AI data centers",
+   "f": [
+    "bolum:haber",
+    "hat:Boyama hatti (CCL)",
+    "asama:Teknoloji",
+    "kaynak:Bing News",
+    "kat:Hat"
+   ],
+   "t": "2026-11-16"
+  },
+  "22dc883177": {
+   "b": "\"Yeni AB kota rejimi yassı çelikte Türkiye'ye rekabet avantajı sunuyor\"",
+   "f": [
+    "bolum:piyasa",
+    "kaynak:A24.com.tr",
+    "urun:yassi",
+    "konu:koruma"
+   ],
+   "t": "2026-11-16"
+  },
+  "297e6c747c": {
+   "b": "Malaysia imposes provisional AD duties on coated steel",
+   "f": [
+    "bolum:piyasa",
+    "kaynak:Kallanish",
+    "urun:kaplamali",
+    "konu:koruma"
+   ],
+   "t": "2026-11-16"
+  },
+  "345c4c6b22": {
+   "b": "Hunan Valin Steel plans to invest RMB 3.147 billion in the Phase III automotive sheet proj",
+   "f": [
+    "bolum:haber",
+    "kaynak:SteelOrbis",
+    "kat:Yatirim"
+   ],
+   "t": "2026-11-16"
   },
   "3ffa8c22f8": {
    "b": "Jindal India Commissions Revamped Galvanising Line, Boosts Capacity",
@@ -567,6 +484,17 @@
    ],
    "t": "2026-11-09"
   },
+  "8e69714f00": {
+   "b": "[Nucor, Primetals Produce First Prime Coil on New Galvanizing Line in South Carolina]",
+   "f": [
+    "bolum:haber",
+    "hat:Galvaniz hatti (CGL)",
+    "asama:Ilk urun",
+    "kaynak:Bing News",
+    "kat:Hat"
+   ],
+   "t": "2026-11-16"
+  },
   "988b089ade": {
    "b": "GSM Tanzania orders Danieli furnace for longs mill",
    "f": [
@@ -577,6 +505,16 @@
     "kat:Hat"
    ],
    "t": "2026-11-09"
+  },
+  "9e1a712824": {
+   "b": "Man-less entry section and centralized control of the tandem cold mill at Tata Steel Ijmui",
+   "f": [
+    "bolum:haber",
+    "hat:Tandem soguk hadde (TCM)",
+    "kaynak:SMS group",
+    "kat:Hat"
+   ],
+   "t": "2026-11-16"
   },
   "9f687e6101": {
    "b": "Fives upgrades Hyundai Steel's galvanising line",
@@ -671,6 +609,24 @@
    ],
    "t": "2026-11-09"
   },
+  "c958467f99": {
+   "b": "",
+   "f": [
+    "bolum:teknoloji",
+    "konu:Dongkuk CM develops color-coated steel sheet to prevent condensation in AI data centers"
+   ],
+   "t": "2026-11-16"
+  },
+  "d12795c6b6": {
+   "b": "Coils a freddo, via libera degli Stati Ue ai dazi antidumping - 15 Paesi favorevoli su 27.",
+   "f": [
+    "bolum:piyasa",
+    "kaynak:Siderweb",
+    "urun:soguk hadde",
+    "konu:koruma"
+   ],
+   "t": "2026-11-16"
+  },
   "d52308a78a": {
    "b": "Tenova supplies processing lines for JSW JFE’s electrical steel plant in India",
    "f": [
@@ -681,6 +637,17 @@
     "kat:Hat"
    ],
    "t": "2026-11-03"
+  },
+  "f85c0b15c6": {
+   "b": "SMS group receives final acceptance for level 1 automation upgrade of cold plate leveler a",
+   "f": [
+    "bolum:haber",
+    "asama:Modernizasyon",
+    "ulke:Isvec",
+    "kaynak:SEAISI",
+    "kat:Hat"
+   ],
+   "t": "2026-11-16"
   }
  },
  "periods": [
@@ -2574,6 +2541,24 @@
     "tekrar": 60
    },
    "uretim": "2026-11-15 10:59 UTC"
+  },
+  {
+   "donem": "2026-W47",
+   "satir": 6,
+   "stats": {
+    "erisilemeyen": 6,
+    "gnews_tarih": 0,
+    "ham": 4083,
+    "kabul": 4,
+    "kapsam_disi": 3666,
+    "kaynak": 315,
+    "makale_acildi": 220,
+    "on_eleme_gecti": 389,
+    "pencere_disi": 240,
+    "tarihsiz_elendi": 102,
+    "tekrar": 59
+   },
+   "uretim": "2026-11-16 06:52 UTC"
   }
  ],
  "piyasa_rezerv": [
@@ -2716,10 +2701,13 @@
  ],
  "piyasa_seen": {
   "piyasa:3e4b4481b0cc035c": "2026-11-02",
+  "piyasa:42c6911f8b4b2477": "2026-11-13",
+  "piyasa:46ec69ffb1d5a590": "2026-11-13",
   "piyasa:8988864688184b6f": "2026-11-04",
   "piyasa:a3b301404961402b": "2026-11-02",
   "piyasa:a7dffa13a828b745": "2026-11-02",
   "piyasa:bd6e204eaa1c8929": "2026-11-04",
+  "piyasa:c9fcbc75a017ecc8": "2026-11-11",
   "piyasa:db67f98fb4dd717b": "2026-11-02"
  },
  "rezerv": [
@@ -4522,15 +4510,20 @@
   "0b386546c836c574": "2026-10-26",
   "1c737651eb6c0083": "2026-10-27",
   "2796f3c7472bcf14": "2026-10-13",
+  "328819dc3af21ad5": "2026-11-13",
   "39a70e8d1ce2601d": "2026-11-09",
   "3a4b6e2a6c086c5e": "2026-11-03",
+  "3b80f5aa8bcceb9c": "2026-11-13",
+  "3eff151da8f30d87": "2026-11-12",
+  "45ecc037d8bbc346": "2026-11-05",
   "6ba68310a71973b4": "2026-11-04",
   "71b020c404ac2ebb": "2026-11-03",
   "81afdce4c6c25e28": "2026-10-20",
   "872b860afdafbe17": "2026-11-02",
   "9084e2ca3c770e78": "2026-11-04",
   "953d55052b959bff": "2026-11-05",
-  "d083fd260733cebf": "2026-11-04"
+  "d083fd260733cebf": "2026-11-04",
+  "f4884c93e0340d67": "2026-11-10"
  },
  "son_basliklar": [
   {
@@ -4609,6 +4602,41 @@
    "t": "2026-11-02",
    "ted": "",
    "u": ""
+  },
+  {
+   "a": "Ilk urun",
+   "b": "[Nucor, Primetals Produce First Prime Coil on New Galvanizing Line in South Carolina]",
+   "t": "2026-11-05",
+   "ted": "Primetals",
+   "u": ""
+  },
+  {
+   "a": "Teknoloji",
+   "b": "Dongkuk CM develops color-coated steel sheet to prevent condensation in AI data centers",
+   "t": "2026-11-12",
+   "ted": "",
+   "u": ""
+  },
+  {
+   "a": "Belirsiz",
+   "b": "Man-less entry section and centralized control of the tandem cold mill at Tata Steel Ijmuiden",
+   "t": "2026-11-10",
+   "ted": "SMS group",
+   "u": ""
+  },
+  {
+   "a": "Belirsiz",
+   "b": "Hunan Valin Steel plans to invest RMB 3.147 billion in the Phase III automotive sheet project",
+   "t": "2026-11-13",
+   "ted": "",
+   "u": ""
+  },
+  {
+   "a": "Modernizasyon",
+   "b": "SMS group receives final acceptance for level 1 automation upgrade of cold plate leveler at Outokumpu’s heavy plate rolling mill in Sweden",
+   "t": "2026-11-13",
+   "ted": "SMS group",
+   "u": "Isvec"
   }
  ],
  "source_health": {},
@@ -4839,7 +4867,8 @@
   }
  ],
  "tech_seen": {
-  "tech:28459cdd0c32da5c": "2026-08-12"
+  "tech:28459cdd0c32da5c": "2026-08-12",
+  "tech:3eff151da8f30d87": "2026-11-12"
  },
  "tercih": {
   "asama:Ilk urun": 2,

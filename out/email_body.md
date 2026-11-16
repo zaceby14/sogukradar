@@ -1,24 +1,24 @@
-# SogukRadar &mdash; 2026-W46
+# SogukRadar &mdash; 2026-W47
 
-**6 dogrulanmis gelisme** | pencere 2026-10-20 - 2026-11-10 | 315 kaynak tarandi
+**6 dogrulanmis gelisme** | pencere 2026-10-26 - 2026-11-16 | 315 kaynak tarandi
 
-1. **-** (-, 2026-11-06) &mdash; Galvaniz hatti (CGL) / Ilk urun  
+1. **-** (-, 2026-11-05) &mdash; Galvaniz hatti (CGL) / Ilk urun  
    [Nucor, Primetals Produce First Prime Coil on New Galvanizing Line in South Carolina]  
-   https://news.google.com/rss/articles/CBMixgFBVV95cUxNQXN0NUEzTHZfWjM0aWNzN3FpdHpsTmkxX2l2R09DQ0VLVTV5RklhME80Y0diZFlEekl5Y2pfN29TNXdBcmF1UmxwdGFUVnpwNGQ2MFF5QXkydFBsRUR4OHBNQWt5Q25xbFQ1NktYZ1ZfZ2E3V0dMWG0wTGlUZnFUOUJ5eFRiMm5RQ0NzdTFWdTNJUFB2RjlkbXJtbmtwamRDdzgzLXBGUGI1YlBvMTgyTG5zeU12cHVqZk9sU3NMMUE4MU1tOXc?oc=5
-2. **Tata Steel Ijmuiden** (-, 2026-11-09) &mdash; Tandem soguk hadde (TCM) / Belirsiz  
+   https://news.metal.com/newscontent/VMPIO4TOHDTW6D7TRCRLJTKDXCLGOFN2PGGL4QA-nucor-primetals-produce-first-prime-coil-on-new-galvanizing-line-in-south-carolina
+2. **Dongkuk CM** (-, 2026-11-12) &mdash; Boyama hatti (CCL) / Teknoloji  
+   Dongkuk CM develops color-coated steel sheet to prevent condensation in AI data centers  
+   https://www.mt.co.kr/en/industry/2026/11/12/2026111209050897200
+3. **Tata Steel Ijmuiden** (-, 2026-11-10) &mdash; Tandem soguk hadde (TCM) / Belirsiz  
    Man-less entry section and centralized control of the tandem cold mill at Tata Steel Ijmuiden  
-   https://news.google.com/rss/articles/CBMi4AFBVV95cUxPMmZ5bFVjWDc2RnFZYnVSQmN1MXhQQ3hyVnhqRUpKR18zOS03OGpMTHdNajlMQTFUekUxM3ZSb3RybFFtTnQ0WmdNeExnS3Y1RVY3ZVAwb3hEb3d3RExMQXNzSXJBdS1nRmxJTXRSRGZPbjBOQmRiMkJhajc2Nl9CbkR3Um9LVG5UUjZNY3Z4dzJ5WEl6RWt0cmxyd00wVjJBQmE4aXZaenFTcDk4MEZ6MUE0ZHJCZEsxa3M1blZVWGNzQm00dmdqLTlVQnQ5Ty05RllFVE9nM2dnNy16Z0NoLQ?oc=5
-3. **-** (-, 2026-11-05) &mdash; Belirsiz / Ilk urun  
-   【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】  
-   https://news.metal.com/en/newscontent/104207357-纽柯在南卡罗来纳州新建50万吨年汽车板镀锌线产出首卷优质卷板
-4. **Tata Steel** (Hindistan, 2026-10-16) &mdash; Boyama hatti (CCL) / Belirsiz  
-   Tata Steel launches pre-painted steel Colorcoat in India  
-   https://www.thehindubusinessline.com/companies/tata-steel-launches-pre-painted-steel-colorcoat-in-india/article71567926.ece
-5. **IMS** (-, 2026-10-06) &mdash; Soguk hadde / Sozlesme  
-   IMS expands its portfolio with force transducers for precise force measurement under demanding conditions in hot and cold rolling mills  
-   https://www.ims-gmbh.de/en/2026/10/06/ims-expands-its-portfolio-with-force-transducers-forprecise-force-measurement-under-demandingconditions-in-hot-and-cold-rolling-mills/
-6. **Gopani Industries Successfully** (Hindistan, 2026-10-05) &mdash; Soguk hadde / Ilk urun  
-   Gopani Industries Successfully Rolls First Prime Coil from New Cold Rolling Mill  
-   https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zb1JoVG1BQ1FSRlp3Qk02Zl9CaTZ3ME9XLTktbW1rcXhBR0pkMDhLOTZfT0V5LWdwcXZScW5rYzFpS1FjVXhhWU53UzNXeHozRTBpWG12T3R0XzdiZ1BIN1hVeVo2VnV4?oc=5
+   https://news.google.com/rss/articles/CBMi4AFBVV95cUxPUjNjTDRyeTJrdHdtV1BOX1g3SkotV3hfQzVSSWVaQU9iQl9Cb01QQW5qbTl2eFNwYlQ5Y09VTzhRUi1hSFA0MVM0aDlwYmJEUWFhR29lUlE2LTZuTlBJLUxYaEdhdWlLTS1PRy04NTNtd2owckNnamh0UE1RMzVKQ3VNNmhxMjhJaEh6WXdXN1ZXV2R3a1R6ZllQRFBtV2taRTZVRG5xNHI0a2s1LVNzclgxdFJFd3J5X1ZmVHg5Q01qY0Q1UGlqdmpaVXpzeVJjRVJjMnZheTFJckxCclhoRA?oc=5
+4. **Hunan Valin Steel** (-, 2026-11-13) &mdash; Belirsiz / Belirsiz  
+   Hunan Valin Steel plans to invest RMB 3.147 billion in the Phase III automotive sheet project  
+   https://www.steelorbis.com/steel-news/latest-news/hunan-valin-steel-plans-to-invest-rmb-3147-billionin-the-phase-iii-automotive-sheet-project-1490689.htm
+5. **Outokumpu** (Isvec, 2026-11-13) &mdash; Belirsiz / Modernizasyon  
+   SMS group receives final acceptance for level 1 automation upgrade of cold plate leveler at Outokumpu’s heavy plate rolling mill in Sweden  
+   https://news.google.com/rss/articles/CBMiYkFVX3lxTFBicnhXVDNRRVozeXlWR0UxYzJQNE9DSHZ0WFZucDI3TElEbWFNbFZOMlpMUGFHeE1zSy1lbUZvZnN3Rnl5SDNnOWxLQkpTTVF0QTVWMmliWGlxSFpMMFV3OU5R?oc=5
+6. **Pickling Lines Market** (-, 2026-11-13) &mdash; Asitleme hatti / Modernizasyon  
+   Pickling Lines Market To 2035: Automotive Lightweighting and Green Upgrades Fuel Expansion  
+   https://news.google.com/rss/articles/CBMi1AFBVV95cUxPeGRLRktNMk9ETmFOU256UnJ4V1pVQjdVc2d2OVdISFkzTnVReUNDd1pSZGxRVy1QWEQ3d3BNQjBONWloY0lSV2p3Wk5rSUYxdkhQVjBjVnI1cFBYNzJFQnlTWG1nVEdVY1ZnQVR6Qm4zY24zX0VUMFBuWF8wci1yV0V6YWhJb1AtbWlTSVFSYmpLYktFMWt1aDAxNHl2bDd5NzljWkZrelJIc0RXTG9kd0c0d1dPM0YxcW1CaWVmaVNkd09DZHdDc0ZkTUZOR3BVWHNvSQ?oc=5
 
-> Erisilemeyen kaynaklar: SMS group, Cognex, Steel Radar, BigMint (SteelMint)
+> Erisilemeyen kaynaklar: SMS group, Cognex, Steel Radar, SteelGuru, Magnetics Magazine, BigMint (SteelMint)
