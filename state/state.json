@@ -2617,6 +2617,24 @@
     "tekrar": 65
    },
    "uretim": "2026-11-16 08:25 UTC"
+  },
+  {
+   "donem": "2026-W47",
+   "satir": 6,
+   "stats": {
+    "erisilemeyen": 4,
+    "gnews_tarih": 0,
+    "ham": 3908,
+    "kabul": 1,
+    "kapsam_disi": 3498,
+    "kaynak": 315,
+    "makale_acildi": 220,
+    "on_eleme_gecti": 400,
+    "pencere_disi": 235,
+    "tarihsiz_elendi": 104,
+    "tekrar": 65
+   },
+   "uretim": "2026-11-16 10:31 UTC"
   }
  ],
  "piyasa_rezerv": [
@@ -4906,6 +4924,14 @@
    "kaynak": "THE ELEC, Korea Electronics Industry Media",
    "tarih": "2026-06-19",
    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBkZEdOZmVlOVF5X1JTVTAzNFJWMUpSZXFDTTlOR3ZKZHJaYW9qZjJCSjM5MnJHMUUwU0dYVUZoUXN4ckFhNVBKV1haSVhFN3MyWTVQYXlEWkFydHVlcXF3ZTFsWG9zMkk?oc=5"
+  },
+  {
+   "anahtar": "tech:4981815ffab304b6",
+   "baslik": "Understanding hydrogen permeation in zinc flake coatings for hydrogen embrittlement mitigation",
+   "hat": "Belirsiz",
+   "kaynak": "Nature",
+   "tarih": "2026-06-03",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9RUlJyR2FaY0UyS1AtNkZDVjBTM3ZtTWUtOEF0X0FJRjlwRnVCeDVST0VwOC01ZVNXZ2o4M3plNHhkYjdER09kaXdkY3NpV2VoZ1NLQWlJSklCaFZDN1Bv?oc=5"
   }
  ],
  "tech_seen": {

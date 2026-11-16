@@ -21,4 +21,4 @@
    IMS expands its portfolio with force transducers for precise force measurement under demanding conditions in hot and cold rolling mills  
    https://www.ims-gmbh.de/en/2026/10/06/ims-expands-its-portfolio-with-force-transducers-forprecise-force-measurement-under-demandingconditions-in-hot-and-cold-rolling-mills/
 
-> Erisilemeyen kaynaklar: SMS group, Cognex, Steel Radar, BigMint (SteelMint), MetalForming Magazine
+> Erisilemeyen kaynaklar: Butech Bliss, Cognex, ArcelorMittal, Steel Radar

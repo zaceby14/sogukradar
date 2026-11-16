@@ -159,37 +159,33 @@
  ],
  "stats": {
   "kaynak": 315,
-  "erisilemeyen": 5,
-  "ham": 4222,
+  "erisilemeyen": 4,
+  "ham": 3908,
   "on_eleme_gecti": 400,
   "makale_acildi": 220,
-  "tarihsiz_elendi": 106,
-  "pencere_disi": 240,
-  "kapsam_disi": 3804,
+  "tarihsiz_elendi": 104,
+  "pencere_disi": 235,
+  "kapsam_disi": 3498,
   "tekrar": 65,
   "kabul": 1,
   "gnews_tarih": 0
  },
  "unreachable": [
   [
-   "SMS group",
-   "HTTP 403"
+   "Butech Bliss",
+   "HTTP 503"
   ],
   [
    "Cognex",
    "HTTP 429"
   ],
   [
+   "ArcelorMittal",
+   "HTTP 403"
+  ],
+  [
    "Steel Radar",
    "HTTP 403"
-  ],
-  [
-   "BigMint (SteelMint)",
-   "HTTP 403"
-  ],
-  [
-   "MetalForming Magazine",
-   "HTTP 404"
   ]
  ],
  "kinds": {
@@ -517,7 +513,7 @@
    "sogutmada": false
   },
   "www.bing.com": {
-   "istek": 112,
+   "istek": 113,
    "hiz_siniri": 0,
    "sogutmada": false
   },
@@ -535,6 +531,11 @@
    "istek": 2,
    "hiz_siniri": 2,
    "sogutmada": true
+  },
+  "butechbliss.com": {
+   "istek": 1,
+   "hiz_siniri": 1,
+   "sogutmada": false
   }
  },
  "tech_pool": [
@@ -603,14 +604,6 @@
    "hat": "Galvaniz hatti (CGL)"
   },
   {
-   "anahtar": "tech:2a81095235098448",
-   "tarih": "2026-07-12",
-   "baslik": "Posco and Hyundai are developing innovative electrical steel to improve the efficiency of electric vehicles",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQSGtGOHBERUpYUkpjbW4tQVEweXVNUzYtcU1DNjB2bWhQamNzYTlPZFNtMXBNeXRvLXJwS2hwaEcxN3VNNFg0RTd1UVhZYmZPNEZRT0YxUlQ4VThJcG0ycXRJOGVEVWVLOFZmUHVNZ2hPYzFwY0FxOGhydjdTRmEtUmtwbFZKUlB5WTRqb2l5V2NxN0hoY0o2NExOaEg3dHdPLXZrUG1Zc3laakRVR3dLQi0yRnR1elZ6NUVvc0swRHczUEtNNHRZM2VaZV9FaUdz0gHWAUFVX3lxTE5mbGJMX0V1bE15SmhZdE05VDM2OG9POEVzc2g1bExqcHIzZGw3S3dvS291M252VUllVHB6THlfR1E0MnlPRTFRVlRzV2phMldEV0lKSWJJenRsdkxWbkRyTkpicFdLMFYzNUk4WnZvcGJZbFAyRGpDMURMUGNLaWhRTk81MVZ5NnlvamRLdnd2dXBPMElaT19OQ2dwaEFmOHZjYjh3dlJpQk1xQkhxQjlGMVlyWlZCdVRXbVR0MlhpNE9wNHg4UFVONThfVXBtSG5rNFlUWVE?oc=5",
-   "kaynak": "GMK Center",
-   "hat": "Elektrik celigi hatti"
-  },
-  {
    "anahtar": "tech:3b9e0ba3d7e53ee3",
    "tarih": "2026-07-09",
    "baslik": "Posco and Hyundai develop novel electrical steel for more efficient electric motors",
@@ -633,6 +626,14 @@
    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBkZEdOZmVlOVF5X1JTVTAzNFJWMUpSZXFDTTlOR3ZKZHJaYW9qZjJCSjM5MnJHMUUwU0dYVUZoUXN4ckFhNVBKV1haSVhFN3MyWTVQYXlEWkFydHVlcXF3ZTFsWG9zMkk?oc=5",
    "kaynak": "THE ELEC, Korea Electronics Industry Media",
    "hat": "Belirsiz"
+  },
+  {
+   "anahtar": "tech:4981815ffab304b6",
+   "tarih": "2026-06-03",
+   "baslik": "Understanding hydrogen permeation in zinc flake coatings for hydrogen embrittlement mitigation",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9RUlJyR2FaY0UyS1AtNkZDVjBTM3ZtTWUtOEF0X0FJRjlwRnVCeDVST0VwOC01ZVNXZ2o4M3plNHhkYjdER09kaXdkY3NpV2VoZ1NLQWlJSklCaFZDN1Bv?oc=5",
+   "kaynak": "Nature",
+   "hat": "Belirsiz"
   }
  ],
  "kaynak_katki": {
@@ -646,6 +647,22 @@
    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPeFBJT3ZoQXFvOHBfazd0RkItSjN5dURzc2tkS0ozQUJkakRLNVh3aTloTjJjSjJVMVRXYTkwWUhpcDRLMWprd1d4LU02TFM2Nk1NenFPTXNGRDkyY0RkSjc2ZnBZT2FBS1UybWxUSklYMnhWT3ZhQ1JNc2hIY3JVY0JDR3A1RXFkT3J2NENmVHh3UQ?oc=5",
    "kaynak": "openPR.com",
    "lead": "Growth in the Hot-dip Galvanized Steel Market Driven by Increased Investment and Innovation &nbsp;&nbsp; openPR.com"
+  },
+  {
+   "anahtar": "piyasa:b71d689587b26436",
+   "tarih": "2026-11-16",
+   "baslik": "[EU imposes definitive anti-dumping duties on cold-rolled steel from India, Japan, Taiwan, Türkiye and Vietnam]",
+   "url": "https://news.metal.com/newscontent/DOJES7KYL2Q7VMAKM4INV3Y4FXHAG234MSCMIDI-eu-imposes-definitive-anti-dumping-duties-on-cold-rolled-steel-from-india-japan-taiwan-t%C3%BCrkiye-and-vietnam",
+   "kaynak": "Bing News",
+   "lead": "The European Commission has imposed definitive anti-dumping duties on imports of certain cold-rolled flat steel products originating in India, Japan, Taiwan, Türkiye and Vietnam."
+  },
+  {
+   "anahtar": "piyasa:bf38469a57deb8a9",
+   "tarih": "2026-11-15",
+   "baslik": "India: Coated flat steel prices drop INR 100-400/t w-o-w on weak demand and slow trading",
+   "url": "https://www.bigmint.co/insights/detail/india-coated-flat-steel-prices-drop-inr-100-400-t-w-o-w-on-weak-demand-and-slow-trading-806744",
+   "kaynak": "Bing News",
+   "lead": "India: Coated flat steel prices drop INR 100-400/t w-o-w on weak demand and slow trading ..."
   },
   {
    "anahtar": "piyasa:cfb9a21be9492ece",
@@ -686,14 +703,6 @@
    "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQNm5mM29KSU5ad1BKNFdUT0Y2dlNVXzNZYXJtbHBDVkhUNFRKZk9XOVlQbTV6b1g3eHJKa0ZmdjA4Z3NLLUIwNjNiOEtZeGNzWmVlVUctTm9DRTZ3Q0J3RHZqS3lsR18xcjVXeUlMOWdCMkk1eU9EcU1VbmpBMXJJTHU3Zm9SOTNXdGZiTTlDX1JWYUFVV2s4bmgxY0tIamJKaWdqV09iUzk3WWZKU2Z0bHo2LXZfTmp0RUlKTl9ONlJyVFAySUZxb3p4a2pwclRKUlNOZFB6RWdtU0x2MEZVVjc2dHIwbnRLRkxRUm5uZDRIOWF3SW5wTS1ITjEwM1hsUThz0gH-AUFVX3lxTE1UQlAwcWxteTkzcGtHUktUSDhzRzM0R01SazRaR2cwRjFHX19KQkNHQjNsek55SnBRcUc5NHBwZ2ZLNXF1MFBTNTRtN1Y0dmowRk5JMGExY2RmLVhYWGFyOWRvMm8xNjZ0Ym1nUUZrQmN1V05mVy1CZDB1UmxyVVZRTkswT0xpWE0wRUxSME9jQVNMQUhLal9PcnVncW5rTnFpelJGdHBsSjRhYXpMcUFNOF9zMHpzTi1qWUhNeDBjUWstSUxQLW9FcFMzR1pEX3ExZjExVFdKUk5NT09IMEFVVW1HR1pWT0dHUHRpQThNYlNxSC1OR2p5ZmxJNG1R?oc=5",
    "kaynak": "ET Manufacturing",
    "lead": "Anti-dumping duty on electrical steel may push transformer costs, impact grid expansion: GTRI &nbsp;&nbsp; ET Manufacturing"
-  },
-  {
-   "anahtar": "piyasa:bf38469a57deb8a9",
-   "tarih": "2026-11-10",
-   "baslik": "India: Coated flat steel prices drop INR 100-400/t w-o-w on weak demand and slow trading",
-   "url": "https://www.bigmint.co/insights/detail/india-coated-flat-steel-prices-drop-inr-100-400-t-w-o-w-on-weak-demand-and-slow-trading-806744",
-   "kaynak": "Bing News",
-   "lead": "India: Coated flat steel prices drop INR 100-400/t w-o-w on weak demand and slow trading ..."
   },
   {
    "anahtar": "piyasa:c63a7f950e471960",
@@ -745,6 +754,6 @@
  "rezerv_kullanilan": 2,
  "rezerv_havuz": 66,
  "period": "2026-W47",
- "generated": "2026-11-16 08:25 UTC",
+ "generated": "2026-11-16 10:31 UTC",
  "version": "3.0.0"
 }
