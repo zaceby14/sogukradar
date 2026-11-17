@@ -4,7 +4,7 @@
  "atla": true,
  "son_gonderim": "2026-11-16",
  "deneme": false,
- "satir": 4,
+ "satir": 2,
  "nedenler": [],
  "yazar": {
   "saglayici": "gemini",
@@ -12,16 +12,16 @@
   "reddedilen_cumle": [
    {
     "baslik": "【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】",
-    "neden": "kaynakta olmayan sayi: 500"
+    "neden": "kaynakta olmayan ozel ad: Carolina"
    },
    {
-    "baslik": "(haftalik ozet)",
-    "neden": "kaynakta olmayan sayi: 500"
+    "baslik": "(piyasa) EU's India CRC duty approach has 'systemic' ramifications",
+    "neden": "kaynakta olmayan ozel ad: Komisyonu"
    }
   ],
-  "cumle_llm": 5,
-  "cumle_kuralsal": 1,
-  "supheli_cikarilan": 1
+  "cumle_llm": 2,
+  "cumle_kuralsal": 3,
+  "supheli_cikarilan": 2
  },
  "elenen_satirlar": [
   {
@@ -36,11 +36,9 @@
   }
  ],
  "email": "/home/runner/work/sogukradar/sogukradar/out/email.html",
- "uretildi": "2026-11-16T23:10:25.205722Z",
+ "uretildi": "2026-11-17T14:59:01.367279Z",
  "basliklar": [
-  "Growth in the Hot-dip Galvanized Steel Market Driven by Increased Investment and Innovatio",
-  "Pickling Lines Market To 2035: Automotive Lightweighting and Green Upgrades Fuel Expansion",
-  "Tata Steel launches pre-painted steel Colorcoat in India",
-  "IMS expands its portfolio with force transducers for precise force measurement under deman"
+  "JTL Industries Advances Maharashtra Expansion with Pickling and GP Line Trials",
+  "Jastrzębska Spółka Węglowa secures loan from ARP for restructuring"
  ]
 }

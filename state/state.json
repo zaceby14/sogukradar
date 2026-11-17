@@ -2734,6 +2734,24 @@
     "tekrar": 36
    },
    "uretim": "2026-11-17 11:57 UTC"
+  },
+  {
+   "donem": "2026-W47",
+   "satir": 5,
+   "stats": {
+    "erisilemeyen": 6,
+    "gnews_tarih": 0,
+    "ham": 3977,
+    "kabul": 2,
+    "kapsam_disi": 3561,
+    "kaynak": 315,
+    "makale_acildi": 220,
+    "on_eleme_gecti": 407,
+    "pencere_disi": 243,
+    "tarihsiz_elendi": 101,
+    "tekrar": 60
+   },
+   "uretim": "2026-11-17 14:48 UTC"
   }
  ],
  "piyasa_rezerv": [
@@ -4246,6 +4264,34 @@
    "tutar": "",
    "ulke": "ABD",
    "url": "https://mino.it/new-mino-double-stand-six-high-cold-reversing-mill-in-north-america/"
+  },
+  {
+   "anahtar": "7ef49dbe84aea056",
+   "asama": "Sozlesme",
+   "baslik": "Fives to Supply Three Annealing Furnaces for Yongfeng Group’s New China Steel Plant",
+   "eksik": [],
+   "firma": "Yongfeng Group",
+   "hat": "Surekli tavlama (CAL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "megaproject.com",
+   "kaynak_id": "gtek_hidrojen",
+   "lead": "Fives to Supply Three Annealing Furnaces for Yongfeng Group’s New China Steel Plant &nbsp;&nbsp; megaproject.com",
+   "olaylar": [
+    "fives|fu|Cin|Surekli tavlama (CAL)",
+    "fives|hat|Surekli tavlama (CAL)|Sozlesme",
+    "fives|ulke|Cin|Sozlesme",
+    "yongfeng group|fu|Cin|Surekli tavlama (CAL)",
+    "yongfeng group|hat|Surekli tavlama (CAL)|Sozlesme",
+    "yongfeng group|ulke|Cin|Sozlesme"
+   ],
+   "rezerv": true,
+   "tarih": "2026-03-12",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "Fives",
+   "tutar": "",
+   "ulke": "Cin",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPU1VTdWxtaHE4ZWtTVkFiQnQzdE55Z09DYWtvUXVCcjUyZndKVWxlaWRuN0YwMkJ6c3hLd0Y5c1hsMEhxZGp0MEhZNldvUEJRS01ua1N4S3lXZUlRRnRnNE5iZDczQjZmVGhfX1VQM3AydTJPRDRvaDVMcWN1eU54cWdJOGtmOTEyNGxsSnJLOExnbEllWlpSc1lQM1VpdVhfQUZRWHRVZUdFU1RWekVoZ1JvOUJuWDZK?oc=5"
   },
   {
    "anahtar": "8d2532bf9c27b4b2",

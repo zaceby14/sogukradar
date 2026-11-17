@@ -2,116 +2,83 @@
  "donem": "2026-W47",
  "rows": [
   {
-   "anahtar": "6f2e82975589a318",
-   "asama": "Belirsiz",
-   "baslik": "Growth in the Hot-dip Galvanized Steel Market Driven by Increased Investment and Innovation",
-   "eksik": [
-    "ulke",
-    "asama"
-   ],
-   "firma": "Increased Investment",
-   "hat": "Galvaniz hatti (CGL)",
-   "kapasite": "",
-   "kategori": "Yatirim",
-   "kaynak": "openPR.com",
-   "kaynak_id": "gx_arcelor",
-   "lead": "Growth in the Hot-dip Galvanized Steel Market Driven by Increased Investment and Innovation &nbsp;&nbsp; openPR.com",
-   "olaylar": [
-    "increased investment|hat|Galvaniz hatti (CGL)|Belirsiz"
-   ],
-   "puan": 14.0,
-   "tarih": "2026-11-16",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPeFBJT3ZoQXFvOHBfazd0RkItSjN5dURzc2tkS0ozQUJkakRLNVh3aTloTjJjSjJVMVRXYTkwWUhpcDRLMWprd1d4LU02TFM2Nk1NenFPTXNGRDkyY0RkSjc2ZnBZT2FBS1UybWxUSklYMnhWT3ZhQ1JNc2hIY3JVY0JDR3A1RXFkT3J2NENmVHh3UQ?oc=5"
-  },
-  {
-   "anahtar": "8f5c37cd5e281040",
-   "asama": "Modernizasyon",
-   "baslik": "Pickling Lines Market To 2035: Automotive Lightweighting and Green Upgrades Fuel Expansion",
-   "eksik": [
-    "ulke"
-   ],
-   "firma": "Pickling Lines Market",
-   "hat": "Asitleme hatti",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "IndexBox",
-   "kaynak_id": "gq_hat01",
-   "lead": "Pickling Lines Market To 2035: Automotive Lightweighting and Green Upgrades Fuel Expansion - News and Statistics &nbsp;&nbsp; IndexBox",
-   "olaylar": [
-    "pickling lines market|hat|Asitleme hatti|Modernizasyon"
-   ],
-   "puan": 49.6,
-   "tarih": "2026-11-13",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "",
-   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPeGRLRktNMk9ETmFOU256UnJ4V1pVQjdVc2d2OVdISFkzTnVReUNDd1pSZGxRVy1QWEQ3d3BNQjBONWloY0lSV2p3Wk5rSUYxdkhQVjBjVnI1cFBYNzJFQnlTWG1nVEdVY1ZnQVR6Qm4zY24zX0VUMFBuWF8wci1yV0V6YWhJb1AtbWlTSVFSYmpLYktFMWt1aDAxNHl2bDd5NzljWkZrelJIc0RXTG9kd0c0d1dPM0YxcW1CaWVmaVNkd09DZHdDc0ZkTUZOR3BVWHNvSQ?oc=5"
-  },
-  {
-   "anahtar": "16c1c1e154dad064",
-   "asama": "Belirsiz",
-   "baslik": "Tata Steel launches pre-painted steel Colorcoat in India",
-   "eksik": [
-    "asama"
-   ],
-   "firma": "Tata Steel",
-   "hat": "Boyama hatti (CCL)",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgtek_kaplama",
-   "lead": "https://www.thehindubusinessline.com/companies/tata-steel-launches-pre-painted-steel-colorcoat-in-india/article71567926.ece Copy Tata Steel Colors has launched its ...",
-   "olaylar": [
-    "tata steel|fu|Hindistan|Boyama hatti (CCL)",
-    "tata steel|hat|Boyama hatti (CCL)|Belirsiz",
-    "tata steel|ulke|Hindistan|Belirsiz"
-   ],
-   "rezerv": true,
-   "tarih": "2026-10-16",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "",
-   "tutar": "",
+   "tarih": "2026-11-12",
+   "firma": "JTL Industries Advances",
    "ulke": "Hindistan",
-   "url": "https://www.thehindubusinessline.com/companies/tata-steel-launches-pre-painted-steel-colorcoat-in-india/article71567926.ece"
+   "hat": "Asitleme hatti",
+   "asama": "Belirsiz",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "JTL Industries Advances Maharashtra Expansion with Pickling and GP Line Trials",
+   "kaynak": "Tube & Pipe India",
+   "kaynak_id": "gq_hat00",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5JUEw1b3hCWk9NYjFJNnhtMjNvN1VXQjFSeS1ZdVRUUU5lblpWZzIyNGcyb29QYTJhUDYtWDFGQ3kyeE8wb0F4WHppbjkyY3N3eTFyUUt3?oc=5",
+   "tarih_kaynagi": "rss",
+   "lead": "JTL Industries Advances Maharashtra Expansion with Pickling and GP Line Trials &nbsp;&nbsp; Tube & Pipe India",
+   "eksik": [
+    "asama"
+   ],
+   "anahtar": "3226a03669080363",
+   "kategori": "Yatirim",
+   "olaylar": [
+    "jtl industries advances|fu|Hindistan|Asitleme hatti",
+    "jtl industries advances|hat|Asitleme hatti|Belirsiz",
+    "jtl industries advances|ulke|Hindistan|Belirsiz"
+   ],
+   "puan": 7.5
   },
   {
-   "anahtar": "aac00b6a794a93b5",
+   "anahtar": "a1e849bc52d2aca2",
    "asama": "Sozlesme",
-   "baslik": "IMS expands its portfolio with force transducers for precise force measurement under demanding conditions in hot and cold rolling mills",
+   "baslik": "Jastrzębska Spółka Węglowa secures loan from ARP for restructuring",
    "eksik": [
     "ulke"
    ],
-   "firma": "IMS",
-   "hat": "Soguk hadde",
+   "firma": "Jastrzębska Spółka Węglowa",
+   "hat": "Asit rejenerasyonu (ARP)",
    "kapasite": "",
    "kategori": "Hat",
-   "kaynak": "IMS Messsysteme",
-   "kaynak_id": "ims",
-   "lead": "Skip to content IMS expands its portfolio with force transducers for precise force measurement under demanding conditions in hot and cold rolling mills With the RollKraft product family, IMS Messsysteme GmbH is expanding its portfolio with force transducers designed for use in hot and cold rolling mills. The measurement systems provide precise measurement data for the control, analysis and optimisation of rolling pro",
+   "kaynak": "SteelOrbis",
+   "kaynak_id": "steelorbis",
+   "lead": "English Türkçe Italiano 中文 | Login Menu Marketplace Global Marketplace Access to the listings of different steel products and bids without intermediaries and commissions. Steel Markets Steel Prices Daily Steel Prices Weekly Steel Prices Steel Price Analysis Tool Orbis Steel Index Futures Prices Steel Price Analyses Scrap & Raw Materials Tube and Pipe Flats and Slab Longs and Billet Products Scrap Iron ore Billet-Slab",
    "olaylar": [
-    "ims|hat|Soguk hadde|Sozlesme"
+    "jastrzębska społka węglowa|hat|Asit rejenerasyonu (ARP)|Sozlesme"
    ],
-   "rezerv": true,
-   "tarih": "2026-10-06",
+   "puan": 63.0,
+   "tarih": "2026-11-11",
    "tarih_kaynagi": "json-ld",
    "tedarikci": "",
    "tutar": "",
    "ulke": "",
-   "url": "https://www.ims-gmbh.de/en/2026/10/06/ims-expands-its-portfolio-with-force-transducers-forprecise-force-measurement-under-demandingconditions-in-hot-and-cold-rolling-mills/"
+   "url": "https://www.steelorbis.com/steel-news/latest-news/jastrzbska-spka-wglowa-secures-loan-from-arp-for-restructuring-1490056.htm"
   }
  ],
- "tech": [],
+ "tech": [
+  {
+   "anahtar": "tech:9459b798bb775291",
+   "tarih": "2026-11-12",
+   "konu": "Dongkuk CM Develops Color-Coated Steel Sheet to Tackle Condensation in AI Data Centers",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1SYVVyZW4xdEs4QVdDd2NmN0FSdG9Ka0tlUjlnbHhjdExhbnhTMm9NUTNTcG1fTGJVekt1Mm5MbUFhVmktOHpGTno0WVZzd3ptcWdmeHVPbVhaZGxJNG1PS2xVcF83Tlpi?oc=5",
+   "metin": "Dongkuk CM, yapay zekâ veri merkezlerinde yoğuşmayı önlemek amacıyla özel olarak geliştirilen yeni renkli kaplamalı çelik sac ürününü tanıttı."
+  }
+ ],
  "piyasa": [
+  {
+   "anahtar": "piyasa:c10a7b449dba6ae7",
+   "tarih": "2026-11-17",
+   "baslik": "EU's India CRC duty approach has 'systemic' ramifications",
+   "metin": "EU's India CRC duty approach has 'systemic' ramifications",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/eu-imposes-95percent-duty-on-indian-cold-rolled-steel-1126/",
+   "kaynak": "Kallanish",
+   "konu": "koruma",
+   "urun": "soguk hadde"
+  },
   {
    "anahtar": "piyasa:738776df9135ecde",
    "tarih": "2026-11-13",
    "baslik": "Thailand levies anti-dumping duty on tinplate, tin-free sheet",
-   "metin": "Tayland, rulo ve boy kesilmiş teneke ile kalaysız sac ithalatına anti-damping vergisi uygulamaya koydu.",
+   "metin": "Tayland hükümeti, rulo ve boy kesme formundaki teneke ile kalaysız çelik ürünlerine yönelik anti-damping vergileri yürürlüğe koydu.",
    "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/thailand-levies-ad-tinplate-tin-free-sheet-1126/",
    "kaynak": "Kallanish",
    "konu": "koruma",
@@ -125,16 +92,6 @@
    "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/vietnam-launches-probe-into-cold-rolled-stainless-steel-imports-1126/",
    "kaynak": "Kallanish",
    "konu": "ticaret",
-   "urun": "soguk hadde"
-  },
-  {
-   "anahtar": "piyasa:c8d598485ca4f420",
-   "tarih": "2026-11-04",
-   "baslik": "India HRC and CRC prices rise w-o-w; festive slowdown limits further gains",
-   "metin": "Hindistan'da sıcak ve soğuk haddelenmiş rulo fiyatları haftalık bazda yükselirken tatil dönemindeki yavaşlama daha fazla fiyat artışını sınırladı.",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNU1JhT1o1ZTBKOUlJaG55b2xBUGM5cEp4aUU1aGc3cHdHcXVVMmJVSVNZRHNBeFR2Rm40bjhHemZaZS1JY1pWWHpOWTU5MFpWUUZkd0F5Ujd1VFd6b0U3Z3FXNDJPTFQ3cXpLVHItbW9JM096aGV1dUVITWlfRWV0UWp3d093N1p1OXdjaXVITlFELUktajVhZTJ4SXQwa2EwSGFKcVFub2MwOUVNQ2FqeEptYTQ4c0lUME1V?oc=5",
-   "kaynak": "BigMint",
-   "konu": "fiyat",
    "urun": "soguk hadde"
   }
  ]
