@@ -29,6 +29,57 @@
    "puan": 7.5
   },
   {
+   "anahtar": "6f2e82975589a318",
+   "asama": "Belirsiz",
+   "baslik": "Growth in the Hot-dip Galvanized Steel Market Driven by Increased Investment and Innovation",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "firma": "Increased Investment",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "",
+   "kategori": "Yatirim",
+   "kaynak": "openPR.com",
+   "kaynak_id": "gx_arcelor",
+   "lead": "Growth in the Hot-dip Galvanized Steel Market Driven by Increased Investment and Innovation &nbsp;&nbsp; openPR.com",
+   "olaylar": [
+    "increased investment|hat|Galvaniz hatti (CGL)|Belirsiz"
+   ],
+   "puan": 14.0,
+   "tarih": "2026-11-16",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPeFBJT3ZoQXFvOHBfazd0RkItSjN5dURzc2tkS0ozQUJkakRLNVh3aTloTjJjSjJVMVRXYTkwWUhpcDRLMWprd1d4LU02TFM2Nk1NenFPTXNGRDkyY0RkSjc2ZnBZT2FBS1UybWxUSklYMnhWT3ZhQ1JNc2hIY3JVY0JDR3A1RXFkT3J2NENmVHh3UQ?oc=5"
+  },
+  {
+   "anahtar": "8f5c37cd5e281040",
+   "asama": "Modernizasyon",
+   "baslik": "Pickling Lines Market To 2035: Automotive Lightweighting and Green Upgrades Fuel Expansion",
+   "eksik": [
+    "ulke"
+   ],
+   "firma": "Pickling Lines Market",
+   "hat": "Asitleme hatti",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "IndexBox",
+   "kaynak_id": "gq_hat01",
+   "lead": "Pickling Lines Market To 2035: Automotive Lightweighting and Green Upgrades Fuel Expansion - News and Statistics &nbsp;&nbsp; IndexBox",
+   "olaylar": [
+    "pickling lines market|hat|Asitleme hatti|Modernizasyon"
+   ],
+   "puan": 49.6,
+   "tarih": "2026-11-13",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPeGRLRktNMk9ETmFOU256UnJ4V1pVQjdVc2d2OVdISFkzTnVReUNDd1pSZGxRVy1QWEQ3d3BNQjBONWloY0lSV2p3Wk5rSUYxdkhQVjBjVnI1cFBYNzJFQnlTWG1nVEdVY1ZnQVR6Qm4zY24zX0VUMFBuWF8wci1yV0V6YWhJb1AtbWlTSVFSYmpLYktFMWt1aDAxNHl2bDd5NzljWkZrelJIc0RXTG9kd0c0d1dPM0YxcW1CaWVmaVNkd09DZHdDc0ZkTUZOR3BVWHNvSQ?oc=5"
+  },
+  {
    "anahtar": "a1e849bc52d2aca2",
    "asama": "Sozlesme",
    "baslik": "Jastrzębska Spółka Węglowa secures loan from ARP for restructuring",
@@ -56,11 +107,11 @@
  ],
  "tech": [
   {
-   "anahtar": "tech:9459b798bb775291",
-   "tarih": "2026-11-12",
-   "konu": "Dongkuk CM Develops Color-Coated Steel Sheet to Tackle Condensation in AI Data Centers",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1SYVVyZW4xdEs4QVdDd2NmN0FSdG9Ka0tlUjlnbHhjdExhbnhTMm9NUTNTcG1fTGJVekt1Mm5MbUFhVmktOHpGTno0WVZzd3ptcWdmeHVPbVhaZGxJNG1PS2xVcF83Tlpi?oc=5",
-   "metin": "Dongkuk CM, yapay zekâ veri merkezlerinde yoğuşmayı önlemek amacıyla özel olarak geliştirilen yeni renkli kaplamalı çelik sac ürününü tanıttı."
+   "anahtar": "tech:6f2e82975589a318",
+   "tarih": "2026-11-16",
+   "konu": "Growth in the Hot-dip Galvanized Steel Market Driven by Increased Investment and Innovation",
+   "metin": "Sıcak daldırma galvaniz hatları alanında yeni bir geliştirme duyuruldu (openPR.com, 2026-11-16). Ayrıntı kaynak bağlantısında.",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPeFBJT3ZoQXFvOHBfazd0RkItSjN5dURzc2tkS0ozQUJkakRLNVh3aTloTjJjSjJVMVRXYTkwWUhpcDRLMWprd1d4LU02TFM2Nk1NenFPTXNGRDkyY0RkSjc2ZnBZT2FBS1UybWxUSklYMnhWT3ZhQ1JNc2hIY3JVY0JDR3A1RXFkT3J2NENmVHh3UQ?oc=5"
   }
  ],
  "piyasa": [
@@ -78,7 +129,7 @@
    "anahtar": "piyasa:738776df9135ecde",
    "tarih": "2026-11-13",
    "baslik": "Thailand levies anti-dumping duty on tinplate, tin-free sheet",
-   "metin": "Tayland hükümeti, rulo ve boy kesme formundaki teneke ile kalaysız çelik ürünlerine yönelik anti-damping vergileri yürürlüğe koydu.",
+   "metin": "Thailand levies anti-dumping duty on tinplate, tin-free sheet",
    "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/thailand-levies-ad-tinplate-tin-free-sheet-1126/",
    "kaynak": "Kallanish",
    "konu": "koruma",
@@ -88,7 +139,7 @@
    "anahtar": "piyasa:192e476039a3dc9a",
    "tarih": "2026-11-10",
    "baslik": "Vietnam to launch cold-rolled stainless steel imports probe",
-   "metin": "Vietnam, Çin ve Endonezya menşeli soğuk haddelenmiş paslanmaz çelik ithalatına karşı anti-damping soruşturması başlatmaya hazırlanıyor.",
+   "metin": "Vietnam to launch cold-rolled stainless steel imports probe",
    "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/vietnam-launches-probe-into-cold-rolled-stainless-steel-imports-1126/",
    "kaynak": "Kallanish",
    "konu": "ticaret",
