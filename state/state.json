@@ -1,6 +1,34 @@
 {
  "bulunan": [
   {
+   "anahtar": "99bcca62027e43fb",
+   "asama": "Belirsiz",
+   "baslik": "Açılışından önce, Nam Kim Phu My Çelik Sac Fabrikası, piyasanın çeşitli malzeme ihtiyaçlarını karşılamayı hedefliyor.",
+   "eksik": [
+    "hat",
+    "asama"
+   ],
+   "firma": "Açılışından",
+   "hat": "Belirsiz",
+   "kapasite": "",
+   "kategori": "Yatirim",
+   "kaynak": "Vietnam.vn",
+   "kaynak_id": "gx_q_tr1",
+   "lead": "Açılışından önce, Nam Kim Phu My Çelik Sac Fabrikası, piyasanın çeşitli malzeme ihtiyaçlarını karşılamayı hedefliyor. &nbsp;&nbsp; Vietnam.vn",
+   "olaylar": [
+    "acilisindan|fu|Vietnam|Belirsiz",
+    "acilisindan|hat|Belirsiz|Belirsiz",
+    "acilisindan|ulke|Vietnam|Belirsiz"
+   ],
+   "puan": 4.0,
+   "tarih": "2026-11-18",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Vietnam",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxORUtuZ0VkOGlfQkNpM2dBSkJWU0NqR1ZjMFNqVmFCR3JxUjluODVRMEcyN3liaWpMcm9EVl9qRk4xRDM1QnVHcnJsLVVBZlhKY3o3clUyNDctUXZZWHctcTFWdGIzZFFlU0FyUHRhVVpkd3dETkFvcWV1TTRqR0g0WWYzd2NDb0FENi0zU1NvU2JwMWg1RHg4VzYtUnRudE1FMElWNEhzRmNTNlVGRHRLY1pyWUpWLVp5d18za1VlZ0g2UDg?oc=5"
+  },
+  {
    "anahtar": "6f2e82975589a318",
    "asama": "Belirsiz",
    "baslik": "Growth in the Hot-dip Galvanized Steel Market Driven by Increased Investment and Innovation",
@@ -177,6 +205,32 @@
    "tutar": "",
    "ulke": "",
    "url": "https://www.steelorbis.com/steel-news/latest-news/jastrzbska-spka-wglowa-secures-loan-from-arp-for-restructuring-1490056.htm"
+  },
+  {
+   "anahtar": "f4b0b6572835e0a6",
+   "asama": "Belirsiz",
+   "baslik": "JTL Industries Advances Maharashtra Expansion with Successful Pickling Line Trial and GP Line Testing",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "firma": "JTL Industries Advances",
+   "hat": "Asitleme hatti",
+   "kapasite": "",
+   "kategori": "Yatirim",
+   "kaynak": "Machine Maker",
+   "kaynak_id": "gq_hat00",
+   "lead": "JTL Industries Advances Maharashtra Expansion with Successful Pickling Line Trial and GP Line Testing &nbsp;&nbsp; Machine Maker",
+   "olaylar": [
+    "jtl industries advances|hat|Asitleme hatti|Belirsiz"
+   ],
+   "puan": 8.2,
+   "tarih": "2026-11-11",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQlhUQkFxZ0p4LXQxYlFPWWY3bUozMGR4UEFqQ2NDVUN3bHdfVndpVVduV1VQQmxvblVVUWhJd0JxYndxSlhTY21TOURGR2I3TzVTMUxvYWJyOUZXaXAwajRaTHgwbVlBaWJxQ2JpUG0zbGNTdFhfT1B4Tk5KUUJjYkJxZEFvcEM5TkF4V3diQ3E0TG5iaURlRlBIeURwWnBnTHNmQlZnNmIzRlB3Vk5JQzFaVkp5RFR6Z1g5Qm5KN2N1YjNUakhsLXRhTVBYcHRO?oc=5"
   },
   {
    "anahtar": "8cdc84758f7bfd38",
@@ -2770,9 +2824,35 @@
     "tekrar": 33
    },
    "uretim": "2026-11-17 20:32 UTC"
+  },
+  {
+   "donem": "2026-W47",
+   "satir": 6,
+   "stats": {
+    "erisilemeyen": 4,
+    "gnews_tarih": 0,
+    "ham": 3997,
+    "kabul": 2,
+    "kapsam_disi": 3580,
+    "kaynak": 315,
+    "makale_acildi": 226,
+    "on_eleme_gecti": 395,
+    "pencere_disi": 255,
+    "tarihsiz_elendi": 104,
+    "tekrar": 56
+   },
+   "uretim": "2026-11-18 11:50 UTC"
   }
  ],
  "piyasa_rezerv": [
+  {
+   "anahtar": "piyasa:83f334fe7a240f02",
+   "baslik": "Vietnam accepts product scope review request for AD duties on Chinese and South Korean galvanized steel",
+   "kaynak": "Yieh Corp.",
+   "lead": "Vietnam accepts product scope review request for AD duties on Chinese and South Korean galvanized steel &nbsp;&nbsp; Yieh Corp.",
+   "tarih": "2026-11-18",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPYk1RRThHcW9NdzIybU0zS0o1c1l5cVBiQ24yNDBYRGg2LXRURjlaeGxRRU4tcGpXU2FxVUVhd1o0aUZQUHVPZWRvdGxrWTBuUUpNbU9EZVU2MUFRNTgwUFhyMUNOdlZ5VGtON2FKRWpGT09UR09CSEE4NFR5MVNnNFU1Z3A5b1FmaE9rNWFkd0lmd3lBMWNpS1dFUENwUGNucTlXSzdyVFRaZGxFNXl2blljN1luWTZHQW1GdVVNODdmYUVkRzJwS2hVMVN5V0Vj?oc=5"
+  },
   {
    "anahtar": "piyasa:c10a7b449dba6ae7",
    "baslik": "EU's India CRC duty approach has 'systemic' ramifications",
@@ -2884,22 +2964,6 @@
    "lead": "Grain-Oriented Electrical Steel Market to Reach US$ 15.60 &nbsp;&nbsp; openPR.com",
    "tarih": "2026-10-29",
    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaTNFVF9ab1pkX0xRaVdYOEZMMUdrYTBpOVU4ckdpNHVTTFkwWExPeWlYNzJCSWRaeVpUN2s0cllFbUczT0U2WHowdFZ6VlNKZ1ZEWWVDNXhGU25ScklPWFE2NTZDVmZKZG93eGUzQ0p4VG9mS0tuMWRpVkFhd0RPR1RCeUNDZkRqV2NuX25tWWxKWGNCcE9R?oc=5"
-  },
-  {
-   "anahtar": "piyasa:df2e7719dead4f70",
-   "baslik": "US tin plate exports down 10.9 percent in August 2026 from July",
-   "kaynak": "Bing News",
-   "lead": "According to export data from the US Department of Commerce, US exports of tin plate totaled 2,804 mt in August this year, down 10.9 percent from July and down 24.0 percent from August 2025. By value, ...",
-   "tarih": "2026-10-27",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/us-tin-plate-exports-down-109-percent-in-august-2026-from-july-1486620.htm"
-  },
-  {
-   "anahtar": "piyasa:885aed75f997198b",
-   "baslik": "Tin Plate Price Trend, Index, Chart and Forecast 2026",
-   "kaynak": "IMARC Group",
-   "lead": "Tin Plate Price Trend, Index, Chart and Forecast 2026 &nbsp;&nbsp; IMARC Group",
-   "tarih": "2026-10-27",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBhVEw0UnMwSU9RWkQ0OThJajd4bDdCNTF1V0U5N0JUSmt5MHQ1ZjlRbHFFVVlXckxORnFoc285NkhteXVZUGNVSGhibVYyd05sMkdaak8yU1lpZkVF?oc=5"
   }
  ],
  "piyasa_seen": {
@@ -2914,6 +2978,32 @@
   "piyasa:db67f98fb4dd717b": "2026-11-02"
  },
  "rezerv": [
+  {
+   "anahtar": "a79abe5ddbfdacfa",
+   "asama": "Ilk urun",
+   "baslik": "Jindal (India) commissions revamped galvanising line at Bengal plant",
+   "eksik": [],
+   "firma": "Jindal (India)",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_hat18",
+   "lead": "Kolkata, Oct 27 (PTI) Jindal (India) Ltd, part of the BC Jindal Group, on Tuesday said it has commissioned its revamped Continuous Galvanising Line (CGL-5) at its Ranihati facility in West Bengal ...",
+   "olaylar": [
+    "*|ulke-hat|Hindistan|Galvaniz hatti (CGL)|Ilk urun",
+    "jindal (india)|fu|Hindistan|Galvaniz hatti (CGL)",
+    "jindal (india)|hat|Galvaniz hatti (CGL)|Ilk urun",
+    "jindal (india)|ulke|Hindistan|Ilk urun"
+   ],
+   "rezerv": true,
+   "tarih": "2026-10-27",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Hindistan",
+   "url": "https://www.msn.com/en-in/news/other/jindal-india-commissions-revamped-galvanising-line-at-bengal-plant/ar-AA2gbdJ3"
+  },
   {
    "anahtar": "16c1c1e154dad064",
    "asama": "Belirsiz",
@@ -4037,6 +4127,31 @@
    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQY0wtT1k1ZVVZLUdhNDlVejQ1TmxPRFRQX1NUbVlVaTRTb2p5ZlhPUnB6OUM5TEtvalNjd2h5SHNpbVE0SjJOWjRnR0M3cjUxZml3Y0RwTEVQNlhfWGZmTjhiVEVjNVNEMEJOMXRGbUItUi0yZzBYS3g3QTAyYjN4SVd5MFdKdUNISTVoSnlRWmNRbm0teTh3RnFlZlZOZ2Ztbk5kVG00ZWp6VTVYZll4WEJUbllITmFlSmxkag?oc=5"
   },
   {
+   "anahtar": "c1e20af1f2d7d31b",
+   "asama": "Teknoloji",
+   "baslik": "POSCO Partners with Hyundai Motor and 8 Organizations to Develop Next-Generation High-Efficiency Electrical Steel for EVs",
+   "eksik": [
+    "ulke"
+   ],
+   "firma": "POSCO",
+   "hat": "Elektrik celigi hatti",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "포스코그룹 뉴스룸",
+   "kaynak_id": "gtek_es",
+   "lead": "POSCO Partners with Hyundai Motor and 8 Organizations to Develop Next-Generation High-Efficiency Electrical Steel for EVs &nbsp;&nbsp; 포스코그룹 뉴스룸",
+   "olaylar": [
+    "posco|hat|Elektrik celigi hatti|Teknoloji"
+   ],
+   "rezerv": true,
+   "tarih": "2026-06-15",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNRUJtamZQY3hHSWd2LS14aTRlU0hSTnU2ZlVFUU1zZzRtOEhxMkNFUFhvamttdVNxZm9rWmpFUEgxSmx6RUVuaHhQRWgxOG1VS1ZVMWNqd2V3eWJtRWJsaXBORmphT0tIRklVTF94UUJpVWxqaE5rMHc1UVd6WUp0UGl3Ym1lTEttRGN6em1jNUFpbjktcE5RcDRxbHgxRndYaF9sU01NUUJ1RW9tVWJwNWRFWVJpNm4tdXhiOGVXa2hVOXdjUjdNMjVYS2NKbFJEY01rZ1dYcUZmN3g5QUJWMUhpSnlOLXc?oc=5"
+  },
+  {
    "anahtar": "2d7578e0e0541771",
    "asama": "Sozlesme",
    "baslik": "Fives to supply annealing furnaces for JSW Steel’s new electrical steel lines in India",
@@ -4361,6 +4476,33 @@
    "tutar": "",
    "ulke": "",
    "url": "https://johncockerill.com/en/press-and-news/news/cgl-cal-shandong-zhongxin/"
+  },
+  {
+   "anahtar": "c656ae1e0246333d",
+   "asama": "Belirsiz",
+   "baslik": "Ternium Launches New Cold Rolling and Galvanizing Lines in Mexico",
+   "eksik": [
+    "asama"
+   ],
+   "firma": "Ternium",
+   "hat": "Soguk hadde",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Machine Maker",
+   "kaynak_id": "gtek_cold",
+   "lead": "Ternium Launches New Cold Rolling and Galvanizing Lines in Mexico &nbsp;&nbsp; Machine Maker",
+   "olaylar": [
+    "ternium|fu|Meksika|Soguk hadde",
+    "ternium|hat|Soguk hadde|Belirsiz",
+    "ternium|ulke|Meksika|Belirsiz"
+   ],
+   "rezerv": true,
+   "tarih": "2026-02-24",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Meksika",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZ3U1VDNKWEM4N1ltZDhITUVJQmRMWE1XakoxZjBsNGVzeDVSRWRtWkJLQm1xck5aOElYelNXUjRHMlJ4MjBBOFlkc0pKX0VNT2d5aEVkQml0ZEZ6NFVwNllDamRNcVJTNTl5VVpCa3ZQNU4zTTZnVTNlX1pHbXpVRkRITUthUTQtZ2c1UUJDZjZuZFJqVzMwa202dFZZd0cx?oc=5"
   },
   {
    "anahtar": "cf3d3188df9e5735",
@@ -5103,6 +5245,14 @@
    "kaynak": "THE ELEC, Korea Electronics Industry Media",
    "tarih": "2026-06-19",
    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBkZEdOZmVlOVF5X1JTVTAzNFJWMUpSZXFDTTlOR3ZKZHJaYW9qZjJCSjM5MnJHMUUwU0dYVUZoUXN4ckFhNVBKV1haSVhFN3MyWTVQYXlEWkFydHVlcXF3ZTFsWG9zMkk?oc=5"
+  },
+  {
+   "anahtar": "tech:c1e20af1f2d7d31b",
+   "baslik": "POSCO Partners with Hyundai Motor and 8 Organizations to Develop Next-Generation High-Efficiency Electrical Steel for EVs",
+   "hat": "Elektrik celigi hatti",
+   "kaynak": "포스코그룹 뉴스룸",
+   "tarih": "2026-06-15",
+   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNRUJtamZQY3hHSWd2LS14aTRlU0hSTnU2ZlVFUU1zZzRtOEhxMkNFUFhvamttdVNxZm9rWmpFUEgxSmx6RUVuaHhQRWgxOG1VS1ZVMWNqd2V3eWJtRWJsaXBORmphT0tIRklVTF94UUJpVWxqaE5rMHc1UVd6WUp0UGl3Ym1lTEttRGN6em1jNUFpbjktcE5RcDRxbHgxRndYaF9sU01NUUJ1RW9tVWJwNWRFWVJpNm4tdXhiOGVXa2hVOXdjUjdNMjVYS2NKbFJEY01rZ1dYcUZmN3g5QUJWMUhpSnlOLXc?oc=5"
   },
   {
    "anahtar": "tech:4981815ffab304b6",
