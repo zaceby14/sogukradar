@@ -24,35 +24,35 @@
    "olaylar": [
     "jtl industries advances|hat|Asitleme hatti|Belirsiz"
    ],
-   "puan": 8.2
+   "puan": 7.8
   },
   {
-   "tarih": "2026-11-18",
-   "firma": "Açılışından",
-   "ulke": "Vietnam",
-   "hat": "Belirsiz",
+   "anahtar": "99bcca62027e43fb",
    "asama": "Belirsiz",
-   "tedarikci": "",
-   "kapasite": "",
-   "tutar": "",
    "baslik": "Açılışından önce, Nam Kim Phu My Çelik Sac Fabrikası, piyasanın çeşitli malzeme ihtiyaçlarını karşılamayı hedefliyor.",
-   "kaynak": "Vietnam.vn",
-   "kaynak_id": "gx_q_tr1",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxORUtuZ0VkOGlfQkNpM2dBSkJWU0NqR1ZjMFNqVmFCR3JxUjluODVRMEcyN3liaWpMcm9EVl9qRk4xRDM1QnVHcnJsLVVBZlhKY3o3clUyNDctUXZZWHctcTFWdGIzZFFlU0FyUHRhVVpkd3dETkFvcWV1TTRqR0g0WWYzd2NDb0FENi0zU1NvU2JwMWg1RHg4VzYtUnRudE1FMElWNEhzRmNTNlVGRHRLY1pyWUpWLVp5d18za1VlZ0g2UDg?oc=5",
-   "tarih_kaynagi": "rss",
-   "lead": "Açılışından önce, Nam Kim Phu My Çelik Sac Fabrikası, piyasanın çeşitli malzeme ihtiyaçlarını karşılamayı hedefliyor. &nbsp;&nbsp; Vietnam.vn",
    "eksik": [
     "hat",
     "asama"
    ],
-   "anahtar": "99bcca62027e43fb",
+   "firma": "Açılışından",
+   "hat": "Belirsiz",
+   "kapasite": "",
    "kategori": "Yatirim",
+   "kaynak": "Vietnam.vn",
+   "kaynak_id": "gx_q_tr1",
+   "lead": "Açılışından önce, Nam Kim Phu My Çelik Sac Fabrikası, piyasanın çeşitli malzeme ihtiyaçlarını karşılamayı hedefliyor. &nbsp;&nbsp; Vietnam.vn",
    "olaylar": [
     "acilisindan|fu|Vietnam|Belirsiz",
     "acilisindan|hat|Belirsiz|Belirsiz",
     "acilisindan|ulke|Vietnam|Belirsiz"
    ],
-   "puan": 4.0
+   "puan": 4.0,
+   "tarih": "2026-11-18",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Vietnam",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxORUtuZ0VkOGlfQkNpM2dBSkJWU0NqR1ZjMFNqVmFCR3JxUjluODVRMEcyN3liaWpMcm9EVl9qRk4xRDM1QnVHcnJsLVVBZlhKY3o3clUyNDctUXZZWHctcTFWdGIzZFFlU0FyUHRhVVpkd3dETkFvcWV1TTRqR0g0WWYzd2NDb0FENi0zU1NvU2JwMWg1RHg4VzYtUnRudE1FMElWNEhzRmNTNlVGRHRLY1pyWUpWLVp5d18za1VlZ0g2UDg?oc=5"
   },
   {
    "anahtar": "6f2e82975589a318",
@@ -161,14 +161,14 @@
  ],
  "stats": {
   "kaynak": 315,
-  "erisilemeyen": 4,
-  "ham": 3997,
-  "on_eleme_gecti": 395,
-  "makale_acildi": 226,
-  "tarihsiz_elendi": 104,
-  "pencere_disi": 255,
-  "kapsam_disi": 3580,
-  "tekrar": 56,
+  "erisilemeyen": 72,
+  "ham": 3405,
+  "on_eleme_gecti": 315,
+  "makale_acildi": 222,
+  "tarihsiz_elendi": 100,
+  "pencere_disi": 172,
+  "kapsam_disi": 3090,
+  "tekrar": 41,
   "kabul": 2,
   "gnews_tarih": 0
  },
@@ -188,6 +188,278 @@
   [
    "BigMint (SteelMint)",
    "HTTP 403"
+  ],
+  [
+   "Google News",
+   "HTTP 429"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
   ]
  ],
  "kinds": {
@@ -507,17 +779,17 @@
   "bgtek_jc": "arama",
   "bgtek_danieli": "arama"
  },
- "today": "2026-11-18",
+ "today": "2026-11-19",
  "host_saglik": {
-  "news.google.com": {
-   "istek": 123,
-   "hiz_siniri": 0,
-   "sogutmada": false
-  },
   "www.bing.com": {
    "istek": 112,
    "hiz_siniri": 0,
    "sogutmada": false
+  },
+  "news.google.com": {
+   "istek": 48,
+   "hiz_siniri": 2,
+   "sogutmada": true
   },
   "www.otto-junker.com": {
    "istek": 21,
@@ -561,82 +833,27 @@
    "hat": "Galvaniz hatti (CGL)"
   },
   {
-   "anahtar": "tech:3bb113dd1d100448",
-   "tarih": "2026-10-19",
-   "baslik": "European coil and green steel round-up: EU coil largely stable on slow apparent demand",
-   "url": "https://eurometal.net/european-coil-and-green-steel-round-up-eu-coil-largely-stable-on-slow-apparent-demand/",
-   "kaynak": "Bing News",
-   "hat": "Belirsiz"
-  },
-  {
-   "anahtar": "tech:e82b221fc2986888",
-   "tarih": "2026-10-05",
-   "baslik": "Turkey's Isdemir develops high-quality steel production for defense industry and electrical steel",
-   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMW13SGRFangyUGg2dkFBMDJ0aUFSSVljX0gxbXFZMng2OWRYY1hqLThqYVNtaDJzMUlvanBROE02MXZMTktNNG4zU3AzdHZzVUlxRVpXUlZRVzQ0eUhKamhRU2dyMHh4RkdDcGEtYXMzRmQ1eEE5aV9GWTJkZmhCeTZCRzE3ZG5VZS1pdEZnaXBGNzZ1WGl1WUxTeUNIVEY2UzJTN1MtZ0RvbnFNc0NzNUJtWl9YX0J6Y0FMQlh1cTUzRzdMZ3dNbE9zQXU2a1NTVGVUeEwybnR1M2VQcmtaaEFQb2RhWTVSTjdxMXdGRQ?oc=5",
-   "kaynak": "SteelOrbis",
-   "hat": "Elektrik celigi hatti"
-  },
-  {
    "anahtar": "tech:291e32d7546a5fb3",
    "tarih": "2026-09-08",
    "baslik": "EGGA Supports the European Convoy for Industrial CompetitivenessEGGA-Galvanizing Europe had supported the “European Convoy for Industrial Competitiveness” in Brussels on",
    "url": "https://www.galvanizingeurope.org/egga-supports-the-european-convoy-for-industrial-competitiveness/",
    "kaynak": "Galvanizing Europe",
    "hat": "Galvaniz hatti (CGL)"
-  },
-  {
-   "anahtar": "tech:784bcc674542a655",
-   "tarih": "2026-08-19",
-   "baslik": "Five Leading Silicon Steel Manufacturers in China 2026: Powering the Future of Electrical Steel Innovation",
-   "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPa2NMZVhHZGxOTTRDYUltajd6QW4tRVZBNlpid1BlUWNxVkx5YjlRaWNZQkJfS1dVNURTSEF3OS1xWDRvMEZ1QWZtcjN6bVRrVzQ1UUdhM00tY0dtODY1T0FBQUtVWktkZ25Ra1VmLVVmbUVtTGtoWTM2ZUJTaE1hdzdCV0pfX1drSC1XazlST3lEcmM1Z2N5d2FZWjhXRVFKamdaYTFwSVJCZmpYTGpqN3p6Y3ZObS1oaTRuTmhudmRLUUVMbm4wYUIyYWxzY1E2SmxzbnlqR0dPZE9aMTBQbkw4Q2ZTN3FiT0p2cU5qOWVVR1FaeEpNQzltZw?oc=5",
-   "kaynak": "The Des Moines Register",
-   "hat": "Elektrik celigi hatti"
-  },
-  {
-   "anahtar": "tech:3b9e0ba3d7e53ee3",
-   "tarih": "2026-07-09",
-   "baslik": "Posco and Hyundai develop novel electrical steel for more efficient electric motors",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNVV0U1otMkFRbUphNHRvMDBVdWFEVjVKN0FYV2tNdWZhWVB0TldhN0QxeDJtLU51ci1CLVFid0NTT21DSFVCMmw3a2ZyUTB6YUxkQ1hmcGZ5T05pOUdLbUxjMDdTX2IyZ0tfdnZaSVA5aW41dHhURFpvZUJKbUxiVDBjTUNCMXdfLUJIMXdsdl9VNktxeXVDeFlyNThjZHFXVUJwRXctZTJuWjduaEE3NFBmclFyYTdMNzNzM2lR?oc=5",
-   "kaynak": "electrive.com",
-   "hat": "Elektrik celigi hatti"
-  },
-  {
-   "anahtar": "tech:598247fd0170db4b",
-   "tarih": "2026-07-07",
-   "baslik": "POSCO and Hyundai partner to develop 6.5% silicon electrical steel for EV motors",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWENTOUgzZFMzQjhaRlJnWmdEY3RMVmhLR25rYnFHd1JrLTQtRDJ3NVZvWTN6UjN2QUpfVXBuM1c5QklYQlNJYUQwY1pVdjhKb19xTEZXX3NRYmZNUVRyVEFuX3RNSm15N3ZrWm5nTm1XMExRUDBpVElLQ0Z2dzFjcmRkQ0xva1ktQTJZTlRnemg0NzVsZ3pUVGNUT3YyNGYweXdVRUdZdVpDX2ZEY19PdGlB?oc=5",
-   "kaynak": "Charged EVs",
-   "hat": "Elektrik celigi hatti"
-  },
-  {
-   "anahtar": "tech:4d73ae5024a4349d",
-   "tarih": "2026-06-19",
-   "baslik": "YEST Wins Appeal in High-Pressure Hydrogen Annealing Patent Dispute With HPSP",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBkZEdOZmVlOVF5X1JTVTAzNFJWMUpSZXFDTTlOR3ZKZHJaYW9qZjJCSjM5MnJHMUUwU0dYVUZoUXN4ckFhNVBKV1haSVhFN3MyWTVQYXlEWkFydHVlcXF3ZTFsWG9zMkk?oc=5",
-   "kaynak": "THE ELEC, Korea Electronics Industry Media",
-   "hat": "Belirsiz"
-  },
-  {
-   "anahtar": "tech:c1e20af1f2d7d31b",
-   "tarih": "2026-06-15",
-   "baslik": "POSCO Partners with Hyundai Motor and 8 Organizations to Develop Next-Generation High-Efficiency Electrical Steel for EVs",
-   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNRUJtamZQY3hHSWd2LS14aTRlU0hSTnU2ZlVFUU1zZzRtOEhxMkNFUFhvamttdVNxZm9rWmpFUEgxSmx6RUVuaHhQRWgxOG1VS1ZVMWNqd2V3eWJtRWJsaXBORmphT0tIRklVTF94UUJpVWxqaE5rMHc1UVd6WUp0UGl3Ym1lTEttRGN6em1jNUFpbjktcE5RcDRxbHgxRndYaF9sU01NUUJ1RW9tVWJwNWRFWVJpNm4tdXhiOGVXa2hVOXdjUjdNMjVYS2NKbFJEY01rZ1dYcUZmN3g5QUJWMUhpSnlOLXc?oc=5",
-   "kaynak": "포스코그룹 뉴스룸",
-   "hat": "Elektrik celigi hatti"
-  },
-  {
-   "anahtar": "tech:4981815ffab304b6",
-   "tarih": "2026-06-03",
-   "baslik": "Understanding hydrogen permeation in zinc flake coatings for hydrogen embrittlement mitigation",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9RUlJyR2FaY0UyS1AtNkZDVjBTM3ZtTWUtOEF0X0FJRjlwRnVCeDVST0VwOC01ZVNXZ2o4M3plNHhkYjdER09kaXdkY3NpV2VoZ1NLQWlJSklCaFZDN1Bv?oc=5",
-   "kaynak": "Nature",
-   "hat": "Belirsiz"
   }
  ],
  "kaynak_katki": {
-  "Google News": 2
+  "Google News": 1,
+  "Bing News": 1
  },
  "piyasa_pool": [
+  {
+   "anahtar": "piyasa:2b94dda1b77028b9",
+   "tarih": "2026-11-19",
+   "baslik": "EU imposes anti-dumping duties on cold-rolled steel imports from five countries",
+   "url": "https://www.bigmint.co/insights/detail/eu-imposes-anti-dumping-duties-on-cold-rolled-steel-imports-from-five-countries-809037",
+   "kaynak": "Bing News",
+   "lead": "hidden Disclaimer: BigMint Technologies Private Limited has taken due care and caution in compilation of content for its web site. Information is just for reference not intended for trading purpose or ..."
+  },
   {
    "anahtar": "piyasa:6e21a1f75683a0b2",
    "tarih": "2026-11-18",
@@ -644,22 +861,6 @@
    "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/vietnam-considers-review-of-coated-steel-anti-dumping-1126/",
    "kaynak": "Kallanish",
    "lead": "Vietnam’s Trade Remedies Authority (TRAV) has accepted a valid application to review the product scope of..."
-  },
-  {
-   "anahtar": "piyasa:83f334fe7a240f02",
-   "tarih": "2026-11-18",
-   "baslik": "Vietnam accepts product scope review request for AD duties on Chinese and South Korean galvanized steel",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPYk1RRThHcW9NdzIybU0zS0o1c1l5cVBiQ24yNDBYRGg2LXRURjlaeGxRRU4tcGpXU2FxVUVhd1o0aUZQUHVPZWRvdGxrWTBuUUpNbU9EZVU2MUFRNTgwUFhyMUNOdlZ5VGtON2FKRWpGT09UR09CSEE4NFR5MVNnNFU1Z3A5b1FmaE9rNWFkd0lmd3lBMWNpS1dFUENwUGNucTlXSzdyVFRaZGxFNXl2blljN1luWTZHQW1GdVVNODdmYUVkRzJwS2hVMVN5V0Vj?oc=5",
-   "kaynak": "Yieh Corp.",
-   "lead": "Vietnam accepts product scope review request for AD duties on Chinese and South Korean galvanized steel &nbsp;&nbsp; Yieh Corp."
-  },
-  {
-   "anahtar": "piyasa:26b39c0474ddeeba",
-   "tarih": "2026-11-17",
-   "baslik": "European Commission imposes anti-dumping duties on cold-rolled coil imports from India, Japan, Taiwan, Turkey, Vietnam",
-   "url": "https://eurometal.net/european-commission-imposes-anti-dumping-duties-on-cold-rolled-coil-imports-from-india-japan-taiwan-turkey-vietnam/?utm_source=rss&utm_medium=rss&utm_campaign=european-commission-imposes-anti-dumping-duties-on-cold-rolled-coil-imports-from-india-japan-taiwan-turkey-vietnam",
-   "kaynak": "EUROMETAL",
-   "lead": "The European Commission has officially imposed anti-dumping duties on cold-rolled coil (CRC) imports from India, Japan, Taiwan, Turkey and Vietnam, the Commission announced on its official website on Monday November 16. The definitive duties are 9.5% for India, 27.9% for Japan, 20.7-27% for Taiwan, "
   },
   {
    "anahtar": "piyasa:c10a7b449dba6ae7",
@@ -678,36 +879,12 @@
    "lead": "Brazil’s flat steel shipments have risen in September, while imports remained elevated across most product categories, ..."
   },
   {
-   "anahtar": "piyasa:21ae30d8d47f8d19",
-   "tarih": "2026-11-17",
-   "baslik": "EU imposes duties of up to 27.9% on cold-rolled steel from five countries, including Japan",
-   "url": "https://metallurgprom.org/en/news/europe/22287-eu-imposes-duties-of-up-to-279-on-cold-rolled-steel-from-five-countries-including-japan.html",
-   "kaynak": "Metallurgprom",
-   "lead": "The European Commission has imposed definitive anti-dumping duties on cold-rolled steel from India, Japan, Taiwan, Turkey and Vietnam. The highest rate, 27.9%, applies to Japanese products."
-  },
-  {
-   "anahtar": "piyasa:14e2ddeac405561b",
-   "tarih": "2026-11-16",
-   "baslik": "Analysis of the Non-Grain Oriented Electrical Steel Market Exploring Industry Growth and Potential Opportunities",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQaUJicTVwaHMzNl9GcUEyZm9oaHV1bVRXR0FBeGVybzVUOVhodjY4cEdDSnY5Q0lpUjd6eDFxNGozU3VULVo1WHh6b1NHTkRZYTJhdzV2dlBRRXlENFZULUdWdm1GLUVVTG1BYWx0NVlHMXlwM0h6WlcxMzcydktoT3RyM0JsQnZ2LWZ6NUthcXc0VkdRQXlzZmln?oc=5",
-   "kaynak": "openPR.com",
-   "lead": "Analysis of the Non-Grain Oriented Electrical Steel Market Exploring Industry Growth and Potential Opportunities &nbsp;&nbsp; openPR.com"
-  },
-  {
    "anahtar": "piyasa:b71d689587b26436",
    "tarih": "2026-11-16",
    "baslik": "[EU imposes definitive anti-dumping duties on cold-rolled steel from India, Japan, Taiwan, Türkiye and Vietnam]",
    "url": "https://news.metal.com/newscontent/DOJES7KYL2Q7VMAKM4INV3Y4FXHAG234MSCMIDI-eu-imposes-definitive-anti-dumping-duties-on-cold-rolled-steel-from-india-japan-taiwan-t%C3%BCrkiye-and-vietnam",
    "kaynak": "Bing News",
    "lead": "The European Commission has imposed definitive anti-dumping duties on imports of certain cold-rolled flat steel products originating in India, Japan, Taiwan, Türkiye and Vietnam."
-  },
-  {
-   "anahtar": "piyasa:bf38469a57deb8a9",
-   "tarih": "2026-11-15",
-   "baslik": "India: Coated flat steel prices drop INR 100-400/t w-o-w on weak demand and slow trading",
-   "url": "https://www.bigmint.co/insights/detail/india-coated-flat-steel-prices-drop-inr-100-400-t-w-o-w-on-weak-demand-and-slow-trading-806744",
-   "kaynak": "Bing News",
-   "lead": "India: Coated flat steel prices drop INR 100-400/t w-o-w on weak demand and slow trading ..."
   },
   {
    "anahtar": "piyasa:7c4e44a94dca63cf",
@@ -718,12 +895,20 @@
    "lead": "Since 2016, the United States has imposed antidumping (AD) duties on cold-rolled steel flat products from South Korea. The margin for POSCO, South Korea's largest producer, has fallen from 6.32% in ..."
   },
   {
-   "anahtar": "piyasa:df316110fb4a3d58",
+   "anahtar": "piyasa:fd47eda28403d5f6",
    "tarih": "2026-11-11",
-   "baslik": "3-Piece Tinplate Aerosol Cans Market Momentum: Advancing Packaging Stability and Manufacturing Efficiency",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQlAxZ09hRklrU3dMdzVDX3k1MXEwRzhXWVRFNnNKVm02RC1wUXVnSUkwMV94bUlPVkZyeHg5dXZwd2dDVjZYMmFmR1FNdllLalJNakNiYVgtdUtzVE5Ib2ZaWjlMTDA0VUlRVFBZTHdOaGE3U2VaX2tOZHhGZjhQZk5iOWhUcUhiYlk1RDd6YjlGdzFBaGc?oc=5",
+   "baslik": "US announces preliminary dumping margins on tinplate imports from Türkiye and Taiwan",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZ3M5NWFYa0hnQWd4VjlnU1U4UW9wYzlOSlRyYUVKZU0ya3dLem9lajV4eldmU2FjRWlYNTdaaGF3aUpLeUVHYnZ2aFAzXzR0SzlfMnY5WUhDdjZqLVVpUi1Hdk5peHVuUTFmQzJmYndlVkFBVWhmQ3R2c1doaXpPa3BHanhVYmtoS2hGWWhLOGM0eG5qaGtlQU9KblBxUE5GNmFLdWtoVVJUVndYX0RTVW02bGFpdw?oc=5",
+   "kaynak": "SteelRadar",
+   "lead": "US announces preliminary dumping margins on tinplate imports from Türkiye and Taiwan &nbsp;&nbsp; SteelRadar"
+  },
+  {
+   "anahtar": "piyasa:5f6c539aad6de578",
+   "tarih": "2026-11-11",
+   "baslik": "Grain-Oriented Electrical Steel Market Gains Momentum as JFE",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPaThwOTBTWHZYX3J6YVJ1ekwwV2Zjc2ZPcjhyVFhnc1RNYkx2bk5hYkF3TElfVWl2WkdWT2VrRDdPRWdyN2gwTzNZT19kbm1zVXlUMVF1d1ppYmthUFZTZmkzV2RmUDBISUg4VGJfMk9lV0hSZnlxRllPQWhlUzIzMGkwYThzaW1rSldpLVVsSW82Y1lxMzBuV29DNG8?oc=5",
    "kaynak": "openPR.com",
-   "lead": "3-Piece Tinplate Aerosol Cans Market Momentum: Advancing Packaging Stability and Manufacturing Efficiency &nbsp;&nbsp; openPR.com"
+   "lead": "Grain-Oriented Electrical Steel Market Gains Momentum as JFE &nbsp;&nbsp; openPR.com"
   },
   {
    "anahtar": "piyasa:c63a7f950e471960",
@@ -735,14 +920,14 @@
   }
  ],
  "window": [
-  "2026-10-28",
-  "2026-11-18"
+  "2026-10-29",
+  "2026-11-19"
  ],
- "bulunan_kullanilan": 4,
+ "bulunan_kullanilan": 5,
  "bulunan_havuz": 8,
  "rezerv_kullanilan": 0,
  "rezerv_havuz": 72,
  "period": "2026-W47",
- "generated": "2026-11-18 11:50 UTC",
+ "generated": "2026-11-19 11:46 UTC",
  "version": "3.0.0"
 }
