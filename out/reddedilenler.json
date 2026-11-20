@@ -1,6 +1,6 @@
 {
  "donem": "2026-W47",
- "adet": 513,
+ "adet": 518,
  "kayitlar": [
   {
    "sebep": "kapsam_disi",
@@ -513,10 +513,10 @@
    "ek": "kapsam_disi"
   },
   {
-   "sebep": "kapsam_disi",
+   "sebep": "pencere_disi",
    "baslik": "Fives and AGITO extend strategic partnership to the UK and Ireland",
    "url": "https://www.fivesgroup.com/newspress/detail-view/fives-and-agito-extend-strategic-partnership-to-the-uk-and-ireland",
-   "ek": "kapsam_disi"
+   "ek": "2026-10-29"
   },
   {
    "sebep": "pencere_disi",
@@ -859,6 +859,12 @@
    "baslik": "Jobs Service & Administration",
    "url": "https://www.herkulesgroup.com/careers/jobs-service-administration/",
    "ek": ""
+  },
+  {
+   "sebep": "kapsam_disi",
+   "baslik": "HerkulesGroup Heart Projects 2026: Reaching New Heights with the Brachbach Youth Fire Department",
+   "url": "https://www.herkulesgroup.com/news/detail/herkulesgroup-heart-projects-2026-reaching-new-heights-with-the-brachbach-youth-fire-department/",
+   "ek": "kapsam_disi"
   },
   {
    "sebep": "tarihsiz_elendi",
@@ -2632,8 +2638,20 @@
   },
   {
    "sebep": "tarihsiz_elendi",
-   "baslik": "【钢之家调查】本周冷轧板卷市场消费量减少3.53万吨至154.17万吨(11月6日-11月12日)",
-   "url": "https://www.steelhome.com/24793073 ",
+   "baslik": "【钢之家调查】本周冷轧板卷市场消费量增加0.69万吨至154.86万吨(11月13日-11月19日)",
+   "url": "https://www.steelhome.com/24797214 ",
+   "ek": ""
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "【钢之家调查】本周国内镀锌管产能利用率90.15%保持平稳（11月13日-11月19日）",
+   "url": "https://www.steelhome.com/24797176 ",
+   "ek": ""
+  },
+  {
+   "sebep": "tarihsiz_elendi",
+   "baslik": "钢之家：冷轧板卷一周策略报告(11月13日-11月20日)",
+   "url": "https://www.steelhome.com/24798322 ",
    "ek": ""
   },
   {
@@ -2823,18 +2841,6 @@
    "ek": "ayni olayin varyanti: *|ulke-hat|Hindistan|Galvaniz hatti (CGL)|Ilk urun; jindal india|fu|Hindistan|Galvaniz hatti (CGL); jindal india|hat|Galvaniz hatti (CGL)|Ilk urun; jindal india|ulke|Hindistan|Ilk urun"
   },
   {
-   "sebep": "tekrar",
-   "baslik": "New continuous galvanising line for Nucor Corporation",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPOUExQ0JxZkFDUjhoWXNaU1hoWTNPOE1lSGJrbWdOZEpYUDRGaHlMa0lrTF9BbVlQaHdCelRxNnZrYms3ZnNaUU5zejg0MEREcS1TZ2N6UlJhaEtoTXlaN1RabXJxaWdnMG54eEVkU1BrUjFkaXRfWnJ4eVF1c1YxLUtERl9GVF9BUEtHb3ZBTXluUQ?oc=5",
-   "ek": ""
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "Nucor produces first prime coil at new Berkeley galvanizing line",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNYjRCWmtBWVI4MEkzZ0NVVDZRVE5MVTVSTmI3UGotVFNoOURJN2tXMUhuMlUtRVBlcDF6Ymx5VTE5RVNaRnYzdXM3eDRtTjdkNGo1d2JIaUt0UDZ6U0g3Z2U4S3U4bGNVaW9KTGlnTm1vaXc2WUFENThzNnk4dkRDeEtqUEVSNDM3eFhfbVlYbUZoTERNNTlmXzYtOFRSYXBXR2tLbUVqaHZVZW44ZkpwaUhmMW9hMThfNmp3Tm9UOGYyM2Rq?oc=5",
-   "ek": "ayni olayin varyanti: nucor|hat|Galvaniz hatti (CGL)|Ilk urun"
-  },
-  {
    "sebep": "pencere_disi",
    "baslik": "Tenova advances electrical steel project in India",
    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOaXBMVzBGTDNldHl4ZVhjYnJ0SS1melljRll4RkpLbW8wNllFLXFDOWJrQmE3MTY0Zm0xNm5aUUcydDNGOGRMTW9VajJZd3R3eWdsVEJWQlRKNHdtNTQ2Y1U4U0VxWDZ5T3hrXzk3V1F4RE4xUHBVOG5pZUcwaGJBdUhZUGN6Z2wxNjdqMWZtX2NYNC1IbTRpdkNYRQ?oc=5",
@@ -2859,28 +2865,16 @@
    "ek": "ayni olayin varyanti: nucor|hat|Galvaniz hatti (CGL)|Ilk urun"
   },
   {
-   "sebep": "tekrar",
-   "baslik": "Nucor produces first prime coil at new Berkeley continuous galvanizing line",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTzgySW5JWklNMDZsZzhSME9TQk1yRHNvUDJ1cEIzUFoyLWFHSDdTOGlneVRCWXM5MGdfSWxtbW81Q3ZwMW9icGNPM1Q1QTZFSG9BZ0JnMGFibEh2aUlpODJNUjM2MWtmZmVPNXBNQVo2UXdmdldFcl9wVW1oTWNmSHFYdmdqcV9mNXZZdXRDUHYwTmRuMFNGbE11b1FRVjhWNFhiQ1B4eTI0ck9NMU1EMQ?oc=5",
-   "ek": "ayni olayin varyanti: nucor|hat|Galvaniz hatti (CGL)|Ilk urun"
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "Nucor produces first prime coil at new Berkeley galvanizing line",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNYjRCWmtBWVI4MEkzZ0NVVDZRVE5MVTVSTmI3UGotVFNoOURJN2tXMUhuMlUtRVBlcDF6Ymx5VTE5RVNaRnYzdXM3eDRtTjdkNGo1d2JIaUt0UDZ6U0g3Z2U4S3U4bGNVaW9KTGlnTm1vaXc2WUFENThzNnk4dkRDeEtqUEVSNDM3eFhfbVlYbUZoTERNNTlmXzYtOFRSYXBXR2tLbUVqaHZVZW44ZkpwaUhmMW9hMThfNmp3Tm9UOGYyM2Rq?oc=5",
-   "ek": "ayni olayin varyanti: nucor|hat|Galvaniz hatti (CGL)|Ilk urun"
-  },
-  {
-   "sebep": "tarihsiz_elendi",
+   "sebep": "pencere_disi",
    "baslik": "RRM starts up new cold-mill complex with Danieli technology",
    "url": "https://news.mesteel.com/rrm-starts-up-new-cold-mill-complex-with-danieli-technology/",
-   "ek": ""
+   "ek": "2026-02-12"
   },
   {
-   "sebep": "tarihsiz_elendi",
+   "sebep": "pencere_disi",
    "baslik": "Marcegaglia upgrades pickling line at Gazoldo degli Ippoliti stainless steel plant",
    "url": "https://news.mesteel.com/marcegaglia-upgrades-pickling-line-at-gazoldo-degli-ippoliti-stainless-steel-plant/",
-   "ek": ""
+   "ek": "2026-07-13"
   },
   {
    "sebep": "pencere_disi",
@@ -2932,8 +2926,26 @@
   },
   {
    "sebep": "tekrar",
+   "baslik": "KG Steel completes W38b PLTCM upgrade, targets output of over 2 million tons",
+   "url": "https://biz.heraldcorp.com/article/10943740",
+   "ek": ""
+  },
+  {
+   "sebep": "tekrar",
    "baslik": "AM/NS India Gujarat automotive steel complex nears full commissioning",
    "url": "https://www.constructionweekonline.in/business/am-ns-india-gujarat-automotive-steel-complex-nears-full-commissioning",
+   "ek": ""
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "AM/NS India Develops 2 Million Tonne Cold Rolling Facility at Hazira for Automotive Steel",
+   "url": "https://www.newsx.com/nx-news/am-ns-india-develops-2-million-tonne-cold-rolling-facility-at-hazira-for-automotive-steel-293633/",
+   "ek": ""
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "KG Steel completes W38b PLTCM upgrade, targets output of over 2 million tons",
+   "url": "https://biz.heraldcorp.com/article/10943740",
    "ek": ""
   },
   {
@@ -2962,12 +2974,6 @@
   },
   {
    "sebep": "tekrar",
-   "baslik": "[Nucor Produces First Prime Coil on New 500,000 t/yr Automotive Galvanizing Line in South Carolina]",
-   "url": "https://news.metal.com/newscontent/SY6YFKNHRRR5K4T7RXLOESSWCZISHTAFI3TDGAY-nucor-produces-first-prime-coil-on-new-500000-tyr-automotive-galvanizing-line-in-south-carolina",
-   "ek": "benzer baslik (gecmis 21 gun)"
-  },
-  {
-   "sebep": "tekrar",
    "baslik": "New continuous galvanising line for Nucor Corporation",
    "url": "https://www.steeltimesint.com/news/new-continuous-galvanising-line-for-nucor-corporation",
    "ek": ""
@@ -2980,15 +2986,21 @@
   },
   {
    "sebep": "tekrar",
+   "baslik": "Nucor produces first prime coil at new Berkeley galvanizing line",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/nucor-produces-first-prime-coil-at-new-berkeley-galvanizing-line-1488871.htm",
+   "ek": "ayni olayin varyanti: *|ulke-hat|Birlesik Krallik|Galvaniz hatti (CGL)|Ilk urun; nucor|fu|Birlesik Krallik|Galvaniz hatti (CGL); nucor|hat|Galvaniz hatti (CGL)|Ilk urun; nucor|ulke|Birlesik Krallik|Ilk urun; primetals|fu|Birlesik Krallik|Galvaniz hatti (CGL); primetals|hat|Galvaniz hatti (CGL)|Ilk urun; primetals|ulke|Birlesik Krallik|Ilk urun"
+  },
+  {
+   "sebep": "tekrar",
    "baslik": "New continuous galvanising line for Nucor Corporation",
    "url": "https://www.steeltimesint.com/news/new-continuous-galvanising-line-for-nucor-corporation",
    "ek": ""
   },
   {
    "sebep": "tekrar",
-   "baslik": "[Nucor Produces First Prime Coil on New 500,000 t/yr Automotive Galvanizing Line in South Carolina]",
-   "url": "https://news.metal.com/newscontent/SY6YFKNHRRR5K4T7RXLOESSWCZISHTAFI3TDGAY-nucor-produces-first-prime-coil-on-new-500000-tyr-automotive-galvanizing-line-in-south-carolina",
-   "ek": "benzer baslik (gecmis 21 gun)"
+   "baslik": "KG Steel completes W38b PLTCM upgrade, targets output of over 2 million tons",
+   "url": "https://biz.heraldcorp.com/article/10943740",
+   "ek": ""
   },
   {
    "sebep": "tekrar",
@@ -3004,6 +3016,24 @@
   },
   {
    "sebep": "tekrar",
+   "baslik": "AM/NS India Develops 2 Million Tonne Cold Rolling Facility at Hazira for Automotive Steel",
+   "url": "https://www.newsx.com/nx-news/am-ns-india-develops-2-million-tonne-cold-rolling-facility-at-hazira-for-automotive-steel-293633/",
+   "ek": ""
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "AM/NS India Gujarat automotive steel complex nears full commissioning",
+   "url": "https://www.constructionweekonline.in/business/am-ns-india-gujarat-automotive-steel-complex-nears-full-commissioning",
+   "ek": ""
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "AM/NS India Develops 2 Million Tonne Cold Rolling Facility at Hazira for Automotive Steel",
+   "url": "https://www.newsx.com/nx-news/am-ns-india-develops-2-million-tonne-cold-rolling-facility-at-hazira-for-automotive-steel-293633/",
+   "ek": ""
+  },
+  {
+   "sebep": "tekrar",
    "baslik": "AM/NS India Gujarat automotive steel complex nears full commissioning",
    "url": "https://www.constructionweekonline.in/business/am-ns-india-gujarat-automotive-steel-complex-nears-full-commissioning",
    "ek": ""
@@ -3021,28 +3051,16 @@
    "ek": "benzer baslik (gecmis 21 gun)"
   },
   {
-   "sebep": "tekrar",
-   "baslik": "AM/NS India Gujarat automotive steel complex nears full commissioning",
-   "url": "https://www.constructionweekonline.in/business/am-ns-india-gujarat-automotive-steel-complex-nears-full-commissioning",
-   "ek": ""
+   "sebep": "pencere_disi",
+   "baslik": "Jindal (India) commissions revamped galvanising line at Bengal plant",
+   "url": "https://www.msn.com/en-in/news/other/jindal-india-commissions-revamped-galvanising-line-at-bengal-plant/ar-AA2gbdJ3",
+   "ek": "2026-10-27"
   },
   {
-   "sebep": "tekrar",
-   "baslik": "AM/NS India Gujarat automotive steel complex nears full commissioning",
-   "url": "https://www.constructionweekonline.in/business/am-ns-india-gujarat-automotive-steel-complex-nears-full-commissioning",
-   "ek": ""
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "New continuous galvanising line for Nucor Corporation",
-   "url": "https://www.steeltimesint.com/news/new-continuous-galvanising-line-for-nucor-corporation",
-   "ek": ""
-  },
-  {
-   "sebep": "tekrar",
-   "baslik": "[Nucor Produces First Prime Coil on New 500,000 t/yr Automotive Galvanizing Line in South Carolina]",
-   "url": "https://news.metal.com/newscontent/SY6YFKNHRRR5K4T7RXLOESSWCZISHTAFI3TDGAY-nucor-produces-first-prime-coil-on-new-500000-tyr-automotive-galvanizing-line-in-south-carolina",
-   "ek": "benzer baslik (gecmis 21 gun)"
+   "sebep": "pencere_disi",
+   "baslik": "Jindal India Commissions Revamped Galvanising Line, Boosts Capacity",
+   "url": "https://money.rediff.com/news/market/jindal-india-commissions-revamped-galvanising-line-boosts-capacity/56985120261027",
+   "ek": "2026-10-27"
   },
   {
    "sebep": "tekrar",
@@ -3058,8 +3076,14 @@
   },
   {
    "sebep": "tekrar",
-   "baslik": "AM/NS India Gujarat automotive steel complex nears full commissioning",
-   "url": "https://www.constructionweekonline.in/business/am-ns-india-gujarat-automotive-steel-complex-nears-full-commissioning",
+   "baslik": "AM/NS India Develops 2 Million Tonne Cold Rolling Facility at Hazira for Automotive Steel",
+   "url": "https://www.newsx.com/nx-news/am-ns-india-develops-2-million-tonne-cold-rolling-facility-at-hazira-for-automotive-steel-293633/",
+   "ek": ""
+  },
+  {
+   "sebep": "tekrar",
+   "baslik": "AM/NS India Develops 2 Million Tonne Cold Rolling Facility at Hazira for Automotive Steel",
+   "url": "https://www.newsx.com/nx-news/am-ns-india-develops-2-million-tonne-cold-rolling-facility-at-hazira-for-automotive-steel-293633/",
    "ek": ""
   },
   {
@@ -3070,14 +3094,20 @@
   },
   {
    "sebep": "tekrar",
+   "baslik": "AM/NS India Develops 2 Million Tonne Cold Rolling Facility at Hazira for Automotive Steel",
+   "url": "https://www.newsx.com/nx-news/am-ns-india-develops-2-million-tonne-cold-rolling-facility-at-hazira-for-automotive-steel-293633/",
+   "ek": ""
+  },
+  {
+   "sebep": "tekrar",
    "baslik": "AM/NS India Gujarat automotive steel complex nears full commissioning",
    "url": "https://www.constructionweekonline.in/business/am-ns-india-gujarat-automotive-steel-complex-nears-full-commissioning",
    "ek": ""
   },
   {
    "sebep": "tekrar",
-   "baslik": "Dongkuk CM develops color-coated steel sheet to prevent condensation in AI data centers",
-   "url": "https://www.mt.co.kr/en/industry/2026/11/12/2026111209050897200",
+   "baslik": "AM/NS India Develops 2 Million Tonne Cold Rolling Facility at Hazira for Automotive Steel",
+   "url": "https://www.newsx.com/nx-news/am-ns-india-develops-2-million-tonne-cold-rolling-facility-at-hazira-for-automotive-steel-293633/",
    "ek": ""
   }
  ]

@@ -1,6 +1,83 @@
 {
  "rows": [
   {
+   "tarih": "2026-11-19",
+   "firma": "KG Steel",
+   "ulke": "",
+   "hat": "Tandem soguk hadde (TCM)",
+   "asama": "Modernizasyon",
+   "tedarikci": "",
+   "kapasite": "2 million tons",
+   "tutar": "",
+   "baslik": "KG Steel completes W38b PLTCM upgrade, targets output of over 2 million tons",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_hat00",
+   "url": "https://biz.heraldcorp.com/article/10943740",
+   "tarih_kaynagi": "rss",
+   "lead": "KG Steel said Thursday it has completed a rationalization project for the pickle line tandem cold mill (PLTCM) at its Dangjin factory, investing about 38 billio ...",
+   "eksik": [
+    "ulke"
+   ],
+   "anahtar": "4725c00cb3176260",
+   "kategori": "Hat",
+   "olaylar": [
+    "kg steel|hat|Tandem soguk hadde (TCM)|Modernizasyon"
+   ],
+   "puan": 59.6
+  },
+  {
+   "tarih": "2026-11-20",
+   "firma": "Bokaro",
+   "ulke": "",
+   "hat": "Elektrik celigi hatti",
+   "asama": "Teknoloji",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "SAIL's Bokaro steel mill develops NGO grade special steel for the first time",
+   "kaynak": "SteelOrbis",
+   "kaynak_id": "steelorbis",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/sails-bokaro-steel-mill-develops-ngo-grade-special-steel-for-the-first-time-1492322.htm",
+   "tarih_kaynagi": "json-ld",
+   "lead": "English Türkçe Italiano 中文 | Login Menu Marketplace Global Marketplace Access to the listings of different steel products and bids without intermediaries and commissions. Steel Markets Steel Prices Daily Steel Prices Weekly Steel Prices Steel Price Analysis Tool Orbis Steel Index Futures Prices Steel Price Analyses Scrap & Raw Materials Tube and Pipe Flats and Slab Longs and Billet Products Scrap Iron ore Billet-Slab",
+   "eksik": [
+    "ulke"
+   ],
+   "anahtar": "4de62a3615924bb5",
+   "kategori": "Hat",
+   "olaylar": [
+    "bokaro|hat|Elektrik celigi hatti|Teknoloji"
+   ],
+   "puan": 53.0
+  },
+  {
+   "tarih": "2026-11-19",
+   "firma": "Hazira",
+   "ulke": "Hindistan",
+   "hat": "Soguk hadde",
+   "asama": "Belirsiz",
+   "tedarikci": "",
+   "kapasite": "2 Million Tonne",
+   "tutar": "",
+   "baslik": "AM/NS India Develops 2 Million Tonne Cold Rolling Facility at Hazira for Automotive Steel",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_hat00",
+   "url": "https://www.newsx.com/nx-news/am-ns-india-develops-2-million-tonne-cold-rolling-facility-at-hazira-for-automotive-steel-293633/",
+   "tarih_kaynagi": "rss",
+   "lead": "ArcelorMittal Nippon Steel India (AM/NS India), a joint venture between ArcelorMittal and Nippon Steel, today announced that its integrated Automotive Steel Complex ...",
+   "eksik": [
+    "asama"
+   ],
+   "anahtar": "d8b7fc40d787a676",
+   "kategori": "Hat",
+   "olaylar": [
+    "hazira|fu|Hindistan|Soguk hadde",
+    "hazira|hat|Soguk hadde|Belirsiz",
+    "hazira|ulke|Hindistan|Belirsiz"
+   ],
+   "puan": 43.6
+  },
+  {
    "tarih": "2026-11-11",
    "firma": "JTL Industries Advances",
    "ulke": "",
@@ -24,7 +101,7 @@
    "olaylar": [
     "jtl industries advances|hat|Asitleme hatti|Belirsiz"
    ],
-   "puan": 7.8
+   "puan": 7.4
   },
   {
    "anahtar": "99bcca62027e43fb",
@@ -79,97 +156,19 @@
    "tutar": "",
    "ulke": "",
    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPeFBJT3ZoQXFvOHBfazd0RkItSjN5dURzc2tkS0ozQUJkakRLNVh3aTloTjJjSjJVMVRXYTkwWUhpcDRLMWprd1d4LU02TFM2Nk1NenFPTXNGRDkyY0RkSjc2ZnBZT2FBS1UybWxUSklYMnhWT3ZhQ1JNc2hIY3JVY0JDR3A1RXFkT3J2NENmVHh3UQ?oc=5"
-  },
-  {
-   "anahtar": "8f5c37cd5e281040",
-   "asama": "Modernizasyon",
-   "baslik": "Pickling Lines Market To 2035: Automotive Lightweighting and Green Upgrades Fuel Expansion",
-   "eksik": [
-    "ulke"
-   ],
-   "firma": "Pickling Lines Market",
-   "hat": "Asitleme hatti",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "IndexBox",
-   "kaynak_id": "gq_hat01",
-   "lead": "Pickling Lines Market To 2035: Automotive Lightweighting and Green Upgrades Fuel Expansion - News and Statistics &nbsp;&nbsp; IndexBox",
-   "olaylar": [
-    "pickling lines market|hat|Asitleme hatti|Modernizasyon"
-   ],
-   "puan": 49.6,
-   "tarih": "2026-11-13",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "",
-   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPeGRLRktNMk9ETmFOU256UnJ4V1pVQjdVc2d2OVdISFkzTnVReUNDd1pSZGxRVy1QWEQ3d3BNQjBONWloY0lSV2p3Wk5rSUYxdkhQVjBjVnI1cFBYNzJFQnlTWG1nVEdVY1ZnQVR6Qm4zY24zX0VUMFBuWF8wci1yV0V6YWhJb1AtbWlTSVFSYmpLYktFMWt1aDAxNHl2bDd5NzljWkZrelJIc0RXTG9kd0c0d1dPM0YxcW1CaWVmaVNkd09DZHdDc0ZkTUZOR3BVWHNvSQ?oc=5"
-  },
-  {
-   "anahtar": "a1e849bc52d2aca2",
-   "asama": "Sozlesme",
-   "baslik": "Jastrzębska Spółka Węglowa secures loan from ARP for restructuring",
-   "eksik": [
-    "ulke"
-   ],
-   "firma": "Jastrzębska Spółka Węglowa",
-   "hat": "Asit rejenerasyonu (ARP)",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "SteelOrbis",
-   "kaynak_id": "steelorbis",
-   "lead": "English Türkçe Italiano 中文 | Login Menu Marketplace Global Marketplace Access to the listings of different steel products and bids without intermediaries and commissions. Steel Markets Steel Prices Daily Steel Prices Weekly Steel Prices Steel Price Analysis Tool Orbis Steel Index Futures Prices Steel Price Analyses Scrap & Raw Materials Tube and Pipe Flats and Slab Longs and Billet Products Scrap Iron ore Billet-Slab",
-   "olaylar": [
-    "jastrzębska społka węglowa|hat|Asit rejenerasyonu (ARP)|Sozlesme"
-   ],
-   "puan": 63.0,
-   "tarih": "2026-11-11",
-   "tarih_kaynagi": "json-ld",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/jastrzbska-spka-wglowa-secures-loan-from-arp-for-restructuring-1490056.htm"
-  },
-  {
-   "anahtar": "90e30cb4756c40e2",
-   "asama": "Ilk urun",
-   "baslik": "【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】",
-   "eksik": [
-    "firma",
-    "ulke",
-    "hat",
-    "tarih?"
-   ],
-   "firma": "",
-   "hat": "Belirsiz",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "SMM (Shanghai Metals)",
-   "kaynak_id": "smm",
-   "lead": "",
-   "olaylar": [
-    "|hat|Belirsiz|Ilk urun"
-   ],
-   "puan": 47.0,
-   "tarih": "2026-11-05",
-   "tarih_kaynagi": "liste",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "",
-   "url": "https://news.metal.com/en/newscontent/104207357-纽柯在南卡罗来纳州新建50万吨年汽车板镀锌线产出首卷优质卷板"
   }
  ],
  "stats": {
   "kaynak": 315,
-  "erisilemeyen": 72,
-  "ham": 3405,
-  "on_eleme_gecti": 315,
-  "makale_acildi": 222,
+  "erisilemeyen": 79,
+  "ham": 3470,
+  "on_eleme_gecti": 335,
+  "makale_acildi": 231,
   "tarihsiz_elendi": 100,
-  "pencere_disi": 172,
-  "kapsam_disi": 3090,
+  "pencere_disi": 177,
+  "kapsam_disi": 3147,
   "tekrar": 41,
-  "kabul": 2,
+  "kabul": 5,
   "gnews_tarih": 0
  },
  "unreachable": [
@@ -186,12 +185,40 @@
    "HTTP 403"
   ],
   [
+   "SteelGuru",
+   "URLError: <urlopen error timed out>"
+  ],
+  [
    "BigMint (SteelMint)",
    "HTTP 403"
   ],
   [
    "Google News",
    "HTTP 429"
+  ],
+  [
+   "Google News",
+   "HTTP 429"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
   ],
   [
    "Google News",
@@ -779,7 +806,7 @@
   "bgtek_jc": "arama",
   "bgtek_danieli": "arama"
  },
- "today": "2026-11-19",
+ "today": "2026-11-20",
  "host_saglik": {
   "www.bing.com": {
    "istek": 112,
@@ -787,7 +814,7 @@
    "sogutmada": false
   },
   "news.google.com": {
-   "istek": 48,
+   "istek": 40,
    "hiz_siniri": 2,
    "sogutmada": true
   },
@@ -799,15 +826,39 @@
   "new.abb.com": {
    "istek": 3,
    "hiz_siniri": 2,
-   "sogutmada": true
+   "sogutmada": false
   },
   "www.cognex.com": {
    "istek": 2,
    "hiz_siniri": 2,
-   "sogutmada": true
+   "sogutmada": false
   }
  },
  "tech_pool": [
+  {
+   "anahtar": "tech:4de62a3615924bb5",
+   "tarih": "2026-11-20",
+   "baslik": "SAIL's Bokaro steel mill develops NGO grade special steel for the first time",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/sails-bokaro-steel-mill-develops-ngo-grade-special-steel-for-the-first-time-1492322.htm",
+   "kaynak": "SteelOrbis",
+   "hat": "Elektrik celigi hatti"
+  },
+  {
+   "anahtar": "tech:4725c00cb3176260",
+   "tarih": "2026-11-19",
+   "baslik": "KG Steel completes W38b PLTCM upgrade, targets output of over 2 million tons",
+   "url": "https://biz.heraldcorp.com/article/10943740",
+   "kaynak": "Bing News",
+   "hat": "Tandem soguk hadde (TCM)"
+  },
+  {
+   "anahtar": "tech:d8b7fc40d787a676",
+   "tarih": "2026-11-19",
+   "baslik": "AM/NS India Develops 2 Million Tonne Cold Rolling Facility at Hazira for Automotive Steel",
+   "url": "https://www.newsx.com/nx-news/am-ns-india-develops-2-million-tonne-cold-rolling-facility-at-hazira-for-automotive-steel-293633/",
+   "kaynak": "Bing News",
+   "hat": "Soguk hadde"
+  },
   {
    "anahtar": "tech:45e7f994631a31a2",
    "tarih": "2026-11-09",
@@ -842,10 +893,19 @@
   }
  ],
  "kaynak_katki": {
+  "SteelOrbis": 1,
   "Google News": 1,
-  "Bing News": 1
+  "Bing News": 3
  },
  "piyasa_pool": [
+  {
+   "anahtar": "piyasa:988a622523b3fdaa",
+   "tarih": "2026-11-20",
+   "baslik": "[SMM Analysis] Ex-China Silicon Steel: Growth Anchored in India, High-End GO and Ultra-Thin Non-Oriented Maintain Tight Balance",
+   "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQNDNsMENQak9KdGhNbGpYX0JwOENkWHJIZXJPMzJWM2VGWlp0X0ZlTFVLdElPMVlkd1R0TkNmNTgxSVJTOHBfUXlWX0hrUDZDVnVHWFBlV0dXSnliaXlnWlo0bF9EUXVLNTNzbGVHMmY0MmNmQzl6OXhla1k3d2draUxUNWNKWktORzBGOEtfbnlqZFNLaXZuQVU4Rld5NFFjS0NQOEVTc1pDbktNNENGamk4ZXpVNERfR2xIZUR1emU4YkRfNWhmZ056SEhHb3dsb1JqcWh0Z3p0TFF3aTc5S1dsMEFIaE5wTXJnUzhiZWlFbmlVS3RCYlloVnluLTVTdlJ0RDRuQzJ5dGNlTmEwRmVibHFTQS16QnhEWnYxVngtSmx4?oc=5",
+   "kaynak": "Shanghai Metals Market",
+   "lead": "[SMM Analysis] Ex-China Silicon Steel: Growth Anchored in India, High-End GO and Ultra-Thin Non-Oriented Maintain Tight Balance &nbsp;&nbsp; Shanghai Metals Market"
+  },
   {
    "anahtar": "piyasa:2b94dda1b77028b9",
    "tarih": "2026-11-19",
@@ -861,22 +921,6 @@
    "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/vietnam-considers-review-of-coated-steel-anti-dumping-1126/",
    "kaynak": "Kallanish",
    "lead": "Vietnam’s Trade Remedies Authority (TRAV) has accepted a valid application to review the product scope of..."
-  },
-  {
-   "anahtar": "piyasa:c10a7b449dba6ae7",
-   "tarih": "2026-11-17",
-   "baslik": "EU's India CRC duty approach has 'systemic' ramifications",
-   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/eu-imposes-95percent-duty-on-indian-cold-rolled-steel-1126/",
-   "kaynak": "Kallanish",
-   "lead": "The European Commission’s novel approach to its anti-dumping finding on Indian cold rolled coil could influence..."
-  },
-  {
-   "anahtar": "piyasa:4bcef1cdf55e9355",
-   "tarih": "2026-11-17",
-   "baslik": "Brazil's flat steel exports rebound in October",
-   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/brazils-flat-steel-exports-recover-in-october-1126/",
-   "kaynak": "Kallanish",
-   "lead": "Brazil’s flat steel shipments have risen in September, while imports remained elevated across most product categories, ..."
   },
   {
    "anahtar": "piyasa:b71d689587b26436",
@@ -903,14 +947,6 @@
    "lead": "US announces preliminary dumping margins on tinplate imports from Türkiye and Taiwan &nbsp;&nbsp; SteelRadar"
   },
   {
-   "anahtar": "piyasa:5f6c539aad6de578",
-   "tarih": "2026-11-11",
-   "baslik": "Grain-Oriented Electrical Steel Market Gains Momentum as JFE",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPaThwOTBTWHZYX3J6YVJ1ekwwV2Zjc2ZPcjhyVFhnc1RNYkx2bk5hYkF3TElfVWl2WkdWT2VrRDdPRWdyN2gwTzNZT19kbm1zVXlUMVF1d1ppYmthUFZTZmkzV2RmUDBISUg4VGJfMk9lV0hSZnlxRllPQWhlUzIzMGkwYThzaW1rSldpLVVsSW82Y1lxMzBuV29DNG8?oc=5",
-   "kaynak": "openPR.com",
-   "lead": "Grain-Oriented Electrical Steel Market Gains Momentum as JFE &nbsp;&nbsp; openPR.com"
-  },
-  {
    "anahtar": "piyasa:c63a7f950e471960",
    "tarih": "2026-11-08",
    "baslik": "AI Is Queued Behind an Electrical Steel Transformer Shortage",
@@ -920,14 +956,14 @@
   }
  ],
  "window": [
-  "2026-10-29",
-  "2026-11-19"
+  "2026-10-30",
+  "2026-11-20"
  ],
- "bulunan_kullanilan": 5,
- "bulunan_havuz": 8,
+ "bulunan_kullanilan": 2,
+ "bulunan_havuz": 11,
  "rezerv_kullanilan": 0,
  "rezerv_havuz": 72,
  "period": "2026-W47",
- "generated": "2026-11-19 11:46 UTC",
+ "generated": "2026-11-20 11:53 UTC",
  "version": "3.0.0"
 }

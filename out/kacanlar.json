@@ -1,10 +1,10 @@
 {
  "donem": "2026-W47",
  "pencere": [
-  "2026-10-29",
-  "2026-11-19"
+  "2026-10-30",
+  "2026-11-20"
  ],
- "uretim": "2026-11-19 11:50 UTC",
+ "uretim": "2026-11-20 11:53 UTC",
  "kaynaklar": {
   "steeltimesint": {
    "publisher": "Steel Times International",
@@ -22,8 +22,20 @@
    "hata": "HTTP 404"
   }
  },
- "adet": 0,
- "kacanlar": [],
+ "adet": 1,
+ "kacanlar": [
+  {
+   "tarih": "2026-11-20",
+   "tarih_kaynagi": "json-ld",
+   "baslik": "SAIL's Bokaro steel mill develops NGO grade special steel for the first time",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/sails-bokaro-steel-mill-develops-ngo-grade-special-steel-for-the-first-time-1492322.htm",
+   "kaynak": "SteelOrbis",
+   "katman": "Hat",
+   "hat": "Elektrik celigi hatti",
+   "asama": "Teknoloji",
+   "anahtar": "4de62a3615924bb5"
+  }
+ ],
  "dogrulanamayan": [],
  "acildi_elendi": [
   {
@@ -72,7 +84,7 @@
    "sebep": "pencere disi (2025-12-02)"
   }
  ],
- "kapiyi_gecen": 9,
+ "kapiyi_gecen": 10,
  "sitemap_adayi": 800,
- "elenen": 791
+ "elenen": 790
 }

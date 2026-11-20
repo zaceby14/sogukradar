@@ -1,6 +1,83 @@
 {
  "bulunan": [
   {
+   "anahtar": "4de62a3615924bb5",
+   "asama": "Teknoloji",
+   "baslik": "SAIL's Bokaro steel mill develops NGO grade special steel for the first time",
+   "eksik": [
+    "ulke"
+   ],
+   "firma": "Bokaro",
+   "hat": "Elektrik celigi hatti",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "SteelOrbis",
+   "kaynak_id": "steelorbis",
+   "lead": "English Türkçe Italiano 中文 | Login Menu Marketplace Global Marketplace Access to the listings of different steel products and bids without intermediaries and commissions. Steel Markets Steel Prices Daily Steel Prices Weekly Steel Prices Steel Price Analysis Tool Orbis Steel Index Futures Prices Steel Price Analyses Scrap & Raw Materials Tube and Pipe Flats and Slab Longs and Billet Products Scrap Iron ore Billet-Slab",
+   "olaylar": [
+    "bokaro|hat|Elektrik celigi hatti|Teknoloji"
+   ],
+   "puan": 53.0,
+   "tarih": "2026-11-20",
+   "tarih_kaynagi": "json-ld",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/sails-bokaro-steel-mill-develops-ngo-grade-special-steel-for-the-first-time-1492322.htm"
+  },
+  {
+   "anahtar": "4725c00cb3176260",
+   "asama": "Modernizasyon",
+   "baslik": "KG Steel completes W38b PLTCM upgrade, targets output of over 2 million tons",
+   "eksik": [
+    "ulke"
+   ],
+   "firma": "KG Steel",
+   "hat": "Tandem soguk hadde (TCM)",
+   "kapasite": "2 million tons",
+   "kategori": "Hat",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_hat00",
+   "lead": "KG Steel said Thursday it has completed a rationalization project for the pickle line tandem cold mill (PLTCM) at its Dangjin factory, investing about 38 billio ...",
+   "olaylar": [
+    "kg steel|hat|Tandem soguk hadde (TCM)|Modernizasyon"
+   ],
+   "puan": 59.6,
+   "tarih": "2026-11-19",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://biz.heraldcorp.com/article/10943740"
+  },
+  {
+   "anahtar": "d8b7fc40d787a676",
+   "asama": "Belirsiz",
+   "baslik": "AM/NS India Develops 2 Million Tonne Cold Rolling Facility at Hazira for Automotive Steel",
+   "eksik": [
+    "asama"
+   ],
+   "firma": "Hazira",
+   "hat": "Soguk hadde",
+   "kapasite": "2 Million Tonne",
+   "kategori": "Hat",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_hat00",
+   "lead": "ArcelorMittal Nippon Steel India (AM/NS India), a joint venture between ArcelorMittal and Nippon Steel, today announced that its integrated Automotive Steel Complex ...",
+   "olaylar": [
+    "hazira|fu|Hindistan|Soguk hadde",
+    "hazira|hat|Soguk hadde|Belirsiz",
+    "hazira|ulke|Hindistan|Belirsiz"
+   ],
+   "puan": 43.6,
+   "tarih": "2026-11-19",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Hindistan",
+   "url": "https://www.newsx.com/nx-news/am-ns-india-develops-2-million-tonne-cold-rolling-facility-at-hazira-for-automotive-steel-293633/"
+  },
+  {
    "anahtar": "99bcca62027e43fb",
    "asama": "Belirsiz",
    "baslik": "Açılışından önce, Nam Kim Phu My Çelik Sac Fabrikası, piyasanın çeşitli malzeme ihtiyaçlarını karşılamayı hedefliyor.",
@@ -423,6 +500,7 @@
  "gb_form_sayac": {
   "0da1cda44c+": 1,
   "0da1cda44c-": 1,
+  "297e6c747c+": 2,
   "345c4c6b22+": 1,
   "3b181632bc+": 3,
   "3b181632bc-": 3,
@@ -467,6 +545,8 @@
  },
  "gb_oy": {
   "0da1cda44c|form:16.11.2026 10:01:52": "+",
+  "297e6c747c|form:20.11.2026 09:43:38": "+",
+  "297e6c747c|form:20.11.2026 09:44:01": "+",
   "345c4c6b22|form:16.11.2026 10:01:52": "+",
   "3ffa8c22f8|form:03.11.2026 12:07:53": "-",
   "543eede119|form:09.11.2026 11:09:06": "+",
@@ -2860,6 +2940,24 @@
     "tekrar": 41
    },
    "uretim": "2026-11-19 11:46 UTC"
+  },
+  {
+   "donem": "2026-W47",
+   "satir": 6,
+   "stats": {
+    "erisilemeyen": 79,
+    "gnews_tarih": 0,
+    "ham": 3470,
+    "kabul": 5,
+    "kapsam_disi": 3147,
+    "kaynak": 315,
+    "makale_acildi": 231,
+    "on_eleme_gecti": 335,
+    "pencere_disi": 177,
+    "tarihsiz_elendi": 100,
+    "tekrar": 41
+   },
+   "uretim": "2026-11-20 11:53 UTC"
   }
  ],
  "piyasa_rezerv": [
@@ -2974,14 +3072,6 @@
    "lead": "Flat Steel Gets Cheaper as Aisha Steel Slashes Prices &nbsp;&nbsp; ProPakistani",
    "tarih": "2026-11-01",
    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZWxxdzhEQ0VkM1djSVdGenZCQkJXa1ZsaXpBVTk5dER1cDhDMGpJVGpNemhESHBOWkhRWDZMNk9XajRPZVZrSFQ4NHljYnVkcjBaOHhwblJSeGF1cThubnRqWVRwcjNsXzk5VmktUzVFOWxfcnRrREdGa1JPMFNXT1JiWFlaU0g3LXfSAYoBQVVfeXFMUGVscXc4RENFZDNXY0lXRnp2QkJCV2tWbGl6QVU5OXREdXA4QzBqSVRqTXpoREhwTlpIUVg2TDZPV2o0T2VWa0hUODR5Y2J1ZHIwWjh4cG5SUnhhdXE4bm50allUcHIzbF85OVZpLVM1RTlsX3J0a0RHRmtSTzBTV09SYlhZWlNINy13?oc=5"
-  },
-  {
-   "anahtar": "piyasa:2d22b9537430156d",
-   "baslik": "Grain-Oriented Electrical Steel Market to Reach US$ 15.60",
-   "kaynak": "openPR.com",
-   "lead": "Grain-Oriented Electrical Steel Market to Reach US$ 15.60 &nbsp;&nbsp; openPR.com",
-   "tarih": "2026-10-29",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaTNFVF9ab1pkX0xRaVdYOEZMMUdrYTBpOVU4ckdpNHVTTFkwWExPeWlYNzJCSWRaeVpUN2s0cllFbUczT0U2WHowdFZ6VlNKZ1ZEWWVDNXhGU25ScklPWFE2NTZDVmZKZG93eGUzQ0p4VG9mS0tuMWRpVkFhd0RPR1RCeUNDZkRqV2NuX25tWWxKWGNCcE9R?oc=5"
   }
  ],
  "piyasa_seen": {
@@ -5033,6 +5123,30 @@
  "source_health": {},
  "tech_rezerv": [
   {
+   "anahtar": "tech:4de62a3615924bb5",
+   "baslik": "SAIL's Bokaro steel mill develops NGO grade special steel for the first time",
+   "hat": "Elektrik celigi hatti",
+   "kaynak": "SteelOrbis",
+   "tarih": "2026-11-20",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/sails-bokaro-steel-mill-develops-ngo-grade-special-steel-for-the-first-time-1492322.htm"
+  },
+  {
+   "anahtar": "tech:4725c00cb3176260",
+   "baslik": "KG Steel completes W38b PLTCM upgrade, targets output of over 2 million tons",
+   "hat": "Tandem soguk hadde (TCM)",
+   "kaynak": "Bing News",
+   "tarih": "2026-11-19",
+   "url": "https://biz.heraldcorp.com/article/10943740"
+  },
+  {
+   "anahtar": "tech:d8b7fc40d787a676",
+   "baslik": "AM/NS India Develops 2 Million Tonne Cold Rolling Facility at Hazira for Automotive Steel",
+   "hat": "Soguk hadde",
+   "kaynak": "Bing News",
+   "tarih": "2026-11-19",
+   "url": "https://www.newsx.com/nx-news/am-ns-india-develops-2-million-tonne-cold-rolling-facility-at-hazira-for-automotive-steel-293633/"
+  },
+  {
    "anahtar": "tech:6f2e82975589a318",
    "baslik": "Growth in the Hot-dip Galvanized Steel Market Driven by Increased Investment and Innovation",
    "hat": "Galvaniz hatti (CGL)",
@@ -5291,7 +5405,7 @@
   "asama:Sozlesme": 1,
   "asama:Teknoloji": 1,
   "bolum:haber": 5,
-  "bolum:piyasa": 1,
+  "bolum:piyasa": 3,
   "bolum:teknoloji": -2,
   "hat:Asit rejenerasyonu (ARP)": 1,
   "hat:Boyama hatti (CCL)": 1,
@@ -5303,15 +5417,17 @@
   "kaynak:Andritz Metals": 2,
   "kaynak:Bing News": 1,
   "kaynak:Clecim": 1,
-  "kaynak:Kallanish": 1,
+  "kaynak:Kallanish": 3,
   "kaynak:Rediff MoneyWiz": -1,
   "kaynak:SMS group": 1,
   "kaynak:SteelOrbis": 1,
   "konu:Dongkuk CM develops color-coated steel sheet to prevent condensation in AI data centers": -1,
   "konu:Primetals Technologies to modernize KG Steel's Dangjin cold mill with AI-driven automation upgrade": -1,
   "konu:fiyat": 1,
+  "konu:koruma": 2,
   "ulke:ABD": 2,
   "ulke:Hindistan": -1,
+  "urun:kaplamali": 2,
   "urun:soguk hadde": 1
  },
  "version": "3.0.0"

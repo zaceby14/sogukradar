@@ -2,6 +2,48 @@
  "donem": "2026-W47",
  "duzelt": [
   {
+   "anahtar": "4725c00cb3176260",
+   "baslik": "KG Steel completes W38b PLTCM upgrade, targets output of over 2 million tons",
+   "url": "https://biz.heraldcorp.com/article/10943740",
+   "eksik": [
+    "ulke"
+   ],
+   "mevcut": {
+    "firma": "KG Steel",
+    "ulke": "",
+    "hat": "Tandem soguk hadde (TCM)",
+    "asama": "Modernizasyon"
+   }
+  },
+  {
+   "anahtar": "4de62a3615924bb5",
+   "baslik": "SAIL's Bokaro steel mill develops NGO grade special steel for the first time",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/sails-bokaro-steel-mill-develops-ngo-grade-special-steel-for-the-first-time-1492322.htm",
+   "eksik": [
+    "ulke"
+   ],
+   "mevcut": {
+    "firma": "Bokaro",
+    "ulke": "",
+    "hat": "Elektrik celigi hatti",
+    "asama": "Teknoloji"
+   }
+  },
+  {
+   "anahtar": "d8b7fc40d787a676",
+   "baslik": "AM/NS India Develops 2 Million Tonne Cold Rolling Facility at Hazira for Automotive Steel",
+   "url": "https://www.newsx.com/nx-news/am-ns-india-develops-2-million-tonne-cold-rolling-facility-at-hazira-for-automotive-steel-293633/",
+   "eksik": [
+    "asama"
+   ],
+   "mevcut": {
+    "firma": "Hazira",
+    "ulke": "Hindistan",
+    "hat": "Soguk hadde",
+    "asama": "Belirsiz"
+   }
+  },
+  {
    "anahtar": "f4b0b6572835e0a6",
    "baslik": "JTL Industries Advances Maharashtra Expansion with Successful Pickling Line Trial and GP Line Testing",
    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQlhUQkFxZ0p4LXQxYlFPWWY3bUozMGR4UEFqQ2NDVUN3bHdfVndpVVduV1VQQmxvblVVUWhJd0JxYndxSlhTY21TOURGR2I3TzVTMUxvYWJyOUZXaXAwajRaTHgwbVlBaWJxQ2JpUG0zbGNTdFhfT1B4Tk5KUUJjYkJxZEFvcEM5TkF4V3diQ3E0TG5iaURlRlBIeURwWnBnTHNmQlZnNmIzRlB3Vk5JQzFaVkp5RFR6Z1g5Qm5KN2N1YjNUakhsLXRhTVBYcHRO?oc=5",
@@ -45,86 +87,65 @@
     "hat": "Galvaniz hatti (CGL)",
     "asama": "Belirsiz"
    }
-  },
-  {
-   "anahtar": "8f5c37cd5e281040",
-   "baslik": "Pickling Lines Market To 2035: Automotive Lightweighting and Green Upgrades Fuel Expansion",
-   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPeGRLRktNMk9ETmFOU256UnJ4V1pVQjdVc2d2OVdISFkzTnVReUNDd1pSZGxRVy1QWEQ3d3BNQjBONWloY0lSV2p3Wk5rSUYxdkhQVjBjVnI1cFBYNzJFQnlTWG1nVEdVY1ZnQVR6Qm4zY24zX0VUMFBuWF8wci1yV0V6YWhJb1AtbWlTSVFSYmpLYktFMWt1aDAxNHl2bDd5NzljWkZrelJIc0RXTG9kd0c0d1dPM0YxcW1CaWVmaVNkd09DZHdDc0ZkTUZOR3BVWHNvSQ?oc=5",
-   "eksik": [
-    "ulke"
-   ],
-   "mevcut": {
-    "firma": "Pickling Lines Market",
-    "ulke": "",
-    "hat": "Asitleme hatti",
-    "asama": "Modernizasyon"
-   }
-  },
-  {
-   "anahtar": "a1e849bc52d2aca2",
-   "baslik": "Jastrzębska Spółka Węglowa secures loan from ARP for restructuring",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/jastrzbska-spka-wglowa-secures-loan-from-arp-for-restructuring-1490056.htm",
-   "eksik": [
-    "ulke"
-   ],
-   "mevcut": {
-    "firma": "Jastrzębska Spółka Węglowa",
-    "ulke": "",
-    "hat": "Asit rejenerasyonu (ARP)",
-    "asama": "Sozlesme"
-   }
-  },
-  {
-   "anahtar": "90e30cb4756c40e2",
-   "baslik": "【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】",
-   "url": "https://news.metal.com/en/newscontent/104207357-纽柯在南卡罗来纳州新建50万吨年汽车板镀锌线产出首卷优质卷板",
-   "eksik": [
-    "firma",
-    "ulke",
-    "hat",
-    "tarih?"
-   ],
-   "mevcut": {
-    "firma": "",
-    "ulke": "",
-    "hat": "Belirsiz",
-    "asama": "Ilk urun"
-   }
   }
  ],
  "cumle_yaz": [
   {
-   "anahtar": "8f5c37cd5e281040",
-   "tarih": "2026-11-13",
-   "firma": "Pickling Lines Market",
+   "anahtar": "4725c00cb3176260",
+   "tarih": "2026-11-19",
+   "firma": "KG Steel",
    "ulke": "",
-   "hat": "Asitleme hatti",
+   "hat": "Tandem soguk hadde (TCM)",
    "asama": "Modernizasyon",
-   "baslik": "Pickling Lines Market To 2035: Automotive Lightweighting and Green Upgrades Fuel Expansion",
-   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPeGRLRktNMk9ETmFOU256UnJ4V1pVQjdVc2d2OVdISFkzTnVReUNDd1pSZGxRVy1QWEQ3d3BNQjBONWloY0lSV2p3Wk5rSUYxdkhQVjBjVnI1cFBYNzJFQnlTWG1nVEdVY1ZnQVR6Qm4zY24zX0VUMFBuWF8wci1yV0V6YWhJb1AtbWlTSVFSYmpLYktFMWt1aDAxNHl2bDd5NzljWkZrelJIc0RXTG9kd0c0d1dPM0YxcW1CaWVmaVNkd09DZHdDc0ZkTUZOR3BVWHNvSQ?oc=5"
+   "baslik": "KG Steel completes W38b PLTCM upgrade, targets output of over 2 million tons",
+   "url": "https://biz.heraldcorp.com/article/10943740"
   },
   {
-   "anahtar": "a1e849bc52d2aca2",
-   "tarih": "2026-11-11",
-   "firma": "Jastrzębska Spółka Węglowa",
+   "anahtar": "4de62a3615924bb5",
+   "tarih": "2026-11-20",
+   "firma": "Bokaro",
    "ulke": "",
-   "hat": "Asit rejenerasyonu (ARP)",
-   "asama": "Sozlesme",
-   "baslik": "Jastrzębska Spółka Węglowa secures loan from ARP for restructuring",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/jastrzbska-spka-wglowa-secures-loan-from-arp-for-restructuring-1490056.htm"
+   "hat": "Elektrik celigi hatti",
+   "asama": "Teknoloji",
+   "baslik": "SAIL's Bokaro steel mill develops NGO grade special steel for the first time",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/sails-bokaro-steel-mill-develops-ngo-grade-special-steel-for-the-first-time-1492322.htm"
   },
   {
-   "anahtar": "90e30cb4756c40e2",
-   "tarih": "2026-11-05",
-   "firma": "",
-   "ulke": "",
-   "hat": "Belirsiz",
-   "asama": "Ilk urun",
-   "baslik": "【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】",
-   "url": "https://news.metal.com/en/newscontent/104207357-纽柯在南卡罗来纳州新建50万吨年汽车板镀锌线产出首卷优质卷板"
+   "anahtar": "d8b7fc40d787a676",
+   "tarih": "2026-11-19",
+   "firma": "Hazira",
+   "ulke": "Hindistan",
+   "hat": "Soguk hadde",
+   "asama": "Belirsiz",
+   "baslik": "AM/NS India Develops 2 Million Tonne Cold Rolling Facility at Hazira for Automotive Steel",
+   "url": "https://www.newsx.com/nx-news/am-ns-india-develops-2-million-tonne-cold-rolling-facility-at-hazira-for-automotive-steel-293633/"
   }
  ],
  "teknoloji_adaylari": [
+  {
+   "anahtar": "tech:4de62a3615924bb5",
+   "tarih": "2026-11-20",
+   "baslik": "SAIL's Bokaro steel mill develops NGO grade special steel for the first time",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/sails-bokaro-steel-mill-develops-ngo-grade-special-steel-for-the-first-time-1492322.htm",
+   "kaynak": "SteelOrbis",
+   "hat": "Elektrik celigi hatti"
+  },
+  {
+   "anahtar": "tech:4725c00cb3176260",
+   "tarih": "2026-11-19",
+   "baslik": "KG Steel completes W38b PLTCM upgrade, targets output of over 2 million tons",
+   "url": "https://biz.heraldcorp.com/article/10943740",
+   "kaynak": "Bing News",
+   "hat": "Tandem soguk hadde (TCM)"
+  },
+  {
+   "anahtar": "tech:d8b7fc40d787a676",
+   "tarih": "2026-11-19",
+   "baslik": "AM/NS India Develops 2 Million Tonne Cold Rolling Facility at Hazira for Automotive Steel",
+   "url": "https://www.newsx.com/nx-news/am-ns-india-develops-2-million-tonne-cold-rolling-facility-at-hazira-for-automotive-steel-293633/",
+   "kaynak": "Bing News",
+   "hat": "Soguk hadde"
+  },
   {
    "anahtar": "tech:45e7f994631a31a2",
    "tarih": "2026-11-09",
