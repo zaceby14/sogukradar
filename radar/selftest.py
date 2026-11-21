@@ -3829,6 +3829,18 @@ def test_kurul2_deneme_incelemesi():
     from . import http as _h
     eq(_h._ascii_adres("https://news.smm.cn/news/纽柯?q=钢").isascii(), True, "ASCII disi adres kodlanir")
     eq(_h._ascii_adres("https://a.com/x?y=1"), "https://a.com/x?y=1", "ASCII adres degismez")
+    # 5e) coklu deneme bulgulari
+    eq(taxonomy.in_scope("Electrical steel line order brightens Andritz Q3 performance")[0], False, "ceyrek sonucu haberi girmez")
+    eq(classify.detect_firm("Gopani Industries Successfully Rolls First Prime Coil from New Cold Rolling Mill"),
+       "Gopani Industries", "zarf firma adina yapismaz")
+    eski_f = baglanti.fetch
+    try:
+        baglanti.fetch = lambda u, *a, **k: sayfa("Tata Steel launches pre-painted steel Colorcoat in India", "2026-10-10")
+        rr = {"baslik": "Tata Steel launches pre-painted steel Colorcoat in India", "tarih": "2026-10-16",
+              "url": "https://b.example/companies/tata-colorcoat"}
+        eq((baglanti.kontrol(rr)[0], rr["tarih"]), ("tamam", "2026-10-10"), "sayfanin yayin tarihi esas alinir")
+    finally:
+        baglanti.fetch = eski_f
     # 6) BELIRSIZ rozeti gosterilmez
     eq("BELİRSİZ" in render._badge("Belirsiz"), True, "rozet fonksiyonu degismedi")
     # 7) dogrulanmayan piyasa maddesi Ingilizce basligiyla gitmez (yeterli Turkce varsa)

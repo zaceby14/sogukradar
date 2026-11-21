@@ -75,6 +75,8 @@ def _clean_firm(name):
     name = TAIL.sub("", (name or "").strip())
     # "Primetals Technologies to" -> sondaki edat/baglac firma adinin parcasi degil
     name = re.sub(r"\s+(to|and|for|at|by|with|in|on|of|from|is|are|was|were|has|have|engineers)$", "", name, flags=re.I)
+    # ZARF (2026-11-21): "Gopani Industries Successfully Rolls" -> Gopani Industries
+    name = re.sub(r"\s+(successfully|officially|finally|now|also|further|recently|formally)$", "", name, flags=re.I)
     name = re.sub(r"^(The|A|An)\s+", "", name, flags=re.I)
     name = name.strip(" -,:;'’")
     if NOT_FIRM.match(name):

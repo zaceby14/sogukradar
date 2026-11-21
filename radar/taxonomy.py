@@ -289,6 +289,11 @@ MATERIAL_BLOCK = re.compile(
 # alakasiz satirlarin tamami buradan sizdi: HARD_REJECT sadece Katman 1'de
 # calisiyordu, "genel yatirim" etiketi alan satir denetimi atliyordu.
 _NOISE = (
+    # CEYREK SONUCU / BILANCO (2026-11-21, coklu deneme): "Electrical steel line
+    # order brightens Andritz Q3 performance" bir hat haberi degil sonuc haberi.
+    r"\b(q[1-4]|h[12]|first[- ]half|third[- ]quarter|second[- ]quarter|quarterly|half[- ]year)\b.{0,25}"
+    r"\b(performance|results?|profit|earnings|revenue|sales)\b|"
+    r"\b(performance|results?|profit|earnings|revenue)\b.{0,15}\b(q[1-4]|quarter)\b|"
     # PAZAR RAPORU (2026-11-21): "Pickling Lines Market To 2035", "Growth in the
     # Hot-dip Galvanized Steel Market ..." adaylara ve teknoloji kosesine girdi.
     r"\bmarket (to|by|till|through) 20\d\d\b|\bmarket (size|share|growth|outlook|report|"

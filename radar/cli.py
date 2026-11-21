@@ -1025,6 +1025,20 @@ def cmd_otomatik(a):
         if (r.get("tarih") or "") > gun_s:
             payload["rows"].remove(r)
             elenen.append((r.get("baslik", ""), "gelecek tarih %s" % r.get("tarih")))
+    # SON TEKRAR KAPISI (2026-11-21, coklu deneme): gonderilmis HER baslik
+    # (haber, teknoloji, piyasa) her bolume karsi denetlenir. IMS kuvvet olcer
+    # W45'te koseden gitmisti, havuzdan LISTE satiri olarak geri geliyordu.
+    gonderilen = [x.get("b", "") for k in ("son_basliklar", "tech_gonderilen", "piyasa_gonderilen")
+                  for x in (st.get(k) or []) if isinstance(x, dict)]
+
+    def _gonderildi(b):
+        return any(taxonomy.similar_titles(b or "", g) for g in gonderilen if g)
+    for r in list(payload["rows"]):
+        if _gonderildi(r.get("baslik")):
+            payload["rows"].remove(r)
+            elenen.append((r.get("baslik", ""), "daha once gonderilmis (baska bolumde/yayinda)"))
+    payload["tech_pool"] = [t for t in payload.get("tech_pool") or [] if not _gonderildi(t.get("baslik"))]
+    payload["piyasa_pool"] = [m for m in payload.get("piyasa_pool") or [] if not _gonderildi(m.get("baslik"))]
     payload["tech_pool"] = [t for t in payload.get("tech_pool") or [] if (t.get("tarih") or "") <= gun_s]
     payload["piyasa_pool"] = [m for m in payload.get("piyasa_pool") or [] if (m.get("tarih") or "") <= gun_s]
     # BAGLANTI DOGRULAMA (2026-11-02, "ilk link hatali"): satirlar postaya

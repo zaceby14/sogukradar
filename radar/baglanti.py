@@ -75,6 +75,12 @@ def kontrol(r):
             fark = abs((_dt.date.fromisoformat(sayfa_t) - _dt.date.fromisoformat(r["tarih"][:10])).days)
             if fark > 7:
                 return "kotu", "sayfa tarihi %s, madde tarihi %s" % (sayfa_t, r["tarih"][:10])
+            if fark >= 1:
+                # SAYFANIN YAYIN TARIHI ESAS (2026-11-21, Tata Colorcoat: yayin
+                # 10.10, bultende guncelleme tarihi 16.10 vardi).
+                r["tarih_once"] = r["tarih"]
+                r["tarih"] = sayfa_t
+                r["tarih_kaynagi"] = "sayfa datePublished"
         except ValueError:
             pass
     return "tamam", ""
@@ -105,7 +111,13 @@ def maddeleri_dogrula(maddeler, alan="baslik", log=print):
     kalan, elenen = [], []
     for m in maddeler or []:
         b = m.get(alan) or m.get("baslik") or ""
-        durum, neden = kontrol(dict(m, baslik=b))
+        eski_b = m.get("baslik")
+        m["baslik"] = b
+        durum, neden = kontrol(m)
+        if eski_b is None:
+            m.pop("baslik", None)
+        else:
+            m["baslik"] = eski_b
         if durum == "kotu":
             elenen.append((b, "baglanti: " + neden))
             log("  aday baglantisi kotu (%s): %s" % (neden, b[:60]))
