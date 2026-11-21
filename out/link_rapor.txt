@@ -34,12 +34,7 @@
 ======================================================================
 [HABER] 2026-11-13 | Jindal Stainless investing ₹900 crore to increase cold rolling capacity to 2.67 MT by FY28: MD
   link : https://news.google.com/rss/articles/CBMihAJBVV95cUxQM0ZTdGxvS3U5VnZFMkMyZTRjN2ZHTm8tdU9NZmpoMGhISXl3Z1AwUzNCcU43RG9oX0tIOWJQYVA0eDBjX2FReXYzZVdlNFJFW
-  google news -> yayinci: https://www.msn.com/en-in/news/other/jindal-stainless-investing-rs-900-crore-to-increase-cold-rolling-capacity-to-267-mt-by-fy28-md/ar-AA2admHh
-  durum: 200  son adres: https://www.msn.com/en-in/news/other/jindal-stainless-investing-rs-900-crore-to-increase-cold-rolling-capacity-to-267-mt-by-fy28-md/ar-AA2admHh
-  sayfa basligi: MSN
-  sayfa tarihi : -
-  metin: 
-  baslik-sayfa ortak sozcuk: 0/9 -> KONTROL ET
+  google news -> yayinci: BULUNAMADI
 ======================================================================
 [TEKNOLOJI] 2026-10-14 | KG Steel pushes to expand AI usage rate at annealing furnace to over 80%
   link : https://news.google.com/rss/articles/CBMiVkFVX3lxTFB1dExHc2VaMEVwUWh5dkt2ZmlNSWFUS1l5eGtjVnRlYWpSTGxKZFpBaEZRY3NaSmV3eGZlZVZhNjYzWnVnYVBVYmtxQTJxR04xQ
