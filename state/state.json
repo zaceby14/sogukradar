@@ -5648,5 +5648,53 @@
   "urun:kaplamali": 2,
   "urun:soguk hadde": 3
  },
- "version": "3.0.0"
+ "version": "3.0.0",
+ "piyasa_gonderilen": [
+  {
+   "b": "EU backs AD duties on CRC from five countries",
+   "t": "2026-11-02"
+  },
+  {
+   "b": "US HRC, CRC prices climb amid tight supply",
+   "t": "2026-11-02"
+  },
+  {
+   "b": "EU backs duties on cold-rolled steel from five countries",
+   "t": "2026-11-02"
+  },
+  {
+   "b": "EU electrical steel safeguards threaten transformer makers, 26 MEPs warn",
+   "t": "2026-11-04"
+  },
+  {
+   "b": "Korea recommends duties on Chinese galvanized steel",
+   "t": "2026-11-04"
+  },
+  {
+   "b": "Coils a freddo, via libera degli Stati Ue ai dazi antidumping - 15 Paesi favorevoli su 27. Atteso il regolamento definitivo, mentre sul mercato europeo i prezzi dei CRC si rafforzano",
+   "t": "2026-11-13"
+  },
+  {
+   "b": "\"Yeni AB kota rejimi yassı çelikte Türkiye'ye rekabet avantajı sunuyor\"",
+   "t": "2026-11-13"
+  },
+  {
+   "b": "Malaysia imposes provisional AD duties on coated steel",
+   "t": "2026-11-11"
+  }
+ ],
+ "tech_gonderilen": [
+  {
+   "b": "IMS expands its portfolio with force transducers for precise force measurement under demanding conditions in hot and cold rolling mills",
+   "t": "2026-10-06"
+  },
+  {
+   "b": "Primetals Technologies to modernize KG Steel's Dangjin cold mill with AI-driven automation upgrade",
+   "t": "2026-08-12"
+  },
+  {
+   "b": "Dongkuk CM develops color-coated steel sheet to prevent condensation in AI data centers",
+   "t": "2026-11-12"
+  }
+ ]
 }

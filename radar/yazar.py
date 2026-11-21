@@ -79,6 +79,17 @@ _ULKE_ES = {taxonomy.fold(k): v for k, v in {
     "Hollanda": ["hollanda", "netherlands", "dutch"], "İngiltere": ["ingiltere", "uk", "britain", "england"],
 }.items()}
 
+# KURUM ADLARI (2026-11-21, kurul): "European Commission" -> "Avrupa Komisyonu"
+# cevirisi 'kaynakta olmayan ozel ad' sayilip piyasa maddesi Ingilizce kaliyordu.
+# Ulke adlari gibi: kaynakta karsiligi GECMELI.
+_KURUM_ES = {
+    "komisyon": ["commission", "ec", "komisyon"], "komisyonu": ["commission", "ec", "komisyon"],
+    "bakanligi": ["ministry", "minister", "bakanlik"], "bakanlik": ["ministry", "minister", "bakanlik"],
+    "konseyi": ["council", "konsey"], "konsey": ["council", "konsey"],
+    "parlamentosu": ["parliament", "mep", "meps", "parlamento"], "parlamento": ["parliament", "mep", "meps"],
+    "hukumet": ["government", "hukumet"], "hukumeti": ["government", "hukumet"],
+}
+
 _ING = {"the", "and", "for", "with", "has", "have", "will", "from", "this",
         "that", "its", "are", "was", "were", "into", "plans", "said"}
 _URETIM_IDDIASI = re.compile(
@@ -137,6 +148,10 @@ def cumle_dogrula(cumle, kaynak, asama=None):
             if any(re.search(r"\b" + v + r"\b", kay_fold) for v in _ULKE_ES[f]):
                 continue
             return False, "kaynakta olmayan ulke: %s" % kok
+        if f in _KURUM_ES:
+            if any(re.search(r"\b" + v + r"\b", kay_fold) for v in _KURUM_ES[f]):
+                continue
+            return False, "kaynakta olmayan kurum: %s" % kok
         if f in kay_fold or f in _TR_AD:
             continue
         # kaynaktaki bir sozcugun TURKCE EKLI hali ('POSCO'nun', 'Danieli'ye')
@@ -213,6 +228,11 @@ def _kullanici(rows, stats, tech=None, piyasa_ad=None, tercih_ozeti=""):
 # ANA AKIS
 # ----------------------------------------------------------------------
 PIYASA_N = 3
+PIYASA_MIN = 2
+
+
+def _turkce_mi(metin):
+    return bool(re.search(r"[ğışĞİŞüÜöÖçÇ]", metin or ""))
 
 
 _LATIN_DIS = re.compile(r"[àèìòùäöüßñçãõâêîôûåøæ]|\b(il|della|degli|dei|der|die|das|und|les|des|el|los|las)\b", re.I)
@@ -311,7 +331,7 @@ def ozet_hazirla(payload, log=print):
     # --- piyasa gundemi: LLM SECER (yalniz verilen id'ler), ozet dogrulanir
     secim = [x for x in (veri.get("piyasa") or []) if isinstance(x, dict)]
     by_p = {m["anahtar"]: m for m in piyasa_ad}
-    yeni = []
+    yeni, yedek = [], []
     for x in secim:
         m = by_p.get(x.get("id"))
         if not m or any(y["anahtar"] == m["anahtar"] for y in yeni):
@@ -324,9 +344,23 @@ def ozet_hazirla(payload, log=print):
         if ok:
             yeni.append(_piyasa_maddesi(m, cum.strip()))
         elif _okunur([m]):
-            yeni.append(_piyasa_maddesi(m, m.get("baslik", "")))
+            yedek.append(m)
         if len(yeni) >= PIYASA_N:
             break
+    # DOGRULANMAYAN MADDE INGILIZCE BASLIKLA GITMEZ (2026-11-21, kurul): en az 2
+    # dogrulanmis Turkce madde varsa yedege hic bakilmaz; yoksa 2'ye tamamlanir
+    # (bos kalmasin) - once Turkce baslikli adaylar.
+    if len(yeni) < PIYASA_MIN:
+        aday = yedek + [m for m in _okunur(piyasa_ad) if m not in yedek]
+        aday.sort(key=lambda m: not _turkce_mi(m.get("baslik", "")))
+        for m in aday:
+            if len(yeni) >= PIYASA_MIN:
+                break
+            if any(y["anahtar"] == m["anahtar"] for y in yeni):
+                continue
+            if any(taxonomy.similar_titles(m.get("baslik", ""), y["baslik"]) for y in yeni):
+                continue
+            yeni.append(_piyasa_maddesi(m, m.get("baslik", "")))
     if yeni:
         ozet["piyasa"] = yeni
 

@@ -2061,7 +2061,8 @@ def test_piyasa_gundemi_ve_geri_bildirim():
             {"id": "uydurma", "cumle": "Uydurma bir piyasa haberi, bunun bultene girmemesi gerekir."},
             {"id": "p1", "cumle": "Çin'de soğuk haddelenmiş sac (CRC) fiyatları hafif yükseldi."}]}, "anthropic", [])
         oz = yazar.ozet_hazirla(payload, log=lambda *a: None)
-        eq([m["anahtar"] for m in oz["piyasa"]], ["p1"], "LLM yalniz listedeki id'yi secebilir")
+        eq([m["anahtar"] for m in oz["piyasa"]][:1], ["p1"], "LLM yalniz listedeki id'yi secebilir")
+        eq(len(oz["piyasa"]), 2, "piyasa en az 2 maddeye tamamlanir (bos kalmasin)")
         eq("fiyatları" in oz["piyasa"][0]["metin"], True, "dogrulanan Turkce ozet kullanildi")
     finally:
         llm.json_iste = eski[0]
@@ -3738,6 +3739,80 @@ def test_cin_katmani():
                            dt.date(2026, 8, 17)), "2026-08-14", "Mysteel adres tarihi")
 
 
+def test_kurul2_deneme_incelemesi():
+    """Kurul 2026-11-21 (ikinci tur): deneme bulteninin tek tek incelenmesi."""
+    from . import classify, piyasa, render, yazar, taxonomy, cli
+    # 1) AB proje veritabani haber degil
+    eq(bool(taxonomy.SPAM_PUBLISHER.search(taxonomy.fold("https://cordis.europa.eu/project/id/101178079"))),
+       True, "CORDIS proje sayfasi elenir")
+    eq(cli._rezerv_hala_gecerli({"baslik": "Digital twin for cold rolling mill annealing line",
+                                 "url": "https://cordis.europa.eu/project/id/1"}), False,
+       "havuzdaki CORDIS satiri da duser")
+    # 2) firma adi
+    for bas, firma in [("SAIL's Bokaro steel mill develops NGO grade special steel for the first time", "SAIL"),
+                       ("AM/NS India Develops 2 Million Tonne Cold Rolling Facility at Hazira", "AM/NS India"),
+                       ("Jindal Stainless investing 900 crore to increase cold rolling capacity by FY28", "Jindal Stainless"),
+                       ("JTL Industries Advances Maharashtra Expansion with Pickling Line Trial", "JTL Industries"),
+                       ("India's JIL orders pickling line", "JIL")]:
+        eq(classify.detect_firm(bas), firma, "firma: " + bas[:40])
+    # 3) kurum adi cevirisi kaynakta karsiligi varsa gecer, yoksa reddedilir
+    kay = "EU's India CRC duty approach The European Commission's novel approach Kallanish"
+    eq(yazar.cumle_dogrula("Avrupa Komisyonu'nun Hindistan CRC vergisi yaklaşımı sistemik sonuçlar doğurabilir.", kay)[0],
+       True, "Komisyonu kaynakta commission olarak geciyor")
+    eq(yazar.cumle_dogrula("Ticaret Bakanlığı Hindistan CRC vergisi için yeni bir karar açıkladı bugün.", kay)[0],
+       False, "kaynakta olmayan bakanlik reddedilir")
+    # 4) piyasa tekrari: ayni olay vs farkli ulkenin karari
+    eq(piyasa.ayni_piyasa_haberi(
+        "İskenderun PS: Türk yassı çelik sektörü AB'nin kota rejimi ve jeopolitik krizlere rağmen esnekliğiyle avantaj sağlayabilir",
+        "Yeni AB kota rejimi yassı çelikte Türkiye'ye rekabet avantajı sunuyor"), True,
+       "Iskenderun PS = gonderilmis AB kota haberi")
+    eq(piyasa.ayni_piyasa_haberi(
+        "Vietnam accepts product scope review request for AD duties on Chinese and South Korean galvanized steel",
+        "Korea recommends duties on Chinese galvanized steel"), False,
+       "Vietnam'in karari Kore'nin kararindan farkli olay")
+    bugun = dt.date(2026, 11, 21)
+    gorus = {"baslik": "İskenderun PS: Türk yassı çelik sektörü kota rejimine rağmen avantaj sağlayabilir", "tarih": "2026-11-13"}
+    onlem = {"baslik": "Turkey imposes anti-dumping duty on coated steel", "tarih": "2026-11-13"}
+    eq(piyasa.puan(gorus, bugun) < piyasa.puan(onlem, bugun), True, "gorus/roportaj gercek onlemin gerisinde")
+    # 5) teknoloji kosesi kurallari
+    eq(taxonomy.yenilik_mi("KG Steel pushes to expand AI usage rate at annealing furnace to over 80%"), True,
+       "tavlama firininda YZ kullanimi yenilik")
+    eq(taxonomy.yenilik_mi("Hoa Phat exports galvanized steel to Japan for the first time"), False,
+       "ihracat haberi yenilik degil")
+    eq(taxonomy.yenilik_mi("[SMM Analysis] Galvanized sheet profits develop"), False, "kar analizi yenilik degil")
+    eq(cli._soguk_kanit("Tangshan Yinghai advances AI-Zn coated steel project"), True, "kaplama terimi soguk kanit")
+    eq(cli._soguk_kanit("KCC develops color steel coating that lasts up to 30 years"), True, "renkli sac kaplama")
+    # 6) BELIRSIZ rozeti gosterilmez
+    eq("BELİRSİZ" in render._badge("Belirsiz"), True, "rozet fonksiyonu degismedi")
+    # 7) dogrulanmayan piyasa maddesi Ingilizce basligiyla gitmez (yeterli Turkce varsa)
+    import os
+    from . import llm
+    ad = [{"anahtar": "a", "baslik": "EU duty approach has ramifications for CRC", "tarih": "2026-11-17", "lead": ""},
+          {"anahtar": "b", "baslik": "Vietnam galvanized AD review accepted", "tarih": "2026-11-18", "lead": ""},
+          {"anahtar": "c", "baslik": "Thailand levies anti-dumping duty on tinplate", "tarih": "2026-11-13", "lead": ""}]
+    payload = {"rows": [{"anahtar": "h1", "baslik": "x", "hat": "Asitleme hatti", "asama": "Sozlesme",
+                         "kategori": "Hat", "kaynak": "k", "url": "u", "tarih": "2026-11-18", "lead": ""}],
+               "stats": {"ham": 9}, "tech_pool": [], "piyasa_adaylari": ad}
+    eski = (llm.json_iste, os.environ.get("ANTHROPIC_API_KEY"), os.environ.get("RADAR_LLM"))
+    try:
+        os.environ.pop("RADAR_LLM", None)
+        os.environ["ANTHROPIC_API_KEY"] = "x"
+        llm.json_iste = lambda s_, k, log=print: ({"cumleler": {}, "piyasa": [
+            {"id": "a", "cumle": "Avrupa Konseyi yeni bir CRC vergisi yaklaşımını açıkladı, sonuçlar geniş."},
+            {"id": "b", "cumle": "Vietnam galvaniz sac anti-damping incelemesi için başvuruyu kabul etti."},
+            {"id": "c", "cumle": "Tayland teneke ithalatına anti-damping vergisi uygulamaya başladı."}]}, "anthropic", [])
+        oz = yazar.ozet_hazirla(payload, log=lambda *a: None)
+        eq([m["anahtar"] for m in oz["piyasa"]], ["b", "c"],
+           "dogrulanamayan madde dusulur, Ingilizce baslik basilmaz")
+    finally:
+        llm.json_iste = eski[0]
+        for k, v in (("ANTHROPIC_API_KEY", eski[1]), ("RADAR_LLM", eski[2])):
+            if v is None:
+                os.environ.pop(k, None)
+            else:
+                os.environ[k] = v
+
+
 def run():
     for fn in (test_dates, test_article_date_chain, test_firm, test_scope,
                test_line_and_stage, test_listing_parser, test_feed_parser,
@@ -3758,6 +3833,7 @@ def run():
                test_w40_editorsuz_cop_kumeleme,
                test_yazar_dogrulayici_ve_llm_yedegi,
                test_kurul_2026_11_21_kalite,
+               test_kurul2_deneme_incelemesi,
                test_w46_goes_ve_firin_copu,
                test_kose_llm_yenilik_karari,
                test_dogrulayici_ulke_kaynakta_olmali,

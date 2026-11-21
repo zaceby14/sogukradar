@@ -389,7 +389,9 @@ def email_html(payload, ozet=None, tech_items=None, sayi=1):
                                                     r.get("tedarikci"), r.get("tutar"),
                                                     r.get("kaynak")) if x)
             cum = cumleler.get(r.get("anahtar")) or compose.row_sentence(r)
-            rozet = _ROZET_YAT if r.get("kategori") == "Yatirim" else _badge(r.get("asama"))
+            # "BELIRSIZ" rozeti okura bilgi vermiyor (2026-11-21, kurul): gosterilmez.
+            rozet = _ROZET_YAT if r.get("kategori") == "Yatirim" else (
+                _badge(r.get("asama")) if r.get("asama") not in (None, "", "Belirsiz") else "")
             kart(meta, _firma_hucresi(r) if r.get("firma") else "", cum, r.get("url"), rozet, _oy(r),
                  "background:#fffbf2;" if is_tr else "")
     else:

@@ -33,7 +33,14 @@ VERB = (r"(?:awards?|awarded|orders?|selects?|selected|contracts?|chooses?|picks
         r"enters|agrees?|greenlights?|mulls?|considers?|boosts?|raises?|"
         r"commits?|pledges?|earmarks?|allocates?|resumes?|restarts?|reopens?|"
         r"gets|gains?|joins?|reveals?|takes|makes|puts|brings|goes|"
-        r"aims?|seeks?|expects?|proposes?|files?|submits?|moves?)\b")
+        r"aims?|seeks?|expects?|proposes?|files?|submits?|moves?|"
+        # -ing / 3. tekil eksikleri (2026-11-21, kurul): 'Jindal Stainless investing',
+        # 'AM/NS India Develops', 'JTL Industries Advances' firma adina yapisiyordu.
+        r"investing|developing|building|installing|expanding|adding|setting up|"
+        r"develops|designs|builds|constructs|upgrades|modernizes|modernises|"
+        r"advances?|advancing|completing|commissioning|launching|planning|"
+        r"achieves?|achieved|records?|rolls? out|sets? up|bets?|doubles?|triples?|"
+        r"strengthens?|enhances?|increases?|scales?)\b")
 
 TAIL = re.compile(
     r"\s+(Awarded|Awards?|Wins?|Won|Selects?|Orders?|Secures?|Inaugurates?|Commissions?|"
@@ -60,13 +67,14 @@ NOT_FIRM = re.compile(
     r"november|december|electrical|hot[- ]dip|cold rolled|building materials|"
     r"galvanizing flux|stuttgart|europe|asia|africa|america|china|india|"
     r"turkey|japan|germany|france|italy|spain|brazil|new|the|global|world|"
-    r"steel|market|report|price|demand)$", re.I)
+    r"steel|market|report|price|demand|demonstration|development|project|"
+    r"fy\d{2,4}|q[1-4]|h[12]|\d{4})$", re.I)
 
 
 def _clean_firm(name):
     name = TAIL.sub("", (name or "").strip())
     # "Primetals Technologies to" -> sondaki edat/baglac firma adinin parcasi degil
-    name = re.sub(r"\s+(to|and|for|at|by|with|in|on|of|from)$", "", name, flags=re.I)
+    name = re.sub(r"\s+(to|and|for|at|by|with|in|on|of|from|is|are|was|were|has|have|engineers)$", "", name, flags=re.I)
     name = re.sub(r"^(The|A|An)\s+", "", name, flags=re.I)
     name = name.strip(" -,:;'’")
     if NOT_FIRM.match(name):
@@ -81,7 +89,26 @@ def detect_firm(title, fallback=""):
        - "John Cockerill India Inaugurates ..." -> en kisa ozne once denenir
     """
     t = (title or "").strip()
-    t = re.sub(r"^[A-Z][a-zA-Z]+(?:'s|s')\s+", "", t)          # India's / China's
+    # ONEKLER (2026-11-21): saat, tarih, 'Daily press |', 'Experience Report: How'.
+    t = re.sub(r"^\d{1,2}:\d{2}\s+", "", t)
+    t = re.sub(r"^(?:january|february|march|april|may|june|july|august|september|october|"
+               r"november|december)\s+\d{1,2},\s*\d{4}\s+(?:news\s+)?", "", t, flags=re.I)
+    t = re.sub(r"^[^|]{2,30}\|\s*", "", t)
+    t = re.sub(r"^\d{4}-\d{2}-\d{2}\s+", "", t)
+    t = re.sub(r"^[^:]{0,30}\b(?:report|review|analysis|interview|exclusive|update|case study|"
+               r"video|value|press)\s*:\s*", "", t, flags=re.I)
+    t = re.sub(r"^(?:how|why|what|when)\s+", "", t, flags=re.I)
+    # IYELIK EKI (2026-11-21, kurul): "India's JIL" -> ulke atilir; ama
+    # "SAIL's Bokaro steel mill" -> SAIL firmadir (eskiden 'Bokaro' yaziliyordu).
+    m = re.match(r"^([A-Z][\w&/\.\-]*)(?:'s|s'|’s)\s+", t)
+    if m:
+        if tx.match_country(m.group(1)) or NOT_FIRM.match(m.group(1)) or m.group(1) in (
+                "Europe", "Asia", "Africa", "World", "Gulf", "Korea"):
+            t = t[m.end():]
+        else:
+            c = _clean_firm(m.group(1))
+            if c:
+                return c
     t = re.sub(r"^(?:Exclusive|Update|Breaking|Video|Photo)\s*[:\-]\s*", "", t, flags=re.I)
 
     words = t.split()

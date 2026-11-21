@@ -141,6 +141,29 @@ def cmd_run(a):
         print("bulunan havuzundan %d satir eklendi (havuzda %d kaldi)"
               % (len(bulunandan), len(bulunan) - len(bulunandan)))
 
+    # TAZE + BULUNAN PUANLA YARISIR (2026-11-21, kurul): 6 taze satir hedefi
+    # doldurunca havuza hic bakilmiyordu; puani 54,5 olan "Zhejiang Hengfeng hot
+    # tests cold rolling mill" disarida, puani 8 olan satirlar iceride kaldi.
+    # Havuzdaki belirgin daha guclu aday (>= +15 puan) en zayif taze satirin
+    # yerine gecer; cikan satir havuzda kalir (gonderilmedi, tukenmez).
+    if len(rows) >= HEDEF_SATIR and bulunan:
+        guclu = sorted(_rezervden_sec(bulunan, rows, st_r, len(bulunan)),
+                       key=lambda r: -(r.get("puan") or 0))
+        takas = 0
+        for g in guclu:
+            zayif = min(rows, key=lambda r: r.get("puan") or 0)
+            if (g.get("puan") or 0) < (zayif.get("puan") or 0) + 15:
+                break
+            diger = [r for r in rows if r is not zayif]
+            if not _rezervden_sec([g], diger, st_r, 1):
+                continue
+            g.pop("rezerv", None)
+            rows = diger + [g]
+            takas += 1
+        if takas:
+            rows.sort(key=lambda r: -(r.get("puan") or 0))
+            print("bulunan havuzundan %d guclu satir zayif taze satirin yerine gecti" % takas)
+
     eksik = max(HEDEF_SATIR - len(rows), 0)
     kullanilan = _rezervden_sec(rezerv, rows, st_r, eksik)
     if kullanilan:
@@ -521,6 +544,8 @@ def _rezerv_hala_gecerli(r):
     # kaldirildi, havuzdaki eski kayitlar da dusmeli (Primetals vakasi).
     if r.get("tarih_kaynagi") == "last-modified":
         return False
+    if taxonomy.SPAM_PUBLISHER.search(taxonomy.fold((r.get("url") or "") + " " + (r.get("kaynak") or ""))):
+        return False
     ok, _ = taxonomy.in_scope(t)
     if ok and taxonomy.haber_olayi(t):
         return True
@@ -704,6 +729,9 @@ def _isaretle(payload, tech, donem=None, piyasa=None):
     for t in tech or []:
         if t.get("anahtar"):
             st3["tech_seen"][t["anahtar"]] = t.get("tarih", "")
+        st3.setdefault("tech_gonderilen", []).append({"b": t.get("konu") or t.get("baslik", ""),
+                                                     "t": t.get("tarih", "")})
+    st3["tech_gonderilen"] = (st3.get("tech_gonderilen") or [])[-60:]
     for m in piyasa or []:
         if m.get("anahtar"):
             st3.setdefault("piyasa_seen", {})[m["anahtar"]] = m.get("tarih", "")
@@ -850,7 +878,11 @@ _SOGUK_TARAF = re.compile(
     r"cold[- ]roll|cold mill|cold strip|tandem|pickl|anneal|galvani|coil coat|colou?r coat|"
     r"pre[- ]?paint|tinplate|tin mill|skin[- ]?pass|temper mill|slitting|cut[- ]to[- ]length|"
     r"electrical steel|silicon steel|grain[- ]oriented|strip|coil|flat steel|flat[- ]rolled|"
-    r"sheet steel|steel sheet|processing line|serit|bobin|soguk hadde|galvaniz|tavlama|asitleme")
+    r"sheet steel|steel sheet|processing line|serit|bobin|soguk hadde|galvaniz|tavlama|asitleme|"
+    # KAPLAMA TERIMLERI (2026-11-21, kurul): 'AI-Zn coated steel', 'KCC color steel
+    # coating', 'Hoa Sen alloy-coated steel' soguk kanit bulamayip eleniyordu.
+    r"coated steel|colou?r steel|steel coating|al-?zn|zn-?al|zn-?al-?mg|alloy[- ]coated|"
+    r"magnelis|aluzinc|galvalume|kaplama|boyali sac")
 
 
 _SICAK_IFADE = re.compile(r"hot[- ](strip|rolled|rolling)\w*( (strip|coil|mill)s?)?|plate mill|hot mill")
@@ -914,6 +946,10 @@ def _kose_adaylari(payload, st):
     # AYNI HABER HEM LISTEDE HEM KOSEDE OLMAZ (2026-11-21, W47 Dongkuk CM).
     satir_url = {r.get("url") for r in payload.get("rows") or [] if r.get("url")}
     satir_bas = [r.get("baslik", "") for r in payload.get("rows") or []]
+    # GONDERILMIS HABERIN VARYANTI DA KOSEYE GIRMEZ (2026-11-21, kurul: Dongkuk
+    # CM uc ayri anahtarla havuzdaydi; tech_seen yalniz tam anahtari tutuyor).
+    satir_bas += list(st.get("son_basliklar") or [])
+    satir_bas += [x.get("b", "") for x in st.get("tech_gonderilen") or []]
     havuz, anahtarlar = [], set()
     for t in list(payload.get("tech_pool") or []) + list(st.get("tech_rezerv") or []):
         k = t.get("anahtar")
@@ -922,11 +958,20 @@ def _kose_adaylari(payload, st):
         if t.get("url") in satir_url or any(taxonomy.similar_titles(t.get("baslik", ""), b)
                                             for b in satir_bas):
             continue
+        if any(taxonomy.similar_titles(t.get("baslik", ""), h.get("baslik", "")) for h in havuz):
+            continue
         if not _kose_dogrula(t):
             continue
         anahtarlar.add(k)
         havuz.append(t)
-    havuz.sort(key=lambda t: (bool(t.get("yenilik")), t.get("tarih", "")), reverse=True)
+    # TAZELIK (2026-11-21, kurul): 4,5 aylik Posco Ar-Ge haberi, 9 gunluk
+    # Tangshan AI-Zn kaplama haberinin onune geciyordu. Son 120 gun once.
+    try:
+        taze_sinir = (dt.date.fromisoformat(payload.get("today", "")) - dt.timedelta(days=120)).isoformat()
+    except ValueError:
+        taze_sinir = (dt.date.today() - dt.timedelta(days=120)).isoformat()
+    havuz.sort(key=lambda t: (t.get("tarih", "") >= taze_sinir, bool(t.get("yenilik")),
+                              t.get("tarih", "")), reverse=True)
     # Liste satirini (urun duyurusu) koseye TASIMA kurali kaldirildi (2026-11-03):
     # "IMS urun yelpazesini genisletti" yenilik degildi.
     return havuz

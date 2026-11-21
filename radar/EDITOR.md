@@ -649,3 +649,13 @@ görünmemesi ile "bakıldı, çıkmadı" aynı şey değildir:
 
 > Seçtiğin teknolojiyi **bu listeye ekle** — arşiv artık routine prompt'ta
 > değil, burada tutulur.
+
+## 4q. Kurul ikinci tur (2026-11-21, deneme bülteni tek tek incelendi)
+- CORDIS proje sayfaları haber değil: SPAM_PUBLISHER + havuz kapısı (`_rezerv_hala_gecerli` URL'ye de bakar).
+- Firma çıkarımı: "SAIL's Bokaro" → SAIL; -ing/3. tekil fiiller (investing, Develops, Advances); FY28/Q3 firma değil; saat/tarih/"Daily press |" önekleri atılır.
+- "BELİRSİZ" rozeti gösterilmez.
+- Piyasa: gönderilen piyasa başlıkları `piyasa_gonderilen`'e geriye dönük işlendi (W45–W47). Tekrar = benzer başlık VE önlemi alan taraf (ilk ülke) diğer başlıkta geçiyor (Vietnam ≠ Kore). Görüş/röportaj başlığı −4. openPR vb. piyasa havuzuna da giremez.
+- Doğrulayıcı kurum adlarını tanır (Komisyonu→commission, Bakanlığı→ministry, Konseyi→council…); kaynakta karşılığı şart.
+- Doğrulanmayan piyasa maddesi İngilizce başlıkla basılmaz; en az 2 doğrulanmış madde yoksa 2'ye tamamlanır (önce Türkçe başlıklı).
+- Teknoloji köşesi: son 120 gün önce; gönderilmiş satır/köşe başlıklarının varyantı girmez (`tech_gonderilen`); kaplama terimleri soğuk kanıt; "AI usage/rate/furnace" yenilik; ihracat/analiz/kâr yenilik değil.
+- Liste: taze satırlar hedefi doldursa da bulunan havuzundaki ≥15 puan güçlü aday en zayıf taze satırın yerine geçer (Hengfeng vakası).

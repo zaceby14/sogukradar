@@ -43,6 +43,7 @@ KONU_AGIRLIK = {"koruma": 4, "fiyat": 2, "talep": 2, "ticaret": 2, "pazar": 1}
 BOLGE = [(re.compile(r"turk|turkiye|turkey"), 5), (re.compile(r"\beu\b|europe|avrupa|\bab\b"), 3),
          (re.compile(r"\bmena\b|middle east|gulf|egypt|ortadogu"), 2),
          (re.compile(r"china|india|cin|hindistan|asia"), 1)]
+GORUS = re.compile(r"\bcould\b|\bmay\b|\bmight\b|saglayabilir|olabilir|bekleniyor|yorum|roportaj|interview|opinion")
 IYI_KAYNAK = re.compile(r"kallanish|gmk|steelorbis|eurofer|fastmarkets|argus|metal expert|"
                         r"mysteel|steelradar|bigmint|sanayi|dunya|ekonomim|yieh")
 
@@ -94,6 +95,11 @@ def puan(m, bugun, st=None):
         if rx.search(f):
             p += w
             break
+    # GORUS / ROPORTAJ (2026-11-21, kurul): "Iskenderun PS: ... avantaj
+    # saglayabilir" bir onlem degil yorum; Turkiye bonusuyla gercek AD
+    # kararinin (Tayland teneke) onune geciyordu.
+    if GORUS.search(f) or re.match(r"^[^:]{2,30}:\s", m.get("baslik", "")):
+        p -= 4
     if IYI_KAYNAK.search(taxonomy.fold((m.get("kaynak") or "") + " " + (m.get("url") or ""))):
         p += 2
     try:
@@ -107,6 +113,45 @@ def puan(m, bugun, st=None):
     return round(p, 2)
 
 
+_AKTOR = re.compile(r"\b(eu|ab|european union|avrupa|europe|turkey|turkiye|turk\w*|china|cin|india|hindistan|"
+                    r"vietnam|korea\w*|kore|japan\w*|japonya|thailand|tayland|malaysia|malezya|indonesia|"
+                    r"brazil\w*|brezilya|us|usa|abd|mexico|meksika|canada|kanada|taiwan|tayvan|egypt|misir|"
+                    r"uk|britain|australia|pakistan|ukraine|russia\w*)\b")
+_AKTOR_ES = {"ab": "eu", "european union": "eu", "avrupa": "eu", "europe": "eu", "turkiye": "turkey",
+             "cin": "china", "hindistan": "india", "kore": "korea", "japonya": "japan", "tayland": "thailand",
+             "malezya": "malaysia", "brezilya": "brazil", "abd": "us", "usa": "us", "meksika": "mexico",
+             "kanada": "canada", "tayvan": "taiwan", "misir": "egypt", "britain": "uk"}
+
+
+def _aktor_norm(a):
+    a = re.sub(r"^(turk|korea|japan|brazil|russia)\w*$", r"\1", a)
+    a = _AKTOR_ES.get(a, a)
+    return "turkey" if a == "turk" else a
+
+
+def aktorler(baslik):
+    """Basliktaki ulke/bloklar, gecis sirasiyla (ilki: onlemi alan taraf)."""
+    out = []
+    for mm in _AKTOR.finditer(taxonomy.fold(baslik or "")):
+        a = _aktor_norm(mm.group(1))
+        if a not in out:
+            out.append(a)
+    return out
+
+
+def ayni_piyasa_haberi(a, b):
+    """Baslik benzer VE onlemi alan taraf ayni (2026-11-21, kurul: 'Vietnam accepts
+    ... AD duties on Chinese and South Korean galvanized' ile 'Korea recommends
+    duties on Chinese galvanized steel' ayni sayiliyordu)."""
+    if not taxonomy.similar_titles(a, b):
+        return False
+    xa, ya = aktorler(a), aktorler(b)
+    if not xa or not ya:
+        return True
+    # onlemi alan taraf (ilk aktor) obur basllikta hic gecmiyorsa farkli olay
+    return xa[0] in ya and ya[0] in xa
+
+
 def havuz_guncelle(st, taze, bugun, gun=21):
     """Kalici piyasa havuzu: gonderilmemis, pencere icinde, baslikca tekrarsiz."""
     import datetime as dt
@@ -117,11 +162,13 @@ def havuz_guncelle(st, taze, bugun, gun=21):
         a = m.get("anahtar")
         if not a or a in gorulen or m.get("tarih", "") < sinir or not piyasa_mi(m.get("baslik", "")):
             continue
-        if any(taxonomy.similar_titles(m["baslik"], x["baslik"]) for x in havuz.values()):
+        if taxonomy.SPAM_PUBLISHER.search(taxonomy.fold((m.get("kaynak") or "") + " " + (m.get("url") or ""))):
+            continue
+        if any(ayni_piyasa_haberi(m["baslik"], x["baslik"]) for x in havuz.values()):
             continue
         # GONDERILMIS PIYASA HABERININ VARYANTI (2026-11-21): ayni AB anti-damping
         # karari W45, W46, W47'de uc ayri yayindan uc kez gitti.
-        if any(taxonomy.similar_titles(m["baslik"], g.get("b", ""))
+        if any(ayni_piyasa_haberi(m["baslik"], g.get("b", ""))
                for g in (st.get("piyasa_gonderilen") or [])):
             continue
         havuz.setdefault(a, m)

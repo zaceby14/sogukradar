@@ -956,13 +956,16 @@ YENILIK = re.compile(
     r"breakthrough|\bpatent|\br&d\b|\bresearch\b|\bdevelop(s|ed|ing|ment)?\b|\bpilot\b|"
     r"\btrials?\b|\btrialled\b|\bprototype|\bdemonstrat|hydrogen|electric(ally)?[- ](heated|annealing|furnace)|"
     r"artificial intelligence|machine learning|\bai[- ](based|driven|powered|controlled)|"
-    r"\bai (control|model)|digital twin|\binnovati|"
+    r"\bai (control|model)|\bai\b.{0,20}\b(usage|rate|furnace|control)|digital twin|\binnovati|"
     r"yeni teknoloji|yeni nesil|\bar-?ge\b|gelistir|dunyada ilk|ilk kez")
 TANITIM = re.compile(
     r"expands? (its )?(product )?portfolio|product (family|range|portfolio|line[- ]?up)|"
     r"\bsuppl(y|ies|ied)\b|\border(s|ed)?\b|contract|\bwins?\b|awarded|commission|"
     r"\bto (supply|deliver|install|moderni[sz]e|upgrade|revamp|retrofit)\b|moderni[sz]ation|"
-    r"upgrade order|exhibit|trade fair|webinar|brochure|catalog")
+    r"upgrade order|exhibit|trade fair|webinar|brochure|catalog|"
+    # IHRACAT / ANALIZ / KAR (2026-11-21, kurul): 'Hoa Phat ilk kez Japonya'ya ihrac
+    # etti' "ilk kez" yuzunden, '[SMM Analysis] ... Profits' yenilik sayiliyordu.
+    r"\bexports?(ed|ing)?\b|ihrac|\banalysis\b|\bprofits?\b|\bkar\b")
 
 
 def yenilik_mi(title, lead=""):
@@ -1369,4 +1372,7 @@ SPAM_PUBLISHER = re.compile(
     r"(openpr|prnewswire|einpresswire|globenewswire|marketwatch|"
     r"researchandmarkets|imarcgroup|marketsandmarkets|expertmarketresearch|"
     r"businesswire|abnewswire|digitaljournal|benzinga|marketreport|indexbox|"
-    r"factmr|fact\.mr|giiresearch|reportlinker|precedence|towardsfnb|coherent)")
+    r"factmr|fact\.mr|giiresearch|reportlinker|precedence|towardsfnb|coherent|"
+    # AB PROJE VERITABANI (2026-11-21, kurul): CORDIS proje sayfasi haber degil;
+    # tarih Bing indeksleme tarihi, icerik hazir proje ozeti.
+    r"cordis\.europa\.eu)")
