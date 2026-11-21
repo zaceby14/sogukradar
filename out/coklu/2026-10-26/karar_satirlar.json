@@ -1,0 +1,183 @@
+{
+ "donem": "2026-W44",
+ "rows": [
+  {
+   "tarih": "2026-10-05",
+   "firma": "Isdemir",
+   "ulke": "Turkiye",
+   "hat": "Elektrik celigi hatti",
+   "asama": "Teknoloji",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "Turkey's Isdemir develops high-quality steel production for defense industry and electrical steel",
+   "kaynak": "SteelOrbis",
+   "kaynak_id": "gtek_es",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/turkeys-isdemir-develops-high-quality-steel-production-for-defense-industry-and-electrical-steel-1481490.htm",
+   "tarih_kaynagi": "rss",
+   "lead": "Turkey's Isdemir develops high-quality steel production for defense industry and electrical steel &nbsp;&nbsp; SteelOrbis",
+   "eksik": [],
+   "anahtar": "e82b221fc2986888",
+   "kategori": "Hat",
+   "olaylar": [
+    "isdemir|fu|Turkiye|Elektrik celigi hatti",
+    "isdemir|hat|Elektrik celigi hatti|Teknoloji",
+    "isdemir|ulke|Turkiye|Teknoloji"
+   ],
+   "puan": 55.6,
+   "url_toplayici": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMW13SGRFangyUGg2dkFBMDJ0aUFSSVljX0gxbXFZMng2OWRYY1hqLThqYVNtaDJzMUlvanBROE02MXZMTktNNG4zU3AzdHZzVUlxRVpXUlZRVzQ0eUhKamhRU2dyMHh4RkdDcGEtYXMzRmQ1eEE5aV9GWTJkZmhCeTZCRzE3ZG5VZS1pdEZnaXBGNzZ1WGl1WUxTeUNIVEY2UzJTN1MtZ0RvbnFNc0NzNUJtWl9YX0J6Y0FMQlh1cTUzRzdMZ3dNbE9zQXU2a1NTVGVUeEwybnR1M2VQcmtaaEFQb2RhWTVSTjdxMXdGRQ?oc=5"
+  },
+  {
+   "anahtar": "16c1c1e154dad064",
+   "asama": "Belirsiz",
+   "baslik": "Tata Steel launches pre-painted steel Colorcoat in India",
+   "eksik": [
+    "asama"
+   ],
+   "firma": "Tata Steel",
+   "hat": "Boyama hatti (CCL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgtek_kaplama",
+   "lead": "https://www.thehindubusinessline.com/companies/tata-steel-launches-pre-painted-steel-colorcoat-in-india/article71567926.ece Copy Tata Steel Colors has launched its ...",
+   "olaylar": [
+    "tata steel|fu|Hindistan|Boyama hatti (CCL)",
+    "tata steel|hat|Boyama hatti (CCL)|Belirsiz",
+    "tata steel|ulke|Hindistan|Belirsiz"
+   ],
+   "rezerv": true,
+   "tarih": "2026-10-16",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Hindistan",
+   "url": "https://www.thehindubusinessline.com/companies/tata-steel-launches-pre-painted-steel-colorcoat-in-india/article71567926.ece"
+  },
+  {
+   "anahtar": "aac00b6a794a93b5",
+   "asama": "Sozlesme",
+   "baslik": "IMS expands its portfolio with force transducers for precise force measurement under demanding conditions in hot and cold rolling mills",
+   "eksik": [
+    "ulke"
+   ],
+   "firma": "IMS",
+   "hat": "Soguk hadde",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "IMS Messsysteme",
+   "kaynak_id": "ims",
+   "lead": "Skip to content IMS expands its portfolio with force transducers for precise force measurement under demanding conditions in hot and cold rolling mills With the RollKraft product family, IMS Messsysteme GmbH is expanding its portfolio with force transducers designed for use in hot and cold rolling mills. The measurement systems provide precise measurement data for the control, analysis and optimisation of rolling pro",
+   "olaylar": [
+    "ims|hat|Soguk hadde|Sozlesme"
+   ],
+   "rezerv": true,
+   "tarih": "2026-10-06",
+   "tarih_kaynagi": "json-ld",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://www.ims-gmbh.de/en/2026/10/06/ims-expands-its-portfolio-with-force-transducers-forprecise-force-measurement-under-demandingconditions-in-hot-and-cold-rolling-mills/"
+  },
+  {
+   "anahtar": "7fd7261209402c52",
+   "asama": "Ilk urun",
+   "baslik": "Gopani Industries Successfully Rolls First Prime Coil from New Cold Rolling Mill",
+   "eksik": [],
+   "firma": "Gopani Industries Successfully",
+   "hat": "Soguk hadde",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Tube & Pipe India",
+   "kaynak_id": "gq_hat02",
+   "lead": "Gopani Industries Successfully Rolls First Prime Coil from New Cold Rolling Mill &nbsp;&nbsp; Tube & Pipe India",
+   "olaylar": [
+    "*|ulke-hat|Hindistan|Soguk hadde|Ilk urun",
+    "gopani industries successfully|fu|Hindistan|Soguk hadde",
+    "gopani industries successfully|hat|Soguk hadde|Ilk urun",
+    "gopani industries successfully|ulke|Hindistan|Ilk urun"
+   ],
+   "rezerv": true,
+   "tarih": "2026-10-05",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Hindistan",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zb1JoVG1BQ1FSRlp3Qk02Zl9CaTZ3ME9XLTktbW1rcXhBR0pkMDhLOTZfT0V5LWdwcXZScW5rYzFpS1FjVXhhWU53UzNXeHozRTBpWG12T3R0XzdiZ1BIN1hVeVo2VnV4?oc=5"
+  },
+  {
+   "anahtar": "be1f81111a9b43a1",
+   "asama": "Sozlesme",
+   "baslik": "Electrical steel line order brightens Andritz Q3 performance",
+   "eksik": [
+    "ulke"
+   ],
+   "firma": "Electrical steel line",
+   "hat": "Elektrik celigi hatti",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_sup03",
+   "lead": "",
+   "olaylar": [
+    "andritz|hat|Elektrik celigi hatti|Sozlesme",
+    "electrical steel line|hat|Elektrik celigi hatti|Sozlesme"
+   ],
+   "rezerv": true,
+   "tarih": "2026-10-04",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "Andritz",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/electrical-steel-job-brightens-andritz-q3-performance-1024/"
+  },
+  {
+   "anahtar": "3c6ddad628eeb8ca",
+   "asama": "Belirsiz",
+   "baslik": "POSCO, Otomotiv Çeliği İçin 359 Milyon Dolarlık Yeni Galvanizleme Hattı Kuruyor",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "firma": "POSCO",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "SteelTurk",
+   "kaynak_id": "steelturk",
+   "lead": "Hakkımızda Reklam Bize Ulaşın Demir Çelik Çelik Sektörü Yassı Çelik Yeşil Çelik Vasıflı Çelik Paslanmaz Çelik Alüminyum Boru & Profil Uzun Çelik Mamülleri Yapısal çelik Nervürlü Demir & Çelik Hasır Hammadde & Yarımamül Diğer Metaller Global Çelik Haberleri Röportajlar Metal & Sac İşleme Endüstriyel Sektörler Vinç Makina Çimento & Maden Güç Aktarım Sistemleri Hidrolik & Pnömatik Endüstriyel Kalıp Otomasyon & Robot Tek",
+   "olaylar": [
+    "posco|hat|Galvaniz hatti (CGL)|Belirsiz"
+   ],
+   "rezerv": true,
+   "tarih": "2026-09-24",
+   "tarih_kaynagi": "metin",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://www.steelturk.com.tr/posco-otomotiv-celigi-icin-359-milyon-dolarlik-yeni-galvanizleme-hatti-kuruyor/"
+  }
+ ],
+ "tech": [
+  {
+   "anahtar": "tech:8384bd252bd440d2",
+   "tarih": "2026-08-20",
+   "konu": "Vietnam's Hoa Sen launches new alloy-coated steel with enhanced corrosion resistance",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/vietnams-hoa-sen-launches-new-alloy-coated-steel-with-enhanced-corrosion-resistance-1471882.htm",
+   "kaynak": "SteelOrbis",
+   "metin": "Vietnamlı üretici Hoa Sen, korozyon direnci artırılmış yeni alaşım kaplamalı çelik ürününü pazara sundu."
+  }
+ ],
+ "piyasa": [
+  {
+   "anahtar": "piyasa:705bf004e7bd6797",
+   "tarih": "2026-10-26",
+   "baslik": "European Flat Steel and Green Steel Market Review",
+   "metin": "Avrupa yassı çelik ve yeşil çelik pazarına ilişkin güncel piyasa değerlendirmesi yayımlandı.",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSGp3RGY0U1lmaHFhaU9rVlpuZlNYTDZzeDVKTHh0NjdpOEpLS1ZaUmZBcmdqMHVsWHFCeVJmZmdTdWVNWnpTWjJnR1NXdE1laVhBWS1GRkQwS0dWR0hoWmlpbUh6MTExbUJHSm5NM1FqdUtDd0piZlVGUmIzaXFsS1RWUjJyYnh4LWtWMjB4ZDllRWwyUDd0TFBYOTVVOWRpbmFz0gG0AUFVX3lxTFA4TDdWVU5NSkVXNnJnZ3JXbDJjd1V6c3ROWmVRekZYQUJMTm4wd013eFBtZGNfV3BuN29CYzFfYWpya1NNTk05ajgxSmd0X1dHRjloTVdfb0JXRW5vTUFjc1g4bkdscmlVMi01NjRSMHktMi1aN2lkQ0VqNnBkYUxRWUY5dUNTZTJ4N2d0NmZZc0lkTWNueHZkRGxfNUZ4M0wzWGtNcXZNbnZsem9wTFh6N0Y2Vw?oc=5",
+   "kaynak": "Металлургпром",
+   "konu": "pazar",
+   "urun": "yassi"
+  }
+ ]
+}

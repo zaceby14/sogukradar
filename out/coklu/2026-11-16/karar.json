@@ -1,0 +1,33 @@
+{
+ "donem": "2026-W47",
+ "gonder": false,
+ "atla": true,
+ "son_gonderim": "2026-11-16",
+ "deneme": true,
+ "satir": 5,
+ "nedenler": [],
+ "yazar": {
+  "saglayici": "gemini",
+  "llm_hatalar": [],
+  "reddedilen_cumle": [],
+  "cumle_llm": 5,
+  "cumle_kuralsal": 0,
+  "supheli_cikarilan": 0
+ },
+ "elenen_satirlar": [
+  {
+   "baslik": "【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】",
+   "neden": "Cince baslik, firma/hat okunamadi (tekrar denetlenemez)"
+  }
+ ],
+ "baglanti_dogrulanamayan": [],
+ "email": "/home/runner/work/sogukradar/sogukradar/out/deneme_email.html",
+ "uretildi": "2026-11-21T15:45:42.302302Z",
+ "basliklar": [
+  "Zhejiang Hengfeng hot tests cold rolling mill",
+  "Tata Steel launches pre-painted steel Colorcoat in India",
+  "IMS expands its portfolio with force transducers for precise force measurement under deman",
+  "Gopani Industries Successfully Rolls First Prime Coil from New Cold Rolling Mill",
+  "Turkey's Isdemir develops high-quality steel production for defense industry and electrica"
+ ]
+}

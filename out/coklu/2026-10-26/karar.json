@@ -1,0 +1,34 @@
+{
+ "donem": "2026-W44",
+ "gonder": false,
+ "atla": false,
+ "son_gonderim": "2026-11-16",
+ "deneme": true,
+ "satir": 6,
+ "nedenler": [],
+ "yazar": {
+  "saglayici": "gemini",
+  "llm_hatalar": [],
+  "reddedilen_cumle": [
+   {
+    "baslik": "(haftalik ozet)",
+    "neden": "uzunluk (466)"
+   }
+  ],
+  "cumle_llm": 6,
+  "cumle_kuralsal": 0,
+  "supheli_cikarilan": 0
+ },
+ "elenen_satirlar": [],
+ "baglanti_dogrulanamayan": [],
+ "email": "/home/runner/work/sogukradar/sogukradar/out/deneme_email.html",
+ "uretildi": "2026-11-21T15:40:46.084994Z",
+ "basliklar": [
+  "Turkey's Isdemir develops high-quality steel production for defense industry and electrica",
+  "Tata Steel launches pre-painted steel Colorcoat in India",
+  "IMS expands its portfolio with force transducers for precise force measurement under deman",
+  "Gopani Industries Successfully Rolls First Prime Coil from New Cold Rolling Mill",
+  "Electrical steel line order brightens Andritz Q3 performance",
+  "POSCO, Otomotiv Çeliği İçin 359 Milyon Dolarlık Yeni Galvanizleme Hattı Kuruyor"
+ ]
+}
