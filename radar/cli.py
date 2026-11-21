@@ -1004,6 +1004,10 @@ def cmd_otomatik(a):
     # girmeden adresleri acilir; 404/yer tutucu/ana sayfa kanitli olanlar cikar.
     from . import baglanti
     if os.environ.get("RADAR_BAGLANTI", "1") != "0":
+        # GOOGLE NEWS ADRESI -> YAYINCI ADRESI (2026-11-21): okuyucu dogrudan
+        # yayinciya gider ve baglanti dogrulamasi bu satirlari da acabilir.
+        from . import yayinci
+        yayinci.degistir(payload["rows"])
         payload["rows"], bg_elenen, bg_belirsiz = baglanti.dogrula(payload["rows"])
         elenen += bg_elenen
     else:
@@ -1033,6 +1037,10 @@ def cmd_otomatik(a):
             elenen.append((r.get("baslik", ""), "Cince baslik, firma/hat okunamadi (tekrar denetlenemez)"))
     doc = yazar.ozet_hazirla(payload)
     rapor = doc.pop("_rapor", {})
+    if os.environ.get("RADAR_BAGLANTI", "1") != "0":
+        from . import yayinci
+        yayinci.degistir(doc.get("teknolojiler"), alan="konu")
+        yayinci.degistir(doc.get("piyasa"))
     # CINCE/JAPONCA BASLIKLI SATIR yalniz DOGRULANMIS Turkce cumleyle girer
     # (2026-11-03): okuyucu basligi okuyamaz; kuralsal cumle "Bir uretici..."
     # demekten oteye gecemiyor. LLM cumlesi dogrulamadan gecmediyse satir cikar.

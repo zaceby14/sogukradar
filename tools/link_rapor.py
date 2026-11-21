@@ -17,12 +17,12 @@ for tur, m in maddeler:
     print("  link : %s" % url[:150])
     hedef = url
     if "news.google.com" in url:
-        ok, page, info = http.fetch(url, use_cache=False)
-        aday = [u for u in re.findall(r'https?://[^"\'\s<>\\]+', page or "")
-                if not re.search(r"google|gstatic|youtube|schema\.org|w3\.org", u)]
-        print("  google news -> %s" % (aday[0][:150] if aday else "cozulemedi (status %s)" % info.get("status")))
-        if aday:
-            hedef = html.unescape(aday[0])
+        from radar import yayinci
+        cozulen = yayinci.bul(bas)
+        print("  google news -> yayinci: %s" % (cozulen or "BULUNAMADI"))
+        if not cozulen:
+            continue
+        hedef = cozulen
     ok, page, info = http.fetch(hedef, use_cache=False)
     if not ok:
         print("  SONUC: ACILAMADI (%s)" % (info.get("hata") or info.get("status")))

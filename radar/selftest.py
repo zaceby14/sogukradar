@@ -3793,6 +3793,20 @@ def test_kurul2_deneme_incelemesi():
     pl = {"today": "2026-11-21", "rows": [], "tech_pool": [
         {"anahtar": "tech:1", "tarih": "2026-11-13", "baslik": "Dongkuk CM Develops Color-Coated Steel Sheet to Tackle Condensation in AI Data Centers"}]}
     eq([t["anahtar"] for t in cli._kose_adaylari(pl, stk)], [], "gonderilmis satirin varyanti koseye girmez (cokmeden)")
+    # 5c) Google News adresi -> yayinci adresi (Bing RSS, yalniz ayni baslik)
+    from . import yayinci
+    rss = ('<rss><channel><item><title>Jindal Stainless investing Rs 900 crore to increase cold rolling capacity</title>'
+           '<link>http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;url=https%3a%2f%2fwww.example.com%2fjindal-900&amp;c=1</link></item>'
+           '<item><title>Tata Steel opens new plant</title><link>https://other.example/x</link></item></channel></rss>')
+    sahte = lambda u, use_cache=True: (True, rss, {})
+    eq(yayinci.bul("Jindal Stainless commissions new bright annealing and pickling line in Odisha", fetch=sahte),
+       None, "baska haber basligi -> adres degismez")
+    eq(yayinci.bul("Jindal Stainless investing Rs 900 crore to increase cold rolling capacity - ET", fetch=sahte),
+       "https://www.example.com/jindal-900", "ayni baslik -> yayinci adresi")
+    mm = [{"baslik": "Tata Steel opens new plant in Odisha today", "url": "https://news.google.com/rss/articles/X"}]
+    eq(yayinci.degistir(mm, log=lambda *a: None, fetch=sahte), 1, "Google News adresi degistirildi")
+    eq((mm[0]["url"], mm[0]["url_toplayici"]), ("https://other.example/x", "https://news.google.com/rss/articles/X"),
+       "eski adres saklanir")
     # 6) BELIRSIZ rozeti gosterilmez
     eq("BELİRSİZ" in render._badge("Belirsiz"), True, "rozet fonksiyonu degismedi")
     # 7) dogrulanmayan piyasa maddesi Ingilizce basligiyla gitmez (yeterli Turkce varsa)
