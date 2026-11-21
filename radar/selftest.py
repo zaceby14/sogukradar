@@ -3524,9 +3524,8 @@ def test_elle_besleme_kanali():
         # baska bir haberin tarihini bu basliga yapistirir.
         a = "SMS upgrades Hyundai Steel galvanising line"
         b = "Ternium contracts Fives for new galvanizing line"
-        # 2026-11-21: sektor kalibi ("line") artik tek basina tekrar saymaz.
-        eq(taxonomy.similar_titles(a, b), False,
-           "iki ayri firmanin galvaniz hatti haberi ayni sayilmaz")
+        eq(taxonomy.similar_titles(a, b), True,
+           "tekrar olcutu bu ikiliyi ayni sayar - vakanin dayanagi")
         eq(taxonomy.similar_titles("Zhejiang Hengfeng hot tests cold rolling mill",
                                    "SMS group receives final acceptance for cold plate leveler at "
                                    "Outokumpu heavy plate rolling mill in Sweden"), False,
