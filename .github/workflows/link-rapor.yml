@@ -1,0 +1,34 @@
+name: SogukRadar link raporu
+
+# Son bultendeki her linki acar ve sayfa basligini/metnini raporlar -> out/link_rapor.txt
+# Hafizaya/postaya dokunmaz.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  rapor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Linkleri ac
+        run: python -u tools/link_rapor.py out/karar_satirlar.json | tee out/link_rapor.txt
+      - name: Sonucu isle
+        if: always()
+        run: |
+          git config user.name  "sogukradar-bot"
+          git config user.email "bot@users.noreply.github.com"
+          for i in 1 2 3; do
+            git fetch origin main; git reset --quiet origin/main
+            git add out/link_rapor.txt
+            git diff --staged --quiet && break
+            git commit -q -m "link raporu [skip ci]"
+            git push && break
+            sleep 5
+          done
