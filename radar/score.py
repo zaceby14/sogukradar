@@ -47,17 +47,19 @@ def score(row, source_kind="dergi", today=None):
     today = today or dt.date.today()
     s = 0.0
     if row.get("kategori") == "Yatirim":
-        # Genis yatirim katmani listede cekirdek hat haberlerinin ALTINDA durur
-        s -= 25
+        # YATIRIM ONCELIKLI (2026-11-21, kullanici: "teknolojiler ve yatirimlar en
+        # onemlisi"). Ceza -25'ten -8'e indi: genel yatirim haberi artik hat
+        # haberlerinin hemen arkasinda, listenin sonunda degil.
+        s -= 8
     s += STAGE_W.get(row.get("asama"), 4)
     s += LINE_W.get(row.get("hat"), 1)
     s += KIND_W.get(source_kind, 4)
     if row.get("tedarikci"):
         s += 6
     if row.get("kapasite"):
-        s += 4
+        s += 6
     if row.get("tutar"):
-        s += 4
+        s += 8            # tutari belli yatirim haberi one cikar
     if row.get("ulke") == "Turkiye":
         s += 8            # yerel pazar oncelikli
     if not row.get("eksik"):

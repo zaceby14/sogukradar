@@ -2053,7 +2053,8 @@ def test_piyasa_gundemi_ve_geri_bildirim():
     try:
         os.environ["RADAR_LLM"] = "yok"
         oz = yazar.ozet_hazirla(payload, log=lambda *a: None)
-        eq(oz["piyasa"], [], "LLM yokken piyasa bolumu BOS (dogrulanmamis/cevrilmemis metin gonderilmez)")
+        eq([m["anahtar"] for m in oz["piyasa"]], ["p2", "p1"],
+           "LLM yokken piyasa BOS KALMAZ: kural sirasiyla ozgun baslik")
         os.environ.pop("RADAR_LLM", None)
         os.environ["ANTHROPIC_API_KEY"] = "x"
         llm.json_iste = lambda s_, k, log=print: ({"cumleler": {}, "piyasa": [
@@ -2140,18 +2141,25 @@ def test_kose_llm_yenilik_karari():
         os.environ.pop("RADAR_LLM", None)
         os.environ["ANTHROPIC_API_KEY"] = "x"
         llm.json_iste = lambda s_, k, log=print: ({"cumleler": {}, "teknoloji_id": "", "teknoloji": ""}, "anthropic", [])
-        eq(yazar.ozet_hazirla(pl, log=lambda *a: None)["teknolojiler"], [], "LLM yenilik bulmadi: kose bos")
+        # 2026-11-21 (kullanici: "bos kalmasin"): LLM secmezse en iyi aday kalir
+        eq([t["anahtar"] for t in yazar.ozet_hazirla(pl, log=lambda *a: None)["teknolojiler"]], ["tech:1"],
+           "LLM yenilik bulmadi: kose BOS KALMAZ, en iyi aday")
+        llm.json_iste = lambda s_, k, log=print: ({"cumleler": {}, "teknoloji_id": "", "teknoloji_yedek_id": "tech:2",
+            "teknoloji": "Soğuk şerit için hidrojenli tavlama pilot hattı geliştirildi."}, "anthropic", [])
+        eq([t["anahtar"] for t in yazar.ozet_hazirla(pl, log=lambda *a: None)["teknolojiler"]], ["tech:2"],
+           "yenilik yoksa LLM'in yedek secimi kullanilir")
         llm.json_iste = lambda s_, k, log=print: ({"cumleler": {}, "teknoloji_id": "tech:2",
             "teknoloji": "Soğuk şerit için hidrojenli tavlama pilot hattı geliştirildi."}, "anthropic", [])
-        eq(yazar.ozet_hazirla(pl, log=lambda *a: None)["teknolojiler"], [],
-           "yenilik gerekcesi yoksa secim kabul edilmez (2026-11-21)")
+        eq([t["anahtar"] for t in yazar.ozet_hazirla(pl, log=lambda *a: None)["teknolojiler"]], ["tech:1"],
+           "yenilik gerekcesi yoksa yenilik secimi kabul edilmez, varsayilan kalir")
         llm.json_iste = lambda s_, k, log=print: ({"cumleler": {}, "teknoloji_id": "tech:2",
             "teknoloji_gerekce": "(d) hidrojenli tavlama pilot hatti",
             "teknoloji": "Soğuk şerit için hidrojenli tavlama pilot hattı geliştirildi."}, "anthropic", [])
         k = yazar.ozet_hazirla(pl, log=lambda *a: None)["teknolojiler"]
         eq((len(k), k[0]["anahtar"]), (1, "tech:2"), "LLM gercek yeniligi gerekceyle secti")
         llm.json_iste = lambda s_, k, log=print: ({"cumleler": {}, "teknoloji_id": "uydurma"}, "anthropic", [])
-        eq(yazar.ozet_hazirla(pl, log=lambda *a: None)["teknolojiler"], [], "listede olmayan id secilemez")
+        eq([t["anahtar"] for t in yazar.ozet_hazirla(pl, log=lambda *a: None)["teknolojiler"]], ["tech:1"],
+           "listede olmayan id secilemez (varsayilan kalir)")
     finally:
         llm.json_iste = eski[0]
         for kk, v in (("ANTHROPIC_API_KEY", eski[1]), ("RADAR_LLM", eski[2])):
@@ -2215,6 +2223,12 @@ def test_kurul_2026_11_21_kalite():
     h = piyasa.havuz_guncelle(st, [{"anahtar": "p9", "tarih": "2026-11-15",
                                     "baslik": "EU backs duties on cold-rolled steel from five countries"}], bugun)
     eq(h, [], "gonderilmis piyasa haberinin varyanti tekrar secilmez")
+    from . import yazar as _y
+    eq([m["anahtar"] for m in _y._okunur([
+        {"anahtar": "it", "baslik": "Coils a freddo, via libera degli Stati Ue ai dazi antidumping"},
+        {"anahtar": "en", "baslik": "Malaysia imposes provisional AD duties on coated steel"},
+        {"anahtar": "tr", "baslik": "Yeni AB kota rejimi yassı çelikte Türkiye'ye rekabet avantajı sunuyor"}])],
+       ["en", "tr"], "piyasa yedeginde Italyanca baslik kullanilmaz")
     from . import dates
     eq(dates.aist_tarih("https://www.aist.org/Steel-News/2026/October/19-23-October-2026/Red-Bud-Delivers",
                         dt.date(2026, 11, 20)), "2026-10-19", "AIST hafta yolu tarihi")
