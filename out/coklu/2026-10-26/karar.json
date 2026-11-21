@@ -4,13 +4,13 @@
  "atla": false,
  "son_gonderim": "2026-11-16",
  "deneme": true,
- "satir": 5,
+ "satir": 4,
  "nedenler": [],
  "yazar": {
   "saglayici": "gemini",
   "llm_hatalar": [],
   "reddedilen_cumle": [],
-  "cumle_llm": 5,
+  "cumle_llm": 4,
   "cumle_kuralsal": 0,
   "supheli_cikarilan": 0
  },
@@ -18,15 +18,18 @@
   {
    "baslik": "IMS expands its portfolio with force transducers for precise force measurement under deman",
    "neden": "daha once gonderilmis (baska bolumde/yayinda)"
+  },
+  {
+   "baslik": "POSCO to Build State-of-the-Art Galvanized Automotive Steel Sheet Plant, Bringing Together",
+   "neden": "daha once gonderilmis (baska bolumde/yayinda)"
   }
  ],
  "baglanti_dogrulanamayan": [],
  "email": "/home/runner/work/sogukradar/sogukradar/out/deneme_email.html",
- "uretildi": "2026-11-21T15:58:00.892045Z",
+ "uretildi": "2026-11-21T16:27:32.319942Z",
  "basliklar": [
   "Turkey's Isdemir develops high-quality steel production for defense industry and electrica",
   "Gopani Industries Successfully Rolls First Prime Coil from New Cold Rolling Mill",
-  "POSCO to Build State-of-the-Art Galvanized Automotive Steel Sheet Plant, Bringing Together",
   "Japan's Chugai Ro delivers electric bright annealing line to Romania's Otelinox",
   "ArcelorMittal Brasil to invest in new cold rolling mill and coating lines"
  ]

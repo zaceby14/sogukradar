@@ -32,7 +32,7 @@
    "asama": "Ilk urun",
    "baslik": "Gopani Industries Successfully Rolls First Prime Coil from New Cold Rolling Mill",
    "eksik": [],
-   "firma": "Gopani Industries Successfully",
+   "firma": "Gopani Industries",
    "hat": "Soguk hadde",
    "kapasite": "",
    "kategori": "Hat",
@@ -43,7 +43,10 @@
     "*|ulke-hat|Hindistan|Soguk hadde|Ilk urun",
     "gopani industries successfully|fu|Hindistan|Soguk hadde",
     "gopani industries successfully|hat|Soguk hadde|Ilk urun",
-    "gopani industries successfully|ulke|Hindistan|Ilk urun"
+    "gopani industries successfully|ulke|Hindistan|Ilk urun",
+    "gopani industries|fu|Hindistan|Soguk hadde",
+    "gopani industries|hat|Soguk hadde|Ilk urun",
+    "gopani industries|ulke|Hindistan|Ilk urun"
    ],
    "rezerv": true,
    "tarih": "2026-10-05",
@@ -52,31 +55,6 @@
    "tutar": "",
    "ulke": "Hindistan",
    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zb1JoVG1BQ1FSRlp3Qk02Zl9CaTZ3ME9XLTktbW1rcXhBR0pkMDhLOTZfT0V5LWdwcXZScW5rYzFpS1FjVXhhWU53UzNXeHozRTBpWG12T3R0XzdiZ1BIN1hVeVo2VnV4?oc=5"
-  },
-  {
-   "anahtar": "6452945ec70270a7",
-   "asama": "Teknoloji",
-   "baslik": "POSCO to Build State-of-the-Art Galvanized Automotive Steel Sheet Plant, Bringing Together the Latest Automotive Steel Technologies 2026/09/21",
-   "eksik": [
-    "ulke"
-   ],
-   "firma": "POSCO",
-   "hat": "Galvaniz hatti (CGL)",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "POSCO",
-   "kaynak_id": "posco",
-   "lead": "Article Press Center Press Release Image Gallery Business Industry Report People & Culture Open Search window Search in the Newsroom Clear Search Recommended HyREX Steel Lithium Secondary Battery AI Robots Search Close Menu Search Layer Close Layer Close Minimum 2 characters required. Ok Home Press Center Press Release POSCO to Build State-of-the-Art Galvanized Automotive Steel Sheet Plant, Bringing Together the Late",
-   "olaylar": [
-    "posco|hat|Galvaniz hatti (CGL)|Teknoloji"
-   ],
-   "rezerv": true,
-   "tarih": "2026-09-21",
-   "tarih_kaynagi": "metin",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "",
-   "url": "https://newsroom.posco.com/en/posco-to-build-state-of-the-art-galvanized-automotive-steel-sheet-plant-bringing-together-the-latest-automotive-steel-technologies/"
   },
   {
    "anahtar": "f78620ad28390d6c",
@@ -132,12 +110,12 @@
  ],
  "tech": [
   {
-   "anahtar": "tech:f809e9cc4543b4aa",
-   "tarih": "2026-10-14",
-   "konu": "KG Steel pushes to expand AI usage rate at annealing furnace to over 80%",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB1dExHc2VaMEVwUWh5dkt2ZmlNSWFUS1l5eGtjVnRlYWpSTGxKZFpBaEZRY3NaSmV3eGZlZVZhNjYzWnVnYVBVYmtxQTJxR04xQ2dETUNR?oc=5",
-   "kaynak": "헤럴드경제",
-   "metin": "KG Steel, tavlama fırınındaki yapay zekâ kullanım oranını %80'in üzerine çıkarmak için çalışmalarını genişletiyor."
+   "anahtar": "tech:8384bd252bd440d2",
+   "tarih": "2026-08-20",
+   "konu": "Vietnam's Hoa Sen launches new alloy-coated steel with enhanced corrosion resistance",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/vietnams-hoa-sen-launches-new-alloy-coated-steel-with-enhanced-corrosion-resistance-1471882.htm",
+   "kaynak": "SteelOrbis",
+   "metin": "Vietnamlı Hoa Sen, korozyon direnci artırılmış yeni alaşım kaplamalı çelik ürününü piyasaya sundu."
   }
  ],
  "piyasa": []

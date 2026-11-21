@@ -6,7 +6,7 @@
    "asama": "Ilk urun",
    "baslik": "Gopani Industries Successfully Rolls First Prime Coil from New Cold Rolling Mill",
    "eksik": [],
-   "firma": "Gopani Industries Successfully",
+   "firma": "Gopani Industries",
    "hat": "Soguk hadde",
    "kapasite": "",
    "kategori": "Hat",
@@ -17,7 +17,10 @@
     "*|ulke-hat|Hindistan|Soguk hadde|Ilk urun",
     "gopani industries successfully|fu|Hindistan|Soguk hadde",
     "gopani industries successfully|hat|Soguk hadde|Ilk urun",
-    "gopani industries successfully|ulke|Hindistan|Ilk urun"
+    "gopani industries successfully|ulke|Hindistan|Ilk urun",
+    "gopani industries|fu|Hindistan|Soguk hadde",
+    "gopani industries|hat|Soguk hadde|Ilk urun",
+    "gopani industries|ulke|Hindistan|Ilk urun"
    ],
    "rezerv": true,
    "tarih": "2026-10-05",
@@ -52,31 +55,6 @@
    "ulke": "Turkiye",
    "url": "https://www.steelorbis.com/steel-news/latest-news/turkeys-isdemir-develops-high-quality-steel-production-for-defense-industry-and-electrical-steel-1481490.htm",
    "url_toplayici": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMW13SGRFangyUGg2dkFBMDJ0aUFSSVljX0gxbXFZMng2OWRYY1hqLThqYVNtaDJzMUlvanBROE02MXZMTktNNG4zU3AzdHZzVUlxRVpXUlZRVzQ0eUhKamhRU2dyMHh4RkdDcGEtYXMzRmQ1eEE5aV9GWTJkZmhCeTZCRzE3ZG5VZS1pdEZnaXBGNzZ1WGl1WUxTeUNIVEY2UzJTN1MtZ0RvbnFNc0NzNUJtWl9YX0J6Y0FMQlh1cTUzRzdMZ3dNbE9zQXU2a1NTVGVUeEwybnR1M2VQcmtaaEFQb2RhWTVSTjdxMXdGRQ?oc=5"
-  },
-  {
-   "anahtar": "6452945ec70270a7",
-   "asama": "Teknoloji",
-   "baslik": "POSCO to Build State-of-the-Art Galvanized Automotive Steel Sheet Plant, Bringing Together the Latest Automotive Steel Technologies 2026/09/21",
-   "eksik": [
-    "ulke"
-   ],
-   "firma": "POSCO",
-   "hat": "Galvaniz hatti (CGL)",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "POSCO",
-   "kaynak_id": "posco",
-   "lead": "Article Press Center Press Release Image Gallery Business Industry Report People & Culture Open Search window Search in the Newsroom Clear Search Recommended HyREX Steel Lithium Secondary Battery AI Robots Search Close Menu Search Layer Close Layer Close Minimum 2 characters required. Ok Home Press Center Press Release POSCO to Build State-of-the-Art Galvanized Automotive Steel Sheet Plant, Bringing Together the Late",
-   "olaylar": [
-    "posco|hat|Galvaniz hatti (CGL)|Teknoloji"
-   ],
-   "rezerv": true,
-   "tarih": "2026-09-21",
-   "tarih_kaynagi": "metin",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "",
-   "url": "https://newsroom.posco.com/en/posco-to-build-state-of-the-art-galvanized-automotive-steel-sheet-plant-bringing-together-the-latest-automotive-steel-technologies/"
   },
   {
    "anahtar": "f78620ad28390d6c",
@@ -137,35 +115,35 @@
    "konu": "Vietnam's Hoa Sen launches new alloy-coated steel with enhanced corrosion resistance",
    "url": "https://www.steelorbis.com/steel-news/latest-news/vietnams-hoa-sen-launches-new-alloy-coated-steel-with-enhanced-corrosion-resistance-1471882.htm",
    "kaynak": "SteelOrbis",
-   "metin": "Vietnamlı üretici Hoa Sen, korozyon direnci artırılmış yeni alaşım kaplamalı çelik ürününü piyasaya sürdü."
+   "metin": "Hoa Sen, korozyon direnci artırılmış yeni alaşım kaplamalı çelik ürününü piyasaya sundu."
   }
  ],
  "piyasa": [
   {
-   "anahtar": "piyasa:58a6686e74ff2a17",
-   "tarih": "2026-11-02",
-   "baslik": "European green flat steel demand remains subdued; construction provides pockets of interest",
-   "metin": "Avrupa'da yeşil yassı çelik talebi Ekim ayında zayıf kalmaya devam ederken, inşaat sektöründeki sınırlı ilgiye karşın otomotiv sektörünün talebinde yumuşama gözlendi.",
-   "url": "https://eurometal.net/european-green-flat-steel-demand-remains-subdued-construction-provides-pockets-of-interest/?utm_source=rss&utm_medium=rss&utm_campaign=european-green-flat-steel-demand-remains-subdued-construction-provides-pockets-of-interest",
-   "kaynak": "EUROMETAL",
-   "konu": "talep",
-   "urun": "yassi"
-  },
-  {
    "anahtar": "piyasa:380785546277695a",
    "tarih": "2026-11-02",
    "baslik": "Hoa Phat exports 8,000 tons of galvanized steel sheets to Japan, expanding its international market.",
-   "metin": "Hoa Phat, uluslararası pazarını büyütme stratejisi doğrultusunda Japonya'ya 8.000 ton galvanizli çelik sac ihraç etti.",
+   "metin": "Hoa Phat, Japonya'ya 8.000 ton galvanizli çelik sac ihraç ederek uluslararası pazar varlığını genişletti.",
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOa0dIVGQ5Rk9jb09ycmFMSHRkaWlzbngtcmNpX0FIZXNtU2VTNk81d1JyNTdfN2JnV0htakh5VTJybWdENXQ0OTlrN2thdW1qbFdBb21aUy1aV2h0OFdNQ0tzeXRudHZNUXNTVWZQaTAxRFFkMmc3ZmxfTU9ZSzFNdVJqSlFIMzVRQVROT01UWGdVczlZUExUX0RWcVBMTm5kaW5nMg?oc=5",
    "kaynak": "Vietnam.vn",
    "konu": "ticaret",
    "urun": "kaplamali"
   },
   {
+   "anahtar": "piyasa:58a6686e74ff2a17",
+   "tarih": "2026-11-02",
+   "baslik": "European green flat steel demand remains subdued; construction provides pockets of interest",
+   "metin": "Avrupa'da yeşil yassı çelik talebi Ekim ayında zayıf seyrini korurken, otomotiv sektörünün ilgisi azalmış, inşaat sektöründe ise sınırlı alımlar görülmüştür.",
+   "url": "https://eurometal.net/european-green-flat-steel-demand-remains-subdued-construction-provides-pockets-of-interest/?utm_source=rss&utm_medium=rss&utm_campaign=european-green-flat-steel-demand-remains-subdued-construction-provides-pockets-of-interest",
+   "kaynak": "EUROMETAL",
+   "konu": "talep",
+   "urun": "yassi"
+  },
+  {
    "anahtar": "piyasa:2a00d4372823eae3",
    "tarih": "2026-11-02",
    "baslik": "SunSirs: Constrained by Costs and Weakened Demand, the Market for Color Coated Sheets Was in a Narrow, Stagnant Range Last Week",
-   "metin": "Çin iç piyasasında boyalı sac pazarı, yüksek maliyet baskısı ve zayıflayan talep nedeniyle geçen hafta dar bir aralıkta yatay seyretti.",
+   "metin": "Maliyet baskıları ve zayıflayan talep nedeniyle boyalı sac piyasası geçen hafta dar ve durgun bir bantta seyretti.",
    "url": "https://www.sunsirs.com/commodity-news/petail-37313.html",
    "kaynak": "Bing News",
    "konu": "talep",

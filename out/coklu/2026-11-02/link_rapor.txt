@@ -11,14 +11,6 @@
   metin: English Türkçe Italiano 中文 | Login Menu Marketplace Global Marketplace Access to the listings of different steel products and bids without intermediaries and commissions. Steel Markets Steel Prices Daily Steel Prices Weekly Steel Prices Steel Price Analysis Tool Orbis Steel Index Futures Prices Steel Price Analyses Scrap & Raw Materials Tube and Pipe Flats and Slab Longs and Billet Products Scrap 
   baslik-sayfa ortak sozcuk: 9/9 -> UYUMLU
 ======================================================================
-[HABER] 2026-09-21 | POSCO to Build State-of-the-Art Galvanized Automotive Steel Sheet Plant, Bringing Together the Latest Automoti
-  link : https://newsroom.posco.com/en/posco-to-build-state-of-the-art-galvanized-automotive-steel-sheet-plant-bringing-together-the-latest-automotive-steel-te
-  durum: 200  son adres: https://newsroom.posco.com/en/posco-to-build-state-of-the-art-galvanized-automotive-steel-sheet-plant-bringing-together-the-latest-automotive-steel-te
-  sayfa basligi: POSCO to Build State-of-the-Art Galvanized Automotive Steel Sheet Plant, Bringing Together the Latest Automotive Steel Technologies – Official POSCO G
-  sayfa tarihi : {'key': 'datePublished', 'value': '2026-09-21T13:30:13+09:00'}, {'key': 'dateModified', 'value': '2026-09-21T13:35:44+09:00'}
-  metin: Article Press Center Press Release Image Gallery Business Industry Report People & Culture Open Search window Search in the Newsroom Clear Search Recommended HyREX Steel Lithium Secondary Battery AI Robots Search Close Menu Search Layer Close Layer Close Minimum 2 characters required. Ok Home Press Center Press Release POSCO to Build State-of-the-Art Galvanized Automotive Steel Sheet Plant, Bringi
-  baslik-sayfa ortak sozcuk: 11/11 -> UYUMLU
-======================================================================
 [HABER] 2026-09-01 | Japan's Chugai Ro delivers electric bright annealing line to Romania's Otelinox
   link : https://www.steelorbis.com/steel-news/latest-news/japans-chugai-ro-delivers-electric-bright-annealing-line-to-romanias-otelinox-1474287.htm
   durum: 200  son adres: https://www.steelorbis.com/steel-news/latest-news/japans-chugai-ro-delivers-electric-bright-annealing-line-to-romanias-otelinox-1474287.htm
@@ -43,6 +35,10 @@
   metin: English Türkçe Italiano 中文 | Login Menu Marketplace Global Marketplace Access to the listings of different steel products and bids without intermediaries and commissions. Steel Markets Steel Prices Daily Steel Prices Weekly Steel Prices Steel Price Analysis Tool Orbis Steel Index Futures Prices Steel Price Analyses Scrap & Raw Materials Tube and Pipe Flats and Slab Longs and Billet Products Scrap 
   baslik-sayfa ortak sozcuk: 7/7 -> UYUMLU
 ======================================================================
+[PIYASA] 2026-11-02 | Hoa Phat exports 8,000 tons of galvanized steel sheets to Japan, expanding its international market.
+  link : https://news.google.com/rss/articles/CBMipAFBVV95cUxOa0dIVGQ5Rk9jb09ycmFMSHRkaWlzbngtcmNpX0FIZXNtU2VTNk81d1JyNTdfN2JnV0htakh5VTJybWdENXQ0OTlrN2thdW1qb
+  google news -> yayinci: BULUNAMADI
+======================================================================
 [PIYASA] 2026-11-02 | European green flat steel demand remains subdued; construction provides pockets of interest
   link : https://eurometal.net/european-green-flat-steel-demand-remains-subdued-construction-provides-pockets-of-interest/?utm_source=rss&utm_medium=rss&utm_ca
   durum: 200  son adres: https://eurometal.net/european-green-flat-steel-demand-remains-subdued-construction-provides-pockets-of-interest/?utm_source=rss&utm_medium=rss&utm_ca
@@ -50,10 +46,6 @@
   sayfa tarihi : {'key': 'datePublished', 'value': '2026-11-02T15:35:45+01:00'}, {'key': 'datePublished', 'value': '2026-11-02T15:35:45+01:00'}
   metin: Skip to content EUROMETAL Expand / Collapse About EUROMETAL EUROMETAL Presidency EUROMETAL Statutes EUROMETAL Compliance Guidelines Certificate of Banking Details Members Expand / Collapse Become a Member Membership Statutes Regular Federation Members Regular Subscribers & Members Expand / Collapse Multi-Product & Proximity Steel Distribution Steel Trade Associations & Companies Flat SSC Distribut
   baslik-sayfa ortak sozcuk: 10/10 -> UYUMLU
-======================================================================
-[PIYASA] 2026-11-02 | Hoa Phat exports 8,000 tons of galvanized steel sheets to Japan, expanding its international market.
-  link : https://news.google.com/rss/articles/CBMipAFBVV95cUxOa0dIVGQ5Rk9jb09ycmFMSHRkaWlzbngtcmNpX0FIZXNtU2VTNk81d1JyNTdfN2JnV0htakh5VTJybWdENXQ0OTlrN2thdW1qb
-  google news -> yayinci: BULUNAMADI
 ======================================================================
 [PIYASA] 2026-11-02 | SunSirs: Constrained by Costs and Weakened Demand, the Market for Color Coated Sheets Was in a Narrow, Stagnan
   link : https://www.sunsirs.com/commodity-news/petail-37313.html

@@ -11,14 +11,6 @@
   link : https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zb1JoVG1BQ1FSRlp3Qk02Zl9CaTZ3ME9XLTktbW1rcXhBR0pkMDhLOTZfT0V5LWdwcXZScW5rYzFpS1FjVXhhWU53UzNXeHozR
   google news -> yayinci: BULUNAMADI
 ======================================================================
-[HABER] 2026-09-21 | POSCO to Build State-of-the-Art Galvanized Automotive Steel Sheet Plant, Bringing Together the Latest Automoti
-  link : https://newsroom.posco.com/en/posco-to-build-state-of-the-art-galvanized-automotive-steel-sheet-plant-bringing-together-the-latest-automotive-steel-te
-  durum: 200  son adres: https://newsroom.posco.com/en/posco-to-build-state-of-the-art-galvanized-automotive-steel-sheet-plant-bringing-together-the-latest-automotive-steel-te
-  sayfa basligi: POSCO to Build State-of-the-Art Galvanized Automotive Steel Sheet Plant, Bringing Together the Latest Automotive Steel Technologies – Official POSCO G
-  sayfa tarihi : {'key': 'datePublished', 'value': '2026-09-21T13:30:13+09:00'}, {'key': 'dateModified', 'value': '2026-09-21T13:35:44+09:00'}
-  metin: Article Press Center Press Release Image Gallery Business Industry Report People & Culture Open Search window Search in the Newsroom Clear Search Recommended HyREX Steel Lithium Secondary Battery AI Robots Search Close Menu Search Layer Close Layer Close Minimum 2 characters required. Ok Home Press Center Press Release POSCO to Build State-of-the-Art Galvanized Automotive Steel Sheet Plant, Bringi
-  baslik-sayfa ortak sozcuk: 11/11 -> UYUMLU
-======================================================================
 [HABER] 2026-09-01 | Japan's Chugai Ro delivers electric bright annealing line to Romania's Otelinox
   link : https://www.steelorbis.com/steel-news/latest-news/japans-chugai-ro-delivers-electric-bright-annealing-line-to-romanias-otelinox-1474287.htm
   durum: 200  son adres: https://www.steelorbis.com/steel-news/latest-news/japans-chugai-ro-delivers-electric-bright-annealing-line-to-romanias-otelinox-1474287.htm
@@ -35,6 +27,10 @@
   metin: English Türkçe Italiano 中文 | Login Menu Marketplace Global Marketplace Access to the listings of different steel products and bids without intermediaries and commissions. Steel Markets Steel Prices Daily Steel Prices Weekly Steel Prices Steel Price Analysis Tool Orbis Steel Index Futures Prices Steel Price Analyses Scrap & Raw Materials Tube and Pipe Flats and Slab Longs and Billet Products Scrap 
   baslik-sayfa ortak sozcuk: 6/6 -> UYUMLU
 ======================================================================
-[TEKNOLOJI] 2026-10-14 | KG Steel pushes to expand AI usage rate at annealing furnace to over 80%
-  link : https://news.google.com/rss/articles/CBMiVkFVX3lxTFB1dExHc2VaMEVwUWh5dkt2ZmlNSWFUS1l5eGtjVnRlYWpSTGxKZFpBaEZRY3NaSmV3eGZlZVZhNjYzWnVnYVBVYmtxQTJxR04xQ
-  google news -> yayinci: BULUNAMADI
+[TEKNOLOJI] 2026-08-20 | Vietnam's Hoa Sen launches new alloy-coated steel with enhanced corrosion resistance
+  link : https://www.steelorbis.com/steel-news/latest-news/vietnams-hoa-sen-launches-new-alloy-coated-steel-with-enhanced-corrosion-resistance-1471882.htm
+  durum: 200  son adres: https://www.steelorbis.com/steel-news/latest-news/vietnams-hoa-sen-launches-new-alloy-coated-steel-with-enhanced-corrosion-resistance-1471882.htm
+  sayfa basligi: Vietnam's Hoa Sen launches new alloy-coated steel with enhanced corrosion resistance
+  sayfa tarihi : {'key': 'datePublished', 'value': '2026-08-20T12:24:07+03:00'}, {'key': 'dateModified', 'value': '2026-08-20T00:00:00+03:00'}
+  metin: English Türkçe Italiano 中文 | Login Menu Marketplace Global Marketplace Access to the listings of different steel products and bids without intermediaries and commissions. Steel Markets Steel Prices Daily Steel Prices Weekly Steel Prices Steel Price Analysis Tool Orbis Steel Index Futures Prices Steel Price Analyses Scrap & Raw Materials Tube and Pipe Flats and Slab Longs and Billet Products Scrap 
+  baslik-sayfa ortak sozcuk: 7/7 -> UYUMLU
