@@ -4,7 +4,7 @@
  "atla": true,
  "son_gonderim": "2026-11-16",
  "deneme": true,
- "satir": 5,
+ "satir": 3,
  "nedenler": [],
  "yazar": {
   "saglayici": "gemini",
@@ -12,14 +12,22 @@
   "reddedilen_cumle": [
    {
     "baslik": "(piyasa) Vietnam considers coated steel anti-dumping duty review",
-    "neden": "kaynakta olmayan ozel ad: Ticaret"
+    "neden": "kaynakta olmayan ozel ad: İncelemeleri"
    }
   ],
-  "cumle_llm": 5,
+  "cumle_llm": 3,
   "cumle_kuralsal": 0,
   "supheli_cikarilan": 0
  },
  "elenen_satirlar": [
+  {
+   "baslik": "IMS expands its portfolio with force transducers for precise force measurement under deman",
+   "neden": "daha once gonderilmis (baska bolumde/yayinda)"
+  },
+  {
+   "baslik": "POSCO to Build State-of-the-Art Galvanized Automotive Steel Sheet Plant, Bringing Together",
+   "neden": "daha once gonderilmis (baska bolumde/yayinda)"
+  },
   {
    "baslik": "【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】",
    "neden": "Cince baslik, firma/hat okunamadi (tekrar denetlenemez)"
@@ -27,12 +35,10 @@
  ],
  "baglanti_dogrulanamayan": [],
  "email": "/home/runner/work/sogukradar/sogukradar/out/deneme_email.html",
- "uretildi": "2026-11-21T18:14:42.374682Z",
+ "uretildi": "2026-11-21T18:32:54.047904Z",
  "basliklar": [
   "Zhejiang Hengfeng hot tests cold rolling mill",
-  "IMS expands its portfolio with force transducers for precise force measurement under deman",
   "Gopani Industries Successfully Rolls First Prime Coil from New Cold Rolling Mill",
-  "Turkey's Isdemir develops high-quality steel production for defense industry and electrica",
-  "POSCO to Build State-of-the-Art Galvanized Automotive Steel Sheet Plant, Bringing Together"
+  "Turkey's Isdemir develops high-quality steel production for defense industry and electrica"
  ]
 }

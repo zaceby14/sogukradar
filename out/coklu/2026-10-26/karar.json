@@ -4,26 +4,36 @@
  "atla": false,
  "son_gonderim": "2026-11-16",
  "deneme": true,
- "satir": 6,
+ "satir": 3,
  "nedenler": [],
  "yazar": {
   "saglayici": "gemini",
   "llm_hatalar": [],
   "reddedilen_cumle": [],
-  "cumle_llm": 6,
+  "cumle_llm": 3,
   "cumle_kuralsal": 0,
   "supheli_cikarilan": 0
  },
- "elenen_satirlar": [],
+ "elenen_satirlar": [
+  {
+   "baslik": "IMS expands its portfolio with force transducers for precise force measurement under deman",
+   "neden": "daha once gonderilmis (baska bolumde/yayinda)"
+  },
+  {
+   "baslik": "POSCO to Build State-of-the-Art Galvanized Automotive Steel Sheet Plant, Bringing Together",
+   "neden": "daha once gonderilmis (baska bolumde/yayinda)"
+  },
+  {
+   "baslik": "Posco breaks ground on first new auto-steel coating line in 9 years, investing W480b in Gw",
+   "neden": "daha once gonderilmis (baska bolumde/yayinda)"
+  }
+ ],
  "baglanti_dogrulanamayan": [],
  "email": "/home/runner/work/sogukradar/sogukradar/out/deneme_email.html",
- "uretildi": "2026-11-21T18:13:28.776162Z",
+ "uretildi": "2026-11-21T18:43:56.426466Z",
  "basliklar": [
-  "IMS expands its portfolio with force transducers for precise force measurement under deman",
-  "Gopani Industries Successfully Rolls First Prime Coil from New Cold Rolling Mill",
   "Turkey's Isdemir develops high-quality steel production for defense industry and electrica",
-  "POSCO to Build State-of-the-Art Galvanized Automotive Steel Sheet Plant, Bringing Together",
-  "Posco breaks ground on first new auto-steel coating line in 9 years, investing W480b in Gw",
+  "Gopani Industries Successfully Rolls First Prime Coil from New Cold Rolling Mill",
   "Japan's Chugai Ro delivers electric bright annealing line to Romania's Otelinox"
  ]
 }
