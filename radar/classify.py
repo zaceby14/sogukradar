@@ -79,6 +79,9 @@ def _clean_firm(name):
     name = name.strip(" -,:;'’")
     if NOT_FIRM.match(name):
         return ""
+    # TURKCE EKLI SOZCUK FIRMA DEGIL (2026-11-21): "Açılışından önce, Nam Kim..."
+    if " " not in name and re.search(r"(ndan|nden|ında|inde|ları|leri|ıyla|iyle)$", name):
+        return ""
     return name
 
 

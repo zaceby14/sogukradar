@@ -3757,7 +3757,8 @@ def test_kurul2_deneme_incelemesi():
                        ("AM/NS India Develops 2 Million Tonne Cold Rolling Facility at Hazira", "AM/NS India"),
                        ("Jindal Stainless investing 900 crore to increase cold rolling capacity by FY28", "Jindal Stainless"),
                        ("JTL Industries Advances Maharashtra Expansion with Pickling Line Trial", "JTL Industries"),
-                       ("India's JIL orders pickling line", "JIL")]:
+                       ("India's JIL orders pickling line", "JIL"),
+                       ("Açılışından önce, Nam Kim Phu My Çelik Sac Fabrikası, piyasanın ihtiyaçlarını karşılamayı hedefliyor", "")]:
         eq(classify.detect_firm(bas), firma, "firma: " + bas[:40])
     # 3) kurum adi cevirisi kaynakta karsiligi varsa gecer, yoksa reddedilir
     kay = "EU's India CRC duty approach The European Commission's novel approach Kallanish"

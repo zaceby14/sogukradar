@@ -268,10 +268,13 @@ def _oy(madde):
     entry = os.environ.get("RADAR_FORM_ENTRY") or ""
     if not entry or not madde.get("anahtar"):
         return ""
-    return ('<span style="white-space:nowrap;font-size:12px;">'
-            '<a href="%s" style="color:#15803d;text-decoration:none;">&#128077;&nbsp;Faydalı</a>'
-            '&nbsp;&nbsp;&nbsp;<a href="%s" style="color:#9ca3af;text-decoration:none;">'
-            '&#128078;&nbsp;İlgisiz</a></span>' % (_e(tercih.form_link(entry, madde, "+")),
+    pill = ("display:inline-block;padding:7px 11px;border-radius:6px;text-decoration:none;"
+            "font-size:13px;font-weight:600;line-height:1.2;")
+    return ('<span style="white-space:nowrap;">'
+            '<a href="%%s" style="%scolor:#15803d;border:1px solid #bbf7d0;background:#f0fdf4;">'
+            '&#128077;&nbsp;Faydalı</a>&nbsp;'
+            '<a href="%%s" style="%scolor:#6b7280;border:1px solid #e5e7eb;background:#ffffff;">'
+            '&#128078;&nbsp;İlgisiz</a></span>' % (pill, pill) % (_e(tercih.form_link(entry, madde, "+")),
                          _e(tercih.form_link(entry, madde, "-"))))
 
 
@@ -351,16 +354,20 @@ def email_html(payload, ozet=None, tech_items=None, sayi=1):
         if rozet:
             alt += rozet + "&nbsp;&nbsp;"
         if url:
-            alt += ('<a href="%s" style="color:#1d4ed8;text-decoration:none;font-weight:600;">'
-                    'Kaynak&nbsp;&rarr;</a>' % _e(url))
+            # BUYUK, DOKUNULABILIR BAGLANTI (2026-11-21, kullanici: "link yerleri
+            # daha buyuk olsun"): dugme gorunumlu, telefonda parmakla rahat basilir.
+            alt += ('<a href="%s" style="display:inline-block;padding:8px 16px;background:%s;'
+                    'border-radius:6px;color:#ffffff;text-decoration:none;font-size:14px;'
+                    'font-weight:700;line-height:1.2;mso-padding-alt:0;">Haberi oku&nbsp;&rarr;</a>'
+                    % (_e(url), LACIVERT))
         h.append('<tr><td style="padding:0 24px 12px;"><table role="presentation" width="100%%" '
                  'cellpadding="0" cellspacing="0" style="border:1px solid %s;border-radius:8px;%s">'
                  '<tr><td style="padding:14px 16px;">'
                  '<div style="font-size:12px;color:%s;">%s</div>%s'
                  '<div style="font-size:15px;line-height:1.5;margin-top:4px;">%s</div>'
-                 '<table role="presentation" width="100%%" cellpadding="0" cellspacing="0" '
-                 'style="margin-top:10px;"><tr><td style="font-size:12px;">%s</td>'
-                 '<td align="right" style="font-size:12px;white-space:nowrap;">%s</td></tr></table>'
+                 # Tek satir, gerekirse alta kayar (telefonda tasma olmaz)
+                 '<div style="margin-top:12px;font-size:12px;line-height:2.4;">%s'
+                 '<span style="display:inline-block;">&nbsp;&nbsp;%s</span></div>'
                  '</td></tr></table></td></tr>'
                  % (CIZGI, arka, GRI, meta,
                     ('<div style="font-size:16px;font-weight:700;margin-top:3px;">%s</div>' % firma_html)
@@ -446,9 +453,18 @@ def email_html(payload, ozet=None, tech_items=None, sayi=1):
              'temper, tavlama, galvaniz/kaplama, boyama, teneke, dilme/boy kesme, merdane atölyesi, '
              'yüzey muayene, ölçüm ve hat otomasyonu, elektrik çeliği. Yayın tarihi kaynağın kendi '
              'beyanından okunur; doğrulanamayan haber alınmaz.</div></td></tr>' % (CIZGI, GRI, tarama))
-    h.append('<tr><td style="padding:12px 24px;text-align:center;font-size:11px;color:#9ca3af;'
-             'border-top:1px solid %s;">powered by <b style="color:#374151;">Zeynel Abidin Çopur</b>'
-             '</td></tr>' % CIZGI)
+    # IMZA BANDI (2026-11-21, kullanici: "powered by kismi buyuk ve profesyonel olsun")
+    h.append('<tr><td bgcolor="%s" style="background:%s;padding:26px 24px 24px;text-align:center;">'
+             '<div style="font-size:11px;letter-spacing:3px;text-transform:uppercase;color:#9fb3cf;">'
+             'powered by</div>'
+             '<div style="font-size:20px;font-weight:700;letter-spacing:.6px;color:#ffffff;'
+             'margin-top:6px;">Zeynel Abidin Çopur</div>'
+             '<table role="presentation" align="center" cellpadding="0" cellspacing="0" '
+             'style="margin:12px auto 0;"><tr><td width="44" height="2" bgcolor="#d4a24c" '
+             'style="background:#d4a24c;font-size:0;line-height:0;">&nbsp;</td></tr></table>'
+             '<div style="font-size:12px;color:#c7d3e3;margin-top:10px;">SoğukRadar &middot; '
+             'Soğuk Haddehane ve Nihai Hatlar Sektör &amp; Teknoloji Takibi</div>'
+             '</td></tr>' % (LACIVERT, LACIVERT))
     h.append('</table><!--[if mso]></td></tr></table><![endif]--></td></tr></table></body></html>')
     return "".join(h)
 
