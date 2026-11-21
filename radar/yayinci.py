@@ -52,8 +52,7 @@ def bul(baslik, fetch=None):
     for it in feeds.parse_feed(page):
         adres = temiz_adres(it.get("url", ""))
         # MSN/Yahoo da toplayicidir (2026-11-21: Jindal -> msn.com, sayfa bos)
-        if not adres.startswith("http") or _gn_mi(adres) or \
-                re.search(r"bing\.com|msn\.com|yahoo\.com|newsbreak|flipboard", adres):
+        if not adres.startswith("http") or taxonomy.TOPLAYICI.search(adres):
             continue
         if ayni_baslik(temiz, it.get("title", "")):
             return adres

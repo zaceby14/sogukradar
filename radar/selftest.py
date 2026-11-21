@@ -3807,6 +3807,25 @@ def test_kurul2_deneme_incelemesi():
     eq(yayinci.degistir(mm, log=lambda *a: None, fetch=sahte), 1, "Google News adresi degistirildi")
     eq((mm[0]["url"], mm[0]["url_toplayici"]), ("https://other.example/x", "https://news.google.com/rss/articles/X"),
        "eski adres saklanir")
+    # 5d) GENEL BAGLANTI KAPISI: piyasa/teknoloji adaylari da acilir; tarih tutmazsa duser
+    from . import baglanti
+    eski_f = baglanti.fetch
+    sayfa = lambda baslik, tarih: (True, '<html><head><title>%s</title><script type="application/ld+json">'
+                                   '{"datePublished": "%sT10:00:00+03:00"}</script></head><body><p>%s</p></body></html>'
+                                   % (baslik, tarih, baslik), {"final": None})
+    sayfalar = {"https://a.example/news/thailand-tinplate": sayfa("Thailand levies anti-dumping duty on tinplate", "2026-11-13"),
+                "https://a.example/news/eski-haber": sayfa("Korea recommends duties on galvanized steel", "2025-03-01"),
+                "https://a.example/news/baska": sayfa("Football results of the weekend league", "2026-11-14")}
+    try:
+        baglanti.fetch = lambda u, *a, **k: sayfalar[u]
+        ad = [{"baslik": "Thailand levies anti-dumping duty on tinplate", "tarih": "2026-11-13", "url": "https://a.example/news/thailand-tinplate"},
+              {"baslik": "Korea recommends duties on galvanized steel", "tarih": "2026-11-12", "url": "https://a.example/news/eski-haber"},
+              {"baslik": "Vietnam galvanized anti-dumping review accepted", "tarih": "2026-11-14", "url": "https://a.example/news/baska"}]
+        kalan, el = baglanti.maddeleri_dogrula(ad, log=lambda *a: None)
+        eq([m["url"][-9:] for m in kalan], ["-tinplate"], "acilan/basligi/tarihi tutan aday kalir; eski tarihli ve baska icerikli duser")
+    finally:
+        baglanti.fetch = eski_f
+    eq(bool(taxonomy.TOPLAYICI.search("https://www.msn.com/en-in/news/x")), True, "msn toplayicidir")
     # 6) BELIRSIZ rozeti gosterilmez
     eq("BELİRSİZ" in render._badge("Belirsiz"), True, "rozet fonksiyonu degismedi")
     # 7) dogrulanmayan piyasa maddesi Ingilizce basligiyla gitmez (yeterli Turkce varsa)

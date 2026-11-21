@@ -1375,6 +1375,11 @@ def watch_worthy(title):
 
 # Rapor/pazar arastirmasi satan siteler: Google News uzerinden geliyor,
 # icerikleri haber degil reklam (v4 kosusunda openPR sizdi).
+# HABER TOPLAYICI ADRESLERI (2026-11-21): yayinci degil; sayfasi dogrulanamaz.
+# baglanti.py (atla), yayinci.py (aday dislama) ayni listeyi kullanir.
+TOPLAYICI = re.compile(r"news\.google\.|/rss/articles/|bing\.com|msn\.com|yahoo\.com|"
+                       r"newsbreak|flipboard|feedly|inoreader")
+
 SPAM_PUBLISHER = re.compile(
     r"(openpr|prnewswire|einpresswire|globenewswire|marketwatch|"
     r"researchandmarkets|imarcgroup|marketsandmarkets|expertmarketresearch|"

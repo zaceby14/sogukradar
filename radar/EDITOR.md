@@ -659,3 +659,10 @@ görünmemesi ile "bakıldı, çıkmadı" aynı şey değildir:
 - Doğrulanmayan piyasa maddesi İngilizce başlıkla basılmaz; en az 2 doğrulanmış madde yoksa 2'ye tamamlanır (önce Türkçe başlıklı).
 - Teknoloji köşesi: son 120 gün önce; gönderilmiş satır/köşe başlıklarının varyantı girmez (`tech_gonderilen`); kaplama terimleri soğuk kanıt; "AI usage/rate/furnace" yenilik; ihracat/analiz/kâr yenilik değil.
 - Liste: taze satırlar hedefi doldursa da bulunan havuzundaki ≥15 puan güçlü aday en zayıf taze satırın yerine geçer (Hengfeng vakası).
+
+## 4r. Genel bağlantı kapısı (2026-11-21, kullanıcı: "tek seferlik olmasın")
+- `yayinci.py`: Google News adresli madde → aynı başlık Bing News RSS'te aranır, yayıncı adresi (toplayıcı değil) alınır; %80 başlık eşleşmesi şart, yoksa adres kalır.
+- `baglanti.maddeleri_dogrula`: teknoloji ve piyasa ADAYLARI da satırlarla aynı kapıdan geçer (404, ana sayfaya yönlenme, başka içerik).
+- `baglanti.kontrol` tarih tutarlılığı: sayfanın beyan ettiği yayın tarihi maddeden >7 gün farklıysa düşer.
+- `taxonomy.TOPLAYICI`: toplayıcı alan adları tek listede.
+- `tools/link_rapor.py` + `link-rapor.yml`: isteğe bağlı insan okunur rapor (aynı kuralları kullanır).

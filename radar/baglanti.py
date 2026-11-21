@@ -48,7 +48,7 @@ def _kok_ya_da_liste(url, son):
 def kontrol(r):
     """(durum, neden). durum: 'tamam' | 'kotu' | 'dogrulanamadi' | 'atlandi'."""
     url = r.get("url") or ""
-    if any(a in url.lower() for a in _ATLA):
+    if any(a in url.lower() for a in _ATLA) or taxonomy.TOPLAYICI.search(url.lower()):
         return "atlandi", "toplayici adresi"
     ok, page, info = fetch(url)
     if not ok:
@@ -66,7 +66,52 @@ def kontrol(r):
         if ortak < max(2, int(0.4 * len(baslik))):
             return "kotu", ("sayfa baska icerik gosteriyor (ortak sozcuk %d/%d)"
                             % (ortak, len(baslik)))
+    # TARIH TUTARLILIGI (2026-11-21): sayfa kendi yayin tarihini beyan ediyorsa
+    # maddenin tarihiyle 7 gunden fazla farkli olamaz (yanlis/eski haber).
+    sayfa_t = _sayfa_tarihi(doc)
+    if sayfa_t and r.get("tarih"):
+        try:
+            import datetime as _dt
+            fark = abs((_dt.date.fromisoformat(sayfa_t) - _dt.date.fromisoformat(r["tarih"][:10])).days)
+            if fark > 7:
+                return "kotu", "sayfa tarihi %s, madde tarihi %s" % (sayfa_t, r["tarih"][:10])
+        except ValueError:
+            pass
     return "tamam", ""
+
+
+def _sayfa_tarihi(doc):
+    """Sayfanin beyan ettigi YAYIN tarihi (json-ld datePublished / article:published_time)."""
+    for d in doc.get("jsonld_dates") or []:
+        if isinstance(d, dict) and d.get("key") == "datePublished":
+            m = re.match(r"(\d{4}-\d{2}-\d{2})", str(d.get("value") or ""))
+            if m:
+                return m.group(1)
+    for k, v in (doc.get("meta") or {}).items():
+        if "published_time" in k or k in ("datepublished", "pubdate"):
+            m = re.match(r"(\d{4}-\d{2}-\d{2})", str(v or ""))
+            if m:
+                return m.group(1)
+    return None
+
+
+def maddeleri_dogrula(maddeler, alan="baslik", log=print):
+    """Teknoloji/piyasa ADAYLARI icin ayni kapi (2026-11-21, kullanici: kontroller
+    tek seferlik olmasin, her duruma uysun). Toplayici adresi once yayinci
+    adresine cevrilir; kotu (404, baska icerik, tarih uyusmazligi) aday dusulur.
+    -> (kalan, elenen[(baslik, neden)])"""
+    from . import yayinci
+    yayinci.degistir(maddeler, alan=alan, log=log)
+    kalan, elenen = [], []
+    for m in maddeler or []:
+        b = m.get(alan) or m.get("baslik") or ""
+        durum, neden = kontrol(dict(m, baslik=b))
+        if durum == "kotu":
+            elenen.append((b, "baglanti: " + neden))
+            log("  aday baglantisi kotu (%s): %s" % (neden, b[:60]))
+            continue
+        kalan.append(m)
+    return kalan, elenen
 
 
 def dogrula(rows, log=print):

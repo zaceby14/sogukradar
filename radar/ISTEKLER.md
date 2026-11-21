@@ -57,6 +57,14 @@ en yeni tarihli istek geçerlidir. Teknik ayrıntı: `radar/EDITOR.md`.
 - Herkes oy verebilsin; algoritma beğenilen türe odaklansın.
 - Bir maddeye **faydalı** oyu geldiyse **faydasız** oylar dikkate alınmasın.
 
+## 7b. Geliştirme ilkesi
+- Düzeltmeler **tek seferlik olmasın**; her hafta, her maddeye otomatik uygulanan
+  genel kural olsun (2026-11-21). Bir vaka bulunduğunda: kural + test + eski
+  verilerde gerileme ölçümü.
+- Bültendeki **her link** (haber, teknoloji, piyasa) gönderimden önce açılır:
+  toplayıcı (Google News/Bing/MSN) adresi yayıncı adresine çevrilir, sayfa
+  başlığı ve yayın tarihi maddeyle tutmazsa madde düşer (2026-11-21).
+
 ## 8. Deneme ve hafıza
 - Deneme koşuları haber tüketmez (hafızaya yazmaz); sonraki haftaları etkilemez.
 - Gerçek gönderimde gidenler bir daha gönderilmez.

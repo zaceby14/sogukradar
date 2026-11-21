@@ -1019,6 +1019,13 @@ def cmd_otomatik(a):
     _st_kopya = json.loads(json.dumps(st))          # deneme hafizaya yazmasin
     payload["piyasa_adaylari"] = _piyasa.sirala(
         _piyasa.havuz_guncelle(_st_kopya, payload.get("piyasa_pool") or [], bugun), bugun, st)
+    # ADAY BAGLANTILARI DA DOGRULANIR (2026-11-21): teknoloji ve piyasa
+    # adaylari satirlarla AYNI kapidan gecer; dil modeli yalniz acilabilen,
+    # basligi ve tarihi tutan adaylar arasindan secer.
+    if os.environ.get("RADAR_BAGLANTI", "1") != "0":
+        payload["tech_pool"], e1 = baglanti.maddeleri_dogrula(payload["tech_pool"][:8])
+        payload["piyasa_adaylari"], e2 = baglanti.maddeleri_dogrula(payload["piyasa_adaylari"][:10])
+        elenen += e1 + e2
     payload["tercih_ozeti"] = _tercih.ozet_metni(st)
     # Oy baglantilari yalniz form ve yanit tablosu HAZIRSA basilir.
     if _tercih.FORM_CSV and os.environ.get("RADAR_BAGLANTI", "1") != "0":
@@ -1037,10 +1044,6 @@ def cmd_otomatik(a):
             elenen.append((r.get("baslik", ""), "Cince baslik, firma/hat okunamadi (tekrar denetlenemez)"))
     doc = yazar.ozet_hazirla(payload)
     rapor = doc.pop("_rapor", {})
-    if os.environ.get("RADAR_BAGLANTI", "1") != "0":
-        from . import yayinci
-        yayinci.degistir(doc.get("teknolojiler"), alan="konu")
-        yayinci.degistir(doc.get("piyasa"))
     # CINCE/JAPONCA BASLIKLI SATIR yalniz DOGRULANMIS Turkce cumleyle girer
     # (2026-11-03): okuyucu basligi okuyamaz; kuralsal cumle "Bir uretici..."
     # demekten oteye gecemiyor. LLM cumlesi dogrulamadan gecmediyse satir cikar.
