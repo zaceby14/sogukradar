@@ -16,7 +16,7 @@ import os
 import re
 import sys
 
-from . import collect, http, kume, render, score, state, taxonomy
+from . import collect, dates, http, kume, render, score, state, taxonomy
 from .config import (HEDEF_SATIR, OUT, REZERV_DAR_GUN, REZERV_ESIK,
                      REZERV_KULLANIM_GUN, REZERV_MAX, TARGET_ROWS,
                      VERSION)
@@ -583,6 +583,9 @@ def _rezerv_hala_gecerli(r):
         return False
     if taxonomy.SPAM_PUBLISHER.search(taxonomy.fold((r.get("url") or "") + " " + (r.get("kaynak") or ""))):
         return False
+    # ESKI HABERE YAPISMIS YENI TARIH (2026-11-21, Habas 2023 vakasi)
+    if dates.eski_haber_mi(t, r.get("url"), r.get("tarih"), _bugun()):
+        return False
     ok, _ = taxonomy.in_scope(t)
     if ok and taxonomy.haber_olayi(t):
         return True
@@ -994,6 +997,8 @@ def _kose_adaylari(payload, st):
             continue
         if (t.get("tarih") or "") > _bugun().isoformat():
             continue                                   # gelecek tarihli aday
+        if dates.eski_haber_mi(t.get("baslik"), t.get("url"), t.get("tarih"), _bugun()):
+            continue                                   # eski habere yeni tarih
         if t.get("url") in satir_url or any(taxonomy.similar_titles(t.get("baslik", ""), b)
                                             for b in satir_bas):
             continue
@@ -1047,6 +1052,17 @@ def cmd_otomatik(a):
         if (r.get("tarih") or "") > gun_s:
             payload["rows"].remove(r)
             elenen.append((r.get("baslik", ""), "gelecek tarih %s" % r.get("tarih")))
+    # ESKI HABER KAPISI (2026-11-21, Habas vakasi): Bing News 2023 tarihli
+    # Kallanish haberini 11.11.2026 tarihiyle verdi; adres '-1223' (Aralik 2023)
+    # ile bitiyordu, baslikta 'by 2024' vardi. HER bolume uygulanir.
+    for r in list(payload["rows"]):
+        neden = dates.eski_haber_mi(r.get("baslik"), r.get("url"), r.get("tarih"), bugun)
+        if neden:
+            payload["rows"].remove(r)
+            elenen.append((r.get("baslik", ""), "eski haber: " + neden))
+    for _k in ("tech_pool", "piyasa_pool"):
+        payload[_k] = [m for m in payload.get(_k) or []
+                       if not dates.eski_haber_mi(m.get("baslik"), m.get("url"), m.get("tarih"), bugun)]
     # SON TEKRAR KAPISI (2026-11-21, coklu deneme): gonderilmis HER baslik
     # (haber, teknoloji, piyasa) her bolume karsi denetlenir. IMS kuvvet olcer
     # W45'te koseden gitmisti, havuzdan LISTE satiri olarak geri geliyordu.

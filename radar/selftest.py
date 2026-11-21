@@ -3854,6 +3854,23 @@ def test_kurul2_deneme_incelemesi():
                         {"baslik": "Vietnam accepts review request for AD duties on Chinese galvanized steel", "tarih": "2026-11-18"}),
        False, "farkli tarafin karari ayri konudur")
     eq(bool(render.ABONELIK.search("https://www.kallanish.com/en/news/x")), True, "abonelik duvari etiketi")
+    # 5f) ESKI HABERE YAPISMIS YENI TARIH (Habas 2023 vakasi)
+    from . import dates as _d
+    T = dt.date(2026, 11, 21)
+    eq(bool(_d.eski_haber_mi("Turkey's Habas partners with Danieli for CR, tin plate complex by 2024",
+                             "https://www.kallanish.com/en/news/steel/market-reports/article-details/turkeys-habas-partners-with-danieli-for-cr-tin-plate-complex-by-2024-1223/",
+                             "2026-11-11", T)), True, "Kallanish -1223 = Aralik 2023 -> eski haber")
+    eq(_d.eski_haber_mi("Zhejiang Hengfeng hot tests cold rolling mill",
+                        "https://www.kallanish.com/en/news/steel/market-reports/article-details/zhejiang-hengfeng-hot-tests-cold-rolling-mill-1126/",
+                        "2026-11-12", T), None, "Kallanish -1126 guncel")
+    eq(bool(_d.eski_haber_mi("Habas contracts Danieli for CRC, tinplate complex", "https://a.com/news/2023/12/habas", "2026-11-11", T)),
+       True, "/2023/12/ adres -> eski")
+    eq(bool(_d.eski_haber_mi("X to finish new galvanizing line by 2024", "https://a.com/x", "2026-11-11", T)),
+       True, "baslikta gecmis hedef yili")
+    eq(_d.eski_haber_mi("Jindal Stainless to raise capacity to 2.67 MT by FY28", "https://a.com/x", "2026-11-13", T),
+       None, "gelecek hedef yili sorun degil")
+    eq(_d.eski_haber_mi("Investment announced in 2025 starts production", "https://a.com/x", "2026-11-13", T),
+       None, "'in 2025' hedef degil, elenmez")
     # 6) BELIRSIZ rozeti gosterilmez
     eq("BELİRSİZ" in render._badge("Belirsiz"), True, "rozet fonksiyonu degismedi")
     # 7) dogrulanmayan piyasa maddesi Ingilizce basligiyla gitmez (yeterli Turkce varsa)

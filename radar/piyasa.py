@@ -185,6 +185,9 @@ def havuz_guncelle(st, taze, bugun, gun=21):
             continue
         if m.get("tarih", "") > bugun.isoformat():         # gelecek tarihli aday
             continue
+        from . import dates as _d
+        if _d.eski_haber_mi(m.get("baslik"), m.get("url"), m.get("tarih"), bugun):  # eski habere yeni tarih
+            continue
         if taxonomy.SPAM_PUBLISHER.search(taxonomy.fold((m.get("kaynak") or "") + " " + (m.get("url") or ""))):
             continue
         if any(ayni_piyasa_haberi(m["baslik"], x["baslik"]) for x in havuz.values()):

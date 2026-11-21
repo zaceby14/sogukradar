@@ -666,3 +666,9 @@ görünmemesi ile "bakıldı, çıkmadı" aynı şey değildir:
 - `baglanti.kontrol` tarih tutarlılığı: sayfanın beyan ettiği yayın tarihi maddeden >7 gün farklıysa düşer.
 - `taxonomy.TOPLAYICI`: toplayıcı alan adları tek listede.
 - `tools/link_rapor.py` + `link-rapor.yml`: isteğe bağlı insan okunur rapor (aynı kuralları kullanır).
+
+## 4s. Eski habere yapışmış yeni tarih (2026-11-21, Habaş vakası)
+- Bing News, Kallanish'in Aralık 2023 tarihli Habaş–Danieli haberini 11.11.2026 tarihiyle verdi; bültene "güncel" diye girdi. Kullanıcı yakaladı.
+- `dates.eski_haber_mi`: (1) adresteki yıl-ay (/2023/12/, 20231205, Kallanish -MMYY) madde tarihinden >2 ay eskiyse; (2) başlıkta geçmiş hedef yılı ("by 2024", "2024 yılına kadar") varsa madde düşer.
+- Her yerde uygulanır: taze satırlar ve havuzlar (`_rezerv_hala_gecerli`), teknoloji adayları, piyasa havuzu, otomatik editörün son kapısı.
+- Ölçüm: geçmiş 248 maddede yanlış alarm yok; havuzdaki 3 eski haber daha yakalandı (Fives–Lusosider 2018, USSK–Tenova 2019, Sarıtaş Mayıs 2026).

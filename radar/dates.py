@@ -174,6 +174,56 @@ def aist_tarih(url, today=None):
     return d.isoformat() if d <= today else None
 
 
+_URL_YM = re.compile(r"/(20\d\d)/(0[1-9]|1[0-2])(?:/|-|$)")
+_URL_YMD = re.compile(r"(?<!\d)(20\d\d)[-_]?(0[1-9]|1[0-2])[-_]?(0[1-9]|[12]\d|3[01])(?!\d)")
+_KALLANISH = re.compile(r"kallanish\.com/.*-(0[1-9]|1[0-2])(\d\d)/?(?:[?#].*)?$")
+
+
+def url_ay(url):
+    """Adresin kendisinin soyledigi YIL-AY (yoksa None). Yalniz kati kaliplar:
+    /2023/12/, 20231205, Kallanish'in sonek kodu -MMYY (-1223 = Aralik 2023).
+    2026-11-21 Habas vakasi: Bing News 2023 haberini 11.11.2026 tarihiyle
+    verdi; adres '-1223' ile bitiyordu."""
+    u = url or ""
+    m = _KALLANISH.search(u)
+    if m:
+        return 2000 + int(m.group(2)), int(m.group(1))
+    m = _URL_YM.search(u)
+    if m:
+        return int(m.group(1)), int(m.group(2))
+    m = _URL_YMD.search(re.sub(r"^https?://[^/]+", "", u))
+    if m:
+        return int(m.group(1)), int(m.group(2))
+    return None
+
+
+# Yalniz HEDEF bildiren kaliplar ("by 2024", "until 2025", "2024 yilina kadar");
+# "in 2025" belirsiz (gecmis olayi anlatabilir) - kullanilmaz.
+_HEDEF_YIL = re.compile(r"\b(?:by|until|till|bis)\s+(?:end[- ]?(?:of\s+)?|fy\s?)?'?(20\d\d)\b"
+                        r"|\b(20\d\d)\s+y[iı]l[iı]na\s+kadar", re.I)
+
+
+def eski_haber_mi(baslik, url, tarih, today=None):
+    """Maddenin tarihi ESKI bir habere mi yapistirilmis? Neden metni ya da None.
+    1) Adresteki yil-ay, madde tarihinden 2 aydan fazla eski;
+    2) Baslikta hedef olarak verilen yil ('by 2024') bugunun yilindan kucuk."""
+    try:
+        t = dt.date.fromisoformat((tarih or "")[:10])
+    except ValueError:
+        t = None
+    ua = url_ay(url)
+    if ua and t:
+        fark = (t.year - ua[0]) * 12 + (t.month - ua[1])
+        if fark > 2:
+            return "adresteki tarih %d-%02d, madde tarihi %s" % (ua[0], ua[1], tarih[:10])
+    today = today or dt.date.today()
+    for y1, y2 in _HEDEF_YIL.findall(baslik or ""):
+        y = y1 or y2
+        if int(y) < today.year:
+            return "baslikta gecmis hedef yili (%s)" % y
+    return None
+
+
 def month_from_url(url):
     """Sadece yil/ay veren adresler icin: ayin 1'i DEGIL, None doner.
     Gun bilinmiyorsa tarih yok sayilir - uydurma yapilmaz."""
