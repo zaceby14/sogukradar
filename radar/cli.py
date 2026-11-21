@@ -948,7 +948,7 @@ def _kose_adaylari(payload, st):
     satir_bas = [r.get("baslik", "") for r in payload.get("rows") or []]
     # GONDERILMIS HABERIN VARYANTI DA KOSEYE GIRMEZ (2026-11-21, kurul: Dongkuk
     # CM uc ayri anahtarla havuzdaydi; tech_seen yalniz tam anahtari tutuyor).
-    satir_bas += list(st.get("son_basliklar") or [])
+    satir_bas += [x.get("b", "") if isinstance(x, dict) else str(x) for x in st.get("son_basliklar") or []]
     satir_bas += [x.get("b", "") for x in st.get("tech_gonderilen") or []]
     havuz, anahtarlar = [], set()
     for t in list(payload.get("tech_pool") or []) + list(st.get("tech_rezerv") or []):

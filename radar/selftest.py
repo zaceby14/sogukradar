@@ -3524,8 +3524,13 @@ def test_elle_besleme_kanali():
         # baska bir haberin tarihini bu basliga yapistirir.
         a = "SMS upgrades Hyundai Steel galvanising line"
         b = "Ternium contracts Fives for new galvanizing line"
-        eq(taxonomy.similar_titles(a, b), True,
-           "tekrar olcutu bu ikiliyi ayni sayar - vakanin dayanagi")
+        # 2026-11-21: sektor kalibi ("line") artik tek basina tekrar saymaz.
+        eq(taxonomy.similar_titles(a, b), False,
+           "iki ayri firmanin galvaniz hatti haberi ayni sayilmaz")
+        eq(taxonomy.similar_titles("Zhejiang Hengfeng hot tests cold rolling mill",
+                                   "SMS group receives final acceptance for cold plate leveler at "
+                                   "Outokumpu heavy plate rolling mill in Sweden"), False,
+           "yalniz cold+mill paylasan iki haber ayni sayilmaz (Hengfeng vakasi)")
         eq(col._ayni_baslik(a, b), False,
            "tarih olcutu ayni saymamali")
         eq(col._ayni_baslik(a, "SMS upgrades Hyundai Steel galvanising line"),
@@ -3782,6 +3787,12 @@ def test_kurul2_deneme_incelemesi():
     eq(taxonomy.yenilik_mi("[SMM Analysis] Galvanized sheet profits develop"), False, "kar analizi yenilik degil")
     eq(cli._soguk_kanit("Tangshan Yinghai advances AI-Zn coated steel project"), True, "kaplama terimi soguk kanit")
     eq(cli._soguk_kanit("KCC develops color steel coating that lasts up to 30 years"), True, "renkli sac kaplama")
+    # 5b) kose adaylari: hafizadaki son_basliklar SOZLUK tutulur (2026-11-21 deneme cokmesi)
+    stk = {"tech_seen": {}, "son_basliklar": [{"b": "Dongkuk CM develops color-coated steel sheet for AI data centers", "t": "2026-11-12"}],
+           "tech_gonderilen": [{"b": "Posco and Hyundai develop novel electrical steel", "t": "2026-07-09"}], "tech_rezerv": []}
+    pl = {"today": "2026-11-21", "rows": [], "tech_pool": [
+        {"anahtar": "tech:1", "tarih": "2026-11-13", "baslik": "Dongkuk CM Develops Color-Coated Steel Sheet to Tackle Condensation in AI Data Centers"}]}
+    eq([t["anahtar"] for t in cli._kose_adaylari(pl, stk)], [], "gonderilmis satirin varyanti koseye girmez (cokmeden)")
     # 6) BELIRSIZ rozeti gosterilmez
     eq("BELİRSİZ" in render._badge("Belirsiz"), True, "rozet fonksiyonu degismedi")
     # 7) dogrulanmayan piyasa maddesi Ingilizce basligiyla gitmez (yeterli Turkce varsa)

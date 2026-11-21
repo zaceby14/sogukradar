@@ -1227,6 +1227,9 @@ _COMMON6 = {"turkiye", "almanya", "hindistan", "yatirim", "kapasite", "tesisi",
             "genisletme", "kapasitesi", "artirma"}
 
 
+_SEKTOR_KALIP = {"cold", "mill", "mills", "hot", "plate", "soguk"}
+
+
 def title_tokens(title):
     return {w for w in fold(title).replace("'", " ").split()
             if len(w) > 3 and w not in _WATCH_STOP}
@@ -1264,7 +1267,11 @@ def similar_titles(a, b, esik=0.5):
     # VARSA (Hydnum vakasi - tek ayirt edici ad + zayif ortusme) eski
     # davranis korunur; HIC yoksa en az dort ayirt edici ortak kelime
     # aranir.
-    ayirt_edici = {w for w in ta & tb if w not in _COMMON6}
+    # SEKTOR KALIBI AYIRT EDICI DEGIL (2026-11-21, kurul): "Zhejiang Hengfeng
+    # hot tests cold rolling mill" ile "SMS ... cold plate leveler at Outokumpu's
+    # heavy plate rolling mill" yalniz cold+mill paylasip AYNI sayildi; gercek
+    # haber listeden dustu.
+    ayirt_edici = {w for w in ta & tb if w not in _COMMON6 and w not in _SEKTOR_KALIP}
     if not ayirt_edici:
         return False
     return ortak >= 4 or oran >= esik
