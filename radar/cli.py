@@ -368,6 +368,28 @@ def _imza_carpisti(r, secili, gecmis):
     return False
 
 
+def _ayni_olay(a, ta, b, tb):
+    """Gonderilmis bir maddeyle AYNI OLAY mi? (2026-11-21, coklu deneme)
+    1) baslik benzer VE hat turu celismiyor (Jindal soguk hadde yatirimi !=
+       Jindal galvaniz hatti devreye alma);
+    2) DIL FARKLI OLSA DA: ayni firma + ayni hat turu + 45 gun icinde (POSCO'nun
+       ayni galvaniz hatti haberi Turkce ve Ingilizce iki ayri yayinda)."""
+    from . import classify as _cls
+    ha, hb = taxonomy.match_line(a), taxonomy.match_line(b)
+    hat_celisir = ha != "Belirsiz" and hb != "Belirsiz" and ha != hb
+    if taxonomy.similar_titles(a, b) and not hat_celisir:
+        return True
+    if ha == "Belirsiz" or ha != hb:
+        return False
+    fa, fb = taxonomy.fold(_cls.detect_firm(a)), taxonomy.fold(_cls.detect_firm(b))
+    if not fa or fa != fb:
+        return False
+    try:
+        return abs((dt.date.fromisoformat(ta[:10]) - dt.date.fromisoformat(tb[:10])).days) <= 45
+    except ValueError:
+        return False
+
+
 _BUGUN = [None]
 
 
@@ -1028,17 +1050,25 @@ def cmd_otomatik(a):
     # SON TEKRAR KAPISI (2026-11-21, coklu deneme): gonderilmis HER baslik
     # (haber, teknoloji, piyasa) her bolume karsi denetlenir. IMS kuvvet olcer
     # W45'te koseden gitmisti, havuzdan LISTE satiri olarak geri geliyordu.
-    gonderilen = [x.get("b", "") for k in ("son_basliklar", "tech_gonderilen", "piyasa_gonderilen")
-                  for x in (st.get(k) or []) if isinstance(x, dict)]
+    gonderilen = [x for k in ("son_basliklar", "tech_gonderilen", "piyasa_gonderilen")
+                  for x in (st.get(k) or []) if isinstance(x, dict) and x.get("b")]
 
-    def _gonderildi(b):
-        return any(taxonomy.similar_titles(b or "", g) for g in gonderilen if g)
+    def _gonderildi(b, tarih=""):
+        return any(_ayni_olay(b or "", tarih, g.get("b", ""), g.get("t", "")) for g in gonderilen)
     for r in list(payload["rows"]):
-        if _gonderildi(r.get("baslik")):
+        if _gonderildi(r.get("baslik"), r.get("tarih", "")):
             payload["rows"].remove(r)
             elenen.append((r.get("baslik", ""), "daha once gonderilmis (baska bolumde/yayinda)"))
-    payload["tech_pool"] = [t for t in payload.get("tech_pool") or [] if not _gonderildi(t.get("baslik"))]
-    payload["piyasa_pool"] = [m for m in payload.get("piyasa_pool") or [] if not _gonderildi(m.get("baslik"))]
+    payload["tech_pool"] = [t for t in payload.get("tech_pool") or []
+                            if not _gonderildi(t.get("baslik"), t.get("tarih", ""))]
+    payload["piyasa_pool"] = [m for m in payload.get("piyasa_pool") or []
+                              if not _gonderildi(m.get("baslik"), m.get("tarih", ""))]
+    # Havuzdan gelen satirlarin firma adi GUNCEL kuralla temizlenir
+    # ("Gopani Industries Successfully" eski kuralla kaydedilmisti).
+    from . import classify as _cls
+    for r in payload["rows"]:
+        if r.get("firma"):
+            r["firma"] = _cls._clean_firm(r["firma"]) or r["firma"]
     payload["tech_pool"] = [t for t in payload.get("tech_pool") or [] if (t.get("tarih") or "") <= gun_s]
     payload["piyasa_pool"] = [m for m in payload.get("piyasa_pool") or [] if (m.get("tarih") or "") <= gun_s]
     # BAGLANTI DOGRULAMA (2026-11-02, "ilk link hatali"): satirlar postaya

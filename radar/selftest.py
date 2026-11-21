@@ -3841,6 +3841,12 @@ def test_kurul2_deneme_incelemesi():
         eq((baglanti.kontrol(rr)[0], rr["tarih"]), ("tamam", "2026-10-10"), "sayfanin yayin tarihi esas alinir")
     finally:
         baglanti.fetch = eski_f
+    eq(cli._ayni_olay("Jindal Stainless investing 900 crore to increase cold rolling capacity", "2026-11-13",
+                      "Jindal India Commissions Revamped Galvanising Line, Boosts Capacity", "2026-10-27"),
+       False, "ayni firma, farkli hat -> farkli olay")
+    eq(cli._ayni_olay("POSCO to Build State-of-the-Art Galvanized Automotive Steel Sheet Plant", "2026-09-21",
+                      "POSCO, Otomotiv Çeliği İçin 359 Milyon Dolarlık Yeni Galvanizleme Hattı Kuruyor", "2026-09-24"),
+       True, "farkli dilde ayni olay (firma+hat+45 gun)")
     # 6) BELIRSIZ rozeti gosterilmez
     eq("BELİRSİZ" in render._badge("Belirsiz"), True, "rozet fonksiyonu degismedi")
     # 7) dogrulanmayan piyasa maddesi Ingilizce basligiyla gitmez (yeterli Turkce varsa)
