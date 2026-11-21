@@ -4,22 +4,31 @@
  "atla": true,
  "son_gonderim": "2026-11-16",
  "deneme": true,
- "satir": 6,
+ "satir": 5,
  "nedenler": [],
  "yazar": {
   "saglayici": "gemini",
   "llm_hatalar": [],
-  "reddedilen_cumle": [],
-  "cumle_llm": 6,
+  "reddedilen_cumle": [
+   {
+    "baslik": "(haftalik ozet)",
+    "neden": "kaynakta olmayan ozel ad: Ar-Ge"
+   }
+  ],
+  "cumle_llm": 5,
   "cumle_kuralsal": 0,
   "supheli_cikarilan": 0
  },
- "elenen_satirlar": [],
+ "elenen_satirlar": [
+  {
+   "baslik": "【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】",
+   "neden": "Cince baslik, firma/hat okunamadi (tekrar denetlenemez)"
+  }
+ ],
  "baglanti_dogrulanamayan": [],
  "email": "/home/runner/work/sogukradar/sogukradar/out/deneme_email.html",
- "uretildi": "2026-11-21T17:06:27.178679Z",
+ "uretildi": "2026-11-21T18:07:42.983703Z",
  "basliklar": [
-  "Habas contracts Danieli for CRC, tinplate complex",
   "KG Steel completes W38b PLTCM upgrade, targets output of over 2 million tons",
   "Zhejiang Hengfeng hot tests cold rolling mill",
   "SAIL's Bokaro steel mill develops NGO grade special steel for the first time",

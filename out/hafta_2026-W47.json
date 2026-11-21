@@ -1,34 +1,6 @@
 {
  "rows": [
   {
-   "tarih": "2026-11-11",
-   "firma": "Habas",
-   "ulke": "Turkiye",
-   "hat": "Teneke hatti (ETL)",
-   "asama": "Sozlesme",
-   "tedarikci": "Danieli",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "Habas contracts Danieli for CRC, tinplate complex",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgs_kallanish",
-   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/turkeys-habas-partners-with-danieli-for-cr-tin-plate-complex-by-2024-1223/",
-   "tarih_kaynagi": "rss",
-   "lead": "It is only available for active subscribers and clients currently on trial. To continue reading, see the options below.",
-   "eksik": [],
-   "anahtar": "e97259c8398df9f6",
-   "kategori": "Hat",
-   "olaylar": [
-    "danieli|fu|Turkiye|Teneke hatti (ETL)",
-    "danieli|hat|Teneke hatti (ETL)|Sozlesme",
-    "danieli|ulke|Turkiye|Sozlesme",
-    "habas|fu|Turkiye|Teneke hatti (ETL)",
-    "habas|hat|Teneke hatti (ETL)|Sozlesme",
-    "habas|ulke|Turkiye|Sozlesme"
-   ],
-   "puan": 79.0
-  },
-  {
    "tarih": "2026-11-19",
    "firma": "KG Steel",
    "ulke": "",
@@ -104,6 +76,34 @@
    "puan": 52.6
   },
   {
+   "anahtar": "90e30cb4756c40e2",
+   "asama": "Ilk urun",
+   "baslik": "【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】",
+   "eksik": [
+    "firma",
+    "ulke",
+    "hat",
+    "tarih?"
+   ],
+   "firma": "",
+   "hat": "Belirsiz",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "SMM (Shanghai Metals)",
+   "kaynak_id": "smm",
+   "lead": "",
+   "olaylar": [
+    "|hat|Belirsiz|Ilk urun"
+   ],
+   "puan": 47.0,
+   "tarih": "2026-11-05",
+   "tarih_kaynagi": "liste",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.metal.com/en/newscontent/104207357-纽柯在南卡罗来纳州新建50万吨年汽车板镀锌线产出首卷优质卷板"
+  },
+  {
    "tarih": "2026-11-19",
    "firma": "AM/NS India",
    "ulke": "Hindistan",
@@ -160,14 +160,14 @@
  ],
  "stats": {
   "kaynak": 369,
-  "erisilemeyen": 15,
-  "ham": 4483,
-  "on_eleme_gecti": 475,
+  "erisilemeyen": 14,
+  "ham": 4531,
+  "on_eleme_gecti": 476,
   "makale_acildi": 220,
-  "tarihsiz_elendi": 92,
-  "pencere_disi": 335,
-  "kapsam_disi": 3973,
-  "tekrar": 68,
+  "tarihsiz_elendi": 90,
+  "pencere_disi": 340,
+  "kapsam_disi": 4019,
+  "tekrar": 66,
   "kabul": 8,
   "gnews_tarih": 0
  },
@@ -183,10 +183,6 @@
   [
    "Steel Radar",
    "HTTP 403"
-  ],
-  [
-   "SteelGuru",
-   "URLError: <urlopen error timed out>"
   ],
   [
    "BigMint (SteelMint)",
@@ -624,12 +620,12 @@
   "new.abb.com": {
    "istek": 3,
    "hiz_siniri": 2,
-   "sogutmada": false
+   "sogutmada": true
   },
   "www.cognex.com": {
    "istek": 2,
    "hiz_siniri": 2,
-   "sogutmada": false
+   "sogutmada": true
   }
  },
  "tech_pool": [
@@ -777,14 +773,6 @@
    "lead": "The European Commission announced on the 16th that it will impose anti-dumping duties on cold-rolled steel sheet from Japan and four other ..."
   },
   {
-   "anahtar": "piyasa:e2ecfb5deeda9fec",
-   "tarih": "2026-11-16",
-   "baslik": "EU to impose tariffs on cold-rolled flat steel from five countries",
-   "url": "https://www.msn.com/en-us/money/economy/eu-to-impose-tariffs-on-cold-rolled-flat-steel-from-five-countries/ar-AA2hyp7M",
-   "kaynak": "Bing News",
-   "lead": "By Philip Blenkinsop BRUSSELS, Nov 16 (Reuters) - The EU is imposing tariffs of up to 27.9% on cold-rolled flat steel products from India, Japan, Taiwan, Turkey and Vietnam after finding they were ..."
-  },
-  {
    "anahtar": "piyasa:7893ef1245c7ae15",
    "tarih": "2026-11-16",
    "baslik": "EU imposes 9.5% anti-dumping duty on cold-rolled steel imports from India",
@@ -845,11 +833,11 @@
   "2026-10-31",
   "2026-11-21"
  ],
- "bulunan_kullanilan": 0,
- "bulunan_havuz": 9,
+ "bulunan_kullanilan": 1,
+ "bulunan_havuz": 7,
  "rezerv_kullanilan": 0,
- "rezerv_havuz": 92,
+ "rezerv_havuz": 93,
  "period": "2026-W47",
- "generated": "2026-11-21 17:04 UTC",
+ "generated": "2026-11-21 18:00 UTC",
  "version": "3.0.0"
 }
