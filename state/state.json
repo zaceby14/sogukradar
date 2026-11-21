@@ -2945,6 +2945,24 @@
     "tekrar": 38
    },
    "uretim": "2026-11-21 13:10 UTC"
+  },
+  {
+   "donem": "2026-W47",
+   "satir": 6,
+   "stats": {
+    "erisilemeyen": 2,
+    "gnews_tarih": 0,
+    "ham": 4106,
+    "kabul": 6,
+    "kapsam_disi": 3665,
+    "kaynak": 321,
+    "makale_acildi": 220,
+    "on_eleme_gecti": 428,
+    "pencere_disi": 277,
+    "tarihsiz_elendi": 89,
+    "tekrar": 62
+   },
+   "uretim": "2026-11-21 13:43 UTC"
   }
  ],
  "piyasa_gonderilen": [
@@ -3744,6 +3762,34 @@
    "url": "https://www.steelorbis.com/steel-news/latest-news/arcelormittal-brasil-to-invest-in-new-cold-rolling-mill-and-coating-lines-1474267.htm"
   },
   {
+   "anahtar": "6e45c036c75edf5b",
+   "asama": "Sozlesme",
+   "baslik": "John Cockerill Signs Contract with A1 Iron & Steel for Integrated Cold Rolling Complex in Tanzania",
+   "eksik": [],
+   "firma": "Integrated Cold Rolling Complex",
+   "hat": "Soguk hadde",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "John Cockerill",
+   "kaynak_id": "gtek_jc",
+   "lead": "John Cockerill Signs Contract with A1 Iron & Steel for Integrated Cold Rolling Complex in Tanzania &nbsp;&nbsp; John Cockerill",
+   "olaylar": [
+    "integrated cold rolling complex|fu|Tanzanya|Soguk hadde",
+    "integrated cold rolling complex|hat|Soguk hadde|Sozlesme",
+    "integrated cold rolling complex|ulke|Tanzanya|Sozlesme",
+    "john cockerill|fu|Tanzanya|Soguk hadde",
+    "john cockerill|hat|Soguk hadde|Sozlesme",
+    "john cockerill|ulke|Tanzanya|Sozlesme"
+   ],
+   "rezerv": true,
+   "tarih": "2026-08-31",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "John Cockerill",
+   "tutar": "",
+   "ulke": "Tanzanya",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYWhzdjdOTS1scDR4azVuN0JiaHM1bm5FNTdGUlczOHgzYkwtNzZtVEhFY3VBRld1bWVPOTB0OXA1bHY4Z2l1UHNKbS1rLXlmNmNnbnV6eGxuUWRoYWw5X2FrMkJnV0g0Q1V2a3BVeHBTUTk0d2RRN29iNHdYaEFlVHQ2VXVITWVJZUlpSmgyTHhYdXNRWDhROA?oc=5"
+  },
+  {
    "anahtar": "98a2950f8f9b76b6",
    "asama": "Sozlesme",
    "baslik": "USSK orders new electrical steel plant from Tenova",
@@ -4217,6 +4263,34 @@
    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNSGtHdXVmSWtIN0NhR2VjVHNsUGEzYkFORk9xalVwNXZqbDBDZFVkN2ozX3c5SFNBWHNxTEliVklEdk4yTmdBUmZTdEdtclllamdlb2JRY1A4UnpGNGh2Q3B0ay1UcDE2aTNxcGxaeVlvZjVOLWh6ajlwTDdQYkFrY3k3NTVBRWhla19USS1yUHhTLTZxQWpETTBjdFpTUVFGQVV5RE42Um5rRkR4ZWJyWFJCY1JrSVRTNHdpb05ZdWFZamRqOElvZzBRNWg3TFdNTnZrWG9xdmNVcGx0?oc=5"
   },
   {
+   "anahtar": "501b4ad5bba2b242",
+   "asama": "Sozlesme",
+   "baslik": "Borcelik endorses Danieli with order for cold-strip complex",
+   "eksik": [],
+   "firma": "Borcelik endorses Danieli",
+   "hat": "Soguk hadde",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Danieli",
+   "kaynak_id": "gtek_danieli",
+   "lead": "Borcelik endorses Danieli with order for cold-strip complex &nbsp;&nbsp; Danieli",
+   "olaylar": [
+    "borcelik endorses danieli|fu|Turkiye|Soguk hadde",
+    "borcelik endorses danieli|hat|Soguk hadde|Sozlesme",
+    "borcelik endorses danieli|ulke|Turkiye|Sozlesme",
+    "danieli|fu|Turkiye|Soguk hadde",
+    "danieli|hat|Soguk hadde|Sozlesme",
+    "danieli|ulke|Turkiye|Sozlesme"
+   ],
+   "rezerv": true,
+   "tarih": "2026-07-29",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "Danieli",
+   "tutar": "",
+   "ulke": "Turkiye",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNlhBcjdKZndjTEJQZnI2cDhER1lBOXFvTXpQNkJHN0owMGNwZ0NmVHFfOGVZUDR3Vk5rREUtOHFiSjk3MkhoRm9DQWt3Q0Z1algxeVE3dGJsWmN6XzltRW14alNacHpFcGdXeVI5YkRRUTd3QjlENjNWV2luM0JzZEItWm1ocEZ1UzZCZEJZbzJCcXNZQWR3eTdENk1vNFlkbGc1RWZXaw?oc=5"
+  },
+  {
    "anahtar": "449019d6e383b1ae",
    "asama": "Modernizasyon",
    "baslik": "Marcegaglia upgrades pickling line at Gazoldo degli Ippoliti stainless steel plant",
@@ -4394,6 +4468,35 @@
    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNRUJtamZQY3hHSWd2LS14aTRlU0hSTnU2ZlVFUU1zZzRtOEhxMkNFUFhvamttdVNxZm9rWmpFUEgxSmx6RUVuaHhQRWgxOG1VS1ZVMWNqd2V3eWJtRWJsaXBORmphT0tIRklVTF94UUJpVWxqaE5rMHc1UVd6WUp0UGl3Ym1lTEttRGN6em1jNUFpbjktcE5RcDRxbHgxRndYaF9sU01NUUJ1RW9tVWJwNWRFWVJpNm4tdXhiOGVXa2hVOXdjUjdNMjVYS2NKbFJEY01rZ1dYcUZmN3g5QUJWMUhpSnlOLXc?oc=5"
   },
   {
+   "anahtar": "12b5373bd1ccb0da",
+   "asama": "Ilk urun",
+   "baslik": "Successful startup of The World’s Widest six-High Cold Rolling Mill at Kumz, Russia",
+   "eksik": [],
+   "firma": "Kumz",
+   "hat": "Soguk hadde",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Danieli",
+   "kaynak_id": "gtek_danieli",
+   "lead": "Successful startup of The World’s Widest six-High Cold Rolling Mill at Kumz, Russia &nbsp;&nbsp; Danieli",
+   "olaylar": [
+    "*|ulke-hat|Rusya|Soguk hadde|Ilk urun",
+    "danieli|fu|Rusya|Soguk hadde",
+    "danieli|hat|Soguk hadde|Ilk urun",
+    "danieli|ulke|Rusya|Ilk urun",
+    "kumz|fu|Rusya|Soguk hadde",
+    "kumz|hat|Soguk hadde|Ilk urun",
+    "kumz|ulke|Rusya|Ilk urun"
+   ],
+   "rezerv": true,
+   "tarih": "2026-06-10",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "Danieli",
+   "tutar": "",
+   "ulke": "Rusya",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSC1uSmtKN3ptWnNTMGdES3hJQWJ3bjBmVHpnTmpKM09rbTJQbUtZbGxJX3N2ZHhENmxpOXU4V2ROeDhYc0xBRTFiQzlBYlRMX094OTVGeS1BcTNrZ3dXbFFndTFiMUdDRHh1X25jQVdnNXRMZnlQTDIxTTBkUTJCTm5XYm1lMXNnT04xT2JoczN2RF92Zy1LY1p3VUhNMklQYzF2QWtNeUIwTnc2YkgyWndZQlUwb3pfOWxodmVRLU83YWdydmZ0YVRMOA?oc=5"
+  },
+  {
    "anahtar": "399bd5c9634f27d1",
    "asama": "Belirsiz",
    "baslik": "Butech Bliss to Deliver Stretch Leveling Cut to Le",
@@ -4447,6 +4550,58 @@
    "tutar": "",
    "ulke": "Hindistan",
    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNMVRGNXo4Z01NMjZ5UUt6djZ1eGlJOWVIQjBBQldUNk9mSUJxYnVYZ2g3YTcyMy1GYXpoZlNBY3NDaEs2azNjalNrYUdiT0tkSUlzb1RWaFhlVlE5cHFOQmU2N0UxNFhnS2xlQUY1eUZuRjJwRnZNNjZ0dDNVOTF4bmVielRJTE81dXgtMVRpSTVoX1Nxb0RJVVpkRXdCdWUyTERsWWZrbHBNQjNrUmNCZWIzZXFXRlhFSnVOYTF0ZFA4Sk1IeTczTy1MOU83Y1owam1ibG0xUzAwT3pFcjRtOQ?oc=5"
+  },
+  {
+   "anahtar": "c74d3a5874b74ced",
+   "asama": "Modernizasyon",
+   "baslik": "Primetals Technologies Upgrades Shougang Shunyi PLTCM",
+   "eksik": [
+    "ulke"
+   ],
+   "firma": "Primetals Technologies",
+   "hat": "Tandem soguk hadde (TCM)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Primetals Technologies",
+   "kaynak_id": "gtek_prime",
+   "lead": "Primetals Technologies Upgrades Shougang Shunyi PLTCM &nbsp;&nbsp; Primetals Technologies",
+   "olaylar": [
+    "primetals technologies|hat|Tandem soguk hadde (TCM)|Modernizasyon",
+    "primetals|hat|Tandem soguk hadde (TCM)|Modernizasyon"
+   ],
+   "rezerv": true,
+   "tarih": "2026-06-03",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "Primetals",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPRWZkMXpwY1V3OWVoa1N3SGstOUs4bDFlZ0RocWxwaHJNN1RtMDcxZU5tZi1FTmxwcjFudUpBb2lWLUNFb0J3alZ0ZUJ1VXNjMTVyWWRpOE45X1NhSURySkRza0R1YmFVS1FCbEgxSmpwZlhmMjMyRXNtYlZlV29KcVRVUVdrWDFETkVhaE5VV01leXdsSFRMYldKUE0zV21RWFpBenlvRk11TC1rQmdMNks3YWF4emYxVmJsQkREdGhXeC1teVhHOGFSN3VFYXFZVHBpdU1Ebw?oc=5"
+  },
+  {
+   "anahtar": "91394e80b0366690",
+   "asama": "Sozlesme",
+   "baslik": "John Cockerill Wins Contract of Process Lines for Electrical Steel with JSW Vijayanagar Metallics",
+   "eksik": [
+    "ulke"
+   ],
+   "firma": "Electrical Steel",
+   "hat": "Elektrik celigi hatti",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "John Cockerill",
+   "kaynak_id": "gtek_jc",
+   "lead": "John Cockerill Wins Contract of Process Lines for Electrical Steel with JSW Vijayanagar Metallics &nbsp;&nbsp; John Cockerill",
+   "olaylar": [
+    "electrical steel|hat|Elektrik celigi hatti|Sozlesme",
+    "john cockerill|hat|Elektrik celigi hatti|Sozlesme"
+   ],
+   "rezerv": true,
+   "tarih": "2026-06-03",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "John Cockerill",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUmpWS3dCckhjai1tQ2VpYXQ0Sm92ZWZKUXhuZUZSY3JreWtvS3Jza0M3YUFIZmN6eTlVdmtTaV9HWDdCWE9nTVktUlRVYjV3ODVydmJldjJSa183akdXd2RQY0x6TXE1Q3NLZTNVUnZEUlQwcGVGbzZ2cU1LV1NhRUhkYkprUkZxSTdzbXRjQWtubGEwNVpVb1EwYmhxT1dkVFJVSXlmcXNWcWtTcHFOWmZnczAzUQ?oc=5"
   },
   {
    "anahtar": "ddd275a7913624f4",
@@ -5557,6 +5712,14 @@
    "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPa2NMZVhHZGxOTTRDYUltajd6QW4tRVZBNlpid1BlUWNxVkx5YjlRaWNZQkJfS1dVNURTSEF3OS1xWDRvMEZ1QWZtcjN6bVRrVzQ1UUdhM00tY0dtODY1T0FBQUtVWktkZ25Ra1VmLVVmbUVtTGtoWTM2ZUJTaE1hdzdCV0pfX1drSC1XazlST3lEcmM1Z2N5d2FZWjhXRVFKamdaYTFwSVJCZmpYTGpqN3p6Y3ZObS1oaTRuTmhudmRLUUVMbm4wYUIyYWxzY1E2SmxzbnlqR0dPZE9aMTBQbkw4Q2ZTN3FiT0p2cU5qOWVVR1FaeEpNQzltZw?oc=5"
   },
   {
+   "anahtar": "tech:27b5ca990931fc28",
+   "baslik": "KG Steel Selects Primetals Technologies for PLTCM Revamp",
+   "hat": "Tandem soguk hadde (TCM)",
+   "kaynak": "Primetals Technologies",
+   "tarih": "2026-08-11",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOT19pS3M3d0JOYkpveGRGQnNhaHl5TEFHYjBhT1BWcV92cjN2UWJOakJ6US1iSnVMOEtWRGFjbk9RbFFxY19qeWw0UXFsX0lMZ0h4cC1tWXZCYWZFX19tX0VISDB3Z2kwY3JKRmpfU0J5Q1NMSGdtcUUtNV9aMENLdVlLQUh2WndFb3pBZU1FZkxITzJ2dTk3VktZekxOOWdHeHVxTUFiNFVHMzZaMFViMFF4aHRLdw?oc=5"
+  },
+  {
    "anahtar": "tech:2baf68378ae6c731",
    "baslik": "KG Steel Turns to Primetals Technologies for PLTCM",
    "hat": "Tandem soguk hadde (TCM)",
@@ -5627,6 +5790,22 @@
    "kaynak": "Nature",
    "tarih": "2026-06-03",
    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9RUlJyR2FaY0UyS1AtNkZDVjBTM3ZtTWUtOEF0X0FJRjlwRnVCeDVST0VwOC01ZVNXZ2o4M3plNHhkYjdER09kaXdkY3NpV2VoZ1NLQWlJSklCaFZDN1Bv?oc=5"
+  },
+  {
+   "anahtar": "tech:f0f98af5520ec280",
+   "baslik": "Tata Netherlands, VW progress in zinc-coated steel research",
+   "hat": "Belirsiz",
+   "kaynak": "EUROMETAL",
+   "tarih": "2026-03-26",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNd0R4OFZzbjIwdnlMSUwzLTl5SGIwMGhvdWt4Rk1YSFF0dFhCVU5qV01EZlRUM1NyNk1TZkVLLVBMbnBUaFZOTjI1ck9SSzkzWWNKZU9GeEx3TENwTl9jTWEtQXVEZ0w4TU5TVExUUHNtQlBYS0hmclhfWGJua1NRVTh5bTBUTUxB?oc=5"
+  },
+  {
+   "anahtar": "tech:79411a9666bd6ac4",
+   "baslik": "Indian Railways To Test Zinc Coating Technology For Steel Rails To Tackle Coastal Corrosion, Cut Track Renewal Costs: Report",
+   "hat": "Belirsiz",
+   "kaynak": "Swarajya",
+   "tarih": "2026-01-10",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPdWdicXBteXBJc2c5aG1MUk5fN0tFRFdEVlJzalVuZXNhUF9nN2U0cmtWbkUzY2pQbEpvbUp3cWRaU1dYM19DOTVEcFNnU0JTTEd1cXgxbG00UGlwWklNWkhELS15dDVWeEgwUDY2d3dfNTB2QnVFeXlaWkZ5WFFQOU8yWWl2TjNBeG80ZG9KQ3ZjQ2gxdExkbDQyX2s5R1dYM0dWeVpxSE8tYXRTUE5wcjNpcVJvOEgxR2FrcjVjZTJyT2ltYllRNlVNZ9IB2wFBVV95cUxNSWl5bXpiRXRoY2F2QTlrSDJ2c0JEaWhSeFpDc0RBR0ROdlFwUEpIbTlSNGU0UmdDMjg2cGJhU05HczNrWmdvMUhDcm94V2xGMzFNV0h4QkdnUHBIRVFBSWdoS3p0Vzhlb3loT3RSdEZSb1VyWnVSU0pobFc3aFo3OU83cmpnUGVKb0tMcEVwVjBvNDhabzNJT0dfeEZsM1E0V25MVE54QmxkWk1jX29aVkJZSG5wWkVtR3R0QWlRUzc4NVVZRWhaZGM0bnduWEVYRVMwemFDWHVFcnM?oc=5"
   }
  ],
  "tech_seen": {
