@@ -1090,6 +1090,13 @@ def cmd_otomatik(a):
     _st_kopya = json.loads(json.dumps(st))          # deneme hafizaya yazmasin
     payload["piyasa_adaylari"] = _piyasa.sirala(
         _piyasa.havuz_guncelle(_st_kopya, payload.get("piyasa_pool") or [], bugun), bugun, st)
+    # GUNCEL OLAN VARKEN ESKI GITMEZ (2026-11-21, coklu deneme: dil modeli 19
+    # gunluk maddeyi 8 gunluk Tayland teneke kararinin onune koydu). Son 10
+    # gunde en az 3 aday varsa dil modeline YALNIZ onlar verilir.
+    _sinir10 = (bugun - dt.timedelta(days=10)).isoformat()
+    _taze = [m for m in payload["piyasa_adaylari"] if (m.get("tarih") or "") >= _sinir10]
+    if len(_taze) >= 3:
+        payload["piyasa_adaylari"] = _taze
     # ADAY BAGLANTILARI DA DOGRULANIR (2026-11-21): teknoloji ve piyasa
     # adaylari satirlarla AYNI kapidan gecer; dil modeli yalniz acilabilen,
     # basligi ve tarihi tutan adaylar arasindan secer.

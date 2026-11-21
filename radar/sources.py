@@ -714,6 +714,88 @@ KNOWN_GAPS = [
 ]
 
 
+# --------------------------------------------------------------------- #
+# KAPSAM GENISLETME (2026-11-21, kullanici: "kapsami (kaynaklari) arttir").
+# FILTRE GENISLEMEZ: ayni kapsam kapisi, ayni tarih zinciri, ayni tekrar
+# denetimi. Yalniz DAHA COK YERE bakilir:
+#   - bolge bolge buyuk yassi celik ureticileri (ad + soguk taraf terimi),
+#   - eksik diller (Italyanca, Fransizca, Portekizce),
+#   - kaliteli yayincilarin site: sorgulari,
+#   - PIYASA GUNDEMI icin ilk kez ozel sorgular (fiyat, anti-damping, kota).
+# Her sorgunun Bing aynasi asagida otomatik uretilir.
+# --------------------------------------------------------------------- #
+_HAT_EN = ('("cold rolling" OR "cold mill" OR galvanizing OR galvanising OR annealing OR pickling '
+           'OR "coating line" OR tinplate OR "electrical steel" OR "color coating")')
+_HAT_TR = ('("soğuk hadde" OR galvaniz OR asitleme OR tavlama OR "boyama hattı" OR "dilme hattı" '
+           'OR teneke OR "kaplama hattı" OR yatırım OR devreye)')
+_DIL = {"US:en": ("en-US", "US"), "TR:tr": ("tr", "TR"), "IT:it": ("it", "IT"),
+        "FR:fr": ("fr", "FR"), "BR:pt-419": ("pt-BR", "BR")}
+
+
+def _gq(sid, q, ceid="US:en", country="XX", gun=30):
+    import urllib.parse as _up
+    hl, gl = _DIL[ceid]
+    u = ("https://news.google.com/rss/search?q=" + _up.quote("%s when:%dd" % (q, gun))
+         + "&hl=%s&gl=%s&ceid=%s" % (hl, gl, ceid))
+    return dict(id=sid, publisher="Google News", kind="arama", country=country,
+                url=u, rss=u, verified=False)
+
+
+SOURCES = SOURCES + [
+    # --- ureticiler, bolge bolge
+    _gq("gur_ab1", '("thyssenkrupp Steel" OR voestalpine OR Salzgitter OR SSAB OR "Tata Steel Nederland" '
+                   'OR "Tata Steel UK") ' + _HAT_EN),
+    _gq("gur_ab2", '(Marcegaglia OR Arvedi OR "Liberty Steel" OR "U.S. Steel Kosice" OR "Acciaierie d\'Italia" '
+                   'OR Aperam OR Outokumpu OR Acerinox) ' + _HAT_EN),
+    _gq("gur_hint", '("JSW Steel" OR "Tata Steel" OR "AM/NS India" OR "Jindal Stainless" OR JSPL OR SAIL '
+                    'OR "Shyam Metalics") ' + _HAT_EN),
+    _gq("gur_kore_jp", '(POSCO OR "Hyundai Steel" OR "KG Steel" OR Dongkuk OR "Nippon Steel" OR "JFE Steel" '
+                       'OR "Kobe Steel") ' + _HAT_EN),
+    _gq("gur_cin", '(Baosteel OR Baowu OR Shougang OR Ansteel OR HBIS OR Shagang OR "Valin Steel") ' + _HAT_EN),
+    _gq("gur_amerika", '(Nucor OR "Steel Dynamics" OR "Cleveland-Cliffs" OR "Big River Steel" OR "U.S. Steel" '
+                       'OR Ternium OR Usiminas OR CSN) ' + _HAT_EN),
+    _gq("gur_asya_mena", '("Hoa Phat" OR "Hoa Sen" OR "Nam Kim" OR "Ezz Steel" OR "Al Ghurair" OR Tosyali '
+                         'OR "Krakatau Steel" OR BlueScope) ' + _HAT_EN),
+    _gq("gtr_diger", '("Tat Metal" OR "Tosyalı Toyo" OR Erdemir OR İsdemir OR "Kardemir" OR "Tosçelik") '
+                     + _HAT_TR, "TR:tr", "TR"),
+    # --- eksik diller
+    _gq("gx_q_it1", '"linea di zincatura" OR "laminatoio a freddo" OR "linea di decapaggio" OR '
+                    '"linea di ricottura" acciaio', "IT:it", "IT"),
+    _gq("gx_q_fr1", '"ligne de galvanisation" OR "laminoir à froid" OR "ligne de décapage" OR '
+                    '"recuit continu" acier', "FR:fr", "FR"),
+    _gq("gx_q_pt1", '"linha de galvanização" OR "laminação a frio" OR "linha de decapagem" aço',
+        "BR:pt-419", "BR"),
+    # --- kaliteli yayincilar
+    _gq("gs_kallanish", 'site:kallanish.com ("cold rolling" OR "cold-rolled" OR galvanizing OR galvanized OR '
+                        'annealing OR pickling OR tinplate OR "electrical steel" OR coated)'),
+    _gq("gs_gmk", 'site:gmk.center ("cold rolling" OR "cold-rolled" OR galvaniz OR coated OR tinplate OR '
+                  '"electrical steel" OR "flat steel")'),
+    _gq("gs_argus", 'site:argusmedia.com ("cold-rolled" OR CRC OR HDG OR galvanized OR tinplate OR '
+                    '"electrical steel" OR "flat steel")', gun=14),
+    _gq("gs_fastmkt", 'site:fastmarkets.com ("cold-rolled" OR CRC OR HDG OR galvanized OR tinplate OR '
+                      '"electrical steel" OR "flat steel")', gun=14),
+    _gq("gs_spglobal", 'site:spglobal.com ("cold-rolled" OR CRC OR HDG OR galvanized OR tinplate OR '
+                       '"electrical steel" OR "flat steel")', gun=14),
+    _gq("gs_steelradar", 'site:steelradar.com ("soğuk" OR galvaniz OR "yassı çelik" OR teneke OR "boyalı")',
+        "TR:tr", "TR"),
+    _gq("gs_dcstore", 'site:demircelikstore.com ("soğuk" OR galvaniz OR "yassı" OR teneke OR "boyalı")',
+        "TR:tr", "TR"),
+    # --- PIYASA GUNDEMI (fiyat / ticaret onlemi / kota) - 14 gun
+    _gq("gpy_fiyat", '("cold rolled coil" OR CRC OR "hot-dip galvanized" OR HDG OR PPGI) (prices OR price) '
+                     '(Europe OR Turkey OR China OR India)', gun=14),
+    _gq("gpy_onlem", '(anti-dumping OR antidumping OR safeguard OR countervailing) ("cold-rolled" OR '
+                     '"cold rolled" OR galvanized OR "coated steel" OR tinplate OR "electrical steel")', gun=14),
+    _gq("gpy_turkiye", 'Turkey ("cold rolled" OR galvanized OR "coated steel" OR "flat steel") '
+                       '(import OR export OR prices OR duty OR quota)', gun=14),
+    _gq("gpy_ab", '(EU OR "European Commission") (safeguard OR quota OR CBAM OR "anti-dumping") '
+                  '("flat steel" OR "cold-rolled" OR galvanized OR tinplate)', gun=14),
+    _gq("gpy_tr_fiyat", '("soğuk haddelenmiş" OR "soğuk sac" OR "galvanizli sac" OR "boyalı sac" OR '
+                        '"yassı çelik") (fiyat OR fiyatları OR ithalat OR ihracat)', "TR:tr", "TR", 14),
+    _gq("gpy_tr_onlem", '(anti-damping OR "damping soruşturması" OR "korunma önlemi" OR kota) (yassı OR '
+                        '"soğuk haddelenmiş" OR galvanizli OR teneke OR "boyalı sac")', "TR:tr", "TR", 14),
+]
+
+
 def by_id(sid):
     for s in SOURCES:
         if s["id"] == sid:
@@ -744,7 +826,7 @@ def by_id(sid):
 # --------------------------------------------------------------------- #
 _CEID_MKT = {"US:en": "en-US", "TR:tr": "tr-TR", "CN:zh-Hans": "zh-CN",
              "KR:ko": "ko-KR", "JP:ja": "ja-JP", "DE:de": "de-DE",
-             "ES:es": "es-ES"}
+             "ES:es": "es-ES", "IT:it": "it-IT", "FR:fr": "fr-FR", "BR:pt-419": "pt-BR"}
 
 
 def _bing_aynalari(srcs):
