@@ -236,6 +236,34 @@
    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQlhUQkFxZ0p4LXQxYlFPWWY3bUozMGR4UEFqQ2NDVUN3bHdfVndpVVduV1VQQmxvblVVUWhJd0JxYndxSlhTY21TOURGR2I3TzVTMUxvYWJyOUZXaXAwajRaTHgwbVlBaWJxQ2JpUG0zbGNTdFhfT1B4Tk5KUUJjYkJxZEFvcEM5TkF4V3diQ3E0TG5iaURlRlBIeURwWnBnTHNmQlZnNmIzRlB3Vk5JQzFaVkp5RFR6Z1g5Qm5KN2N1YjNUakhsLXRhTVBYcHRO?oc=5"
   },
   {
+   "anahtar": "e97259c8398df9f6",
+   "asama": "Sozlesme",
+   "baslik": "Habas contracts Danieli for CRC, tinplate complex",
+   "eksik": [],
+   "firma": "Habas",
+   "hat": "Teneke hatti (ETL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgs_kallanish",
+   "lead": "It is only available for active subscribers and clients currently on trial. To continue reading, see the options below.",
+   "olaylar": [
+    "danieli|fu|Turkiye|Teneke hatti (ETL)",
+    "danieli|hat|Teneke hatti (ETL)|Sozlesme",
+    "danieli|ulke|Turkiye|Sozlesme",
+    "habas|fu|Turkiye|Teneke hatti (ETL)",
+    "habas|hat|Teneke hatti (ETL)|Sozlesme",
+    "habas|ulke|Turkiye|Sozlesme"
+   ],
+   "puan": 79.0,
+   "tarih": "2026-11-11",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "Danieli",
+   "tutar": "",
+   "ulke": "Turkiye",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/turkeys-habas-partners-with-danieli-for-cr-tin-plate-complex-by-2024-1223/"
+  },
+  {
    "anahtar": "8cdc84758f7bfd38",
    "asama": "Ilk urun",
    "baslik": "【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】纽柯(Nucor)与普锐特冶金技术(Primetals Technologies)已在纽柯位于南卡罗来纳州伯克利县的板材厂新建连续镀锌线(CGL)上产出首卷优质卷板,标志着该产线完成调试阶段。普锐特与CLECIM…",
@@ -2981,6 +3009,24 @@
     "tekrar": 60
    },
    "uretim": "2026-11-21 14:52 UTC"
+  },
+  {
+   "donem": "2026-W47",
+   "satir": 6,
+   "stats": {
+    "erisilemeyen": 15,
+    "gnews_tarih": 0,
+    "ham": 4483,
+    "kabul": 8,
+    "kapsam_disi": 3973,
+    "kaynak": 369,
+    "makale_acildi": 220,
+    "on_eleme_gecti": 475,
+    "pencere_disi": 335,
+    "tarihsiz_elendi": 92,
+    "tekrar": 68
+   },
+   "uretim": "2026-11-21 17:04 UTC"
   }
  ],
  "piyasa_gonderilen": [
@@ -3041,6 +3087,14 @@
    "lead": "Brazil’s flat steel shipments have risen in September, while imports remained elevated across most product categories, ...",
    "tarih": "2026-11-17",
    "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/brazils-flat-steel-exports-recover-in-october-1126/"
+  },
+  {
+   "anahtar": "piyasa:26b39c0474ddeeba",
+   "baslik": "European Commission imposes anti-dumping duties on cold-rolled coil imports from India, Japan, Taiwan, Turkey, Vietnam",
+   "kaynak": "Bing News",
+   "lead": "The definitive duties are 9.5% for India, 27.9% for Japan, 20.7-27% for Taiwan, 3-7.8% for Turkey and 16% for Vietnam. Imposition of the duties followed an investigation started in September 2025, ...",
+   "tarih": "2026-11-16",
+   "url": "https://eurometal.net/european-commission-imposes-anti-dumping-duties-on-cold-rolled-coil-imports-from-india-japan-taiwan-turkey-vietnam/"
   },
   {
    "anahtar": "piyasa:738776df9135ecde",
@@ -3180,6 +3234,31 @@
    "url": "https://www.msn.com/en-in/news/other/jindal-india-commissions-revamped-galvanising-line-at-bengal-plant/ar-AA2gbdJ3"
   },
   {
+   "anahtar": "cc4db9bd733fdee7",
+   "asama": "Modernizasyon",
+   "baslik": "BC Jindal Group's Jindal (India) Limited Achieves 1.6 MTPA Downstream Steel Capacity with Successful CGL-5 Revamp",
+   "eksik": [],
+   "firma": "BC Jindal Group's",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "1.6 MTPA",
+   "kategori": "Hat",
+   "kaynak": "5 Dariya News",
+   "kaynak_id": "gx_bigmint_q",
+   "lead": "BC Jindal Group's Jindal (India) Limited Achieves 1.6 MTPA Downstream Steel Capacity with Successful CGL-5 Revamp &nbsp;&nbsp; 5 Dariya News",
+   "olaylar": [
+    "bc jindal group's|fu|Hindistan|Galvaniz hatti (CGL)",
+    "bc jindal group's|hat|Galvaniz hatti (CGL)|Modernizasyon",
+    "bc jindal group's|ulke|Hindistan|Modernizasyon"
+   ],
+   "rezerv": true,
+   "tarih": "2026-10-27",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Hindistan",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQb2lrbXJBNG1jd1c2aFhRRTNqQmE2aTNoVmtiZ1kzVFVaRjFud3pNVmg0QXRvQ21wdkIwX2cwbDNSSExoTWpNeElvNFp2YjkwdEU2cUhLeExoNEJBTUVobEtBZEJrUkVzN2N4UE82My0yQnI2bThmWkJSZVB1Q05LRUdaRVpUQUVtdUpsVzZUOE91dFNOM0VOS2NLQTlZTU1Bd2l5RnVCb0xGQjAwU0JTLXVlbWg3SHptRTVjRFAzNXJDZHFfck9hcG1zc3BWSy1ySmNj0gHjAUFVX3lxTE5HbjQzWkp4ZE0xSUt5NVI5Z3JLUWVlZzBLUUU0U01FWkNpakhrdkliOWlDVlZsSWhScG1PekNibmVJcXpVRHVvLUpuRWx2VFpzMXFiQU1YQWgxSDlXa1ZaQ0ZLbjBoMXhfc21pSVE5c1RLQkN0bV9TZFpFbkw1WkprZVdmdmE2bDhrNGNySTBJU1VmNkhXaTVtcDVfM0drbWFWWlExTlF6OXA4OW0xVzZzZlZBYmloaEpuVkpTYkdYV2VUaXMxMlF3RjNZRld0bkhPS1NpN1hlZGNJWTlIUXpCUExn?oc=5"
+  },
+  {
    "anahtar": "9a9f5f70f95d517f",
    "asama": "Belirsiz",
    "baslik": "Red Bud Delivers Cut to Length Line With Stretcher",
@@ -3259,6 +3338,32 @@
    "tutar": "",
    "ulke": "Avustralya",
    "url": "https://news.metal.com/newscontent/104159780-bluescope-starts-up-new-240000-mtyr-galvanizing-line-in-sydney"
+  },
+  {
+   "anahtar": "304650032d267596",
+   "asama": "Ilk urun",
+   "baslik": "BlueScope Steel begins production on ANDRITZ's new galvanizing line",
+   "eksik": [
+    "ulke"
+   ],
+   "firma": "BlueScope Steel",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "SteelRadar",
+   "kaynak_id": "gur_asya_mena",
+   "lead": "BlueScope Steel begins production on ANDRITZ's new galvanizing line &nbsp;&nbsp; SteelRadar",
+   "olaylar": [
+    "andritz|hat|Galvaniz hatti (CGL)|Ilk urun",
+    "bluescope steel|hat|Galvaniz hatti (CGL)|Ilk urun"
+   ],
+   "rezerv": true,
+   "tarih": "2026-10-15",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "Andritz",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSjJIYVh0RzJSRHRaME56dWtFTFZacHY2WjlDN0FIQ0h4MDl4dG5hYkJGY3l1bW9JTTNnb0tCdGNpeWJoRE9BRFVmOW9XejBwTEY5YWI0MDQxYTVXUjhIVWJXUFljUzFJNjYxM2lJY2c4aW5yTDlvQmZ4ak84Y3JyS2dLcGYzcnM2NGM5YmZOU2RWOTVDNHdQOENUU3kxRVY0c1lUemNR?oc=5"
   },
   {
    "anahtar": "ea581249119e5a4e",
@@ -3496,32 +3601,6 @@
    "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMW13SGRFangyUGg2dkFBMDJ0aUFSSVljX0gxbXFZMng2OWRYY1hqLThqYVNtaDJzMUlvanBROE02MXZMTktNNG4zU3AzdHZzVUlxRVpXUlZRVzQ0eUhKamhRU2dyMHh4RkdDcGEtYXMzRmQ1eEE5aV9GWTJkZmhCeTZCRzE3ZG5VZS1pdEZnaXBGNzZ1WGl1WUxTeUNIVEY2UzJTN1MtZ0RvbnFNc0NzNUJtWl9YX0J6Y0FMQlh1cTUzRzdMZ3dNbE9zQXU2a1NTVGVUeEwybnR1M2VQcmtaaEFQb2RhWTVSTjdxMXdGRQ?oc=5"
   },
   {
-   "anahtar": "be1f81111a9b43a1",
-   "asama": "Sozlesme",
-   "baslik": "Electrical steel line order brightens Andritz Q3 performance",
-   "eksik": [
-    "ulke"
-   ],
-   "firma": "Electrical steel line",
-   "hat": "Elektrik celigi hatti",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgq_sup03",
-   "lead": "",
-   "olaylar": [
-    "andritz|hat|Elektrik celigi hatti|Sozlesme",
-    "electrical steel line|hat|Elektrik celigi hatti|Sozlesme"
-   ],
-   "rezerv": true,
-   "tarih": "2026-10-04",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "Andritz",
-   "tutar": "",
-   "ulke": "",
-   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/electrical-steel-job-brightens-andritz-q3-performance-1024/"
-  },
-  {
    "anahtar": "3c6ddad628eeb8ca",
    "asama": "Belirsiz",
    "baslik": "POSCO, Otomotiv Çeliği İçin 359 Milyon Dolarlık Yeni Galvanizleme Hattı Kuruyor",
@@ -3649,6 +3728,59 @@
    "tutar": "",
    "ulke": "",
    "url": "https://www.aist.org/Steel-News/2026/September/21-25-September-2026/POSCO-Breaks-Ground-on-New-Continuous-Galvanizing"
+  },
+  {
+   "anahtar": "c2ec00f6020a465a",
+   "asama": "Belirsiz",
+   "baslik": "Tosyalı Algerie makes first export from new cold rolling complex",
+   "eksik": [
+    "asama"
+   ],
+   "firma": "Tosyalı Algerie",
+   "hat": "Soguk hadde",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "SteelOrbis",
+   "kaynak_id": "gur_asya_mena",
+   "lead": "Tosyalı Algerie makes first export from new cold rolling complex &nbsp;&nbsp; SteelOrbis",
+   "olaylar": [
+    "tosyali algerie|fu|Cezayir|Soguk hadde",
+    "tosyali algerie|hat|Soguk hadde|Belirsiz",
+    "tosyali algerie|ulke|Cezayir|Belirsiz"
+   ],
+   "rezerv": true,
+   "tarih": "2026-09-11",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Cezayir",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRGd4NEJOb1hueUVaSEJ5MlFMNXpkYVpyMG9KakJzSnhIWEpmaC1vaG1mUUx2bnRMWUtWWDFLWEVGSnp3aE1BS1g3aHBycTlEOVBodWZiQ0d5ZWd3QUtudlNNTWQzQW9nWm8wRDQtUjF3NGJNc0VndzhWbS00cWJVS3JBbXpBMFNxN2hoNXltb29kRkJpS2tPV0xaTjl6eHREbWhEbVJ6V1lTcXZVemlXenFaTGIwYk1SWlVFcWdZN0Fyemwx?oc=5"
+  },
+  {
+   "anahtar": "76de8e87fe54c6be",
+   "asama": "Insaat",
+   "baslik": "Posco breaks ground on first new auto-steel coating line in 9 years, investing W480b in Gwangyang",
+   "eksik": [
+    "ulke",
+    "hat"
+   ],
+   "firma": "Posco",
+   "hat": "Belirsiz",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "헤럴드경제",
+   "kaynak_id": "gur_kore_jp",
+   "lead": "Posco breaks ground on first new auto-steel coating line in 9 years, investing W480b in Gwangyang &nbsp;&nbsp; 헤럴드경제",
+   "olaylar": [
+    "posco|hat|Belirsiz|Insaat"
+   ],
+   "rezerv": true,
+   "tarih": "2026-09-08",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBSOXdja1VPcEt1cWRrNFJhZ0U5QWdtX05icGhHQ3g0eGlvaGtCSWI2cVF1N0Q3SGVraXo0djhTMk9nd1RFeDRIWUFfdEtUSng5eTVhaHZPaw?oc=5"
   },
   {
    "anahtar": "c957dcf16b50002d",
@@ -4281,6 +4413,32 @@
    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNSGtHdXVmSWtIN0NhR2VjVHNsUGEzYkFORk9xalVwNXZqbDBDZFVkN2ozX3c5SFNBWHNxTEliVklEdk4yTmdBUmZTdEdtclllamdlb2JRY1A4UnpGNGh2Q3B0ay1UcDE2aTNxcGxaeVlvZjVOLWh6ajlwTDdQYkFrY3k3NTVBRWhla19USS1yUHhTLTZxQWpETTBjdFpTUVFGQVV5RE42Um5rRkR4ZWJyWFJCY1JrSVRTNHdpb05ZdWFZamRqOElvZzBRNWg3TFdNTnZrWG9xdmNVcGx0?oc=5"
   },
   {
+   "anahtar": "c40230cac2789cfd",
+   "asama": "Ilk urun",
+   "baslik": "Iron and Steel: Tosyali Algérie Launches Production at Its New Cold Rolling Complex | Algerian Radio",
+   "eksik": [],
+   "firma": "Iron and Steel: Tosyali Algérie",
+   "hat": "Soguk hadde",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "الإذاعة الجزائرية |",
+   "kaynak_id": "gur_asya_mena",
+   "lead": "Iron and Steel: Tosyali Algérie Launches Production at Its New Cold Rolling Complex | Algerian Radio &nbsp;&nbsp; الإذاعة الجزائرية |",
+   "olaylar": [
+    "*|ulke-hat|Cezayir|Soguk hadde|Ilk urun",
+    "iron and steel: tosyali algerie|fu|Cezayir|Soguk hadde",
+    "iron and steel: tosyali algerie|hat|Soguk hadde|Ilk urun",
+    "iron and steel: tosyali algerie|ulke|Cezayir|Ilk urun"
+   ],
+   "rezerv": true,
+   "tarih": "2026-08-02",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Cezayir",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE53ZEQ5TFVwdzEwMWVwMy11Q01mWl9aTXl5Qk95a1ZpbkR0ZW9ldzlUQXQyU3ctWU5tOVY0SHJIZmhLMDN4RUpiQTBlV3NzYVpVd05URA?oc=5"
+  },
+  {
    "anahtar": "501b4ad5bba2b242",
    "asama": "Sozlesme",
    "baslik": "Borcelik endorses Danieli with order for cold-strip complex",
@@ -4307,6 +4465,32 @@
    "tutar": "",
    "ulke": "Turkiye",
    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNlhBcjdKZndjTEJQZnI2cDhER1lBOXFvTXpQNkJHN0owMGNwZ0NmVHFfOGVZUDR3Vk5rREUtOHFiSjk3MkhoRm9DQWt3Q0Z1algxeVE3dGJsWmN6XzltRW14alNacHpFcGdXeVI5YkRRUTd3QjlENjNWV2luM0JzZEItWm1ocEZ1UzZCZEJZbzJCcXNZQWR3eTdENk1vNFlkbGc1RWZXaw?oc=5"
+  },
+  {
+   "anahtar": "49548a07a50b6555",
+   "asama": "Ilk urun",
+   "baslik": "Tosyalı Algeria produces first product at its Cold Rolling Complex",
+   "eksik": [],
+   "firma": "Tosyalı Algeria",
+   "hat": "Soguk hadde",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "SteelRadar",
+   "kaynak_id": "gur_asya_mena",
+   "lead": "Tosyalı Algeria produces first product at its Cold Rolling Complex &nbsp;&nbsp; SteelRadar",
+   "olaylar": [
+    "*|ulke-hat|Cezayir|Soguk hadde|Ilk urun",
+    "tosyali algeria|fu|Cezayir|Soguk hadde",
+    "tosyali algeria|hat|Soguk hadde|Ilk urun",
+    "tosyali algeria|ulke|Cezayir|Ilk urun"
+   ],
+   "rezerv": true,
+   "tarih": "2026-07-29",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Cezayir",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdkZfZV9WLVpfMjlxRFNDUG9EcERKT3R3R2pmUlZHaDRBa0V4X25kekFOLVNDeUhxWlV4QzhIa19mamFyWGtPWXFRS2FycVVPaG54eUFfYmJhTFktNjJreFROeFFLYTJ0VEk2VGptQm1vQXpOMTBOQmJwOVJ0ZXg3LVNjcmpvSXUxdlFmRWxIZllqSkkwTkxIWU1ycTIyNUh1Rk56aXFB?oc=5"
   },
   {
    "anahtar": "449019d6e383b1ae",
@@ -4754,6 +4938,31 @@
    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNcHJNOHhQQWhmaDdMbndtZS1lMVBXUnZSTUxWNXVfUnF5VUgwd2lNb2xiYV8tU2VvWF9hbDc2VzBvRkJ6V0dqd19WTGIybW5zT3RtSW9jMFIwUm42ajZZc0h5WUxmZTFOX25BZlJvLXBPTjgwV1U1Mnl0X0Q4U1hnVjg5RVlUQTR0c1FwVjdpemVJXzEwU0labTVOdmZkaEtNSUZmM0VnZG1wYU9fUkJFLTZfQzNULVdha3ZDV2hhZWFNSkszeGhRQ2hLaXp0ZGVEdHU4N2M1ZVFJeHdO0gHiAUFVX3lxTE9ZUWJaRlRKTDIyVno4aFpobzVQN0U1c3NZWjVsQ2ZhRUpqazljNjVMNXJNenVCc193NHRLSGJ6SUo2bkFwOF9ETmJ1ajMyZGhwNWNhbWdxVEZYQ0hiWkZWODFFWk5tSmc1bzNSTEotLXU5aTJBT1lvVTJpR214Q0NFZURELXFINkNkRVRidjZOeUVEZUtrMmRaUmJwM3Y1TmpBLXliTU5zU3ZERGZ6ZlNvbGozeWtETUdfbXk5TE9rTG5VdkJCdzBnd0lnZTBDOXlSaHpjRlZieEF0WVNJSGN1SXc?oc=5"
   },
   {
+   "anahtar": "46769a3e621c8387",
+   "asama": "Ilk urun",
+   "baslik": "Shyam Metalics Commissions Phase Two Cold Rolling Mill at Jamuria",
+   "eksik": [
+    "ulke"
+   ],
+   "firma": "Shyam Metalics",
+   "hat": "Soguk hadde",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Construction World",
+   "kaynak_id": "gur_hint",
+   "lead": "Shyam Metalics Commissions Phase Two Cold Rolling Mill at Jamuria &nbsp;&nbsp; Construction World",
+   "olaylar": [
+    "shyam metalics|hat|Soguk hadde|Ilk urun"
+   ],
+   "rezerv": true,
+   "tarih": "2026-04-23",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPUy1kdlFsaXZWS2kxOFZDZDNwSGRRQjFTR1pweUE0Q0pBOVRWdlpRMmpic0FHcl8tQzNhcVJYRVV4b2xha2VxRGFRVW9zdmp4emJtWVNHSTFDN2lObVhhaXdhSTRsQzd5S213blNGVThBaFJiV1FUa2g1SU1XbU1jdWxsaXp0TGsxOGYxX0xGa0hYbm5QNUZVenQyR0VUbmtETDVXb0JrTHlzWDRONlBPcFktd0RSVVBERl9ZQWJQNUZFY3R5RnoyZW5jWWlWU1EzamV3?oc=5"
+  },
+  {
    "anahtar": "dbf500463fb21d96",
    "asama": "Belirsiz",
    "baslik": "U. S. Steel Announces Plans to Restart Gary Tin Mill",
@@ -5107,6 +5316,31 @@
    "tutar": "INR 1,100 Crore",
    "ulke": "Hindistan",
    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9lRjlxNkRlMlBsdWhkWEJlZFFuZU52ZUt1cHBudV9vNUdTWnZ0M1d1TllxX1hmTmh5amlueDVGSFBVRTA5OTRucEdMYkFCazYxMnZSeGh0VFdyMDJ1U200cE9SZw?oc=5"
+  },
+  {
+   "anahtar": "0d4226ce57c6ca48",
+   "asama": "Modernizasyon",
+   "baslik": "Primetals upgrades pickling and tandem mill at voestalpine",
+   "eksik": [
+    "ulke"
+   ],
+   "firma": "Primetals",
+   "hat": "Asitleme hatti",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "EUROMETAL",
+   "kaynak_id": "gur_ab1",
+   "lead": "Primetals upgrades pickling and tandem mill at voestalpine &nbsp;&nbsp; EUROMETAL",
+   "olaylar": [
+    "primetals|hat|Asitleme hatti|Modernizasyon"
+   ],
+   "rezerv": true,
+   "tarih": "2026-01-09",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "Primetals",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNmdoUjR3T0JMVl9zNkRqWGc0M2pkbkdpT2VoQ0hxV3ZsRGhKWHBvM3h5LXdCUmRiSjg1RU9MMlcxbGdyMEJSWXZ3TFBHSEpvenhpVVF2cElhLWt3bU5fdnM5V0h2VGdidXktSVYwUjFRYVNWZUhQeDEzSVB6YzJLaktKb2VUcXIt?oc=5"
   },
   {
    "anahtar": "f0e9ff4913d8fafe",

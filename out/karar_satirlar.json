@@ -2,6 +2,34 @@
  "donem": "2026-W47",
  "rows": [
   {
+   "tarih": "2026-11-11",
+   "firma": "Habas",
+   "ulke": "Turkiye",
+   "hat": "Teneke hatti (ETL)",
+   "asama": "Sozlesme",
+   "tedarikci": "Danieli",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "Habas contracts Danieli for CRC, tinplate complex",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgs_kallanish",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/turkeys-habas-partners-with-danieli-for-cr-tin-plate-complex-by-2024-1223/",
+   "tarih_kaynagi": "rss",
+   "lead": "It is only available for active subscribers and clients currently on trial. To continue reading, see the options below.",
+   "eksik": [],
+   "anahtar": "e97259c8398df9f6",
+   "kategori": "Hat",
+   "olaylar": [
+    "danieli|fu|Turkiye|Teneke hatti (ETL)",
+    "danieli|hat|Teneke hatti (ETL)|Sozlesme",
+    "danieli|ulke|Turkiye|Sozlesme",
+    "habas|fu|Turkiye|Teneke hatti (ETL)",
+    "habas|hat|Teneke hatti (ETL)|Sozlesme",
+    "habas|ulke|Turkiye|Sozlesme"
+   ],
+   "puan": 79.0
+  },
+  {
    "tarih": "2026-11-19",
    "firma": "KG Steel",
    "ulke": "",
@@ -87,7 +115,7 @@
    "tutar": "",
    "baslik": "AM/NS India Develops 2 Million Tonne Cold Rolling Facility at Hazira for Automotive Steel",
    "kaynak": "NewsX",
-   "kaynak_id": "gx_arcelor",
+   "kaynak_id": "gx_bigmint_q",
    "url": "https://www.newsx.com/nx-news/am-ns-india-develops-2-million-tonne-cold-rolling-facility-at-hazira-for-automotive-steel-293633/",
    "tarih_kaynagi": "rss",
    "lead": "AM/NS India Develops 2 Million Tonne Cold Rolling Facility at Hazira for Automotive Steel &nbsp;&nbsp; NewsX",
@@ -139,15 +167,25 @@
    "konu": "Vietnam's Hoa Sen launches new alloy-coated steel with enhanced corrosion resistance",
    "url": "https://www.steelorbis.com/steel-news/latest-news/vietnams-hoa-sen-launches-new-alloy-coated-steel-with-enhanced-corrosion-resistance-1471882.htm",
    "kaynak": "SteelOrbis",
-   "metin": "Vietnamlı üretici Hoa Sen, korozyon direnci artırılmış yeni alaşım kaplamalı çelik ürününü tanıttı."
+   "metin": "Vietnam'dan Hoa Sen, gelişmiş korozyon direncine sahip yeni alaşım kaplamalı çelik ürününü piyasaya sürdü."
   }
  ],
  "piyasa": [
   {
+   "anahtar": "piyasa:26b39c0474ddeeba",
+   "tarih": "2026-11-17",
+   "baslik": "European Commission imposes anti-dumping duties on cold-rolled coil imports from India, Japan, Taiwan, Turkey, Vietnam",
+   "metin": "Avrupa Komisyonu, Türkiye dahil çeşitli ülkelerden soğuk haddelenmiş rulo ithalatına kesin anti-damping vergileri getirdi.",
+   "url": "https://eurometal.net/european-commission-imposes-anti-dumping-duties-on-cold-rolled-coil-imports-from-india-japan-taiwan-turkey-vietnam/",
+   "kaynak": "Bing News",
+   "konu": "koruma",
+   "urun": "soguk hadde"
+  },
+  {
    "anahtar": "piyasa:c10a7b449dba6ae7",
    "tarih": "2026-11-17",
    "baslik": "EU's India CRC duty approach has 'systemic' ramifications",
-   "metin": "Avrupa Komisyonu'nun Hindistan menşeli soğuk haddelenmiş rulo (CRC) anti-damping incelemesindeki yeni yaklaşımının piyasada sistemik etkiler yaratabileceği değerlendiriliyor.",
+   "metin": "Avrupa Komisyonu'nun Hindistan menşeli soğuk haddelenmiş rulo soruşturmasındaki yeni yaklaşımı sektörel açıdan sistemik yansımalar doğurabilir.",
    "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/eu-imposes-95percent-duty-on-indian-cold-rolled-steel-1126/",
    "kaynak": "Kallanish",
    "konu": "koruma",
@@ -157,21 +195,11 @@
    "anahtar": "piyasa:83f334fe7a240f02",
    "tarih": "2026-11-18",
    "baslik": "Vietnam accepts product scope review request for AD duties on Chinese and South Korean galvanized steel",
-   "metin": "Vietnam, Çin ve Güney Kore menşeli galvanizli çelik ürünlerine uygulanan anti-damping vergilerinde ürün kapsamı inceleme talebini kabul etti.",
+   "metin": "Vietnam, Çin ve Güney Kore menşeli galvanizli çelik ürünlerine yönelik anti-damping vergileri için kapsam incelemesi talebini kabul etti.",
    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPYk1RRThHcW9NdzIybU0zS0o1c1l5cVBiQ24yNDBYRGg2LXRURjlaeGxRRU4tcGpXU2FxVUVhd1o0aUZQUHVPZWRvdGxrWTBuUUpNbU9EZVU2MUFRNTgwUFhyMUNOdlZ5VGtON2FKRWpGT09UR09CSEE4NFR5MVNnNFU1Z3A5b1FmaE9rNWFkd0lmd3lBMWNpS1dFUENwUGNucTlXSzdyVFRaZGxFNXl2blljN1luWTZHQW1GdVVNODdmYUVkRzJwS2hVMVN5V0Vj?oc=5",
    "kaynak": "Yieh Corp.",
    "konu": "koruma",
    "urun": "kaplamali"
-  },
-  {
-   "anahtar": "piyasa:738776df9135ecde",
-   "tarih": "2026-11-13",
-   "baslik": "Thailand levies anti-dumping duty on tinplate, tin-free sheet",
-   "metin": "Tayland, teneke ve kalaysız sac ürünlerine rulo ve boy kesilmiş yaprak formlarında anti-damping vergisi getirdi.",
-   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/thailand-levies-ad-tinplate-tin-free-sheet-1126/",
-   "kaynak": "Kallanish",
-   "konu": "koruma",
-   "urun": "teneke"
   }
  ]
 }
