@@ -3826,6 +3826,9 @@ def test_kurul2_deneme_incelemesi():
     finally:
         baglanti.fetch = eski_f
     eq(bool(taxonomy.TOPLAYICI.search("https://www.msn.com/en-in/news/x")), True, "msn toplayicidir")
+    from . import http as _h
+    eq(_h._ascii_adres("https://news.smm.cn/news/纽柯?q=钢").isascii(), True, "ASCII disi adres kodlanir")
+    eq(_h._ascii_adres("https://a.com/x?y=1"), "https://a.com/x?y=1", "ASCII adres degismez")
     # 6) BELIRSIZ rozeti gosterilmez
     eq("BELİRSİZ" in render._badge("Belirsiz"), True, "rozet fonksiyonu degismedi")
     # 7) dogrulanmayan piyasa maddesi Ingilizce basligiyla gitmez (yeterli Turkce varsa)

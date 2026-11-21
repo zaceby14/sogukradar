@@ -184,6 +184,18 @@ def _throttle(url):
     _last_hit[host] = time.time()
 
 
+def _ascii_adres(url):
+    import urllib.parse as _up
+    try:
+        url.encode("ascii")
+        return url
+    except UnicodeEncodeError:
+        p = _up.urlsplit(url)
+        host = p.netloc.encode("idna").decode("ascii") if p.netloc else p.netloc
+        return _up.urlunsplit((p.scheme, host, _up.quote(p.path, safe="/%:@!$&'()*+,;="),
+                               _up.quote(p.query, safe="=&%/:?+,;@"), _up.quote(p.fragment, safe="")))
+
+
 def fetch(url, use_cache=True):
     """(ok, text, info) doner. info: {'status':..,'final':..,'hata':..,'cache':bool}"""
     cp = _cache_path(url) if use_cache else None
@@ -200,7 +212,9 @@ def fetch(url, use_cache=True):
         try:
             _throttle(url)
             _host_kaydet(url)
-            req = urllib.request.Request(url, headers=HEADERS)
+            # ASCII DISI ADRES (2026-11-21): Cince/Turkce karakterli adres
+            # UnicodeEncodeError ile dusuyordu; ayrilmis karakterler korunarak kodlanir.
+            req = urllib.request.Request(_ascii_adres(url), headers=HEADERS)
             with urllib.request.urlopen(req, timeout=TIMEOUT, context=_ctx) as r:
                 raw = r.read()
                 raw = _decompress(raw, (r.headers.get("Content-Encoding") or "").lower())
