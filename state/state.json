@@ -236,31 +236,6 @@
    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQlhUQkFxZ0p4LXQxYlFPWWY3bUozMGR4UEFqQ2NDVUN3bHdfVndpVVduV1VQQmxvblVVUWhJd0JxYndxSlhTY21TOURGR2I3TzVTMUxvYWJyOUZXaXAwajRaTHgwbVlBaWJxQ2JpUG0zbGNTdFhfT1B4Tk5KUUJjYkJxZEFvcEM5TkF4V3diQ3E0TG5iaURlRlBIeURwWnBnTHNmQlZnNmIzRlB3Vk5JQzFaVkp5RFR6Z1g5Qm5KN2N1YjNUakhsLXRhTVBYcHRO?oc=5"
   },
   {
-   "anahtar": "b203eb675812b5c0",
-   "asama": "Sozlesme",
-   "baslik": "Demonstration of Digital twins for a Green Steel value chain",
-   "eksik": [
-    "ulke"
-   ],
-   "firma": "Demonstration",
-   "hat": "Otomasyon / dijital",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgx_eurometal_q",
-   "lead": "The total amount of money invested in the project. The total cost includes EU contribution as well as other project costs not covered by EU funding. It is expressed in euros. Amount of money, by way ...",
-   "olaylar": [
-    "demonstration|hat|Otomasyon / dijital|Sozlesme"
-   ],
-   "puan": 57.4,
-   "tarih": "2026-11-07",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "",
-   "url": "https://cordis.europa.eu/project/id/101178079"
-  },
-  {
    "anahtar": "8cdc84758f7bfd38",
    "asama": "Ilk urun",
    "baslik": "【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】纽柯(Nucor)与普锐特冶金技术(Primetals Technologies)已在纽柯位于南卡罗来纳州伯克利县的板材厂新建连续镀锌线(CGL)上产出首卷优质卷板,标志着该产线完成调试阶段。普锐特与CLECIM…",
@@ -319,7 +294,7 @@
   {
    "anahtar": "26c4f1bffd99b708",
    "asama": "Ilk urun",
-   "baslik": "[Nucor Produces First Prime Coil on New 500,000 t/yr Automotive Galvanizing Line in South Carolina]",
+   "baslik": "Nucor Produces First Prime Coil on New 500,000 t/yr Automotive Galvanizing Line in South Carolina",
    "eksik": [
     "firma",
     "ulke"
@@ -2952,6 +2927,58 @@
     "tekrar": 51
    },
    "uretim": "2026-11-21 12:46 UTC"
+  },
+  {
+   "donem": "2026-W47",
+   "satir": 6,
+   "stats": {
+    "erisilemeyen": 89,
+    "gnews_tarih": 0,
+    "ham": 3402,
+    "kabul": 5,
+    "kapsam_disi": 3084,
+    "kaynak": 321,
+    "makale_acildi": 220,
+    "on_eleme_gecti": 326,
+    "pencere_disi": 182,
+    "tarihsiz_elendi": 86,
+    "tekrar": 38
+   },
+   "uretim": "2026-11-21 13:10 UTC"
+  }
+ ],
+ "piyasa_gonderilen": [
+  {
+   "b": "EU backs AD duties on CRC from five countries",
+   "t": "2026-11-02"
+  },
+  {
+   "b": "US HRC, CRC prices climb amid tight supply",
+   "t": "2026-11-02"
+  },
+  {
+   "b": "EU backs duties on cold-rolled steel from five countries",
+   "t": "2026-11-02"
+  },
+  {
+   "b": "EU electrical steel safeguards threaten transformer makers, 26 MEPs warn",
+   "t": "2026-11-04"
+  },
+  {
+   "b": "Korea recommends duties on Chinese galvanized steel",
+   "t": "2026-11-04"
+  },
+  {
+   "b": "Coils a freddo, via libera degli Stati Ue ai dazi antidumping - 15 Paesi favorevoli su 27. Atteso il regolamento definitivo, mentre sul mercato europeo i prezzi dei CRC si rafforzano",
+   "t": "2026-11-13"
+  },
+  {
+   "b": "\"Yeni AB kota rejimi yassı çelikte Türkiye'ye rekabet avantajı sunuyor\"",
+   "t": "2026-11-13"
+  },
+  {
+   "b": "Malaysia imposes provisional AD duties on coated steel",
+   "t": "2026-11-11"
   }
  ],
  "piyasa_rezerv": [
@@ -2988,20 +3015,12 @@
    "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/thailand-levies-ad-tinplate-tin-free-sheet-1126/"
   },
   {
-   "anahtar": "piyasa:8ed1e5cf759d4884",
-   "baslik": "İskenderun PS: Türk yassı çelik sektörü AB'nin kota rejimi ve jeopolitik krizlere rağmen esnekliğiyle avantaj sağlayabilir",
-   "kaynak": "SteelOrbis",
-   "lead": "İskenderun PS: Türk yassı çelik sektörü AB'nin kota rejimi ve jeopolitik krizlere rağmen esnekliğiyle avantaj sağlayabilir &nbsp;&nbsp; SteelOrbis",
-   "tarih": "2026-11-13",
-   "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNN3ZnYUk0eFg5RmVFSmxPR05MMkNzMFJZalVNTFlPcTMwUnlsNU5FN0EtcDNmQkJnWmhHMDJWb3JiWHNmdXNvaHQ1ZjdRclIySUduNmtfakhhRWdkNGtGT1BDZjI3Ym1naEJ6V3JHbXN6MDlZTWR4d0U2NGNHbVBnMHgxSjhHdVc5Z0wxam5KLWg1Q2lTNHNZeXFRRFQ3TDZKcjhIdHBLZ2NVS3I1WWQ2ZWNxdnFSd0tCWFlMVXl4MUYzM2NZYTZvUXpFN1JZS3dfX0hzcGFpQVhrZmUzUTNpVU9YQUg2WVdPU0VZRzlVUkdhVDNvWGg4Wl9NbjVRbFdLUWgzeUptZ0g?oc=5"
-  },
-  {
-   "anahtar": "piyasa:df316110fb4a3d58",
-   "baslik": "3-Piece Tinplate Aerosol Cans Market Momentum: Advancing Packaging Stability and Manufacturing Efficiency",
-   "kaynak": "openPR.com",
-   "lead": "3-Piece Tinplate Aerosol Cans Market Momentum: Advancing Packaging Stability and Manufacturing Efficiency &nbsp;&nbsp; openPR.com",
-   "tarih": "2026-11-11",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQlAxZ09hRklrU3dMdzVDX3k1MXEwRzhXWVRFNnNKVm02RC1wUXVnSUkwMV94bUlPVkZyeHg5dXZwd2dDVjZYMmFmR1FNdllLalJNakNiYVgtdUtzVE5Ib2ZaWjlMTDA0VUlRVFBZTHdOaGE3U2VaX2tOZHhGZjhQZk5iOWhUcUhiYlk1RDd6YjlGdzFBaGc?oc=5"
+   "anahtar": "piyasa:7c4e44a94dca63cf",
+   "baslik": "[US Antidumping Case Analysis] Cold-Rolled Steel Flat Products from South Korea (A-580-881) — POSCO's Margin Drops from 6.32% to 0%",
+   "kaynak": "Bing News",
+   "lead": "Since 2016, the United States has imposed antidumping (AD) duties on cold-rolled steel flat products from South Korea. The margin for POSCO, South Korea's largest producer, has fallen from 6.32% in ...",
+   "tarih": "2026-11-12",
+   "url": "https://note.com/global_ad_report/n/ncc790c6e23bd?hl=en"
   },
   {
    "anahtar": "piyasa:47b541b9e4c33ce6",
@@ -3018,22 +3037,6 @@
    "lead": "Vietnam is preparing to launch an anti-dumping investigation into cold-rolled stainless steel imports from China, Indonesia...",
    "tarih": "2026-11-10",
    "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/vietnam-launches-probe-into-cold-rolled-stainless-steel-imports-1126/"
-  },
-  {
-   "anahtar": "piyasa:c63a7f950e471960",
-   "baslik": "AI Is Queued Behind an Electrical Steel Transformer Shortage",
-   "kaynak": "Intelligent Living",
-   "lead": "AI Is Queued Behind an Electrical Steel Transformer Shortage &nbsp;&nbsp; Intelligent Living",
-   "tarih": "2026-11-08",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1TQUplTC1uLWNhV20yUXlIaEtpVWNJWFp4alJ4bEZiMGRncVJocWdDZWgzYm1rbHZfNjNSUGdUOUdXMHlJSGp1b252eEZfeGRlRXRxNUVZRUVVZFlhM0UxUnU5dlRlMU5QR2RGNmRlN0hLRjM3Ulpwczd1QQ?oc=5"
-  },
-  {
-   "anahtar": "piyasa:57ac2bb7e1222d7b",
-   "baslik": "Electrical Steel Pricing Report: Explore Global Price Trends, Historical Data and Forecasts",
-   "kaynak": "openPR.com",
-   "lead": "Electrical Steel Pricing Report: Explore Global Price Trends, Historical Data and Forecasts &nbsp;&nbsp; openPR.com",
-   "tarih": "2026-11-05",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdmp1SGVTd19RaTEwRW56Q0tjb2x3eVFfTE4xLVpWZ2hmdXlHQnB2TDQ0Y1c1U2U4dS1tQTc4TXg3ZHE1RFhMYTlzZGVxd1pGZ1pCZlRCS2tuUjB5STZGNy0zWGRGRkdETElmaVQwMGRwczJwaHpJWERWclBIa0JJa2NOREU4Y1RvTnZKWVM0dVdSVHkwNVNMQmptdw?oc=5"
   },
   {
    "anahtar": "piyasa:c8d598485ca4f420",
@@ -5330,6 +5333,20 @@
   }
  ],
  "source_health": {},
+ "tech_gonderilen": [
+  {
+   "b": "IMS expands its portfolio with force transducers for precise force measurement under demanding conditions in hot and cold rolling mills",
+   "t": "2026-10-06"
+  },
+  {
+   "b": "Primetals Technologies to modernize KG Steel's Dangjin cold mill with AI-driven automation upgrade",
+   "t": "2026-08-12"
+  },
+  {
+   "b": "Dongkuk CM develops color-coated steel sheet to prevent condensation in AI data centers",
+   "t": "2026-11-12"
+  }
+ ],
  "tech_rezerv": [
   {
    "anahtar": "tech:4de62a3615924bb5",
@@ -5648,53 +5665,5 @@
   "urun:kaplamali": 2,
   "urun:soguk hadde": 3
  },
- "version": "3.0.0",
- "piyasa_gonderilen": [
-  {
-   "b": "EU backs AD duties on CRC from five countries",
-   "t": "2026-11-02"
-  },
-  {
-   "b": "US HRC, CRC prices climb amid tight supply",
-   "t": "2026-11-02"
-  },
-  {
-   "b": "EU backs duties on cold-rolled steel from five countries",
-   "t": "2026-11-02"
-  },
-  {
-   "b": "EU electrical steel safeguards threaten transformer makers, 26 MEPs warn",
-   "t": "2026-11-04"
-  },
-  {
-   "b": "Korea recommends duties on Chinese galvanized steel",
-   "t": "2026-11-04"
-  },
-  {
-   "b": "Coils a freddo, via libera degli Stati Ue ai dazi antidumping - 15 Paesi favorevoli su 27. Atteso il regolamento definitivo, mentre sul mercato europeo i prezzi dei CRC si rafforzano",
-   "t": "2026-11-13"
-  },
-  {
-   "b": "\"Yeni AB kota rejimi yassı çelikte Türkiye'ye rekabet avantajı sunuyor\"",
-   "t": "2026-11-13"
-  },
-  {
-   "b": "Malaysia imposes provisional AD duties on coated steel",
-   "t": "2026-11-11"
-  }
- ],
- "tech_gonderilen": [
-  {
-   "b": "IMS expands its portfolio with force transducers for precise force measurement under demanding conditions in hot and cold rolling mills",
-   "t": "2026-10-06"
-  },
-  {
-   "b": "Primetals Technologies to modernize KG Steel's Dangjin cold mill with AI-driven automation upgrade",
-   "t": "2026-08-12"
-  },
-  {
-   "b": "Dongkuk CM develops color-coated steel sheet to prevent condensation in AI data centers",
-   "t": "2026-11-12"
-  }
- ]
+ "version": "3.0.0"
 }

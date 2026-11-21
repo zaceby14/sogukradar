@@ -16,20 +16,6 @@
    }
   },
   {
-   "anahtar": "b203eb675812b5c0",
-   "baslik": "Demonstration of Digital twins for a Green Steel value chain",
-   "url": "https://cordis.europa.eu/project/id/101178079",
-   "eksik": [
-    "ulke"
-   ],
-   "mevcut": {
-    "firma": "Demonstration",
-    "ulke": "",
-    "hat": "Otomasyon / dijital",
-    "asama": "Sozlesme"
-   }
-  },
-  {
    "anahtar": "4de62a3615924bb5",
    "baslik": "SAIL's Bokaro steel mill develops NGO grade special steel for the first time",
    "url": "https://www.steelorbis.com/steel-news/latest-news/sails-bokaro-steel-mill-develops-ngo-grade-special-steel-for-the-first-time-1492322.htm",
@@ -37,7 +23,7 @@
     "ulke"
    ],
    "mevcut": {
-    "firma": "Bokaro",
+    "firma": "SAIL",
     "ulke": "",
     "hat": "Elektrik celigi hatti",
     "asama": "Teknoloji"
@@ -51,21 +37,7 @@
     "asama"
    ],
    "mevcut": {
-    "firma": "Hazira",
-    "ulke": "Hindistan",
-    "hat": "Soguk hadde",
-    "asama": "Belirsiz"
-   }
-  },
-  {
-   "anahtar": "24e2dda77f2e84e9",
-   "baslik": "Jindal Stainless investing ₹900 crore to increase cold rolling capacity to 2.67 MT by FY28: MD",
-   "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQM0ZTdGxvS3U5VnZFMkMyZTRjN2ZHTm8tdU9NZmpoMGhISXl3Z1AwUzNCcU43RG9oX0tIOWJQYVA0eDBjX2FReXYzZVdlNFJFWkJHbHFtZ3M3VkZ1ZUpXb0U1NXB0MlB6endrSVZtNlY1SndMVnpaMHc0R0Nwa011aGU5ZGpnWDFGMXlWVnpUVHpuQVJWRXlEcm9uX1AxZUlYb0R3N3g2dW52TEJQOG43TGg2UFZSaHVWaEFzcG93cHdhZTl1aDdUNkcxNEYxWGEySEZOOGFDWHI5VUZRS1RTOHBqNVYzYW1uWkFBcnNJRHlVTWdxR3NjdE5VemtfVi1iM21pWNIB_wFBVV95cUxNWGdESGQ3OWJKQm5NUGNzZUxjVHZrUkY1SjFVMW5LclpmeUNCenNMTnV0VkdUSGh0cDBqUkdLeXFKaENicWdTQ21WYUxvMW1ZcHk1VkhfUWJoUmdYOFVTM3FIbWlzblNmaGd5MkhFSGotRklHd2I2b1RrZmxibG05V1lVc25Zc21yVEx0V2Z3ckgxV0lROWVaRzNKbEFKd1NBWWJsSnZnQzg1bE9LR21HanJuWGVQbWk4YjBkSGZEalpITDNfUlBtWTV1Um54dXlic1JaeGVlYnpaUHJpaGxybFNPNk1xNGI3cTZCT3E0ODY0R21ucjRSc3hRQURWbUU?oc=5",
-   "eksik": [
-    "asama"
-   ],
-   "mevcut": {
-    "firma": "FY28",
+    "firma": "AM/NS India",
     "ulke": "Hindistan",
     "hat": "Soguk hadde",
     "asama": "Belirsiz"
@@ -80,10 +52,42 @@
     "asama"
    ],
    "mevcut": {
-    "firma": "JTL Industries Advances",
+    "firma": "JTL Industries",
     "ulke": "",
     "hat": "Asitleme hatti",
     "asama": "Belirsiz"
+   }
+  },
+  {
+   "anahtar": "99bcca62027e43fb",
+   "baslik": "Açılışından önce, Nam Kim Phu My Çelik Sac Fabrikası, piyasanın çeşitli malzeme ihtiyaçlarını karşılamayı hedefliyor.",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxORUtuZ0VkOGlfQkNpM2dBSkJWU0NqR1ZjMFNqVmFCR3JxUjluODVRMEcyN3liaWpMcm9EVl9qRk4xRDM1QnVHcnJsLVVBZlhKY3o3clUyNDctUXZZWHctcTFWdGIzZFFlU0FyUHRhVVpkd3dETkFvcWV1TTRqR0g0WWYzd2NDb0FENi0zU1NvU2JwMWg1RHg4VzYtUnRudE1FMElWNEhzRmNTNlVGRHRLY1pyWUpWLVp5d18za1VlZ0g2UDg?oc=5",
+   "eksik": [
+    "hat",
+    "asama"
+   ],
+   "mevcut": {
+    "firma": "Açılışından",
+    "ulke": "Vietnam",
+    "hat": "Belirsiz",
+    "asama": "Belirsiz"
+   }
+  },
+  {
+   "anahtar": "90e30cb4756c40e2",
+   "baslik": "【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】",
+   "url": "https://news.metal.com/en/newscontent/104207357-纽柯在南卡罗来纳州新建50万吨年汽车板镀锌线产出首卷优质卷板",
+   "eksik": [
+    "firma",
+    "ulke",
+    "hat",
+    "tarih?"
+   ],
+   "mevcut": {
+    "firma": "",
+    "ulke": "",
+    "hat": "Belirsiz",
+    "asama": "Ilk urun"
    }
   }
  ],
@@ -99,19 +103,9 @@
    "url": "https://biz.heraldcorp.com/article/10943740"
   },
   {
-   "anahtar": "b203eb675812b5c0",
-   "tarih": "2026-11-07",
-   "firma": "Demonstration",
-   "ulke": "",
-   "hat": "Otomasyon / dijital",
-   "asama": "Sozlesme",
-   "baslik": "Demonstration of Digital twins for a Green Steel value chain",
-   "url": "https://cordis.europa.eu/project/id/101178079"
-  },
-  {
    "anahtar": "4de62a3615924bb5",
    "tarih": "2026-11-20",
-   "firma": "Bokaro",
+   "firma": "SAIL",
    "ulke": "",
    "hat": "Elektrik celigi hatti",
    "asama": "Teknoloji",
@@ -121,12 +115,22 @@
   {
    "anahtar": "d8b7fc40d787a676",
    "tarih": "2026-11-19",
-   "firma": "Hazira",
+   "firma": "AM/NS India",
    "ulke": "Hindistan",
    "hat": "Soguk hadde",
    "asama": "Belirsiz",
    "baslik": "AM/NS India Develops 2 Million Tonne Cold Rolling Facility at Hazira for Automotive Steel",
    "url": "https://www.newsx.com/nx-news/am-ns-india-develops-2-million-tonne-cold-rolling-facility-at-hazira-for-automotive-steel-293633/"
+  },
+  {
+   "anahtar": "90e30cb4756c40e2",
+   "tarih": "2026-11-05",
+   "firma": "",
+   "ulke": "",
+   "hat": "Belirsiz",
+   "asama": "Ilk urun",
+   "baslik": "【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】",
+   "url": "https://news.metal.com/en/newscontent/104207357-纽柯在南卡罗来纳州新建50万吨年汽车板镀锌线产出首卷优质卷板"
   }
  ],
  "teknoloji_adaylari": [
@@ -145,14 +149,6 @@
    "url": "https://www.newsx.com/nx-news/am-ns-india-develops-2-million-tonne-cold-rolling-facility-at-hazira-for-automotive-steel-293633/",
    "kaynak": "Bing News",
    "hat": "Soguk hadde"
-  },
-  {
-   "anahtar": "tech:ee3ada124db6cc47",
-   "tarih": "2026-11-03",
-   "baslik": "Hoa Phat Japonya'ya ilk kez galvanizli sac ihraç etti",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVTV4cVpmX040N3dWR1lPVkxmMVVEUFFOUEQxanFxRjFPNHJGc2hybHFORXFXSmIxWFBJVzVMUVZUbHpuTlNibFl3c1dpS2NMcHNMX25ELVFyUGo1d1NDa1g5TkN3R2UyYURLVXZCM0VuMWJZLXlRZGx0aGZPakJZRnNtNGUzTGcxWEF2NDI3dlFhTndyTGJ4RkF1UTdpdG9HYjlrZnBvUW5IMl8yZjNJVGJMMEZUWWhjRnFuQVRUNA?oc=5",
-   "kaynak": "SteelOrbis",
-   "hat": "Galvaniz hatti (CGL)"
   },
   {
    "anahtar": "tech:2baf68378ae6c731",

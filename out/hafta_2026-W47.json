@@ -26,33 +26,8 @@
    "puan": 61.2
   },
   {
-   "tarih": "2026-11-07",
-   "firma": "Demonstration",
-   "ulke": "",
-   "hat": "Otomasyon / dijital",
-   "asama": "Sozlesme",
-   "tedarikci": "",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "Demonstration of Digital twins for a Green Steel value chain",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgx_eurometal_q",
-   "url": "https://cordis.europa.eu/project/id/101178079",
-   "tarih_kaynagi": "rss",
-   "lead": "The total amount of money invested in the project. The total cost includes EU contribution as well as other project costs not covered by EU funding. It is expressed in euros. Amount of money, by way ...",
-   "eksik": [
-    "ulke"
-   ],
-   "anahtar": "b203eb675812b5c0",
-   "kategori": "Hat",
-   "olaylar": [
-    "demonstration|hat|Otomasyon / dijital|Sozlesme"
-   ],
-   "puan": 57.4
-  },
-  {
    "tarih": "2026-11-20",
-   "firma": "Bokaro",
+   "firma": "SAIL",
    "ulke": "",
    "hat": "Elektrik celigi hatti",
    "asama": "Teknoloji",
@@ -71,13 +46,13 @@
    "anahtar": "4de62a3615924bb5",
    "kategori": "Hat",
    "olaylar": [
-    "bokaro|hat|Elektrik celigi hatti|Teknoloji"
+    "sail|hat|Elektrik celigi hatti|Teknoloji"
    ],
    "puan": 52.6
   },
   {
    "tarih": "2026-11-19",
-   "firma": "Hazira",
+   "firma": "AM/NS India",
    "ulke": "Hindistan",
    "hat": "Soguk hadde",
    "asama": "Belirsiz",
@@ -96,42 +71,15 @@
    "anahtar": "d8b7fc40d787a676",
    "kategori": "Hat",
    "olaylar": [
-    "hazira|fu|Hindistan|Soguk hadde",
-    "hazira|hat|Soguk hadde|Belirsiz",
-    "hazira|ulke|Hindistan|Belirsiz"
+    "am/ns india|fu|Hindistan|Soguk hadde",
+    "am/ns india|hat|Soguk hadde|Belirsiz",
+    "am/ns india|ulke|Hindistan|Belirsiz"
    ],
    "puan": 45.2
   },
   {
-   "tarih": "2026-11-13",
-   "firma": "FY28",
-   "ulke": "Hindistan",
-   "hat": "Soguk hadde",
-   "asama": "Belirsiz",
-   "tedarikci": "",
-   "kapasite": "2.67 MT",
-   "tutar": "",
-   "baslik": "Jindal Stainless investing ₹900 crore to increase cold rolling capacity to 2.67 MT by FY28: MD",
-   "kaynak": "ET Manufacturing",
-   "kaynak_id": "gx_bigmint_q",
-   "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQM0ZTdGxvS3U5VnZFMkMyZTRjN2ZHTm8tdU9NZmpoMGhISXl3Z1AwUzNCcU43RG9oX0tIOWJQYVA0eDBjX2FReXYzZVdlNFJFWkJHbHFtZ3M3VkZ1ZUpXb0U1NXB0MlB6endrSVZtNlY1SndMVnpaMHc0R0Nwa011aGU5ZGpnWDFGMXlWVnpUVHpuQVJWRXlEcm9uX1AxZUlYb0R3N3g2dW52TEJQOG43TGg2UFZSaHVWaEFzcG93cHdhZTl1aDdUNkcxNEYxWGEySEZOOGFDWHI5VUZRS1RTOHBqNVYzYW1uWkFBcnNJRHlVTWdxR3NjdE5VemtfVi1iM21pWNIB_wFBVV95cUxNWGdESGQ3OWJKQm5NUGNzZUxjVHZrUkY1SjFVMW5LclpmeUNCenNMTnV0VkdUSGh0cDBqUkdLeXFKaENicWdTQ21WYUxvMW1ZcHk1VkhfUWJoUmdYOFVTM3FIbWlzblNmaGd5MkhFSGotRklHd2I2b1RrZmxibG05V1lVc25Zc21yVEx0V2Z3ckgxV0lROWVaRzNKbEFKd1NBWWJsSnZnQzg1bE9LR21HanJuWGVQbWk4YjBkSGZEalpITDNfUlBtWTV1Um54dXlic1JaeGVlYnpaUHJpaGxybFNPNk1xNGI3cTZCT3E0ODY0R21ucjRSc3hRQURWbUU?oc=5",
-   "tarih_kaynagi": "rss",
-   "lead": "Jindal Stainless investing ₹900 crore to increase cold rolling capacity to 2.67 MT by FY28: MD &nbsp;&nbsp; ET Manufacturing",
-   "eksik": [
-    "asama"
-   ],
-   "anahtar": "24e2dda77f2e84e9",
-   "kategori": "Yatirim",
-   "olaylar": [
-    "fy28|fu|Hindistan|Soguk hadde",
-    "fy28|hat|Soguk hadde|Belirsiz",
-    "fy28|ulke|Hindistan|Belirsiz"
-   ],
-   "puan": 34.8
-  },
-  {
    "tarih": "2026-11-11",
-   "firma": "JTL Industries Advances",
+   "firma": "JTL Industries",
    "ulke": "",
    "hat": "Asitleme hatti",
    "asama": "Belirsiz",
@@ -151,22 +99,78 @@
    "anahtar": "f4b0b6572835e0a6",
    "kategori": "Yatirim",
    "olaylar": [
-    "jtl industries advances|hat|Asitleme hatti|Belirsiz"
+    "jtl industries|hat|Asitleme hatti|Belirsiz"
    ],
    "puan": 27.0
+  },
+  {
+   "anahtar": "99bcca62027e43fb",
+   "asama": "Belirsiz",
+   "baslik": "Açılışından önce, Nam Kim Phu My Çelik Sac Fabrikası, piyasanın çeşitli malzeme ihtiyaçlarını karşılamayı hedefliyor.",
+   "eksik": [
+    "hat",
+    "asama"
+   ],
+   "firma": "Açılışından",
+   "hat": "Belirsiz",
+   "kapasite": "",
+   "kategori": "Yatirim",
+   "kaynak": "Vietnam.vn",
+   "kaynak_id": "gx_q_tr1",
+   "lead": "Açılışından önce, Nam Kim Phu My Çelik Sac Fabrikası, piyasanın çeşitli malzeme ihtiyaçlarını karşılamayı hedefliyor. &nbsp;&nbsp; Vietnam.vn",
+   "olaylar": [
+    "acilisindan|fu|Vietnam|Belirsiz",
+    "acilisindan|hat|Belirsiz|Belirsiz",
+    "acilisindan|ulke|Vietnam|Belirsiz"
+   ],
+   "puan": 4.0,
+   "tarih": "2026-11-18",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Vietnam",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxORUtuZ0VkOGlfQkNpM2dBSkJWU0NqR1ZjMFNqVmFCR3JxUjluODVRMEcyN3liaWpMcm9EVl9qRk4xRDM1QnVHcnJsLVVBZlhKY3o3clUyNDctUXZZWHctcTFWdGIzZFFlU0FyUHRhVVpkd3dETkFvcWV1TTRqR0g0WWYzd2NDb0FENi0zU1NvU2JwMWg1RHg4VzYtUnRudE1FMElWNEhzRmNTNlVGRHRLY1pyWUpWLVp5d18za1VlZ0g2UDg?oc=5"
+  },
+  {
+   "anahtar": "90e30cb4756c40e2",
+   "asama": "Ilk urun",
+   "baslik": "【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】",
+   "eksik": [
+    "firma",
+    "ulke",
+    "hat",
+    "tarih?"
+   ],
+   "firma": "",
+   "hat": "Belirsiz",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "SMM (Shanghai Metals)",
+   "kaynak_id": "smm",
+   "lead": "",
+   "olaylar": [
+    "|hat|Belirsiz|Ilk urun"
+   ],
+   "puan": 47.0,
+   "tarih": "2026-11-05",
+   "tarih_kaynagi": "liste",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.metal.com/en/newscontent/104207357-纽柯在南卡罗来纳州新建50万吨年汽车板镀锌线产出首卷优质卷板"
   }
  ],
  "stats": {
   "kaynak": 321,
-  "erisilemeyen": 33,
-  "ham": 3707,
-  "on_eleme_gecti": 359,
+  "erisilemeyen": 89,
+  "ham": 3402,
+  "on_eleme_gecti": 326,
   "makale_acildi": 220,
   "tarihsiz_elendi": 86,
-  "pencere_disi": 187,
-  "kapsam_disi": 3370,
-  "tekrar": 51,
-  "kabul": 7,
+  "pencere_disi": 182,
+  "kapsam_disi": 3084,
+  "tekrar": 38,
+  "kabul": 5,
   "gnews_tarih": 0
  },
  "unreachable": [
@@ -179,16 +183,240 @@
    "HTTP 403"
   ],
   [
-   "Magnetics Magazine",
-   "URLError: <urlopen error _ssl.c:1001: The handshake operation timed out>"
-  ],
-  [
    "Google News",
    "HTTP 429"
   ],
   [
    "Google News",
    "HTTP 429"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
   ],
   [
    "Google News",
@@ -634,7 +862,7 @@
    "sogutmada": false
   },
   "news.google.com": {
-   "istek": 98,
+   "istek": 30,
    "hiz_siniri": 2,
    "sogutmada": true
   },
@@ -672,14 +900,6 @@
    "hat": "Soguk hadde"
   },
   {
-   "anahtar": "tech:ee3ada124db6cc47",
-   "tarih": "2026-11-03",
-   "baslik": "Hoa Phat Japonya'ya ilk kez galvanizli sac ihraç etti",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVTV4cVpmX040N3dWR1lPVkxmMVVEUFFOUEQxanFxRjFPNHJGc2hybHFORXFXSmIxWFBJVzVMUVZUbHpuTlNibFl3c1dpS2NMcHNMX25ELVFyUGo1d1NDa1g5TkN3R2UyYURLVXZCM0VuMWJZLXlRZGx0aGZPakJZRnNtNGUzTGcxWEF2NDI3dlFhTndyTGJ4RkF1UTdpdG9HYjlrZnBvUW5IMl8yZjNJVGJMMEZUWWhjRnFuQVRUNA?oc=5",
-   "kaynak": "SteelOrbis",
-   "hat": "Galvaniz hatti (CGL)"
-  },
-  {
    "anahtar": "tech:2baf68378ae6c731",
    "tarih": "2026-08-10",
    "baslik": "KG Steel Turns to Primetals Technologies for PLTCM",
@@ -690,8 +910,8 @@
  ],
  "kaynak_katki": {
   "SteelOrbis": 1,
-  "Google News": 2,
-  "Bing News": 4
+  "Google News": 1,
+  "Bing News": 3
  },
  "piyasa_pool": [
   {
@@ -701,14 +921,6 @@
    "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQNDNsMENQak9KdGhNbGpYX0JwOENkWHJIZXJPMzJWM2VGWlp0X0ZlTFVLdElPMVlkd1R0TkNmNTgxSVJTOHBfUXlWX0hrUDZDVnVHWFBlV0dXSnliaXlnWlo0bF9EUXVLNTNzbGVHMmY0MmNmQzl6OXhla1k3d2draUxUNWNKWktORzBGOEtfbnlqZFNLaXZuQVU4Rld5NFFjS0NQOEVTc1pDbktNNENGamk4ZXpVNERfR2xIZUR1emU4YkRfNWhmZ056SEhHb3dsb1JqcWh0Z3p0TFF3aTc5S1dsMEFIaE5wTXJnUzhiZWlFbmlVS3RCYlloVnluLTVTdlJ0RDRuQzJ5dGNlTmEwRmVibHFTQS16QnhEWnYxVngtSmx4?oc=5",
    "kaynak": "Shanghai Metals Market",
    "lead": "[SMM Analysis] Ex-China Silicon Steel: Growth Anchored in India, High-End GO and Ultra-Thin Non-Oriented Maintain Tight Balance &nbsp;&nbsp; Shanghai Metals Market"
-  },
-  {
-   "anahtar": "piyasa:92751181f20552b9",
-   "tarih": "2026-11-20",
-   "baslik": "India: Coated flat steel prices ease further; weak retail offtake weighs on market",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQa3Azd0tOU0w4SDMtenNfNEl0d3ZLOXQwcGIzQ2hRTDE1Z2VHVEtLZVlCb1JKU05LZ2FpQnZNZ2p2bHRwdWlDX0cyREZNNU52Rmx4dlJrbmhoNTdhTEVnVFBIWjdYempVbnJCVERLTmtSVWJ5T0VFR1puMHU0UExJMF9yQ3Foa3ZDU193V3ljdDE5ZE9taUdKTHhCTWhielJEZE5vUWJHSTVHclNvVlVtUGpFYUpDVUFyQjRwLWhEYTVmUGsz?oc=5",
-   "kaynak": "BigMint",
-   "lead": "India: Coated flat steel prices ease further; weak retail offtake weighs on market &nbsp;&nbsp; BigMint"
   },
   {
    "anahtar": "piyasa:2b94dda1b77028b9",
@@ -749,25 +961,17 @@
    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1TQUplTC1uLWNhV20yUXlIaEtpVWNJWFp4alJ4bEZiMGRncVJocWdDZWgzYm1rbHZfNjNSUGdUOUdXMHlJSGp1b252eEZfeGRlRXRxNUVZRUVVZFlhM0UxUnU5dlRlMU5QR2RGNmRlN0hLRjM3Ulpwczd1QQ?oc=5",
    "kaynak": "Intelligent Living",
    "lead": "AI Is Queued Behind an Electrical Steel Transformer Shortage &nbsp;&nbsp; Intelligent Living"
-  },
-  {
-   "anahtar": "piyasa:1df6498ceaade832",
-   "tarih": "2026-11-05",
-   "baslik": "Türkiye’s flat steel market: Galvanized prices increased, HRC and CRC remain stable | 5 November 2026",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPLWhLdXhURFp3NGZTZVRWT05xTVZtZDVRN016NXg1ajlreWJlZHBlNk9valE5ZTRWSnpzbUNsR3V1QjJJdm80UVRqdHhoYlYxUEtUMlVrQ191TDVBY0JXMEVDdVoybkdFMGIzbE5lRDY2SHZvcUszb1hjSkFIQTdHSzJCZGkwZFNEM2VOdHdxbEZZTV9EMkdPdjF0OGNqOUdYMV84TkcxRmFZSEZyVWRaYUtHVWktV0RoOV9zQ1pHbGtSNUJGUzV1UDBMZ3RkZw?oc=5",
-   "kaynak": "SteelRadar",
-   "lead": "Türkiye’s flat steel market: Galvanized prices increased, HRC and CRC remain stable | 5 November 2026 &nbsp;&nbsp; SteelRadar"
   }
  ],
  "window": [
   "2026-10-31",
   "2026-11-21"
  ],
- "bulunan_kullanilan": 0,
- "bulunan_havuz": 9,
+ "bulunan_kullanilan": 2,
+ "bulunan_havuz": 8,
  "rezerv_kullanilan": 0,
  "rezerv_havuz": 80,
  "period": "2026-W47",
- "generated": "2026-11-21 12:46 UTC",
+ "generated": "2026-11-21 13:10 UTC",
  "version": "3.0.0"
 }
