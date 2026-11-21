@@ -1,4 +1,12 @@
 ======================================================================
+[HABER] 2026-11-11 | Habas contracts Danieli for CRC, tinplate complex
+  link : https://www.kallanish.com/en/news/steel/market-reports/article-details/turkeys-habas-partners-with-danieli-for-cr-tin-plate-complex-by-2024-1223/
+  durum: 200  son adres: https://www.kallanish.com/en/news/steel/market-reports/article-details/turkeys-habas-partners-with-danieli-for-cr-tin-plate-complex-by-2024-1223/
+  sayfa basligi: Habas contracts Danieli for CRC, tinplate complex
+  sayfa tarihi : -
+  metin: Login Kallanish articles are only available for active subscribers and clients currently on trial. If you already have login details, please login below to continue. Email address Password LOGIN Want to see what we offer? Why not sign up for a free trial and receive the Kallanish service for 2 full weeks. Registration only takes 1 minute, so you can start benefitting from our news and pricing cove
+  baslik-sayfa ortak sozcuk: 5/5 -> UYUMLU
+======================================================================
 [HABER] 2026-11-19 | KG Steel completes W38b PLTCM upgrade, targets output of over 2 million tons
   link : https://biz.heraldcorp.com/article/10943740
   durum: 200  son adres: https://biz.heraldcorp.com/article/10943740
@@ -24,8 +32,7 @@
   baslik-sayfa ortak sozcuk: 7/7 -> UYUMLU
 ======================================================================
 [HABER] 2026-11-19 | AM/NS India Develops 2 Million Tonne Cold Rolling Facility at Hazira for Automotive Steel
-  link : https://news.google.com/rss/articles/CBMixgFBVV95cUxNQjg2azBrNXF4djN0MUVjSWt1Z3NEQVBTcFdONnBBSER5T0N2bldBbUtKRzlabEQ1N3dIb1NfeWZUay1uNHlPdWR2TTRlTDRMT
-  google news -> yayinci: https://www.newsx.com/nx-news/am-ns-india-develops-2-million-tonne-cold-rolling-facility-at-hazira-for-automotive-steel-293633/
+  link : https://www.newsx.com/nx-news/am-ns-india-develops-2-million-tonne-cold-rolling-facility-at-hazira-for-automotive-steel-293633/
   durum: 200  son adres: https://www.newsx.com/nx-news/am-ns-india-develops-2-million-tonne-cold-rolling-facility-at-hazira-for-automotive-steel-293633/
   sayfa basligi: AM/NS India Develops 2 Million Tonne Cold Rolling Facility at Hazira for Automotive Steel - NewsX
   sayfa tarihi : {'key': 'datePublished', 'value': '2026-11-19T17:44:08+05:30'}, {'key': 'dateModified', 'value': '2026-11-19T17:44:15+05:30'}
@@ -36,9 +43,21 @@
   link : https://news.google.com/rss/articles/CBMihAJBVV95cUxQM0ZTdGxvS3U5VnZFMkMyZTRjN2ZHTm8tdU9NZmpoMGhISXl3Z1AwUzNCcU43RG9oX0tIOWJQYVA0eDBjX2FReXYzZVdlNFJFW
   google news -> yayinci: BULUNAMADI
 ======================================================================
-[TEKNOLOJI] 2026-10-14 | KG Steel pushes to expand AI usage rate at annealing furnace to over 80%
-  link : https://news.google.com/rss/articles/CBMiVkFVX3lxTFB1dExHc2VaMEVwUWh5dkt2ZmlNSWFUS1l5eGtjVnRlYWpSTGxKZFpBaEZRY3NaSmV3eGZlZVZhNjYzWnVnYVBVYmtxQTJxR04xQ
-  google news -> yayinci: BULUNAMADI
+[TEKNOLOJI] 2026-08-20 | Vietnam's Hoa Sen launches new alloy-coated steel with enhanced corrosion resistance
+  link : https://www.steelorbis.com/steel-news/latest-news/vietnams-hoa-sen-launches-new-alloy-coated-steel-with-enhanced-corrosion-resistance-1471882.htm
+  durum: 200  son adres: https://www.steelorbis.com/steel-news/latest-news/vietnams-hoa-sen-launches-new-alloy-coated-steel-with-enhanced-corrosion-resistance-1471882.htm
+  sayfa basligi: Vietnam's Hoa Sen launches new alloy-coated steel with enhanced corrosion resistance
+  sayfa tarihi : {'key': 'datePublished', 'value': '2026-08-20T12:24:07+03:00'}, {'key': 'dateModified', 'value': '2026-08-20T00:00:00+03:00'}
+  metin: English Türkçe Italiano 中文 | Login Menu Marketplace Global Marketplace Access to the listings of different steel products and bids without intermediaries and commissions. Steel Markets Steel Prices Daily Steel Prices Weekly Steel Prices Steel Price Analysis Tool Orbis Steel Index Futures Prices Steel Price Analyses Scrap & Raw Materials Tube and Pipe Flats and Slab Longs and Billet Products Scrap 
+  baslik-sayfa ortak sozcuk: 7/7 -> UYUMLU
+======================================================================
+[PIYASA] 2026-11-17 | European Commission imposes anti-dumping duties on cold-rolled coil imports from India, Japan, Taiwan, Turkey,
+  link : https://eurometal.net/european-commission-imposes-anti-dumping-duties-on-cold-rolled-coil-imports-from-india-japan-taiwan-turkey-vietnam/
+  durum: 200  son adres: https://eurometal.net/european-commission-imposes-anti-dumping-duties-on-cold-rolled-coil-imports-from-india-japan-taiwan-turkey-vietnam/
+  sayfa basligi: European Commission imposes anti-dumping duties on cold-rolled coil imports from India, Japan, Taiwan, Turkey, Vietnam - EUROMETAL
+  sayfa tarihi : {'key': 'datePublished', 'value': '2026-11-17T08:57:47+01:00'}, {'key': 'datePublished', 'value': '2026-11-17T08:57:47+01:00'}
+  metin: Skip to content EUROMETAL Expand / Collapse About EUROMETAL EUROMETAL Presidency EUROMETAL Statutes EUROMETAL Compliance Guidelines Certificate of Banking Details Members Expand / Collapse Become a Member Membership Statutes Regular Federation Members Regular Subscribers & Members Expand / Collapse Multi-Product & Proximity Steel Distribution Steel Trade Associations & Companies Flat SSC Distribut
+  baslik-sayfa ortak sozcuk: 15/15 -> UYUMLU
 ======================================================================
 [PIYASA] 2026-11-17 | EU's India CRC duty approach has 'systemic' ramifications
   link : https://www.kallanish.com/en/news/steel/market-reports/article-details/eu-imposes-95percent-duty-on-indian-cold-rolled-steel-1126/
@@ -51,11 +70,3 @@
 [PIYASA] 2026-11-18 | Vietnam accepts product scope review request for AD duties on Chinese and South Korean galvanized steel
   link : https://news.google.com/rss/articles/CBMi0AFBVV95cUxPYk1RRThHcW9NdzIybU0zS0o1c1l5cVBiQ24yNDBYRGg2LXRURjlaeGxRRU4tcGpXU2FxVUVhd1o0aUZQUHVPZWRvdGxrWTBuU
   google news -> yayinci: BULUNAMADI
-======================================================================
-[PIYASA] 2026-11-13 | Thailand levies anti-dumping duty on tinplate, tin-free sheet
-  link : https://www.kallanish.com/en/news/steel/market-reports/article-details/thailand-levies-ad-tinplate-tin-free-sheet-1126/
-  durum: 200  son adres: https://www.kallanish.com/en/news/steel/market-reports/article-details/thailand-levies-ad-tinplate-tin-free-sheet-1126/
-  sayfa basligi: Thailand levies anti-dumping duty on tinplate, tin-free sheet
-  sayfa tarihi : -
-  metin: Login Kallanish articles are only available for active subscribers and clients currently on trial. If you already have login details, please login below to continue. Email address Password LOGIN Want to see what we offer? Why not sign up for a free trial and receive the Kallanish service for 2 full weeks. Registration only takes 1 minute, so you can start benefitting from our news and pricing cove
-  baslik-sayfa ortak sozcuk: 8/8 -> UYUMLU
