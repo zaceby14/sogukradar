@@ -101,6 +101,17 @@ def _sayfa_tarihi(doc):
     return None
 
 
+def sayfa_yayin_tarihi(url):
+    """Sayfanin beyan ettigi yayin tarihi (YYYY-MM-DD) ya da None."""
+    if not url or taxonomy.TOPLAYICI.search(url.lower()):
+        return None
+    try:
+        ok, page, _ = fetch(url)
+    except Exception:
+        return None
+    return _sayfa_tarihi(htmlx.parse_article(page)) if ok and page else None
+
+
 def maddeleri_dogrula(maddeler, alan="baslik", log=print):
     """Teknoloji/piyasa ADAYLARI icin ayni kapi (2026-11-21, kullanici: kontroller
     tek seferlik olmasin, her duruma uysun). Toplayici adresi once yayinci

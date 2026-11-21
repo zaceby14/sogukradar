@@ -203,10 +203,14 @@ _HEDEF_YIL = re.compile(r"\b(?:by|until|till|bis)\s+(?:end[- ]?(?:of\s+)?|fy\s?)
                         r"|\b(20\d\d)\s+y[iı]l[iı]na\s+kadar", re.I)
 
 
-def eski_haber_mi(baslik, url, tarih, today=None):
+def eski_haber_mi(baslik, url, tarih, today=None, baslik_dahil=False):
     """Maddenin tarihi ESKI bir habere mi yapistirilmis? Neden metni ya da None.
-    1) Adresteki yil-ay, madde tarihinden 2 aydan fazla eski;
-    2) Baslikta hedef olarak verilen yil ('by 2024') bugunun yilindan kucuk."""
+    1) KESIN KANIT: adresteki yil-ay, madde tarihinden 2 aydan fazla eski.
+       (2026'da yazilmis yeni bir gelisme haberinin adresi 2026'dir - girer.
+       Yalniz eski yazinin KENDISI duser.)
+    2) YALNIZ SUPHE (baslik_dahil=True): baslikta gecmis hedef yili ('by 2024').
+       Bu tek basina eleme sebebi DEGIL; cagiran sayfanin kendi yayin
+       tarihine bakarak karar verir (gercek yeni haber kaybedilmesin)."""
     try:
         t = dt.date.fromisoformat((tarih or "")[:10])
     except ValueError:
@@ -216,6 +220,8 @@ def eski_haber_mi(baslik, url, tarih, today=None):
         fark = (t.year - ua[0]) * 12 + (t.month - ua[1])
         if fark > 2:
             return "adresteki tarih %d-%02d, madde tarihi %s" % (ua[0], ua[1], tarih[:10])
+    if not baslik_dahil:
+        return None
     today = today or dt.date.today()
     for y1, y2 in _HEDEF_YIL.findall(baslik or ""):
         y = y1 or y2

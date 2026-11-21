@@ -1047,6 +1047,12 @@ def is_junk_title(title):
     return False
 
 
+def match_lines(text):
+    """Metinde gecen TUM hat turleri (kume)."""
+    t = fold(text)
+    return {name for pat, name in LINE_MAP if re.search(pat, t)}
+
+
 def match_line(text):
     t = fold(text)
     for pat, name in LINE_MAP:

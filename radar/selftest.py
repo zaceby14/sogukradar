@@ -3865,12 +3865,22 @@ def test_kurul2_deneme_incelemesi():
                         "2026-11-12", T), None, "Kallanish -1126 guncel")
     eq(bool(_d.eski_haber_mi("Habas contracts Danieli for CRC, tinplate complex", "https://a.com/news/2023/12/habas", "2026-11-11", T)),
        True, "/2023/12/ adres -> eski")
-    eq(bool(_d.eski_haber_mi("X to finish new galvanizing line by 2024", "https://a.com/x", "2026-11-11", T)),
-       True, "baslikta gecmis hedef yili")
+    eq(bool(_d.eski_haber_mi("X to finish new galvanizing line by 2024", "https://a.com/x", "2026-11-11", T,
+                             baslik_dahil=True)), True, "baslikta gecmis hedef yili = suphe")
+    eq(_d.eski_haber_mi("X to finish new galvanizing line by 2024", "https://a.com/x", "2026-11-11", T),
+       None, "baslik suphesi TEK BASINA elemez (sayfa tarihine bakilir)")
+    eq(_d.eski_haber_mi("Habas starts up tinplate line contracted with Danieli in 2023",
+                        "https://www.kallanish.com/en/news/x/habas-starts-up-tinplate-line-1126/", "2026-11-12", T),
+       None, "2023 projesinin 2026 gelismesi girer")
     eq(_d.eski_haber_mi("Jindal Stainless to raise capacity to 2.67 MT by FY28", "https://a.com/x", "2026-11-13", T),
        None, "gelecek hedef yili sorun degil")
     eq(_d.eski_haber_mi("Investment announced in 2025 starts production", "https://a.com/x", "2026-11-13", T),
        None, "'in 2025' hedef degil, elenmez")
+    gond = [{"b": "Habas contracts Danieli for CRC, tinplate complex", "t": "2026-11-11", "a": "Sozlesme"}]
+    eq(cli.gonderilmis_tekrar("Habas contracts Danieli for cold rolling and tinplate complex", "2026-11-12", "Sozlesme", gond),
+       True, "ayni sozlesme haberi tekrar")
+    eq(cli.gonderilmis_tekrar("Habas starts production at Danieli tinplate complex", "2026-11-20", "Ilk urun", gond),
+       False, "ayni projenin ileri asamasi YENI gelisme")
     # 6) BELIRSIZ rozeti gosterilmez
     eq("BELİRSİZ" in render._badge("Belirsiz"), True, "rozet fonksiyonu degismedi")
     # 7) dogrulanmayan piyasa maddesi Ingilizce basligiyla gitmez (yeterli Turkce varsa)

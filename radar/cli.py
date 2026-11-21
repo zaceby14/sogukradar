@@ -376,7 +376,10 @@ def _ayni_olay(a, ta, b, tb):
        ayni galvaniz hatti haberi Turkce ve Ingilizce iki ayri yayinda)."""
     from . import classify as _cls
     ha, hb = taxonomy.match_line(a), taxonomy.match_line(b)
-    hat_celisir = ha != "Belirsiz" and hb != "Belirsiz" and ha != hb
+    # hat celiskisi: iki baslikta da hat var ve ORTAK hat yok (birden cok hat
+    # sayan basliklar - "CRC, tinplate complex" - celiski sayilmaz)
+    la, lb = taxonomy.match_lines(a), taxonomy.match_lines(b)
+    hat_celisir = bool(la) and bool(lb) and not (la & lb)
     if taxonomy.similar_titles(a, b) and not hat_celisir:
         return True
     if ha == "Belirsiz" or ha != hb:
@@ -388,6 +391,20 @@ def _ayni_olay(a, ta, b, tb):
         return abs((dt.date.fromisoformat(ta[:10]) - dt.date.fromisoformat(tb[:10])).days) <= 45
     except ValueError:
         return False
+
+
+def gonderilmis_tekrar(b, tarih, asama, gonderilen):
+    """Gonderilmis bir maddenin tekrari mi? DAHA ILERI ASAMA YENI GELISMEDIR
+    (2026-11-21, kullanici: "2023'te sozlesme, 2026'da gelisme olur, o girer"):
+    gonderilmis sozlesmenin devreye alma/ilk uretim haberi tekrar sayilmaz."""
+    sira = kume.ASAMA_SIRA
+    for g in gonderilen:
+        if not _ayni_olay(b or "", tarih or "", g.get("b", ""), g.get("t", "")):
+            continue
+        if asama and sira.get(asama, 0) > sira.get(g.get("a") or "Belirsiz", 0):
+            continue
+        return True
+    return False
 
 
 _BUGUN = [None]
@@ -1055,24 +1072,37 @@ def cmd_otomatik(a):
     # ESKI HABER KAPISI (2026-11-21, Habas vakasi): Bing News 2023 tarihli
     # Kallanish haberini 11.11.2026 tarihiyle verdi; adres '-1223' (Aralik 2023)
     # ile bitiyordu, baslikta 'by 2024' vardi. HER bolume uygulanir.
+    # Baslikta gecmis hedef yili yalniz SUPHEDIR: sayfanin kendi yayin tarihi
+    # yeniyse madde KALIR (2023 sozlesmesinin 2026'daki yeni gelismesi girer).
+    def _eski(m):
+        neden = dates.eski_haber_mi(m.get("baslik"), m.get("url"), m.get("tarih"), bugun)
+        if neden:
+            return neden
+        suphe = dates.eski_haber_mi(m.get("baslik"), m.get("url"), m.get("tarih"), bugun,
+                                    baslik_dahil=True)
+        if not suphe or os.environ.get("RADAR_BAGLANTI", "1") == "0":
+            return None
+        sayfa_t = baglanti.sayfa_yayin_tarihi(m.get("url"))
+        if sayfa_t and sayfa_t >= (bugun - dt.timedelta(days=60)).isoformat():
+            return None                                 # sayfa yeni: gercek guncel haber
+        return suphe + (" ve sayfa tarihi %s" % sayfa_t if sayfa_t else " ve sayfa tarihi dogrulanamadi")
     for r in list(payload["rows"]):
-        neden = dates.eski_haber_mi(r.get("baslik"), r.get("url"), r.get("tarih"), bugun)
+        neden = _eski(r)
         if neden:
             payload["rows"].remove(r)
             elenen.append((r.get("baslik", ""), "eski haber: " + neden))
     for _k in ("tech_pool", "piyasa_pool"):
-        payload[_k] = [m for m in payload.get(_k) or []
-                       if not dates.eski_haber_mi(m.get("baslik"), m.get("url"), m.get("tarih"), bugun)]
+        payload[_k] = [m for m in payload.get(_k) or [] if not _eski(m)]
     # SON TEKRAR KAPISI (2026-11-21, coklu deneme): gonderilmis HER baslik
     # (haber, teknoloji, piyasa) her bolume karsi denetlenir. IMS kuvvet olcer
     # W45'te koseden gitmisti, havuzdan LISTE satiri olarak geri geliyordu.
     gonderilen = [x for k in ("son_basliklar", "tech_gonderilen", "piyasa_gonderilen")
                   for x in (st.get(k) or []) if isinstance(x, dict) and x.get("b")]
 
-    def _gonderildi(b, tarih=""):
-        return any(_ayni_olay(b or "", tarih, g.get("b", ""), g.get("t", "")) for g in gonderilen)
+    def _gonderildi(b, tarih="", asama=""):
+        return gonderilmis_tekrar(b, tarih, asama, gonderilen)
     for r in list(payload["rows"]):
-        if _gonderildi(r.get("baslik"), r.get("tarih", "")):
+        if _gonderildi(r.get("baslik"), r.get("tarih", ""), r.get("asama", "")):
             payload["rows"].remove(r)
             elenen.append((r.get("baslik", ""), "daha once gonderilmis (baska bolumde/yayinda)"))
     payload["tech_pool"] = [t for t in payload.get("tech_pool") or []

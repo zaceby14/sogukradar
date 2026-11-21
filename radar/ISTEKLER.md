@@ -57,6 +57,13 @@ en yeni tarihli istek geçerlidir. Teknik ayrıntı: `radar/EDITOR.md`.
 - Herkes oy verebilsin; algoritma beğenilen türe odaklansın.
 - Bir maddeye **faydalı** oyu geldiyse **faydasız** oylar dikkate alınmasın.
 
+## 7a. Eski haber / yeni gelişme (2026-11-21)
+- Eski tarihli bir haberin KENDİSİ (ör. 2023 yazısı) yeni tarihle girmez.
+- Ama aynı projede yeni bir gelişme (2023 sözleşmesinin 2026'da devreye
+  alınması gibi) GİRER; gönderilmiş haberin daha ileri aşaması tekrar sayılmaz.
+- Eklenen hiçbir filtre gerçek, istenen haberi elememeli: şüphe (başlıkta
+  geçmiş yıl) tek başına eleme sebebi değil, sayfanın kendi yayın tarihine bakılır.
+
 ## 7b. Geliştirme ilkesi
 - Düzeltmeler **tek seferlik olmasın**; her hafta, her maddeye otomatik uygulanan
   genel kural olsun (2026-11-21). Bir vaka bulunduğunda: kural + test + eski
