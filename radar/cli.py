@@ -401,7 +401,14 @@ def gonderilmis_tekrar(b, tarih, asama, gonderilen):
     for g in gonderilen:
         if not _ayni_olay(b or "", tarih or "", g.get("b", ""), g.get("t", "")):
             continue
-        if asama and sira.get(asama, 0) > sira.get(g.get("a") or "Belirsiz", 0):
+        # Istisna YALNIZ gercek ilerlemede: gonderilenin asamasi BILINIYOR ve yeni
+        # asama sahada bir adim (insaat/test/ilk uretim). Asamasi bilinmeyen
+        # gonderilmis haber karsisinda istisna YOK (2026-11-21 coklu deneme:
+        # W45'te giden IMS ve POSCO, asamasi 'Belirsiz' kayitli oldugu icin
+        # "ileri asama" sayilip geri geldi).
+        eski = sira.get(g.get("a") or "Belirsiz", 0)
+        yeni = sira.get(asama or "Belirsiz", 0)
+        if eski > 0 and yeni >= sira["Insaat"] and yeni > eski:
             continue
         return True
     return False

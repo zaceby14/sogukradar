@@ -92,7 +92,10 @@ LINE_MAP = [
      "Boyama hatti (CCL)"),
     (r"galvaniz|galvanis|hot[- ]dip|\bcgl\b|\bhdgl?\b|galvanneal|zinc pot|"
      r"zinc bath|air knife|gas wiping|zinc coating line|sicak daldirma|"
-     r"cinko kaplama|cinko banyosu|hava bicagi", "Galvaniz hatti (CGL)"),
+     r"cinko kaplama|cinko banyosu|hava bicagi|"
+     # OTOMOTIV KAPLAMA HATTI = galvaniz (2026-11-21: "Posco breaks ground on
+     # first new auto-steel coating line" hat Belirsiz kaliyordu)
+     r"auto(motive)?[- ]steel coating line|coating line for auto", "Galvaniz hatti (CGL)"),
     (r"passivation|chromating|phosphating|oiling machine|\boiler\b|"
      r"pasivasyon|kromatlama|fosfatlama|yaglama", "Yuzey islem / pasivasyon"),
     (r"cleaning line|degreasing|electrolytic cleaning|alkaline cleaning|"

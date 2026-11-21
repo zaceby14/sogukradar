@@ -3886,6 +3886,12 @@ def test_kurul2_deneme_incelemesi():
        True, "ayni konuda acik erisimli karar haberi yorumdan once")
     eq(yazar.cumle_dogrula("Şirket, yeni kaplama için Ar-Ge çalışmalarını tamamladığını açıkladı bugün.", "company completes R&D coating")[0],
        True, "Ar-Ge ozel ad sayilmaz")
+    gond2 = [{"b": "IMS expands its portfolio with force transducers for precise force measurement", "t": "2026-10-06"},
+             {"b": "POSCO, Otomotiv Çeliği İçin 359 Milyon Dolarlık Yeni Galvanizleme Hattı Kuruyor", "t": "2026-09-24", "a": "Belirsiz"}]
+    eq(cli.gonderilmis_tekrar("IMS expands its portfolio with force transducers for precise force measurement under demanding conditions",
+                              "2026-10-06", "Sozlesme", gond2), True, "asamasi bilinmeyen gonderilmis haber karsisinda istisna yok")
+    eq(cli.gonderilmis_tekrar("POSCO to Build State-of-the-Art Galvanized Automotive Steel Sheet Plant", "2026-09-21",
+                              "Teknoloji", gond2), True, "POSCO ayni proje: Teknoloji ilerleme degil")
     # 6) BELIRSIZ rozeti gosterilmez
     eq("BELİRSİZ" in render._badge("Belirsiz"), True, "rozet fonksiyonu degismedi")
     # 7) dogrulanmayan piyasa maddesi Ingilizce basligiyla gitmez (yeterli Turkce varsa)

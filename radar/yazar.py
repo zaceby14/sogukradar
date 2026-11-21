@@ -92,6 +92,8 @@ _KURUM_ES = {
     "konseyi": ["council", "konsey"], "konsey": ["council", "konsey"],
     "parlamentosu": ["parliament", "mep", "meps", "parlamento"], "parlamento": ["parliament", "mep", "meps"],
     "hukumet": ["government", "hukumet"], "hukumeti": ["government", "hukumet"],
+    "ticaret": ["trade", "commerce", "ticaret"],
+    "krw": ["krw", "won"], "usd": ["usd", "dollar", "\\$"], "eur": ["eur", "euro", "€"],
 }
 
 _ING = {"the", "and", "for", "with", "has", "have", "will", "from", "this",
