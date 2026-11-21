@@ -125,6 +125,8 @@ def cumle_dogrula(cumle, kaynak, asama=None):
     kay_fold = taxonomy.fold(kaynak)
     # 1) sayilar
     izinli = _rakamlar(kaynak)
+    # MALI YIL (2026-11-21): kaynakta "FY28" -> cumlede "2028" uydurma degil.
+    izinli |= {"20" + y for y in re.findall(r"\bFY\s?'?(\d{2})\b", kaynak or "", re.I)}
     for n in _rakamlar(c):
         if n not in izinli:
             return False, "kaynakta olmayan sayi: %s" % n

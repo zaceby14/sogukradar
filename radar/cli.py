@@ -1042,6 +1042,18 @@ def cmd_otomatik(a):
                 doc["cumleler"].get(r["anahtar"]) == compose.row_sentence(r):
             doc.setdefault("cikar", []).append(r["anahtar"])
             elenen.append((r.get("baslik", ""), "Cince baslik, dogrulanmis Turkce cumle yok"))
+    # OZET YALNIZ KALAN SATIRLARI ANLATIR (2026-11-21, deneme): cikarilan Cince
+    # Nucor satiri (gecen hafta gitmis) haftalik ozette "Nucor ilk bobin..."
+    # diye kaldi. Ozet, cikarmalardan sonra kalan satirlarin kaynagina karsi
+    # yeniden dogrulanir; gecmezse kuralsal ozet konur.
+    cik = set(doc.get("cikar") or [])
+    if cik:
+        kalan = [r for r in payload["rows"] if r["anahtar"] not in cik]
+        kay = " ".join(yazar.kaynak_metni(r) for r in kalan) + " %d" % len(kalan)
+        en_ileri = next((r.get("asama") for r in kalan if r.get("asama") in ("Ilk urun", "Seri uretim")), None)
+        if not yazar.cumle_dogrula(doc.get("exec", ""), kay, en_ileri)[0]:
+            doc["exec"] = compose.exec_summary(kalan, payload["stats"])
+            print("haftalik ozet cikarilan satiri anlatiyordu - kuralsal ozet konuldu")
     _ozet_uygula(payload, doc)
     tech = doc.get("teknolojiler", [])
     # teknoloji koseleri de 'gonderildi'ysa cikar

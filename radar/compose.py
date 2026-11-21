@@ -78,9 +78,19 @@ def row_sentence(r):
     ekten kacinir: 'tedarikçi: X' kalibi hep dogrudur.
     """
     if r.get("kategori") == "Yatirim":
-        # Yatirim satiri yalniz baslikla gelir; Turkce cumle LLM'e ya da
-        # editore birakilir. Kuralsal yolda baslik oldugu gibi gosterilir
-        # (ceviri uydurulmaz).
+        # Yatirim satiri: TURKCE kuralsal cumle (2026-11-21, kullanici: bultende
+        # Ingilizce satir kalmasin). Yalniz dogrulanmis alanlar kullanilir;
+        # firma okunamadiysa eski davranis (ozgun baslik) korunur.
+        if r.get("firma"):
+            hat = _hat_tr(r) if (r.get("hat") or "Belirsiz") != "Belirsiz" else ""
+            s = "%s, %s" % (r["firma"], ("%s alanında yatırım yapıyor" % hat) if hat
+                            else "yeni bir yatırım açıkladı")
+            ek = []
+            if r.get("tutar"):
+                ek.append("tutar: %s" % r["tutar"])
+            if r.get("kapasite"):
+                ek.append("kapasite: %s" % r["kapasite"])
+            return s + (" (%s)" % "; ".join(ek) if ek else "") + "."
         return r.get("baslik", "")
     # Firma okunamadiysa KAYNAK ADI firma yerine yazilmaz (2026-11-02: "Mysteel,
     # ... yenileme projesine basladi" - yayinci, yatirimci gibi gorundu).

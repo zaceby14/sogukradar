@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 """Cikti uretimi: HTML / CSV / Markdown (+ varsa PDF)."""
+import re
 import csv
 import datetime as dt
 import html
@@ -261,6 +262,17 @@ def _dmy(iso):
         return iso
 
 
+def _kaynak_adi(m):
+    """'Bing News'/'Google News' toplayici adi yerine yayincinin alan adi (2026-11-21)."""
+    k = m.get("kaynak") or ""
+    if re.search(r"bing news|google news", k, re.I):
+        host = re.sub(r"^https?://", "", m.get("url") or "").split("/")[0]
+        if host and not re.search(r"bing\.com|google\.", host):
+            host = re.sub(r"^(www|biz|m|en|news)\.", "", host)
+            return host
+    return k
+
+
 def _oy(madde):
     """Faydali/Ilgisiz mailto baglantilari (RADAR_GERI_ADRES tanimliysa)."""
     import os
@@ -377,7 +389,7 @@ def email_html(payload, ozet=None, tech_items=None, sayi=1):
     bolum("Teknoloji Köşesi")
     if tech_items:
         for t in tech_items:
-            meta = " &middot; ".join(_e(x) for x in (_dmy(t.get("tarih", "")), t.get("kaynak")) if x)
+            meta = " &middot; ".join(_e(x) for x in (_dmy(t.get("tarih", "")), _kaynak_adi(t)) if x)
             kart(meta, _e(t.get("konu") or t.get("baslik", "")), t.get("metin", ""), t.get("url"),
                  "", _oy(dict(t, baslik=t.get("konu") or t.get("baslik", ""))))
         h.append('<tr><td style="padding:0 24px;font-size:12px;color:%s;">Bir teknoloji yalnızca '
@@ -394,7 +406,7 @@ def email_html(payload, ozet=None, tech_items=None, sayi=1):
             meta = " &middot; ".join(_e(x) for x in (_dmy(r.get("tarih", "")),
                                                     compose.ulke_goster(r.get("ulke")),
                                                     r.get("tedarikci"), r.get("tutar"),
-                                                    r.get("kaynak")) if x)
+                                                    _kaynak_adi(r)) if x)
             cum = cumleler.get(r.get("anahtar")) or compose.row_sentence(r)
             # "BELIRSIZ" rozeti okura bilgi vermiyor (2026-11-21, kurul): gosterilmez.
             rozet = _ROZET_YAT if r.get("kategori") == "Yatirim" else (
@@ -409,7 +421,7 @@ def email_html(payload, ozet=None, tech_items=None, sayi=1):
     if piy:
         bolum("Piyasa Gündemi")
         for m in piy:
-            meta = " &middot; ".join(_e(x) for x in (_dmy(m.get("tarih", "")), m.get("kaynak")) if x)
+            meta = " &middot; ".join(_e(x) for x in (_dmy(m.get("tarih", "")), _kaynak_adi(m)) if x)
             kart(meta, "", m.get("metin") or m.get("baslik", ""), m.get("url"), "", _oy(m))
 
     # AI Kontrolu - kisa
