@@ -97,7 +97,9 @@ def puan(m, bugun, st=None):
     if IYI_KAYNAK.search(taxonomy.fold((m.get("kaynak") or "") + " " + (m.get("url") or ""))):
         p += 2
     try:
-        p -= 0.2 * max(0, (bugun - dt.date.fromisoformat(m.get("tarih", ""))).days)
+        # EN GUNCEL ONCE (2026-11-21, kullanici: "piyasada en guncelleri alinsin"):
+        # gun basina 0.2 -> 0.7 puan; bir haftalik haber ~5 puan geride kalir.
+        p -= 0.7 * max(0, (bugun - dt.date.fromisoformat(m.get("tarih", ""))).days)
     except ValueError:
         p -= 5
     if st is not None:

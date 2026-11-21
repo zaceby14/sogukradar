@@ -169,7 +169,7 @@ KESİN KURALLAR (ihlal edilen cümle otomatik reddedilir ve yerine kuralsal cüm
 3. Özel adları (firma, tedarikçi) kaynakta yazıldığı gibi koru; Türkçe ek alacaksa kesme işaretiyle ayır.
 4. Tarih yazma (tarih ayrı bir sütunda). Yorum, tahmin, pazarlama dili ekleme.
 5. Haberin birden çok kaynağı varsa ('ilgili_basliklar') bunları tek olay olarak, kaynaklardaki bilgileri birleştirerek anlat.
-7. PİYASA GÜNDEMİ: 'piyasa_adaylari' listesinden, Türkiye'deki bir soğuk haddehane yöneticisi için EN ÖNEMLİ en fazla 3 tanesini seç (önem sırasıyla): Türkiye/AB'yi doğrudan etkileyen ticaret önlemleri, soğuk taraf ürün fiyat/talep değişimleri, kapasite/arz şokları. Aynı konuyu iki kez seçme. Yalnızca listedeki id'leri kullan; özet yalnız başlık ve özet metindeki bilgiye dayansın.
+7. PİYASA GÜNDEMİ: 'piyasa_adaylari' listesinden, Türkiye'deki bir soğuk haddehane yöneticisi için EN ÖNEMLİ en fazla 3 tanesini seç (önem sırasıyla): Türkiye/AB'yi doğrudan etkileyen ticaret önlemleri, soğuk taraf ürün fiyat/talep değişimleri, kapasite/arz şokları. Aynı konuyu iki kez seçme. Önemleri yakınsa EN YENİ tarihli olanı seç (okuyucu güncel piyasayı istiyor). Yalnızca listedeki id'leri kullan; özet yalnız başlık ve özet metindeki bilgiye dayansın.
 8. Okuyucu geri bildirimi verildiyse ('tercih_ozeti') seçim ve vurguda dikkate al.
 6. Bir haber kapsam dışıysa cümle yazma, 'supheli' listesine gerekçesiyle ekle. SADECE açıkça kapsam dışı olanı işaretle; emin değilsen işaretleme.
 
