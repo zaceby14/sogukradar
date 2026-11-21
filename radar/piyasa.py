@@ -113,11 +113,11 @@ def puan(m, bugun, st=None):
     return round(p, 2)
 
 
-_AKTOR = re.compile(r"\b(eu|ab|european union|avrupa|europe|turkey|turkiye|turk\w*|china|cin|india|hindistan|"
+_AKTOR = re.compile(r"\b(european commission|avrupa komisyonu|eu|ab|european union|avrupa|europe|turkey|turkiye|turk\w*|china|cin|india|hindistan|"
                     r"vietnam|korea\w*|kore|japan\w*|japonya|thailand|tayland|malaysia|malezya|indonesia|"
                     r"brazil\w*|brezilya|us|usa|abd|mexico|meksika|canada|kanada|taiwan|tayvan|egypt|misir|"
                     r"uk|britain|australia|pakistan|ukraine|russia\w*)\b")
-_AKTOR_ES = {"ab": "eu", "european union": "eu", "avrupa": "eu", "europe": "eu", "turkiye": "turkey",
+_AKTOR_ES = {"european commission": "eu", "avrupa komisyonu": "eu", "ab": "eu", "european union": "eu", "avrupa": "eu", "europe": "eu", "turkiye": "turkey",
              "cin": "china", "hindistan": "india", "kore": "korea", "japonya": "japan", "tayland": "thailand",
              "malezya": "malaysia", "brezilya": "brazil", "abd": "us", "usa": "us", "meksika": "mexico",
              "kanada": "canada", "tayvan": "taiwan", "misir": "egypt", "britain": "uk"}
@@ -150,6 +150,27 @@ def ayni_piyasa_haberi(a, b):
         return True
     # onlemi alan taraf (ilk aktor) obur basllikta hic gecmiyorsa farkli olay
     return xa[0] in ya and ya[0] in xa
+
+
+def ayni_konu(a, b):
+    """Iki piyasa maddesi AYNI KARARI mi anlatiyor? (2026-11-21, link kontrolu:
+    'EC imposes AD duties on CRC' ile 'EU's India CRC duty approach' ayni AB
+    karariydi, ikisi birden girdi.) Ayni taraf + ayni urun + ayni konu + 4 gun."""
+    import datetime as dt
+    if ayni_piyasa_haberi(a.get("baslik", ""), b.get("baslik", "")):
+        return True
+    xa, xb = aktorler(a.get("baslik", "")), aktorler(b.get("baslik", ""))
+    if not xa or not xb or xa[0] != xb[0]:
+        return False
+    if (a.get("konu") or konu(a.get("baslik", ""))) != (b.get("konu") or konu(b.get("baslik", ""))):
+        return False
+    if (a.get("urun") or urun(a.get("baslik", ""))) != (b.get("urun") or urun(b.get("baslik", ""))):
+        return False
+    try:
+        return abs((dt.date.fromisoformat(a.get("tarih", "")[:10])
+                    - dt.date.fromisoformat(b.get("tarih", "")[:10])).days) <= 4
+    except ValueError:
+        return False
 
 
 def havuz_guncelle(st, taze, bugun, gun=21):

@@ -262,6 +262,9 @@ def _dmy(iso):
         return iso
 
 
+ABONELIK = re.compile(r"kallanish\.com|fastmarkets\.com|argusmedia\.com|spglobal\.com|mysteel\.net|metalexpert", re.I)
+
+
 def _kaynak_adi(m):
     """'Bing News'/'Google News' toplayici adi yerine yayincinin alan adi (2026-11-21)."""
     k = m.get("kaynak") or ""
@@ -372,6 +375,11 @@ def email_html(payload, ozet=None, tech_items=None, sayi=1):
                     'border-radius:6px;color:#ffffff;text-decoration:none;font-size:14px;'
                     'font-weight:700;line-height:1.2;mso-padding-alt:0;">Haberi oku&nbsp;&rarr;</a>'
                     % (_e(url), LACIVERT))
+            # ABONELIK DUVARI (2026-11-21, link kontrolu): okuyucu tiklayinca giris
+            # ekrani goruyor; durustce belirtilir.
+            if ABONELIK.search(url):
+                alt += ('&nbsp;<span style="font-size:11px;color:%s;white-space:nowrap;">'
+                        '(abonelik gerekebilir)</span>' % GRI)
         h.append('<tr><td style="padding:0 24px 12px;"><table role="presentation" width="100%%" '
                  'cellpadding="0" cellspacing="0" style="border:1px solid %s;border-radius:8px;%s">'
                  '<tr><td style="padding:14px 16px;">'

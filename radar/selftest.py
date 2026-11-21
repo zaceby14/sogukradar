@@ -3847,6 +3847,13 @@ def test_kurul2_deneme_incelemesi():
     eq(cli._ayni_olay("POSCO to Build State-of-the-Art Galvanized Automotive Steel Sheet Plant", "2026-09-21",
                       "POSCO, Otomotiv Çeliği İçin 359 Milyon Dolarlık Yeni Galvanizleme Hattı Kuruyor", "2026-09-24"),
        True, "farkli dilde ayni olay (firma+hat+45 gun)")
+    eq(piyasa.ayni_konu({"baslik": "European Commission imposes anti-dumping duties on cold-rolled coil imports from India, Japan, Turkey", "tarih": "2026-11-17"},
+                        {"baslik": "EU's India CRC duty approach has 'systemic' ramifications", "tarih": "2026-11-17"}),
+       True, "ayni AB karari iki ayri piyasa maddesi olmaz")
+    eq(piyasa.ayni_konu({"baslik": "European Commission imposes anti-dumping duties on cold-rolled coil imports", "tarih": "2026-11-17"},
+                        {"baslik": "Vietnam accepts review request for AD duties on Chinese galvanized steel", "tarih": "2026-11-18"}),
+       False, "farkli tarafin karari ayri konudur")
+    eq(bool(render.ABONELIK.search("https://www.kallanish.com/en/news/x")), True, "abonelik duvari etiketi")
     # 6) BELIRSIZ rozeti gosterilmez
     eq("BELİRSİZ" in render._badge("Belirsiz"), True, "rozet fonksiyonu degismedi")
     # 7) dogrulanmayan piyasa maddesi Ingilizce basligiyla gitmez (yeterli Turkce varsa)

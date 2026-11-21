@@ -35,7 +35,7 @@ import json
 import os
 import re
 
-from . import compose, llm, taxonomy
+from . import compose, llm, piyasa, taxonomy
 
 CUMLE_MIN, CUMLE_MAX = 25, 420
 EXEC_MAX = 900
@@ -338,6 +338,8 @@ def ozet_hazirla(payload, log=print):
         m = by_p.get(x.get("id"))
         if not m or any(y["anahtar"] == m["anahtar"] for y in yeni):
             continue
+        if any(piyasa.ayni_konu(m, y) for y in yeni):      # ayni karar iki kez girmez
+            continue
         cum = x.get("cumle") if isinstance(x.get("cumle"), str) else ""
         kay = " ".join([m.get("baslik", ""), m.get("lead", ""), m.get("kaynak", "")])
         ok, neden = cumle_dogrula(cum, kay) if cum else (False, "bos")
@@ -360,7 +362,7 @@ def ozet_hazirla(payload, log=print):
                 break
             if any(y["anahtar"] == m["anahtar"] for y in yeni):
                 continue
-            if any(taxonomy.similar_titles(m.get("baslik", ""), y["baslik"]) for y in yeni):
+            if any(piyasa.ayni_konu(m, y) for y in yeni):
                 continue
             yeni.append(_piyasa_maddesi(m, m.get("baslik", "")))
     if yeni:
