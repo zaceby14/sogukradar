@@ -2,30 +2,29 @@
  "donem": "2026-W44",
  "rows": [
   {
-   "tarih": "2026-10-05",
-   "firma": "Isdemir",
-   "ulke": "Turkiye",
-   "hat": "Elektrik celigi hatti",
-   "asama": "Teknoloji",
-   "tedarikci": "",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "Turkey's Isdemir develops high-quality steel production for defense industry and electrical steel",
-   "kaynak": "SteelOrbis",
-   "kaynak_id": "gtek_es",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/turkeys-isdemir-develops-high-quality-steel-production-for-defense-industry-and-electrical-steel-1481490.htm",
-   "tarih_kaynagi": "rss",
-   "lead": "Turkey's Isdemir develops high-quality steel production for defense industry and electrical steel &nbsp;&nbsp; SteelOrbis",
-   "eksik": [],
-   "anahtar": "e82b221fc2986888",
-   "kategori": "Hat",
-   "olaylar": [
-    "isdemir|fu|Turkiye|Elektrik celigi hatti",
-    "isdemir|hat|Elektrik celigi hatti|Teknoloji",
-    "isdemir|ulke|Turkiye|Teknoloji"
+   "anahtar": "aac00b6a794a93b5",
+   "asama": "Sozlesme",
+   "baslik": "IMS expands its portfolio with force transducers for precise force measurement under demanding conditions in hot and cold rolling mills",
+   "eksik": [
+    "ulke"
    ],
-   "puan": 55.6,
-   "url_toplayici": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMW13SGRFangyUGg2dkFBMDJ0aUFSSVljX0gxbXFZMng2OWRYY1hqLThqYVNtaDJzMUlvanBROE02MXZMTktNNG4zU3AzdHZzVUlxRVpXUlZRVzQ0eUhKamhRU2dyMHh4RkdDcGEtYXMzRmQ1eEE5aV9GWTJkZmhCeTZCRzE3ZG5VZS1pdEZnaXBGNzZ1WGl1WUxTeUNIVEY2UzJTN1MtZ0RvbnFNc0NzNUJtWl9YX0J6Y0FMQlh1cTUzRzdMZ3dNbE9zQXU2a1NTVGVUeEwybnR1M2VQcmtaaEFQb2RhWTVSTjdxMXdGRQ?oc=5"
+   "firma": "IMS",
+   "hat": "Soguk hadde",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "IMS Messsysteme",
+   "kaynak_id": "ims",
+   "lead": "Skip to content IMS expands its portfolio with force transducers for precise force measurement under demanding conditions in hot and cold rolling mills With the RollKraft product family, IMS Messsysteme GmbH is expanding its portfolio with force transducers designed for use in hot and cold rolling mills. The measurement systems provide precise measurement data for the control, analysis and optimisation of rolling pro",
+   "olaylar": [
+    "ims|hat|Soguk hadde|Sozlesme"
+   ],
+   "rezerv": true,
+   "tarih": "2026-10-06",
+   "tarih_kaynagi": "json-ld",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://www.ims-gmbh.de/en/2026/10/06/ims-expands-its-portfolio-with-force-transducers-forprecise-force-measurement-under-demandingconditions-in-hot-and-cold-rolling-mills/"
   },
   {
    "anahtar": "7fd7261209402c52",
@@ -57,6 +56,83 @@
    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zb1JoVG1BQ1FSRlp3Qk02Zl9CaTZ3ME9XLTktbW1rcXhBR0pkMDhLOTZfT0V5LWdwcXZScW5rYzFpS1FjVXhhWU53UzNXeHozRTBpWG12T3R0XzdiZ1BIN1hVeVo2VnV4?oc=5"
   },
   {
+   "anahtar": "e82b221fc2986888",
+   "asama": "Teknoloji",
+   "baslik": "Turkey's Isdemir develops high-quality steel production for defense industry and electrical steel",
+   "eksik": [],
+   "firma": "Isdemir",
+   "hat": "Elektrik celigi hatti",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Steel Orbis",
+   "kaynak_id": "gq_hat08",
+   "lead": "Turkey's Isdemir develops high-quality steel production for defense industry and electrical steel &nbsp;&nbsp; Steel Orbis",
+   "olaylar": [
+    "isdemir|fu|Turkiye|Elektrik celigi hatti",
+    "isdemir|hat|Elektrik celigi hatti|Teknoloji",
+    "isdemir|ulke|Turkiye|Teknoloji"
+   ],
+   "rezerv": true,
+   "tarih": "2026-10-05",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Turkiye",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/turkeys-isdemir-develops-high-quality-steel-production-for-defense-industry-and-electrical-steel-1481490.htm",
+   "url_toplayici": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMW13SGRFangyUGg2dkFBMDJ0aUFSSVljX0gxbXFZMng2OWRYY1hqLThqYVNtaDJzMUlvanBROE02MXZMTktNNG4zU3AzdHZzVUlxRVpXUlZRVzQ0eUhKamhRU2dyMHh4RkdDcGEtYXMzRmQ1eEE5aV9GWTJkZmhCeTZCRzE3ZG5VZS1pdEZnaXBGNzZ1WGl1WUxTeUNIVEY2UzJTN1MtZ0RvbnFNc0NzNUJtWl9YX0J6Y0FMQlh1cTUzRzdMZ3dNbE9zQXU2a1NTVGVUeEwybnR1M2VQcmtaaEFQb2RhWTVSTjdxMXdGRQ?oc=5"
+  },
+  {
+   "anahtar": "6452945ec70270a7",
+   "asama": "Teknoloji",
+   "baslik": "POSCO to Build State-of-the-Art Galvanized Automotive Steel Sheet Plant, Bringing Together the Latest Automotive Steel Technologies 2026/09/21",
+   "eksik": [
+    "ulke"
+   ],
+   "firma": "POSCO",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "POSCO",
+   "kaynak_id": "posco",
+   "lead": "Article Press Center Press Release Image Gallery Business Industry Report People & Culture Open Search window Search in the Newsroom Clear Search Recommended HyREX Steel Lithium Secondary Battery AI Robots Search Close Menu Search Layer Close Layer Close Minimum 2 characters required. Ok Home Press Center Press Release POSCO to Build State-of-the-Art Galvanized Automotive Steel Sheet Plant, Bringing Together the Late",
+   "olaylar": [
+    "posco|hat|Galvaniz hatti (CGL)|Teknoloji"
+   ],
+   "rezerv": true,
+   "tarih": "2026-09-21",
+   "tarih_kaynagi": "metin",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://newsroom.posco.com/en/posco-to-build-state-of-the-art-galvanized-automotive-steel-sheet-plant-bringing-together-the-latest-automotive-steel-technologies/"
+  },
+  {
+   "anahtar": "76de8e87fe54c6be",
+   "asama": "Insaat",
+   "baslik": "Posco breaks ground on first new auto-steel coating line in 9 years, investing W480b in Gwangyang",
+   "eksik": [
+    "ulke",
+    "hat"
+   ],
+   "firma": "Posco",
+   "hat": "Belirsiz",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "헤럴드경제",
+   "kaynak_id": "gur_kore_jp",
+   "lead": "Posco breaks ground on first new auto-steel coating line in 9 years, investing W480b in Gwangyang &nbsp;&nbsp; 헤럴드경제",
+   "olaylar": [
+    "posco|hat|Belirsiz|Insaat"
+   ],
+   "rezerv": true,
+   "tarih": "2026-09-08",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBSOXdja1VPcEt1cWRrNFJhZ0U5QWdtX05icGhHQ3g0eGlvaGtCSWI2cVF1N0Q3SGVraXo0djhTMk9nd1RFeDRIWUFfdEtUSng5eTVhaHZPaw?oc=5"
+  },
+  {
    "anahtar": "f78620ad28390d6c",
    "asama": "Belirsiz",
    "baslik": "Japan's Chugai Ro delivers electric bright annealing line to Romania's Otelinox",
@@ -81,31 +157,6 @@
    "tutar": "",
    "ulke": "Japonya",
    "url": "https://www.steelorbis.com/steel-news/latest-news/japans-chugai-ro-delivers-electric-bright-annealing-line-to-romanias-otelinox-1474287.htm"
-  },
-  {
-   "anahtar": "5ddafe54499a1936",
-   "asama": "Belirsiz",
-   "baslik": "ArcelorMittal Brasil to invest in new cold rolling mill and coating lines",
-   "eksik": [
-    "ulke",
-    "asama"
-   ],
-   "firma": "ArcelorMittal Brasil",
-   "hat": "Soguk hadde",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgx_arcelor",
-   "olaylar": [
-    "arcelormittal brasil|hat|Soguk hadde|Belirsiz"
-   ],
-   "rezerv": true,
-   "tarih": "2026-09-01",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "",
-   "tutar": "$740",
-   "ulke": "",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/arcelormittal-brasil-to-invest-in-new-cold-rolling-mill-and-coating-lines-1474267.htm"
   }
  ],
  "tech": [
@@ -115,8 +166,19 @@
    "konu": "Vietnam's Hoa Sen launches new alloy-coated steel with enhanced corrosion resistance",
    "url": "https://www.steelorbis.com/steel-news/latest-news/vietnams-hoa-sen-launches-new-alloy-coated-steel-with-enhanced-corrosion-resistance-1471882.htm",
    "kaynak": "SteelOrbis",
-   "metin": "Vietnamlı Hoa Sen, korozyon direnci artırılmış yeni alaşım kaplamalı çelik ürününü piyasaya sundu."
+   "metin": "Vietnam merkezli Hoa Sen, korozyon direnci artırılmış yeni alaşım kaplamalı çelik ürününü kullanıma sundu."
   }
  ],
- "piyasa": []
+ "piyasa": [
+  {
+   "anahtar": "piyasa:cdc612aac34be091",
+   "tarih": "2026-10-23",
+   "baslik": "[SMM Analysis] Indian flat steel demand supports sales as coal costs squeeze margins",
+   "metin": "Hindistan'da güçlü yassı çelik talebi satışları desteklese de yükselen kömür maliyetleri kâr marjlarını baskılamaktadır. Ülkedeki koruma önlemlerine rağmen ithalat artışını sürdürmektedir.",
+   "url": "https://news.metal.com/newscontent/SW3J2766346I5MXGQOV7YDIEUA274E54XSML3NY-smm-analysis-indian-flat-steel-demand-supports-sales-as-coal-costs-squeeze-margins",
+   "kaynak": "Bing News",
+   "konu": "talep",
+   "urun": "yassi"
+  }
+ ]
 }
