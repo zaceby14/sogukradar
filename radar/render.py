@@ -239,7 +239,7 @@ _ROZET_YAT = ('<span style="background:#eef0f4;color:#5a6270;font-size:10px;'
 def _badge(stage):
     bg, fg, lbl = STAGE_COLORS.get(stage, STAGE_COLORS["Belirsiz"])
     return ('<span style="background:%s;color:%s;font-size:10px;font-weight:700;'
-            'padding:1px 7px;border-radius:3px;white-space:nowrap;">%s</span>'
+            'letter-spacing:.4px;padding:2px 7px;border-radius:3px;white-space:nowrap;">%s</span>'
             % (bg, fg, lbl))
 
 
@@ -268,17 +268,21 @@ def _oy(madde):
     entry = os.environ.get("RADAR_FORM_ENTRY") or ""
     if not entry or not madde.get("anahtar"):
         return ""
-    return ('<span style="white-space:nowrap;font-size:11px;"> &nbsp;'
-            '<a href="%s" style="color:#2e7d32;text-decoration:none;">&#128077; Faydalı</a>'
-            ' &nbsp;<a href="%s" style="color:#9a3b3b;text-decoration:none;">&#128078; İlgisiz</a>'
-            '</span>' % (_e(tercih.form_link(entry, madde, "+")),
+    return ('<span style="white-space:nowrap;font-size:12px;">'
+            '<a href="%s" style="color:#15803d;text-decoration:none;">&#128077;&nbsp;Faydalı</a>'
+            '&nbsp;&nbsp;&nbsp;<a href="%s" style="color:#9ca3af;text-decoration:none;">'
+            '&#128078;&nbsp;İlgisiz</a></span>' % (_e(tercih.form_link(entry, madde, "+")),
                          _e(tercih.form_link(entry, madde, "-"))))
 
 
 def email_html(payload, ozet=None, tech_items=None, sayi=1):
-    """Posta govdesi. Tum stiller satir icidir (posta istemcileri harici
-    CSS'i budar). ozet: {'exec':..., 'cumleler':{anahtar:cumle}} - yoksa
-    compose modulunun kurallı metinleri kullanilir."""
+    """Posta govdesi - SADE KART DUZENI (2026-11-21, kurul tasarimi).
+
+    Tek sutun, en fazla 640 px, tablo tabanli ve tum stiller satir ici (Outlook
+    ve Gmail uyumu). Her madde bir kart: ustte gri meta satiri (tarih, ulke,
+    kaynak), kalin firma, Turkce cumle, altta asama rozeti + kaynak + oylar.
+    KPI kutulari ve uzun tarama tablosu kaldirildi; tarama tek satir.
+    """
     from . import compose
     ozet = ozet or {}
     rows = payload["rows"]
@@ -286,221 +290,164 @@ def email_html(payload, ozet=None, tech_items=None, sayi=1):
     cumleler = ozet.get("cumleler", {})
     execs = ozet.get("exec") or compose.exec_summary(rows, st)
     tech_items = tech_items or []
+    piy = ozet.get("piyasa") or []
 
     n_tr = sum(1 for r in rows if r.get("ulke") == "Turkiye"
                or "tosyali" in (r.get("firma") or "").lower())
     n_hat = sum(1 for r in rows if r.get("kategori") != "Yatirim")
     n_yat = len(rows) - n_hat
+    try:
+        pencere = "%s – %s" % (_dmy(payload["window"][0]), _dmy(payload["window"][1]))
+    except Exception:
+        pencere = ""
+
+    MUREKKEP, LACIVERT, GRI, CIZGI = "#1f2933", "#0f2a47", "#6b7280", "#e5e7eb"
+    on_metin = "%d gelişme" % len(rows)
+    if rows:
+        on_metin += " · " + (rows[0].get("firma") or rows[0].get("baslik", ""))[:60]
 
     h = ['<!doctype html><html lang="tr"><head><meta charset="utf-8">',
-         '<meta name="viewport" content="width=device-width"></head>',
-         '<body style="margin:0;padding:0;background:#eef1f4;">',
+         '<meta name="viewport" content="width=device-width,initial-scale=1"></head>',
+         '<body style="margin:0;padding:0;background:#f3f4f6;">',
+         '<div style="display:none;max-height:0;overflow:hidden;">%s</div>' % _e(on_metin),
          '<table role="presentation" width="100%" cellpadding="0" cellspacing="0" '
-         'style="background:#eef1f4;padding:18px 0;"><tr><td align="center">',
-         '<table role="presentation" width="680" cellpadding="0" cellspacing="0" '
-         'style="max-width:680px;width:100%;background:#fff;border-radius:8px;'
-         'overflow:hidden;font-family:-apple-system,Segoe UI,Roboto,Helvetica,'
-         'Arial,sans-serif;color:#1c2026;">']
+         'style="background:#f3f4f6;"><tr><td align="center" style="padding:16px 8px;">',
+         '<!--[if mso]><table role="presentation" width="640" cellpadding="0" cellspacing="0">'
+         '<tr><td><![endif]-->',
+         '<table role="presentation" width="100%" cellpadding="0" cellspacing="0" '
+         'style="max-width:640px;background:#ffffff;border-radius:10px;font-family:-apple-system,'
+         'Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:' + MUREKKEP + ';">']
 
-    h.append('<tr><td style="background:#10233c;padding:22px 28px 18px;">'
-             '<div style="color:#fff;font-size:19px;font-weight:700;">%s</div>'
-             '<div style="color:#9fb2c8;font-size:12px;margin-top:5px;">'
-             'Hafta %s · %s – %s &nbsp;|&nbsp; Sayı #%d</div></td></tr>'
-             % (MAIL_TITLE, payload.get("period", ""), _dmy(payload["window"][0]),
-                _dmy(payload["window"][1]), sayi))
+    # Baslik
+    h.append('<tr><td style="padding:22px 24px 18px;border-bottom:3px solid %s;">'
+             '<div style="font-size:12px;color:%s;letter-spacing:.6px;text-transform:uppercase;'
+             'font-weight:700;">SoğukRadar &middot; Sayı #%d</div>'
+             '<div style="font-size:21px;font-weight:700;color:%s;margin-top:4px;line-height:1.3;">%s</div>'
+             '<div style="font-size:13px;color:%s;margin-top:4px;">Hafta %s &middot; %s</div></td></tr>'
+             % (LACIVERT, GRI, sayi, LACIVERT, _e(MAIL_TITLE), GRI,
+                _e(payload.get("period", "")), _e(pencere)))
 
-    h.append('<tr><td style="padding:22px 28px 4px;font-size:14px;line-height:1.6;">'
-             '<p style="margin:0 0 10px;">Değerli yöneticilerim ve çalışma arkadaşlarım,</p>'
-             '<p style="margin:0 0 6px;color:#3d4450;">Bu bülten, Zeynel tarafından '
-             'kurulan yazılım + yapay zekâ destekli otomatik takip sistemiyle '
-             'hazırlanmaktadır. Sistem her hafta %d kaynağı (ekipman üreticileri, çelik '
-             'üreticileri ve sektör yayınları) tarar; yalnızca yayın tarihi doğrulanmış '
-             'gelişmeleri raporlar ve aynı haberi ikinci kez göndermez.</p></td></tr>'
-             % st.get("kaynak", 0))
+    # Giris
+    ozet_cumle = ("Bu hafta <b>%d doğrulanmış gelişme</b> var: %d işlem hattı, %d genel yatırım%s."
+                  % (len(rows), n_hat, n_yat,
+                     ("; %d tanesi Türkiye ile ilgili" % n_tr) if n_tr else ""))
+    h.append('<tr><td style="padding:20px 24px 0;font-size:15px;line-height:1.6;">'
+             'Değerli yöneticilerim ve çalışma arkadaşlarım,<br>'
+             '<span style="color:#4b5563;">%s</span></td></tr>' % ozet_cumle)
 
-    h.append('<tr><td style="padding:12px 28px 0;"><table role="presentation" '
-             'cellpadding="0" cellspacing="0" width="100%"><tr>'
-             + _kpi(len(rows), "Gelişme") + _kpi(n_hat, "İşlem hattı")
-             + _kpi(n_yat, "Genel yatırım") + _kpi(n_tr, "Türkiye ilgili", hi=True)
-             + "</tr></table></td></tr>")
+    # AI Ozeti
+    h.append('<tr><td style="padding:16px 24px 0;"><table role="presentation" width="100%%" '
+             'cellpadding="0" cellspacing="0" style="background:#f8fafc;border-left:3px solid %s;">'
+             '<tr><td style="padding:12px 16px;font-size:14px;line-height:1.6;color:#374151;">'
+             '<b style="color:%s;">AI Özeti &nbsp;</b>%s</td></tr></table></td></tr>'
+             % (LACIVERT, LACIVERT, _e(execs)))
 
-    h.append('<tr><td style="padding:20px 28px 0;">'
-             '<div style="font-size:11px;font-weight:700;color:#5a6270;'
-             'text-transform:uppercase;letter-spacing:.7px;border-bottom:1px solid '
-             '#e3e6ea;padding-bottom:6px;margin-bottom:10px;">AI Özeti</div>'
-             '<div style="background:#f6f8fa;border-left:4px solid #10233c;'
-             'padding:12px 15px;font-size:13.5px;line-height:1.6;color:#2a303a;">%s'
-             '</div></td></tr>' % _e(execs))
+    def bolum(baslik):
+        h.append('<tr><td style="padding:26px 24px 10px;"><div style="font-size:16px;'
+                 'font-weight:700;color:%s;">%s</div></td></tr>' % (LACIVERT, _e(baslik)))
 
-    # TEKNOLOJI KOSESI - HER ZAMAN ve HER ZAMAN listeden ONCE (2026-08-17).
-    # Onceki surumde bolum "if tech_items" ile kosulluydu: aday cikmayan
-    # haftalarda bulten kosesiz gidiyordu ve okuyucu kosenin unutuldugunu mu
-    # yoksa aday mi cikmadigini bilemiyordu. Bos hafta da bir bilgidir.
-    h.append('<tr><td style="padding:20px 28px 0;">' + _baslik("Teknoloji Köşesi"))
+    def kart(meta, firma_html, cumle, url, rozet, oy, arka=""):
+        alt = ""
+        if rozet:
+            alt += rozet + "&nbsp;&nbsp;"
+        if url:
+            alt += ('<a href="%s" style="color:#1d4ed8;text-decoration:none;font-weight:600;">'
+                    'Kaynak&nbsp;&rarr;</a>' % _e(url))
+        h.append('<tr><td style="padding:0 24px 12px;"><table role="presentation" width="100%%" '
+                 'cellpadding="0" cellspacing="0" style="border:1px solid %s;border-radius:8px;%s">'
+                 '<tr><td style="padding:14px 16px;">'
+                 '<div style="font-size:12px;color:%s;">%s</div>%s'
+                 '<div style="font-size:15px;line-height:1.5;margin-top:4px;">%s</div>'
+                 '<table role="presentation" width="100%%" cellpadding="0" cellspacing="0" '
+                 'style="margin-top:10px;"><tr><td style="font-size:12px;">%s</td>'
+                 '<td align="right" style="font-size:12px;white-space:nowrap;">%s</td></tr></table>'
+                 '</td></tr></table></td></tr>'
+                 % (CIZGI, arka, GRI, meta,
+                    ('<div style="font-size:16px;font-weight:700;margin-top:3px;">%s</div>' % firma_html)
+                    if firma_html else "", _e(cumle), alt, oy))
+
+    # Teknoloji Kosesi - listeden ONCE (2026-08-17 karari korunur)
+    bolum("Teknoloji Köşesi")
     if tech_items:
-        h.append('<table role="presentation" width="100%" cellpadding="0" '
-                 'cellspacing="0" style="font-size:13px;line-height:1.55;">')
         for t in tech_items:
-            h.append('<tr><td style="padding:0 0 10px;"><b>%s</b><br>'
-                     '<span style="color:#3d4450;">%s</span> '
-                     '<a href="%s" style="color:#12457a;font-size:11px;">kaynak →</a>%s'
-                     '</td></tr>'
-                     % (_e(t.get("konu") or t.get("baslik", "")),
-                        _e(t.get("metin", "")), _e(t.get("url", "")),
-                        _oy(dict(t, baslik=t.get("konu") or t.get("baslik", "")))))
-        h.append('</table><div style="font-size:11px;color:#8b93a0;margin-top:8px;">'
-                 'Bu bölümde bir teknoloji yalnızca bir kez tanıtılır; son 1 yıldan '
-                 'eski duyurular köşeye alınmaz.</div>')
+            meta = " &middot; ".join(_e(x) for x in (_dmy(t.get("tarih", "")), t.get("kaynak")) if x)
+            kart(meta, _e(t.get("konu") or t.get("baslik", "")), t.get("metin", ""), t.get("url"),
+                 "", _oy(dict(t, baslik=t.get("konu") or t.get("baslik", ""))))
+        h.append('<tr><td style="padding:0 24px;font-size:12px;color:%s;">Bir teknoloji yalnızca '
+                 'bir kez tanıtılır; 1 yıldan eski duyurular alınmaz.</td></tr>' % GRI)
     else:
-        h.append('<div style="background:#f6f8fa;border-left:4px solid #b9c2cd;'
-                 'padding:10px 14px;font-size:13px;color:#3d4450;">%s</div>'
+        h.append('<tr><td style="padding:0 24px;font-size:13px;color:#4b5563;">%s</td></tr>'
                  % _e(TEKNOLOJI_BOS))
-    h.append('</td></tr>')
 
-    h.append('<tr><td style="padding:20px 28px 0;">'
-             '<div style="font-size:11px;font-weight:700;color:#5a6270;'
-             'text-transform:uppercase;letter-spacing:.7px;border-bottom:1px solid '
-             '#e3e6ea;padding-bottom:6px;margin-bottom:8px;">Haftanın Gelişmeleri</div>')
+    # Gelismeler
+    bolum("Haftanın Gelişmeleri")
     if rows:
-        h.append('<table role="presentation" width="100%" cellpadding="0" '
-                 'cellspacing="0" style="font-size:12.5px;">'
-                 '<tr>' + "".join(
-                     '<th align="left" style="background:#10233c;color:#fff;'
-                     'padding:7px 9px;font-size:10.5px;text-transform:uppercase;'
-                     'letter-spacing:.4px;">%s</th>' % c
-                     for c in ("Tarih", "Firma / Ülke", "Gelişme", "Aşama")) + "</tr>")
         for r in rows:
             is_tr = r.get("ulke") == "Turkiye" or "tosyali" in (r.get("firma") or "").lower()
-            bg = "background:#fdf6ec;" if is_tr else ""
-            sub = " · ".join(x for x in (compose.ulke_goster(r.get("ulke")),
-                                         r.get("tedarikci"), r.get("tutar")) if x)
+            meta = " &middot; ".join(_e(x) for x in (_dmy(r.get("tarih", "")),
+                                                    compose.ulke_goster(r.get("ulke")),
+                                                    r.get("tedarikci"), r.get("tutar"),
+                                                    r.get("kaynak")) if x)
             cum = cumleler.get(r.get("anahtar")) or compose.row_sentence(r)
-            h.append('<tr><td style="padding:9px;border-bottom:1px solid #e8eaee;%s'
-                     'white-space:nowrap;">%s</td>'
-                     '<td style="padding:9px;border-bottom:1px solid #e8eaee;%s">'
-                     '<b>%s</b><br><span style="color:#6b7480;font-size:11px;">%s</span></td>'
-                     '<td style="padding:9px;border-bottom:1px solid #e8eaee;%s">%s '
-                     '<a href="%s" style="color:#12457a;font-size:11px;">%s →</a>%s</td>'
-                     '<td style="padding:9px;border-bottom:1px solid #e8eaee;%s">%s</td></tr>'
-                     % (bg, _dmy(r["tarih"]), bg, _firma_hucresi(r), _e(sub),
-                        bg, _e(cum), _e(r.get("url")), _e(r.get("kaynak")), _oy(r),
-                        bg, (_ROZET_YAT if r.get("kategori") == "Yatirim"
-                             else _badge(r.get("asama")))))
-        h.append("</table>")
+            rozet = _ROZET_YAT if r.get("kategori") == "Yatirim" else _badge(r.get("asama"))
+            kart(meta, _firma_hucresi(r) if r.get("firma") else "", cum, r.get("url"), rozet, _oy(r),
+                 "background:#fffbf2;" if is_tr else "")
     else:
-        h.append('<div style="background:#fdeeee;border-left:4px solid #c0392b;'
-                 'padding:10px 14px;font-size:13px;">Bu hafta tarih doğrulamasından '
-                 'geçen gelişme kaydedilmedi. Alt bilgideki tarama istatistiği erişim '
-                 'sorununu gösterir.</div>')
-    h.append("</td></tr>")
+        h.append('<tr><td style="padding:0 24px;font-size:14px;color:#4b5563;">Bu hafta tarih '
+                 'doğrulamasından geçen gelişme kaydedilmedi.</td></tr>')
 
-    # PIYASA GUNDEMI (2026-11-03, kullanici talebi): soguk taraf urunlerinin
-    # piyasa/ticaret haberleri - en onemli 2-3 madde. Ana listeden AYRI.
-    piy = (ozet or {}).get("piyasa") or []
+    # Piyasa Gundemi
     if piy:
-        h.append('<tr><td style="padding:20px 28px 0;">' + _baslik("Piyasa Gündemi"))
-        h.append('<table role="presentation" width="100%" cellpadding="0" '
-                 'cellspacing="0" style="font-size:13px;line-height:1.55;">')
+        bolum("Piyasa Gündemi")
         for m in piy:
-            h.append('<tr><td style="padding:0 0 10px;"><span style="color:#6b7480;'
-                     'font-size:11px;">%s · %s</span><br>%s '
-                     '<a href="%s" style="color:#12457a;font-size:11px;">kaynak →</a>%s</td></tr>'
-                     % (_dmy(m.get("tarih", "")), _e(m.get("kaynak", "")),
-                        _e(m.get("metin") or m.get("baslik", "")), _e(m.get("url", "")), _oy(m)))
-        h.append('</table></td></tr>')
+            meta = " &middot; ".join(_e(x) for x in (_dmy(m.get("tarih", "")), m.get("kaynak")) if x)
+            kart(meta, "", m.get("metin") or m.get("baslik", ""), m.get("url"), "", _oy(m))
 
-    if os.environ.get("RADAR_FORM_ENTRY"):
-        h.append('<tr><td style="padding:10px 28px 0;font-size:11px;color:#6b7480;">'
-                 'Her maddenin yanındaki <b>Faydalı / İlgisiz</b> bağlantısına tek tıklamanız '
-                 'yeterli (tarayıcıda "yanıtınız kaydedildi" sayfası açılır). Sistem bu oylarla hangi haberlerin daha değerli '
-                 'olduğunu öğrenir ve sonraki bültenlerde onlara öncelik verir.</td></tr>')
-
-    # AI KONTROLU VE EKLEMELERI - KALICI bolum (2026-08-17).
-    # Okuyucuya "bu listenin neresi yazilim, neresi editor" sorusunun cevabini
-    # verir. Bos hafta da bir bilgidir: editor bakti ve duzeltilecek bir sey
-    # bulmadi demektir - bolumun hic cikmamasiyla ayni sey degil.
-    h.append('<tr><td style="padding:20px 28px 0;">'
-             + _baslik("AI Kontrolü ve Eklemeleri"))
+    # AI Kontrolu - kisa
     ai = compose.ai_bolumu(ozet)
+    h.append('<tr><td style="padding:24px 24px 0;font-size:13px;line-height:1.55;color:#4b5563;">'
+             '<b style="color:%s;">AI Kontrolü ve Eklemeleri</b>' % LACIVERT)
     if ai:
-        h.append('<table role="presentation" width="100%" cellpadding="0" '
-                 'cellspacing="0" style="font-size:13px;line-height:1.55;">')
         for grup, satirlar in ai:
-            h.append('<tr><td style="padding:0 0 4px;">'
-                     '<b style="color:#10233c;">%s</b></td></tr>' % _e(grup))
-            for x in satirlar:
-                h.append('<tr><td style="padding:0 0 6px 12px;color:#3d4450;">'
-                         '&bull; %s</td></tr>' % _e(x))
-        h.append('</table>')
+            h.append('<div style="margin-top:6px;"><b style="color:#374151;">%s:</b> %s</div>'
+                     % (_e(grup), " · ".join(_e(x) for x in satirlar)))
     else:
-        h.append('<div style="background:#f6f8fa;border-left:4px solid #b9c2cd;'
-                 'padding:10px 14px;font-size:13px;color:#3d4450;">%s</div>'
-                 % _e(compose.AI_BOLUM_BOS))
+        h.append('<div style="margin-top:4px;">%s</div>' % _e(compose.AI_BOLUM_BOS))
     h.append('</td></tr>')
 
-    h.append('<tr><td style="padding:20px 28px 6px;font-size:13.5px;line-height:1.6;'
-             'color:#3d4450;">Saygılarımla,<br><b>Zeynel</b></td></tr>')
+    if os.environ.get("RADAR_FORM_ENTRY"):
+        h.append('<tr><td style="padding:10px 24px 0;font-size:12px;line-height:1.5;color:%s;">'
+                 '&#128077; Faydalı / &#128078; İlgisiz bağlantısına tek tıklamanız yeterli; '
+                 'sistem oylarınızla sonraki bültenlerde önceliği belirler.</td></tr>' % GRI)
 
-    # TARAMA TABLOSU - kullanici istegi: her mailde taranan/elenen sayilar.
+    h.append('<tr><td style="padding:24px 24px 24px;font-size:15px;line-height:1.6;">'
+             'Saygılarımla,<br><b>Zeynel</b></td></tr>')
+
+    # Tarama - tek satir
     unreach = payload.get("unreachable", [])
-    h.append('<tr><td style="padding:16px 28px 0;">'
-             '<div style="font-size:11px;font-weight:700;color:#5a6270;'
-             'text-transform:uppercase;letter-spacing:.7px;border-bottom:1px solid '
-             '#e3e6ea;padding-bottom:6px;margin-bottom:8px;">Bu Haftanın Taraması</div>'
-             '<table role="presentation" width="100%" cellpadding="0" cellspacing="0" '
-             'style="font-size:12px;">')
-    # Pencere uzunlugu payload'dan okunur. Sabit "7 günlük" yazisi, pencere
-    # 15 güne cikarildiktan sonra (2026-08-17) okuyucuya yanlis sayi
-    # gosteriyordu - istatistik tablosu raporun kendi olcusudur, sabit olamaz.
-    try:
-        _w0 = dt.date.fromisoformat(payload["window"][0])
-        _w1 = dt.date.fromisoformat(payload["window"][1])
-        _pencere = "%d günlük" % ((_w1 - _w0).days or 1)
-    except Exception:
-        _pencere = "tarama"
-    for i, (lbl, val) in enumerate([
-            ("Taranan kaynak", st.get("kaynak", 0)),
-            ("Erişilemeyen kaynak", len(unreach)),
-            ("Görülen haber bağlantısı", st.get("ham", 0)),
-            ("Ön elemeyi geçen", st.get("on_eleme_gecti", 0)),
-            ("Tarih için açılan makale", st.get("makale_acildi", 0)),
-            ("Elendi: tarihi doğrulanamadı", st.get("tarihsiz_elendi", 0)),
-            ("Elendi: %s pencere dışı" % _pencere, st.get("pencere_disi", 0)),
-            ("Elendi: kapsam dışı", st.get("kapsam_disi", 0)),
-            ("Elendi: daha önce raporlandı", st.get("tekrar", 0)),
-            ("<b>Rapora giren</b>", "<b>%d</b>" % st.get("kabul", 0))]):
-        bg = "background:#f6f8fa;" if i % 2 == 0 else ""
-        h.append('<tr><td style="padding:5px 9px;%s">%s</td>'
-                 '<td align="right" style="padding:5px 9px;%s">%s</td></tr>'
-                 % (bg, lbl, bg, val))
-    h.append("</table></td></tr>")
-
-    if unreach:
-        h.append('<tr><td style="padding:16px 28px 0;">'
-                 '<div style="font-size:11px;font-weight:700;color:#8a6210;'
-                 'text-transform:uppercase;letter-spacing:.7px;border-bottom:1px solid '
-                 '#f0e2c4;padding-bottom:6px;margin-bottom:8px;">'
-                 'İnsan Müdahalesi Gerekenler</div>'
-                 '<div style="font-size:12px;color:#3d4450;line-height:1.6;">'
-                 'Bu kaynaklar bot korumasına takıldı, elle bakılmalı:<br>')
-        for ad, hata in unreach[:12]:
-            h.append('&bull; %s <span style="color:#8b93a0;">(%s)</span><br>'
-                     % (_e(ad), _e(str(hata)[:28])))
-        h.append("</div></td></tr>")
-
-    unreach = payload.get("unreachable", [])
-    h.append('<tr><td style="background:#f4f6f9;padding:14px 28px;font-size:10.5px;'
-             'color:#7b8290;line-height:1.6;">Kapsam: asitleme, soğuk hadde, temper, '
-             'tavlama, galvaniz/kaplama, boyama, teneke, dilme/boy kesme, merdane '
-             'atölyesi, şerit birleştirme, bobin taşıma, yüzey muayene, ölçüm ve hat '
-             'otomasyonu, elektrik çeliği. Yayın tarihi kaynağın kendi beyanından '
-             '(RSS, JSON-LD, meta, Last-Modified) okunur; doğrulanamayan haber '
-             'rapora alınmaz.</td></tr>')
-
-    h.append('<tr><td style="background:#10233c;padding:10px 28px;text-align:center;'
-             'font-size:10.5px;color:#9fb2c8;letter-spacing:.4px;">'
-             'powered by <b style="color:#fff;">Zeynel Abidin Çopur</b></td></tr>')
-    h.append("</table></td></tr></table></body></html>")
+    adlar = []
+    for ad, _h in unreach:
+        if ad not in adlar and "Google News" not in ad and "Bing" not in ad:
+            adlar.append(ad)
+    tarama = ("<b style=\"color:#374151;\">Bu Haftanın Taraması:</b> %d kaynak &middot; %s bağlantı "
+              "&middot; %d ön eleme &middot; Elendi: kapsam dışı %d, pencere dışı %d, tekrar %d "
+              "&middot; <b style=\"color:#374151;\">%d rapora girdi</b>"
+              % (st.get("kaynak", 0), format(st.get("ham", 0), ",").replace(",", "."),
+                 st.get("on_eleme_gecti", 0), st.get("kapsam_disi", 0), st.get("pencere_disi", 0),
+                 st.get("tekrar", 0), len(rows)))
+    if adlar:
+        tarama += " &middot; erişilemeyen: %s%s" % (_e(", ".join(adlar[:3])),
+                                                     " vb." if len(adlar) > 3 else "")
+    h.append('<tr><td style="padding:14px 24px;background:#f9fafb;border-top:1px solid %s;'
+             'font-size:12px;line-height:1.6;color:%s;">%s'
+             '<div style="margin-top:8px;font-size:11px;color:#9ca3af;">Kapsam: asitleme, soğuk hadde, '
+             'temper, tavlama, galvaniz/kaplama, boyama, teneke, dilme/boy kesme, merdane atölyesi, '
+             'yüzey muayene, ölçüm ve hat otomasyonu, elektrik çeliği. Yayın tarihi kaynağın kendi '
+             'beyanından okunur; doğrulanamayan haber alınmaz.</div></td></tr>' % (CIZGI, GRI, tarama))
+    h.append('<tr><td style="padding:12px 24px;text-align:center;font-size:11px;color:#9ca3af;'
+             'border-top:1px solid %s;">powered by <b style="color:#374151;">Zeynel Abidin Çopur</b>'
+             '</td></tr>' % CIZGI)
+    h.append('</table><!--[if mso]></td></tr></table><![endif]--></td></tr></table></body></html>')
     return "".join(h)
 
 

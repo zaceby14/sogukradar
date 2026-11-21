@@ -329,7 +329,7 @@ def test_compose_ve_mail():
                                "url": "https://x/3", "tarih": "2026-06-01"}], 5)
     for parca in ("Değerli yöneticilerim", "AI Özeti", "Zeynel", "Sayı #5",
                   "Soğuk Haddehane", "Teknoloji Köşesi",
-                  "Bu Haftanın Taraması", "Elendi: kapsam dışı", "Lazer kesim"):
+                  "Bu Haftanın Taraması", "kapsam dışı", "Lazer kesim"):
         eq(parca in mail, True, "mailde eksik: " + parca)
     eq("Yönetici özeti" in mail, False, "eski baslik kalmamali")
     eq("powered by" in mail and "Zeynel Abidin Çopur" in mail, True, "powered by")

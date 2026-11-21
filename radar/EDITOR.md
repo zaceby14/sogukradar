@@ -382,6 +382,19 @@ haftasında tek posta (`gonderilen_donemler`). Kırmızı birim testi tarama/pos
 sahibine uyarı yollar. Sistem Claude'a BAĞLI DEĞİLDİR: Claude rutinleri kaldırıldı; yalnız
 GitHub Actions + Gemini (+ Gmail SMTP, Google Form) kullanılır.
 
+## 4p. Kurul incelemesi (2026-11-21)
+
+Dört üyeli kurul (kalite, haber avcısı, teknoloji, tasarım) W45–W47'yi inceledi.
+Uygulananlar: köşeli parantezli başlık tekrarı; pazar raporu / ARP kredisi / kalın levha
+vetosu; openPR kuyruk kontrolü; şablon ya da çevrilmemiş piyasa-teknoloji metni
+GÖNDERİLMEZ (bölüm boş kalır); piyasa tekrar kontrolü (`piyasa_gonderilen`); köşe
+listedeki haberi tekrar etmez; YENILIK kelime sınırlı; ZAM/elektrikli tavlama/TCCT
+terimleri; Gemini teknoloji seçimi gerekçe (a–d) olmadan kabul edilmez; POSCO RSS; AIST
+404 haberlerinin tarihi adres yolundan. Oylar: faydalı kazanır (+ alan maddenin −
+oyları sayılmaz). Mail: tek sütun kart düzeni, tarama tek satır. Zamanlama: Pazar
+akşamından başlayan pencere işi (GitHub 6–7 saat gecikmesi).
+Recall denetimi: 15.10–21.11 arası bulunan kapsam içi haberlerin hepsi yakalanmıştı.
+
 ## 4e. Otonomi: sistem sensiz çalışır
 
 ```
