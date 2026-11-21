@@ -1022,6 +1022,15 @@ def cmd_otomatik(a):
         if _e:
             os.environ["RADAR_FORM_ENTRY"] = _e
         print("oy formu: %s" % ("hazir (entry.%s)" % _e if _e else "entry bulunamadi - oy baglantisi yok"))
+    # CINCE BASLIK + FIRMA/HAT OKUNAMADI = TEKRAR DENETLENEMEZ (2026-11-21):
+    # "【纽柯...镀锌线产出首卷】" W47'de giden Nucor CGL ilk bobin haberinin
+    # Cince hali; firma bos, hat Belirsiz oldugu icin olay/baslik hafizasi
+    # yakalayamiyordu. Dil modeli gecerli cumle yazsaydi tekrar gidecekti.
+    for r in list(payload["rows"]):
+        if taxonomy.CJK.search(r.get("baslik", "")) and not r.get("firma") and \
+                (r.get("hat") or "Belirsiz") == "Belirsiz":
+            payload["rows"].remove(r)
+            elenen.append((r.get("baslik", ""), "Cince baslik, firma/hat okunamadi (tekrar denetlenemez)"))
     doc = yazar.ozet_hazirla(payload)
     rapor = doc.pop("_rapor", {})
     # CINCE/JAPONCA BASLIKLI SATIR yalniz DOGRULANMIS Turkce cumleyle girer
