@@ -31,7 +31,9 @@ for tur, m in maddeler:
     t = (doc.get("title") or "").strip()
     print("  durum: %s  son adres: %s" % (info.get("status"), (info.get("final") or hedef)[:150]))
     print("  sayfa basligi: %s" % t[:150])
-    print("  sayfa tarihi : %s" % (doc.get("date") or doc.get("published") or "-"))
+    print("  sayfa tarihi : %s" % (", ".join(str(x) for x in (doc.get("jsonld_dates") or [])[:2]) or
+                                    ", ".join(v for k, v in (doc.get("meta") or {}).items() if "time" in k or "date" in k)[:80] or
+                                    ", ".join(str(x) for x in (doc.get("times") or [])[:2]) or "-"))
     print("  metin: %s" % re.sub(r"\s+", " ", doc.get("text") or "")[:400])
     a, b = baglanti._sozcukler(bas), baglanti._sozcukler(t + " " + (doc.get("text") or "")[:2500])
     print("  baslik-sayfa ortak sozcuk: %d/%d -> %s" % (len(a & b), len(a),
