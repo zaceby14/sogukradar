@@ -51,6 +51,7 @@ def cmd_discover(a):
 
 def cmd_run(a):
     today = dt.date.fromisoformat(a.today) if a.today else dt.date.today()
+    _bugun_ayarla(today)
     per = _period(today)
 
     # KALIBRASYON MODU: repo kokunde "KALIBRASYON" adli bir dosya varsa
@@ -367,6 +368,18 @@ def _imza_carpisti(r, secili, gecmis):
     return False
 
 
+_BUGUN = [None]
+
+
+def _bugun_ayarla(gun):
+    _BUGUN[0] = gun
+
+
+def _bugun():
+    """Kosunun 'bugun'u: --today verildiyse o, yoksa sistem tarihi."""
+    return _BUGUN[0] or dt.date.today()
+
+
 def _rezervden_sec(rezerv, rows, st, eksik):
     """Rezervden satir secer - AYNI TEKRAR DENETIMINDEN gecirerek.
 
@@ -390,8 +403,10 @@ def _rezervden_sec(rezerv, rows, st, eksik):
     # okuyucu icin bu haftalik bulten degil arsiv taramasi olur. Saklama
     # TEKRAR SAVUNMASI icindir; koyma hakki asagidaki sinirla olculur.
     gun = REZERV_KULLANIM_GUN if len(rows) < REZERV_ESIK else REZERV_DAR_GUN
-    en_eski = (dt.date.today() - dt.timedelta(days=gun)).isoformat()
-    rezerv = [r for r in rezerv if (r.get("tarih") or "") >= en_eski]
+    en_eski = (_bugun() - dt.timedelta(days=gun)).isoformat()
+    # GELECEK TARIHLI SATIR ALINMAZ (2026-11-21): gecmis tarihli deneme ya da
+    # hatali tarih beyani bugunden ileri bir haberi listeye sokamaz.
+    rezerv = [r for r in rezerv if en_eski <= (r.get("tarih") or "") <= _bugun().isoformat()]
     if not rezerv:
         return []
     secili = list(rows)
@@ -955,6 +970,8 @@ def _kose_adaylari(payload, st):
         k = t.get("anahtar")
         if not k or k in anahtarlar or k in gorulen:
             continue
+        if (t.get("tarih") or "") > _bugun().isoformat():
+            continue                                   # gelecek tarihli aday
         if t.get("url") in satir_url or any(taxonomy.similar_titles(t.get("baslik", ""), b)
                                             for b in satir_bas):
             continue
@@ -969,7 +986,7 @@ def _kose_adaylari(payload, st):
     try:
         taze_sinir = (dt.date.fromisoformat(payload.get("today", "")) - dt.timedelta(days=120)).isoformat()
     except ValueError:
-        taze_sinir = (dt.date.today() - dt.timedelta(days=120)).isoformat()
+        taze_sinir = (_bugun() - dt.timedelta(days=120)).isoformat()
     havuz.sort(key=lambda t: (t.get("tarih", "") >= taze_sinir, bool(t.get("yenilik")),
                               t.get("tarih", "")), reverse=True)
     # Liste satirini (urun duyurusu) koseye TASIMA kurali kaldirildi (2026-11-03):
@@ -991,6 +1008,7 @@ def cmd_otomatik(a):
     """
     from . import yazar
     bugun = dt.date.fromisoformat(a.today) if a.today else dt.date.today()
+    _bugun_ayarla(bugun)
     per = a.period or _period(bugun)
     yol = os.path.join(OUT, "hafta_%s.json" % per)
     if not os.path.exists(yol):
@@ -1000,6 +1018,15 @@ def cmd_otomatik(a):
     st = state.load()
 
     elenen = _satir_suzgeci(payload, bugun, st)
+    # GELECEK TARIHLI MADDE YOK (2026-11-21): satir, teknoloji ve piyasa adayi
+    # bugunden ileri tarihliyse alinmaz (tarih hatasi ya da gecmis tarihli deneme).
+    gun_s = bugun.isoformat()
+    for r in list(payload["rows"]):
+        if (r.get("tarih") or "") > gun_s:
+            payload["rows"].remove(r)
+            elenen.append((r.get("baslik", ""), "gelecek tarih %s" % r.get("tarih")))
+    payload["tech_pool"] = [t for t in payload.get("tech_pool") or [] if (t.get("tarih") or "") <= gun_s]
+    payload["piyasa_pool"] = [m for m in payload.get("piyasa_pool") or [] if (m.get("tarih") or "") <= gun_s]
     # BAGLANTI DOGRULAMA (2026-11-02, "ilk link hatali"): satirlar postaya
     # girmeden adresleri acilir; 404/yer tutucu/ana sayfa kanitli olanlar cikar.
     from . import baglanti

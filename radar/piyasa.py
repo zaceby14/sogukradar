@@ -162,6 +162,8 @@ def havuz_guncelle(st, taze, bugun, gun=21):
         a = m.get("anahtar")
         if not a or a in gorulen or m.get("tarih", "") < sinir or not piyasa_mi(m.get("baslik", "")):
             continue
+        if m.get("tarih", "") > bugun.isoformat():         # gelecek tarihli aday
+            continue
         if taxonomy.SPAM_PUBLISHER.search(taxonomy.fold((m.get("kaynak") or "") + " " + (m.get("url") or ""))):
             continue
         if any(ayni_piyasa_haberi(m["baslik"], x["baslik"]) for x in havuz.values()):

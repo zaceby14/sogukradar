@@ -1,0 +1,89 @@
+name: SogukRadar coklu deneme
+
+# Farkli 'bugun' tarihleri icin tam tarama + otomatik editor (DENEME) + link raporu.
+# POSTA GITMEZ, HAFIZAYA YAZILMAZ (state.json commit edilmez).
+# Cikti: out/coklu/<tarih>/ (karar.json, karar_satirlar.json, deneme_email.html, link_rapor.txt)
+on:
+  workflow_dispatch:
+    inputs:
+      tarihler:
+        description: "Virgulle ayrilmis bugun tarihleri (YYYY-MM-DD)"
+        default: "2026-10-26,2026-11-02,2026-11-09,2026-11-16,2026-11-21"
+
+permissions:
+  contents: write
+
+jobs:
+  hazirla:
+    runs-on: ubuntu-latest
+    outputs:
+      liste: ${{ steps.l.outputs.liste }}
+    steps:
+      - id: l
+        run: |
+          python3 -c "import json,os;print('liste='+json.dumps([t.strip() for t in os.environ['T'].split(',') if t.strip()]))" >> $GITHUB_OUTPUT
+        env:
+          T: ${{ github.event.inputs.tarihler }}
+
+  deneme:
+    needs: hazirla
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      matrix:
+        gun: ${{ fromJson(needs.hazirla.outputs.liste) }}
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Tarama
+        env:
+          RADAR_WINDOW_DAYS: "21"
+          RADAR_MAX_ARTICLES: "220"
+          RADAR_PAUSE: "0.5"
+        run: python -m radar run --today "${{ matrix.gun }}"
+      - name: Otomatik editor (deneme)
+        run: python -m radar otomatik --deneme --today "${{ matrix.gun }}"
+      - name: Link raporu
+        if: always()
+        run: python -u tools/link_rapor.py out/karar_satirlar.json > out/link_rapor.txt 2>&1 || true
+      - name: Ciktilari topla
+        if: always()
+        run: |
+          D=coklu/${{ matrix.gun }}
+          mkdir -p $D
+          cp out/karar.json out/karar_satirlar.json out/deneme_email.html out/link_rapor.txt $D/ 2>/dev/null || true
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: coklu-${{ matrix.gun }}
+          path: coklu/${{ matrix.gun }}
+
+  isle:
+    needs: deneme
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          path: indir
+      - name: Repoya isle
+        run: |
+          mkdir -p out/coklu
+          for d in indir/coklu-*; do n=${d#indir/coklu-}; rm -rf out/coklu/$n; cp -r $d out/coklu/$n; done
+          git config user.name  "sogukradar-bot"
+          git config user.email "bot@users.noreply.github.com"
+          for i in 1 2 3; do
+            git fetch origin main; git reset --quiet origin/main
+            git add out/coklu
+            git diff --staged --quiet && break
+            git commit -q -m "coklu deneme ciktilari [skip ci]"
+            git push && break
+            sleep 5
+          done
