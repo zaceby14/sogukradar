@@ -4,17 +4,21 @@
  "atla": true,
  "son_gonderim": "2026-11-16",
  "deneme": true,
- "satir": 5,
+ "satir": 4,
  "nedenler": [],
  "yazar": {
   "saglayici": "gemini",
   "llm_hatalar": [],
   "reddedilen_cumle": [],
-  "cumle_llm": 5,
+  "cumle_llm": 4,
   "cumle_kuralsal": 0,
   "supheli_cikarilan": 0
  },
  "elenen_satirlar": [
+  {
+   "baslik": "Jindal Stainless investing ₹900 crore to increase cold rolling capacity to 2.67 MT by FY28",
+   "neden": "daha once gonderilmis (baska bolumde/yayinda)"
+  },
   {
    "baslik": "【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】",
    "neden": "Cince baslik, firma/hat okunamadi (tekrar denetlenemez)"
@@ -22,12 +26,11 @@
  ],
  "baglanti_dogrulanamayan": [],
  "email": "/home/runner/work/sogukradar/sogukradar/out/deneme_email.html",
- "uretildi": "2026-11-21T15:40:04.519389Z",
+ "uretildi": "2026-11-21T16:04:38.728658Z",
  "basliklar": [
   "KG Steel completes W38b PLTCM upgrade, targets output of over 2 million tons",
   "Zhejiang Hengfeng hot tests cold rolling mill",
   "SAIL's Bokaro steel mill develops NGO grade special steel for the first time",
-  "AM/NS India Develops 2 Million Tonne Cold Rolling Facility at Hazira for Automotive Steel",
-  "Jindal Stainless investing ₹900 crore to increase cold rolling capacity to 2.67 MT by FY28"
+  "AM/NS India Develops 2 Million Tonne Cold Rolling Facility at Hazira for Automotive Steel"
  ]
 }

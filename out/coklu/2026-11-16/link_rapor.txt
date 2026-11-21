@@ -7,22 +7,6 @@
   metin: Login Kallanish articles are only available for active subscribers and clients currently on trial. If you already have login details, please login below to continue. Email address Password LOGIN Want to see what we offer? Why not sign up for a free trial and receive the Kallanish service for 2 full weeks. Registration only takes 1 minute, so you can start benefitting from our news and pricing cove
   baslik-sayfa ortak sozcuk: 5/5 -> UYUMLU
 ======================================================================
-[HABER] 2026-10-16 | Tata Steel launches pre-painted steel Colorcoat in India
-  link : https://www.thehindubusinessline.com/companies/tata-steel-launches-pre-painted-steel-colorcoat-in-india/article71567926.ece
-  durum: 200  son adres: https://www.thehindubusinessline.com/companies/tata-steel-launches-pre-painted-steel-colorcoat-in-india/article71567926.ece
-  sayfa basligi: Tata Steel launches pre-painted steel Colorcoat in India - The HinduBusinessLine
-  sayfa tarihi : {'key': 'datePublished', 'value': '2026-10-10T17:45:34+05:30'}, {'key': 'dateModified', 'value': '2026-10-16T07:47:38+05:30'}
-  metin: SENSEX 83,919.71 + 897.96 NIFTY 25,800.60 + 286.30 CRUDEOIL 7,720.00 -87.00 GOLD 121,808.00 -5,644.00 SILVER 148,325.00 -9,157.00 SENSEX 83,919.71 + 897.96 NIFTY 25,800.60 + 286.30 NIFTY 25,800.60 + 286.30 CRUDEOIL 7,720.00 -87.00 CRUDEOIL 7,720.00 -87.00 GOLD 121,808.00 -5,644.00 Subscribe Companies Markets Portfolio Opinion Economy Premium X STOCKS STORIES ACCOUNT Subscribe SIGN UP / LOGIN X STO
-  baslik-sayfa ortak sozcuk: 5/5 -> UYUMLU
-======================================================================
-[HABER] 2026-10-06 | IMS expands its portfolio with force transducers for precise force measurement under demanding conditions in h
-  link : https://www.ims-gmbh.de/en/2026/10/06/ims-expands-its-portfolio-with-force-transducers-forprecise-force-measurement-under-demandingconditions-in-hot-a
-  durum: 200  son adres: https://www.ims-gmbh.de/en/2026/10/06/ims-expands-its-portfolio-with-force-transducers-forprecise-force-measurement-under-demandingconditions-in-hot-a
-  sayfa basligi: IMS expands its portfolio with force transducers for precise force measurement under demanding conditions in hot and cold rolling mills - IMS Messsyst
-  sayfa tarihi : {'key': 'datePublished', 'value': '2026-10-06T09:36:36+02:00'}, {'key': 'datePublished', 'value': '2026-10-06T09:36:36+02:00'}
-  metin: Skip to content IMS expands its portfolio with force transducers for precise force measurement under demanding conditions in hot and cold rolling mills With the RollKraft product family, IMS Messsysteme GmbH is expanding its portfolio with force transducers designed for use in hot and cold rolling mills. The measurement systems provide precise measurement data for the control, analysis and optimis
-  baslik-sayfa ortak sozcuk: 12/12 -> UYUMLU
-======================================================================
 [HABER] 2026-10-05 | Gopani Industries Successfully Rolls First Prime Coil from New Cold Rolling Mill
   link : https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zb1JoVG1BQ1FSRlp3Qk02Zl9CaTZ3ME9XLTktbW1rcXhBR0pkMDhLOTZfT0V5LWdwcXZScW5rYzFpS1FjVXhhWU53UzNXeHozR
   google news -> yayinci: BULUNAMADI
@@ -35,21 +19,17 @@
   metin: English Türkçe Italiano 中文 | Login Menu Marketplace Global Marketplace Access to the listings of different steel products and bids without intermediaries and commissions. Steel Markets Steel Prices Daily Steel Prices Weekly Steel Prices Steel Price Analysis Tool Orbis Steel Index Futures Prices Steel Price Analyses Scrap & Raw Materials Tube and Pipe Flats and Slab Longs and Billet Products Scrap 
   baslik-sayfa ortak sozcuk: 9/9 -> UYUMLU
 ======================================================================
-[TEKNOLOJI] 2026-08-20 | Vietnam's Hoa Sen launches new alloy-coated steel with enhanced corrosion resistance
-  link : https://www.steelorbis.com/steel-news/latest-news/vietnams-hoa-sen-launches-new-alloy-coated-steel-with-enhanced-corrosion-resistance-1471882.htm
-  durum: 200  son adres: https://www.steelorbis.com/steel-news/latest-news/vietnams-hoa-sen-launches-new-alloy-coated-steel-with-enhanced-corrosion-resistance-1471882.htm
-  sayfa basligi: Vietnam's Hoa Sen launches new alloy-coated steel with enhanced corrosion resistance
-  sayfa tarihi : {'key': 'datePublished', 'value': '2026-08-20T12:24:07+03:00'}, {'key': 'dateModified', 'value': '2026-08-20T00:00:00+03:00'}
-  metin: English Türkçe Italiano 中文 | Login Menu Marketplace Global Marketplace Access to the listings of different steel products and bids without intermediaries and commissions. Steel Markets Steel Prices Daily Steel Prices Weekly Steel Prices Steel Price Analysis Tool Orbis Steel Index Futures Prices Steel Price Analyses Scrap & Raw Materials Tube and Pipe Flats and Slab Longs and Billet Products Scrap 
-  baslik-sayfa ortak sozcuk: 7/7 -> UYUMLU
+[HABER] 2026-09-21 | POSCO to Build State-of-the-Art Galvanized Automotive Steel Sheet Plant, Bringing Together the Latest Automoti
+  link : https://newsroom.posco.com/en/posco-to-build-state-of-the-art-galvanized-automotive-steel-sheet-plant-bringing-together-the-latest-automotive-steel-te
+  durum: 200  son adres: https://newsroom.posco.com/en/posco-to-build-state-of-the-art-galvanized-automotive-steel-sheet-plant-bringing-together-the-latest-automotive-steel-te
+  sayfa basligi: POSCO to Build State-of-the-Art Galvanized Automotive Steel Sheet Plant, Bringing Together the Latest Automotive Steel Technologies – Official POSCO G
+  sayfa tarihi : {'key': 'datePublished', 'value': '2026-09-21T13:30:13+09:00'}, {'key': 'dateModified', 'value': '2026-09-21T13:35:44+09:00'}
+  metin: Article Press Center Press Release Image Gallery Business Industry Report People & Culture Open Search window Search in the Newsroom Clear Search Recommended HyREX Steel Lithium Secondary Battery AI Robots Search Close Menu Search Layer Close Layer Close Minimum 2 characters required. Ok Home Press Center Press Release POSCO to Build State-of-the-Art Galvanized Automotive Steel Sheet Plant, Bringi
+  baslik-sayfa ortak sozcuk: 11/11 -> UYUMLU
 ======================================================================
-[PIYASA] 2026-11-13 | Thailand levies anti-dumping duty on tinplate, tin-free sheet
-  link : https://www.kallanish.com/en/news/steel/market-reports/article-details/thailand-levies-ad-tinplate-tin-free-sheet-1126/
-  durum: 200  son adres: https://www.kallanish.com/en/news/steel/market-reports/article-details/thailand-levies-ad-tinplate-tin-free-sheet-1126/
-  sayfa basligi: Thailand levies anti-dumping duty on tinplate, tin-free sheet
-  sayfa tarihi : -
-  metin: Login Kallanish articles are only available for active subscribers and clients currently on trial. If you already have login details, please login below to continue. Email address Password LOGIN Want to see what we offer? Why not sign up for a free trial and receive the Kallanish service for 2 full weeks. Registration only takes 1 minute, so you can start benefitting from our news and pricing cove
-  baslik-sayfa ortak sozcuk: 8/8 -> UYUMLU
+[TEKNOLOJI] 2026-10-14 | KG Steel pushes to expand AI usage rate at annealing furnace to over 80%
+  link : https://news.google.com/rss/articles/CBMiVkFVX3lxTFB1dExHc2VaMEVwUWh5dkt2ZmlNSWFUS1l5eGtjVnRlYWpSTGxKZFpBaEZRY3NaSmV3eGZlZVZhNjYzWnVnYVBVYmtxQTJxR04xQ
+  google news -> yayinci: BULUNAMADI
 ======================================================================
 [PIYASA] 2026-11-12 | [US Antidumping Case Analysis] Cold-Rolled Steel Flat Products from South Korea (A-580-881) — POSCO's Margin D
   link : https://note.com/global_ad_report/n/ncc790c6e23bd?hl=en
@@ -58,6 +38,14 @@
   sayfa tarihi : {'key': 'datePublished', 'value': '2026-11-12T23:49:04.000+09:00'}, {'key': 'dateModified', 'value': '2026-11-12T23:49:04.000+09:00'}
   metin: メインコンテンツへスキップ Translated by AI · Show original [US Antidumping Case Analysis] Cold-Rolled Steel Flat Products from South Korea (A-580-881) — POSCO's Margin Drops from 6.32% to 0% 海外AD・迂回防止措置 解説レポート Nov 12, 2026 23:49 Since 2016, the United States has imposed antidumping (AD) duties on cold-rolled steel flat products from South Korea. The margin for POSCO, South Korea's largest producer, has fallen
   baslik-sayfa ortak sozcuk: 12/12 -> UYUMLU
+======================================================================
+[PIYASA] 2026-11-13 | Thailand levies anti-dumping duty on tinplate, tin-free sheet
+  link : https://www.kallanish.com/en/news/steel/market-reports/article-details/thailand-levies-ad-tinplate-tin-free-sheet-1126/
+  durum: 200  son adres: https://www.kallanish.com/en/news/steel/market-reports/article-details/thailand-levies-ad-tinplate-tin-free-sheet-1126/
+  sayfa basligi: Thailand levies anti-dumping duty on tinplate, tin-free sheet
+  sayfa tarihi : -
+  metin: Login Kallanish articles are only available for active subscribers and clients currently on trial. If you already have login details, please login below to continue. Email address Password LOGIN Want to see what we offer? Why not sign up for a free trial and receive the Kallanish service for 2 full weeks. Registration only takes 1 minute, so you can start benefitting from our news and pricing cove
+  baslik-sayfa ortak sozcuk: 8/8 -> UYUMLU
 ======================================================================
 [PIYASA] 2026-11-10 | Vietnam to launch cold-rolled stainless steel imports probe
   link : https://www.kallanish.com/en/news/steel/market-reports/article-details/vietnam-launches-probe-into-cold-rolled-stainless-steel-imports-1126/
