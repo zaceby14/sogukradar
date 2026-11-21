@@ -117,6 +117,11 @@ def havuz_guncelle(st, taze, bugun, gun=21):
             continue
         if any(taxonomy.similar_titles(m["baslik"], x["baslik"]) for x in havuz.values()):
             continue
+        # GONDERILMIS PIYASA HABERININ VARYANTI (2026-11-21): ayni AB anti-damping
+        # karari W45, W46, W47'de uc ayri yayindan uc kez gitti.
+        if any(taxonomy.similar_titles(m["baslik"], g.get("b", ""))
+               for g in (st.get("piyasa_gonderilen") or [])):
+            continue
         havuz.setdefault(a, m)
     st["piyasa_rezerv"] = sorted(havuz.values(), key=lambda m: m.get("tarih", ""), reverse=True)[:60]
     return list(st["piyasa_rezerv"])

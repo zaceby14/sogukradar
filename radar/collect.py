@@ -529,6 +529,8 @@ def collect(today=None, log=print):
         # I-Furnace intelligent annealing process model"). tech_kapsam ayni
         # yukari akis / baska malzeme / gurultu vetolarini uygular, yalnizca
         # hat ismini sart kosmaz. HABER KAPISI DEGISMEZ.
+        if taxonomy.SPAM_PUBLISHER.search(taxonomy.fold((publisher or "") + " " + it.get("url", ""))):
+            return
         if not taxonomy.tech_kapsam(it["title"], (text or "")[:700]):
             return
         blob = it["title"] + " . " + (text or "")[:700]
@@ -667,8 +669,10 @@ def collect(today=None, log=print):
                         t2, _, p2 = pt.rpartition(" - ")
                         if t2 and len(p2) < 45:
                             pt, pub = t2.strip(), p2.strip()
+                    if taxonomy.SPAM_PUBLISHER.search(taxonomy.fold(pub)):
+                        pt = ""
                     pk = "piyasa:" + state.norm_key(pt, it["url"])
-                    if pk not in piyasa_seen and not any(x["anahtar"] == pk for x in piyasa_pool):
+                    if pt and pk not in piyasa_seen and not any(x["anahtar"] == pk for x in piyasa_pool):
                         piyasa_pool.append({"anahtar": pk, "tarih": pd, "baslik": pt,
                                             "url": it["url"], "kaynak": pub,
                                             "lead": re.sub(r"<[^>]+>|\s+", " ",
@@ -719,6 +723,11 @@ def collect(today=None, log=print):
                     t2, _, pub = it["title"].rpartition(" - ")
                     if t2 and len(pub) < 45:
                         it["title"], it["_pub"] = t2.strip(), pub.strip()
+                # Yayinci kuyruk ayrildiktan SONRA tekrar spam kontrolu (2026-11-21):
+                # ilk kontrol sirasinda _pub bos oldugu icin openPR gecti.
+                if taxonomy.SPAM_PUBLISHER.search(taxonomy.fold(it.get("_pub") or "")):
+                    drop("kapsam_disi", it, "rapor/bulten dagitim sitesi (kuyruk)")
+                    continue
                 # Celik baglami sarti: "cinnamon roll shop" tuzagi (2026-08-12)
                 if not taxonomy.STEEL_CONTEXT.search(taxonomy.fold(it["title"])):
                     drop("kapsam_disi", it, "celik baglami yok (arama)")
@@ -742,13 +751,18 @@ def collect(today=None, log=print):
                     # gore gercek basligi kullan - rapora slug girmesin.
                     if it.get("_sitemap"):
                         gt = (doc.get("title") or "").strip()
-                        if len(gt.split()) >= 4 and not taxonomy.is_junk_title(gt):
+                        if len(gt.split()) >= 4 and not taxonomy.is_junk_title(gt) \
+                                and not re.search(r"\b404\b|page not found|bulunamad", gt, re.I):
                             it["title"] = gt
+                        elif dates.aist_tarih(it["url"], today):
+                            pass        # AIST 404: basligi adres slug'indan kalir (2026-11-21)
                         else:
                             # Sayfa gercek bir haber basligi vermedi: yer
                             # tutucu/404 sablonu olabilir (W45 Primetals vakasi).
                             drop("tarihsiz_elendi", it, "sitemap: sayfa basligi yok")
                             continue
+                if not date_iso and dates.aist_tarih(it["url"], today):
+                    date_iso, src = dates.aist_tarih(it["url"], today), "url"
                 if not date_iso:
                     # ACI 5: ayni adres baska bir beslemede gecti mi.
                     # Last-Modified'dan ONCE denenir: capraz besleme yayincinin

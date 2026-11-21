@@ -2053,7 +2053,7 @@ def test_piyasa_gundemi_ve_geri_bildirim():
     try:
         os.environ["RADAR_LLM"] = "yok"
         oz = yazar.ozet_hazirla(payload, log=lambda *a: None)
-        eq([m["anahtar"] for m in oz["piyasa"]], ["p2", "p1"], "LLM yokken kural sirasi")
+        eq(oz["piyasa"], [], "LLM yokken piyasa bolumu BOS (dogrulanmamis/cevrilmemis metin gonderilmez)")
         os.environ.pop("RADAR_LLM", None)
         os.environ["ANTHROPIC_API_KEY"] = "x"
         llm.json_iste = lambda s_, k, log=print: ({"cumleler": {}, "piyasa": [
@@ -2143,8 +2143,13 @@ def test_kose_llm_yenilik_karari():
         eq(yazar.ozet_hazirla(pl, log=lambda *a: None)["teknolojiler"], [], "LLM yenilik bulmadi: kose bos")
         llm.json_iste = lambda s_, k, log=print: ({"cumleler": {}, "teknoloji_id": "tech:2",
             "teknoloji": "Soğuk şerit için hidrojenli tavlama pilot hattı geliştirildi."}, "anthropic", [])
+        eq(yazar.ozet_hazirla(pl, log=lambda *a: None)["teknolojiler"], [],
+           "yenilik gerekcesi yoksa secim kabul edilmez (2026-11-21)")
+        llm.json_iste = lambda s_, k, log=print: ({"cumleler": {}, "teknoloji_id": "tech:2",
+            "teknoloji_gerekce": "(d) hidrojenli tavlama pilot hatti",
+            "teknoloji": "Soğuk şerit için hidrojenli tavlama pilot hattı geliştirildi."}, "anthropic", [])
         k = yazar.ozet_hazirla(pl, log=lambda *a: None)["teknolojiler"]
-        eq((len(k), k[0]["anahtar"]), (1, "tech:2"), "LLM gercek yeniligi secti")
+        eq((len(k), k[0]["anahtar"]), (1, "tech:2"), "LLM gercek yeniligi gerekceyle secti")
         llm.json_iste = lambda s_, k, log=print: ({"cumleler": {}, "teknoloji_id": "uydurma"}, "anthropic", [])
         eq(yazar.ozet_hazirla(pl, log=lambda *a: None)["teknolojiler"], [], "listede olmayan id secilemez")
     finally:
@@ -2171,6 +2176,61 @@ def test_w46_goes_ve_firin_copu():
         eq(taxonomy.in_scope(b)[0], True, "gercek: " + b[:45])
     eq(taxonomy.yenilik_mi("Primetals Technologies to modernize KG Steel's Dangjin cold mill with AI-driven automation upgrade"),
        False, "modernizasyon siparisi yenilik degil")
+
+
+def test_kurul_2026_11_21_kalite():
+    """Kurul (2026-11-21) kalite denetcisinin gercek basliklari: W47 tekrari,
+    pazar raporu, kalin levha, ARP kredisi, openPR."""
+    from . import kume, piyasa
+    elenmeli = ["Pickling Lines Market To 2035: Automotive Lightweighting and Green Upgrades Fuel Expansion",
+                "Growth in the Hot-dip Galvanized Steel Market Driven by Increased Investment and Innovation",
+                "Jastrzębska Spółka Węglowa secures loan from ARP for restructuring",
+                "SMS group receives final acceptance for level 1 automation upgrade of cold plate leveler at Outokumpu's heavy plate rolling mill",
+                "Grain-Oriented Electrical Steel Market to Reach US$ 15.60 Billion",
+                "Electrical Steel Market Targets US$109.9 Billion by 2035"]
+    for b in elenmeli:
+        eq((taxonomy.in_scope(b)[0], bool(taxonomy.genel_yatirim(b)), bool(taxonomy.tech_kapsam(b))),
+           (False, False, False), "elenmeli: " + b[:50])
+    kalmali = ["ANDRITZ commissions second acid regeneration plant for JSW Steel Coated Products",
+               "Nucor Begins Production on Primetals Technologies-Supplied CGL",
+               "Man-less entry section and centralized control of the tandem cold mill at Tata Steel Ijmuiden",
+               "Primetals secures PLTCM automation order",
+               "JTL Industries Advances Maharashtra Expansion with Pickling and GP Line Trials",
+               "Tenova to supply ARP plant for pickling line",
+               "Primetals to supply cold rolling mill and plate mill upgrade"]
+    for b in kalmali:
+        eq(taxonomy.in_scope(b)[0], True, "kalmali: " + b[:50])
+    # W47 tekrari: koseli parantezli baslik
+    eq(taxonomy.temiz_baslik("[Nucor, Primetals Produce First Prime Coil on New Galvanizing Line in South Carolina]"),
+       "Nucor, Primetals Produce First Prime Coil on New Galvanizing Line in South Carolina", "koseli parantez soyulur")
+    eq(kume.firma_kok("Nucor, Primetals"), "nucor", "firma koku virgulde kesilir")
+    eq(kume.firma_kok("JTL Industries Advances"), "jtl", "advances fiil")
+    r = {"firma": "Nucor", "hat": "Galvaniz hatti (CGL)", "asama": "Ilk urun",
+         "baslik": "Nucor, Primetals Produce First Prime Coil on New Galvanizing Line in South Carolina"}
+    eq(kume.gecmis_tekrari(r, [{"b": "Nucor Begins Production on Primetals Technologies-Supplied CGL", "a": "Ilk urun"}]),
+       True, "W47 Nucor tekrari yakalanir")
+    # piyasa: gonderilen AB karari tekrar secilmez
+    st = {"piyasa_gonderilen": [{"b": "EU backs AD duties on CRC from five countries", "t": "2026-11-02"}]}
+    bugun = dt.date(2026, 11, 20)
+    h = piyasa.havuz_guncelle(st, [{"anahtar": "p9", "tarih": "2026-11-15",
+                                    "baslik": "EU backs duties on cold-rolled steel from five countries"}], bugun)
+    eq(h, [], "gonderilmis piyasa haberinin varyanti tekrar secilmez")
+    from . import dates
+    eq(dates.aist_tarih("https://www.aist.org/Steel-News/2026/October/19-23-October-2026/Red-Bud-Delivers",
+                        dt.date(2026, 11, 20)), "2026-10-19", "AIST hafta yolu tarihi")
+    eq(dates.aist_tarih("https://www.aist.org/Steel-News/2026/September/28-2-September-2026/X",
+                        dt.date(2026, 11, 20)), "2026-09-28", "ay donumu haftasi: baslangic gunu")
+    eq(dates.aist_tarih("https://www.aist.org/Steel-News/2026/December/7-11-December-2026/X",
+                        dt.date(2026, 11, 20)), None, "gelecek tarih kabul edilmez")
+    # yenilik kelime sinirlari
+    for b in ("Electrical Steel Market Targets US$109.9 Billion by 2035",
+              "Ten Reputable Electrical Steel Companies in China 2026: Advancing Industrial Performance",
+              "AI Is Queued Behind Grid Steel"):
+        eq(taxonomy.yenilik_mi(b), False, "yenilik degil: " + b[:40])
+    eq(bool(taxonomy.tech_kapsam("Ten Reputable Electrical Steel Companies in China 2026")), False, "sirket listesi koseye girmez")
+    for b in ("POSCO and Hyundai partner to develop 6.5% silicon electrical steel for EV motors",
+              "JISCO first industrial trial of ZnAlMg coated steel"):
+        eq((taxonomy.yenilik_mi(b), bool(taxonomy.tech_kapsam(b))), (True, True), "gercek yenilik: " + b[:40])
 
 
 def test_w40_editorsuz_cop_kumeleme():
@@ -3683,6 +3743,7 @@ def run():
                test_v20_indiana_hindistan_degil,
                test_w40_editorsuz_cop_kumeleme,
                test_yazar_dogrulayici_ve_llm_yedegi,
+               test_kurul_2026_11_21_kalite,
                test_w46_goes_ve_firin_copu,
                test_kose_llm_yenilik_karari,
                test_dogrulayici_ulke_kaynakta_olmali,

@@ -289,6 +289,17 @@ MATERIAL_BLOCK = re.compile(
 # alakasiz satirlarin tamami buradan sizdi: HARD_REJECT sadece Katman 1'de
 # calisiyordu, "genel yatirim" etiketi alan satir denetimi atliyordu.
 _NOISE = (
+    # PAZAR RAPORU (2026-11-21): "Pickling Lines Market To 2035", "Growth in the
+    # Hot-dip Galvanized Steel Market ..." adaylara ve teknoloji kosesine girdi.
+    r"\bmarket (to|by|till|through) 20\d\d\b|\bmarket (size|share|growth|outlook|report|"
+    r"research|forecast|analysis|trends?|insights?|targets?)\b|\bgrowth (in|of) the .{0,60}\bmarket\b|"
+    r"\bmarket\b.{0,60}\b(driven by|fuels? expansion|to reach|projected to)\b|\bcagr\b|"
+    r"\b(top|leading|reputable|best) (\d+|ten|five|seven) .{0,40}(companies|manufacturers|suppliers)|"
+    r"\b(\d+|ten|five|seven) (reputable|leading|top|best|major) .{0,40}(companies|manufacturers|suppliers)|"
+    # ARP = Polonya kalkinma ajansi da olabilir (2026-11-21: "Jastrzebska ... secures
+    # loan from ARP for restructuring" asit rejenerasyonu sanildi).
+    r"(loan|credit|financ\w*|funding|restructur\w*|kredi|bond|stake)\b.{0,40}\barp\b|"
+    r"\barp\b.{0,40}(loan|credit|financ|funding|restructur|agency)|"
     # 2026-11-02 (W45 havuz denetimi): palplans, AB koruma onlemi, borsa
     # analizi bu kapidan geciyordu.
     r"sheet pil(e|es|ing)\b|\bpiles?\b|protective measures|safeguard (measure|duty|duties|"
@@ -459,6 +470,8 @@ _NOISE = (
 # reddedilir ama Katman 2'de (genel yatirim) SERBESTTIR - "DRI-EAF ile yesil
 # celik tesisi yatirimi" gecerli bir dunya yatirim haberidir.
 _UPSTREAM = (
+    # KALIN LEVHA (2026-11-21, W47: Outokumpu heavy plate leveler satiri girdi)
+    r"heavy plate|plate (rolling )?mill|\bquarto\b|steckel|"
     r"blast furnace|\bdri\b|\bhbi\b|direct reduc|\beaf\b|electric arc furnace|"
     r"basic oxygen|\bbof\b|continuous cast|slab caster|\bbillet\b|\bbloom\b|"
     r"csp mill|compact strip production|hot strip mill|hot rolling mill|"
@@ -765,6 +778,12 @@ def temiz_baslik(title, url=""):
     m = re.match(r"^\s*\[([^\]]{15,200})\]\s*\S", t)
     if m:
         t = m.group(1).strip()
+    # TAMAMI KOSELI PARANTEZLI baslik (2026-11-21): "[Nucor, Primetals Produce
+    # First Prime Coil ...]" firma okumasini bozdu, W46'da giden haber W47'de
+    # TEKRAR gitti.
+    m = re.match(r"^\s*\[([^\]]{10,250})\]\s*$", t)
+    if m:
+        t = m.group(1).strip()
     for pat, rep in _BAS_ONEK:
         t = re.sub(pat, rep, t, flags=re.I).strip()
     # YAYINCI KUYRUGU (2026-08-31). Cok yayinci basligin sonuna kendi adini
@@ -876,6 +895,9 @@ TECH_ADAY = re.compile(
 # malzeme vetolari aynen isler.
 TECH_KAPSAM = re.compile(
     r"(cold roll|cold mill|cold strip|cold[- ]rolled|soguk hadde|"
+    # 2026-11-21 kurul: gercek yeniliklerin kullandigi terimler
+    r"zinc[- ]alumin\w*[- ]magnesium|\bznalmg\b|\bzam\b|magnelis|posmac|heat[- ]treat|"
+    r"packaging steel|bright anneal|chromium[- ]free|\bcr-?free\b|\btcct\b|"
     r"pickl|asitleme|anneal|tavlama|galvani|kaplama|coating|coated|"
     r"tinplate|tin mill|teneke|colou?r coat|pre[- ]?paint|boyama|"
     r"skin[- ]?pass|temper mill|slitting|dilme|cut[- ]to[- ]length|boy kesme|"
@@ -925,12 +947,17 @@ SONRAKI_ISLEME = re.compile(
 # uygulama, yeni proses/yontem/kalite, Ar-Ge, pilot, patent, hidrojen/YZ.
 # Urun yelpazesi/tanitim/tedarik/siparis haberi koseye GIREMEZ.
 YENILIK = re.compile(
+    # KELIME SINIRLI (2026-11-21, kurul): "T-arge-ts" icinde ar-ge, "Indus-trial"
+    # icinde trial, "AI Is Queued..." icinde tek basina AI yenilik sayiliyordu.
     r"world[- ]first|first[- ]of[- ]its[- ]kind|industry[- ]first|\bfirst (ever|time|in the world)|"
+    r"\bfirst (industrial|commercial) (trial|use|application)|"
     r"new (technology|process|method|grade|generation|coating|alloy)|new .{0,30}technolog|"
-    r"next[- ]generation|novel|"
-    r"breakthrough|patent|\br&d\b|research|develop(s|ed|ing|ment)|pilot|trial|prototype|"
-    r"demonstrat|hydrogen|artificial intelligence|machine learning|\bai\b|digital twin|"
-    r"innovati|yeni teknoloji|yeni nesil|ar-?ge|gelistir|pilot|dunyada ilk|ilk kez")
+    r"next[- ]generation|\bnovel\b|"
+    r"breakthrough|\bpatent|\br&d\b|\bresearch\b|\bdevelop(s|ed|ing|ment)?\b|\bpilot\b|"
+    r"\btrials?\b|\btrialled\b|\bprototype|\bdemonstrat|hydrogen|electric(ally)?[- ](heated|annealing|furnace)|"
+    r"artificial intelligence|machine learning|\bai[- ](based|driven|powered|controlled)|"
+    r"\bai (control|model)|digital twin|\binnovati|"
+    r"yeni teknoloji|yeni nesil|\bar-?ge\b|gelistir|dunyada ilk|ilk kez")
 TANITIM = re.compile(
     r"expands? (its )?(product )?portfolio|product (family|range|portfolio|line[- ]?up)|"
     r"\bsuppl(y|ies|ied)\b|\border(s|ed)?\b|contract|\bwins?\b|awarded|commission|"
@@ -1341,4 +1368,5 @@ def watch_worthy(title):
 SPAM_PUBLISHER = re.compile(
     r"(openpr|prnewswire|einpresswire|globenewswire|marketwatch|"
     r"researchandmarkets|imarcgroup|marketsandmarkets|expertmarketresearch|"
-    r"businesswire|abnewswire|digitaljournal|benzinga|marketreport)")
+    r"businesswire|abnewswire|digitaljournal|benzinga|marketreport|indexbox|"
+    r"factmr|fact\.mr|giiresearch|reportlinker|precedence|towardsfnb|coherent)")

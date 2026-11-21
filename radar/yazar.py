@@ -174,9 +174,10 @@ KESİN KURALLAR (ihlal edilen cümle otomatik reddedilir ve yerine kuralsal cüm
 6. Bir haber kapsam dışıysa cümle yazma, 'supheli' listesine gerekçesiyle ekle. SADECE açıkça kapsam dışı olanı işaretle; emin değilsen işaretleme.
 
 ÇIKTI: yalnızca şu JSON nesnesi, başka hiçbir şey:
-{"cumleler": {"<id>": "Türkçe cümle"}, "ozet": "Haftanın 2-4 cümlelik Türkçe özeti (yalnızca verilen haberlerden)", "supheli": [{"id": "<id>", "neden": "kısa gerekçe"}], "piyasa": [{"id": "<piyasa id>", "cumle": "1-2 cümlelik Türkçe özet"}], "teknoloji_id": "teknoloji adaylarından GERÇEK YENİLİK olanın id'si ya da boş", "teknoloji": "seçilen yenilik için 1-2 cümlelik Türkçe tanıtım (yalnızca başlık ve özet metindeki bilgiyle); seçim yoksa boş"}
+{"cumleler": {"<id>": "Türkçe cümle"}, "ozet": "Haftanın 2-4 cümlelik Türkçe özeti (yalnızca verilen haberlerden)", "supheli": [{"id": "<id>", "neden": "kısa gerekçe"}], "piyasa": [{"id": "<piyasa id>", "cumle": "1-2 cümlelik Türkçe özet"}], "teknoloji_id": "teknoloji adaylarından GERÇEK YENİLİK olanın id'si ya da boş", "teknoloji_gerekce": "(a)/(b)/(c)/(d) ve kısa açıklama", "teknoloji": "seçilen yenilik için 1-2 cümlelik Türkçe tanıtım (yalnızca başlık ve özet metindeki bilgiyle); seçim yoksa boş"}
 
-9. TEKNOLOJİ KÖŞESİ: adaylardan YALNIZCA gerçek bir yenilik olanı seç: ilk uygulama, yeni proses/yöntem/kalite/kaplama, Ar-Ge, pilot tesis, patent, hidrojen/yapay zekâ ile yeni yaklaşım. Mevcut ürünün tanıtımı, ürün yelpazesi genişletme, tedarik/sipariş haberi YENİLİK DEĞİLDİR - böyleyse teknoloji_id boş bırak. Emin değilsen boş bırak."""
+9. TEKNOLOJİ KÖŞESİ: adaylardan YALNIZCA gerçek bir yenilik olanı seç. Kabul için başlık ya da özet metinde şu dört unsurdan EN AZ BİRİ açıkça geçmeli: (a) ilk uygulama / ilk bobin / ilk endüstriyel deneme, (b) yeni çelik kalitesi ya da kaplama bileşimi, (c) Ar-Ge / pilot / patent ve somut bir sonuç (yüzde, mm, kayıp, emisyon), (d) yeni proses (elektrikli ya da hidrojenli tavlama, yapay zekâ kontrol döngüsü vb.). Hangisine dayandığını 'teknoloji_gerekce' alanına yaz (ör. "(b) yeni ZnAlMg kaplama").
+   KESİN RET (teknoloji_id boş): pazar büyüklüğü/CAGR/"market to 2035" raporları; "en iyi 10 şirket" listeleri; fiyat/kâr/talep analizi; mevcut ürünün tanıtımı ya da ürün yelpazesi genişletme; modernizasyon/tedarik/sipariş haberleri (ör. "X, Y'nin haddesini yapay zekâ otomasyonuyla yenileyecek"); tedarikçi onayı; ihracat. Emin değilsen boş bırak - köşenin boş kalması yanlış madde koymaktan iyidir."""
 
 
 def _kullanici(rows, stats, tech=None, piyasa_ad=None, tercih_ozeti=""):
@@ -203,7 +204,7 @@ def _kullanici(rows, stats, tech=None, piyasa_ad=None, tercih_ozeti=""):
     if tech:
         metin += ("\n\nteknoloji_adaylari:\n" + json.dumps(
             [{"id": t.get("anahtar"), "baslik": t.get("baslik", ""),
-              "ozet_metin": (t.get("lead") or "")[:420], "kaynak": t.get("kaynak", "")}
+              "ozet_metin": (t.get("lead") or "")[:900], "kaynak": t.get("kaynak", "")}
              for t in tech], ensure_ascii=False, indent=1))
     return metin
 
@@ -235,16 +236,14 @@ def ozet_hazirla(payload, log=print):
         rapor["cumle_kuralsal"] += 1
 
     tech_ad = (payload.get("tech_pool") or [])[:8]
-    # LLM yoksa (ya da cevap vermezse) kose YALNIZ yenilik isaretli adayla dolar.
-    tech = [t for t in tech_ad if t.get("yenilik", True)][:1]
-    for t in tech:
-        ozet["teknolojiler"].append({
-            "anahtar": t.get("anahtar", ""), "tarih": t.get("tarih", ""),
-            "konu": t.get("baslik", ""), "metin": compose.tech_blurb(t),
-            "url": t.get("url", "")})
+    # SABLON METIN GONDERILMEZ (2026-11-21, kurul): "alaninda yeni bir gelistirme
+    # duyuruldu" bilgi tasimiyor; dogrulanmamis piyasa maddesi Ingilizce/Italyanca
+    # baslikla gidiyordu. Teknoloji ve piyasa maddeleri YALNIZ dil modelinin
+    # yazip dogrulayicidan gecirdigi Turkce metinle girer; yoksa bolum bos kalir.
+    tech = [t for t in tech_ad if t.get("yenilik") is True][:1]
 
     piyasa_ad = payload.get("piyasa_adaylari") or []
-    ozet["piyasa"] = [_piyasa_maddesi(m, m.get("baslik", "")) for m in piyasa_ad[:PIYASA_N]]
+    ozet["piyasa"] = []
 
     if not rows or not llm.saglayicilar():
         if rows:
@@ -298,11 +297,11 @@ def ozet_hazirla(payload, log=print):
         ok, neden = cumle_dogrula(cum, kay) if cum else (False, "bos")
         if not ok and cum:
             rapor["reddedilen_cumle"].append({"baslik": "(piyasa) " + m.get("baslik", "")[:60], "neden": neden})
-        yeni.append(_piyasa_maddesi(m, cum.strip() if ok else m.get("baslik", "")))
+        if ok:
+            yeni.append(_piyasa_maddesi(m, cum.strip()))
         if len(yeni) >= PIYASA_N:
             break
-    if yeni:
-        ozet["piyasa"] = yeni
+    ozet["piyasa"] = yeni
 
     # --- teknoloji kosesi: LLM adaylardan GERCEK yeniligi secer ya da HICBIRINI.
     # LLM yanit verdiyse karari ona aittir: bos secim = kose bos (tanitim
@@ -310,6 +309,9 @@ def ozet_hazirla(payload, log=print):
     if tech_ad:
         tid = veri.get("teknoloji_id")
         secilen = next((t for t in tech_ad if tid and t.get("anahtar") == tid), None)
+        if secilen and not str(veri.get("teknoloji_gerekce") or "").strip():
+            rapor["reddedilen_cumle"].append({"baslik": "(teknoloji kosesi)", "neden": "yenilik gerekcesi yok"})
+            secilen = None
         ozet["teknolojiler"] = []
         if secilen:
             tk = veri.get("teknoloji") if isinstance(veri.get("teknoloji"), str) else ""
@@ -317,10 +319,11 @@ def ozet_hazirla(payload, log=print):
             ok, neden = cumle_dogrula(tk, kay) if tk.strip() else (False, "bos")
             if not ok and tk.strip():
                 rapor["reddedilen_cumle"].append({"baslik": "(teknoloji kosesi)", "neden": neden})
-            ozet["teknolojiler"].append({
-                "anahtar": secilen.get("anahtar", ""), "tarih": secilen.get("tarih", ""),
-                "konu": secilen.get("baslik", ""), "url": secilen.get("url", ""),
-                "metin": tk.strip() if ok else compose.tech_blurb(secilen)})
+            if ok:
+                ozet["teknolojiler"].append({
+                    "anahtar": secilen.get("anahtar", ""), "tarih": secilen.get("tarih", ""),
+                    "konu": secilen.get("baslik", ""), "url": secilen.get("url", ""),
+                    "metin": tk.strip()})
 
     # --- ozet
     ex = veri.get("ozet")

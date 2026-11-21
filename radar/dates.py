@@ -150,6 +150,30 @@ def date_from_url(url, today=None):
     return None
 
 
+_AIST = re.compile(r"aist\.org/Steel-News/(\d{4})/([A-Za-z]+)/(\d{1,2})-\d{1,2}-[A-Za-z]+-(\d{4})/", re.I)
+_AY = {m: i for i, m in enumerate(["january", "february", "march", "april", "may", "june", "july",
+                                   "august", "september", "october", "november", "december"], 1)}
+
+
+def aist_tarih(url, today=None):
+    """AIST Steel News adresindeki HAFTA yolu: /Steel-News/2026/October/19-23-October-2026/.
+    Haftanin ILK gunu doner (yayin o haftanin icinde; erken tarih secmek
+    pencereyi genisletmez). 2026-11-21 kurul: AIST sayfalari 404 donuyor,
+    tarih yalniz adreste kaliyordu ve 11 kapsam ici haber 'tarihsiz' elendi."""
+    m = _AIST.search(url or "")
+    if not m:
+        return None
+    ay = _AY.get(m.group(2).lower())
+    if not ay:
+        return None
+    try:
+        d = dt.date(int(m.group(1)), ay, int(m.group(3)))
+    except ValueError:
+        return None
+    today = today or dt.date.today()
+    return d.isoformat() if d <= today else None
+
+
 def month_from_url(url):
     """Sadece yil/ay veren adresler icin: ayin 1'i DEGIL, None doner.
     Gun bilinmiyorsa tarih yok sayilir - uydurma yapilmaz."""

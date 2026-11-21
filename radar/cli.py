@@ -707,6 +707,8 @@ def _isaretle(payload, tech, donem=None, piyasa=None):
     for m in piyasa or []:
         if m.get("anahtar"):
             st3.setdefault("piyasa_seen", {})[m["anahtar"]] = m.get("tarih", "")
+        st3.setdefault("piyasa_gonderilen", []).append({"b": m.get("baslik", ""), "t": m.get("tarih", "")})
+    st3["piyasa_gonderilen"] = (st3.get("piyasa_gonderilen") or [])[-80:]
     from . import tercih as _tercih
     _tercih.kaydet_gonderilen(st3, [(r, "haber") for r in payload["rows"]]
                               + [(t, "teknoloji") for t in (tech or [])]
@@ -894,7 +896,7 @@ def _kose_dogrula(t, fetch=None):
     metin = re.sub(r"\s+", " ", htmlx.parse_article(page).get("text") or "")[:3000]
     if not _soguk_kanit(metin):
         return False
-    t["lead"] = metin[:420]
+    t["lead"] = metin[:900]
     return _kose_son_karar(t, b, metin)
 
 
@@ -909,10 +911,16 @@ def _kose_adaylari(payload, st):
     tasinir - liste en az MIN_SATIR+1 satirsa.
     """
     gorulen = st.get("tech_seen") or {}
+    # AYNI HABER HEM LISTEDE HEM KOSEDE OLMAZ (2026-11-21, W47 Dongkuk CM).
+    satir_url = {r.get("url") for r in payload.get("rows") or [] if r.get("url")}
+    satir_bas = [r.get("baslik", "") for r in payload.get("rows") or []]
     havuz, anahtarlar = [], set()
     for t in list(payload.get("tech_pool") or []) + list(st.get("tech_rezerv") or []):
         k = t.get("anahtar")
         if not k or k in anahtarlar or k in gorulen:
+            continue
+        if t.get("url") in satir_url or any(taxonomy.similar_titles(t.get("baslik", ""), b)
+                                            for b in satir_bas):
             continue
         if not _kose_dogrula(t):
             continue

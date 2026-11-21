@@ -48,7 +48,7 @@ _SON_EK = {"works", "plant", "group", "corp", "corporation", "ltd", "limited",
            "steelworks", "as", "plc", "llc", "nv", "bv"}
 
 # Firma alanina sizan HABER FIILLERI ve kipleri.
-_FIIL = {"breaks", "break", "backs", "back", "will", "secures", "secure",
+_FIIL = {"advances", "advance", "expands", "expand", "breaks", "break", "backs", "back", "will", "secures", "secure",
          "invests", "invest", "plans", "plan", "signs", "sign", "starts",
          "start", "begins", "begin", "opens", "open", "completes", "complete",
          "launches", "launch", "unveils", "unveil", "awards", "award",
@@ -63,7 +63,9 @@ _GENEL_ADLAR = {"steel", "the", "new", "a", "an", "it", "company", "group",
 
 def firma_kok(firma):
     """Kume anahtari icin firma koku: kucuk harf, fiil/son ek artiksiz."""
-    f = taxonomy.fold(firma or "")
+    f = taxonomy.fold(firma or "").strip(" [](){}")
+    # "Nucor, Primetals" -> "nucor" (2026-11-21)
+    f = re.split(r"[,;]", f)[0]
     f = re.sub(r"[^\w\s&/-]", " ", f)
     t = [w for w in f.split() if w]
     # sondan: fiil artiklari ve kurumsal son ekler
