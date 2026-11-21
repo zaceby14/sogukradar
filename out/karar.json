@@ -9,24 +9,15 @@
  "yazar": {
   "saglayici": "gemini",
   "llm_hatalar": [],
-  "reddedilen_cumle": [
-   {
-    "baslik": "【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】",
-    "neden": "kaynakta olmayan sayi: 500"
-   },
-   {
-    "baslik": "Jindal Stainless investing ₹900 crore to increase cold rolling capacity to 2.67 ",
-    "neden": "kaynakta olmayan sayi: 2028"
-   }
-  ],
-  "cumle_llm": 4,
-  "cumle_kuralsal": 2,
+  "reddedilen_cumle": [],
+  "cumle_llm": 5,
+  "cumle_kuralsal": 0,
   "supheli_cikarilan": 0
  },
  "elenen_satirlar": [
   {
    "baslik": "【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】",
-   "neden": "Cince baslik, dogrulanmis Turkce cumle yok"
+   "neden": "Cince baslik, firma/hat okunamadi (tekrar denetlenemez)"
   }
  ],
  "baglanti_dogrulanamayan": [
@@ -36,7 +27,7 @@
   }
  ],
  "email": "/home/runner/work/sogukradar/sogukradar/out/deneme_email.html",
- "uretildi": "2026-11-21T13:49:33.215696Z",
+ "uretildi": "2026-11-21T14:53:33.183575Z",
  "basliklar": [
   "KG Steel completes W38b PLTCM upgrade, targets output of over 2 million tons",
   "Zhejiang Hengfeng hot tests cold rolling mill",

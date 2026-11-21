@@ -2963,6 +2963,24 @@
     "tekrar": 62
    },
    "uretim": "2026-11-21 13:43 UTC"
+  },
+  {
+   "donem": "2026-W47",
+   "satir": 6,
+   "stats": {
+    "erisilemeyen": 19,
+    "gnews_tarih": 0,
+    "ham": 3879,
+    "kabul": 6,
+    "kapsam_disi": 3469,
+    "kaynak": 321,
+    "makale_acildi": 220,
+    "on_eleme_gecti": 397,
+    "pencere_disi": 248,
+    "tarihsiz_elendi": 89,
+    "tekrar": 60
+   },
+   "uretim": "2026-11-21 14:52 UTC"
   }
  ],
  "piyasa_gonderilen": [
