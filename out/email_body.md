@@ -1,21 +1,24 @@
 # SogukRadar &mdash; 2026-W47
 
-**5 dogrulanmis gelisme** | pencere 2026-10-27 - 2026-11-17 | 315 kaynak tarandi
+**6 dogrulanmis gelisme** | pencere 2026-10-31 - 2026-11-21 | 321 kaynak tarandi
 
-1. **JTL Industries Advances** (Hindistan, 2026-11-12) &mdash; Asitleme hatti / Belirsiz  
-   JTL Industries Advances Maharashtra Expansion with Pickling and GP Line Trials  
-   https://news.google.com/rss/articles/CBMiVkFVX3lxTE5JUEw1b3hCWk9NYjFJNnhtMjNvN1VXQjFSeS1ZdVRUUU5lblpWZzIyNGcyb29QYTJhUDYtWDFGQ3kyeE8wb0F4WHppbjkyY3N3eTFyUUt3?oc=5
-2. **Increased Investment** (-, 2026-11-16) &mdash; Galvaniz hatti (CGL) / Belirsiz  
-   Growth in the Hot-dip Galvanized Steel Market Driven by Increased Investment and Innovation  
-   https://news.google.com/rss/articles/CBMikgFBVV95cUxPeFBJT3ZoQXFvOHBfazd0RkItSjN5dURzc2tkS0ozQUJkakRLNVh3aTloTjJjSjJVMVRXYTkwWUhpcDRLMWprd1d4LU02TFM2Nk1NenFPTXNGRDkyY0RkSjc2ZnBZT2FBS1UybWxUSklYMnhWT3ZhQ1JNc2hIY3JVY0JDR3A1RXFkT3J2NENmVHh3UQ?oc=5
-3. **Pickling Lines Market** (-, 2026-11-13) &mdash; Asitleme hatti / Modernizasyon  
-   Pickling Lines Market To 2035: Automotive Lightweighting and Green Upgrades Fuel Expansion  
-   https://news.google.com/rss/articles/CBMi1AFBVV95cUxPeGRLRktNMk9ETmFOU256UnJ4V1pVQjdVc2d2OVdISFkzTnVReUNDd1pSZGxRVy1QWEQ3d3BNQjBONWloY0lSV2p3Wk5rSUYxdkhQVjBjVnI1cFBYNzJFQnlTWG1nVEdVY1ZnQVR6Qm4zY24zX0VUMFBuWF8wci1yV0V6YWhJb1AtbWlTSVFSYmpLYktFMWt1aDAxNHl2bDd5NzljWkZrelJIc0RXTG9kd0c0d1dPM0YxcW1CaWVmaVNkd09DZHdDc0ZkTUZOR3BVWHNvSQ?oc=5
-4. **Jastrzębska Spółka Węglowa** (-, 2026-11-11) &mdash; Asit rejenerasyonu (ARP) / Sozlesme  
-   Jastrzębska Spółka Węglowa secures loan from ARP for restructuring  
-   https://www.steelorbis.com/steel-news/latest-news/jastrzbska-spka-wglowa-secures-loan-from-arp-for-restructuring-1490056.htm
-5. **-** (-, 2026-11-05) &mdash; Belirsiz / Ilk urun  
-   【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】  
-   https://news.metal.com/en/newscontent/104207357-纽柯在南卡罗来纳州新建50万吨年汽车板镀锌线产出首卷优质卷板
+1. **KG Steel** (-, 2026-11-19) &mdash; Tandem soguk hadde (TCM) / Modernizasyon  
+   KG Steel completes W38b PLTCM upgrade, targets output of over 2 million tons  
+   https://biz.heraldcorp.com/article/10943740
+2. **Demonstration** (-, 2026-11-07) &mdash; Otomasyon / dijital / Sozlesme  
+   Demonstration of Digital twins for a Green Steel value chain  
+   https://cordis.europa.eu/project/id/101178079
+3. **Bokaro** (-, 2026-11-20) &mdash; Elektrik celigi hatti / Teknoloji  
+   SAIL's Bokaro steel mill develops NGO grade special steel for the first time  
+   https://www.steelorbis.com/steel-news/latest-news/sails-bokaro-steel-mill-develops-ngo-grade-special-steel-for-the-first-time-1492322.htm
+4. **Hazira** (Hindistan, 2026-11-19) &mdash; Soguk hadde / Belirsiz  
+   AM/NS India Develops 2 Million Tonne Cold Rolling Facility at Hazira for Automotive Steel  
+   https://www.newsx.com/nx-news/am-ns-india-develops-2-million-tonne-cold-rolling-facility-at-hazira-for-automotive-steel-293633/
+5. **FY28** (Hindistan, 2026-11-13) &mdash; Soguk hadde / Belirsiz  
+   Jindal Stainless investing ₹900 crore to increase cold rolling capacity to 2.67 MT by FY28: MD  
+   https://news.google.com/rss/articles/CBMihAJBVV95cUxQM0ZTdGxvS3U5VnZFMkMyZTRjN2ZHTm8tdU9NZmpoMGhISXl3Z1AwUzNCcU43RG9oX0tIOWJQYVA0eDBjX2FReXYzZVdlNFJFWkJHbHFtZ3M3VkZ1ZUpXb0U1NXB0MlB6endrSVZtNlY1SndMVnpaMHc0R0Nwa011aGU5ZGpnWDFGMXlWVnpUVHpuQVJWRXlEcm9uX1AxZUlYb0R3N3g2dW52TEJQOG43TGg2UFZSaHVWaEFzcG93cHdhZTl1aDdUNkcxNEYxWGEySEZOOGFDWHI5VUZRS1RTOHBqNVYzYW1uWkFBcnNJRHlVTWdxR3NjdE5VemtfVi1iM21pWNIB_wFBVV95cUxNWGdESGQ3OWJKQm5NUGNzZUxjVHZrUkY1SjFVMW5LclpmeUNCenNMTnV0VkdUSGh0cDBqUkdLeXFKaENicWdTQ21WYUxvMW1ZcHk1VkhfUWJoUmdYOFVTM3FIbWlzblNmaGd5MkhFSGotRklHd2I2b1RrZmxibG05V1lVc25Zc21yVEx0V2Z3ckgxV0lROWVaRzNKbEFKd1NBWWJsSnZnQzg1bE9LR21HanJuWGVQbWk4YjBkSGZEalpITDNfUlBtWTV1Um54dXlic1JaeGVlYnpaUHJpaGxybFNPNk1xNGI3cTZCT3E0ODY0R21ucjRSc3hRQURWbUU?oc=5
+6. **JTL Industries Advances** (-, 2026-11-11) &mdash; Asitleme hatti / Belirsiz  
+   JTL Industries Advances Maharashtra Expansion with Successful Pickling Line Trial and GP Line Testing  
+   https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQlhUQkFxZ0p4LXQxYlFPWWY3bUozMGR4UEFqQ2NDVUN3bHdfVndpVVduV1VQQmxvblVVUWhJd0JxYndxSlhTY21TOURGR2I3TzVTMUxvYWJyOUZXaXAwajRaTHgwbVlBaWJxQ2JpUG0zbGNTdFhfT1B4Tk5KUUJjYkJxZEFvcEM5TkF4V3diQ3E0TG5iaURlRlBIeURwWnBnTHNmQlZnNmIzRlB3Vk5JQzFaVkp5RFR6Z1g5Qm5KN2N1YjNUakhsLXRhTVBYcHRO?oc=5
 
-> Erisilemeyen kaynaklar: SMS group, Cognex, Steel Radar, SteelGuru, BigMint (SteelMint), Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News
+> Erisilemeyen kaynaklar: Cognex, Steel Radar, Magnetics Magazine, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News
