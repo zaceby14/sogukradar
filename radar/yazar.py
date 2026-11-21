@@ -82,6 +82,10 @@ _ULKE_ES = {taxonomy.fold(k): v for k, v in {
 # KURUM ADLARI (2026-11-21, kurul): "European Commission" -> "Avrupa Komisyonu"
 # cevirisi 'kaynakta olmayan ozel ad' sayilip piyasa maddesi Ingilizce kaliyordu.
 # Ulke adlari gibi: kaynakta karsiligi GECMELI.
+# Turkce buyuk harfli genel sozcukler (ozel ad degil)
+for _a in ("Ar-Ge", "ArGe", "KOBİ", "OSB", "TL", "Bakanlık"):
+    _TR_AD.add(taxonomy.fold(_a))
+
 _KURUM_ES = {
     "komisyon": ["commission", "ec", "komisyon"], "komisyonu": ["commission", "ec", "komisyon"],
     "bakanligi": ["ministry", "minister", "bakanlik"], "bakanlik": ["ministry", "minister", "bakanlik"],
@@ -338,7 +342,16 @@ def ozet_hazirla(payload, log=print):
         m = by_p.get(x.get("id"))
         if not m or any(y["anahtar"] == m["anahtar"] for y in yeni):
             continue
-        if any(piyasa.ayni_konu(m, y) for y in yeni):      # ayni karar iki kez girmez
+        # AYNI KARAR IKI KEZ GIRMEZ; ikisinden IYISI kalir (2026-11-21: AB'nin CRC
+        # karari EUROMETAL'de acik, Kallanish'te abonelikli yorum olarak geldi).
+        ayni = [y for y in yeni if piyasa.ayni_konu(m, y)]
+        if ayni:
+            y = ayni[0]
+            if piyasa.kaynak_degeri(m) > piyasa.kaynak_degeri(y):
+                cum = x.get("cumle") if isinstance(x.get("cumle"), str) else ""
+                kay = " ".join([m.get("baslik", ""), m.get("lead", ""), m.get("kaynak", "")])
+                if cum and cumle_dogrula(cum, kay)[0]:
+                    yeni[yeni.index(y)] = _piyasa_maddesi(m, cum.strip())
             continue
         cum = x.get("cumle") if isinstance(x.get("cumle"), str) else ""
         kay = " ".join([m.get("baslik", ""), m.get("lead", ""), m.get("kaynak", "")])

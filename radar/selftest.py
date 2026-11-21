@@ -3881,6 +3881,11 @@ def test_kurul2_deneme_incelemesi():
        True, "ayni sozlesme haberi tekrar")
     eq(cli.gonderilmis_tekrar("Habas starts production at Danieli tinplate complex", "2026-11-20", "Ilk urun", gond),
        False, "ayni projenin ileri asamasi YENI gelisme")
+    eq(piyasa.kaynak_degeri({"baslik": "European Commission imposes anti-dumping duties on cold-rolled coil", "url": "https://eurometal.net/x"})
+       > piyasa.kaynak_degeri({"baslik": "EU's India CRC duty approach has 'systemic' ramifications", "url": "https://www.kallanish.com/x"}),
+       True, "ayni konuda acik erisimli karar haberi yorumdan once")
+    eq(yazar.cumle_dogrula("Şirket, yeni kaplama için Ar-Ge çalışmalarını tamamladığını açıkladı bugün.", "company completes R&D coating")[0],
+       True, "Ar-Ge ozel ad sayilmaz")
     # 6) BELIRSIZ rozeti gosterilmez
     eq("BELİRSİZ" in render._badge("Belirsiz"), True, "rozet fonksiyonu degismedi")
     # 7) dogrulanmayan piyasa maddesi Ingilizce basligiyla gitmez (yeterli Turkce varsa)

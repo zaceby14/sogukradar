@@ -152,6 +152,18 @@ def ayni_piyasa_haberi(a, b):
     return xa[0] in ya and ya[0] in xa
 
 
+_ONLEM_FIIL = re.compile(r"\b(imposes?|imposed|levies|levied|adopts?|confirms?|extends?|launch(es)?|opens?|"
+                         r"initiates?|recommends?|uygula|getirdi|baslatti)\b")
+_ABONELIK = re.compile(r"kallanish\.com|fastmarkets\.com|argusmedia\.com|spglobal\.com|mysteel\.net")
+
+
+def kaynak_degeri(m):
+    """Ayni konudaki iki maddeden hangisi okura daha yararli: acik erisim ve
+    kararin KENDISI (onlem fiili) yorumdan once gelir."""
+    f = taxonomy.fold(m.get("baslik", ""))
+    return (0 if _ABONELIK.search(m.get("url") or "") else 2) + (1 if _ONLEM_FIIL.search(f) else 0)
+
+
 def ayni_konu(a, b):
     """Iki piyasa maddesi AYNI KARARI mi anlatiyor? (2026-11-21, link kontrolu:
     'EC imposes AD duties on CRC' ile 'EU's India CRC duty approach' ayni AB
