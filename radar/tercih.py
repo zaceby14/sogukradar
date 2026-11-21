@@ -77,9 +77,11 @@ def kaydet_gonderilen(st, maddeler):
 
 
 def uygula(st, oylar):
-    """oylar: [(isaret, kod, gonderen)] -> agirliklari gunceller. Kisi basi kod basina 1 oy."""
+    """oylar: [(isaret, kod, kimlik)] -> oy kaydina eklenir, agirliklar BASTAN hesaplanir.
+
+    Ayni kimligin ayni maddeye ikinci oyu sayilmaz. Donus: yeni kaydedilen oy sayisi.
+    """
     d = st.get("gonderilen_ozellik") or {}
-    w = st.setdefault("tercih", {})
     sayilan = st.setdefault("gb_oy", {})
     n = 0
     for isaret, k, kimden in oylar:
@@ -89,13 +91,36 @@ def uygula(st, oylar):
         if anahtar in sayilan:
             continue
         sayilan[anahtar] = isaret
-        delta = 1 if isaret == "+" else -1
-        for f in d[k]["f"]:
-            w[f] = max(-AGIRLIK_SINIR, min(AGIRLIK_SINIR, w.get(f, 0) + delta))
         n += 1
     if len(sayilan) > 3000:
         st["gb_oy"] = dict(list(sayilan.items())[-3000:])
+    yeniden_hesapla(st)
     return n
+
+
+def yeniden_hesapla(st):
+    """Tercih agirliklarini TUM oylardan yeniden kurar.
+
+    FAYDALI KAZANIR (2026-11-21, kullanici: "faydali olana birisi faydasiz
+    yazdiysa dikkat etme"): bir maddeye en az bir '+' geldiyse o maddenin '-'
+    oylari yok sayilir. Madde basina etki en fazla KOD_BASINA_OY_SINIRI.
+    Agirliklar bastan kuruldugu icin sonradan gelen '+' onceki '-'yi siler.
+    """
+    d = st.get("gonderilen_ozellik") or {}
+    sayim = {}
+    for anahtar, isaret in (st.get("gb_oy") or {}).items():
+        k = anahtar.split("|", 1)[0]
+        s_ = sayim.setdefault(k, {"+": 0, "-": 0})
+        s_[isaret] = s_.get(isaret, 0) + 1
+    w = {}
+    for k, s_ in sayim.items():
+        if k not in d:
+            continue
+        net = min(s_["+"], KOD_BASINA_OY_SINIRI) if s_["+"] else -min(s_["-"], KOD_BASINA_OY_SINIRI)
+        for f in d[k]["f"]:
+            w[f] = max(-AGIRLIK_SINIR, min(AGIRLIK_SINIR, w.get(f, 0) + net))
+    st["tercih"] = {f: v for f, v in w.items() if v}
+    return st["tercih"]
 
 
 def _coz(baslik):
@@ -193,18 +218,9 @@ def form_oku(csv_url, fetch=None):
 
 
 def uygula_form(st, oylar):
-    """Form oylari: zaman damgasi kimlik yerine; kod basina en fazla N oy sayilir."""
-    sayac = st.setdefault("gb_form_sayac", {})
-    secili = []
-    for isaret, k, kimlik in oylar:
-        anahtar = k + isaret
-        if (k + "|" + kimlik) in (st.get("gb_oy") or {}):
-            continue
-        if sayac.get(anahtar, 0) >= KOD_BASINA_OY_SINIRI:
-            continue
-        sayac[anahtar] = sayac.get(anahtar, 0) + 1
-        secili.append((isaret, k, kimlik))
-    return uygula(st, secili)
+    """Form oylari: kimlik = yanit zaman damgasi. Sinir ve 'faydali kazanir' kurali
+    yeniden_hesapla'da uygulanir."""
+    return uygula(st, oylar)
 
 
 def form_testi(log=print):

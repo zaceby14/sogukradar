@@ -35,11 +35,24 @@ name: SogukRadar otomatik bulten
 # Gece kosusu kacarsa 04:17 ve 05:41 yedekleri ayni sekilde 07:30'u bekler.
 # 07:30'dan sonra baslayan (gecikmis/yedek) kosu beklemeden gonderir.
 # Ayni ISO haftasinda tek posta: ikinci kosu "bu hafta gonderildi" gorup atlar.
+# PAZAR AKSAMINDAN ITIBAREN DENEME (2026-11-21). Olculdu: GitHub bu depoda
+# zamanlanmis kosulari 6-7 saat geciktiriyor (00:07 UTC'lik kosu 06:17'de
+# basladi; W47 bulteni 07:30 yerine 10:01'de gitti). Bu yuzden Pazar 20:07
+# TSI'den baslayarak birkac deneme var. 'pencere' isi karar verir:
+#   - Pazartesi 07:30 TSI'ye 5 saatten FAZLA varsa: hemen biter (erken).
+#   - 5 saatten az kaldiysa: tarar, yazar ve 07:30'u BEKLEYIP gonderir.
+#   - 07:30 gectiyse (gecikmis/yedek kosu): beklemeden gonderir.
+# Ayni ISO haftasinda tek posta (gonderilen_donemler); sonraki kosular atlar.
 on:
   schedule:
-    - cron: "7 0 * * 1"           # Pazartesi 03:07 TSI  (ana kosu, 07:30'u bekler)
-    - cron: "17 1 * * 1"          # Pazartesi 04:17 TSI  (yedek, 07:30'u bekler)
-    - cron: "41 2 * * 1"          # Pazartesi 05:41 TSI  (yedek, 07:30'u bekler)
+    - cron: "7 17 * * 0"          # Pazar 20:07 TSI
+    - cron: "37 18 * * 0"         # Pazar 21:37 TSI
+    - cron: "7 20 * * 0"          # Pazar 23:07 TSI
+    - cron: "37 21 * * 0"         # Pazartesi 00:37 TSI
+    - cron: "7 23 * * 0"          # Pazartesi 02:07 TSI
+    - cron: "7 0 * * 1"           # Pazartesi 03:07 TSI
+    - cron: "17 1 * * 1"          # Pazartesi 04:17 TSI
+    - cron: "41 2 * * 1"          # Pazartesi 05:41 TSI
     - cron: "23 9 * * 1"          # Pazartesi 12:23 TSI  (gec yedek)
     - cron: "37 13 * * 1"         # Pazartesi 16:37 TSI  (gec yedek)
     - cron: "19 5 * * 2"          # Sali 08:19 TSI       (gec yedek)
@@ -70,12 +83,44 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  pencere:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      calis: ${{ steps.p.outputs.calis }}
+      gun: ${{ steps.p.outputs.gun }}
+    steps:
+      - name: Gonderim penceresi (Pazartesi 07:30 TSI)
+        id: p
+        run: |
+          python3 - <<'PY' >> $GITHUB_OUTPUT
+          import datetime as dt, os, sys
+          tsi = dt.datetime.utcnow() + dt.timedelta(hours=3)
+          if os.environ.get("OLAY") != "schedule":
+              print("calis=true"); print("gun="); sys.exit()
+          # yaklasan Pazartesi 07:30 TSI
+          gun_farki = (0 - tsi.weekday()) % 7
+          hedef = (tsi + dt.timedelta(days=gun_farki)).replace(hour=7, minute=30, second=0, microsecond=0)
+          if tsi.weekday() == 1 or (tsi.weekday() == 0 and tsi >= hedef):
+              print("calis=true"); print("gun=" + tsi.date().isoformat())       # gecikmis: hemen
+          elif (hedef - tsi) > dt.timedelta(hours=5):
+              print("calis=false"); print("gun=")                                # erken
+              print("erken: 07:30'a %s var" % (hedef - tsi), file=sys.stderr)
+          else:
+              print("calis=true"); print("gun=" + hedef.date().isoformat())     # bekleyerek
+          PY
+          cat $GITHUB_OUTPUT
+        env:
+          OLAY: ${{ github.event_name }}
+
   bulten:
+    needs: pencere
+    if: needs.pencere.outputs.calis == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 340
     env:
       DENEME: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.deneme != 'false' }}
-      BUGUN: ${{ github.event.inputs.today }}
+      BUGUN: ${{ github.event.inputs.today || needs.pencere.outputs.gun }}
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -173,8 +218,9 @@ jobs:
           python3 - <<'PY'
           import datetime as dt, time
           simdi = dt.datetime.utcnow() + dt.timedelta(hours=3)            # TSI
-          hedef = simdi.replace(hour=7, minute=30, second=0, microsecond=0)
-          if simdi.weekday() == 0 and simdi < hedef:
+          hedef = (simdi + dt.timedelta(days=(0 - simdi.weekday()) % 7)).replace(
+              hour=7, minute=30, second=0, microsecond=0)                    # yaklasan Pzt 07:30
+          if simdi < hedef and (hedef - simdi) < dt.timedelta(hours=5, minutes=45):
               sn = (hedef - simdi).total_seconds()
               print("07:30 TSI bekleniyor: %d dakika" % (sn // 60), flush=True)
               time.sleep(sn)

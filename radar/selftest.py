@@ -2098,9 +2098,18 @@ def test_piyasa_gundemi_ve_geri_bildirim():
     eq(len(oylar), 6, "CSV'den 6 oy")
     st2 = {}
     tercih.kaydet_gonderilen(st2, [(r1, "haber"), (r2, "haber")])
-    eq(tercih.uygula_form(st2, oylar), tercih.KOD_BASINA_OY_SINIRI + 1,
-       "ayni maddeye 5 tiklama: en fazla 3 sayilir (+1 ilgisiz)")
+    eq(tercih.uygula_form(st2, oylar), 6, "6 yanit kaydedildi")
+    eq(st2["tercih"].get("hat:Galvaniz hatti (CGL)"), tercih.KOD_BASINA_OY_SINIRI,
+       "ayni maddeye 5 tiklama: etkisi en fazla 3")
     eq(tercih.uygula_form(st2, oylar), 0, "ayni yanitlar ikinci okumada tekrar sayilmaz")
+    # FAYDALI KAZANIR (2026-11-21): '+' alan maddenin '-' oylari sayilmaz;
+    # sonradan gelen '+' onceki '-'yi geri alir.
+    st3 = {}
+    tercih.kaydet_gonderilen(st3, [(r2, "haber")])
+    tercih.uygula(st3, [("-", k2, "a@x")])
+    eq(st3["tercih"].get("hat:Asitleme hatti"), -1, "yalniz ilgisiz oyu: eksi")
+    tercih.uygula(st3, [("+", k2, "b@y")])
+    eq(st3["tercih"].get("hat:Asitleme hatti"), 1, "bir faydali gelince ilgisiz yok sayilir")
 
 
 def test_dogrulayici_ulke_kaynakta_olmali():
