@@ -2992,6 +2992,24 @@
     "tekrar": 66
    },
    "uretim": "2026-11-21 18:00 UTC"
+  },
+  {
+   "donem": "2026-W47",
+   "satir": 6,
+   "stats": {
+    "erisilemeyen": 14,
+    "gnews_tarih": 0,
+    "ham": 4424,
+    "kabul": 8,
+    "kapsam_disi": 3934,
+    "kaynak": 369,
+    "makale_acildi": 227,
+    "on_eleme_gecti": 462,
+    "pencere_disi": 337,
+    "tarihsiz_elendi": 92,
+    "tekrar": 53
+   },
+   "uretim": "2026-11-22 11:31 UTC"
   }
  ],
  "piyasa_gonderilen": [
@@ -3052,6 +3070,14 @@
    "lead": "Brazil’s flat steel shipments have risen in September, while imports remained elevated across most product categories, ...",
    "tarih": "2026-11-17",
    "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/brazils-flat-steel-exports-recover-in-october-1126/"
+  },
+  {
+   "anahtar": "piyasa:1765ac6dbaeb05cf",
+   "baslik": "AB'den Türkiye ve diğer 4 ülkeye yassı çelik anti-damping vergisi",
+   "kaynak": "Bloomberght",
+   "lead": "AB'den Türkiye ve diğer 4 ülkeye yassı çelik anti-damping vergisi &nbsp;&nbsp; Bloomberght",
+   "tarih": "2026-11-16",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPbGlHWWZQWkE5SUQwNm9WWUo5OW9KZFlBWmg3d2hVTFRsZWdxR2hGcjZKZHFqbXh3cDZNdUk2M1pkU2VzU0tJZ1JJMDRjZk1oalRTMEdDWk5McG1Ga19zNldzZ1dLRWVSLU8tQkxrRHVQZlhmVmI3MWJTanNScnhmbk9pblVwcklGWmEydDh5d0ZleHFyTU9vbWZ2NGQwclVRU1JR?oc=5"
   },
   {
    "anahtar": "piyasa:738776df9135ecde",
@@ -5401,6 +5427,33 @@
    "tutar": "",
    "ulke": "Polonya",
    "url": "https://metallurgprom.org/en/news/europe/18814-arcelormittal-poland-zavershaet-stroitelstvo-linii-nanesenija-pokrytija-na-rulony-zam.html"
+  },
+  {
+   "anahtar": "db058fa19c35b70b",
+   "asama": "Belirsiz",
+   "baslik": "ArcelorMittal Poland completes ZAM coil coating line",
+   "eksik": [
+    "asama"
+   ],
+   "firma": "ArcelorMittal Poland",
+   "hat": "Boyama hatti (CCL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "EUROMETAL",
+   "kaynak_id": "gtek_hidrojen",
+   "lead": "ArcelorMittal Poland completes ZAM coil coating line &nbsp;&nbsp; EUROMETAL",
+   "olaylar": [
+    "arcelormittal poland|fu|Polonya|Boyama hatti (CCL)",
+    "arcelormittal poland|hat|Boyama hatti (CCL)|Belirsiz",
+    "arcelormittal poland|ulke|Polonya|Belirsiz"
+   ],
+   "rezerv": true,
+   "tarih": "2025-12-11",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Polonya",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPVVQzU25xbl9MSDZwbTV6SzJaOEdmdXNIQXhSU0ZTaThTbzV5bVE5SkxZZ1p0Q2l0T3NBWVliZVFCWFZMRkc4SWZUUDZvb19hZHMyc2FDNWh2X08tNW9GdndkdG90SWJTczI0SUlaTXFUNk5DRUZaUW1lN003Zy1INA?oc=5"
   },
   {
    "anahtar": "461b3854272908ae",

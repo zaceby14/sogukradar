@@ -16,17 +16,17 @@
    }
   },
   {
-   "anahtar": "b203eb675812b5c0",
-   "baslik": "Demonstration of Digital twins for a Green Steel value chain",
-   "url": "https://cordis.europa.eu/project/id/101178079",
+   "anahtar": "8b828b970d0ac702",
+   "baslik": "Zhejiang Hengfeng hot tests cold rolling mill",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/zhejiang-hengfeng-hot-tests-cold-rolling-mill-1126/",
    "eksik": [
     "ulke"
    ],
    "mevcut": {
-    "firma": "Demonstration",
+    "firma": "Zhejiang Hengfeng",
     "ulke": "",
-    "hat": "Otomasyon / dijital",
-    "asama": "Sozlesme"
+    "hat": "Soguk hadde",
+    "asama": "Test"
    }
   },
   {
@@ -37,10 +37,27 @@
     "ulke"
    ],
    "mevcut": {
-    "firma": "Bokaro",
+    "firma": "SAIL",
     "ulke": "",
     "hat": "Elektrik celigi hatti",
     "asama": "Teknoloji"
+   }
+  },
+  {
+   "anahtar": "90e30cb4756c40e2",
+   "baslik": "【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】",
+   "url": "https://news.metal.com/en/newscontent/104207357-纽柯在南卡罗来纳州新建50万吨年汽车板镀锌线产出首卷优质卷板",
+   "eksik": [
+    "firma",
+    "ulke",
+    "hat",
+    "tarih?"
+   ],
+   "mevcut": {
+    "firma": "",
+    "ulke": "",
+    "hat": "Belirsiz",
+    "asama": "Ilk urun"
    }
   },
   {
@@ -51,7 +68,7 @@
     "asama"
    ],
    "mevcut": {
-    "firma": "Hazira",
+    "firma": "AM/NS India",
     "ulke": "Hindistan",
     "hat": "Soguk hadde",
     "asama": "Belirsiz"
@@ -65,24 +82,9 @@
     "asama"
    ],
    "mevcut": {
-    "firma": "FY28",
+    "firma": "Jindal Stainless",
     "ulke": "Hindistan",
     "hat": "Soguk hadde",
-    "asama": "Belirsiz"
-   }
-  },
-  {
-   "anahtar": "f4b0b6572835e0a6",
-   "baslik": "JTL Industries Advances Maharashtra Expansion with Successful Pickling Line Trial and GP Line Testing",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQlhUQkFxZ0p4LXQxYlFPWWY3bUozMGR4UEFqQ2NDVUN3bHdfVndpVVduV1VQQmxvblVVUWhJd0JxYndxSlhTY21TOURGR2I3TzVTMUxvYWJyOUZXaXAwajRaTHgwbVlBaWJxQ2JpUG0zbGNTdFhfT1B4Tk5KUUJjYkJxZEFvcEM5TkF4V3diQ3E0TG5iaURlRlBIeURwWnBnTHNmQlZnNmIzRlB3Vk5JQzFaVkp5RFR6Z1g5Qm5KN2N1YjNUakhsLXRhTVBYcHRO?oc=5",
-   "eksik": [
-    "ulke",
-    "asama"
-   ],
-   "mevcut": {
-    "firma": "JTL Industries Advances",
-    "ulke": "",
-    "hat": "Asitleme hatti",
     "asama": "Belirsiz"
    }
   }
@@ -99,19 +101,19 @@
    "url": "https://biz.heraldcorp.com/article/10943740"
   },
   {
-   "anahtar": "b203eb675812b5c0",
-   "tarih": "2026-11-07",
-   "firma": "Demonstration",
+   "anahtar": "8b828b970d0ac702",
+   "tarih": "2026-11-12",
+   "firma": "Zhejiang Hengfeng",
    "ulke": "",
-   "hat": "Otomasyon / dijital",
-   "asama": "Sozlesme",
-   "baslik": "Demonstration of Digital twins for a Green Steel value chain",
-   "url": "https://cordis.europa.eu/project/id/101178079"
+   "hat": "Soguk hadde",
+   "asama": "Test",
+   "baslik": "Zhejiang Hengfeng hot tests cold rolling mill",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/zhejiang-hengfeng-hot-tests-cold-rolling-mill-1126/"
   },
   {
    "anahtar": "4de62a3615924bb5",
    "tarih": "2026-11-20",
-   "firma": "Bokaro",
+   "firma": "SAIL",
    "ulke": "",
    "hat": "Elektrik celigi hatti",
    "asama": "Teknoloji",
@@ -119,9 +121,19 @@
    "url": "https://www.steelorbis.com/steel-news/latest-news/sails-bokaro-steel-mill-develops-ngo-grade-special-steel-for-the-first-time-1492322.htm"
   },
   {
+   "anahtar": "90e30cb4756c40e2",
+   "tarih": "2026-11-05",
+   "firma": "",
+   "ulke": "",
+   "hat": "Belirsiz",
+   "asama": "Ilk urun",
+   "baslik": "【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】",
+   "url": "https://news.metal.com/en/newscontent/104207357-纽柯在南卡罗来纳州新建50万吨年汽车板镀锌线产出首卷优质卷板"
+  },
+  {
    "anahtar": "d8b7fc40d787a676",
    "tarih": "2026-11-19",
-   "firma": "Hazira",
+   "firma": "AM/NS India",
    "ulke": "Hindistan",
    "hat": "Soguk hadde",
    "asama": "Belirsiz",
@@ -147,38 +159,6 @@
    "hat": "Soguk hadde"
   },
   {
-   "anahtar": "tech:4725c00cb3176260",
-   "tarih": "2026-11-19",
-   "baslik": "KG Steel completes W38b PLTCM upgrade, targets output of over 2 million tons",
-   "url": "https://biz.heraldcorp.com/article/10943740",
-   "kaynak": "Bing News",
-   "hat": "Tandem soguk hadde (TCM)"
-  },
-  {
-   "anahtar": "tech:45e7f994631a31a2",
-   "tarih": "2026-11-09",
-   "baslik": "Industrial Surface Defect Segmentation",
-   "url": "https://huggingface.co/Krrrrish/industrial-surface-defect-segmentation",
-   "kaynak": "Bing News",
-   "hat": "Yuzey muayene (SIS)"
-  },
-  {
-   "anahtar": "tech:c63a7f950e471960",
-   "tarih": "2026-11-08",
-   "baslik": "AI Is Queued Behind an Electrical Steel Transformer Shortage",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1TQUplTC1uLWNhV20yUXlIaEtpVWNJWFp4alJ4bEZiMGRncVJocWdDZWgzYm1rbHZfNjNSUGdUOUdXMHlJSGp1b252eEZfeGRlRXRxNUVZRUVVZFlhM0UxUnU5dlRlMU5QR2RGNmRlN0hLRjM3Ulpwczd1QQ?oc=5",
-   "kaynak": "Intelligent Living",
-   "hat": "Elektrik celigi hatti"
-  },
-  {
-   "anahtar": "tech:ee3ada124db6cc47",
-   "tarih": "2026-11-03",
-   "baslik": "Hoa Phat Japonya'ya ilk kez galvanizli sac ihraç etti",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVTV4cVpmX040N3dWR1lPVkxmMVVEUFFOUEQxanFxRjFPNHJGc2hybHFORXFXSmIxWFBJVzVMUVZUbHpuTlNibFl3c1dpS2NMcHNMX25ELVFyUGo1d1NDa1g5TkN3R2UyYURLVXZCM0VuMWJZLXlRZGx0aGZPakJZRnNtNGUzTGcxWEF2NDI3dlFhTndyTGJ4RkF1UTdpdG9HYjlrZnBvUW5IMl8yZjNJVGJMMEZUWWhjRnFuQVRUNA?oc=5",
-   "kaynak": "SteelOrbis",
-   "hat": "Galvaniz hatti (CGL)"
-  },
-  {
    "anahtar": "tech:e82b221fc2986888",
    "tarih": "2026-10-05",
    "baslik": "Turkey's Isdemir develops high-quality steel production for defense industry and electrical steel",
@@ -187,20 +167,12 @@
    "hat": "Elektrik celigi hatti"
   },
   {
-   "anahtar": "tech:291e32d7546a5fb3",
-   "tarih": "2026-09-08",
-   "baslik": "EGGA Supports the European Convoy for Industrial CompetitivenessEGGA-Galvanizing Europe had supported the “European Convoy for Industrial Competitiveness” in Brussels on",
-   "url": "https://www.galvanizingeurope.org/egga-supports-the-european-convoy-for-industrial-competitiveness/",
-   "kaynak": "Galvanizing Europe",
-   "hat": "Galvaniz hatti (CGL)"
-  },
-  {
-   "anahtar": "tech:784bcc674542a655",
-   "tarih": "2026-08-19",
-   "baslik": "Five Leading Silicon Steel Manufacturers in China 2026: Powering the Future of Electrical Steel Innovation",
-   "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPa2NMZVhHZGxOTTRDYUltajd6QW4tRVZBNlpid1BlUWNxVkx5YjlRaWNZQkJfS1dVNURTSEF3OS1xWDRvMEZ1QWZtcjN6bVRrVzQ1UUdhM00tY0dtODY1T0FBQUtVWktkZ25Ra1VmLVVmbUVtTGtoWTM2ZUJTaE1hdzdCV0pfX1drSC1XazlST3lEcmM1Z2N5d2FZWjhXRVFKamdaYTFwSVJCZmpYTGpqN3p6Y3ZObS1oaTRuTmhudmRLUUVMbm4wYUIyYWxzY1E2SmxzbnlqR0dPZE9aMTBQbkw4Q2ZTN3FiT0p2cU5qOWVVR1FaeEpNQzltZw?oc=5",
-   "kaynak": "The Des Moines Register",
-   "hat": "Elektrik celigi hatti"
+   "anahtar": "tech:27b5ca990931fc28",
+   "tarih": "2026-08-11",
+   "baslik": "KG Steel Selects Primetals Technologies for PLTCM Revamp",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOT19pS3M3d0JOYkpveGRGQnNhaHl5TEFHYjBhT1BWcV92cjN2UWJOakJ6US1iSnVMOEtWRGFjbk9RbFFxY19qeWw0UXFsX0lMZ0h4cC1tWXZCYWZFX19tX0VISDB3Z2kwY3JKRmpfU0J5Q1NMSGdtcUUtNV9aMENLdVlLQUh2WndFb3pBZU1FZkxITzJ2dTk3VktZekxOOWdHeHVxTUFiNFVHMzZaMFViMFF4aHRLdw?oc=5",
+   "kaynak": "Primetals Technologies",
+   "hat": "Tandem soguk hadde (TCM)"
   },
   {
    "anahtar": "tech:3b9e0ba3d7e53ee3",
@@ -224,6 +196,38 @@
    "baslik": "YEST Wins Appeal in High-Pressure Hydrogen Annealing Patent Dispute With HPSP",
    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBkZEdOZmVlOVF5X1JTVTAzNFJWMUpSZXFDTTlOR3ZKZHJaYW9qZjJCSjM5MnJHMUUwU0dYVUZoUXN4ckFhNVBKV1haSVhFN3MyWTVQYXlEWkFydHVlcXF3ZTFsWG9zMkk?oc=5",
    "kaynak": "THE ELEC, Korea Electronics Industry Media",
+   "hat": "Belirsiz"
+  },
+  {
+   "anahtar": "tech:c1e20af1f2d7d31b",
+   "tarih": "2026-06-15",
+   "baslik": "POSCO Partners with Hyundai Motor and 8 Organizations to Develop Next-Generation High-Efficiency Electrical Steel for EVs",
+   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNRUJtamZQY3hHSWd2LS14aTRlU0hSTnU2ZlVFUU1zZzRtOEhxMkNFUFhvamttdVNxZm9rWmpFUEgxSmx6RUVuaHhQRWgxOG1VS1ZVMWNqd2V3eWJtRWJsaXBORmphT0tIRklVTF94UUJpVWxqaE5rMHc1UVd6WUp0UGl3Ym1lTEttRGN6em1jNUFpbjktcE5RcDRxbHgxRndYaF9sU01NUUJ1RW9tVWJwNWRFWVJpNm4tdXhiOGVXa2hVOXdjUjdNMjVYS2NKbFJEY01rZ1dYcUZmN3g5QUJWMUhpSnlOLXc?oc=5",
+   "kaynak": "포스코그룹 뉴스룸",
+   "hat": "Elektrik celigi hatti"
+  },
+  {
+   "anahtar": "tech:4981815ffab304b6",
+   "tarih": "2026-06-03",
+   "baslik": "Understanding hydrogen permeation in zinc flake coatings for hydrogen embrittlement mitigation",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9RUlJyR2FaY0UyS1AtNkZDVjBTM3ZtTWUtOEF0X0FJRjlwRnVCeDVST0VwOC01ZVNXZ2o4M3plNHhkYjdER09kaXdkY3NpV2VoZ1NLQWlJSklCaFZDN1Bv?oc=5",
+   "kaynak": "Nature",
+   "hat": "Belirsiz"
+  },
+  {
+   "anahtar": "tech:f0f98af5520ec280",
+   "tarih": "2026-03-26",
+   "baslik": "Tata Netherlands, VW progress in zinc-coated steel research",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNd0R4OFZzbjIwdnlMSUwzLTl5SGIwMGhvdWt4Rk1YSFF0dFhCVU5qV01EZlRUM1NyNk1TZkVLLVBMbnBUaFZOTjI1ck9SSzkzWWNKZU9GeEx3TENwTl9jTWEtQXVEZ0w4TU5TVExUUHNtQlBYS0hmclhfWGJua1NRVTh5bTBUTUxB?oc=5",
+   "kaynak": "EUROMETAL",
+   "hat": "Belirsiz"
+  },
+  {
+   "anahtar": "tech:79411a9666bd6ac4",
+   "tarih": "2026-01-10",
+   "baslik": "Indian Railways To Test Zinc Coating Technology For Steel Rails To Tackle Coastal Corrosion, Cut Track Renewal Costs: Report",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPdWdicXBteXBJc2c5aG1MUk5fN0tFRFdEVlJzalVuZXNhUF9nN2U0cmtWbkUzY2pQbEpvbUp3cWRaU1dYM19DOTVEcFNnU0JTTEd1cXgxbG00UGlwWklNWkhELS15dDVWeEgwUDY2d3dfNTB2QnVFeXlaWkZ5WFFQOU8yWWl2TjNBeG80ZG9KQ3ZjQ2gxdExkbDQyX2s5R1dYM0dWeVpxSE8tYXRTUE5wcjNpcVJvOEgxR2FrcjVjZTJyT2ltYllRNlVNZ9IB2wFBVV95cUxNSWl5bXpiRXRoY2F2QTlrSDJ2c0JEaWhSeFpDc0RBR0ROdlFwUEpIbTlSNGU0UmdDMjg2cGJhU05HczNrWmdvMUhDcm94V2xGMzFNV0h4QkdnUHBIRVFBSWdoS3p0Vzhlb3loT3RSdEZSb1VyWnVSU0pobFc3aFo3OU83cmpnUGVKb0tMcEVwVjBvNDhabzNJT0dfeEZsM1E0V25MVE54QmxkWk1jX29aVkJZSG5wWkVtR3R0QWlRUzc4NVVZRWhaZGM0bnduWEVYRVMwemFDWHVFcnM?oc=5",
+   "kaynak": "Swarajya",
    "hat": "Belirsiz"
   }
  ]

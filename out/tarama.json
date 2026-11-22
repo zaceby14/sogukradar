@@ -23,36 +23,36 @@
    "olaylar": [
     "kg steel|hat|Tandem soguk hadde (TCM)|Modernizasyon"
    ],
-   "puan": 59.2
+   "puan": 60.8
   },
   {
-   "tarih": "2026-11-07",
-   "firma": "Demonstration",
-   "ulke": "",
-   "hat": "Otomasyon / dijital",
-   "asama": "Sozlesme",
-   "tedarikci": "",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "Demonstration of Digital twins for a Green Steel value chain",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgx_eurometal_q",
-   "url": "https://cordis.europa.eu/project/id/101178079",
-   "tarih_kaynagi": "rss",
-   "lead": "The total amount of money invested in the project. The total cost includes EU contribution as well as other project costs not covered by EU funding. It is expressed in euros. Amount of money, by way ...",
+   "anahtar": "8b828b970d0ac702",
+   "asama": "Test",
+   "baslik": "Zhejiang Hengfeng hot tests cold rolling mill",
    "eksik": [
     "ulke"
    ],
-   "anahtar": "b203eb675812b5c0",
+   "firma": "Zhejiang Hengfeng",
+   "hat": "Soguk hadde",
+   "kapasite": "",
    "kategori": "Hat",
+   "kaynak": "Kallanish",
+   "kaynak_id": "kallanish",
+   "lead": "Login Kallanish articles are only available for active subscribers and clients currently on trial. If you already have login details, please login below to continue. Email address Password LOGIN Want to see what we offer? Why not sign up for a free trial and receive the Kallanish service for 2 full weeks. Registration only takes 1 minute, so you can start benefitting from our news and pricing coverage today! Gain acc",
    "olaylar": [
-    "demonstration|hat|Otomasyon / dijital|Sozlesme"
+    "zhejiang hengfeng|hat|Soguk hadde|Test"
    ],
-   "puan": 57.4
+   "puan": 54.5,
+   "tarih": "2026-11-12",
+   "tarih_kaynagi": "capraz-rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/zhejiang-hengfeng-hot-tests-cold-rolling-mill-1126/"
   },
   {
    "tarih": "2026-11-20",
-   "firma": "Bokaro",
+   "firma": "SAIL",
    "ulke": "",
    "hat": "Elektrik celigi hatti",
    "asama": "Teknoloji",
@@ -71,13 +71,41 @@
    "anahtar": "4de62a3615924bb5",
    "kategori": "Hat",
    "olaylar": [
-    "bokaro|hat|Elektrik celigi hatti|Teknoloji"
+    "sail|hat|Elektrik celigi hatti|Teknoloji"
    ],
-   "puan": 52.6
+   "puan": 52.2
+  },
+  {
+   "anahtar": "90e30cb4756c40e2",
+   "asama": "Ilk urun",
+   "baslik": "【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】",
+   "eksik": [
+    "firma",
+    "ulke",
+    "hat",
+    "tarih?"
+   ],
+   "firma": "",
+   "hat": "Belirsiz",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "SMM (Shanghai Metals)",
+   "kaynak_id": "smm",
+   "lead": "",
+   "olaylar": [
+    "|hat|Belirsiz|Ilk urun"
+   ],
+   "puan": 47.0,
+   "tarih": "2026-11-05",
+   "tarih_kaynagi": "liste",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.metal.com/en/newscontent/104207357-纽柯在南卡罗来纳州新建50万吨年汽车板镀锌线产出首卷优质卷板"
   },
   {
    "tarih": "2026-11-19",
-   "firma": "Hazira",
+   "firma": "AM/NS India",
    "ulke": "Hindistan",
    "hat": "Soguk hadde",
    "asama": "Belirsiz",
@@ -86,7 +114,7 @@
    "tutar": "",
    "baslik": "AM/NS India Develops 2 Million Tonne Cold Rolling Facility at Hazira for Automotive Steel",
    "kaynak": "NewsX",
-   "kaynak_id": "gx_arcelor",
+   "kaynak_id": "gtek_cold",
    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQjg2azBrNXF4djN0MUVjSWt1Z3NEQVBTcFdONnBBSER5T0N2bldBbUtKRzlabEQ1N3dIb1NfeWZUay1uNHlPdWR2TTRlTDRMT2k1OTd3Znc4M1Nhb24tZmFkbU9TRV9nT2V1OTZqQk1EUnl4dGFqOHVLejlUeWdBN3k0N1QxcloyZVlUZXNjNnhzMUhyQXBXUFVsenpVaWt3U0ZhcGo3NGliSnZiUzM3QU5uOE9UODF6VU9PLWxJTXFSWDJUYXfSAcsBQVVfeXFMUElERmp3NDU4WUNTVzFJVVNzb3J3dDFyZnRZWVlaU0JOU1psNDdCbDVrMHVuLWtRem5md2NuYUhUUThWRWgzM1lWNjJYNDF4YmFrbm8wLXpYUl9Ed0lvbnNrc0pGS3c4YnFQckF0V0dPcVR5ZXFXSEpEQjhSZUNxR3dXOUI2Q25qamlwQm9fTmhhNEdONEJuQW91WmZPVUJMdTBkRU9CNnpORzk2dkxZaElmMTNaMnpXOS1sVElaTWw4cnByS0xPZG9NaWs?oc=5",
    "tarih_kaynagi": "rss",
    "lead": "AM/NS India Develops 2 Million Tonne Cold Rolling Facility at Hazira for Automotive Steel &nbsp;&nbsp; NewsX",
@@ -96,15 +124,15 @@
    "anahtar": "d8b7fc40d787a676",
    "kategori": "Hat",
    "olaylar": [
-    "hazira|fu|Hindistan|Soguk hadde",
-    "hazira|hat|Soguk hadde|Belirsiz",
-    "hazira|ulke|Hindistan|Belirsiz"
+    "am/ns india|fu|Hindistan|Soguk hadde",
+    "am/ns india|hat|Soguk hadde|Belirsiz",
+    "am/ns india|ulke|Hindistan|Belirsiz"
    ],
-   "puan": 43.2
+   "puan": 44.8
   },
   {
    "tarih": "2026-11-13",
-   "firma": "FY28",
+   "firma": "Jindal Stainless",
    "ulke": "Hindistan",
    "hat": "Soguk hadde",
    "asama": "Belirsiz",
@@ -123,50 +151,24 @@
    "anahtar": "24e2dda77f2e84e9",
    "kategori": "Yatirim",
    "olaylar": [
-    "fy28|fu|Hindistan|Soguk hadde",
-    "fy28|hat|Soguk hadde|Belirsiz",
-    "fy28|ulke|Hindistan|Belirsiz"
+    "jindal stainless|fu|Hindistan|Soguk hadde",
+    "jindal stainless|hat|Soguk hadde|Belirsiz",
+    "jindal stainless|ulke|Hindistan|Belirsiz"
    ],
-   "puan": 11.3
-  },
-  {
-   "tarih": "2026-11-11",
-   "firma": "JTL Industries Advances",
-   "ulke": "",
-   "hat": "Asitleme hatti",
-   "asama": "Belirsiz",
-   "tedarikci": "",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "JTL Industries Advances Maharashtra Expansion with Successful Pickling Line Trial and GP Line Testing",
-   "kaynak": "Machine Maker",
-   "kaynak_id": "gq_hat00",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQlhUQkFxZ0p4LXQxYlFPWWY3bUozMGR4UEFqQ2NDVUN3bHdfVndpVVduV1VQQmxvblVVUWhJd0JxYndxSlhTY21TOURGR2I3TzVTMUxvYWJyOUZXaXAwajRaTHgwbVlBaWJxQ2JpUG0zbGNTdFhfT1B4Tk5KUUJjYkJxZEFvcEM5TkF4V3diQ3E0TG5iaURlRlBIeURwWnBnTHNmQlZnNmIzRlB3Vk5JQzFaVkp5RFR6Z1g5Qm5KN2N1YjNUakhsLXRhTVBYcHRO?oc=5",
-   "tarih_kaynagi": "rss",
-   "lead": "JTL Industries Advances Maharashtra Expansion with Successful Pickling Line Trial and GP Line Testing &nbsp;&nbsp; Machine Maker",
-   "eksik": [
-    "ulke",
-    "asama"
-   ],
-   "anahtar": "f4b0b6572835e0a6",
-   "kategori": "Yatirim",
-   "olaylar": [
-    "jtl industries advances|hat|Asitleme hatti|Belirsiz"
-   ],
-   "puan": 7.0
+   "puan": 34.4
   }
  ],
  "stats": {
-  "kaynak": 315,
-  "erisilemeyen": 4,
-  "ham": 4047,
-  "on_eleme_gecti": 433,
+  "kaynak": 369,
+  "erisilemeyen": 14,
+  "ham": 4424,
+  "on_eleme_gecti": 462,
   "makale_acildi": 227,
-  "tarihsiz_elendi": 102,
-  "pencere_disi": 270,
-  "kapsam_disi": 3606,
-  "tekrar": 62,
-  "kabul": 7,
+  "tarihsiz_elendi": 92,
+  "pencere_disi": 337,
+  "kapsam_disi": 3934,
+  "tekrar": 53,
+  "kabul": 8,
   "gnews_tarih": 0
  },
  "unreachable": [
@@ -185,6 +187,46 @@
   [
    "BigMint (SteelMint)",
    "HTTP 403"
+  ],
+  [
+   "Google News",
+   "host butcesi doldu"
+  ],
+  [
+   "Google News",
+   "host butcesi doldu"
+  ],
+  [
+   "Google News",
+   "host butcesi doldu"
+  ],
+  [
+   "Google News",
+   "host butcesi doldu"
+  ],
+  [
+   "Google News",
+   "host butcesi doldu"
+  ],
+  [
+   "Google News",
+   "host butcesi doldu"
+  ],
+  [
+   "Google News",
+   "host butcesi doldu"
+  ],
+  [
+   "Google News",
+   "host butcesi doldu"
+  ],
+  [
+   "Google News",
+   "host butcesi doldu"
+  ],
+  [
+   "Google News",
+   "host butcesi doldu"
   ]
  ],
  "kinds": {
@@ -388,9 +430,36 @@
   "gtek_hidrojen": "arama",
   "gtek_yz": "arama",
   "gtek_kaplama": "arama",
+  "gtek_zam": "arama",
+  "gtek_elektrik_tavlama": "arama",
+  "gtek_teneke": "arama",
   "gtek_prime": "arama",
   "gtek_jc": "arama",
   "gtek_danieli": "arama",
+  "gur_ab1": "arama",
+  "gur_ab2": "arama",
+  "gur_hint": "arama",
+  "gur_kore_jp": "arama",
+  "gur_cin": "arama",
+  "gur_amerika": "arama",
+  "gur_asya_mena": "arama",
+  "gtr_diger": "arama",
+  "gx_q_it1": "arama",
+  "gx_q_fr1": "arama",
+  "gx_q_pt1": "arama",
+  "gs_kallanish": "arama",
+  "gs_gmk": "arama",
+  "gs_argus": "arama",
+  "gs_fastmkt": "arama",
+  "gs_spglobal": "arama",
+  "gs_steelradar": "arama",
+  "gs_dcstore": "arama",
+  "gpy_fiyat": "arama",
+  "gpy_onlem": "arama",
+  "gpy_turkiye": "arama",
+  "gpy_ab": "arama",
+  "gpy_tr_fiyat": "arama",
+  "gpy_tr_onlem": "arama",
   "bgq_hat00": "arama",
   "bgq_hat01": "arama",
   "bgq_hat02": "arama",
@@ -500,19 +569,46 @@
   "bgtek_hidrojen": "arama",
   "bgtek_yz": "arama",
   "bgtek_kaplama": "arama",
+  "bgtek_zam": "arama",
+  "bgtek_elektrik_tavlama": "arama",
+  "bgtek_teneke": "arama",
   "bgtek_prime": "arama",
   "bgtek_jc": "arama",
-  "bgtek_danieli": "arama"
+  "bgtek_danieli": "arama",
+  "bgur_ab1": "arama",
+  "bgur_ab2": "arama",
+  "bgur_hint": "arama",
+  "bgur_kore_jp": "arama",
+  "bgur_cin": "arama",
+  "bgur_amerika": "arama",
+  "bgur_asya_mena": "arama",
+  "bgtr_diger": "arama",
+  "bgx_q_it1": "arama",
+  "bgx_q_fr1": "arama",
+  "bgx_q_pt1": "arama",
+  "bgs_kallanish": "arama",
+  "bgs_gmk": "arama",
+  "bgs_argus": "arama",
+  "bgs_fastmkt": "arama",
+  "bgs_spglobal": "arama",
+  "bgs_steelradar": "arama",
+  "bgs_dcstore": "arama",
+  "bgpy_fiyat": "arama",
+  "bgpy_onlem": "arama",
+  "bgpy_turkiye": "arama",
+  "bgpy_ab": "arama",
+  "bgpy_tr_fiyat": "arama",
+  "bgpy_tr_onlem": "arama"
  },
- "today": "2026-11-21",
+ "today": "2026-11-22",
  "host_saglik": {
   "news.google.com": {
-   "istek": 123,
+   "istek": 140,
    "hiz_siniri": 0,
    "sogutmada": false
   },
   "www.bing.com": {
-   "istek": 112,
+   "istek": 139,
    "hiz_siniri": 0,
    "sogutmada": false
   },
@@ -550,38 +646,6 @@
    "hat": "Soguk hadde"
   },
   {
-   "anahtar": "tech:4725c00cb3176260",
-   "tarih": "2026-11-19",
-   "baslik": "KG Steel completes W38b PLTCM upgrade, targets output of over 2 million tons",
-   "url": "https://biz.heraldcorp.com/article/10943740",
-   "kaynak": "Bing News",
-   "hat": "Tandem soguk hadde (TCM)"
-  },
-  {
-   "anahtar": "tech:45e7f994631a31a2",
-   "tarih": "2026-11-09",
-   "baslik": "Industrial Surface Defect Segmentation",
-   "url": "https://huggingface.co/Krrrrish/industrial-surface-defect-segmentation",
-   "kaynak": "Bing News",
-   "hat": "Yuzey muayene (SIS)"
-  },
-  {
-   "anahtar": "tech:c63a7f950e471960",
-   "tarih": "2026-11-08",
-   "baslik": "AI Is Queued Behind an Electrical Steel Transformer Shortage",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1TQUplTC1uLWNhV20yUXlIaEtpVWNJWFp4alJ4bEZiMGRncVJocWdDZWgzYm1rbHZfNjNSUGdUOUdXMHlJSGp1b252eEZfeGRlRXRxNUVZRUVVZFlhM0UxUnU5dlRlMU5QR2RGNmRlN0hLRjM3Ulpwczd1QQ?oc=5",
-   "kaynak": "Intelligent Living",
-   "hat": "Elektrik celigi hatti"
-  },
-  {
-   "anahtar": "tech:ee3ada124db6cc47",
-   "tarih": "2026-11-03",
-   "baslik": "Hoa Phat Japonya'ya ilk kez galvanizli sac ihraç etti",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVTV4cVpmX040N3dWR1lPVkxmMVVEUFFOUEQxanFxRjFPNHJGc2hybHFORXFXSmIxWFBJVzVMUVZUbHpuTlNibFl3c1dpS2NMcHNMX25ELVFyUGo1d1NDa1g5TkN3R2UyYURLVXZCM0VuMWJZLXlRZGx0aGZPakJZRnNtNGUzTGcxWEF2NDI3dlFhTndyTGJ4RkF1UTdpdG9HYjlrZnBvUW5IMl8yZjNJVGJMMEZUWWhjRnFuQVRUNA?oc=5",
-   "kaynak": "SteelOrbis",
-   "hat": "Galvaniz hatti (CGL)"
-  },
-  {
    "anahtar": "tech:e82b221fc2986888",
    "tarih": "2026-10-05",
    "baslik": "Turkey's Isdemir develops high-quality steel production for defense industry and electrical steel",
@@ -590,20 +654,12 @@
    "hat": "Elektrik celigi hatti"
   },
   {
-   "anahtar": "tech:291e32d7546a5fb3",
-   "tarih": "2026-09-08",
-   "baslik": "EGGA Supports the European Convoy for Industrial CompetitivenessEGGA-Galvanizing Europe had supported the “European Convoy for Industrial Competitiveness” in Brussels on",
-   "url": "https://www.galvanizingeurope.org/egga-supports-the-european-convoy-for-industrial-competitiveness/",
-   "kaynak": "Galvanizing Europe",
-   "hat": "Galvaniz hatti (CGL)"
-  },
-  {
-   "anahtar": "tech:784bcc674542a655",
-   "tarih": "2026-08-19",
-   "baslik": "Five Leading Silicon Steel Manufacturers in China 2026: Powering the Future of Electrical Steel Innovation",
-   "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPa2NMZVhHZGxOTTRDYUltajd6QW4tRVZBNlpid1BlUWNxVkx5YjlRaWNZQkJfS1dVNURTSEF3OS1xWDRvMEZ1QWZtcjN6bVRrVzQ1UUdhM00tY0dtODY1T0FBQUtVWktkZ25Ra1VmLVVmbUVtTGtoWTM2ZUJTaE1hdzdCV0pfX1drSC1XazlST3lEcmM1Z2N5d2FZWjhXRVFKamdaYTFwSVJCZmpYTGpqN3p6Y3ZObS1oaTRuTmhudmRLUUVMbm4wYUIyYWxzY1E2SmxzbnlqR0dPZE9aMTBQbkw4Q2ZTN3FiT0p2cU5qOWVVR1FaeEpNQzltZw?oc=5",
-   "kaynak": "The Des Moines Register",
-   "hat": "Elektrik celigi hatti"
+   "anahtar": "tech:27b5ca990931fc28",
+   "tarih": "2026-08-11",
+   "baslik": "KG Steel Selects Primetals Technologies for PLTCM Revamp",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOT19pS3M3d0JOYkpveGRGQnNhaHl5TEFHYjBhT1BWcV92cjN2UWJOakJ6US1iSnVMOEtWRGFjbk9RbFFxY19qeWw0UXFsX0lMZ0h4cC1tWXZCYWZFX19tX0VISDB3Z2kwY3JKRmpfU0J5Q1NMSGdtcUUtNV9aMENLdVlLQUh2WndFb3pBZU1FZkxITzJ2dTk3VktZekxOOWdHeHVxTUFiNFVHMzZaMFViMFF4aHRLdw?oc=5",
+   "kaynak": "Primetals Technologies",
+   "hat": "Tandem soguk hadde (TCM)"
   },
   {
    "anahtar": "tech:3b9e0ba3d7e53ee3",
@@ -628,30 +684,46 @@
    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBkZEdOZmVlOVF5X1JTVTAzNFJWMUpSZXFDTTlOR3ZKZHJaYW9qZjJCSjM5MnJHMUUwU0dYVUZoUXN4ckFhNVBKV1haSVhFN3MyWTVQYXlEWkFydHVlcXF3ZTFsWG9zMkk?oc=5",
    "kaynak": "THE ELEC, Korea Electronics Industry Media",
    "hat": "Belirsiz"
+  },
+  {
+   "anahtar": "tech:c1e20af1f2d7d31b",
+   "tarih": "2026-06-15",
+   "baslik": "POSCO Partners with Hyundai Motor and 8 Organizations to Develop Next-Generation High-Efficiency Electrical Steel for EVs",
+   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNRUJtamZQY3hHSWd2LS14aTRlU0hSTnU2ZlVFUU1zZzRtOEhxMkNFUFhvamttdVNxZm9rWmpFUEgxSmx6RUVuaHhQRWgxOG1VS1ZVMWNqd2V3eWJtRWJsaXBORmphT0tIRklVTF94UUJpVWxqaE5rMHc1UVd6WUp0UGl3Ym1lTEttRGN6em1jNUFpbjktcE5RcDRxbHgxRndYaF9sU01NUUJ1RW9tVWJwNWRFWVJpNm4tdXhiOGVXa2hVOXdjUjdNMjVYS2NKbFJEY01rZ1dYcUZmN3g5QUJWMUhpSnlOLXc?oc=5",
+   "kaynak": "포스코그룹 뉴스룸",
+   "hat": "Elektrik celigi hatti"
+  },
+  {
+   "anahtar": "tech:4981815ffab304b6",
+   "tarih": "2026-06-03",
+   "baslik": "Understanding hydrogen permeation in zinc flake coatings for hydrogen embrittlement mitigation",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9RUlJyR2FaY0UyS1AtNkZDVjBTM3ZtTWUtOEF0X0FJRjlwRnVCeDVST0VwOC01ZVNXZ2o4M3plNHhkYjdER09kaXdkY3NpV2VoZ1NLQWlJSklCaFZDN1Bv?oc=5",
+   "kaynak": "Nature",
+   "hat": "Belirsiz"
+  },
+  {
+   "anahtar": "tech:f0f98af5520ec280",
+   "tarih": "2026-03-26",
+   "baslik": "Tata Netherlands, VW progress in zinc-coated steel research",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNd0R4OFZzbjIwdnlMSUwzLTl5SGIwMGhvdWt4Rk1YSFF0dFhCVU5qV01EZlRUM1NyNk1TZkVLLVBMbnBUaFZOTjI1ck9SSzkzWWNKZU9GeEx3TENwTl9jTWEtQXVEZ0w4TU5TVExUUHNtQlBYS0hmclhfWGJua1NRVTh5bTBUTUxB?oc=5",
+   "kaynak": "EUROMETAL",
+   "hat": "Belirsiz"
+  },
+  {
+   "anahtar": "tech:79411a9666bd6ac4",
+   "tarih": "2026-01-10",
+   "baslik": "Indian Railways To Test Zinc Coating Technology For Steel Rails To Tackle Coastal Corrosion, Cut Track Renewal Costs: Report",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPdWdicXBteXBJc2c5aG1MUk5fN0tFRFdEVlJzalVuZXNhUF9nN2U0cmtWbkUzY2pQbEpvbUp3cWRaU1dYM19DOTVEcFNnU0JTTEd1cXgxbG00UGlwWklNWkhELS15dDVWeEgwUDY2d3dfNTB2QnVFeXlaWkZ5WFFQOU8yWWl2TjNBeG80ZG9KQ3ZjQ2gxdExkbDQyX2s5R1dYM0dWeVpxSE8tYXRTUE5wcjNpcVJvOEgxR2FrcjVjZTJyT2ltYllRNlVNZ9IB2wFBVV95cUxNSWl5bXpiRXRoY2F2QTlrSDJ2c0JEaWhSeFpDc0RBR0ROdlFwUEpIbTlSNGU0UmdDMjg2cGJhU05HczNrWmdvMUhDcm94V2xGMzFNV0h4QkdnUHBIRVFBSWdoS3p0Vzhlb3loT3RSdEZSb1VyWnVSU0pobFc3aFo3OU83cmpnUGVKb0tMcEVwVjBvNDhabzNJT0dfeEZsM1E0V25MVE54QmxkWk1jX29aVkJZSG5wWkVtR3R0QWlRUzc4NVVZRWhaZGM0bnduWEVYRVMwemFDWHVFcnM?oc=5",
+   "kaynak": "Swarajya",
+   "hat": "Belirsiz"
   }
  ],
  "kaynak_katki": {
   "SteelOrbis": 1,
   "Google News": 3,
-  "Bing News": 3
+  "Bing News": 4
  },
  "piyasa_pool": [
-  {
-   "anahtar": "piyasa:988a622523b3fdaa",
-   "tarih": "2026-11-20",
-   "baslik": "[SMM Analysis] Ex-China Silicon Steel: Growth Anchored in India, High-End GO and Ultra-Thin Non-Oriented Maintain Tight Balance",
-   "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQNDNsMENQak9KdGhNbGpYX0JwOENkWHJIZXJPMzJWM2VGWlp0X0ZlTFVLdElPMVlkd1R0TkNmNTgxSVJTOHBfUXlWX0hrUDZDVnVHWFBlV0dXSnliaXlnWlo0bF9EUXVLNTNzbGVHMmY0MmNmQzl6OXhla1k3d2draUxUNWNKWktORzBGOEtfbnlqZFNLaXZuQVU4Rld5NFFjS0NQOEVTc1pDbktNNENGamk4ZXpVNERfR2xIZUR1emU4YkRfNWhmZ056SEhHb3dsb1JqcWh0Z3p0TFF3aTc5S1dsMEFIaE5wTXJnUzhiZWlFbmlVS3RCYlloVnluLTVTdlJ0RDRuQzJ5dGNlTmEwRmVibHFTQS16QnhEWnYxVngtSmx4?oc=5",
-   "kaynak": "Shanghai Metals Market",
-   "lead": "[SMM Analysis] Ex-China Silicon Steel: Growth Anchored in India, High-End GO and Ultra-Thin Non-Oriented Maintain Tight Balance &nbsp;&nbsp; Shanghai Metals Market"
-  },
-  {
-   "anahtar": "piyasa:92751181f20552b9",
-   "tarih": "2026-11-20",
-   "baslik": "India: Coated flat steel prices ease further; weak retail offtake weighs on market",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQa3Azd0tOU0w4SDMtenNfNEl0d3ZLOXQwcGIzQ2hRTDE1Z2VHVEtLZVlCb1JKU05LZ2FpQnZNZ2p2bHRwdWlDX0cyREZNNU52Rmx4dlJrbmhoNTdhTEVnVFBIWjdYempVbnJCVERLTmtSVWJ5T0VFR1puMHU0UExJMF9yQ3Foa3ZDU193V3ljdDE5ZE9taUdKTHhCTWhielJEZE5vUWJHSTVHclNvVlVtUGpFYUpDVUFyQjRwLWhEYTVmUGsz?oc=5",
-   "kaynak": "BigMint",
-   "lead": "India: Coated flat steel prices ease further; weak retail offtake weighs on market &nbsp;&nbsp; BigMint"
-  },
   {
    "anahtar": "piyasa:3c18cdf17b1c89f3",
    "tarih": "2026-11-19",
@@ -677,12 +749,68 @@
    "lead": "Vietnam’s Trade Remedies Authority (TRAV) has accepted a valid application to review the product scope of..."
   },
   {
-   "anahtar": "piyasa:b71d689587b26436",
-   "tarih": "2026-11-16",
-   "baslik": "[EU imposes definitive anti-dumping duties on cold-rolled steel from India, Japan, Taiwan, Türkiye and Vietnam]",
-   "url": "https://news.metal.com/newscontent/DOJES7KYL2Q7VMAKM4INV3Y4FXHAG234MSCMIDI-eu-imposes-definitive-anti-dumping-duties-on-cold-rolled-steel-from-india-japan-taiwan-t%C3%BCrkiye-and-vietnam",
+   "anahtar": "piyasa:c67a92c697709854",
+   "tarih": "2026-11-17",
+   "baslik": "EU imposes duties of up to 27.9% on cold-rolled steel from five Asian and Middle Eastern countries",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOd0twMHRReW5nMThtZjFhZThLYkZCSmVCaHRSbnAtVGRtZFJtX2ZrN3N6UFFCampYWU9veGN1cVo3ako4RFE0NEFKVVF4SFBqdnhXRVYxS0hNaXpNOWVGWWwtMWVjczh4Z0d6YXhQZGlheGNjUEFMaVdGakNSTnJVTUVQMjBETlltV0RoOTJadExvVnYxbjJWRlFEMHFKRDBaTktQLTdfZDR2bThndmJpQXB6c2hvRlNfR2sxdDRIbFI5UzjSAcgBQVVfeXFMTlVMLUx6VVRTUThsaHJqVEE2eEE4VUJJOXBvMndqcDVhUWhzUmEwZFFjM25DLVdiNndtWVBDaG5HUWxzVTFYUTI3cWV1aExoaV9VNmFxVzk1ems5czlaRkJUOHY0dWRFYVNvS2dST0hjOTgyTE1aT25CQ2tLZVpsbGg0MjdfTmY0QWFPLVZFUDZmeno5bXMzNGJwdHhHWG9Wd3d4SHVHMTFEb0RtNDQ5OFBEa3lNdjdxbDJXV3NHdGxyNk9PMzlDMGI?oc=5",
+   "kaynak": "GMK Center",
+   "lead": "EU imposes duties of up to 27.9% on cold-rolled steel from five Asian and Middle Eastern countries &nbsp;&nbsp; GMK Center"
+  },
+  {
+   "anahtar": "piyasa:96f92d635c8a027c",
+   "tarih": "2026-11-17",
+   "baslik": "EU imports of cold-rolled steel from the five countries are estimated at around €1.78 billion",
+   "url": "https://gmk.center/en/news/eu-imposes-duties-of-up-to-27-9-on-cold-rolled-steel-from-five-asian-and-middle-eastern-countries/",
    "kaynak": "Bing News",
-   "lead": "The European Commission has imposed definitive anti-dumping duties on imports of certain cold-rolled flat steel products originating in India, Japan, Taiwan, Türkiye and Vietnam."
+   "lead": "The European Union has imposed anti-dumping duties of up to 27.9% on cold-rolled steel from India, Japan, Taiwan, Turkey and Vietnam. The decision was made following an investigation that found these ..."
+  },
+  {
+   "anahtar": "piyasa:a204f74232f7e2b9",
+   "tarih": "2026-11-17",
+   "baslik": "EU imposes AD duties on cold-rolled steel imports from 5 countries",
+   "url": "https://www.yieh.com/en/News/eu-imposes-ad-duties-on-cold-rolled-steel-imports-from-5-countries/163429",
+   "kaynak": "Bing News",
+   "lead": "The European Union (EU) began imposing definitive anti-dumping (AD) duties on certain cold-rolled flat steel products imported from India, Japan, Taiwan, Turkey, and Vietnam, effective November 17, ..."
+  },
+  {
+   "anahtar": "piyasa:1765ac6dbaeb05cf",
+   "tarih": "2026-11-16",
+   "baslik": "AB'den Türkiye ve diğer 4 ülkeye yassı çelik anti-damping vergisi",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPbGlHWWZQWkE5SUQwNm9WWUo5OW9KZFlBWmg3d2hVTFRsZWdxR2hGcjZKZHFqbXh3cDZNdUk2M1pkU2VzU0tJZ1JJMDRjZk1oalRTMEdDWk5McG1Ga19zNldzZ1dLRWVSLU8tQkxrRHVQZlhmVmI3MWJTanNScnhmbk9pblVwcklGWmEydDh5d0ZleHFyTU9vbWZ2NGQwclVRU1JR?oc=5",
+   "kaynak": "Bloomberght",
+   "lead": "AB'den Türkiye ve diğer 4 ülkeye yassı çelik anti-damping vergisi &nbsp;&nbsp; Bloomberght"
+  },
+  {
+   "anahtar": "piyasa:e2ecfb5deeda9fec",
+   "tarih": "2026-11-16",
+   "baslik": "EU to impose tariffs on cold-rolled flat steel from five countries",
+   "url": "https://www.msn.com/en-us/money/economy/eu-to-impose-tariffs-on-cold-rolled-flat-steel-from-five-countries/ar-AA2hyp7M",
+   "kaynak": "Bing News",
+   "lead": "By Philip Blenkinsop BRUSSELS, Nov 16 (Reuters) - The EU is imposing tariffs of up to 27.9% on cold-rolled flat steel products from India, Japan, Taiwan, Turkey and Vietnam after finding they were ..."
+  },
+  {
+   "anahtar": "piyasa:26b39c0474ddeeba",
+   "tarih": "2026-11-16",
+   "baslik": "European Commission imposes anti-dumping duties on cold-rolled coil imports from India, Japan, Taiwan, Turkey, Vietnam",
+   "url": "https://eurometal.net/european-commission-imposes-anti-dumping-duties-on-cold-rolled-coil-imports-from-india-japan-taiwan-turkey-vietnam/",
+   "kaynak": "Bing News",
+   "lead": "The definitive duties are 9.5% for India, 27.9% for Japan, 20.7-27% for Taiwan, 3-7.8% for Turkey and 16% for Vietnam. Imposition of the duties followed an investigation started in September 2025, ..."
+  },
+  {
+   "anahtar": "piyasa:7893ef1245c7ae15",
+   "tarih": "2026-11-16",
+   "baslik": "EU imposes 9.5% anti-dumping duty on cold-rolled steel imports from India",
+   "url": "https://www.financialexpress.com/policy/economy/eu-imposes-9-5-anti-dumping-duty-on-cold-rolled-steel-imports-from-india/4386089/",
+   "kaynak": "Bing News",
+   "lead": "India faces a 9.5% anti-dumping duty on cold-rolled flat steel exports to the EU after the European Commission's decision, with Japan, Taiwan, Turkey, and Vietnam also assigned varying duty rates."
+  },
+  {
+   "anahtar": "piyasa:8cac302e9f366d14",
+   "tarih": "2026-11-16",
+   "baslik": "EU to Impose 27.9% Anti-Dumping Tariff on Japanese Cold-Rolled Steel from Nov. 17",
+   "url": "https://finance.biggo.com/news/fd0ab262-1f7c-419d-b468-8e039b5aeccc",
+   "kaynak": "Bing News",
+   "lead": "The European Commission announced on the 16th that it will impose anti-dumping duties on cold-rolled steel sheet from Japan and four other ..."
   },
   {
    "anahtar": "piyasa:8ed1e5cf759d4884",
@@ -709,6 +837,14 @@
    "lead": "AI Is Queued Behind an Electrical Steel Transformer Shortage &nbsp;&nbsp; Intelligent Living"
   },
   {
+   "anahtar": "piyasa:738776df9135ecde",
+   "tarih": "2026-11-08",
+   "baslik": "Thailand levies anti-dumping duty on tinplate, tin-free sheet",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/rfp-article-details/thailand-levies-ad-tinplate-tin-free-sheet-1126/",
+   "kaynak": "Bing News",
+   "lead": "Thailand has imposed anti-dumping duties on tinplate and tin-free steel, ..."
+  },
+  {
    "anahtar": "piyasa:1df6498ceaade832",
    "tarih": "2026-11-05",
    "baslik": "Türkiye’s flat steel market: Galvanized prices increased, HRC and CRC remain stable | 5 November 2026",
@@ -718,14 +854,14 @@
   }
  ],
  "window": [
-  "2026-10-31",
-  "2026-11-21"
+  "2026-11-01",
+  "2026-11-22"
  ],
- "bulunan_kullanilan": 0,
- "bulunan_havuz": 13,
+ "bulunan_kullanilan": 1,
+ "bulunan_havuz": 7,
  "rezerv_kullanilan": 0,
- "rezerv_havuz": 74,
+ "rezerv_havuz": 94,
  "period": "2026-W47",
- "generated": "2026-11-21 11:10 UTC",
+ "generated": "2026-11-22 11:31 UTC",
  "version": "3.0.0"
 }
