@@ -1,6 +1,61 @@
 {
  "bulunan": [
   {
+   "anahtar": "a3958a86c041b613",
+   "asama": "Modernizasyon",
+   "baslik": "John Cockerill India Successfully Revamps Jindal (India) Limited’s CGL-5, More Than Doubling Production Capacity",
+   "eksik": [],
+   "firma": "John Cockerill India",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "John Cockerill",
+   "kaynak_id": "gtek_jc",
+   "lead": "John Cockerill India Successfully Revamps Jindal (India) Limited’s CGL-5, More Than Doubling Production Capacity &nbsp;&nbsp; John Cockerill",
+   "olaylar": [
+    "john cockerill india|fu|Hindistan|Galvaniz hatti (CGL)",
+    "john cockerill india|hat|Galvaniz hatti (CGL)|Modernizasyon",
+    "john cockerill india|ulke|Hindistan|Modernizasyon",
+    "john cockerill|fu|Hindistan|Galvaniz hatti (CGL)",
+    "john cockerill|hat|Galvaniz hatti (CGL)|Modernizasyon",
+    "john cockerill|ulke|Hindistan|Modernizasyon"
+   ],
+   "puan": 65.0,
+   "tarih": "2026-11-23",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "John Cockerill",
+   "tutar": "",
+   "ulke": "Hindistan",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQbXdfZnBhQ1c2V253bmdpeGFEaE5MUnVHTWJuVW5PbVJDdnAxMm1ubDRvZm9qVHRocm5lY0p0b1RDNTVYMWtBTGVhQWxyZGpDcXBQaHB4ZjVSVjcxRGN4Q2R1VUlGVzkwdC1fTk5ia1RsSUdpVldsT3V5OGpnbWtUNlREemowRmRBVHotOGQ3dV8xWkplUzRlRXRqOEU?oc=5"
+  },
+  {
+   "anahtar": "2d3e6e9aaab16dba",
+   "asama": "Modernizasyon",
+   "baslik": "Modernización de 3 mil millones de dólares de Gary Works de U.S. Steel vinculada a la propuesta de acuerdo de desarrollo urbano",
+   "eksik": [
+    "hat"
+   ],
+   "firma": "Modernización",
+   "hat": "Belirsiz",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgx_q_es1",
+   "lead": "Gary officials announced on Tuesday a proposed economic development agreement with U.S. Steel tied to the company's $3 billion modernization investment in the Gary Works steel mill. The ...",
+   "olaylar": [
+    "modernizacion|fu|ABD|Belirsiz",
+    "modernizacion|hat|Belirsiz|Modernizasyon",
+    "modernizacion|ulke|ABD|Modernizasyon"
+   ],
+   "puan": 54.0,
+   "tarih": "2026-11-23",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "$3 billion",
+   "ulke": "ABD",
+   "url": "https://news.metal.com/es/newscontent/23GGUQHCBR4G53CLBOUSAWKIYR764W55TRMJOVI-modernizaci%C3%B3n-de-3-mil-millones-de-d%C3%B3lares-de-gary-works-de-us-steel-vinculada-a-la-propuesta-de-acuerdo-de-desarrollo-urbano"
+  },
+  {
    "anahtar": "99bcca62027e43fb",
    "asama": "Belirsiz",
    "baslik": "Açılışından önce, Nam Kim Phu My Çelik Sac Fabrikası, piyasanın çeşitli malzeme ihtiyaçlarını karşılamayı hedefliyor.",
@@ -3124,6 +3179,24 @@
     "tekrar": 33
    },
    "uretim": "2026-11-23 11:37 UTC"
+  },
+  {
+   "donem": "2026-W48",
+   "satir": 5,
+   "stats": {
+    "erisilemeyen": 15,
+    "gnews_tarih": 0,
+    "ham": 4433,
+    "kabul": 4,
+    "kapsam_disi": 3914,
+    "kaynak": 369,
+    "makale_acildi": 230,
+    "on_eleme_gecti": 469,
+    "pencere_disi": 367,
+    "tarihsiz_elendi": 92,
+    "tekrar": 56
+   },
+   "uretim": "2026-11-23 12:46 UTC"
   }
  ],
  "piyasa_gonderilen": [
@@ -4484,6 +4557,33 @@
    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE53ZEQ5TFVwdzEwMWVwMy11Q01mWl9aTXl5Qk95a1ZpbkR0ZW9ldzlUQXQyU3ctWU5tOVY0SHJIZmhLMDN4RUpiQTBlV3NzYVpVd05URA?oc=5"
   },
   {
+   "anahtar": "0e7d62e978d273b0",
+   "asama": "Belirsiz",
+   "baslik": "Sinosteel starts trials on Tosyali's new PL/TCM line in Algeria",
+   "eksik": [
+    "asama"
+   ],
+   "firma": "Sinosteel",
+   "hat": "Tandem soguk hadde (TCM)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "megaproject.com",
+   "kaynak_id": "gur_asya_mena",
+   "lead": "Sinosteel starts trials on Tosyali's new PL/TCM line in Algeria &nbsp;&nbsp; megaproject.com",
+   "olaylar": [
+    "sinosteel|fu|Cezayir|Tandem soguk hadde (TCM)",
+    "sinosteel|hat|Tandem soguk hadde (TCM)|Belirsiz",
+    "sinosteel|ulke|Cezayir|Belirsiz"
+   ],
+   "rezerv": true,
+   "tarih": "2026-07-31",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Cezayir",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVDhHWF96MHd1Um9VWjRHcV9JSTlHdWJ2ZVFTVUZpVi1JMEFBb0FPTEQ0cGctUW5pYmk2NXJFUU85ai0wR2pFLW92eDZRV21acDhJVUR1VHZfYUdYLWgybm04dVRGMHNBSnpGTXdsX2lqQmRGZkZYWG51NXBaajQ1YWNNWjRxM0M2YXVKUEN2MHJPMURKWUs4alNQSHBUS28?oc=5"
+  },
+  {
    "anahtar": "28083b9fd9023df7",
    "asama": "Belirsiz",
    "baslik": "Tosyalı Algérie has produced its first cold-rolled products at the new plant",
@@ -4983,6 +5083,34 @@
    "url": "https://www.steelorbis.com/steel-news/latest-news/indias-jil-commissions-continuous-color-coating-line-completing-155-million-capex-program-1454553.htm"
   },
   {
+   "anahtar": "21447038cb0b1898",
+   "asama": "Sozlesme",
+   "baslik": "John Cockerill India Secures ₹440–₹470 Crore Cold Rolling Complex Order from JSW Steel",
+   "eksik": [],
+   "firma": "John Cockerill India",
+   "hat": "Soguk hadde",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "scanx.trade",
+   "kaynak_id": "gur_hint",
+   "lead": "John Cockerill India Secures ₹440–₹470 Crore Cold Rolling Complex Order from JSW Steel &nbsp;&nbsp; scanx.trade",
+   "olaylar": [
+    "john cockerill india|fu|Hindistan|Soguk hadde",
+    "john cockerill india|hat|Soguk hadde|Sozlesme",
+    "john cockerill india|ulke|Hindistan|Sozlesme",
+    "john cockerill|fu|Hindistan|Soguk hadde",
+    "john cockerill|hat|Soguk hadde|Sozlesme",
+    "john cockerill|ulke|Hindistan|Sozlesme"
+   ],
+   "rezerv": true,
+   "tarih": "2026-05-15",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "John Cockerill",
+   "tutar": "",
+   "ulke": "Hindistan",
+   "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQUGNaS0hhYXF1dTI3ZTVaZUZ4WnZtLWllSXp1eTNUamJCYjI0RFFjMjU4VDdhTWJBaFg2QTEyeFluM3p4ajRjNHYtVlpXVTVTeWxyZ0Y0cmxtUldrV0hFa25zdGIwRWlqRXZJRXZtclZqbE1yTEZUQ1VHRnRpN1BfM0xnZncyVnJ6QkpyaUJOLUZ6aGpCYjBYWWFIeUFGbkk0UTI5MDFpLVV4c3JBZWtVXzJ2OUI2bkpLLVV6aHpScWJlUVc5ZmJTSXdSNFBsLVFGTFZzTXFmTmFSNlcwVnFNYTZEYldQSmxKcXdiWjhuaGlCVFhNUVUwRHVOS2tUd1VueEpIbQ?oc=5"
+  },
+  {
    "anahtar": "7c2f78d60ac4067c",
    "asama": "Belirsiz",
    "baslik": "AM/NS India launches advanced PLTCM in Hazira",
@@ -5059,6 +5187,58 @@
    "tutar": "",
    "ulke": "",
    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPUy1kdlFsaXZWS2kxOFZDZDNwSGRRQjFTR1pweUE0Q0pBOVRWdlpRMmpic0FHcl8tQzNhcVJYRVV4b2xha2VxRGFRVW9zdmp4emJtWVNHSTFDN2lObVhhaXdhSTRsQzd5S213blNGVThBaFJiV1FUa2g1SU1XbU1jdWxsaXp0TGsxOGYxX0xGa0hYbm5QNUZVenQyR0VUbmtETDVXb0JrTHlzWDRONlBPcFktd0RSVVBERl9ZQWJQNUZFY3R5RnoyZW5jWWlWU1EzamV3?oc=5"
+  },
+  {
+   "anahtar": "b3dc1702f1700f2a",
+   "asama": "Belirsiz",
+   "baslik": "Shyam Metalics expands Pakuria facility with annealing furnaces and foil separator",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "firma": "Shyam Metalics",
+   "hat": "Surekli tavlama (CAL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "ET Manufacturing",
+   "kaynak_id": "gur_hint",
+   "lead": "Shyam Metalics expands Pakuria facility with annealing furnaces and foil separator &nbsp;&nbsp; ET Manufacturing",
+   "olaylar": [
+    "shyam metalics|hat|Surekli tavlama (CAL)|Belirsiz"
+   ],
+   "rezerv": true,
+   "tarih": "2026-04-22",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQWTlacDc4dlZQMThaTTI1Z2dfay0tQnN2bGtERWlQbmRhVmY1M2hwS0FyOGhyYS1LNGR6bDlORDNjUDhxNDQ0V1REaTJvZXptZ3FpZ0xZY0hzVDljR0FrMnVSVFM2ZGhaam1RajU1VU5QR09NRzdPZlhNUDBfMkUxSlVaZC0xLV9VSzNOc0h6bWY2Q2hoNU04RFZVNDVpTDh2TVBHRmtXT1RDUm1QU3VLWXRHbGpKWXpJNTNqbVhqd1JaNnAxNm9rS1FwdWNZdDduX0V6ZE5JUVdFUmMzell4M1hLcm02dW1GOTR4dtIB8gFBVV95cUxOTGo1TUJYWllxRjNCV3ZJZzFOeTZ2NUxtZWc5YVp3aGw2U2dPUDRtd25SOUxhQTFXenJMTDZONmpaMDd1SzVQMzgyVmtlQ2d3MTg2ajhIVjVzUG5PSTdkRDNJVGZSMnlPUmM0b1ZfUmZZWlo0SXF0VDM4Vzl1M2lIbzNXUktHODNkU3VnMU1NR3cybUd2ZnF4bFZyV3U2dnNQTmZJYUh4YUpzZDhuWVkzekFRdTduZmNTdmZwX2Fyb3ZpZmliTHh6ZTJiMko4VGhZbVY4amNITWhKRUx1dzUxUmNhOVFqYm9wc2ctZl8yOFVMZw?oc=5"
+  },
+  {
+   "anahtar": "1cd8aa2a8eae1a20",
+   "asama": "Belirsiz",
+   "baslik": "Shyam Metalics Expands Pakuria Operations With 25 MT & 30 MT Annealing Furnaces",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "firma": "Shyam Metalics",
+   "hat": "Surekli tavlama (CAL)",
+   "kapasite": "25 MT",
+   "kategori": "Hat",
+   "kaynak": "scanx.trade",
+   "kaynak_id": "gur_hint",
+   "lead": "Shyam Metalics Expands Pakuria Operations With 25 MT & 30 MT Annealing Furnaces &nbsp;&nbsp; scanx.trade",
+   "olaylar": [
+    "shyam metalics|hat|Surekli tavlama (CAL)|Belirsiz"
+   ],
+   "rezerv": true,
+   "tarih": "2026-04-20",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPYmh5REhhUnY0dmx3YlZpdktjZ0ZrWWpweE5paDZBa0hKOTk2dlRrVUFNYllWMVJ2WjlfbngtS1lfaVA1LVRGSkpkTTF5NUJpdVBFZVc4dlh5RWx5d25HV0doc2J0akdUbWljTFo0QmdQbWR1MWdyNXVncnotQXRrbU5WYzdpMVNzRlVyV0NWZGVPSzNXWm5OQVY5Z1ZNTjFURHVOd2hvMjVRUFZaQWNrWVZNajNwWWRPTmVsU3VON2NjT0tOajN6Vkp2YjEyWUg0UjN1dGJqQVlZenNxUWo3WkFXVQ?oc=5"
   },
   {
    "anahtar": "dbf500463fb21d96",

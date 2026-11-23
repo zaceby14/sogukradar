@@ -1,10 +1,10 @@
 {
- "donem": "2026-W47",
+ "donem": "2026-W48",
  "pencere": [
-  "2026-11-01",
-  "2026-11-22"
+  "2026-11-02",
+  "2026-11-23"
  ],
- "uretim": "2026-11-22 11:31 UTC",
+ "uretim": "2026-11-23 12:46 UTC",
  "kaynaklar": {
   "steeltimesint": {
    "publisher": "Steel Times International",
@@ -26,11 +26,6 @@
  "kacanlar": [],
  "dogrulanamayan": [],
  "acildi_elendi": [
-  {
-   "baslik": "Xinyu inaugurates electrical steel production facility",
-   "url": "https://www.steeltimesint.com/news/xinyu-inaugurates-electrical-steel-production-facility",
-   "sebep": "pencere disi (2026-09-10)"
-  },
   {
    "baslik": "Primetals to modernise Korean pickling line",
    "url": "https://www.steeltimesint.com/news/primetals-to-modernise-korean-pickling-line",
@@ -67,7 +62,7 @@
    "sebep": "pencere disi (2025-12-02)"
   }
  ],
- "kapiyi_gecen": 8,
+ "kapiyi_gecen": 7,
  "sitemap_adayi": 800,
- "elenen": 792
+ "elenen": 793
 }

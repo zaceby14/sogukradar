@@ -1,79 +1,112 @@
 {
  "rows": [
   {
-   "tarih": "2026-11-19",
-   "firma": "KG Steel",
-   "ulke": "",
-   "hat": "Tandem soguk hadde (TCM)",
+   "tarih": "2026-11-23",
+   "firma": "John Cockerill India",
+   "ulke": "Hindistan",
+   "hat": "Galvaniz hatti (CGL)",
+   "asama": "Modernizasyon",
+   "tedarikci": "John Cockerill",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "John Cockerill India Successfully Revamps Jindal (India) Limited’s CGL-5, More Than Doubling Production Capacity",
+   "kaynak": "John Cockerill",
+   "kaynak_id": "gtek_jc",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQbXdfZnBhQ1c2V253bmdpeGFEaE5MUnVHTWJuVW5PbVJDdnAxMm1ubDRvZm9qVHRocm5lY0p0b1RDNTVYMWtBTGVhQWxyZGpDcXBQaHB4ZjVSVjcxRGN4Q2R1VUlGVzkwdC1fTk5ia1RsSUdpVldsT3V5OGpnbWtUNlREemowRmRBVHotOGQ3dV8xWkplUzRlRXRqOEU?oc=5",
+   "tarih_kaynagi": "rss",
+   "lead": "John Cockerill India Successfully Revamps Jindal (India) Limited’s CGL-5, More Than Doubling Production Capacity &nbsp;&nbsp; John Cockerill",
+   "eksik": [],
+   "anahtar": "a3958a86c041b613",
+   "kategori": "Hat",
+   "olaylar": [
+    "john cockerill india|fu|Hindistan|Galvaniz hatti (CGL)",
+    "john cockerill india|hat|Galvaniz hatti (CGL)|Modernizasyon",
+    "john cockerill india|ulke|Hindistan|Modernizasyon",
+    "john cockerill|fu|Hindistan|Galvaniz hatti (CGL)",
+    "john cockerill|hat|Galvaniz hatti (CGL)|Modernizasyon",
+    "john cockerill|ulke|Hindistan|Modernizasyon"
+   ],
+   "puan": 65.0
+  },
+  {
+   "tarih": "2026-11-23",
+   "firma": "Modernización",
+   "ulke": "ABD",
+   "hat": "Belirsiz",
    "asama": "Modernizasyon",
    "tedarikci": "",
-   "kapasite": "2 million tons",
-   "tutar": "",
-   "baslik": "KG Steel completes W38b PLTCM upgrade, targets output of over 2 million tons",
+   "kapasite": "",
+   "tutar": "$3 billion",
+   "baslik": "Modernización de 3 mil millones de dólares de Gary Works de U.S. Steel vinculada a la propuesta de acuerdo de desarrollo urbano",
    "kaynak": "Bing News",
-   "kaynak_id": "bgq_hat00",
-   "url": "https://biz.heraldcorp.com/article/10943740",
+   "kaynak_id": "bgx_q_es1",
+   "url": "https://news.metal.com/es/newscontent/23GGUQHCBR4G53CLBOUSAWKIYR764W55TRMJOVI-modernizaci%C3%B3n-de-3-mil-millones-de-d%C3%B3lares-de-gary-works-de-us-steel-vinculada-a-la-propuesta-de-acuerdo-de-desarrollo-urbano",
    "tarih_kaynagi": "rss",
-   "lead": "KG Steel said Thursday it has completed a rationalization project for the pickle line tandem cold mill (PLTCM) at its Dangjin factory, investing about 38 billio ...",
+   "lead": "Gary officials announced on Tuesday a proposed economic development agreement with U.S. Steel tied to the company's $3 billion modernization investment in the Gary Works steel mill. The ...",
    "eksik": [
-    "ulke"
+    "hat"
    ],
-   "anahtar": "4725c00cb3176260",
+   "anahtar": "2d3e6e9aaab16dba",
    "kategori": "Hat",
    "olaylar": [
-    "kg steel|hat|Tandem soguk hadde (TCM)|Modernizasyon"
+    "modernizacion|fu|ABD|Belirsiz",
+    "modernizacion|hat|Belirsiz|Modernizasyon",
+    "modernizacion|ulke|ABD|Modernizasyon"
    ],
-   "puan": 60.8
+   "puan": 54.0
   },
   {
-   "anahtar": "8b828b970d0ac702",
-   "asama": "Test",
-   "baslik": "Zhejiang Hengfeng hot tests cold rolling mill",
+   "anahtar": "99bcca62027e43fb",
+   "asama": "Belirsiz",
+   "baslik": "Açılışından önce, Nam Kim Phu My Çelik Sac Fabrikası, piyasanın çeşitli malzeme ihtiyaçlarını karşılamayı hedefliyor.",
    "eksik": [
-    "ulke"
+    "hat",
+    "asama"
    ],
-   "firma": "Zhejiang Hengfeng",
-   "hat": "Soguk hadde",
+   "firma": "Açılışından",
+   "hat": "Belirsiz",
    "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "Kallanish",
-   "kaynak_id": "kallanish",
-   "lead": "Login Kallanish articles are only available for active subscribers and clients currently on trial. If you already have login details, please login below to continue. Email address Password LOGIN Want to see what we offer? Why not sign up for a free trial and receive the Kallanish service for 2 full weeks. Registration only takes 1 minute, so you can start benefitting from our news and pricing coverage today! Gain acc",
+   "kategori": "Yatirim",
+   "kaynak": "Vietnam.vn",
+   "kaynak_id": "gx_q_tr1",
+   "lead": "Açılışından önce, Nam Kim Phu My Çelik Sac Fabrikası, piyasanın çeşitli malzeme ihtiyaçlarını karşılamayı hedefliyor. &nbsp;&nbsp; Vietnam.vn",
    "olaylar": [
-    "zhejiang hengfeng|hat|Soguk hadde|Test"
+    "acilisindan|fu|Vietnam|Belirsiz",
+    "acilisindan|hat|Belirsiz|Belirsiz",
+    "acilisindan|ulke|Vietnam|Belirsiz"
    ],
-   "puan": 54.5,
-   "tarih": "2026-11-12",
-   "tarih_kaynagi": "capraz-rss",
+   "puan": 4.0,
+   "tarih": "2026-11-18",
+   "tarih_kaynagi": "rss",
    "tedarikci": "",
    "tutar": "",
-   "ulke": "",
-   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/zhejiang-hengfeng-hot-tests-cold-rolling-mill-1126/"
+   "ulke": "Vietnam",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxORUtuZ0VkOGlfQkNpM2dBSkJWU0NqR1ZjMFNqVmFCR3JxUjluODVRMEcyN3liaWpMcm9EVl9qRk4xRDM1QnVHcnJsLVVBZlhKY3o3clUyNDctUXZZWHctcTFWdGIzZFFlU0FyUHRhVVpkd3dETkFvcWV1TTRqR0g0WWYzd2NDb0FENi0zU1NvU2JwMWg1RHg4VzYtUnRudE1FMElWNEhzRmNTNlVGRHRLY1pyWUpWLVp5d18za1VlZ0g2UDg?oc=5"
   },
   {
-   "tarih": "2026-11-20",
-   "firma": "SAIL",
-   "ulke": "",
-   "hat": "Elektrik celigi hatti",
-   "asama": "Teknoloji",
-   "tedarikci": "",
+   "anahtar": "0270c208d71bc272",
+   "asama": "Sozlesme",
+   "baslik": "Kirac Galvaniz stock after company wins TRY 173 million tender",
+   "eksik": [],
+   "firma": "Kirac Galvaniz stock after company",
+   "hat": "Galvaniz hatti (CGL)",
    "kapasite": "",
-   "tutar": "",
-   "baslik": "SAIL's Bokaro steel mill develops NGO grade special steel for the first time",
-   "kaynak": "SteelOrbis",
-   "kaynak_id": "steelorbis",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/sails-bokaro-steel-mill-develops-ngo-grade-special-steel-for-the-first-time-1492322.htm",
-   "tarih_kaynagi": "json-ld",
-   "lead": "English Türkçe Italiano 中文 | Login Menu Marketplace Global Marketplace Access to the listings of different steel products and bids without intermediaries and commissions. Steel Markets Steel Prices Daily Steel Prices Weekly Steel Prices Steel Price Analysis Tool Orbis Steel Index Futures Prices Steel Price Analyses Scrap & Raw Materials Tube and Pipe Flats and Slab Longs and Billet Products Scrap Iron ore Billet-Slab",
-   "eksik": [
-    "ulke"
-   ],
-   "anahtar": "4de62a3615924bb5",
    "kategori": "Hat",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgpy_turkiye",
+   "lead": "Kirac Galvaniz said on Thursday, November 12, that it had won a steel road-barrier tender from Turkey's 4th Regional Directorate of Highways. The award covers various sections of the authority's road ...",
    "olaylar": [
-    "sail|hat|Elektrik celigi hatti|Teknoloji"
+    "kirac galvaniz stock after company|fu|Turkiye|Galvaniz hatti (CGL)",
+    "kirac galvaniz stock after company|hat|Galvaniz hatti (CGL)|Sozlesme",
+    "kirac galvaniz stock after company|ulke|Turkiye|Sozlesme"
    ],
-   "puan": 52.2
+   "puan": 75.8,
+   "tarih": "2026-11-15",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Turkiye",
+   "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/kirac-galvaniz-stock-after-company-wins-try-173-million-tender/70518469"
   },
   {
    "anahtar": "90e30cb4756c40e2",
@@ -102,73 +135,19 @@
    "tutar": "",
    "ulke": "",
    "url": "https://news.metal.com/en/newscontent/104207357-纽柯在南卡罗来纳州新建50万吨年汽车板镀锌线产出首卷优质卷板"
-  },
-  {
-   "tarih": "2026-11-19",
-   "firma": "AM/NS India",
-   "ulke": "Hindistan",
-   "hat": "Soguk hadde",
-   "asama": "Belirsiz",
-   "tedarikci": "",
-   "kapasite": "2 Million Tonne",
-   "tutar": "",
-   "baslik": "AM/NS India Develops 2 Million Tonne Cold Rolling Facility at Hazira for Automotive Steel",
-   "kaynak": "NewsX",
-   "kaynak_id": "gtek_cold",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQjg2azBrNXF4djN0MUVjSWt1Z3NEQVBTcFdONnBBSER5T0N2bldBbUtKRzlabEQ1N3dIb1NfeWZUay1uNHlPdWR2TTRlTDRMT2k1OTd3Znc4M1Nhb24tZmFkbU9TRV9nT2V1OTZqQk1EUnl4dGFqOHVLejlUeWdBN3k0N1QxcloyZVlUZXNjNnhzMUhyQXBXUFVsenpVaWt3U0ZhcGo3NGliSnZiUzM3QU5uOE9UODF6VU9PLWxJTXFSWDJUYXfSAcsBQVVfeXFMUElERmp3NDU4WUNTVzFJVVNzb3J3dDFyZnRZWVlaU0JOU1psNDdCbDVrMHVuLWtRem5md2NuYUhUUThWRWgzM1lWNjJYNDF4YmFrbm8wLXpYUl9Ed0lvbnNrc0pGS3c4YnFQckF0V0dPcVR5ZXFXSEpEQjhSZUNxR3dXOUI2Q25qamlwQm9fTmhhNEdONEJuQW91WmZPVUJMdTBkRU9CNnpORzk2dkxZaElmMTNaMnpXOS1sVElaTWw4cnByS0xPZG9NaWs?oc=5",
-   "tarih_kaynagi": "rss",
-   "lead": "AM/NS India Develops 2 Million Tonne Cold Rolling Facility at Hazira for Automotive Steel &nbsp;&nbsp; NewsX",
-   "eksik": [
-    "asama"
-   ],
-   "anahtar": "d8b7fc40d787a676",
-   "kategori": "Hat",
-   "olaylar": [
-    "am/ns india|fu|Hindistan|Soguk hadde",
-    "am/ns india|hat|Soguk hadde|Belirsiz",
-    "am/ns india|ulke|Hindistan|Belirsiz"
-   ],
-   "puan": 44.8
-  },
-  {
-   "tarih": "2026-11-13",
-   "firma": "Jindal Stainless",
-   "ulke": "Hindistan",
-   "hat": "Soguk hadde",
-   "asama": "Belirsiz",
-   "tedarikci": "",
-   "kapasite": "2.67 MT",
-   "tutar": "",
-   "baslik": "Jindal Stainless investing ₹900 crore to increase cold rolling capacity to 2.67 MT by FY28: MD",
-   "kaynak": "ET Manufacturing",
-   "kaynak_id": "gx_bigmint_q",
-   "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQM0ZTdGxvS3U5VnZFMkMyZTRjN2ZHTm8tdU9NZmpoMGhISXl3Z1AwUzNCcU43RG9oX0tIOWJQYVA0eDBjX2FReXYzZVdlNFJFWkJHbHFtZ3M3VkZ1ZUpXb0U1NXB0MlB6endrSVZtNlY1SndMVnpaMHc0R0Nwa011aGU5ZGpnWDFGMXlWVnpUVHpuQVJWRXlEcm9uX1AxZUlYb0R3N3g2dW52TEJQOG43TGg2UFZSaHVWaEFzcG93cHdhZTl1aDdUNkcxNEYxWGEySEZOOGFDWHI5VUZRS1RTOHBqNVYzYW1uWkFBcnNJRHlVTWdxR3NjdE5VemtfVi1iM21pWNIB_wFBVV95cUxNWGdESGQ3OWJKQm5NUGNzZUxjVHZrUkY1SjFVMW5LclpmeUNCenNMTnV0VkdUSGh0cDBqUkdLeXFKaENicWdTQ21WYUxvMW1ZcHk1VkhfUWJoUmdYOFVTM3FIbWlzblNmaGd5MkhFSGotRklHd2I2b1RrZmxibG05V1lVc25Zc21yVEx0V2Z3ckgxV0lROWVaRzNKbEFKd1NBWWJsSnZnQzg1bE9LR21HanJuWGVQbWk4YjBkSGZEalpITDNfUlBtWTV1Um54dXlic1JaeGVlYnpaUHJpaGxybFNPNk1xNGI3cTZCT3E0ODY0R21ucjRSc3hRQURWbUU?oc=5",
-   "tarih_kaynagi": "rss",
-   "lead": "Jindal Stainless investing ₹900 crore to increase cold rolling capacity to 2.67 MT by FY28: MD &nbsp;&nbsp; ET Manufacturing",
-   "eksik": [
-    "asama"
-   ],
-   "anahtar": "24e2dda77f2e84e9",
-   "kategori": "Yatirim",
-   "olaylar": [
-    "jindal stainless|fu|Hindistan|Soguk hadde",
-    "jindal stainless|hat|Soguk hadde|Belirsiz",
-    "jindal stainless|ulke|Hindistan|Belirsiz"
-   ],
-   "puan": 34.4
   }
  ],
  "stats": {
   "kaynak": 369,
-  "erisilemeyen": 14,
-  "ham": 4424,
-  "on_eleme_gecti": 462,
-  "makale_acildi": 227,
+  "erisilemeyen": 15,
+  "ham": 4433,
+  "on_eleme_gecti": 469,
+  "makale_acildi": 230,
   "tarihsiz_elendi": 92,
-  "pencere_disi": 337,
-  "kapsam_disi": 3934,
-  "tekrar": 53,
-  "kabul": 8,
+  "pencere_disi": 367,
+  "kapsam_disi": 3914,
+  "tekrar": 56,
+  "kabul": 4,
   "gnews_tarih": 0
  },
  "unreachable": [
@@ -183,6 +162,10 @@
   [
    "Steel Radar",
    "HTTP 403"
+  ],
+  [
+   "Magnetics Magazine",
+   "TimeoutError: The read operation timed out"
   ],
   [
    "BigMint (SteelMint)",
@@ -600,7 +583,7 @@
   "bgpy_tr_fiyat": "arama",
   "bgpy_tr_onlem": "arama"
  },
- "today": "2026-11-22",
+ "today": "2026-11-23",
  "host_saglik": {
   "news.google.com": {
    "istek": 140,
@@ -630,22 +613,6 @@
  },
  "tech_pool": [
   {
-   "anahtar": "tech:4de62a3615924bb5",
-   "tarih": "2026-11-20",
-   "baslik": "SAIL's Bokaro steel mill develops NGO grade special steel for the first time",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/sails-bokaro-steel-mill-develops-ngo-grade-special-steel-for-the-first-time-1492322.htm",
-   "kaynak": "SteelOrbis",
-   "hat": "Elektrik celigi hatti"
-  },
-  {
-   "anahtar": "tech:d8b7fc40d787a676",
-   "tarih": "2026-11-19",
-   "baslik": "AM/NS India Develops 2 Million Tonne Cold Rolling Facility at Hazira for Automotive Steel",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQjg2azBrNXF4djN0MUVjSWt1Z3NEQVBTcFdONnBBSER5T0N2bldBbUtKRzlabEQ1N3dIb1NfeWZUay1uNHlPdWR2TTRlTDRMT2k1OTd3Znc4M1Nhb24tZmFkbU9TRV9nT2V1OTZqQk1EUnl4dGFqOHVLejlUeWdBN3k0N1QxcloyZVlUZXNjNnhzMUhyQXBXUFVsenpVaWt3U0ZhcGo3NGliSnZiUzM3QU5uOE9UODF6VU9PLWxJTXFSWDJUYXfSAcsBQVVfeXFMUElERmp3NDU4WUNTVzFJVVNzb3J3dDFyZnRZWVlaU0JOU1psNDdCbDVrMHVuLWtRem5md2NuYUhUUThWRWgzM1lWNjJYNDF4YmFrbm8wLXpYUl9Ed0lvbnNrc0pGS3c4YnFQckF0V0dPcVR5ZXFXSEpEQjhSZUNxR3dXOUI2Q25qamlwQm9fTmhhNEdONEJuQW91WmZPVUJMdTBkRU9CNnpORzk2dkxZaElmMTNaMnpXOS1sVElaTWw4cnByS0xPZG9NaWs?oc=5",
-   "kaynak": "NewsX",
-   "hat": "Soguk hadde"
-  },
-  {
    "anahtar": "tech:e82b221fc2986888",
    "tarih": "2026-10-05",
    "baslik": "Turkey's Isdemir develops high-quality steel production for defense industry and electrical steel",
@@ -654,19 +621,19 @@
    "hat": "Elektrik celigi hatti"
   },
   {
-   "anahtar": "tech:27b5ca990931fc28",
-   "tarih": "2026-08-11",
-   "baslik": "KG Steel Selects Primetals Technologies for PLTCM Revamp",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOT19pS3M3d0JOYkpveGRGQnNhaHl5TEFHYjBhT1BWcV92cjN2UWJOakJ6US1iSnVMOEtWRGFjbk9RbFFxY19qeWw0UXFsX0lMZ0h4cC1tWXZCYWZFX19tX0VISDB3Z2kwY3JKRmpfU0J5Q1NMSGdtcUUtNV9aMENLdVlLQUh2WndFb3pBZU1FZkxITzJ2dTk3VktZekxOOWdHeHVxTUFiNFVHMzZaMFViMFF4aHRLdw?oc=5",
-   "kaynak": "Primetals Technologies",
-   "hat": "Tandem soguk hadde (TCM)"
-  },
-  {
    "anahtar": "tech:3b9e0ba3d7e53ee3",
    "tarih": "2026-07-09",
    "baslik": "Posco and Hyundai develop novel electrical steel for more efficient electric motors",
    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNVV0U1otMkFRbUphNHRvMDBVdWFEVjVKN0FYV2tNdWZhWVB0TldhN0QxeDJtLU51ci1CLVFid0NTT21DSFVCMmw3a2ZyUTB6YUxkQ1hmcGZ5T05pOUdLbUxjMDdTX2IyZ0tfdnZaSVA5aW41dHhURFpvZUJKbUxiVDBjTUNCMXdfLUJIMXdsdl9VNktxeXVDeFlyNThjZHFXVUJwRXctZTJuWjduaEE3NFBmclFyYTdMNzNzM2lR?oc=5",
    "kaynak": "electrive.com",
+   "hat": "Elektrik celigi hatti"
+  },
+  {
+   "anahtar": "tech:598247fd0170db4b",
+   "tarih": "2026-07-07",
+   "baslik": "POSCO and Hyundai partner to develop 6.5% silicon electrical steel for EV motors",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWENTOUgzZFMzQjhaRlJnWmdEY3RMVmhLR25rYnFHd1JrLTQtRDJ3NVZvWTN6UjN2QUpfVXBuM1c5QklYQlNJYUQwY1pVdjhKb19xTEZXX3NRYmZNUVRyVEFuX3RNSm15N3ZrWm5nTm1XMExRUDBpVElLQ0Z2dzFjcmRkQ0xva1ktQTJZTlRnemg0NzVsZ3pUVGNUT3YyNGYweXdVRUdZdVpDX2ZEY19PdGlB?oc=5",
+   "kaynak": "Charged EVs",
    "hat": "Elektrik celigi hatti"
   },
   {
@@ -702,14 +669,6 @@
    "hat": "Belirsiz"
   },
   {
-   "anahtar": "tech:f0f98af5520ec280",
-   "tarih": "2026-03-26",
-   "baslik": "Tata Netherlands, VW progress in zinc-coated steel research",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNd0R4OFZzbjIwdnlMSUwzLTl5SGIwMGhvdWt4Rk1YSFF0dFhCVU5qV01EZlRUM1NyNk1TZkVLLVBMbnBUaFZOTjI1ck9SSzkzWWNKZU9GeEx3TENwTl9jTWEtQXVEZ0w4TU5TVExUUHNtQlBYS0hmclhfWGJua1NRVTh5bTBUTUxB?oc=5",
-   "kaynak": "EUROMETAL",
-   "hat": "Belirsiz"
-  },
-  {
    "anahtar": "tech:79411a9666bd6ac4",
    "tarih": "2026-01-10",
    "baslik": "Indian Railways To Test Zinc Coating Technology For Steel Rails To Tackle Coastal Corrosion, Cut Track Renewal Costs: Report",
@@ -719,11 +678,34 @@
   }
  ],
  "kaynak_katki": {
-  "SteelOrbis": 1,
-  "Google News": 3,
-  "Bing News": 4
+  "Google News": 1,
+  "Bing News": 3
  },
  "piyasa_pool": [
+  {
+   "anahtar": "piyasa:ec8f87f715216171",
+   "tarih": "2026-11-23",
+   "baslik": "ArcelorMittal raises flat steel prices in Europe",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOd184OXk3cEFsUTB5QlN4SjE0ZlNuZFJHVTZEbkU0WnBMcXRCRkJRVDREd1BtLWRSZS1oeWZsN0lmREsybWRHbHpiUVJFTXY1Yy1Kc2lfdDhPNkJKRmNTOWFzWWlTb3hnOFhqeWRHcy1mUHZ0QUxXQ2JIRi1BWGpVZnZCZ0hmbFnSAYcBQVVfeXFMTndfODl5N3BBbFEweUJTeEoxNGZTbmRSR1U2RG5FNFpwTHF0QkZCUVQ0RHdQbS1kUmUtaHlmbDdJZkRLMm1kR2x6YlFSRU12NWMtSnNpX3Q4TzZCSkZjUzlhc1lpU294ZzhYanlkR3MtZlB2dEFMV0NiSEYtQVhqVWZ2QmdIZmxZ?oc=5",
+   "kaynak": "GMK Center",
+   "lead": "ArcelorMittal raises flat steel prices in Europe &nbsp;&nbsp; GMK Center"
+  },
+  {
+   "anahtar": "piyasa:4e2f1eba8ae250d9",
+   "tarih": "2026-11-22",
+   "baslik": "[SMM Analysis] China’s Galvanized Steel Exports Fall 16% MoM in October",
+   "url": "https://news.metal.com/newscontent/Z42BMKPFRZZ52EEUD7CCUQSXOZZKWLK6JV4W3OY-smm-analysis-chinas-galvanized-steel-exports-fall-16-mom-in-october",
+   "kaynak": "Bing News",
+   "lead": "According to the latest customs data, China exported 997,300 mt of galvanized steel sheets in October 2026, down 16.35% month-on-month (MoM) and 23.25% year-on-year (YoY). From January to October, ..."
+  },
+  {
+   "anahtar": "piyasa:92751181f20552b9",
+   "tarih": "2026-11-20",
+   "baslik": "India: Coated flat steel prices ease further; weak retail offtake weighs on market",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQa3Azd0tOU0w4SDMtenNfNEl0d3ZLOXQwcGIzQ2hRTDE1Z2VHVEtLZVlCb1JKU05LZ2FpQnZNZ2p2bHRwdWlDX0cyREZNNU52Rmx4dlJrbmhoNTdhTEVnVFBIWjdYempVbnJCVERLTmtSVWJ5T0VFR1puMHU0UExJMF9yQ3Foa3ZDU193V3ljdDE5ZE9taUdKTHhCTWhielJEZE5vUWJHSTVHclNvVlVtUGpFYUpDVUFyQjRwLWhEYTVmUGsz?oc=5",
+   "kaynak": "BigMint",
+   "lead": "India: Coated flat steel prices ease further; weak retail offtake weighs on market &nbsp;&nbsp; BigMint"
+  },
   {
    "anahtar": "piyasa:3c18cdf17b1c89f3",
    "tarih": "2026-11-19",
@@ -739,14 +721,6 @@
    "url": "https://www.bigmint.co/insights/detail/eu-imposes-anti-dumping-duties-on-cold-rolled-steel-imports-from-five-countries-809037",
    "kaynak": "Bing News",
    "lead": "hidden Disclaimer: BigMint Technologies Private Limited has taken due care and caution in compilation of content for its web site. Information is just for reference not intended for trading purpose or ..."
-  },
-  {
-   "anahtar": "piyasa:6e21a1f75683a0b2",
-   "tarih": "2026-11-18",
-   "baslik": "Vietnam considers coated steel anti-dumping duty review",
-   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/vietnam-considers-review-of-coated-steel-anti-dumping-1126/",
-   "kaynak": "Kallanish",
-   "lead": "Vietnam’s Trade Remedies Authority (TRAV) has accepted a valid application to review the product scope of..."
   },
   {
    "anahtar": "piyasa:c67a92c697709854",
@@ -765,28 +739,12 @@
    "lead": "The European Union has imposed anti-dumping duties of up to 27.9% on cold-rolled steel from India, Japan, Taiwan, Turkey and Vietnam. The decision was made following an investigation that found these ..."
   },
   {
-   "anahtar": "piyasa:a204f74232f7e2b9",
-   "tarih": "2026-11-17",
-   "baslik": "EU imposes AD duties on cold-rolled steel imports from 5 countries",
-   "url": "https://www.yieh.com/en/News/eu-imposes-ad-duties-on-cold-rolled-steel-imports-from-5-countries/163429",
-   "kaynak": "Bing News",
-   "lead": "The European Union (EU) began imposing definitive anti-dumping (AD) duties on certain cold-rolled flat steel products imported from India, Japan, Taiwan, Turkey, and Vietnam, effective November 17, ..."
-  },
-  {
-   "anahtar": "piyasa:1765ac6dbaeb05cf",
+   "anahtar": "piyasa:7893ef1245c7ae15",
    "tarih": "2026-11-16",
-   "baslik": "AB'den Türkiye ve diğer 4 ülkeye yassı çelik anti-damping vergisi",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPbGlHWWZQWkE5SUQwNm9WWUo5OW9KZFlBWmg3d2hVTFRsZWdxR2hGcjZKZHFqbXh3cDZNdUk2M1pkU2VzU0tJZ1JJMDRjZk1oalRTMEdDWk5McG1Ga19zNldzZ1dLRWVSLU8tQkxrRHVQZlhmVmI3MWJTanNScnhmbk9pblVwcklGWmEydDh5d0ZleHFyTU9vbWZ2NGQwclVRU1JR?oc=5",
-   "kaynak": "Bloomberght",
-   "lead": "AB'den Türkiye ve diğer 4 ülkeye yassı çelik anti-damping vergisi &nbsp;&nbsp; Bloomberght"
-  },
-  {
-   "anahtar": "piyasa:e2ecfb5deeda9fec",
-   "tarih": "2026-11-16",
-   "baslik": "EU to impose tariffs on cold-rolled flat steel from five countries",
-   "url": "https://www.msn.com/en-us/money/economy/eu-to-impose-tariffs-on-cold-rolled-flat-steel-from-five-countries/ar-AA2hyp7M",
+   "baslik": "EU imposes 9.5% anti-dumping duty on cold-rolled steel imports from India",
+   "url": "https://www.financialexpress.com/policy/economy/eu-imposes-9-5-anti-dumping-duty-on-cold-rolled-steel-imports-from-india/4386089/",
    "kaynak": "Bing News",
-   "lead": "By Philip Blenkinsop BRUSSELS, Nov 16 (Reuters) - The EU is imposing tariffs of up to 27.9% on cold-rolled flat steel products from India, Japan, Taiwan, Turkey and Vietnam after finding they were ..."
+   "lead": "India faces a 9.5% anti-dumping duty on cold-rolled flat steel exports to the EU after the European Commission's decision, with Japan, Taiwan, Turkey, and Vietnam also assigned varying duty rates."
   },
   {
    "anahtar": "piyasa:26b39c0474ddeeba",
@@ -797,12 +755,12 @@
    "lead": "The definitive duties are 9.5% for India, 27.9% for Japan, 20.7-27% for Taiwan, 3-7.8% for Turkey and 16% for Vietnam. Imposition of the duties followed an investigation started in September 2025, ..."
   },
   {
-   "anahtar": "piyasa:7893ef1245c7ae15",
+   "anahtar": "piyasa:e2ecfb5deeda9fec",
    "tarih": "2026-11-16",
-   "baslik": "EU imposes 9.5% anti-dumping duty on cold-rolled steel imports from India",
-   "url": "https://www.financialexpress.com/policy/economy/eu-imposes-9-5-anti-dumping-duty-on-cold-rolled-steel-imports-from-india/4386089/",
+   "baslik": "EU to impose tariffs on cold-rolled flat steel from five countries",
+   "url": "https://www.msn.com/en-us/money/economy/eu-to-impose-tariffs-on-cold-rolled-flat-steel-from-five-countries/ar-AA2hyp7M",
    "kaynak": "Bing News",
-   "lead": "India faces a 9.5% anti-dumping duty on cold-rolled flat steel exports to the EU after the European Commission's decision, with Japan, Taiwan, Turkey, and Vietnam also assigned varying duty rates."
+   "lead": "By Philip Blenkinsop BRUSSELS, Nov 16 (Reuters) - The EU is imposing tariffs of up to 27.9% on cold-rolled flat steel products from India, Japan, Taiwan, Turkey and Vietnam after finding they were ..."
   },
   {
    "anahtar": "piyasa:8cac302e9f366d14",
@@ -811,6 +769,14 @@
    "url": "https://finance.biggo.com/news/fd0ab262-1f7c-419d-b468-8e039b5aeccc",
    "kaynak": "Bing News",
    "lead": "The European Commission announced on the 16th that it will impose anti-dumping duties on cold-rolled steel sheet from Japan and four other ..."
+  },
+  {
+   "anahtar": "piyasa:6e21a1f75683a0b2",
+   "tarih": "2026-11-15",
+   "baslik": "Vietnam considers coated steel anti-dumping duty review",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/vietnam-considers-review-of-coated-steel-anti-dumping-1126/",
+   "kaynak": "Bing News",
+   "lead": "Vietnam’s Trade Remedies Authority (TRAV) has accepted a valid application ..."
   },
   {
    "anahtar": "piyasa:8ed1e5cf759d4884",
@@ -829,6 +795,14 @@
    "lead": "Since 2016, the United States has imposed antidumping (AD) duties on cold-rolled steel flat products from South Korea. The margin for POSCO, South Korea's largest producer, has fallen from 6.32% in ..."
   },
   {
+   "anahtar": "piyasa:327ed4eb5fe065bc",
+   "tarih": "2026-11-10",
+   "baslik": "Anti-dumping duty on electrical steel may push transformer costs, impact grid expansion: GTRI",
+   "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQNm5mM29KSU5ad1BKNFdUT0Y2dlNVXzNZYXJtbHBDVkhUNFRKZk9XOVlQbTV6b1g3eHJKa0ZmdjA4Z3NLLUIwNjNiOEtZeGNzWmVlVUctTm9DRTZ3Q0J3RHZqS3lsR18xcjVXeUlMOWdCMkk1eU9EcU1VbmpBMXJJTHU3Zm9SOTNXdGZiTTlDX1JWYUFVV2s4bmgxY0tIamJKaWdqV09iUzk3WWZKU2Z0bHo2LXZfTmp0RUlKTl9ONlJyVFAySUZxb3p4a2pwclRKUlNOZFB6RWdtU0x2MEZVVjc2dHIwbnRLRkxRUm5uZDRIOWF3SW5wTS1ITjEwM1hsUThz0gH-AUFVX3lxTE1UQlAwcWxteTkzcGtHUktUSDhzRzM0R01SazRaR2cwRjFHX19KQkNHQjNsek55SnBRcUc5NHBwZ2ZLNXF1MFBTNTRtN1Y0dmowRk5JMGExY2RmLVhYWGFyOWRvMm8xNjZ0Ym1nUUZrQmN1V05mVy1CZDB1UmxyVVZRTkswT0xpWE0wRUxSME9jQVNMQUhLal9PcnVncW5rTnFpelJGdHBsSjRhYXpMcUFNOF9zMHpzTi1qWUhNeDBjUWstSUxQLW9FcFMzR1pEX3ExZjExVFdKUk5NT09IMEFVVW1HR1pWT0dHUHRpQThNYlNxSC1OR2p5ZmxJNG1R?oc=5",
+   "kaynak": "ET Manufacturing",
+   "lead": "Anti-dumping duty on electrical steel may push transformer costs, impact grid expansion: GTRI &nbsp;&nbsp; ET Manufacturing"
+  },
+  {
    "anahtar": "piyasa:c63a7f950e471960",
    "tarih": "2026-11-08",
    "baslik": "AI Is Queued Behind an Electrical Steel Transformer Shortage",
@@ -843,25 +817,17 @@
    "url": "https://www.kallanish.com/en/news/steel/market-reports/rfp-article-details/thailand-levies-ad-tinplate-tin-free-sheet-1126/",
    "kaynak": "Bing News",
    "lead": "Thailand has imposed anti-dumping duties on tinplate and tin-free steel, ..."
-  },
-  {
-   "anahtar": "piyasa:1df6498ceaade832",
-   "tarih": "2026-11-05",
-   "baslik": "Türkiye’s flat steel market: Galvanized prices increased, HRC and CRC remain stable | 5 November 2026",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPLWhLdXhURFp3NGZTZVRWT05xTVZtZDVRN016NXg1ajlreWJlZHBlNk9valE5ZTRWSnpzbUNsR3V1QjJJdm80UVRqdHhoYlYxUEtUMlVrQ191TDVBY0JXMEVDdVoybkdFMGIzbE5lRDY2SHZvcUszb1hjSkFIQTdHSzJCZGkwZFNEM2VOdHdxbEZZTV9EMkdPdjF0OGNqOUdYMV84TkcxRmFZSEZyVWRaYUtHVWktV0RoOV9zQ1pHbGtSNUJGUzV1UDBMZ3RkZw?oc=5",
-   "kaynak": "SteelRadar",
-   "lead": "Türkiye’s flat steel market: Galvanized prices increased, HRC and CRC remain stable | 5 November 2026 &nbsp;&nbsp; SteelRadar"
   }
  ],
  "window": [
-  "2026-11-01",
-  "2026-11-22"
+  "2026-11-02",
+  "2026-11-23"
  ],
- "bulunan_kullanilan": 1,
- "bulunan_havuz": 7,
+ "bulunan_kullanilan": 3,
+ "bulunan_havuz": 5,
  "rezerv_kullanilan": 0,
- "rezerv_havuz": 94,
- "period": "2026-W47",
- "generated": "2026-11-22 11:31 UTC",
+ "rezerv_havuz": 98,
+ "period": "2026-W48",
+ "generated": "2026-11-23 12:46 UTC",
  "version": "3.0.0"
 }
