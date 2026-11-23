@@ -3088,6 +3088,24 @@
     "tekrar": 53
    },
    "uretim": "2026-11-23 07:41 UTC"
+  },
+  {
+   "donem": "2026-W48",
+   "satir": 6,
+   "stats": {
+    "erisilemeyen": 47,
+    "gnews_tarih": 0,
+    "ham": 3982,
+    "kabul": 3,
+    "kapsam_disi": 3597,
+    "kaynak": 369,
+    "makale_acildi": 220,
+    "on_eleme_gecti": 385,
+    "pencere_disi": 236,
+    "tarihsiz_elendi": 88,
+    "tekrar": 48
+   },
+   "uretim": "2026-11-23 09:32 UTC"
   }
  ],
  "piyasa_gonderilen": [
@@ -3133,6 +3151,22 @@
   }
  ],
  "piyasa_rezerv": [
+  {
+   "anahtar": "piyasa:ec8f87f715216171",
+   "baslik": "ArcelorMittal raises flat steel prices in Europe",
+   "kaynak": "Bing News",
+   "lead": "ArcelorMittal has announced another increase in its coil prices on the European market. The main drivers behind the price revision are rising energy costs and a gradual recovery in demand, reports ...",
+   "tarih": "2026-11-23",
+   "url": "https://gmk.center/en/news/arcelormittal-raises-flat-steel-prices-in-europe/"
+  },
+  {
+   "anahtar": "piyasa:4e2f1eba8ae250d9",
+   "baslik": "[SMM Analysis] China’s Galvanized Steel Exports Fall 16% MoM in October",
+   "kaynak": "Bing News",
+   "lead": "According to the latest customs data, China exported 997,300 mt of galvanized steel sheets in October 2026, down 16.35% month-on-month (MoM) and 23.25% year-on-year (YoY). From January to ...",
+   "tarih": "2026-11-22",
+   "url": "https://news.metal.com/fr/newscontent/Z42BMKPFRZZ52EEUD7CCUQSXOZZKWLK6JV4W3OY-smm-analysis-chinas-galvanized-steel-exports-fall-16-mom-in-october"
+  },
   {
    "anahtar": "piyasa:4bcef1cdf55e9355",
    "baslik": "Brazil's flat steel exports rebound in October",

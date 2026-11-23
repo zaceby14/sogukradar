@@ -16,7 +16,7 @@
    },
    {
     "baslik": "(teknoloji kosesi)",
-    "neden": "kaynakta olmayan ozel ad: Al-Zn"
+    "neden": "kaynakta olmayan ozel ad: Volkswagen"
    }
   ],
   "cumle_llm": 3,
@@ -29,13 +29,17 @@
    "neden": "daha once gonderilmis (baska bolumde/yayinda)"
   },
   {
+   "baslik": "[SMM Analysis] China’s Galvanized Steel Exports Fall 16% MoM in October",
+   "neden": "baglanti: sayfa baska icerik gosteriyor (ortak sozcuk 1/6)"
+  },
+  {
    "baslik": "【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】",
    "neden": "Cince baslik, firma/hat okunamadi (tekrar denetlenemez)"
   }
  ],
  "baglanti_dogrulanamayan": [],
  "email": "/home/runner/work/sogukradar/sogukradar/out/email.html",
- "uretildi": "2026-11-23T07:42:53.784079Z",
+ "uretildi": "2026-11-23T09:36:58.869739Z",
  "basliklar": [
   "Açılışından önce, Nam Kim Phu My Çelik Sac Fabrikası, piyasanın çeşitli malzeme ihtiyaçlar",
   "Gopani Industries Successfully Rolls First Prime Coil from New Cold Rolling Mill",
