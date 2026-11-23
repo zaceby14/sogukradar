@@ -262,7 +262,7 @@ def _dmy(iso):
         return iso
 
 
-ABONELIK = re.compile(r"kallanish\.com|fastmarkets\.com|argusmedia\.com|spglobal\.com|mysteel\.net|metalexpert", re.I)
+from .taxonomy import ABONELIK  # noqa: E402
 
 
 def _kaynak_adi(m):

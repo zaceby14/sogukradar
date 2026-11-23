@@ -176,9 +176,13 @@ def kumele(rows):
         # YAYINCI LINKI TERCIH EDILIR (2026-11-02): temsilcinin adresi Google/
         # Bing yonlendirmesiyse ve kumede yayincinin kendi adresi varsa o
         # kullanilir. Okuyucu yonlendirme linkini dogrulayamaz, sistem de acamaz.
-        if _toplayici(temsilci.get("url")):
+        # ACIK ERISIM TERCIH EDILIR (2026-11-23): temsilci abonelik duvarliysa
+        # (Kallanish vb.) ve kumede ayni haberin acik bir yayini varsa o kullanilir.
+        def _kapali(u):
+            return _toplayici(u) or bool(taxonomy.ABONELIK.search(u or ""))
+        if _kapali(temsilci.get("url")):
             for m in sorted(k, key=_puan, reverse=True):
-                if m.get("url") and not _toplayici(m.get("url")):
+                if m.get("url") and not _kapali(m.get("url")):
                     temsilci["url"] = m["url"]
                     if m.get("kaynak") and m["kaynak"] not in ("Bing News", "Google News"):
                         temsilci["kaynak"] = m["kaynak"]

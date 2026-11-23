@@ -154,7 +154,7 @@ def ayni_piyasa_haberi(a, b):
 
 _ONLEM_FIIL = re.compile(r"\b(imposes?|imposed|levies|levied|adopts?|confirms?|extends?|launch(es)?|opens?|"
                          r"initiates?|recommends?|uygula|getirdi|baslatti)\b")
-_ABONELIK = re.compile(r"kallanish\.com|fastmarkets\.com|argusmedia\.com|spglobal\.com|mysteel\.net")
+_ABONELIK = taxonomy.ABONELIK
 
 
 def kaynak_degeri(m):

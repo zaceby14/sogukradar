@@ -1394,6 +1394,13 @@ def watch_worthy(title):
 TOPLAYICI = re.compile(r"news\.google\.|/rss/articles/|bing\.com|msn\.com|yahoo\.com|"
                        r"newsbreak|flipboard|feedly|inoreader")
 
+# ABONELIK DUVARLI YAYINCILAR (2026-11-23, kullanici: "icerikleri gizli"):
+# kaynak olarak KALIR (baska yerde cikmayan haberleri getiriyor) ama ayni
+# haberin acik bir yayindaki hali varsa link oraya verilir; yoksa postada
+# "(abonelik gerekebilir)" notu dusulur.
+ABONELIK = re.compile(r"kallanish\.com|fastmarkets\.com|argusmedia\.com|spglobal\.com|"
+                      r"mysteel\.net|metalexpert|steelfirst|metalbulletin", re.I)
+
 SPAM_PUBLISHER = re.compile(
     r"(openpr|prnewswire|einpresswire|globenewswire|marketwatch|"
     r"researchandmarkets|imarcgroup|marketsandmarkets|expertmarketresearch|"

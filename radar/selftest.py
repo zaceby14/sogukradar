@@ -3892,6 +3892,14 @@ def test_kurul2_deneme_incelemesi():
                               "2026-10-06", "Sozlesme", gond2), True, "asamasi bilinmeyen gonderilmis haber karsisinda istisna yok")
     eq(cli.gonderilmis_tekrar("POSCO to Build State-of-the-Art Galvanized Automotive Steel Sheet Plant", "2026-09-21",
                               "Teknoloji", gond2), True, "POSCO ayni proje: Teknoloji ilerleme degil")
+    from . import kume as _k
+    a = {"anahtar": "k1", "baslik": "Zhejiang Hengfeng hot tests cold rolling mill", "firma": "Zhejiang Hengfeng",
+         "hat": "Soguk hadde", "asama": "Test", "tarih": "2026-11-12", "puan": 60, "kaynak": "Kallanish",
+         "url": "https://www.kallanish.com/en/news/x-1126/"}
+    b = dict(a, anahtar="k2", baslik="Zhejiang Hengfeng starts hot testing of new cold rolling mill", puan=40,
+             kaynak="SteelOrbis", url="https://www.steelorbis.com/steel-news/hengfeng-1.htm")
+    tems, _n = _k.kumele([a, b])
+    eq(tems[0]["url"], b["url"], "kumede acik erisimli yayin varsa link oraya verilir")
     # 6) BELIRSIZ rozeti gosterilmez
     eq("BELİRSİZ" in render._badge("Belirsiz"), True, "rozet fonksiyonu degismedi")
     # 7) dogrulanmayan piyasa maddesi Ingilizce basligiyla gitmez (yeterli Turkce varsa)
