@@ -2,6 +2,33 @@
  "donem": "2026-W48",
  "rows": [
   {
+   "anahtar": "2d3e6e9aaab16dba",
+   "asama": "Modernizasyon",
+   "baslik": "Modernización de 3 mil millones de dólares de Gary Works de U.S. Steel vinculada a la propuesta de acuerdo de desarrollo urbano",
+   "eksik": [
+    "hat"
+   ],
+   "firma": "Modernización",
+   "hat": "Belirsiz",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgx_q_es1",
+   "lead": "Gary officials announced on Tuesday a proposed economic development agreement with U.S. Steel tied to the company's $3 billion modernization investment in the Gary Works steel mill. The ...",
+   "olaylar": [
+    "modernizacion|fu|ABD|Belirsiz",
+    "modernizacion|hat|Belirsiz|Modernizasyon",
+    "modernizacion|ulke|ABD|Modernizasyon"
+   ],
+   "puan": 54.0,
+   "tarih": "2026-11-23",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "$3 billion",
+   "ulke": "ABD",
+   "url": "https://news.metal.com/es/newscontent/23GGUQHCBR4G53CLBOUSAWKIYR764W55TRMJOVI-modernizaci%C3%B3n-de-3-mil-millones-de-d%C3%B3lares-de-gary-works-de-us-steel-vinculada-a-la-propuesta-de-acuerdo-de-desarrollo-urbano"
+  },
+  {
    "anahtar": "99bcca62027e43fb",
    "asama": "Belirsiz",
    "baslik": "Açılışından önce, Nam Kim Phu My Çelik Sac Fabrikası, piyasanın çeşitli malzeme ihtiyaçlarını karşılamayı hedefliyor.",
@@ -57,42 +84,16 @@
    "tutar": "",
    "ulke": "Hindistan",
    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zb1JoVG1BQ1FSRlp3Qk02Zl9CaTZ3ME9XLTktbW1rcXhBR0pkMDhLOTZfT0V5LWdwcXZScW5rYzFpS1FjVXhhWU53UzNXeHozRTBpWG12T3R0XzdiZ1BIN1hVeVo2VnV4?oc=5"
-  },
-  {
-   "anahtar": "e82b221fc2986888",
-   "asama": "Teknoloji",
-   "baslik": "Turkey's Isdemir develops high-quality steel production for defense industry and electrical steel",
-   "eksik": [],
-   "firma": "Isdemir",
-   "hat": "Elektrik celigi hatti",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "Steel Orbis",
-   "kaynak_id": "gq_hat08",
-   "lead": "Turkey's Isdemir develops high-quality steel production for defense industry and electrical steel &nbsp;&nbsp; Steel Orbis",
-   "olaylar": [
-    "isdemir|fu|Turkiye|Elektrik celigi hatti",
-    "isdemir|hat|Elektrik celigi hatti|Teknoloji",
-    "isdemir|ulke|Turkiye|Teknoloji"
-   ],
-   "rezerv": true,
-   "tarih": "2026-10-05",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "Turkiye",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/turkeys-isdemir-develops-high-quality-steel-production-for-defense-industry-and-electrical-steel-1481490.htm",
-   "url_toplayici": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMW13SGRFangyUGg2dkFBMDJ0aUFSSVljX0gxbXFZMng2OWRYY1hqLThqYVNtaDJzMUlvanBROE02MXZMTktNNG4zU3AzdHZzVUlxRVpXUlZRVzQ0eUhKamhRU2dyMHh4RkdDcGEtYXMzRmQ1eEE5aV9GWTJkZmhCeTZCRzE3ZG5VZS1pdEZnaXBGNzZ1WGl1WUxTeUNIVEY2UzJTN1MtZ0RvbnFNc0NzNUJtWl9YX0J6Y0FMQlh1cTUzRzdMZ3dNbE9zQXU2a1NTVGVUeEwybnR1M2VQcmtaaEFQb2RhWTVSTjdxMXdGRQ?oc=5"
   }
  ],
  "tech": [
   {
-   "anahtar": "tech:f0f98af5520ec280",
-   "tarih": "2026-03-26",
-   "konu": "Tata Netherlands, VW progress in zinc-coated steel research",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNd0R4OFZzbjIwdnlMSUwzLTl5SGIwMGhvdWt4Rk1YSFF0dFhCVU5qV01EZlRUM1NyNk1TZkVLLVBMbnBUaFZOTjI1ck9SSzkzWWNKZU9GeEx3TENwTl9jTWEtQXVEZ0w4TU5TVExUUHNtQlBYS0hmclhfWGJua1NRVTh5bTBUTUxB?oc=5",
-   "kaynak": "EUROMETAL",
-   "metin": "Ayrıntı kaynak bağlantısında."
+   "anahtar": "tech:e82b221fc2986888",
+   "tarih": "2026-10-05",
+   "konu": "Turkey's Isdemir develops high-quality steel production for defense industry and electrical steel",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/turkeys-isdemir-develops-high-quality-steel-production-for-defense-industry-and-electrical-steel-1481490.htm",
+   "kaynak": "Google News",
+   "metin": "İsdemir, savunma sanayisi ve elektrik çeliği üretimine yönelik yüksek kaliteli çelik geliştirme çalışmalarında ilerleme kaydetti."
   }
  ],
  "piyasa": [
@@ -100,21 +101,21 @@
    "anahtar": "piyasa:ec8f87f715216171",
    "tarih": "2026-11-23",
    "baslik": "ArcelorMittal raises flat steel prices in Europe",
-   "metin": "ArcelorMittal, artan enerji maliyetleri ve talepteki kademeli toparlanma gerekçesiyle Avrupa pazarındaki yassı çelik rulo fiyatlarını artırdı.",
+   "metin": "ArcelorMittal, artan enerji maliyetleri ve talepteki kademeli toparlanmayı gerekçe göstererek Avrupa pazarında yassı çelik rulo fiyatlarını yeniden artırdı.",
    "url": "https://gmk.center/en/news/arcelormittal-raises-flat-steel-prices-in-europe/",
    "kaynak": "Bing News",
    "konu": "fiyat",
    "urun": "yassi"
   },
   {
-   "anahtar": "piyasa:738776df9135ecde",
-   "tarih": "2026-11-13",
-   "baslik": "Thailand levies anti-dumping duty on tinplate, tin-free sheet",
-   "metin": "Tayland, rulo ve boy kesilmiş teneke ile kalaysız sac ürünlerine anti-damping vergisi uygulamaya başladı.",
-   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/thailand-levies-ad-tinplate-tin-free-sheet-1126/",
-   "kaynak": "Kallanish",
+   "anahtar": "piyasa:1765ac6dbaeb05cf",
+   "tarih": "2026-11-16",
+   "baslik": "AB'den Türkiye ve diğer 4 ülkeye yassı çelik anti-damping vergisi",
+   "metin": "AB'den Türkiye ve diğer 4 ülkeye yassı çelik anti-damping vergisi",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPbGlHWWZQWkE5SUQwNm9WWUo5OW9KZFlBWmg3d2hVTFRsZWdxR2hGcjZKZHFqbXh3cDZNdUk2M1pkU2VzU0tJZ1JJMDRjZk1oalRTMEdDWk5McG1Ga19zNldzZ1dLRWVSLU8tQkxrRHVQZlhmVmI3MWJTanNScnhmbk9pblVwcklGWmEydDh5d0ZleHFyTU9vbWZ2NGQwclVRU1JR?oc=5",
+   "kaynak": "Bloomberght",
    "konu": "koruma",
-   "urun": "teneke"
+   "urun": "yassi"
   }
  ]
 }
