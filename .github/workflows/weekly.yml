@@ -42,6 +42,8 @@ jobs:
       MAIL_USER: ${{ secrets.MAIL_USER }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - uses: actions/setup-python@v5
         with:
@@ -181,9 +183,12 @@ jobs:
           # Cozum: rebase yok. Index origin/main'e alinir (calisma agacina
           # DOKUNULMAZ), uretilen dosyalar yeniden sahnelenir. Catisma imkansiz,
           # kod dosyalari geri alinmaz cunku yalniz out/ ve state/ sahnelenir.
+          cp state/state.json /tmp/biz_state.json
           for i in 1 2 3; do
             git fetch origin main
             git reset --quiet origin/main
+            git show origin/main:state/state.json > /tmp/uzak_state.json 2>/dev/null || echo '{}' > /tmp/uzak_state.json
+            [ -f /tmp/biz_state.json ] && python3 tools/hafiza_birlestir.py /tmp/biz_state.json /tmp/uzak_state.json state/state.json
             git add out state
             if git diff --staged --quiet; then
               echo "degisiklik yok, commit gerekmedi"

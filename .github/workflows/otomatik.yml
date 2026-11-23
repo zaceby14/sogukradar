@@ -125,7 +125,12 @@ jobs:
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
+      # GUNCEL main (2026-11-23): checkout varsayilan olarak TETIKLENDIGI andaki
+      # commit'i alir; kuyrukta bekleyen ikinci kosu eski hafizayla baslayip
+      # bulteni ikinci kez gonderdi. Her zaman en guncel main alinir.
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - uses: actions/setup-python@v5
         with:
@@ -240,9 +245,27 @@ jobs:
             exit 1
           fi
 
+      # SON BEKCI (2026-11-23, cift gonderim): postadan HEMEN once uzak depodaki
+      # guncel hafizaya bakilir; bu donem baska bir kosu tarafindan gonderildiyse
+      # posta GITMEZ.
+      - name: Bu hafta zaten gonderildi mi (son bekci)
+        id: bekci
+        if: steps.karar.outputs.gonder == 'true'
+        run: |
+          git fetch -q origin main
+          git show origin/main:state/state.json > /tmp/uzak_state.json || echo '{}' > /tmp/uzak_state.json
+          python3 - <<'PY' >> $GITHUB_OUTPUT
+          import json
+          d = json.load(open("/tmp/uzak_state.json", encoding="utf-8"))
+          donem = "${{ steps.karar.outputs.donem }}"
+          gitti = donem in (d.get("gonderilen_donemler") or [])
+          print("gitti=%s" % str(gitti).lower())
+          PY
+          cat $GITHUB_OUTPUT
+
       - name: E-posta gonder
         id: posta
-        if: steps.karar.outputs.gonder == 'true'
+        if: steps.karar.outputs.gonder == 'true' && steps.bekci.outputs.gitti != 'true'
         uses: dawidd6/action-send-mail@v3
         with:
           server_address: smtp.gmail.com
@@ -351,9 +374,13 @@ jobs:
           git config user.email "bot@users.noreply.github.com"
           # Hafiza (state/) kaybolursa ayni haberler bir daha gonderilir; bu
           # yuzden 5 deneme. Yalniz out/ ve state/ sahnelenir (kod geri alinmaz).
+          cp state/state.json /tmp/biz_state.json
           for i in 1 2 3 4 5; do
             git fetch origin main
             git reset --quiet origin/main
+            # HAFIZA BIRLESTIRILIR, UZERINE YAZILMAZ (2026-11-23)
+            git show origin/main:state/state.json > /tmp/uzak_state.json 2>/dev/null || echo '{}' > /tmp/uzak_state.json
+            python3 tools/hafiza_birlestir.py /tmp/biz_state.json /tmp/uzak_state.json state/state.json
             git add out state
             if git diff --staged --quiet; then
               echo "degisiklik yok"

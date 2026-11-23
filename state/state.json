@@ -276,7 +276,8 @@
   "zhejiang hengfeng|hat|Soguk hadde|Test": "2026-11-12",
   "|fu|ABD|Belirsiz": "2026-11-03",
   "|hat|Belirsiz|Sozlesme": "2026-11-03",
-  "|ulke|ABD|Sozlesme": "2026-11-03"
+  "|ulke|ABD|Sozlesme": "2026-11-03",
+  "jtl industries|hat|Asitleme hatti|Belirsiz": "2026-11-11"
  },
  "gb_form_sayac": {
   "0da1cda44c+": 1,
@@ -722,6 +723,25 @@
     "kat:Hat"
    ],
    "t": "2026-11-16"
+  },
+  "d17e30cdbe": {
+   "b": "JTL Industries Advances Maharashtra Expansion with Successful Pickling Line Trial and GP L",
+   "f": [
+    "bolum:haber",
+    "hat:Asitleme hatti",
+    "kaynak:Machine Maker",
+    "kat:Yatirim"
+   ],
+   "t": "2026-11-23"
+  },
+  "dfbb6af593": {
+   "b": "",
+   "f": [
+    "bolum:teknoloji",
+    "kaynak:SteelOrbis",
+    "konu:Vietnam's Hoa Sen launches new alloy-coated steel with enhanced corrosion resistance"
+   ],
+   "t": "2026-11-23"
   }
  },
  "periods": [
@@ -2993,6 +3013,24 @@
     "tekrar": 44
    },
    "uretim": "2026-11-23 04:48 UTC"
+  },
+  {
+   "donem": "2026-W48",
+   "satir": 6,
+   "stats": {
+    "erisilemeyen": 129,
+    "gnews_tarih": 0,
+    "ham": 3514,
+    "kabul": 7,
+    "kapsam_disi": 3209,
+    "kaynak": 369,
+    "makale_acildi": 220,
+    "on_eleme_gecti": 325,
+    "pencere_disi": 181,
+    "tarihsiz_elendi": 86,
+    "tekrar": 24
+   },
+   "uretim": "2026-11-23 00:03 UTC"
   }
  ],
  "piyasa_gonderilen": [
@@ -5648,7 +5686,8 @@
   "953d55052b959bff": "2026-11-05",
   "d083fd260733cebf": "2026-11-04",
   "d8b7fc40d787a676": "2026-11-19",
-  "f4884c93e0340d67": "2026-11-10"
+  "f4884c93e0340d67": "2026-11-10",
+  "f4b0b6572835e0a6": "2026-11-11"
  },
  "son_basliklar": [
   {
@@ -5818,6 +5857,13 @@
    "t": "2026-11-13",
    "ted": "",
    "u": "Hindistan"
+  },
+  {
+   "a": "Belirsiz",
+   "b": "JTL Industries Advances Maharashtra Expansion with Successful Pickling Line Trial and GP Line Testing",
+   "t": "2026-11-11",
+   "ted": "",
+   "u": ""
   }
  ],
  "source_health": {},
@@ -5837,6 +5883,10 @@
   {
    "b": "KG Steel pushes to expand AI usage rate at annealing furnace to over 80%",
    "t": "2026-10-14"
+  },
+  {
+   "b": "Vietnam's Hoa Sen launches new alloy-coated steel with enhanced corrosion resistance",
+   "t": "2026-08-20"
   }
  ],
  "tech_rezerv": [
@@ -6148,7 +6198,8 @@
  "tech_seen": {
   "tech:28459cdd0c32da5c": "2026-08-12",
   "tech:3eff151da8f30d87": "2026-11-12",
-  "tech:f809e9cc4543b4aa": "2026-10-14"
+  "tech:f809e9cc4543b4aa": "2026-10-14",
+  "tech:8384bd252bd440d2": "2026-08-20"
  },
  "tercih": {
   "asama:Ilk urun": 1,
