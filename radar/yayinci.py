@@ -76,3 +76,57 @@ def degistir(maddeler, alan="baslik", log=print, fetch=None):
         else:
             log("  yayinci adresi bulunamadi (Google News adresi kalir): %s" % b[:60])
     return n
+
+
+def acik_kopya(r, fetch=None):
+    """ABONELIK DUVARLI satirin ACIK bir yayindaki kopyasini arar (2026-11-23,
+    kullanici: Kallanish icerigi gizli). Firma adi + hat terimi Bing News RSS'te
+    aranir; YALNIZ basliginda ayni firma ve ayni hat turu gecen, tarihi 7 gun
+    icinde olan, toplayici/abonelikli olmayan sonuc kabul edilir. Bulunamazsa None."""
+    import datetime as dt
+    from .collect import temiz_adres
+    from . import dates
+    fetch = fetch or http.fetch
+    firma = (r.get("firma") or "").strip()
+    hatlar = taxonomy.match_lines(r.get("baslik", ""))
+    if len(firma) < 3 or not hatlar:
+        return None
+    u = ("https://www.bing.com/news/search?q=" + _up.quote('"%s"' % firma)
+         + "&format=RSS&setmkt=en-US")
+    try:
+        ok, page, _ = fetch(u)
+    except Exception:
+        return None
+    if not ok or not page:
+        return None
+    try:
+        t0 = dt.date.fromisoformat((r.get("tarih") or "")[:10])
+    except ValueError:
+        return None
+    ff = taxonomy.fold(firma)
+    for it in feeds.parse_feed(page):
+        adres = temiz_adres(it.get("url", ""))
+        bas = it.get("title", "")
+        if not adres.startswith("http") or taxonomy.TOPLAYICI.search(adres) or taxonomy.ABONELIK.search(adres):
+            continue
+        if ff not in taxonomy.fold(bas) or not (taxonomy.match_lines(bas) & hatlar):
+            continue
+        d = dates.parse_date_text(it.get("date_raw", ""), True, dt.date.today())
+        if not d or abs((dt.date.fromisoformat(d) - t0).days) > 7:
+            continue
+        return adres, bas
+    return None
+
+
+def acik_kopyaya_gec(rows, log=print, fetch=None):
+    n = 0
+    for r in rows or []:
+        if not taxonomy.ABONELIK.search(r.get("url") or ""):
+            continue
+        k = acik_kopya(r, fetch=fetch)
+        if k:
+            r["url_abonelik"] = r["url"]
+            r["url"] = k[0]
+            n += 1
+            log("  acik kopya bulundu: %s -> %s" % (r.get("baslik", "")[:50], k[0][:80]))
+    return n

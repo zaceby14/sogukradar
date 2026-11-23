@@ -1132,6 +1132,7 @@ def cmd_otomatik(a):
         # yayinciya gider ve baglanti dogrulamasi bu satirlari da acabilir.
         from . import yayinci
         yayinci.degistir(payload["rows"])
+        yayinci.acik_kopyaya_gec(payload["rows"])
         payload["rows"], bg_elenen, bg_belirsiz = baglanti.dogrula(payload["rows"])
         elenen += bg_elenen
     else:

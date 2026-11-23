@@ -1,0 +1,68 @@
+name: SogukRadar bulteni yeniden gonder
+
+# Gonderilmis bir haftanin bultenini GUNCEL kodla yeniden uretip alicilara yollar.
+# Tarama YAPILMAZ (ayni haftanin hafta_<donem>.json dosyasi kullanilir).
+# Hafiza o haftanin gonderiminden ONCEKI haliyle okunur ve SONRA COMMIT EDILMEZ:
+# hicbir sey "gonderildi" olarak yeniden islenmez, sonraki haftalar etkilenmez.
+on:
+  workflow_dispatch:
+    inputs:
+      donem:
+        description: "Donem (orn. 2026-W48)"
+        required: true
+      bugun:
+        description: "O haftanin Pazartesi tarihi (YYYY-MM-DD)"
+        required: true
+
+jobs:
+  gonder:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Gonderim oncesi hafizayi geri yukle (yalniz bu kosu icin)
+        run: |
+          C=$(git log --format=%H --grep="otomatik bulten ${{ github.event.inputs.donem }}" -n 1)
+          test -n "$C" || { echo "donem gonderim commit'i bulunamadi"; exit 1; }
+          git show "$C~1:state/state.json" > state/state.json
+          echo "hafiza $C~1 halinden yuklendi"
+      - name: Bulteni yeniden uret
+        id: karar
+        run: |
+          python -m radar otomatik --deneme --today "${{ github.event.inputs.bugun }}"
+          python - <<'PY' >> $GITHUB_OUTPUT
+          import json
+          k = json.load(open("out/karar.json", encoding="utf-8"))
+          print("donem=%s" % k["donem"])
+          print("satir=%s" % k["satir"])
+          PY
+          echo "etiket=$(TZ=Europe/Istanbul date +'%d.%m.%Y')" >> $GITHUB_OUTPUT
+      - name: Gonder
+        if: steps.karar.outputs.satir != '0'
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.MAIL_USER }}
+          password: ${{ secrets.MAIL_PASS }}
+          subject: "Soguk Haddehane ve Nihai Hatlarda Sektor & Teknoloji Takibi — ${{ steps.karar.outputs.donem }} (${{ steps.karar.outputs.etiket }})"
+          to: ${{ secrets.MAIL_TO }}
+          from: SogukRadar Bulten <${{ secrets.MAIL_USER }}>
+          html_body: file://out/deneme_email.html
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: yeniden-gonderim
+          path: |
+            out/deneme_email.html
+            out/karar.json
+            out/karar_satirlar.json

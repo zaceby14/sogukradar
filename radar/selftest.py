@@ -3900,6 +3900,17 @@ def test_kurul2_deneme_incelemesi():
              kaynak="SteelOrbis", url="https://www.steelorbis.com/steel-news/hengfeng-1.htm")
     tems, _n = _k.kumele([a, b])
     eq(tems[0]["url"], b["url"], "kumede acik erisimli yayin varsa link oraya verilir")
+    from . import yayinci as _y
+    rss2 = ('<rss><channel><item><title>Zhejiang Hengfeng begins hot testing at new cold rolling mill</title>'
+            '<link>http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;url=https%3a%2f%2fwww.acik.example%2fhengfeng&amp;c=1</link>'
+            '<pubDate>Thu, 13 Nov 2026 08:00:00 GMT</pubDate></item>'
+            '<item><title>Zhejiang Hengfeng posts quarterly profit</title><link>https://b.example/x</link>'
+            '<pubDate>Thu, 13 Nov 2026 08:00:00 GMT</pubDate></item></channel></rss>')
+    rr = [{"baslik": "Zhejiang Hengfeng hot tests cold rolling mill", "firma": "Zhejiang Hengfeng", "tarih": "2026-11-12",
+           "url": "https://www.kallanish.com/en/news/steel/x-1126/"}]
+    eq(_y.acik_kopyaya_gec(rr, log=lambda *a: None, fetch=lambda u, use_cache=True: (True, rss2, {})), 1,
+       "abonelikli satirin acik kopyasi bulunur")
+    eq(rr[0]["url"], "https://www.acik.example/hengfeng", "link acik kopyaya gecer (firma + ayni hat + 7 gun)")
     # 6) BELIRSIZ rozeti gosterilmez
     eq("BELİRSİZ" in render._badge("Belirsiz"), True, "rozet fonksiyonu degismedi")
     # 7) dogrulanmayan piyasa maddesi Ingilizce basligiyla gitmez (yeterli Turkce varsa)
