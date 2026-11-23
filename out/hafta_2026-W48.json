@@ -1,31 +1,6 @@
 {
  "rows": [
   {
-   "tarih": "2026-11-15",
-   "firma": "Kirac Galvaniz stock after company",
-   "ulke": "Turkiye",
-   "hat": "Galvaniz hatti (CGL)",
-   "asama": "Sozlesme",
-   "tedarikci": "",
-   "kapasite": "",
-   "tutar": "",
-   "baslik": "Kirac Galvaniz stock after company wins TRY 173 million tender",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgpy_turkiye",
-   "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/kirac-galvaniz-stock-after-company-wins-try-173-million-tender/70518469",
-   "tarih_kaynagi": "rss",
-   "lead": "Kirac Galvaniz said on Thursday, November 12, that it had won a steel road-barrier tender from Turkey's 4th Regional Directorate of Highways. The award covers various sections of the authority's road ...",
-   "eksik": [],
-   "anahtar": "0270c208d71bc272",
-   "kategori": "Hat",
-   "olaylar": [
-    "kirac galvaniz stock after company|fu|Turkiye|Galvaniz hatti (CGL)",
-    "kirac galvaniz stock after company|hat|Galvaniz hatti (CGL)|Sozlesme",
-    "kirac galvaniz stock after company|ulke|Turkiye|Sozlesme"
-   ],
-   "puan": 75.8
-  },
-  {
    "anahtar": "99bcca62027e43fb",
    "asama": "Belirsiz",
    "baslik": "Açılışından önce, Nam Kim Phu My Çelik Sac Fabrikası, piyasanın çeşitli malzeme ihtiyaçlarını karşılamayı hedefliyor.",
@@ -52,6 +27,31 @@
    "tutar": "",
    "ulke": "Vietnam",
    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxORUtuZ0VkOGlfQkNpM2dBSkJWU0NqR1ZjMFNqVmFCR3JxUjluODVRMEcyN3liaWpMcm9EVl9qRk4xRDM1QnVHcnJsLVVBZlhKY3o3clUyNDctUXZZWHctcTFWdGIzZFFlU0FyUHRhVVpkd3dETkFvcWV1TTRqR0g0WWYzd2NDb0FENi0zU1NvU2JwMWg1RHg4VzYtUnRudE1FMElWNEhzRmNTNlVGRHRLY1pyWUpWLVp5d18za1VlZ0g2UDg?oc=5"
+  },
+  {
+   "anahtar": "0270c208d71bc272",
+   "asama": "Sozlesme",
+   "baslik": "Kirac Galvaniz stock after company wins TRY 173 million tender",
+   "eksik": [],
+   "firma": "Kirac Galvaniz stock after company",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgpy_turkiye",
+   "lead": "Kirac Galvaniz said on Thursday, November 12, that it had won a steel road-barrier tender from Turkey's 4th Regional Directorate of Highways. The award covers various sections of the authority's road ...",
+   "olaylar": [
+    "kirac galvaniz stock after company|fu|Turkiye|Galvaniz hatti (CGL)",
+    "kirac galvaniz stock after company|hat|Galvaniz hatti (CGL)|Sozlesme",
+    "kirac galvaniz stock after company|ulke|Turkiye|Sozlesme"
+   ],
+   "puan": 75.8,
+   "tarih": "2026-11-15",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Turkiye",
+   "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/kirac-galvaniz-stock-after-company-wins-try-173-million-tender/70518469"
   },
   {
    "anahtar": "90e30cb4756c40e2",
@@ -160,15 +160,15 @@
  ],
  "stats": {
   "kaynak": 369,
-  "erisilemeyen": 47,
-  "ham": 3982,
-  "on_eleme_gecti": 385,
+  "erisilemeyen": 111,
+  "ham": 3590,
+  "on_eleme_gecti": 342,
   "makale_acildi": 220,
-  "tarihsiz_elendi": 88,
-  "pencere_disi": 236,
-  "kapsam_disi": 3597,
-  "tekrar": 48,
-  "kabul": 3,
+  "tarihsiz_elendi": 86,
+  "pencere_disi": 179,
+  "kapsam_disi": 3279,
+  "tekrar": 33,
+  "kabul": 2,
   "gnews_tarih": 0
  },
  "unreachable": [
@@ -195,6 +195,262 @@
   [
    "Google News",
    "HTTP 429"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
+  ],
+  [
+   "Google News",
+   "host sogutmada"
   ],
   [
    "Google News",
@@ -740,7 +996,7 @@
    "sogutmada": false
   },
   "news.google.com": {
-   "istek": 109,
+   "istek": 34,
    "hiz_siniri": 2,
    "sogutmada": true
   },
@@ -752,17 +1008,17 @@
   "new.abb.com": {
    "istek": 3,
    "hiz_siniri": 2,
-   "sogutmada": false
+   "sogutmada": true
   },
   "www.cognex.com": {
    "istek": 2,
    "hiz_siniri": 2,
-   "sogutmada": false
+   "sogutmada": true
   }
  },
  "tech_pool": [],
  "kaynak_katki": {
-  "Bing News": 3
+  "Bing News": 2
  },
  "piyasa_pool": [
   {
@@ -777,17 +1033,9 @@
    "anahtar": "piyasa:4e2f1eba8ae250d9",
    "tarih": "2026-11-22",
    "baslik": "[SMM Analysis] China’s Galvanized Steel Exports Fall 16% MoM in October",
-   "url": "https://news.metal.com/fr/newscontent/Z42BMKPFRZZ52EEUD7CCUQSXOZZKWLK6JV4W3OY-smm-analysis-chinas-galvanized-steel-exports-fall-16-mom-in-october",
+   "url": "https://news.metal.com/newscontent/Z42BMKPFRZZ52EEUD7CCUQSXOZZKWLK6JV4W3OY-smm-analysis-chinas-galvanized-steel-exports-fall-16-mom-in-october",
    "kaynak": "Bing News",
-   "lead": "According to the latest customs data, China exported 997,300 mt of galvanized steel sheets in October 2026, down 16.35% month-on-month (MoM) and 23.25% year-on-year (YoY). From January to ..."
-  },
-  {
-   "anahtar": "piyasa:92751181f20552b9",
-   "tarih": "2026-11-20",
-   "baslik": "India: Coated flat steel prices ease further; weak retail offtake weighs on market",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQa3Azd0tOU0w4SDMtenNfNEl0d3ZLOXQwcGIzQ2hRTDE1Z2VHVEtLZVlCb1JKU05LZ2FpQnZNZ2p2bHRwdWlDX0cyREZNNU52Rmx4dlJrbmhoNTdhTEVnVFBIWjdYempVbnJCVERLTmtSVWJ5T0VFR1puMHU0UExJMF9yQ3Foa3ZDU193V3ljdDE5ZE9taUdKTHhCTWhielJEZE5vUWJHSTVHclNvVlVtUGpFYUpDVUFyQjRwLWhEYTVmUGsz?oc=5",
-   "kaynak": "BigMint",
-   "lead": "India: Coated flat steel prices ease further; weak retail offtake weighs on market &nbsp;&nbsp; BigMint"
+   "lead": "According to the latest customs data, China exported 997,300 mt of galvanized steel sheets in October 2026, down 16.35% month-on-month (MoM) and 23.25% year-on-year (YoY). From January to October, ..."
   },
   {
    "anahtar": "piyasa:2b94dda1b77028b9",
@@ -806,6 +1054,14 @@
    "lead": "The European Union has imposed anti-dumping duties of up to 27.9% on cold-rolled steel from India, Japan, Taiwan, Turkey and Vietnam. The decision was made following an investigation that found these ..."
   },
   {
+   "anahtar": "piyasa:7893ef1245c7ae15",
+   "tarih": "2026-11-16",
+   "baslik": "EU imposes 9.5% anti-dumping duty on cold-rolled steel imports from India",
+   "url": "https://www.financialexpress.com/policy/economy/eu-imposes-9-5-anti-dumping-duty-on-cold-rolled-steel-imports-from-india/4386089/",
+   "kaynak": "Bing News",
+   "lead": "India faces a 9.5% anti-dumping duty on cold-rolled flat steel exports to the EU after the European Commission's decision, with Japan, Taiwan, Turkey, and Vietnam also assigned varying duty rates."
+  },
+  {
    "anahtar": "piyasa:26b39c0474ddeeba",
    "tarih": "2026-11-16",
    "baslik": "European Commission imposes anti-dumping duties on cold-rolled coil imports from India, Japan, Taiwan, Turkey, Vietnam",
@@ -822,14 +1078,6 @@
    "lead": "By Philip Blenkinsop BRUSSELS, Nov 16 (Reuters) - The EU is imposing tariffs of up to 27.9% on cold-rolled flat steel products from India, Japan, Taiwan, Turkey and Vietnam after finding they were ..."
   },
   {
-   "anahtar": "piyasa:7893ef1245c7ae15",
-   "tarih": "2026-11-16",
-   "baslik": "EU imposes 9.5% anti-dumping duty on cold-rolled steel imports from India",
-   "url": "https://www.financialexpress.com/policy/economy/eu-imposes-9-5-anti-dumping-duty-on-cold-rolled-steel-imports-from-india/4386089/",
-   "kaynak": "Bing News",
-   "lead": "India faces a 9.5% anti-dumping duty on cold-rolled flat steel exports to the EU after the European Commission's decision, with Japan, Taiwan, Turkey, and Vietnam also assigned varying duty rates."
-  },
-  {
    "anahtar": "piyasa:8cac302e9f366d14",
    "tarih": "2026-11-16",
    "baslik": "EU to Impose 27.9% Anti-Dumping Tariff on Japanese Cold-Rolled Steel from Nov. 17",
@@ -844,14 +1092,6 @@
    "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/vietnam-considers-review-of-coated-steel-anti-dumping-1126/",
    "kaynak": "Bing News",
    "lead": "Vietnam’s Trade Remedies Authority (TRAV) has accepted a valid application ..."
-  },
-  {
-   "anahtar": "piyasa:8ed1e5cf759d4884",
-   "tarih": "2026-11-13",
-   "baslik": "İskenderun PS: Türk yassı çelik sektörü AB'nin kota rejimi ve jeopolitik krizlere rağmen esnekliğiyle avantaj sağlayabilir",
-   "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNN3ZnYUk0eFg5RmVFSmxPR05MMkNzMFJZalVNTFlPcTMwUnlsNU5FN0EtcDNmQkJnWmhHMDJWb3JiWHNmdXNvaHQ1ZjdRclIySUduNmtfakhhRWdkNGtGT1BDZjI3Ym1naEJ6V3JHbXN6MDlZTWR4d0U2NGNHbVBnMHgxSjhHdVc5Z0wxam5KLWg1Q2lTNHNZeXFRRFQ3TDZKcjhIdHBLZ2NVS3I1WWQ2ZWNxdnFSd0tCWFlMVXl4MUYzM2NZYTZvUXpFN1JZS3dfX0hzcGFpQVhrZmUzUTNpVU9YQUg2WVdPU0VZRzlVUkdhVDNvWGg4Wl9NbjVRbFdLUWgzeUptZ0g?oc=5",
-   "kaynak": "SteelOrbis",
-   "lead": "İskenderun PS: Türk yassı çelik sektörü AB'nin kota rejimi ve jeopolitik krizlere rağmen esnekliğiyle avantaj sağlayabilir &nbsp;&nbsp; SteelOrbis"
   },
   {
    "anahtar": "piyasa:7c4e44a94dca63cf",
@@ -882,11 +1122,11 @@
   "2026-11-02",
   "2026-11-23"
  ],
- "bulunan_kullanilan": 2,
+ "bulunan_kullanilan": 3,
  "bulunan_havuz": 5,
  "rezerv_kullanilan": 3,
  "rezerv_havuz": 91,
  "period": "2026-W48",
- "generated": "2026-11-23 09:32 UTC",
+ "generated": "2026-11-23 11:37 UTC",
  "version": "3.0.0"
 }
