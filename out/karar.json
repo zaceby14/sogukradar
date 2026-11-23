@@ -1,10 +1,10 @@
 {
  "donem": "2026-W48",
- "gonder": true,
- "atla": false,
- "son_gonderim": "2026-11-16",
+ "gonder": false,
+ "atla": true,
+ "son_gonderim": "2026-11-23",
  "deneme": false,
- "satir": 5,
+ "satir": 3,
  "nedenler": [],
  "yazar": {
   "saglayici": "gemini",
@@ -13,13 +13,21 @@
    {
     "baslik": "(piyasa) AB'den Türkiye ve diğer 4 ülkeye yassı çelik anti-damping ve",
     "neden": "kaynakta olmayan ulke: Birliği"
+   },
+   {
+    "baslik": "(teknoloji kosesi)",
+    "neden": "kaynakta olmayan ozel ad: Al-Zn"
    }
   ],
-  "cumle_llm": 5,
-  "cumle_kuralsal": 0,
-  "supheli_cikarilan": 0
+  "cumle_llm": 3,
+  "cumle_kuralsal": 1,
+  "supheli_cikarilan": 1
  },
  "elenen_satirlar": [
+  {
+   "baslik": "IMS expands its portfolio with force transducers for precise force measurement under deman",
+   "neden": "daha once gonderilmis (baska bolumde/yayinda)"
+  },
   {
    "baslik": "【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】",
    "neden": "Cince baslik, firma/hat okunamadi (tekrar denetlenemez)"
@@ -27,12 +35,10 @@
  ],
  "baglanti_dogrulanamayan": [],
  "email": "/home/runner/work/sogukradar/sogukradar/out/email.html",
- "uretildi": "2026-11-23T05:01:20.515105Z",
+ "uretildi": "2026-11-23T07:42:53.784079Z",
  "basliklar": [
-  "KG Steel completes W38b PLTCM upgrade, targets output of over 2 million tons",
-  "Zhejiang Hengfeng hot tests cold rolling mill",
-  "SAIL's Bokaro steel mill develops NGO grade special steel for the first time",
-  "AM/NS India Develops 2 Million Tonne Cold Rolling Facility at Hazira for Automotive Steel",
-  "Jindal Stainless investing ₹900 crore to increase cold rolling capacity to 2.67 MT by FY28"
+  "Açılışından önce, Nam Kim Phu My Çelik Sac Fabrikası, piyasanın çeşitli malzeme ihtiyaçlar",
+  "Gopani Industries Successfully Rolls First Prime Coil from New Cold Rolling Mill",
+  "Turkey's Isdemir develops high-quality steel production for defense industry and electrica"
  ]
 }
