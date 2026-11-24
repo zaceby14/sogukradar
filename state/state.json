@@ -3215,6 +3215,24 @@
     "tekrar": 36
    },
    "uretim": "2026-11-23 21:47 UTC"
+  },
+  {
+   "donem": "2026-W48",
+   "satir": 5,
+   "stats": {
+    "erisilemeyen": 15,
+    "gnews_tarih": 0,
+    "ham": 5085,
+    "kabul": 3,
+    "kapsam_disi": 4535,
+    "kaynak": 369,
+    "makale_acildi": 220,
+    "on_eleme_gecti": 492,
+    "pencere_disi": 391,
+    "tarihsiz_elendi": 94,
+    "tekrar": 53
+   },
+   "uretim": "2026-11-24 01:24 UTC"
   }
  ],
  "piyasa_gonderilen": [
@@ -3269,12 +3287,28 @@
    "url": "https://gmk.center/en/news/arcelormittal-raises-flat-steel-prices-in-europe/"
   },
   {
+   "anahtar": "piyasa:40dcf9ff63846199",
+   "baslik": "Chronoly Price, crno to USD, Research, News & Fundraising | Blockworks Intel",
+   "kaynak": "Blockworks",
+   "lead": "Chronoly Price, crno to USD, Research, News & Fundraising | Blockworks Intel &nbsp;&nbsp; Blockworks",
+   "tarih": "2026-11-23",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9KLWhmNl9aZmxPbWRpUFV4eDJub2RlbGlncUtIc2xaOElWYW81V1FXamN3RjdTdk9uWWJZRWd4OXFsZXZnQnlVMER3X2t0N3N5a1NWa25wRQ?oc=5"
+  },
+  {
    "anahtar": "piyasa:4e2f1eba8ae250d9",
    "baslik": "[SMM Analysis] China’s Galvanized Steel Exports Fall 16% MoM in October",
    "kaynak": "Bing News",
    "lead": "According to the latest customs data, China exported 997,300 mt of galvanized steel sheets in October 2026, down 16.35% month-on-month (MoM) and 23.25% year-on-year (YoY). From January to ...",
    "tarih": "2026-11-22",
    "url": "https://news.metal.com/fr/newscontent/Z42BMKPFRZZ52EEUD7CCUQSXOZZKWLK6JV4W3OY-smm-analysis-chinas-galvanized-steel-exports-fall-16-mom-in-october"
+  },
+  {
+   "anahtar": "piyasa:3c18cdf17b1c89f3",
+   "baslik": "Dongkuk CM develops high-performance color-coated steel sheet to curb condensation, vibration, and mold",
+   "kaynak": "Yieh Corp.",
+   "lead": "Dongkuk CM develops high-performance color-coated steel sheet to curb condensation, vibration, and mold &nbsp;&nbsp; Yieh Corp.",
+   "tarih": "2026-11-19",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVnNuS1JOYnhydVl4UU1FUm94ajR1MHM3N0pjX1hOdUlMZjF2RFJmZ3ZWYlo2U1BNakhkVGxEaGlVU3dMNXlEckZfQWFVQ3NPXzQ3RGlMbVlnWEFBVWRvOXM2NG9WQnhGSURoZ18ycW9tNG9SSGpHTnB0MDhQWGlRWml3REJPUVhtdWxTMGVjUVAxZjRORDdybzNyejA2Zl9vRmRCY2pqZFhDLV83U2R3dDJUdnZ1OUhZYmxvTVNLM0xCY19DdU9ZZHZkdHJBUQ?oc=5"
   },
   {
    "anahtar": "piyasa:4bcef1cdf55e9355",
@@ -6358,6 +6392,14 @@
    "kaynak": "Bing News",
    "tarih": "2026-09-16",
    "url": "https://www.imveurope.com/article/steel-inspection-system-uses-machine-vision-increase-line-speed-precision"
+  },
+  {
+   "anahtar": "tech:2a8c2eeaf9606fcd",
+   "baslik": "Hot-dip galvanized steel foundations demonstrate corrosion resistance over decades of field service",
+   "hat": "Galvaniz hatti (CGL)",
+   "kaynak": "Geoengineer.org",
+   "tarih": "2026-09-10",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcnc4WTluamNWUzJBODRtdElXSnVmQUg4ajh5OVN3LXo3aXVmUF8yZHhWVTFlZy1KeUlaOGptSTk1LW9KLVNBWFMxNDRtaXd6UnBUTUpOWVBnUmlJdFFkX3JCUlFOMGVnVXc2Y2loZlRFN19TQXdSMzNfOEFRTXRQY0hMWEdlenhzdWE3REtURUxNSFU3UHM0UmF6a3BMWExtSC1fZUxqd3RmSnprSWJQUl84VFZJbk1tSHFycnpiOHhvRHNxb28wYUVjajQ?oc=5"
   },
   {
    "anahtar": "tech:291e32d7546a5fb3",

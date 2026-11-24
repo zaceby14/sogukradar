@@ -55,35 +55,6 @@
    "tutar": "",
    "ulke": "Vietnam",
    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxORUtuZ0VkOGlfQkNpM2dBSkJWU0NqR1ZjMFNqVmFCR3JxUjluODVRMEcyN3liaWpMcm9EVl9qRk4xRDM1QnVHcnJsLVVBZlhKY3o3clUyNDctUXZZWHctcTFWdGIzZFFlU0FyUHRhVVpkd3dETkFvcWV1TTRqR0g0WWYzd2NDb0FENi0zU1NvU2JwMWg1RHg4VzYtUnRudE1FMElWNEhzRmNTNlVGRHRLY1pyWUpWLVp5d18za1VlZ0g2UDg?oc=5"
-  },
-  {
-   "anahtar": "7fd7261209402c52",
-   "asama": "Ilk urun",
-   "baslik": "Gopani Industries Successfully Rolls First Prime Coil from New Cold Rolling Mill",
-   "eksik": [],
-   "firma": "Gopani Industries",
-   "hat": "Soguk hadde",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "Tube & Pipe India",
-   "kaynak_id": "gq_hat02",
-   "lead": "Gopani Industries Successfully Rolls First Prime Coil from New Cold Rolling Mill &nbsp;&nbsp; Tube & Pipe India",
-   "olaylar": [
-    "*|ulke-hat|Hindistan|Soguk hadde|Ilk urun",
-    "gopani industries successfully|fu|Hindistan|Soguk hadde",
-    "gopani industries successfully|hat|Soguk hadde|Ilk urun",
-    "gopani industries successfully|ulke|Hindistan|Ilk urun",
-    "gopani industries|fu|Hindistan|Soguk hadde",
-    "gopani industries|hat|Soguk hadde|Ilk urun",
-    "gopani industries|ulke|Hindistan|Ilk urun"
-   ],
-   "rezerv": true,
-   "tarih": "2026-10-05",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "Hindistan",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zb1JoVG1BQ1FSRlp3Qk02Zl9CaTZ3ME9XLTktbW1rcXhBR0pkMDhLOTZfT0V5LWdwcXZScW5rYzFpS1FjVXhhWU53UzNXeHozRTBpWG12T3R0XzdiZ1BIN1hVeVo2VnV4?oc=5"
   }
  ],
  "tech": [
@@ -92,8 +63,8 @@
    "tarih": "2026-10-05",
    "konu": "Turkey's Isdemir develops high-quality steel production for defense industry and electrical steel",
    "url": "https://www.steelorbis.com/steel-news/latest-news/turkeys-isdemir-develops-high-quality-steel-production-for-defense-industry-and-electrical-steel-1481490.htm",
-   "kaynak": "Google News",
-   "metin": "İsdemir, savunma sanayisi ve elektrik çeliği üretimine yönelik yüksek kaliteli çelik geliştirme çalışmalarında ilerleme kaydetti."
+   "kaynak": "SteelOrbis",
+   "metin": "İsdemir, savunma sanayisi ve elektrik çeliği üretimine yönelik yüksek kaliteli çelik kaliteleri geliştirdiğini duyurdu."
   }
  ],
  "piyasa": [
@@ -101,7 +72,7 @@
    "anahtar": "piyasa:ec8f87f715216171",
    "tarih": "2026-11-23",
    "baslik": "ArcelorMittal raises flat steel prices in Europe",
-   "metin": "ArcelorMittal, artan enerji maliyetleri ve talepteki kademeli toparlanmayı gerekçe göstererek Avrupa pazarında yassı çelik rulo fiyatlarını yeniden artırdı.",
+   "metin": "ArcelorMittal, artan enerji maliyetleri ve talepteki kademeli toparlanmayı gerekçe göstererek Avrupa pazarındaki rulo çelik fiyatlarını yeniden artırdı.",
    "url": "https://gmk.center/en/news/arcelormittal-raises-flat-steel-prices-in-europe/",
    "kaynak": "Bing News",
    "konu": "fiyat",
@@ -112,7 +83,7 @@
    "tarih": "2026-11-16",
    "baslik": "AB'den Türkiye ve diğer 4 ülkeye yassı çelik anti-damping vergisi",
    "metin": "AB'den Türkiye ve diğer 4 ülkeye yassı çelik anti-damping vergisi",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPbGlHWWZQWkE5SUQwNm9WWUo5OW9KZFlBWmg3d2hVTFRsZWdxR2hGcjZKZHFqbXh3cDZNdUk2M1pkU2VzU0tJZ1JJMDRjZk1oalRTMEdDWk5McG1Ga19zNldzZ1dLRWVSLU8tQkxrRHVQZlhmVmI3MWJTanNScnhmbk9pblVwcklGWmEydDh5d0ZleHFyTU9vbWZ2NGQwclVRU1JR?oc=5",
+   "url": "https://www.bloomberght.com/ab-den-turkiye-ve-diger-4-ulkeye-yassi-celik-anti-damping-vergisi-3794766",
    "kaynak": "Bloomberght",
    "konu": "koruma",
    "urun": "yassi"

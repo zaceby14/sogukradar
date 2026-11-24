@@ -4,7 +4,7 @@
  "atla": true,
  "son_gonderim": "2026-11-23",
  "deneme": false,
- "satir": 3,
+ "satir": 2,
  "nedenler": [],
  "yazar": {
   "saglayici": "gemini",
@@ -13,15 +13,19 @@
    {
     "baslik": "(piyasa) AB'den Türkiye ve diğer 4 ülkeye yassı çelik anti-damping ve",
     "neden": "kaynakta olmayan ulke: Birliği"
+   },
+   {
+    "baslik": "(haftalik ozet)",
+    "neden": "kaynakta olmayan ozel ad: İsdemir"
    }
   ],
-  "cumle_llm": 3,
+  "cumle_llm": 2,
   "cumle_kuralsal": 1,
   "supheli_cikarilan": 1
  },
  "elenen_satirlar": [
   {
-   "baslik": "IMS expands its portfolio with force transducers for precise force measurement under deman",
+   "baslik": "John Cockerill India Successfully Revamps Jindal (India) Limited’s CGL-5, More Than Doubli",
    "neden": "daha once gonderilmis (baska bolumde/yayinda)"
   },
   {
@@ -33,12 +37,16 @@
    "neden": "Cince baslik, firma/hat okunamadi (tekrar denetlenemez)"
   }
  ],
- "baglanti_dogrulanamayan": [],
+ "baglanti_dogrulanamayan": [
+  {
+   "baslik": "Kirac Galvaniz stock after company wins TRY 173 million tender",
+   "neden": "TimeoutError: The read operation timed out"
+  }
+ ],
  "email": "/home/runner/work/sogukradar/sogukradar/out/email.html",
- "uretildi": "2026-11-23T21:48:45.412646Z",
+ "uretildi": "2026-11-24T01:28:35.823151Z",
  "basliklar": [
   "Modernización de 3 mil millones de dólares de Gary Works de U.S. Steel vinculada a la prop",
-  "Açılışından önce, Nam Kim Phu My Çelik Sac Fabrikası, piyasanın çeşitli malzeme ihtiyaçlar",
-  "Gopani Industries Successfully Rolls First Prime Coil from New Cold Rolling Mill"
+  "Açılışından önce, Nam Kim Phu My Çelik Sac Fabrikası, piyasanın çeşitli malzeme ihtiyaçlar"
  ]
 }
