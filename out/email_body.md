@@ -2,9 +2,9 @@
 
 **5 dogrulanmis gelisme** | pencere 2026-11-03 - 2026-11-24 | 369 kaynak tarandi
 
-1. **John Cockerill India** (Hindistan, 2026-11-23) &mdash; Galvaniz hatti (CGL) / Modernizasyon  
-   John Cockerill India Successfully Revamps Jindal (India) Limited’s CGL-5, More Than Doubling Production Capacity  
-   https://news.google.com/rss/articles/CBMinAFBVV95cUxQbXdfZnBhQ1c2V253bmdpeGFEaE5MUnVHTWJuVW5PbVJDdnAxMm1ubDRvZm9qVHRocm5lY0p0b1RDNTVYMWtBTGVhQWxyZGpDcXBQaHB4ZjVSVjcxRGN4Q2R1VUlGVzkwdC1fTk5ia1RsSUdpVldsT3V5OGpnbWtUNlREemowRmRBVHotOGQ3dV8xWkplUzRlRXRqOEU?oc=5
+1. **-** (-, 2026-11-24) &mdash; Elektrik celigi hatti / Ilk urun  
+   普锐特为纽柯公司提供的连续镀锌机组顺利生产出首卷合格钢卷  
+   https://news.mysteel.com/a/26112411/6E5FEAD6FF468411.html
 2. **Modernización** (ABD, 2026-11-23) &mdash; Belirsiz / Modernizasyon  
    Modernización de 3 mil millones de dólares de Gary Works de U.S. Steel vinculada a la propuesta de acuerdo de desarrollo urbano  
    https://news.metal.com/es/newscontent/23GGUQHCBR4G53CLBOUSAWKIYR764W55TRMJOVI-modernizaci%C3%B3n-de-3-mil-millones-de-d%C3%B3lares-de-gary-works-de-us-steel-vinculada-a-la-propuesta-de-acuerdo-de-desarrollo-urbano
@@ -18,4 +18,4 @@
    【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】  
    https://news.metal.com/en/newscontent/104207357-纽柯在南卡罗来纳州新建50万吨年汽车板镀锌线产出首卷优质卷板
 
-> Erisilemeyen kaynaklar: SMS group, Cognex, Steel Radar, SteelGuru, BigMint (SteelMint), Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News
+> Erisilemeyen kaynaklar: SMS group, Cognex, Steel Radar, SteelGuru, Magnetics Magazine, BigMint (SteelMint), MetalForming Magazine, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News, Google News

@@ -2,6 +2,32 @@
  "donem": "2026-W48",
  "rows": [
   {
+   "tarih": "2026-11-24",
+   "firma": "",
+   "ulke": "",
+   "hat": "Elektrik celigi hatti",
+   "asama": "Ilk urun",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "普锐特为纽柯公司提供的连续镀锌机组顺利生产出首卷合格钢卷",
+   "kaynak": "Mysteel (tesis/proje)",
+   "kaynak_id": "mysteel_fac",
+   "url": "https://news.mysteel.com/a/26112411/6E5FEAD6FF468411.html",
+   "tarih_kaynagi": "json-ld",
+   "lead": "综合资讯 钢材 建筑钢材 热轧 冷轧 中厚板 型钢 钢管 带钢 涂镀 硅钢 钢结构 不锈钢 废不锈钢 铬 镍 有色金属 铜 铝 铅 锌 锡 稀土 锑铋铟 锗镓硒 建筑材料 水泥 混凝土 砂石 矿渣粉 特钢 优特钢 工业线 工模具 金属制品 铁矿石 废钢 煤炭 焦炭 兰炭 铁合金 钢坯 生铁 耐材 海运 新能源 锂 镍 钴 锰 钒 锂电正极 锂电负极 锂电回收 工业硅 光伏材料 能源 原油 天然气 成品油 化工 烯烃 芳烃 甲醇 橡胶 天然橡胶 丁二烯 合成橡胶 农产品 主粮 杂粮 果蔬 棉业 油料 植物油 蛋白饲料 饲料添加剂 淀粉 糖 食品添加剂 猪 鸡 鸭 首页 宏观 大宗 前沿 下游 快讯 期货 专题 报告 数据 指数 当前位置： 综合资讯 > 钢材 > 正文 普锐特为纽柯公司提供的连续镀锌机组顺利生产出首卷合格钢卷 2026-11-24 11:58 来源：普锐特冶金技术公众号 更多历史数据，上钢联数据 资讯监督 智能摘要",
+   "eksik": [
+    "firma",
+    "ulke"
+   ],
+   "anahtar": "be1d4f267c8b90d4",
+   "kategori": "Hat",
+   "olaylar": [
+    "|hat|Elektrik celigi hatti|Ilk urun"
+   ],
+   "puan": 67.0
+  },
+  {
    "anahtar": "2d3e6e9aaab16dba",
    "asama": "Modernizasyon",
    "baslik": "Modernización de 3 mil millones de dólares de Gary Works de U.S. Steel vinculada a la propuesta de acuerdo de desarrollo urbano",
@@ -55,16 +81,42 @@
    "tutar": "",
    "ulke": "Vietnam",
    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxORUtuZ0VkOGlfQkNpM2dBSkJWU0NqR1ZjMFNqVmFCR3JxUjluODVRMEcyN3liaWpMcm9EVl9qRk4xRDM1QnVHcnJsLVVBZlhKY3o3clUyNDctUXZZWHctcTFWdGIzZFFlU0FyUHRhVVpkd3dETkFvcWV1TTRqR0g0WWYzd2NDb0FENi0zU1NvU2JwMWg1RHg4VzYtUnRudE1FMElWNEhzRmNTNlVGRHRLY1pyWUpWLVp5d18za1VlZ0g2UDg?oc=5"
+  },
+  {
+   "anahtar": "0270c208d71bc272",
+   "asama": "Sozlesme",
+   "baslik": "Kirac Galvaniz stock after company wins TRY 173 million tender",
+   "eksik": [],
+   "firma": "Kirac Galvaniz stock after company",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgpy_turkiye",
+   "lead": "Kirac Galvaniz said on Thursday, November 12, that it had won a steel road-barrier tender from Turkey's 4th Regional Directorate of Highways. The award covers various sections of the authority's road ...",
+   "olaylar": [
+    "kirac galvaniz stock after company|fu|Turkiye|Galvaniz hatti (CGL)",
+    "kirac galvaniz stock after company|hat|Galvaniz hatti (CGL)|Sozlesme",
+    "kirac galvaniz stock after company|ulke|Turkiye|Sozlesme"
+   ],
+   "puan": 75.8,
+   "tarih": "2026-11-16",
+   "tarih_kaynagi": "sayfa datePublished",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Turkiye",
+   "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/kirac-galvaniz-stock-after-company-wins-try-173-million-tender/70518469",
+   "tarih_once": "2026-11-15"
   }
  ],
  "tech": [
   {
-   "anahtar": "tech:e82b221fc2986888",
-   "tarih": "2026-10-05",
-   "konu": "Turkey's Isdemir develops high-quality steel production for defense industry and electrical steel",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/turkeys-isdemir-develops-high-quality-steel-production-for-defense-industry-and-electrical-steel-1481490.htm",
-   "kaynak": "SteelOrbis",
-   "metin": "İsdemir, savunma sanayisi ve elektrik çeliği üretimine yönelik yüksek kaliteli çelik kaliteleri geliştirdiğini duyurdu."
+   "anahtar": "tech:17f0131037a9c23b",
+   "tarih": "2026-11-12",
+   "konu": "Tangshan Yinghai advances AI-Zn coated steel project",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/tangshan-yinghai-advances-in-ai-zn-coated-steel-project-1126/",
+   "kaynak": "Kallanish",
+   "metin": "Tangshan Yinghai, yapay zekâ destekli çinko kaplı çelik projesinde çalışmalarını ilerletiyor."
   }
  ],
  "piyasa": [
@@ -72,7 +124,7 @@
    "anahtar": "piyasa:ec8f87f715216171",
    "tarih": "2026-11-23",
    "baslik": "ArcelorMittal raises flat steel prices in Europe",
-   "metin": "ArcelorMittal, artan enerji maliyetleri ve talepteki kademeli toparlanmayı gerekçe göstererek Avrupa pazarındaki rulo çelik fiyatlarını yeniden artırdı.",
+   "metin": "ArcelorMittal, artan enerji maliyetleri ve talepteki kademeli toparlanma nedeniyle Avrupa'da yassı çelik fiyatlarını yeniden artırdı.",
    "url": "https://gmk.center/en/news/arcelormittal-raises-flat-steel-prices-in-europe/",
    "kaynak": "Bing News",
    "konu": "fiyat",

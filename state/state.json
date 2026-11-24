@@ -3277,6 +3277,24 @@
     "tekrar": 57
    },
    "uretim": "2026-11-24 14:00 UTC"
+  },
+  {
+   "donem": "2026-W48",
+   "satir": 5,
+   "stats": {
+    "erisilemeyen": 139,
+    "gnews_tarih": 0,
+    "ham": 3899,
+    "kabul": 3,
+    "kapsam_disi": 3593,
+    "kaynak": 369,
+    "makale_acildi": 220,
+    "on_eleme_gecti": 316,
+    "pencere_disi": 184,
+    "tarihsiz_elendi": 89,
+    "tekrar": 26
+   },
+   "uretim": "2026-11-24 16:08 UTC"
   }
  ],
  "piyasa_gonderilen": [
@@ -3322,6 +3340,14 @@
   }
  ],
  "piyasa_rezerv": [
+  {
+   "anahtar": "piyasa:a29e8404bd93a30f",
+   "baslik": "Global Pre-Painted Metals Market to Reach $37 Billion by 2032 as Construction, Automotive and Sustainability Demand Accelerates | ArcelorMittal, SSAB, Tata Bluescope Steel and ...",
+   "kaynak": "Bing News",
+   "lead": "Painted Metals - Global Strategic Business Report 2026\" has been added to ResearchAndMarkets.com's offering. The global pre-painted metals market was valued at US$17.7 billion in 2025 and is projected ...",
+   "tarih": "2026-11-24",
+   "url": "https://finance.yahoo.com/markets/commodities/articles/global-pre-painted-metals-market-150500920.html"
+  },
   {
    "anahtar": "piyasa:ec8f87f715216171",
    "baslik": "ArcelorMittal raises flat steel prices in Europe",
