@@ -2,6 +2,21 @@
  "donem": "2026-W48",
  "duzelt": [
   {
+   "anahtar": "be1d4f267c8b90d4",
+   "baslik": "普锐特为纽柯公司提供的连续镀锌机组顺利生产出首卷合格钢卷",
+   "url": "https://news.mysteel.com/a/26112411/6E5FEAD6FF468411.html",
+   "eksik": [
+    "firma",
+    "ulke"
+   ],
+   "mevcut": {
+    "firma": "",
+    "ulke": "",
+    "hat": "Elektrik celigi hatti",
+    "asama": "Ilk urun"
+   }
+  },
+  {
    "anahtar": "2d3e6e9aaab16dba",
    "baslik": "Modernización de 3 mil millones de dólares de Gary Works de U.S. Steel vinculada a la propuesta de acuerdo de desarrollo urbano",
    "url": "https://news.metal.com/es/newscontent/23GGUQHCBR4G53CLBOUSAWKIYR764W55TRMJOVI-modernizaci%C3%B3n-de-3-mil-millones-de-d%C3%B3lares-de-gary-works-de-us-steel-vinculada-a-la-propuesta-de-acuerdo-de-desarrollo-urbano",
@@ -50,6 +65,16 @@
  ],
  "cumle_yaz": [
   {
+   "anahtar": "be1d4f267c8b90d4",
+   "tarih": "2026-11-24",
+   "firma": "",
+   "ulke": "",
+   "hat": "Elektrik celigi hatti",
+   "asama": "Ilk urun",
+   "baslik": "普锐特为纽柯公司提供的连续镀锌机组顺利生产出首卷合格钢卷",
+   "url": "https://news.mysteel.com/a/26112411/6E5FEAD6FF468411.html"
+  },
+  {
    "anahtar": "a3958a86c041b613",
    "tarih": "2026-11-23",
    "firma": "John Cockerill India",
@@ -97,6 +122,22 @@
    "baslik": "Turkey's Isdemir develops high-quality steel production for defense industry and electrical steel",
    "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMW13SGRFangyUGg2dkFBMDJ0aUFSSVljX0gxbXFZMng2OWRYY1hqLThqYVNtaDJzMUlvanBROE02MXZMTktNNG4zU3AzdHZzVUlxRVpXUlZRVzQ0eUhKamhRU2dyMHh4RkdDcGEtYXMzRmQ1eEE5aV9GWTJkZmhCeTZCRzE3ZG5VZS1pdEZnaXBGNzZ1WGl1WUxTeUNIVEY2UzJTN1MtZ0RvbnFNc0NzNUJtWl9YX0J6Y0FMQlh1cTUzRzdMZ3dNbE9zQXU2a1NTVGVUeEwybnR1M2VQcmtaaEFQb2RhWTVSTjdxMXdGRQ?oc=5",
    "kaynak": "SteelOrbis",
+   "hat": "Elektrik celigi hatti"
+  },
+  {
+   "anahtar": "tech:2a8c2eeaf9606fcd",
+   "tarih": "2026-09-10",
+   "baslik": "Hot-dip galvanized steel foundations demonstrate corrosion resistance over decades of field service",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcnc4WTluamNWUzJBODRtdElXSnVmQUg4ajh5OVN3LXo3aXVmUF8yZHhWVTFlZy1KeUlaOGptSTk1LW9KLVNBWFMxNDRtaXd6UnBUTUpOWVBnUmlJdFFkX3JCUlFOMGVnVXc2Y2loZlRFN19TQXdSMzNfOEFRTXRQY0hMWEdlenhzdWE3REtURUxNSFU3UHM0UmF6a3BMWExtSC1fZUxqd3RmSnprSWJQUl84VFZJbk1tSHFycnpiOHhvRHNxb28wYUVjajQ?oc=5",
+   "kaynak": "Geoengineer.org",
+   "hat": "Galvaniz hatti (CGL)"
+  },
+  {
+   "anahtar": "tech:2a81095235098448",
+   "tarih": "2026-07-12",
+   "baslik": "Posco and Hyundai are developing innovative electrical steel to improve the efficiency of electric vehicles",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQSGtGOHBERUpYUkpjbW4tQVEweXVNUzYtcU1DNjB2bWhQamNzYTlPZFNtMXBNeXRvLXJwS2hwaEcxN3VNNFg0RTd1UVhZYmZPNEZRT0YxUlQ4VThJcG0ycXRJOGVEVWVLOFZmUHVNZ2hPYzFwY0FxOGhydjdTRmEtUmtwbFZKUlB5WTRqb2l5V2NxN0hoY0o2NExOaEg3dHdPLXZrUG1Zc3laakRVR3dLQi0yRnR1elZ6NUVvc0swRHczUEtNNHRZM2VaZV9FaUdz0gHWAUFVX3lxTE5mbGJMX0V1bE15SmhZdE05VDM2OG9POEVzc2g1bExqcHIzZGw3S3dvS291M252VUllVHB6THlfR1E0MnlPRTFRVlRzV2phMldEV0lKSWJJenRsdkxWbkRyTkpicFdLMFYzNUk4WnZvcGJZbFAyRGpDMURMUGNLaWhRTk81MVZ5NnlvamRLdnd2dXBPMElaT19OQ2dwaEFmOHZjYjh3dlJpQk1xQkhxQjlGMVlyWlZCdVRXbVR0MlhpNE9wNHg4UFVONThfVXBtSG5rNFlUWVE?oc=5",
+   "kaynak": "GMK Center",
    "hat": "Elektrik celigi hatti"
   },
   {
@@ -153,6 +194,14 @@
    "baslik": "Indian Railways To Test Zinc Coating Technology For Steel Rails To Tackle Coastal Corrosion, Cut Track Renewal Costs: Report",
    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPdWdicXBteXBJc2c5aG1MUk5fN0tFRFdEVlJzalVuZXNhUF9nN2U0cmtWbkUzY2pQbEpvbUp3cWRaU1dYM19DOTVEcFNnU0JTTEd1cXgxbG00UGlwWklNWkhELS15dDVWeEgwUDY2d3dfNTB2QnVFeXlaWkZ5WFFQOU8yWWl2TjNBeG80ZG9KQ3ZjQ2gxdExkbDQyX2s5R1dYM0dWeVpxSE8tYXRTUE5wcjNpcVJvOEgxR2FrcjVjZTJyT2ltYllRNlVNZ9IB2wFBVV95cUxNSWl5bXpiRXRoY2F2QTlrSDJ2c0JEaWhSeFpDc0RBR0ROdlFwUEpIbTlSNGU0UmdDMjg2cGJhU05HczNrWmdvMUhDcm94V2xGMzFNV0h4QkdnUHBIRVFBSWdoS3p0Vzhlb3loT3RSdEZSb1VyWnVSU0pobFc3aFo3OU83cmpnUGVKb0tMcEVwVjBvNDhabzNJT0dfeEZsM1E0V25MVE54QmxkWk1jX29aVkJZSG5wWkVtR3R0QWlRUzc4NVVZRWhaZGM0bnduWEVYRVMwemFDWHVFcnM?oc=5",
    "kaynak": "Swarajya",
+   "hat": "Belirsiz"
+  },
+  {
+   "anahtar": "tech:2b05c879608014ca",
+   "tarih": "2026-01-02",
+   "baslik": "Korea unveils technology to cut steel heat-treatment emissions by over 98 percent",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxORHJBUjhTOHB1MEhsYTNCV1B2d3ZGSXN4YWt0Rm5IRVlZU05tZHFoUEVpbGNKUjJoT2VFSERac0xrNklnR2lqRmI2NUZJOFFONUZJT2hsVWRIU0hCWFJIY2h2ZDlOSWdOQ1YwRkhJeGpPYW1qc1FpS3czU3RwNDJoT2xRamFOaEZ1Q19odnMwNU9fTlZRTzR0N042a3ZOdkpENUptM3NPSVpmX2g5S3ZoMG9XdVpaYzZ0Q0hEWDZjRUlTT0RVWWRLSmxJZkh5RWVrZUJMb0stN2pBTXM?oc=5",
+   "kaynak": "SteelOrbis",
    "hat": "Belirsiz"
   }
  ]
