@@ -2,6 +2,36 @@
  "donem": "2026-W48",
  "duzelt": [
   {
+   "anahtar": "b78ed09be493ab3f",
+   "baslik": "Kıraç Galvaniz, 212 Milyon TL’lik Çelik Otokorkuluk İhalesini Kazandı",
+   "url": "https://www.steelturk.com.tr/kirac-galvaniz-212-milyon-tllik-celik-otokorkuluk-ihalesini-kazandi/",
+   "eksik": [
+    "ulke",
+    "tarih?"
+   ],
+   "mevcut": {
+    "firma": "Kıraç Galvaniz",
+    "ulke": "",
+    "hat": "Galvaniz hatti (CGL)",
+    "asama": "Sozlesme"
+   }
+  },
+  {
+   "anahtar": "d1ade63377aa8871",
+   "baslik": "常熟华新六台冷轧管机电气系统智能化改造项目成功投运",
+   "url": "https://news.mysteel.com/a/26112515/E21FCB49356E87E1.html",
+   "eksik": [
+    "firma",
+    "ulke"
+   ],
+   "mevcut": {
+    "firma": "",
+    "ulke": "",
+    "hat": "Elektrik celigi hatti",
+    "asama": "Modernizasyon"
+   }
+  },
+  {
    "anahtar": "be1d4f267c8b90d4",
    "baslik": "普锐特为纽柯公司提供的连续镀锌机组顺利生产出首卷合格钢卷",
    "url": "https://news.mysteel.com/a/26112411/6E5FEAD6FF468411.html",
@@ -29,50 +59,18 @@
     "hat": "Belirsiz",
     "asama": "Modernizasyon"
    }
-  },
-  {
-   "anahtar": "99bcca62027e43fb",
-   "baslik": "Açılışından önce, Nam Kim Phu My Çelik Sac Fabrikası, piyasanın çeşitli malzeme ihtiyaçlarını karşılamayı hedefliyor.",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxORUtuZ0VkOGlfQkNpM2dBSkJWU0NqR1ZjMFNqVmFCR3JxUjluODVRMEcyN3liaWpMcm9EVl9qRk4xRDM1QnVHcnJsLVVBZlhKY3o3clUyNDctUXZZWHctcTFWdGIzZFFlU0FyUHRhVVpkd3dETkFvcWV1TTRqR0g0WWYzd2NDb0FENi0zU1NvU2JwMWg1RHg4VzYtUnRudE1FMElWNEhzRmNTNlVGRHRLY1pyWUpWLVp5d18za1VlZ0g2UDg?oc=5",
-   "eksik": [
-    "hat",
-    "asama"
-   ],
-   "mevcut": {
-    "firma": "Açılışından",
-    "ulke": "Vietnam",
-    "hat": "Belirsiz",
-    "asama": "Belirsiz"
-   }
-  },
-  {
-   "anahtar": "90e30cb4756c40e2",
-   "baslik": "【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】",
-   "url": "https://news.metal.com/en/newscontent/104207357-纽柯在南卡罗来纳州新建50万吨年汽车板镀锌线产出首卷优质卷板",
-   "eksik": [
-    "firma",
-    "ulke",
-    "hat",
-    "tarih?"
-   ],
-   "mevcut": {
-    "firma": "",
-    "ulke": "",
-    "hat": "Belirsiz",
-    "asama": "Ilk urun"
-   }
   }
  ],
  "cumle_yaz": [
   {
-   "anahtar": "be1d4f267c8b90d4",
-   "tarih": "2026-11-24",
-   "firma": "",
+   "anahtar": "b78ed09be493ab3f",
+   "tarih": "2026-11-18",
+   "firma": "Kıraç Galvaniz",
    "ulke": "",
-   "hat": "Elektrik celigi hatti",
-   "asama": "Ilk urun",
-   "baslik": "普锐特为纽柯公司提供的连续镀锌机组顺利生产出首卷合格钢卷",
-   "url": "https://news.mysteel.com/a/26112411/6E5FEAD6FF468411.html"
+   "hat": "Galvaniz hatti (CGL)",
+   "asama": "Sozlesme",
+   "baslik": "Kıraç Galvaniz, 212 Milyon TL’lik Çelik Otokorkuluk İhalesini Kazandı",
+   "url": "https://www.steelturk.com.tr/kirac-galvaniz-212-milyon-tllik-celik-otokorkuluk-ihalesini-kazandi/"
   },
   {
    "anahtar": "a3958a86c041b613",
@@ -85,6 +83,36 @@
    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQbXdfZnBhQ1c2V253bmdpeGFEaE5MUnVHTWJuVW5PbVJDdnAxMm1ubDRvZm9qVHRocm5lY0p0b1RDNTVYMWtBTGVhQWxyZGpDcXBQaHB4ZjVSVjcxRGN4Q2R1VUlGVzkwdC1fTk5ia1RsSUdpVldsT3V5OGpnbWtUNlREemowRmRBVHotOGQ3dV8xWkplUzRlRXRqOEU?oc=5"
   },
   {
+   "anahtar": "5ea1d1a279e9ea44",
+   "tarih": "2026-11-25",
+   "firma": "Baosteel",
+   "ulke": "Vietnam",
+   "hat": "Dilme / boy kesme / SSC",
+   "asama": "Ilk urun",
+   "baslik": "Baosteel opens steel service centre in Vietnam",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/baosteel-opens-steel-processing-plant-in-vietnam-1126/"
+  },
+  {
+   "anahtar": "d1ade63377aa8871",
+   "tarih": "2026-11-25",
+   "firma": "",
+   "ulke": "",
+   "hat": "Elektrik celigi hatti",
+   "asama": "Modernizasyon",
+   "baslik": "常熟华新六台冷轧管机电气系统智能化改造项目成功投运",
+   "url": "https://news.mysteel.com/a/26112515/E21FCB49356E87E1.html"
+  },
+  {
+   "anahtar": "be1d4f267c8b90d4",
+   "tarih": "2026-11-24",
+   "firma": "",
+   "ulke": "",
+   "hat": "Elektrik celigi hatti",
+   "asama": "Ilk urun",
+   "baslik": "普锐特为纽柯公司提供的连续镀锌机组顺利生产出首卷合格钢卷",
+   "url": "https://news.mysteel.com/a/26112411/6E5FEAD6FF468411.html"
+  },
+  {
    "anahtar": "2d3e6e9aaab16dba",
    "tarih": "2026-11-23",
    "firma": "Modernización",
@@ -93,45 +121,9 @@
    "asama": "Modernizasyon",
    "baslik": "Modernización de 3 mil millones de dólares de Gary Works de U.S. Steel vinculada a la propuesta de acuerdo de desarrollo urbano",
    "url": "https://news.metal.com/es/newscontent/23GGUQHCBR4G53CLBOUSAWKIYR764W55TRMJOVI-modernizaci%C3%B3n-de-3-mil-millones-de-d%C3%B3lares-de-gary-works-de-us-steel-vinculada-a-la-propuesta-de-acuerdo-de-desarrollo-urbano"
-  },
-  {
-   "anahtar": "0270c208d71bc272",
-   "tarih": "2026-11-15",
-   "firma": "Kirac Galvaniz stock after company",
-   "ulke": "Turkiye",
-   "hat": "Galvaniz hatti (CGL)",
-   "asama": "Sozlesme",
-   "baslik": "Kirac Galvaniz stock after company wins TRY 173 million tender",
-   "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/kirac-galvaniz-stock-after-company-wins-try-173-million-tender/70518469"
-  },
-  {
-   "anahtar": "90e30cb4756c40e2",
-   "tarih": "2026-11-05",
-   "firma": "",
-   "ulke": "",
-   "hat": "Belirsiz",
-   "asama": "Ilk urun",
-   "baslik": "【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】",
-   "url": "https://news.metal.com/en/newscontent/104207357-纽柯在南卡罗来纳州新建50万吨年汽车板镀锌线产出首卷优质卷板"
   }
  ],
  "teknoloji_adaylari": [
-  {
-   "anahtar": "tech:e82b221fc2986888",
-   "tarih": "2026-10-05",
-   "baslik": "Turkey's Isdemir develops high-quality steel production for defense industry and electrical steel",
-   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMW13SGRFangyUGg2dkFBMDJ0aUFSSVljX0gxbXFZMng2OWRYY1hqLThqYVNtaDJzMUlvanBROE02MXZMTktNNG4zU3AzdHZzVUlxRVpXUlZRVzQ0eUhKamhRU2dyMHh4RkdDcGEtYXMzRmQ1eEE5aV9GWTJkZmhCeTZCRzE3ZG5VZS1pdEZnaXBGNzZ1WGl1WUxTeUNIVEY2UzJTN1MtZ0RvbnFNc0NzNUJtWl9YX0J6Y0FMQlh1cTUzRzdMZ3dNbE9zQXU2a1NTVGVUeEwybnR1M2VQcmtaaEFQb2RhWTVSTjdxMXdGRQ?oc=5",
-   "kaynak": "SteelOrbis",
-   "hat": "Elektrik celigi hatti"
-  },
-  {
-   "anahtar": "tech:2a8c2eeaf9606fcd",
-   "tarih": "2026-09-10",
-   "baslik": "Hot-dip galvanized steel foundations demonstrate corrosion resistance over decades of field service",
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcnc4WTluamNWUzJBODRtdElXSnVmQUg4ajh5OVN3LXo3aXVmUF8yZHhWVTFlZy1KeUlaOGptSTk1LW9KLVNBWFMxNDRtaXd6UnBUTUpOWVBnUmlJdFFkX3JCUlFOMGVnVXc2Y2loZlRFN19TQXdSMzNfOEFRTXRQY0hMWEdlenhzdWE3REtURUxNSFU3UHM0UmF6a3BMWExtSC1fZUxqd3RmSnprSWJQUl84VFZJbk1tSHFycnpiOHhvRHNxb28wYUVjajQ?oc=5",
-   "kaynak": "Geoengineer.org",
-   "hat": "Galvaniz hatti (CGL)"
-  },
   {
    "anahtar": "tech:2a81095235098448",
    "tarih": "2026-07-12",
@@ -195,6 +187,14 @@
    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPdWdicXBteXBJc2c5aG1MUk5fN0tFRFdEVlJzalVuZXNhUF9nN2U0cmtWbkUzY2pQbEpvbUp3cWRaU1dYM19DOTVEcFNnU0JTTEd1cXgxbG00UGlwWklNWkhELS15dDVWeEgwUDY2d3dfNTB2QnVFeXlaWkZ5WFFQOU8yWWl2TjNBeG80ZG9KQ3ZjQ2gxdExkbDQyX2s5R1dYM0dWeVpxSE8tYXRTUE5wcjNpcVJvOEgxR2FrcjVjZTJyT2ltYllRNlVNZ9IB2wFBVV95cUxNSWl5bXpiRXRoY2F2QTlrSDJ2c0JEaWhSeFpDc0RBR0ROdlFwUEpIbTlSNGU0UmdDMjg2cGJhU05HczNrWmdvMUhDcm94V2xGMzFNV0h4QkdnUHBIRVFBSWdoS3p0Vzhlb3loT3RSdEZSb1VyWnVSU0pobFc3aFo3OU83cmpnUGVKb0tMcEVwVjBvNDhabzNJT0dfeEZsM1E0V25MVE54QmxkWk1jX29aVkJZSG5wWkVtR3R0QWlRUzc4NVVZRWhaZGM0bnduWEVYRVMwemFDWHVFcnM?oc=5",
    "kaynak": "Swarajya",
    "hat": "Belirsiz"
+  },
+  {
+   "anahtar": "tech:62eabf613767f1e6",
+   "tarih": "2026-01-08",
+   "baslik": "Innovation will define future of galvanized steels: CSIR NML Jamshedpur Director",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSGdtZFlNcmRGWnZLb3lrOVFWSUs4MDlVd0NQc28wMFA5WHdOeFdfLXptWkFHX3lzZmY3X2s4NUJicGx2dG1QVFpJS0M1WFVsa1BSS01lWG8wOUhNNEhRTkhobHlfNXJDYy1KejlsYkdZMjBscUZkbFNqSl9uelVmRDF0VFRLM2l3UkFzNkl2eWtLbnBPdGoyRVFCVERYb0FfNVlJZw?oc=5",
+   "kaynak": "The Avenue Mail",
+   "hat": "Galvaniz hatti (CGL)"
   },
   {
    "anahtar": "tech:2b05c879608014ca",

@@ -1,30 +1,30 @@
 {
  "rows": [
   {
-   "tarih": "2026-11-24",
-   "firma": "",
+   "tarih": "2026-11-18",
+   "firma": "Kıraç Galvaniz",
    "ulke": "",
-   "hat": "Elektrik celigi hatti",
-   "asama": "Ilk urun",
+   "hat": "Galvaniz hatti (CGL)",
+   "asama": "Sozlesme",
    "tedarikci": "",
    "kapasite": "",
    "tutar": "",
-   "baslik": "普锐特为纽柯公司提供的连续镀锌机组顺利生产出首卷合格钢卷",
-   "kaynak": "Mysteel (tesis/proje)",
-   "kaynak_id": "mysteel_fac",
-   "url": "https://news.mysteel.com/a/26112411/6E5FEAD6FF468411.html",
-   "tarih_kaynagi": "json-ld",
-   "lead": "综合资讯 钢材 建筑钢材 热轧 冷轧 中厚板 型钢 钢管 带钢 涂镀 硅钢 钢结构 不锈钢 废不锈钢 铬 镍 有色金属 铜 铝 铅 锌 锡 稀土 锑铋铟 锗镓硒 建筑材料 水泥 混凝土 砂石 矿渣粉 特钢 优特钢 工业线 工模具 金属制品 铁矿石 废钢 煤炭 焦炭 兰炭 铁合金 钢坯 生铁 耐材 海运 新能源 锂 镍 钴 锰 钒 锂电正极 锂电负极 锂电回收 工业硅 光伏材料 能源 原油 天然气 成品油 化工 烯烃 芳烃 甲醇 橡胶 天然橡胶 丁二烯 合成橡胶 农产品 主粮 杂粮 果蔬 棉业 油料 植物油 蛋白饲料 饲料添加剂 淀粉 糖 食品添加剂 猪 鸡 鸭 首页 宏观 大宗 前沿 下游 快讯 期货 专题 报告 数据 指数 当前位置： 综合资讯 > 钢材 > 正文 普锐特为纽柯公司提供的连续镀锌机组顺利生产出首卷合格钢卷 2026-11-24 11:58 来源：普锐特冶金技术公众号 更多历史数据，上钢联数据 资讯监督 智能摘要",
+   "baslik": "Kıraç Galvaniz, 212 Milyon TL’lik Çelik Otokorkuluk İhalesini Kazandı",
+   "kaynak": "SteelTurk",
+   "kaynak_id": "steelturk",
+   "url": "https://www.steelturk.com.tr/kirac-galvaniz-212-milyon-tllik-celik-otokorkuluk-ihalesini-kazandi/",
+   "tarih_kaynagi": "metin",
+   "lead": "Hakkımızda Reklam Bize Ulaşın Demir Çelik Çelik Sektörü Yassı Çelik Yeşil Çelik Vasıflı Çelik Paslanmaz Çelik Alüminyum Boru & Profil Uzun Çelik Mamülleri Yapısal çelik Nervürlü Demir & Çelik Hasır Hammadde & Yarımamül Diğer Metaller Global Çelik Haberleri Röportajlar Metal & Sac İşleme Endüstriyel Sektörler Vinç Makina Çimento & Maden Güç Aktarım Sistemleri Hidrolik & Pnömatik Endüstriyel Kalıp Otomasyon & Robot Tek",
    "eksik": [
-    "firma",
-    "ulke"
+    "ulke",
+    "tarih?"
    ],
-   "anahtar": "be1d4f267c8b90d4",
+   "anahtar": "b78ed09be493ab3f",
    "kategori": "Hat",
    "olaylar": [
-    "|hat|Elektrik celigi hatti|Ilk urun"
+    "kirac galvaniz|hat|Galvaniz hatti (CGL)|Sozlesme"
    ],
-   "puan": 67.0
+   "puan": 65.2
   },
   {
    "tarih": "2026-11-23",
@@ -52,7 +52,85 @@
     "john cockerill|hat|Galvaniz hatti (CGL)|Modernizasyon",
     "john cockerill|ulke|Hindistan|Modernizasyon"
    ],
-   "puan": 64.6
+   "puan": 64.2
+  },
+  {
+   "tarih": "2026-11-25",
+   "firma": "Baosteel",
+   "ulke": "Vietnam",
+   "hat": "Dilme / boy kesme / SSC",
+   "asama": "Ilk urun",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "Baosteel opens steel service centre in Vietnam",
+   "kaynak": "Kallanish",
+   "kaynak_id": "kallanish",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/baosteel-opens-steel-processing-plant-in-vietnam-1126/",
+   "tarih_kaynagi": "capraz-rss",
+   "lead": "Login Kallanish articles are only available for active subscribers and clients currently on trial. If you already have login details, please login below to continue. Email address Password LOGIN Want to see what we offer? Why not sign up for a free trial and receive the Kallanish service for 2 full weeks. Registration only takes 1 minute, so you can start benefitting from our news and pricing coverage today! Gain acc",
+   "eksik": [],
+   "anahtar": "5ea1d1a279e9ea44",
+   "kategori": "Hat",
+   "olaylar": [
+    "*|ulke-hat|Vietnam|Dilme / boy kesme / SSC|Ilk urun",
+    "baosteel|fu|Vietnam|Dilme / boy kesme / SSC",
+    "baosteel|hat|Dilme / boy kesme / SSC|Ilk urun",
+    "baosteel|ulke|Vietnam|Ilk urun"
+   ],
+   "puan": 59.0
+  },
+  {
+   "tarih": "2026-11-25",
+   "firma": "",
+   "ulke": "",
+   "hat": "Elektrik celigi hatti",
+   "asama": "Modernizasyon",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "常熟华新六台冷轧管机电气系统智能化改造项目成功投运",
+   "kaynak": "Mysteel (tesis/proje)",
+   "kaynak_id": "mysteel_fac",
+   "url": "https://news.mysteel.com/a/26112515/E21FCB49356E87E1.html",
+   "tarih_kaynagi": "json-ld",
+   "lead": "综合资讯 钢材 建筑钢材 热轧 冷轧 中厚板 型钢 钢管 带钢 涂镀 硅钢 钢结构 不锈钢 废不锈钢 铬 镍 有色金属 铜 铝 铅 锌 锡 稀土 锑铋铟 锗镓硒 建筑材料 水泥 混凝土 砂石 矿渣粉 特钢 优特钢 工业线 工模具 金属制品 铁矿石 废钢 煤炭 焦炭 兰炭 铁合金 钢坯 生铁 耐材 海运 新能源 锂 镍 钴 锰 钒 锂电正极 锂电负极 锂电回收 工业硅 光伏材料 能源 原油 天然气 成品油 化工 烯烃 芳烃 甲醇 橡胶 天然橡胶 丁二烯 合成橡胶 农产品 主粮 杂粮 果蔬 棉业 油料 植物油 蛋白饲料 饲料添加剂 淀粉 糖 食品添加剂 猪 鸡 鸭 首页 宏观 大宗 前沿 下游 快讯 期货 专题 报告 数据 指数 当前位置： 综合资讯 > 钢材 > 正文 常熟华新六台冷轧管机电气系统智能化改造项目成功投运 2026-11-25 15:18 来源：中国重型机械研究院 更多历史数据，上钢联数据 资讯监督 智能摘要 内容由",
+   "eksik": [
+    "firma",
+    "ulke"
+   ],
+   "anahtar": "d1ade63377aa8871",
+   "kategori": "Hat",
+   "olaylar": [
+    "|hat|Elektrik celigi hatti|Modernizasyon"
+   ],
+   "puan": 57.0
+  },
+  {
+   "anahtar": "be1d4f267c8b90d4",
+   "asama": "Ilk urun",
+   "baslik": "普锐特为纽柯公司提供的连续镀锌机组顺利生产出首卷合格钢卷",
+   "eksik": [
+    "firma",
+    "ulke"
+   ],
+   "firma": "",
+   "hat": "Elektrik celigi hatti",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Mysteel (tesis/proje)",
+   "kaynak_id": "mysteel_fac",
+   "lead": "综合资讯 钢材 建筑钢材 热轧 冷轧 中厚板 型钢 钢管 带钢 涂镀 硅钢 钢结构 不锈钢 废不锈钢 铬 镍 有色金属 铜 铝 铅 锌 锡 稀土 锑铋铟 锗镓硒 建筑材料 水泥 混凝土 砂石 矿渣粉 特钢 优特钢 工业线 工模具 金属制品 铁矿石 废钢 煤炭 焦炭 兰炭 铁合金 钢坯 生铁 耐材 海运 新能源 锂 镍 钴 锰 钒 锂电正极 锂电负极 锂电回收 工业硅 光伏材料 能源 原油 天然气 成品油 化工 烯烃 芳烃 甲醇 橡胶 天然橡胶 丁二烯 合成橡胶 农产品 主粮 杂粮 果蔬 棉业 油料 植物油 蛋白饲料 饲料添加剂 淀粉 糖 食品添加剂 猪 鸡 鸭 首页 宏观 大宗 前沿 下游 快讯 期货 专题 报告 数据 指数 当前位置： 综合资讯 > 钢材 > 正文 普锐特为纽柯公司提供的连续镀锌机组顺利生产出首卷合格钢卷 2026-11-24 11:58 来源：普锐特冶金技术公众号 更多历史数据，上钢联数据 资讯监督 智能摘要",
+   "olaylar": [
+    "|hat|Elektrik celigi hatti|Ilk urun"
+   ],
+   "puan": 67.0,
+   "tarih": "2026-11-24",
+   "tarih_kaynagi": "json-ld",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.mysteel.com/a/26112411/6E5FEAD6FF468411.html"
   },
   {
    "anahtar": "2d3e6e9aaab16dba",
@@ -80,100 +158,19 @@
    "tutar": "$3 billion",
    "ulke": "ABD",
    "url": "https://news.metal.com/es/newscontent/23GGUQHCBR4G53CLBOUSAWKIYR764W55TRMJOVI-modernizaci%C3%B3n-de-3-mil-millones-de-d%C3%B3lares-de-gary-works-de-us-steel-vinculada-a-la-propuesta-de-acuerdo-de-desarrollo-urbano"
-  },
-  {
-   "anahtar": "99bcca62027e43fb",
-   "asama": "Belirsiz",
-   "baslik": "Açılışından önce, Nam Kim Phu My Çelik Sac Fabrikası, piyasanın çeşitli malzeme ihtiyaçlarını karşılamayı hedefliyor.",
-   "eksik": [
-    "hat",
-    "asama"
-   ],
-   "firma": "Açılışından",
-   "hat": "Belirsiz",
-   "kapasite": "",
-   "kategori": "Yatirim",
-   "kaynak": "Vietnam.vn",
-   "kaynak_id": "gx_q_tr1",
-   "lead": "Açılışından önce, Nam Kim Phu My Çelik Sac Fabrikası, piyasanın çeşitli malzeme ihtiyaçlarını karşılamayı hedefliyor. &nbsp;&nbsp; Vietnam.vn",
-   "olaylar": [
-    "acilisindan|fu|Vietnam|Belirsiz",
-    "acilisindan|hat|Belirsiz|Belirsiz",
-    "acilisindan|ulke|Vietnam|Belirsiz"
-   ],
-   "puan": 4.0,
-   "tarih": "2026-11-18",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "Vietnam",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxORUtuZ0VkOGlfQkNpM2dBSkJWU0NqR1ZjMFNqVmFCR3JxUjluODVRMEcyN3liaWpMcm9EVl9qRk4xRDM1QnVHcnJsLVVBZlhKY3o3clUyNDctUXZZWHctcTFWdGIzZFFlU0FyUHRhVVpkd3dETkFvcWV1TTRqR0g0WWYzd2NDb0FENi0zU1NvU2JwMWg1RHg4VzYtUnRudE1FMElWNEhzRmNTNlVGRHRLY1pyWUpWLVp5d18za1VlZ0g2UDg?oc=5"
-  },
-  {
-   "anahtar": "0270c208d71bc272",
-   "asama": "Sozlesme",
-   "baslik": "Kirac Galvaniz stock after company wins TRY 173 million tender",
-   "eksik": [],
-   "firma": "Kirac Galvaniz stock after company",
-   "hat": "Galvaniz hatti (CGL)",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgpy_turkiye",
-   "lead": "Kirac Galvaniz said on Thursday, November 12, that it had won a steel road-barrier tender from Turkey's 4th Regional Directorate of Highways. The award covers various sections of the authority's road ...",
-   "olaylar": [
-    "kirac galvaniz stock after company|fu|Turkiye|Galvaniz hatti (CGL)",
-    "kirac galvaniz stock after company|hat|Galvaniz hatti (CGL)|Sozlesme",
-    "kirac galvaniz stock after company|ulke|Turkiye|Sozlesme"
-   ],
-   "puan": 75.8,
-   "tarih": "2026-11-15",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "Turkiye",
-   "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/kirac-galvaniz-stock-after-company-wins-try-173-million-tender/70518469"
-  },
-  {
-   "anahtar": "90e30cb4756c40e2",
-   "asama": "Ilk urun",
-   "baslik": "【纽柯在南卡罗来纳州新建50万吨/年汽车板镀锌线产出首卷优质卷板】",
-   "eksik": [
-    "firma",
-    "ulke",
-    "hat",
-    "tarih?"
-   ],
-   "firma": "",
-   "hat": "Belirsiz",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "SMM (Shanghai Metals)",
-   "kaynak_id": "smm",
-   "lead": "",
-   "olaylar": [
-    "|hat|Belirsiz|Ilk urun"
-   ],
-   "puan": 47.0,
-   "tarih": "2026-11-05",
-   "tarih_kaynagi": "liste",
-   "tedarikci": "",
-   "tutar": "",
-   "ulke": "",
-   "url": "https://news.metal.com/en/newscontent/104207357-纽柯在南卡罗来纳州新建50万吨年汽车板镀锌线产出首卷优质卷板"
   }
  ],
  "stats": {
   "kaynak": 369,
-  "erisilemeyen": 17,
-  "ham": 4903,
-  "on_eleme_gecti": 513,
-  "makale_acildi": 224,
-  "tarihsiz_elendi": 90,
-  "pencere_disi": 405,
-  "kapsam_disi": 4347,
-  "tekrar": 57,
-  "kabul": 4,
+  "erisilemeyen": 16,
+  "ham": 4725,
+  "on_eleme_gecti": 523,
+  "makale_acildi": 228,
+  "tarihsiz_elendi": 91,
+  "pencere_disi": 397,
+  "kapsam_disi": 4177,
+  "tekrar": 54,
+  "kabul": 6,
   "gnews_tarih": 0
  },
  "unreachable": [
@@ -184,10 +181,6 @@
   [
    "Cognex",
    "HTTP 429"
-  ],
-  [
-   "ArcelorMittal",
-   "HTTP 403"
   ],
   [
    "Steel Radar",
@@ -617,7 +610,7 @@
   "bgpy_tr_fiyat": "arama",
   "bgpy_tr_onlem": "arama"
  },
- "today": "2026-11-24",
+ "today": "2026-11-25",
  "host_saglik": {
   "news.google.com": {
    "istek": 140,
@@ -642,26 +635,10 @@
   "www.cognex.com": {
    "istek": 2,
    "hiz_siniri": 2,
-   "sogutmada": false
+   "sogutmada": true
   }
  },
  "tech_pool": [
-  {
-   "anahtar": "tech:e82b221fc2986888",
-   "tarih": "2026-10-05",
-   "baslik": "Turkey's Isdemir develops high-quality steel production for defense industry and electrical steel",
-   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMW13SGRFangyUGg2dkFBMDJ0aUFSSVljX0gxbXFZMng2OWRYY1hqLThqYVNtaDJzMUlvanBROE02MXZMTktNNG4zU3AzdHZzVUlxRVpXUlZRVzQ0eUhKamhRU2dyMHh4RkdDcGEtYXMzRmQ1eEE5aV9GWTJkZmhCeTZCRzE3ZG5VZS1pdEZnaXBGNzZ1WGl1WUxTeUNIVEY2UzJTN1MtZ0RvbnFNc0NzNUJtWl9YX0J6Y0FMQlh1cTUzRzdMZ3dNbE9zQXU2a1NTVGVUeEwybnR1M2VQcmtaaEFQb2RhWTVSTjdxMXdGRQ?oc=5",
-   "kaynak": "SteelOrbis",
-   "hat": "Elektrik celigi hatti"
-  },
-  {
-   "anahtar": "tech:2a8c2eeaf9606fcd",
-   "tarih": "2026-09-10",
-   "baslik": "Hot-dip galvanized steel foundations demonstrate corrosion resistance over decades of field service",
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcnc4WTluamNWUzJBODRtdElXSnVmQUg4ajh5OVN3LXo3aXVmUF8yZHhWVTFlZy1KeUlaOGptSTk1LW9KLVNBWFMxNDRtaXd6UnBUTUpOWVBnUmlJdFFkX3JCUlFOMGVnVXc2Y2loZlRFN19TQXdSMzNfOEFRTXRQY0hMWEdlenhzdWE3REtURUxNSFU3UHM0UmF6a3BMWExtSC1fZUxqd3RmSnprSWJQUl84VFZJbk1tSHFycnpiOHhvRHNxb28wYUVjajQ?oc=5",
-   "kaynak": "Geoengineer.org",
-   "hat": "Galvaniz hatti (CGL)"
-  },
   {
    "anahtar": "tech:2a81095235098448",
    "tarih": "2026-07-12",
@@ -727,6 +704,14 @@
    "hat": "Belirsiz"
   },
   {
+   "anahtar": "tech:62eabf613767f1e6",
+   "tarih": "2026-01-08",
+   "baslik": "Innovation will define future of galvanized steels: CSIR NML Jamshedpur Director",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSGdtZFlNcmRGWnZLb3lrOVFWSUs4MDlVd0NQc28wMFA5WHdOeFdfLXptWkFHX3lzZmY3X2s4NUJicGx2dG1QVFpJS0M1WFVsa1BSS01lWG8wOUhNNEhRTkhobHlfNXJDYy1KejlsYkdZMjBscUZkbFNqSl9uelVmRDF0VFRLM2l3UkFzNkl2eWtLbnBPdGoyRVFCVERYb0FfNVlJZw?oc=5",
+   "kaynak": "The Avenue Mail",
+   "hat": "Galvaniz hatti (CGL)"
+  },
+  {
    "anahtar": "tech:2b05c879608014ca",
    "tarih": "2026-01-02",
    "baslik": "Korea unveils technology to cut steel heat-treatment emissions by over 98 percent",
@@ -736,11 +721,29 @@
   }
  ],
  "kaynak_katki": {
+  "SteelTurk": 1,
+  "Kallanish": 1,
   "Mysteel (tesis/proje)": 1,
   "Google News": 1,
   "Bing News": 2
  },
  "piyasa_pool": [
+  {
+   "anahtar": "piyasa:faa4f89b896417db",
+   "tarih": "2026-11-25",
+   "baslik": "India: HRC, CRC trade prices drop on sluggish demand and limited enquiries",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWjRaTzFKNmVjSWdHb25OOEVtXzkwYWpCamg0MWs4WjVidGtpZjFsVllfVV9laFNtME5ROWhHU1A2dFo0T3l2QVhOamRMNTkxd09jRHVUSldvTTdYdGthZ185aEVkdWRZbm1MQU56UzNBZEFoOTRmajJEaVl1OENCcmlCeXFKV1pQUU9CcHFEVjU1WUFyOVQwOENRTVBXTnBzZ1h5bS1DXzRwYlUxSTUtVzhEM1RtME5oWHc?oc=5",
+   "kaynak": "BigMint",
+   "lead": "India: HRC, CRC trade prices drop on sluggish demand and limited enquiries &nbsp;&nbsp; BigMint"
+  },
+  {
+   "anahtar": "piyasa:7fb373e7a3430917",
+   "tarih": "2026-11-25",
+   "baslik": "Vietnam launches product scope review of AD duties on galvanized steel from China and S. Korea",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/vietnam-launches-product-scope-review-of-ad-duties-on-galvanized-steel-from-china-and-s-korea-1493353.htm",
+   "kaynak": "Bing News",
+   "lead": "Vietnam's Ministry of Industry and Trade (MOIT) has initiated a product scope review of the existing antidumping (AD) measures on imports of certain ..."
+  },
   {
    "anahtar": "piyasa:81de6e4f146e8159",
    "tarih": "2026-11-24",
@@ -748,6 +751,30 @@
    "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/vietnam-issues-questionnaires-in-coated-steel-duty-review-1126/",
    "kaynak": "Kallanish",
    "lead": "Vietnam’s Trade Remedies Authority (TRAV) issued questionnaires to domestic producers on 23 November as part of..."
+  },
+  {
+   "anahtar": "piyasa:a29e8404bd93a30f",
+   "tarih": "2026-11-24",
+   "baslik": "Global Pre-Painted Metals Market to Reach $37 Billion by 2032 as Construction, Automotive and Sustainability Demand Accelerates | ArcelorMittal, SSAB, Tata Bluescope Steel and ...",
+   "url": "https://finance.yahoo.com/markets/commodities/articles/global-pre-painted-metals-market-150500920.html",
+   "kaynak": "Bing News",
+   "lead": "Painted Metals - Global Strategic Business Report 2026\" has been added to ResearchAndMarkets.com's offering. The global pre-painted metals market was valued at US$17.7 billion in 2025 and is projected ..."
+  },
+  {
+   "anahtar": "piyasa:230567ff6be9fffd",
+   "tarih": "2026-11-24",
+   "baslik": "SunSirs: Downstream Demand Weakened, and Galvanized Steel Sheet and Coil Market Saw a Slight Decline",
+   "url": "https://www.sunsirs.com/commodity-news/petail-37961.html",
+   "kaynak": "Bing News",
+   "lead": "Last week, hot-rolled coil futures experienced a significant decline, dampening market sentiment. Compounded by a seasonal weakening in downstream demand—typical ..."
+  },
+  {
+   "anahtar": "piyasa:9dfa395843b682d9",
+   "tarih": "2026-11-24",
+   "baslik": "Isdemir stock in focus as EU duties hit Turkish flat steel",
+   "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/isdemir-stock-in-focus-as-eu-duties-hit-turkish-flat-steel/70551215",
+   "kaynak": "Bing News",
+   "lead": "Reuters reported on November 16 that the EU set duties of between 3.0 percent and 7.8 percent for Turkish steelmakers. The measures cover products used in cars, aircraft, appliances and construction, ..."
   },
   {
    "anahtar": "piyasa:40dcf9ff63846199",
@@ -838,12 +865,12 @@
    "lead": "AB'den Türkiye ve diğer 4 ülkeye yassı çelik anti-damping vergisi &nbsp;&nbsp; Bloomberght"
   },
   {
-   "anahtar": "piyasa:7893ef1245c7ae15",
+   "anahtar": "piyasa:26b39c0474ddeeba",
    "tarih": "2026-11-16",
-   "baslik": "EU imposes 9.5% anti-dumping duty on cold-rolled steel imports from India",
-   "url": "https://www.financialexpress.com/policy/economy/eu-imposes-9-5-anti-dumping-duty-on-cold-rolled-steel-imports-from-india/4386089/",
+   "baslik": "European Commission imposes anti-dumping duties on cold-rolled coil imports from India, Japan, Taiwan, Turkey, Vietnam",
+   "url": "https://eurometal.net/european-commission-imposes-anti-dumping-duties-on-cold-rolled-coil-imports-from-india-japan-taiwan-turkey-vietnam/",
    "kaynak": "Bing News",
-   "lead": "India faces a 9.5% anti-dumping duty on cold-rolled flat steel exports to the EU after the European Commission's decision, with Japan, Taiwan, Turkey, and Vietnam also assigned varying duty rates."
+   "lead": "The definitive duties are 9.5% for India, 27.9% for Japan, 20.7-27% for Taiwan, 3-7.8% for Turkey and 16% for Vietnam. Imposition of the duties followed an investigation started in September 2025, ..."
   },
   {
    "anahtar": "piyasa:e2ecfb5deeda9fec",
@@ -854,12 +881,12 @@
    "lead": "By Philip Blenkinsop BRUSSELS, Nov 16 (Reuters) - The EU is imposing tariffs of up to 27.9% on cold-rolled flat steel products from India, Japan, Taiwan, Turkey and Vietnam after finding they were ..."
   },
   {
-   "anahtar": "piyasa:26b39c0474ddeeba",
+   "anahtar": "piyasa:7893ef1245c7ae15",
    "tarih": "2026-11-16",
-   "baslik": "European Commission imposes anti-dumping duties on cold-rolled coil imports from India, Japan, Taiwan, Turkey, Vietnam",
-   "url": "https://eurometal.net/european-commission-imposes-anti-dumping-duties-on-cold-rolled-coil-imports-from-india-japan-taiwan-turkey-vietnam/",
+   "baslik": "EU imposes 9.5% anti-dumping duty on cold-rolled steel imports from India",
+   "url": "https://www.financialexpress.com/policy/economy/eu-imposes-9-5-anti-dumping-duty-on-cold-rolled-steel-imports-from-india/4386089/",
    "kaynak": "Bing News",
-   "lead": "The definitive duties are 9.5% for India, 27.9% for Japan, 20.7-27% for Taiwan, 3-7.8% for Turkey and 16% for Vietnam. Imposition of the duties followed an investigation started in September 2025, ..."
+   "lead": "India faces a 9.5% anti-dumping duty on cold-rolled flat steel exports to the EU after the European Commission's decision, with Japan, Taiwan, Turkey, and Vietnam also assigned varying duty rates."
   },
   {
    "anahtar": "piyasa:8ed1e5cf759d4884",
@@ -903,14 +930,14 @@
   }
  ],
  "window": [
-  "2026-11-03",
-  "2026-11-24"
+  "2026-11-04",
+  "2026-11-25"
  ],
- "bulunan_kullanilan": 4,
- "bulunan_havuz": 5,
+ "bulunan_kullanilan": 2,
+ "bulunan_havuz": 8,
  "rezerv_kullanilan": 0,
- "rezerv_havuz": 101,
+ "rezerv_havuz": 103,
  "period": "2026-W48",
- "generated": "2026-11-24 14:00 UTC",
+ "generated": "2026-11-25 13:05 UTC",
  "version": "3.0.0"
 }
