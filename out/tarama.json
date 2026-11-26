@@ -24,7 +24,7 @@
    "olaylar": [
     "kirac galvaniz|hat|Galvaniz hatti (CGL)|Sozlesme"
    ],
-   "puan": 65.2
+   "puan": 64.8
   },
   {
    "tarih": "2026-11-23",
@@ -52,7 +52,7 @@
     "john cockerill|hat|Galvaniz hatti (CGL)|Modernizasyon",
     "john cockerill|ulke|Hindistan|Modernizasyon"
    ],
-   "puan": 64.2
+   "puan": 63.8
   },
   {
    "tarih": "2026-11-25",
@@ -78,7 +78,7 @@
     "baosteel|hat|Dilme / boy kesme / SSC|Ilk urun",
     "baosteel|ulke|Vietnam|Ilk urun"
    ],
-   "puan": 59.0
+   "puan": 58.6
   },
   {
    "tarih": "2026-11-25",
@@ -92,19 +92,45 @@
    "baslik": "常熟华新六台冷轧管机电气系统智能化改造项目成功投运",
    "kaynak": "Mysteel (tesis/proje)",
    "kaynak_id": "mysteel_fac",
-   "url": "https://news.mysteel.com/a/26112515/E21FCB49356E87E1.html",
+   "url": "https://factory.mysteel.com/a/26112515/6D1E4FB54E942C7E.html",
    "tarih_kaynagi": "json-ld",
-   "lead": "综合资讯 钢材 建筑钢材 热轧 冷轧 中厚板 型钢 钢管 带钢 涂镀 硅钢 钢结构 不锈钢 废不锈钢 铬 镍 有色金属 铜 铝 铅 锌 锡 稀土 锑铋铟 锗镓硒 建筑材料 水泥 混凝土 砂石 矿渣粉 特钢 优特钢 工业线 工模具 金属制品 铁矿石 废钢 煤炭 焦炭 兰炭 铁合金 钢坯 生铁 耐材 海运 新能源 锂 镍 钴 锰 钒 锂电正极 锂电负极 锂电回收 工业硅 光伏材料 能源 原油 天然气 成品油 化工 烯烃 芳烃 甲醇 橡胶 天然橡胶 丁二烯 合成橡胶 农产品 主粮 杂粮 果蔬 棉业 油料 植物油 蛋白饲料 饲料添加剂 淀粉 糖 食品添加剂 猪 鸡 鸭 首页 宏观 大宗 前沿 下游 快讯 期货 专题 报告 数据 指数 当前位置： 综合资讯 > 钢材 > 正文 常熟华新六台冷轧管机电气系统智能化改造项目成功投运 2026-11-25 15:18 来源：中国重型机械研究院 更多历史数据，上钢联数据 资讯监督 智能摘要 内容由",
+   "lead": "钢材 建筑钢材 冷轧带肋钢筋 热轧板卷 中厚板 普碳低合金板 锅炉容器板 造船板 碳结板 耐磨钢 高建钢 桥梁板 型钢 H型钢 翼缘板 钢管 无缝管 焊管 镀锌管 螺旋管 方矩管 镀锌方矩管 钢塑复合管 镀锌无缝管 盘扣式脚手架 燃气管 声测管 带钢 冷轧板卷 涂镀 镀锌 彩涂 镀锡板 硅钢 炉料 铁矿石 铁合金 生铁 铸造 还原铁 废钢 钢坯 焦炭 耐材 炼焦煤 动力煤 喷吹煤 无烟煤 特钢 优特钢 工模钢 弹簧钢 轴承钢 冷镦拉丝 优焊线 钢绞线 工业普圆 优质板带 管坯 优特锭坯 有色 铜 铝 铅 锌 镍 稀土 锡 直辖 上海 北京 天津 重庆 华东 浙江 杭州 宁波 温州 台州 嘉兴 金华 绍兴 丽水 江苏 南京 苏州 无锡 江阴 扬州 常州 镇江 盐城 南通 徐州 泰州 宿迁 连云港 淮安 山东 济南 青岛 淄博 博兴 潍坊 烟台 莱芜 泰安 济宁 临沂 威海 日照 德州 聊城 菏泽 东营 福建 福州 厦门 泉州 漳州",
    "eksik": [
     "firma",
     "ulke"
    ],
-   "anahtar": "d1ade63377aa8871",
+   "anahtar": "2ad539ef8384aada",
    "kategori": "Hat",
    "olaylar": [
     "|hat|Elektrik celigi hatti|Modernizasyon"
    ],
-   "puan": 57.0
+   "puan": 56.6
+  },
+  {
+   "tarih": "2026-11-26",
+   "firma": "Jinxi Steel",
+   "ulke": "",
+   "hat": "Elektrik celigi hatti",
+   "asama": "Belirsiz",
+   "tedarikci": "",
+   "kapasite": "3 million tons",
+   "tutar": "",
+   "baslik": "Jinxi Steel starts new slab casting line to expand electrical steel production",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_sup01",
+   "url": "https://www.yieh.com/en/News/jinxi-steel-starts-new-slab-casting-line-to-expand-electrical-steel-production/163572",
+   "tarih_kaynagi": "rss",
+   "lead": "VAMA expands automotive steel capacity to 3 million tons with new high-strength and coated steel lines ...",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "anahtar": "39ef3b3d83e90edd",
+   "kategori": "Hat",
+   "olaylar": [
+    "jinxi steel|hat|Elektrik celigi hatti|Belirsiz"
+   ],
+   "puan": 49.0
   },
   {
    "anahtar": "be1d4f267c8b90d4",
@@ -131,46 +157,19 @@
    "tutar": "",
    "ulke": "",
    "url": "https://news.mysteel.com/a/26112411/6E5FEAD6FF468411.html"
-  },
-  {
-   "anahtar": "2d3e6e9aaab16dba",
-   "asama": "Modernizasyon",
-   "baslik": "Modernización de 3 mil millones de dólares de Gary Works de U.S. Steel vinculada a la propuesta de acuerdo de desarrollo urbano",
-   "eksik": [
-    "hat"
-   ],
-   "firma": "Modernización",
-   "hat": "Belirsiz",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgx_q_es1",
-   "lead": "Gary officials announced on Tuesday a proposed economic development agreement with U.S. Steel tied to the company's $3 billion modernization investment in the Gary Works steel mill. The ...",
-   "olaylar": [
-    "modernizacion|fu|ABD|Belirsiz",
-    "modernizacion|hat|Belirsiz|Modernizasyon",
-    "modernizacion|ulke|ABD|Modernizasyon"
-   ],
-   "puan": 54.0,
-   "tarih": "2026-11-23",
-   "tarih_kaynagi": "rss",
-   "tedarikci": "",
-   "tutar": "$3 billion",
-   "ulke": "ABD",
-   "url": "https://news.metal.com/es/newscontent/23GGUQHCBR4G53CLBOUSAWKIYR764W55TRMJOVI-modernizaci%C3%B3n-de-3-mil-millones-de-d%C3%B3lares-de-gary-works-de-us-steel-vinculada-a-la-propuesta-de-acuerdo-de-desarrollo-urbano"
   }
  ],
  "stats": {
   "kaynak": 369,
-  "erisilemeyen": 16,
-  "ham": 4725,
-  "on_eleme_gecti": 523,
+  "erisilemeyen": 17,
+  "ham": 4727,
+  "on_eleme_gecti": 525,
   "makale_acildi": 228,
-  "tarihsiz_elendi": 91,
-  "pencere_disi": 397,
-  "kapsam_disi": 4177,
-  "tekrar": 54,
-  "kabul": 6,
+  "tarihsiz_elendi": 90,
+  "pencere_disi": 403,
+  "kapsam_disi": 4162,
+  "tekrar": 65,
+  "kabul": 7,
   "gnews_tarih": 0
  },
  "unreachable": [
@@ -191,12 +190,16 @@
    "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>"
   ],
   [
+   "Magnetics Magazine",
+   "TimeoutError: The read operation timed out"
+  ],
+  [
    "BigMint (SteelMint)",
    "HTTP 403"
   ],
   [
-   "MetalForming Magazine",
-   "HTTP 404"
+   "Google News",
+   "HTTP 429"
   ],
   [
    "Google News",
@@ -610,15 +613,15 @@
   "bgpy_tr_fiyat": "arama",
   "bgpy_tr_onlem": "arama"
  },
- "today": "2026-11-25",
+ "today": "2026-11-26",
  "host_saglik": {
   "news.google.com": {
    "istek": 140,
-   "hiz_siniri": 0,
+   "hiz_siniri": 1,
    "sogutmada": false
   },
   "www.bing.com": {
-   "istek": 139,
+   "istek": 140,
    "hiz_siniri": 0,
    "sogutmada": false
   },
@@ -635,10 +638,26 @@
   "www.cognex.com": {
    "istek": 2,
    "hiz_siniri": 2,
-   "sogutmada": true
+   "sogutmada": false
   }
  },
  "tech_pool": [
+  {
+   "anahtar": "tech:e82b221fc2986888",
+   "tarih": "2026-10-05",
+   "baslik": "Turkey's Isdemir develops high-quality steel production for defense industry and electrical steel",
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMW13SGRFangyUGg2dkFBMDJ0aUFSSVljX0gxbXFZMng2OWRYY1hqLThqYVNtaDJzMUlvanBROE02MXZMTktNNG4zU3AzdHZzVUlxRVpXUlZRVzQ0eUhKamhRU2dyMHh4RkdDcGEtYXMzRmQ1eEE5aV9GWTJkZmhCeTZCRzE3ZG5VZS1pdEZnaXBGNzZ1WGl1WUxTeUNIVEY2UzJTN1MtZ0RvbnFNc0NzNUJtWl9YX0J6Y0FMQlh1cTUzRzdMZ3dNbE9zQXU2a1NTVGVUeEwybnR1M2VQcmtaaEFQb2RhWTVSTjdxMXdGRQ?oc=5",
+   "kaynak": "SteelOrbis",
+   "hat": "Elektrik celigi hatti"
+  },
+  {
+   "anahtar": "tech:2a8c2eeaf9606fcd",
+   "tarih": "2026-09-10",
+   "baslik": "Hot-dip galvanized steel foundations demonstrate corrosion resistance over decades of field service",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcnc4WTluamNWUzJBODRtdElXSnVmQUg4ajh5OVN3LXo3aXVmUF8yZHhWVTFlZy1KeUlaOGptSTk1LW9KLVNBWFMxNDRtaXd6UnBUTUpOWVBnUmlJdFFkX3JCUlFOMGVnVXc2Y2loZlRFN19TQXdSMzNfOEFRTXRQY0hMWEdlenhzdWE3REtURUxNSFU3UHM0UmF6a3BMWExtSC1fZUxqd3RmSnprSWJQUl84VFZJbk1tSHFycnpiOHhvRHNxb28wYUVjajQ?oc=5",
+   "kaynak": "Geoengineer.org",
+   "hat": "Galvaniz hatti (CGL)"
+  },
   {
    "anahtar": "tech:2a81095235098448",
    "tarih": "2026-07-12",
@@ -702,22 +721,6 @@
    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPdWdicXBteXBJc2c5aG1MUk5fN0tFRFdEVlJzalVuZXNhUF9nN2U0cmtWbkUzY2pQbEpvbUp3cWRaU1dYM19DOTVEcFNnU0JTTEd1cXgxbG00UGlwWklNWkhELS15dDVWeEgwUDY2d3dfNTB2QnVFeXlaWkZ5WFFQOU8yWWl2TjNBeG80ZG9KQ3ZjQ2gxdExkbDQyX2s5R1dYM0dWeVpxSE8tYXRTUE5wcjNpcVJvOEgxR2FrcjVjZTJyT2ltYllRNlVNZ9IB2wFBVV95cUxNSWl5bXpiRXRoY2F2QTlrSDJ2c0JEaWhSeFpDc0RBR0ROdlFwUEpIbTlSNGU0UmdDMjg2cGJhU05HczNrWmdvMUhDcm94V2xGMzFNV0h4QkdnUHBIRVFBSWdoS3p0Vzhlb3loT3RSdEZSb1VyWnVSU0pobFc3aFo3OU83cmpnUGVKb0tMcEVwVjBvNDhabzNJT0dfeEZsM1E0V25MVE54QmxkWk1jX29aVkJZSG5wWkVtR3R0QWlRUzc4NVVZRWhaZGM0bnduWEVYRVMwemFDWHVFcnM?oc=5",
    "kaynak": "Swarajya",
    "hat": "Belirsiz"
-  },
-  {
-   "anahtar": "tech:62eabf613767f1e6",
-   "tarih": "2026-01-08",
-   "baslik": "Innovation will define future of galvanized steels: CSIR NML Jamshedpur Director",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSGdtZFlNcmRGWnZLb3lrOVFWSUs4MDlVd0NQc28wMFA5WHdOeFdfLXptWkFHX3lzZmY3X2s4NUJicGx2dG1QVFpJS0M1WFVsa1BSS01lWG8wOUhNNEhRTkhobHlfNXJDYy1KejlsYkdZMjBscUZkbFNqSl9uelVmRDF0VFRLM2l3UkFzNkl2eWtLbnBPdGoyRVFCVERYb0FfNVlJZw?oc=5",
-   "kaynak": "The Avenue Mail",
-   "hat": "Galvaniz hatti (CGL)"
-  },
-  {
-   "anahtar": "tech:2b05c879608014ca",
-   "tarih": "2026-01-02",
-   "baslik": "Korea unveils technology to cut steel heat-treatment emissions by over 98 percent",
-   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxORHJBUjhTOHB1MEhsYTNCV1B2d3ZGSXN4YWt0Rm5IRVlZU05tZHFoUEVpbGNKUjJoT2VFSERac0xrNklnR2lqRmI2NUZJOFFONUZJT2hsVWRIU0hCWFJIY2h2ZDlOSWdOQ1YwRkhJeGpPYW1qc1FpS3czU3RwNDJoT2xRamFOaEZ1Q19odnMwNU9fTlZRTzR0N042a3ZOdkpENUptM3NPSVpmX2g5S3ZoMG9XdVpaYzZ0Q0hEWDZjRUlTT0RVWWRLSmxJZkh5RWVrZUJMb0stN2pBTXM?oc=5",
-   "kaynak": "SteelOrbis",
-   "hat": "Belirsiz"
   }
  ],
  "kaynak_katki": {
@@ -725,9 +728,33 @@
   "Kallanish": 1,
   "Mysteel (tesis/proje)": 1,
   "Google News": 1,
-  "Bing News": 2
+  "Bing News": 3
  },
  "piyasa_pool": [
+  {
+   "anahtar": "piyasa:75b8d8314f95438f",
+   "tarih": "2026-11-26",
+   "baslik": "Vietnam issues cold-rolled stainless steel anti-dumping questionnaires",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/vietnam-issues-questionnaires-for-cold-rolled-stainless-steel-imports-1126/",
+   "kaynak": "Kallanish",
+   "lead": "Vietnam’s Ministry of Industry and Trade (MOIT) issued questionnaires on 25 November as part of its..."
+  },
+  {
+   "anahtar": "piyasa:96aeb99570af9679",
+   "tarih": "2026-11-26",
+   "baslik": "EU steel exports fall 16.9%, with flat products seeing the steepest decline",
+   "url": "https://metallurgprom.org/en/news/europe/22368-eu-steel-exports-fall-169-with-flat-products-seeing-the-steepest-decline.html",
+   "kaynak": "Metallurgprom",
+   "lead": "In January–September 2026, EU countries exported 6.653 million tonnes of flat and long steel products outside the bloc, down 16.9% year on year. Flat steel shipments fell the most, including to the US and Turkey."
+  },
+  {
+   "anahtar": "piyasa:0a4c0bfcde208908",
+   "tarih": "2026-11-26",
+   "baslik": "Thailand extends AD duties to certain alloyed cold rolled steel imports from China",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/thailand-extends-ad-duties-to-certain-alloyed-cold-rolled-steel-imports-from-china-1493684.htm",
+   "kaynak": "Bing News",
+   "lead": "Thailand's Department of Foreign Trade (DFT) has announced that the country's Committee on Dumping and Subsidies has concluded its anti-circumvention ..."
+  },
   {
    "anahtar": "piyasa:faa4f89b896417db",
    "tarih": "2026-11-25",
@@ -737,12 +764,28 @@
    "lead": "India: HRC, CRC trade prices drop on sluggish demand and limited enquiries &nbsp;&nbsp; BigMint"
   },
   {
-   "anahtar": "piyasa:7fb373e7a3430917",
+   "anahtar": "piyasa:230567ff6be9fffd",
    "tarih": "2026-11-25",
-   "baslik": "Vietnam launches product scope review of AD duties on galvanized steel from China and S. Korea",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/vietnam-launches-product-scope-review-of-ad-duties-on-galvanized-steel-from-china-and-s-korea-1493353.htm",
+   "baslik": "SunSirs: Downstream Demand Weakened, and Galvanized Steel Sheet and Coil Market Saw a Slight Decline",
+   "url": "https://www.sunsirs.com/commodity-news/petail-37961.html",
    "kaynak": "Bing News",
-   "lead": "Vietnam's Ministry of Industry and Trade (MOIT) has initiated a product scope review of the existing antidumping (AD) measures on imports of certain ..."
+   "lead": "Last week, hot-rolled coil futures experienced a significant decline, dampening market sentiment. Compounded by a seasonal weakening in downstream demand—typical ..."
+  },
+  {
+   "anahtar": "piyasa:801de166591e5140",
+   "tarih": "2026-11-25",
+   "baslik": "Korea Trade Panel Urges Up to 26% Duties on Chinese PVC, Tinplate",
+   "url": "https://en.sedaily.com/economy/2026/11/26/korea-trade-panel-urges-up-to-26-percent-duties-on-chinese",
+   "kaynak": "Bing News",
+   "lead": "Korea's Trade Commission recommended provisional anti-dumping duties of up to 26.02% on Chinese S-PVC and up to 8.36% on tinplate."
+  },
+  {
+   "anahtar": "piyasa:2f07c200f7e795d5",
+   "tarih": "2026-11-25",
+   "baslik": "[Korea's KTC proposes antidumping duties on Chinese PVC suspension resin and tin plates]",
+   "url": "https://news.metal.com/newscontent/MMM5MBUI4ANE3WQDRM3F6WVPB4L3KQWY7GYZVOA-koreas-ktc-proposes-antidumping-duties-on-chinese-pvc-suspension-resin-and-tin-plates",
+   "kaynak": "Bing News",
+   "lead": "The Korea Trade Commission (KTC) made a preliminary ruling that imports of Chinese polyvinyl chloride (PVC) suspension resin may harm the domestic industry, and proposed an antidumping duty ..."
   },
   {
    "anahtar": "piyasa:81de6e4f146e8159",
@@ -761,28 +804,12 @@
    "lead": "Painted Metals - Global Strategic Business Report 2026\" has been added to ResearchAndMarkets.com's offering. The global pre-painted metals market was valued at US$17.7 billion in 2025 and is projected ..."
   },
   {
-   "anahtar": "piyasa:230567ff6be9fffd",
-   "tarih": "2026-11-24",
-   "baslik": "SunSirs: Downstream Demand Weakened, and Galvanized Steel Sheet and Coil Market Saw a Slight Decline",
-   "url": "https://www.sunsirs.com/commodity-news/petail-37961.html",
-   "kaynak": "Bing News",
-   "lead": "Last week, hot-rolled coil futures experienced a significant decline, dampening market sentiment. Compounded by a seasonal weakening in downstream demand—typical ..."
-  },
-  {
    "anahtar": "piyasa:9dfa395843b682d9",
    "tarih": "2026-11-24",
    "baslik": "Isdemir stock in focus as EU duties hit Turkish flat steel",
    "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/isdemir-stock-in-focus-as-eu-duties-hit-turkish-flat-steel/70551215",
    "kaynak": "Bing News",
    "lead": "Reuters reported on November 16 that the EU set duties of between 3.0 percent and 7.8 percent for Turkish steelmakers. The measures cover products used in cars, aircraft, appliances and construction, ..."
-  },
-  {
-   "anahtar": "piyasa:40dcf9ff63846199",
-   "tarih": "2026-11-23",
-   "baslik": "Chronoly Price, crno to USD, Research, News & Fundraising | Blockworks Intel",
-   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9KLWhmNl9aZmxPbWRpUFV4eDJub2RlbGlncUtIc2xaOElWYW81V1FXamN3RjdTdk9uWWJZRWd4OXFsZXZnQnlVMER3X2t0N3N5a1NWa25wRQ?oc=5",
-   "kaynak": "Blockworks",
-   "lead": "Chronoly Price, crno to USD, Research, News & Fundraising | Blockworks Intel &nbsp;&nbsp; Blockworks"
   },
   {
    "anahtar": "piyasa:ec8f87f715216171",
@@ -799,14 +826,6 @@
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSXFwX2d4eG91SmJmMzdzd1JPWFNETXNYQ2VMWnpqdU5PX2tqT1Byc3hBNFY3VUtVMkszZVhTTVdkM2ZjM2tCTlpHcktwNDIzbV8xU21od0pNMXY3ajNUQ0VLZGUyLXoxZW9vemdGaUZjTkxKaXZ5MXdpZlR0cnZRYVphWmJLblJvTmtMNVVrT0haeDJxcnNwSU0yeVpuUXktRWx3cQ?oc=5",
    "kaynak": "Steel Market Update",
    "lead": "Mill Steel acquires Gary flat-rolled processing facility &nbsp;&nbsp; Steel Market Update"
-  },
-  {
-   "anahtar": "piyasa:4e2f1eba8ae250d9",
-   "tarih": "2026-11-23",
-   "baslik": "[SMM Analysis] China’s Galvanized Steel Exports Fall 16% MoM in October",
-   "url": "https://news.metal.com/newscontent/Z42BMKPFRZZ52EEUD7CCUQSXOZZKWLK6JV4W3OY-smm-analysis-chinas-galvanized-steel-exports-fall-16-mom-in-october",
-   "kaynak": "Bing News",
-   "lead": "According to the latest customs data, China exported 997,300 mt of galvanized steel sheets in October 2026, down 16.35% month-on-month (MoM) and 23.25% year-on-year (YoY). From January to October, ..."
   },
   {
    "anahtar": "piyasa:92751181f20552b9",
@@ -833,14 +852,6 @@
    "lead": "hidden Disclaimer: BigMint Technologies Private Limited has taken due care and caution in compilation of content for its web site. Information is just for reference not intended for trading purpose or ..."
   },
   {
-   "anahtar": "piyasa:6e21a1f75683a0b2",
-   "tarih": "2026-11-18",
-   "baslik": "Vietnam considers coated steel anti-dumping duty review",
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPSkNMZ3VOV2RVeUxYNWo3Skt2cW9FUnpoSGZLSGlFRkx4U2d3bE9RZGlQLUczcW56Tk5BTkJLSUdDZzhnUzBYUU1vUy1hazkzLTRGazhOZjF4dmd4NmdydVIzNV9vMHc5dGVmbnBZcTUwMEJpT3phamRDWXJwNDBmZnZVMVNDMENYNlpsRWVSYnM0X3AzWXBMaWUzYkpLMVROcDJTeHFQYUVDQ0ZTZVkzcWI4MW55N01zeklZSHU4NEN5aGNzcWJteWV3?oc=5",
-   "kaynak": "Kallanish Commodities",
-   "lead": "Vietnam considers coated steel anti-dumping duty review &nbsp;&nbsp; Kallanish Commodities"
-  },
-  {
    "anahtar": "piyasa:c67a92c697709854",
    "tarih": "2026-11-17",
    "baslik": "EU imposes duties of up to 27.9% on cold-rolled steel from five Asian and Middle Eastern countries",
@@ -857,14 +868,6 @@
    "lead": "The European Union has imposed anti-dumping duties of up to 27.9% on cold-rolled steel from India, Japan, Taiwan, Turkey and Vietnam. The decision was made following an investigation that found these ..."
   },
   {
-   "anahtar": "piyasa:1765ac6dbaeb05cf",
-   "tarih": "2026-11-16",
-   "baslik": "AB'den Türkiye ve diğer 4 ülkeye yassı çelik anti-damping vergisi",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPbGlHWWZQWkE5SUQwNm9WWUo5OW9KZFlBWmg3d2hVTFRsZWdxR2hGcjZKZHFqbXh3cDZNdUk2M1pkU2VzU0tJZ1JJMDRjZk1oalRTMEdDWk5McG1Ga19zNldzZ1dLRWVSLU8tQkxrRHVQZlhmVmI3MWJTanNScnhmbk9pblVwcklGWmEydDh5d0ZleHFyTU9vbWZ2NGQwclVRU1JR?oc=5",
-   "kaynak": "Bloomberght",
-   "lead": "AB'den Türkiye ve diğer 4 ülkeye yassı çelik anti-damping vergisi &nbsp;&nbsp; Bloomberght"
-  },
-  {
    "anahtar": "piyasa:26b39c0474ddeeba",
    "tarih": "2026-11-16",
    "baslik": "European Commission imposes anti-dumping duties on cold-rolled coil imports from India, Japan, Taiwan, Turkey, Vietnam",
@@ -873,20 +876,12 @@
    "lead": "The definitive duties are 9.5% for India, 27.9% for Japan, 20.7-27% for Taiwan, 3-7.8% for Turkey and 16% for Vietnam. Imposition of the duties followed an investigation started in September 2025, ..."
   },
   {
-   "anahtar": "piyasa:e2ecfb5deeda9fec",
-   "tarih": "2026-11-16",
-   "baslik": "EU to impose tariffs on cold-rolled flat steel from five countries",
-   "url": "https://www.msn.com/en-us/money/economy/eu-to-impose-tariffs-on-cold-rolled-flat-steel-from-five-countries/ar-AA2hyp7M",
+   "anahtar": "piyasa:6e21a1f75683a0b2",
+   "tarih": "2026-11-15",
+   "baslik": "Vietnam considers coated steel anti-dumping duty review",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/vietnam-considers-review-of-coated-steel-anti-dumping-1126/",
    "kaynak": "Bing News",
-   "lead": "By Philip Blenkinsop BRUSSELS, Nov 16 (Reuters) - The EU is imposing tariffs of up to 27.9% on cold-rolled flat steel products from India, Japan, Taiwan, Turkey and Vietnam after finding they were ..."
-  },
-  {
-   "anahtar": "piyasa:7893ef1245c7ae15",
-   "tarih": "2026-11-16",
-   "baslik": "EU imposes 9.5% anti-dumping duty on cold-rolled steel imports from India",
-   "url": "https://www.financialexpress.com/policy/economy/eu-imposes-9-5-anti-dumping-duty-on-cold-rolled-steel-imports-from-india/4386089/",
-   "kaynak": "Bing News",
-   "lead": "India faces a 9.5% anti-dumping duty on cold-rolled flat steel exports to the EU after the European Commission's decision, with Japan, Taiwan, Turkey, and Vietnam also assigned varying duty rates."
+   "lead": "Vietnam’s Trade Remedies Authority (TRAV) has accepted a valid application ..."
   },
   {
    "anahtar": "piyasa:8ed1e5cf759d4884",
@@ -927,17 +922,25 @@
    "url": "https://www.kallanish.com/en/news/steel/market-reports/rfp-article-details/thailand-levies-ad-tinplate-tin-free-sheet-1126/",
    "kaynak": "Bing News",
    "lead": "Thailand has imposed anti-dumping duties on tinplate and tin-free steel, ..."
+  },
+  {
+   "anahtar": "piyasa:1df6498ceaade832",
+   "tarih": "2026-11-05",
+   "baslik": "Türkiye’s flat steel market: Galvanized prices increased, HRC and CRC remain stable | 5 November 2026",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPLWhLdXhURFp3NGZTZVRWT05xTVZtZDVRN016NXg1ajlreWJlZHBlNk9valE5ZTRWSnpzbUNsR3V1QjJJdm80UVRqdHhoYlYxUEtUMlVrQ191TDVBY0JXMEVDdVoybkdFMGIzbE5lRDY2SHZvcUszb1hjSkFIQTdHSzJCZGkwZFNEM2VOdHdxbEZZTV9EMkdPdjF0OGNqOUdYMV84TkcxRmFZSEZyVWRaYUtHVWktV0RoOV9zQ1pHbGtSNUJGUzV1UDBMZ3RkZw?oc=5",
+   "kaynak": "SteelRadar",
+   "lead": "Türkiye’s flat steel market: Galvanized prices increased, HRC and CRC remain stable | 5 November 2026 &nbsp;&nbsp; SteelRadar"
   }
  ],
  "window": [
-  "2026-11-04",
-  "2026-11-25"
+  "2026-11-05",
+  "2026-11-26"
  ],
- "bulunan_kullanilan": 2,
- "bulunan_havuz": 8,
+ "bulunan_kullanilan": 1,
+ "bulunan_havuz": 10,
  "rezerv_kullanilan": 0,
- "rezerv_havuz": 103,
+ "rezerv_havuz": 105,
  "period": "2026-W48",
- "generated": "2026-11-25 13:05 UTC",
+ "generated": "2026-11-26 12:44 UTC",
  "version": "3.0.0"
 }

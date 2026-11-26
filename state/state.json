@@ -1,6 +1,32 @@
 {
  "bulunan": [
   {
+   "anahtar": "39ef3b3d83e90edd",
+   "asama": "Belirsiz",
+   "baslik": "Jinxi Steel starts new slab casting line to expand electrical steel production",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "firma": "Jinxi Steel",
+   "hat": "Elektrik celigi hatti",
+   "kapasite": "3 million tons",
+   "kategori": "Hat",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_sup01",
+   "lead": "VAMA expands automotive steel capacity to 3 million tons with new high-strength and coated steel lines ...",
+   "olaylar": [
+    "jinxi steel|hat|Elektrik celigi hatti|Belirsiz"
+   ],
+   "puan": 49.0,
+   "tarih": "2026-11-26",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://www.yieh.com/en/News/jinxi-steel-starts-new-slab-casting-line-to-expand-electrical-steel-production/163572"
+  },
+  {
    "anahtar": "5ea1d1a279e9ea44",
    "asama": "Ilk urun",
    "baslik": "Baosteel opens steel service centre in Vietnam",
@@ -3391,6 +3417,24 @@
     "tekrar": 54
    },
    "uretim": "2026-11-25 13:05 UTC"
+  },
+  {
+   "donem": "2026-W48",
+   "satir": 6,
+   "stats": {
+    "erisilemeyen": 17,
+    "gnews_tarih": 0,
+    "ham": 4727,
+    "kabul": 7,
+    "kapsam_disi": 4162,
+    "kaynak": 369,
+    "makale_acildi": 228,
+    "on_eleme_gecti": 525,
+    "pencere_disi": 403,
+    "tarihsiz_elendi": 90,
+    "tekrar": 65
+   },
+   "uretim": "2026-11-26 12:44 UTC"
   }
  ],
  "piyasa_gonderilen": [
@@ -3437,6 +3481,22 @@
  ],
  "piyasa_rezerv": [
   {
+   "anahtar": "piyasa:96aeb99570af9679",
+   "baslik": "EU steel exports fall 16.9%, with flat products seeing the steepest decline",
+   "kaynak": "Metallurgprom",
+   "lead": "In January–September 2026, EU countries exported 6.653 million tonnes of flat and long steel products outside the bloc, down 16.9% year on year. Flat steel shipments fell the most, including to the US and Turkey.",
+   "tarih": "2026-11-26",
+   "url": "https://metallurgprom.org/en/news/europe/22368-eu-steel-exports-fall-169-with-flat-products-seeing-the-steepest-decline.html"
+  },
+  {
+   "anahtar": "piyasa:0a4c0bfcde208908",
+   "baslik": "Thailand extends AD duties to certain alloyed cold rolled steel imports from China",
+   "kaynak": "Bing News",
+   "lead": "Thailand's Department of Foreign Trade (DFT) has announced that the country's Committee on Dumping and Subsidies has concluded its anti-circumvention ...",
+   "tarih": "2026-11-26",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/thailand-extends-ad-duties-to-certain-alloyed-cold-rolled-steel-imports-from-china-1493684.htm"
+  },
+  {
    "anahtar": "piyasa:a29e8404bd93a30f",
    "baslik": "Global Pre-Painted Metals Market to Reach $37 Billion by 2032 as Construction, Automotive and Sustainability Demand Accelerates | ArcelorMittal, SSAB, Tata Bluescope Steel and ...",
    "kaynak": "Bing News",
@@ -3475,6 +3535,14 @@
    "lead": "According to the latest customs data, China exported 997,300 mt of galvanized steel sheets in October 2026, down 16.35% month-on-month (MoM) and 23.25% year-on-year (YoY). From January to ...",
    "tarih": "2026-11-22",
    "url": "https://news.metal.com/fr/newscontent/Z42BMKPFRZZ52EEUD7CCUQSXOZZKWLK6JV4W3OY-smm-analysis-chinas-galvanized-steel-exports-fall-16-mom-in-october"
+  },
+  {
+   "anahtar": "piyasa:92751181f20552b9",
+   "baslik": "India: Coated flat steel prices ease further; weak retail offtake weighs on market",
+   "kaynak": "Bing News",
+   "lead": "hidden Disclaimer: BigMint Technologies Private Limited has taken due care and caution in compilation of content for its web site. Information is just for reference not intended for trading purpose or ...",
+   "tarih": "2026-11-20",
+   "url": "https://www.bigmint.co/insights/detail/indian-coated-flat-steel-prices-ease-further-weak-retail-offtake-weighs-on-market-810290"
   },
   {
    "anahtar": "piyasa:3c18cdf17b1c89f3",
@@ -3533,12 +3601,12 @@
    "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/vietnam-launches-probe-into-cold-rolled-stainless-steel-imports-1126/"
   },
   {
-   "anahtar": "piyasa:c8d598485ca4f420",
-   "baslik": "India HRC and CRC prices rise w-o-w; festive slowdown limits further gains",
-   "kaynak": "BigMint",
-   "lead": "India HRC and CRC prices rise w-o-w; festive slowdown limits further gains &nbsp;&nbsp; BigMint",
-   "tarih": "2026-11-04",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNU1JhT1o1ZTBKOUlJaG55b2xBUGM5cEp4aUU1aGc3cHdHcXVVMmJVSVNZRHNBeFR2Rm40bjhHemZaZS1JY1pWWHpOWTU5MFpWUUZkd0F5Ujd1VFd6b0U3Z3FXNDJPTFQ3cXpLVHItbW9JM096aGV1dUVITWlfRWV0UWp3d093N1p1OXdjaXVITlFELUktajVhZTJ4SXQwa2EwSGFKcVFub2MwOUVNQ2FqeEptYTQ4c0lUME1V?oc=5"
+   "anahtar": "piyasa:1df6498ceaade832",
+   "baslik": "Türkiye’s flat steel market: Galvanized prices increased, HRC and CRC remain stable | 5 November 2026",
+   "kaynak": "SteelRadar",
+   "lead": "Türkiye’s flat steel market: Galvanized prices increased, HRC and CRC remain stable | 5 November 2026 &nbsp;&nbsp; SteelRadar",
+   "tarih": "2026-11-05",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPLWhLdXhURFp3NGZTZVRWT05xTVZtZDVRN016NXg1ajlreWJlZHBlNk9valE5ZTRWSnpzbUNsR3V1QjJJdm80UVRqdHhoYlYxUEtUMlVrQ191TDVBY0JXMEVDdVoybkdFMGIzbE5lRDY2SHZvcUszb1hjSkFIQTdHSzJCZGkwZFNEM2VOdHdxbEZZTV9EMkdPdjF0OGNqOUdYMV84TkcxRmFZSEZyVWRaYUtHVWktV0RoOV9zQ1pHbGtSNUJGUzV1UDBMZ3RkZw?oc=5"
   }
  ],
  "piyasa_seen": {
@@ -3555,6 +3623,32 @@
   "piyasa:db67f98fb4dd717b": "2026-11-02"
  },
  "rezerv": [
+  {
+   "anahtar": "030766325752f22c",
+   "asama": "Ilk urun",
+   "baslik": "Nucor Produces First Prime Coil on Continuous Galvanizing Line Supplied by Primetals Technologies",
+   "eksik": [
+    "ulke"
+   ],
+   "firma": "Nucor",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Primetals Technologies",
+   "kaynak_id": "gtek_prime",
+   "lead": "Nucor Produces First Prime Coil on Continuous Galvanizing Line Supplied by Primetals Technologies &nbsp;&nbsp; Primetals Technologies",
+   "olaylar": [
+    "nucor|hat|Galvaniz hatti (CGL)|Ilk urun",
+    "primetals|hat|Galvaniz hatti (CGL)|Ilk urun"
+   ],
+   "rezerv": true,
+   "tarih": "2026-11-04",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "Primetals",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE90Z3RPcmFVaDJyb2p3aG1ESWZlN05feS1ONXVxRVBfVzd6VHZLRmxsbm5lUFdhN0lKNVFxNlp1NDlaclMzUjZFb1EzM19OMEtNallkQjUwUnN6U2hXalVwbXNNTlMtaWRBdWVZ?oc=5"
+  },
   {
    "anahtar": "8dee4899740a0529",
    "asama": "Ilk urun",
@@ -5654,6 +5748,33 @@
    "tutar": "",
    "ulke": "",
    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVG1rbEYxZEp5X2dweTJfNzBBSmRoNlFTYm9obXVnbWdBT3lYTjd1Y19YbVktbUN6S2ZJOUdXOE5kTWwtWnZTQ0NQaHh0OTdpTFFTLWpOZkotcFpQc3NuZzY1a1FZRXZxcURia3RvYjk2TE8tRTduTHJldHR4VEN3UG5NU3NYUmVDWXExd1dRZWdQeWNXWEVPZTFZblhsN3BiTkRQeVVHMHFKOEJuWDRLZ1BEZlVVZHdTMC1z?oc=5"
+  },
+  {
+   "anahtar": "0228256c8fa976ec",
+   "asama": "Belirsiz",
+   "baslik": "FUCHS launches RENOCLEAN GL 8000 Galvanizing Line Cleaner",
+   "eksik": [
+    "asama"
+   ],
+   "firma": "FUCHS",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Canadian Occupational Safety",
+   "kaynak_id": "gtek_galv",
+   "lead": "FUCHS launches RENOCLEAN GL 8000 Galvanizing Line Cleaner &nbsp;&nbsp; Canadian Occupational Safety",
+   "olaylar": [
+    "fuchs|fu|Kanada|Galvaniz hatti (CGL)",
+    "fuchs|hat|Galvaniz hatti (CGL)|Belirsiz",
+    "fuchs|ulke|Kanada|Belirsiz"
+   ],
+   "rezerv": true,
+   "tarih": "2026-03-16",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Kanada",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcWtrbE56dFBvaVFuRUJ2RGc2MnBvaFhkNG5kNDA1UURGX3VyODdPU3p6Vm5XS2c5SnNyaTZYdU1Lc0hmc3dyR1FrSDFGenVra2N6UmdjSFhxdDNyNlBYVzIyemJyMGRSRC1aUkFBbmNwaS1WRi01TW81TGRPRGtsUDZ6a19rcDdBUlhQQ1VrNXVodUFZQ044NENROE5uUEk4LUtQNVNnR0Y3NWhPeFIyU0J4WmYxZDEzV3hKcUl3?oc=5"
   },
   {
    "anahtar": "971c858c2cf021dc",

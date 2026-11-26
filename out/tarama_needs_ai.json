@@ -17,9 +17,9 @@
    }
   },
   {
-   "anahtar": "d1ade63377aa8871",
+   "anahtar": "2ad539ef8384aada",
    "baslik": "常熟华新六台冷轧管机电气系统智能化改造项目成功投运",
-   "url": "https://news.mysteel.com/a/26112515/E21FCB49356E87E1.html",
+   "url": "https://factory.mysteel.com/a/26112515/6D1E4FB54E942C7E.html",
    "eksik": [
     "firma",
     "ulke"
@@ -29,6 +29,21 @@
     "ulke": "",
     "hat": "Elektrik celigi hatti",
     "asama": "Modernizasyon"
+   }
+  },
+  {
+   "anahtar": "39ef3b3d83e90edd",
+   "baslik": "Jinxi Steel starts new slab casting line to expand electrical steel production",
+   "url": "https://www.yieh.com/en/News/jinxi-steel-starts-new-slab-casting-line-to-expand-electrical-steel-production/163572",
+   "eksik": [
+    "ulke",
+    "asama"
+   ],
+   "mevcut": {
+    "firma": "Jinxi Steel",
+    "ulke": "",
+    "hat": "Elektrik celigi hatti",
+    "asama": "Belirsiz"
    }
   },
   {
@@ -44,20 +59,6 @@
     "ulke": "",
     "hat": "Elektrik celigi hatti",
     "asama": "Ilk urun"
-   }
-  },
-  {
-   "anahtar": "2d3e6e9aaab16dba",
-   "baslik": "Modernización de 3 mil millones de dólares de Gary Works de U.S. Steel vinculada a la propuesta de acuerdo de desarrollo urbano",
-   "url": "https://news.metal.com/es/newscontent/23GGUQHCBR4G53CLBOUSAWKIYR764W55TRMJOVI-modernizaci%C3%B3n-de-3-mil-millones-de-d%C3%B3lares-de-gary-works-de-us-steel-vinculada-a-la-propuesta-de-acuerdo-de-desarrollo-urbano",
-   "eksik": [
-    "hat"
-   ],
-   "mevcut": {
-    "firma": "Modernización",
-    "ulke": "ABD",
-    "hat": "Belirsiz",
-    "asama": "Modernizasyon"
    }
   }
  ],
@@ -93,14 +94,24 @@
    "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/baosteel-opens-steel-processing-plant-in-vietnam-1126/"
   },
   {
-   "anahtar": "d1ade63377aa8871",
+   "anahtar": "2ad539ef8384aada",
    "tarih": "2026-11-25",
    "firma": "",
    "ulke": "",
    "hat": "Elektrik celigi hatti",
    "asama": "Modernizasyon",
    "baslik": "常熟华新六台冷轧管机电气系统智能化改造项目成功投运",
-   "url": "https://news.mysteel.com/a/26112515/E21FCB49356E87E1.html"
+   "url": "https://factory.mysteel.com/a/26112515/6D1E4FB54E942C7E.html"
+  },
+  {
+   "anahtar": "39ef3b3d83e90edd",
+   "tarih": "2026-11-26",
+   "firma": "Jinxi Steel",
+   "ulke": "",
+   "hat": "Elektrik celigi hatti",
+   "asama": "Belirsiz",
+   "baslik": "Jinxi Steel starts new slab casting line to expand electrical steel production",
+   "url": "https://www.yieh.com/en/News/jinxi-steel-starts-new-slab-casting-line-to-expand-electrical-steel-production/163572"
   },
   {
    "anahtar": "be1d4f267c8b90d4",
@@ -111,19 +122,25 @@
    "asama": "Ilk urun",
    "baslik": "普锐特为纽柯公司提供的连续镀锌机组顺利生产出首卷合格钢卷",
    "url": "https://news.mysteel.com/a/26112411/6E5FEAD6FF468411.html"
-  },
-  {
-   "anahtar": "2d3e6e9aaab16dba",
-   "tarih": "2026-11-23",
-   "firma": "Modernización",
-   "ulke": "ABD",
-   "hat": "Belirsiz",
-   "asama": "Modernizasyon",
-   "baslik": "Modernización de 3 mil millones de dólares de Gary Works de U.S. Steel vinculada a la propuesta de acuerdo de desarrollo urbano",
-   "url": "https://news.metal.com/es/newscontent/23GGUQHCBR4G53CLBOUSAWKIYR764W55TRMJOVI-modernizaci%C3%B3n-de-3-mil-millones-de-d%C3%B3lares-de-gary-works-de-us-steel-vinculada-a-la-propuesta-de-acuerdo-de-desarrollo-urbano"
   }
  ],
  "teknoloji_adaylari": [
+  {
+   "anahtar": "tech:e82b221fc2986888",
+   "tarih": "2026-10-05",
+   "baslik": "Turkey's Isdemir develops high-quality steel production for defense industry and electrical steel",
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMW13SGRFangyUGg2dkFBMDJ0aUFSSVljX0gxbXFZMng2OWRYY1hqLThqYVNtaDJzMUlvanBROE02MXZMTktNNG4zU3AzdHZzVUlxRVpXUlZRVzQ0eUhKamhRU2dyMHh4RkdDcGEtYXMzRmQ1eEE5aV9GWTJkZmhCeTZCRzE3ZG5VZS1pdEZnaXBGNzZ1WGl1WUxTeUNIVEY2UzJTN1MtZ0RvbnFNc0NzNUJtWl9YX0J6Y0FMQlh1cTUzRzdMZ3dNbE9zQXU2a1NTVGVUeEwybnR1M2VQcmtaaEFQb2RhWTVSTjdxMXdGRQ?oc=5",
+   "kaynak": "SteelOrbis",
+   "hat": "Elektrik celigi hatti"
+  },
+  {
+   "anahtar": "tech:2a8c2eeaf9606fcd",
+   "tarih": "2026-09-10",
+   "baslik": "Hot-dip galvanized steel foundations demonstrate corrosion resistance over decades of field service",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcnc4WTluamNWUzJBODRtdElXSnVmQUg4ajh5OVN3LXo3aXVmUF8yZHhWVTFlZy1KeUlaOGptSTk1LW9KLVNBWFMxNDRtaXd6UnBUTUpOWVBnUmlJdFFkX3JCUlFOMGVnVXc2Y2loZlRFN19TQXdSMzNfOEFRTXRQY0hMWEdlenhzdWE3REtURUxNSFU3UHM0UmF6a3BMWExtSC1fZUxqd3RmSnprSWJQUl84VFZJbk1tSHFycnpiOHhvRHNxb28wYUVjajQ?oc=5",
+   "kaynak": "Geoengineer.org",
+   "hat": "Galvaniz hatti (CGL)"
+  },
   {
    "anahtar": "tech:2a81095235098448",
    "tarih": "2026-07-12",
@@ -186,22 +203,6 @@
    "baslik": "Indian Railways To Test Zinc Coating Technology For Steel Rails To Tackle Coastal Corrosion, Cut Track Renewal Costs: Report",
    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPdWdicXBteXBJc2c5aG1MUk5fN0tFRFdEVlJzalVuZXNhUF9nN2U0cmtWbkUzY2pQbEpvbUp3cWRaU1dYM19DOTVEcFNnU0JTTEd1cXgxbG00UGlwWklNWkhELS15dDVWeEgwUDY2d3dfNTB2QnVFeXlaWkZ5WFFQOU8yWWl2TjNBeG80ZG9KQ3ZjQ2gxdExkbDQyX2s5R1dYM0dWeVpxSE8tYXRTUE5wcjNpcVJvOEgxR2FrcjVjZTJyT2ltYllRNlVNZ9IB2wFBVV95cUxNSWl5bXpiRXRoY2F2QTlrSDJ2c0JEaWhSeFpDc0RBR0ROdlFwUEpIbTlSNGU0UmdDMjg2cGJhU05HczNrWmdvMUhDcm94V2xGMzFNV0h4QkdnUHBIRVFBSWdoS3p0Vzhlb3loT3RSdEZSb1VyWnVSU0pobFc3aFo3OU83cmpnUGVKb0tMcEVwVjBvNDhabzNJT0dfeEZsM1E0V25MVE54QmxkWk1jX29aVkJZSG5wWkVtR3R0QWlRUzc4NVVZRWhaZGM0bnduWEVYRVMwemFDWHVFcnM?oc=5",
    "kaynak": "Swarajya",
-   "hat": "Belirsiz"
-  },
-  {
-   "anahtar": "tech:62eabf613767f1e6",
-   "tarih": "2026-01-08",
-   "baslik": "Innovation will define future of galvanized steels: CSIR NML Jamshedpur Director",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSGdtZFlNcmRGWnZLb3lrOVFWSUs4MDlVd0NQc28wMFA5WHdOeFdfLXptWkFHX3lzZmY3X2s4NUJicGx2dG1QVFpJS0M1WFVsa1BSS01lWG8wOUhNNEhRTkhobHlfNXJDYy1KejlsYkdZMjBscUZkbFNqSl9uelVmRDF0VFRLM2l3UkFzNkl2eWtLbnBPdGoyRVFCVERYb0FfNVlJZw?oc=5",
-   "kaynak": "The Avenue Mail",
-   "hat": "Galvaniz hatti (CGL)"
-  },
-  {
-   "anahtar": "tech:2b05c879608014ca",
-   "tarih": "2026-01-02",
-   "baslik": "Korea unveils technology to cut steel heat-treatment emissions by over 98 percent",
-   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxORHJBUjhTOHB1MEhsYTNCV1B2d3ZGSXN4YWt0Rm5IRVlZU05tZHFoUEVpbGNKUjJoT2VFSERac0xrNklnR2lqRmI2NUZJOFFONUZJT2hsVWRIU0hCWFJIY2h2ZDlOSWdOQ1YwRkhJeGpPYW1qc1FpS3czU3RwNDJoT2xRamFOaEZ1Q19odnMwNU9fTlZRTzR0N042a3ZOdkpENUptM3NPSVpmX2g5S3ZoMG9XdVpaYzZ0Q0hEWDZjRUlTT0RVWWRLSmxJZkh5RWVrZUJMb0stN2pBTXM?oc=5",
-   "kaynak": "SteelOrbis",
    "hat": "Belirsiz"
   }
  ]
