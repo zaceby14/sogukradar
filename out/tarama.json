@@ -1,7 +1,139 @@
 {
  "rows": [
   {
-   "tarih": "2026-11-18",
+   "anahtar": "0270c208d71bc272",
+   "asama": "Sozlesme",
+   "baslik": "Kirac Galvaniz stock after company wins TRY 173 million tender",
+   "eksik": [],
+   "firma": "Kirac Galvaniz stock after company",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgpy_turkiye",
+   "lead": "Kirac Galvaniz said on Thursday, November 12, that it had won a steel road-barrier tender from Turkey's 4th Regional Directorate of Highways. The award covers various sections of the authority's road ...",
+   "olaylar": [
+    "kirac galvaniz stock after company|fu|Turkiye|Galvaniz hatti (CGL)",
+    "kirac galvaniz stock after company|hat|Galvaniz hatti (CGL)|Sozlesme",
+    "kirac galvaniz stock after company|ulke|Turkiye|Sozlesme"
+   ],
+   "puan": 75.8,
+   "tarih": "2026-11-15",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "Turkiye",
+   "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/kirac-galvaniz-stock-after-company-wins-try-173-million-tender/70518469"
+  },
+  {
+   "tarih": "2026-11-23",
+   "firma": "Tata Steel",
+   "ulke": "Hindistan",
+   "hat": "Boyama hatti (CCL)",
+   "asama": "Sozlesme",
+   "tedarikci": "",
+   "kapasite": "15.5 Million Tonnes",
+   "tutar": "",
+   "baslik": "Tata Steel and Promoters of APL Apollo Enter into a Comprehensive Agreement to Build an Indian Steel Tubes and Colour Coated Products Powerhouse Targeting 15.5 Million Tonnes of Capacity…",
+   "kaynak": "Tata Steel",
+   "kaynak_id": "tatasteel",
+   "url": "https://www.tatasteel.com/newsroom/press-releases/india/2026/tata-steel-and-promoters-of-apl-apollo-enter-into-a-comprehensive-agreement-to-build-an-indian-steel-tubes-and-colour-coated-products-powerhouse-targeting-155-million-tonnes-of-capacity/",
+   "tarih_kaynagi": "liste",
+   "lead": "Corporate Corporate Our Organisation Our Organisation Tata Group Profile Company Profile Vision, Mission & Values Leadership Ethics Policies Heritage Innovation Innovation TomorrowLAB Safety Safety Overview Performance Highlights Building a culture of Safety Awards and Accolades Environment Environment Environment Compliance Reports Policy Environmental Certifications HR CSR Awards & Recognitions Tata Steel Group Com",
+   "eksik": [
+    "tarih?"
+   ],
+   "anahtar": "a1dca0aeb6a0d081",
+   "kategori": "Hat",
+   "olaylar": [
+    "tata steel|fu|Hindistan|Boyama hatti (CCL)",
+    "tata steel|hat|Boyama hatti (CCL)|Sozlesme",
+    "tata steel|ulke|Hindistan|Sozlesme"
+   ],
+   "puan": 73.4
+  },
+  {
+   "tarih": "2026-11-26",
+   "firma": "RRM",
+   "ulke": "Cin",
+   "hat": "Soguk hadde",
+   "asama": "Ilk urun",
+   "tedarikci": "Danieli",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "RRM starts up new cold-mill complex with Danieli technology",
+   "kaynak": "Mesteel",
+   "kaynak_id": "elle",
+   "url": "https://news.mesteel.com/rrm-starts-up-new-cold-mill-complex-with-danieli-technology/",
+   "tarih_kaynagi": "time",
+   "lead": "News Prices Weekly prices Monthly prices Chinese futures Companies Who Buys Who Sells Marketplace Offers Inquiries Events Jobs Info Product info Countries Steel grades & standards Steel statistics Incoterms HS codes Mill certificates Steel glossary Tools Steel weight calculator Unit converter Steel calculators Date converter More News Prices Weekly prices Monthly prices Chinese futures Companies Who Buys Who Sells Ma",
+   "eksik": [],
+   "anahtar": "4b43a2343a38c4e0",
+   "kategori": "Hat",
+   "olaylar": [
+    "*|ulke-hat|Cin|Soguk hadde|Ilk urun",
+    "danieli|fu|Cin|Soguk hadde",
+    "danieli|hat|Soguk hadde|Ilk urun",
+    "danieli|ulke|Cin|Ilk urun",
+    "rrm|fu|Cin|Soguk hadde",
+    "rrm|hat|Soguk hadde|Ilk urun",
+    "rrm|ulke|Cin|Ilk urun"
+   ],
+   "puan": 72.6
+  },
+  {
+   "tarih": "2026-11-24",
+   "firma": "Nam Kim Steel",
+   "ulke": "Vietnam",
+   "hat": "Soguk hadde",
+   "asama": "Ilk urun",
+   "tedarikci": "",
+   "kapasite": "1.2 Million t/yr",
+   "tutar": "",
+   "baslik": "Vietnam's Nam Kim Steel Commissions 1.2 Million t/yr Phu My Pickling and Cold Rolling Plant",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_hat03",
+   "url": "https://news.metal.com/newscontent/BVL36ANLM4HQ4NHQVJDNJTZ53SOVDJSW3BVSMJQ-vietnams-nam-kim-steel-commissions-12-million-tyr-phu-my-pickling-and-cold-rolling-plant",
+   "tarih_kaynagi": "rss",
+   "lead": "Vietnamese coated steel producer Nam Kim Steel officially commissioned its new Phu My plant on November 21, bringing a 1.2 million tonne-per-year integrated pickling and cold rolling line ...",
+   "eksik": [],
+   "anahtar": "bbfab3f48ac36a1d",
+   "kategori": "Hat",
+   "olaylar": [
+    "*|ulke-hat|Vietnam|Soguk hadde|Ilk urun",
+    "nam kim steel|fu|Vietnam|Soguk hadde",
+    "nam kim steel|hat|Soguk hadde|Ilk urun",
+    "nam kim steel|ulke|Vietnam|Ilk urun"
+   ],
+   "puan": 71.8
+  },
+  {
+   "tarih": "2026-11-25",
+   "firma": "Euro-Mit Staal",
+   "ulke": "Italya",
+   "hat": "Elektrik celigi hatti",
+   "asama": "Sozlesme",
+   "tedarikci": "",
+   "kapasite": "",
+   "tutar": "",
+   "baslik": "Euro-Mit Staal completes factory acceptance test for FIMIGroup electrical steel slitting line",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_hat10",
+   "url": "https://eurometal.net/euro-mit-staal-completes-factory-acceptance-test-for-fimigroup-electrical-steel-slitting-line/",
+   "tarih_kaynagi": "rss",
+   "lead": "Dutch steel processor Euro-Mit Staal has signed the Factory Acceptance Test (FAT) for a new electrical steel slitting line developed by Italian equipment manufacturer FIMIGroup, marking an important ...",
+   "eksik": [],
+   "anahtar": "0fe6fe0410e35f66",
+   "kategori": "Hat",
+   "olaylar": [
+    "euro mit staal|fu|Italya|Elektrik celigi hatti",
+    "euro mit staal|hat|Elektrik celigi hatti|Sozlesme",
+    "euro mit staal|ulke|Italya|Sozlesme"
+   ],
+   "puan": 71.2
+  },
+  {
+   "tarih": "2026-11-27",
    "firma": "Kıraç Galvaniz",
    "ulke": "",
    "hat": "Galvaniz hatti (CGL)",
@@ -9,50 +141,48 @@
    "tedarikci": "",
    "kapasite": "",
    "tutar": "",
-   "baslik": "Kıraç Galvaniz, 212 Milyon TL’lik Çelik Otokorkuluk İhalesini Kazandı",
+   "baslik": "Kıraç Galvaniz’den Bulgaristan’da 32,1 Milyon Euroluk Yol Güvenliği Sözleşmesi",
    "kaynak": "SteelTurk",
    "kaynak_id": "steelturk",
-   "url": "https://www.steelturk.com.tr/kirac-galvaniz-212-milyon-tllik-celik-otokorkuluk-ihalesini-kazandi/",
+   "url": "https://www.steelturk.com.tr/kirac-galvanizden-bulgaristanda-321-milyon-euroluk-yol-guvenligi-sozlesmesi/",
    "tarih_kaynagi": "metin",
    "lead": "Hakkımızda Reklam Bize Ulaşın Demir Çelik Çelik Sektörü Yassı Çelik Yeşil Çelik Vasıflı Çelik Paslanmaz Çelik Alüminyum Boru & Profil Uzun Çelik Mamülleri Yapısal çelik Nervürlü Demir & Çelik Hasır Hammadde & Yarımamül Diğer Metaller Global Çelik Haberleri Röportajlar Metal & Sac İşleme Endüstriyel Sektörler Vinç Makina Çimento & Maden Güç Aktarım Sistemleri Hidrolik & Pnömatik Endüstriyel Kalıp Otomasyon & Robot Tek",
    "eksik": [
     "ulke",
     "tarih?"
    ],
-   "anahtar": "b78ed09be493ab3f",
+   "anahtar": "8448cd1b4a66a46f",
    "kategori": "Hat",
    "olaylar": [
     "kirac galvaniz|hat|Galvaniz hatti (CGL)|Sozlesme"
    ],
-   "puan": 64.8
+   "puan": 68.0
   },
   {
-   "tarih": "2026-11-23",
-   "firma": "John Cockerill India",
-   "ulke": "Hindistan",
-   "hat": "Galvaniz hatti (CGL)",
-   "asama": "Modernizasyon",
-   "tedarikci": "John Cockerill",
+   "tarih": "2026-11-26",
+   "firma": "BlueScope Steel",
+   "ulke": "",
+   "hat": "Belirsiz",
+   "asama": "Ilk urun",
+   "tedarikci": "",
    "kapasite": "",
-   "tutar": "",
-   "baslik": "John Cockerill India Successfully Revamps Jindal (India) Limited’s CGL-5, More Than Doubling Production Capacity",
-   "kaynak": "John Cockerill",
-   "kaynak_id": "gtek_jc",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQbXdfZnBhQ1c2V253bmdpeGFEaE5MUnVHTWJuVW5PbVJDdnAxMm1ubDRvZm9qVHRocm5lY0p0b1RDNTVYMWtBTGVhQWxyZGpDcXBQaHB4ZjVSVjcxRGN4Q2R1VUlGVzkwdC1fTk5ia1RsSUdpVldsT3V5OGpnbWtUNlREemowRmRBVHotOGQ3dV8xWkplUzRlRXRqOEU?oc=5",
+   "tutar": "$490 Million",
+   "baslik": "BlueScope Steel Opens $490 Million Metal Coating Line 7 Facility at Erskine Park in Western Sydney",
+   "kaynak": "Kalkine",
+   "kaynak_id": "gtek_galv",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPMVZ1Z2tvQndTYlVMX2NhUzE2c2dUM29RcU9Ea1RhaEROaEd3eUtMWWdmWTNVRjBHVzdhZ2VlbjFXYWN2aTZkUkUxSUNtYnU4ZjRMb005VDNaRG9PMEd2NGxfSjdfZnZQZDhhaVQ0UE56STF2WmJOSmVLR2JuSDQySjh2Q04tRThFQ0FTTkl0QzVoNFQzbzFxdjI0ck1kRHhTVVhWZWtDU1ozempNU2hMcTMweW5rS3VuMnlmaGJRMklBU1ZPbU1PVjBZMDdIS0xDUGp3WF93?oc=5",
    "tarih_kaynagi": "rss",
-   "lead": "John Cockerill India Successfully Revamps Jindal (India) Limited’s CGL-5, More Than Doubling Production Capacity &nbsp;&nbsp; John Cockerill",
-   "eksik": [],
-   "anahtar": "a3958a86c041b613",
+   "lead": "BlueScope Steel Opens $490 Million Metal Coating Line 7 Facility at Erskine Park in Western Sydney &nbsp;&nbsp; Kalkine",
+   "eksik": [
+    "ulke",
+    "hat"
+   ],
+   "anahtar": "d3810d424ce5b6bd",
    "kategori": "Hat",
    "olaylar": [
-    "john cockerill india|fu|Hindistan|Galvaniz hatti (CGL)",
-    "john cockerill india|hat|Galvaniz hatti (CGL)|Modernizasyon",
-    "john cockerill india|ulke|Hindistan|Modernizasyon",
-    "john cockerill|fu|Hindistan|Galvaniz hatti (CGL)",
-    "john cockerill|hat|Galvaniz hatti (CGL)|Modernizasyon",
-    "john cockerill|ulke|Hindistan|Modernizasyon"
+    "bluescope steel|hat|Belirsiz|Ilk urun"
    ],
-   "puan": 63.8
+   "puan": 63.6
   },
   {
    "tarih": "2026-11-25",
@@ -78,7 +208,7 @@
     "baosteel|hat|Dilme / boy kesme / SSC|Ilk urun",
     "baosteel|ulke|Vietnam|Ilk urun"
    ],
-   "puan": 58.6
+   "puan": 58.2
   },
   {
    "tarih": "2026-11-25",
@@ -104,72 +234,73 @@
    "olaylar": [
     "|hat|Elektrik celigi hatti|Modernizasyon"
    ],
-   "puan": 56.6
+   "puan": 56.2
   },
   {
    "tarih": "2026-11-26",
-   "firma": "Jinxi Steel",
-   "ulke": "",
-   "hat": "Elektrik celigi hatti",
-   "asama": "Belirsiz",
+   "firma": "Marcegaglia",
+   "ulke": "Cin",
+   "hat": "Asitleme hatti",
+   "asama": "Modernizasyon",
    "tedarikci": "",
-   "kapasite": "3 million tons",
+   "kapasite": "",
    "tutar": "",
-   "baslik": "Jinxi Steel starts new slab casting line to expand electrical steel production",
-   "kaynak": "Bing News",
-   "kaynak_id": "bgq_sup01",
-   "url": "https://www.yieh.com/en/News/jinxi-steel-starts-new-slab-casting-line-to-expand-electrical-steel-production/163572",
-   "tarih_kaynagi": "rss",
-   "lead": "VAMA expands automotive steel capacity to 3 million tons with new high-strength and coated steel lines ...",
-   "eksik": [
-    "ulke",
-    "asama"
-   ],
-   "anahtar": "39ef3b3d83e90edd",
+   "baslik": "Marcegaglia upgrades pickling line at Gazoldo degli Ippoliti stainless steel plant",
+   "kaynak": "Mesteel",
+   "kaynak_id": "elle",
+   "url": "https://news.mesteel.com/marcegaglia-upgrades-pickling-line-at-gazoldo-degli-ippoliti-stainless-steel-plant/",
+   "tarih_kaynagi": "time",
+   "lead": "News Prices Weekly prices Monthly prices Chinese futures Companies Who Buys Who Sells Marketplace Offers Inquiries Events Jobs Info Product info Countries Steel grades & standards Steel statistics Incoterms HS codes Mill certificates Steel glossary Tools Steel weight calculator Unit converter Steel calculators Date converter More News Prices Weekly prices Monthly prices Chinese futures Companies Who Buys Who Sells Ma",
+   "eksik": [],
+   "anahtar": "4851a46a95068095",
    "kategori": "Hat",
    "olaylar": [
-    "jinxi steel|hat|Elektrik celigi hatti|Belirsiz"
+    "marcegaglia|fu|Cin|Asitleme hatti",
+    "marcegaglia|hat|Asitleme hatti|Modernizasyon",
+    "marcegaglia|ulke|Cin|Modernizasyon"
    ],
-   "puan": 49.0
+   "puan": 55.6
   },
   {
-   "anahtar": "be1d4f267c8b90d4",
-   "asama": "Ilk urun",
-   "baslik": "普锐特为纽柯公司提供的连续镀锌机组顺利生产出首卷合格钢卷",
-   "eksik": [
-    "firma",
-    "ulke"
-   ],
-   "firma": "",
-   "hat": "Elektrik celigi hatti",
-   "kapasite": "",
-   "kategori": "Hat",
-   "kaynak": "Mysteel (tesis/proje)",
-   "kaynak_id": "mysteel_fac",
-   "lead": "综合资讯 钢材 建筑钢材 热轧 冷轧 中厚板 型钢 钢管 带钢 涂镀 硅钢 钢结构 不锈钢 废不锈钢 铬 镍 有色金属 铜 铝 铅 锌 锡 稀土 锑铋铟 锗镓硒 建筑材料 水泥 混凝土 砂石 矿渣粉 特钢 优特钢 工业线 工模具 金属制品 铁矿石 废钢 煤炭 焦炭 兰炭 铁合金 钢坯 生铁 耐材 海运 新能源 锂 镍 钴 锰 钒 锂电正极 锂电负极 锂电回收 工业硅 光伏材料 能源 原油 天然气 成品油 化工 烯烃 芳烃 甲醇 橡胶 天然橡胶 丁二烯 合成橡胶 农产品 主粮 杂粮 果蔬 棉业 油料 植物油 蛋白饲料 饲料添加剂 淀粉 糖 食品添加剂 猪 鸡 鸭 首页 宏观 大宗 前沿 下游 快讯 期货 专题 报告 数据 指数 当前位置： 综合资讯 > 钢材 > 正文 普锐特为纽柯公司提供的连续镀锌机组顺利生产出首卷合格钢卷 2026-11-24 11:58 来源：普锐特冶金技术公众号 更多历史数据，上钢联数据 资讯监督 智能摘要",
-   "olaylar": [
-    "|hat|Elektrik celigi hatti|Ilk urun"
-   ],
-   "puan": 67.0,
    "tarih": "2026-11-24",
-   "tarih_kaynagi": "json-ld",
+   "firma": "Nam Kim Steel",
+   "ulke": "Cin",
+   "hat": "Belirsiz",
+   "asama": "Ilk urun",
    "tedarikci": "",
+   "kapasite": "",
    "tutar": "",
-   "ulke": "",
-   "url": "https://news.mysteel.com/a/26112411/6E5FEAD6FF468411.html"
+   "baslik": "Nam Kim Steel commissions flat steel processing complex in Ho Chi Minh City",
+   "kaynak": "MEsteel",
+   "kaynak_id": "mesteel",
+   "url": "https://mesteel.com/news/nam-kim-steel-commissions-flat-steel-processing-complex-in-ho-chi-minh-city",
+   "tarih_kaynagi": "json-ld",
+   "lead": "News Prices Weekly prices Monthly prices Chinese futures Companies Who Buys Who Sells Marketplace Offers Inquiries Events Jobs Info Product info Countries Steel grades & standards Steel statistics Incoterms HS codes Mill certificates Steel glossary Tools Steel weight calculator Unit converter Steel calculators Date converter More News Prices Weekly prices Monthly prices Chinese futures Companies Who Buys Who Sells Ma",
+   "eksik": [
+    "hat"
+   ],
+   "anahtar": "f8064adf02a6934f",
+   "kategori": "Hat",
+   "olaylar": [
+    "*|ulke-hat|Cin|Belirsiz|Ilk urun",
+    "nam kim steel|fu|Cin|Belirsiz",
+    "nam kim steel|hat|Belirsiz|Ilk urun",
+    "nam kim steel|ulke|Cin|Ilk urun"
+   ],
+   "puan": 54.8
   }
  ],
  "stats": {
   "kaynak": 369,
-  "erisilemeyen": 17,
-  "ham": 4727,
-  "on_eleme_gecti": 525,
-  "makale_acildi": 228,
-  "tarihsiz_elendi": 90,
-  "pencere_disi": 403,
-  "kapsam_disi": 4162,
-  "tekrar": 65,
-  "kabul": 7,
+  "erisilemeyen": 15,
+  "ham": 5328,
+  "on_eleme_gecti": 532,
+  "makale_acildi": 230,
+  "tarihsiz_elendi": 96,
+  "pencere_disi": 426,
+  "kapsam_disi": 4743,
+  "tekrar": 50,
+  "kabul": 13,
   "gnews_tarih": 0
  },
  "unreachable": [
@@ -190,16 +321,8 @@
    "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>"
   ],
   [
-   "Magnetics Magazine",
-   "TimeoutError: The read operation timed out"
-  ],
-  [
    "BigMint (SteelMint)",
    "HTTP 403"
-  ],
-  [
-   "Google News",
-   "HTTP 429"
   ],
   [
    "Google News",
@@ -613,15 +736,15 @@
   "bgpy_tr_fiyat": "arama",
   "bgpy_tr_onlem": "arama"
  },
- "today": "2026-11-26",
+ "today": "2026-11-27",
  "host_saglik": {
   "news.google.com": {
    "istek": 140,
-   "hiz_siniri": 1,
+   "hiz_siniri": 0,
    "sogutmada": false
   },
   "www.bing.com": {
-   "istek": 140,
+   "istek": 139,
    "hiz_siniri": 0,
    "sogutmada": false
   },
@@ -683,14 +806,6 @@
    "hat": "Elektrik celigi hatti"
   },
   {
-   "anahtar": "tech:467101f419b87401",
-   "tarih": "2026-06-23",
-   "baslik": "YEST Expected to Benefit as High-Pressure Hydrogen Annealing Is Considered for 1d-Nanometer DRAM",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5VTGdkNHpKakxDbGFfbmQwYmlndWp6T1lNdERfRHBIaElQWGhic3dDU2lvYWpYVmIyX1M3XzJqOHJrRWVyWTdqQlAzSzI2N2t2bW8xN3JtMTFjU1Q2N01FdVdQQmkwQkk?oc=5",
-   "kaynak": "THE ELEC, Korea Electronics Industry Media",
-   "hat": "Belirsiz"
-  },
-  {
    "anahtar": "tech:4d73ae5024a4349d",
    "tarih": "2026-06-19",
    "baslik": "YEST Wins Appeal in High-Pressure Hydrogen Annealing Patent Dispute With HPSP",
@@ -724,13 +839,24 @@
   }
  ],
  "kaynak_katki": {
+  "Tata Steel": 1,
   "SteelTurk": 1,
   "Kallanish": 1,
   "Mysteel (tesis/proje)": 1,
+  "MEsteel": 1,
+  "Elle besleme": 2,
   "Google News": 1,
-  "Bing News": 3
+  "Bing News": 5
  },
  "piyasa_pool": [
+  {
+   "anahtar": "piyasa:5fd7cd531619b485",
+   "tarih": "2026-11-27",
+   "baslik": "Thailand extends anti-dumping duties to other-alloy Chinese CRC",
+   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/thailand-extends-existing-ad-on-other-alloy-chinese-crc-1126/",
+   "kaynak": "Kallanish",
+   "lead": "Thailand has extended China cold-rolled coil anti-dumping duties of 9.24-20.11% to certain other-alloy cold rolled sheet..."
+  },
   {
    "anahtar": "piyasa:75b8d8314f95438f",
    "tarih": "2026-11-26",
@@ -740,28 +866,28 @@
    "lead": "Vietnam’s Ministry of Industry and Trade (MOIT) issued questionnaires on 25 November as part of its..."
   },
   {
-   "anahtar": "piyasa:96aeb99570af9679",
+   "anahtar": "piyasa:99ee5f348e8b8a14",
    "tarih": "2026-11-26",
-   "baslik": "EU steel exports fall 16.9%, with flat products seeing the steepest decline",
-   "url": "https://metallurgprom.org/en/news/europe/22368-eu-steel-exports-fall-169-with-flat-products-seeing-the-steepest-decline.html",
-   "kaynak": "Metallurgprom",
-   "lead": "In January–September 2026, EU countries exported 6.653 million tonnes of flat and long steel products outside the bloc, down 16.9% year on year. Flat steel shipments fell the most, including to the US and Turkey."
+   "baslik": "Aisha Steel raises CRC prices for domestic market",
+   "url": "https://mesteel.com/news/aisha-steel-raises-crc-prices-for-domestic-market",
+   "kaynak": "MEsteel",
+   "lead": ""
   },
   {
-   "anahtar": "piyasa:0a4c0bfcde208908",
+   "anahtar": "piyasa:4fe854041a7b2f5c",
    "tarih": "2026-11-26",
-   "baslik": "Thailand extends AD duties to certain alloyed cold rolled steel imports from China",
-   "url": "https://www.steelorbis.com/steel-news/latest-news/thailand-extends-ad-duties-to-certain-alloyed-cold-rolled-steel-imports-from-china-1493684.htm",
-   "kaynak": "Bing News",
-   "lead": "Thailand's Department of Foreign Trade (DFT) has announced that the country's Committee on Dumping and Subsidies has concluded its anti-circumvention ..."
-  },
-  {
-   "anahtar": "piyasa:faa4f89b896417db",
-   "tarih": "2026-11-25",
-   "baslik": "India: HRC, CRC trade prices drop on sluggish demand and limited enquiries",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWjRaTzFKNmVjSWdHb25OOEVtXzkwYWpCamg0MWs4WjVidGtpZjFsVllfVV9laFNtME5ROWhHU1A2dFo0T3l2QVhOamRMNTkxd09jRHVUSldvTTdYdGthZ185aEVkdWRZbm1MQU56UzNBZEFoOTRmajJEaVl1OENCcmlCeXFKV1pQUU9CcHFEVjU1WUFyOVQwOENRTVBXTnBzZ1h5bS1DXzRwYlUxSTUtVzhEM1RtME5oWHc?oc=5",
+   "baslik": "India: Coated flat steel prices decline marginally as demand remains subdued",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQQzZwZjlLUERfX2ZadnUxYktXdm03ekNvYnZKMExaQmhjTXhBb3dJVFBvVENUTS1qT2NMM2JldU9EdkRCcnNMLXJVMURqbXZPS2hmaFVpNXNPalFMZWhyNlFCM1p0UUtVNVp2OEE3NzExWHFabGZRV1plMHA4WG1lSXBuVmFaaUVKVTB5SlVJbno3V0FBYWFiSl9JUWdha2xEZ0xTcGtQLTFRWVhoSFVIUmhYanhwOEtVYjZDZFpn?oc=5",
    "kaynak": "BigMint",
-   "lead": "India: HRC, CRC trade prices drop on sluggish demand and limited enquiries &nbsp;&nbsp; BigMint"
+   "lead": "India: Coated flat steel prices decline marginally as demand remains subdued &nbsp;&nbsp; BigMint"
+  },
+  {
+   "anahtar": "piyasa:801de166591e5140",
+   "tarih": "2026-11-26",
+   "baslik": "Korea Trade Panel Urges Up to 26% Duties on Chinese PVC, Tinplate",
+   "url": "https://en.sedaily.com/economy/2026/11/26/korea-trade-panel-urges-up-to-26-percent-duties-on-chinese",
+   "kaynak": "Bing News",
+   "lead": "Korea's Trade Commission recommended provisional anti-dumping duties of up to 26.02% on Chinese S-PVC and up to 8.36% on tinplate."
   },
   {
    "anahtar": "piyasa:230567ff6be9fffd",
@@ -770,30 +896,6 @@
    "url": "https://www.sunsirs.com/commodity-news/petail-37961.html",
    "kaynak": "Bing News",
    "lead": "Last week, hot-rolled coil futures experienced a significant decline, dampening market sentiment. Compounded by a seasonal weakening in downstream demand—typical ..."
-  },
-  {
-   "anahtar": "piyasa:801de166591e5140",
-   "tarih": "2026-11-25",
-   "baslik": "Korea Trade Panel Urges Up to 26% Duties on Chinese PVC, Tinplate",
-   "url": "https://en.sedaily.com/economy/2026/11/26/korea-trade-panel-urges-up-to-26-percent-duties-on-chinese",
-   "kaynak": "Bing News",
-   "lead": "Korea's Trade Commission recommended provisional anti-dumping duties of up to 26.02% on Chinese S-PVC and up to 8.36% on tinplate."
-  },
-  {
-   "anahtar": "piyasa:2f07c200f7e795d5",
-   "tarih": "2026-11-25",
-   "baslik": "[Korea's KTC proposes antidumping duties on Chinese PVC suspension resin and tin plates]",
-   "url": "https://news.metal.com/newscontent/MMM5MBUI4ANE3WQDRM3F6WVPB4L3KQWY7GYZVOA-koreas-ktc-proposes-antidumping-duties-on-chinese-pvc-suspension-resin-and-tin-plates",
-   "kaynak": "Bing News",
-   "lead": "The Korea Trade Commission (KTC) made a preliminary ruling that imports of Chinese polyvinyl chloride (PVC) suspension resin may harm the domestic industry, and proposed an antidumping duty ..."
-  },
-  {
-   "anahtar": "piyasa:81de6e4f146e8159",
-   "tarih": "2026-11-24",
-   "baslik": "Vietnam issues questionnaires for coated steel duty review",
-   "url": "https://www.kallanish.com/en/news/steel/market-reports/article-details/vietnam-issues-questionnaires-in-coated-steel-duty-review-1126/",
-   "kaynak": "Kallanish",
-   "lead": "Vietnam’s Trade Remedies Authority (TRAV) issued questionnaires to domestic producers on 23 November as part of..."
   },
   {
    "anahtar": "piyasa:a29e8404bd93a30f",
@@ -836,14 +938,6 @@
    "lead": "hidden Disclaimer: BigMint Technologies Private Limited has taken due care and caution in compilation of content for its web site. Information is just for reference not intended for trading purpose or ..."
   },
   {
-   "anahtar": "piyasa:3c18cdf17b1c89f3",
-   "tarih": "2026-11-19",
-   "baslik": "Dongkuk CM develops high-performance color-coated steel sheet to curb condensation, vibration, and mold",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVnNuS1JOYnhydVl4UU1FUm94ajR1MHM3N0pjX1hOdUlMZjF2RFJmZ3ZWYlo2U1BNakhkVGxEaGlVU3dMNXlEckZfQWFVQ3NPXzQ3RGlMbVlnWEFBVWRvOXM2NG9WQnhGSURoZ18ycW9tNG9SSGpHTnB0MDhQWGlRWml3REJPUVhtdWxTMGVjUVAxZjRORDdybzNyejA2Zl9vRmRCY2pqZFhDLV83U2R3dDJUdnZ1OUhZYmxvTVNLM0xCY19DdU9ZZHZkdHJBUQ?oc=5",
-   "kaynak": "Yieh Corp.",
-   "lead": "Dongkuk CM develops high-performance color-coated steel sheet to curb condensation, vibration, and mold &nbsp;&nbsp; Yieh Corp."
-  },
-  {
    "anahtar": "piyasa:2b94dda1b77028b9",
    "tarih": "2026-11-19",
    "baslik": "EU imposes anti-dumping duties on cold-rolled steel imports from five countries",
@@ -868,12 +962,12 @@
    "lead": "The European Union has imposed anti-dumping duties of up to 27.9% on cold-rolled steel from India, Japan, Taiwan, Turkey and Vietnam. The decision was made following an investigation that found these ..."
   },
   {
-   "anahtar": "piyasa:26b39c0474ddeeba",
+   "anahtar": "piyasa:7893ef1245c7ae15",
    "tarih": "2026-11-16",
-   "baslik": "European Commission imposes anti-dumping duties on cold-rolled coil imports from India, Japan, Taiwan, Turkey, Vietnam",
-   "url": "https://eurometal.net/european-commission-imposes-anti-dumping-duties-on-cold-rolled-coil-imports-from-india-japan-taiwan-turkey-vietnam/",
+   "baslik": "EU imposes 9.5% anti-dumping duty on cold-rolled steel imports from India",
+   "url": "https://www.financialexpress.com/policy/economy/eu-imposes-9-5-anti-dumping-duty-on-cold-rolled-steel-imports-from-india/4386089/",
    "kaynak": "Bing News",
-   "lead": "The definitive duties are 9.5% for India, 27.9% for Japan, 20.7-27% for Taiwan, 3-7.8% for Turkey and 16% for Vietnam. Imposition of the duties followed an investigation started in September 2025, ..."
+   "lead": "India faces a 9.5% anti-dumping duty on cold-rolled flat steel exports to the EU after the European Commission's decision, with Japan, Taiwan, Turkey, and Vietnam also assigned varying duty rates."
   },
   {
    "anahtar": "piyasa:6e21a1f75683a0b2",
@@ -890,14 +984,6 @@
    "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNN3ZnYUk0eFg5RmVFSmxPR05MMkNzMFJZalVNTFlPcTMwUnlsNU5FN0EtcDNmQkJnWmhHMDJWb3JiWHNmdXNvaHQ1ZjdRclIySUduNmtfakhhRWdkNGtGT1BDZjI3Ym1naEJ6V3JHbXN6MDlZTWR4d0U2NGNHbVBnMHgxSjhHdVc5Z0wxam5KLWg1Q2lTNHNZeXFRRFQ3TDZKcjhIdHBLZ2NVS3I1WWQ2ZWNxdnFSd0tCWFlMVXl4MUYzM2NZYTZvUXpFN1JZS3dfX0hzcGFpQVhrZmUzUTNpVU9YQUg2WVdPU0VZRzlVUkdhVDNvWGg4Wl9NbjVRbFdLUWgzeUptZ0g?oc=5",
    "kaynak": "SteelOrbis",
    "lead": "İskenderun PS: Türk yassı çelik sektörü AB'nin kota rejimi ve jeopolitik krizlere rağmen esnekliğiyle avantaj sağlayabilir &nbsp;&nbsp; SteelOrbis"
-  },
-  {
-   "anahtar": "piyasa:7c4e44a94dca63cf",
-   "tarih": "2026-11-12",
-   "baslik": "[US Antidumping Case Analysis] Cold-Rolled Steel Flat Products from South Korea (A-580-881) — POSCO's Margin Drops from 6.32% to 0%",
-   "url": "https://note.com/global_ad_report/n/ncc790c6e23bd?hl=en",
-   "kaynak": "Bing News",
-   "lead": "Since 2016, the United States has imposed antidumping (AD) duties on cold-rolled steel flat products from South Korea. The margin for POSCO, South Korea's largest producer, has fallen from 6.32% in ..."
   },
   {
    "anahtar": "piyasa:327ed4eb5fe065bc",
@@ -922,25 +1008,17 @@
    "url": "https://www.kallanish.com/en/news/steel/market-reports/rfp-article-details/thailand-levies-ad-tinplate-tin-free-sheet-1126/",
    "kaynak": "Bing News",
    "lead": "Thailand has imposed anti-dumping duties on tinplate and tin-free steel, ..."
-  },
-  {
-   "anahtar": "piyasa:1df6498ceaade832",
-   "tarih": "2026-11-05",
-   "baslik": "Türkiye’s flat steel market: Galvanized prices increased, HRC and CRC remain stable | 5 November 2026",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPLWhLdXhURFp3NGZTZVRWT05xTVZtZDVRN016NXg1ajlreWJlZHBlNk9valE5ZTRWSnpzbUNsR3V1QjJJdm80UVRqdHhoYlYxUEtUMlVrQ191TDVBY0JXMEVDdVoybkdFMGIzbE5lRDY2SHZvcUszb1hjSkFIQTdHSzJCZGkwZFNEM2VOdHdxbEZZTV9EMkdPdjF0OGNqOUdYMV84TkcxRmFZSEZyVWRaYUtHVWktV0RoOV9zQ1pHbGtSNUJGUzV1UDBMZ3RkZw?oc=5",
-   "kaynak": "SteelRadar",
-   "lead": "Türkiye’s flat steel market: Galvanized prices increased, HRC and CRC remain stable | 5 November 2026 &nbsp;&nbsp; SteelRadar"
   }
  ],
  "window": [
-  "2026-11-05",
-  "2026-11-26"
+  "2026-11-06",
+  "2026-11-27"
  ],
- "bulunan_kullanilan": 1,
- "bulunan_havuz": 10,
+ "bulunan_kullanilan": 0,
+ "bulunan_havuz": 13,
  "rezerv_kullanilan": 0,
- "rezerv_havuz": 105,
+ "rezerv_havuz": 107,
  "period": "2026-W48",
- "generated": "2026-11-26 12:44 UTC",
+ "generated": "2026-11-27 12:29 UTC",
  "version": "3.0.0"
 }

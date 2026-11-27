@@ -2,9 +2,23 @@
  "donem": "2026-W48",
  "duzelt": [
   {
-   "anahtar": "b78ed09be493ab3f",
-   "baslik": "Kıraç Galvaniz, 212 Milyon TL’lik Çelik Otokorkuluk İhalesini Kazandı",
-   "url": "https://www.steelturk.com.tr/kirac-galvaniz-212-milyon-tllik-celik-otokorkuluk-ihalesini-kazandi/",
+   "anahtar": "a1dca0aeb6a0d081",
+   "baslik": "Tata Steel and Promoters of APL Apollo Enter into a Comprehensive Agreement to Build an Indian Steel Tubes and Colour Coated Products Powerhouse Targeting 15.5 Million Tonnes of Capacity…",
+   "url": "https://www.tatasteel.com/newsroom/press-releases/india/2026/tata-steel-and-promoters-of-apl-apollo-enter-into-a-comprehensive-agreement-to-build-an-indian-steel-tubes-and-colour-coated-products-powerhouse-targeting-155-million-tonnes-of-capacity/",
+   "eksik": [
+    "tarih?"
+   ],
+   "mevcut": {
+    "firma": "Tata Steel",
+    "ulke": "Hindistan",
+    "hat": "Boyama hatti (CCL)",
+    "asama": "Sozlesme"
+   }
+  },
+  {
+   "anahtar": "8448cd1b4a66a46f",
+   "baslik": "Kıraç Galvaniz’den Bulgaristan’da 32,1 Milyon Euroluk Yol Güvenliği Sözleşmesi",
+   "url": "https://www.steelturk.com.tr/kirac-galvanizden-bulgaristanda-321-milyon-euroluk-yol-guvenligi-sozlesmesi/",
    "eksik": [
     "ulke",
     "tarih?"
@@ -14,6 +28,21 @@
     "ulke": "",
     "hat": "Galvaniz hatti (CGL)",
     "asama": "Sozlesme"
+   }
+  },
+  {
+   "anahtar": "d3810d424ce5b6bd",
+   "baslik": "BlueScope Steel Opens $490 Million Metal Coating Line 7 Facility at Erskine Park in Western Sydney",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPMVZ1Z2tvQndTYlVMX2NhUzE2c2dUM29RcU9Ea1RhaEROaEd3eUtMWWdmWTNVRjBHVzdhZ2VlbjFXYWN2aTZkUkUxSUNtYnU4ZjRMb005VDNaRG9PMEd2NGxfSjdfZnZQZDhhaVQ0UE56STF2WmJOSmVLR2JuSDQySjh2Q04tRThFQ0FTTkl0QzVoNFQzbzFxdjI0ck1kRHhTVVhWZWtDU1ozempNU2hMcTMweW5rS3VuMnlmaGJRMklBU1ZPbU1PVjBZMDdIS0xDUGp3WF93?oc=5",
+   "eksik": [
+    "ulke",
+    "hat"
+   ],
+   "mevcut": {
+    "firma": "BlueScope Steel",
+    "ulke": "",
+    "hat": "Belirsiz",
+    "asama": "Ilk urun"
    }
   },
   {
@@ -32,56 +61,90 @@
    }
   },
   {
-   "anahtar": "39ef3b3d83e90edd",
-   "baslik": "Jinxi Steel starts new slab casting line to expand electrical steel production",
-   "url": "https://www.yieh.com/en/News/jinxi-steel-starts-new-slab-casting-line-to-expand-electrical-steel-production/163572",
+   "anahtar": "f8064adf02a6934f",
+   "baslik": "Nam Kim Steel commissions flat steel processing complex in Ho Chi Minh City",
+   "url": "https://mesteel.com/news/nam-kim-steel-commissions-flat-steel-processing-complex-in-ho-chi-minh-city",
    "eksik": [
-    "ulke",
-    "asama"
+    "hat"
    ],
    "mevcut": {
-    "firma": "Jinxi Steel",
-    "ulke": "",
-    "hat": "Elektrik celigi hatti",
-    "asama": "Belirsiz"
-   }
-  },
-  {
-   "anahtar": "be1d4f267c8b90d4",
-   "baslik": "普锐特为纽柯公司提供的连续镀锌机组顺利生产出首卷合格钢卷",
-   "url": "https://news.mysteel.com/a/26112411/6E5FEAD6FF468411.html",
-   "eksik": [
-    "firma",
-    "ulke"
-   ],
-   "mevcut": {
-    "firma": "",
-    "ulke": "",
-    "hat": "Elektrik celigi hatti",
+    "firma": "Nam Kim Steel",
+    "ulke": "Cin",
+    "hat": "Belirsiz",
     "asama": "Ilk urun"
    }
   }
  ],
  "cumle_yaz": [
   {
-   "anahtar": "b78ed09be493ab3f",
-   "tarih": "2026-11-18",
+   "anahtar": "0270c208d71bc272",
+   "tarih": "2026-11-15",
+   "firma": "Kirac Galvaniz stock after company",
+   "ulke": "Turkiye",
+   "hat": "Galvaniz hatti (CGL)",
+   "asama": "Sozlesme",
+   "baslik": "Kirac Galvaniz stock after company wins TRY 173 million tender",
+   "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/kirac-galvaniz-stock-after-company-wins-try-173-million-tender/70518469"
+  },
+  {
+   "anahtar": "a1dca0aeb6a0d081",
+   "tarih": "2026-11-23",
+   "firma": "Tata Steel",
+   "ulke": "Hindistan",
+   "hat": "Boyama hatti (CCL)",
+   "asama": "Sozlesme",
+   "baslik": "Tata Steel and Promoters of APL Apollo Enter into a Comprehensive Agreement to Build an Indian Steel Tubes and Colour Coated Products Powerhouse Targeting 15.5 Million Tonnes of Capacity…",
+   "url": "https://www.tatasteel.com/newsroom/press-releases/india/2026/tata-steel-and-promoters-of-apl-apollo-enter-into-a-comprehensive-agreement-to-build-an-indian-steel-tubes-and-colour-coated-products-powerhouse-targeting-155-million-tonnes-of-capacity/"
+  },
+  {
+   "anahtar": "4b43a2343a38c4e0",
+   "tarih": "2026-11-26",
+   "firma": "RRM",
+   "ulke": "Cin",
+   "hat": "Soguk hadde",
+   "asama": "Ilk urun",
+   "baslik": "RRM starts up new cold-mill complex with Danieli technology",
+   "url": "https://news.mesteel.com/rrm-starts-up-new-cold-mill-complex-with-danieli-technology/"
+  },
+  {
+   "anahtar": "bbfab3f48ac36a1d",
+   "tarih": "2026-11-24",
+   "firma": "Nam Kim Steel",
+   "ulke": "Vietnam",
+   "hat": "Soguk hadde",
+   "asama": "Ilk urun",
+   "baslik": "Vietnam's Nam Kim Steel Commissions 1.2 Million t/yr Phu My Pickling and Cold Rolling Plant",
+   "url": "https://news.metal.com/newscontent/BVL36ANLM4HQ4NHQVJDNJTZ53SOVDJSW3BVSMJQ-vietnams-nam-kim-steel-commissions-12-million-tyr-phu-my-pickling-and-cold-rolling-plant"
+  },
+  {
+   "anahtar": "0fe6fe0410e35f66",
+   "tarih": "2026-11-25",
+   "firma": "Euro-Mit Staal",
+   "ulke": "Italya",
+   "hat": "Elektrik celigi hatti",
+   "asama": "Sozlesme",
+   "baslik": "Euro-Mit Staal completes factory acceptance test for FIMIGroup electrical steel slitting line",
+   "url": "https://eurometal.net/euro-mit-staal-completes-factory-acceptance-test-for-fimigroup-electrical-steel-slitting-line/"
+  },
+  {
+   "anahtar": "8448cd1b4a66a46f",
+   "tarih": "2026-11-27",
    "firma": "Kıraç Galvaniz",
    "ulke": "",
    "hat": "Galvaniz hatti (CGL)",
    "asama": "Sozlesme",
-   "baslik": "Kıraç Galvaniz, 212 Milyon TL’lik Çelik Otokorkuluk İhalesini Kazandı",
-   "url": "https://www.steelturk.com.tr/kirac-galvaniz-212-milyon-tllik-celik-otokorkuluk-ihalesini-kazandi/"
+   "baslik": "Kıraç Galvaniz’den Bulgaristan’da 32,1 Milyon Euroluk Yol Güvenliği Sözleşmesi",
+   "url": "https://www.steelturk.com.tr/kirac-galvanizden-bulgaristanda-321-milyon-euroluk-yol-guvenligi-sozlesmesi/"
   },
   {
-   "anahtar": "a3958a86c041b613",
-   "tarih": "2026-11-23",
-   "firma": "John Cockerill India",
-   "ulke": "Hindistan",
-   "hat": "Galvaniz hatti (CGL)",
-   "asama": "Modernizasyon",
-   "baslik": "John Cockerill India Successfully Revamps Jindal (India) Limited’s CGL-5, More Than Doubling Production Capacity",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQbXdfZnBhQ1c2V253bmdpeGFEaE5MUnVHTWJuVW5PbVJDdnAxMm1ubDRvZm9qVHRocm5lY0p0b1RDNTVYMWtBTGVhQWxyZGpDcXBQaHB4ZjVSVjcxRGN4Q2R1VUlGVzkwdC1fTk5ia1RsSUdpVldsT3V5OGpnbWtUNlREemowRmRBVHotOGQ3dV8xWkplUzRlRXRqOEU?oc=5"
+   "anahtar": "d3810d424ce5b6bd",
+   "tarih": "2026-11-26",
+   "firma": "BlueScope Steel",
+   "ulke": "",
+   "hat": "Belirsiz",
+   "asama": "Ilk urun",
+   "baslik": "BlueScope Steel Opens $490 Million Metal Coating Line 7 Facility at Erskine Park in Western Sydney",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPMVZ1Z2tvQndTYlVMX2NhUzE2c2dUM29RcU9Ea1RhaEROaEd3eUtMWWdmWTNVRjBHVzdhZ2VlbjFXYWN2aTZkUkUxSUNtYnU4ZjRMb005VDNaRG9PMEd2NGxfSjdfZnZQZDhhaVQ0UE56STF2WmJOSmVLR2JuSDQySjh2Q04tRThFQ0FTTkl0QzVoNFQzbzFxdjI0ck1kRHhTVVhWZWtDU1ozempNU2hMcTMweW5rS3VuMnlmaGJRMklBU1ZPbU1PVjBZMDdIS0xDUGp3WF93?oc=5"
   },
   {
    "anahtar": "5ea1d1a279e9ea44",
@@ -104,24 +167,24 @@
    "url": "https://factory.mysteel.com/a/26112515/6D1E4FB54E942C7E.html"
   },
   {
-   "anahtar": "39ef3b3d83e90edd",
+   "anahtar": "4851a46a95068095",
    "tarih": "2026-11-26",
-   "firma": "Jinxi Steel",
-   "ulke": "",
-   "hat": "Elektrik celigi hatti",
-   "asama": "Belirsiz",
-   "baslik": "Jinxi Steel starts new slab casting line to expand electrical steel production",
-   "url": "https://www.yieh.com/en/News/jinxi-steel-starts-new-slab-casting-line-to-expand-electrical-steel-production/163572"
+   "firma": "Marcegaglia",
+   "ulke": "Cin",
+   "hat": "Asitleme hatti",
+   "asama": "Modernizasyon",
+   "baslik": "Marcegaglia upgrades pickling line at Gazoldo degli Ippoliti stainless steel plant",
+   "url": "https://news.mesteel.com/marcegaglia-upgrades-pickling-line-at-gazoldo-degli-ippoliti-stainless-steel-plant/"
   },
   {
-   "anahtar": "be1d4f267c8b90d4",
+   "anahtar": "f8064adf02a6934f",
    "tarih": "2026-11-24",
-   "firma": "",
-   "ulke": "",
-   "hat": "Elektrik celigi hatti",
+   "firma": "Nam Kim Steel",
+   "ulke": "Cin",
+   "hat": "Belirsiz",
    "asama": "Ilk urun",
-   "baslik": "普锐特为纽柯公司提供的连续镀锌机组顺利生产出首卷合格钢卷",
-   "url": "https://news.mysteel.com/a/26112411/6E5FEAD6FF468411.html"
+   "baslik": "Nam Kim Steel commissions flat steel processing complex in Ho Chi Minh City",
+   "url": "https://mesteel.com/news/nam-kim-steel-commissions-flat-steel-processing-complex-in-ho-chi-minh-city"
   }
  ],
  "teknoloji_adaylari": [
@@ -164,14 +227,6 @@
    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWENTOUgzZFMzQjhaRlJnWmdEY3RMVmhLR25rYnFHd1JrLTQtRDJ3NVZvWTN6UjN2QUpfVXBuM1c5QklYQlNJYUQwY1pVdjhKb19xTEZXX3NRYmZNUVRyVEFuX3RNSm15N3ZrWm5nTm1XMExRUDBpVElLQ0Z2dzFjcmRkQ0xva1ktQTJZTlRnemg0NzVsZ3pUVGNUT3YyNGYweXdVRUdZdVpDX2ZEY19PdGlB?oc=5",
    "kaynak": "Charged EVs",
    "hat": "Elektrik celigi hatti"
-  },
-  {
-   "anahtar": "tech:467101f419b87401",
-   "tarih": "2026-06-23",
-   "baslik": "YEST Expected to Benefit as High-Pressure Hydrogen Annealing Is Considered for 1d-Nanometer DRAM",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5VTGdkNHpKakxDbGFfbmQwYmlndWp6T1lNdERfRHBIaElQWGhic3dDU2lvYWpYVmIyX1M3XzJqOHJrRWVyWTdqQlAzSzI2N2t2bW8xN3JtMTFjU1Q2N01FdVdQQmkwQkk?oc=5",
-   "kaynak": "THE ELEC, Korea Electronics Industry Media",
-   "hat": "Belirsiz"
   },
   {
    "anahtar": "tech:4d73ae5024a4349d",
