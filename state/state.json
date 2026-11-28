@@ -1,6 +1,32 @@
 {
  "bulunan": [
   {
+   "anahtar": "014c9ca68b654c35",
+   "asama": "Ilk urun",
+   "baslik": "BlueScope opens A$490 million metal coating line in Western Sydney, adding 240,000 t/yr capacity",
+   "eksik": [
+    "ulke",
+    "hat"
+   ],
+   "firma": "BlueScope",
+   "hat": "Belirsiz",
+   "kapasite": "240,000 t/yr",
+   "kategori": "Hat",
+   "kaynak": "SMM (Shanghai Metals)",
+   "kaynak_id": "smm",
+   "lead": "",
+   "olaylar": [
+    "bluescope|hat|Belirsiz|Ilk urun"
+   ],
+   "puan": 70.0,
+   "tarih": "2026-11-28",
+   "tarih_kaynagi": "json-ld",
+   "tedarikci": "",
+   "tutar": "$490 million",
+   "ulke": "",
+   "url": "https://news.metal.com/en/newscontent/VQKXKI2DX4AWBEM3IP6SNC4YFDED5SQUSAWSSYI-bluescope-opens-a490-million-metal-coating-line-in-western-sydney-adding-240000-tyr-capacity"
+  },
+  {
    "anahtar": "8448cd1b4a66a46f",
    "asama": "Sozlesme",
    "baslik": "Kıraç Galvaniz’den Bulgaristan’da 32,1 Milyon Euroluk Yol Güvenliği Sözleşmesi",
@@ -25,6 +51,31 @@
    "tutar": "",
    "ulke": "",
    "url": "https://www.steelturk.com.tr/kirac-galvanizden-bulgaristanda-321-milyon-euroluk-yol-guvenligi-sozlesmesi/"
+  },
+  {
+   "anahtar": "f01026daae175b07",
+   "asama": "Teknoloji",
+   "baslik": "ZZ Steel Group Supplies Galvanised H Beams for Retaining Wall Construction and Infrastructure Development Projects",
+   "eksik": [
+    "ulke"
+   ],
+   "firma": "ZZ Steel Group",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "EIN News",
+   "kaynak_id": "gq_hat06",
+   "lead": "ZZ Steel Group Supplies Galvanised H Beams for Retaining Wall Construction and Infrastructure Development Projects &nbsp;&nbsp; EIN News",
+   "olaylar": [
+    "zz steel group|hat|Galvaniz hatti (CGL)|Teknoloji"
+   ],
+   "puan": 51.6,
+   "tarih": "2026-11-27",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "",
+   "tutar": "",
+   "ulke": "",
+   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPM2pCdTlEREYwTE5YcHNuY0dDZWw5OG4yMGhsOU9zZ1pfclh6M0daV19JbmhIc3lIc1FwbFhFam5WOFFkUWRyVGpGTm5WZ2NUMmQ0aGw5VEFqazY1MFdaT1I0NC1LYlNXaFlJNC1BclJvS3JlVEJhTTVMMGw5Vzd4TWN4bFN2RVV4N0RFbkwxQ0xXYWN5RHRhWUlUWFNkQmZiZm53YVpOX2JyUzFSaElKcTFKRndyYzBINGhFOXR6V2pib254WDdZWXF5RnI0VERJb1JIUDBGcWM2WWNWcDl1UlN2QjNsbmxjSEd2dA?oc=5"
   },
   {
    "anahtar": "39ef3b3d83e90edd",
@@ -3665,6 +3716,24 @@
     "tekrar": 50
    },
    "uretim": "2026-11-27 12:29 UTC"
+  },
+  {
+   "donem": "2026-W48",
+   "satir": 11,
+   "stats": {
+    "erisilemeyen": 67,
+    "gnews_tarih": 0,
+    "ham": 3779,
+    "kabul": 13,
+    "kapsam_disi": 3458,
+    "kaynak": 369,
+    "makale_acildi": 222,
+    "on_eleme_gecti": 368,
+    "pencere_disi": 192,
+    "tarihsiz_elendi": 88,
+    "tekrar": 28
+   },
+   "uretim": "2026-11-28 11:57 UTC"
   }
  ],
  "piyasa_gonderilen": [
@@ -3845,6 +3914,35 @@
   "piyasa:db67f98fb4dd717b": "2026-11-02"
  },
  "rezerv": [
+  {
+   "anahtar": "6372728ba0e74e54",
+   "asama": "Ilk urun",
+   "baslik": "Nucor produces first prime coil at new Berkeley galvanizing line",
+   "eksik": [],
+   "firma": "Nucor",
+   "hat": "Galvaniz hatti (CGL)",
+   "kapasite": "",
+   "kategori": "Hat",
+   "kaynak": "Bing News",
+   "kaynak_id": "bgq_sup07",
+   "lead": "UK-based plant supplier Primetals Technologies has announced that US steelmaker Nucor has produced the first prime coil on its new continuous galvanizing line at its Berkeley sheet mill in Huger, ...",
+   "olaylar": [
+    "*|ulke-hat|Birlesik Krallik|Galvaniz hatti (CGL)|Ilk urun",
+    "nucor|fu|Birlesik Krallik|Galvaniz hatti (CGL)",
+    "nucor|hat|Galvaniz hatti (CGL)|Ilk urun",
+    "nucor|ulke|Birlesik Krallik|Ilk urun",
+    "primetals|fu|Birlesik Krallik|Galvaniz hatti (CGL)",
+    "primetals|hat|Galvaniz hatti (CGL)|Ilk urun",
+    "primetals|ulke|Birlesik Krallik|Ilk urun"
+   ],
+   "rezerv": true,
+   "tarih": "2026-11-06",
+   "tarih_kaynagi": "rss",
+   "tedarikci": "Primetals",
+   "tutar": "",
+   "ulke": "Birlesik Krallik",
+   "url": "https://www.steelorbis.com/steel-news/latest-news/nucor-produces-first-prime-coil-at-new-berkeley-galvanizing-line-1488871.htm"
+  },
   {
    "anahtar": "a75ca53eb960a897",
    "asama": "Ilk urun",
